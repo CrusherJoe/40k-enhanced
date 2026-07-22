@@ -60,10 +60,18 @@ PyYAML the only dep.
   whole non-Knight meta using terrain, not other Knights (which they kill easily).
 - **Devastating Wounds** (24.10): crit wound → mortal wounds = Damage (bypass saves).
   All other weapon abilities in the engine verified correct vs the PDF.
-- Rules mechanics the tool depends on are documented in docs/core-rules-reference.md;
-  full PDF text extractable via pdftotext. gdmissions.app/11th/rules/core-rules is a
-  web copy (currency unknown). Event Companion (docs/40k_event_companion.pdf) has the
-  terrain LAYOUTS (A/B/C per matchup) as diagrams — not yet ingested.
+- **docs/core-rules-reference.md is now comprehensive** — all 5 phases, combat
+  sequence, cover/terrain, modifiers, objectives, and core unit/weapon abilities,
+  verified vs the PDF. The MODIFIER GLOSSARY (dice-roll vs characteristic) is
+  "continued in the app" (not in the PDF) — doc states the established rule, marked [app].
+- **PLUNGING FIRE:** a TOWERING model (ALL Knights) — or any model on 3"+ terrain —
+  shooting a target WITHIN 12" with ground-level models gets **+1 BS characteristic**.
+  Because it's a CHARACTERISTIC modifier, it DIRECTLY OFFSETS cover's −1 BS (net 0)
+  at close range. But Knights are long-range (56-80"), so it only helps <12" shots.
+  Not auto-applied in the engine — pass `--hit 1` for that case.
+- Event Companion (docs/40k_event_companion.pdf) terrain LAYOUTS: the 5 Purge-the-Foe
+  matchups are ingested (data/layouts/purge-the-foe.yaml); other 10 matchup-pairs only
+  matter if the army disposition changes (you're always in a Purge-the-Foe matchup).
 
 ## Disposition choice for a low-model Knight army (systematic, via practice layer)
 - **Action-heavy dispositions are TRAPS for few-model armies:** Reconnaissance
