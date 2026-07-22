@@ -197,7 +197,7 @@ def _target_from_args(args) -> mh.Target:
         toughness=args.toughness, save=args.save, wounds=args.wounds,
         invuln=args.invuln, models=args.models,
         keywords=tuple(k.strip().upper() for k in (args.keywords or "").split(",") if k.strip()),
-        half_range=args.half_range,
+        half_range=args.half_range, in_cover=args.cover,
     )
 
 
@@ -494,6 +494,7 @@ def build_parser() -> argparse.ArgumentParser:
     dm.add_argument("--models", "-m", type=int, default=1)
     dm.add_argument("--keywords", default="")
     dm.add_argument("--half-range", action="store_true")
+    dm.add_argument("--cover", action="store_true", help="target has benefit of cover (-1 to hit)")
     dm.add_argument("--hit", type=int, default=0, help="+/- to hit")
     dm.add_argument("--wound", type=int, default=0, help="+/- to wound")
     dm.add_argument("--charged", action="store_true")

@@ -43,10 +43,21 @@ PyYAML the only dep.
 
 ## Core rules (11e) — verified against the official PDF (docs/core-rules-reference.md)
 - **COVER = −1 to HIT (worsen BS by 1), NOT a save bonus** (11e 13.08; changed from
-  10e). Ranged only; [IGNORES COVER] cancels it. In 11e **Stealth grants benefit of
-  cover**. Mathhammer engine was fixed to model this (was wrongly +1 save). Cover
-  costs a Castellan ~3.6 dmg/salvo into a target in terrain — so IGNORES COVER
-  (Judicant's Helm) + Dominus +1-hit-vs-terrain is a big deal.
+  10e). Ranged only; [IGNORES COVER] cancels it (incl. Stealth, which in 11e GRANTS
+  benefit of cover). Engine fixed (was wrongly +1 save). Cover costs a Castellan
+  ~3.6 dmg/salvo.
+- **Cover is granted two ways** (13.08): (1) INFANTRY/BEASTS/SWARM *in* a terrain
+  area, or (2) ANY model *not fully visible* due to INTERVENING terrain (line of
+  sight crosses obscuring terrain). Condition 2 is pervasive — both light AND dense
+  terrain areas are "obscuring" (13.10; dense also blocks LoS via Solid 13.11).
+- **Standard event board = 16 terrain areas** on 44"×60" (Event Companion manifest:
+  4×6x4, 2×10x2.5, 4×6x2, 4×7x1.5, 2×8x11.5-poly), same on every layout. So cover is
+  the DEFAULT for most ranged attacks, army-agnostic — ignoring cover is broadly valuable.
+- **CORRECTION to an earlier claim:** Dominus's +1-hit-vs-terrain only offsets cover
+  when the target is IN a terrain area (condition 1). It does NOT offset cover from
+  intervening terrain (condition 2 — the common case vs non-infantry). So Judicant's
+  Helm (IGNORES COVER) is NOT made redundant by Dominus. User's real concern = the
+  whole non-Knight meta using terrain, not other Knights (which they kill easily).
 - **Devastating Wounds** (24.10): crit wound → mortal wounds = Damage (bypass saves).
   All other weapon abilities in the engine verified correct vs the PDF.
 - Rules mechanics the tool depends on are documented in docs/core-rules-reference.md;

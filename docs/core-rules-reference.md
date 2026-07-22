@@ -23,10 +23,38 @@ the mathhammer/army code relies on, so the engine isn't guessing from memory.
 > "Each time a ranged attack targets a unit that has the benefit of cover against
 > it, **worsen the BS characteristic of that attack by 1**."
 
-Cover is a **−1 to HIT**, not a save bonus. It applies to ranged attacks only.
-`[IGNORES COVER]` (24.18) removes it, "including from rules that give a unit the
-benefit of cover (e.g. **Stealth**)" — so in 11e **Stealth grants benefit of
-cover** (i.e. −1 to be hit), and Ignores Cover cancels that too.
+Cover is a **−1 to HIT**, not a save bonus. Ranged attacks only. `[IGNORES COVER]`
+(24.18) removes it, "including from rules that give a unit the benefit of cover
+(e.g. **Stealth**)" — so in 11e **Stealth grants benefit of cover** (−1 to be
+hit), and Ignores Cover cancels that too.
+
+**A unit has benefit of cover if EVERY model in it meets one or more of:**
+1. has **INFANTRY / BEASTS / SWARM** and is **within a terrain area**, OR
+2. is **not fully visible** to the attacker due to **intervening** terrain
+   features / obscuring terrain areas.
+
+Condition 2 is the pervasive one: cover is granted by terrain the **line of
+sight crosses**, not just terrain the target stands in. So vehicles, monsters
+and anything shooting *across* the board get cover routinely.
+
+**Obscuring (13.10):** a terrain area containing **any light OR dense** feature
+is obscuring. **Solid (13.11):** dense features additionally block line of sight
+at ≤3" from ground level. So light vs dense both grant cover (obscuring); only
+dense also blocks LoS.
+
+**Standard event terrain manifest (Event Companion) — the same on every layout:**
+**16 terrain areas** on the 44"×60" board — 4×(6"×4"), 2×(10"×2.5"), 4×(6"×2"),
+4×(7"×1.5"), 2×(8"×11.5" polygon), each dense or light per the specific layout.
+With 16 obscuring areas scattered about, **most ranged attacks at range draw a
+line through terrain → the target has cover → −1 to hit.** Cover is the default,
+not the exception, and this is army-agnostic.
+
+**Interaction with Dominus Foebreakers (Rain of Devastation):** that rule gives
++1 to hit only vs a unit **in a terrain area** (cover condition 1, mostly
+infantry). It does **NOT** offset cover from condition 2 (a target obscured by
+*intervening* terrain while not standing in it) — the common case for
+non-infantry. So `[IGNORES COVER]` (e.g. Judicant's Helm) is broadly valuable
+even in a Dominus list; the detachment rule does not make it redundant.
 
 ## Weapon abilities (section 24) — as modelled
 
