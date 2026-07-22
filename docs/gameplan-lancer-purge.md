@@ -148,6 +148,60 @@ Objective Actions and operation markers. You don't care about their actions —
 them (6 VP for more objectives than the opponent)**. Your OC-10 Knights win the
 objective count; their fragile action units die to your guns.
 
+# Worked example — vs Take and Hold, Layout C (Dawn of War)
+
+Concrete deployment + turns 1–2 for one real board (Event Companion p.14), so you
+can see the abstract plan as actual moves. This is the **horizontal** layout: your
+zone and the enemy's are opposite 18"-deep strips; the two **central objectives**
+sit in No Man's Land mid-board (in the "AB" ruins), **expansion** objectives on the
+flanks, **home** objectives deep in each zone (in the "CD" ruins). Assume **you
+deploy in the bottom zone, going second** (the harder case). Distances are Move +
+Advance (D6, ~3.5" avg); measure on the day — treat these as the intent.
+
+**Deployment (bottom zone):**
+- **Navigator** → inside the bottom-right **CD ruin** on your **home objective**
+  (dense terrain → Hidden). It never moves and never shoots.
+- **Castellan A (Archeotech)** → hull-hugging the **bottom-left ruin**, breaking
+  line of sight to the enemy's top-right guns.
+- **Castellan B (Blessed Plate)** → behind the **CD ruin bottom-right** near home,
+  screened from the enemy top-left.
+- **Crusader (RFBC + Judicant)** → centre of your zone, **within 12" of Castellan A**
+  (so it can feed Ignores Cover), behind the central-bottom terrain.
+- **Lancer** → bottom-left corner, aimed up the left flank. **Warglaive** beside it
+  (within Bondsman range).
+
+**Turn 1 — emerge and take a central (Assault turns on the instant you advance):**
+1. **Lancer advances first**, ~14+D6 (**≈17.5"**) up the left flank. This switches
+   **[ASSAULT] on for the whole army** and starts the distraction. It's a lightning
+   rod — fine, it has a 4+ invuln.
+2. **Castellan A advances ~8+D6 (≈11.5")** onto the **left central objective** (the
+   AB-ruin skull). It's now on the objective (OC 10) and, thanks to Assault, **fires
+   its full salvo**. (Plunging Fire if a ground target is ≤12"; else pick a clean lane.)
+3. **Castellan B advances ~11.5"** toward the **right central objective** / a firing
+   lane on the enemy's forward units. Dominus gives +1 vs anything standing in terrain.
+4. **Crusader** moves up staying **within 12" of Castellan A**, fires the RFBC, and
+   **Judicant gives one Castellan Ignores Cover** for its best covered target.
+5. **Warglaive** follows the Lancer up the left.
+6. **Shoot** the enemy's most dangerous visible unit → bank **3 VP (a unit destroyed)**.
+7. **Navigator:** nothing (silent = Hidden + Gone to Ground).
+> End of T1: you hold a central objective, killed something, Lancer is upfield.
+
+**Turn 2 — hold and press (primary scoring opens):**
+1. **Castellans** settle onto **both central objectives** (OC 10 holds them) and
+   shoot → **hold ≥1 non-home objective = 4 VP**, plus **3 VP** for a kill.
+2. **Lancer charges** the nearest high-value enemy unit (S20, **+1 to wound on the
+   charge**, ~18–30 dmg) — or bodies onto the enemy's **left expansion objective** to
+   contest it.
+3. **Warglaive advance-charges** a tank/backfield unit (Bondsman advance-and-charge).
+4. **Crusader** feeds Ignores Cover to the Castellan with the most-covered high-value
+   target; RFBC into infantry.
+5. **Navigator** still silent on home → you also hold home for the objective count.
+> End of T2: ~7 VP primary banked (kill 3 + hold 4) and you're dictating the board.
+
+The same skeleton applies to the other layouts; only the geometry shifts (see the
+playbook above). Ask me for a concrete walkthrough of any specific matchup/layout
+you're about to play and I'll write it against that map.
+
 # Decision rules / drills
 
 - **Every Shooting phase, resolve the cover stack first:** pick the Judicant
