@@ -1,0 +1,22 @@
+# ALTERNATIVE list: threat-saturation variant of the Purge-the-Foe list.
+# Trades 3 Armigers for a Cerastus Lancer -- a durable (4+ FULL invuln, 28W) fast
+# melee threat that acts as a "distraction carnifex": it demands a response while
+# the rest of the army repositions, shoots and scores. Best for an aggressive,
+# threat-projection playstyle. The 4 big Knights hold objectives with OC 10 while
+# shooting, so few cheap holders are needed.
+#   PYTHONPATH=src python3 -m wh build examples/threat-saturation-purge.yaml
+#
+# Knights validate here (1920); a Navigator ally (75, home anchor) -> 1995/2000.
+name: Threat-saturation - Valourstrike + Dominus (Purge the Foe) + Lancer + Navigator
+detachments: [valourstrike-lance, dominus-foebreakers]
+disposition: purge-the-foe
+units:
+  - {datasheet: Knight Castellan, count: 1, enhancement: Archeotech Autoloaders}
+  - {datasheet: Knight Castellan, count: 1, enhancement: Blessed Plate}
+  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon],
+     enhancement: Bearer of the Judicant's Helm}
+  - {datasheet: Cerastus Knight Lancer, count: 1}   # distraction/durability + melee alpha
+  # Last Armiger is flexible: Warglaive (gets advance+charge from the Lancer's Bondsman)
+  # for aggression, or Helverin for extra ranged output. Warglaive shown:
+  - {datasheet: Armiger Warglaive, count: 1}
+  # + Navigator (Imperial Agents, 75) home anchor -> 1995/2000.

@@ -102,6 +102,18 @@ PyYAML the only dep.
   keep self-buffs. Swapping an Armiger→Navigator freed points to fit RFBC + all 3
   enhancements. Tool validates the Knights portion (1925); it can't validate the Navigator ally.
 
+## Two validated list variants (user's playstyle = aggressive → leans Lancer)
+- **Body-heavy** (examples/best-purge-the-foe.yaml): 2 Cast + Crusader + 4 Armigers + Navigator.
+  More screening/board coverage, safer objective grind. "Textbook" per raw damage/OC math.
+- **Threat-saturation** (examples/threat-saturation-purge.yaml): 2 Cast + Crusader + Cerastus
+  LANCER + 1 Armiger + Navigator, 1995/2000. Trades 3 Armigers for the Lancer as a "distraction
+  carnifex": 28W behind a **4+ FULL invuln** (vs everything) = a reliable resource sink that
+  demands a response while the rest repositions/shoots/scores. KEY CORRECTION to my earlier
+  "need bodies to hold" claim: Knights hold objectives with **OC 10 while shooting** (56-80"
+  range), so the big Knights double as holders — Armigers' real edge is screening, not holding.
+  This factor (durability + threat saturation + playstyle) is real and NOT captured by damage/OC
+  math. Caveat: the Lancer's threat is melee (can be screened/kited); fewer bodies = less coverage.
+
 ## Imperial Agents allies (data/allies/agents.yaml)
 - Knights (IMPERIUM) can take **Assigned Agents** allies. The allowance is a UNIT-TYPE
   cap, NOT points: at 2000 pts = **2 Retinue units + 2 Characters + 1 Requisitioned unit**
