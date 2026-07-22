@@ -89,6 +89,11 @@ def _find_detachment(key_or_name: str):
     return None
 
 
+def _norm(s: str) -> str:
+    """Lowercase and normalise curly apostrophes for name matching."""
+    return s.strip().lower().replace("’", "'")
+
+
 def _find_datasheet(name: str):
     n = name.strip().lower()
     exact = [s for s in data.datasheets() if s.name.lower() == n]
@@ -145,14 +150,15 @@ def build(spec: dict) -> Army:
     else:
         army.warnings.append("no disposition chosen")
 
-    # enhancement catalog for the chosen detachments: name -> (points, detachment)
+    # enhancement catalog for the chosen detachments: norm(name) -> (points, detachment)
     enh_catalog = {}
     for d in army.detachments:
         for e in d.enhancements:
-            enh_catalog[e["name"].lower()] = (e.get("points") or 0, d.name, e["name"])
+            enh_catalog[_norm(e["name"])] = (e.get("points") or 0, d.name, e["name"])
 
     # --- units ---
     used_enh = set()
+    copies_seen: dict[str, int] = {}  # escalating pricing aggregates army-wide, not per entry
     for u in spec.get("units", []):
         name = u.get("datasheet", "")
         count = int(u.get("count", 1))
@@ -160,13 +166,15 @@ def build(spec: dict) -> Army:
         if sheet is None:
             army.errors.append(f"unknown datasheet: {name!r}")
             continue
-        unit_cost = sum(sheet.cost(i) for i in range(1, count + 1))
+        prior = copies_seen.get(sheet.name, 0)
+        unit_cost = sum(sheet.cost(i) for i in range(prior + 1, prior + count + 1))
+        copies_seen[sheet.name] = prior + count
 
         # enhancement
         enh_name = u.get("enhancement")
         enh_cost = 0
         if enh_name:
-            hit = enh_catalog.get(enh_name.strip().lower())
+            hit = enh_catalog.get(_norm(enh_name))
             if hit is None:
                 army.errors.append(
                     f"enhancement {enh_name!r} on {sheet.name} is not from any chosen detachment")

@@ -25,6 +25,21 @@ class Costing(unittest.TestCase):
                   units=[{"datasheet": "Armiger Warglaive", "count": 3}])
         self.assertEqual(a.lines[0].unit_cost, 140 * 3)
 
+    def test_escalation_aggregates_across_entries(self):
+        # 2 Castellans split across entries must cost 425 + 450, not 425 + 425
+        a = build(detachments=["questoris-companions"], disposition="take-and-hold",
+                  units=[{"datasheet": "Knight Castellan", "count": 1},
+                         {"datasheet": "Knight Castellan", "count": 1}])
+        self.assertEqual(sum(l.unit_cost for l in a.lines), 425 + 450)
+
+    def test_enhancement_curly_apostrophe_matches(self):
+        # data uses a curly apostrophe; specifying a straight one should still match
+        a = build(detachments=["valourstrike-lance", "dominus-foebreakers"],
+                  disposition="purge-the-foe",
+                  units=[{"datasheet": "Cerastus Knight Lancer",
+                          "enhancement": "Bearer of the Lancer's Sigil"}])
+        self.assertFalse(any("not from any" in e for e in a.errors), a.errors)
+
     def test_wargear_and_enhancement_added(self):
         a = build(detachments=["gate-warden-lance", "questor-forgepact"],
                   disposition="take-and-hold",
