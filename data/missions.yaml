@@ -2,9 +2,11 @@
 # Each mission is what ONE player plays in a given ordered disposition matchup
 # (you-disposition vs opponent-disposition). See matrix.yaml.
 #
-# `objective` / scoring detail is TODO -- pull from the gdmissions Missions
-# section when we build the practice layer. `you` = your disposition that
-# triggers this mission; `vs` = the opponent disposition.
+# `objective` / scoring detail is TODO. The authoritative per-mission scoring
+# rules live in the 11e Chapter Approved Mission Deck (Warhammer 40,000 app) --
+# NOT in the Event Companion, which only confirms the sequence + VP framework
+# (see docs/matched-play.md). gdmissions.app also renders the mission cards.
+# `you` = your disposition that triggers this mission; `vs` = the opponent's.
 
 - name: Battlefield Dominance
   you: take-and-hold

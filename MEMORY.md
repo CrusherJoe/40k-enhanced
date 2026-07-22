@@ -47,8 +47,11 @@ PyYAML the only dep.
     Take and Hold were corrected); trust MFM / user over 39k.
 
 ## TODO
-- Practice layer: disposition/mission scoring rules (from gdmissions Missions
-  section) → what to drill per disposition.
+- Practice layer: per-mission scoring rules → what to drill per disposition. The
+  authoritative source is the **Chapter Approved Mission Deck** (in the 40k app);
+  the Event Companion (docs/matched-play.md) only confirms the sequence + VP
+  framework (Primary 45 / Secondary 45+20fixed / Battle Ready 10, 15/round cap),
+  NOT the mission cards. gdmissions.app also renders the mission cards.
 - Codex datasheet profiles: faction-pack 10 are done; the core Codex knights
   (Paladin/Crusader/Castellan/etc.) have points but no profile (not in the pack).
 - Mathhammer (expected damage / kill odds) now feasible from the profiles.

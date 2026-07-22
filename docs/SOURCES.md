@@ -10,6 +10,12 @@ The large PDFs are gitignored to keep the repo lean. Re-download as needed:
   → `docs/ik_faction_pack_v1.1.pdf`
   https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_imperia_knights-0at8boavnz-vxe5grd7zi.pdf
 
+- **Warhammer Event Companion** (22 Jul 2026) — matched-play/tournament rules:
+  mission sequence, VP framework, terrain layouts, FAQ. Confirms the disposition
+  system but does NOT contain per-mission scoring (see `docs/matched-play.md`).
+  → `docs/40k_event_companion.pdf`
+  https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf
+
 ## Live data sources (see `tools/`)
 
 - **Dispositions + Force Disposition Matrix:** https://gdmissions.app/11th/matrix
