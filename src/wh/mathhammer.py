@@ -86,9 +86,15 @@ def expected_damage(weapon: dict, target: Target, mods: Mods | None = None) -> f
     # --- hit ---
     torrent = "TORRENT" in kw
     skill = dice.target_number(weapon.get("WS") or weapon.get("BS"))
-    # 11e cover (13.08): benefit of cover worsens the attack's BS by 1 (a -1 to
-    # HIT for ranged attacks), NOT a save bonus. Ignored by [IGNORES COVER] and
-    # irrelevant to melee and to auto-hitting TORRENT weapons.
+    # 11e cover (13.08): benefit of cover worsens the attack's BS CHARACTERISTIC
+    # by 1 -- numerically a -1 to hit, which is what we model here. Ranged only,
+    # cancelled by [IGNORES COVER], irrelevant to melee/auto-hitting TORRENT.
+    # NOTE: cover is a CHARACTERISTIC modifier, distinct from a Hit-ROLL modifier
+    # -- so "ignore Hit-roll modifiers" effects (e.g. Gate Warden) do NOT remove
+    # it, and it sits outside the +/-1 Hit-roll cap. This EV model lumps cover
+    # into the hit modifier, which is exact for the common cases (cover alone, or
+    # cover + a +1 Hit-roll bonus like Dominus); it can mis-handle the rare stack
+    # of cover PLUS multiple Hit-roll debuffs (the roll cap wouldn't apply to cover).
     cover_hit = -1 if (target.in_cover and not melee and not torrent
                        and "IGNORES COVER" not in kw) else 0
     hit_mod = mods.hit + cover_hit + (1 if ("HEAVY" in kw and mods.stationary and not melee) else 0)

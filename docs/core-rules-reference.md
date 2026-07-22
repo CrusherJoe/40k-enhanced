@@ -23,10 +23,21 @@ the mathhammer/army code relies on, so the engine isn't guessing from memory.
 > "Each time a ranged attack targets a unit that has the benefit of cover against
 > it, **worsen the BS characteristic of that attack by 1**."
 
-Cover is a **−1 to HIT**, not a save bonus. Ranged attacks only. `[IGNORES COVER]`
-(24.18) removes it, "including from rules that give a unit the benefit of cover
-(e.g. **Stealth**)" — so in 11e **Stealth grants benefit of cover** (−1 to be
-hit), and Ignores Cover cancels that too.
+Cover worsens the attacker's **BS characteristic** by 1 — numerically a −1 to
+hit, ranged only. `[IGNORES COVER]` (24.18) removes it, "including from rules
+that give a unit the benefit of cover (e.g. **Stealth**)" — so in 11e **Stealth
+grants benefit of cover**, and Ignores Cover cancels that too.
+
+**⚠ Characteristic modifier vs Hit-roll modifier — these are DIFFERENT.** Cover
+modifies the **BS characteristic** (the target number, applied before the roll),
+NOT the **Hit roll** (the die result). So an ability that "ignores modifiers to
+the **Hit roll**" (e.g. Gate Warden Lance's *Dauntless Defenders* / *Against the
+Horde*) does **NOT** remove cover — cover is a characteristic modifier, outside
+that ability's scope. The only things that beat cover are `[IGNORES COVER]` and
+removing the benefit-of-cover condition (line of sight / not in terrain). A
++1-to-**Hit-roll** bonus (e.g. Dominus Foebreakers) still *numerically* cancels
+cover's −1 for the affected shots, but it does so as a separate modifier, not by
+"ignoring" cover.
 
 **A unit has benefit of cover if EVERY model in it meets one or more of:**
 1. has **INFANTRY / BEASTS / SWARM** and is **within a terrain area**, OR
