@@ -108,6 +108,20 @@ sight crosses**, not just terrain the target stands in.
 - **Obscuring (13.10):** any terrain area with a **light or dense** feature is
   obscuring (grants cover). **Solid (13.11):** **dense** features also block line of
   sight at ≤3" from ground level.
+- **Hidden (13.09):** an **INFANTRY/BEASTS/SWARM** model in a terrain area with a
+  **dense** feature, whose unit **did not make ranged attacks this or the previous
+  turn**, is hidden — **not visible** to enemies beyond its **detection range**
+  (default **15"**; "unless otherwise stated", so enemy abilities can modify it).
+- **Gone to Ground** [app / user-supplied]: while a model is **hidden**, **obscured
+  by intervening dense terrain**, and its unit **didn't shoot this or last turn**,
+  its detection range is **−3" (→ 12")**. Shooting (this or last turn) breaks it.
+- **Detection range — what it blocks:** being beyond it makes the model "not
+  visible", so it can't be targeted by **direct fire** (snipers included). It does
+  **NOT** stop **Indirect Fire** (10.07 explicitly targets non-visible units) — but
+  vs a target no friendly can see, Indirect Fire hits **only on unmodified 6s** and
+  the target has **benefit of cover**, so it's practically negligible. Combined with
+  an anti-Reinforcements bubble (e.g. the Navigator's Gaze, ≤12"), a hidden +
+  gone-to-ground sitter is near-unremovable — see `data/allies/agents.yaml`.
 - **`[IGNORES COVER]` (24.18)** removes benefit of cover, including from rules that
   grant it (e.g. **Stealth (24.33)**, which gives a unit benefit of cover). Only
   Ignores Cover or breaking the line-of-sight condition beats cover.

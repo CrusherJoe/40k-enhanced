@@ -1,0 +1,63 @@
+# Imperial Agents allies for an Imperial Knights (IMPERIUM) army.
+# Mechanism: "Assigned Agents" — Agents of the Imperium units with that faction
+# tag can be included in another IMPERIUM army. The exact points allowance is in
+# Codex: Imperial Agents (NOT in the faction pack) — CONFIRM THE CAP before use.
+# They do NOT gain the Knights detachment rule/enhancements (they don't need to).
+#
+# Points from MFM / BSData wh40k-11e (Imperium - Agents of the Imperium.json).
+# Cheap backfield sitters / support for a low-model Knight army.
+
+- name: Navigator
+  points: 60
+  stats: {M: 6, T: 3, Sv: "5+", W: 3, Ld: "7+", OC: 1}
+  invuln: "4+"
+  keywords: [Infantry, Character, Psyker, Imperium, Voidfarers, Agents of the Imperium]
+  abilities:
+    - "Gaze into the Empyrean (Psychic): enemy units set up as Reinforcements cannot be set up within 12\" of this model. -> anti Deep Strike / ingress bubble over your home objective."
+    - "Third Eye (Psychic): start of your Shooting phase, battle-shock one enemy unit within 12\" and visible."
+    - "Leader: attaches to Imperial Navy Breachers / Voidsmen-at-Arms."
+  role: >-
+    Best cheap home-objective sitter for Knights. The lockdown (see below) makes
+    it near-unremovable on your home objective, freeing an Armiger to push.
+  lockdown: >-
+    HIDDEN (13.09) makes it not visible beyond its detection range (15"); GONE TO
+    GROUND (hidden + obscured by dense terrain + didn't shoot this/last turn) cuts
+    that to 12". So DIRECT fire (incl. snipers) can't target it from >12". Gaze
+    into the Empyrean stops enemy Reinforcements within 12", so nothing can Deep
+    Strike/ingress inside the 12" to get eyes on it. NUANCE: Indirect Fire (10.07)
+    CAN target a not-visible model, but vs a target no friendly can see it hits
+    only on unmodified 6s and with benefit of cover -> practically negligible into
+    a 3W/4++ model. Net: immune to sniping + deep strike; effectively safe from
+    indirect; only a ground assault into your backfield removes it. Caveats: it
+    must NOT shoot (breaks Hidden/GtG), needs a dense terrain feature to sit in on
+    the home objective, and "unless otherwise stated" detection range can be raised
+    by enemy detector abilities.
+
+# Other cheap options considered (home-sitters / support):
+- name: Voidsmen-at-Arms
+  points: 50
+  stats: {M: 6, T: 3, Sv: "4+", W: 1, OC: 2}
+  keywords: [Infantry, Imperium, Agents of the Imperium]
+  role: OC2 multi-model home-sitter (higher OC than the Navigator), no anti-DS bubble.
+- name: Ministorum Priest
+  points: 40
+  stats: {M: 6, T: 3, Sv: "6+", W: 3, OC: 1}
+  invuln: "4+"
+  keywords: [Infantry, Character, Imperium, Agents of the Imperium]
+  role: Cheapest character; Zealot/Support buff for a led unit (more an attach than a sitter).
+- name: Inquisitor
+  points: 55
+  stats: {M: 6, T: 3, Sv: "4+", W: 4, OC: 1}
+  invuln: "5+"
+  keywords: [Infantry, Character, Imperium, Agents of the Imperium]
+  role: Leader character; utility.
+
+# OPEN ITEMS (confirm before finalising an allied list):
+# - The "Assigned Agents" points cap (Codex rule not in hand). A single 60-pt
+#   Navigator is minimal and almost certainly legal, but confirm the exact limit.
+# GONE TO GROUND (user-supplied text; not in the core-rules PDF — app/updated ruleset):
+#   A model has gone to ground while ALL of: (a) it is hidden; (b) it is not fully
+#   visible to the attacker due to intervening DENSE terrain; (c) its unit made no
+#   ranged attacks this or the previous turn. While gone to ground, subtract 3"
+#   from that model's detection range. Designer's note: a unit that shot this or
+#   last turn cannot go to ground, regardless of shoot-while-hidden abilities.

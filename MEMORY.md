@@ -97,6 +97,24 @@ PyYAML the only dep.
   + Crusader(RFBC) + 3 Helverin + 2 Warglaive + Evanescent Ion. Body-heavy beats the
   6-model version on firepower, OC and board presence.
 
+## Imperial Agents allies (data/allies/agents.yaml)
+- Knights (IMPERIUM) can take **Assigned Agents** allies (Agents of the Imperium units
+  with that faction tag). Exact points cap is in Codex: Imperial Agents (NOT in hand —
+  CONFIRM; a single 60-pt Navigator is minimal/almost certainly legal). Allies don't get
+  the Knights detachment rule/enhancements.
+- **Navigator (60 pts)** = the premier cheap home-sitter. HIDDEN (INFANTRY in dense terrain, not
+  shooting) = not visible beyond detection range (default 15"); **GONE TO GROUND** (hidden +
+  obscured by dense terrain + didn't shoot this/last turn) = −3" → **detection range 12"**. So
+  DIRECT fire (snipers) can't target it from >12"; its **Gaze into the Empyrean** stops enemy
+  Reinforcements within 12" (no Deep Strike/ingress inside 12"). NUANCE (detection range fully
+  understood): Indirect Fire CAN target a not-visible model but hits only on unmod 6s + with cover
+  → negligible into a 3W/4++ model; and "unless otherwise stated" detection range can be raised by
+  enemy detectors. Net: immune to sniping + deep strike, effectively safe from indirect; only a
+  ground assault into your backfield removes it. Must NOT shoot; needs dense terrain. OC1 (holds
+  uncontested home). Frees an Armiger to push.
+- **List impact:** swapping an Armiger (140) → Navigator (60) frees 80 pts, which RESOLVES the
+  RFBC-vs-Archeotech tension (fit both) and stacks enhancements. See below.
+
 ## Imperial Knights rules facts (affect list logic)
 - **Bondsman abilities are granted to ARMIGER models only** (Warglaive/Helverin/
   Moirax), never to the big/Titanic Knights. The big Knights are the SOURCE of a
