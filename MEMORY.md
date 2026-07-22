@@ -65,6 +65,27 @@ PyYAML the only dep.
   web copy (currency unknown). Event Companion (docs/40k_event_companion.pdf) has the
   terrain LAYOUTS (A/B/C per matchup) as diagrams — not yet ingested.
 
+## Disposition choice for a low-model Knight army (systematic, via practice layer)
+- **Action-heavy dispositions are TRAPS for few-model armies:** Reconnaissance
+  (~45 VP in mission-actions), Priority Assets (25, action 5/5), Disruption (23)
+  all require spending units on Objective Actions each turn + board-spread —
+  Knights (6-8 models) can't spare units for that. Avoid.
+- **Take and Hold is body-hungry:** 34 VP all from holding many objectives — hard
+  for a low-model army to win the objective race (vs hordes).
+- **Purge the Foe is the best FIT:** rewards killing (23 VP, Knights' strength)
+  + holding (23), only 1/5 missions need an action. Lets Knights convert firepower
+  into VP without needing to hold everything. → Valourstrike Lance (2DP).
+- Detachment-rule note: Gate Warden's Dauntless Defenders (ignore hit modifiers
+  = cover immunity + Sustained Hits 1, on your defensive line) is arguably a
+  STRONGER firepower rule than Valourstrike's Bold Gallantry, and solves cover —
+  but it wants you static and Take-and-Hold's scoring is body-hungry. So Gate
+  Warden + Dominus → Take and Hold is the static-gunline alternative; Valourstrike
+  + Dominus → Purge the Foe is the better-fit, more flexible pick. "Best" is
+  partly playstyle + current-meta (post-cutoff; can't claim tournament certainty).
+- **Best list (validated 2000/2000, examples/best-purge-the-foe.yaml):** 2 Castellan
+  + Crusader(RFBC) + 3 Helverin + 2 Warglaive + Evanescent Ion. Body-heavy beats the
+  6-model version on firepower, OC and board presence.
+
 ## Imperial Knights rules facts (affect list logic)
 - **Bondsman abilities are granted to ARMIGER models only** (Warglaive/Helverin/
   Moirax), never to the big/Titanic Knights. The big Knights are the SOURCE of a
