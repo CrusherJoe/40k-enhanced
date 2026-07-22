@@ -26,6 +26,9 @@ python3 -m wh dispositions                 # the 5 dispositions
 python3 -m wh matrix [disposition]         # full matrix, or one row
 python3 -m wh matchup <you> <opponent>     # both players' missions in a matchup
 python3 -m wh spread <disposition>         # your mission spread vs all opponents
+python3 -m wh mission <name>               # a primary mission's full VP scoring
+python3 -m wh secondaries                  # list the 18 secondary missions
+python3 -m wh secondary <name>             # a secondary mission's full scoring
 python3 -m wh detachments                  # Imperial Knights detachments + status
 python3 -m wh show <detachment>            # full rule, enhancements + stratagems
 python3 -m wh points [unit]                # datasheet points (MFM), optional filter
@@ -56,7 +59,11 @@ Hand-authored YAML in `data/`, cross-checked by `tests/`:
 
 - `dispositions.yaml` — the 5 dispositions.
 - `matrix.yaml` — the full ordered 5×5 matrix (`cells[you][opp]` = your mission).
-- `missions.yaml` — the 25 missions, keyed to their disposition pairing.
+- `missions.yaml` — the 25 primary missions with full VP scoring (round-keyed
+  blocks, cumulative/or conditions), plus each mission's special rule and
+  Objective Action (from the card reverse). From the gdmissions Mission Deck cards.
+- `secondary-missions.yaml` — the 18 secondary missions (Fixed + Tactical
+  scoring, When-Drawn rules, Objective Actions).
 - `detachments/imperial-knights.yaml` — IK detachments: DP, disposition, full
   rules/enhancements/stratagems, and enhancement points.
 - `datasheets/imperial-knights.yaml` — 22 datasheets with MFM points:
@@ -88,8 +95,8 @@ bundle (see `scratchpad` extractor scripts).
 
 ## Known gaps / TODO
 
-- **Disposition + mission scoring rules** (`summary` / `objective` = TODO) —
-  needed for the practice layer; pull from the gdmissions Missions section.
+- **Disposition `summary`** fields are still TODO (minor; the missions carry the
+  actual scoring now).
 - **Practice layer** — disposition/mission scoring rules (see above) to turn a
   chosen disposition into a list of what to drill.
 - **Mathhammer** — with full profiles in for all 22 datasheets, expected-damage /

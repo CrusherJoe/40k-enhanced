@@ -76,6 +76,78 @@ def cmd_spread(args) -> None:
         print(f"  {disps[opp].name:<18}{my_m:<24}{their_m}{tag}")
 
 
+_REL = {"cumulative": "+", "or": "or"}
+
+
+def _render_blocks(blocks) -> None:
+    for blk in blocks:
+        head = blk.get("phase", "")
+        cap = f"  [max {blk['max_vp']} VP]" if blk.get("max_vp") else ""
+        when = f"when {blk['when']}" if blk.get("when") else ""
+        print(f"  {head}{'  ' if head and when else ''}{when}{cap}".rstrip())
+        for i, c in enumerate(blk.get("conditions", [])):
+            mark = _REL.get(c.get("rel"), "") if i else ""
+            lead = f"{mark:>3} " if mark else "    "
+            print(f"{lead}{c['vp']:>2} VP  {c['text']}")
+        print()
+
+
+def _render_action(a) -> None:
+    print(f"  OBJECTIVE ACTION -- {a['name']}")
+    for k in ("starts", "units", "use_limit", "completes", "effect", "restriction"):
+        if a.get(k):
+            print(f"      {k.replace('_', ' ').upper():<10} {a[k]}")
+
+
+def cmd_mission(args) -> None:
+    """Show a primary mission's full VP scoring."""
+    m = data.mission_by_name(args.mission)
+    if not m:
+        sys.exit(f"no primary mission matching {args.mission!r}")
+    disps = data.dispositions()
+    print(f"{m.name}   ({disps[m.you].name} vs {disps[m.vs].name})   up to {m.max_vp()} VP*")
+    if m.special:
+        print("\n  SPECIAL")
+        print(_indent(m.special, 4))
+    print()
+    _render_blocks(m.scoring)
+    if m.action:
+        _render_action(m.action)
+    print("  * raw condition-VP sum; matched play caps Primary at 15 VP/round (45 total).")
+
+
+def cmd_secondaries(_args) -> None:
+    print("Secondary missions (18):\n")
+    for s in data.secondaries():
+        kinds = [k.upper() for k in ("fixed", "tactical") if k in s]
+        tac = (s.get("tactical") or [{}])[0].get("conditions", [{}])[0].get("text", "")
+        print(f"  {s['name']:<22} [{'/'.join(kinds)}]  {tac[:54]}")
+
+
+def cmd_secondary(args) -> None:
+    q = args.mission.strip().lower()
+    hits = [s for s in data.secondaries() if s["name"].lower() == q] or \
+           [s for s in data.secondaries() if q in s["name"].lower()]
+    if not hits:
+        sys.exit(f"no secondary matching {args.mission!r}")
+    if len(hits) > 1:
+        sys.exit(f"ambiguous: {', '.join(s['name'] for s in hits)}")
+    s = hits[0]
+    print(s["name"])
+    if s.get("when_drawn"):
+        print("\n  WHEN DRAWN"); print(_indent(s["when_drawn"], 4))
+    if s.get("special"):
+        print("\n  SPECIAL"); print(_indent(s["special"], 4))
+    if s.get("note"):
+        print("\n  NOTE"); print(_indent(s["note"], 4))
+    if s.get("fixed"):
+        print("\n  FIXED"); _render_blocks(s["fixed"])
+    if s.get("tactical"):
+        print("\n  TACTICAL"); _render_blocks(s["tactical"])
+    if s.get("action"):
+        _render_action(s["action"])
+
+
 def cmd_detachments(_args) -> None:
     dets = data.detachments()
     disps = data.dispositions()
@@ -317,6 +389,15 @@ def build_parser() -> argparse.ArgumentParser:
     s = sub.add_parser("spread", help="mission spread for one army disposition vs all opponents")
     s.add_argument("you")
     s.set_defaults(fn=cmd_spread)
+
+    mi = sub.add_parser("mission", help="full VP scoring for a primary mission")
+    mi.add_argument("mission")
+    mi.set_defaults(fn=cmd_mission)
+
+    sub.add_parser("secondaries", help="list the 18 secondary missions").set_defaults(fn=cmd_secondaries)
+    sec = sub.add_parser("secondary", help="full detail for one secondary mission")
+    sec.add_argument("mission")
+    sec.set_defaults(fn=cmd_secondary)
 
     sub.add_parser("detachments", help="list Imperial Knights detachments + data-gap status").set_defaults(fn=cmd_detachments)
 

@@ -62,6 +62,23 @@ not a cost to add — it is stripped. Output was written to
 `../data/datasheets/imperial-knights.yaml`. Enhancement points also come from
 the MFM (and matched 39k's values, cross-checking both sources).
 
+## Mission cards (primary + secondary) — gdmissions.app card PNGs
+
+The 25 primary + 18 secondary mission scoring rules were transcribed from the
+gdmissions.app Chapter Approved Mission Deck **card images** (there is no text
+API — the scoring lives in the PNGs, so this step needs visual reading; OCR gets
+the wording but not the stylised VP numbers).
+
+Asset URL patterns:
+- Primary front:  `/assets/11th/primary-missions/<disposition>/<mission>.png`
+- Primary reverse (Objective Action, 11 of 25): `<mission>-back.png`
+- Secondary:      `/assets/11th/secondary-missions/defender/<slug>.png`
+  (attacker and defender variants are identical — one is enough)
+
+Slugs are listed on `https://gdmissions.app/11th/{primary,secondary}-missions`.
+Output lives in `../data/missions.yaml` and `../data/secondary-missions.yaml`;
+each block's scoring cross-checks against `../data/matrix.yaml`.
+
 ## gen_profiles.py — BSData datasheet profiles (authoritative)
 
 All 22 IK datasheet profiles come from the **BSData wh40k-11e** community

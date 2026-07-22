@@ -19,7 +19,11 @@ PyYAML the only dep.
   in `data/profiles/imperial-knights.yaml`, generated from the **BSData wh40k-11e**
   catalogue by `tools/gen_profiles.py` (replaced the earlier hand-transcribed 10;
   BSData caught a transcription error -- Moirax conversion beam cannon is A1 not A2).
-- CLI: `dispositions, matrix, matchup, spread, detachments, show, points, profile, plan, build`.
+- 25 primary missions with full VP scoring + Objective Actions (11 have card reverses) in
+  `data/missions.yaml`; 18 secondary missions in `data/secondary-missions.yaml`. Transcribed from
+  gdmissions.app card PNGs (scoring is in images, not text; asset patterns in tools/README).
+- CLI: `dispositions, matrix, matchup, spread, mission, secondaries, secondary, detachments, show,
+  points, profile, plan, build`.
 - **List builder** (`build`) validates DP=3, unique-group, disposition legality,
   enhancement ownership/dupes, Rule of Three (max 3/datasheet), points budget;
   costs with escalating pricing.
@@ -47,11 +51,10 @@ PyYAML the only dep.
     Take and Hold were corrected); trust MFM / user over 39k.
 
 ## TODO
-- Practice layer: per-mission scoring rules → what to drill per disposition. The
-  authoritative source is the **Chapter Approved Mission Deck** (in the 40k app);
-  the Event Companion (docs/matched-play.md) only confirms the sequence + VP
-  framework (Primary 45 / Secondary 45+20fixed / Battle Ready 10, 15/round cap),
-  NOT the mission cards. gdmissions.app also renders the mission cards.
+- Practice layer: mission scoring is now IN (data/missions.yaml + secondary-missions.yaml). Next:
+  turn a chosen disposition into "what to drill" (analyse the 5 missions it plays into + which
+  secondaries synergise). Matched-play VP framework in docs/matched-play.md (Primary 45 / Secondary
+  45+20fixed / Battle Ready 10, 15/round cap).
 - Codex datasheet profiles: faction-pack 10 are done; the core Codex knights
   (Paladin/Crusader/Castellan/etc.) have points but no profile (not in the pack).
 - Mathhammer (expected damage / kill odds) now feasible from the profiles.

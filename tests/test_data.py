@@ -46,6 +46,39 @@ class MatrixIntegrity(unittest.TestCase):
             self.assertEqual(my, theirs)
 
 
+class MissionScoring(unittest.TestCase):
+    def test_every_primary_has_scoring(self):
+        for m in data.missions():
+            self.assertTrue(m.scoring, f"{m.name} has no scoring")
+            for blk in m.scoring:
+                self.assertTrue(blk.get("conditions"), f"{m.name}/{blk.get('phase')} empty")
+                for c in blk["conditions"]:
+                    self.assertIsInstance(c["vp"], int)
+                    self.assertTrue(c["text"])
+
+    def test_condition_rel_values_valid(self):
+        for m in data.missions():
+            for blk in m.scoring:
+                for c in blk["conditions"]:
+                    if "rel" in c:
+                        self.assertIn(c["rel"], ("cumulative", "or"))
+
+    def test_actions_present_for_reverse_missions(self):
+        # the 11 missions with card reverses carry an Objective Action
+        with_action = [m for m in data.missions() if m.action]
+        self.assertEqual(len(with_action), 11)
+        for m in with_action:
+            for k in ("name", "starts", "units", "effect"):
+                self.assertIn(k, m.action, f"{m.name} action missing {k}")
+
+    def test_secondaries_load(self):
+        secs = data.secondaries()
+        self.assertEqual(len(secs), 18)
+        for s in secs:
+            self.assertIn("name", s)
+            self.assertTrue(s.get("tactical"), f"{s['name']} has no tactical scoring")
+
+
 class DetachmentIntegrity(unittest.TestCase):
     def test_dispositions_reference_valid_keys(self):
         for d in data.detachments():

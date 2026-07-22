@@ -39,12 +39,18 @@ class Datasheet:
         return self.points_additional
 
 
-@dataclass(frozen=True)
+@dataclass
 class Mission:
     name: str
     you: str  # disposition key you play
     vs: str  # opponent disposition key
-    objective: str | None = None
+    scoring: list = field(default_factory=list)  # [{phase, when, conditions:[{text,vp,rel?}]}]
+    special: str | None = None
+    action: dict | None = None  # Objective Action from the card reverse
+
+    def max_vp(self) -> int:
+        """Sum of every condition's VP (an upper bound; per-round caps apply in play)."""
+        return sum(c.get("vp", 0) for blk in self.scoring for c in blk.get("conditions", []))
 
 
 @dataclass
@@ -84,6 +90,21 @@ def dispositions() -> dict[str, Disposition]:
 @functools.cache
 def missions() -> list[Mission]:
     return [Mission(**m) for m in _load_yaml("missions.yaml")]
+
+
+def mission_by_name(name: str) -> Mission | None:
+    n = name.strip().lower()
+    exact = [m for m in missions() if m.name.lower() == n]
+    if exact:
+        return exact[0]
+    hits = [m for m in missions() if n in m.name.lower()]
+    return hits[0] if len(hits) == 1 else None
+
+
+@functools.cache
+def secondaries() -> list[dict]:
+    """Secondary-mission cards (kept as plain dicts; structure varies per card)."""
+    return _load_yaml("secondary-missions.yaml")
 
 
 @functools.cache

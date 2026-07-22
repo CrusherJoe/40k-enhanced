@@ -1,114 +1,669 @@
-# The 25 missions produced by the Force Disposition Matrix (11th edition).
-# Each mission is what ONE player plays in a given ordered disposition matchup
-# (you-disposition vs opponent-disposition). See matrix.yaml.
+# Primary missions (11th ed) with full VP scoring, from the gdmissions.app
+# Chapter Approved Mission Deck card images (front = scoring, back = the
+# mission's Objective Action). Each of the 25 missions is what YOU play for a
+# given disposition matchup (you vs vs); see matrix.yaml.
 #
-# `objective` / scoring detail is TODO. The authoritative per-mission scoring
-# rules live in the 11e Chapter Approved Mission Deck (Warhammer 40,000 app) --
-# NOT in the Event Companion, which only confirms the sequence + VP framework
-# (see docs/matched-play.md). gdmissions.app also renders the mission cards.
-# `you` = your disposition that triggers this mission; `vs` = the opponent's.
+# scoring: list of blocks. Each block has a `phase` (battle-round window),
+# `when` (timing), and `conditions`. A condition's `rel` (relative to the
+# previous condition in the block): cumulative | or | (absent = independent,
+# both scorable). `special` = a mission-wide rule; `action` = the Objective
+# Action from the card reverse (starts/units/use_limit/completes/effect).
 
 - name: Battlefield Dominance
   you: take-and-hold
   vs: take-and-hold
-  objective: TODO
-- name: Immovable Object
-  you: take-and-hold
-  vs: purge-the-foe
-  objective: TODO
+  scoring:
+  - phase: First & Second Battle Round
+    when: End of your turn
+    conditions:
+    - text: You control more objectives than your opponent.
+      vp: 2
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: For each objective you control.
+      vp: 3
+    - text: For each of those objectives (excluding your home objective) if you control your home objective.
+      vp: 2
+      rel: cumulative
 - name: Determined Acquisition
   you: take-and-hold
   vs: disruption
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: For each objective you control that you did not control at the start of the turn (excluding
+        your home objective).
+      vp: 2
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: For each objective you control.
+      vp: 3
+    - text: For each of those objectives that is within your opponent's territory.
+      vp: 3
+      rel: cumulative
+- name: Immovable Object
+  you: take-and-hold
+  vs: purge-the-foe
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: You control one or more central objectives.
+      vp: 3
+  - phase: Second to Fourth Battle Round
+    when: End of your Command phase
+    conditions:
+    - text: For each objective you control (excluding your home objective).
+      vp: 5
+  - phase: Fifth Battle Round
+    when: End of your turn
+    conditions:
+    - text: For each objective you control (excluding your home objective).
+      vp: 5
 - name: Purge and Secure
   you: take-and-hold
   vs: reconnaissance
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: One or more enemy units were destroyed this turn by a friendly unit that was within range
+        of one or more objectives.
+      vp: 3
+    - text: One or more enemy units that started the turn within range of one or more objectives were
+        destroyed this turn.
+      vp: 3
+      rel: or
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: For each objective you control (excluding your home objective).
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: You control one or more objectives you did not control at the start of the turn (excluding
+        your home objective).
+      vp: 3
 - name: Inescapable Dominion
   you: take-and-hold
   vs: priority-assets
-  objective: TODO
-
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: You control three or more objectives.
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control two or more objectives.
+      vp: 5
+    - text: You control more objectives than your opponent.
+      vp: 4
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: You control your opponent's home objective.
+      vp: 5
 - name: Unstoppable Force
   you: purge-the-foe
   vs: take-and-hold
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: One or more enemy units were destroyed this turn.
+      vp: 3
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: For each objective you control (excluding your home objective).
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: You control one or more objectives you did not control at the start of the turn (excluding
+        your home objective).
+      vp: 3
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: You control one or more central objectives.
+      vp: 5
 - name: Meatgrinder
   you: purge-the-foe
   vs: purge-the-foe
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: One or more enemy units were destroyed this turn.
+      vp: 3
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: More enemy units were destroyed this turn than friendly units were destroyed in the previous
+        turn.
+      vp: 5
+    - text: You control your opponent's home objective.
+      vp: 5
 - name: Punishment
   you: purge-the-foe
   vs: disruption
-  objective: TODO
+  special: 'Start of your turn: Select one to three enemy units that are on the battlefield and within
+    range of objectives and/or that destroyed one or more friendly units in the previous turn. If you
+    cannot, select one enemy unit that is on the battlefield. Until the start of your next turn, those
+    units are condemned.'
+  scoring:
+  - phase: Any Battle Round
+    when: End of a turn
+    conditions:
+    - text: One or more condemned enemy units left the battlefield this turn.
+      vp: 5
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+    - text: You control more objectives than your opponent.
+      vp: 5
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: You control your opponent's home objective.
+      vp: 8
 - name: Consecrate
   you: purge-the-foe
   vs: reconnaissance
-  objective: TODO
+  special: Each time a friendly unit destroys a unit, that friendly unit becomes a consecration unit.
+    At the end of your turn, for each of your consecration units, you can select one objective it is within
+    range of (excluding your home objective) that has not been consecrated. If you do, place one of your
+    operation markers within range of that objective - that objective is consecrated and that unit is
+    no longer a consecration unit.
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: One or two objectives are consecrated.
+      vp: 3
+    - text: Three or more objectives are consecrated.
+      vp: 6
+      rel: or
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+    - text: You control more objectives than your opponent.
+      vp: 4
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: Your opponent's home objective is consecrated.
+      vp: 5
 - name: Destroyer's Wrath
   you: purge-the-foe
   vs: priority-assets
-  objective: TODO
-
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: One or more enemy units were destroyed this turn.
+      vp: 3
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+    - text: You control more objectives than your opponent.
+      vp: 6
+  - phase: Second Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: More enemy units were destroyed this turn than friendly units were destroyed in the previous
+        turn.
+      vp: 4
 - name: Death Trap
   you: disruption
   vs: take-and-hold
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: For each terrain area trapped this turn.
+      vp: 2
+    - text: For each of those terrain areas that is an objective.
+      vp: 3
+      rel: cumulative
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: One or more enemy units that started the turn within a terrain area were destroyed
+      if that terrain area is trapped.: null
+      vp: 3
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  action:
+    name: Booby Trap
+    starts: Your Shooting phase.
+    units: One friendly unit within range of one objective (excluding your home objective) or within one
+      terrain area that is not within your deployment zone, that you have not yet trapped.
+    use_limit: Unlimited. Each unit that starts this action this phase must be within a different terrain
+      area.
+    completes: Immediately.
+    effect: 'That terrain area is trapped: place one of your operation markers within that terrain area.'
 - name: Delaying Action
   you: disruption
   vs: purge-the-foe
-  objective: TODO
-- name: Outmanoeuvre
-  you: disruption
-  vs: disruption
-  objective: TODO
-- name: Smoke and Mirrors
-  you: disruption
-  vs: reconnaissance
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: For each enemy unit destroyed this turn.
+      vp: 2
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding home objectives).
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: You control one or more central objectives and one or more expansion objectives.
+      vp: 3
 - name: Locate and Deny
   you: disruption
   vs: priority-assets
-  objective: TODO
-
-- name: Reconnaissance Sweep
-  you: reconnaissance
-  vs: take-and-hold
-  objective: TODO
-- name: Triangulation
-  you: reconnaissance
-  vs: purge-the-foe
-  objective: TODO
-- name: Surveil the Foe
-  you: reconnaissance
+  special: 'Start of the battle: Select five terrain areas not within your deployment zone; for each one,
+    place one of your operation markers within it. If you cannot, do so for each terrain area that is
+    not within your deployment zone.'
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: One or more enemy units that started the turn within range of one or more objectives are destroyed.
+      vp: 4
+    - text: Only one of your operation markers is on the battlefield
+      if one or more of your units are within the same terrain area as that marker: null
+      and no enemy units are within that terrain area.: null
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: Only one of your operation markers is on the battlefield
+      if one or more of your units are within the same terrain area as that marker: null
+      and no enemy units are within that terrain area.: null
+      vp: 5
+  action:
+    name: Sensor Sweep
+    starts: Your Shooting phase.
+    units: One friendly unit within range of one central objective.
+    use_limit: Once per turn.
+    completes: End of your turn, if your unit controls that objective.
+    effect: Your unit performs a sensor sweep - remove one operation marker from the battlefield.
+    restriction: A unit cannot start this action if there is only one operation marker on the battlefield.
+- name: Outmanoeuvre
+  you: disruption
   vs: disruption
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: You control your opponent's home objective.
+      vp: 10
+  - phase: First Battle Round
+    when: End of your turn
+    conditions:
+    - text: For each objective you control (excluding your home objective).
+      vp: 4
+  - phase: Second & Third Battle Round
+    when: End of your Command phase
+    conditions:
+    - text: For each objective you control (excluding your home objective).
+      vp: 5
+  - phase: Fourth Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: For each objective you control (excluding your home objective).
+      vp: 6
+- name: Smoke and Mirrors
+  you: disruption
+  vs: reconnaissance
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: For each objective that is decoyed.
+      vp: 2
+    - text: For each of those objectives that is within your opponent's territory.
+      vp: 2
+      rel: cumulative
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: Four or more objectives are decoyed.
+      vp: 10
+  action:
+    name: Decoy
+    starts: Your Shooting phase.
+    units: One friendly unit within range of one objective (excluding your home objective) that is not
+      decoyed.
+    use_limit: Unlimited. Each unit that starts this action this phase must be within range of a different
+      objective.
+    completes: End of your turn, if your unit controls that objective.
+    effect: 'That objective is decoyed: place one of your operation markers within range of that objective.'
 - name: Gather Intel
   you: reconnaissance
   vs: reconnaissance
-  objective: TODO
+  scoring:
+  - phase: First Battle Round
+    when: End of your turn
+    conditions:
+    - text: You control one or more central objectives.
+      vp: 6
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: For each friendly unit that completed the Extract Intelligence action this turn.
+      vp: 7
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: Three or more of your operation markers are on the battlefield.
+      vp: 5
+    - text: One of your operation markers is within range of your opponent's home objective.
+      vp: 5
+  action:
+    name: Extract Intelligence
+    starts: Your Shooting phase, from the second battle round onwards.
+    units: One unit within range of one objective (excluding your home objective) that does not have any
+      of your operation markers within range of it.
+    use_limit: Unlimited. Each unit that starts this action this phase must be within range of a different
+      objective.
+    completes: End of your turn, if your unit controls that objective.
+    effect: Place one of your operation markers within range of that objective.
+- name: Reconnaissance Sweep
+  you: reconnaissance
+  vs: take-and-hold
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: Three or more friendly units are wholly within three different table quarters and not within
+        6\" of the centre of the battlefield.
+      vp: 3
+    - text: Four or more friendly units are wholly within four different table quarters and not within
+        6\" of the centre of the battlefield.
+      vp: 6
+      rel: or
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: For each enemy unit destroyed this turn.
+      vp: 1
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 3
 - name: Search and Scour
   you: reconnaissance
   vs: priority-assets
-  objective: TODO
-
-- name: Secure Asset
-  you: priority-assets
-  vs: take-and-hold
-  objective: TODO
-- name: Vital Link
-  you: priority-assets
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: You control one or more central objectives.
+      vp: 3
+    - text: One or more enemy units that started the turn within a terrain area are destroyed.
+      vp: 2
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: For each objective you control (excluding your home objective).
+      vp: 4
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: No enemy units are wholly within your territory.
+      vp: 5
+- name: Surveil the Foe
+  you: reconnaissance
+  vs: disruption
+  special: Each time a friendly unit ends a move within range of one objective that has any of your opponent's
+    operation markers within range of it, remove those operation markers from the battlefield. (See card
+    reverse for how units are surveilled.)
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: One or more enemy units were surveilled this turn, unless each of those units is within range
+        of one or more objectives that have one or more operation markers within range of them.
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+    - text: You control more objectives than your opponent.
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: None of your opponent's operation markers are on the battlefield.
+      vp: 5
+  action:
+    name: Surveil the Foe
+    starts: Your Shooting phase.
+    units: One friendly unit.
+    use_limit: Unlimited.
+    completes: Immediately.
+    effect: 'Select one enemy unit within 18" of and visible to your unit that has not been surveilled
+      this turn: until the end of the turn, that enemy unit is surveilled.'
+- name: Triangulation
+  you: reconnaissance
   vs: purge-the-foe
-  objective: TODO
+  scoring:
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your turn
+    conditions:
+    - text: One objective is triangulated.
+      vp: 3
+    - text: Two objectives are triangulated.
+      vp: 6
+      rel: or
+    - text: Three or more objectives are triangulated.
+      vp: 10
+      rel: or
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: You control four or more objectives.
+      vp: 10
+  action:
+    name: Triangulate
+    starts: Your Shooting phase, from the second battle round onwards.
+    units: One friendly unit within range of one objective (excluding your home objective).
+    use_limit: Once per turn.
+    completes: End of your turn, if your unit controls that objective.
+    effect: 'That objective is triangulated: place one of your operation markers within range of that
+      objective.'
 - name: Extract Relic
   you: priority-assets
   vs: disruption
-  objective: TODO
-- name: Vanguard Operation
-  you: priority-assets
-  vs: reconnaissance
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: A friendly unit performed a sensor sweep this turn.
+      vp: 4
+    - text: One or more enemy units that started the turn within range of one or more objectives are destroyed.
+      vp: 3
+    - text: Only one of your opponent's operation markers is on the battlefield
+      if one or more of your units are within the same terrain area as that operation marker: null
+      and no enemy units are within that terrain area.: null
+      vp: 4
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: Only one of your opponent's operation markers is on the battlefield
+      if one or more of your units are within the same terrain area as that operation marker: null
+      and no enemy units are within that terrain area.: null
+      vp: 5
+  action:
+    name: Sensor Sweep
+    starts: Your Shooting phase.
+    units: One friendly unit within range of one central objective.
+    use_limit: Once per turn.
+    completes: End of your turn, if your unit controls that objective.
+    effect: Your unit performs a sensor sweep - remove one operation marker from the battlefield.
+    restriction: A unit cannot start this action if there is only one operation marker on the battlefield.
 - name: Sabotage
   you: priority-assets
   vs: priority-assets
-  objective: TODO
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: For each friendly unit that committed sabotage this turn.
+      vp: 3
+    - text: For each of those units that is within range of one or more objectives in your opponent's
+        territory.
+      vp: 2
+      rel: cumulative
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  action:
+    name: Sabotage
+    starts: Your Shooting phase.
+    units: One unit within range of one objective (excluding your home objective).
+    use_limit: Unlimited. Each unit that starts this action this phase must be within range of a different
+      objective.
+    completes: End of your turn, if that unit controls that objective.
+    effect: Your unit commits sabotage.
+- name: Secure Asset
+  you: priority-assets
+  vs: take-and-hold
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: A friendly unit secured the asset this turn.
+      vp: 4
+    - text: One or more enemy units that started the turn within range of one or more central objectives
+        are destroyed.
+      vp: 2
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+    - text: You control three or more objectives.
+      vp: 4
+  action:
+    name: Secure Asset
+    starts: Your Shooting phase.
+    units: One friendly unit within range of one objective (excluding your home objective).
+    use_limit: Once per turn.
+    completes: End of your turn, if your unit controls that objective.
+    effect: Your unit secures the asset.
+- name: Vanguard Operation
+  you: priority-assets
+  vs: reconnaissance
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: A friendly unit performed a vanguard operation this turn.
+      vp: 4
+    - text: One or more enemy units were destroyed this turn.
+      vp: 2
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: You control your opponent's home objective.
+      vp: 10
+  action:
+    name: Vanguard Operation
+    starts: Your Shooting phase.
+    units: One friendly unit within one terrain area that is within your opponent's territory.
+    use_limit: Once per turn.
+    completes: End of your turn, if no enemy units are within that terrain area.
+    effect: Your unit performs a vanguard operation.
+- name: Vital Link
+  you: priority-assets
+  vs: purge-the-foe
+  scoring:
+  - phase: Any Battle Round
+    when: End of your turn
+    conditions:
+    - text: You control one or more central objectives.
+      vp: 2
+    - text: For each of your operation markers within range of one of those objectives.
+      vp: 1
+      rel: cumulative
+  - phase: Second Battle Round Onwards
+    when: End of your Command phase (or the end of your turn in the fifth battle round)
+    conditions:
+    - text: You control one or more objectives (excluding your home objective).
+      vp: 4
+    - text: One or more of those objectives is a central objective.
+      vp: 4
+      rel: cumulative
+  - phase: End of Battle
+    when: End of the battle
+    conditions:
+    - text: You control your opponent's home objective.
+      vp: 10
+  action:
+    name: Maintain Control
+    starts: Your Shooting phase.
+    units: One friendly unit within range of one central objective.
+    use_limit: Once per turn.
+    completes: End of your turn, if your unit controls that objective.
+    effect: Place one of your operation markers within range of that objective.

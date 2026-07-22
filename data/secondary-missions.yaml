@@ -1,0 +1,218 @@
+# Secondary missions (11th ed) from the gdmissions.app card images. Each has a
+# `tactical` block-list and, for dual cards, a `fixed` block-list (same block
+# shape as primaries). `when_drawn` applies only to Tactical use; `max_vp`
+# caps a block; `special` = a card-wide rule; `action` = an Objective Action;
+# `note` = a designer's note.
+
+- name: Assassination
+  fixed:
+  - when: While this card is active
+    conditions:
+    - text: For each enemy CHARACTER model destroyed this turn.
+      vp: 3
+    - text: For each of those models with a W of 4 or more.
+      vp: 1
+      rel: cumulative
+  tactical:
+  - when: End of either player's turn
+    conditions:
+    - text: One or more enemy CHARACTER models were destroyed this turn.
+      vp: 5
+    - text: All enemy CHARACTER models have been destroyed during the battle.
+      vp: 5
+      rel: or
+- name: A Grievous Blow
+  when_drawn: If there are no enemy units with a starting strength of 13 or more on the battlefield, you
+    can discard this card and draw one new Secondary Mission card.
+  fixed:
+  - when: End of a turn
+    conditions:
+    - text: For each enemy unit with a starting strength of 13 or more that is destroyed this turn.
+      vp: 4
+  tactical:
+  - when: End of a turn
+    conditions:
+    - text: One or more enemy units with a starting strength of 13 or more were destroyed this turn.
+      vp: 5
+- name: A Tempting Target
+  when_drawn: Your opponent selects one objective (excluding home objectives) within No Man's Land to
+    be your tempting target.
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: You control your tempting target.
+      vp: 5
+- name: Beacon
+  when_drawn: Select one friendly unit on the battlefield or embarked within a TRANSPORT on the battlefield
+    to be your beacon unit.
+  tactical:
+  - when: End of your opponent's turn or the end of the fifth battle round (whichever comes first)
+    conditions:
+    - text: Your beacon unit is on the battlefield and not within your deployment zone.
+      vp: 3
+    - text: Your beacon unit is on the battlefield and not within your territory.
+      vp: 5
+      rel: or
+- name: Behind Enemy Lines
+  when_drawn: If it is the first battle round, you can draw one new Secondary Mission card and shuffle
+    this card back into your Secondary Mission deck.
+  tactical:
+  - when: End of your turn
+    max_vp: 5
+    conditions:
+    - text: For each friendly unit (excluding AIRCRAFT and battle-shocked units) wholly within your opponent's
+        deployment zone.
+      vp: 3
+- name: Bring It Down
+  when_drawn: If there are no enemy models with a Wounds characteristic of 10 or more on the battlefield,
+    you can discard this card and draw one new Secondary Mission card.
+  fixed:
+  - when: End of a turn
+    conditions:
+    - text: For each enemy model with a Wounds characteristic of 10 or more that is destroyed this turn.
+      vp: 4
+  tactical:
+  - when: End of a turn
+    conditions:
+    - text: One or more enemy models with a Wounds characteristic of 10 or more were destroyed this turn.
+      vp: 5
+- name: Burden of Trust
+  when_drawn: 'When drawn / start of your turn: For each objective, you can select one friendly unit on
+    the battlefield to guard that objective. Until the start of your next turn, while that unit is within
+    range of that objective and while you control that objective, that objective is guarded by your army.'
+  tactical:
+  - when: End of your opponent's turn or the end of the fifth battle round (whichever comes first)
+    max_vp: 5
+    conditions:
+    - text: For each objective guarded by your army.
+      vp: 2
+- name: Centre Ground
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 3\" of
+        the centre of the battlefield
+      and no enemy units are within 3\" of the centre of the battlefield.: null
+      vp: 3
+    - text: One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 3\" of
+        the centre of the battlefield
+      and no enemy units are within 6\" of the centre of the battlefield.: null
+      vp: 5
+      rel: or
+- name: Cleanse
+  when_drawn: If the Plunder Secondary Mission is active for you, you can draw one new Secondary Mission
+    card and shuffle this card back into your Secondary Mission deck.
+  action:
+    name: Cleanse
+    starts: Your Shooting phase.
+    units: One friendly unit within range of one objective (excluding your home objective).
+    use_limit: Unlimited. Each unit that starts this action this phase must be within range of a different
+      objective.
+    completes: End of your turn, if that unit is controlling that objective.
+    effect: That objective is cleansed by your army.
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: One objective was cleansed by your army this turn.
+      vp: 2
+    - text: Two or more objectives were cleansed by your army this turn.
+      vp: 5
+      rel: or
+- name: Defend Stronghold
+  when_drawn: If it is the first battle round, draw one new Secondary Mission card and shuffle this card
+    back into your Secondary Mission deck.
+  tactical:
+  - when: End of your opponent's turn or the end of the fifth battle round (whichever comes first)
+    conditions:
+    - text: You control your home objective.
+      vp: 3
+    - text: No enemy units are within your deployment zone.
+      vp: 2
+      rel: cumulative
+- name: Display of Might
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: There are more friendly units than enemy units (excluding AIRCRAFT and battle-shocked units)
+        wholly within No Man's Land.
+      vp: 2
+  - when: End of your opponent's turn
+    conditions:
+    - text: There are more friendly units than enemy units (excluding AIRCRAFT and battle-shocked units)
+        wholly within No Man's Land.
+      vp: 5
+- name: Engage on All Fronts
+  special: If one or more friendly units (excluding AIRCRAFT and battle-shocked units) are wholly within
+    a table quarter, and those units are not within 6\" of the centre of the battlefield, you have a presence
+    in that table quarter.
+  fixed:
+  - when: End of your turn
+    conditions:
+    - text: You have a presence in three table quarters.
+      vp: 2
+    - text: You have a presence in four table quarters.
+      vp: 4
+      rel: or
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: You have a presence in three table quarters.
+      vp: 3
+    - text: You have a presence in four table quarters.
+      vp: 5
+      rel: or
+- name: Forward Position
+  when_drawn: If it is the first battle round, you can draw one new Secondary Mission card and shuffle
+    this card back into your Secondary Mission deck.
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: You control your opponent's home objective and/or each expansion objective.
+      vp: 5
+- name: No Prisoners
+  tactical:
+  - when: End of a turn
+    max_vp: 5
+    conditions:
+    - text: For each enemy unit destroyed this turn.
+      vp: 2
+- name: Outflank
+  note: Opposite battlefield edges are those parallel to each other.
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of
+        one or more battlefield edges and not within your territory.
+      vp: 3
+    - text: Two or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of
+        opposite battlefield edges and one or more of those units is not within your territory.
+      vp: 5
+      rel: or
+- name: Overwhelming Force
+  tactical:
+  - when: End of a turn
+    max_vp: 5
+    conditions:
+    - text: For each enemy unit that started the turn within range of one or more objectives and is destroyed.
+      vp: 3
+- name: Plunder
+  when_drawn: If the Cleanse Secondary Mission is active for you, you can draw one new Secondary Mission
+    card and shuffle this card back into your Secondary Mission deck.
+  action:
+    name: Plunder
+    starts: Your Shooting phase.
+    units: One unit within a terrain area that is not within your territory.
+    use_limit: Once per turn.
+    completes: Immediately.
+    effect: That terrain area is plundered.
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: A terrain area was plundered this turn.
+      vp: 5
+- name: Secure No Man's Land
+  tactical:
+  - when: End of your turn
+    conditions:
+    - text: You control two or more objectives within No Man's Land (excluding your home objective).
+      vp: 5
