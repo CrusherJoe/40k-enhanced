@@ -102,6 +102,33 @@ class PointsIntegrity(unittest.TestCase):
                                       f"{d.name}/{e['name']} missing points")
 
 
+class ProfileIntegrity(unittest.TestCase):
+    def test_profiles_load(self):
+        profs = data.profiles()
+        self.assertEqual(len(profs), 10)
+
+    def test_profile_names_have_points(self):
+        # every profiled datasheet should also have an MFM points entry
+        pts_names = {s.name for s in data.datasheets()}
+        for name in data.profiles():
+            self.assertIn(name, pts_names, f"{name} profiled but no points")
+
+    def test_stat_lines_complete(self):
+        for name, p in data.profiles().items():
+            for k in ("M", "T", "Sv", "W", "Ld", "OC"):
+                self.assertIn(k, p["stats"], f"{name} missing stat {k}")
+            self.assertTrue(p.get("ranged") or p.get("melee"), f"{name} has no weapons")
+
+    def test_weapons_have_core_fields(self):
+        for name, p in data.profiles().items():
+            for w in p.get("ranged", []):
+                for k in ("name", "range", "A", "BS", "S", "AP", "D"):
+                    self.assertIn(k, w, f"{name} ranged weapon missing {k}")
+            for w in p.get("melee", []):
+                for k in ("name", "A", "WS", "S", "AP", "D"):
+                    self.assertIn(k, w, f"{name} melee weapon missing {k}")
+
+
 class PlannerInvariants(unittest.TestCase):
     def test_all_legal_combos_total_3dp_and_have_no_unique_conflict(self):
         dets = [d for d in data.detachments() if d.complete]

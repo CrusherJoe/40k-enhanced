@@ -1,0 +1,260 @@
+# Imperial Knights datasheet profiles (11th ed).
+# Transcribed from the Imperial Knights Faction Pack v1.1 datasheets
+# (docs/ik_faction_pack_v1.1.pdf, pages 7-26). This pack contains only the
+# Knight Destrier + the 9 Imperial Armour / Forge World datasheets; the core
+# Codex knights (Paladin, Crusader, Castellan, etc.) are NOT here -- their
+# profiles remain a gap until the Codex is sourced.
+#
+# Conventions:
+#   stats: M in inches (int), T/W/OC ints, Sv/Ld as "N+" strings.
+#   invuln: save string; invuln_ranged_only true = "* against ranged only".
+#   weapons: range in inches (ranged only); A/S/AP/D are ints, or strings when
+#            they use dice (e.g. "D6+3"); BS/WS as "N+"/"N/A"; abilities = the
+#            [BRACKETED] weapon keywords.
+#
+# NOTE: hand-transcribed from PDF images -- worth a spot-check against the
+# physical datasheets. Low-confidence values are flagged with `verify: true`.
+
+- name: Knight Destrier
+  source: faction-pack-1.1
+  stats: {M: 12, T: 10, Sv: "3+", W: 18, Ld: "6+", OC: 8}
+  invuln: "5+"
+  invuln_ranged_only: true
+  ranged:
+    - {name: Chastiser gatling cannon, range: 24, A: 12, BS: "3+", S: 6, AP: -1, D: 2, abilities: [ASSAULT]}
+    - {name: Frag bombard, range: 24, A: "D6+3", BS: "3+", S: 7, AP: -1, D: 2, abilities: [ASSAULT, BLAST, "RAPID FIRE D6+3"]}
+    - {name: Questoris heavy stubber, range: 36, A: 6, BS: "3+", S: 4, AP: -1, D: 1, abilities: [ASSAULT, "RAPID FIRE 3"]}
+  melee:
+    - {name: Bellatus reaper chainsword - strike, A: 5, WS: "3+", S: 12, AP: -3, D: "D3+3"}
+    - {name: Bellatus reaper chainsword - sweep, A: 10, WS: "3+", S: 8, AP: -2, D: 2}
+    - {name: Thundershock spear - strike, A: 4, WS: "3+", S: 12, AP: -3, D: "D3+3", abilities: [LANCE]}
+    - {name: Thundershock spear - sweep, A: 8, WS: "3+", S: 6, AP: -3, D: 2, abilities: [LANCE]}
+    - {name: Titanic feet, A: 4, WS: "4+", S: 7, AP: -1, D: 2}
+  abilities:
+    core: [Deadly Demise D6]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: Ram Jets, text: "Each time this unit is selected to make a Normal or Advance move, until the end of the phase, add D3\" to the Move characteristic of this model."}
+      - {name: Thundercharge, text: "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model."}
+      - {name: Saturation Fire, text: "Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the [IGNORES COVER] ability."}
+  damaged: {threshold: "1-6", text: "Subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Titanic, Towering, Bellatus, Character, Imperium, Knight Destrier]
+  wargear_options:
+    - "This model's chastiser gatling cannon can be replaced with 1 bellatus reaper chainsword* or 1 thundershock spear*."
+    - "This model's frag bombard can be replaced with 1 bellatus reaper chainsword* or 1 thundershock spear*."
+    - "* A model cannot be equipped with more than one bellatus reaper chainsword or more than one thundershock spear."
+  equipped: "1 chastiser gatling cannon; 1 frag bombard; 1 Questoris heavy stubber; 1 titanic feet"
+
+- name: Acastus Knight Asterius
+  source: faction-pack-1.1
+  stats: {M: 8, T: 13, Sv: "2+", W: 30, Ld: "6+", OC: 10}
+  invuln: "5+"
+  invuln_ranged_only: true
+  ranged:
+    - {name: Asterius volkite culverin, range: 24, A: 6, BS: "3+", S: 6, AP: 0, D: 2, abilities: ["DEVASTATING WOUNDS"]}
+    - {name: Karacnos mortar battery, range: 48, A: "D6+3", BS: "3+", S: 6, AP: -1, D: 1, abilities: ["ANTI-INFANTRY 2+", BLAST, "IGNORES COVER", "INDIRECT FIRE"]}
+    - {name: Twin conversion beam cannon, range: 48, A: 3, BS: "3+", S: 16, AP: -2, D: 6, abilities: [CONVERSION, "TWIN-LINKED", "SUSTAINED HITS D3"]}
+  melee:
+    - {name: Titanic feet, A: 6, WS: "4+", S: 10, AP: -1, D: 2}
+  abilities:
+    core: [Deadly Demise 2D6]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: "Conversion (Twin conversion beam cannon)", text: "Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."}
+      - {name: Sunderer of Fortresses, text: "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve them by 2 instead."}
+  damaged: {threshold: "1-10", text: "Subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Titanic, Towering, Frame, Imperium, Acastus, Knight Asterius]
+  wargear_options: []
+  equipped: "2 Asterius volkite culverins; karacnos mortar battery; 2 twin conversion beam cannons; titanic feet"
+
+- name: Acastus Knight Porphyrion
+  source: faction-pack-1.1
+  stats: {M: 8, T: 13, Sv: "2+", W: 30, Ld: "6+", OC: 10}
+  invuln: "5+"
+  invuln_ranged_only: true
+  ranged:
+    - {name: Acastus autocannon, range: 48, A: 2, BS: "3+", S: 9, AP: -1, D: 3}
+    - {name: Acastus ironstorm missile pod, range: 48, A: "D6+6", BS: "3+", S: 5, AP: 0, D: 1, abilities: [BLAST, HEAVY, "INDIRECT FIRE"]}
+    - {name: Helios defence missiles, range: 48, A: 3, BS: "3+", S: 10, AP: -2, D: "D6", abilities: ["ANTI-FLY 2+", HEAVY]}
+    - {name: Lascannon, range: 48, A: 1, BS: "3+", S: 12, AP: -3, D: "D6+1"}
+    - {name: Twin magna lascannon, range: 72, A: "D6", BS: "3+", S: 18, AP: -4, D: "D6+6", abilities: [BLAST, "TWIN-LINKED"]}
+  melee:
+    - {name: Titanic feet, A: 6, WS: "4+", S: 10, AP: -1, D: 2}
+  abilities:
+    core: [Deadly Demise 2D6]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: Bastion of Firepower, text: "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."}
+  damaged: {threshold: "1-10", text: "Subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Titanic, Towering, Frame, Imperium, Acastus, Knight Porphyrion]
+  wargear_options:
+    - "This model's 2 Acastus autocannons can be replaced with 2 lascannons, or 1 Acastus autocannon and 1 lascannon."
+    - "This model's Acastus ironstorm missile pod can be replaced with 1 helios defence missiles."
+  equipped: "2 Acastus autocannons; Acastus ironstorm missile pod; 2 twin magna lascannons; titanic feet"
+
+- name: Cerastus Knight Lancer
+  source: faction-pack-1.1
+  stats: {M: 14, T: 11, Sv: "3+", W: 28, Ld: "6+", OC: 10}
+  invuln: "4+"
+  invuln_ranged_only: false
+  ranged:
+    - {name: Cerastus shock lance, range: 12, A: 6, BS: "3+", S: 6, AP: 0, D: 2, abilities: [ASSAULT, "SUSTAINED HITS 2"]}
+  melee:
+    - {name: Cerastus shock lance - strike, A: 5, WS: "2+", S: 20, AP: -3, D: 8, abilities: [LANCE]}
+    - {name: Cerastus shock lance - sweep, A: 10, WS: "2+", S: 10, AP: -2, D: 3, abilities: [LANCE]}
+  abilities:
+    core: [Deadly Demise D6+2]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: "Lancer's Duty (Bondsman)", text: "While a model is affected by this ability, it is eligible to declare a charge in a turn in which it Advanced."}
+      - {name: Shock Charge, text: "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."}
+  damaged: {threshold: "1-10", text: "Subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Lancer]
+  wargear_options: []
+  equipped: "Cerastus shock lance"
+
+- name: Cerastus Knight Castigator
+  source: faction-pack-1.1
+  stats: {M: 12, T: 11, Sv: "3+", W: 28, Ld: "6+", OC: 10}
+  invuln: "5+"
+  invuln_ranged_only: true
+  ranged:
+    - {name: Castigator bolt cannon, range: 36, A: 18, BS: "3+", S: 6, AP: -2, D: 2, abilities: ["TWIN-LINKED"]}
+  melee:
+    - {name: Tempest warblade - strike, A: 4, WS: "3+", S: 14, AP: -4, D: 6}
+    - {name: Tempest warblade - sweep, A: 12, WS: "3+", S: 9, AP: -3, D: 2}
+  abilities:
+    core: [Deadly Demise D6+2]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: "Castigator's Duty (Bondsman)", text: "While a model is affected by this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1."}
+      - {name: Storm of Bolts, text: "In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."}
+  damaged: {threshold: "1-10", text: "Subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Castigator]
+  wargear_options: []
+  equipped: "Castigator bolt cannon; tempest warblade"
+
+- name: Cerastus Knight Acheron
+  source: faction-pack-1.1
+  stats: {M: 12, T: 11, Sv: "3+", W: 28, Ld: "6+", OC: 10}
+  invuln: "5+"
+  invuln_ranged_only: true
+  ranged:
+    - {name: Acheron flame cannon, range: 18, A: "2D6", BS: "N/A", S: 8, AP: -1, D: 2, abilities: [TORRENT, "IGNORES COVER"]}
+    - {name: Twin heavy bolter, range: 36, A: 3, BS: "3+", S: 5, AP: -1, D: 2, abilities: ["SUSTAINED HITS 1", "TWIN-LINKED"]}
+  melee:
+    - {name: Reaper chainfist - strike, A: 4, WS: "3+", S: 14, AP: -4, D: 6}
+    - {name: Reaper chainfist - sweep, A: 12, WS: "3+", S: 9, AP: -3, D: 2}
+  abilities:
+    core: [Deadly Demise D6+2]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: "Acheron's Duty (Bondsman)", text: "While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 from the result."}
+      - {name: Searing Flames, text: "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."}
+  damaged: {threshold: "1-10", text: "Subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Acheron]
+  wargear_options: []
+  equipped: "Acheron flame cannon; twin heavy bolter; reaper chainfist"
+
+- name: Cerastus Knight Atrapos
+  source: faction-pack-1.1
+  stats: {M: 12, T: 11, Sv: "3+", W: 28, Ld: "6+", OC: 10}
+  invuln: "5+"
+  invuln_ranged_only: false
+  ranged:
+    - {name: Atrapos lascutter - low intensity, range: 36, A: "2D6", BS: "3+", S: 7, AP: -1, D: 2, abilities: ["SUSTAINED HITS 1"]}
+    - {name: Atrapos lascutter - high intensity, range: 24, A: "D6", BS: "3+", S: 14, AP: -3, D: 4, abilities: ["SUSTAINED HITS 1"]}
+    - {name: Graviton singularity cannon - contained, range: 24, A: "D3", BS: "3+", S: 16, AP: -4, D: "D6+1", abilities: [BLAST]}
+    - {name: Graviton singularity cannon - singularity, range: 24, A: "D3", BS: "3+", S: 16, AP: -4, D: "D6+1", abilities: [BLAST, "DEVASTATING WOUNDS", HAZARDOUS]}
+  melee:
+    - {name: Atrapos lascutter - low intensity, A: 12, WS: "3+", S: 7, AP: -1, D: 2, abilities: ["SUSTAINED HITS 1"]}
+    - {name: Atrapos lascutter - high intensity, A: 6, WS: "3+", S: 14, AP: -3, D: 4, abilities: ["SUSTAINED HITS 1"]}
+  abilities:
+    core: [Deadly Demise D6+2]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: "Atrapos' Duty (Bondsman)", text: "While a model is affected by this ability, each time that model makes an attack that targets a TITANIC or TOWERING model, you can re-roll the Hit roll and you can re-roll the Wound roll."}
+      - {name: Macro-extinction Protocols, text: "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well."}
+  damaged: {threshold: "1-10", text: "Subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Atrapos]
+  wargear_options: []
+  equipped: "Atrapos lascutter; graviton singularity cannon"
+
+- name: Questoris Knight Magaera
+  source: faction-pack-1.1
+  stats: {M: 10, T: 11, Sv: "3+", W: 26, Ld: "6+", OC: 10}
+  invuln: "5+"
+  invuln_ranged_only: false
+  ranged:
+    - {name: Lightning cannon, range: 48, A: 12, BS: "3+", S: 9, AP: 0, D: 2, abilities: ["SUSTAINED HITS 2"]}
+    - {name: Phased plasma-fusil, range: 24, A: 2, BS: "3+", S: 8, AP: -3, D: 2, abilities: ["RAPID FIRE 2"]}
+    - {name: Twin rad cleanser, range: 12, A: "D6", BS: "N/A", S: 2, AP: 0, D: 1, abilities: [TORRENT, "IGNORES COVER", "ANTI-INFANTRY 2+", "TWIN-LINKED"]}
+  melee:
+    - {name: Hekaton siege claw - strike, A: 4, WS: "3+", S: 20, AP: -3, D: 8}
+    - {name: Hekaton siege claw - sweep, A: 8, WS: "3+", S: 10, AP: -2, D: 3}
+    - {name: Reaper chainsword - strike, A: 4, WS: "3+", S: 14, AP: -4, D: 6}
+    - {name: Reaper chainsword - sweep, A: 12, WS: "3+", S: 9, AP: -3, D: 2}
+  abilities:
+    core: [Deadly Demise D6]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: "Magaera's Duty (Bondsman)", text: "While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that attack by 1."}
+      - {name: Repair Auto-simulacra, text: "At the end of your Command phase, this model regains up to D3 lost wounds."}
+  damaged: {threshold: "1-9", text: "Subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Character, Titanic, Towering, Imperium, Questoris, Knight Magaera]
+  wargear_options:
+    - "This model's reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser."
+  equipped: "lightning cannon; phased plasma-fusil; reaper chainsword"
+
+- name: Questoris Knight Styrix
+  source: faction-pack-1.1
+  stats: {M: 10, T: 11, Sv: "3+", W: 26, Ld: "6+", OC: 10}
+  invuln: "5+"
+  invuln_ranged_only: false
+  ranged:
+    - {name: Graviton crusher, range: 18, A: 3, BS: "3+", S: 6, AP: -1, D: 2, abilities: ["ANTI-VEHICLE 2+", BLAST]}
+    - {name: Twin rad cleanser, range: 12, A: "D6", BS: "N/A", S: 2, AP: 0, D: 1, abilities: ["ANTI-INFANTRY 2+", "IGNORES COVER", "TWIN-LINKED", TORRENT]}
+    - {name: Volkite chierovile, range: 30, A: 12, BS: "3+", S: 12, AP: 0, D: 3, abilities: ["DEVASTATING WOUNDS"]}
+  melee:
+    - {name: Hekaton siege claw - strike, A: 4, WS: "3+", S: 20, AP: -3, D: 8}
+    - {name: Hekaton siege claw - sweep, A: 8, WS: "3+", S: 10, AP: -2, D: 3}
+    - {name: Reaper chainsword - strike, A: 4, WS: "3+", S: 14, AP: -4, D: 6}
+    - {name: Reaper chainsword - sweep, A: 12, WS: "3+", S: 9, AP: -3, D: 2}
+  abilities:
+    core: [Deadly Demise D6]
+    faction: [Code Chivalric, Super-heavy Walker]
+    datasheet:
+      - {name: "Styrix's Duty (Bondsman)", text: "While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test, subtracting one from the test when doing so."}
+      - {name: Grav-pinned, text: "In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more attacks made with a graviton crusher, until the end of your opponent's next turn that unit is grav-pinned. While a unit is grav-pinned, subtract 2 from its Move characteristic and subtract 2 from Charge rolls made for it."}
+  damaged: {threshold: "1-9", text: "Subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Character, Titanic, Towering, Imperium, Questoris, Knight Styrix]
+  wargear_options:
+    - "This model's reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser."
+  equipped: "graviton crusher; volkite chierovile; reaper chainsword"
+
+- name: Armiger Moirax
+  source: faction-pack-1.1
+  stats: {M: 12, T: 9, Sv: "3+", W: 14, Ld: "7+", OC: 6}
+  invuln: "5+"
+  invuln_ranged_only: true
+  ranged:
+    - {name: Conversion beam cannon, range: 24, A: 2, BS: "3+", S: 10, AP: -2, D: 3, abilities: [CONVERSION, "SUSTAINED HITS D3"], verify: true}
+    - {name: Graviton pulsar, range: 24, A: "D6", BS: "3+", S: 7, AP: -1, D: 2, abilities: ["ANTI-VEHICLE 2+", BLAST]}
+    - {name: Lightning lock, range: 36, A: 6, BS: "3+", S: 8, AP: 0, D: 1, abilities: ["SUSTAINED HITS 2"]}
+    - {name: Rad cleanser, range: 12, A: "D6", BS: "N/A", S: 2, AP: 0, D: 1, abilities: ["ANTI-INFANTRY 2+", "IGNORES COVER", TORRENT]}
+    - {name: Volkite veuglaire, range: 36, A: 4, BS: "3+", S: 8, AP: 0, D: 2, abilities: ["DEVASTATING WOUNDS"]}
+  melee:
+    - {name: Armoured feet, A: 4, WS: "3+", S: 6, AP: 0, D: 1}
+    - {name: Siege claw, A: 4, WS: "3+", S: 12, AP: -3, D: "D6+2"}
+  abilities:
+    core: [Deadly Demise D3]
+    faction: [Code Chivalric]
+    datasheet:
+      - {name: "Conversion (Conversion beam cannon)", text: "Each time an attack is made with this weapon, if the target is more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."}
+      - {name: Protection Protocols, text: "You can target this unit with the Heroic Intervention Stratagem regardless of any other uses of that Stratagem this phase. If you do: that use is -1 CP; and that use does not prevent any uses of that Stratagem on other units this phase."}
+  damaged: {threshold: "1-5", text: "Subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."}
+  keywords: [Vehicle, Walker, Imperium, Armiger, Moirax]
+  wargear_options:
+    - "This model's volkite veuglaire can be replaced with 1 siege claw and 1 rad cleanser, 1 graviton pulsar, 1 lightning lock, or 1 conversion beam cannon."
+    - "This model's graviton pulsar can be replaced with 1 siege claw and 1 rad cleanser, 1 lightning lock, 1 conversion beam cannon, or 1 volkite veuglaire."
+  equipped: "graviton pulsar; volkite veuglaire; armoured feet"

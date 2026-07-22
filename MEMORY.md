@@ -15,9 +15,13 @@ PyYAML the only dep.
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
   stratagems, enhancement points.
 - 22 datasheets with MFM points (1st-copy / each-2nd+-copy escalating, + wargear).
-- CLI: `dispositions, matrix, matchup, spread, detachments, show, points, plan, build`.
+- Full profiles (stats/weapons/abilities) for the 10 faction-pack datasheets
+  (Destrier + Imperial Armour knights) in `data/profiles/imperial-knights.yaml`,
+  hand-transcribed from the PDF. Moirax conversion beam cannon flagged `verify`.
+- CLI: `dispositions, matrix, matchup, spread, detachments, show, points, profile, plan, build`.
 - **List builder** (`build`) validates DP=3, unique-group, disposition legality,
-  enhancement ownership/dupes, points budget; costs with escalating pricing.
+  enhancement ownership/dupes, Rule of Three (max 3/datasheet), points budget;
+  costs with escalating pricing.
 - Tests: `python3 tests/test_data.py` + `python3 tests/test_army.py` (both green).
 
 ## Non-obvious facts / gotchas
@@ -38,4 +42,6 @@ PyYAML the only dep.
 ## TODO
 - Practice layer: disposition/mission scoring rules (from gdmissions Missions
   section) → what to drill per disposition.
-- Datasheet profiles (stats/weapons) from the faction pack PDF, not yet structured.
+- Codex datasheet profiles: faction-pack 10 are done; the core Codex knights
+  (Paladin/Crusader/Castellan/etc.) have points but no profile (not in the pack).
+- Mathhammer (expected damage / kill odds) now feasible from the profiles.

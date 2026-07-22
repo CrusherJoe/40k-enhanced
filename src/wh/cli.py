@@ -155,6 +155,74 @@ def cmd_points(args) -> None:
         print(f"{s.name:<28}{s.points_first:>5}{add:>6}   {wg}")
 
 
+def _fmt_ap(ap) -> str:
+    return "0" if ap in (0, "0") else str(ap)
+
+
+def _weapon_row(w: dict, melee: bool) -> str:
+    rng = "Melee" if melee else f'{w["range"]}"'
+    skill = w.get("WS") if melee else w.get("BS")
+    ab = "  " + ", ".join(f"[{a}]" for a in w.get("abilities", [])) if w.get("abilities") else ""
+    flag = "  (verify)" if w.get("verify") else ""
+    return (f"    {w['name']:<40} {rng:>6} {str(w['A']):>4} {str(skill):>4} "
+            f"{str(w['S']):>3} {_fmt_ap(w['AP']):>3} {str(w['D']):>4}{ab}{flag}")
+
+
+def cmd_profile(args) -> None:
+    """Print a full datasheet profile (stats, weapons, abilities)."""
+    profs = data.profiles()
+    q = args.unit.strip().lower()
+    hits = [n for n in profs if n.lower() == q] or [n for n in profs if q in n.lower()]
+    if not hits:
+        avail = ", ".join(profs)
+        sys.exit(f"no profile for {args.unit!r}. Have: {avail}")
+    if len(hits) > 1:
+        sys.exit(f"ambiguous {args.unit!r}: {', '.join(hits)}")
+    p = profs[hits[0]]
+    sheet = next((s for s in data.datasheets() if s.name == p["name"]), None)
+
+    st = p["stats"]
+    pts = ""
+    if sheet:
+        add = f" / {sheet.points_additional} each 2nd+" if sheet.points_additional is not None else ""
+        pts = f"   {sheet.points_first} pts{add}"
+    inv = f'{p["invuln"]} inv' + (" (ranged only)" if p["invuln_ranged_only"] else "")
+    print(f"{p['name']}{pts}")
+    print(f'  M {st["M"]}"  T {st["T"]}  Sv {st["Sv"]}  W {st["W"]}  Ld {st["Ld"]}  OC {st["OC"]}  |  {inv}')
+
+    hdr = f'    {"weapon":<40} {"rng":>6} {"A":>4} {"Sk":>4} {"S":>3} {"AP":>3} {"D":>4}'
+    if p.get("ranged"):
+        print("\n  RANGED"); print(hdr)
+        for w in p["ranged"]:
+            print(_weapon_row(w, melee=False))
+    if p.get("melee"):
+        print("\n  MELEE"); print(hdr)
+        for w in p["melee"]:
+            print(_weapon_row(w, melee=True))
+
+    ab = p.get("abilities", {})
+    line = []
+    if ab.get("core"):
+        line.append("Core: " + ", ".join(ab["core"]))
+    if ab.get("faction"):
+        line.append("Faction: " + ", ".join(ab["faction"]))
+    if line:
+        print("\n  " + " | ".join(line))
+    for a in ab.get("datasheet", []):
+        print(f"\n  {a['name']}")
+        print(_indent(a["text"], 4))
+
+    dmg = p.get("damaged")
+    if dmg:
+        print(f"\n  DAMAGED ({dmg['threshold']} W): {dmg['text']}")
+    if p.get("wargear_options"):
+        print("\n  WARGEAR OPTIONS")
+        for o in p["wargear_options"]:
+            print(_indent(f"- {o}", 4))
+    print(f"\n  Equipped: {p.get('equipped', '')}")
+    print(f"  Keywords: {', '.join(p.get('keywords', []))}")
+
+
 def cmd_plan(_args) -> None:
     """Enumerate legal detachment combinations totalling 3 DP and the
     dispositions each unlocks. Requires DP + disposition data."""
@@ -251,6 +319,10 @@ def build_parser() -> argparse.ArgumentParser:
     pt = sub.add_parser("points", help="datasheet points (MFM); optional unit filter")
     pt.add_argument("unit", nargs="?", help="substring to filter datasheets")
     pt.set_defaults(fn=cmd_points)
+
+    pr = sub.add_parser("profile", help="full datasheet profile (stats/weapons/abilities)")
+    pr.add_argument("unit")
+    pr.set_defaults(fn=cmd_profile)
 
     sh = sub.add_parser("show", help="show a detachment's full rule, enhancements and stratagems")
     sh.add_argument("detachment")

@@ -29,6 +29,7 @@ python3 -m wh spread <disposition>         # your mission spread vs all opponent
 python3 -m wh detachments                  # Imperial Knights detachments + status
 python3 -m wh show <detachment>            # full rule, enhancements + stratagems
 python3 -m wh points [unit]                # datasheet points (MFM), optional filter
+python3 -m wh profile <unit>               # full datasheet: stats, weapons, abilities
 python3 -m wh plan                         # legal 3-DP combos + dispositions unlocked
 python3 -m wh build <list.yaml>            # validate + cost an army list
 ```
@@ -61,6 +62,11 @@ Hand-authored YAML in `data/`, cross-checked by `tests/`:
 - `datasheets/imperial-knights.yaml` — 22 datasheets with MFM points:
   `points_first` (1st copy), `points_additional` (each 2nd+ copy, 11e escalating
   pricing), and any point-costed `wargear`.
+- `profiles/imperial-knights.yaml` — full datasheet profiles (stat line, ranged
+  & melee weapons with A/BS-WS/S/AP/D + abilities, unit abilities, damaged
+  bracket, keywords, wargear) for the 10 datasheets in the faction pack
+  (Destrier + the Imperial Armour / Forge World knights). Hand-transcribed from
+  the PDF; core Codex knights' profiles are not in that pack (a known gap).
 
 ### Sources
 
@@ -85,10 +91,14 @@ bundle (see `scratchpad` extractor scripts).
 
 - **Disposition + mission scoring rules** (`summary` / `objective` = TODO) —
   needed for the practice layer; pull from the gdmissions Missions section.
-- **Datasheet profiles** (stats/weapons/abilities) not yet modelled — points are
-  in (from the MFM) but the full profiles from the faction pack PDF are not.
+- **Codex datasheet profiles** — profiles are in for the 10 faction-pack
+  datasheets, but the core Codex knights (Paladin, Crusader, Castellan, Valiant,
+  Warden, Errant, Gallant, Preceptor, Defender, Warglaive, Helverin, Canis Rex)
+  have points but no profile yet (not in the faction pack).
 - **Practice layer** — disposition/mission scoring rules (see above) to turn a
   chosen disposition into a list of what to drill.
+- **Mathhammer** — with profiles in, expected-damage / kill-odds is now feasible
+  (parse the dice-valued A/D fields).
 
 ## Tests
 
