@@ -98,10 +98,10 @@ PyYAML the only dep.
   6-model version on firepower, OC and board presence.
 
 ## Imperial Agents allies (data/allies/agents.yaml)
-- Knights (IMPERIUM) can take **Assigned Agents** allies (Agents of the Imperium units
-  with that faction tag). Exact points cap is in Codex: Imperial Agents (NOT in hand —
-  CONFIRM; a single 60-pt Navigator is minimal/almost certainly legal). Allies don't get
-  the Knights detachment rule/enhancements.
+- Knights (IMPERIUM) can take **Assigned Agents** allies. The allowance is a UNIT-TYPE
+  cap, NOT points: at 2000 pts = **2 Retinue units + 2 Characters + 1 Requisitioned unit**
+  (~5 cheap units available). Allies don't get the Knights detachment rule/enhancements.
+  Navigator/Inquisitor/Priest = Characters; Voidsmen/Inquisitorial Agents = Retinue.
 - **Navigator (60 pts)** = the premier cheap home-sitter. HIDDEN (INFANTRY in dense terrain, not
   shooting) = not visible beyond detection range (default 15"); **GONE TO GROUND** (hidden +
   obscured by dense terrain + didn't shoot this/last turn) = −3" → **detection range 12"**. So

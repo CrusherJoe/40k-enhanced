@@ -1,8 +1,16 @@
 # Imperial Agents allies for an Imperial Knights (IMPERIUM) army.
 # Mechanism: "Assigned Agents" — Agents of the Imperium units with that faction
-# tag can be included in another IMPERIUM army. The exact points allowance is in
-# Codex: Imperial Agents (NOT in the faction pack) — CONFIRM THE CAP before use.
-# They do NOT gain the Knights detachment rule/enhancements (they don't need to).
+# tag can be included in another IMPERIUM army. They do NOT gain the Knights
+# detachment rule/enhancements (they don't need to).
+#
+# ALLOWANCE is a UNIT-TYPE cap, not a points cap. At 2000 pts you may include:
+#   - 2 Retinue units       (henchmen / bodyguard-type units, e.g. Voidsmen-at-Arms,
+#                            Inquisitorial Agents — often assigned to a Character)
+#   - 2 Characters          (e.g. Navigator, Inquisitor, Ministorum Priest)
+#   - 1 Requisitioned unit  (one free-standing Agents unit)
+# So up to ~5 cheap Agents units are available -- a real answer to the Knights'
+# body shortage. BUT: Agents are fragile (T3, low OC) and add no offense to speak
+# of, so piling them on trades away Knights firepower. Take what earns its role.
 #
 # Points from MFM / BSData wh40k-11e (Imperium - Agents of the Imperium.json).
 # Cheap backfield sitters / support for a low-model Knight army.
@@ -52,9 +60,11 @@
   keywords: [Infantry, Character, Imperium, Agents of the Imperium]
   role: Leader character; utility.
 
-# OPEN ITEMS (confirm before finalising an allied list):
-# - The "Assigned Agents" points cap (Codex rule not in hand). A single 60-pt
-#   Navigator is minimal and almost certainly legal, but confirm the exact limit.
+# Roles (confirm exact Retinue/Requisitioned assignment vs the Agents codex):
+#   Navigator, Inquisitor, Ministorum Priest = Characters (2 allowed).
+#   Voidsmen-at-Arms, Inquisitorial Agents   = Retinue-type units (2 allowed).
+#   + 1 Requisitioned unit of your choice.
+#
 # GONE TO GROUND (user-supplied text; not in the core-rules PDF — app/updated ruleset):
 #   A model has gone to ground while ALL of: (a) it is hidden; (b) it is not fully
 #   visible to the attacker due to intervening DENSE terrain; (c) its unit made no
