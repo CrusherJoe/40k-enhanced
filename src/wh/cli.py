@@ -235,6 +235,28 @@ def _resolve_profile_name(part: str) -> str:
     sys.exit(f"ambiguous {part!r}: {', '.join(hits)}")
 
 
+def cmd_layouts(args) -> None:
+    """Terrain-layout intel for a disposition's matchups."""
+    disp = _resolve(args.disposition)
+    disps = data.dispositions()
+    try:
+        L = data.layouts(disp)
+    except FileNotFoundError:
+        sys.exit(f"no layout data for {disps[disp].name} (only Purge the Foe ingested so far)")
+    b = L["board"]
+    ol = b["objective_layout"]
+    print(f"Board: {b['size']}, {b['terrain_areas']} terrain areas (all obscuring/cover).")
+    print(f"Objectives ({b['objectives']}): {ol['home']} home, {ol['central']} central (NML), "
+          f"{ol['expansion']} expansion (flanks).\n")
+    for n in b["universal_notes"]:
+        print(f"  - {n}")
+    print("\nMatchups (your mission vs theirs; A/B/C deployment geometry):")
+    for m in L["matchups"]:
+        opp = disps[m["vs"]].name
+        geos = " / ".join(f"{k}:{v['deployment']}" for k, v in m["layouts"].items())
+        print(f"  vs {opp:<16} {m['your_mission']:<18} [{geos}]")
+
+
 def cmd_detachments(_args) -> None:
     dets = data.detachments()
     disps = data.dispositions()
@@ -484,6 +506,10 @@ def build_parser() -> argparse.ArgumentParser:
     pr2 = sub.add_parser("practice", help="what a disposition rewards + what to drill")
     pr2.add_argument("disposition")
     pr2.set_defaults(fn=cmd_practice)
+
+    ly = sub.add_parser("layouts", help="terrain-layout intel for a disposition's matchups")
+    ly.add_argument("disposition")
+    ly.set_defaults(fn=cmd_layouts)
 
     dm = sub.add_parser("damage", help="expected damage of a unit's weapons vs a target")
     dm.add_argument("unit")

@@ -108,6 +108,12 @@ def secondaries() -> list[dict]:
 
 
 @functools.cache
+def layouts(disposition: str = "purge-the-foe") -> dict:
+    """Terrain-layout data for a disposition's matchups (board + per-matchup layouts)."""
+    return _load_yaml(f"layouts/{disposition}.yaml")
+
+
+@functools.cache
 def matrix() -> dict[str, dict[str, str]]:
     """cells[you_key][opponent_key] -> mission name you play."""
     return _load_yaml("matrix.yaml")["cells"]

@@ -1,0 +1,73 @@
+# Terrain layouts for the 5 Purge-the-Foe matchups (Event Companion, pp.12-14,
+# 24-35). Read from the map diagrams -- geometry is approximate, the universal
+# facts below are exact. "You" = the Purge-the-Foe player (your mission first).
+#
+# Every layout uses the standard 16-area terrain manifest (see
+# docs/core-rules-reference.md): all areas are OBSCURING (grant cover), some
+# dense (also block line of sight). Deployment zones are ~depth listed; NML =
+# No Man's Land between them.
+
+board:
+  size: 44x60 inches
+  terrain_areas: 16          # same manifest every layout; all obscuring
+  objectives: 6              # standard across all Purge-the-Foe layouts:
+  objective_layout:
+    home: 2                  # one in each deployment zone (castle icon)
+    central: 2               # in No Man's Land (skull-in-circle)
+    expansion: 2             # on the flanks / DZ edges (skull-in-diamond)
+  universal_notes:
+    - Center is always packed with large terrain (incl. the 8x11.5 polygons) --
+      cross-board line of sight is blocked, so you cannot sit in your deployment
+      zone and shoot turn 1. You must advance to open firing lanes and to reach
+      the two central objectives.
+    - The two central objectives sit in NML terrain -- contesting them means
+      moving models into cover mid-board (they gain cover too; good for you).
+    - Expansion objectives are near the flanks; home objectives are deep in each
+      deployment zone (hard for the enemy to reach = safe VP if you hold yours).
+
+matchups:
+  - vs: take-and-hold
+    your_mission: Unstoppable Force
+    opp_mission: Immovable Object
+    pages: [12, 13, 14]
+    layouts:
+      A: {deployment: diagonal, note: "Crucible-style corners; long approach, castle a corner"}
+      B: {deployment: diagonal, note: "Tipping-point swirl NML; central terrain cluster"}
+      C: {deployment: horizontal, note: "Dawn of War (red top/blue bottom, ~18\" zones); ~8\" NML gap, close"}
+
+  - vs: purge-the-foe
+    your_mission: Meatgrinder
+    opp_mission: Meatgrinder
+    mirror: true
+    pages: [24, 25, 26]
+    layouts:
+      A: {deployment: diagonal, note: "Sweeping/tipping-point diagonal"}
+      B: {deployment: diagonal, note: "Offset corners, heavy mid terrain"}
+      C: {deployment: vertical, note: "Hammer-and-Anvil (red left/blue right, ~14\" zones); wide NML"}
+
+  - vs: disruption
+    your_mission: Punishment
+    opp_mission: Delaying Action
+    pages: [27, 28, 29]
+    layouts:
+      A: {deployment: diagonal, note: "Crucible diagonal with S-curve NML"}
+      B: {deployment: horizontal, note: "Red top/blue bottom, offset"}
+      C: {deployment: vertical, note: "Red left/blue right ~14\" zones"}
+
+  - vs: reconnaissance
+    your_mission: Consecrate
+    opp_mission: Triangulation
+    pages: [30, 31, 32]
+    layouts:
+      A: {deployment: horizontal, note: "Dawn of War, ~18-19\" zones, close NML"}
+      B: {deployment: vertical, note: "Red left/blue right ~12\" zones"}
+      C: {deployment: diagonal, note: "Clean Crucible diagonal"}
+
+  - vs: priority-assets
+    your_mission: Destroyer's Wrath
+    opp_mission: Vital Link
+    pages: [33, 34, 35]
+    layouts:
+      A: {deployment: vertical, note: "Red left ~12\" / blue right; vertical NML"}
+      B: {deployment: diagonal, note: "Tipping-point swirl"}
+      C: {deployment: horizontal, note: "Dawn of War, red top ~18\" / blue bottom"}

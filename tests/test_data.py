@@ -78,6 +78,14 @@ class MissionScoring(unittest.TestCase):
             self.assertIn("name", s)
             self.assertTrue(s.get("tactical"), f"{s['name']} has no tactical scoring")
 
+    def test_purge_layouts_cover_all_five_matchups(self):
+        L = data.layouts("purge-the-foe")
+        self.assertEqual(L["board"]["objectives"], 6)
+        vs = {m["vs"] for m in L["matchups"]}
+        self.assertEqual(vs, set(data.dispositions()))  # all 5 opponents
+        for m in L["matchups"]:
+            self.assertEqual(set(m["layouts"]), {"A", "B", "C"})
+
 
 class DetachmentIntegrity(unittest.TestCase):
     def test_dispositions_reference_valid_keys(self):
