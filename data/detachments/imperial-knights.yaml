@@ -338,16 +338,21 @@ detachments:
     dp: 2
     rule:
       name: Dauntless Defenders
-      text: "At the start of the first battle round, select two objective markers on the battlefield to\
-        \ be your foundations. When you draw a line from any part of one of your foundations to the other,\
-        \ if any part of a model’s base (or any part of a model’s hull, for a model without a base) crosses\
-        \ that line, that model’s unit is said to be on your defensive line.\n\nWhile an **IMPERIAL KNIGHTS**\
-        \ unit from your army is on your defensive line, that unit has the following ability:\n\n**Against\
-        \ the Horde**: Each time a model in this unit makes an attack that targets a visible enemy unit,\
-        \ you can ignore any or all modifiers to the Hit roll, and weapons equipped by models in this unit\
-        \ have the **[SUSTAINED HITS 1]** ability. \n\nEach time one of your foundations is removed from\
-        \ the battlefield (e.g. by a Primary Mission rule), just after it is removed, select a new objective\
-        \ marker on the battlefield to be one of your foundations."
+      # Updated per Faction Pack v1.1 Rules Updates (supersedes the base-Codex
+      # wording). Foundations are now two chosen OBJECTIVES with a "circular
+      # foundation marker" placed in each; the line is closest-part to
+      # closest-part between the two markers. NOTE: the faction pack does not
+      # give the foundation marker a size -- the core rules define an *objective*
+      # marker as a flat circular 40mm marker (measure to/from its closest part),
+      # and the foundation marker inherits that convention in practice.
+      # IMPORTANT: "ignore modifiers to the Hit roll" does NOT beat Benefit of
+      # Cover, which worsens the BS *characteristic* (a different modifier type).
+      text: |-
+        At the start of the first battle round, select two objectives to be your foundations. Place a circular foundation marker in each one. When you draw a line from the closest part of one foundation marker to the closest part of the other, if any part of a model's base (or any part of a model's hull, for a model without a base) crosses that line, that model's unit is said to be on your defensive line.
+
+        While an **IMPERIAL KNIGHTS** unit from your army is on your defensive line, that unit has the following ability:
+
+        **Against the Horde**: Each time a model in this unit makes an attack that targets a visible enemy unit, you can ignore any or all modifiers to the Hit roll, and weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability.
       lore: With a rigid, strategic intuition born of the unyielding fortifications defended by their ancestors,
         the Nobles of a Gate Warden Lance hold their ground with an arrogant superiority. While even one
         defends the marches of their claimed realm, they will fight to the ends of their honour to hurl

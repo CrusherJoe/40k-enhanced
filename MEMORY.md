@@ -95,9 +95,18 @@ PyYAML the only dep.
   Bondsman aura; the Armiger is the RECIPIENT. So e.g. *Lancer's Duty (Bondsman):
   "may charge after Advancing"* buffs a nearby Armiger, NOT the Lancer itself —
   the Lancer does not advance-and-charge.
-- **39k.pro rules text is CONFIRMED ACCURATE in all cases** (user, 2026-07) — the
-  detachment rule/enhancement/stratagem text scraped from 39k is trustworthy; do
-  NOT hedge it. (Only 39k's *dispositions* were stale, now corrected.)
+- **39k.pro rules text is accurate for the FACTION-PACK detachments**, but the
+  BASE-CODEX detachments got Rules Updates in the Faction Pack that supersede 39k.
+  Gate Warden's Dauntless Defenders was stale (updated to: two chosen OBJECTIVES,
+  place a "circular foundation marker" in each, line = closest-part to closest-part
+  between markers). Valourstrike's Bold Gallantry already matched (army-wide: any IK
+  unit Advances → ALL IK ranged weapons gain [ASSAULT] till end of turn — advance one
+  throwaway unit and the whole army can advance-and-shoot). Always check the Faction
+  Pack Rules Updates section (docs/ik_faction_pack_v1.1.pdf) for base-Codex detachments.
+- **Marker sizes:** core rules define an OBJECTIVE marker as a flat circular 40mm
+  marker; measure to/from its closest part. A "circular foundation marker" (Gate
+  Warden) has NO explicit size defined anywhere — it inherits the 40mm circular
+  convention in practice (confirm with TO for tournaments).
 - **Bearer of the Lancer's Sigil** (Valourstrike, 25 pts) = "select one OTHER
   IMPERIAL KNIGHTS model within 12" — re-roll its charge." Bearer excluded, so it
   can't self-target; put it on a model near your charging threat.
