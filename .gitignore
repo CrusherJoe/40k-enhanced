@@ -13,3 +13,6 @@ tools/mfm.html
 tools/*.yaml
 tools/mfm_chunks/
 tools/*.json
+
+# Personal Claude Code settings (permissions, etc.)
+.claude/settings.local.json
