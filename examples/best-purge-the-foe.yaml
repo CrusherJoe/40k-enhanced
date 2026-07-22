@@ -1,6 +1,7 @@
 # FINAL list: Valourstrike + Dominus, Purge the Foe.
-# Knights portion validates here (1925); a Navigator ally (60, home anchor) brings
-# the full army to 1985/2000 -- the tool can't validate allies, see data/allies/agents.yaml.
+# Knights portion validates here (1925); a Navigator ally (75, home anchor) brings
+# the full army to exactly 2000/2000 -- the tool can't validate allies, see data/allies/agents.yaml.
+# (Navigator points: MFM/BSData say 60, the 40k app says 75; using 75 to be safe.)
 #   PYTHONPATH=src python3 -m wh build examples/best-purge-the-foe.yaml
 name: FINAL - Valourstrike + Dominus (Purge the Foe) + Navigator
 detachments: [valourstrike-lance, dominus-foebreakers]

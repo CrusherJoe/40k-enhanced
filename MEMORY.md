@@ -96,18 +96,18 @@ PyYAML the only dep.
 - **FINAL list (examples/best-purge-the-foe.yaml, 1985/2000):** Castellan A (Archeotech
   Autoloaders = variance fix), Castellan B (Blessed Plate = T13), Crusader (RFBC +
   Judicant's Helm → feeds IGNORES COVER to a Castellan), 2 Helverin, 2 Warglaive, +
-  Navigator ally (60, home anchor). Enhancement placement: DOMINUS enh (Archeotech/
-  Blessed Plate) must go on Castellans; Judicant (buffs ANOTHER model, needs a Character
-  bearer — NOT an Armiger) goes on the Crusader so both Castellans keep self-buffs.
-  Swapping an Armiger→Navigator freed 80 pts to fit RFBC + all 3 enhancements. Tool
-  validates the Knights portion (1925); it can't validate the Navigator ally.
+  Navigator ally (75, home anchor) → army = exactly 2000/2000. Enhancement placement:
+  DOMINUS enh (Archeotech/Blessed Plate) must go on Castellans; Judicant (buffs ANOTHER
+  model, needs a Character bearer — NOT an Armiger) goes on the Crusader so both Castellans
+  keep self-buffs. Swapping an Armiger→Navigator freed points to fit RFBC + all 3
+  enhancements. Tool validates the Knights portion (1925); it can't validate the Navigator ally.
 
 ## Imperial Agents allies (data/allies/agents.yaml)
 - Knights (IMPERIUM) can take **Assigned Agents** allies. The allowance is a UNIT-TYPE
   cap, NOT points: at 2000 pts = **2 Retinue units + 2 Characters + 1 Requisitioned unit**
   (~5 cheap units available). Allies don't get the Knights detachment rule/enhancements.
   Navigator/Inquisitor/Priest = Characters; Voidsmen/Inquisitorial Agents = Retinue.
-- **Navigator (60 pts)** = the premier cheap home-sitter. HIDDEN (INFANTRY in dense terrain, not
+- **Navigator (75 pts** — MFM/BSData say 60, the 40k app says 75; use 75 to be safe) = the premier cheap home-sitter. HIDDEN (INFANTRY in dense terrain, not
   shooting) = not visible beyond detection range (default 15"); **GONE TO GROUND** (hidden +
   obscured by dense terrain + didn't shoot this/last turn) = −3" → **detection range 12"**. So
   DIRECT fire (snipers) can't target it from >12"; its **Gaze into the Empyrean** stops enemy

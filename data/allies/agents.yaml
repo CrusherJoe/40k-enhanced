@@ -16,7 +16,8 @@
 # Cheap backfield sitters / support for a low-model Knight army.
 
 - name: Navigator
-  points: 60
+  points: 75            # SOURCE DISCREPANCY: MFM + BSData say 60, the 40k app says 75.
+                        # Using 75 (the app, usually most current) to be safe -- revisit if either updates.
   stats: {M: 6, T: 3, Sv: "5+", W: 3, Ld: "7+", OC: 1}
   invuln: "4+"
   keywords: [Infantry, Character, Psyker, Imperium, Voidfarers, Agents of the Imperium]
