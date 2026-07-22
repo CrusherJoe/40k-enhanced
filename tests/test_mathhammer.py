@@ -93,6 +93,29 @@ class Damage(unittest.TestCase):
         self.assertGreater(near, far)
 
 
+class Tactics(unittest.TestCase):
+    def test_shooting_threat_adds_move_and_advance(self):
+        from wh import tactics as tac
+        cas = tac.data.profile_for("Knight Castellan")
+        plain = {n: t for n, _, t in tac.shooting_threat(cas, assault=False)}
+        asslt = {n: t for n, _, t in tac.shooting_threat(cas, assault=True)}
+        # volcano lance 72" + 8" move = 80"; +3.5 advance = 83.5"
+        self.assertAlmostEqual(plain["Volcano lance"], 80.0)
+        self.assertAlmostEqual(asslt["Volcano lance"], 83.5)
+
+    def test_charge_threat(self):
+        from wh import tactics as tac
+        lancer = tac.data.profile_for("Cerastus Knight Lancer")
+        self.assertAlmostEqual(tac.charge_threat(lancer), 14 + 7 + 1)
+
+    def test_versus_both_directions(self):
+        from wh import tactics as tac
+        cas = tac.data.profile_for("Knight Castellan")
+        lan = tac.data.profile_for("Cerastus Knight Lancer")
+        dmg = tac.unit_damage(cas, tac.target_from_profile(lan))
+        self.assertGreater(dmg["total"], 0)
+
+
 class Practice(unittest.TestCase):
     def test_analyse_five_missions(self):
         a = practice.analyse("priority-assets")

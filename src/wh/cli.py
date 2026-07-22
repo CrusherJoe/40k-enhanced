@@ -18,6 +18,7 @@ from . import army as army_mod
 from . import data
 from . import mathhammer as mh
 from . import practice as practice_mod
+from . import tactics as tac
 
 
 def _resolve(part: str) -> str:
@@ -233,6 +234,42 @@ def _resolve_profile_name(part: str) -> str:
     if not hits:
         sys.exit(f"no datasheet matching {part!r}")
     sys.exit(f"ambiguous {part!r}: {', '.join(hits)}")
+
+
+def cmd_threat(args) -> None:
+    """Movement / threat-range for a datasheet (with and without [ASSAULT])."""
+    p = data.profile_for(_resolve_profile_name(args.unit))
+    m = p["stats"]["M"]
+    print(f"{p['name']}  (Move {m}\")")
+    print(f"\n  Shooting threat = Move [+3.5\" Advance w/ ASSAULT] + weapon Range:")
+    plain = tac.shooting_threat(p, assault=False)
+    asslt = {n: t for n, _, t in tac.shooting_threat(p, assault=True)}
+    for name, rng, threat in plain:
+        print(f"    {name:<34} {rng:>3}\" range -> {threat:5.1f}\"   (ASSAULT: {asslt[name]:5.1f}\")")
+    if p.get("melee"):
+        ac = tac.charge_threat(p, advance_charge=args.advance_charge)
+        tag = " (advance+charge)" if args.advance_charge else ""
+        print(f"\n  Melee threat{tag} = Move + {'3.5\"+' if args.advance_charge else ''}7\" charge + 1\" = {ac:.1f}\"")
+    print(f"\n  Note: on a 44x60 board with ~24-32\" No Man's Land, threat >~30\" means you can")
+    print(f"  pressure the enemy / central objectives by turn 1-2 with an Advance.")
+
+
+def cmd_versus(args) -> None:
+    """Resolve one IK datasheet's attacks into another (both directions)."""
+    a = data.profile_for(_resolve_profile_name(args.attacker))
+    d = data.profile_for(_resolve_profile_name(args.defender))
+    mods = mh.Mods(charged=args.charged)
+    ta, td = tac.target_from_profile(a), tac.target_from_profile(d)
+    ad = tac.unit_damage(a, td, mods)
+    dd = tac.unit_damage(d, ta, mods)
+    print(f"{a['name']}  (W{a['stats']['W']})  vs  {d['name']}  (W{d['stats']['W']})"
+          f"{'  [on the charge]' if args.charged else ''}:\n")
+    print(f"  {a['name']} -> {d['name']}: {ad['total']:.1f} dmg/turn "
+          f"(ranged {ad['ranged']:.1f} + melee {ad['melee']:.1f}), "
+          f"~{tac.rounds_to_kill(ad['total'], td.wounds):.1f} turns to kill")
+    print(f"  {d['name']} -> {a['name']}: {dd['total']:.1f} dmg/turn "
+          f"(ranged {dd['ranged']:.1f} + melee {dd['melee']:.1f}), "
+          f"~{tac.rounds_to_kill(dd['total'], ta.wounds):.1f} turns to kill")
 
 
 def cmd_layouts(args) -> None:
@@ -510,6 +547,17 @@ def build_parser() -> argparse.ArgumentParser:
     ly = sub.add_parser("layouts", help="terrain-layout intel for a disposition's matchups")
     ly.add_argument("disposition")
     ly.set_defaults(fn=cmd_layouts)
+
+    th = sub.add_parser("threat", help="movement / threat-range for a datasheet")
+    th.add_argument("unit")
+    th.add_argument("--advance-charge", action="store_true", help="model can charge after Advancing")
+    th.set_defaults(fn=cmd_threat)
+
+    vs2 = sub.add_parser("versus", help="resolve one IK datasheet's attacks into another")
+    vs2.add_argument("attacker")
+    vs2.add_argument("defender")
+    vs2.add_argument("--charged", action="store_true")
+    vs2.set_defaults(fn=cmd_versus)
 
     dm = sub.add_parser("damage", help="expected damage of a unit's weapons vs a target")
     dm.add_argument("unit")
