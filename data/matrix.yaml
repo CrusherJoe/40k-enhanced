@@ -1,0 +1,50 @@
+# Force Disposition Matrix (11th edition).
+# Source: https://gdmissions.app/11th/matrix  (verified against the individual
+# disposition cards at /11th/force-disposition/<key>).
+#
+# The matrix is ASYMMETRIC. Each entry is an ORDERED pair (you, opponent) and
+# gives YOUR mission. To find both players' missions in a matchup, look up
+# both (A, B) and (B, A):
+#   e.g. Take and Hold vs Purge the Foe ->
+#        the Take-and-Hold player plays "Immovable Object"
+#        the Purge-the-Foe   player plays "Unstoppable Force"
+# The diagonal (mirror matchups) gives both players the same mission.
+#
+# Keys reference dispositions.yaml. `mission` values reference missions.yaml.
+
+# cells[you][opponent] = mission you play
+cells:
+  take-and-hold:
+    take-and-hold:   Battlefield Dominance
+    purge-the-foe:   Immovable Object
+    disruption:      Determined Acquisition
+    reconnaissance:  Purge and Secure
+    priority-assets: Inescapable Dominion
+
+  purge-the-foe:
+    take-and-hold:   Unstoppable Force
+    purge-the-foe:   Meatgrinder
+    disruption:      Punishment
+    reconnaissance:  Consecrate
+    priority-assets: Destroyer's Wrath
+
+  disruption:
+    take-and-hold:   Death Trap
+    purge-the-foe:   Delaying Action
+    disruption:      Outmanoeuvre
+    reconnaissance:  Smoke and Mirrors
+    priority-assets: Locate and Deny
+
+  reconnaissance:
+    take-and-hold:   Reconnaissance Sweep
+    purge-the-foe:   Triangulation
+    disruption:      Surveil the Foe
+    reconnaissance:  Gather Intel
+    priority-assets: Search and Scour
+
+  priority-assets:
+    take-and-hold:   Secure Asset
+    purge-the-foe:   Vital Link
+    disruption:      Extract Relic
+    reconnaissance:  Vanguard Operation
+    priority-assets: Sabotage

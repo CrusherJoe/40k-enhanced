@@ -1,0 +1,41 @@
+# The 5 Force Dispositions (Warhammer 40,000 11th edition).
+# Source: https://gdmissions.app/11th/force-disposition
+#
+# Each detachment grants exactly one of these. From the dispositions your
+# chosen detachments make available, you pick ONE army disposition. At game
+# time, your disposition x opponent's disposition selects each player's mission
+# via the Force Disposition Matrix (see matrix.yaml).
+#
+# `theme` / `icon` are the gdmissions card styling, kept for later UI use.
+
+- key: take-and-hold
+  name: Take and Hold
+  icon: keep            # castle/tower
+  theme: green
+  # Objective-holding stance. Scoring-rule detail (from the Missions section)
+  # is TODO -- pull from gdmissions Missions/Rules when building the practice layer.
+  summary: TODO
+
+- key: purge-the-foe
+  name: Purge the Foe
+  icon: sword
+  theme: red
+  summary: TODO
+
+- key: reconnaissance
+  name: Reconnaissance
+  icon: eye
+  theme: teal
+  summary: TODO
+
+- key: priority-assets
+  name: Priority Assets
+  icon: arrow
+  theme: gold
+  summary: TODO
+
+- key: disruption
+  name: Disruption
+  icon: bomb
+  theme: blue
+  summary: TODO

@@ -1,0 +1,76 @@
+# Imperial Knights datasheet points (Munitorum Field Manual).
+# Source: https://mfm.warhammer-community.com/en/imperial-knights (extracted
+# from the SSR React-suspense payload; see tools/gen_points.py).
+#
+# points_first      = cost of the 1st copy of this datasheet in your army.
+# points_additional = cost of EACH 2nd-and-later copy (11e escalating pricing);
+#                     absent = flat cost / unique (Epic Hero) so only one taken.
+# wargear           = optional wargear that adds points on top of the unit cost.
+# A recent-increase marker (triangle/+N) on MFM is NOT a cost and is dropped.
+
+- name: Acastus Knight Asterius
+  points_first: 785
+  points_additional: 860
+- name: Acastus Knight Porphyrion
+  points_first: 725
+  points_additional: 800
+- name: Armiger Helverin
+  points_first: 140
+- name: Armiger Moirax
+  points_first: 150
+  points_additional: 160
+- name: Armiger Warglaive
+  points_first: 140
+- name: Canis Rex
+  points_first: 415
+- name: Cerastus Knight Acheron
+  points_first: 380
+  points_additional: 395
+- name: Cerastus Knight Atrapos
+  points_first: 405
+  points_additional: 425
+- name: Cerastus Knight Castigator
+  points_first: 380
+  points_additional: 395
+- name: Cerastus Knight Lancer
+  points_first: 415
+  points_additional: 435
+- name: Knight Castellan
+  points_first: 425
+  points_additional: 450
+- name: Knight Crusader
+  points_first: 395
+  points_additional: 415
+  wargear:
+  - name: Rapid-fire battle cannon
+    points: 15
+- name: Knight Defender
+  points_first: 400
+  points_additional: 420
+- name: Knight Destrier
+  points_first: 265
+  points_additional: 280
+- name: Knight Errant
+  points_first: 355
+  points_additional: 370
+- name: Knight Gallant
+  points_first: 355
+  points_additional: 370
+- name: Knight Paladin
+  points_first: 375
+  points_additional: 390
+- name: Knight Preceptor
+  points_first: 365
+  points_additional: 380
+- name: Knight Valiant
+  points_first: 400
+  points_additional: 415
+- name: Knight Warden
+  points_first: 375
+  points_additional: 390
+- name: Questoris Knight Magaera
+  points_first: 385
+  points_additional: 400
+- name: Questoris Knight Styrix
+  points_first: 375
+  points_additional: 390

@@ -1,0 +1,18 @@
+# Example 2000-pt Imperial Knights list. Validate with:
+#   PYTHONPATH=src python3 -m wh build examples/sample-list.yaml
+name: Dominus Gunline
+points_limit: 2000
+detachments:            # 1 + 2 = 3 DP
+  - dominus-foebreakers
+  - gate-warden-lance
+disposition: priority-assets   # granted by Dominus Foebreakers
+units:
+  - datasheet: Knight Castellan
+    count: 1
+    enhancement: Blessed Plate       # Dominus Foebreakers enhancement (+30)
+  - datasheet: Acastus Knight Porphyrion
+    count: 1
+  - datasheet: Knight Crusader
+    count: 1
+  - datasheet: Armiger Warglaive
+    count: 3

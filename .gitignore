@@ -1,0 +1,14 @@
+# Large source reference PDFs (see docs/SOURCES.md to re-download)
+docs/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Scratch / extractor working files (the bundle + fetched HTML are huge)
+tools/app.js
+tools/mfm.html
+tools/*.yaml
+tools/mfm_chunks/

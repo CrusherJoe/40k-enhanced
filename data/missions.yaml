@@ -1,0 +1,112 @@
+# The 25 missions produced by the Force Disposition Matrix (11th edition).
+# Each mission is what ONE player plays in a given ordered disposition matchup
+# (you-disposition vs opponent-disposition). See matrix.yaml.
+#
+# `objective` / scoring detail is TODO -- pull from the gdmissions Missions
+# section when we build the practice layer. `you` = your disposition that
+# triggers this mission; `vs` = the opponent disposition.
+
+- name: Battlefield Dominance
+  you: take-and-hold
+  vs: take-and-hold
+  objective: TODO
+- name: Immovable Object
+  you: take-and-hold
+  vs: purge-the-foe
+  objective: TODO
+- name: Determined Acquisition
+  you: take-and-hold
+  vs: disruption
+  objective: TODO
+- name: Purge and Secure
+  you: take-and-hold
+  vs: reconnaissance
+  objective: TODO
+- name: Inescapable Dominion
+  you: take-and-hold
+  vs: priority-assets
+  objective: TODO
+
+- name: Unstoppable Force
+  you: purge-the-foe
+  vs: take-and-hold
+  objective: TODO
+- name: Meatgrinder
+  you: purge-the-foe
+  vs: purge-the-foe
+  objective: TODO
+- name: Punishment
+  you: purge-the-foe
+  vs: disruption
+  objective: TODO
+- name: Consecrate
+  you: purge-the-foe
+  vs: reconnaissance
+  objective: TODO
+- name: Destroyer's Wrath
+  you: purge-the-foe
+  vs: priority-assets
+  objective: TODO
+
+- name: Death Trap
+  you: disruption
+  vs: take-and-hold
+  objective: TODO
+- name: Delaying Action
+  you: disruption
+  vs: purge-the-foe
+  objective: TODO
+- name: Outmanoeuvre
+  you: disruption
+  vs: disruption
+  objective: TODO
+- name: Smoke and Mirrors
+  you: disruption
+  vs: reconnaissance
+  objective: TODO
+- name: Locate and Deny
+  you: disruption
+  vs: priority-assets
+  objective: TODO
+
+- name: Reconnaissance Sweep
+  you: reconnaissance
+  vs: take-and-hold
+  objective: TODO
+- name: Triangulation
+  you: reconnaissance
+  vs: purge-the-foe
+  objective: TODO
+- name: Surveil the Foe
+  you: reconnaissance
+  vs: disruption
+  objective: TODO
+- name: Gather Intel
+  you: reconnaissance
+  vs: reconnaissance
+  objective: TODO
+- name: Search and Scour
+  you: reconnaissance
+  vs: priority-assets
+  objective: TODO
+
+- name: Secure Asset
+  you: priority-assets
+  vs: take-and-hold
+  objective: TODO
+- name: Vital Link
+  you: priority-assets
+  vs: purge-the-foe
+  objective: TODO
+- name: Extract Relic
+  you: priority-assets
+  vs: disruption
+  objective: TODO
+- name: Vanguard Operation
+  you: priority-assets
+  vs: reconnaissance
+  objective: TODO
+- name: Sabotage
+  you: priority-assets
+  vs: priority-assets
+  objective: TODO
