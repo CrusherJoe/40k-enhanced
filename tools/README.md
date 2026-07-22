@@ -61,3 +61,31 @@ wargear name to slot S:N). A `▲ (+N)` prefix flags a *recent points increase*,
 not a cost to add — it is stripped. Output was written to
 `../data/datasheets/imperial-knights.yaml`. Enhancement points also come from
 the MFM (and matched 39k's values, cross-checking both sources).
+
+## gen_profiles.py — BSData datasheet profiles (authoritative)
+
+All 22 IK datasheet profiles come from the **BSData wh40k-11e** community
+catalogue (https://github.com/BSData/wh40k-11e), which is far better than
+transcribing PDFs — it's structured, complete (incl. the core Codex knights),
+and self-validating.
+
+```bash
+# Download the IK library JSON (gitignored; ~1.1 MB).
+curl -sL "https://raw.githubusercontent.com/BSData/wh40k-11e/main/Imperium%20-%20Imperial%20Knights%20-%20Library.json" -o ik_lib.json
+python3 gen_profiles.py        # -> profiles_bsdata.yaml, spliced to ../data/profiles/imperial-knights.yaml
+```
+
+BattleScribe/BSData structure the resolver handles:
+- datasheet = a `model`/`unit` sharedSelectionEntry; the `unit` wrapper
+  (Canis Rex) holds its stat line on nested `model` sub-entries (knight + pilot).
+- stat line = the "Unit" typeName profile (M/T/Sv/W/LD/OC/InSv; `*` = invuln
+  vs ranged only).
+- weapons = "Ranged/Melee Weapons" profiles reached by walking the wargear tree
+  (selectionEntries + selectionEntryGroups + entryLinks → shared entries/groups).
+- abilities = "Abilities" profiles + `infoGroups` (Bondsman Duties) + rule
+  infoLinks. Only `Deadly Demise`/`Lone Operative` (core) and `Code Chivalric`/
+  `Super-Heavy Walker` (faction) are kept; other rule links are weapon keywords.
+  The Deadly Demise VALUE is an `append` name-modifier on the infoLink.
+- damaged = a "Damaged: N-M …" profile infoLink; keywords = categoryLinks;
+  points = costs.pts (cross-checked vs MFM — all match except a lagging
+  Castellan; MFM stays the points source of truth).

@@ -105,7 +105,7 @@ class PointsIntegrity(unittest.TestCase):
 class ProfileIntegrity(unittest.TestCase):
     def test_profiles_load(self):
         profs = data.profiles()
-        self.assertEqual(len(profs), 10)
+        self.assertEqual(len(profs), 22)  # all IK datasheets, from BSData
 
     def test_profile_names_have_points(self):
         # every profiled datasheet should also have an MFM points entry

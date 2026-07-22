@@ -117,8 +117,8 @@ def datasheets(faction_file: str = "imperial-knights.yaml") -> list[Datasheet]:
 def profiles(faction_file: str = "imperial-knights.yaml") -> dict[str, dict]:
     """Datasheet name -> full profile dict (stats/weapons/abilities).
 
-    Covers only the datasheets present in the faction pack (see the profiles
-    YAML header); returns {} entry absent for Codex-only datasheets.
+    All 22 IK datasheets, generated from the BSData wh40k-11e catalogue by
+    tools/gen_profiles.py (see the profiles YAML header).
     """
     return {p["name"]: p for p in _load_yaml(f"profiles/{faction_file}")}
 

@@ -12,3 +12,4 @@ tools/app.js
 tools/mfm.html
 tools/*.yaml
 tools/mfm_chunks/
+tools/*.json

@@ -15,9 +15,10 @@ PyYAML the only dep.
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
   stratagems, enhancement points.
 - 22 datasheets with MFM points (1st-copy / each-2nd+-copy escalating, + wargear).
-- Full profiles (stats/weapons/abilities) for the 10 faction-pack datasheets
-  (Destrier + Imperial Armour knights) in `data/profiles/imperial-knights.yaml`,
-  hand-transcribed from the PDF. Moirax conversion beam cannon flagged `verify`.
+- Full profiles (stats/weapons/abilities/damaged/keywords) for ALL 22 datasheets
+  in `data/profiles/imperial-knights.yaml`, generated from the **BSData wh40k-11e**
+  catalogue by `tools/gen_profiles.py` (replaced the earlier hand-transcribed 10;
+  BSData caught a transcription error -- Moirax conversion beam cannon is A1 not A2).
 - CLI: `dispositions, matrix, matchup, spread, detachments, show, points, profile, plan, build`.
 - **List builder** (`build`) validates DP=3, unique-group, disposition legality,
   enhancement ownership/dupes, Rule of Three (max 3/datasheet), points budget;
@@ -27,6 +28,12 @@ PyYAML the only dep.
 ## Non-obvious facts / gotchas
 - "Force disposition" is the formal 11e mission mechanic (5 dispositions → 5×5
   asymmetric matrix → each player's mission), NOT an archetype concept.
+- **BSData wh40k-11e** (github.com/BSData/wh40k-11e) is the BEST source: per-faction
+  BattleScribe catalogue in JSON, all datasheets w/ profiles+points. IK = two files
+  (small catalogue + 1.1MB Library). This is the authoritative profiles source; also
+  cross-validates MFM points (only Castellan lagged). New Recruit (newrecruit.eu)
+  also readable: Nuxt SPA, list API = GET api.newrecruit.eu/api/rpc?m=user_get_list&key=<id>
+  (returns full list JSON), but BSData is better for the underlying rules data.
 - **Data sources** (full detail in `tools/README.md`):
   - gdmissions.app: matrix in page HTML; disposition/mission cards are PNGs.
   - 39k.pro: whole dataset embedded in its Vite JS bundle (string-aware parser

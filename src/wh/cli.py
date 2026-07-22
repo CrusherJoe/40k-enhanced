@@ -215,12 +215,16 @@ def cmd_profile(args) -> None:
     dmg = p.get("damaged")
     if dmg:
         print(f"\n  DAMAGED ({dmg['threshold']} W): {dmg['text']}")
+    for ep in p.get("extra_profiles", []):
+        s = ep["stats"]
+        print(f'\n  + {ep["name"]}: M {s["M"]}"  T {s["T"]}  Sv {s["Sv"]}  W {s["W"]}  Ld {s["Ld"]}  OC {s["OC"]}')
     if p.get("wargear_options"):
         print("\n  WARGEAR OPTIONS")
         for o in p["wargear_options"]:
             print(_indent(f"- {o}", 4))
-    print(f"\n  Equipped: {p.get('equipped', '')}")
-    print(f"  Keywords: {', '.join(p.get('keywords', []))}")
+    if p.get("equipped"):
+        print(f"\n  Equipped: {p['equipped']}")
+    print(f"\n  Keywords: {', '.join(p.get('keywords', []))}")
 
 
 def cmd_plan(_args) -> None:
