@@ -4,7 +4,10 @@ Given a weapon profile (from data/profiles) and a target, compute expected
 damage using an EV model that handles the common weapon abilities:
 BLAST, RAPID FIRE X, TORRENT, SUSTAINED HITS X, LETHAL HITS, TWIN-LINKED,
 DEVASTATING WOUNDS, ANTI-<kw> N+, MELTA X, LANCE, HEAVY, plus hit/wound
-modifiers and re-rolls passed via `Mods`.
+modifiers and re-rolls passed via `Mods`. Rules verified against the 11e core
+rules PDF (see docs/core-rules-reference.md); notably cover is a -1 to HIT
+(11e 13.08), not a save bonus, and Devastating Wounds crit-wounds become mortal
+wounds equal to Damage (24.10).
 
 This is an EV approximation (not a full distribution) and deliberately ignores
 per-model wound spillover and some rare interactions; it is meant for comparing
@@ -83,7 +86,12 @@ def expected_damage(weapon: dict, target: Target, mods: Mods | None = None) -> f
     # --- hit ---
     torrent = "TORRENT" in kw
     skill = dice.target_number(weapon.get("WS") or weapon.get("BS"))
-    hit_mod = mods.hit + (1 if ("HEAVY" in kw and mods.stationary and not melee) else 0)
+    # 11e cover (13.08): benefit of cover worsens the attack's BS by 1 (a -1 to
+    # HIT for ranged attacks), NOT a save bonus. Ignored by [IGNORES COVER] and
+    # irrelevant to melee and to auto-hitting TORRENT weapons.
+    cover_hit = -1 if (target.in_cover and not melee and not torrent
+                       and "IGNORES COVER" not in kw) else 0
+    hit_mod = mods.hit + cover_hit + (1 if ("HEAVY" in kw and mods.stationary and not melee) else 0)
     crit_hit_rate = (7 - mods.crit_hit) / 6.0
     if torrent:
         p_hit, crit_hits = 1.0, 0.0
@@ -127,11 +135,9 @@ def expected_damage(weapon: dict, target: Target, mods: Mods | None = None) -> f
     if "MELTA" in kw and target.half_range:
         dmg += _arg(kw["MELTA"])
 
-    # --- saves ---
+    # --- saves ---  (cover does NOT affect saves in 11e; see cover_hit above)
     ap = int(weapon["AP"]) - mods.ap_bonus         # ap is <=0; ap_bonus makes it more negative
-    armour = dice.target_number(target.save) - ap  # -ap because ap is negative
-    cover = 1 if (target.in_cover and "IGNORES COVER" not in kw) else 0
-    armour_need = armour - cover
+    armour_need = dice.target_number(target.save) - ap  # -ap because ap is negative
     inv_need = dice.target_number(target.invuln) if target.invuln else 99
     save_need = min(armour_need, inv_need)
     p_fail = 1.0 if save_need > 6 else 1 - (7 - max(2, save_need)) / 6.0

@@ -30,12 +30,48 @@ PyYAML the only dep.
   Actions to drill + fitting secondaries. `wh practice <disposition>`.
 - CLI: `dispositions, matrix, matchup, spread, mission, secondaries, secondary, practice, damage,
   detachments, show, points, profile, plan, build`.
-- User owns **2 Knight Castellans** (the DOMINUS anchor for Dominus Foebreakers lists). Only Castellan
-  & Valiant have the DOMINUS keyword. Collection otherwise unknown (need to ask to finalize lists).
+- User owns **the full Knight range + 6 Warglaives + 6 Helverins** (incl. 2 Castellans, 2 Lancers).
+  Only Castellan & Valiant have the DOMINUS keyword. Prefers **aggressive / kill-focused** play.
+- **User's actual list** (built around Purge the Foe): 2 Castellans, 1 Crusader (rapid-fire battle
+  cannon), 1 Lancer, 1 Helverin, 1 Warglaive = 1980/2000. Best home now = **Valourstrike + Dominus →
+  Purge the Foe** (Bold Gallantry's [ASSAULT] lets the 8"-move Castellans Advance + fire full salvo).
+  Only 20 pts spare, so multiple 25-pt enhancements require cutting a model.
 - **List builder** (`build`) validates DP=3, unique-group, disposition legality,
   enhancement ownership/dupes, Rule of Three (max 3/datasheet), points budget;
   costs with escalating pricing.
 - Tests: `python3 tests/test_data.py` + `python3 tests/test_army.py` (both green).
+
+## Core rules (11e) — verified against the official PDF (docs/core-rules-reference.md)
+- **COVER = −1 to HIT (worsen BS by 1), NOT a save bonus** (11e 13.08; changed from
+  10e). Ranged only; [IGNORES COVER] cancels it. In 11e **Stealth grants benefit of
+  cover**. Mathhammer engine was fixed to model this (was wrongly +1 save). Cover
+  costs a Castellan ~3.6 dmg/salvo into a target in terrain — so IGNORES COVER
+  (Judicant's Helm) + Dominus +1-hit-vs-terrain is a big deal.
+- **Devastating Wounds** (24.10): crit wound → mortal wounds = Damage (bypass saves).
+  All other weapon abilities in the engine verified correct vs the PDF.
+- Rules mechanics the tool depends on are documented in docs/core-rules-reference.md;
+  full PDF text extractable via pdftotext. gdmissions.app/11th/rules/core-rules is a
+  web copy (currency unknown). Event Companion (docs/40k_event_companion.pdf) has the
+  terrain LAYOUTS (A/B/C per matchup) as diagrams — not yet ingested.
+
+## Imperial Knights rules facts (affect list logic)
+- **Bondsman abilities are granted to ARMIGER models only** (Warglaive/Helverin/
+  Moirax), never to the big/Titanic Knights. The big Knights are the SOURCE of a
+  Bondsman aura; the Armiger is the RECIPIENT. So e.g. *Lancer's Duty (Bondsman):
+  "may charge after Advancing"* buffs a nearby Armiger, NOT the Lancer itself —
+  the Lancer does not advance-and-charge.
+- **39k.pro rules text is CONFIRMED ACCURATE in all cases** (user, 2026-07) — the
+  detachment rule/enhancement/stratagem text scraped from 39k is trustworthy; do
+  NOT hedge it. (Only 39k's *dispositions* were stale, now corrected.)
+- **Bearer of the Lancer's Sigil** (Valourstrike, 25 pts) = "select one OTHER
+  IMPERIAL KNIGHTS model within 12" — re-roll its charge." Bearer excluded, so it
+  can't self-target; put it on a model near your charging threat.
+- **Bearer of the Judicant's Helm** (Valourstrike, 25) = give one other IK model
+  [IGNORES COVER] on its ranged weapons — stacks with Dominus Foebreakers' +1 hit
+  vs units in terrain. Strong on a central Castellan feeding the Crusader/other Castellan.
+- **Dispositions moved between editions/updates:** user's old list ran Gate Warden
+  for Purge the Foe, but Gate Warden now grants Take and Hold; **Purge the Foe now
+  comes from Valourstrike Lance.** Always trust current MFM/codex over 39k.
 
 ## Non-obvious facts / gotchas
 - "Force disposition" is the formal 11e mission mechanic (5 dispositions → 5×5

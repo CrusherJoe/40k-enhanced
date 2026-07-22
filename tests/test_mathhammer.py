@@ -63,6 +63,29 @@ class Damage(unittest.TestCase):
         inv = mh.expected_damage(w, Target(toughness=10, save="3+", invuln="4+"))
         self.assertLess(inv, no_inv)  # invuln saves some of the AP-ignoring hits
 
+    def test_cover_is_minus_one_to_hit_not_save(self):
+        # 11e (13.08): cover worsens BS by 1. A bolter into cover should lose
+        # ~1/6 of its hits, and the effect must vanish vs a save-ignoring context.
+        w = {"name": "bolter", "A": 6, "BS": "3+", "S": 4, "AP": 0, "D": 1}
+        open_ = mh.expected_damage(w, Target(toughness=4, save="4+"))
+        cover = mh.expected_damage(w, Target(toughness=4, save="4+", in_cover=True))
+        self.assertLess(cover, open_)
+        # the reduction is purely on the hit step: cover hits / open hits == (3/6)/(4/6)
+        self.assertAlmostEqual(cover / open_, (3 / 6) / (4 / 6), places=6)
+
+    def test_ignores_cover_negates_cover(self):
+        w = {"name": "x", "A": 6, "BS": "3+", "S": 4, "AP": 0, "D": 1, "abilities": ["IGNORES COVER"]}
+        t_open = Target(toughness=4, save="4+")
+        t_cover = Target(toughness=4, save="4+", in_cover=True)
+        self.assertAlmostEqual(mh.expected_damage(w, t_open), mh.expected_damage(w, t_cover))
+
+    def test_torrent_ignores_cover_hit_penalty(self):
+        # torrent auto-hits, so cover's -1 BS is irrelevant
+        w = {"name": "flamer", "A": "D6", "BS": "N/A", "S": 4, "AP": 0, "D": 1, "abilities": ["TORRENT"]}
+        t_open = Target(toughness=4, save="4+")
+        t_cover = Target(toughness=4, save="4+", in_cover=True)
+        self.assertAlmostEqual(mh.expected_damage(w, t_open), mh.expected_damage(w, t_cover))
+
     def test_melta_and_half_range(self):
         w = {"name": "melta", "A": 1, "BS": "3+", "S": 9, "AP": -4, "D": "D6", "abilities": ["MELTA 2"]}
         far = mh.expected_damage(w, Target(toughness=8, save="3+"))
