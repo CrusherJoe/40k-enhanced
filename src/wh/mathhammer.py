@@ -44,6 +44,7 @@ class Mods:
     ap_bonus: int = 0            # improve AP by N (more negative)
     charged: bool = False        # for LANCE
     stationary: bool = False     # for HEAVY
+    reroll_attacks: bool = False # re-roll the Attacks dice (e.g. Archeotech Autoloaders)
     crit_hit: int = 6            # unmodified hit crits on this+
     crit_wound: int = 6
 
@@ -77,7 +78,7 @@ def expected_damage(weapon: dict, target: Target, mods: Mods | None = None) -> f
     melee = "WS" in weapon
 
     # --- attacks ---
-    attacks = dice.expected(weapon["A"])
+    attacks = dice.expected_reroll(weapon["A"]) if mods.reroll_attacks else dice.expected(weapon["A"])
     if "BLAST" in kw and target.models > 1:
         attacks += target.models // 5
     if "RAPID FIRE" in kw and target.half_range and not melee:

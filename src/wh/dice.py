@@ -27,6 +27,30 @@ def expected(expr) -> float:
     return n * (faces + 1) / 2 + bonus
 
 
+def _reroll_die(faces: int) -> float:
+    """Expected value of one fair die with an optimal single re-roll (re-roll any
+    result at or below the mean)."""
+    mean = (faces + 1) / 2
+    kept = [v for v in range(1, faces + 1) if v > mean]
+    rerolled = faces - len(kept)
+    return (sum(kept) + rerolled * mean) / faces
+
+
+def expected_reroll(expr) -> float:
+    """Expected value of a dice expression when you may re-roll the dice (used for
+    're-roll rolls to determine the Attacks', e.g. Archeotech Autoloaders). The
+    fixed bonus is unchanged; each die is re-rolled optimally."""
+    if isinstance(expr, (int, float)) or re.fullmatch(r"-?\d+", str(expr).strip()):
+        return expected(expr)
+    m = _DICE.match(str(expr).strip())
+    if not m:
+        raise ValueError(f"cannot parse dice expression: {expr!r}")
+    n = int(m.group(1) or 1)
+    faces = int(m.group(2))
+    bonus = int((m.group(3) or "0").replace(" ", ""))
+    return n * _reroll_die(faces) + bonus
+
+
 def target_number(char) -> int:
     """Turn a '3+' / 'N/A' characteristic into the number needed on a d6."""
     s = str(char).strip()

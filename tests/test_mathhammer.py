@@ -26,6 +26,13 @@ class Dice(unittest.TestCase):
         self.assertEqual(dice.wound_needed(5, 10), 6)    # 2S <= T
         self.assertEqual(dice.wound_needed(8, 10), 5)    # else
 
+    def test_expected_reroll(self):
+        # a D6 with an optimal single re-roll (re-roll 1-3) averages 4.25
+        self.assertAlmostEqual(dice.expected_reroll("D6"), 4.25)
+        self.assertAlmostEqual(dice.expected_reroll("D6+3"), 7.25)
+        self.assertAlmostEqual(dice.expected_reroll("D3"), (2.5 * 2 + 2 * 1) / 3)
+        self.assertEqual(dice.expected_reroll("1"), 1)  # fixed value unchanged
+
     def test_p_roll_clamped(self):
         self.assertAlmostEqual(dice.p_roll(3), 4 / 6)
         self.assertAlmostEqual(dice.p_roll(3, 2), 5 / 6)   # +2 clamps to 2+
