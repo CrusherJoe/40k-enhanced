@@ -29,6 +29,8 @@ python3 -m wh spread <disposition>         # your mission spread vs all opponent
 python3 -m wh mission <name>               # a primary mission's full VP scoring
 python3 -m wh secondaries                  # list the 18 secondary missions
 python3 -m wh secondary <name>             # a secondary mission's full scoring
+python3 -m wh practice <disposition>       # what the disposition rewards + what to drill
+python3 -m wh damage <unit> -T 12 -s 3+ --invuln 5+   # expected weapon damage vs a target
 python3 -m wh detachments                  # Imperial Knights detachments + status
 python3 -m wh show <detachment>            # full rule, enhancements + stratagems
 python3 -m wh points [unit]                # datasheet points (MFM), optional filter
@@ -36,6 +38,18 @@ python3 -m wh profile <unit>               # full datasheet: stats, weapons, abi
 python3 -m wh plan                         # legal 3-DP combos + dispositions unlocked
 python3 -m wh build <list.yaml>            # validate + cost an army list
 ```
+
+### Practice layer & mathhammer
+
+`practice <disposition>` takes the five missions that disposition plays into
+(one per opponent stance) and classifies their scoring into skill themes — how
+many of the five reward objective-holding vs killing vs mission-actions vs board
+spread — then lists the Objective Actions to drill and the secondaries that fit.
+
+`damage <unit>` runs an expected-value mathhammer resolver (`src/wh/mathhammer.py`)
+over a datasheet's weapons vs a target profile (`-T`/`-s`/`--invuln`/`--models`/
+`--half-range`/`--charged` …), handling BLAST, RAPID FIRE, TORRENT, SUSTAINED/
+LETHAL HITS, TWIN-LINKED, DEVASTATING WOUNDS, ANTI-*, MELTA, LANCE, HEAVY.
 
 ### Building a list
 

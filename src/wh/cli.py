@@ -16,6 +16,8 @@ from itertools import combinations
 
 from . import army as army_mod
 from . import data
+from . import mathhammer as mh
+from . import practice as practice_mod
 
 
 def _resolve(part: str) -> str:
@@ -146,6 +148,91 @@ def cmd_secondary(args) -> None:
         print("\n  TACTICAL"); _render_blocks(s["tactical"])
     if s.get("action"):
         _render_action(s["action"])
+
+
+def cmd_practice(args) -> None:
+    """What a chosen army disposition rewards, and what to drill."""
+    disp = _resolve(args.disposition)
+    disps = data.dispositions()
+    a = practice_mod.analyse(disp)
+    print(f"Practice plan for '{disps[disp].name}' — the five missions you'd play:\n")
+    for m in a["missions"]:
+        opp = disps[m.vs].name
+        print(f"  vs {opp:<16} {m.name}  (up to {m.max_vp()} VP)")
+
+    print("\nWhat these missions reward (by how many of the five feature it, then VP):")
+    for lbl, hits, vp in a["themes"]:
+        bar = "#" * hits
+        print(f"  {lbl:<24} {bar:<5} {hits}/5 missions, ~{vp:g} VP on offer")
+
+    if a["actions"]:
+        print("\nObjective Actions you'll need to execute (drill the positioning for these):")
+        for mname, aname, effect in a["actions"]:
+            print(f"  {aname:<20} ({mname}) — {effect}")
+
+    fit = practice_mod.secondary_fit(a["themes"])
+    if fit:
+        print("\nSecondaries that align with this disposition's themes:")
+        for name, overlap in fit[:8]:
+            print(f"  {name:<22} {', '.join(overlap)}")
+
+    print("\nDrill priorities (most-rewarded skills first):")
+    for lbl, hits, vp in a["themes"][:4]:
+        print(f"  - {_DRILL.get(lbl, lbl)}")
+
+
+_DRILL = {
+    "hold-objectives": "objective control: screen and hold multiple objectives across turns",
+    "central-objectives": "contest and hold the central objectives early",
+    "flip-objectives": "mid-game repositioning to flip objectives you didn't start controlling",
+    "deep-strike-into-enemy": "pushing into enemy territory / onto their home objective safely",
+    "kill-units": "target priority and efficient trading to destroy enemy units each turn",
+    "board-spread": "spreading units across table quarters / edges without losing board control",
+    "mission-action": "sequencing the mission Objective Action while staying on objectives",
+}
+
+
+def _target_from_args(args) -> mh.Target:
+    return mh.Target(
+        toughness=args.toughness, save=args.save, wounds=args.wounds,
+        invuln=args.invuln, models=args.models,
+        keywords=tuple(k.strip().upper() for k in (args.keywords or "").split(",") if k.strip()),
+        half_range=args.half_range,
+    )
+
+
+def cmd_damage(args) -> None:
+    """Expected damage of a datasheet's weapons vs a target profile."""
+    p = data.profile_for(_resolve_profile_name(args.unit))
+    tgt = _target_from_args(args)
+    mods = mh.Mods(hit=args.hit, wound=args.wound, charged=args.charged, stationary=args.stationary)
+    inv = f"/{tgt.invuln}++" if tgt.invuln else ""
+    print(f"{p['name']} vs T{tgt.toughness} Sv{tgt.save}{inv}"
+          f"{f' (x{tgt.models})' if tgt.models > 1 else ''}"
+          f"{' [half range]' if tgt.half_range else ''}:\n")
+    grand = 0.0
+    for grp, melee in (("ranged", False), ("melee", True)):
+        rows = p.get(grp, [])
+        if not rows:
+            continue
+        print(f"  {grp.upper()}")
+        for w in rows:
+            d = mh.expected_damage(w, tgt, mods)
+            grand += d if grp == "ranged" else 0  # sum ranged as the salvo
+            ab = ", ".join(w.get("abilities", []))
+            print(f"    {w['name']:<34} {d:5.2f}   [{ab}]")
+    print(f"\n  ranged salvo total ~{grand:.1f} dmg/turn")
+
+
+def _resolve_profile_name(part: str) -> str:
+    part = part.strip().lower()
+    names = list(data.profiles())
+    hits = [n for n in names if n.lower() == part] or [n for n in names if part in n.lower()]
+    if len(hits) == 1:
+        return hits[0]
+    if not hits:
+        sys.exit(f"no datasheet matching {part!r}")
+    sys.exit(f"ambiguous {part!r}: {', '.join(hits)}")
 
 
 def cmd_detachments(_args) -> None:
@@ -393,6 +480,25 @@ def build_parser() -> argparse.ArgumentParser:
     mi = sub.add_parser("mission", help="full VP scoring for a primary mission")
     mi.add_argument("mission")
     mi.set_defaults(fn=cmd_mission)
+
+    pr2 = sub.add_parser("practice", help="what a disposition rewards + what to drill")
+    pr2.add_argument("disposition")
+    pr2.set_defaults(fn=cmd_practice)
+
+    dm = sub.add_parser("damage", help="expected damage of a unit's weapons vs a target")
+    dm.add_argument("unit")
+    dm.add_argument("--toughness", "-T", type=int, default=4)
+    dm.add_argument("--save", "-s", default="3+")
+    dm.add_argument("--invuln", default=None)
+    dm.add_argument("--wounds", "-w", type=int, default=10)
+    dm.add_argument("--models", "-m", type=int, default=1)
+    dm.add_argument("--keywords", default="")
+    dm.add_argument("--half-range", action="store_true")
+    dm.add_argument("--hit", type=int, default=0, help="+/- to hit")
+    dm.add_argument("--wound", type=int, default=0, help="+/- to wound")
+    dm.add_argument("--charged", action="store_true")
+    dm.add_argument("--stationary", action="store_true")
+    dm.set_defaults(fn=cmd_damage)
 
     sub.add_parser("secondaries", help="list the 18 secondary missions").set_defaults(fn=cmd_secondaries)
     sec = sub.add_parser("secondary", help="full detail for one secondary mission")

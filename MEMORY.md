@@ -22,8 +22,16 @@ PyYAML the only dep.
 - 25 primary missions with full VP scoring + Objective Actions (11 have card reverses) in
   `data/missions.yaml`; 18 secondary missions in `data/secondary-missions.yaml`. Transcribed from
   gdmissions.app card PNGs (scoring is in images, not text; asset patterns in tools/README).
-- CLI: `dispositions, matrix, matchup, spread, mission, secondaries, secondary, detachments, show,
-  points, profile, plan, build`.
+- Mathhammer engine (`src/wh/mathhammer.py` + `src/wh/dice.py`): EV attack resolver handling BLAST,
+  RAPID FIRE, TORRENT, SUSTAINED/LETHAL HITS, TWIN-LINKED, DEVASTATING WOUNDS, ANTI-*, MELTA, LANCE,
+  HEAVY. `wh damage <unit> -T -s --invuln ...`.
+- Practice layer (`src/wh/practice.py`): classifies a disposition's 5 missions into skill themes
+  (hold-objectives / kill-units / mission-action / deep-strike / board-spread), lists Objective
+  Actions to drill + fitting secondaries. `wh practice <disposition>`.
+- CLI: `dispositions, matrix, matchup, spread, mission, secondaries, secondary, practice, damage,
+  detachments, show, points, profile, plan, build`.
+- User owns **2 Knight Castellans** (the DOMINUS anchor for Dominus Foebreakers lists). Only Castellan
+  & Valiant have the DOMINUS keyword. Collection otherwise unknown (need to ask to finalize lists).
 - **List builder** (`build`) validates DP=3, unique-group, disposition legality,
   enhancement ownership/dupes, Rule of Three (max 3/datasheet), points budget;
   costs with escalating pricing.
