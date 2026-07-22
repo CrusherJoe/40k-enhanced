@@ -1,19 +1,19 @@
-# Recommended all-comers list: Valourstrike + Dominus, Purge the Foe.
-# Body-heavy build -- beats the 6-model version on firepower, OC and board
-# presence (see analysis). 2000/2000. Validate with:
+# FINAL list: Valourstrike + Dominus, Purge the Foe.
+# Knights portion validates here (1925); a Navigator ally (60, home anchor) brings
+# the full army to 1985/2000 -- the tool can't validate allies, see data/allies/agents.yaml.
 #   PYTHONPATH=src python3 -m wh build examples/best-purge-the-foe.yaml
-name: Best all-comers - Valourstrike + Dominus (Purge the Foe)
-detachments: [valourstrike-lance, dominus-foebreakers]   # Purge the Foe from Valourstrike
+name: FINAL - Valourstrike + Dominus (Purge the Foe) + Navigator
+detachments: [valourstrike-lance, dominus-foebreakers]
 disposition: purge-the-foe
 units:
-  # Firepower core -- 2 Castellans are the DOMINUS anchor for Dominus Foebreakers;
-  # threaten the whole board by range (56-80"), the constraint is line of sight.
-  - {datasheet: Knight Castellan, count: 1, enhancement: Bearer of the Evanescent Ion}
-  - {datasheet: Knight Castellan, count: 1}
-  # Flexible mobile gun; rapid-fire battle cannon (AP-1 D3) is a sweet spot vs
-  # hordes and multi-wound infantry alike.
-  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon]}
-  # Five Armigers = bodies, OC, consistent ranged output, Bondsman recipients,
-  # and the board-control needed for Purge the Foe's hold VP + board secondaries.
-  - {datasheet: Armiger Helverin, count: 3}   # 2x autocannon each: anti-elite / light vehicle
-  - {datasheet: Armiger Warglaive, count: 2}  # thermal spear + chainsword: anti-tank / grabbers
+  # Enhancements sit on the 3 big Knights (Armigers aren't Characters). The two
+  # DOMINUS enhancements must go on Castellans; Judicant (buffs ANOTHER model) goes
+  # on the Crusader so BOTH Castellans keep their self-buffs.
+  - {datasheet: Knight Castellan, count: 1, enhancement: Archeotech Autoloaders}   # variance fix: re-roll casino dice
+  - {datasheet: Knight Castellan, count: 1, enhancement: Blessed Plate}            # T13 durability
+  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon],
+     enhancement: Bearer of the Judicant's Helm}                                   # feeds IGNORES COVER to a Castellan each Shooting phase
+  - {datasheet: Armiger Helverin, count: 2}
+  - {datasheet: Armiger Warglaive, count: 2}
+  # + Navigator (Imperial Agents, 60 pts) -- home-objective anchor, Hidden + Gone to
+  #   Ground + anti-Deep-Strike bubble. Brings the army to 1985/2000. See data/allies/.

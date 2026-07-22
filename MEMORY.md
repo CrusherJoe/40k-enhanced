@@ -93,9 +93,14 @@ PyYAML the only dep.
   cover problem. Valourstrike + Dominus → Purge the Foe remains the pick (better
   disposition fit + mobility). "Best" is partly playstyle + current meta
   (post-cutoff; can't claim tournament certainty).
-- **Best list (validated 2000/2000, examples/best-purge-the-foe.yaml):** 2 Castellan
-  + Crusader(RFBC) + 3 Helverin + 2 Warglaive + Evanescent Ion. Body-heavy beats the
-  6-model version on firepower, OC and board presence.
+- **FINAL list (examples/best-purge-the-foe.yaml, 1985/2000):** Castellan A (Archeotech
+  Autoloaders = variance fix), Castellan B (Blessed Plate = T13), Crusader (RFBC +
+  Judicant's Helm → feeds IGNORES COVER to a Castellan), 2 Helverin, 2 Warglaive, +
+  Navigator ally (60, home anchor). Enhancement placement: DOMINUS enh (Archeotech/
+  Blessed Plate) must go on Castellans; Judicant (buffs ANOTHER model, needs a Character
+  bearer — NOT an Armiger) goes on the Crusader so both Castellans keep self-buffs.
+  Swapping an Armiger→Navigator freed 80 pts to fit RFBC + all 3 enhancements. Tool
+  validates the Knights portion (1925); it can't validate the Navigator ally.
 
 ## Imperial Agents allies (data/allies/agents.yaml)
 - Knights (IMPERIUM) can take **Assigned Agents** allies. The allowance is a UNIT-TYPE
