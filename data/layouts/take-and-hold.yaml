@@ -1,0 +1,60 @@
+# Terrain layouts for the TAKE-AND-HOLD player's matchups (Event Companion).
+# Ingested from the EC map diagrams like purge-the-foe.yaml -- deployment TYPE +
+# notes exact; terrain geometry approximate. "You" = the Take-and-Hold player.
+# SECONDARY to disruption.yaml (the recommended tournament lock); documented in
+# case Take-and-Hold is locked instead (e.g. an out-OC / anchor-heavy field).
+
+board:
+  size: 44x60 inches
+  terrain_areas: 16
+  objectives: 6
+  objective_layout: {home: 2, central: 2, expansion: 2}
+  universal_notes:
+    - Same universal terrain/objective structure as all layouts (see
+      disruption.yaml): centre packed, no turn-1 cross-board LOS, all areas cover.
+
+matchups:
+  - vs: purge-the-foe
+    your_mission: Immovable Object
+    opp_mission: Unstoppable Force
+    pages: [12, 13, 14]
+    layouts:
+      A: {deployment: diagonal,   note: "red top-left 14\" / blue bottom-right; long approach"}
+      B: {deployment: diagonal,   note: "S-curve swirl NML; central terrain cluster"}
+      C: {deployment: horizontal, note: "red top 18\" / blue bottom (Dawn of War); close"}
+
+  - vs: disruption
+    your_mission: Determined Acquisition
+    opp_mission: Death Trap
+    pages: [15, 16, 17]
+    layouts:
+      A: {deployment: diagonal,   note: "opposite-corner castles"}
+      B: {deployment: diagonal,   note: "strong diagonal, 24.25\" NML"}
+      C: {deployment: horizontal, note: "red top 18\" / blue bottom; close"}
+
+  - vs: reconnaissance
+    your_mission: Purge and Secure
+    opp_mission: Reconnaissance Sweep
+    pages: [18, 19, 20]
+    layouts:
+      A: {deployment: diagonal, note: "red top-left 20\" / blue bottom-right"}
+      B: {deployment: vertical, note: "red-left 12\" / blue-right 12\" bands"}
+      C: {deployment: unread,   note: "confirm from EC (p.20)"}
+
+  - vs: take-and-hold
+    your_mission: Battlefield Dominance
+    opp_mission: Battlefield Dominance
+    pages: [null]
+    layouts:
+      A: {deployment: unread, note: "mirror; plan diagonal (book default), CONFIRM from EC"}
+      B: {deployment: unread, note: "confirm from EC"}
+      C: {deployment: unread, note: "confirm from EC"}
+
+  - vs: priority-assets
+    your_mission: Secure Asset
+    opp_mission: Vital Link
+    pages: [null]
+    layouts:
+      A: {deployment: unread, note: "confirm from EC"}
+      B: {deployment: unread, note: "confirm from EC"}
+      C: {deployment: unread, note: "confirm from EC"}

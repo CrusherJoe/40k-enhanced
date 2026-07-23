@@ -1,9 +1,17 @@
 # Sisters — matchup battle plans vs the boogeyman meta
 
-For `examples/best-sisters-allcomers.yaml` (Champions of Faith [Disruption] +
-Sacred Champions [Take-and-Hold] → I choose EITHER disposition each game). Missions
-+ scoring verified from `data/missions.yaml`; enemy dispositions from their lists;
-durability/damage from `docs/sisters-battle-plan.md`.
+For `examples/best-sisters-allcomers.yaml`. Missions + scoring verified from
+`data/missions.yaml`; enemy dispositions from their lists; durability/damage from
+`docs/sisters-battle-plan.md`; deployment layouts from `data/layouts/`.
+
+> **TOURNAMENT NOTE (important):** you lock **ONE** disposition for the whole event —
+> it does NOT change per game. **LOCK DISRUPTION** (favoured vs 4 of the 6 boogeymen;
+> suits this mobile list). The "→ I pick …" headings below show the *ideal* disposition
+> per matchup — that analysis is what motivates locking Disruption — but in a real event
+> your **mission is set by the opponent's disposition** under locked Disruption:
+> opp Purge → *Delaying Action*; opp Recon → *Smoke and Mirrors*; opp Disruption →
+> *Outmanoeuvre*; opp Take-and-Hold → *Death Trap*. The turn-ready, locked-Disruption
+> version with deployment maps is in **`docs/Sisters-Battle-Plan.docx` (§4–§6)**.
 
 **Deployment note.** Only Purge-the-Foe layouts are ingested to YAML (Knights phase),
 so I frame deployment by TYPE — the three that A/B/C draw from — and default the

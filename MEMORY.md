@@ -80,10 +80,19 @@ Champions 1/T&H). Rules STACK army-wide.
   → **Take-and-Hold, out-OC**; high-body horde (Green Tide) → **Disruption/Death Trap** (kill blobs
   in terrain, dodge OC race); slow-few (Monoliths) → **Disruption/Outmanoeuvre** (run the map);
   faster-than-me (Ork Kult) → **Take-and-Hold, anchor**; death-farmers (C'tan Purge) → **Disruption,
-  feed nothing**; durable gunline (Salamanders) → **Disruption, out-position + score kills**. Only
-  Purge-the-Foe LAYOUTS are ingested (Knights); plans framed by deployment TYPE (diagonal=A-default /
-  horizontal-DoW / vertical) on the universal 6-obj (2 home/2 central/2 expansion), 16-obscuring-area
-  board. TODO if wanted: ingest Disruption/T&H Event Companion layout pages for letter-exact terrain.
+  feed nothing**; durable gunline (Salamanders) → **Disruption, out-position + score kills**.
+- **TOURNAMENT: you LOCK ONE disposition for the whole event (user) — doesn't change per game.**
+  **LOCK DISRUPTION** (best vs 4/6 of the field; suits the mobile list). Mission is then set by the
+  OPPONENT's disposition: opp Purge→Delaying Action, Recon→Smoke and Mirrors, Disruption→Outmanoeuvre,
+  Take-and-Hold→Death Trap. (So the earlier "pick per game" plans are reframed to locked Disruption.)
+- **LAYOUTS INGESTED** from the Event Companion (deployment TYPE + notes per matchup, geometry approx,
+  like the Knights purge ingest): **data/layouts/disruption.yaml** (my lock — vs Purge/T&H/Recon/Priority
+  verified; Disruption-mirror not-yet-located in EC, flagged) + **take-and-hold.yaml** (secondary).
+  Deployment type is a property of the MATCHUP PAIR + layout letter (verified page-by-page, NOT a simple
+  by-opponent table). Universal: 6 obj (2 home/2 central-NML/2 expansion), 16 obscuring areas, centre packed.
+- **WORD BATTLE PLAN: docs/Sisters-Battle-Plan.docx** (generator tools/gen_sisters_docx.py, python-docx;
+  pulls live roster/points + layouts). Sections: list, soften-then-delete engine, mathhammer+durability
+  cheat-sheet, LOCK DISRUPTION, deployment layouts, 6 per-archetype plans. Regenerate after list/data changes.
 - **DOMINION = 10-MODEL ONLY** (user): exactly 4 take melta/flamer upgrades; deployed via the SPLIT
   (4-melta + Superior half rides an Immolator (cap 6), the other 5 bolter-Doms walk). Battle Sisters
   also split 10→5+5. Base 10-model = 90 (MFM, ▼-10 from 100), +5/meltagun → 110 with 4 meltas.

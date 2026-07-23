@@ -1,0 +1,72 @@
+# Terrain layouts for the DISRUPTION player's matchups (Event Companion).
+# Ingested from the EC map diagrams (pp.15-17, 27-29, 39-44) like
+# purge-the-foe.yaml -- deployment TYPE + notes are exact; terrain geometry is
+# approximate. "You" = the Disruption player. This is the recommended TOURNAMENT
+# LOCK for the Sisters all-comers list (see docs/sisters-matchup-plans.md).
+#
+# Deployment TYPE per Layout letter is a property of the MATCHUP PAIR, not just
+# your disposition -- verified page-by-page, do not assume the Purge table.
+
+board:
+  size: 44x60 inches
+  terrain_areas: 16              # standard manifest; ALL obscuring (grant cover)
+  objectives: 6
+  objective_layout:
+    home: 2                      # castle icon, one deep in each deployment zone
+    central: 2                   # skull-in-circle, in No Man's Land
+    expansion: 2                 # skull-in-diamond, on the flanks / DZ edges
+  universal_notes:
+    - Centre is packed with large obscuring terrain -> no turn-1 cross-board LOS;
+      you must advance to open firing lanes and reach the two central objectives.
+    - Every terrain area grants cover (−1 to hit); several diagrams also mark
+      dense pieces (block LOS). Immolator Purge & Cleanse / Castigator Ignores
+      Cover / flamers bypass this on marked or torrented targets.
+    - Home objectives sit deep in each DZ (safe VP if you hold yours); central
+      objectives are contested in mid-board terrain; expansion on the flanks.
+
+matchups:
+  # --- vs each opponent disposition; your Disruption mission listed first ---
+  - vs: purge-the-foe            # Salamanders / C'tan / Ork-Kult (if they lock Purge)
+    your_mission: Delaying Action
+    opp_mission: Punishment
+    pages: [27, 28, 29]
+    layouts:
+      A: {deployment: diagonal,   note: "opposite-corner castles, S-curve NML; long approach"}
+      B: {deployment: horizontal, note: "red upper / blue lower bands; mid-depth"}
+      C: {deployment: vertical,   note: "red-left 14\" / blue-right bands; flanking lanes"}
+
+  - vs: take-and-hold            # Ork Green Tide / DA Deathwing
+    your_mission: Death Trap
+    opp_mission: Determined Acquisition
+    pages: [15, 16, 17]
+    layouts:
+      A: {deployment: diagonal,   note: "opposite-corner castles; long approach"}
+      B: {deployment: diagonal,   note: "strong diagonal divider, 24.25\" NML band"}
+      C: {deployment: horizontal, note: "red top 18\" / blue bottom (Dawn of War); close"}
+
+  - vs: reconnaissance           # Salamanders / C'tan (if they lock Recon)
+    your_mission: Smoke and Mirrors
+    opp_mission: Surveil the Foe
+    pages: [39, 40, 41]
+    layouts:
+      A: {deployment: diagonal,   note: "red top-left / blue bottom-right"}
+      B: {deployment: vertical,   note: "red-left 12\" / blue-right 12\" bands"}
+      C: {deployment: diagonal,   note: "big diagonal dashed divider; corner castles"}
+
+  - vs: disruption               # Ork Kult of Speed / Necron Monoliths (mirror)
+    your_mission: Outmanoeuvre
+    opp_mission: Outmanoeuvre
+    pages: [null]                # NOT YET LOCATED in the EC (mirrors are interleaved)
+    layouts:
+      A: {deployment: unread, note: "symmetric mirror; A is diagonal in every other matchup -> plan diagonal, CONFIRM from EC"}
+      B: {deployment: unread, note: "confirm from EC"}
+      C: {deployment: unread, note: "confirm from EC"}
+
+  - vs: priority-assets          # (no current archetype locks Priority Assets)
+    your_mission: Locate and Deny
+    opp_mission: Extract Relic
+    pages: [42, 43, 44]
+    layouts:
+      A: {deployment: vertical, note: "red-left 14\" / blue-right bands"}
+      B: {deployment: unread,   note: "confirm from EC (p.43)"}
+      C: {deployment: unread,   note: "confirm from EC (p.44)"}
