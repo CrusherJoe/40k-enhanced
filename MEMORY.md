@@ -75,6 +75,15 @@ Champions 1/T&H). Rules STACK army-wide.
   even buffed (7.3 of 16W, incl. its VERIFIED −1 Damage — NOT a "cap"; I'd wrongly recalled a 10E-ish
   cap, user corrected) → play the mission. Anchors killable only when softened first — enablers ARE
   the anti-tank. Engine now models −1 Damage (Target.damage_reduction; dice.expected_reduced).
+- **MATCHUP BATTLE PLANS (docs/sisters-matchup-plans.md):** per-archetype disposition choice +
+  mission + deployment + target priority. Disposition-pick meta-pattern: low-OC-durable (Deathwing)
+  → **Take-and-Hold, out-OC**; high-body horde (Green Tide) → **Disruption/Death Trap** (kill blobs
+  in terrain, dodge OC race); slow-few (Monoliths) → **Disruption/Outmanoeuvre** (run the map);
+  faster-than-me (Ork Kult) → **Take-and-Hold, anchor**; death-farmers (C'tan Purge) → **Disruption,
+  feed nothing**; durable gunline (Salamanders) → **Disruption, out-position + score kills**. Only
+  Purge-the-Foe LAYOUTS are ingested (Knights); plans framed by deployment TYPE (diagonal=A-default /
+  horizontal-DoW / vertical) on the universal 6-obj (2 home/2 central/2 expansion), 16-obscuring-area
+  board. TODO if wanted: ingest Disruption/T&H Event Companion layout pages for letter-exact terrain.
 - **DOMINION = 10-MODEL ONLY** (user): exactly 4 take melta/flamer upgrades; deployed via the SPLIT
   (4-melta + Superior half rides an Immolator (cap 6), the other 5 bolter-Doms walk). Battle Sisters
   also split 10→5+5. Base 10-model = 90 (MFM, ▼-10 from 100), +5/meltagun → 110 with 4 meltas.
