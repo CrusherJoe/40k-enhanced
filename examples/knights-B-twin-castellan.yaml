@@ -1,0 +1,10 @@
+# LIST B — Twin-Castellan Gunline (max ranged threat, anti-elite/vehicle; the classic).
+name: Knights B - Twin Castellan Gunline (Purge the Foe)
+detachments: [valourstrike-lance, dominus-foebreakers]
+disposition: purge-the-foe
+units:
+  - {datasheet: Knight Castellan, count: 1, enhancement: Archeotech Autoloaders}
+  - {datasheet: Knight Castellan, count: 1, enhancement: Blessed Plate}
+  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon], enhancement: Bearer of the Judicant's Helm}
+  - {datasheet: Armiger Helverin, count: 2}
+  - {datasheet: Armiger Warglaive, count: 2}

@@ -1,0 +1,11 @@
+# LIST A — Lancer Aggressive (durability + speed + balanced take-all-comers).
+# 1 Castellan anchor (Blessed T13) + fast 4++ Lancer + Crusader flex + Armigers.
+name: Knights A - Lancer Aggressive (Purge the Foe)
+detachments: [valourstrike-lance, dominus-foebreakers]
+disposition: purge-the-foe
+units:
+  - {datasheet: Knight Castellan, count: 1, enhancement: Blessed Plate}
+  - {datasheet: Cerastus Knight Lancer, count: 1, enhancement: Bearer of the Lancer's Sigil}
+  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon], enhancement: Bearer of the Judicant's Helm}
+  - {datasheet: Armiger Warglaive, count: 2}
+  - {datasheet: Armiger Helverin, count: 2}

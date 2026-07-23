@@ -1,0 +1,12 @@
+# LIST C — Horde-Hardened (max anti-horde + bodies + board control; the Green Tide answer).
+# Valiant (DOMINUS: Conflagration flamer + S24 harpoon) + Warden (Avenger+Heavy Flamer) +
+# Crusader (Avenger) + a screen of Warglaives. Anti-tank via harpoon/thermal/spears.
+name: Knights C - Horde-Hardened (Purge the Foe)
+detachments: [valourstrike-lance, dominus-foebreakers]
+disposition: purge-the-foe
+units:
+  - {datasheet: Knight Valiant, count: 1, enhancement: Blessed Plate}
+  - {datasheet: Knight Warden, count: 1}
+  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon]}
+  - {datasheet: Armiger Warglaive, count: 3}
+  - {datasheet: Armiger Helverin, count: 1}
