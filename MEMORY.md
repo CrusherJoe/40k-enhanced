@@ -36,8 +36,19 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
   (Righteous Purpose → Battle Sisters/Sacresants/Paragons only; Desperate for Redemption →
   PENITENT only); some enh grant keywords (e.g. "bearer gains PENITENT"). ALL detachment
   rules stack army-wide (huge for Sisters). Engine does NOT model Miracle dice.
-- User owns ALL Sisters models (any build/wargear). Still need: playstyle preference (didn't
-  answer yet), full Leader→bodyguard map, cross-check strats vs FP Rules Updates, points refine.
+- User owns ALL Sisters models (any build/wargear); said "let the analysis decide the best list".
+- **Analysis-driven best list (examples/best-sisters-purge.yaml, 2000/2000):** Army of Faith +
+  Sanctified Orators → **Purge the Foe**. Rationale: Sacred Rites (DOUBLE Acts of Faith) is the
+  premium army-wide reliability rule (Sisters' identity); Sanctified Orators adds a FREE extra
+  enhancement (doesn't count vs the limit) + Character +1 Ld; Purge rewards Sisters' kill AND hold
+  without needing dedicated action units (only 1/5 missions need an action, unlike Priority Assets
+  5/5). Units: Vahl+Paragons (elite brick), Triumph of St Katherine (Miracle-dice engine), Junith
+  Eruita (flying buff), Castigator+Exorcist (ranged value), 2 Immolator + 2 Dominion (mobile melta),
+  3 Battle Sisters (objective bodies), Zephyrim (mobile melee), Canoness+Palatine (lead squads).
+  Alternative: Hallowed Martyrs → Priority Assets (Blood of Martyrs + action-swarm, Miracle-dice-fed).
+- CAVEATS: squad DPS mathhammer OVER-COUNTS (profiles list full arsenal, not a picked loadout);
+  Leaders/attached-units + Miracle dice NOT modelled in the engine; "best" is partly meta (post-cutoff).
+- Best ranged value (single-model, reliable): Castigator 165, Immolator 110, Exorcist 180.
 - Data: 8 detachments, 32 profiles (BSData), 33 datasheet points (24 MFM + 9 BSData-base;
   Sisters MFM prices squads by MODEL COUNT 5/10 — escalation refinement is a TODO).
 - Sources: MFM adepta-sororitas, Faction Pack docs (docs not yet stashed), BSData

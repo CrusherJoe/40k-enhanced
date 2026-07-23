@@ -1,0 +1,20 @@
+# Analysis-driven Sisters list: Army of Faith + Sanctified Orators, Purge the Foe.
+# Engine = Sacred Rites (double Acts of Faith) + a free enhancement (Sanctified
+# Orators) + Purge's kill-and-hold scoring. Validate with:
+#   PYTHONPATH=src python3 -m wh --faction sisters build examples/best-sisters-purge.yaml
+name: Sisters - Army of Faith + Sanctified Orators (Purge the Foe)
+detachments: [army-of-faith, sanctified-orators]
+disposition: purge-the-foe
+units:
+  - {datasheet: Morvenn Vahl, count: 1}            # leads a Paragon squad -- elite brick
+  - {datasheet: Paragon Warsuits, count: 1}
+  - {datasheet: Triumph of Saint Katherine, count: 1}  # Miracle-dice engine + aura
+  - {datasheet: Junith Eruita, count: 1}           # flying buff character
+  - {datasheet: Castigator, count: 1}              # flexible ranged
+  - {datasheet: Exorcist, count: 1}                # indirect anti-tank/elite
+  - {datasheet: Immolator, count: 2}               # transports + twin multi-melta
+  - {datasheet: Dominion Squad, count: 2}          # mobile melta (ride the Immolators)
+  - {datasheet: Battle Sisters Squad, count: 3}    # objective bodies + Acts of Faith
+  - {datasheet: Zephyrim Squad, count: 1}          # mobile melee / late objectives
+  - {datasheet: Canoness, count: 1}                # leads a Battle Sisters squad
+  - {datasheet: Palatine, count: 1}                # leads a Battle Sisters squad
