@@ -9,4 +9,6 @@ units:
   - {datasheet: Knight Warden, count: 1}
   - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon]}
   - {datasheet: Armiger Warglaive, count: 3}
-  - {datasheet: Armiger Helverin, count: 1}
+  - {datasheet: Armiger Helverin, count: 2}
+allies:
+  - {datasheet: Navigator, count: 1}   # home-objective anchor + anti-Deep-Strike bubble

@@ -180,6 +180,23 @@ def datasheets(faction_file: str | None = None) -> list[Datasheet]:
 
 
 @functools.cache
+def allies() -> dict[str, dict]:
+    """Assigned-Agents ally units for an IMPERIUM army (data/allies/agents.yaml).
+    Returns {norm_name: {name, points, ally_type}}. ally_type is 'character' if the
+    unit has the Character keyword (Requisitioned is a roster SLOT, not a unit type),
+    unless an explicit `ally_type` is given in the data."""
+    out = {}
+    for a in _load_yaml("allies/agents.yaml"):
+        if not isinstance(a, dict) or not a.get("name") or "points" not in a:
+            continue
+        kw = a.get("keywords", [])
+        typ = a.get("ally_type") or ("character" if "Character" in kw else "retinue")
+        out[a["name"].strip().lower().replace("’", "'")] = {
+            "name": a["name"], "points": int(a["points"]), "ally_type": typ}
+    return out
+
+
+@functools.cache
 def profiles(faction_file: str | None = None) -> dict[str, dict]:
     """Datasheet name -> full profile dict (stats/weapons/abilities) for the
     active faction (see active_faction_file / the WH_FACTION env var).

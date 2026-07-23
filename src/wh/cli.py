@@ -499,7 +499,7 @@ def cmd_build(args) -> None:
         if l.wargear:
             extra.append(f"+{', '.join(l.wargear)} ({l.wargear_cost})")
         cnt = f"{l.count}x " if l.count > 1 else ""
-        name = l.datasheet + (f" [{l.models}]" if l.models else "")
+        name = l.datasheet + (f" [{l.models}]" if l.models else "") + (" (ally)" if l.ally else "")
         tail = "  " + "  ".join(extra) if extra else ""
         print(f"  {cnt}{name:<30} {l.total:>4} pts{tail}")
 

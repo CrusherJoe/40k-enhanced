@@ -9,3 +9,5 @@ units:
   - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon], enhancement: Bearer of the Judicant's Helm}
   - {datasheet: Armiger Warglaive, count: 2}
   - {datasheet: Armiger Helverin, count: 2}
+allies:
+  - {datasheet: Navigator, count: 1}   # home-objective anchor + anti-Deep-Strike bubble

@@ -48,6 +48,7 @@ class Line:
     enh_cost: int
     wargear_cost: int
     models: int | None = None  # models per unit (size-priced datasheets); None = n/a
+    ally: bool = False         # Assigned-Agents ally (no detachment rule/enhancements)
 
     @property
     def total(self) -> int:
@@ -214,6 +215,30 @@ def build(spec: dict) -> Army:
 
         army.lines.append(Line(sheet.name, count, enh_name, wg_labels,
                                unit_cost, enh_cost, wg_cost, models=models))
+
+    # --- Assigned Agents allies (points count; roster caps apply; no enhancements) ---
+    ally_cat = data.allies()
+    n_char = n_ret = 0
+    for u in spec.get("allies", []) or []:
+        name = u.get("datasheet") or u.get("name", "")
+        count = int(u.get("count", 1))
+        ally = ally_cat.get(_norm(name))
+        if ally is None:
+            army.errors.append(f"unknown ally: {name!r} (not in data/allies/agents.yaml)")
+            continue
+        if u.get("enhancement"):
+            army.errors.append(f"ally {ally['name']} cannot take a detachment enhancement")
+        if ally["ally_type"] == "character":
+            n_char += count
+        else:
+            n_ret += count
+        army.lines.append(Line(ally["name"], count, None, [], ally["points"] * count,
+                               0, 0, ally=True))
+    # Agents allowance at Strike Force: 2 Characters + 2 Retinue + 1 wildcard unit.
+    if n_char > 3 or n_ret > 3 or (n_char > 2 and n_ret > 2):
+        army.errors.append(
+            f"Agents allowance exceeded: {n_char} Character + {n_ret} Retinue ally units "
+            f"(max 2 Characters + 2 Retinue + 1 of either type)")
 
     # Rule of Three: aggregate copies per datasheet across all entries.
     per_sheet: dict[str, int] = {}
