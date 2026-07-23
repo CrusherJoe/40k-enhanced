@@ -47,15 +47,27 @@ Champions 1/T&H). Rules STACK army-wide.
   melta+flamer+blast toolkit on a transport/mobility chassis: out-melta anchors, out-flame hordes,
   out-OC elites, never chase un-killable invuln monsters. Transports = expendable delivery (everyone
   packs anti-tank). Durable ≠ scoring (elite bricks are low-OC).
-- **DERIVED BEST LIST — examples/best-sisters-allcomers.yaml, EXACTLY 2000/2000.** Champions of Faith
-  (2DP, Disruption) + Sacred Champions (1DP, T&H): +1 Move (mission mobility) + +1 WS/BS on
-  Paragons/Sacresants/Battle Sisters (melta accuracy) + 2 dispositions. Chosen over Hallowed Martyrs
-  (a win-the-slugfest rule) and Bringers of Flame (mono-flamer loses half the field — **SUPERSEDES the
-  old best-sisters-purge Bringers list**). Chassis = **Vahl + 3-MM Paragons melta HAMMER** + mech
-  toolkit: Castigator, 2 Retributor (all-MM 125 / all-HB 105), 2 Immolator + 2 Dominion(10, 4 melta),
-  Sacresants(10)+Canoness(**Sanctified Amulet = anti-Deep-Strike** vs teleport bricks), 2 Battle
-  Sisters(10)+Rhino, Zephyrim + Seraphim (two SEPARATE jump units), Dogmata+Palatine. Lever: swap a
-  Dominion's 4 meltas→4 flamers vs horde-heavy meta.
+- **DERIVED BEST LIST v2 — examples/best-sisters-allcomers.yaml, 1985/2000** (mathhammer-revised;
+  docs/sisters-battle-plan.md). Champions of Faith (2DP, Disruption) + Sacred Champions (1DP, T&H).
+  Chosen over Hallowed Martyrs (win-the-slugfest rule) + Bringers (mono-flamer loses half the field —
+  SUPERSEDES old best-sisters-purge). Chassis = **Vahl+3-MM Paragons melta HAMMER**; MM-Retributor
+  (Palatine[Triptych]+Imagifier → Lethal Hits + cover-immune + Sv2+/4++); Castigator; **2 Immolators
+  w/ IMMOLATION FLAMERS** (not twin-MM); 1 melta + 1 flamer Dominion(10); HB-Retributor; Sacresants(10)
+  + Canoness[Sanctified Amulet, anti-DS] + Dogmata[+1 OC]; 2 Battle Sisters(10); Zephyrim + Seraphim.
+- **THE BUFF/SOFTENING STACK (this is how Sisters melta actually works — cover=−1 to HIT in 11e):**
+  naked melta into cover ~4.6 vs a Land Raider → **~4× multiplier when softened**: (1) **Immolator
+  Purge & Cleanse** strips Benefit of Cover army-wide (auto-hits w/ Immolation Flamers = reliable
+  trigger — REASON to run flamers not twin-MM); (2) **Castigator Rites of Castigation** = +1 AP
+  army-wide vs a marked target; (3) **Vahl** re-roll hits+wounds (her Paragon unit + herself ONLY);
+  (4) **Righteous Purpose** +1 BS (Paragons); (5) **Palatine+Triptych** = a unit ignores cover;
+  (6) **SUPPORT chars** (1 Leader + 1 Support/unit, 19.01): **Imagifier=unit Sv2+/4++**, Dialogus=an
+  Act-of-Faith die becomes a guaranteed 6, Hospitaller=FNP5+, Dogmata=+1 OC. Flamers/Castigator/
+  Exorcist have IGNORES COVER natively.
+- **MATHHAMMER FINDINGS (wh damage, full hit→wound→save chain):** buffed Vahl+Paragons one-shot a
+  Land Raider (17.8 vs 16W); melta was OVER-invested (~45 on one target = 3× overkill) → trimmed 2
+  packages into anti-horde flamers (~37 dead Boyz/turn now) + durability (Imagifier). C'tan uncrackable
+  even buffed (56%, before its damage cap) → play the mission. Anchors killable only when softened
+  first — the enablers ARE the anti-tank.
 - **DOMINION = 10-MODEL ONLY** (user): exactly 4 take melta/flamer upgrades; deployed via the SPLIT
   (4-melta + Superior half rides an Immolator (cap 6), the other 5 bolter-Doms walk). Battle Sisters
   also split 10→5+5. Base 10-model = 90 (MFM, ▼-10 from 100), +5/meltagun → 110 with 4 meltas.

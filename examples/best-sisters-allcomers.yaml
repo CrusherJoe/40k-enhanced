@@ -1,59 +1,63 @@
 # ============================================================================
-# BEST SISTERS — take-all-comers, derived from the meta ingest (5 factions /
-# 7 boogeyman archetypes in docs/meta/). Points are EXACT (MFM), per model count.
+# BEST SISTERS — take-all-comers, v2 (MATHHAMMER-REVISED). Points exact (MFM).
 #
-# THESIS: Sisters win the MISSION, not the slugfest. Balanced melta+flamer+blast
-# toolkit on a mobile/transport chassis: out-melta the anchors, out-flame the
-# hordes, out-OC the elites, never chase the un-killable. Transports are
-# expendable delivery (everyone packs anti-tank), not cover.
+# The mathhammer (docs/sisters-battle-plan.md) reshaped v1:
+#  - The BUFF CHAIN is a ~4x multiplier: naked melta into cover ~4.6 dmg vs a
+#    Land Raider; de-covered(Immolator) + AP+1(Castigator) + reroll(Vahl) +
+#    BS2+(Righteous) = ~17.8 (one-shots it). The enablers ARE the anti-tank.
+#  - Melta was OVER-invested (5 packages, ~45 dmg = 3x overkill on one target).
+#    Trim to 3 (Vahl+Paragons, MM-Retributor, 1 melta Dominion) and reinvest.
+#  - REINVEST into anti-horde + reliability + durability:
+#      * Immolators: twin-MM -> IMMOLATION FLAMERS (auto-hit reliably triggers
+#        Purge & Cleanse; +~8 dead Boyz/turn; melta overkill means ~0 AT lost).
+#      * 1 Dominion: melta -> FLAMER (+~5 dead Boyz/turn).
+#      * Add IMAGIFIER support (Stanchion: its unit is Sv2+/4++) on the MM
+#        Retributor -> a durable Lethal-Hits anti-tank firebase.
 #
 # DETACHMENT: Champions of Faith (2DP, Disruption) + Sacred Champions (1DP,
-# Take-and-Hold) = 3 DP, TWO dispositions, rules STACK army-wide:
-#  - Righteous Purpose: 3 units (Paragons + Sacresants + a Battle Sisters) get
-#    +1 Move / +1 Ld / +1 WS-BS -> mobility for the mission + accuracy for melta.
-#  - Holy Quest: Celestian Sacresants get +1 BS/WS.
+# Take-and-Hold). Righteous Purpose (+1 BS on PARAGONS) + Vahl re-rolls land on
+# the melta hammer; Holy Quest (+1 BS/WS) on the Sacresant anchor.
 #
-# SIZES ARE EXPLICIT ([N] = models). Weapon taxes are per model:
-#   Paragon multi-melta +10, Retributor multi-melta +5, Dominion meltagun +5.
+# ATTACHMENTS (Leader + Support per unit, 19.01; tool prices only, doesn't model):
+#   Vahl -> Paragons (re-roll H&W + Righteous +1 BS)
+#   Canoness[Sanctified Amulet, anti-Deep-Strike] + Dogmata[+1 OC] -> Sacresants
+#   Palatine[Lethal Hits] + Imagifier[Sv2+/4++] -> Multi-melta Retributor
 #
 #   PYTHONPATH=src python3 -m wh --faction sisters build examples/best-sisters-allcomers.yaml
 # ============================================================================
-name: BEST Sisters - Champions of Faith + Sacred Champions (all-comers)
+name: BEST Sisters v2 - Champions of Faith + Sacred Champions (all-comers)
 detachments: [champions-of-faith, sacred-champions]
 disposition: disruption          # take-and-hold also available from the combo
 
 units:
-  # --- THE HAMMER: durable melta anchor-killer (Righteous target #1) ---
-  - {datasheet: Morvenn Vahl, models: 1}                                        # 200; leads Paragons, T7 W8 2+/4++
-  - {datasheet: Paragon Warsuits, models: 3, wargear: [{name: Multi-melta, count: 3}]}  # 180+30=210; +1 BS Righteous = reliable AP-4
+  # --- THE MELTA HAMMER (buffed): Vahl+Paragons one-shot a softened anchor ---
+  - {datasheet: Morvenn Vahl, models: 1}                                          # 200; re-roll H&W for the Paragon unit
+  - {datasheet: Paragon Warsuits, models: 3, wargear: [{name: Multi-melta, count: 3}]}  # 210; BS2+ w/ Righteous, half-range Melta2
 
-  # --- FIREBASE: split roles, no mixed loadouts ---
-  - {datasheet: Castigator, models: 1}                                          # 165; battle cannon Blast AP-1 -> hordes/MEQ
-  - {datasheet: Retributor Squad, models: 5, wargear: [{name: Multi-melta, count: 4}]}   # 105+20=125; anti-tank firebase
-  - {datasheet: Retributor Squad, models: 5, wargear: [{name: Heavy bolter, count: 4}]}  # 105; anti-horde firebase (AP-1 D2 kills W1-2)
+  # --- DURABLE LETHAL-HITS AT FIREBASE: Palatine + Imagifier attach here ---
+  - {datasheet: Retributor Squad, models: 5, wargear: [{name: Multi-melta, count: 4}]}  # 125; 8 MM shots, becomes 2+/4++ + Lethal Hits
+  - {datasheet: Palatine, models: 1, enhancement: Triptych of Judgement}          # 50+15; Leader -> Lethal Hits + unit IGNORES cover-to-hit modifiers
+  - {datasheet: Imagifier, models: 1}                                             # 65; Support -> that unit is Sv2+/4++
 
-  # --- MELTA DELIVERY: 10-model Dominions (4 meltas), SPLIT -> melta half + Superior
-  #     rides the Immolator (5 in cap 6), the other 5 bolter-Doms walk/hold. ---
-  - {datasheet: Immolator, models: 1}                                            # 110; twin multi-melta hull
-  - {datasheet: Immolator, models: 1}                                            # 110; twin multi-melta hull
-  - {datasheet: Dominion Squad, models: 10, wargear: [{name: Meltagun, count: 4}]}  # 90+20=110; 4x AP-4 melta half rides Immo
-  - {datasheet: Dominion Squad, models: 10, wargear: [{name: Meltagun, count: 4}]}  # 90+20=110; 4x AP-4 melta half rides Immo
-  #   TUNING LEVER vs horde-heavy meta: swap one Dominion's 4 meltas -> 4 flamers
-  #   (-20 pts, AP0 but Torrent auto-hit) -> dedicated anti-Green-Tide delivery.
+  # --- TARGET-SOFTENING ENABLERS (army-wide) + anti-horde ---
+  - {datasheet: Castigator, models: 1}                                            # 165; Rites of Castigation = +1 AP vs a marked target; Blast anti-horde
+  - {datasheet: Immolator, models: 1}                                             # 110; IMMOLATION FLAMERS -> auto-hit triggers Purge & Cleanse (strip cover)
+  - {datasheet: Immolator, models: 1}                                             # 110; IMMOLATION FLAMERS -> 2nd cover-strip + anti-horde
 
-  # --- DURABLE OC ANCHOR (Righteous #2 + Holy Quest): out-OC the elites ---
-  - {datasheet: Celestian Sacresants, models: 10}                               # 150; T3W1 but 4++, +1 BS/WS/Move; holds mid vs OC1 Deathwing bricks
-  - {datasheet: Canoness, models: 1, enhancement: Sanctified Amulet}            # 60+25=85; leads Sacresants; ANTI-DEEP-STRIKE bubble
+  # --- MELTA + FLAMER DELIVERY (split: 4-wpn half + Superior rides an Immolator) ---
+  - {datasheet: Dominion Squad, models: 10, wargear: [{name: Meltagun, count: 4}]}  # 110; AT melta half
+  - {datasheet: Dominion Squad, models: 10, wargear: [{name: Flamer, count: 4}]}     # 90; anti-horde flamer half
 
-  # --- CHEAP OC + MISSION BODIES (out-OC plan; each splits into 2x5) ---
-  - {datasheet: Battle Sisters Squad, models: 10}                               # 100; OC2 bodies, screen, objective-sit
-  - {datasheet: Battle Sisters Squad, models: 10}                               # 100; more OC -- the out-OC-the-elites plan
-  - {datasheet: Sororitas Rhino, models: 1}                                     # 75; ablative delivery for a Battle Sisters squad (cap 12)
+  # --- ANTI-HORDE FIREBASE ---
+  - {datasheet: Retributor Squad, models: 5, wargear: [{name: Heavy bolter, count: 4}]}  # 105; 12 shots vs W1-2 bodies
 
-  # --- MOBILITY / DISRUPTION / COUNTER-CHARGE ---
-  - {datasheet: Zephyrim Squad, models: 5}                                      # 75; jump 5++, hand flamers; contest/actions/counter-charge
-  - {datasheet: Seraphim Squad, models: 5}                                      # 75; jump; actions + chaff-clear
+  # --- DURABLE OC ANCHOR: Canoness (anti-DS) + Dogmata (+1 OC) attach here ---
+  - {datasheet: Celestian Sacresants, models: 10}                                 # 150; 4++, Holy Quest +1 BS/WS; the mid-board holder
+  - {datasheet: Canoness, models: 1, enhancement: Sanctified Amulet}              # 85; Leader -> anti-Deep-Strike bubble
+  - {datasheet: Dogmata, models: 1}                                               # 45; Support -> +1 OC on the Sacresants
 
-  # --- SUPPORT CHARACTERS ---
-  - {datasheet: Dogmata, models: 1}                                             # 45; Miracle-dice / Ld support
-  - {datasheet: Palatine, models: 1}                                            # 50; cheap combat leader
+  # --- CHEAP OC BODIES + JUMP MOBILITY (out-OC + the mission/action game) ---
+  - {datasheet: Battle Sisters Squad, models: 10}                                 # 100; OC2 bodies, split/screen
+  - {datasheet: Battle Sisters Squad, models: 10}                                 # 100; more OC -- out-OC the elite bricks
+  - {datasheet: Zephyrim Squad, models: 5}                                        # 75; jump 5++, hand flamers; contest/counter-charge
+  - {datasheet: Seraphim Squad, models: 5}                                        # 75; jump; actions + chaff-clear
