@@ -1,0 +1,96 @@
+# Adepta Sororitas datasheet points. 24 from the Munitorum Field Manual (1st-copy /
+# each-additional + wargear); the rest filled from BSData base cost (marked
+# points_source: bsdata-base). NOTE: Sisters squads are also priced by MODEL COUNT
+# (5 vs 10) on the MFM -- points_first is the default/base entry; per-model-count and
+# multi-copy escalation is a known refinement TODO. Points cover the common case.
+
+- name: Aestred Thurga And Agathae Dolan
+  points_first: 80
+- name: Arco-Flagellants
+  points_first: 50
+  points_additional: 140
+- name: Battle Sisters Squad
+  points_first: 100
+- name: Canoness
+  points_first: 60
+- name: Canoness With Jump Pack
+  points_first: 75
+- name: Castigator
+  points_first: 165
+  points_additional: 175
+- name: Celestian Insidiants
+  points_first: 120
+- name: Celestian Sacresants
+  points_first: 75
+  points_additional: 150
+- name: Daemonifuge
+  points_first: 85
+- name: Dialogus
+  points_first: 40
+- name: Dogmata
+  points_first: 45
+- name: Exorcist
+  points_first: 180
+  points_additional: 220
+- name: Ministorum Priest
+  points_first: 50
+- name: Mortifiers
+  points_first: 70
+  points_additional: 130
+- name: Morvenn Vahl
+  points_first: 200
+- name: Palatine
+  points_first: 50
+- name: Paragon Warsuits
+  points_first: 180
+  points_additional: 190
+  wargear:
+  - name: Multi-melta
+    points: 10
+- name: Penitent Engines
+  points_first: 70
+  points_additional: 140
+- name: Retributor Squad
+  points_first: 105
+  points_additional: 115
+  wargear:
+  - name: Multi-melta
+    points: 5
+- name: Saint Celestine
+  points_first: 150
+- name: Sanctifiers
+  points_first: 110
+- name: Sororitas Rhino
+  points_first: 75
+- name: Triumph Of Saint Katherine
+  points_first: 245
+- name: Zephyrim Squad
+  points_first: 85
+  points_additional: 160
+- name: Dominion Squad
+  points_first: 100
+  points_source: bsdata-base
+- name: Hospitaller
+  points_first: 75
+  points_source: bsdata-base
+- name: Imagifier
+  points_first: 65
+  points_source: bsdata-base
+- name: Immolator
+  points_first: 110
+  points_source: bsdata-base
+- name: Junith Eruita
+  points_first: 115
+  points_source: bsdata-base
+- name: Repentia Squad
+  points_first: 75
+  points_source: bsdata-base
+- name: Seraphim Squad
+  points_first: 85
+  points_source: bsdata-base
+- name: Sisters Novitiate Squad
+  points_first: 100
+  points_source: bsdata-base
+- name: Intranzia Fraye
+  points_first: 150
+  points_source: bsdata-base

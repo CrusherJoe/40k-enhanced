@@ -8,12 +8,32 @@ data is small and hand-authored.
 from __future__ import annotations
 
 import functools
+import os
 from dataclasses import dataclass, field
 from pathlib import Path
 
 import yaml
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
+
+# Faction registry: short name (or alias) -> data file stem. The active faction
+# is read from the WH_FACTION env var (set by the CLI's --faction flag), so the
+# same faction-keyed data files work for any army.
+FACTIONS = {
+    "knights": "imperial-knights.yaml",
+    "imperial-knights": "imperial-knights.yaml",
+    "ik": "imperial-knights.yaml",
+    "sisters": "adepta-sororitas.yaml",
+    "sororitas": "adepta-sororitas.yaml",
+    "adepta-sororitas": "adepta-sororitas.yaml",
+    "sob": "adepta-sororitas.yaml",
+}
+
+
+def active_faction_file() -> str:
+    """The data-file stem for the active faction (default Imperial Knights)."""
+    key = os.environ.get("WH_FACTION", "imperial-knights").strip().lower()
+    return FACTIONS.get(key, "imperial-knights.yaml")
 
 
 @dataclass(frozen=True)
@@ -120,14 +140,14 @@ def matrix() -> dict[str, dict[str, str]]:
 
 
 @functools.cache
-def detachments(faction_file: str = "imperial-knights.yaml") -> list[Detachment]:
-    raw = _load_yaml(f"detachments/{faction_file}")
+def detachments(faction_file: str | None = None) -> list[Detachment]:
+    raw = _load_yaml(f"detachments/{faction_file or active_faction_file()}")
     return [Detachment(**d) for d in raw["detachments"]]
 
 
 @functools.cache
-def datasheets(faction_file: str = "imperial-knights.yaml") -> list[Datasheet]:
-    raw = _load_yaml(f"datasheets/{faction_file}")
+def datasheets(faction_file: str | None = None) -> list[Datasheet]:
+    raw = _load_yaml(f"datasheets/{faction_file or active_faction_file()}")
     out = []
     for d in raw:
         wg = tuple((w["name"], w["points"]) for w in d.get("wargear", []))
@@ -141,13 +161,12 @@ def datasheets(faction_file: str = "imperial-knights.yaml") -> list[Datasheet]:
 
 
 @functools.cache
-def profiles(faction_file: str = "imperial-knights.yaml") -> dict[str, dict]:
-    """Datasheet name -> full profile dict (stats/weapons/abilities).
-
-    All 22 IK datasheets, generated from the BSData wh40k-11e catalogue by
-    tools/gen_profiles.py (see the profiles YAML header).
+def profiles(faction_file: str | None = None) -> dict[str, dict]:
+    """Datasheet name -> full profile dict (stats/weapons/abilities) for the
+    active faction (see active_faction_file / the WH_FACTION env var).
+    Generated from the BSData wh40k-11e catalogue by tools/gen_profiles.py.
     """
-    return {p["name"]: p for p in _load_yaml(f"profiles/{faction_file}")}
+    return {p["name"]: p for p in _load_yaml(f"profiles/{faction_file or active_faction_file()}")}
 
 
 def profile_for(name: str) -> dict | None:

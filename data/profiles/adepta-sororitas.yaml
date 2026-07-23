@@ -1,0 +1,2641 @@
+# Adepta Sororitas datasheet profiles, generated from the BSData wh40k-11e catalogue
+# (Imperium - Adepta Sororitas.json) by the profile resolver. Same format as Knights.
+
+- name: Aestred Thurga and Agathae Dolan
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: ''
+    W: 4
+    Ld: 6+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  melee:
+  - name: Blade of Vigil
+    A: 4
+    WS: 2+
+    S: 5
+    AP: -2
+    D: 2
+  abilities:
+    datasheet:
+    - name: Auto-Tapestry of the Emperor's Judgement
+      text: While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by
+        models in that unit have the [DEVASTATING WOUNDS] ability
+  keywords: []
+  extra_profiles:
+  - name: Agathae Dolan
+    stats:
+      M: 6
+      T: 3
+      Sv: ''
+      W: 3
+      Ld: 7+
+      OC: 1
+- name: Arco-Flagellants
+  source: bsdata-wh40k-11e
+  stats:
+    M: 7
+    T: 3
+    Sv: 7+
+    W: 2
+    Ld: 8+
+    OC: 1
+  invuln: 6+
+  invuln_ranged_only: false
+  melee:
+  - name: Arco-flails
+    A: 4
+    WS: 4+
+    S: 5
+    AP: 0
+    D: 1
+    abilities:
+    - SUSTAINED HITS 1
+  abilities:
+    core:
+    - Feel No Pain 5+
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Extremis Trigger Word
+      text: Each time this unit is selected to fight, you can choose to invoke its extremis trigger word.
+        If you do, then until the end of the phase, arco-flails equipped by models in this unit have an
+        Attacks characteristic of 6 and the HAZARDOUS ability.
+  keywords:
+  - Infantry
+  - Imperium
+  - Penitent
+- name: Battle Sanctum [Legends]
+  source: bsdata-wh40k-11e
+  stats:
+    M: '-'
+    T: 11
+    Sv: 3+
+    W: 20
+    Ld: 7+
+    OC: 0
+  abilities:
+    core:
+    - Deadly Demise D6
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Consecrated Ground
+      text: When this FORTIFICATION is set up, all parts of it must be set up within 1" of another part.
+        Friendly ADEPTA SORORITAS INFANTRY models can be set up or end any type of move on top of the
+        floor sections of this FORTIFICATION. While an ADEPTA SORORITAS unit from your army is within
+        1" of this FORTIFICATION, that unit can perform one additional Act of Faith per phase.
+    - name: Holy Cover
+      text: Each time a ranged attack is allocated to a model, if that model is not fully visible to every
+        model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover
+        against that attack.
+  keywords:
+  - Fortification
+  - Imperium
+  - Towering
+  - Battle Sanctum
+- name: Canoness
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 4
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Brazier of Holy Fire
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 2
+    abilities:
+    - IGNORES COVER
+    - ONE SHOT
+    - TORRENT
+  - name: Bolt Pistol
+    range: 12
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Condemnor boltgun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-PSYKER 2+
+    - DEVASTATING WOUNDS
+    - PRECISION
+    - RAPID FIRE 1
+  - name: Inferno Pistol
+    range: 6
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 2+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  melee:
+  - name: Blessed blade
+    A: 4
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - LETHAL HITS
+  - name: Power weapon
+    A: 4
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 2
+  - name: Hallowed Chainsword
+    A: 5
+    WS: 2+
+    S: 3
+    AP: -1
+    D: 1
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: The Emperor's Grace
+      text: Once per battle, at the start of any phase, this model can use this ability. If it does, until
+        the end of the phase, this model has a 2+ invulnerable save.
+    - name: Leader
+      text: 'This unit can be attached to the following units: - Battle Sisters Squad - Celestian Sacresants
+        - Dominion Squad - Retributor Squad - Sisters Novitiate Squad'
+  keywords:
+  - Character
+  - Infantry
+  - Grenades
+  - Canoness
+  - Sororitas Character
+- name: Canoness with Jump Pack
+  source: bsdata-wh40k-11e
+  stats:
+    M: 12
+    T: 3
+    Sv: 3+
+    W: 3
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  melee:
+  - name: Blessed Halberd
+    A: 5
+    WS: 2+
+    S: 5
+    AP: -2
+    D: 2
+  - name: Power weapon
+    A: 4
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 2
+  - name: Holy Eviscerator
+    A: 3
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  abilities:
+    core:
+    - Deep Strike
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Divine Deliverance
+      text: Once per battle, at the start of the Fight phase, this model can use this ability. If it does,
+        until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by the
+        model and those weapons have the [DEVASTATING WOUNDS] ability
+    - name: Leader
+      text: 'This unit can be attached to the following units: - Seraphim Squad - Zephyrim Squad'
+  keywords:
+  - Character
+  - Infantry
+  - Grenades
+  - Canoness
+  - Jump Pack
+  - Fly
+  - Imperium
+  - Sororitas Character
+- name: Castigator
+  source: bsdata-wh40k-11e
+  stats:
+    M: 10
+    T: 10
+    Sv: 3+
+    W: 11
+    Ld: 7+
+    OC: 3
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Heavy bolter
+    range: 36
+    A: 3
+    BS: 3+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Castigator autocannons
+    range: 48
+    A: 4
+    BS: 3+
+    S: 9
+    AP: -1
+    D: 3
+    abilities:
+    - TWIN-LINKED
+    - RAPID FIRE 4
+  - name: Castigator battle cannon
+    range: 48
+    A: D6+3
+    BS: 3+
+    S: 10
+    AP: -1
+    D: 3
+    abilities:
+    - BLAST
+    - IGNORES COVER
+  - name: Storm bolter
+    range: 24
+    A: 2
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 2
+  - name: Hunter-killer missile
+    range: 48
+    A: 1
+    BS: 2+
+    S: 14
+    AP: -3
+    D: D6
+    abilities:
+    - ONE SHOT
+  melee:
+  - name: Armoured tracks
+    A: 3
+    WS: 4+
+    S: 6
+    AP: 0
+    D: 1
+  abilities:
+    core:
+    - Deadly Demise D3
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Rites of Castigation
+      text: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more
+        of those attacks. Until the end of the turn, each time a friendly Adepta Sororitas unit makes
+        a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of
+        that attack by 1. The same enemy unit can only be affected by this ability once per turn.
+    - name: 'Damaged: 1-4 Wounds Remaining'
+      text: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract
+        1 from the Hit roll.
+  keywords:
+  - Vehicle
+  - Smoke
+  - Imperium
+  - Castigator
+  - Frame
+- name: Celestian Insidiants
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 5+
+  invuln_ranged_only: false
+  ranged:
+  - name: Inferno pistol
+    range: 6
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Condemnor bolt pistol
+    range: 12
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-PSYKER 4+
+    - DEVASTATING WOUNDS
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  melee:
+  - name: Null mace
+    A: 3
+    WS: 3+
+    S: 4
+    AP: -1
+    D: 1
+    abilities:
+    - ANTI-PSYKER 4+
+    - DEVASTATING WOUNDS
+  - name: Blessed sword
+    A: 3
+    WS: 3+
+    S: 4
+    AP: -2
+    D: 2
+    abilities:
+    - LETHAL HITS
+  - name: Virge of Admonition
+    A: 3
+    WS: 4+
+    S: 6
+    AP: -2
+    D: 3
+    abilities:
+    - ANTI-PSYKER 4+
+    - DEVASTATING WOUNDS
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Rituale Nullificatus
+      text: Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.
+    - name: Virtue of Intolerance
+      text: At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry.
+        Each time a model in this unit makes an attack that targets its quarry, that attack has the [Precision]
+        ability and you can re‑roll the Hit roll. This ability can be used even if this unit is embarked
+        within a Transport.
+    - name: Attached Unit
+      text: If a Character unit from your army can be attached to a Dominion Squad unit, it can be attached
+        to this unit instead.
+  keywords:
+  - Infantry
+  - Grenades
+  - Imperium
+  - Celestian Insidiants
+- name: Celestian Sacresant Aveline [Legends]
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 4
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  melee:
+  - name: The Thorn of the White Rose
+    A: 4
+    WS: 3+
+    S: 5
+    AP: -2
+    D: 2
+  abilities:
+    core:
+    - Feel No Pain 6+
+    - Lone Operative
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Instrument of the Emperor's Wrath
+      text: Once per battle, at the start of the Fight phase, this model can use this ability. If it does,
+        until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this
+        model and those weapons have the [DEVASTATING WOUNDS] ability.
+    - name: Daemonbreaker
+      text: Each time this model makes an attack that targets a DAEMON unit, you can re-roll the Hit roll
+        and you can re-roll the Wound roll.
+  keywords:
+  - Epic Hero
+  - Infantry
+  - Character
+  - Imperium
+  - Grenades
+  - Celestian Sacresant Aveline
+  - Sororitas Character
+- name: Crusaders [Legends]
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 2
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  melee:
+  - name: Power Weapon
+    A: 3
+    WS: 3+
+    S: 4
+    AP: -2
+    D: 2
+  keywords: []
+- name: Daemonifuge
+  source: bsdata-wh40k-11e
+  stats:
+    M: 8
+    T: 3
+    Sv: 3+
+    W: 5
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  melee:
+  - name: Sanctity
+    A: 4
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - ANTI-CHAOS 2+
+    - PRECISION
+  keywords: []
+  extra_profiles:
+  - name: Kyganil of the Bloody Tears
+    stats:
+      M: 8
+      T: 3
+      Sv: 6+
+      W: 3
+      Ld: 7+
+      OC: 1
+- name: Dialogus
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 3
+    Ld: 6+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  melee:
+  - name: Dialogus staff
+    A: 3
+    WS: 4+
+    S: 4
+    AP: 0
+    D: 1
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Laud Hailer
+      text: Once per battle, at the start of any phase, you can select one friendly Adepta Sororitas unit
+        that is Battle-shocked and within 12" of this model. That unit is no longer Battle-shocked.
+    - name: Stirring Rhetoric
+      text: While this model is leading a unit, each time that unit performs an Act of Faith, the value
+        of one of the Miracle dice used in that Act of Faith is first changed to a 6.
+    - name: Support
+      text: 'This model can be attached to the following units: ■ Battle Sisters Squad ■ Celestian Sacresants
+        ■ Dominion Squad ■ Retributor Squad ■ Sisters Novitiate Squad This model can be attached to a
+        Battle Sisters Squad, even if one Canoness, Palatine, Junith Eruita, or Aestred Thurga unit has
+        already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units
+        attached to it become separate units, with their original Starting Strengths.'
+  keywords:
+  - Infantry
+  - Character
+  - Imperium
+  - Dialogus
+  - Sororitas Character
+- name: Dogmata
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 3
+    Ld: 6+
+    OC: 1
+  invuln: 6+
+  invuln_ranged_only: false
+  melee:
+  - name: Mace of the Righteous
+    A: 4
+    WS: 3+
+    S: 5
+    AP: -2
+    D: 2
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Executioner of Heretics (Aura)
+      text: While an enemy unit is within 6" of this model, worsen the Leadership characteristic of models
+        in that unit by 1.
+    - name: Unflinching Determination
+      text: While this model is leading a unit, add 1 to the Objective Control characteristic of models
+        in that unit.
+    - name: Support
+      text: 'This model can be attached to the following units: ■ Battle Sisters Squad ■ Celestian Sacresants
+        ■ Dominion Squad ■ Retributor Squad This model can be attached to a Battle Sisters Squad, even
+        if one Canoness, Palatine, Junith Eruita, or Aestred Thurga unit has already been attached to
+        it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate
+        units, with their original Starting Strengths.'
+  keywords:
+  - Infantry
+  - Character
+  - Grenades
+  - Imperium
+  - Dogmata
+  - Sororitas Character
+- name: Exorcist
+  source: bsdata-wh40k-11e
+  stats:
+    M: 10
+    T: 10
+    Sv: 3+
+    W: 11
+    Ld: 7+
+    OC: 3
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Heavy Bolter
+    range: 36
+    A: 3
+    BS: 3+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Exorcist Missile Launcher
+    range: 36
+    A: D6+2
+    BS: 3+
+    S: 10
+    AP: -3
+    D: D6
+    abilities:
+    - INDIRECT FIRE
+  - name: Exorcist Conflagration Rockets
+    range: 36
+    A: 3D6
+    BS: 3+
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - BLAST
+    - IGNORES COVER
+    - INDIRECT FIRE
+  - name: Hunter-killer missile
+    range: 48
+    A: 1
+    BS: 2+
+    S: 14
+    AP: -3
+    D: D6
+    abilities:
+    - ONE SHOT
+  melee:
+  - name: Armoured tracks
+    A: 3
+    WS: 4+
+    S: 6
+    AP: 0
+    D: 1
+  abilities:
+    core:
+    - Deadly Demise D3
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: 'Damaged: 1-4 Wounds Remaining'
+      text: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract
+        1 from the Hit roll.
+    - name: Devastating Refrain
+      text: In your Shooting phase, after this model has shot, if one or more of those attacks made with
+        an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock
+        test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, the
+        model's Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of a 6.
+  keywords:
+  - Vehicle
+  - Smoke
+  - Imperium
+  - Exorcist
+  - Frame
+- name: Geminae Superia
+  source: bsdata-wh40k-11e
+  stats:
+    M: 12
+    T: 3
+    Sv: '2'
+    W: 2
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Bolt Pistol
+    range: 12
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  melee:
+  - name: Power Weapon
+    A: 4
+    WS: 3+
+    S: 4
+    AP: -2
+    D: 1
+  keywords: []
+- name: Hospitaller
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 3
+    Ld: 7+
+    OC: 1
+  invuln: 6+
+  invuln_ranged_only: false
+  melee:
+  - name: Chirugeon's tools
+    A: 3
+    WS: 4+
+    S: 3
+    AP: 0
+    D: 1
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Medicus Ministorum
+      text: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.
+    - name: Sacred Healing
+      text: While this model is leading a unit, in your Command phase, you can return up to 1 destroyed
+        model (excluding Character models) to that unit. If you wish, you first discard 1 Miracle dice;
+        if you do, you can return up to D3+1 destroyed models (excluding Character models) to that unit
+        instead.
+    - name: Support
+      text: 'This model can be attached to the following units: ■ Battle Sisters Squad ■ Celestian Sacresants
+        ■ Dominion Squad ■ Retributor Squad ■ Sisters Novitiate Squad This model can be attached to a
+        Battle Sisters Squad, even if one Canoness, Palatine, Junith Eruita, or Aestred Thurga unit has
+        already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units
+        attached to it become separate units, with their original Starting Strengths.'
+  keywords:
+  - Infantry
+  - Character
+  - Imperium
+  - Hospitaller
+  - Sororitas Character
+- name: Imagifier
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: ''
+    W: 3
+    Ld: 6+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Boltgun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  melee:
+  - name: Close combat weapon
+    A: 3
+    WS: 4+
+    S: 3
+    AP: 0
+    D: 1
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Litany of Deeds
+      text: Each time you gain a Miracle dice as the result of a friendly ADEPTA SORORITAS unit or model
+        being destroyed, if that unit or model was destroyed within 12" of this model, you can re-roll
+        the result of that Miracle dice before adding it to your Miracle dice pool.
+    - name: Stanchion of Holy Martyrs
+      text: While this model is leading a unit, models in that unit have a Save characteristic of 2+ and
+        a 4+ invulnerable save.
+    - name: Support
+      text: 'This model can be attached to the following units: ■ Battle Sisters Squad ■ Celestian Sacresants
+        ■ Dominion Squad ■ Retributor Squad This model can be attached to a Battle Sisters Squad, even
+        if one Canoness, Palatine, Junith Eruita, or Aestred Thurga unit has already been attached to
+        it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate
+        units, with their original Starting Strengths.'
+  keywords:
+  - Infantry
+  - Character
+  - Grenades
+  - Imperium
+  - Imagifier
+  - Sororitas Character
+- name: Immolator
+  source: bsdata-wh40k-11e
+  stats:
+    M: 12
+    T: 10
+    Sv: 3+
+    W: 11
+    Ld: 7+
+    OC: 2
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Heavy Bolter
+    range: 36
+    A: 3
+    BS: 3+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Immolation Flamers
+    range: 18
+    A: 2D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Twin Heavy Bolter
+    range: 36
+    A: 3
+    BS: 3+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 2
+    - TWIN-LINKED
+  - name: Twin Multi-melta
+    range: 18
+    A: 2
+    BS: 3+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+    - TWIN-LINKED
+  - name: Hunter-killer missile
+    range: 48
+    A: 1
+    BS: 2+
+    S: 14
+    AP: -3
+    D: D6
+    abilities:
+    - ONE SHOT
+  melee:
+  - name: Armoured tracks
+    A: 3
+    WS: 4+
+    S: 6
+    AP: 0
+    D: 1
+  abilities:
+    core:
+    - Deadly Demise D3
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Transport
+      text: This model has a transport capacity of 6 ADEPTA SORORITAS INFANTRY models. It cannot transport
+        JUMP PACK models or the Triumph of Saint Katherine. At the start of the Declare Battle Formations
+        step, you can select one BATTLE SISTERS SQUAD, DOMINION SQUAD or SISTERS NOVITIATE SQUAD from
+        your army. If you do, that unit is split into two units, each containing as equal a number of
+        models as possible (when splitting a unit in this way, make a note of which models form each of
+        the two new units. If you are splitting a unit that has the Cherub ability, only one of the new
+        units can use that ability during the battle – make a note of which of the new units this will
+        be). One of these units must start the battle embarked within this TRANSPORT; the other can start
+        the battle embarked within another TRANSPORT, or it can be deployed as a separate unit.
+    - name: Purge and Cleanse
+      text: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more
+        of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.
+  keywords:
+  - Dedicated Transport
+  - Vehicle
+  - Smoke
+  - Transport
+  - Imperium
+  - Immolator
+  - Frame
+- name: Inspiring Devotee [Crucible]
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 3
+    Ld: 6+
+    OC: 1
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Autopistol
+    range: 12
+    A: 1
+    BS: 2+
+    S: 3
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Bolt pistol
+    range: 12
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Inferno pistol
+    range: 6
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 2+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Artificer-crafted storm bolter
+    range: 24
+    A: 2
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 2
+    abilities:
+    - RAPID FIRE 2
+  - name: Autogun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 3
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Boltgun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Brazier of holy fire
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 2
+    abilities:
+    - IGNORES COVER
+    - ONE SHOT
+    - TORRENT
+  - name: Combi-weapon
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+    - DEVASTATING WOUNDS
+    - RAPID FIRE 1
+  - name: Condemnor boltgun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-PSYKER 2+
+    - DEVASTATING WOUNDS
+    - PRECISION
+    - RAPID FIRE 1
+  - name: Meltagun
+    range: 12
+    A: 1
+    BS: 2+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  - name: Ministorum flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 5
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Ministorum heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Paragon grenade launchers
+    range: 24
+    A: 1
+    BS: 2+
+    S: 9
+    AP: -2
+    D: D3
+    abilities:
+    - TWIN-LINKED
+  - name: Paragon storm bolters
+    range: 24
+    A: 2
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 2
+    - TWIN-LINKED
+  - name: Multi-melta
+    range: 24
+    A: 2
+    BS: 3+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  - name: Heavy bolter
+    range: 36
+    A: 3
+    BS: 3+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  melee:
+  - name: Hallowed mace
+    A: 5
+    WS: 2+
+    S: 4
+    AP: -1
+    D: 2
+    abilities:
+    - LETHAL HITS
+  - name: Power weapon
+    A: 4
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 2
+  - name: Close combat weapon
+    A: 5
+    WS: 2+
+    S: 3
+    AP: 0
+    D: 1
+  - name: Hallowed chainsword
+    A: 5
+    WS: 2+
+    S: 3
+    AP: -1
+    D: 1
+  - name: Blessed blade
+    A: 4
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - LETHAL HITS
+  - name: Holy eviscerator
+    A: 3
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Neural whips
+    A: 6
+    WS: 2+
+    S: 3
+    AP: -1
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+  - name: Paragon war blade
+    A: 5
+    WS: 2+
+    S: 8
+    AP: -2
+    D: 2
+  - name: Paragon war mace
+    A: 4
+    WS: 2+
+    S: 12
+    AP: -1
+    D: 3
+  - name: Blessed polearm
+    A: 5
+    WS: 2+
+    S: 5
+    AP: -2
+    D: 2
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Sacred Devotions
+      text: Each time this unit performs an Act of Faith, the value of one of the Miracle dice used in
+        that Act of Faith is first changed to a 4.
+    - name: Leader
+      text: 'This model can be attached to the following units: Battle Sisters Squad, Celestian Sacresants,
+        Dominion Squad, Retributor Squad, Sisters Novitiate Squad'
+  keywords:
+  - Character
+  - Infantry
+  - Grenades
+  - Imperium
+  - Crucible
+  - Inspiring Devotee
+  - Sororitas Character
+- name: Intranzia Fraye
+  source: bsdata-wh40k-11e
+  stats:
+    M: 8
+    T: 7
+    Sv: 3+
+    W: 8
+    Ld: 6+
+    OC: 3
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Heavy bolter
+    range: 36
+    A: 3
+    BS: 2+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Melta missile array
+    range: 24
+    A: 2
+    BS: 2+
+    S: 9
+    AP: -2
+    D: D3
+    abilities:
+    - MELTA 2
+  - name: Ministorum heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  melee:
+  - name: Mace of Saint Praxedes
+    A: 4
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Throne of Blame
+    A: 4
+    WS: 4+
+    S: 6
+    AP: 0
+    D: 1
+    abilities:
+    - EXTRA ATTACKS
+  abilities:
+    core:
+    - Deadly Demise 1
+    - Feel No Pain 5+
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Righteous Denunciation
+      text: At the start of the Fight phase, each enemy unit within 6" of this model must take a Battle‑shock
+        test, subtracting 1 from that test.
+    - name: Judged for Execution
+      text: At the end of your Movement phase, you can select one enemy unit within 18" of and visible
+        to this model. Until the start of your next Command phase, each time a friendly Adepta Sororitas
+        model makes an attack that targets that enemy unit, that attack has the [LETHAL HITS] ability.
+  keywords:
+  - Vehicle
+  - Walker
+  - Imperium
+  - Character
+  - Penitent
+  - Epic Hero
+  - Intranzia Fraye
+  - Sororitas Character
+- name: Junith Eruita
+  source: bsdata-wh40k-11e
+  stats:
+    M: 8
+    T: 5
+    Sv: 2+
+    W: 8
+    Ld: 6+
+    OC: 2
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Twin Ministorum Heavy Flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+    - TWIN-LINKED
+  melee:
+  - name: Mace of Castigation
+    A: 4
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+  abilities:
+    core:
+    - Deadly Demise 1
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: The Pulpit of Saint Holline’s Basilica
+      text: While this model is leading a unit, each time an attack targets that unit, subtract 1 from
+        the Hit roll.
+    - name: Fiery Conviction
+      text: 'If this model is on the battlefield at the start of your Command phase, you can choose one
+        of the following: ■ Discard 1 Miracle dice and gain 1CP. ■ Take a Leadership test for this model,
+        if that test is passed, gain 1CP.'
+    - name: Leader
+      text: 'This model can be attached to the following units: ■ Battle Sisters Squad ■ Celestian Sacresants
+        ■ Dominion Squad ■ Retributor Squad ■ Sisters Novitiate Squad'
+  keywords:
+  - Epic Hero
+  - Character
+  - Fly
+  - Imperium
+  - Junith Eruita
+  - Mounted
+  - Sororitas Character
+- name: Militant Commander [Crucible]
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 4
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Autopistol
+    range: 12
+    A: 1
+    BS: 2+
+    S: 3
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Bolt pistol
+    range: 12
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Inferno pistol
+    range: 6
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 2+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Artificer-crafted storm bolter
+    range: 24
+    A: 2
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 2
+    abilities:
+    - RAPID FIRE 2
+  - name: Autogun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 3
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Boltgun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Brazier of holy fire
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 2
+    abilities:
+    - IGNORES COVER
+    - ONE SHOT
+    - TORRENT
+  - name: Combi-weapon
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+    - DEVASTATING WOUNDS
+    - RAPID FIRE 1
+  - name: Condemnor boltgun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-PSYKER 2+
+    - DEVASTATING WOUNDS
+    - PRECISION
+    - RAPID FIRE 1
+  - name: Meltagun
+    range: 12
+    A: 1
+    BS: 2+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  - name: Ministorum flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 5
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Ministorum heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Paragon grenade launchers
+    range: 24
+    A: 1
+    BS: 2+
+    S: 9
+    AP: -2
+    D: D3
+    abilities:
+    - TWIN-LINKED
+  - name: Paragon storm bolters
+    range: 24
+    A: 2
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 2
+    - TWIN-LINKED
+  - name: Multi-melta
+    range: 24
+    A: 2
+    BS: 3+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  - name: Heavy bolter
+    range: 36
+    A: 3
+    BS: 3+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  melee:
+  - name: Hallowed mace
+    A: 5
+    WS: 2+
+    S: 4
+    AP: -1
+    D: 2
+    abilities:
+    - LETHAL HITS
+  - name: Power weapon
+    A: 4
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 2
+  - name: Close combat weapon
+    A: 5
+    WS: 2+
+    S: 3
+    AP: 0
+    D: 1
+  - name: Hallowed chainsword
+    A: 5
+    WS: 2+
+    S: 3
+    AP: -1
+    D: 1
+  - name: Blessed blade
+    A: 4
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - LETHAL HITS
+  - name: Holy eviscerator
+    A: 3
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Neural whips
+    A: 6
+    WS: 2+
+    S: 3
+    AP: -1
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+  - name: Paragon war blade
+    A: 5
+    WS: 2+
+    S: 8
+    AP: -2
+    D: 2
+  - name: Paragon war mace
+    A: 4
+    WS: 2+
+    S: 12
+    AP: -1
+    D: 3
+  - name: Blessed polearm
+    A: 5
+    WS: 2+
+    S: 5
+    AP: -2
+    D: 2
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Sacred Command
+      text: Once per battle round, one unit from your army with the ability can be targeted with a Stratagem
+        for 0CP, even if another unit from your army has already been targeted with that Stratagem this
+        phase.
+    - name: Leader
+      text: 'This model can be attached to the following units: Battle Sisters Squad, Celestian Sacresants,
+        Dominion Squad, Retributor Squad, Sisters Novitiate Squad'
+  keywords:
+  - Character
+  - Infantry
+  - Grenades
+  - Imperium
+  - Canoness
+  - Militant Commander
+  - Crucible
+  - Sororitas Character
+- name: Ministorum Priest
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 6+
+    W: 3
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Holy Pistol
+    range: 12
+    A: 3
+    BS: 4+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Zealot's vindictor
+    range: 12
+    A: D6
+    BS: N/A
+    S: 5
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  melee:
+  - name: Power weapon
+    A: 3
+    WS: 3+
+    S: 4
+    AP: -2
+    D: 1
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Righteous Smiting
+      text: While this model is leading a unit, each time a model in that unit makes a melee attack, add
+        1 to the Wound roll.
+    - name: Zealot
+      text: Once per battle, in the Fight phase, this model can use this ability. If it does, until the
+        end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by
+        this model by 3.
+    - name: Holy Mission
+      text: If this model is attached to a Dominion Squad during the Declare Battle Formations step, it
+        gains the Scouts 6" ability. If this model is attached to a Sisters Novitiate Squad during the
+        Declare Battle Formations step, it gains the Infiltrators ability.
+    - name: Leader
+      text: 'This model can be attached to the following units: ■ Arco-flagellants ■ Battle Sisters Squad
+        ■ Dominion Squad ■ Sisters Novitiate Squad'
+  keywords:
+  - Infantry
+  - Character
+  - Imperium
+  - Ministorum Priest
+  - Penitent
+  - Sororitas Character
+- name: Morvenn Vahl
+  source: bsdata-wh40k-11e
+  stats:
+    M: 8
+    T: 7
+    Sv: 2+
+    W: 8
+    Ld: 6+
+    OC: 3
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Fidelis
+    range: 36
+    A: 3
+    BS: 2+
+    S: 6
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Paragon missile launcher - prioris
+    range: 36
+    A: 2
+    BS: 2+
+    S: 9
+    AP: -2
+    D: D6
+  - name: Paragon missile launcher - sanctorum
+    range: 36
+    A: 2D6
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - BLAST
+  melee:
+  - name: Lance of Illumination - strike
+    A: 5
+    WS: 2+
+    S: 8
+    AP: -2
+    D: 3
+    abilities:
+    - DEVASTATING WOUNDS
+  - name: Lance of Illumination - sweep
+    A: 10
+    WS: 2+
+    S: 5
+    AP: -1
+    D: 1
+    abilities:
+    - DEVASTATING WOUNDS
+  abilities:
+    core:
+    - Deadly Demise 1
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Abbess Sanctorum
+      text: While this model is leading a unit, each time a model in that unit makes an attack, you can
+        re-roll the Hit roll and you can re-roll the Wound roll.
+    - name: Righteous Repugnance
+      text: Each time this model's unit is selected to shoot or fight, you can discard 1 Miracle dice.
+        If you do, until the end of the phase, add 3 to the Attacks characteristic of Fidelis and the
+        Lance of Illumination. Each time an enemy unit is destroyed by this model, you gain 1 Miracle
+        dice.
+    - name: Leader
+      text: 'This model can be attached to the following unit: ■ Paragon Warsuits'
+  keywords:
+  - Vehicle
+  - Walker
+  - Character
+  - Epic Hero
+  - Imperium
+  - Morvenn Vahl
+  - Sororitas Character
+- name: Palatine
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 4
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 2+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  melee:
+  - name: Palatine blade
+    A: 4
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 2
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Fury of the Righteous
+      text: While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL
+        HITS] ability.
+    - name: Rapturous Blows
+      text: Each time this model’s unit is selected to fight, you can discard 1 Miracle dice. If you do,
+        then until the end of the phase, each time a melee attack made by this model scores a wound, the
+        target of that attack suffers 1 mortal wound in addition to any normal damage.
+    - name: Leader
+      text: 'This model can be attached to the following units: ■ Battle Sisters Squad ■ Celestian Sacresants
+        ■ Dominion Squad ■ Retributor Squad ■ Sisters Novitiate Squad'
+  keywords:
+  - Infantry
+  - Character
+  - Grenades
+  - Imperium
+  - Palatine
+  - Sororitas Character
+- name: Paragon Warsuits
+  source: bsdata-wh40k-11e
+  stats:
+    M: 8
+    T: 7
+    Sv: 2+
+    W: 4
+    Ld: 7+
+    OC: 2
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Paragon Storm Bolters
+    range: 24
+    A: 2
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 2
+    - TWIN-LINKED
+  - name: Paragon Grenade Launchers
+    range: 24
+    A: 1
+    BS: 3+
+    S: 9
+    AP: -2
+    D: D3
+    abilities:
+    - TWIN-LINKED
+  - name: Heavy Bolter
+    range: 36
+    A: 3
+    BS: 3+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Multi-melta
+    range: 18
+    A: 2
+    BS: 3+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  - name: Ministorum heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  melee:
+  - name: Paragon War Blade
+    A: 4
+    WS: 3+
+    S: 8
+    AP: -2
+    D: 2
+  - name: Paragon War Mace
+    A: 3
+    WS: 3+
+    S: 12
+    AP: -1
+    D: 3
+  keywords: []
+  extra_profiles:
+  - name: Paragon Superior
+    stats:
+      M: 8
+      T: 7
+      Sv: 2+
+      W: 4
+      Ld: 7+
+      OC: 2
+- name: Reliquant Knight [Crucible]
+  source: bsdata-wh40k-11e
+  stats:
+    M: 8
+    T: 7
+    Sv: 2+
+    W: 4
+    Ld: 7+
+    OC: 2
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Autopistol
+    range: 12
+    A: 1
+    BS: 2+
+    S: 3
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Bolt pistol
+    range: 12
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Inferno pistol
+    range: 6
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 2+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 2+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Artificer-crafted storm bolter
+    range: 24
+    A: 2
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 2
+    abilities:
+    - RAPID FIRE 2
+  - name: Autogun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 3
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Boltgun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Brazier of holy fire
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 2
+    abilities:
+    - IGNORES COVER
+    - ONE SHOT
+    - TORRENT
+  - name: Combi-weapon
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+    - DEVASTATING WOUNDS
+    - RAPID FIRE 1
+  - name: Condemnor boltgun
+    range: 24
+    A: 1
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-PSYKER 2+
+    - DEVASTATING WOUNDS
+    - PRECISION
+    - RAPID FIRE 1
+  - name: Meltagun
+    range: 12
+    A: 1
+    BS: 2+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  - name: Ministorum flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 5
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Ministorum heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Paragon grenade launchers
+    range: 24
+    A: 1
+    BS: 2+
+    S: 9
+    AP: -2
+    D: D3
+    abilities:
+    - TWIN-LINKED
+  - name: Paragon storm bolters
+    range: 24
+    A: 2
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 2
+    - TWIN-LINKED
+  - name: Multi-melta
+    range: 24
+    A: 2
+    BS: 3+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  - name: Heavy bolter
+    range: 36
+    A: 3
+    BS: 3+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  melee:
+  - name: Hallowed mace
+    A: 5
+    WS: 2+
+    S: 4
+    AP: -1
+    D: 2
+    abilities:
+    - LETHAL HITS
+  - name: Power weapon
+    A: 4
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 2
+  - name: Close combat weapon
+    A: 5
+    WS: 2+
+    S: 3
+    AP: 0
+    D: 1
+  - name: Hallowed chainsword
+    A: 5
+    WS: 2+
+    S: 3
+    AP: -1
+    D: 1
+  - name: Blessed blade
+    A: 4
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - LETHAL HITS
+  - name: Holy eviscerator
+    A: 3
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Neural whips
+    A: 6
+    WS: 2+
+    S: 3
+    AP: -1
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+  - name: Paragon war blade
+    A: 5
+    WS: 2+
+    S: 8
+    AP: -2
+    D: 2
+  - name: Paragon war mace
+    A: 4
+    WS: 2+
+    S: 12
+    AP: -1
+    D: 3
+  - name: Blessed polearm
+    A: 5
+    WS: 2+
+    S: 5
+    AP: -2
+    D: 2
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Adamant Wrath
+      text: You can re-roll Advance and Charge rolls made for this unit.
+    - name: Leader
+      text: 'This model can be attached to the following units: Paragon Warsuits'
+  keywords:
+  - Character
+  - Grenades
+  - Imperium
+  - Crucible
+  - Vehicle
+  - Walker
+  - Reliquant Knight
+  - Paragon Warsuits
+  - Sororitas Character
+- name: Repressor [Legends]
+  source: bsdata-wh40k-11e
+  stats:
+    M: 12
+    T: 10
+    Sv: 3+
+    W: 12
+    Ld: 7+
+    OC: 2
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Repressor twin heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+    - TWIN-LINKED
+  - name: Heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Storm bolter
+    range: 24
+    A: 2
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 2
+  - name: Hunter-killer missile
+    range: 48
+    A: 1
+    BS: 2+
+    S: 14
+    AP: -3
+    D: D6
+    abilities:
+    - ONE SHOT
+  melee:
+  - name: Dozer Ram
+    A: 3
+    WS: 4+
+    S: 7
+    AP: 0
+    D: 1
+  - name: Armoured tracks
+    A: 3
+    WS: 4+
+    S: 6
+    AP: 0
+    D: 1
+  abilities:
+    core:
+    - Deadly Demise D3
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Transport
+      text: This model has a transport capacity of 12 ADEPTA SORORITAS INFANTRY models. It cannot transport
+        JUMP PACK models or the Triumph of Saint Katherine.
+    - name: Emergency Combat Embarkation
+      text: Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for
+        its charge but before it makes a Charge move, you can select one ADEPTA SORORITAS unit from your
+        army that was selected as a target of that charge. Provided that unit is not within Engagement
+        Range of any enemy units and every model in that unit is within 3" of this TRANSPORT, it can embark
+        within this TRANSPORT.
+  keywords:
+  - Dedicated Transport
+  - Vehicle
+  - Transport
+  - Smoke
+  - Imperium
+  - Sororitas Rhino
+  - Repressor
+- name: Retributor Squad
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Condemnor boltgun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-PSYKER 2+
+    - DEVASTATING WOUNDS
+    - PRECISION
+    - RAPID FIRE 1
+  - name: Combi-weapon
+    range: 24
+    A: 1
+    BS: 4+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+    - DEVASTATING WOUNDS
+    - RAPID FIRE 1
+  - name: Boltgun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Inferno pistol
+    range: 6
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 3+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  melee:
+  - name: Chainsword
+    A: 3
+    WS: 4+
+    S: 3
+    AP: 0
+    D: 1
+  keywords: []
+- name: Saint Celestine
+  source: bsdata-wh40k-11e
+  stats:
+    M: 12
+    T: 3
+    Sv: 2+
+    W: 5
+    Ld: 6+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: The Ardent Blade
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -2
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  keywords:
+  - Character
+  - Saint Celestine
+  - Sororitas Character
+  - Epic Hero
+- name: Sanctifiers
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 6+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 5+
+  invuln_ranged_only: false
+  ranged:
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  - name: Holy fire
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 2
+    abilities:
+    - IGNORES COVER
+    - ONE SHOT
+    - TORRENT
+  - name: Plasma gun - standard
+    range: 24
+    A: 1
+    BS: 3+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Plasma gun - supercharge
+    range: 24
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - RAPID FIRE 1
+  - name: Meltagun
+    range: 12
+    A: 1
+    BS: 4+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  melee:
+  - name: Close combat weapon
+    A: 2
+    WS: 3+
+    S: 3
+    AP: 0
+    D: 1
+  - name: Sanctifier melee weapon
+    A: 3
+    WS: 3+
+    S: 3
+    AP: 0
+    D: 1
+  - name: Burning hands
+    A: 1
+    WS: 2+
+    S: 6
+    AP: -2
+    D: 3
+    abilities:
+    - DEVASTATING WOUNDS
+  - name: Death Cult blades
+    A: 4
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 1
+    abilities:
+    - PRECISION
+  abilities:
+    core:
+    - Scouts 6"
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Ministorum Sermon
+      text: While this unit contains a Ministorum Priest, melee weapons equipped by models in this unit
+        have the [SUSTAINED HITS 1] ability.
+    - name: Cherub
+      text: Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.
+    - name: Attached Unit
+      text: If a Ministorum Priest model from your army with the Leader ability can be attached to a Battle
+        Sisters Squad, it can be attached to this unit instead. If a Ministorum Priest model from your
+        army is attached to this unit during the Declare Battle Formations step, that model gains the
+        Scouts 6" ability.
+  keywords:
+  - Infantry
+  - Grenades
+  - Imperium
+  - Sanctifiers
+- name: Sororitas Rhino
+  source: bsdata-wh40k-11e
+  stats:
+    M: 12
+    T: 9
+    Sv: 3+
+    W: 10
+    Ld: 7+
+    OC: 2
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Hunter-killer missile
+    range: 48
+    A: 1
+    BS: 2+
+    S: 14
+    AP: -3
+    D: D6
+    abilities:
+    - ONE SHOT
+  - name: Storm bolter
+    range: 24
+    A: 2
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 2
+  melee:
+  - name: Armoured tracks
+    A: 3
+    WS: 4+
+    S: 6
+    AP: 0
+    D: 1
+  abilities:
+    core:
+    - Deadly Demise D3
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: Transport
+      text: This model has a transport capacity of 12 ADEPTA SORORITAS INFANTRY models. It cannot transport
+        JUMP PACK models or the TRIUMPH OF SAINT KATHERINE.
+    - name: Self Repair
+      text: At the start of your Command phase, this model regains 1 lost wound.
+  keywords:
+  - Dedicated Transport
+  - Vehicle
+  - Transport
+  - Smoke
+  - Imperium
+  - Sororitas Rhino
+  - Frame
+- name: Triumph of Saint Katherine
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 18
+    Ld: 6+
+    OC: 6
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Bolt Pistols
+    range: 12
+    A: 6
+    BS: 2+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  melee:
+  - name: Relic Weapons
+    A: 18
+    WS: 2+
+    S: 5
+    AP: -2
+    D: 1
+  abilities:
+    faction:
+    - Acts of Faith
+    datasheet:
+    - name: 'Damaged: 1-6 Wounds Remaining'
+      text: While this model has 1-6 wounds remaining, the Attacks characteristics of all of its weapons
+        are halved, and you can only select one ability when using its Relics of the Matriarchs ability,
+        instead of up to two.
+    - name: Relics of the Matriarchs
+      text: At the start of the battle round, select up to two of the abilities in the Relics of the Matriarchs
+        section. Until the start of the next battle round, this model has those abilities.
+    - name: Relic of the Matriarch - The Fiery Heart (Aura)
+      text: While a friendly Adepta Sororitas unit is within 6" of this model, add 2" to that unit's Move
+        characteristic and add 1 to the Advance and Charge rolls made for that unit.
+    - name: Relic of the Matriarch - Censer of the Sacred Rose (Aura)
+      text: While a friendly Adepta Sororitas unit is within 6" of this model, you can re-roll all Battle-shock
+        tests taken for that unit.
+    - name: Relic of the Matriarch - Simulacrum of the Ebon Chalice (Aura)
+      text: While a friendly Adepta Sororitas unit is within 6" of this model, that unit can perform up
+        to two Acts of Faith per phase, instead of only one.
+    - name: Relic of the Matriarch - Simulacrum of the Argent Shroud (Aura)
+      text: While a friendly Adepta Sororitas unit is within 6" of this model, each time a model in that
+        unit makes a ranged attack, re-roll a Wound roll of 1.
+    - name: Relic of the Matriarch - Icon of the Valorous Heart (Aura)
+      text: While a friendly Adepta Sororitas unit is within 6" of this model, models in that unit have
+        the Feel No Pain 6+ ability.
+    - name: Relic of the Matriarch - Petals of the Bloody Rose (Aura)
+      text: While a friendly Adepta Sororitas unit is within 6" of this model, improve the Armour Penetration
+        characteristic of melee weapons equipped by model in that unit by 1.
+    - name: Solemn Procession
+      text: Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the
+        battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of
+        6.’
+    - name: Leader
+      text: 'This model can be attached to the following unit: ■ Battle Sisters Squad'
+  keywords:
+  - Infantry
+  - Grenades
+  - Character
+  - Epic Hero
+  - Imperium
+  - Triumph of Saint Katherine
+  - Sororitas Character

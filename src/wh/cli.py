@@ -11,6 +11,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from itertools import combinations
 
@@ -519,6 +520,9 @@ def cmd_build(args) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="wh", description=__doc__.splitlines()[0])
+    p.add_argument("--faction", "-F", default=None,
+                   help="army faction for detachment/datasheet/profile data "
+                        "(e.g. knights, sisters). Default: knights (or $WH_FACTION).")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("dispositions", help="list the 5 force dispositions").set_defaults(fn=cmd_dispositions)
@@ -604,6 +608,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> None:
     args = build_parser().parse_args(argv)
+    if args.faction:
+        os.environ["WH_FACTION"] = args.faction
     args.fn(args)
 
 

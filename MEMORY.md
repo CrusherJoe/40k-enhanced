@@ -7,9 +7,32 @@ and deliberately **separate from the shared client-project memory** at
 
 ## What this is
 A Warhammer 40,000 (11th ed.) force-disposition + list tool for the armies
-jbeddoe plays (currently **Imperial Knights**), to optimise list building and
-guide practice. Python, plain-YAML data, stdlib CLI (`PYTHONPATH=src python3 -m wh …`),
-PyYAML the only dep.
+jbeddoe plays (**Imperial Knights** + **Adepta Sororitas**), to optimise list
+building and guide practice. Python, plain-YAML data, stdlib CLI
+(`PYTHONPATH=src python3 -m wh …`), PyYAML the only dep.
+
+## Multi-faction support
+- Faction-keyed data files: `data/{detachments,datasheets,profiles}/<faction>.yaml`.
+  Missions/matrix/mathhammer/tools are edition-wide (shared, faction-agnostic).
+- **`--faction`/`-F` flag** (or `$WH_FACTION`) selects the army; registry in
+  `data.py FACTIONS` (knights/ik → imperial-knights; sisters/sororitas/sob → adepta-sororitas).
+  Default = knights. e.g. `wh --faction sisters plan`.
+
+## Adepta Sororitas (in progress, 2026-07-23)
+- **8 detachments** (3 codex + supplement/faction-pack) span ALL 5 dispositions:
+  Hallowed Martyrs (3DP, Priority Assets), Bringers of Flame (3DP, Purge the Foe),
+  Champions of Faith (2, Disruption), Army of Faith (2, Take and Hold), Penitent Host
+  (2, Take and Hold), Chorus of Condemnation (1, Reconnaissance), Sanctified Orators
+  (1, Purge the Foe), Sacred Champions (1, Take and Hold). Full rules/enh/strat from 39k.
+- **STRATEGIC INVERSION vs Knights:** Sisters have LOTS of bodies, so action-heavy /
+  hold dispositions (Priority Assets, Take and Hold) are STRENGTHS not traps. Signature
+  mechanic = Miracle Dice / Acts of Faith (NOT yet ingested — need to understand it).
+- Data: 8 detachments, 32 profiles (BSData), 33 datasheet points (24 MFM + 9 BSData-base;
+  Sisters MFM prices squads by MODEL COUNT 5/10 — escalation refinement is a TODO).
+- Sources: MFM adepta-sororitas, Faction Pack docs (docs not yet stashed), BSData
+  Imperium-Adepta-Sororitas.json, 39k bundle. Extractors: tools/gen_*_sisters.py.
+- TODO: ingest Miracle Dice/Acts of Faith; cross-check detachment rules vs FP Rules
+  Updates; refine points (model-count/escalation); ask user's collection + playstyle.
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
