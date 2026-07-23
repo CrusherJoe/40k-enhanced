@@ -181,6 +181,22 @@ cover at the characteristic level (net 0 before other modifiers).
 **Mortal wounds:** inflicted one at a time, spilling within the unit; **bypass
 saves**; **lost** if the unit is destroyed with wounds to spare; **FNP can apply**.
 
+## Leaders, Support & Attached Units (19) — central to Sisters
+
+- **Leader / Support (24.22 / 24.34):** a unit whose datasheet has the **Leader**
+  or **Support** ability can, in the **Muster Armies** step, be attached to one
+  friendly **bodyguard** unit it's allowed to lead (the legal bodyguards are listed
+  per character). They form an **attached unit** — a single unit for all rules.
+- A bodyguard unit can have **one Leader AND one Support** attached (so a squad can
+  carry two characters). The character's aura/abilities then apply to the whole unit.
+- **Defence (19.02):** when the attached unit is attacked, use the **highest T of
+  the bodyguard models** — the character shelters behind the squad's toughness.
+  Destroyed-triggers fire only when the **last** model of the attached unit dies,
+  so characters are hard to pick out.
+- **List-building consequence:** buffs are delivered by stapling the right
+  character(s) to the right squad. This is a core lever for Sisters (Knights barely
+  used it) — see `docs/sisters-mechanics.md`.
+
 ## Bondsman (Imperial Knights army rule)
 
 Bondsman abilities are conferred by the big/Titanic Knights **onto friendly

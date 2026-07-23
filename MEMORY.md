@@ -25,8 +25,19 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
   (2, Take and Hold), Chorus of Condemnation (1, Reconnaissance), Sanctified Orators
   (1, Purge the Foe), Sacred Champions (1, Take and Hold). Full rules/enh/strat from 39k.
 - **STRATEGIC INVERSION vs Knights:** Sisters have LOTS of bodies, so action-heavy /
-  hold dispositions (Priority Assets, Take and Hold) are STRENGTHS not traps. Signature
-  mechanic = Miracle Dice / Acts of Faith (NOT yet ingested — need to understand it).
+  hold dispositions (Priority Assets, Take and Hold) are STRENGTHS not traps.
+- **Mechanics ingested (docs/sisters-mechanics.md):** Acts of Faith / MIRACLE DICE
+  (gain 1/round + 1 per own unit destroyed; roll D6 = fixed value; substitute for a roll
+  on demand → guaranteed Advance/Charge/Hit/Wound/Save/Damage/Battle-shock; 1/unit/phase,
+  2 with Army of Faith). Rewards trading models (dead unit = a die) → synergy w/ Hallowed
+  Martyrs (Blood of Martyrs buffs below-strength units). LEADER/SUPPORT + ATTACHED UNITS
+  (core 19.01/24.22/24.34): a squad takes 1 Leader + 1 Support, buffs apply to the whole
+  attached unit, character shelters behind squad's T. KEYWORDS gate detachment buffs
+  (Righteous Purpose → Battle Sisters/Sacresants/Paragons only; Desperate for Redemption →
+  PENITENT only); some enh grant keywords (e.g. "bearer gains PENITENT"). ALL detachment
+  rules stack army-wide (huge for Sisters). Engine does NOT model Miracle dice.
+- User owns ALL Sisters models (any build/wargear). Still need: playstyle preference (didn't
+  answer yet), full Leader→bodyguard map, cross-check strats vs FP Rules Updates, points refine.
 - Data: 8 detachments, 32 profiles (BSData), 33 datasheet points (24 MFM + 9 BSData-base;
   Sisters MFM prices squads by MODEL COUNT 5/10 — escalation refinement is a TODO).
 - Sources: MFM adepta-sororitas, Faction Pack docs (docs not yet stashed), BSData
