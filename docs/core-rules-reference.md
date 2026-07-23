@@ -77,6 +77,21 @@ Each unit picks one move type:
 Critical hits/wounds are still hits/wounds; abilities key off "critical" (Lethal
 Hits, Sustained Hits, Devastating Wounds, Anti-).
 
+**Fast / simultaneous rolling (07):** in each step (Hit → Wound → Save → Damage),
+if there's more than one dice to roll, you **make all of those rolls at the same
+time**. You cannot roll them one at a time and react between dice. This matters for
+any "before you roll, substitute/modify" effect (e.g. **Miracle dice**): you must
+commit it **before** the batch is rolled — you can't watch 20 shots and fix the
+one that whiffed. It also caps such substitutions to one die per batch roll.
+
+**Indirect Fire penalties (10.07):** an `[INDIRECT FIRE]` weapon shooting a target
+**not visible** to it: the target has **benefit of cover**, you **can't re-roll
+hits**, and **an unmodified 1–5 fails (only 6s hit)** — *unless* your unit
+**Remained Stationary** this turn **and** the target is visible to one or more
+friendly units, in which case 1–3 fails (4+ hits). After shooting indirectly the
+unit can't start an Action. → indirect fire is unreliable without a stationary
+spotter; casino weapons (variable Attacks) firing indirect are doubly swingy.
+
 ## Charge phase (11)
 
 - Declare a charge with an eligible unit (not Advanced, not Fell Back, not already

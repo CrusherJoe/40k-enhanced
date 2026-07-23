@@ -37,18 +37,25 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
   PENITENT only); some enh grant keywords (e.g. "bearer gains PENITENT"). ALL detachment
   rules stack army-wide (huge for Sisters). Engine does NOT model Miracle dice.
 - User owns ALL Sisters models (any build/wargear); said "let the analysis decide the best list".
-- **Analysis-driven best list (examples/best-sisters-purge.yaml, 2000/2000):** Army of Faith +
-  Sanctified Orators → **Purge the Foe**. Rationale: Sacred Rites (DOUBLE Acts of Faith) is the
-  premium army-wide reliability rule (Sisters' identity); Sanctified Orators adds a FREE extra
-  enhancement (doesn't count vs the limit) + Character +1 Ld; Purge rewards Sisters' kill AND hold
-  without needing dedicated action units (only 1/5 missions need an action, unlike Priority Assets
-  5/5). Units: Vahl+Paragons (elite brick), Triumph of St Katherine (Miracle-dice engine), Junith
-  Eruita (flying buff), Castigator+Exorcist (ranged value), 2 Immolator + 2 Dominion (mobile melta),
-  3 Battle Sisters (objective bodies), Zephyrim (mobile melee), Canoness+Palatine (lead squads).
-  Alternative: Hallowed Martyrs → Priority Assets (Blood of Martyrs + action-swarm, Miracle-dice-fed).
-- CAVEATS: squad DPS mathhammer OVER-COUNTS (profiles list full arsenal, not a picked loadout);
-  Leaders/attached-units + Miracle dice NOT modelled in the engine; "best" is partly meta (post-cutoff).
-- Best ranged value (single-model, reliable): Castigator 165, Immolator 110, Exorcist 180.
+- **11e CORRECTIONS (user, 2026-07-23) that reshaped the analysis:**
+  1. FAST ROLLING: you substitute a Miracle die BEFORE rolling a batch (all Hits/Wounds rolled
+     together), one die, no reacting → MD MUCH weaker; best only on SINGLE high-value rolls (a save,
+     a single-shot wound, a charge). Low generation → double-AoF (Army of Faith/Sacred Rites) is
+     OVER-RATED. Don't build around it. (docs: core-rules-reference + sisters-mechanics.)
+  2. INDIRECT FIRE nerf: non-visible target = only 6s hit unless Stationary + spotted → EXORCIST
+     (indirect + casino) is OUT; use RELIABLE DIRECT fire.
+  3. LOADOUT: don't melta-everywhere. FLAMERS auto-hit (dodge cover/fast-rolling/MD-on-hits) and
+     Bringers of Flame boosts their Strength → flamers for reliable anti-infantry, melta for anti-tank.
+- **REVISED best list (examples/best-sisters-purge.yaml, 2000/2000):** **Bringers of Flame → Purge
+  the Foe** (output-focused). Fervent Purgation = army-wide [ASSAULT] (advance-and-shoot into range)
+  + +1 S within 6". Units: Vahl+Paragons (brick + Miracle-die save sink), Junith (buff), Castigator
+  (reliable direct), 3 Immolator + 3 Dominion (flamer-heavy + some melta), 3 Battle Sisters (bodies),
+  2 Retributor (multi-melta direct anti-tank = Exorcist's job reliably), Zephyrim (melee), Canoness+
+  Dogmata (lead/support squads). Dropped Triumph (MD weaker) + Exorcist (indirect nerf).
+  Alternatives: Champions of Faith (Righteous Purpose +1 WS/BS) + Sanctified Orators (free enh); or
+  Hallowed Martyrs → Priority Assets (bodies for actions).
+- CAVEATS: squad DPS mathhammer OVER-COUNTS (full arsenal, not a picked loadout); Leaders/attached +
+  Miracle dice NOT modelled; "best" is partly meta (post-cutoff).
 - Data: 8 detachments, 32 profiles (BSData), 33 datasheet points (24 MFM + 9 BSData-base;
   Sisters MFM prices squads by MODEL COUNT 5/10 — escalation refinement is a TODO).
 - Sources: MFM adepta-sororitas, Faction Pack docs (docs not yet stashed), BSData

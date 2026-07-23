@@ -21,14 +21,22 @@ for reliability and clutch moments.
   once. Valid rolls: **Advance, Battle-shock, Charge, Damage, Hit, Save, Wound.**
 - **One Act of Faith per unit per phase** (→ **two** with the Army of Faith
   detachment's *Sacred Rites* rule).
-- **Why it matters:** a Miracle 6 is a guaranteed critical hit/wound, a passed
-  save, or a made charge — on demand. It converts the army's variance into
-  reliability, and **rewards trading models** (dead units generate dice), which
-  synergises hard with Hallowed Martyrs (below).
-- Mathhammer note: the EV engine does NOT model Miracle dice (they're a discrete,
-  player-timed resource). Treat them as ~a handful of guaranteed key results per
-  game — most valuable spent on high-impact rolls (a Vahl/Exorcist wound, a clutch
-  charge, an invuln save on a key model).
+- **⚠ FAST-ROLLING DEVALUES THEM (11e).** You must substitute the Miracle die
+  **before** the roll, and identical attacks are **fast-rolled as one batch**
+  (all Hits together, all Wounds together — core rules 07). So you commit **one**
+  die **up front** and can't react to results — you can't watch a unit's shots
+  and rescue the one crit that missed. Net: a Miracle die guarantees **one** die's
+  worth at a chosen value, committed blind. That makes them **much weaker than a
+  reactive substitution** would be.
+- **Best uses (given the above):** a **single high-value roll** — a single-shot
+  weapon's Hit or Wound (multi-melta/las), a **save on a key model**, a **Charge**
+  or **Advance** roll, a **Battle-shock** test. Poor value spread over high-volume
+  shooting (one guaranteed hit among 20 is marginal).
+- **Generation is low** (1/round + 1 per own unit destroyed), so **you rarely have
+  enough dice to exploit "two Acts of Faith per phase" (Army of Faith / Sacred
+  Rites)** — that rule is over-rated for it. Don't build around double-AoF.
+- Mathhammer note: the EV engine does NOT model Miracle dice — treat them as ~a
+  handful of guaranteed *single* key results per game.
 
 ## Detachments (8) — rules summary (all apply army-wide, even in a 2+1 mix)
 

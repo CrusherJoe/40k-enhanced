@@ -1,20 +1,33 @@
-# Analysis-driven Sisters list: Army of Faith + Sanctified Orators, Purge the Foe.
-# Engine = Sacred Rites (double Acts of Faith) + a free enhancement (Sanctified
-# Orators) + Purge's kill-and-hold scoring. Validate with:
+# Analysis-driven Sisters list (REVISED after the Miracle-dice + Indirect-fire
+# corrections): Bringers of Flame, Purge the Foe. Output-focused and reliable.
 #   PYTHONPATH=src python3 -m wh --faction sisters build examples/best-sisters-purge.yaml
-name: Sisters - Army of Faith + Sanctified Orators (Purge the Foe)
-detachments: [army-of-faith, sanctified-orators]
+#
+# WHY the pivot from Army of Faith:
+#  - Fast rolling means you commit a Miracle die BEFORE rolling a batch (one die,
+#    no reacting) -> MD are much weaker + you don't generate enough for double-AoF,
+#    so Sacred Rites (Army of Faith) is over-rated. Prefer an always-on OUTPUT rule.
+#  - Bringers of Flame (Fervent Purgation): ALL Sororitas ranged weapons get
+#    [ASSAULT] (advance-and-shoot into range) + +1 Strength within 6". Army-wide,
+#    aggressive, and it rewards getting close with melta/flamer/bolter.
+#  - Indirect Fire now only hits on 6s unless stationary + spotted -> the Exorcist
+#    (indirect + casino) is OUT; use RELIABLE DIRECT fire instead.
+#
+# LOADOUT (break the melta-everywhere habit): FLAMERS auto-hit -> they dodge cover,
+# the fast-rolling problem, and need no Miracle dice on hits, and Bringers of Flame
+# boosts their Strength. Run flamers on most Dominions for reliable anti-infantry;
+# keep MELTA for anti-tank (multi-melta Retributors/Immolators, some melta Dominions).
+name: Sisters - Bringers of Flame (Purge the Foe)
+detachments: [bringers-of-flame]
 disposition: purge-the-foe
 units:
-  - {datasheet: Morvenn Vahl, count: 1}            # leads a Paragon squad -- elite brick
-  - {datasheet: Paragon Warsuits, count: 1}
-  - {datasheet: Triumph of Saint Katherine, count: 1}  # Miracle-dice engine + aura
-  - {datasheet: Junith Eruita, count: 1}           # flying buff character
-  - {datasheet: Castigator, count: 1}              # flexible ranged
-  - {datasheet: Exorcist, count: 1}                # indirect anti-tank/elite
-  - {datasheet: Immolator, count: 2}               # transports + twin multi-melta
-  - {datasheet: Dominion Squad, count: 2}          # mobile melta (ride the Immolators)
-  - {datasheet: Battle Sisters Squad, count: 3}    # objective bodies + Acts of Faith
-  - {datasheet: Zephyrim Squad, count: 1}          # mobile melee / late objectives
-  - {datasheet: Canoness, count: 1}                # leads a Battle Sisters squad
-  - {datasheet: Palatine, count: 1}                # leads a Battle Sisters squad
+  - {datasheet: Morvenn Vahl, count: 1}          # leads Paragons; durable Miracle-die sink (saves)
+  - {datasheet: Paragon Warsuits, count: 1}       # multi-melta/heavy-flamer + melee brick
+  - {datasheet: Junith Eruita, count: 1}          # flying buff character
+  - {datasheet: Castigator, count: 1}             # reliable DIRECT anti-everything
+  - {datasheet: Immolator, count: 3}              # twin multi-melta / heavy flamer + transports
+  - {datasheet: Dominion Squad, count: 3}         # flamer (reliable) + some melta; ride Immolators
+  - {datasheet: Battle Sisters Squad, count: 3}   # objective bodies + special weapons
+  - {datasheet: Retributor Squad, count: 2}       # multi-melta direct-fire anti-tank (Exorcist's job, reliably)
+  - {datasheet: Zephyrim Squad, count: 1}         # mobile melee / late objectives
+  - {datasheet: Canoness, count: 1}               # leads a squad
+  - {datasheet: Dogmata, count: 1}                # Support character (buffs a Battle Sisters squad)
