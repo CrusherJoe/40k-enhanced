@@ -33,6 +33,8 @@ class Target:
     in_cover: bool = False
     fnp: str | None = None       # e.g. "5+"
     half_range: bool = False     # target within half range (melta / rapid fire)
+    damage_reduction: int = 0    # subtract N from each attack's Damage char (min 1),
+                                 # e.g. C'tan "-1 Damage". VERIFIED 11E, not a cap.
 
 
 @dataclass
@@ -137,10 +139,12 @@ def expected_damage(weapon: dict, target: Target, mods: Mods | None = None) -> f
     total_wounds = wounds_from_roll + auto_wounds
     crit_wounds = rolling_hits * crit_wound_rate
 
-    # --- damage per wound ---
-    dmg = dice.expected(D_expr)
-    if "MELTA" in kw and target.half_range:
-        dmg += _arg(kw["MELTA"])
+    # --- damage per wound (Melta raises the Damage char; target -N Damage lowers it, min 1) ---
+    melta_bonus = int(_arg(kw["MELTA"])) if ("MELTA" in kw and target.half_range) else 0
+    if target.damage_reduction:
+        dmg = dice.expected_reduced(D_expr, bonus=melta_bonus, reduce=target.damage_reduction)
+    else:
+        dmg = dice.expected(D_expr) + melta_bonus
 
     # --- saves ---  (cover does NOT affect saves in 11e; see cover_hit above)
     ap = int(weapon["AP"]) - mods.ap_bonus         # ap is <=0; ap_bonus makes it more negative

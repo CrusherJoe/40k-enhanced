@@ -35,7 +35,9 @@ Disruption + OC8 immovable objects; I win the *rest* of the board with speed.
 | Lokhust Destroyers (6) | T6 W3 3+ | Gauss cannon S5 AP-2 Lethal Hits |
 | *Distortion Fields aura* | — | enemies within 6" are "unravelling" (attacks degraded) |
 
-**Threat profile.** *Durability:* 4× **T11 W16** C'tan with invulns + damage-mitigation.
+**Threat profile.** *Durability:* 4× **T11 W16** C'tan with a 4++ invuln + **−1 Damage**
+(VERIFIED 11E: "subtract 1 from the Damage characteristic of that attack", min 1 — this is
+a flat reduction, NOT a "damage cap").
 **Here "AP is king" partly breaks:** vs a 4++ invuln, AP-4 melta is no better than AP-2,
 and S9 melta wounds T11 on 5+. **You cannot table 4 C'tan.** → **Don't try** — kill the
 *killable* enablers (Lokhust, Lychguard via volume, Reanimator, Plasmancer, characters)
@@ -48,8 +50,9 @@ Gaze/Voltaic/Seismic) — moderate volume, but each hit overkills.
 1. **Reanimation → chip is refunded.** Only *outright* kills count — favours concentrated
    high-damage removing whole models/units in one activation, and makes killing tough
    Necron units doubly hard.
-2. **Invulns + T11/T13 + C'tan mitigation partially negate AP.** Against a 4++ or T13,
-   melta's AP-4 edge evaporates and raw wounding falls off (S9 → wounds on 5s).
+2. **Invulns + T11/T13 + C'tan −1 Damage partially negate AP.** Against a 4++ or T13,
+   melta's AP-4 edge evaporates and raw wounding falls off (S9 → wounds on 5s); −1 Damage
+   further shaves each melta hit (D6+2 → D6+1). Buffed melta does only 7.3 to a C'tan (16W).
 3. **⇒ The correct plan vs top-end Necrons is MISSION, not kill.** Sisters can't reliably
    table 3 Monoliths or 4 C'tan. Win on the *objective game*: speed, OC bodies,
    secondaries, Acts-of-Faith reliability on key rolls, deny their actions, and spend

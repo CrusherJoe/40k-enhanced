@@ -19,6 +19,12 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
   Default = knights. e.g. `wh --faction sisters plan`.
 
 ## Adepta Sororitas (2026-07-23) — meta-derived all-comers list COMPLETE
+**STANDING RULE (user, all factions): ALWAYS pull/verify 11E data — units, rules, points,
+wargear, EVERYTHING — from the live source every time. Treat anything from edition-memory as
+10E-suspect and WRONG until confirmed against 11E (BSData / MFM / faction pack). User has played
+since 4th ed and explicitly warned about cross-edition contamination (I fabricated a C'tan "damage
+cap" from 10E memory — it's actually −1 Damage). Generalises "defer to MFM for points."**
+
 User owns ALL Sisters models (any build/wargear); "let the analysis decide the best list."
 `--faction sisters`. 8 detachments span all 5 dispositions (Hallowed Martyrs 3DP/Priority
 Assets, Bringers of Flame 3DP/Purge, Champions of Faith 2/Disruption, Army of Faith 2/T&H,
@@ -66,8 +72,9 @@ Champions 1/T&H). Rules STACK army-wide.
 - **MATHHAMMER FINDINGS (wh damage, full hit→wound→save chain):** buffed Vahl+Paragons one-shot a
   Land Raider (17.8 vs 16W); melta was OVER-invested (~45 on one target = 3× overkill) → trimmed 2
   packages into anti-horde flamers (~37 dead Boyz/turn now) + durability (Imagifier). C'tan uncrackable
-  even buffed (56%, before its damage cap) → play the mission. Anchors killable only when softened
-  first — the enablers ARE the anti-tank.
+  even buffed (7.3 of 16W, incl. its VERIFIED −1 Damage — NOT a "cap"; I'd wrongly recalled a 10E-ish
+  cap, user corrected) → play the mission. Anchors killable only when softened first — enablers ARE
+  the anti-tank. Engine now models −1 Damage (Target.damage_reduction; dice.expected_reduced).
 - **DOMINION = 10-MODEL ONLY** (user): exactly 4 take melta/flamer upgrades; deployed via the SPLIT
   (4-melta + Superior half rides an Immolator (cap 6), the other 5 bolter-Doms walk). Battle Sisters
   also split 10→5+5. Base 10-model = 90 (MFM, ▼-10 from 100), +5/meltagun → 110 with 4 meltas.

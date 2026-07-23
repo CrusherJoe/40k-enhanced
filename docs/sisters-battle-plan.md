@@ -25,7 +25,7 @@ the full melta suite is ~45 on one target — 3× overkill.** So spread melta ac
 |---|---|---|---|
 | Vahl+Paragons (6 MM) | **17.8** (kills) | 17.8 (81%) | 14.3 (71%, ~3.5 Termies) |
 | + MM Retributor (8) + 1 Dominion (4) | overkill | **kills** | brick dead |
-| **C'tan T11/3+/4++** | 8.9 even fully buffed (56%, *before* its damage cap) → **don't bother; play the mission** |
+| **C'tan T11/3+/4++, −1 Damage** | 7.3 even fully buffed (46%, incl. its **−1 Damage**) → **don't bother; play the mission** |
 
 | Anti-horde vs 20 Ork Boyz (T5 W1 5+) | dead/turn |
 |---|---|
@@ -35,6 +35,32 @@ the full melta suite is ~45 on one target — 3× overkill.** So spread melta ac
 | Heavy-bolter Retributor (12 shots) | 6.7 |
 | Zephyrim (4 hand flamers) | 3.1 |
 | **≈ 37 dead Boyz/turn** — enough to break blobs off objectives |
+
+## Durability stress-test (enemy fire INTO my units) — models lost/turn
+The other half: how fast do my girls die? (A failed save = a dead W1 model, whatever the
+weapon's Damage.) Verified 11E enemy weapons → my units:
+
+| My unit | vs 20 Boyz melee | vs 10 pyreblasters | vs 4 Monolith death rays |
+|---|---|---|---|
+| Battle Sisters (3+/6++, 10) | **10/10 dead** | **10/10 dead** | 2.8/10 |
+| Sacresants (3+/**4++**, 10) | **10/10 dead** | **10/10 dead** | 1.7/10 |
+| MM-Retributor **naked** (3+/6++, 5) | — | 5/5 | 2.8/5 |
+| MM-Retributor **Imagifier** (2+/4++, 5) | — | **5/5** | **1.7/5** |
+
+Lessons:
+- **Cheap bodies evaporate to VOLUME.** A single Boyz mob or Infernus flamer wall **wipes a
+  10-Sister squad** — even Sacresants' 4++ can't save vs ~60 attacks. Cheap squads are
+  **screens/traders/backfield OC**, NOT front-line fighters. Never let them get charged or
+  sit inside 12" of flamers.
+- **The Imagifier 2+/4++ brick is ~1.7× tougher vs anti-tank sniping** (death rays 2.8→1.7)
+  — its intended job — **but VOLUME still swamps it** (pyreblasters wipe it either way). So
+  **deploy the brick in the backfield, away from hordes/flamers**, and let it snipe anchors.
+- **The hammer DELIVERS.** Paragons (T7 2+/4++, 12W) take only **6.0 dmg from a full
+  Monolith's 4 death rays** (6W left) and **2.7 from a Repulsor** — they survive to melta.
+- **Transports are tougher than I'd warned** (correction): an Immolator (T10, 11W) takes
+  **7.5 from 3 gauss destructors** (survives, 3.5W left) and only **4.4 from six kopta
+  rokkits**. Ork dakka does NOT one-shot transports — it takes *multiple focused* anti-tank
+  units over two turns. Still: extract value early, but they're durable delivery, not glass.
 
 ## Attachment map (Leader + Support per unit, 19.01)
 - **Vahl → Paragon Warsuits** — re-roll hits & wounds + Righteous +1 BS. The hammer.

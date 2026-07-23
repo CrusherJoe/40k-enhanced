@@ -27,6 +27,38 @@ def expected(expr) -> float:
     return n * (faces + 1) / 2 + bonus
 
 
+def _pmf_ndf(n: int, faces: int) -> dict:
+    """pmf of the sum of `n` dice, each 1..faces."""
+    pmf = {0: 1.0}
+    for _ in range(n):
+        nxt: dict = {}
+        for s, p in pmf.items():
+            for f in range(1, faces + 1):
+                nxt[s + f] = nxt.get(s + f, 0.0) + p / faces
+        pmf = nxt
+    return pmf
+
+
+def expected_reduced(expr, bonus: int = 0, reduce: int = 0) -> float:
+    """E[max(1, roll(expr) + bonus - reduce)] -- models a '-N Damage' effect that
+    subtracts from the Damage characteristic (min 1) per attack instance, e.g. the
+    C'tan 'subtract 1 from the Damage characteristic of that attack'. `bonus` folds
+    in Melta etc. that raise the Damage characteristic before the reduction."""
+    if reduce <= 0 and bonus == 0:
+        return expected(expr)
+    s = str(expr).strip()
+    if isinstance(expr, (int, float)) or re.fullmatch(r"-?\d+", s):
+        return max(1.0, float(s) + bonus - reduce)
+    m = _DICE.match(s)
+    if not m:
+        raise ValueError(f"cannot parse dice expression: {expr!r}")
+    n = int(m.group(1) or 1)
+    faces = int(m.group(2))
+    base = int((m.group(3) or "0").replace(" ", ""))
+    return sum(p * max(1.0, tot + base + bonus - reduce)
+               for tot, p in _pmf_ndf(n, faces).items())
+
+
 def _reroll_die(faces: int) -> float:
     """Expected value of one fair die with an optimal single re-roll (re-roll any
     result at or below the mean)."""
