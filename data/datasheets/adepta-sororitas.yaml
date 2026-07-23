@@ -11,7 +11,7 @@
   sizes: {10: 100}
 - name: Dominion Squad                # 10-MODEL ONLY (user); exactly 4 take melta/flamer,
   sizes: {10: 90}                      # then split: 4-wpn half + Superior rides an Immolator (6),
-  wargear:                             # other 5 walk. Base 10-model cost -- CONFIRM (SSR noisy 90/100).
+  wargear:                             # other 5 walk. Base 10-model = 90 (MFM, user-confirmed).
   - {name: Meltagun, points: 5}       # per-model tax; max 4 -> +20
   - {name: Flamer, points: 0}         # flamer half: no tax (AP0, Torrent auto-hit vs hordes)
 - name: Retributor Squad              # fixed 5-model (Superior + 4 heavy-weapon)

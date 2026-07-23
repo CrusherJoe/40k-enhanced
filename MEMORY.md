@@ -64,7 +64,6 @@ Champions 1/T&H). Rules STACK army-wide.
   multi-melta +10, Retributor multi-melta +5, Dominion meltagun +5). List entries use `models: N` +
   `wargear: [{name, count}]`; build prices exactly (data.py `Datasheet.size_cost`, army.py). IK legacy
   copy-pricing path UNTOUCHED (regression-checked). **⇒ ALWAYS DEFER TO MFM for points (user rule).**
-  (Dominion 10-model base=90 read off the noisy SSR line — worth a re-confirm if points ever look off.)
 - Data/sources: 8 detachments, ~44 BSData profiles, datasheets w/ MFM sizes+taxes. MFM adepta-sororitas,
   Faction Pack, BSData Imperium-Adepta-Sororitas + opponent `.cat`s, 39k bundle. Extractors:
   tools/gen_*_sisters.py; opponent cat→JSON converter (scratchpad cat2json.py).
