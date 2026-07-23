@@ -86,13 +86,16 @@ Champions 1/T&H). Rules STACK army-wide.
   OPPONENT's disposition: opp Purge→Delaying Action, Recon→Smoke and Mirrors, Disruption→Outmanoeuvre,
   Take-and-Hold→Death Trap. (So the earlier "pick per game" plans are reframed to locked Disruption.)
 - **LAYOUTS INGESTED** from the Event Companion (deployment TYPE + notes per matchup, geometry approx,
-  like the Knights purge ingest): **data/layouts/disruption.yaml** (my lock — vs Purge/T&H/Recon/Priority
-  verified; Disruption-mirror not-yet-located in EC, flagged) + **take-and-hold.yaml** (secondary).
-  Deployment type is a property of the MATCHUP PAIR + layout letter (verified page-by-page, NOT a simple
-  by-opponent table). Universal: 6 obj (2 home/2 central-NML/2 expansion), 16 obscuring areas, centre packed.
-- **WORD BATTLE PLAN: docs/Sisters-Battle-Plan.docx** (generator tools/gen_sisters_docx.py, python-docx;
-  pulls live roster/points + layouts). Sections: list, soften-then-delete engine, mathhammer+durability
-  cheat-sheet, LOCK DISRUPTION, deployment layouts, 6 per-archetype plans. Regenerate after list/data changes.
+  like the Knights purge ingest): **data/layouts/disruption.yaml** (my lock — ALL 5 matchups verified
+  page-by-page incl. the Disruption-mirror at EC pp.36-38 = diagonal/diagonal/vertical) +
+  **take-and-hold.yaml** (secondary, 3/5 read). Deployment type is a property of the MATCHUP PAIR +
+  layout letter, verified per page (NOT a by-opponent table); the book puts each disposition's MIRROR
+  FIRST in its block. Universal: 6 obj (2 home/2 central-NML/2 expansion), 16 obscuring areas, centre packed.
+- **WORD DOCS (python-docx, pull live roster/points + layouts — regenerate after changes):**
+  **docs/Sisters-Battle-Plan.docx** (tools/gen_sisters_docx.py) — full plan: list, soften-then-delete
+  engine, mathhammer+durability cheat-sheet, LOCK DISRUPTION, deployment layouts, 6 per-archetype plans.
+  **docs/Sisters-Quick-Reference.docx** (tools/gen_sisters_qref_docx.py) — printable tabletop card:
+  mission-by-opponent table, deploy, per-shooting-phase softening sequence, target priority, per-round, don'ts.
 - **DOMINION = 10-MODEL ONLY** (user): exactly 4 take melta/flamer upgrades; deployed via the SPLIT
   (4-melta + Superior half rides an Immolator (cap 6), the other 5 bolter-Doms walk). Battle Sisters
   also split 10→5+5. Base 10-model = 90 (MFM, ▼-10 from 100), +5/meltagun → 110 with 4 meltas.

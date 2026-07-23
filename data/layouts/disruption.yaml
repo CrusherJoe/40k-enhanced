@@ -56,11 +56,11 @@ matchups:
   - vs: disruption               # Ork Kult of Speed / Necron Monoliths (mirror)
     your_mission: Outmanoeuvre
     opp_mission: Outmanoeuvre
-    pages: [null]                # NOT YET LOCATED in the EC (mirrors are interleaved)
+    pages: [36, 37, 38]          # mirror sits FIRST in the Disruption block, not last
     layouts:
-      A: {deployment: unread, note: "symmetric mirror; A is diagonal in every other matchup -> plan diagonal, CONFIRM from EC"}
-      B: {deployment: unread, note: "confirm from EC"}
-      C: {deployment: unread, note: "confirm from EC"}
+      A: {deployment: diagonal, note: "opposite-corner castles, big diagonal NML; long approach"}
+      B: {deployment: diagonal, note: "stepped diagonal divider; red upper-left / blue lower-right"}
+      C: {deployment: vertical, note: "red-left 14\" / blue-right 14\" bands; central objectives mid"}
 
   - vs: priority-assets          # (no current archetype locks Priority Assets)
     your_mission: Locate and Deny
