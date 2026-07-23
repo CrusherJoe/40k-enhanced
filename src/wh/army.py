@@ -47,6 +47,7 @@ class Line:
     unit_cost: int          # escalating cost of `count` copies (no enhancement/wargear)
     enh_cost: int
     wargear_cost: int
+    models: int | None = None  # models per unit (size-priced datasheets); None = n/a
 
     @property
     def total(self) -> int:
@@ -167,7 +168,14 @@ def build(spec: dict) -> Army:
             army.errors.append(f"unknown datasheet: {name!r}")
             continue
         prior = copies_seen.get(sheet.name, 0)
-        unit_cost = sum(sheet.cost(i) for i in range(prior + 1, prior + count + 1))
+        models = u.get("models")
+        if sheet.sizes:
+            per_unit, models, size_err = sheet.size_cost(models)
+            if size_err:
+                army.errors.append(f"{sheet.name}: {size_err}")
+            unit_cost = per_unit * count
+        else:
+            unit_cost = sum(sheet.cost(i) for i in range(prior + 1, prior + count + 1))
         copies_seen[sheet.name] = prior + count
 
         # enhancement
@@ -187,19 +195,25 @@ def build(spec: dict) -> Army:
                     army.warnings.append(
                         f"{hit[2]} is on a {count}-model entry -- an Enhancement goes on ONE model")
 
-        # wargear
+        # wargear -- accept "Name" (qty 1) or {name, count: N} for per-model taxes
         wargear = u.get("wargear", []) or []
         wg_cost = 0
+        wg_labels = []
         wg_map = {n.lower(): p for n, p in sheet.wargear}
         for w in wargear:
-            p = wg_map.get(w.strip().lower())
-            if p is None:
-                army.errors.append(f"{w!r} is not a point-costed wargear option for {sheet.name}")
+            if isinstance(w, dict):
+                wname, qty = w.get("name", ""), int(w.get("count", 1))
             else:
-                wg_cost += p * count
+                wname, qty = w, 1
+            p = wg_map.get(wname.strip().lower())
+            if p is None:
+                army.errors.append(f"{wname!r} is not a point-costed wargear option for {sheet.name}")
+            else:
+                wg_cost += p * qty * count
+                wg_labels.append(f"{qty}x {wname}" if qty > 1 else wname)
 
-        army.lines.append(Line(sheet.name, count, enh_name, wargear,
-                               unit_cost, enh_cost, wg_cost))
+        army.lines.append(Line(sheet.name, count, enh_name, wg_labels,
+                               unit_cost, enh_cost, wg_cost, models=models))
 
     # Rule of Three: aggregate copies per datasheet across all entries.
     per_sheet: dict[str, int] = {}

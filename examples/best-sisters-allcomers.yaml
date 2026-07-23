@@ -1,0 +1,59 @@
+# ============================================================================
+# BEST SISTERS — take-all-comers, derived from the meta ingest (5 factions /
+# 7 boogeyman archetypes in docs/meta/). Points are EXACT (MFM), per model count.
+#
+# THESIS: Sisters win the MISSION, not the slugfest. Balanced melta+flamer+blast
+# toolkit on a mobile/transport chassis: out-melta the anchors, out-flame the
+# hordes, out-OC the elites, never chase the un-killable. Transports are
+# expendable delivery (everyone packs anti-tank), not cover.
+#
+# DETACHMENT: Champions of Faith (2DP, Disruption) + Sacred Champions (1DP,
+# Take-and-Hold) = 3 DP, TWO dispositions, rules STACK army-wide:
+#  - Righteous Purpose: 3 units (Paragons + Sacresants + a Battle Sisters) get
+#    +1 Move / +1 Ld / +1 WS-BS -> mobility for the mission + accuracy for melta.
+#  - Holy Quest: Celestian Sacresants get +1 BS/WS.
+#
+# SIZES ARE EXPLICIT ([N] = models). Weapon taxes are per model:
+#   Paragon multi-melta +10, Retributor multi-melta +5, Dominion meltagun +5.
+#
+#   PYTHONPATH=src python3 -m wh --faction sisters build examples/best-sisters-allcomers.yaml
+# ============================================================================
+name: BEST Sisters - Champions of Faith + Sacred Champions (all-comers)
+detachments: [champions-of-faith, sacred-champions]
+disposition: disruption          # take-and-hold also available from the combo
+
+units:
+  # --- THE HAMMER: durable melta anchor-killer (Righteous target #1) ---
+  - {datasheet: Morvenn Vahl, models: 1}                                        # 200; leads Paragons, T7 W8 2+/4++
+  - {datasheet: Paragon Warsuits, models: 3, wargear: [{name: Multi-melta, count: 3}]}  # 180+30=210; +1 BS Righteous = reliable AP-4
+
+  # --- FIREBASE: split roles, no mixed loadouts ---
+  - {datasheet: Castigator, models: 1}                                          # 165; battle cannon Blast AP-1 -> hordes/MEQ
+  - {datasheet: Retributor Squad, models: 5, wargear: [{name: Multi-melta, count: 4}]}   # 105+20=125; anti-tank firebase
+  - {datasheet: Retributor Squad, models: 5, wargear: [{name: Heavy bolter, count: 4}]}  # 105; anti-horde firebase (AP-1 D2 kills W1-2)
+
+  # --- MELTA DELIVERY: 10-model Dominions (4 meltas), SPLIT -> melta half + Superior
+  #     rides the Immolator (5 in cap 6), the other 5 bolter-Doms walk/hold. ---
+  - {datasheet: Immolator, models: 1}                                            # 110; twin multi-melta hull
+  - {datasheet: Immolator, models: 1}                                            # 110; twin multi-melta hull
+  - {datasheet: Dominion Squad, models: 10, wargear: [{name: Meltagun, count: 4}]}  # 90+20=110; 4x AP-4 melta half rides Immo
+  - {datasheet: Dominion Squad, models: 10, wargear: [{name: Meltagun, count: 4}]}  # 90+20=110; 4x AP-4 melta half rides Immo
+  #   TUNING LEVER vs horde-heavy meta: swap one Dominion's 4 meltas -> 4 flamers
+  #   (-20 pts, AP0 but Torrent auto-hit) -> dedicated anti-Green-Tide delivery.
+
+  # --- DURABLE OC ANCHOR (Righteous #2 + Holy Quest): out-OC the elites ---
+  - {datasheet: Celestian Sacresants, models: 10}                               # 150; T3W1 but 4++, +1 BS/WS/Move; holds mid vs OC1 Deathwing bricks
+  - {datasheet: Canoness, models: 1, enhancement: Sanctified Amulet}            # 60+25=85; leads Sacresants; ANTI-DEEP-STRIKE bubble
+
+  # --- CHEAP OC + MISSION BODIES (out-OC plan; each splits into 2x5) ---
+  - {datasheet: Battle Sisters Squad, models: 10}                               # 100; OC2 bodies, screen, objective-sit
+  - {datasheet: Battle Sisters Squad, models: 10}                               # 100; more OC -- the out-OC-the-elites plan
+  - {datasheet: Sororitas Rhino, models: 1}                                     # 75; ablative delivery for a Battle Sisters squad (cap 12)
+
+  # --- MOBILITY / DISRUPTION / COUNTER-CHARGE ---
+  - {datasheet: Zephyrim Squad, models: 5}                                      # 75; jump 5++, hand flamers; contest/actions/counter-charge
+  - {datasheet: Seraphim Squad, models: 5}                                      # 75; jump; actions + chaff-clear
+
+  # --- SUPPORT CHARACTERS ---
+  - {datasheet: Dogmata, models: 1}                                             # 45; Miracle-dice / Ld support
+  - {datasheet: Palatine, models: 1}                                            # 50; cheap combat leader

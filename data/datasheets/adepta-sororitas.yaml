@@ -1,96 +1,88 @@
-# Adepta Sororitas datasheet points. 24 from the Munitorum Field Manual (1st-copy /
-# each-additional + wargear); the rest filled from BSData base cost (marked
-# points_source: bsdata-base). NOTE: Sisters squads are also priced by MODEL COUNT
-# (5 vs 10) on the MFM -- points_first is the default/base entry; per-model-count and
-# multi-copy escalation is a known refinement TODO. Points cover the common case.
+# Adepta Sororitas datasheet points — MFM is the source of truth (defer to it
+# always unless a specific override is noted). Sisters squads are priced by MODEL
+# COUNT and units are 5 OR 10 only (never in between); characters/vehicles are a
+# single model. `sizes: {models: points}` gives the exact per-size cost the engine
+# prices against; `wargear` entries are PER-MODEL taxes (apply with {name, count}
+# in a list). Legacy `points_first` remains as a single-size fallback for units
+# not yet verified against the current MFM.
 
+# ---- verified vs current MFM (post 2026-07-22 faction pack) ----
+- name: Battle Sisters Squad          # fixed 10-model unit
+  sizes: {10: 100}
+- name: Dominion Squad                # 10-MODEL ONLY (user); exactly 4 take melta/flamer,
+  sizes: {10: 90}                      # then split: 4-wpn half + Superior rides an Immolator (6),
+  wargear:                             # other 5 walk. Base 10-model cost -- CONFIRM (SSR noisy 90/100).
+  - {name: Meltagun, points: 5}       # per-model tax; max 4 -> +20
+  - {name: Flamer, points: 0}         # flamer half: no tax (AP0, Torrent auto-hit vs hordes)
+- name: Retributor Squad              # fixed 5-model (Superior + 4 heavy-weapon)
+  sizes: {5: 105}
+  wargear:
+  - {name: Multi-melta, points: 5}    # +5 each (4 = +20 -> 125 all-melta)
+  - {name: Heavy bolter, points: 0}   # default heavy weapon, no tax
+- name: Celestian Sacresants          # 5 or 10; 4++ battleline
+  sizes: {5: 75, 10: 150}
+- name: Paragon Warsuits              # fixed 3-model
+  sizes: {3: 180}
+  wargear:
+  - {name: Multi-melta, points: 10}   # +10 each (3 = +30 -> 210 all-melta)
+- name: Zephyrim Squad                # 5 or 10; jump 5++
+  sizes: {5: 75, 10: 150}
+- name: Seraphim Squad                # 5 or 10; jump
+  sizes: {5: 75, 10: 150}
+- name: Immolator
+  sizes: {1: 110}
+- name: Sororitas Rhino
+  sizes: {1: 75}
+- name: Castigator
+  sizes: {1: 165}
+- name: Morvenn Vahl
+  sizes: {1: 200}
+- name: Canoness
+  sizes: {1: 60}
+- name: Canoness With Jump Pack
+  sizes: {1: 75}
+- name: Palatine
+  sizes: {1: 50}
+- name: Dogmata
+  sizes: {1: 45}
+- name: Junith Eruita
+  sizes: {1: 115}
+- name: Hospitaller
+  sizes: {1: 75}
+- name: Dialogus
+  sizes: {1: 40}
+- name: Imagifier
+  sizes: {1: 65}
+- name: Ministorum Priest
+  sizes: {1: 50}
+- name: Exorcist
+  sizes: {1: 180}
+- name: Saint Celestine
+  sizes: {1: 150}
+
+# ---- not yet re-verified against current MFM (single-size fallback) ----
 - name: Aestred Thurga And Agathae Dolan
   points_first: 80
 - name: Arco-Flagellants
   points_first: 50
   points_additional: 140
-- name: Battle Sisters Squad
-  points_first: 100
-- name: Canoness
-  points_first: 60
-- name: Canoness With Jump Pack
-  points_first: 75
-- name: Castigator
-  points_first: 165
-  points_additional: 175
 - name: Celestian Insidiants
   points_first: 120
-- name: Celestian Sacresants
-  points_first: 75
-  points_additional: 150
 - name: Daemonifuge
   points_first: 85
-- name: Dialogus
-  points_first: 40
-- name: Dogmata
-  points_first: 45
-- name: Exorcist
-  points_first: 180
-  points_additional: 220
-- name: Ministorum Priest
-  points_first: 50
 - name: Mortifiers
   points_first: 70
   points_additional: 130
-- name: Morvenn Vahl
-  points_first: 200
-- name: Palatine
-  points_first: 50
-- name: Paragon Warsuits
-  points_first: 180
-  points_additional: 190
-  wargear:
-  - name: Multi-melta
-    points: 10
 - name: Penitent Engines
   points_first: 70
   points_additional: 140
-- name: Retributor Squad
-  points_first: 105
-  points_additional: 115
-  wargear:
-  - name: Multi-melta
-    points: 5
-- name: Saint Celestine
-  points_first: 150
 - name: Sanctifiers
   points_first: 110
-- name: Sororitas Rhino
-  points_first: 75
 - name: Triumph Of Saint Katherine
   points_first: 245
-- name: Zephyrim Squad
-  points_first: 85
-  points_additional: 160
-- name: Dominion Squad
-  points_first: 100
-  points_source: bsdata-base
-- name: Hospitaller
-  points_first: 75
-  points_source: bsdata-base
-- name: Imagifier
-  points_first: 65
-  points_source: bsdata-base
-- name: Immolator
-  points_first: 110
-  points_source: bsdata-base
-- name: Junith Eruita
-  points_first: 115
-  points_source: bsdata-base
 - name: Repentia Squad
   points_first: 75
-  points_source: bsdata-base
-- name: Seraphim Squad
-  points_first: 85
-  points_source: bsdata-base
 - name: Sisters Novitiate Squad
   points_first: 100
-  points_source: bsdata-base
 - name: Intranzia Fraye
   points_first: 150
-  points_source: bsdata-base

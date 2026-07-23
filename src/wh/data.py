@@ -51,12 +51,26 @@ class Datasheet:
     points_first: int
     points_additional: int | None = None  # cost of each 2nd+ copy; None = flat/unique
     wargear: tuple = ()  # ({name, points}, ...) optional point-costed wargear
+    sizes: dict | None = None  # {models: points} per legal unit size (MFM). Takes
+                               # precedence over points_first/_additional when set.
 
     def cost(self, copy: int = 1) -> int:
-        """Points for the Nth copy (1-indexed) of this datasheet."""
+        """Points for the Nth copy (1-indexed) of this datasheet (legacy copy pricing)."""
         if copy <= 1 or self.points_additional is None:
             return self.points_first
         return self.points_additional
+
+    def size_cost(self, models: int | None) -> tuple[int, int, str | None]:
+        """(points, models_used, error). Prices a unit by model count against the
+        MFM `sizes` table. models=None -> the smallest legal size."""
+        if not self.sizes:
+            return self.points_first, models or 1, None
+        if models is None:
+            models = min(self.sizes)
+        if models not in self.sizes:
+            opts = "/".join(str(m) for m in sorted(self.sizes))
+            return 0, models, f"{models} models is not a legal size (MFM options: {opts})"
+        return self.sizes[models], models, None
 
 
 @dataclass
@@ -151,11 +165,16 @@ def datasheets(faction_file: str | None = None) -> list[Datasheet]:
     out = []
     for d in raw:
         wg = tuple((w["name"], w["points"]) for w in d.get("wargear", []))
+        sizes = d.get("sizes")
+        if sizes:
+            sizes = {int(k): int(v) for k, v in sizes.items()}
         out.append(Datasheet(
             name=d["name"],
-            points_first=d["points_first"],
+            # points_first stays meaningful: smallest legal size (back-compat + fallback)
+            points_first=d.get("points_first", min(sizes.values()) if sizes else 0),
             points_additional=d.get("points_additional"),
             wargear=wg,
+            sizes=sizes,
         ))
     return out
 

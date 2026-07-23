@@ -18,50 +18,56 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
   `data.py FACTIONS` (knights/ik → imperial-knights; sisters/sororitas/sob → adepta-sororitas).
   Default = knights. e.g. `wh --faction sisters plan`.
 
-## Adepta Sororitas (in progress, 2026-07-23)
-- **8 detachments** (3 codex + supplement/faction-pack) span ALL 5 dispositions:
-  Hallowed Martyrs (3DP, Priority Assets), Bringers of Flame (3DP, Purge the Foe),
-  Champions of Faith (2, Disruption), Army of Faith (2, Take and Hold), Penitent Host
-  (2, Take and Hold), Chorus of Condemnation (1, Reconnaissance), Sanctified Orators
-  (1, Purge the Foe), Sacred Champions (1, Take and Hold). Full rules/enh/strat from 39k.
-- **STRATEGIC INVERSION vs Knights:** Sisters have LOTS of bodies, so action-heavy /
-  hold dispositions (Priority Assets, Take and Hold) are STRENGTHS not traps.
-- **Mechanics ingested (docs/sisters-mechanics.md):** Acts of Faith / MIRACLE DICE
-  (gain 1/round + 1 per own unit destroyed; roll D6 = fixed value; substitute for a roll
-  on demand → guaranteed Advance/Charge/Hit/Wound/Save/Damage/Battle-shock; 1/unit/phase,
-  2 with Army of Faith). Rewards trading models (dead unit = a die) → synergy w/ Hallowed
-  Martyrs (Blood of Martyrs buffs below-strength units). LEADER/SUPPORT + ATTACHED UNITS
-  (core 19.01/24.22/24.34): a squad takes 1 Leader + 1 Support, buffs apply to the whole
-  attached unit, character shelters behind squad's T. KEYWORDS gate detachment buffs
-  (Righteous Purpose → Battle Sisters/Sacresants/Paragons only; Desperate for Redemption →
-  PENITENT only); some enh grant keywords (e.g. "bearer gains PENITENT"). ALL detachment
-  rules stack army-wide (huge for Sisters). Engine does NOT model Miracle dice.
-- User owns ALL Sisters models (any build/wargear); said "let the analysis decide the best list".
-- **11e CORRECTIONS (user, 2026-07-23) that reshaped the analysis:**
-  1. FAST ROLLING: you substitute a Miracle die BEFORE rolling a batch (all Hits/Wounds rolled
-     together), one die, no reacting → MD MUCH weaker; best only on SINGLE high-value rolls (a save,
-     a single-shot wound, a charge). Low generation → double-AoF (Army of Faith/Sacred Rites) is
-     OVER-RATED. Don't build around it. (docs: core-rules-reference + sisters-mechanics.)
-  2. INDIRECT FIRE nerf: non-visible target = only 6s hit unless Stationary + spotted → EXORCIST
-     (indirect + casino) is OUT; use RELIABLE DIRECT fire.
-  3. LOADOUT: don't melta-everywhere. FLAMERS auto-hit (dodge cover/fast-rolling/MD-on-hits) and
-     Bringers of Flame boosts their Strength → flamers for reliable anti-infantry, melta for anti-tank.
-- **REVISED best list (examples/best-sisters-purge.yaml, 2000/2000):** **Bringers of Flame → Purge
-  the Foe** (output-focused). Fervent Purgation = army-wide [ASSAULT] (advance-and-shoot into range)
-  + +1 S within 6". Units: Vahl+Paragons (brick + Miracle-die save sink), Junith (buff), Castigator
-  (reliable direct), 3 Immolator + 3 Dominion (flamer-heavy + some melta), 3 Battle Sisters (bodies),
-  2 Retributor (multi-melta direct anti-tank = Exorcist's job reliably), Zephyrim (melee), Canoness+
-  Dogmata (lead/support squads). Dropped Triumph (MD weaker) + Exorcist (indirect nerf).
-  Alternatives: Champions of Faith (Righteous Purpose +1 WS/BS) + Sanctified Orators (free enh); or
-  Hallowed Martyrs → Priority Assets (bodies for actions).
-- CAVEATS: squad DPS mathhammer OVER-COUNTS (full arsenal, not a picked loadout); Leaders/attached +
-  Miracle dice NOT modelled; "best" is partly meta (post-cutoff).
-- Data: 8 detachments, 32 profiles (BSData), 33 datasheet points (24 MFM + 9 BSData-base;
-  Sisters MFM prices squads by MODEL COUNT 5/10 — escalation refinement is a TODO).
-- Sources: MFM adepta-sororitas, Faction Pack docs (docs not yet stashed), BSData
-  Imperium-Adepta-Sororitas.json, 39k bundle. Extractors: tools/gen_*_sisters.py.
-- TODO: ingest Miracle Dice/Acts of Faith; cross-check detachment rules vs FP Rules
-  Updates; refine points (model-count/escalation); ask user's collection + playstyle.
+## Adepta Sororitas (2026-07-23) — meta-derived all-comers list COMPLETE
+User owns ALL Sisters models (any build/wargear); "let the analysis decide the best list."
+`--faction sisters`. 8 detachments span all 5 dispositions (Hallowed Martyrs 3DP/Priority
+Assets, Bringers of Flame 3DP/Purge, Champions of Faith 2/Disruption, Army of Faith 2/T&H,
+Penitent Host 2/T&H, Chorus of Condemnation 1/Recon, Sanctified Orators 1/Purge, Sacred
+Champions 1/T&H). Rules STACK army-wide.
+
+- **COMBAT FUNDAMENTALS ingested (docs/sisters-mechanics.md) — the 3 things that decide a list:**
+  1. **AP IS KING** — melta AP-4 (Melta 2) premium; flamer AP0 bounces off armour. AP-tier table in doc.
+  2. **GLASS CANNON — girls die a lot** — core bodies T3 W1 Sv3+ (6++). Durable exceptions:
+     Sacresants (4++), Paragons (T7 2+/4++), Vahl/Junith/Celestine, vehicles. Durability table in doc.
+  3. **TRANSPORTS + THE SPLIT** — Immolator=6, Rhino=12. Battle Sisters/Dominion 10-squads split 5+5
+     (melta half + Superior rides the Immolator); a 5-model all-melta Dominion (4 meltas) fits an Immo.
+  Plus: Acts of Faith / Miracle Dice devalued by FAST-ROLLING (commit before a batch roll → best only
+  on single high-value rolls; double-AoF over-rated). Leaders/Support/keywords gate detachment buffs.
+- **META INGEST (docs/meta/) — 5 factions / 7 boogeyman archetypes, grounded in LIVE BSData**
+  (BSData/wh40k-10e `.cat` → JSON via scratchpad `cat2json.py`; MFM blocks WebFetch w/ 403):
+  - **SM/Salamanders flamer-brick** — 2× Land Raider (T12 W16 **2+**) + ~20 pyreblasters (Torrent). The
+    AP-is-king + "don't try to out-flamer them" lesson. Bringers/mono-flamer LOSES this.
+  - **Orks — two poles:** Kult-of-Speed dakka (Kill Rig T10/W16, 18 Deffkoptas, anti-tank rokkits that
+    POP my transports) vs **Green Tide** (100 Boyz T5 W1 → FLAMER/Blast/volume; melta wasted).
+  - **Necrons — un-killable:** 3× Monolith (T13 W22 2+, melta wounds on **5s**) / 4× C'tan (T11 W16 +
+    4++). CAN'T table them → **play the MISSION**; don't over-invest melta chasing the un-killable.
+  - **Dark Angels Deathwing brick** — 3× Terminator bricks (2+/4++) but **OC1** → **out-OC them**;
+    melta still works on W4 via multi-damage past the 4++. Key: **judge melta by target WOUNDS/model.**
+- **STRATEGIC THESIS (holds across all 5): Sisters win the MISSION, not the slugfest.** Balanced
+  melta+flamer+blast toolkit on a transport/mobility chassis: out-melta anchors, out-flame hordes,
+  out-OC elites, never chase un-killable invuln monsters. Transports = expendable delivery (everyone
+  packs anti-tank). Durable ≠ scoring (elite bricks are low-OC).
+- **DERIVED BEST LIST — examples/best-sisters-allcomers.yaml, EXACTLY 2000/2000.** Champions of Faith
+  (2DP, Disruption) + Sacred Champions (1DP, T&H): +1 Move (mission mobility) + +1 WS/BS on
+  Paragons/Sacresants/Battle Sisters (melta accuracy) + 2 dispositions. Chosen over Hallowed Martyrs
+  (a win-the-slugfest rule) and Bringers of Flame (mono-flamer loses half the field — **SUPERSEDES the
+  old best-sisters-purge Bringers list**). Chassis = **Vahl + 3-MM Paragons melta HAMMER** + mech
+  toolkit: Castigator, 2 Retributor (all-MM 125 / all-HB 105), 2 Immolator + 2 Dominion(10, 4 melta),
+  Sacresants(10)+Canoness(**Sanctified Amulet = anti-Deep-Strike** vs teleport bricks), 2 Battle
+  Sisters(10)+Rhino, Zephyrim + Seraphim (two SEPARATE jump units), Dogmata+Palatine. Lever: swap a
+  Dominion's 4 meltas→4 flamers vs horde-heavy meta.
+- **DOMINION = 10-MODEL ONLY** (user): exactly 4 take melta/flamer upgrades; deployed via the SPLIT
+  (4-melta + Superior half rides an Immolator (cap 6), the other 5 bolter-Doms walk). Battle Sisters
+  also split 10→5+5. Base 10-model = 90 (MFM, ▼-10 from 100), +5/meltagun → 110 with 4 meltas.
+- **ENGINE FIX — size + tax aware pricing (root-cause of earlier wrong points).** Datasheets carry
+  MFM `sizes: {models: points}` (units are **5 or 10 ONLY**) + per-model weapon TAXES (Paragon
+  multi-melta +10, Retributor multi-melta +5, Dominion meltagun +5). List entries use `models: N` +
+  `wargear: [{name, count}]`; build prices exactly (data.py `Datasheet.size_cost`, army.py). IK legacy
+  copy-pricing path UNTOUCHED (regression-checked). **⇒ ALWAYS DEFER TO MFM for points (user rule).**
+  (Dominion 10-model base=90 read off the noisy SSR line — worth a re-confirm if points ever look off.)
+- Data/sources: 8 detachments, ~44 BSData profiles, datasheets w/ MFM sizes+taxes. MFM adepta-sororitas,
+  Faction Pack, BSData Imperium-Adepta-Sororitas + opponent `.cat`s, 39k bundle. Extractors:
+  tools/gen_*_sisters.py; opponent cat→JSON converter (scratchpad cat2json.py).
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
