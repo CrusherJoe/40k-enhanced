@@ -122,16 +122,29 @@ def option_lines(entry):
     return out
 
 
+def _unit_profile(node):
+    """The 'Unit' stat profile of a node -- direct, or via an infoLink to a
+    shared profile (Sisters squads reference a shared 'Battle Sister' stat line)."""
+    for p in node.get('profiles', []):
+        if p.get('typeName') == 'Unit':
+            return p
+    for il in node.get('infoLinks', []):
+        tgt = SP.get(il.get('targetId'))
+        if tgt and tgt.get('typeName') == 'Unit':
+            return tgt
+    return None
+
+
 def profile_source(entry):
     """Return (src_entry_with_Unit_profile, [extra_model_entries]).
 
-    Most datasheets carry the Unit profile directly. A `unit` wrapper (Canis Rex)
-    holds it on nested `model` sub-entries instead (the knight + its pilot).
+    Most datasheets carry the Unit profile directly or via infoLink. A `unit`
+    wrapper (Canis Rex, Sisters squads) holds it on nested `model` sub-entries.
     """
-    if any(p.get('typeName') == 'Unit' for p in entry.get('profiles', [])):
+    if _unit_profile(entry) is not None:
         return entry, []
     models = [s for s in entry.get('selectionEntries', [])
-              if s.get('type') == 'model' and any(p.get('typeName') == 'Unit' for p in s.get('profiles', []))]
+              if s.get('type') == 'model' and _unit_profile(s) is not None]
     if not models:
         return None, []
     primary = next((m for m in models if m['name'] == entry['name']), models[0])
@@ -142,9 +155,8 @@ def build(entry):
     src, extra_models = profile_source(entry)
     if src is None:
         return None
-    unit_profiles = [p for p in src.get('profiles', []) if p.get('typeName') == 'Unit']
     display_name = entry['name']
-    st = ch(unit_profiles[0])
+    st = ch(_unit_profile(src))
     insv = st.get('InSv', '') or ''
     prof = {
         'name': display_name,
@@ -163,7 +175,7 @@ def build(entry):
         prof['invuln_ranged_only'] = insv.endswith('*')
 
     weps = []
-    collect_weapons(src, set(), weps)
+    collect_weapons(entry, set(), weps)  # whole unit (squads spread weapons across model sub-entries)
     ranged = [weapon_dict(tn, nm, c) for tn, nm, c in weps if tn == 'Ranged Weapons']
     melee = [weapon_dict(tn, nm, c) for tn, nm, c in weps if tn == 'Melee Weapons']
     if ranged:
@@ -217,7 +229,7 @@ def build(entry):
     if extra_models:
         prof['extra_profiles'] = []
         for m in extra_models:
-            s = ch(next(p for p in m['profiles'] if p.get('typeName') == 'Unit'))
+            s = ch(_unit_profile(m))
             prof['extra_profiles'].append({
                 'name': m['name'],
                 'stats': {'M': num((s.get('M') or '').replace('"', '')), 'T': num(s.get('T')),

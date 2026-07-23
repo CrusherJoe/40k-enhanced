@@ -1,5 +1,5 @@
-# Adepta Sororitas datasheet profiles, generated from the BSData wh40k-11e catalogue
-# (Imperium - Adepta Sororitas.json) by the profile resolver. Same format as Knights.
+# Adepta Sororitas profiles from BSData (resolver handles infoLinked squad stat lines).
+# NOTE: squads list the FULL weapon arsenal, so multi-option unit damage over-counts.
 
 - name: Aestred Thurga and Agathae Dolan
   source: bsdata-wh40k-11e
@@ -19,6 +19,12 @@
     S: 5
     AP: -2
     D: 2
+  - name: Scribe's staff
+    A: 3
+    WS: 4+
+    S: 4
+    AP: 0
+    D: 1
   abilities:
     datasheet:
     - name: Auto-Tapestry of the Emperor's Judgement
@@ -97,6 +103,156 @@
   - Imperium
   - Towering
   - Battle Sanctum
+- name: Battle Sisters Squad
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 2
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Condemnor boltgun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-PSYKER 2+
+    - DEVASTATING WOUNDS
+    - PRECISION
+    - RAPID FIRE 1
+  - name: Combi-weapon
+    range: 24
+    A: 1
+    BS: 4+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+    - DEVASTATING WOUNDS
+    - RAPID FIRE 1
+  - name: Boltgun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Inferno pistol
+    range: 6
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 3+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Meltagun
+    range: 12
+    A: 1
+    BS: 3+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+  - name: Artificer-crafted storm bolter
+    range: 24
+    A: 2
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 2
+    abilities:
+    - RAPID FIRE 2
+  - name: Ministorum flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 5
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Heavy bolter
+    range: 36
+    A: 3
+    BS: 4+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - HEAVY
+    - SUSTAINED HITS 1
+  - name: Ministorum heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Multi-melta
+    range: 18
+    A: 2
+    BS: 4+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - HEAVY
+    - MELTA 2
+  melee:
+  - name: Chainsword
+    A: 3
+    WS: 4+
+    S: 3
+    AP: 0
+    D: 1
+  keywords: []
 - name: Canoness
   source: bsdata-wh40k-11e
   stats:
@@ -448,6 +604,48 @@
   - Grenades
   - Imperium
   - Celestian Insidiants
+- name: Celestian Sacresant (Anointed Halberd)
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  melee:
+  - name: Anointed Halberd
+    A: 3
+    WS: 3+
+    S: 5
+    AP: -2
+    D: 1
+    abilities:
+    - SUSTAINED HITS 1
+  keywords: []
+- name: Celestian Sacresant (Hallowed Mace)
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  melee:
+  - name: Hallowed Mace
+    A: 3
+    WS: 3+
+    S: 4
+    AP: -1
+    D: 2
+    abilities:
+    - LETHAL HITS
+  keywords: []
 - name: Celestian Sacresant Aveline [Legends]
   source: bsdata-wh40k-11e
   stats:
@@ -500,6 +698,82 @@
   - Grenades
   - Celestian Sacresant Aveline
   - Sororitas Character
+- name: Celestian Sacresants
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 4+
+  invuln_ranged_only: false
+  ranged:
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 3+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Inferno pistol
+    range: 6
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  melee:
+  - name: Spear of the Faithful
+    A: 3
+    WS: 3+
+    S: 5
+    AP: -2
+    D: 2
+  - name: Anointed Halberd
+    A: 3
+    WS: 3+
+    S: 5
+    AP: -2
+    D: 1
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Hallowed Mace
+    A: 3
+    WS: 3+
+    S: 4
+    AP: -1
+    D: 2
+    abilities:
+    - LETHAL HITS
+  keywords: []
 - name: Crusaders [Legends]
   source: bsdata-wh40k-11e
   stats:
@@ -540,6 +814,14 @@
     abilities:
     - ANTI-CHAOS 2+
     - PRECISION
+  - name: The Outcast's Blades
+    A: 6
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 1
+    abilities:
+    - PRECISION
   keywords: []
   extra_profiles:
   - name: Kyganil of the Bloody Tears
@@ -550,6 +832,27 @@
       W: 3
       Ld: 7+
       OC: 1
+- name: Death Cult Assassins [Legends]
+  source: bsdata-wh40k-11e
+  stats:
+    M: 7
+    T: 3
+    Sv: 5+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 5+
+  invuln_ranged_only: false
+  melee:
+  - name: Death Cult power blades
+    A: 4
+    WS: 2+
+    S: 4
+    AP: -2
+    D: 1
+    abilities:
+    - PRECISION
+  keywords: []
 - name: Dialogus
   source: bsdata-wh40k-11e
   stats:
@@ -631,6 +934,129 @@
   - Imperium
   - Dogmata
   - Sororitas Character
+- name: Dominion Squad
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Condemnor boltgun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-PSYKER 2+
+    - DEVASTATING WOUNDS
+    - PRECISION
+    - RAPID FIRE 1
+  - name: Combi-weapon
+    range: 24
+    A: 1
+    BS: 4+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+    - DEVASTATING WOUNDS
+    - RAPID FIRE 1
+  - name: Boltgun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Inferno pistol
+    range: 6
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 3+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Artificer-crafted storm bolter
+    range: 24
+    A: 2
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 2
+    abilities:
+    - RAPID FIRE 2
+    - ASSAULT
+  - name: Meltagun
+    range: 12
+    A: 1
+    BS: 3+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - MELTA 2
+    - ASSAULT
+  - name: Ministorum flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 5
+    AP: 0
+    D: 1
+    abilities:
+    - ASSAULT
+    - IGNORES COVER
+    - TORRENT
+  melee:
+  - name: Chainsword
+    A: 3
+    WS: 4+
+    S: 3
+    AP: 0
+    D: 1
+  keywords: []
 - name: Exorcist
   source: bsdata-wh40k-11e
   stats:
@@ -2194,6 +2620,44 @@
   - Reliquant Knight
   - Paragon Warsuits
   - Sororitas Character
+- name: Repentia Squad
+  source: bsdata-wh40k-11e
+  stats:
+    M: 7
+    T: 3
+    Sv: 7+
+    W: 1
+    Ld: 8+
+    OC: 1
+  invuln: 6+
+  invuln_ranged_only: false
+  melee:
+  - name: Penitent Eviscerator
+    A: 2
+    WS: 4+
+    S: 6
+    AP: -2
+    D: 2
+    abilities:
+    - SUSTAINED HITS 1
+  - name: Neural Whips
+    A: 4
+    WS: 3+
+    S: 3
+    AP: -1
+    D: 1
+    abilities:
+    - ANTI-INFANTRY 4+
+  keywords: []
+  extra_profiles:
+  - name: Repentia Superior
+    stats:
+      M: 7
+      T: 3
+      Sv: 3+
+      W: 1
+      Ld: 7+
+      OC: 1
 - name: Repressor [Legends]
   source: bsdata-wh40k-11e
   stats:
@@ -2365,6 +2829,36 @@
     D: 1
     abilities:
     - PISTOL
+  - name: Ministorum heavy flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 6
+    AP: -1
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Multi-melta
+    range: 18
+    A: 2
+    BS: 4+
+    S: 9
+    AP: -4
+    D: D6
+    abilities:
+    - HEAVY
+    - MELTA 2
+  - name: Heavy bolter
+    range: 36
+    A: 3
+    BS: 4+
+    S: 5
+    AP: -1
+    D: 2
+    abilities:
+    - HEAVY
+    - SUSTAINED HITS 1
   melee:
   - name: Chainsword
     A: 3
@@ -2395,6 +2889,22 @@
     abilities:
     - IGNORES COVER
     - TORRENT
+  - name: Bolt Pistol
+    range: 12
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - PISTOL
+  melee:
+  - name: Power Weapon
+    A: 4
+    WS: 3+
+    S: 4
+    AP: -2
+    D: 1
   keywords:
   - Character
   - Saint Celestine
@@ -2512,6 +3022,186 @@
   - Grenades
   - Imperium
   - Sanctifiers
+- name: Seraphim Squad
+  source: bsdata-wh40k-11e
+  stats:
+    M: 12
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 5+
+  invuln_ranged_only: false
+  ranged:
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 3+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Ministorum hand flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - PISTOL
+    - TORRENT
+  - name: Inferno Pistol
+    range: 6
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -4
+    D: D3
+    abilities:
+    - MELTA 2
+    - PISTOL
+  melee:
+  - name: Power Weapon
+    A: 3
+    WS: 3+
+    S: 4
+    AP: -2
+    D: 1
+  - name: Chainsword
+    A: 4
+    WS: 3+
+    S: 3
+    AP: 0
+    D: 1
+  - name: Close combat weapon
+    A: 2
+    WS: 3+
+    S: 3
+    AP: 0
+    D: 1
+  keywords: []
+- name: Sister Novitiate (Autogun)
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 4+
+    W: 1
+    Ld: 8+
+    OC: 2
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Novitiate autogun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 3
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  keywords: []
+- name: Sister Novitiate (Melee Weapon)
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 4+
+    W: 1
+    Ld: 8+
+    OC: 2
+  invuln: 6+
+  invuln_ranged_only: false
+  melee:
+  - name: Novitiate melee weapon
+    A: 2
+    WS: 4+
+    S: 4
+    AP: 0
+    D: 1
+  keywords: []
+- name: Sisters Novitiate Squad
+  source: bsdata-wh40k-11e
+  stats:
+    M: 6
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 2
+  invuln: 6+
+  invuln_ranged_only: false
+  ranged:
+  - name: Boltgun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 4
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 3+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  - name: Ministorum flamer
+    range: 12
+    A: D6
+    BS: N/A
+    S: 5
+    AP: 0
+    D: 1
+    abilities:
+    - IGNORES COVER
+    - TORRENT
+  - name: Novitiate autogun
+    range: 24
+    A: 1
+    BS: 3+
+    S: 3
+    AP: 0
+    D: 1
+    abilities:
+    - RAPID FIRE 1
+  melee:
+  - name: Novitiate melee weapon
+    A: 2
+    WS: 4+
+    S: 4
+    AP: 0
+    D: 1
+  keywords: []
 - name: Sororitas Rhino
   source: bsdata-wh40k-11e
   stats:
@@ -2639,3 +3329,51 @@
   - Imperium
   - Triumph of Saint Katherine
   - Sororitas Character
+- name: Zephyrim Squad
+  source: bsdata-wh40k-11e
+  stats:
+    M: 12
+    T: 3
+    Sv: 3+
+    W: 1
+    Ld: 7+
+    OC: 1
+  invuln: 5+
+  invuln_ranged_only: false
+  ranged:
+  - name: Plasma pistol - supercharge
+    range: 12
+    A: 1
+    BS: 3+
+    S: 8
+    AP: -3
+    D: 2
+    abilities:
+    - HAZARDOUS
+    - PISTOL
+  - name: Plasma pistol - standard
+    range: 12
+    A: 1
+    BS: 3+
+    S: 7
+    AP: -2
+    D: 1
+    abilities:
+    - PISTOL
+  melee:
+  - name: Power weapon
+    A: 3
+    WS: 3+
+    S: 4
+    AP: -2
+    D: 1
+  keywords: []
+  extra_profiles:
+  - name: Zephyrim
+    stats:
+      M: 12
+      T: 3
+      Sv: 3+
+      W: 1
+      Ld: 7+
+      OC: 1
