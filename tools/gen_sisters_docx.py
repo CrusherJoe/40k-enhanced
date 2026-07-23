@@ -141,7 +141,8 @@ for opp, mis in [
 h('5 · Deployment layouts (Disruption matchups, from the Event Companion)', 1)
 para(('Universal on every layout: 6 objectives (2 home deep in each zone, 2 central in No Man\'s Land, '
       '2 expansion on the flanks), 16 obscuring terrain areas, centre packed (no turn-1 cross-board LOS). '
-      'Default your plan to LAYOUT A; B/C notes below.', False), after=6)
+      'Layout A is DIAGONAL in every Disruption matchup, so default your plan to a diagonal deployment; '
+      'B/C vary by matchup (below) — read the letter you\'re given.', False), after=6)
 lay = yaml.safe_load(open('data/layouts/disruption.yaml'))
 for m in lay['matchups']:
     if m['vs'] == 'priority-assets':
@@ -155,8 +156,10 @@ para(('Standing deployment for this list (all layouts): ', True),
      'castle the Vahl+Paragon hammer + the 2+/4++ MM-Retributor brick central-rear with LOS to the mid; '
      'Immolators + Dominions mid-forward (hull-down T1); Sacresants+Canoness hold centre with the '
      'anti-Deep-Strike bubble; Battle Sisters screen + sit home/expansion; Zephyrim/Seraphim flanks or '
-     'Reserve. Diagonal (A) = long approach, angle the hammer across the mid. Horizontal/Dawn-of-War (C) '
-     '= close, screen harder and value the bubble. Vertical (B) = cover the width with the jump units.',
+     'Reserve. Then adapt to the deployment TYPE (the A/B/C letter varies per matchup — see above): '
+     'DIAGONAL = long approach, angle the hammer across the mid and rush the two central objectives; '
+     'HORIZONTAL / Dawn-of-War = close, screen harder and value the anti-Deep-Strike bubble; '
+     'VERTICAL = cover the board width with the jump units.',
      after=8)
 
 # ---------------- per-archetype plans ----------------
