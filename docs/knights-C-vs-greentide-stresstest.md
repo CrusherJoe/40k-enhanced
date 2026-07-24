@@ -65,6 +65,22 @@ a handful of VP to the Orks) — margin down from a soft ~58-31 to a firmer ~54-
 4. **Fall Back + shoot every time** (Super-Heavy Walker). Never sit still letting the swarm hold you;
    reposition, re-target, keep the kill-rate up.
 
+## ⚠ The "Greenback Attack" — the MAX version tempers the verdict hard
+The sim above is vs ~100 Boyz. A maxed Green Tide ("The Greenback": **6× Boyz(20)=120 + 22 Gretchin
++ 5 Stormboyz + 10 Kommandos + 8 characters ≈ 165 bodies**, **3 Painboys** = FNP on 3 mobs) is a
+*much* harder matchup and **the ~54-34 does NOT hold**:
+- **Zodgrod → Super Runts:** the 20-Gretchin unit gets **Scouts 9" + +1 Hit** — a 22-body screen that
+  Scout-grabs the midboard T0 and walls the Boyz from your early shooting.
+- **Boss Snikrot → Kunnin' Infiltrator:** once/game redeploy the Kommandos — a **backfield raid** on
+  the objectives you must hold (Navigator bubble covers home; keep an Armiger back for the rest).
+- **The kill-rate can't keep up:** C clears ~27/turn → **~135 of ~157 chaff over 5 turns**, so the horde
+  holds objectives through T3-4 before it craters; their Determined Acquisition scores hard early while
+  165 bodies flood 4-5 objectives, and the OC race (240+ vs ~65) is unwinnable.
+- **Verdict vs the Greenback: ~coin flip, and a good Greenback player is the slight favourite.** C is
+  still the best Knight answer, but **no list tweak solves it** — 8-9 Knights physically can't clear +
+  out-hold 165 bodies. Play tight, win the swing factors, and grind for the back-end crater.
+  **The horde is, and remains, the Knights' worst matchup — a *maxed* horde is a bad matchup, full stop.**
+
 ## Does the sim change the list?
 **No — it validates C as the right list; the edge is in the PLAN, not the roster.** The anti-horde
 (~24/turn into FNP) is *just* enough — a grind by design. The only marginal note: the 2 Helverins

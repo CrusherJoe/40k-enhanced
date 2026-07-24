@@ -44,6 +44,8 @@ range before they arrive, screen, use overwatch/Fights-First, and never get tied
 *Objective game:* Take and Hold — I **cannot out-body them**; I must kill bodies to break
 the hold and win on secondaries + positioning.
 
+> **Max version — "The Greenback" (~165 bodies):** 6× Boyz(20)=120 + 22 Gretchin (Zodgrod: Scouts 9" + +1 Hit — a scouting screen) + Stormboyz + Kommandos (Boss Snikrot: once/game backfield redeploy) + 3 Painboys (FNP on 3 mobs). This is the ceiling of the horde threat: it out-OCs any army 240+, holds objectives through T3-4, and is a ~coin-flip-to-favoured matchup even for the horde-hardened Knight list C. The horde is the low-model armies' worst matchup, and a MAXED horde is bad, full stop.
+
 ## THE SYNTHESIS — the melta↔flamer axis (why this matters most)
 The three archetypes so far define a spectrum my ONE list must cover:
 
