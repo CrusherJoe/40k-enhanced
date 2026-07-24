@@ -247,21 +247,49 @@ Champions 1/T&H). Rules STACK army-wide.
 - **LSO PRACTICE — Knights vs friend's "Great Value" (Imperial Fists, Emperor's Shield + Librarius
   Conclave, 1985):** counter list `examples/knights-vs-greatvalue.yaml` + plan `docs/knights-vs-greatvalue-plan.md`
   (Valourstrike + Dominus, LOCK **Purge the Foe** → play **Meatgrinder** vs his Purge). CORRECTED THREAT
-  MODEL (my first pass had it wrong — see the force-multiplier rule, Rule 8): his mobility is **FOUR separate
-  arrival threats, not one teleporting brick**:
-  (1) **Sternguard(10)+Librarian[Temporal Corridor]** = #1 ranged Knight-killer — **Dev-Wound bolt rifles
-  crit-wound straight past my 4++/5++**, buff-stacked (Discipline + Oath), AND teleport (bail unengaged →
-  DS back); (2) **Terminator Sq(10, storm bolters + 2 cyclones)+Librarian[Fusillade]** = the ACTUAL Fusillade
-  unit (Lethal Hits; cyclones krak S9 = ranged AT), slow M5; (3) **TH/SS Assault Termies(10)+Lysander+Ancient**
-  = **NO psyker, walks M5, but has a Teleport Homer** (jumps mid-board once) — TH/SS + Fist of Dorn are Dev
-  Wounds → one-round any Knight in melee (~40+ Oathed); (4) **2× Land Speeder** multi-melta S9 AP-4 D6 Melta 2,
-  M14 FLY, arrive from reserve → real anti-Knight melta (two into a bracketed Knight = a kill). PLAN:
+  MODEL + MATHHAMMER (my first pass mislabeled + mis-ranked — see Rule 8). Four arrival threats, RE-RANKED
+  by expected dmg/turn (all buffs stacked; my Knights: Castellan T13/28W 3+/5++, Crusader T11/26W 3+/5++,
+  **Armiger T9/14W 3+/5++ = Ion Shield ranged-only** [user-confirmed; FIXED a data bug where Warglaive had
+  invuln:None in profiles yaml]):
+  (1) **Cyclone Termies(10)+Librarian[Fusillade=Lethal Hits]** = REAL #1 ranged Knight-threat, **~13/big
+  Knight, ~14 one-shots an Armiger** (krak S9 AP-2 negates the Armiger 5++); slow M5, Teleport Homer;
+  (2) **2× Land Speeder** MM S9 AP-4 D6 Melta2 (A2 ea=4 shots) = **Armiger-killer** (~12 within 9", ~9 big
+  Knight); **melta bonus needs <9" so a DS arrival >9" only does ~6-9 — worst the turn AFTER landing**;
+  (3) **Sternguard(10)+Librarian[Temporal Corridor]** = NOT the alpha-killer I first billed — vs big Knights
+  they only wound on 6s but each 6 = **unsaveable Dev Wound, ~5-7/turn** → a persistent CHIPPER/finisher +
+  anti-Sisters/character sniper; **their teleport turn is their WEAKEST shoot** (DS≠stationary=no Heavy;
+  Conclave must run Telekinesis to enable the teleport = no Divination/Pyromancy that round); (4) **TH/SS
+  Assault Termies(10)+Lysander+Ancient** = NO psyker, walks M5 (Teleport Homer=1 jump) — TH+Fist of Dorn
+  Dev Wounds = **~24-28 melee, one-rounds ANY Knight** (even Lancer 4++ → ~4W left). MY GUNS: Avenger+
+  Helverin+plasma = ~14W into 10 Sternguard = 7 dead (T1 wipe IF he deploys them). PLAN:
   can't table 155W of 2+/4++ → **out-score** (he's OC1). **Navigator 12" anti-DS dome is the linchpin** —
   denies ALL four (Sternguard teleport, Speeder drops, both homer jumps must land outside it). Kill Sternguard
   T1 if on board / spread Knights if reserved. NEVER melee the hammers with a premium Knight (Dev Wounds bypass
   invuln) — pin with expendable Armigers. Both Termie units place Teleport Homers at start → screen mid-board.
-  Immolator Purge&Cleanse + BS OC10 half hold home under the dome. My initial errors (corrected): mislabeled
-  Sternguard as "Fusillade", treated TH/SS brick as the teleporter, under-weighted the Speeders.
+  Immolator Purge&Cleanse + BS OC10 half hold home under the dome.
+  **★ OATH OF MOMENT is the engine (see SM-RULES note below):** with Oath (re-roll HITS army-wide vs 1 unit)
+  + Wrath of Dorn (re-roll WOUNDS vs same) modeled, his numbers into the OATHED Knight jump — Speeders 9→17,
+  cyclones 13→16 — and **ALL his ranged focused on ONE Oathed Knight = ~40 dmg = KILLS a healthy Castellan
+  (28W)/Crusader (26W) in a turn.** So durability alone does NOT save a Knight; **WIN BY BREAKING THE
+  CONVERGENCE, not tanking it.** KILL ORDER: **Land Speeders FIRST** (Oath ~doubles them to 17-24, mobile
+  leg), then cyclone Termies, then Sternguard — remove any leg and the alpha falls under a Castellan's W.
+  BAIT the Oath onto a cheap Armiger / already-hurt Knight (it's 1 target/turn). Armigers are GLASS to his
+  ranged (cyclones/close Speeders one-shot one) → pin/screen/bait trades, not gun platforms; keep them out
+  of cyclone LOS / >9" from Speeder drops. My initial errors (all corrected): mislabeled Sternguard as
+  "Fusillade", treated TH/SS brick as the teleporter, under-weighted the Speeders, over-hyped Sternguard as
+  an alpha-killer (they're a ~7/turn unsaveable chipper), AND omitted Oath of Moment entirely (the big one).
+
+- **SM-RULES — OATH OF MOMENT (Space Marine army rule; applies to EVERY SM-chapter matchup: SM/Salamanders/
+  Imperial Fists/Dark Angels):** at the start of his Command phase he names ONE of my units; until his next
+  Command phase, **his whole army re-rolls the HIT roll** against that unit (base = hits only; that's why
+  enhancements/detachments bolt on wound re-rolls). **Wrath of Dorn** (Emperor's Shield detach) adds
+  **re-roll WOUNDS** vs the Oath target; **Lysander's unit** re-rolls wounds in full; various enhancements
+  add "+1 to Wound" / "re-roll Wound of 1" / a SECOND Oath target. IMPLICATION for MY analysis: **always
+  model the opponent's damage into the ONE Oathed unit with re-roll hits (and wounds if the detach grants
+  it)** — it can ~2× a unit's output and lets him CONCENTRATE a whole army's fire to delete a single durable
+  model per turn. It's 1 target/turn → the counter is SPREAD + BAIT the Oath onto something cheap + break the
+  convergence (kill/deny a shooting leg). This is a concrete instance of Rule 8 (force-multipliers). MY
+  Knights have NO equivalent army-wide re-roll — a real asymmetry to respect vs all Astartes.
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/

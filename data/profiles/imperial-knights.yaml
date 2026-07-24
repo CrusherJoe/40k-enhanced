@@ -344,6 +344,8 @@
     W: 14
     Ld: 7+
     OC: 6
+  invuln: 5+
+  invuln_ranged_only: true   # Ion Shield (5++ vs ranged only), matches Helverin + big Knights; user-confirmed 3+/5++
   ranged:
   - name: Thermal spear
     range: 18
