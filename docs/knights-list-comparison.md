@@ -38,8 +38,9 @@ axes the meta actually cares about (anti-tank is redundant on every Knight build
   anti-horde. That's the concrete upgrade from studying these lists.
 - **EX1's five-body count is the classic Knight trap** the meta punishes — keep the Armiger screens.
 
-## Data note (defer to MFM)
-Both examples build to **2025 / 2030 in the tool** vs your app's **2000 / 1990** — my Imperial Knights
-datasheet points are ~25-40 pts **stale** (the Castellan is almost certainly 425→400; the app totals
-only reconcile at the lower base). Per the standing rule, **your lists are legal; the tool's IK points
-need a refresh from the current MFM.** (Sisters points were done fresh this cycle; IK predate it.)
+## Data note — the tool's points are CURRENT (corrected)
+The tool builds both examples to **2025 / 2030**, not 2000 / 1990 — because **the example lists were
+written with PRE-Wednesday (2026-07-23) points, and the tool uses the current MFM values** (confirmed
+correct by the user). So the tool is right: at *today's* points these two lists are **slightly over-cap
+and would need a trim** to be legal. My IK datasheet points already reflect Wednesday's update — **no
+refresh needed.** (My earlier read that the tool's points were stale was backwards.)
