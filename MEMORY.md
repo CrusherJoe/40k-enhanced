@@ -138,6 +138,17 @@ Champions 1/T&H). Rules STACK army-wide.
   — so ALL big Knights get NO auto-hit flamer on the charge (unlike non-TITANIC Sisters). Validates C as
   the list; edge is in the PLAN not the roster. (I'd wrongly credited Knight Overwatch — user corrected;
   rule now in docs/core-rules-reference.md. Reinforces: VERIFY 11E rules, don't trust memory.)
+- **EXAMPLE-LIST COMPARISON (docs/knights-list-comparison.md):** two user tournament lists vs the slate.
+  EX1 Big-Five (5 big Knights, NO Armigers) = strong firepower but only 5 bodies → the classic Knight
+  board-control trap. EX2 "Poon Table" (2 Valiant harpoons + 6 shieldbreaker missiles) = ANTI-TITANIC
+  specialist (mirror + Monoliths). My C = best anti-horde + bodies (take-all-comers).
+- **⚠ DEV WOUNDS / ANTI-X CORRECTION (user catch):** Devastating Wounds fire on a CRITICAL WOUND =
+  **unmodified 6 (16.7%)**; **[ANTI-X N+] lowers the crit threshold to N+ ONLY vs a target with keyword X.**
+  Verified: **Monolith IS Titanic, C'tan is NOT (Monster)** → shieldbreakers' [ANTI-TITANIC 4+] does
+  NOTHING vs C'tan (Dev on 6 only → ~1.9 dmg from 2 SBs). So I was WRONG that shieldbreakers/Dev-Wounds
+  are anti-C'tan tech (retracted "add SBs to C"); they're **anti-TITANIC** (enemy Knights + Monoliths).
+  **C'tan = play-the-mission for EVERY Knight list** (no one out-guns 4× 16W 4++/−1Dmg Monsters).
+  Rule pinned in docs/core-rules-reference.md (Dev Wounds row). Lesson: verify keyword interactions, not just weapon lines.
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
@@ -186,7 +197,9 @@ Champions 1/T&H). Rules STACK army-wide.
   intervening terrain (condition 2 — the common case vs non-infantry). So Judicant's
   Helm (IGNORES COVER) is NOT made redundant by Dominus. User's real concern = the
   whole non-Knight meta using terrain, not other Knights (which they kill easily).
-- **Devastating Wounds** (24.10): crit wound → mortal wounds = Damage (bypass saves).
+- **Devastating Wounds** (24.10): crit wound → mortal wounds = Damage (bypass saves). **Crit wound =
+  unmodified 6 unless a MATCHING [ANTI-X N+] lowers it (only vs keyword X)** — so Dev Wounds do NOT
+  reliably beat a non-matching invuln (e.g. Anti-Titanic ≠ help vs a non-Titanic C'tan; Dev on 6 only).
   All other weapon abilities in the engine verified correct vs the PDF.
 - **docs/core-rules-reference.md is now comprehensive** — all 5 phases, combat
   sequence, cover/terrain, modifiers, objectives, and core unit/weapon abilities,
