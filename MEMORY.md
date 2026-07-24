@@ -45,6 +45,19 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
    - **MFM per-faction URLs** = mfm.warhammer-community.com/en/<slug> (Sisters=adepta-sororitas, DA=dark-angels;
      dig other slugs from the /en index). NOTE (re-verify sweep): Orks pack hints Boyz "can always come back" —
      confirm the Green Tide return mechanic (affects the Knights-vs-Green-Tide verdict).
+8. **MODEL THE FORCE-MULTIPLIERS, not just the statline (user law, 2026-07-24).** When modeling ANY army,
+   fully ingest every rule — unit abilities, LEADER/SUPPORT buffs, weapon keywords, enhancements, detachment
+   rule, stratagems, discipline/aura choices — that turns a **"zero" unit into a "hero" unit.** A base
+   statline lies: judge a unit at its BUFFED ceiling. Canonical example: **Great Value's Sternguard** —
+   plain S4 bolt rifles look like anti-infantry chaff, but **Dev Wounds + a Librarian + a Conclave Discipline
+   (Divination re-rolls / Pyromancy Sustained) + Wrath-of-Dorn Oath re-rolls** stack them into a volley that
+   **ignores my Knights' invuln** = the list's #1 ranged Knight-killer. This buff-stacking is the hard part
+   (and the fun) of both list-building AND threat-assessment — always resolve it before you rate a unit.
+   **A good list is a TAPESTRY: rule-combinations interwoven throughout to maximize ONE thing** (usually
+   damage output or speed). So (a) when BUILDING my lists, don't just sum unit points — look for the threads
+   that compound (a delivery piece + a re-roll aura + a Dev/Lethal weapon + a Discipline all pointed at the
+   same axis), and (b) when ASSESSING an opponent, find the thread they're weaving and CUT it (kill/deny the
+   multiplier, not just the carrier). Rate lists by their combos, not their statlines.
 - **TODO:** the earlier META INGEST (SM/Salamanders/Orks/Necrons/DA archetypes in docs/meta/) was 10E-sourced —
   concepts hold, but re-verify STATS (wh40k-11e) + detachment rules (faction packs) against 11E before the GT.
 
@@ -230,6 +243,25 @@ Champions 1/T&H). Rules STACK army-wide.
   (stops the Deep-Strike play that flips an OC10 home). Keep the Navigator in a DS-heavy / home-scoring
   FIELD (the current meta); cut it only for a known Disruption-heavy or DS-light field. (I'd sloppily
   said the opponent "chooses at the table" — WRONG, both locked for the event; corrected.)
+
+- **LSO PRACTICE — Knights vs friend's "Great Value" (Imperial Fists, Emperor's Shield + Librarius
+  Conclave, 1985):** counter list `examples/knights-vs-greatvalue.yaml` + plan `docs/knights-vs-greatvalue-plan.md`
+  (Valourstrike + Dominus, LOCK **Purge the Foe** → play **Meatgrinder** vs his Purge). CORRECTED THREAT
+  MODEL (my first pass had it wrong — see the force-multiplier rule, Rule 8): his mobility is **FOUR separate
+  arrival threats, not one teleporting brick**:
+  (1) **Sternguard(10)+Librarian[Temporal Corridor]** = #1 ranged Knight-killer — **Dev-Wound bolt rifles
+  crit-wound straight past my 4++/5++**, buff-stacked (Discipline + Oath), AND teleport (bail unengaged →
+  DS back); (2) **Terminator Sq(10, storm bolters + 2 cyclones)+Librarian[Fusillade]** = the ACTUAL Fusillade
+  unit (Lethal Hits; cyclones krak S9 = ranged AT), slow M5; (3) **TH/SS Assault Termies(10)+Lysander+Ancient**
+  = **NO psyker, walks M5, but has a Teleport Homer** (jumps mid-board once) — TH/SS + Fist of Dorn are Dev
+  Wounds → one-round any Knight in melee (~40+ Oathed); (4) **2× Land Speeder** multi-melta S9 AP-4 D6 Melta 2,
+  M14 FLY, arrive from reserve → real anti-Knight melta (two into a bracketed Knight = a kill). PLAN:
+  can't table 155W of 2+/4++ → **out-score** (he's OC1). **Navigator 12" anti-DS dome is the linchpin** —
+  denies ALL four (Sternguard teleport, Speeder drops, both homer jumps must land outside it). Kill Sternguard
+  T1 if on board / spread Knights if reserved. NEVER melee the hammers with a premium Knight (Dev Wounds bypass
+  invuln) — pin with expendable Armigers. Both Termie units place Teleport Homers at start → screen mid-board.
+  Immolator Purge&Cleanse + BS OC10 half hold home under the dome. My initial errors (corrected): mislabeled
+  Sternguard as "Fusillade", treated TH/SS brick as the teleporter, under-weighted the Speeders.
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/

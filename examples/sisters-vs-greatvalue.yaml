@@ -1,0 +1,31 @@
+# COUNTER to "Great Value" (Emperor's Shield Imperial Fists — 155W of 2+/4++ Terminator brick).
+# Plan: you CAN'T table it (4++ negates AP, melta = 1.2/Terminator). So DON'T. Grind the HAMMER
+# (TH/SS brick + Lysander) with melta volume so it can't delete you, then OUT-SCORE the slow OC1
+# brick with cheap OC bodies + jump mobility. Flamers/heavy bolters cut (useless vs 2+/4++) -> ALL MELTA.
+# LOCK Take-and-Hold: out-OC a durable-but-low-OC-per-point army; hold objectives it can't out-body.
+name: Sisters vs Great Value - out-score the brick (Take and Hold)
+detachments: [champions-of-faith, sacred-champions]
+disposition: take-and-hold
+units:
+  # --- MELTA GRIND (the only thing that hurts 2+/4++: multi-damage volume) ---
+  - {datasheet: Morvenn Vahl, models: 1}                                          # re-roll H&W -> most reliable grind through the 4++
+  - {datasheet: Paragon Warsuits, models: 3, wargear: [{name: Multi-melta, count: 3}]}
+  - {datasheet: Retributor Squad, models: 5, wargear: [{name: Multi-melta, count: 4}]}   # Palatine[Triptych]+Imagifier attach
+  - {datasheet: Retributor Squad, models: 5, wargear: [{name: Multi-melta, count: 4}]}   # 2nd melta firebase (was heavy-bolter -> useless here)
+  - {datasheet: Immolator, models: 1}                                            # cover-strip (helps HIT the 4++ termies) + twin-MM
+  - {datasheet: Immolator, models: 1}
+  - {datasheet: Dominion Squad, models: 10, wargear: [{name: Meltagun, count: 4}]}
+  - {datasheet: Dominion Squad, models: 10, wargear: [{name: Meltagun, count: 4}]}   # both melta (was 1 flamer -> useless here)
+  # --- ANTI-T4 SUPPORT + a durable body (Castigator Blast kills Sternguard/Vanguard/Bladeguard) ---
+  - {datasheet: Castigator, models: 1}
+  # --- OUT-OC + DENY THE DEEP STRIKE (his termies/vanguard teleport in) ---
+  - {datasheet: Celestian Sacresants, models: 10}                                # 4++ OC anchor
+  - {datasheet: Canoness, models: 1, enhancement: Sanctified Amulet}             # anti-Deep-Strike bubble -> shut off his teleport
+  - {datasheet: Palatine, models: 1, enhancement: Triptych of Judgement}         # Lethal Hits + ignore-cover on the MM Retributor
+  - {datasheet: Imagifier, models: 1}                                            # Sv2+/4++ on the MM Retributor (survives Dev-Wound Sternguard)
+  - {datasheet: Dogmata, models: 1}                                              # +1 OC on the Sacresants
+  - {datasheet: Battle Sisters Squad, models: 10}                                # cheap OC bodies (out-OC the OC1 brick)
+  - {datasheet: Hospitaller, models: 1}                                          # FNP 5+ -> a squad shrugs Dev Wounds + melee chip
+  # --- MOBILITY: kill light support, contest objectives, never feed the melee ---
+  - {datasheet: Zephyrim Squad, models: 5}
+  - {datasheet: Seraphim Squad, models: 5}
