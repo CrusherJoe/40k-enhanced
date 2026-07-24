@@ -181,6 +181,19 @@ Champions 1/T&H). Rules STACK army-wide.
   BS(requisitioned)+Immolator(transport); build() caps = ≤2 each of char/retinue/requisitioned, transports
   free; sample **examples/knights-A-coverstrip.yaml** (1985/2000). ≥1 package is worth it for a shooting Knight list.
 
+- **HOME OBJECTIVE under a PURGE lock (verified from missions.yaml) + tournament framing:**
+  BOTH players LOCK their disposition for the WHOLE EVENT (opponent does NOT pick at the table — they
+  registered their one disposition pre-event, same as you). You build ONE Purge list for a FIELD of
+  fixed-disposition opponents. FINDING: holding YOUR home scores YOU **nothing** in every Purge mission
+  ("excluding your home objective" throughout) — it's PURELY denial. But the opponent scores off your
+  home in **4 of 5 matchups**: T&H/Immovable Object (5 VP/obj, recurring), Purge/Meatgrinder (4 + 5
+  "opponent's home"), Recon/Triangulation (4), Priority/Vital Link (4 + **10** "opponent's home");
+  ONLY Disruption/Delaying Action rewards it 0. ⇒ Home = a high-value DENIAL battleground (4-10 VP to
+  them). Hold it with the forced-split **BS OC10 half** (body) + the **Navigator 12" anti-DS dome**
+  (stops the Deep-Strike play that flips an OC10 home). Keep the Navigator in a DS-heavy / home-scoring
+  FIELD (the current meta); cut it only for a known Disruption-heavy or DS-light field. (I'd sloppily
+  said the opponent "chooses at the table" — WRONG, both locked for the event; corrected.)
+
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
   stratagems, enhancement points.
