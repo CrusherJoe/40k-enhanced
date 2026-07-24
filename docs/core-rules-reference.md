@@ -230,7 +230,7 @@ Lancer's "charge after Advancing" buffs a nearby Armiger, not the Lancer).
 | `[ANTI-X N+]` | 24.03 | vs a target with keyword X, an unmodified wound roll of N+ is a **critical wound**. |
 | `[ASSAULT]` | 24.04 | can be fired even if the unit Advanced. |
 | `[BLAST]` | 24.05 | +1 attack per **5 models** in the target; can't target a unit you're engaged with. |
-| `[DEVASTATING WOUNDS]` | 24.10 | on a **critical wound**, the sequence ends and the target takes **mortal wounds = the D** (bypasses saves). |
+| `[DEVASTATING WOUNDS]` | 24.10 | on a **critical wound**, the sequence ends and the target takes **mortal wounds = the D** (bypasses saves). **Critical wound = an unmodified 6 (16.7%) UNLESS a matching `[ANTI-X N+]` lowers it — and that only fires vs a target with keyword X.** So Dev Wounds do NOT bypass a non-matching invuln reliably (e.g. `[ANTI-TITANIC 4+]` does nothing vs a C'tan — a MONSTER, not TITANIC; Dev then triggers on 6 only). |
 | `[HEAVY]` | 24.16 | +1 to the **Hit roll** if the unit was unengaged and **Remained Stationary**. |
 | `[IGNORES COVER]` | 24.18 | target cannot have benefit of cover. |
 | `[LANCE]` | 24.21 | **+1 to wound** if the unit **charged** this turn. |
