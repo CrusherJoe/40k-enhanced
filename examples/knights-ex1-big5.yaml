@@ -1,0 +1,9 @@
+name: EX1 - Big Five (no Armigers)
+detachments: [dominus-foebreakers, valourstrike-lance]
+disposition: purge-the-foe
+units:
+  - {datasheet: Cerastus Knight Castigator, count: 1}
+  - {datasheet: Knight Castellan, count: 1, enhancement: Archeotech Autoloaders}
+  - {datasheet: Knight Crusader, count: 1}
+  - {datasheet: Knight Paladin, count: 1, enhancement: Bearer of the Judicant's Helm}
+  - {datasheet: Knight Valiant, count: 1}

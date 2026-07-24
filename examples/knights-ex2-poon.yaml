@@ -1,0 +1,10 @@
+name: EX2 - Poon Table (harpoon/anti-Titanic spam)
+detachments: [dominus-foebreakers, valourstrike-lance]
+disposition: purge-the-foe
+units:
+  - {datasheet: Knight Castellan, count: 1, enhancement: Bearer of the Judicant's Helm}
+  - {datasheet: Knight Valiant, count: 1, enhancement: Archeotech Autoloaders}
+  - {datasheet: Knight Valiant, count: 1, enhancement: Blessed Plate}
+  - {datasheet: Armiger Helverin, count: 2}
+  - {datasheet: Armiger Moirax, count: 1}
+  - {datasheet: Armiger Warglaive, count: 2}
