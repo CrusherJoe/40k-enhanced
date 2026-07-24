@@ -1,5 +1,8 @@
 # Boogeyman archetype — Salamanders flamer/melta durability brick
 
+> **✅ 11E-SWEPT (2026-07-24):** Space Marines / Salamanders unit stats re-verified vs **BSData/wh40k-11e** (`Imperium - Space Marines.json` + Salamanders/Emperor's-Fists detachments in the SM faction pack v1.1) — **stable, no material stat drift** from the earlier 10E pull. Detachment rules live in the faction pack; the threat profile below holds. (C'tan −1 Damage already corrected; DA Deathwing OC1 confirmed.)
+
+
 GT-winning list (pre-2026-07-22 rules update; treat ratios/shape as signal, not
 gospel). Salamanders, *Forgefather's Seekers + Librarius Conclave*, dispositions
 **Purge the Foe + Reconnaissance**. Stats ingested live from BSData

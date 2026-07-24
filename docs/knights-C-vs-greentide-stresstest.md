@@ -76,10 +76,13 @@ The sim above is vs ~100 Boyz. A maxed Green Tide ("The Greenback": **6× Boyz(2
 - **The kill-rate can't keep up:** C clears ~27/turn → **~135 of ~157 chaff over 5 turns**, so the horde
   holds objectives through T3-4 before it craters; their Determined Acquisition scores hard early while
   165 bodies flood 4-5 objectives, and the OC race (240+ vs ~65) is unwinnable.
-- **Verdict vs the Greenback: ~coin flip, and a good Greenback player is the slight favourite.** C is
-  still the best Knight answer, but **no list tweak solves it** — 8-9 Knights physically can't clear +
-  out-hold 165 bodies. Play tight, win the swing factors, and grind for the back-end crater.
-  **The horde is, and remains, the Knights' worst matchup — a *maxed* horde is a bad matchup, full stop.**
+- **⚠ 11E-SWEEP CORRECTION:** Green Tide's **Mob Mentality gives Boyz a 5+ invuln (10+ models)** — which
+  I missed (10E-sourced). It **stacks with the Painboys' FNP 5+**, so a landed wound must beat the 5++
+  (fail 2/3) *then* FNP (fail 2/3) ≈ 0.44 through → my anti-horde is **~25-35% lower** than the sim used.
+- **Verdict vs the Greenback: with the 5++, Knights are the UNDERDOG (worse than the earlier coin-flip).**
+  C is still the best Knight answer, but **no list tweak solves it** — 8-9 Knights physically can't clear +
+  out-hold 165 5++/FNP bodies. Play tight, win the swing factors, and grind for the back-end crater.
+  **The horde is, and remains, the Knights' worst matchup — a *maxed, 5++-buffed* horde is a bad matchup, full stop.**
 
 ## Does the sim change the list?
 **No — it validates C as the right list; the edge is in the PLAN, not the roster.** The anti-horde

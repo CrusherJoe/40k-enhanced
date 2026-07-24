@@ -1,8 +1,15 @@
 # Boogeyman archetypes — Orks (two poles)
 
-Two GT-era Ork lists that bracket the faction. Stats ingested live from BSData
-(`Xenos - Orks.cat` rev162). Together they define the **melta↔flamer axis** a
-take-all-comers Sisters list must straddle.
+Two GT-era Ork lists that bracket the faction. Together they define the
+**melta↔flamer axis** a take-all-comers list must straddle.
+
+> **✅ 11E-SWEPT (2026-07-24):** unit stats re-verified vs **BSData/wh40k-11e** (`Orks.json`) — all
+> stable (Boyz T5 W1 Sv5+ OC2, Kill Rig T10 W16, Ghaz T6 W10 2+). Detachment rules from the **Orks
+> faction pack v1.1**. **KEY CORRECTION:** Green Tide's **Mob Mentality** gives Boyz a **5+ invuln while
+> 10+ models (6+ otherwise)** — my earlier anti-horde math (plain Sv5+) was ~20-33% too high (the 5++
+> caps AP-1/-2), so the **Knights-vs-Green-Tide matchup is WORSE than stated.** There is **NO Boyz
+> return** (the "come back" line is *Speedwaaagh!*/Kult of Speed). Kult of Speed's **Adrenaline Junkies**
+> = Speed Freeks advance-and-shoot + advance-and-charge.
 
 ## List 1 — Kult of Speed + More Dakka! (Disruption / Purge the Foe): mobile dakka
 | Unit | Stats | Threat weapon |

@@ -1,5 +1,8 @@
 # Boogeyman archetypes — Necrons (two "un-killable" poles)
 
+> **✅ 11E-SWEPT (2026-07-24):** Necrons unit stats re-verified vs **BSData/wh40k-11e** (`Necrons.json` + Necrons faction pack v1.1 (Cursed Legion / Obeisance-style detachments)) — **stable, no material stat drift** from the earlier 10E pull. Detachment rules live in the faction pack; the threat profile below holds. (C'tan −1 Damage already corrected; DA Deathwing OC1 confirmed.)
+
+
 Two GT-era Necron lists. Stats ingested live from BSData (`Xenos - Necrons.cat`
 rev106). Necrons add a THIRD axis beyond melta↔flamer and durable↔horde:
 **Reanimation (chip is refunded → must kill outright)** and **invuln/monster

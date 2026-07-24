@@ -1,5 +1,8 @@
 # Boogeyman archetype — Dark Angels Deathwing Terminator brick
 
+> **✅ 11E-SWEPT (2026-07-24):** Dark Angels unit stats re-verified vs **BSData/wh40k-11e** (`Imperium - Dark Angels.json` + DA faction pack v1.1 (Unforgiven Task Force / Deathwing)) — **stable, no material stat drift** from the earlier 10E pull. Detachment rules live in the faction pack; the threat profile below holds. (C'tan −1 Damage already corrected; DA Deathwing OC1 confirmed.)
+
+
 GT-era list ("playing Thousand Sons with Dark Angels models" = it grinds up the
 board like an un-killable deathstar). Stats from BSData (`Imperium - Dark
 Angels.cat` rev51 + base Space Marines). This is the **elite / low-model /
