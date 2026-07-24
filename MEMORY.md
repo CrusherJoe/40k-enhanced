@@ -35,10 +35,12 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
    for detachment rules + enhancements + chapter detachments (e.g. SM pack contains Emperor's Shield /
    Librarius Conclave). Faction packs are VERSIONED (v1.0/1.1/1.2…) — a points/rules update = a new version,
    so CONFIRM the pack is the current version (the Wednesday update may have bumped some).
-   - **FACTION-PACK INVENTORY (scratchpad, all v1.1 — confirm still current post-Wednesday):**
-     HAVE: sisters_fp.pdf (Sisters), ik_faction_pack.pdf (Imperial Knights), sm_fp.pdf (Space Marines +
-     chapter detachments), agents_fp.pdf (Agents), + 40k_core_rules.pdf + event_companion.pdf.
-     **MISSING (need from user): ORKS, NECRONS** faction packs (both analyzed in docs/meta/).
+   - **FACTION-PACK INVENTORY (scratchpad, ALL 6 present, all v1.1 — current per user-provided live URLs):**
+     sisters_fp.pdf (Sisters), ik_faction_pack.pdf (Imperial Knights), sm_fp.pdf (Space Marines + chapter
+     detachments: Emperor's Shield, Librarius Conclave, Salamanders, Dark Angels), agents_fp.pdf (Agents),
+     orks_fp.pdf (Orks), necrons_fp.pdf (Necrons); + 40k_core_rules.pdf + event_companion.pdf. Complete
+     coverage of every army we analyze. NOTE (to check in the re-verify sweep): Orks pack hints Boyz "can
+     always come back" — confirm the Green Tide return mechanic (affects the Knights-vs-Green-Tide verdict).
 - **TODO:** the earlier META INGEST (SM/Salamanders/Orks/Necrons/DA archetypes in docs/meta/) was 10E-sourced —
   concepts hold, but re-verify STATS (wh40k-11e) + detachment rules (faction packs) against 11E before the GT.
 
