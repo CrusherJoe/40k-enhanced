@@ -29,8 +29,18 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
    Detachment→DP→disposition mapping also from MFM.
 5. **STRATAGEMS + some other data = 39k.pro** — try it when the info isn't in BSData/MFM/faction-pack.
 6. **IF YOU LACK SOLID 11E DATA — ASK THE USER.** He'll find + provide it. Never guess to fill a gap.
+7. **FACTION PACKS = source of truth ON PAR WITH MFM.** This is where GW publishes UPDATES to armies/
+   factions/DETACHMENTS/enhancements/stratagems — the latest info direct from GW. Have one for EVERY army
+   we work with. BSData leaves detachment CORE rules blank → the faction pack is the authoritative source
+   for detachment rules + enhancements + chapter detachments (e.g. SM pack contains Emperor's Shield /
+   Librarius Conclave). Faction packs are VERSIONED (v1.0/1.1/1.2…) — a points/rules update = a new version,
+   so CONFIRM the pack is the current version (the Wednesday update may have bumped some).
+   - **FACTION-PACK INVENTORY (scratchpad, all v1.1 — confirm still current post-Wednesday):**
+     HAVE: sisters_fp.pdf (Sisters), ik_faction_pack.pdf (Imperial Knights), sm_fp.pdf (Space Marines +
+     chapter detachments), agents_fp.pdf (Agents), + 40k_core_rules.pdf + event_companion.pdf.
+     **MISSING (need from user): ORKS, NECRONS** faction packs (both analyzed in docs/meta/).
 - **TODO:** the earlier META INGEST (SM/Salamanders/Orks/Necrons/DA archetypes in docs/meta/) was 10E-sourced —
-  concepts hold, but re-verify STATS + detachment rules against 11E before relying on them for the GT.
+  concepts hold, but re-verify STATS (wh40k-11e) + detachment rules (faction packs) against 11E before the GT.
 
 ## Analysis principles (user guidance — apply to ALL list/matchup work)
 - **HARD COUNTERS ARE A FEATURE OF 40k, NOT A LIST FLAW.** Almost every army has a
