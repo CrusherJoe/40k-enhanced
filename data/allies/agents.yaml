@@ -72,3 +72,27 @@
 #   ranged attacks this or the previous turn. While gone to ground, subtract 3"
 #   from that model's detection range. Designer's note: a unit that shot this or
 #   last turn cannot go to ground, regardless of shoot-while-hidden abilities.
+
+# ---- Requisitioned Sororitas package (user-confirmed legal) ----
+# The allies "Sisters of Battle Squad" has the REQUISITIONED keyword (up to 2 Requisitioned
+# allowed). Its Immolator is a DEDICATED TRANSPORT -> free, does NOT count against that cap.
+# WHY IT'S HERE: the ally Immolator KEEPS "Purge & Cleanse" -> after it shoots, one enemy unit
+# it hit loses Benefit of Cover (army-wide). Cover = -1 to hit + Knight guns are BS3+, so
+# stripping it is +33% to the whole battery's focus-fire (+7-9 dmg on a covered LR/Monolith).
+- name: Battle Sisters Squad
+  ally_type: requisitioned
+  points: 100            # 10 models; special/heavy weapons (meltagun + multi-melta) are FREE (BSData).
+  keywords: [Infantry, Battleline, Adepta Sororitas, Imperium]
+  role: >-
+    Split into two 5-model units: the "good half" (meltagun + multi-melta + Superior) rides the
+    Immolator, the rest walk. Brings OC2 board bodies (the Knight low-model weakness) + a slice
+    of melta anti-tank + 10 boltguns.
+- name: Immolator
+  ally_type: transport   # dedicated transport of the Battle Sisters ally -> free slot, points still count
+  points: 110
+  keywords: [Vehicle, Transport, Dedicated Transport, Adepta Sororitas, Imperium]
+  role: >-
+    Run IMMOLATION FLAMERS (Torrent -> auto-hit reliably triggers Purge & Cleanse even vs vehicles).
+    Purge & Cleanse strips one hit enemy unit's Benefit of Cover (end of phase) = army-wide cover-strip
+    for the Knights. Range ~18-24" -> DEPLOY IT FORWARD to de-cover the MID-BOARD target you focus-fire,
+    not back with the Navigator. Also ~4 Boyz/turn of flamer + an expendable T10/11W hull.

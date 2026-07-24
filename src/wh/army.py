@@ -216,9 +216,9 @@ def build(spec: dict) -> Army:
         army.lines.append(Line(sheet.name, count, enh_name, wg_labels,
                                unit_cost, enh_cost, wg_cost, models=models))
 
-    # --- Assigned Agents allies (points count; roster caps apply; no enhancements) ---
+    # --- Assigned Agents allies (points count; slot caps apply; no enhancements) ---
     ally_cat = data.allies()
-    n_char = n_ret = 0
+    slots = {"character": 0, "retinue": 0, "requisitioned": 0}
     for u in spec.get("allies", []) or []:
         name = u.get("datasheet") or u.get("name", "")
         count = int(u.get("count", 1))
@@ -228,17 +228,19 @@ def build(spec: dict) -> Army:
             continue
         if u.get("enhancement"):
             army.errors.append(f"ally {ally['name']} cannot take a detachment enhancement")
-        if ally["ally_type"] == "character":
-            n_char += count
-        else:
-            n_ret += count
+        typ = ally["ally_type"]
+        if typ in slots:                       # dedicated transports don't consume a slot
+            slots[typ] += count
         army.lines.append(Line(ally["name"], count, None, [], ally["points"] * count,
                                0, 0, ally=True))
-    # Agents allowance at Strike Force: 2 Characters + 2 Retinue + 1 wildcard unit.
-    if n_char > 3 or n_ret > 3 or (n_char > 2 and n_ret > 2):
+    # Assigned Agents allowance (Strike Force): up to 2 each of Character / Retinue /
+    # Requisitioned. Dedicated transports of ally units are free (don't count).
+    caps = {"character": 2, "retinue": 2, "requisitioned": 2}
+    over = [f"{n} {t}" for t, n in slots.items() if n > caps[t]]
+    if over:
         army.errors.append(
-            f"Agents allowance exceeded: {n_char} Character + {n_ret} Retinue ally units "
-            f"(max 2 Characters + 2 Retinue + 1 of either type)")
+            "Agents allowance exceeded: " + ", ".join(over)
+            + " (max 2 each of Character / Retinue / Requisitioned; transports free)")
 
     # Rule of Three: aggregate copies per datasheet across all entries.
     per_sheet: dict[str, int] = {}

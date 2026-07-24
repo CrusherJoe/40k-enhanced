@@ -169,16 +169,17 @@ Champions 1/T&H). Rules STACK army-wide.
   **C'tan = play-the-mission for EVERY Knight list** (no one out-guns 4× 16W 4++/−1Dmg Monsters).
   Rule pinned in docs/core-rules-reference.md (Dev Wounds row). Lesson: verify keyword interactions, not just weapon lines.
 
-- **ALLY TECH — Immolator "Purge & Cleanse" cover-strip for KNIGHTS (user idea, tested):** an ally
-  Battle-Sisters+Immolator package (BS = "Requisitioned" unit, Immo its transport; Immo KEEPS Purge &
-  Cleanse as an ally = army-wide strip Benefit of Cover on a hit target). TEST RESULT: cover=−1 to hit,
-  Knight guns are BS3+, so stripping cover = **+33% damage** to the whole battery's focus-fire (+7-9 dmg
-  on a covered Land Raider/Monolith/Gorkanaut). Package (~210 pts + 1 Requisitioned slot) also gives 20 OC
-  of Battle-Sisters board bodies (the Knight low-model weakness) + an expendable hull + ~4 Boyz/turn flamer.
-  CAVEATS: (1) Immolator range ~18-24" → strips MID-BOARD targets only, not the 72" backfield snipe;
-  (2) ⚠ RULES-LEGALITY UNVERIFIED — confirm Sisters-as-Requisitioned-Knight-ally is legal before building it.
-  If legal, ≥1 package looks worth it for a shooting Knight list; would need BS+Immo added to the allies data
-  + a "requisitioned" ally_type in build().
+- **ALLY TECH — Immolator "Purge & Cleanse" cover-strip for KNIGHTS (CONFIRMED LEGAL, user-vetted, IMPLEMENTED):**
+  the allies "Sisters of Battle Squad" has the **REQUISITIONED** keyword (≤2 Requisitioned allowed); its
+  **Immolator is a Dedicated Transport = FREE** (points count, but does NOT count vs the Requisitioned cap).
+  BS special/heavy weapons (meltagun + multi-melta) are FREE → package = **100 + 110 = 210 pts**. The Immo
+  keeps Purge & Cleanse (army-wide strip Benefit of Cover on a hit unit). VALUE: cover=−1 hit + Knight BS3+
+  → **+33% to the battery's focus-fire** (+7-9 dmg on a covered LR/Monolith/Gorkanaut) + 20 OC of board
+  bodies (the Knight low-model weakness) + a melta half + expendable hull. Range ~18-24" → deploy the Immo
+  FORWARD to de-cover the MID-BOARD focus target (not back with the Navigator). Army-wide strip makes the
+  single-model **Judicant's Helm redundant** → drop it to help pay. IMPLEMENTED: agents.yaml has
+  BS(requisitioned)+Immolator(transport); build() caps = ≤2 each of char/retinue/requisitioned, transports
+  free; sample **examples/knights-A-coverstrip.yaml** (1985/2000). ≥1 package is worth it for a shooting Knight list.
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
