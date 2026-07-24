@@ -11,6 +11,13 @@ jbeddoe plays (**Imperial Knights** + **Adepta Sororitas**), to optimise list
 building and guide practice. Python, plain-YAML data, stdlib CLI
 (`PYTHONPATH=src python3 -m wh …`), PyYAML the only dep.
 
+## ⚠ DATA SOURCE (user, 2026-07-24): github.com/BSData/**wh40k-11e** is the SOURCE OF TRUTH — wh40k-10e is DEAD
+I'd been pulling ALL opponent data this session from wh40k-**10e** (violated my own verify-11e rule). The 11e
+repo publishes JSON DIRECTLY (no .cat conversion). Re-verified Imperial Fists durability from 11e — matches.
+**TODO: the earlier META INGEST (SM/Salamanders/Orks/Necrons/DA) was 10e-sourced — the archetypes/concepts hold
+but STATS + detachment rules should be re-verified vs wh40k-11e.** Detachment CORE rules are often blank in
+BSData → use the FACTION PACK PDFs (warhammer-community assets) for full detachment/discipline text.
+
 ## Analysis principles (user guidance — apply to ALL list/matchup work)
 - **HARD COUNTERS ARE A FEATURE OF 40k, NOT A LIST FLAW.** Almost every army has a
   matchup it can't fix by tuning (e.g. **Green Tide hard-counters Knights** — 8-9 elite

@@ -1,0 +1,23 @@
+# COUNTER to "Great Value" (Emperor's Shield + Librarius Conclave Imperial Fists).
+# His durability is REAL (155W of 2+/4++) but Emperor's Shield adds NO save-buff (Wrath of Dorn is
+# offensive). His threat is TELEPORT-MELEE: Temporal Corridor bails the TH/SS brick to Reserves at end
+# of MY Fight phase -- BUT ONLY IF UNENGAGED. So:
+#   1) LANCER charges + PINS the brick (4++ tanks the hammers, D8 lance kills 2-3/round, and it CANNOT
+#      teleport while engaged). This is the key piece.
+#   2) NAVIGATOR dome denies the Deep-Strike re-drop if it ever gets free.
+#   3) Grind the 4++ with MELTA/multi-damage (thermal, spears, Immo twin-MM, Volcano) -- NOT chip guns
+#      (Avenger D2 < W4). Kill the Sternguard early (Lethal-Hits+Dev-Wound chip).
+#   4) Out-OC the OC1 brick + out-score (Meatgrinder vs his Purge). Cover-strip = +33% into the terminators.
+name: Knights vs Great Value - pin + grind + out-score (Purge the Foe)
+detachments: [valourstrike-lance, dominus-foebreakers]
+disposition: purge-the-foe
+units:
+  - {datasheet: Knight Castellan, count: 1, enhancement: Blessed Plate}          # T13; Volcano kills Lysander/chars, plasma decimator (D3) kills W3 termies
+  - {datasheet: Cerastus Knight Lancer, count: 1}                                # THE PIN: 4++/M14, D8 lance -> charges + locks the brick
+  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon]}  # Avenger vs Sternguard/W3 + THERMAL (D6 melta) kills W4 termies
+  - {datasheet: Armiger Warglaive, count: 2}                                     # thermal spears (D6 melta, kill W4) + reaper; screen
+  - {datasheet: Armiger Helverin, count: 1}                                      # autocannon vs Sternguard/Bladeguard/W3
+allies:
+  - {datasheet: Navigator, count: 1}                                             # anti-DS dome -> denies the Temporal Corridor re-drop
+  - {datasheet: Battle Sisters Squad, count: 1}                                  # Requisitioned: OC10 half holds home + melta half grinds termies
+  - {datasheet: Immolator, count: 1}                                            # TWIN MULTI-MELTA here (not flamers -- useless vs 2+/4++) + Purge&Cleanse +33% strip
