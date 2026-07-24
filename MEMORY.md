@@ -108,6 +108,30 @@ Champions 1/T&H). Rules STACK army-wide.
   Faction Pack, BSData Imperium-Adepta-Sororitas + opponent `.cat`s, 39k bundle. Extractors:
   tools/gen_*_sisters.py; opponent cat→JSON converter (scratchpad cat2json.py).
 
+## Knights META RE-VISIT (2026-07-24) — re-analysed vs the Sisters-ingested meta
+- **Bidirectional mathhammer vs the real boogeyman lists** (not abstract disposition theory).
+  KEY FINDING: **anti-tank is REDUNDANT on every Knight build** (all >1.7× a Land Raider; Knights
+  even table Monoliths via S18 Volcano / S24 harpoon — the thing Sisters couldn't). The axes that
+  actually decide games vs this meta are **ANTI-HORDE + DURABILITY** → the "classic" twin-Castellan
+  gunline is the WEAKEST meta pick (least anti-horde; 2 Volcanos are the WORST guns into a 4++ C'tan).
+- **New anti-horde big Knights discovered** (from the collection): **Knight Valiant** (DOMINUS!
+  Conflagration torrent flamer + S24 AP-6 D10 Thundercoil harpoon) and **Knight Warden** (Avenger +
+  Heavy Flamer). **Lancer's 4++ full invuln = premium vs the AP-4-saturated meta** (melee AND ranged);
+  Blessed Plate (T13) drops S12 death-ray/lascannon damage ~⅓. Judge big guns by target WOUNDS/model
+  (Volcano into W1/W4 = overkill waste → use Avenger/sweeps on multi-model units).
+- **3-LIST SLATE (examples/knights-{A,B,C}-*.yaml, all LOCK Purge the Foe):**
+  A Lancer-Aggressive (Castellan T13 + Cerastus Lancer 4++/M14 + Crusader + Armigers; AT36/horde23;
+  aggressive+mobile+durable, 1965/2000); B Twin-Castellan Gunline (classic; AT35/horde17; weakest vs
+  hordes+C'tan); C Horde-Hardened (Valiant + Warden + Crusader + 3 Warglaive screens; AT27/**horde32**;
+  the Green-Tide + invuln-spam answer, 1990/2000). **C = meta-robust pick, A = aggressive pick.**
+- **ALLIES NOW VALIDATE** (was an unvalidated 75-pt hole): data.allies() loads agents.yaml (ally_type
+  from Character keyword); build() `allies:` block costs them + enforces the Agents allowance (2 Char +
+  2 Retinue + 1 wildcard) + rejects enhancements on allies; prints "(ally)". A/C include a validated
+  Navigator. **This is the general ally mechanism** — reusable for any Imperium ally.
+- **DOCS:** docs/knights-matchup-plans.md (locked Purge, mission-by-opponent, per-archetype, C-vs-A) +
+  **Knights-C-Battle-Plan.docx** + **Knights-A-Battle-Plan.docx** (tools/gen_knights_docx.py, pulls live
+  roster+allies+Purge layouts). Purge lock re-confirmed vs the meta (Knights can't play the action game).
+
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
   stratagems, enhancement points.
