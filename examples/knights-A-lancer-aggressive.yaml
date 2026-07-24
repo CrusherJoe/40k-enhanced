@@ -1,13 +1,18 @@
 # LIST A — Lancer Aggressive (durability + speed + balanced take-all-comers).
 # 1 Castellan anchor (Blessed T13) + fast 4++ Lancer + Crusader flex + Armigers.
+# The Lancer runs solo (M14) so it carries NO enhancement -- every Valourstrike
+# enhancement is a "buff a nearby Knight" aura, useless on a diver. Those points
+# go into board control (Moirax versatility + Voidsmen OC bodies) instead.
 name: Knights A - Lancer Aggressive (Purge the Foe)
 detachments: [valourstrike-lance, dominus-foebreakers]
 disposition: purge-the-foe
 units:
   - {datasheet: Knight Castellan, count: 1, enhancement: Blessed Plate}
-  - {datasheet: Cerastus Knight Lancer, count: 1, enhancement: Bearer of the Lancer's Sigil}
+  - {datasheet: Cerastus Knight Lancer, count: 1}
   - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon], enhancement: Bearer of the Judicant's Helm}
   - {datasheet: Armiger Warglaive, count: 2}
-  - {datasheet: Armiger Helverin, count: 2}
+  - {datasheet: Armiger Helverin, count: 1}
+  - {datasheet: Armiger Moirax, count: 1}    # +10 over a Helverin: Anti-Vehicle 2+ graviton + Anti-Infantry 2+ rad cleanser (Torrent) + siege claw
 allies:
-  - {datasheet: Navigator, count: 1}   # home-objective anchor + anti-Deep-Strike bubble
+  - {datasheet: Navigator, count: 1}          # home-lock + anti-Deep-Strike bubble
+  - {datasheet: Voidsmen-at-Arms, count: 1}   # OC2 chaff -> the board-control the Knight low-model game lacks
