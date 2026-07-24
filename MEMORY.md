@@ -11,6 +11,20 @@ jbeddoe plays (**Imperial Knights** + **Adepta Sororitas**), to optimise list
 building and guide practice. Python, plain-YAML data, stdlib CLI
 (`PYTHONPATH=src python3 -m wh …`), PyYAML the only dep.
 
+## Analysis principles (user guidance — apply to ALL list/matchup work)
+- **HARD COUNTERS ARE A FEATURE OF 40k, NOT A LIST FLAW.** Almost every army has a
+  matchup it can't fix by tuning (e.g. **Green Tide hard-counters Knights** — 8-9 elite
+  models can't out-body/out-OC 165 disposable ones; Green Tide also grinds down basically
+  everyone, so it's a top all-comers list). **Identify the hard counter, quantify it,
+  ACCEPT it — do NOT keep engineering to "solve" the unsolvable** (I over-did this with
+  Overwatch / Dev-Wounds / "more anti-horde"). Optimise for the FIELD you'll actually
+  face, be respectable into the bad matchup, and treat knowing your worst matchup as
+  intel (plan around it / hope to dodge it / accept variance), not failure.
+- Corollary: don't warp a list to patch one bad matchup at the cost of the 90% you win.
+- **VERIFY 11E data every time** (units/rules/points/keyword INTERACTIONS) — don't trust
+  edition-memory; **defer to MFM for points.** (See the C'tan −1 Damage and the
+  TITANIC-no-Overwatch and Anti-X/Dev-Wounds corrections — all edition-memory slips.)
+
 ## Multi-faction support
 - Faction-keyed data files: `data/{detachments,datasheets,profiles}/<faction>.yaml`.
   Missions/matrix/mathhammer/tools are edition-wide (shared, faction-agnostic).
