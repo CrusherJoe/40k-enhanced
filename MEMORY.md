@@ -131,6 +131,13 @@ Champions 1/T&H). Rules STACK army-wide.
 - **DOCS:** docs/knights-matchup-plans.md (locked Purge, mission-by-opponent, per-archetype, C-vs-A) +
   **Knights-C-Battle-Plan.docx** + **Knights-A-Battle-Plan.docx** (tools/gen_knights_docx.py, pulls live
   roster+allies+Purge layouts). Purge lock re-confirmed vs the meta (Knights can't play the action game).
+- **STRESS-TEST (docs/knights-C-vs-greentide-stresstest.md):** C beats the Green Tide ~54-34 on primary
+  but it's a disciplined GRIND, swinging on (1) first turn, (2) Armiger screen discipline, (3) killing
+  Ghaz R2 with the harpoon, (4) Fall-Back-and-shoot. Two key rules: **Super-Heavy Walker** (big Knights
+  Fall Back + still shoot → horde CAN'T tarpit them) and **⚠ TITANIC units CANNOT Fire Overwatch (15.08)**
+  — so ALL big Knights get NO auto-hit flamer on the charge (unlike non-TITANIC Sisters). Validates C as
+  the list; edge is in the PLAN not the roster. (I'd wrongly credited Knight Overwatch — user corrected;
+  rule now in docs/core-rules-reference.md. Reinforces: VERIFY 11E rules, don't trust memory.)
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/

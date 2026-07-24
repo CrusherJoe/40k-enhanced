@@ -98,8 +98,12 @@ spotter; casino weapons (variable Attacks) firing indirect are doubly swingy.
   engaged) → select enemy target(s) **within 12"**.
 - **Charge roll = 2D6** (avg 7"). The unit must be able to end **in Engagement
   Range of every** declared target and in coherency, or the charge fails.
-- Opponent may respond via **Fire Overwatch (15.08)** stratagem (shoot at the
-  charger, only 6s hit) or **Heroic Intervention (15.11)**.
+- Opponent may respond via **Fire Overwatch (15.08)** stratagem (snap shooting —
+  only unmodified 6s hit; **TORRENT auto-hits regardless**, which is why flamers
+  are the premier Overwatch weapon) or **Heroic Intervention (15.11)**.
+  **⚠ Fire Overwatch TARGET excludes TITANIC units** — so ALL big Imperial Knights
+  CANNOT Overwatch; the unit must also be *unengaged*. (Non-TITANIC flamer armies
+  like Sisters CAN, and Torrent makes it auto-hit.)
 - Charging matters for **[LANCE]** (+1 wound) and Fights First.
 
 ## Fight phase (12)
