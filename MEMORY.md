@@ -11,12 +11,26 @@ jbeddoe plays (**Imperial Knights** + **Adepta Sororitas**), to optimise list
 building and guide practice. Python, plain-YAML data, stdlib CLI
 (`PYTHONPATH=src python3 -m wh …`), PyYAML the only dep.
 
-## ⚠ DATA SOURCE (user, 2026-07-24): github.com/BSData/**wh40k-11e** is the SOURCE OF TRUTH — wh40k-10e is DEAD
-I'd been pulling ALL opponent data this session from wh40k-**10e** (violated my own verify-11e rule). The 11e
-repo publishes JSON DIRECTLY (no .cat conversion). Re-verified Imperial Fists durability from 11e — matches.
-**TODO: the earlier META INGEST (SM/Salamanders/Orks/Necrons/DA) was 10e-sourced — the archetypes/concepts hold
-but STATS + detachment rules should be re-verified vs wh40k-11e.** Detachment CORE rules are often blank in
-BSData → use the FACTION PACK PDFs (warhammer-community assets) for full detachment/discipline text.
+## ⚠⚠ DATA-SOURCING PROTOCOL — 11E ONLY (user law, 2026-07-24). READ FIRST, EVERY SESSION. ⚠⚠
+**This game is 11th EDITION. 10E is DEAD. Do not use 10E links, files, or memory — ever.**
+1. **FORGET all 10E links + knowledge.** If a fact "feels" remembered, it's 10E-suspect → verify or discard.
+   Tainted 10E scratchpad files from earlier (DO NOT USE): sm.json, orks.json, necrons.json, da.json, sal.json,
+   the first if.cat/if.json (all from BSData/wh40k-10e). Clean 11e: sm11.json, if11.json (from wh40k-11e).
+2. **CORE RULES:** the 11E Core Rules PDF is pulled (scratchpad 40k_core_rules.pdf); the verified digest is
+   **docs/core-rules-reference.md**. For ANY ability/keyword/concept you don't have VERIFIED 11E knowledge of,
+   look it up there / in the PDF — don't infer. (Slips this session were all inference: C'tan cap, TITANIC-
+   Overwatch, Anti-X/Dev-Wounds crit, Knight-Overwatch — all avoidable with a lookup.)
+3. **UNITS / MODELS / WEAPONS = github.com/BSData/wh40k-11e** (source of truth). Publishes JSON DIRECTLY
+   (no .cat conversion): raw.githubusercontent.com/BSData/wh40k-11e/main/<Faction>.json. Detachment CORE rules
+   are often BLANK in BSData (enhancements are present) → get the core rule from the FACTION PACK (rule 4/6).
+4. **POINTS = MFM** (mfm.warhammer-community.com/en/<faction-slug>, e.g. /adepta-sororitas). MFM also
+   occasionally dictates which SUPPORT/LEADER units can join which BODYGUARD units (ask GW why). ⚠ MFM 403s
+   automated fetch → scrape the SSR when it allows (tools/gen_points.py style) or ask the user (rule 6).
+   Detachment→DP→disposition mapping also from MFM.
+5. **STRATAGEMS + some other data = 39k.pro** — try it when the info isn't in BSData/MFM/faction-pack.
+6. **IF YOU LACK SOLID 11E DATA — ASK THE USER.** He'll find + provide it. Never guess to fill a gap.
+- **TODO:** the earlier META INGEST (SM/Salamanders/Orks/Necrons/DA archetypes in docs/meta/) was 10E-sourced —
+  concepts hold, but re-verify STATS + detachment rules against 11E before relying on them for the GT.
 
 ## Analysis principles (user guidance — apply to ALL list/matchup work)
 - **HARD COUNTERS ARE A FEATURE OF 40k, NOT A LIST FLAW.** Almost every army has a
