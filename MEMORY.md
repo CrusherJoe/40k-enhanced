@@ -267,34 +267,39 @@ Champions 1/T&H). Rules STACK army-wide.
   T1 if on board / spread Knights if reserved. NEVER melee the hammers with a premium Knight (Dev Wounds bypass
   invuln) — pin with expendable Armigers. Both Termie units place Teleport Homers at start → screen mid-board.
   Immolator Purge&Cleanse + BS OC10 half hold home under the dome.
-  **★ OATH OF MOMENT is the engine (see SM-RULES note below):** with Oath (re-roll HITS army-wide vs 1 unit)
-  + Wrath of Dorn (re-roll WOUNDS vs same) modeled, his numbers into the OATHED Knight ~double — Speeders
-  4.6→10.2, cyclone unit 6.4→10.5 into a big Knight — and **ALL his ranged focused on ONE Oathed Knight =
-  ~28 dmg → BRACKETS a T13 Castellan (28W, survives on a sliver avg) and KILLS the T11 Crusader (26W) in a
-  turn** (Armiger 14.5+ = one-shot). [CORRECTED a 2× harness bug: I'd multiplied the A2 cyclone/multi-melta
-  weapon by SHOT count (4) instead of WEAPON count (2 launchers / 2 MMs) → had doubled both to ~40 alpha; the
-  user caught it ("only 2 cyclones in the list"). Real alpha ~28, not ~40.] So durability (esp. Blessed-Plate
-  Castellan) helps but doesn't save a Knight from the full alpha; **WIN BY BREAKING THE CONVERGENCE, not
-  tanking it.** KILL ORDER: **Land Speeders FIRST** (Oath ~doubles them, one-shot Armigers, mobile leg), then
-  cyclone Termies, then Sternguard — remove any leg and the alpha falls well under a Castellan's W. NOTE the
-  melee brick with Oath (rr hits+wounds) = ~38, one-rounds ANY Knight (up from my earlier ~28 no-Oath figure).
+  **★ OATH OF MOMENT is the engine (see SM-RULES note below):** correct stack into the OATHED Knight = Oath
+  (re-roll HITS **+ +1 to WOUND**, army-wide vs 1 unit — the +1 because mono-Codex IF) + Wrath of Dorn
+  (re-roll a WOUND-of-1 army-wide; FULL wound re-roll only for Lysander's melee unit). His numbers into the
+  OATHED Knight ~double: Speeders 4.6→10.7, cyclone unit 6.4→11.5, Sternguard 4.2→8.1; **ALL his ranged on
+  ONE Oathed Knight = ~30 dmg → KILLS a healthy T13 Castellan (28W) or T11 Crusader (26W) in a turn** (Armiger
+  15.3 = one-shot). [TWO corrections the user caught: (a) a 2× harness bug — I'd multiplied the A2
+  cyclone/multi-melta weapon by SHOT count (4) not WEAPON count (2 launchers/2 MMs), doubling both threats;
+  (b) I'd OMITTED base Oath's +1-to-Wound and over-applied Wrath as FULL wound re-roll to all units when it's
+  only re-roll-Wound-of-1 army-wide (full only for Lysander's unit). Net after both fixes: alpha ~30, not the
+  ~40 (bug) or ~28 (bug-fixed but +1 missing).] So durability does NOT save the Oathed target; **WIN BY
+  BREAKING THE CONVERGENCE, not tanking it.** KILL ORDER: **Land Speeders FIRST** (Oath ~doubles them,
+  one-shot Armigers, mobile leg), then cyclone Termies, then Sternguard — remove any leg and the alpha falls
+  below a Castellan's W. NOTE the melee brick (Lysander unit, full Wrath re-roll + Oath +1 wound) = ~49,
+  one-rounds ANY Knight.
   BAIT the Oath onto a cheap Armiger / already-hurt Knight (it's 1 target/turn). Armigers are GLASS to his
   ranged (cyclones/close Speeders one-shot one) → pin/screen/bait trades, not gun platforms; keep them out
   of cyclone LOS / >9" from Speeder drops. My initial errors (all corrected): mislabeled Sternguard as
   "Fusillade", treated TH/SS brick as the teleporter, under-weighted the Speeders, over-hyped Sternguard as
   an alpha-killer (they're a ~7/turn unsaveable chipper), AND omitted Oath of Moment entirely (the big one).
 
-- **SM-RULES — OATH OF MOMENT (Space Marine army rule; applies to EVERY SM-chapter matchup: SM/Salamanders/
-  Imperial Fists/Dark Angels):** at the start of his Command phase he names ONE of my units; until his next
-  Command phase, **his whole army re-rolls the HIT roll** against that unit (base = hits only; that's why
-  enhancements/detachments bolt on wound re-rolls). **Wrath of Dorn** (Emperor's Shield detach) adds
-  **re-roll WOUNDS** vs the Oath target; **Lysander's unit** re-rolls wounds in full; various enhancements
-  add "+1 to Wound" / "re-roll Wound of 1" / a SECOND Oath target. IMPLICATION for MY analysis: **always
-  model the opponent's damage into the ONE Oathed unit with re-roll hits (and wounds if the detach grants
-  it)** — it can ~2× a unit's output and lets him CONCENTRATE a whole army's fire to delete a single durable
-  model per turn. It's 1 target/turn → the counter is SPREAD + BAIT the Oath onto something cheap + break the
-  convergence (kill/deny a shooting leg). This is a concrete instance of Rule 8 (force-multipliers). MY
-  Knights have NO equivalent army-wide re-roll — a real asymmetry to respect vs all Astartes.
+- **SM-RULES — OATH OF MOMENT (Space Marine army rule, 11E-updated per SM faction pack; applies to EVERY
+  SM-chapter matchup: SM/Salamanders/Imperial Fists/Dark Angels):** start of his Command phase he names ONE
+  of my units; until his next Command phase, each attack from his army vs that unit: (a) **re-roll the HIT
+  roll**, AND (b) **+1 to the WOUND roll** IF his army is a Codex: Space Marines detachment with NO
+  BLOOD ANGELS/DARK ANGELS/DEATHWATCH/SPACE WOLVES units (so mono-SM/Salamanders/Imperial Fists GET the +1;
+  a DA army does NOT). **So base Oath = re-roll Hits + +1 Wound (usually) — NOT hits-only.** Detachments/
+  enhancements add MORE: **Wrath of Dorn** (Emperor's Shield) = re-roll a WOUND-of-1 army-wide + FULL wound
+  re-roll for Lysander's unit; others add "re-roll Wound of 1" / "+1 to Wound (again)" / a SECOND Oath target.
+  IMPLICATION: **always model opp damage into the ONE Oathed unit with re-roll hits + +1 wound (+ detach
+  extras)** — it ~2×'s a unit's output and lets him CONCENTRATE a whole army to delete one durable model/turn.
+  1 target/turn → counter = SPREAD + BAIT the Oath onto something cheap + break the convergence (kill/deny a
+  leg). Concrete instance of Rule 8 (force-multipliers). MY Knights have NO equivalent army-wide re-roll —
+  a real asymmetry to respect vs all Astartes. [Missed the +1-Wound on first pass; user caught it.]
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/

@@ -7,26 +7,27 @@ Vs his Purge → you play **Meatgrinder** (kill-differential + hold + his home).
 ## What he is (and the ONE thing that beats him)
 **~155 wounds of 2+/4++** — 10 TH/SS Terminators (T5 W4) + 10 Terminators (T5 W3) + Lysander (T5 W7)
 + 6 Bladeguard + 10 Sternguard + 10 Vanguard + Intercessors + 2 Land Speeders. **Everything is OC1**
-(one unit OC2). Emperor's Shield adds **no save-buff** (Wrath of Dorn is *offensive* — re-roll wounds
-vs his Oath target, full re-roll for Lysander's unit). Librarius Conclave picks **one Discipline/round**
+(one unit OC2). Emperor's Shield adds **no save-buff** (Wrath of Dorn is *offensive* — re-roll a Wound-of-1
+army-wide vs his Oath target, full wound re-roll for Lysander's unit; this stacks on top of base Oath's
+re-roll Hits + **+1 to Wound**). Librarius Conclave picks **one Discipline/round**
 (Telekinesis = the switch for Temporal Corridor **Deep Strike** + −1 S to wound his psyker units;
 Biomancy +2"M; Divination re-roll 1s; Pyromancy +1 AP + Sustained; Telepathy ignore-hit-mods).
 
 **His mobility is NOT one teleporting brick — it's four arrival threats, re-ranked by the mathhammer:**
 - **Terminator Squad (10, storm bolters + 2 cyclones) + Librarian [Fusillade]** — **a top ranged threat, but
   only when Oathed.** Fusillade = Lethal Hits; 2 krak cyclones (S9) + storm-bolter volume = **~6 into a big
-  Knight un-Oathed, ~10.5 Oathed** (~12 into an Armiger). Slow M5, but has a Teleport Homer.
+  Knight un-Oathed, ~11.5 Oathed** (~13 into an Armiger). Slow M5, but has a Teleport Homer.
 - **2× Land Speeder** — 2 multi-meltas S9 AP-4 D6 **Melta 2** + 2 stormfury. **The Armiger-killer:** ~8 into a
-  Warglaive → **14.5 Oathed (one-shots it)**; only ~4.6 into a big Knight un-Oathed, ~10 Oathed. **Melta bonus
+  Warglaive → **15.3 Oathed (one-shots it)**; only ~4.6 into a big Knight un-Oathed, ~10.7 Oathed. **Melta bonus
   needs <9"** — deep-struck at >9" they do even less, so they're worst the turn *after* they land, in melta range.
 - **Sternguard (10) + Librarian [Temporal Corridor]** — **NOT the alpha-killer I first billed.** vs a big
-  Knight their bolt rifles only wound on 6s — but every 6 is a **Devastating Wound (unsaveable), ~5–7/turn.**
+  Knight their bolt rifles only wound on 6s — but every 6 is a **Devastating Wound (unsaveable), ~4/turn un-Oathed, ~8 Oathed.**
   So they're a **persistent invuln-ignoring *chipper* + finisher of hurt Knights + anti-Sisters/character
   sniper** (Precision pistol). They **teleport** — but their teleport turn is their *weakest* shooting turn
   (Deep Struck ≠ stationary → no Heavy +1; the Conclave must run Telekinesis to enable the teleport → no
   Divination/Pyromancy offense that round). Dangerous to a *bracketed* Knight, a slow bleed on a healthy one.
 - **TH/SS Assault Terminators (10) + Lysander + Ancient** — **no psyker, walks M5** (Teleport Homer = one
-  mid-board jump). TH + Fist of Dorn are **Dev Wounds → ~38 in melee (Oathed) = one-rounds ANY Knight** (even the
+  mid-board jump). TH + Fist of Dorn are **Dev Wounds → ~49 in melee (Oathed, full Wrath re-roll) = one-rounds ANY Knight** (even the
   Lancer's 4++ only survives to ~4W). This is the *melee* deleter; keep every premium Knight out of it.
 
 **You cannot table 155W of 2+/4++. Don't try. He is OC1 — you WIN BY OUT-SCORING while the Navigator dome
@@ -34,41 +35,41 @@ denies his four arrival threats and you refuse to feed the hammers.**
 
 ## Mathhammer (11E, corrected model — all buffs stacked)
 Expected damage/turn. My Knights: Castellan T13 (Blessed Plate) 28W 3+/5++, Crusader T11 26W 3+/5++,
-**Armigers T9 14W 3+/5++** (5++ is Ion Shield = **ranged only**). **OATH OF MOMENT** = the SM army rule:
-each Command phase he names ONE of my units; his **whole army re-rolls HIT rolls** against it, and
-**Wrath of Dorn** (Emperor's Shield) adds **re-roll WOUNDS** vs that same target (Lysander's unit already
-full-wound-rerolls). So the *Oathed* Knight eats a very different number than an un-Oathed one — that gap is
-the whole game.
+**Armigers T9 14W 3+/5++** (5++ is Ion Shield = **ranged only**). **OATH OF MOMENT** (SM army rule, 11E-updated, verified in the SM faction pack): each Command phase he names
+ONE of my units; until his next Command phase, his **whole army re-rolls HIT rolls AND gets +1 to the WOUND
+roll** against it (the +1 applies because he's mono-Codex Imperial Fists — no BA/DA/DW/SW). **Wrath of Dorn**
+(Emperor's Shield) adds **re-roll a Wound roll of 1** army-wide vs that target, and **full** wound re-roll for
+**Lysander's unit only** (the melee brick). So the *Oathed* Knight eats a very different number than an
+un-Oathed one — that gap is the whole game.
 
 | Threat → (weapon counts: **2 cyclone launchers, 2 multi-meltas**) | un-Oathed big Knight | **OATHED big Knight** | Armiger (14W) |
 |---|---|---|---|
-| Cyclone Termies (unit: 2 launchers + 10 storm bolters, Fusillade) | 6.4 | **10.5** | 7 → **12** |
-| 2× Land Speeder (2 multi-meltas + 2 stormfury, in melta) | 4.6 | **10.2** | 8 → **14.5 (one-shot)** |
-| Sternguard Dev Wounds (unsaveable) | 4.2 | 6.9 | 4 → 7 |
-| **TH/SS brick (melee, Oathed)** | — | **~38 — one-rounds ALL** | ~38 — one-rounds |
-| **ALL his ranged focused on ONE Oathed Knight** | — | **~28** → *brackets a Castellan (survives on a sliver), **KILLS the Crusader (26W)*** | ~33 (overkill) |
+| Cyclone Termies (unit: 2 launchers + 10 storm bolters, Fusillade) | 6.4 | **11.5** | 7 → **13** |
+| 2× Land Speeder (2 multi-meltas + 2 stormfury, in melta) | 4.6 | **10.7** | 8 → **15.3 (one-shot)** |
+| Sternguard Dev Wounds (unsaveable core) | 4.2 | 8.1 | 4 → 8 |
+| **TH/SS brick (melee, Oathed — full Wrath re-roll)** | — | **~49 — one-rounds ALL** | ~49 — one-rounds |
+| **ALL his ranged focused on ONE Oathed Knight** | — | **~30 → KILLS a healthy Castellan (28W) or Crusader (26W)** | ~36 (overkill) |
 | **My guns → 10 Sternguard** | Avenger+Helverin+plasma = **~7 dead** (T1 wipe *if he deploys them*) | | |
 
-Takeaways: (1) **Oath lets him CONCENTRATE ~28 onto one Knight** — that *brackets* a T13 Castellan (28W,
-survives on average, dies to variance) and outright **kills the T11 Crusader (26W)** and any Armiger. So it's
-a real **one-Knight-per-turn pick**, not a clean sweep — durability (esp. Blessed-Plate Castellan) still
-matters, but don't rely on tanking it. (2) **Win by BREAKING the convergence:** kill a leg (Land Speeders
-first — Oath doubles them to ~10/14.5 and they're mobile; then cyclones), stay **>9" from Speeder drops**
-(kills their melta bonus), and use terrain so cyclones + Sternguard can't all see the Oathed target.
-Removing any leg drops the alpha well under a Castellan's wounds. (3) **Bait the Oath** onto an Armiger or an
-already-hurt Knight, not the Castellan. (4) The **melee brick does ~38 Oathed — one-rounds anything** → never
-feed it a premium Knight.
+Takeaways: (1) **Oath (re-roll Hits + +1 Wound) lets him CONCENTRATE ~30 onto one Knight** — enough to
+**kill a healthy Castellan (28W) or Crusader (26W)** in a turn if all three ranged legs converge. It's a real
+**one-Knight-per-turn pick** (and one-shots any Armiger). Durability doesn't save the Oathed target. (2)
+**Win by BREAKING the convergence:** kill a leg (Land Speeders first — Oath ~doubles them to ~11/15 and
+they're mobile; then cyclones), stay **>9" from Speeder drops** (kills their melta bonus), and use terrain so
+cyclones + Sternguard can't all see the Oathed target. Removing any leg drops the alpha below a Castellan's
+wounds. (3) **Bait the Oath** onto an Armiger or an already-hurt Knight, not the Castellan. (4) The **melee
+brick does ~49 Oathed — one-rounds anything** → never feed it a premium Knight.
 
 ## Four hard rules (from the real 11E rules)
-1. **NEVER melee the hammers with a premium Knight.** TH/SS + Fist of Dorn are **Dev Wounds** — ~38 in a
-   round (Oathed), one-rounds ANY of my Knights (even the Lancer's 4++). Pin/screen the brick only with
-   **expendable Armigers** (one to eat a round), never a big Knight.
-2. **Break his Oath convergence — kill the Land Speeders first.** His way to drop a big Knight is Oath +
-   cyclones + Speeders + Sternguard all on one target (~28 → brackets a Castellan, kills the Crusader).
-   Remove any leg and the alpha falls well below a Castellan's wounds. **Land Speeders are the priority**
-   (Oath ~doubles them to ~10, and 14.5 = a one-shot on an Armiger; they're the mobile leg), then the cyclone
-   Terminators. Delete the Sternguard T1 only if he deploys them (Avenger+Helverin+plasma = ~7 dead);
-   reserved, they're just a chipper.
+1. **NEVER melee the hammers with a premium Knight.** TH/SS + Fist of Dorn are **Dev Wounds** — ~49 in a
+   round (Oathed, full Wrath re-roll), one-rounds ANY of my Knights (even the Lancer's 4++). Pin/screen the
+   brick only with **expendable Armigers** (one to eat a round), never a big Knight.
+2. **Break his Oath convergence — kill the Land Speeders first.** His way to drop a big Knight is Oath (re-roll
+   Hits + +1 Wound) + cyclones + Speeders + Sternguard all on one target (~30 → **kills a healthy Castellan
+   or Crusader**). Remove any leg and the alpha falls below a Castellan's wounds. **Land Speeders are the
+   priority** (Oath ~doubles them to ~11, and 15.3 = a one-shot on an Armiger; they're the mobile leg), then
+   the cyclone Terminators. Delete the Sternguard T1 only if he deploys them (Avenger+Helverin+plasma = ~7
+   dead); reserved, they're just a chipper.
 3. **Bait the Oath + protect the Armigers, but accept Armigers trade.** Every turn his Oath+alpha lands on a
    140-pt Armiger (or an already-hurt Knight) instead of the Castellan, I win the exchange — so present the
    *affordable* target as the tempting one. Meanwhile Armigers are **glass to his ranged** (cyclones/close
@@ -117,7 +118,7 @@ Immo twin-MM (cover-strip'd) into the TH/SS brick — ~6-8 Terminators over T1-2
 → eats the Dev-Wound hammers for a round; a 140-pt trade for a 360-pt brick's turn).
 **T3-4 — score the crater.** He's bleeding Terminators and can't out-OC you; Meatgrinder rewards your
 kill-differential (dead Sternguard/Bladeguard/Terminators + his home). Expect him to Oath-focus **one**
-Knight per turn (~28 if his legs converge — brackets a Castellan, kills the Crusader) — accept ~one loss/turn max, and make it the *cheapest* Knight in
+Knight per turn (~30 if his legs converge — enough to kill a healthy Castellan/Crusader) — accept ~one loss/turn max, and make it the *cheapest* Knight in
 the Oath by then (bait with an Armiger, break LOS with the Castellan). If you killed the Speeders/cyclones
 early, his alpha can't reach a healthy Knight at all. Keep feeding cheap Armigers to pin the brick near your
 scoring; Lancer takes his home.
@@ -125,17 +126,18 @@ scoring; Lancer takes his home.
 
 ## Watch-outs
 - **Oath of Moment (his army rule) is the engine of the whole threat.** Each Command phase he names one of
-  my units; his **entire army re-rolls Hit rolls** against it, and **Wrath of Dorn** stacks **re-roll
-  Wounds** vs that same target (Lysander's unit re-rolls wounds in full anyway). It's what turns ~9-dmg
-  Speeders (4.6→10.2 into a big Knight) and lets him assemble a ~28-dmg alpha on one Knight. Watch which unit he Oaths in his
-  Command phase — that names his kill target for the turn. **Counter-play:** the Oath is one unit/turn, so
-  spread; bait it onto something cheap; and if he Oaths a Knight, that's the one to pull back / break LOS /
-  keep >9" from his melta this turn.
+  my units; his **entire army re-rolls Hit rolls AND gets +1 to Wound** against it (the +1 because he's
+  mono-Codex Imperial Fists), and **Wrath of Dorn** stacks **re-roll a Wound-of-1** army-wide (full wound
+  re-roll for Lysander's melee unit). It's what turns ~4.6-dmg Speeders into ~10.7 and lets him assemble a
+  ~30-dmg alpha on one Knight (enough to kill a healthy Castellan). Watch which unit he Oaths in his Command
+  phase — that names his kill target for the turn. **Counter-play:** the Oath is one unit/turn, so spread;
+  bait it onto something cheap; and if he Oaths a Knight, that's the one to pull back / break LOS / keep >9"
+  from his melta this turn.
 - **His Discipline is a per-round choice:** teleport turn (Telekinesis) = he gives up Divination re-rolls
   and Biomancy speed that round — punish the trade. Telekinesis also gives his psyker units **−1 S to be
   wounded** — so on that turn your S9 melta wounds his terminators on 3+ still (unchanged), fine.
 - **Sternguard Dev-Wound math (revised down):** vs a big Knight they only wound on 6s — but each 6 is an
-  **unsaveable Dev Wound, ~5–7/turn.** That won't drop a healthy Knight, but it **finishes a bracketed one**
+  **unsaveable Dev Wound, ~4/turn (~8 Oathed).** That won't drop a healthy Knight on its own, but it **finishes a bracketed one**
   and shreds my Sisters/characters (Precision). Don't leave a *degraded* Knight or a lone character in their
   teleport arc. Their **teleport turn is their weakest** (no Heavy, no offense Discipline) — the danger turn
   is the one *after* they land, once they're stationary and the Conclave switches to Divination/Pyromancy.
@@ -147,13 +149,13 @@ scoring; Lancer takes his home.
   dome force the drop far from your scoring; then it still has to *walk/charge* in — kite it.
 
 ## The five reminders (table card)
-1. **Watch his Oath every Command phase — that's his kill target.** Oath (re-roll Hits, whole army) + Wrath
-   of Dorn (re-roll Wounds) lets him focus ~28 dmg on ONE Knight = brackets a Castellan, kills the Crusader.
-   **Break the convergence; don't tank it.**
+1. **Watch his Oath every Command phase — that's his kill target.** Oath (re-roll Hits + **+1 Wound**, whole
+   army) + Wrath of Dorn (re-roll Wound-of-1) lets him focus ~30 dmg on ONE Knight = **kills a healthy
+   Castellan or Crusader.** **Break the convergence; don't tank it.**
 2. **Kill order: Land Speeders > cyclone Termies > Sternguard.** Speeders are the mobile leg Oath doubles
-   (~10 into a Knight, 14.5 = one-shot an Armiger); remove any leg and his alpha drops well below a
-   Castellan's wounds. Sternguard = a ~7 unsaveable chipper.
-3. **NEVER melee the hammers with a big Knight** (Dev-Wound TH/SS + Fist of Dorn = ~38 Oathed, one-rounds all) —
+   (~11 into a Knight, 15.3 = one-shot an Armiger); remove any leg and his alpha drops below a Castellan's
+   wounds. Sternguard = an ~8 unsaveable chipper.
+3. **NEVER melee the hammers with a big Knight** (Dev-Wound TH/SS + Fist of Dorn = ~49 Oathed, one-rounds all) —
    pin with Armigers; **and keep Armigers out of cyclone LOS / <9" of Speeder drops** (they're glass).
 4. **Navigator dome is the linchpin** — it denies Sternguard teleport, Land Speeder melta drops, AND both
    Teleport-Homer jumps. Keep it over your scoring.
