@@ -13,6 +13,16 @@ building and guide practice. Python, plain-YAML data, stdlib CLI
 
 ## ⚠⚠ DATA-SOURCING PROTOCOL — 11E ONLY (user law, 2026-07-24). READ FIRST, EVERY SESSION. ⚠⚠
 **This game is 11th EDITION. 10E is DEAD. Do not use 10E links, files, or memory — ever.**
+
+**★★ DETACHMENT POINTS (11E core mechanic, user-confirmed 2026-07-25) — I had a 10E-brain "ONE detachment"
+assumption; WRONG. You take AS MANY detachments as your DP budget allows. A 2000-pt (Strike Force) game =
+3 DP. Each detachment has a DP cost (from the MFM): e.g. Emperor's Shield 2DP, Librarius Conclave 1DP.
+A list can stack several (his Great Value = Emperor's Shield 2 + Librarius Conclave 1 = 3DP), and the rules,
+enhancements, AND stratagems of EVERY detachment taken apply to every model they can legally apply to — so
+buffs from different detachments STACK. This applies to MY armies too (Knights get 3DP at 2000 → stack IK
+detachments up to 3DP). ALWAYS check DP cost per detachment (MFM) + the game-size DP budget when list-building
+or reading an opponent's list. This is THE enabler of the "tapestry" (Rule 8) — multi-detachment buff-stacking.**
+
 1. **FORGET all 10E links + knowledge.** If a fact "feels" remembered, it's 10E-suspect → verify or discard.
    Tainted 10E scratchpad files from earlier (DO NOT USE): sm.json, orks.json, necrons.json, da.json, sal.json,
    the first if.cat/if.json (all from BSData/wh40k-10e). Clean 11e: sm11.json, if11.json (from wh40k-11e).
@@ -300,6 +310,38 @@ Champions 1/T&H). Rules STACK army-wide.
   1 target/turn → counter = SPREAD + BAIT the Oath onto something cheap + break the convergence (kill/deny a
   leg). Concrete instance of Rule 8 (force-multipliers). MY Knights have NO equivalent army-wide re-roll —
   a real asymmetry to respect vs all Astartes. [Missed the +1-Wound on first pass; user caught it.]
+
+- **LSO v2 — FULL-TAPESTRY REBUILD + WHOLE-GAME SIM (2026-07-25).** After a deep re-read of every unit +
+  BOTH his detachments, the picture got much richer (Rule 8 in full). His GREAT VALUE tapestry — layers I'd
+  missed: (a) **Emperor's Shield STRATAGEMS**: Armour of Contempt (−1 AP def), Fury of the First (+1 Hit,+1
+  Wound-if-below-strength — stacks on Oath), Disciplined Extermination (+1 AP+Ignore Cover), Obdurate Vengeance
+  (fight-on-death), **Dropship Extraction** (bail ANY Terminator unit to reserves — 2nd teleport engine, no
+  Telekinesis needed), Wrathful Conquerors (sticky obj); (b) **Librarius Conclave** = pick ONE Discipline/
+  battle-round, ALL his ADEPTUS ASTARTES PSYKER units get it (only his 2 Librarian-led units = Sternguard +
+  cyclone Termies; the TH/SS brick has NO psyker → no discipline). Disciplines: Biomancy +2"M / Divination
+  rr-1s hit&wound / Pyromancy +1AP+Sustained(w/Fusillade) / Telekinesis Deep-Strike-enable+−1S-def /
+  Telepathy ignore-hit-mods. Temporal Corridor (Sternguard Librarian): DS if Telekinesis + bail-to-reserves
+  if unengaged at end of MY Fight. Fusillade (cyclone-Termie Librarian): Lethal Hits +Sustained-if-Pyromancy;
+  (c) **UNIT Oath-synergies**: Sternguard "Sternguard Focus" = FULL wound-reroll vs Oath; cyclone Termies
+  "Fury of the First" = **+1 Hit vs Oath (datasheet)**; Terminatus Assault = Battle-shock on engage; (d)
+  **Lysander**: Icon of Obstinacy (his UNIT −1 to wound when S≥T5 — big def layer on the brick), Rampart (2+
+  inv once), **Inspiring Commander → his Terminators are OC2 = each 10-brick is OC20** (NOT low-OC!), Fist of
+  Dorn S10 AP-3 D3 A5 Dev; (e) Bladeguard Malodraxian Standard (−1 to wound when S>T4); (f) **Land Speeders
+  have NO innate Deep Strike** (BSData) → Strategic Reserves/board-edge only (flag to user; he said "deep
+  strike"). Full-stack alpha into an Oathed Castellan ≈ **34** (~10 of it UNSAVEABLE Sternguard Dev), kills it.
+  MY REBUILD — **examples/knights-vs-greatvalue.yaml v2 = FREEBLADE COMPANY (3DP), disposition Priority
+  Assets** (NOT Purge — his OC20 bricks make a kill-race dumb; I out-HOLD with speed+spread). Freeblade
+  "Knights of Legend" = **FNP 6+ army-wide + regain 1W/Command phase** — the ONLY tech that touches his
+  unsaveable Dev Wounds (invulns/Rotate don't). Roster: Crusader[Hunter's Eye=Ignores Cover, Avenger deletes
+  Sternguard], Castellan[Sanctuary=full 5++, Volcano one-shots Speeders], Cerastus Lancer[4++ full/M14, hunts
+  Speeders+dives home], 2 Warglaive (screen/pin/BAIT the Oath), Helverin, + Navigator dome + BS(OC10 home) +
+  Immolator(twin-MM+cover-strip). KEY PLAN: kill Sternguard T1 (→ his T2 alpha drops ~34→~14, Castellan
+  survives), FNP soaks the rest, NEVER melee the brick (feed it Armigers), out-hold objectives, steal his home
+  R5 for +10 (Vital Link). MISSION: my Priority Assets vs his Purge → I play **Vital Link** (hold obj + 10 for
+  his home), he plays **Destroyer's Wrath** (3VP/kill + 6VP more-objectives). WHOLE-GAME SIM written to
+  **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) — 5 rounds
+  phase-by-phase, ~55/45 Knights. Verdict: winnable via SEQUENCING (kill soft leg first) + never-feed-brick +
+  out-hold, not dice.
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/

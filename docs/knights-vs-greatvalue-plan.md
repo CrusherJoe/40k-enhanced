@@ -1,8 +1,18 @@
-# Battle plan — Knights vs "Great Value" (Emperor's Shield Imperial Fists)
+# Battle plan — Knights vs "Great Value" (Emperor's Shield + Librarius Conclave Imperial Fists)
 
-Practice game for the LSO. All data verified 11E (BSData/wh40k-11e + SM Faction Pack v1.1).
-List: `examples/knights-vs-greatvalue.yaml` (Valourstrike + Dominus, **Purge the Foe**).
-Vs his Purge → you play **Meatgrinder** (kill-differential + hold + his home).
+> **⚠ SUPERSEDED IN PLACES BY THE v2 REBUILD (2026-07-25).** After a full re-read of every unit + BOTH his
+> detachments (Emperor's Shield 2DP **+** Librarius Conclave 1DP — 11E lets you stack detachments up to your
+> DP budget; 2000pts = 3DP), the list + disposition changed. **Current list:** `examples/knights-vs-greatvalue.yaml`
+> = **Freeblade Company (3DP), Priority Assets** (FNP 6+ army-wide is the only tech vs his unsaveable Sternguard
+> Dev Wounds; I out-HOLD rather than out-kill). **Full turn-by-turn game:**
+> `docs/Great-Value-vs-Knights-Full-Game-Simulation.docx`. Newly-found layers this doc predates: his
+> **Emperor's Shield stratagems** (Armour of Contempt, Fury of the First, Disciplined Extermination, Dropship
+> Extraction), **unit Oath-synergies** (Sternguard = FULL wound-reroll vs Oath; cyclone Termies = +1 Hit vs
+> Oath), **Lysander** (Icon of Obstinacy −1-to-wound the brick; Inspiring Commander → his Terminators are
+> **OC20**), Bladeguard Malodraxian −1-to-wound. The threat-ranking + "never melee the brick / kill the soft
+> legs / bait the Oath / Navigator dome" logic below still holds; the numbers are the older (partial-stack) pass.
+
+Practice game for the LSO. Core data verified 11E (BSData/wh40k-11e + SM Faction Pack v1.1).
 
 ## What he is (and the ONE thing that beats him)
 **~155 wounds of 2+/4++** — 10 TH/SS Terminators (T5 W4) + 10 Terminators (T5 W3) + Lysander (T5 W7)
