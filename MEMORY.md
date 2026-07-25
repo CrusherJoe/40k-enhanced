@@ -268,11 +268,16 @@ Champions 1/T&H). Rules STACK army-wide.
   invuln) — pin with expendable Armigers. Both Termie units place Teleport Homers at start → screen mid-board.
   Immolator Purge&Cleanse + BS OC10 half hold home under the dome.
   **★ OATH OF MOMENT is the engine (see SM-RULES note below):** with Oath (re-roll HITS army-wide vs 1 unit)
-  + Wrath of Dorn (re-roll WOUNDS vs same) modeled, his numbers into the OATHED Knight jump — Speeders 9→17,
-  cyclones 13→16 — and **ALL his ranged focused on ONE Oathed Knight = ~40 dmg = KILLS a healthy Castellan
-  (28W)/Crusader (26W) in a turn.** So durability alone does NOT save a Knight; **WIN BY BREAKING THE
-  CONVERGENCE, not tanking it.** KILL ORDER: **Land Speeders FIRST** (Oath ~doubles them to 17-24, mobile
-  leg), then cyclone Termies, then Sternguard — remove any leg and the alpha falls under a Castellan's W.
+  + Wrath of Dorn (re-roll WOUNDS vs same) modeled, his numbers into the OATHED Knight ~double — Speeders
+  4.6→10.2, cyclone unit 6.4→10.5 into a big Knight — and **ALL his ranged focused on ONE Oathed Knight =
+  ~28 dmg → BRACKETS a T13 Castellan (28W, survives on a sliver avg) and KILLS the T11 Crusader (26W) in a
+  turn** (Armiger 14.5+ = one-shot). [CORRECTED a 2× harness bug: I'd multiplied the A2 cyclone/multi-melta
+  weapon by SHOT count (4) instead of WEAPON count (2 launchers / 2 MMs) → had doubled both to ~40 alpha; the
+  user caught it ("only 2 cyclones in the list"). Real alpha ~28, not ~40.] So durability (esp. Blessed-Plate
+  Castellan) helps but doesn't save a Knight from the full alpha; **WIN BY BREAKING THE CONVERGENCE, not
+  tanking it.** KILL ORDER: **Land Speeders FIRST** (Oath ~doubles them, one-shot Armigers, mobile leg), then
+  cyclone Termies, then Sternguard — remove any leg and the alpha falls well under a Castellan's W. NOTE the
+  melee brick with Oath (rr hits+wounds) = ~38, one-rounds ANY Knight (up from my earlier ~28 no-Oath figure).
   BAIT the Oath onto a cheap Armiger / already-hurt Knight (it's 1 target/turn). Armigers are GLASS to his
   ranged (cyclones/close Speeders one-shot one) → pin/screen/bait trades, not gun platforms; keep them out
   of cyclone LOS / >9" from Speeder drops. My initial errors (all corrected): mislabeled Sternguard as
