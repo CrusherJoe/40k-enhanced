@@ -42,6 +42,24 @@ everywhere** on GW/tournament layouts. COVER = −1 to hit, RANGED ONLY (models 
 too but it does NOTHING vs melee). Always model cover in BOTH directions when analysing a matchup. (LSO uses GW
 terrain layouts closely; I have the maps+legends; sightlines are not an issue for a back-line gunline.)
 
+**★ COMMAND POINTS + RESERVES/DEEP STRIKE (11E core, verified 08.02/15.07/20.x/24.09 + user-taught 2026-07-26).**
+CP: **Both players gain 1 CP in the Gain Core CP step of EVERY Command phase — own AND opponent's — so each
+player nets ~2 CP/battle round (~10/game)**, banking CP even on the other's turn (reactive stratagems). I'd
+been under-counting at ~1/round. Spend only on Stratagems (0-3 CP); a stratagem can't be used twice in the
+same phase, and one unit can't be targeted by two stratagems in a phase (unless stated). RESERVES: Strategic
+Reserves (≤50% army pts) arrive from ROUND 2, ingress within 6" of a battlefield edge, NOT in opponent's DZ
+before round 3, un-arrived destroyed end of round 3. **DEEP STRIKE (24.09):** if every model has it, ingress
+ANYWHERE (even in opponent's DZ), set up >8" from all enemies. **RAPID INGRESS (15.07, core, 1CP):** ingress
+one reserve unit at END OF OPPONENT'S MOVEMENT PHASE (reactive). **⚠ THE OPERATIVE NUMBER IS THE CHARGE: a
+same-turn charge out of Deep Strike / Rapid Ingress needs 2D6 ≥ 9 (~28%)** — raw set-up text reads 8" but a
+unit ~8" out needs a 9 to reach Engagement Range, so DS/ingress arrivals USUALLY CANNOT CHARGE ON ARRIVAL
+(they threaten NEXT turn). Anti-DS bubbles (Navigator Gaze ≤12") push drops back further. **"40k is won/lost
+in the Movement phase"** (user, from better players): win it by DENYING enemy reserve landings (dome +
+screening: every drop must be >8-9" from ALL my models) + KITING slow bricks + OUT-RACING to objectives —
+then the enemy's Shooting/Fight phases go impotent. His Great Value is a movement-phase list (Teleport Homers
+= 0CP Rapid Ingress, Temporal Corridor/Dropship Extraction reserve-bails, Deep Strike Speeders); my standoff
+is the movement-phase answer.
+
 1. **FORGET all 10E links + knowledge.** If a fact "feels" remembered, it's 10E-suspect → verify or discard.
    Tainted 10E scratchpad files from earlier (DO NOT USE): sm.json, orks.json, necrons.json, da.json, sal.json,
    the first if.cat/if.json (all from BSData/wh40k-10e). Clean 11e: sm11.json, if11.json (from wh40k-11e).
@@ -352,8 +370,9 @@ Champions 1/T&H). Rules STACK army-wide.
   objective up close (markers sit in terrain = getting a Knight in OC range = in its ~50-dmg charge range =
   dead Knight; FNP 6+ ~1/6 does NOT save a Knight from ~50 melee). Fist of
   Dorn S10 AP-3 D3 A5 Dev; (e) Bladeguard Malodraxian Standard (−1 to wound when S>T4); (f) **Land Speeders
-  have NO innate Deep Strike** (BSData) → Strategic Reserves/board-edge only (flag to user; he said "deep
-  strike"). Full-stack alpha into an Oathed Castellan ≈ **34** (~10 of it UNSAVEABLE Sternguard Dev), kills it.
+  HAVE Deep Strike** (user-confirmed 2026-07-26 — my BSData pull missed it; CORRECTED) → ingress anywhere >8"
+  from me, but >8" = outside multi-melta half-range (no Melta bonus on arrival) + my 12" dome pushes them back
+  + Volcanoes one-shot them. Full-stack alpha into an Oathed Castellan ≈ **34** (~10 of it UNSAVEABLE Sternguard Dev), kills it.
   MY LIST v3 (user picked "big-gun standoff", disposition Priority Assets — v2 Freeblade/FNP was REJECTED by
   user: FNP is wrong axis, and durability/proximity is a losing game) — **examples/knights-vs-greatvalue.yaml =
   Valourstrike Lance (2DP) + Dominus Foebreakers (1DP), disposition Priority Assets.** Dominus Foebreakers

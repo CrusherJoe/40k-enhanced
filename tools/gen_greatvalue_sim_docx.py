@@ -120,7 +120,7 @@ table(["Unit (attached)", "Key profile", "The threads that matter"],
   "PSYKER. Fusillade (Lethal Hits). Fury of the First (+1 Hit vs Oath). The real ranged Knight-threat — but M5. Kill it after the Speeders."],
  ["2× Vanguard Vets (Jump, 5 ea)", "T4 W2 3+/4++, M12", "Vanguard Assault (Lethal on charge). Fast harassers / soft scorers to shoot off."],
  ["Intercessors (5)", "T4 W2 3+, OC2", "Sticky home. The unit sitting on the home I want to steal."],
- ["2× Land Speeder", "T8 W9 3+, M14", "Multi-melta S9 AP-4 D6 Melta2 + stormfury. Arrives from Strategic Reserve (no innate Deep Strike). Volcano one-shots each — KILL on arrival."]],
+ ["2× Land Speeder", "T8 W9 3+, M14, DEEP STRIKE", "Multi-melta S9 AP-4 D6 Melta2 + stormfury. Deep Strikes anywhere >8\" from me (even my DZ) — but >8\" is outside melta half-range (9\"), so NO Melta bonus on the arrival turn, and my dome pushes it back. Volcano one-shots each — KILL on arrival."]],
 widths=[2.0, 2.1, 3.1])
 P("His engine: Oath of Moment", bold=True, color=FIST)
 P("Each Command phase he Oaths one of my units → his whole army re-rolls Hits AND +1 to Wound vs it, layered "
@@ -222,7 +222,7 @@ rich([("My deployment: ", {"bold":True,"color":STEEL}),
 rich([("His deployment: ", {"bold":True,"color":FIST}),
       ("TH/SS brick centre-front; Bladeguard near C; Sternguard mid with firing lines (exposed — they must see to "
        "shoot); one Vanguard each flank; Intercessors on home A. IN RESERVE: cyclone Terminators (Deep Strike to a "
-       "Teleport Homer) and both Land Speeders (Strategic Reserve). Two Homer tokens placed mid-board, outside my "
+       "Teleport Homer) and both Land Speeders (they have DEEP STRIKE). Two Homer tokens placed mid-board, outside my "
        "dome.", {})])
 P("CP: 0 to start, +1 each Command phase. Secondaries: both Tactical. His danger picks — Bring It Down (my "
   "Knights are Vehicles) and Assassination (they’re Characters); but a standoff that loses few models starves both.", size=9, color=GREY)
@@ -243,6 +243,44 @@ bullet("HIS fire into my covered Knights: my gunline deploys IN terrain, so his 
   "the brick never reaches the gunline.")
 P("Net: cover is a slight EDGE to me — I have better cover-mitigation (two always-on cover-punchers + a strip) "
   "than his one Ignore-Cover stratagem per turn, and it makes my back-line Knights even harder to shoot.", size=10)
+
+H("3. Command Points & the Movement Phase — where the game is decided", 1)
+P("Command Points (the currency).", bold=True, color=STEEL)
+P("Both players gain 1 CP in the Gain Core CP step (08.02) of EVERY Command phase — mine and his — so each of "
+  "us nets ~2 CP per battle round (~10 across the game), banking CP even on the other’s turn for reactive plays. "
+  "CP is spent only on Stratagems (0–3 CP). Two hard limits (15): a stratagem can’t be used twice in the same "
+  "phase, and one unit can’t be targeted by two stratagems in a phase (unless stated). So neither of us does "
+  "everything — CP is a budget.", size=10)
+table(["His CP sinks (~2/round)", "My CP sinks (~2/round)"],
+[["Rapid Ingress (1 CP — but 0 CP via a Teleport Homer, freeing CP to also buff)", "Rotate Ion Shields (the Oathed Knight → 4++) — my priority his alpha turn"],
+ ["Fury of the First (+1 Hit/+1 Wound) · Disciplined Extermination (+1 AP, Ignore Cover)", "Valourstrike: Thunderstomp · Full Tilt (Advance+charge) · Tactical Foil · Vow of Retribution"],
+ ["Armour of Contempt (−1 AP, defensive) · Dropship Extraction (bail Termies)", "Command Re-roll (clutch saves/wounds)"]],
+widths=[3.5, 3.5])
+P("The wisdom that decides it: “40k is won and lost in the Movement phase.”", bold=True, color=STEEL)
+P("His whole list is a MOVEMENT-PHASE list — its threat is arrival + the charge, not raw guns. His toolkit "
+  "(Core Rules 15.07 / 20.x / 24.09):", size=10)
+bullet("Teleport Homers (both Terminator squads): token placed pre-battle; the unit uses Rapid Ingress for "
+  "0 CP to arrive within 3\" of it — a reactive mid-board brick drop on either turn.")
+bullet("Temporal Corridor (Sternguard) + Dropship Extraction (any Terminator unit): bail to Strategic Reserves "
+  "at end of my Fight phase IF UNENGAGED, then re-ingress (repositioned units keep their buffs, dodge the "
+  "round-3 destruction).")
+bullet("Land Speeders: they have DEEP STRIKE — ingress anywhere (even in my DZ) >8\" from my models. But >8\" "
+  "is outside multi-melta half-range, so NO Melta bonus on the arrival turn, and the 12\" dome pushes them back.")
+P("★ The rule that defangs all of it: a unit arriving from Deep Strike OR Rapid Ingress is placed far enough "
+  "that a SAME-TURN CHARGE needs 2D6 ≥ 9 — a ~28% roll. So even a brick that drops right next to me usually "
+  "CANNOT charge on arrival; it stands there and eats a full turn of my shooting (or I simply kite away). His "
+  "reactive drops are a threat NEXT turn, and my dome + screening make sure ‘next turn’ never comes cleanly.", size=10, color=STEEL)
+P("My answer is the whole plan, and it lives in the Movement phase:", size=10)
+bullet("Navigator’s 12\" dome: no enemy set-up within 12\" (bigger than the 9\" standard) — the anti-arrival "
+  "linchpin over my scoring corner.")
+bullet("Screening geometry: every drop must be >9\" from ALL my models, so spread bodies + the dome turn huge "
+  "areas into no-drop zones. THIS is the movement-phase battle — I position to deny his reserves a landing.")
+bullet("Kiting his M5 bricks with Advance-and-still-shoot (Valourstrike) — I reposition the gunline out of his "
+  "reach without surrendering a turn of fire.")
+bullet("Out-racing to the objectives + his home with M12 Armigers his wall can’t follow — and I can hold an "
+  "Armiger in Strategic Reserves to ingress onto his home late for Forward Position / Behind Enemy Lines.")
+P("Win the Movement phase and his Shooting/Fight phases go impotent: arrivals denied, bricks never connecting, "
+  "me already on the objectives. That is the game.", bold=True, color=STEEL)
 
 # ===================================================== ROUND 1
 H("Battle Round 1", 1)
@@ -292,7 +330,7 @@ turnhead("▶ His Turn 2 — THE alpha", FIST)
 phase("Command.", "Gain 1 CP (~3). Oath: my nearer Castellan. Discipline: Divination (re-roll 1s) to sharpen the drop.")
 phase("Movement / Reserves.", "Cyclone Terminators Deep Strike to the Homer near E — >9” from my models and "
   "OUTSIDE the Navigator dome (which covers my corner + centre-left), so they land off my right at ~9” from the "
-  "Crusader. Both Land Speeders arrive from Strategic Reserve on his right edge, 14” up (still >9”, no Melta bonus). "
+  "Crusader. Both Land Speeders DEEP STRIKE in — but the dome + my spacing force them >9” from my Knights, so no Melta bonus this turn. "
   "Brick keeps grinding to C.")
 phase("Shooting — the converged alpha into the Oathed Castellan.", "I spend 1 CP on ROTATE ION SHIELDS → that "
   "Castellan is 4++ this turn. Cyclone Terminators (Fury +1 Hit, Oath, Fusillade Lethal, Divination) ≈ 9; Land "

@@ -42,11 +42,17 @@ Each unit picks one move type:
   ≥1 other model in the unit, and within **9"/5"** of every other model.
 - **Engagement Range:** a model within **1" horizontally and 5" vertically** of an
   enemy model — those units are **engaged**.
-- **Strategic Reserves (20.01):** units set aside at Declare Battle Formations,
-  arriving from later battle rounds via an **ingress move (20.04)** from a
-  battlefield edge. **Deep Strike (24.09):** a reserves unit whose every model has
-  it can be set up anywhere **>9"** horizontally from all enemy units (PDF says
-  ">8"" pre-round; treat as the standard 9" for placement — confirm per mission).
+- **Strategic Reserves (20.01–04):** units set aside at Declare Battle Formations (≤50% of army pts);
+  arrive **from battle round 2** via an **ingress move (20.04)** — wholly within **6" of a battlefield edge**,
+  and (before round 3) **not in the opponent's deployment zone**; un-arrived reserves are **destroyed end of
+  round 3**. **Rapid Ingress (15.07, core, 1CP):** ingress one reserve unit at the **end of the opponent's
+  Movement phase** (reactive). **Deep Strike (24.09):** if every model has it, the unit can ingress
+  **ANYWHERE** on the battlefield (not just an edge, **even inside the opponent's DZ**), set up **>8"
+  horizontally** from all enemy units. **⚠ The operative number is the CHARGE: a same-turn charge out of Deep
+  Strike / Rapid Ingress needs 2D6 ≥ 9 (~28%)** (user-taught 2026-07-26) — the raw set-up text reads 8", but a
+  unit placed just over 8" away needs a 9 to reach Engagement Range, so DS/ingress arrivals usually **cannot
+  charge on arrival**. An anti-DS bubble (Navigator Gaze, ≤12" — bigger than the 8" arrival distance) pushes
+  their drop back further.
 
 ## Shooting phase (04, 10)
 
