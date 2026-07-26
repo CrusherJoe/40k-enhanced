@@ -30,12 +30,12 @@ LIST_RATIONALE = (
 )
 # (unit, count, wargear, ~pts, role)
 LIST_UNITS = [
-    ("Knight Castellan", 2, "Volcano lance, plasma decimator, 2x twin meltagun, 2x shieldbreaker, twin siegebreaker, feet",
-     "435 ea", "The shooting core. 2x Volcano one-shots no-invuln anchors + snipes characters @60\"; plasma anti-elite; +1 hit vs terrain (Dominus)."),
-    ("Knight Crusader", 1, "Rapid-fire battle cannon, Avenger gatling cannon, heavy flamer, thermal cannon, 2x stubber, feet",
-     "~435", "Anti-infantry SUBTRACTION: RFBC (D6+3) + Avenger A18 strip soft OC; thermal for anti-tank/Speeders."),
-    ("Cerastus Knight Lancer", 1, "Cerastus shock lance (strike S20 AP-3 D8 [Lance] / sweep A10 S10 AP-2 D3), ranged shock lance",
-     "~415", "The one blade: 4++ FULL invuln, M14. Counter-charge melee threats + assassinate buff-characters + free Crushing Impact MW on the charge."),
+    ("Knight Castellan", 2, "Volcano lance (D3 shots S18 AP-5 D6+8), plasma decimator (D6+3 shots), 2x twin meltagun, 2x shieldbreaker, twin siegebreaker, feet",
+     "400 ea", "The shooting core. 2x Volcano (D3 shots ea, ~23 dmg) one-shots no-invuln anchors + snipes characters; plasma decimator anti-elite volume; +1 hit vs terrain (Dominus)."),
+    ("Knight Crusader", 1, "Rapid-fire battle cannon (D6+3 S10), Avenger gatling (A18 S6 AP-2 D2), heavy flamer, thermal cannon (2D3 S12 AP-4 Melta6), stubber, feet",
+     "395", "Anti-infantry SUBTRACTION: RFBC + Avenger A18 strip soft OC; thermal for anti-tank/Speeders."),
+    ("Cerastus Knight Lancer", 1, "Shock lance — strike 5A S20 AP-3 D8 [Lance] / sweep 10A S10 AP-2 D3; ranged shock lance 12\" 6A [Assault, Sus2]",
+     "415", "The one blade: 4++ FULL invuln vs ALL, M14 W28. Counter-charge + assassinate buff-characters + Shock-Charge free Tank Shock on the charge."),
     ("Armiger Helverin", 1, "2x Armiger autocannon (48\" A4 S9 AP-1 D3), heavy stubber", "140",
      "Backfield 48\" autocannons + cheap OC6 body / screen."),
     ("Navigator (Agents ally)", 1, "Gaze of the Empyrean", "~75",
@@ -57,10 +57,10 @@ LIST_TOTAL = ("As written ~1825-1915 / 2000 with NO enhancements = the one concr
 # ---- KEY RULES / CHEAT-SHEET ----------------------------------------------------
 RULES = [
     ("Ion Shield", "5++ invuln vs SHOOTING ONLY (ranged). Does NOTHING in melee."),
-    ("Rotate Ion Shields", "Valourstrike stratagem, once per phase -> upgrade ONE Knight to 4++ vs shooting each turn. Only one protected per shooting phase."),
-    ("Questoris melee", "NO melee invuln — bare 3+ armour in the fight phase. Melee is the universal Knight weakness."),
-    ("Cerastus Lancer", "4++ FULL invuln (melee AND ranged), M14. Strike S20 AP-3 D8 [Lance]; free Crushing Impact on charge (D6=T11, each 5+ = 1 MW, bypasses invuln). The universal counter-charge + character-assassin."),
-    ("Volcano lance", "S18 AP-5 D6+8 — one-shots no-invuln anchors (Hammerheads, Land Raiders, Kataphrons, Monoliths, no-invuln Norns). Wasted (overkill) into low-W chaff."),
+    ("Rotate Ion Shields", "The durability lever: upgrade ONE Knight to 4++ vs shooting each turn. [VERIFY exact Valourstrike stratagem name/wording vs the LIVE faction pack — the 11E datasheet Ion Shield is the printed '5+* vs ranged only'; confirm the detachment grants the per-turn 4++.]"),
+    ("Questoris/Dominus melee", "NO melee invuln (verified — printed 5+* is 'vs ranged attacks only') — bare 3+ armour in the fight phase. Melee is the universal Knight weakness (only the Sanctuary enhancement adds a melee 5++)."),
+    ("Cerastus Lancer", "VERIFIED 415pts, M14 T11 W28, 4++ invuln vs ALL attacks (no asterisk). Shock lance STRIKE 5A WS2+ S20 AP-3 D8 [Lance] (wounds anything <=T12 on 2s) / SWEEP 10A S10 AP-2 D3. Shock Charge = free Tank Shock (0CP, repeatable) on the charge = bonus MW. The universal counter-charge + character-assassin."),
+    ("Volcano lance", "VERIFIED 72\" D3 SHOTS (avg 2), S18 AP-5 D6+8 [Blast] — ~23 dmg/turn; one-shots no-invuln anchors (Hammerheads T10, Land Raiders T12, Kataphrons, Shadowsword, no-invuln Norns/Emissaries). Overkill into low-W chaff. The Castellan is 400pts (BSData; app may price 425 — verify vs live MFM)."),
     ("Bold Gallantry (Valourstrike)", "Any Knight Advances -> ALL Knight ranged weapons gain [ASSAULT] army-wide that turn (advance-and-shoot)."),
     ("Rain of Devastation (Dominus)", "Dominus Knights' attacks vs a unit in a terrain area get +1 to hit."),
     ("Super-Heavy Walker", "Movement-only. NO Knight falls back and shoots — an engaged Knight instead shoots OUT of combat at -1 to hit (tar-pit costs -1)."),
@@ -263,6 +263,42 @@ MATCHUPS = [
                 "PRELIMINARY — user-confident, low priority. Full pass only if it trends up."],
          kill_priority="Their gun-Knights -> War Dog packs. (Provisional.)",
          deploy="Mirror; provisional."),
+    dict(key="tau-retaliation-cadre", faction="T'au Empire", archetype="Retaliation Cadre (deep-strike fusion/rail alpha) — TOP-5 OBSERVED",
+         prev="High", verdict="UNFAVOURABLE", disp="Purge the Foe",
+         deciding="The DOMINANT T'au build in the sample (5/75). Deep-strike alpha: 4-5 Commanders + Crisis Sunforge (fusion S9 AP-4 D6), Broadside heavy rail (S12+ AP-4 Dev), Twin Lance, 2x Riptide ion accelerator, markerlight support. A markerlit 9\" Sunforge/Crisis drop dumps ~25-35 into ONE Knight (fusion D6 + rail Dev bypass the ion shield). Fire-and-Fade neuters melee.",
+         heist=["NAVIGATOR DOME IS LOAD-BEARING: the 12\" anti-Deep-Strike bubble denies the Sunforge/Crisis 9\" drop — the single biggest swing in the matchup. Deploy it central.",
+                "Kill the Broadsides + Riptides at range (Volcano/plasma) before markerlights stack; delete Pathfinders (the mark engine) with the Avenger.",
+                "Rotate the most-lit Knight each turn; never present a clean un-Rotated focus target; LoS-block the alpha turn.",
+                "Out-OC on the ground (T'au OC is modest) IF you survive the alpha — steal the primary while their suits reposition."],
+         kill_priority="Broadsides / Riptides (rail+ion) -> Sunforge fusion suits -> markerlight Pathfinders -> Commanders.",
+         deploy="Navigator dome central; reserves + terrain vs the drop; kill mark/rail platforms first."),
+    dict(key="chaos-daemons-khorne", faction="Chaos Daemons", archetype="Blood Legion — Bloodcrusher cavalry + Bloodthirster",
+         prev="Medium", verdict="COIN-FLIP", disp="Purge / Disruption",
+         deciding="Fast MELEE alpha: 3x Skullmaster + Bloodcrusher Juggernaut cav (T6 W4, charge bonuses) + Bloodthirster (T10 W18 FLY, great axe S16 AP-3 Dev) + Rendmasters. Daemonic 5++ everywhere; charges into the no-melee-invuln Questoris. (Nurgle variant = Plaguebearer grind, slower, out-hold problem not a kill problem.)",
+         heist=["Shoot the Bloodcrushers (T6 W4, no armour help — gatling/plasma/RFBC) OFF before they charge; each un-charged Juggernaut pack is ~0 threat.",
+                "Screen the Bloodthirster's lane; Lancer DUELS it (4++ trades favourably, S20 one-rounds a wounded 'Thirster) rather than eating its charge on a Castellan.",
+                "Rotate the exposed Knight vs the (modest) ranged; out-OC the cav once thinned.",
+                "vs Nurgle grind: ignore the tarpit, out-shoot Plaguebearers off objectives, win on tempo."],
+         kill_priority="Bloodthirster (or screen) -> Bloodcrushers pre-charge -> Skullmasters / Rendmasters.",
+         deploy="Layer chaff/Armiger vs the charge; keep a Lancer free to counter-punch the cav."),
+    dict(key="astra-militarum-superheavy", faction="Astra Militarum", archetype="Steel Hammer superheavies / Grizzled artillery — OBSERVED",
+         prev="Medium", verdict="COIN-FLIP", disp="Priority Assets",
+         deciding="A SHOOTING brawl in my lane: Baneblade/Banesword/Stormsword (CHARACTER via Steel Hammer) + lascannon sponsons, or Shadowsword (Volcano cannon S16 AP-4 D6+6 — one-shots a Knight) + 3 artillery + Leman Russ. High-S anti-Knight, but the superheavies are KILLABLE (T12-14 W22-24, no invuln) and SLOW.",
+         heist=["Win the gun duel: 2x Volcano (S18) out-ranges/out-damages their superheavies — delete the Shadowsword (the one thing that one-shots you) FIRST, then the lascannon platforms.",
+                "Rotate vs the alpha; hull-down T1; their artillery is indirect (worse into a moving Knight in cover).",
+                "Out-manoeuvre the M9-10 tanks + out-OC (Guard infantry is chaff you gun down); race the mission.",
+                "This is the matchup the 2-Castellan build is BUILT for — a straight firepower race."],
+         kill_priority="Shadowsword (Volcano cannon) -> lascannon superheavies -> artillery -> Leontus.",
+         deploy="Hull-down + Rotate T1; concentrate Volcanoes on the biggest gun each turn."),
+    dict(key="sm-iron-hands-terminators", faction="Space Marines (Iron Hands)", archetype="Hammer of Avernii — Assault Terminator hammer brick — OBSERVED",
+         prev="Medium", verdict="COIN-FLIP", disp="Purge the Foe",
+         deciding="10-model Assault Terminator thunder-hammer brick (S8 AP-2 D2, ~12-16 into a no-invuln Questoris on the charge) delivered by deep-strike + Celerity advance-charge, Feirros durability, Ballistus/Repulsor lascannon backfield. The brick is the only real Knight-killer; the rest is chaff/scorers.",
+         heist=["Screen the deep-strike (Navigator dome) + shoot the hammer brick BEFORE it lands (Avenger/RFBC into 2W-2+ Terminators — volume forces the 4++).",
+                "Lancer counter-charges the landed brick (4++ survives hammers a Castellan can't); never feed a Questoris into its charge.",
+                "Delete the Repulsor/Ballistus (lascannon) + Sternguard with the big guns; out-OC the ~30 bodies.",
+                "Win on the mission — the brick can't be everywhere; contest what it isn't on with OC10."],
+         kill_priority="Repulsor/Ballistus (lascannon) -> hammer brick as it lands -> Sternguard -> Scouts.",
+         deploy="Navigator dome vs the drop; hold the Lancer to counter-charge the brick."),
     dict(key="great-value-imperial-fists", faction="Imperial Fists", archetype="'Great Value' — Emperor's Shield + Librarius Conclave (the LSO target)",
          prev="Target", verdict="COIN-FLIP", disp="Priority Assets (opp), you play Meatgrinder",
          deciding="Unsaveable Sternguard Dev (full wound-reroll vs Oath) + sticky OC10 Intercessors + un-shockable OC22 Lysander Terminator brick + Armour of Contempt + a ~30-34 Oath-convergence alpha. Sisters 98-31 lesson: durable + sticky + volume.",
@@ -297,3 +333,195 @@ RECORD_NOTE = (
     "with only ~5 combat models — the Navigator dome is load-bearing; (4) anti-horde is moderate (accept "
     "Green Tide); (5) out-OC'd by most of the field -> lock PURGE THE FOE (kill-weighted) over Priority Assets."
 )
+
+# =================================================================================
+# LSO LIST DECISION — 2 Castellan/1 Lancer (A) vs 1 Castellan/2 Lancer (B)
+# Grounded in the listhammer TOP-FINISHING sample (n=75, all X-1-or-better across ~14
+# late-July-2026 GTs incl. the 518-player Tacoma GT + 228-player Edinburgh Major).
+# =================================================================================
+OBSERVED_META_NOTE = (
+    "n=75 top-finishing lists (every entry went X-1 or better; incl. the 8-0 Tacoma winner "
+    "and 7-0 Edinburgh Major). This is a WINNERS' meta (what beats the field), post-Dataslate, "
+    "late July 2026 — the exact filth LSO's top tables will bring. Counts are of top lists, not "
+    "raw popularity, so read them as 'what's winning', prevalence-weighted."
+)
+# (faction/archetype, count, threat-character, which-list-it-favours, one-line)
+META = [
+    ("Emperor's Children (Frenzied Host / Coterie / Court)", 9, "MELEE swarm + 1-2 Defilers (anti-tank shooting)", "EVEN",
+     "#1-tie. Lord Exultant+Infractors, Daemonettes/Tormentors, Flawless Blades, Maulerfiends + Defiler pair (ectoplasma S14 AP-3). Kill Defilers at range OR counter-charge the swarm."),
+    ("Orks (Green Tide / Dread Mob / Beast Snagga)", 9, "MELEE horde + OC-flood (some Stompa/Dakka)", "B (weak)",
+     "#1-tie AND the 8-0 Tacoma winner. ~100 Boyz + klaws out-OC/tarpit; loss either way — 2nd Lancer sweep+4++ survives it marginally better."),
+    ("Adeptus Mechanicus (Lords of the Forge / Rad-Zone / Eradication)", 6, "SHOOTING anti-tank + rad debuff", "A",
+     "Resurgent. Kataphron arc rifle (Anti-Veh 4+), Ironstrider lascannon, Skorpius ferrumite, Onager — massed anti-Knight guns. Out-shoot it."),
+    ("Space Marines (Salamanders melta / Iron Hands Terminators / Ultra)", 6, "MIXED (melta+lascannon / hammer brick)", "EVEN",
+     "Salamanders melta+Land Raiders (shoot=A); Iron Hands 10-Terminator hammer brick (counter-charge=B). Split."),
+    ("T'au Empire (Retaliation Cadre)", 5, "SHOOTING — deep-strike fusion/rail alpha", "A",
+     "Dominant T'au. Crisis Sunforge fusion + Broadside rail + 2 Riptide, markerlit 9\" drop. Out-shoot + Navigator-dome the drop."),
+    ("Necrons (Awakened C'tan / Cursed Legion Lokhust)", 4, "MIXED — gauss shooting / C'tan+Wraith melee", "A (slight)",
+     "Cursed Legion = 18 Lokhust gauss cannons (shoot them=A); Awakened = C'tan+Wraith brick (OC race)."),
+    ("Dark Angels (Deathwing bricks / Ravenwing)", 4, "MELEE 4++ bricks (3) + speed (1)", "B",
+     "3 of 4 are Deathwing Knight melee bricks (counter-charge + assassinate Librarians = B); 1 Ravenwing (shoot=A)."),
+    ("Adeptus Custodes (Lions of the Emperor / Shield Host)", 4, "MELEE elite 2+/4++", "B",
+     "~40 elite bodies. Lancer melee (S20 vs Custodes) + character assassination beat the brick; thin anti-Knight guns."),
+    ("Blood Angels (Stormlance / Rage-cursed / Angelic)", 4, "MELEE jump alpha", "B",
+     "Death Company + Sanguinary Guard + Terminators, M12 + deep-strike charge. 2 counter-charge Lancers weather + punish the alpha."),
+    ("Drukhari (Skysplinter Assault)", 3, "MELEE fast + dark-lance chip", "A",
+     "Fragile — Volcano one-shots Raiders/Ravagers; shoot the Scourges/Venoms off. 2 Castellan removal shines."),
+    ("Leagues of Votann (Hearthguard Covenant)", 3, "SHOOTING plasma bricks + rail + Beserk drop", "A",
+     "Kill the Land Fortresses (rail) at range; out-shoot the plasma bricks; screen the Cthonian Beserk maul drop."),
+    ("Chaos Space Marines (Renegade Raiders / Cabal Defiler)", 3, "MIXED — mobile raid / Defiler-spam", "EVEN",
+     "Vashtorr/Discordant assassination (Lancer=B) vs Defiler-spam (shoot=A). Balanced."),
+    ("Thousand Sons (Grand Coven / Rubricae Phalanx)", 3, "Magnus melee monster + durable Rubrics", "B (slight)",
+     "Magnus (T11 2+/4++) is the only Knight-killer — Lancer assassinates him; Rubrics can't punch Knights."),
+    ("Tyranids (Crusher Stampede / Invasion Fleet)", 3, "MELEE monsters + gun-bugs", "EVEN",
+     "Lancer S20 kills monsters in melee; Volcano one-shots no-invuln Emissaries. Slight B."),
+    ("Chaos Daemons (Khorne Bloodcrusher cav / Nurgle grind)", 3, "MELEE fast cavalry / durable grind", "B",
+     "Bloodcrusher Juggernaut cav + Bloodthirster — 2 Lancers counter-charge + duel the 'Thirster."),
+    ("Astra Militarum (Steel Hammer superheavy / Grizzled artillery)", 2, "SHOOTING high-S anti-tank", "A",
+     "Superheavies + Shadowsword volcano + lascannon. A straight gun duel the 2-Castellan build is built for."),
+    ("Long tail (Aeldari Windrider, Death Guard, Adepta Sororitas, Chaos Knights)", 4, "one each — mixed", "EVEN", "Marginal individually; spread across characters."),
+]
+
+# ---- THE TWO CANDIDATE LISTS ----------------------------------------------------
+LIST_A_NAME = "LIST A — 2 Castellan / 1 Lancer / 1 Crusader (SHOOTING-DOMINANT)"
+LIST_A_UNITS = LIST_UNITS  # (defined above) 2 Castellan + Crusader + Lancer + Helverin + Navigator
+LIST_A_IDENTITY = ("Two Volcano lances win the shooting phase outright; ONE Lancer is the single "
+                   "counter-charge/decapitation blade. Firepower-as-denial: delete their anti-Knight "
+                   "and soft OC at range before it connects. Both Castellans carry DOMINUS (so Dominus "
+                   "Foebreakers buffs TWO Knights). Pilot's strong, comfortable game plan.")
+LIST_B_NAME = "LIST B — 1 Castellan / 2 Lancer / 1 Crusader (COUNTER-PUNCH)"
+LIST_B_UNITS = [
+    ("Knight Castellan", 1, "Volcano lance, plasma decimator, 2x twin meltagun, 2x shieldbreaker, twin siegebreaker, feet",
+     "~435", "The one long-gun anchor: Volcano one-shots a no-invuln target/turn + plasma anti-elite."),
+    ("Cerastus Knight Lancer", 2, "Cerastus shock lance (strike S20 AP-3 D8 [Lance] / sweep A10 S10 AP-2 D3), ranged shock lance",
+     "~415 ea", "TWO 4++ full-invuln M14 blades — two counter-charge monsters + two character-assassins + two free Crushing-Impact charges. Cover two melee lanes."),
+    ("Knight Crusader", 1, "Rapid-fire battle cannon, Avenger gatling cannon, heavy flamer, thermal cannon, 2x stubber, feet",
+     "~435", "Anti-infantry SUBTRACTION + thermal anti-tank — the shooting the single Castellan can't cover alone."),
+    ("Armiger Helverin", 1, "2x Armiger autocannon (48\" A4 S9 AP-1 D3), heavy stubber", "140",
+     "Backfield 48\" autocannons + cheap OC6 screen."),
+    ("Navigator (Agents ally)", 1, "Gaze of the Empyrean", "~75",
+     "12\" anti-Deep-Strike dome + Hidden home-holder (same load-bearing role in both lists)."),
+]
+LIST_B_IDENTITY = ("Two 4++ full-invuln Lancers turn the no-melee-invuln fight phase — the universal "
+                   "Knight weakness — into a strength: two counter-charge blades + two assassins cover "
+                   "TWO melee lanes and are near-unkillable in combat. Price: HALF the long-range firepower "
+                   "(one Volcano, not two) — you lose the ranged-anti-tank duels the shooting meta forces.")
+
+# ---- THE SIM DELTA (what the swapped model actually does per turn) ---------------
+SIM_DELTA = [
+    ("Extra Knight Castellan (List A gains)", "RANGED",
+     "VERIFIED profiles: Volcano lance 72\" D3 shots S18 AP-5 D6+8 [Blast] = avg ~2 shots x ~11.5 = ~23 dmg into "
+     "one target (one-shots a Hammerhead/Land Raider/Shadowsword/Kataphron brick/Ironstrider/Defiler and splits "
+     "over) + plasma decimator 48\" D6+3 shots S9 AP-4 D3 supercharge (~6.5 shots — shreds Terminators/elites, AP-4) "
+     "+ shieldbreaker S12 AP-6 D6+1 [Anti-Titanic 4+, Dev] character sniper. NET: ERASES ~1-2 extra priority "
+     "targets PER TURN at range (bigger than first modelled — Volcano is D3, not 1). Wins the SHOOTING matchups."),
+    ("Extra Cerastus Lancer (List B gains)", "MELEE + DURABILITY",
+     "VERIFIED: on the charge, shock-lance STRIKE 5A WS2+ S20 AP-3 D8 [Lance] = ~4.2 hits, wounds <=T12 on 2s, "
+     "~3.7 wounds x D8 (~4.5) minus saves ~ deletes any single non-Titanic target (Defiler, Bloodthirster, Magnus-"
+     "wound-down, a Custodian character, a Terminator brick's core) + Shock Charge free Tank Shock (bonus MW). "
+     "SWEEP 10A S10 AP-2 D3 = ~5-7 MEQ/turn into hordes. PLUS a 4++-vs-ALL, W28, M14 body that survives the melee "
+     "that kills a bare-3+ Castellan. NET: neutralises ~1 extra MELEE lane/turn + a 2nd assassin + a near-unkillable "
+     "counter-puncher. Wins the FIGHT matchups."),
+    ("The trade, in one line", "DECISION",
+     "List A removes ~1-2 more things per turn AT RANGE (dominates the shooting phase); List B survives + "
+     "counter-punches one more MELEE lane (wins the fight phase you can't tank). Which matters more = which "
+     "half of the meta you expect to face, and which losses hurt most. Points are near-identical (~1825-1840 "
+     "base each; verify Castellan 400 vs app-425 against LIVE MFM before submitting)."),
+]
+
+# ---- PER-MATCHUP LEAN (which list performs better) ------------------------------
+# key -> (lean in {A, B, EVEN}, why)
+MATCHUP_LEANS = {
+    "emperors-children":       ("EVEN",  "2 Castellan blast the Defiler pair (the real killer) off T1-2; 2 Lancer counter-charge the Infractor/Maulerfiend swarm AND hunt Defilers in melee. Genuinely balanced — the #1-tie matchup."),
+    "orks-green-tide":         ("B (weak)", "Loss either way (accept it). 2nd Lancer sweep clears more Boyz + 4++ survives the inevitable tar-pit marginally better. Low decision weight."),
+    "orks-kult-of-speed":      ("A",     "Shoot the tough hulls (Kill Rigs/Wazdakka/Stompa) — the Lancer can't out-clear fast dakka; more guns help."),
+    "admech-rad-zone":         ("A",     "Out-shoot the gunline — 2 Castellan delete an Ironstrider/Skorpius/Kataphron brick per turn. (B's Lancer-into-a-brick is viable but you win the removal race with guns.)"),
+    "tau-retaliation-cadre":   ("A",     "Pure ranged war. 2 Castellan out-gun the Crisis/Riptide/Broadside; a 2nd Lancer can't catch fire-and-fade T'au. Clear A."),
+    "tau-prototype-cadre":     ("A",     "Same logic — out-shoot the rail/fusion/markerlight platforms."),
+    "astra-militarum-superheavy": ("A",  "A straight firepower duel — 2x Volcano (S18) out-range/out-damage the superheavies. The matchup List A is built for."),
+    "votann":                  ("A",     "Kill the Land Fortresses (rail) + plasma bricks at range; the guns clear the T6 Beserks wholesale. (1 Lancer still handles the maul drop.)"),
+    "drukhari-skysplinter":    ("A",     "2 Castellan one-shot the fragile Raiders/Ravagers + gun the Scourges — removal-race shreds the paper army faster than a 2nd blade."),
+    "salamanders":             ("A",     "Kill BOTH Land Raiders + the W2-3 bodies with volume — the shooting build out-guns the melta brick."),
+    "necrons-cursed-legion":   ("A",     "Delete the Lokhust Destroyer gauss units at range (each removed = ~12 anti-Knight dmg gone). More guns = more removal."),
+    "necrons-monolith":        ("A",     "Concentrate-to-kill Monoliths needs the 2nd Volcano's damage; spreading feeds reanimation."),
+    "necrons-awakened-ctan":   ("EVEN",  "It's an OC/points race either way. 2nd Castellan chips a C'tan faster; 2nd Lancer duels/pins one. Wash."),
+    "dark-angels-ravenwing":   ("A",     "Shoot the Storm Speeder mark-engine + Black Knight packs; a Lancer can't catch M12 fall-back-and-shoot bikes."),
+    "dark-angels-deathwing":   ("B",     "Counter-charge the un-tableable 4++ bricks with a 2nd Lancer + assassinate the Termie Librarians; guns bounce off 2+/4++/-1Dmg."),
+    "sm-iron-hands-terminators": ("B",   "2nd Lancer counter-charges the 10-model hammer brick (4++ survives the hammers a Castellan can't) + a 2nd assassin for Feirros/characters."),
+    "space-wolves":            ("B",     "Counter-charge the thunder-hammer brick; 4++ Lancer trades where a Castellan dies. (Not in the n=75 sample.)"),
+    "blood-angels":            ("B",     "TWO counter-charge blades vs the jump alpha — cover both drop lanes + double the assassin threat on Lemartes/Priests/Chaplains."),
+    "custodes":                ("B",     "Lancer melee (S20 vs 2+/4++) + character assassination beat the elite brick where volume shooting only chips; the anti-Knight guns are thin, so you can afford to trade a Castellan."),
+    "chaos-daemons-khorne":    ("B",     "2 Lancers counter-charge the Bloodcrusher cav + one duels the Bloodthirster (4++ trades). The cav out-runs a gunline read."),
+    "thousand-sons":           ("B (slight)", "Lancer assassinates Magnus (the only real Knight-killer); a 2nd blade guarantees it. Otherwise the matchup is already favourable."),
+    "tyranids-norn":           ("EVEN",  "2nd Volcano one-shots no-invuln Emissaries; 2nd Lancer S20 kills monsters + assassinates a Norn. Slight B on the melee, slight A on the guns."),
+    "csm-renegade-raiders":    ("EVEN",  "2nd Lancer doubles the Vashtorr/Discordant assassin threat; 2nd Castellan shoots the Defiler + killable chassis. Wash."),
+    "chaos-knights":           ("EVEN",  "Mirror — trade gun-Knights (A) vs duel their War Dog/Lancer packs (B). Practice-dependent."),
+    "grey-knights":            ("B",     "Counter-charge + assassinate casters throttles the MW; provisional (not deep-verified)."),
+    "great-value-imperial-fists": ("A",  "The LSO target: a firepower + mission race. 2nd Castellan strips the Sternguard/Land-Speeder enablers faster and breaks the Oath convergence — out-gun, out-mobile."),
+}
+
+# ---- THE DECISION ---------------------------------------------------------------
+DECISION_TALLY = {
+    "Clear edge to LIST A (2 Castellan — win the shooting matchups)":
+        ["AdMech (6)", "T'au Retaliation (5)", "Drukhari (3)", "Votann (3)", "Astra Militarum (2)",
+         "Salamanders (~3)", "Necrons Cursed-Legion (~2)", "DA Ravenwing (1)", "Imperial Fists (target)"],
+    "Clear edge to LIST B (2 Lancer — win the fight matchups)":
+        ["Custodes (4)", "Blood Angels (4)", "DA Deathwing (~3)", "Thousand Sons (3)",
+         "Chaos Daemons Khorne (~2)", "Iron Hands Terminators (~2)", "Orks (9, but a loss either way)"],
+    "EVEN (either list performs similarly)":
+        ["Emperor's Children (9)", "CSM (3)", "Tyranids (3)", "Necrons C'tan (~2)", "SM mixed", "Chaos Knights (1)"],
+}
+DECISION = (
+    "IT'S CLOSE — and that's the honest headline. Prevalence-weighted, the field splits almost evenly: "
+    "~25 of 75 lean LIST A (the ranged-anti-tank half), ~18 lean LIST B plus the 9 un-winnable Orks, and "
+    "~19 are EVEN (led by the #1-tie Emperor's Children). The meta is ~57% melee-forward BY BODY, which "
+    "argues for the 2nd Lancer — BUT the matchups that leans decide are asymmetric.\n\n"
+    "RECOMMENDATION: LIST A (2 Castellan / 1 Lancer), narrowly, for three data-grounded reasons:\n"
+    "1) WORST-CASE MITIGATION. The A-favoured matchups (T'au, AdMech, Astra Militarum, Votann = ~16 "
+    "prevalence of pure ranged anti-tank) are the ones that TABLE a Knight army 0-VP. You LOSE games there. "
+    "List B surrenders those ranged duels (one Volcano, not two) for a fight-phase edge in matchups you can "
+    "often still finesse on the MISSION.\n"
+    "2) THE MELEE MAJORITY IS BEATABLE WITHOUT THE 2ND BLADE. The biggest melee chunks are hordes/chaff "
+    "(EC Daemonettes, Ork Boyz) that SHOOTING thins as well as a Lancer would, and the ELITE melee "
+    "(Custodes/BA/DA) you beat by OUT-OC-ing on the primary + screening the alpha (Navigator dome) + 1 Lancer "
+    "counter-charging the key lane — not by trying to win the fight phase outright.\n"
+    "3) PILOT FIT. 'Dominate the shooting phase' is a cleaner, more repeatable plan over a 6-round grind, and "
+    "List A is the build you've practised.\n\n"
+    "TAKE LIST B INSTEAD IF: you read your local LSO field as melee-dominant (lots of Custodes/BA/DA/Daemons/"
+    "World Eaters), you're more comfortable in the counter-punch game, or you value the near-unkillable 2nd 4++ "
+    "body as insurance against the melee alpha. List B's edge is REAL vs the elite-melee cluster — it just pays "
+    "for it by losing the ranged wars that produce your ugliest losses.\n\n"
+    "EITHER WAY: fix the list to a costed 2000 (add the 3 enhancements), lock PURGE THE FOE, and the Navigator "
+    "dome is load-bearing in both. The gap between the two lists is small — pilot comfort is a legitimate tiebreaker."
+)
+
+# ---- VERIFIED 11E PROFILES (extracted from BSData + faction packs, 2026-07-26) ----
+# (unit/weapon, profile, note) — the raw numbers behind the sim, for transparency.
+VERIFIED_PROFILES = [
+    ("Knight Castellan (400)", "M8 T12 Sv3+ W28 OC10, 5+ inv vs RANGED only", "No melee invuln."),
+    ("  Volcano lance", "72\" | D3 | S18 | AP-5 | D6+8 | Blast", "D3 SHOTS (avg 2) — one-shots no-invuln T10-14."),
+    ("  Plasma decimator (supercharge)", "48\" | D6+3 | S9 | AP-4 | D3 | Blast, Hazardous", "Anti-elite volume (~6.5 shots)."),
+    ("  Shieldbreaker missile", "72\" | 1 | S12 | AP-6 | D6+1 | Anti-Titanic 4+, Dev Wounds", "Character/tank sniper."),
+    ("Knight Crusader (395)", "M10 T11 Sv3+ W26 OC10, 5+ inv vs RANGED only", ""),
+    ("  Rapid-fire battle cannon", "72\" | D6+3 | S10 | AP-1 | D3 | Blast, RF D6+3", "Anti-infantry/light."),
+    ("  Avenger gatling cannon", "36\" | 18 | S6 | AP-2 | D2", "A18 strips soft OC."),
+    ("  Thermal cannon", "24\" | 2D3 | S12 | AP-4 | D6 | Blast, Melta 6", "Anti-tank / Speeders."),
+    ("Cerastus Knight Lancer (415)", "M14 T11 Sv3+ W28 OC10, 4+ inv vs ALL", "Full melee invuln — the key."),
+    ("  Shock lance — strike", "Melee | 5 | WS2+ | S20 | AP-3 | D8 | Lance", "Wounds <=T12 on 2s; deletes any non-Titanic."),
+    ("  Shock lance — sweep", "Melee | 10 | WS2+ | S10 | AP-2 | D3", "~5-7 MEQ/turn into hordes."),
+    ("  Shock Charge", "free Tank Shock (0CP, repeatable) on the charge", "Bonus mortal wounds on the charge."),
+    ("Armiger Helverin (140)", "M12 T9 Sv3+ W14 OC6", "2x autocannon 48\" 4 S9 AP-1 D3; Suppression -1 to hit."),
+    ("--- KEY ENEMY ANTI-KNIGHT ---", "", ""),
+    ("AdMech Kataphron heavy arc rifle", "30\" | 2 | S8 | AP-2 | D3 | Anti-Vehicle 4+, RF2", "Wounds Knights on 4s regardless of S. Range-deny (RF2 <=15\")."),
+    ("AdMech Ironstrider twin cognis lascannon", "48\" | 2 | S12 | AP-3 | D6+1 | Sus1, Twin", "Volume anti-tank."),
+    ("AdMech Skorpius ferrumite cannon", "48\" | 3 | S12 | AP-3 | D6+1", "+1 hit vs Mon/Veh."),
+    ("T'au Hammerhead railgun", "72\" | 1 | S20 | AP-5 | D6+6 | Heavy, Dev Wounds", "Dev crit-mortals bypass the ion shield."),
+    ("T'au Broadside heavy rail rifle", "60\" | 2 | S12 | AP-4 | D6+1 | Heavy, Dev", ""),
+    ("T'au Crisis Sunforge fusion", "12\" | 1 | S9 | AP-4 | D6 | Melta 2", "Re-rolls wound+dmg vs Mon/Veh; the deep-strike killer."),
+    ("EC Defiler ectoplasma destructor", "36\" | D6 | S12 | AP-3 | D3 | Blast", "Plus shearing claws MELEE 5A S16 AP-3 D6+1 (anti-Knight)."),
+    ("EC Maulerfiend fists", "Melee | 6 | S14 | AP-2 | D6+1", "Fast melee, wounds Knights on 3-4s."),
+    ("Custodes guardian spear", "Melee | 5 | WS2+ | S7 | AP-2 | D2", "Wounds Knights on 5+ — thin anti-Knight."),
+    ("Custodes Caladius blaze cannon", "48\" | 4 | S12 | AP-3 | D6+2 | Twin", "Their one real gun."),
+    ("Ork power klaw / Gork's Klaw", "Klaw S9 AP-2 D2 (Meganob S10) / Ghaz S14 AP-3 D4", "Klaw wounds Knights on 5s (volume); Ghaz on 3s."),
+    ("Ork Squighog big choppa", "Melee | 4 | S6 | AP-1 | D2 | Anti-Vehicle 4+", "Wounds Knights on 4s."),
+]
