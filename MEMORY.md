@@ -533,6 +533,47 @@ Champions 1/T&H). Rules STACK army-wide.
     Celestian Sacresants(5); **2× Arco-Flagellants(5)** (the deep-dive refinement = 2nd disposable tarpit, highest-EV
     point vs the melee-heavy top meta). Practice priority before Oct GT: **Emperor's Children + DA-Ravenwing** (the
     two losses) — play both as "tarpit + out-score", never as fights.
+- **★ EXPANDED META BATCH (5 parallel agents, listhammer refresh + new-faction sources, 2026-07-26):**
+  - **Necron "Awakened Dynasty" 5-0-0 = actually TRIPLE-C'TAN spam** (Nightbringer+Void Dragon+Transcendent + Szeras/
+    Nekrosor/2 Skorpekh/Imotekh), NOT Warrior-reanimation; detachment rule (Command Protocols, +1 hit for led units)
+    is minor. All C'tan un-killable (4++/−1Dmg/Reanim). **Knights = COIN-FLIP** (it's Take&Hold → OC10 Knights
+    out-HOLD OC4 C'tan + Lancer 4++ duels one; win on POINTS not tabling; screen the Void Dragon [Anti-Veh-2+ +
+    heals off my hulls]) — MORE winnable than a Purge C'tan list. **Sisters = HARD-LOSS** (no melta target; can't
+    out-hold — C'tan are OC4 AND mobile M10 Fly; Distortion Fields +1 AP shreds W1 bodies).
+  - **Thousand Sons (Grand Coven): Knights FAVORED ~55-60/40.** Psychic-MW is THROTTLED in 11E (1 Ritual/turn army-
+    wide → ~5 MW/turn via Doombolt, NOT 10E spam); Rubrics = warpflamer anti-infantry (bounce off Knights); AP-2
+    volume (Scarab) is only S4. **Magnus (T11 W16 2+/4++, S16 AP-3 Dev melee) is the ONLY Knight-killer** — refuse/
+    kill him, keep Ion Shields up, out-OC on Priority Assets. Sisters ~even (durable core + melta the Scarab/Rubrics;
+    refuse Magnus).
+  - **Sisters Penitent Host reconsideration → SIDEGRADE, NOT upgrade; KEEP Hallowed Martyrs.** The 5-0-0 is a Sacred-
+    Champions SACRESANT-BRICK (4++/Hospitaller-FNP5+/−1-wound/Miracle-saves), NOT a vow-powered alpha (verified: vows
+    only buff PENITENT models, never the Sacresants). Durable-brick is REAL (4++ floor neutralizes the AP-3/elite
+    meta) but WORSE vs the two things that beat Sisters — focused AP-2 VOLUME (Necron 54-gauss still clears ~a brick/
+    turn; slow, no metabolize) + mobile/fall-back shooting (M6 foot can't pin DA-Ravenwing) — and gives up mobility/
+    softening-melta/assassins/compounding-dice. Log as a lower-variance durable ALT for a grind-and-hold player
+    expecting an AP-3/elite field.
+  - **Space Wolves (Librarius Conclave) = deep-striking TERMINATOR/WULFEN DEATHSTAR** (5× 10-brick 2+/4++), NOT
+    Thunderwolves. **UNFAV both armies:** 8 Assault-Term thunder hammers (S8 AP-2 D2 DEV) crack the no-melee-invuln
+    Questoris (~12-14/charge) + Sternguard Fusillade (Anti-Veh 5+ + Dev punches the Ion Shield) + out-bodies/out-OCs;
+    butchers glass Sisters. Heist (both): Lancer (4++ melee) counter-charge + **assassinate the load-bearing
+    characters** (Logan/Ragnar/Librarians), screen the deep strike, out-OC/out-mission. (Half its melee is duds —
+    Wulfen S5, Blood Claws S4 — bounce off T12.)
+  - **Blood Angels (jump-melee ALPHA, both 5-0-0): Knights UNFAV ~4/10, Sisters EVEN ~5/10 (BETTER than Knights).**
+    Liberator Assault Group "Red Thirst" = +2 S/+1 A ON THE CHARGE army-wide → DC fists S10, SG blades S8 AP-3, Dev
+    hammers; ~15-18 into a Questoris from one DC+Lemartes charge (no melee invuln); best-in-game delivery (M12 + Deep
+    Strike + re-roll charge + Angelic-Host re-drop). **Knights:** deny the alpha (chaff/castle), Lancer counter-charge
+    + blank multipliers (Lemartes/Priests/Chaplains → DC go OC0), win on OC. **Sisters answer it BETTER** — massed
+    AP-1/2 bolter+melta VOLUME + Miracle Dice shoots each brick down as it lands (SG −1-hit/wound is MELEE-only,
+    melta ignores it); the melee alpha is the one archetype Sisters' shooting handles that the Knight's shooting-only
+    invuln cannot.
+  - **★ CROSS-CUTTING:** (1) **MELEE into the no-melee-invuln Questoris fight phase is the UNIVERSAL Knight-killer**
+    (SW hammers, BA Red-Thirst fists, C'tan, EC Fulgrim, TSons Magnus) — the **Cerastus Lancer (4++ full invuln) is
+    the universal counter-charge + character-assassin**, the recurring heist piece. (2) **Sisters answer melee-ALPHA
+    armies BETTER than Knights** (shoot the drop down with volume+Miracle Dice) but stay hard vs durable-out-OC (SW,
+    C'tan) + AP-2 VOLUME (Necron). (3) Necrons (2 flavors) + SW + BA + DA = the Knight LSO field is melee/durability-
+    hard; recurring heist = Lancer + screen + out-OC on Take&Hold. (4) Data caveats flagged: BA "Vengeful Hosts"
+    1DP detach UNVERIFIED (new, post-BSData); SW "Beastslayer" a labeling artifact (Librarius Conclave is live);
+    Awakened Dynasty + Grand Coven + Kindred stratagems not in BSData (FP/codex-sourced).
 
 ## Knights META RE-VISIT (2026-07-24) — re-analysed vs the Sisters-ingested meta
 - **Bidirectional mathhammer vs the real boogeyman lists** (not abstract disposition theory).

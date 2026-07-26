@@ -58,6 +58,21 @@ The large PDFs are gitignored to keep the repo lean. Re-download as needed:
   - **Chaos Knights** — BSData `Chaos - Chaos Knights.json` (stub) + `Chaos - Chaos Knights Library.json` (data) — FP:
     https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_chaos_knights-mdwarnukhh-irpnxydqyr.pdf
 
+- **Current-meta factions round 2** (from listhammer refresh 2026-07-26; Necrons/DA/Orks dominant, new faces).
+  Same pattern: BSData self-served from github.com/BSData/wh40k-11e; FP URLs (22 Jul 2026) below. BA & SW BSData are
+  CHAPTER additions that import generic SM datasheets from the base `sm11.json` — need both. Salamanders
+  "Forgefather" + Librarius Conclave are base-SM detachments already in `sm11.json`.
+  - **Blood Angels** — BSData `Imperium - Blood Angels.json` (units/points) + base SM + FP (detachments: Liberator
+    Assault Group, The Angelic Host) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_blood_angels-l1ttsuicte-4xq8nrzqy1.pdf
+  - **Thousand Sons** — BSData `Chaos - Thousand Sons.json` (self-contained; Grand Coven) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_thousand_sons-h1ysumgym3-kyfwf7cjpt.pdf
+  - **Space Wolves** — BSData `Imperium - Space Wolves.json` + base SM + FP (Saga of the Beast, Champions of Fenris) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_space_wolves-vkg7nwp9ez-ldpwen5t8a.pdf
+  - **Grey Knights** — BSData `Imperium - Grey Knights.json` (self-contained; Banishers, Argent Assault) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_grey_knights-dlzvusufhy-uialb3pko4.pdf
+  - Necron **Awakened Dynasty** = a codex detachment already in `necrons11.json` (no new source needed).
+
 ## Live data sources (see `tools/`)
 
 - **Dispositions + Force Disposition Matrix:** https://gdmissions.app/11th/matrix
