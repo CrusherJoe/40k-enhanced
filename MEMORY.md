@@ -456,7 +456,16 @@ Champions 1/T&H). Rules STACK army-wide.
   secondary is moderate (~15-20, mostly kill-cards on my chaff [No Prisoners/Bring It Down on Immolator/Warglaive/
   Sisters] + Defend Stronghold early + his 1-2 held objectives), NOT the ~28 I over-corrected to. Honest game ≈
   Knights ~78 vs Great Value ~44 (clear ~34-VP win). Great Value is still a real army — don't dismiss it — but
-  objectives are EXCLUSIVE, so my mobility/OC-spread out-scores his 2 immovable bricks.** WHOLE-GAME
+  objectives are EXCLUSIVE, so my mobility/OC-spread out-scores his 2 immovable bricks. **★ CAVEAT (user 2026-07-26): ALL his models have OC, not just the bricks** — Sternguard ~OC11,
+  Intercessors ~OC10 (sticky), Bladeguard ~OC7, Vanguard ~OC5 ×2, Land Speeders OC3 ×2. So his objective game is
+  ARMY-WIDE and CONTESTED, esp. EARLY (all alive + M14 Speeders/M12 Vanguard reach objectives fast). I don't
+  out-control by raw OC bodies — my gun-Knights (OC10) are PINNED to back-corner shooting positions and DON'T
+  contest the mid-board; my forward OC is thin (Warglaive OC6 + Immolator OC3 + Sisters on home). I win the OC
+  war by ATTRITION: killing his soft support (Sternguard/Speeders/cyclones/Vanguard) removes their OC too, so by
+  T3-5 his control collapses to the 2 bricks + sticky Intercessors while my mobile pieces take the flanks + his
+  home. Honest game ≈ **Knights ~74 vs Great Value ~50** (clear ~24-VP win but CONTESTED, not ~78-44). ⇒ LIST
+  TENSION to resolve in the plan redo: the triple-gun-Knight standoff may be too light on MOBILE OC — consider
+  trading 1 Castellan for 2 more Armigers to actually HOLD the board, not just kill onto it.** WHOLE-GAME
   SIM (v3): **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) —
   5 rounds phase-by-phase, ~84-40 Knights. Verdict: win by REFUSING the fight the wall wants, deleting what can
   actually hurt me from safety, and out-mobiling M5 bricks on the mission — not by out-fighting/out-tanking.
