@@ -42,6 +42,22 @@ The large PDFs are gitignored to keep the repo lean. Re-download as needed:
     (github.com/BSData/wh40k-11e — single file, no separate Library; carries costs; detachments incl.
     Shield Host, Auric Champions, Talons of the Emperor, Null Maiden, Solar Spearhead, Lions of the Emperor).
 
+- **Current-meta opponent factions** (from listhammer.info post-Dataslate top-11, sourced 2026-07-26). Each:
+  MFM `mfm.warhammer-community.com/en/<slug>` (JS-rendered → use BSData costs); BSData from
+  `github.com/BSData/wh40k-11e`; Faction Pack (22 Jul 2026) URLs below. Files live in the session scratchpad.
+  - **T'au Empire** — BSData `T'au Empire.json` — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_tau_empire-hdrq4u64wm-xopcvjvqfu.pdf
+  - **Emperor's Children** — BSData `Chaos - Emperor's Children.json` — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_emperor_s_children-srspmclqtm-i8ey7hgk2s.pdf
+  - **Adeptus Mechanicus** — BSData `Imperium - Adeptus Mechanicus.json` — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_adeptus_mechanicus-d1ubc1apog-mpt3r8xzy4.pdf
+  - **Leagues of Votann** — BSData `Leagues of Votann.json` — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_leagues-of-votann-kpfosalfyb-sbqk309w4w.pdf
+  - **Drukhari** — BSData `Aeldari - Drukhari.json` (roster stub) + `Aeldari - Aeldari Library.json` (data/costs) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_drukhari-8cbmbcz0ai-0bz2psrjty.pdf
+  - **Chaos Knights** — BSData `Chaos - Chaos Knights.json` (stub) + `Chaos - Chaos Knights Library.json` (data) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_chaos_knights-mdwarnukhh-irpnxydqyr.pdf
+
 ## Live data sources (see `tools/`)
 
 - **Dispositions + Force Disposition Matrix:** https://gdmissions.app/11th/matrix

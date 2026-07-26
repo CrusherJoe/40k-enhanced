@@ -258,6 +258,47 @@ shot can chunk a Questoris).
   edition-memory; **defer to MFM for points.** (See the C'tan −1 Damage and the
   TITANIC-no-Overwatch and Anti-X/Dev-Wounds corrections — all edition-memory slips.)
 
+## ★ CURRENT-META MAP — listhammer post-Dataslate top-11 vs Knights (2026-07-26)
+Verified tapestry analyses of the current competitive top tables. **Source: listhammer.info main-page slice —
+REFERENCE-ONLY** (its robots.txt Disallows ClaudeBot + all AI crawlers, sets ai-train=no, blocks /api/; do NOT
+scrape — browse manually + paste individual lists, which is normal `use=reference`). Each verdict = the Knight
+underdog's realistic result vs an OPTIMAL pilot; heists assume Valourstrike (Rotate) + Dominus, ~1 Lancer.
+
+**VERDICT TABLE (11 lists):**
+- **FAVOURABLE / even-my-way:** Custodes (Lions — "so few models", I out-OC + grind); Drukhari (Skysplinter —
+  their Lethal/Decapitating keywords are non-Vehicle so DON'T touch me, no haywire; I out-durable, win attrition —
+  risk = losing Reconnaissance tempo).
+- **COIN-FLIP / winnable heist:** CSM (Renegade Raiders — assassinate Vashtorr + Lord Discordant, win kill-race);
+  Votann (Hearthguard — deny the deep-strike Beserk maul-swarm [Anti-Vehicle 3+ MELEE], kill 2 Land Fortresses,
+  shred W1 bodies); Emperor's Children (Frenzied Host — screen/concede Fulgrim, shoot killable support, win Priority
+  Assets on OC10); Tyranids (Talons of the Norn Queen — kill the OC15 anchors; Emissaries have no invuln).
+- **UNFAVOURABLE / hard-loss:** Necrons (Cursed Legion — 54 Cold-Fervour Gauss S7 AP-2 D2 Lethal + un-killable Void
+  Dragon + reanimation + out-OC; ~20-30% game); T'au (Experimental Prototype Cadre — railgun Dev Wounds + markerlight
+  AP-volume + fusion; evasion neuters my melee); Dark Angels/Ravenwing (Company of Hunters + Dark Age Arsenal —
+  Catechism Dev-Wound plasma ×27 + Black Knight Anti-Veh-4+ melee + 90 M12 bikes out-OC on Disruption + THEY
+  fall-back-and-shoot, I can't); AdMech (Rad-Zone — Kataphron Anti-Vehicle-4+ + Lethal bricks ≈1 dead Knight/turn;
+  Rad-Zone is chip-MW/battle-shock, **no Toughness reduction**; out-bodied).
+- (Chaos Knights skipped — user confident. Green Tide = known auto-loss.)
+
+**★ UNIFIED "WHAT BEATS KNIGHTS" (holds across all 11 — the grading rubric for ANY enemy list):**
+1. **INVULN-NEGATION is the real Knight-killer, NOT raw AP:** (a) Anti-Vehicle/Monster X+ wounds my T11-12
+   regardless of Strength (Votann maul 3+, AdMech arc rifle 4+, Void Dragon 2+); (b) Devastating Wounds → crit-wounds
+   become mortals that skip the 5++/4++ (railgun, Catechism plasma, magna-rail, Necron Dev melee). Meta is saturated.
+2. **MASSED AP-2+ VOLUME** drowns the 68%-failing 5++ (Necron 54 Gauss, T'au markerlight gunline, DA 27 plasma).
+3. **MELEE into the no-invuln Questoris fight phase** — Rotate can't help (EC Fulgrim, Votann Beserks, Norns, DA
+   Black Knights). Only the Cerastus Lancer's 4++ FULL invuln resists.
+4. **OUT-OC / OUT-SCORE the board** — I lose the BOARD even in games I win the kill-race (nearly all of them).
+I WIN only where anti-Knight is THIN/CONCENTRATED-and-killable (CSM, Custodes) or bodies DIE to my guns with no
+invuln-negation (Drukhari, Custodes).
+
+**★ CONSISTENT HEIST LEVERS:** (1) kill the anti-tank platform / force-MULTIPLIER EARLY (rail cannons, Kataphron
+bricks, Scourges, Vashtorr, Land Fortresses, Black Knight packs) — usually no-invuln, my Volcano/thermal delete
+them; (2) deny the alpha/charge with terrain + reserves + screening (never expose a lone Knight to a 9" drop-charge
+or a markerlit focus turn); (3) Rotate the ONE focused Knight; (4) the LANCER's 4++ is the most matchup-flexible
+tool — tanks melee/Dev armies, assassinates concentrated multipliers; poor only where there's no target (Necrons)
+or an evasive/faceless swarm (T'au, DA-Ravenwing); (5) accept the OC/board loss, win on tempo/kills where possible.
+**Lancer-count:** 1 is justified everywhere (the flexible 4++ answer); a 2nd only in target-rich MELEE metas.
+
 ## Multi-faction support
 - Faction-keyed data files: `data/{detachments,datasheets,profiles}/<faction>.yaml`.
   Missions/matrix/mathhammer/tools are edition-wide (shared, faction-agnostic).
@@ -743,13 +784,19 @@ Champions 1/T&H). Rules STACK army-wide.
   (on top of Bold Gallantry's army-wide Assault). Corollary: the MC meta-gauntlet's "Rotate every turn" assumption
   is valid ONLY because both candidate lists run Valourstrike; a non-Valourstrike detachment loses Rotate entirely.
 - **Rotate protects AT MOST ONE Knight vs shooting per turn (user law 2026-07-26; Core Rules §15, core.txt:2552):
-  stratagems are once-per-phase.** In the opponent's Shooting phase I can Rotate exactly ONE Knight to 4++; **but
-  EVERY big Knight already has a base 5++ INVULN vs shooting (Ion Shield — ranged only), so AP is largely IRRELEVANT
-  vs Knights in the Shooting phase regardless of Rotate** (user law 2026-07-26). Rotate just upgrades ONE Knight
-  from 5++ → 4++. (Cerastus Lancer is even better: 4++ FULL invuln, melee AND ranged, always — no Rotate needed.)
-  Consequence: enemy AP-heavy shooting (Obliterators AP-3, death rays AP-4, CSM's +1-AP-near-objectives) is mostly
-  WASTED into Knights — they defend on the invuln. Also §15: can't target the same unit with >1 stratagem in a
-  phase. So shooting durability is "ONE Knight at 4++ + the rest at 5++", NOT "3+ armour eating full AP." Aligns fine with an enemy that
+  stratagems are once-per-phase.** In the opponent's Shooting phase I can Rotate exactly ONE Knight to 4++;
+  every big Knight already has a base 5++ INVULN vs shooting (Ion Shield — ranged only); Rotate upgrades ONE Knight
+  from 5++ → 4++. (Cerastus Lancer = 4++ FULL invuln, melee AND ranged, always — no Rotate needed.)
+  **★ CORRECTION (user law 2026-07-26): AP is NOT "wasted/a trap" vs Knights.** Any AP-2+ strips my 3+ armour and
+  forces the 5++ Ion Shield — a save that **FAILS 68%** (a 4++ Rotate still fails 50%). So the Knight-killer is
+  **VOLUME of AP-2+ multi-damage shooting**; the only genuinely wasted part is EXCESS AP beyond what forces the
+  invuln (AP-4 vs AP-2 both leave me on the same 5++). And the invuln is **BYPASSED ENTIRELY** by **Devastating
+  Wounds** (crit-wounds→mortals) and **Anti-Vehicle/Monster X+** (wound regardless of S) — the current meta is
+  SATURATED with both. Also §15: can't target the same unit with >1 stratagem/phase. So shooting durability is
+  "ONE Knight at 4++ + the rest at a 68%-failing 5++, and Dev-Wounds/Anti-Veh skip even that" — NOT a fortress.
+  (Detachment-name fix: the +1-AP-near-objectives rule = "Raiders and Reavers" of **Renegade Raiders**, NOT the
+  HeeYaw "Longest Night" list's **Huron's Marauders**, whose rule is **Tyrannical Motivation** — a Command-phase
+  selectable Heretic-Astartes-Infantry buff. My earlier bank mis-attributed it; the favourable verdict is unchanged.) Aligns fine with an enemy that
   focus-fires ONE Knight (I Rotate that one); an army with enough anti-Knight to threaten TWO Knights in a single
   phase (Necron death rays, C'tan) kills the un-Rotated one. Meta agents already modelled this ("Rotate saves one
   Knight/turn; they focus another").
