@@ -1,0 +1,131 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate the LSO Knights Runbook (Word) from tools/lso_data.py.
+   PYTHONPATH=tools python3 tools/gen_lso_runbook_docx.py
+Output: docs/Reports & Plans/LSO-Runbook.docx
+A printable, per-archetype battle-plan runbook for the event.
+"""
+import os
+from docx import Document
+from docx.shared import Pt, RGBColor, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT
+import lso_data as D
+
+OUT = "docs/Reports & Plans/LSO-Runbook.docx"
+
+NAVY = RGBColor(0x1F, 0x38, 0x64)
+VERDICT_RGB = {
+    "FAVOURABLE": RGBColor(0x2E, 0x7D, 0x32),
+    "COIN-FLIP": RGBColor(0xB8, 0x86, 0x00),
+    "EXPECT-A-LOSS (winnable)": RGBColor(0xC0, 0x60, 0x00),
+    "UNFAVOURABLE": RGBColor(0xC0, 0x39, 0x00),
+    "HARD-LOSS": RGBColor(0xB0, 0x20, 0x00),
+    "AUTO-LOSS": RGBColor(0x99, 0x00, 0x00),
+    "PRELIM": RGBColor(0x60, 0x60, 0x60),
+}
+
+
+def vcol(v):
+    for k in (v, v.split(" (")[0]):
+        if k in VERDICT_RGB:
+            return VERDICT_RGB[k]
+    return NAVY
+
+
+def h(doc, text, size, color=NAVY, before=8, after=4, bold=True):
+    p = doc.add_paragraph(); p.paragraph_format.space_before = Pt(before); p.paragraph_format.space_after = Pt(after)
+    r = p.add_run(text); r.bold = bold; r.font.size = Pt(size); r.font.color.rgb = color
+    return p
+
+
+def kv(doc, k, v):
+    p = doc.add_paragraph(); p.paragraph_format.space_after = Pt(2)
+    r = p.add_run(k + ": "); r.bold = True
+    p.add_run(v)
+
+
+def bullets(doc, items, style="List Bullet"):
+    for it in items:
+        doc.add_paragraph(it, style=style)
+
+
+def main():
+    doc = Document()
+    doc.styles["Normal"].font.name = "Calibri"; doc.styles["Normal"].font.size = Pt(10)
+
+    # --- cover ---
+    t = doc.add_paragraph(); t.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r = t.add_run("LSO RUNBOOK — IMPERIAL KNIGHTS"); r.bold = True; r.font.size = Pt(22); r.font.color.rgb = NAVY
+    s = doc.add_paragraph(); s.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    s.add_run(f"{D.LIST_NAME}\n{D.EVENT}\nGenerated {D.GENERATED}").italic = True
+
+    # --- the plan ---
+    h(doc, "THE PLAN", 15)
+    kv(doc, "List", D.LIST_NAME)
+    kv(doc, "Detachments", D.DETACHMENTS)
+    kv(doc, "Disposition", D.DISPOSITION)
+    kv(doc, "Points", D.LIST_TOTAL)
+    doc.add_paragraph(D.LIST_RATIONALE)
+    h(doc, "Mindset", 12, color=RGBColor(0,0,0), before=6)
+    doc.add_paragraph(D.MINDSET)
+    h(doc, "The list", 12, color=RGBColor(0,0,0), before=6)
+    for name, cnt, wg, pts, role in D.LIST_UNITS:
+        p = doc.add_paragraph(style="List Bullet")
+        p.add_run(f"{cnt}x {name} ({pts}) — ").bold = True
+        p.add_run(role)
+    h(doc, "Fix to 2000 — enhancements (Rotate is free)", 12, color=RGBColor(0,0,0), before=6)
+    for name, on, pts, why in D.ENHANCEMENTS:
+        p = doc.add_paragraph(style="List Bullet")
+        p.add_run(f"{name} ({pts}) on {on} — ").bold = True; p.add_run(why)
+
+    # --- rules cheat-sheet ---
+    h(doc, "RULES CHEAT-SHEET", 15)
+    for name, desc in D.RULES:
+        p = doc.add_paragraph(style="List Bullet")
+        p.add_run(name + " — ").bold = True; p.add_run(desc)
+
+    # --- record expectation ---
+    h(doc, "REALISTIC RECORD & BANDS", 15)
+    doc.add_paragraph(D.RECORD_NOTE)
+    for band, lists in D.BANDS.items():
+        p = doc.add_paragraph(); p.paragraph_format.space_after = Pt(2)
+        r = p.add_run(band + ": "); r.bold = True; r.font.color.rgb = vcol(band.split(" (")[0].upper())
+        p.add_run(", ".join(lists))
+
+    # --- quick index table ---
+    h(doc, "MATCHUP INDEX", 15)
+    tbl = doc.add_table(rows=1, cols=3); tbl.style = "Light Grid Accent 1"; tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
+    hdr = tbl.rows[0].cells
+    for i, x in enumerate(("Archetype", "Verdict", "Deciding factor")): hdr[i].paragraphs[0].add_run(x).bold = True
+    for m in D.MATCHUPS:
+        c = tbl.add_row().cells
+        c[0].text = f"{m['faction']} — {m['archetype']}"
+        rr = c[1].paragraphs[0].add_run(m["verdict"]); rr.bold = True; rr.font.color.rgb = vcol(m["verdict"])
+        c[2].text = m["deciding"]
+    for col, w in zip(tbl.columns, (2.6, 1.5, 3.4)):
+        for cell in col.cells: cell.width = Inches(w)
+
+    # --- per-archetype battle plans ---
+    doc.add_page_break()
+    h(doc, "BATTLE PLANS", 16)
+    for m in D.MATCHUPS:
+        p = doc.add_paragraph(); p.paragraph_format.space_before = Pt(10); p.paragraph_format.keep_with_next = True
+        r = p.add_run(f"{m['faction']} — {m['archetype']}"); r.bold = True; r.font.size = Pt(13); r.font.color.rgb = NAVY
+        vp = doc.add_paragraph(); vp.paragraph_format.space_after = Pt(2)
+        vr = vp.add_run(m["verdict"]); vr.bold = True; vr.font.color.rgb = vcol(m["verdict"])
+        vp.add_run(f"   ·   Prevalence: {m['prev']}   ·   They tend to run: {m['disp']}").italic = True
+        kv(doc, "Deciding factor", m["deciding"])
+        kdp = doc.add_paragraph(); kdp.paragraph_format.space_after = Pt(2)
+        kdp.add_run("The heist:").bold = True
+        bullets(doc, m["heist"])
+        kv(doc, "Kill-priority", m["kill_priority"])
+        kv(doc, "Deploy / positioning", m["deploy"])
+
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    doc.save(OUT)
+    print("wrote", OUT, "-", len(D.MATCHUPS), "battle plans")
+
+
+if __name__ == "__main__":
+    main()

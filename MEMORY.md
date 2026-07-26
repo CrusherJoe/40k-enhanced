@@ -264,6 +264,15 @@ shot can chunk a Questoris).
   not the win — Knights are underdogs into the filth. → List brief: field-robust core + heist flexibility (the
   flexible-4++ Lancer, firepower-as-denial, mobility secondaries), NOT a narrow counter-build. Original impetus was
   the friend's "Great Value" Imperial Fists list for LSO. LSO uses GW terrain layouts (see terrain notes).
+- **★★ KNIGHT LSO LIST = DECIDED (user law 2026-07-26): 2 CASTELLAN / 1 LANCER / 1 CRUSADER + Armiger Helverin +
+  Navigator** (`examples/knights-gv-2castellan.yaml`; Valourstrike Lance + Dominus Foebreakers; Priority Assets).
+  **NOT the 2-Lancer build.** User law that GOVERNS (overrides the MC gauntlet, which over-credited Lancers via the
+  "blades" abstraction): *"I need to DOMINATE the shooting phase — I'm not comfortable trading a Castellan's worth of
+  shooting for a 2nd Lancer."* Rationale: **firepower-as-denial is the win-con** → 2× Volcano lance (S18 AP-5 D6+8) +
+  plasma decimators + Crusader RFBC/Avenger = the shooting core that kills no-invuln anchors & strips soft OC; the
+  SINGLE Cerastus Lancer is the one 4++ decapitation/counter-charge blade. Trade-off to respect: only ONE 4++ blade
+  to answer the melee-heavy field (SW hammers / BA fists / C'tan / Fulgrim), so Lancer target-selection + screening
+  matter more. Supersedes the earlier ambiguous "2-Lancer 73% gauntlet" reading. Do NOT default to 2-Lancer again.
 - **VERIFY 11E data every time** (units/rules/points/keyword INTERACTIONS) — don't trust
   edition-memory; **defer to MFM for points.** (See the C'tan −1 Damage and the
   TITANIC-no-Overwatch and Anti-X/Dev-Wounds corrections — all edition-memory slips.)
