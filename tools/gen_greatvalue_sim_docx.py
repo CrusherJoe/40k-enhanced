@@ -326,9 +326,11 @@ H("Battle Round 2 — his alpha lands and bounces", 1)
 turnhead("▶ My Turn 2 — bank objectives, keep range", STEEL)
 phase("Command.", "Gain 1 CP (2). Vital Link R2+ clause: I hold C (Immolator) + D (Warglaive) → 4 VP (non-home) + "
   "4 VP (C central) = 8 VP.")
-phase("Movement.", "Gunline still doesn’t move (it doesn’t need to). Warglaive FALLS BACK from the Vanguard "
-  "(Super-heavy Walker: it still shoots) and repositions toward E. If I ever need to shift a Castellan for LOS, "
-  "Valourstrike lets it Advance and still fire — but not needed yet.")
+phase("Movement.", "Gunline still doesn’t move (it doesn’t need to). The Warglaive (an Armiger — plain WALKER, "
+  "NOT Super-heavy Walker; it can’t fall back and shoot) stays engaged and FIGHTS the Vanguard instead — it’s a "
+  "melee-capable Armiger (thermal spear + reaper chain-cleaver) and grinds them down. If I need to shift a "
+  "Castellan for LOS, Valourstrike lets it ADVANCE and still fire (Assault) — that’s legal; falling back to "
+  "shoot is not.")
 phase("Shooting.", "His cyclone brick + Speeders are still in reserve, so I shoot the board: both Volcanoes + "
   "Avenger into the Bladeguard and the advancing brick for chip (I do NOT dump melta into the brick’s 4++ — I "
   "just deny his Bladeguard). ~3 Bladeguard + 3 Vanguard cleared. Helverins hold fire-lanes for the reserves.")

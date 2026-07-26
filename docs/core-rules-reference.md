@@ -205,7 +205,7 @@ cover at the characteristic level (net 0 before other modifiers).
 | **Terrain & movement** | 13.06 | VEHICLES/MONSTERS (Knights) can't move THROUGH dense terrain >2" tall (go around); INFANTRY move through freely. |
 | **Feel No Pain X+** | 24.12 | each lost wound: roll D6, on **X+** it is not lost (applies to mortal wounds too). |
 | **Fights First** | 24.13 | fights in the Fights First step (before normal combats). |
-| **Super-Heavy Walker** | 24.35 | can move **through** non-TITANIC models and over terrain (Knights). |
+| **Super-Heavy Walker** | 24.35 | On a normal/advance/**fall-back** move: move THROUGH models (excl TITANIC) + horizontally through terrain ≤4" tall; optional MOBILE for the move (battle-shock on a 1). **Movement only — does NOT grant fall-back-and-shoot.** BIG Knights only (Questoris/Cerastus/Dominus); **ARMIGERS have plain WALKER, not this.** No Knight can fall back and still shoot. |
 | **Lone Operative** | 24.24 | not visible/targetable beyond 12" (some Armigers/characters). |
 | **Stealth** | 24.33 | the unit has **benefit of cover** vs ranged attacks (−1 to be hit). |
 | **Scouts / Infiltrators** | 24.31/24.20 | pre-game move / deploy 9"+ from enemies. |
