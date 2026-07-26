@@ -30,8 +30,12 @@ higher total OC touching = controls. Only MARKED terrain scores: ~5 objectives =
 expansion (No-Man's-Land); other terrain is just cover / wall-blocking. **BASE SIZES (positioning math,
 user-provided 2026-07-26):** big Knights (Castellan/Crusader/etc.) = **170×105mm oval (~6.7"×4.1"; edge ~3.35"
 from centre)** → can base-touch an objective while the hull sits ~3" BACK (out of a charge) + screens a huge
-lane; Armigers = **100mm round (~3.9")**; Immolator = Rhino hull **~120×75mm**; Sisters/Sternguard/Intercessors
-= 32mm; Terminators = 40mm. This CORRECTS my "contest = point-blank death" overstatement — I hold the SAFE
+lane; Armigers = **100mm round (~3.9")**; Immolator = Rhino hull **~120×75mm** (GW doesn't BASE vehicles → this is
+the measured HULL footprint, which is the base-touch contact surface); Sisters/Sternguard/Intercessors = 32mm;
+Terminators = 40mm. **REFERENCE (user-provided, verify-current): base-size guide =
+en-blastedhorizons.blogspot.com/2015/07/guide-to-40k-bases.html — despite the 2015 URL it's a LIVING ARTICLE
+maintained to 2026 (current), good for OPPONENT base sizes in future matchups.** (It lists the Knight oval as
+170×109mm; user measures 170×105 — negligible ~4mm; use 170×105.) This CORRECTS my "contest = point-blank death" overstatement — I hold the SAFE
 objectives from a base-touch ~3" out; I only decline the ONE small footprint the OC22 brick squats (out-holding
 OC22 needs OC23+ crowded onto it = inside its 2D6" charge). Terrain = cover, so **cover is
 everywhere** on GW/tournament layouts. COVER = −1 to hit, RANGED ONLY (models in/behind terrain; Knights get it
