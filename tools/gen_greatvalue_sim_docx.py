@@ -91,8 +91,9 @@ P("Why this plan (read first)", bold=True, color=GOLD)
 P("Three earlier ideas are DEAD, and the game only makes sense once you accept why: (1) You cannot KILL his "
   "bricks — my best guns do ~6–8/turn into a 2+/4++/W4/−1-to-wound Terminator wall. (2) You cannot BATTLE-SHOCK "
   "them off an objective — they only test below half strength (6+ dead first, which I can’t do) and pass on "
-  "Ld 6+ ~72% anyway, so their OC22 is permanent. (3) You cannot CONTEST their objective up close — the markers "
-  "sit in terrain where the brick lives, so any Knight in range is in charge range, and the brick’s ~50-damage "
+  "Ld 6+ ~72% anyway, so their OC22 is permanent. (3) You cannot CONTEST their objective up close — in 11E the "
+  "objective IS the terrain piece (its footprint is the scoring area; there are no separate markers), so any "
+  "Knight in scoring range is standing inside that footprint = point-blank in the brick’s charge range, and the brick’s ~50-damage "
   "Oathed melee (Thunder Hammers + Fist of Dorn, all Dev Wounds) deletes any Knight it touches — Feel No Pain 6+ "
   "(~1/6) turns ~50 into ~42, still a dead Knight. So durability and proximity are losing axes.", size=10)
 P("What DOES win: his bricks are M5 and there are only two of them. They can hold ~2 objectives, no more. So I "
@@ -122,7 +123,7 @@ widths=[2.0, 2.1, 3.1])
 P("His engine: Oath of Moment", bold=True, color=FIST)
 P("Each Command phase he Oaths one of my units → his whole army re-rolls Hits AND +1 to Wound vs it, layered "
   "with Wrath of Dorn, the unit synergies, and the round’s Discipline. Fully converged = ~34 into one Knight. "
-  "But ~10 of that is the SOFT Sternguard — kill them turn one and his alpha falls to ~17, which a 28-wound "
+  "But ~10 of that is the SOFT Sternguard — kill them turn one and his alpha falls to ~17 (~13 once you add my Castellan’s cover + Rotate), which a 28-wound "
   "Castellan shrugs (and Rotate Ion Shields → ~14).", size=10)
 P()
 P("My list: Big-Gun Standoff — Valourstrike Lance + Dominus Foebreakers, 1975 pts", bold=True, color=STEEL)
@@ -154,7 +155,7 @@ H("2. Mission, deployment & the scoring clash", 1)
 rich([("Asymmetric primaries: ", {"bold":True}), ("my Priority Assets → ", {}), ("Vital Link", {"bold":True,"color":STEEL}),
       ("; his Purge → ", {}), ("Destroyer’s Wrath", {"bold":True,"color":FIST}), (".", {})])
 table(["", "Vital Link (me)", "Destroyer’s Wrath (him)"],
-[["End of turn", "2 VP control a central objective (+1/operation marker)", "3 VP if he destroyed 1+ enemy unit this turn"],
+[["End of turn", "2 VP control a central objective (+1 per operation token)", "3 VP if he destroyed 1+ enemy unit this turn"],
  ["R2+, end of Command", "4 VP control a non-home objective; +4 if one is central", "4 VP a non-home objective; 6 VP MORE objectives than me"],
  ["R2+, end of turn", "—", "4 VP destroyed more than he lost last turn"],
  ["End of battle", "10 VP control his home", "—"]],
@@ -178,6 +179,23 @@ rich([("His deployment: ", {"bold":True,"color":FIST}),
        "dome.", {})])
 P("CP: 0 to start, +1 each Command phase. Secondaries: both Tactical. His danger picks — Bring It Down (my "
   "Knights are Vehicles) and Assassination (they’re Characters); but a standoff that loses few models starves both.", size=9, color=GREY)
+
+P("Objectives are TERRAIN, and cover is everywhere.", bold=True, color=STEEL)
+P("On a GW terrain layout each objective is a marked terrain piece — its footprint is the scoring area, and "
+  "almost every unit is in or behind terrain, so Benefit of Cover (−1 to hit, ranged only) is the default. "
+  "This cuts both ways, and the standoff is built to win the exchange:", size=10)
+bullet("MY fire into his covered units: my two Castellans have Dominus Foebreakers (+1 to hit units in a "
+  "terrain area) — that EXACTLY cancels cover, so they are my reliable cover-punchers (assign them the covered "
+  "priority targets). The Immolator’s Purge & Cleanse strips cover off one massed-fire target per turn (I use "
+  "it on whatever I’m wiping — Sternguard T1). The Crusader/Helverins eat −1 into still-covered targets, so I "
+  "point them at cover-stripped or open units.")
+bullet("HIS fire into my covered Knights: my gunline deploys IN terrain, so his shooting is at −1 to hit it. "
+  "His cyclone Terminators cancel that with Fury (+1 vs the Oath target) and Oath re-rolls, but his Land "
+  "Speeders eat the −1 — so his already-reduced alpha (Sternguard dead) drops further: ~16 in cover, ~13 "
+  "through Rotate Ion Shields. Cover only helps vs SHOOTING, never the brick’s melee — which is fine, because "
+  "the brick never reaches the gunline.")
+P("Net: cover is a slight EDGE to me — I have better cover-mitigation (two always-on cover-punchers + a strip) "
+  "than his one Ignore-Cover stratagem per turn, and it makes my back-line Knights even harder to shoot.", size=10)
 
 # ===================================================== ROUND 1
 H("Battle Round 1", 1)
@@ -231,8 +249,10 @@ phase("Movement / Reserves.", "Cyclone Terminators Deep Strike to the Homer near
   "Brick keeps grinding to C.")
 phase("Shooting — the converged alpha into the Oathed Castellan.", "I spend 1 CP on ROTATE ION SHIELDS → that "
   "Castellan is 4++ this turn. Cyclone Terminators (Fury +1 Hit, Oath, Fusillade Lethal, Divination) ≈ 9; Land "
-  "Speeders (2 MM + stormfury, >9”, no Melta) ≈ 8. RAW ≈ 17 → 4++ shaves it to ~14. The Castellan (28 W) drops "
-  "to ~14 W — bracketed but very much alive, and STILL a 60” Volcano. This is the whole game: because the "
+  "Speeders (2 MM + stormfury, >9”, no Melta) ≈ 8. RAW ≈ 17 in the open — but my Castellan is IN COVER (−1 to "
+  "his hits: the Land Speeders eat it, the cyclones cancel it with Fury) → ~16, and Rotate’s 4++ shaves it to "
+  "~13. The Castellan (28 W) drops "
+  "to ~15 W — bracketed but very much alive, and STILL a 60” Volcano. This is the whole game: because the "
   "Sternguard died on turn 1, the ~10 unsaveable Dev Wounds simply aren’t here.")
 phase("Charge.", "The brick reaches C but there is NOTHING of mine in charge range — my Knights are a full board "
   "away in the corner, and the only nearby body is the Immolator (which I’m happy to lose). It can’t catch a "
@@ -313,7 +333,7 @@ phase("Shooting.", "Thin the Bladeguard remnant and any body near A so nothing c
   "battle. Castellans keep the brick honest but don’t waste melta on it.")
 phase("Charge / Fight.", "Positional — stay on objectives, out of the brick’s reach.")
 phase("End of my turn — Vital Link.", "End-of-turn: D + E + A (R5 resolves the non-home clause at end of turn too) "
-  "→ 4 VP + a Maintain-Control marker on E → +1. Round ≈ 5. Secondary (Behind Enemy Lines + Engage) → 6.")
+  "→ 4 VP + a Maintain-Control operation token on E → +1. Round ≈ 5. Secondary (Behind Enemy Lines + Engage) → 6.")
 tally("50", "29", "Now the end-of-battle clause is pending, and I own his home.")
 
 turnhead("▶ His Turn 5 — the last swing", FIST)
@@ -338,7 +358,7 @@ P("(Illustrative average-line tally. The margin is wider and safer than any dura
 H("Why the standoff wins where durability loses", 2)
 bullet("Kill the Sternguard T1 — same as before, but now from total safety.", bold_lead="1. ")
 P("   The gunline wipes them from the back corner. That removes ~10 unsaveable Dev Wounds and turns his ~34 "
-  "alpha into ~17 — a number a 28-wound Castellan (Rotate → 4++) simply lives through.", size=9)
+  "alpha into ~17 — and my Castellan’s cover + Rotate drop it to ~13, a number a 28-wound hull simply lives through.", size=9)
 bullet("Never enter his charge threat.", bold_lead="2. ")
 P("   His ~50-damage brick is the only thing that can reliably kill a Knight, and it never gets to. M5 can’t "
   "catch a gunline that starts and stays 40”+ away. The whole ‘proximity = dead Knight’ problem is designed out.", size=9)

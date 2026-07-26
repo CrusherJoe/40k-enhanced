@@ -23,6 +23,14 @@ buffs from different detachments STACK. This applies to MY armies too (Knights g
 detachments up to 3DP). ALWAYS check DP cost per detachment (MFM) + the game-size DP budget when list-building
 or reading an opponent's list. This is THE enabler of the "tapestry" (Rule 8) — multi-detachment buff-stacking.**
 
+**★ OBJECTIVES ARE TERRAIN, NOT MARKERS (11E, user-corrected 2026-07-26).** The 10E "objective markers" (little
+tokens) DO NOT EXIST in 11E. Each objective is a specific MARKED TERRAIN PIECE (shown on the deployment map);
+its FOOTPRINT is the scoring area. Control = more Objective Control within that footprint. Consequence: to
+contest an objective you must be INSIDE the terrain footprint (close), and terrain = cover, so **cover is
+everywhere** on GW/tournament layouts. COVER = −1 to hit, RANGED ONLY (models in/behind terrain; Knights get it
+too but it does NOTHING vs melee). Always model cover in BOTH directions when analysing a matchup. (LSO uses GW
+terrain layouts closely; I have the maps+legends; sightlines are not an issue for a back-line gunline.)
+
 1. **FORGET all 10E links + knowledge.** If a fact "feels" remembered, it's 10E-suspect → verify or discard.
    Tainted 10E scratchpad files from earlier (DO NOT USE): sm.json, orks.json, necrons.json, da.json, sal.json,
    the first if.cat/if.json (all from BSData/wh40k-10e). Clean 11e: sm11.json, if11.json (from wh40k-11e).
@@ -347,7 +355,14 @@ Champions 1/T&H). Rules STACK army-wide.
   + SPREAD, NEVER enter the brick's charge threat**: gunline sits at the BACK and deletes his SOFT ranged legs
   (Sternguard T1, then 2 Speeders + cyclone Termies by T3) from 36-60"; his M5 brick can never catch it; I
   cede the ONE central objective the OC22 brick squats and take the other 3-4 + steal his undefended home R5
-  (+10 Vital Link). Kill-Sternguard-T1 drops his T2 alpha ~34→~17 (→~14 w/ Rotate) — a 28W Castellan shrugs it.
+  (+10 Vital Link). Kill-Sternguard-T1 drops his T2 alpha ~34→~17 (→~13 w/ Rotate + my Castellan's COVER) — a
+  28W Castellan shrugs it. **COVER (user: GW terrain layouts = cover EVERYWHERE; sightlines fine for standoff):
+  −1 to hit, RANGED ONLY (Knights get it too but NOT vs the brick's melee).** MY cover-mitigation: 2 Castellans
+  have Dominus Foebreakers +1-to-hit-in-terrain = cover-immune vs his terrain-sitting army (my reliable
+  cover-punchers); Immolator Purge & Cleanse strips cover on 1 massed-fire target/turn (Sternguard T1);
+  Crusader/Helverins eat −1 into still-covered targets → point them at stripped/open units. HIS shooting into my
+  in-cover gunline is −1 (his cyclones cancel via Fury, Speeders eat it) → alpha further reduced. Net: cover
+  slightly favors ME (better mitigation + protects my Knights). His melee ignores cover but never reaches.
   MISSION: my Priority Assets vs his Purge → I play **Vital Link**, he plays **Destroyer's Wrath**. WHOLE-GAME
   SIM (v3): **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) —
   5 rounds phase-by-phase, ~60/40 Knights. Verdict: win by REFUSING the fight the wall wants, deleting what can
