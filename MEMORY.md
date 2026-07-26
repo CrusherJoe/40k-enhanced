@@ -79,6 +79,19 @@ visible behind DENSE terrain, whose unit did NOT shoot this or last turn → **-
 Passive state (not an action), INFANTRY-only (Knights excluded). Shooting this/last turn disqualifies it
 regardless of any shoot-and-stay-hidden ability. = stronger Hidden; matters for Sisters (super-safe home
 holders when not shooting) and his non-shooting infantry.
+**★ SUPER-HEAVY WALKER (24.35) vs WALKER (user-corrected 2026-07-26):** SHW is MOVEMENT-ONLY (move through
+non-TITANIC models + terrain ≤4" tall on normal/advance/fall-back moves; optional MOBILE, battle-shock on 1).
+It does NOT grant fall-back-and-shoot (I'd INVENTED that). BIG Knights (Castellan/Crusader/Lancer/etc.) have
+SHW; **ARMIGERS (Warglaive/Helverin/Moirax) have plain WALKER — NOT SHW.** ⇒ NO Knight can fall back and still
+shoot; a fell-back unit can't shoot at all. Only Valourstrike's ADVANCE-and-shoot (Assault) is legal.
+PRACTICAL: keep gun-Knights + Helverins OUT of combat (can't disengage-and-shoot; if engaged, stuck or shoot
+at −1 at only the engaging unit via 17.03 Big-Guns-style). The Warglaive is my melee-capable screen/objective
+Armiger (can FIGHT its way out). **★ DEPLOY HIDDEN (user, from experience): good players (incl Great Value, and
+ME) deploy as HIDDEN/cover-max as possible to dodge alpha strikes — esp. going 2nd.** So his soft shooters are
+NOT easy T1 targets even if 'on the board' (Hidden beyond 15"/behind obscuring, or reserved) — my alpha is
+punish-as-they-expose, not a big T1 blow. My Towering Knights can't be Hidden but DO get cover (walls); still
+minimize his firing ANGLES into them — don't over-expose to lucky anti-tank (a stray Gladiator-Lancer-type
+shot can chunk a Questoris).
 
 1. **FORGET all 10E links + knowledge.** If a fact "feels" remembered, it's 10E-suspect → verify or discard.
    Tainted 10E scratchpad files from earlier (DO NOT USE): sm.json, orks.json, necrons.json, da.json, sal.json,
