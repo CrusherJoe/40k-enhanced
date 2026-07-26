@@ -254,6 +254,16 @@ shot can chunk a Questoris).
   face, be respectable into the bad matchup, and treat knowing your worst matchup as
   intel (plan around it / hope to dodge it / accept variance), not failure.
 - Corollary: don't warp a list to patch one bad matchup at the cost of the 90% you win.
+- **★ TARGET EVENT = LSO (Lone Star Open), 300+ players (user, 2026-07-26).** Two consequences that shape ALL
+  list/plan work: (1) **BROAD field** — Swiss over 300+ means early/mid rounds are the wide, mixed field (much of
+  it winnable); I can't tune to a narrow meta, so build for ROBUSTNESS + strong fundamentals, be respectable into
+  bad matchups (per HARD COUNTERS above), and BANK the ~60% I beat. (2) **Top-cut = excellently-piloted "broken-ass
+  FILTH"** — deep rounds bring hyper-optimised netlists (the unfavourable archetypes: Necrons/T'au/DA-Ravenwing/
+  AdMech + whatever new filth) piloted OPTIMALLY. So the "expect a loss, hunt the heist" + "model the opponent at
+  their best" mindset is literal for the top tables; realistic Knight goal at a 300+ GT is a strong POSITIVE record,
+  not the win — Knights are underdogs into the filth. → List brief: field-robust core + heist flexibility (the
+  flexible-4++ Lancer, firepower-as-denial, mobility secondaries), NOT a narrow counter-build. Original impetus was
+  the friend's "Great Value" Imperial Fists list for LSO. LSO uses GW terrain layouts (see terrain notes).
 - **VERIFY 11E data every time** (units/rules/points/keyword INTERACTIONS) — don't trust
   edition-memory; **defer to MFM for points.** (See the C'tan −1 Damage and the
   TITANIC-no-Overwatch and Anti-X/Dev-Wounds corrections — all edition-memory slips.)
@@ -263,6 +273,12 @@ Verified tapestry analyses of the current competitive top tables. **Source: list
 REFERENCE-ONLY** (its robots.txt Disallows ClaudeBot + all AI crawlers, sets ai-train=no, blocks /api/; do NOT
 scrape — browse manually + paste individual lists, which is normal `use=reference`). Each verdict = the Knight
 underdog's realistic result vs an OPTIMAL pilot; heists assume Valourstrike (Rotate) + Dominus, ~1 Lancer.
+**★ SAMPLE CAVEAT (user, 2026-07-26): SMALL, EMERGING sample — 11 lists from just 2 events (~44 + ~20 players),
+and they are TOP-TABLE FINISHERS (5-0/4-1) = survivorship-biased "what's winning," NOT a representative field.
+The per-list VERDICTS below are robust (verified rules, independent of n). The META-COMPOSITION picture (which
+factions/detachments are prevalent, field-wide win rates) is UNDER-sampled and PROVISIONAL — do not treat "4/11
+are hard" as a stable prediction. More lists expected to post soon; REFRESH the map (user-directed page pull,
+reference-only) and re-weight as the sample grows.**
 
 **VERDICT TABLE (11 lists):**
 - **FAVOURABLE / even-my-way:** Custodes (Lions — "so few models", I out-OC + grind); Drukhari (Skysplinter —
