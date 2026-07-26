@@ -447,8 +447,8 @@ H("Result & why", 1)
 P("End of Battle — Vital Link:", bold=True, color=STEEL)
 P("I control his home objective A → +10 VP.", size=11)
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER; p.paragraph_format.space_before = Pt(6)
-r = p.add_run("FINAL:  Knights 84  —  Imperial Fists 40"); r.bold=True; r.font.size=Pt(15); r.font.color.rgb=STEEL
-P("Roughly: me = ~44 primary (Vital Link: a central every round + non-home objectives + the 10-VP home "
+r = p.add_run("FINAL:  Knights ~76  —  Imperial Fists ~47"); r.bold=True; r.font.size=Pt(15); r.font.color.rgb=STEEL
+P("Roughly: me = ~46 primary (Vital Link: a central MOST rounds — his OC22 brick contests one — + non-home objectives + the 10-VP home "
   "steal) + ~40 secondary (Engage, Secure No Man’s Land, Bring It Down, Behind Enemy Lines, Forward Position, "
   "Centre Ground, Cleanse — cards a mobile army completes for free). Him = ~22 primary (Destroyer’s Wrath, "
   "starved because I hold more objectives and OUT-kill him) + ~18 secondary (Defend Stronghold early, a late "

@@ -84,8 +84,9 @@ non-TITANIC models + terrain ≤4" tall on normal/advance/fall-back moves; optio
 It does NOT grant fall-back-and-shoot (I'd INVENTED that). BIG Knights (Castellan/Crusader/Lancer/etc.) have
 SHW; **ARMIGERS (Warglaive/Helverin/Moirax) have plain WALKER — NOT SHW.** ⇒ NO Knight can fall back and still
 shoot; a fell-back unit can't shoot at all. Only Valourstrike's ADVANCE-and-shoot (Assault) is legal.
-PRACTICAL: keep gun-Knights + Helverins OUT of combat (can't disengage-and-shoot; if engaged, stuck or shoot
-at −1 at only the engaging unit via 17.03 Big-Guns-style). The Warglaive is my melee-capable screen/objective
+PRACTICAL: keep gun-Knights + Helverins OUT of combat (can't disengage-and-shoot; if engaged, a VEHICLE can shoot via close-quarters
+shooting 10.06/17.03 but ONLY the unit it's engaged with, at −1, and NO [BLAST] weapons (engaged Castellan
+loses Volcano+plasma+siegebreaker) — degraded, so still keep them screened). The Warglaive is my melee-capable screen/objective
 Armiger (can FIGHT its way out). **★ DEPLOY HIDDEN (user, from experience): good players (incl Great Value, and
 ME) deploy as HIDDEN/cover-max as possible to dodge alpha strikes — esp. going 2nd.** So his soft shooters are
 NOT easy T1 targets even if 'on the board' (Hidden beyond 15"/behind obscuring, or reserved) — my alpha is
@@ -441,9 +442,14 @@ Champions 1/T&H). Rules STACK army-wide.
   ~40 VP of a ~90 game — I'd been hand-waving them. KEY ASYMMETRY: a mobile standoff completes the deck's
   objective/mobility cards for free (Behind Enemy Lines, Engage, Secure No Man's Land, Centre Ground, Forward
   Position=control-his-home which ALSO scores Vital Link +10, Bring It Down on his 2 Speeders, Cleanse action)
-  while his best cards (Bring It Down / Assassination) need to kill MY Knights (standoff denies it) and his
-  kill-cards (No Prisoners/Overwhelming Force) starve because I DELETE his soft support = I out-kill him in
-  unit-count. So the standoff wins the secondary race too (~40 vs ~18).** WHOLE-GAME
+  while his best cards (Bring It Down / Assassination) need to kill MY Knights (standoff denies it).
+  **BUT CORRECTED (user 2026-07-26 — I'd UNDER-scored him): his OC22 bricks are GOOD at OBJECTIVE-secondaries
+  (Secure No Man's Land, Centre Ground, A Tempting Target, Cleanse, Storm Hostile Objective) because durable
+  bricks hold objectives reliably — the board is SHARED so BOTH of us score objective-secondaries; plus he
+  picks up kill-cards (No Prisoners / Bring It Down) on my CHAFF (Warglaive/Immolator/Sisters), Defend Stronghold
+  early, Behind Enemy Lines late (his bricks reach my half), and Display of Might (comparable unit counts). So
+  his secondary is ~25-30, NOT ~18 — Great Value is a REAL scoring army, don't dismiss it. Honest game ≈
+  Knights ~76 vs Great Value ~48 (a clear ~28-VP win, NOT a ~50 blowout).** WHOLE-GAME
   SIM (v3): **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) —
   5 rounds phase-by-phase, ~84-40 Knights. Verdict: win by REFUSING the fight the wall wants, deleting what can
   actually hurt me from safety, and out-mobiling M5 bricks on the mission — not by out-fighting/out-tanking.
