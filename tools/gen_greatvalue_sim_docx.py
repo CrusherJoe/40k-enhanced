@@ -229,22 +229,24 @@ rich([("His deployment: ", {"bold":True,"color":FIST}),
 P("CP: 0 to start, +1 each Command phase. Secondaries: both Tactical. His danger picks — Bring It Down (my "
   "Knights are Vehicles) and Assassination (they’re Characters); but a standoff that loses few models starves both.", size=9, color=GREY)
 
-P("Objectives are TERRAIN, and cover is everywhere.", bold=True, color=STEEL)
-P("On a GW terrain layout each objective is a marked terrain piece — its footprint is the scoring area, and "
-  "almost every unit is in or behind terrain, so Benefit of Cover (−1 to hit, ranged only) is the default. "
-  "This cuts both ways, and the standoff is built to win the exchange:", size=10)
-bullet("MY fire into his covered units: my two Castellans have Dominus Foebreakers (+1 to hit units in a "
-  "terrain area) — that EXACTLY cancels cover, so they are my reliable cover-punchers (assign them the covered "
-  "priority targets). The Immolator’s Purge & Cleanse strips cover off one massed-fire target per turn (I use "
-  "it on whatever I’m wiping — Sternguard T1). The Crusader/Helverins eat −1 into still-covered targets, so I "
-  "point them at cover-stripped or open units.")
-bullet("HIS fire into my covered Knights: my gunline deploys IN terrain, so his shooting is at −1 to hit it. "
-  "His cyclone Terminators cancel that with Fury (+1 vs the Oath target) and Oath re-rolls, but his Land "
-  "Speeders eat the −1 — so his already-reduced alpha (Sternguard dead) drops further: ~16 in cover, ~13 "
-  "through Rotate Ion Shields. Cover only helps vs SHOOTING, never the brick’s melee — which is fine, because "
-  "the brick never reaches the gunline.")
-P("Net: cover is a slight EDGE to me — I have better cover-mitigation (two always-on cover-punchers + a strip) "
-  "than his one Ignore-Cover stratagem per turn, and it makes my back-line Knights even harder to shoot.", size=10)
+P("Cover, Hidden and detection range (13.08–13.11).", bold=True, color=STEEL)
+P("Benefit of Cover (13.08, −1 to hit) applies if EITHER every model is INFANTRY/BEASTS/SWARM in a terrain "
+  "area, OR every model is not fully visible behind intervening terrain. On a dense GW board almost every "
+  "shot is affected:", size=10)
+bullet("MY Knights get cover EASILY — via the second condition. A Towering Knight can be seen/targeted over "
+  "terrain, but the ruin WALLS clip its silhouette so it’s ‘not fully visible’ → benefit of cover (−1 to his "
+  "hits). Wonky, but true. So his post-Sternguard alpha into an Oathed Castellan (~17 at full BS) is a −1 "
+  "affair, and Rotate Ion Shields (4++) blunts the AP too → ~13. A 28-wound hull shrugs it. NOTE: Plunging "
+  "Fire (Towering +1 BS, 22.05) only helps within 12\" — irrelevant to my back-line guns.")
+bullet("HIS infantry get cover just by being in a terrain area → −1 into them. I cancel it with the two "
+  "Castellans (Dominus Foebreakers = +1 to hit units in terrain) and the Immolator’s Purge & Cleanse (strips "
+  "cover off one massed-fire target/turn — Sternguard T1); Crusader/Helverins point at stripped or open units.")
+bullet("HIDDEN (13.09) + OBSCURING (13.10): his INFANTRY in DENSE terrain that DIDN’T shoot this or last turn "
+  "can only be seen within 15\" (detection range); a unit fully behind an obscuring area can’t be targeted at "
+  "all. So his shooters PEEK — they must expose (not Hidden) to hurt me, and the turn they do I delete them. "
+  "His melee bricks can hide, but they’re unkillable anyway. Knights can NEVER be Hidden (VEHICLE) and are too "
+  "big to be fully obscured — always targetable, but they still get the cover −1 above. My Sisters + Navigator "
+  "CAN Hide on my home (safe beyond 15\" while they don’t shoot).")
 
 H("3. Command Points & the Movement Phase — where the game is decided", 1)
 P("Command Points (the currency).", bold=True, color=STEEL)
@@ -280,9 +282,12 @@ bullet("Navigator’s 12\" dome (Gaze into the Empyrean): no enemy Reinforcement
   "the Sisters (28%). Fix: keep the Sisters WITHIN ~3\" of the Navigator so (12−D)>9\" and no clean 9\" charge "
   "exists on either. (He also has Third Eye — battle-shock one enemy unit within 12\" in my Shooting phase.)")
 bullet("Screening geometry: every drop must be >9\" from ALL my models, so spread bodies + the dome turn huge "
-  "areas into no-drop zones. THIS is the movement-phase battle — I position to deny his reserves a landing.")
-bullet("Kiting his M5 bricks with Advance-and-still-shoot (Valourstrike) — I reposition the gunline out of his "
-  "reach without surrendering a turn of fire.")
+  "areas into no-drop zones. And even a drop that lands can’t reach me: Engagement Range is 2\" (03.04) and a "
+  "unit can’t move through my models — so a screen body a short hop in front of a Knight forces any charger to "
+  "go AROUND (extra inches it doesn’t have) or fail. THIS is the movement-phase battle — I position to deny.")
+bullet("Kiting his M5 bricks with Advance-and-still-shoot (Valourstrike). Terrain helps me here: my Knights "
+  "(VEHICLES) can’t move THROUGH dense terrain >2\" (13.06) so I path the gunline along the open lanes; his "
+  "INFANTRY cut through ruins, but they’re still M5 — I stay out of reach and shoot over the terrain (Towering).")
 bullet("Out-racing to the objectives + his home with M12 Armigers his wall can’t follow — and I can hold an "
   "Armiger in Strategic Reserves to ingress onto his home late for Forward Position / Behind Enemy Lines.")
 P("Win the Movement phase and his Shooting/Fight phases go impotent: arrivals denied, bricks never connecting, "
@@ -340,9 +345,8 @@ phase("Movement / Reserves.", "Cyclone Terminators Deep Strike to the Homer near
   "Brick keeps grinding to C.")
 phase("Shooting — the converged alpha into the Oathed Castellan.", "I spend 1 CP on ROTATE ION SHIELDS → that "
   "Castellan is 4++ this turn. Cyclone Terminators (Fury +1 Hit, Oath, Fusillade Lethal, Divination) ≈ 9; Land "
-  "Speeders (2 MM + stormfury, >9”, no Melta) ≈ 8. RAW ≈ 17 in the open — but my Castellan is IN COVER (−1 to "
-  "his hits: the Land Speeders eat it, the cyclones cancel it with Fury) → ~16, and Rotate’s 4++ shaves it to "
-  "~13. The Castellan (28 W) drops "
+  "Speeders (2 MM + stormfury, >9”, no Melta) ≈ 8 = ~17 at full BS — but my Castellan has COVER (ruin walls "
+  "clip its silhouette, −1 to his hits) and I Rotate Ion Shields (4++), dropping it to ~13. The Castellan (28 W) drops "
   "to ~15 W — bracketed but very much alive, and STILL a 60” Volcano. This is the whole game: because the "
   "Sternguard died on turn 1, the ~10 unsaveable Dev Wounds simply aren’t here.")
 phase("Charge.", "The brick reaches C but there is NOTHING of mine in charge range — my Knights are a full board "

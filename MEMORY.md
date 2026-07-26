@@ -64,7 +64,19 @@ no-Reinforcement bubble protects the NAVIGATOR (un-chargeable out of Reserves �
 ~(12-D)" from the nearest legal drop, so if D>3" an arrival lands ~9" from it and makes the 28% 9" charge into
 it (e.g. into Battle Sisters around the Navigator). FIX: tuck bodyguard/home units WITHIN ~3" of the Navigator
 so (12-D)>9" — no clean 9" charge on Navigator OR the tucked unit. Also Navigator Third Eye = battle-shock 1
-enemy unit within 12" & visible in my Shooting phase (minor tool).
+enemy unit within 12" & visible in my Shooting phase (minor tool). **★ TERRAIN VISIBILITY (Core 13.06-13.11, verified PDF pp.46-51 + user-taught 2026-07-26):** (1)
+BENEFIT OF COVER 13.08 = -1 to hit; qualifies if EVERY model is INFANTRY/BEASTS/SWARM in a terrain area OR
+'not fully visible' behind intervening/obscuring terrain. **KNIGHTS GET COVER EASILY** via clause 2 — Towering
+silhouette is clipped by ruin WALLS = not fully visible (wonky but TRUE, user-confirmed; I over-corrected to
+'no cover' — WRONG). So his shooting into my Knights is usually -1. Plunging Fire (Towering +1 BS, 22.05) only
+within 12" = irrelevant to a long-range gunline. (2) HIDDEN 13.09: INFANTRY/BEASTS/SWARM in DENSE terrain that
+didn't shoot this/last turn → only targetable within detection range (default 15"); shooting breaks it. Knights
+CAN'T be Hidden (VEHICLE, no detection range); Terminators + SISTERS can (very relevant for Sisters later). (3)
+OBSCURING 13.10 fully blocks LOS (untargetable) if every LOS crosses it. (4) ENGAGEMENT RANGE = 2" horiz/5"
+vert (03.04) — screening/charge geometry. (5) 13.06: VEHICLES/Knights can't move THROUGH dense terrain >2"
+tall (go around); INFANTRY move through freely. PENDING: 13.11.01 GONE TO GROUND (App-only, not in printed PDF;
+gdmissions.app has it but it's a JS SPA I can't scrape) — helps INFANTRY (Terminators/Sisters), not Knights;
+ASK USER for exact text.
 
 1. **FORGET all 10E links + knowledge.** If a fact "feels" remembered, it's 10E-suspect → verify or discard.
    Tainted 10E scratchpad files from earlier (DO NOT USE): sm.json, orks.json, necrons.json, da.json, sal.json,
