@@ -217,8 +217,10 @@ P("The base math is why the standoff works on OBJECTIVES too: my big Knights bas
 rich([("My deployment: ", {"bold":True,"color":STEEL}),
       ("both Castellans + the Crusader in a back-corner GUNLINE with LOS across the whole board (they never move "
        "forward). Helverins just ahead of them, also back, 36” guns covering the centre and both flanks. Battle "
-       "Sisters OC10 foot half on my home B under the Navigator’s dome; Immolator + melta half central-back. "
-       "Warglaive forward-right, ready to run at E and his home. Navigator by B.", {})])
+       "Sisters OC10 foot half on my home B, TUCKED WITHIN ~3” OF THE NAVIGATOR — see the note below; if I string "
+       "them out, an arrival that lands >12” from the Navigator can still be 9” from a forward Sister and make the "
+       "28% charge into them. Immolator + melta half central-back. Warglaive forward-right, ready to run at E and "
+       "his home. Navigator on home B.", {})])
 rich([("His deployment: ", {"bold":True,"color":FIST}),
       ("TH/SS brick centre-front; Bladeguard near C; Sternguard mid with firing lines (exposed — they must see to "
        "shoot); one Vanguard each flank; Intercessors on home A. IN RESERVE: cyclone Terminators (Deep Strike to a "
@@ -271,8 +273,12 @@ P("★ The rule that defangs all of it: a unit arriving from Deep Strike OR Rapi
   "CANNOT charge on arrival; it stands there and eats a full turn of my shooting (or I simply kite away). His "
   "reactive drops are a threat NEXT turn, and my dome + screening make sure ‘next turn’ never comes cleanly.", size=10, color=STEEL)
 P("My answer is the whole plan, and it lives in the Movement phase:", size=10)
-bullet("Navigator’s 12\" dome: no enemy set-up within 12\" (bigger than the 9\" standard) — the anti-arrival "
-  "linchpin over my scoring corner.")
+bullet("Navigator’s 12\" dome (Gaze into the Empyrean): no enemy Reinforcement set-up within 12\" of HIM. Since "
+  "a charge caps at 2D6=12\", the Navigator himself is un-chargeable out of Reserves. NUANCE (the trap): the "
+  "12\" bubble protects the Navigator, NOT loosely-placed nearby units — a Sister strung >3\" toward the enemy "
+  "is only ~9\" from the nearest legal drop, so an arrival that’s >12\" from the Navigator can still 9\"-charge "
+  "the Sisters (28%). Fix: keep the Sisters WITHIN ~3\" of the Navigator so (12−D)>9\" and no clean 9\" charge "
+  "exists on either. (He also has Third Eye — battle-shock one enemy unit within 12\" in my Shooting phase.)")
 bullet("Screening geometry: every drop must be >9\" from ALL my models, so spread bodies + the dome turn huge "
   "areas into no-drop zones. THIS is the movement-phase battle — I position to deny his reserves a landing.")
 bullet("Kiting his M5 bricks with Advance-and-still-shoot (Valourstrike) — I reposition the gunline out of his "

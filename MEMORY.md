@@ -58,7 +58,13 @@ in the Movement phase"** (user, from better players): win it by DENYING enemy re
 screening: every drop must be >8-9" from ALL my models) + KITING slow bricks + OUT-RACING to objectives —
 then the enemy's Shooting/Fight phases go impotent. His Great Value is a movement-phase list (Teleport Homers
 = 0CP Rapid Ingress, Temporal Corridor/Dropship Extraction reserve-bails, Deep Strike Speeders); my standoff
-is the movement-phase answer.
+is the movement-phase answer. **GAZE-OF-THE-EMPYREAN NUANCE (user-taught 2026-07-26):** the Navigator's 12"
+no-Reinforcement bubble protects the NAVIGATOR (un-chargeable out of Reserves — arrival >12", charge caps at
+2D6=12"), but NOT loosely-placed nearby units: a friendly model strung distance D toward the enemy is only
+~(12-D)" from the nearest legal drop, so if D>3" an arrival lands ~9" from it and makes the 28% 9" charge into
+it (e.g. into Battle Sisters around the Navigator). FIX: tuck bodyguard/home units WITHIN ~3" of the Navigator
+so (12-D)>9" — no clean 9" charge on Navigator OR the tucked unit. Also Navigator Third Eye = battle-shock 1
+enemy unit within 12" & visible in my Shooting phase (minor tool).
 
 1. **FORGET all 10E links + knowledge.** If a fact "feels" remembered, it's 10E-suspect → verify or discard.
    Tainted 10E scratchpad files from earlier (DO NOT USE): sm.json, orks.json, necrons.json, da.json, sal.json,
