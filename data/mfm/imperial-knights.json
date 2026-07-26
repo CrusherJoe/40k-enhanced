@@ -1,0 +1,137 @@
+{
+ "_notes": [
+  "Points are MFM-authoritative. Castellan added manually (missing name slot). Navigator (Agents ally, 75) is in the agents-of-the-imperium slug, not here."
+ ],
+ "detachments": {
+  "DOMINUS FOEBREAKERS": 1,
+  "FREEBLADE COMPANY": 3,
+  "GATE WARDEN LANCE": 2,
+  "QUESTOR FORGEPACT": 1,
+  "QUESTORIS COMPANIONS": 3,
+  "VALOURSTRIKE LANCE": 2
+ },
+ "enhancements": {
+  "Acquisitor-at-Arms": 15,
+  "Ancestral Overbleed (Upgrade)": 10,
+  "Archeotech Autoloaders": 25,
+  "Augury Halo": 20,
+  "Bearer of the Evanescent Ion": 15,
+  "Bearer of the Iron Chalice": 20,
+  "Bearer of the Judicant’s Helm": 25,
+  "Bearer of the Lancer’s Sigil": 25,
+  "Blessed Plate": 30,
+  "Bringer of Justice": 30,
+  "Crushing Condemnation": 10,
+  "Fables of Nightmare": 10,
+  "Gyro-optimised Actuators (Upgrade)": 15,
+  "Herald of Triumph": 15,
+  "Hunter’s Eye": 25,
+  "Knight of the Opus Machina (Aura)": 15,
+  "Magos Questoris": 20,
+  "Martial Tuition": 15,
+  "Mentor’s Pride": 20,
+  "Mysterious Guardian": 35,
+  "Pennant of Silvered Fury": 15,
+  "Purgation’s Hand": 20,
+  "Sanctuary": 20,
+  "Tales of Heroism": 10,
+  "Vengeful Tread": 15,
+  "Wyrmslayer Divination": 10
+ },
+ "slug": "imperial-knights",
+ "source": "https://mfm.warhammer-community.com/en/imperial-knights",
+ "units": {
+  "Acastus Knight Asterius": {
+   "points_additional": 860,
+   "points_first": 785
+  },
+  "Acastus Knight Porphyrion": {
+   "points_additional": 800,
+   "points_first": 725
+  },
+  "Armiger Helverin": {
+   "points_first": 140
+  },
+  "Armiger Moirax": {
+   "points_additional": 160,
+   "points_first": 150
+  },
+  "Armiger Warglaive": {
+   "points_first": 140
+  },
+  "Canis Rex": {
+   "points_first": 415
+  },
+  "Cerastus Knight Acheron": {
+   "points_additional": 395,
+   "points_first": 380
+  },
+  "Cerastus Knight Atrapos": {
+   "points_additional": 425,
+   "points_first": 405
+  },
+  "Cerastus Knight Castigator": {
+   "points_additional": 395,
+   "points_first": 380
+  },
+  "Cerastus Knight Lancer": {
+   "points_additional": 435,
+   "points_first": 415
+  },
+  "Knight Castellan": {
+   "_note": "name slot missing from fetched page; 425/450 hand-verified (user + the ▲-marked cost slots).",
+   "points_additional": 450,
+   "points_first": 425
+  },
+  "Knight Crusader": {
+   "points_additional": 415,
+   "points_first": 395,
+   "wargear": [
+    {
+     "name": "Rapid-fire battle cannon",
+     "points": 15
+    }
+   ]
+  },
+  "Knight Defender": {
+   "points_additional": 420,
+   "points_first": 400
+  },
+  "Knight Destrier": {
+   "points_additional": 280,
+   "points_first": 265
+  },
+  "Knight Errant": {
+   "points_additional": 370,
+   "points_first": 355
+  },
+  "Knight Gallant": {
+   "points_additional": 370,
+   "points_first": 355
+  },
+  "Knight Paladin": {
+   "points_additional": 390,
+   "points_first": 375
+  },
+  "Knight Preceptor": {
+   "points_additional": 380,
+   "points_first": 365
+  },
+  "Knight Valiant": {
+   "points_additional": 415,
+   "points_first": 400
+  },
+  "Knight Warden": {
+   "points_additional": 390,
+   "points_first": 375
+  },
+  "Questoris Knight Magaera": {
+   "points_additional": 400,
+   "points_first": 385
+  },
+  "Questoris Knight Styrix": {
+   "points_additional": 390,
+   "points_first": 375
+  }
+ }
+}

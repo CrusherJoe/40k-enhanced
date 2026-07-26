@@ -23,6 +23,32 @@ buffs from different detachments STACK. This applies to MY armies too (Knights g
 detachments up to 3DP). ALWAYS check DP cost per detachment (MFM) + the game-size DP budget when list-building
 or reading an opponent's list. This is THE enabler of the "tapestry" (Rule 8) — multi-detachment buff-stacking.**
 
+**★★ POINTS COME FROM THE MFM — ALWAYS (user law, 2026-07-26, after I twice used stale BSData points).** The
+Munitorum Field Manual has EVERY value: unit base costs, WARGEAR upgrades (Crusader RFBC +15 → 410), ESCALATING
+duplicate costs (Knight Castellan 1st = 425, 2nd = 450), AND enhancement costs. **BSData is STALE/unreliable for
+POINTS** (it priced Castellan 400 — wrong). Cost lists from the MFM, verify the total, then present. Don't guess
+points. (My scratchpad `mfm.html` was only the Sororitas page; the IK faction-pack PDF has datasheets but NO points
+table — get Knight points from the MFM/app.)
+
+**★★ STRATAGEMS ARE CORE TO A DETACHMENT — don't forget/dismiss them (user-corrected 2026-07-26).** They're how a
+detachment actually plays. **Rotate Ion Shields = a Valourstrike Lance 1CP stratagem: +1 to a Knight's invuln save
+vs SHOOTING (5++ → 4++) for the phase** — THE Knight durability lever in shooting matchups. (I wrongly doubted it
+because a garbled faction-pack text-grep missed it — absence of a grep hit in a PDF text-conversion ≠ absence in
+the rules. Trust the printed rules / the user over a lossy text dump.)
+
+**★★ BUILD LOCAL AUTHORITATIVE DATABASES — stop looking things up every time (user directive 2026-07-26).** Goal:
+one maintainable local source per data type, refreshed on demand. Status/plan:
+- **MFM** ✅ `tools/mfm_db.py` fetches the live SSR (mfm.warhammer-community.com/en/<slug>, browser UA) → `data/mfm/<slug>.json`
+  {units w/ escalating costs + wargear, enhancements, detachments w/ DP}. IK loaded (List A = 1,970/2000 verified from it).
+  Caveat: the live page 307-redirects bots → sometimes truncated (IK Castellan name slot was missing, patched by hand); pass a
+  complete saved page via `--src`. TODO: attachment (SUPPORT/LEADER→BODYGUARD) parsing; agents-of-the-imperium (Navigator 75).
+- **BSData** (profiles/weapons/keywords) → TODO `tools/bsdata_db.py` reading a local clone of BSData/wh40k-11e (user offered to clone/fork). Never cost lists from BSData — POINTS = MFM only.
+- **39k.pro** (stratagems, Missions, Secondaries, Disposition/Mission matrix), **rules PDF + gdmissions.app**, **deployments/maps** → TODO.
+
+**★ listhammer DATA HYGIENE: exclude lists dated BEFORE 2026-07-23 (user law).** The 7/22/2026 Dataslate reset points +
+rules; pre-7/23 GT lists (e.g. Tacoma 7/17, Edinburgh 7/18) use stale rules → NOT valid meta signal. Filter the archive by
+startDate >= 2026-07-23 for any analysis. (Current Knight meta sample = n=70 after this cut.)
+
 **★ OBJECTIVES ARE TERRAIN, NOT MARKERS (11E, user-corrected 2026-07-26).** The 10E "objective markers" (little
 tokens) DO NOT EXIST in 11E. Each objective is a specific MARKED TERRAIN PIECE (shown on the deployment map);
 its FOOTPRINT is the scoring area. Control = more Objective Control within that footprint. CONTROL/CONTEST = your model's BASE TOUCHING the terrain footprint (you do NOT have to stand ON/inside it) —
