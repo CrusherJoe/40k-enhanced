@@ -8,12 +8,18 @@ refresher for the current top-table feed.
 
 ★ IMPORTANT LIMITATION (verified 2026-07-26): listhammer only SERVER-RENDERS the ~25
   MOST-RECENT lists. `?page=N` returns the SAME 25 entries for every N (no pagination in
-  the SSR payload) — the deeper archive is fetched CLIENT-SIDE from `/api/`, which the
-  site's robots.txt Disallows for everyone. So this tool CANNOT retrieve "pages 2-4"; it
-  refreshes the recent-25 only. Because that feed ROLLS OVER as new events post, running
-  this periodically still catches genuinely new lists as they cycle into the recent set.
-  For deeper history: browse the site yourself (a human browser hitting /api/ is fine) and
-  paste lists, or ask the operator for an export.
+  the SSR payload) — the deeper archive is paged CLIENT-SIDE from
+  `/api/recentLists?page=N&gameType=40k` (25 plain-JSON records/page, totalCount ~662 as
+  of 2026-07-26), which the site's robots.txt Disallows for BOTS. So this tool never hits
+  /api/ itself. Two ways to build the dataset:
+    1. NETWORK MODE (default): refresh the SSR recent-25. That feed ROLLS OVER as events
+       post, so running periodically (see the cron in-session) accumulates new lists over
+       time with --store. Robots-clean.
+    2. --from-json (deep archive, human-fetched): YOU open /api/recentLists?page=N in your
+       OWN browser (a human hitting /api/ is fine), Save the JSON, drop the files in a dir,
+       and this ingests them losslessly into --store. Confirmed working. Same model as
+       handing over a faction-pack file — you provide the source, the tool just parses it.
+  Or ask the operator for an export.
 
 ★ POLITE-USE GUARDRAILS (listhammer.info robots.txt, checked 2026-07-26):
   - The generic policy is `Allow: /` with `Content-Signal: search=yes, ai-train=no,
@@ -45,13 +51,8 @@ def fetch(page):
         return r.read().decode("utf-8", "ignore")
 
 
-def decode_nuxt(html):
-    """Resolve Nuxt's devalue flat-array payload -> list-entry dicts."""
-    m = re.search(r'id="__NUXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-    if not m:
-        return []
-    arr = json.loads(m.group(1))
-
+def _resolve_devalue(arr):
+    """Resolve a devalue flat-array (ints = references into arr) -> list-entry dicts."""
     def R(i, depth=0, seen=None):
         seen = seen or set()
         if not isinstance(i, int) or i in seen or depth > 8:
@@ -64,11 +65,43 @@ def decode_nuxt(html):
             return [R(x, depth + 1, seen) for x in v]
         return v
 
-    out = []
-    for idx, v in enumerate(arr):
-        if isinstance(v, dict) and "listText" in v and "faction" in v:
-            out.append(R(idx))
+    return [R(idx) for idx, v in enumerate(arr)
+            if isinstance(v, dict) and "listText" in v and "faction" in v]
+
+
+def decode_nuxt(html):
+    """Resolve Nuxt's embedded __NUXT_DATA__ devalue payload -> list-entry dicts."""
+    m = re.search(r'id="__NUXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return []
+    return _resolve_devalue(json.loads(m.group(1)))
+
+
+def _find_records(obj, out=None):
+    """Recursively collect fully-formed list-record dicts from arbitrary JSON."""
+    out = [] if out is None else out
+    if isinstance(obj, dict):
+        if "listText" in obj and "faction" in obj:
+            out.append(obj)
+        else:
+            for v in obj.values():
+                _find_records(v, out)
+    elif isinstance(obj, list):
+        for v in obj:
+            _find_records(v, out)
     return out
+
+
+def load_records_from_file(path):
+    """Ingest list records from a JSON file you saved in your browser (e.g. a
+    /api/recentLists?page=N response). Handles both plain-JSON records and the
+    devalue flat-array encoding Nuxt data routes sometimes use."""
+    data = json.load(open(path))
+    recs = _find_records(data)
+    # devalue: a record whose fields are still int indices -> resolve against the array
+    if isinstance(data, list) and any(isinstance(r.get("listText"), int) for r in recs):
+        recs = _resolve_devalue(data)
+    return recs
 
 
 def parse_range(s):
@@ -94,20 +127,42 @@ def main():
     ap.add_argument("--store", default=None,
                     help="JSON archive to ACCUMULATE into (dedup by listUid). Run periodically "
                          "to build the meta dataset from the rolling recent-25 with no copy-paste.")
+    ap.add_argument("--from-json", dest="from_json", default=None,
+                    help="ingest list records from JSON file(s) you saved in your browser (e.g. a "
+                         "/api/recentLists?page=N response). Pass a file OR a directory of *.json. "
+                         "No network — the human-fetched dump is the source; merges into --store.")
     ap.add_argument("--json", action="store_true", help="emit JSON rows")
     a = ap.parse_args()
 
-    pages = list(parse_range(a.pages))
-    if any(p > MAX_PAGES for p in pages):
-        sys.exit(f"refusing pages beyond {MAX_PAGES} — this is a reference tool, not a crawler.")
+    # source of records: either human-saved JSON dumps (--from-json) or the SSR feed.
+    sources = []  # list of (label, entries)
+    if a.from_json:
+        if os.path.isdir(a.from_json):
+            files = sorted(os.path.join(a.from_json, f) for f in os.listdir(a.from_json)
+                           if f.endswith(".json"))
+        else:
+            files = [a.from_json]
+        if not files:
+            sys.exit(f"no .json files found at {a.from_json}")
+        for fp in files:
+            try:
+                sources.append((os.path.basename(fp), load_records_from_file(fp)))
+            except Exception as ex:
+                print(f"# {fp}: load failed: {ex}", file=sys.stderr)
+    else:
+        pages = list(parse_range(a.pages))
+        if any(p > MAX_PAGES for p in pages):
+            sys.exit(f"refusing pages beyond {MAX_PAGES} — this is a reference tool, not a crawler.")
+        for p in pages:
+            try:
+                sources.append((f"page {p}", decode_nuxt(fetch(p))))
+            except Exception as ex:
+                print(f"# page {p}: fetch/parse failed: {ex}", file=sys.stderr)
+            if p != pages[-1]:
+                time.sleep(DELAY_S)
 
     rows, seen = [], set()
-    for p in pages:
-        try:
-            entries = decode_nuxt(fetch(p))
-        except Exception as ex:
-            print(f"# page {p}: fetch/parse failed: {ex}", file=sys.stderr)
-            continue
+    for label, entries in sources:
         new = 0
         for e in entries:
             k = e.get("listUid") or (str(e.get("faction")), str(e.get("detachment")),
@@ -117,10 +172,8 @@ def main():
             seen.add(k)
             rows.append(e)
             new += 1
-        print(f"# page {p}: {len(entries)} entries, {new} new (running total {len(rows)})",
+        print(f"# {label}: {len(entries)} entries, {new} new (running total {len(rows)})",
               file=sys.stderr)
-        if p != pages[-1]:
-            time.sleep(DELAY_S)
 
     # ACCUMULATE: merge this pull into a growing archive keyed by listUid so periodic
     # runs build up the meta dataset from the rolling recent-25 (no copy-paste, no /api/).
@@ -165,7 +218,8 @@ def main():
               f"{str(e.get('disposition'))[:14]:15} "
               f"{e.get('wins')}-{e.get('draws')}-{e.get('losses'):<3} "
               f"{str(e.get('eventName'))[:26]}")
-    print(f"\n# {len(rows)} lists across pages {pages[0]}-{pages[-1]} "
+    src = f"from {a.from_json}" if a.from_json else f"pages {a.pages}"
+    print(f"\n# {len(rows)} lists ({src}) "
           f"(reference-only; robots: Allow /, never /api/).")
 
 
