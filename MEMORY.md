@@ -445,13 +445,18 @@ Champions 1/T&H). Rules STACK army-wide.
   objective/mobility cards for free (Behind Enemy Lines, Engage, Secure No Man's Land, Centre Ground, Forward
   Position=control-his-home which ALSO scores Vital Link +10, Bring It Down on his 2 Speeders, Cleanse action)
   while his best cards (Bring It Down / Assassination) need to kill MY Knights (standoff denies it).
-  **BUT CORRECTED (user 2026-07-26 — I'd UNDER-scored him): his OC22 bricks are GOOD at OBJECTIVE-secondaries
-  (Secure No Man's Land, Centre Ground, A Tempting Target, Cleanse, Storm Hostile Objective) because durable
-  bricks hold objectives reliably — the board is SHARED so BOTH of us score objective-secondaries; plus he
-  picks up kill-cards (No Prisoners / Bring It Down) on my CHAFF (Warglaive/Immolator/Sisters), Defend Stronghold
-  early, Behind Enemy Lines late (his bricks reach my half), and Display of Might (comparable unit counts). So
-  his secondary is ~25-30, NOT ~18 — Great Value is a REAL scoring army, don't dismiss it. Honest game ≈
-  Knights ~76 vs Great Value ~48 (a clear ~28-VP win, NOT a ~50 blowout).** WHOLE-GAME
+  **BUT CORRECTED (user 2026-07-26 — I'd UNDER-scored him): OBJECTIVE CONTROL IS EXCLUSIVE (user-corrected
+  2026-07-26): the HIGHER total OC in range controls an objective and ONLY that player scores it (checked
+  usually in the Command phase; some secondaries specify other timing) — players do NOT both hold the same
+  objective. His OC22 bricks reliably control the 1-2 objectives they SIT ON (can't out-OC a brick without
+  crowding OC23 into its charge) → he banks single-objective cards there (Cleanse/hold). BUT he has only TWO
+  slow bricks vs my 5+ mobile OC bodies, so I OUT-CONTROL the board's other objectives → *I* complete the
+  objective-secondaries (Secure No Man's Land, etc.) + DENY his (and deny his Destroyer's Wrath 'more objectives'
+  clause); I can also hand him a dead A Tempting Target by designating an objective his bricks aren't on. So his
+  secondary is moderate (~15-20, mostly kill-cards on my chaff [No Prisoners/Bring It Down on Immolator/Warglaive/
+  Sisters] + Defend Stronghold early + his 1-2 held objectives), NOT the ~28 I over-corrected to. Honest game ≈
+  Knights ~78 vs Great Value ~44 (clear ~34-VP win). Great Value is still a real army — don't dismiss it — but
+  objectives are EXCLUSIVE, so my mobility/OC-spread out-scores his 2 immovable bricks.** WHOLE-GAME
   SIM (v3): **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) —
   5 rounds phase-by-phase, ~84-40 Knights. Verdict: win by REFUSING the fight the wall wants, deleting what can
   actually hurt me from safety, and out-mobiling M5 bricks on the mission — not by out-fighting/out-tanking.

@@ -186,15 +186,25 @@ terrain feature **3"+ high**, shooting a target **within 12"** that contains
 cover's −1 BS** — so a Knight shooting a ground-level target within 12" negates
 cover at the characteristic level (net 0 before other modifiers).
 
-## Objectives & scoring
+## Objectives & scoring (14)
 
-- **Objective markers** are flat **circular 40mm** markers; a model is **within
-  range** while within **3" horizontally and 5" vertically**; measure to/from the
-  **closest part**.
-- You **control** an objective if the **total OC** of your models within range
-  **exceeds** the enemy's total OC there. Battle-shocked models have OC `-`.
-- Knights have high OC (10; damaged −5) but are few — the body/OC tradeoff drives
-  list design (see MEMORY / disposition analysis).
+- **Objectives are TERRAIN, not markers (11E).** Each objective is a marked
+  **terrain area** (14.01); a model is **within range while it is within that
+  terrain area** (only models *inside* the footprint count); measure to/from the
+  **closest part**. (10E's 40mm marker / 3" range is DEAD.)
+- **Level of Control (14.02):** at the **end of each phase AND turn**, each player
+  sums the OC of all their models within range. **The higher total controls it;
+  a TIE = neither controls** (unless secured). Control is **EXCLUSIVE** — the two
+  players never both hold the same objective, and only the controller scores for
+  it (missions/secondaries read control at their own scoring windows).
+  Battle-shocked models have OC `-` (0) — they can't help control.
+- **Secured (14.03):** a *secured* objective stays yours even with no models in
+  range, **until the opponent's level of control exceeds yours at the end of a
+  phase** (sticky, e.g. Intercessors' Objective Secured).
+- Consequence: **more mobile OC bodies out-control fewer big ones.** Two OC22
+  bricks control only the 1-2 footprints they stand in; five mobile OC10/OC6
+  Knights out-control the rest of the board. This is the body/OC tradeoff that
+  drives Knight list design (see MEMORY / disposition analysis).
 
 ## Core unit abilities (24) — as they affect Knights
 
