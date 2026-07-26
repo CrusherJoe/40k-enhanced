@@ -374,9 +374,17 @@ Champions 1/T&H). Rules STACK army-wide.
   Crusader/Helverins eat −1 into still-covered targets → point them at stripped/open units. HIS shooting into my
   in-cover gunline is −1 (his cyclones cancel via Fury, Speeders eat it) → alpha further reduced. Net: cover
   slightly favors ME (better mitigation + protects my Knights). His melee ignores cover but never reaches.
-  MISSION: my Priority Assets vs his Purge → I play **Vital Link**, he plays **Destroyer's Wrath**. WHOLE-GAME
+  MISSION: my Priority Assets vs his Purge → I play **Vital Link**, he plays **Destroyer's Wrath** — VERIFIED
+  against the GW Event Companion (scratchpad event_companion.pdf pp.33-35; my tool's mission data is CORRECT).
+  **REAL BOARD (EC pp.33-35):** 3 layouts for this pairing — A (left/right zones), B (diagonal/Crucible), C
+  (top/bottom); organiser picks/randomizes; standoff works on all (GW deliberately leaves firing lanes — user
+  confirms sightlines fine). **SIX objectives = 2 home (opposite corners) + 2 CENTRAL (middle) + 2 expansion
+  (NML)** — NOT one central. ⇒ his OC22 brick squats ONE central; I hold the OTHER central with a fast body
+  (Warglaive/Immolator) → I KEEP Vital Link's central bonuses (+2 end-turn, +4 Command) every round instead of
+  conceding them (upgrades the win). Terrain-layout footprint sizes (EC p.7): 6x4"×4, 10x2.5"×2, 6x2"×4,
+  7x11.5"×4, 8x11.5" polygon×2 (Battlefields: Armageddon set). WHOLE-GAME
   SIM (v3): **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) —
-  5 rounds phase-by-phase, ~60/40 Knights. Verdict: win by REFUSING the fight the wall wants, deleting what can
+  5 rounds phase-by-phase, ~78-39 Knights (the 2-central hold widened it). Verdict: win by REFUSING the fight the wall wants, deleting what can
   actually hurt me from safety, and out-mobiling M5 bricks on the mission — not by out-fighting/out-tanking.
 
 ## Status (2026-07-22)

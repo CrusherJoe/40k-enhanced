@@ -162,14 +162,23 @@ table(["", "Vital Link (me)", "Destroyer’s Wrath (him)"],
  ["R2+, end of turn", "—", "4 VP destroyed more than he lost last turn"],
  ["End of battle", "10 VP control his home", "—"]],
 widths=[1.6, 2.7, 2.7])
-P("The clash: his OC22 brick will squat the CENTRAL objective and deny me those central bonuses — I accept "
-  "that. I win on the NON-central objectives (4 VP), the closing 10 for his home, and secondaries, while my "
+P("The clash: his OC22 brick squats ONE central; I hold the OTHER central with a fast body, so I keep Vital "
+  "Link’s central bonuses. I win on holding a central + the non-central objectives (4 VP), the closing 10 for "
+  "his home, and secondaries, while my "
   "gunline deletes the mobile scorers he’d need to out-spread me (denying his 6-VP ‘more objectives’ clause). "
   "He farms ~3 VP/turn killing my cheap bodies — capped, and worth far less than a big Knight would have been.", size=10)
-P("Deployment — Crucible of Battle (diagonal), GW terrain layout. FIVE marked terrain-objectives (only these "
-  "score; all other terrain is just cover / movement-blocking): A = his home, B = my home, C = centre, "
-  "D/E = two expansion objectives in no-man’s-land. I win the roll-off and take the first turn (wipe his "
-  "Sternguard before he can hide them; seize objectives).", bold=True)
+P("Deployment — the ACTUAL board (GW Event Companion pp. 33–35): my Priority Assets vs his Purge the Foe → "
+  "I play VITAL LINK, he plays DESTROYER’S WRATH (confirmed against the source). The pairing has three "
+  "layouts — A (left/right zones), B (diagonal ‘Crucible’), C (top/bottom); the organiser picks or randomises. "
+  "I model LAYOUT B (diagonal) — the longest sightlines, ideal for a gunline; the plan holds on all three "
+  "(GW deliberately leaves firing lanes). SIX marked terrain-objectives (only these score; all other terrain is "
+  "cover / wall-blocking): his HOME (top-left corner) + my HOME (bottom-right corner) + TWO CENTRAL objectives "
+  "in the middle + TWO EXPANSION objectives in no-man’s-land. I win the roll-off and take the first turn (wipe "
+  "his Sternguard; seize objectives).", bold=True)
+P("★ The two-central objective is a gift: his OC22 brick can only squat ONE central. I put a fast body "
+  "(Warglaive M12 or the Immolator) on the OTHER central and HOLD it — so I collect Vital Link’s central "
+  "bonuses (+2 end-of-turn, +4 in Command) every round instead of conceding them. His two M5 bricks simply "
+  "cannot cover both centrals + two expansions + threaten my home; I win the objective count on tempo.", size=10, color=STEEL)
 P("Base sizes matter for who reaches what (control/contest = your base TOUCHING the objective’s terrain "
   "footprint — you don’t have to stand on it):", bold=True, size=9)
 bullet("Big Knight (Castellan/Crusader) — 170×105mm oval (~6.7”×4.1”): its base edge is ~3.35” from centre, so "
@@ -216,8 +225,8 @@ turnhead("▶ My Turn 1 — decapitate the ranged, seize the board", STEEL)
 phase("Command.", "Gain 1 CP. Code Chivalric vow: the objective-holding vow (a kill-tally vow is worthless vs "
   "unkillable bricks). Priority Assets scores at end of turn.")
 phase("Movement.", "The gunline DOES NOT MOVE — it already sees everything from the corner. Immolator advances to "
-  "sit on centre C (I’ll cede it later to the brick, but I bank the early central VP now). Warglaive advances "
-  "up-right toward E/D. Sisters foot half + Navigator stay on B.")
+  "base-touch the NEARER central objective (the one his brick won’t reach first) to bank central VP; the "
+  "Warglaive heads for the second central / expansion on the right. Sisters foot half + Navigator stay on home B.")
 phase("Shooting.", "WIPE THE STERNGUARD. Crusader Avenger [with Immolator’s Purge & Cleanse stripping their cover] "
   "= 18 shots → ~12 hits → S6>T4 wounds on 3+ → ~8 wounds → AP-2 → ~5 unsaved × D2 = 5 dead; one Castellan’s "
   "plasma decimator (supercharge, 6 Blast shots, +1 to hit in terrain from Dominus Foebreakers) finishes the "
@@ -281,18 +290,18 @@ tally("19", "9", "His signature turn produced ZERO kills and 4 primary. A stando
 # ===================================================== ROUND 3
 H("Battle Round 3 — delete the mobile legs", 1)
 turnhead("▶ My Turn 3 — kill the Speeders and the cyclone brick", STEEL)
-phase("Command.", "Gain 1 CP (2). Vital Link R2+: his brick squats C, so I take D + E instead → 4 VP (non-home, "
-  "no central bonus this turn — accepted).")
+phase("Command.", "Gain 1 CP (2). Vital Link R2+: his brick squats central-1, but my Warglaive holds central-2 "
+  "+ I hold an expansion → 4 VP (non-home) + 4 VP (central) = 8 VP.")
 phase("Movement.", "Gunline holds. Warglaive runs onto E and threatens toward his home. Nothing approaches the brick.")
 phase("Shooting.", "REMOVE HIS RANGED. Castellan #1 Volcano → Land Speeder #1 one-shot (~19 vs 9 W). Castellan #2 "
   "Volcano → Land Speeder #2 one-shot. BOTH SPEEDERS DEAD. Crusader Avenger + 2 Helverins (16 autocannon shots) "
   "into the cyclone Terminators (2+/4++ W3) → ~15 damage through the 4++ → ~5 Terminators dead. His entire mobile "
   "ranged threat is now one half-strength cyclone squad.")
 phase("Charge / Fight.", "None.")
-phase("End of my turn — Vital Link.", "D + E held (scored 4 at Command). End-of-turn central belongs to the brick "
-  "(0). Secondary (Bring It Down — 2 Speeders! + Behind Enemy Lines) → 6 VP.")
-tally("29", "9", "Both Speeders and half the cyclone brick gone. After next turn, NOTHING in his army can hurt a "
-  "Knight — and my Knights haven’t taken a scratch beyond one bracketed Castellan.")
+phase("End of my turn — Vital Link.", "End-of-turn: I control central-2 (Warglaive) → 2 VP. Round primary = "
+  "8 + 2 = 10. Secondary (Bring It Down — 2 Speeders! + Behind Enemy Lines) → 6 VP.")
+tally("35", "9", "Both Speeders and half the cyclone brick gone, and I’m now banking a central every turn. After "
+  "next turn NOTHING in his army can hurt a Knight — and mine are barely scratched.")
 
 turnhead("▶ His Turn 3 — squat and squeeze", FIST)
 phase("Command.", "Gain 1 CP. Oath: the bracketed Castellan (finish it) or the Warglaive threatening his home. He "
@@ -304,13 +313,13 @@ phase("Shooting.", "Cyclone remnant (~5) into the Oathed Warglaive → ~8 → Wa
 phase("Charge / Fight.", "Bladeguard try to wall D; no profitable charge into my Knights exists.")
 phase("End of his turn — Destroyer’s Wrath.", "0 destroyed → 0. Objectives: he holds C + his home A + contests "
   "D → this snapshot he may control MORE objectives than me → 6 VP + 4 VP (non-home C) = 10 VP. Secondary → 3.")
-tally("29", "22", "His one big primary turn — the OC22 brick on centre plus a contested flank. I must break the "
+tally("35", "22", "His one big primary turn — the OC22 brick on centre plus a contested flank. I must break the "
   "objective count next turn, and I have the speed to do it.")
 
 # ===================================================== ROUND 4
 H("Battle Round 4 — win the count, take his home", 1)
 turnhead("▶ My Turn 4 — out-spread the wall", STEEL)
-phase("Command.", "Gain 1 CP (2). Vital Link R2+: I hold D + E → 4 VP.")
+phase("Command.", "Gain 1 CP (2). Vital Link R2+: I hold central-2 + an expansion → 4 VP (non-home) + 4 VP (central) = 8 VP.")
 phase("Movement.", "SPREAD. Warglaive dashes onto his home A (M12 — his brick is a board away and can’t come back). "
   "The Crusader repositions using Advance-and-still-shoot (Valourstrike) to hold E while keeping its guns online. "
   "Helverins fan to cover D + centre-adjacent. Now across the board I hold B(home) + D + E + push A — more "
@@ -322,7 +331,7 @@ phase("Charge.", "Warglaive contests/holds A (his home) uncontested.")
 phase("Fight.", "—")
 phase("End of my turn — Vital Link.", "D + E (4, scored). I now hold B + D + E + A and he holds only C → I "
   "control MORE objectives, denying his 6-VP swing from here on. Secondary (Behind Enemy Lines + Engage) → 6 VP.")
-tally("39", "22", "The board has flipped: his ranged army is dead, his wall holds one square, and I’m sitting on "
+tally("51", "22", "The board has flipped: his ranged army is dead, his wall holds one square, and I’m sitting on "
   "his home for the closing 10.")
 
 turnhead("▶ His Turn 4 — nothing left but the wall", FIST)
@@ -334,12 +343,12 @@ phase("Shooting / Charge / Fight.", "With no ranged units left, he can only reac
   "Bladeguard remnant — a charge that kills it next turn at best. This turn: nothing of mine dies.")
 phase("End of his turn — Destroyer’s Wrath.", "0 destroyed → 0. Objectives: I hold more → no 6 VP; he has only "
   "C → 4 VP. Secondary → 3.")
-tally("39", "29", "His army has run out of tools. From here it’s arithmetic.")
+tally("51", "29", "His army has run out of tools. From here it’s arithmetic.")
 
 # ===================================================== ROUND 5
 H("Battle Round 5 — close it out", 1)
 turnhead("▶ My Turn 5 — lock every objective I can", STEEL)
-phase("Command.", "Gain 1 CP. Vital Link R2+: hold D + E + A → 4 VP.")
+phase("Command.", "Gain 1 CP. Vital Link R2+: hold central-2 + an expansion + his home A → 4 VP (non-home) + 4 VP (central) = 8 VP.")
 phase("Movement.", "Consolidate. Warglaive STAYS on his home A. Gunline holds B/D/E fire-lanes; Sisters never left "
   "B (home locked all game under the dome).")
 phase("Shooting.", "Thin the Bladeguard remnant and any body near A so nothing can contest his home at end of "
@@ -347,7 +356,7 @@ phase("Shooting.", "Thin the Bladeguard remnant and any body near A so nothing c
 phase("Charge / Fight.", "Positional — stay on objectives, out of the brick’s reach.")
 phase("End of my turn — Vital Link.", "End-of-turn: D + E + A (R5 resolves the non-home clause at end of turn too) "
   "→ 4 VP + a Maintain-Control operation token on E → +1. Round ≈ 5. Secondary (Behind Enemy Lines + Engage) → 6.")
-tally("50", "29", "Now the end-of-battle clause is pending, and I own his home.")
+tally("68", "29", "Now the end-of-battle clause is pending, and I own his home.")
 
 turnhead("▶ His Turn 5 — the last swing", FIST)
 phase("Command / Movement / Fight.", "He throws the Bladeguard remnant + whatever can reach at the Warglaive on A. "
@@ -356,14 +365,14 @@ phase("Command / Movement / Fight.", "He throws the Bladeguard remnant + whateve
   "after MY final positioning; on the average line I keep a model on A.")
 phase("End of his turn — Destroyer’s Wrath.", "Destroyed ~1 unit (the Warglaive) → 3 VP; objectives mostly denied "
   "→ ~4. Secondary → 3.")
-tally("50", "39", "Before the end-of-battle bonus.")
+tally("68", "39", "Before the end-of-battle bonus.")
 
 # ===================================================== RESULT
 H("Result & why", 1)
 P("End of Battle — Vital Link:", bold=True, color=STEEL)
 P("I control his home objective A → +10 VP.", size=11)
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER; p.paragraph_format.space_before = Pt(6)
-r = p.add_run("FINAL:  Knights 60  —  Imperial Fists 39"); r.bold=True; r.font.size=Pt(15); r.font.color.rgb=STEEL
+r = p.add_run("FINAL:  Knights 78  —  Imperial Fists 39"); r.bold=True; r.font.size=Pt(15); r.font.color.rgb=STEEL
 P("(Illustrative average-line tally. The margin is wider and safer than any durability build could produce, "
   "because the standoff simply never gives him the kills his mission is built to farm.)",
   italic=True, size=9, align=WD_ALIGN_PARAGRAPH.CENTER, color=GREY)
@@ -381,7 +390,7 @@ P("   Two Volcanoes one-shot both Land Speeders; Avenger + two Helverins clear t
 bullet("Deny his mission, don’t out-kill his bricks.", bold_lead="4. ")
 P("   Destroyer’s Wrath wants kills and objective-majority; a standoff that loses only cheap bodies starves the "
   "kill clauses, and killing his mobile scorers lets my fast Armigers out-spread his two M5 bricks for the "
-  "majority. I concede the one central square his OC22 brick squats and win everywhere else.", size=9)
+  "majority. I concede only the ONE central his OC22 brick squats, HOLD the other central with a fast body, and win everywhere else.", size=9)
 bullet("Steal the home the wall marched away from.", bold_lead="5. ")
 P("   His bricks advance up-field, leaving A undefended; an M12 Warglaive walks onto it for the closing +10 that "
   "his slow army can’t come back to contest.", size=9)
