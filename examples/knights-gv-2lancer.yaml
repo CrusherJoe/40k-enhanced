@@ -1,0 +1,15 @@
+# HEIST LIST A — "2 Lancer" (lean into mobile blades). vs Great Value, Layout B, Priority Assets.
+# Philosophy (user law): Knights are "always outnumbered, rarely outgunned" — expect a LOSS, steal a WIN via
+# firepower-as-denial (strip his soft OC) + MOBILITY secondaries + 2 Lancer blades (kill characters, threaten
+# his home/backfield, contest objectives, force his slow wall to react = distraction-Carnifexes). Valourstrike
+# Advance->Assault keeps all guns firing on the move.
+name: Knights heist A - 2 Lancer (Priority Assets)
+detachments: [valourstrike-lance, dominus-foebreakers]
+disposition: priority-assets
+units:
+  - {datasheet: Cerastus Knight Lancer, count: 2}                          # 2 mobile OC10 blades: M14 4++, S20 AP-3 D8 lance; kill chars, threaten home, contest, distract
+  - {datasheet: Knight Castellan, count: 1}                                # DOMINUS gun: Volcano one-shots Speeders + snipes Lysander/chars @60"; plasma anti-infantry; +1 hit vs terrain
+  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon]}  # RFBC (D6+3 shots) + Avenger A18 = anti-infantry SUBTRACTION (strip his soft OC); thermal anti-Speeder
+  - {datasheet: Armiger Helverin, count: 1}                                # backfield 36" autocannons + cheap OC body
+allies:
+  - {datasheet: Navigator, count: 1}                                       # KEPT: 12" anti-Deep-Strike dome + Hidden near-untargetable home-holder (cut the fragile Immo/Sisters)

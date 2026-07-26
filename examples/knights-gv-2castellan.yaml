@@ -1,0 +1,14 @@
+# HEIST LIST B — "2 Castellan" (lean into shooting). vs Great Value, Layout B, Priority Assets.
+# Same heist philosophy, but trades the 2nd Lancer for a 2nd Castellan: MORE firepower-as-denial (2 Volcano +
+# 2 plasma strip his soft OC faster + double character/Speeder sniping) at the cost of one mobile blade / less
+# forward OC. Valourstrike Advance->Assault keeps the guns firing while repositioning.
+name: Knights heist B - 2 Castellan (Priority Assets)
+detachments: [valourstrike-lance, dominus-foebreakers]
+disposition: priority-assets
+units:
+  - {datasheet: Knight Castellan, count: 2}                                # 2 DOMINUS guns: 2x Volcano (both Speeders + snipe chars) + 2x plasma anti-infantry; +1 hit vs terrain
+  - {datasheet: Knight Crusader, count: 1, wargear: [Rapid-fire battle cannon]}  # RFBC (D6+3) + Avenger A18 = anti-infantry subtraction; thermal anti-Speeder/Termie
+  - {datasheet: Cerastus Knight Lancer, count: 1}                          # the blade: M14 4++ D8 lance; kills chars, threatens home, contests, distracts
+  - {datasheet: Armiger Helverin, count: 1}                               # backfield 36" autocannons + cheap OC body
+allies:
+  - {datasheet: Navigator, count: 1}                                       # KEPT: anti-Deep-Strike dome + Hidden home-holder
