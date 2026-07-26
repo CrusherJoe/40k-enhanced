@@ -412,6 +412,68 @@ Champions 1/T&H). Rules STACK army-wide.
   Faction Pack, BSData Imperium-Adepta-Sororitas + opponent `.cat`s, 39k bundle. Extractors:
   tools/gen_*_sisters.py; opponent cat→JSON converter (scratchpad cat2json.py).
 
+## Sisters — FRESH BUILD (started 2026-07-26; target = OCTOBER event, post-LSO; "start fresh, data-driven")
+- **HEALTH-CHECK of the old best-sisters-allcomers.yaml vs rev-7 BSData (post-Dataslate):** still LEGAL & sound —
+  both detachments (Champions of Faith + Sacred Champions) exist; only small points moves (Imagifier 65→55;
+  Immolator 110→100 each; Sanctified Amulet 15→25 ≈ offset by Canoness base −10). List drops 1985→~1955/2000
+  (~30 freed). **Wargear taxes STILL EXIST in 11E** (do NOT assume free): Paragon MM +10, Retributor MM +5,
+  Dominion meltagun +5, flamer free. (TODO confirm Celestian Sacresants 10-model cost — extractor only saw 5-mdl=75.)
+- **★ CASTIGATORS = TAKE IN PAIRS (user law 2026-07-26).** A Castigator dies to anti-tank/heavy shooting and
+  EVAPORATES vs strong combat threats. It's not just a gun — it's the **Rites of Castigation (+1 AP) softening
+  ENGINE** in the melta-delete chain. A single one = a fragile single-point-of-failure that switches off a core
+  multiplier when it dies (the exact "kill the force-multiplier" failure mode that beats armies). Run 2 for
+  redundancy (softening stays online) + more Blast anti-horde. → fresh-build spec.
+  - **★ MAIN GUN: BATTLE CANNON > autocannons (mathhammer 2026-07-26, rev-7 profiles).** Castigator battle cannon
+    = 48" A(D6+3) S10 AP-1 D3 **[Blast, Ignores Cover]**; autocannons = 48" A4 S9 AP-1 D3 **[Twin-Linked, Rapid Fire 4]**.
+    Battle cannon wins most cells (e.g. 20-Boy blob in cover: 5.8 vs 1.8 kills at range) on TWO structural edges:
+    (1) **Ignores Cover** — autocannon eats −1-to-hit into cover, which is MOST targets in dense 11E terrain; (2)
+    **range consistency** — autocannon's 8 shots only exist ≤24" (RF4), craters to 4 shots beyond, but battle cannon
+    keeps full D6+3+Blast to 48". Autocannon ONLY wins vs UN-covered elites (Terminator/Custodes) at ≤24" (RF4+TL),
+    and only narrowly (~1.1 vs 0.9). User's "feel = autocannons" NOT supported by data. Pair option: both battle
+    cannons (double cover-proof anti-horde) or 1-and-1 if you want a dedicated ≤24" elite-hunter.
+- **Scott Ketcham's Hallowed Martyrs 7-1-0 (listhammer) = a DATA POINT to understand, NOT a net-deck to copy** —
+  he's a world-class Sisters-only specialist; build for the USER's piloting, not elite skill-dependent lines.
+- **Plan:** health-check (DONE) → re-ground the matchups in 11E (run the current-meta filth-map through the SISTERS
+  lens, replacing the old 10E-sourced boogeyman ingest) → build FRESH from the data. Reuse the 11E opponent
+  tapestries + framework built for Knights. Sisters strategic thesis (still valid): win the MISSION not the slugfest.
+- **★ SISTERS DURABILITY — corrected 2026-07-26 (I'd overstated "saveless/evaporate"; user corrected).** Core body =
+  T3 W1 **Sv3+ + army-wide 6++ (Shield of Faith keyword)**. Save vs AP: AP-1→**4+** (fail 50%), AP-2→**5+** (67%),
+  AP-3→6+ (83%), AP-4+→**6++ floor** (83%). **NEVER saveless**, and **Miracle Dice can buy a clutch save**. Two
+  consequences for matchup analysis: (1) **high-AP is WASTED on Sister chaff** — the 6++ floor makes AP-3=AP-4 vs a
+  core body, and a D6 melta into W1 is triple-overkill; so enemy railguns/melta/big-D guns are INEFFICIENT into
+  Sisters. (2) **What actually kills Sisters = AP-1/−2 VOLUME (bolters/plasma/gauss) + W1** (one dead body per
+  unsaved wound). So vs the current volume meta Sisters BLEED but don't evaporate — they survive on save-floor +
+  Miracle Dice + body count and WIN THE MISSION. Durable pieces far tougher: Sacresants 4++, Paragons T7 2+/4++,
+  Vahl T7 W8 2+, vehicles (Immolator/Castigator T10 W11 3+, no invuln). [Same "AP isn't a trap, the invuln is a
+  bad-but-real save" logic as the Knights 5++ correction — applies to the 6++ too.]
+- **★ SISTERS TAPESTRY (user law: Sisters = a FINE, dense weave — ~100 threads vs Knights' ~12; the LAYERING is the
+  list; almost every unit does 2-3 jobs). Learned by dissecting Scott Ketcham's 7-1-0 Hallowed Martyrs list (rev-7,
+  followed BSData infoLink targetIds to the shared-rules pool — the text IS there, resolve the stubs).** How elite
+  Sisters actually function — a self-reinforcing MIRACLE-DICE / MARTYRDOM engine, NOT a gunline; fragility is
+  METABOLIZED, not mitigated:
+  - **Miracle-Dice generation (4 loops → 1 pool):** (1) **Simulacrum Imperialis** (Insidiants/Sanctifiers): end of
+    Command phase, each controlled objective w/ a Simulacrum unit → D6, 4+ = a die → **holding objectives = VP AND
+    dice, same action**; (2) **martyrdom**: every destroyed Sororitas unit = 1 die (+D3 via *Saintly Example*
+    Canoness); (3) start of round = 1 die, made a **guaranteed 6** by the Triumph's *Solemn Procession*; (4) *Cherub*
+    (Sanctifiers) + Acts performed. Pool → auto-saves / auto-charges / guaranteed melta wounds / *Divine Intervention*
+    character-resurrection.
+  - **Hallowed Martyrs rule = "The Blood of Martyrs":** below Starting Strength → +1 Hit; Below Half → +1 Hit AND
+    Wound. Bloodied units hit HARDER — casualties are an offensive buff.
+  - **Triumph of Saint Katherine = the modular LOOM:** *Relics of the Matriarchs* picks **UP TO TWO auras EACH round**
+    from a menu (+2"M/+1 Adv&Chg, FNP6+, +1 melee AP, re-roll Battle-shock, re-roll ranged Wound-1s, DOUBLE Acts of
+    Faith) — re-tunes the army's buff layer to the game state — plus the guaranteed-6 die. (Under-rated it at first.)
+  - **Celestian Insidiants = serial QUARRY assassins:** *Virtue of Intolerance* — name an enemy quarry at deploy,
+    attacks vs it get **[Precision] + re-roll Hit, EVEN while embarked**; *Denuncia* re-points on kill (serial). +FNP
+    4+ vs Psychic/mortals + Anti-Psyker Dev melee. 3 units = 3 enemy characters/engines marked for deletion = the
+    Sisters "kill the force-multiplier" at scale. Also the Simulacrum dice-generators. TRIPLE-threat.
+  - **Sanctifiers** self-sustain (*Salvationist Medikit* returns D3 dead bodies/turn) + Death Cult [Precision] +
+    flamers + Simulacrum. **Ministorum Priest**: *Righteous Smiting* = led unit +1 to Wound melee; *Holy Mission* =
+    Scouts/Infiltrators to the unit (how the assassins get up the board T1); *Zealot* once-game +3 S/+3 A.
+  - **Center of gravity:** objective-control + assassination + Miracle-Dice CYCLE (Insidiants/Sanctifiers/Triumph
+    weave); Vahl + 3 Paragons = the one hard punch bolted on. Wins the MISSION via resilience-through-reliability +
+    disruption. **Build implication:** a great Sisters list layers 3-job units into compounding loops; decide whether
+    to emulate this martyrdom/board-control engine or build our own — but the DENSE-WEAVE discipline is mandatory.
+
 ## Knights META RE-VISIT (2026-07-24) — re-analysed vs the Sisters-ingested meta
 - **Bidirectional mathhammer vs the real boogeyman lists** (not abstract disposition theory).
   KEY FINDING: **anti-tank is REDUNDANT on every Knight build** (all >1.7× a Land Raider; Knights
