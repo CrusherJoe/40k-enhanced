@@ -34,6 +34,14 @@ The large PDFs are gitignored to keep the repo lean. Re-download as needed:
     Assimilation Swarm, Synaptic Nexus, Vanguard Onslaught; + Shadow in the Warp, Synapse).
     (github.com/BSData/wh40k-11e)
 
+- **Adeptus Custodes Faction Pack** (22 Jul 2026) — opponent faction (HeeYaw Game 5):
+  → `docs/custodes_faction_pack.pdf`
+  https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_adeptus_custodes-9ddgakd3ms-3azheaqd6y.pdf
+  - Custodes points: https://mfm.warhammer-community.com/en/adeptus-custodes (JS-rendered; use BSData costs).
+  - Custodes datasheets/weapons/points/detachments: BSData `Imperium - Adeptus Custodes.json`
+    (github.com/BSData/wh40k-11e — single file, no separate Library; carries costs; detachments incl.
+    Shield Host, Auric Champions, Talons of the Emperor, Null Maiden, Solar Spearhead, Lions of the Emperor).
+
 ## Live data sources (see `tools/`)
 
 - **Dispositions + Force Disposition Matrix:** https://gdmissions.app/11th/matrix

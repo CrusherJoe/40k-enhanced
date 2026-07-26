@@ -231,6 +231,20 @@ shot can chunk a Questoris).
     target priority = remove the anchor BODY, not contest the objective.** Also deepens the Ion-Shield lesson: a
     MELEE-primary army (5 Norns / Lion / DPs) bypasses my signature durability — win by shooting them off the board
     BEFORE the charge + Lancer 4++, never by tanking hits.
+- **★ ARCHETYPE — Custodes "SO FEW MODELS" elite (HeeYaw Game 5, user won 66-58 in 4 turns = a tabling-in-progress;
+  verified 2026-07-26). The INVERSE of the horde → FAVOURABLE.** Custodes bodies are tanky per-model (T6-7 **2+/4++**)
+  but only **W3-4**, and an army is only ~40 models. Their anti-Knight is THIN on both axes: shooting ≈ one **Caladius**
+  (twin arachnus 48" A4 S12 AP-3 D6+2 TL ~6/turn into a Rotated Knight); guardian spears are **S7 → wound my T11-12 on
+  5+** (negligible); melee is high-quality but **low-S (S5-7), low-count** → **cannot gang-kill a W26-28 Knight** even
+  with Lions of the Emperor (Martial Mastery crit-5+) + Martial Ka'tah stances. So: my Knights barely take damage, my
+  **anti-infantry VOLUME** (Avenger A18 / RFBC / plasma) grinds their few low-W bodies off the board (tabling), and my
+  **OC10 out-holds their OC2×few** on Purge/Disruption. **Gun discipline:** do NOT Volcano a W3 Custodian (overkill
+  waste) — volume-guns into bodies, Volcano/thermal for the Caladius + characters; Lancer **Sweep** (A10 S10 AP-2 D3,
+  wounds T6 on 2+) chews Custodes squads. Target-rich for Lancer decapitation (Blade Champion, 2 Shield-Captains).
+  (Opponent's 2nd detachment **Might of the Moritoi** is WALKER/Dreadnought-only and the list had NO walkers → it did
+  nothing; a for-fun build.) **★ TRANSFERABLE: elite-but-FEW is the mirror of the horde — quality-per-model does NOT
+  beat a durable high-OC high-firepower Knight army; I out-OC + grind it off. The armies that actually threaten me
+  have VOLUME (horde OC, or AP-3 firehoses) or UN-KILLABLE durability (C'tan) — not premium single models.**
 - **HARD COUNTERS ARE A FEATURE OF 40k, NOT A LIST FLAW.** Almost every army has a
   matchup it can't fix by tuning (e.g. **Green Tide hard-counters Knights** — 8-9 elite
   models can't out-body/out-OC 165 disposable ones; Green Tide also grinds down basically
