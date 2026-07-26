@@ -1,0 +1,162 @@
+{
+ "detachments": {
+  "CHAMPIONS OF CONTAGION": 2,
+  "CONTAGION ENGINES": 1,
+  "DEATH LORD’S CHOSEN": 2,
+  "FLYBLOWN HOST": 1,
+  "MORTARION’S HAMMER": 2,
+  "PARAGONS OF PUTRESCENCE": 1,
+  "SHAMBLEROT VECTORIUM": 2,
+  "TALLYBAND SUMMONERS": 2,
+  "VIRULENT VECTORIUM": 3
+ },
+ "enhancements": {
+  "Arch Contaminator": 25,
+  "Beckoning Blight": 20,
+  "Bilemaw Blight": 10,
+  "Cornucophagus": 35,
+  "Daemon Weapon of Nurgle": 10,
+  "Entropic Knell": 15,
+  "Eye of Affliction": 20,
+  "Face of Death": 10,
+  "Fell Harvester": 10,
+  "Final Ingredient": 20,
+  "Furnace of Plagues": 25,
+  "Helm of The Fly King": 20,
+  "Host of the Hybridised Pox": 40,
+  "Insectile Murmuration (Upgrade)": 15,
+  "Lancet of the Worldsore (Upgrade)": 15,
+  "Lord of the Walking Pox": 15,
+  "Needle of Nurgle": 25,
+  "Parasitic Woe‑reaper (Upgrade)": 15,
+  "Plagueveil (Upgrade)": 15,
+  "Rejuvenating Swarm": 20,
+  "Revolting Regeneration": 30,
+  "Shriekworm Familiar": 15,
+  "Sorrowsyphon": 10,
+  "Talisman of Burgeoning": 25,
+  "Tendrilous Emissions": 30,
+  "Tome of Bounteous Blessings": 20,
+  "Vile Vigour": 15,
+  "Visions of Virulence": 15,
+  "Warprot Talisman": 30,
+  "Witherbone Pipes": 25
+ },
+ "slug": "death-guard",
+ "source": "https://mfm.warhammer-community.com/en/death-guard",
+ "units": {
+  "Beasts Of Nurgle": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Biologus Putrifier": {
+   "points_first": 60
+  },
+  "Blightlord Terminators": {
+   "points_additional": 185,
+   "points_first": 115
+  },
+  "Chaos Land Raider": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Chaos Predator Annihilator": {
+   "points_additional": 145,
+   "points_first": 135
+  },
+  "Chaos Predator Destructor": {
+   "points_additional": 155,
+   "points_first": 145
+  },
+  "Chaos Spawn": {
+   "points_first": 80
+  },
+  "Daemon Prince Of Nurgle": {
+   "points_first": 195
+  },
+  "Daemon Prince Of Nurgle With Wings": {
+   "points_additional": 160,
+   "points_first": 170,
+   "wargear": [
+    {
+     "name": "Heavy reaper autocannon",
+     "points": 15
+    },
+    {
+     "name": "Hades lascannon",
+     "points": 15
+    }
+   ]
+  },
+  "Foetid Bloat-Drone": {
+   "points_additional": 110,
+   "points_first": 100
+  },
+  "Foul Blightspawn": {
+   "points_first": 65
+  },
+  "Great Unclean One": {
+   "points_additional": 280,
+   "points_first": 265
+  },
+  "Helbrute": {
+   "points_first": 110
+  },
+  "Icon Bearer": {
+   "points_first": 45
+  },
+  "Lord Of Contagion": {
+   "points_first": 120
+  },
+  "Lord Of Poxes": {
+   "points_first": 65
+  },
+  "Lord Of Virulence": {
+   "points_first": 100
+  },
+  "Malignant Plaguecaster": {
+   "points_first": 60
+  },
+  "Miasmic Malignifier": {
+   "points_first": 105
+  },
+  "Myphitic Blight-Haulers": {
+   "points_additional": 200,
+   "points_first": 100
+  },
+  "Noxious Blightbringer": {
+   "points_first": 60
+  },
+  "Nurglings": {
+   "points_additional": 90,
+   "points_first": 45
+  },
+  "Plague Drones": {
+   "points_additional": 220,
+   "points_first": 110
+  },
+  "Plague Surgeon": {
+   "points_first": 50
+  },
+  "Plaguebearers": {
+   "points_first": 115
+  },
+  "Plagueburst Crawler": {
+   "points_additional": 210,
+   "points_first": 185
+  },
+  "Poxwalkers": {
+   "points_additional": 130,
+   "points_first": 65
+  },
+  "Rotigus": {
+   "points_first": 280
+  },
+  "Tallyman": {
+   "points_first": 60
+  },
+  "Typhus": {
+   "points_first": 100
+  }
+ }
+}

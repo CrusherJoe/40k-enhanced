@@ -1,0 +1,97 @@
+{
+ "detachments": {
+  "ARMOURED TRAILBLAZERS": 1,
+  "BRANDFAST OATHBAND": 2,
+  "FARSEEKERS": 1,
+  "HEARTHBAND": 3,
+  "HEARTHFYRE ARSENAL": 2,
+  "HEARTHGUARD COVENANT": 1,
+  "MERCENARY OATHBAND": 2,
+  "PERSECUTION PROSPECT": 2
+ },
+ "enhancements": {
+  "Ancestral Crest": 15,
+  "Asset Manipulator": 25,
+  "Bastion Shield": 25,
+  "Calculated Tenacity": 15,
+  "Dead Reckoning": 10,
+  "Dêlvewerke Navigator": 25,
+  "Etacarn SB9 Targeting Implant": 15,
+  "Eye for Weakness": 25,
+  "Fârstrydr Node": 20,
+  "Graviton Vault": 5,
+  "High Kâhl": 30,
+  "Iron Ambassador": 5,
+  "Ironskein": 10,
+  "Mantle of Elders": 10,
+  "Mercenary Prospector": 20,
+  "Metaphysical Brokerage": 20,
+  "Multiwave System Jammer": 10,
+  "Nomad Strategist": 20,
+  "Oathbound Speculator": 30,
+  "Optimised Attack Lines (Upgrade)": 15,
+  "Pan-spectral Lockons (Upgrade)": 10,
+  "Piledriver": 15,
+  "Precursive Judgement": 15,
+  "Quake Multigenerator": 15,
+  "Quake Supervisor": 20,
+  "Shroudwërke Talismans (Upgrade)": 15,
+  "Signature Restoration": 5,
+  "Surgical Saboteur": 10,
+  "Tactical Alchemy": 10,
+  "Trivärg Cyber Implant": 40,
+  "Writ of Acquisition": 10
+ },
+ "slug": "leagues-of-votann",
+ "source": "https://mfm.warhammer-community.com/en/leagues-of-votann",
+ "units": {
+  "Arkanyst Evaluator": {
+   "points_additional": 80,
+   "points_first": 70
+  },
+  "Cthonian Beserks": {
+   "points_additional": 200,
+   "points_first": 100
+  },
+  "Cthonian Earthshakers": {
+   "points_first": 110
+  },
+  "Einhyr Champion": {
+   "points_first": 65
+  },
+  "Einhyr Hearthguard": {
+   "points_additional": 270,
+   "points_first": 130
+  },
+  "Grimnyr": {
+   "points_first": 65
+  },
+  "Hearthkyn Warriors": {
+   "points_first": 100
+  },
+  "Hekaton Land Fortress": {
+   "points_additional": 265,
+   "points_first": 250
+  },
+  "Hernkyn Pioneers": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Hernkyn Yaegirs": {
+   "points_additional": 80,
+   "points_first": 90
+  },
+  "Ironkin Steeljacks With Melee Weapons": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Kapricus Defenders": {
+   "points_additional": 130,
+   "points_first": 65
+  },
+  "Memnyr Strategist": {
+   "points_additional": 85,
+   "points_first": 45
+  }
+ }
+}

@@ -1,7 +1,4 @@
 {
- "_notes": [
-  "Points are MFM-authoritative. Castellan added manually (missing name slot). Navigator (Agents ally, 75) is in the agents-of-the-imperium slug, not here."
- ],
  "detachments": {
   "DOMINUS FOEBREAKERS": 1,
   "FREEBLADE COMPANY": 3,
@@ -79,7 +76,7 @@
    "points_first": 415
   },
   "Knight Castellan": {
-   "_note": "name slot missing from fetched page; 425/450 hand-verified (user + the ▲-marked cost slots).",
+   "_override": "name slot absent from MFM SSR; 425/450 hand-verified (live MFM + user)",
    "points_additional": 450,
    "points_first": 425
   },

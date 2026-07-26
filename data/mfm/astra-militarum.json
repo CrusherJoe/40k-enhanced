@@ -1,0 +1,258 @@
+{
+ "detachments": {
+  "ABHUMAN AUXILIARIES": 1,
+  "ARMOURED INFANTRY": 2,
+  "BRIDGEHEAD STRIKE": 1,
+  "COMBINED ARMS": 2,
+  "DESIGNATION FORCE": 1,
+  "GRIZZLED COMPANY": 3,
+  "HAMMER OF THE EMPEROR": 2,
+  "MECHANISED ASSAULT": 2,
+  "RECON ELEMENT": 3,
+  "SIEGE REGIMENT": 2,
+  "STEEL HAMMER": 2
+ },
+ "enhancements": {
+  "Abhuman Detail": 20,
+  "Aquilan Eye": 20,
+  "Assault Hatches": 25,
+  "Battalion Commander": 30,
+  "Bold Leadership": 25,
+  "Bombast-class Vox-array": 15,
+  "Calm Under Fire": 15,
+  "Death Mask of Ollanius": 10,
+  "Drill Commander": 20,
+  "Eager Advance": 20,
+  "Engine Speaker": 15,
+  "Exemplar of Duty (Upgrade)": 10,
+  "Exemplary Officer": 20,
+  "Flash Grenades": 20,
+  "Grand Strategist": 15,
+  "Guerrilla Honours": 25,
+  "Indomitable Steed": 15,
+  "Laud Hailer": 10,
+  "Legacy Sidearm": 10,
+  "Long-range Scout (Upgrade)": 10,
+  "Master Manoeuvrist": 15,
+  "Omnissian Unguents": 35,
+  "Priority Drop Beacon": 25,
+  "Reactive Command": 15,
+  "Recon Star (Upgrade)": 10,
+  "Regimental Banner": 20,
+  "Sacred Unguents": 10,
+  "Scare Gas Grenades": 5,
+  "Sharp Eyes (Upgrade)": 10,
+  "Smoke Grenades": 10,
+  "Spec Ops Veteran": 15,
+  "Stalwart’s Honours": 15,
+  "Survival Gear": 5,
+  "Titan Killer": 20,
+  "Tripwires": 20,
+  "Vanguard Honours": 15,
+  "Veteran Crew": 20
+ },
+ "slug": "astra-militarum",
+ "source": "https://mfm.warhammer-community.com/en/astra-militarum",
+ "units": {
+  "Aegis Defence Line": {
+   "points_first": 145
+  },
+  "Armoured Sentinels": {
+   "points_additional": 120,
+   "points_first": 65
+  },
+  "Artillery Team": {
+   "points_first": 95
+  },
+  "Attilan Rough Riders": {
+   "points_additional": 120,
+   "points_first": 60
+  },
+  "Avenger Strike Fighter": {
+   "points_first": 130
+  },
+  "Basilisk": {
+   "points_additional": 135,
+   "points_first": 115
+  },
+  "Bullgryn Squad": {
+   "points_additional": 200,
+   "points_first": 90
+  },
+  "Cadian Castellan": {
+   "points_first": 55
+  },
+  "Cadian Heavy Weapons Squad": {
+   "points_first": 65
+  },
+  "Cadian Recon Squad": {
+   "points_first": 80
+  },
+  "Cadian Shock Troops": {
+   "points_additional": 145,
+   "points_first": 75
+  },
+  "Catachan Command Squad": {
+   "points_first": 60
+  },
+  "Catachan Heavy Weapons Squad": {
+   "points_first": 65
+  },
+  "Catachan Jungle Fighters": {
+   "points_additional": 145,
+   "points_first": 75
+  },
+  "Commissar": {
+   "points_first": 30
+  },
+  "Commissar Graves": {
+   "points_first": 125
+  },
+  "Commissar Graves On Foot": {
+   "points_first": 65
+  },
+  "Cyclops Demolition Vehicle": {
+   "points_additional": 45,
+   "points_first": 40
+  },
+  "Death Korps Of Krieg": {
+   "points_additional": 145,
+   "points_first": 75
+  },
+  "Death Riders": {
+   "points_additional": 110,
+   "points_first": 60
+  },
+  "Deathstrike": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Field Ordnance Battery": {
+   "points_first": 90,
+   "wargear": [
+    {
+     "name": "Bombast field gun",
+     "points": 10
+    }
+   ]
+  },
+  "Gaunt’S Ghosts": {
+   "points_first": 95
+  },
+  "Hellhound": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Hippogriff Afv": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Hydra": {
+   "points_first": 90
+  },
+  "Krieg Combat Engineers": {
+   "points_additional": 95,
+   "points_first": 65
+  },
+  "Krieg Heavy Weapons Squad": {
+   "points_first": 60,
+   "wargear": [
+    {
+     "name": "Krieg heavy flamer",
+     "points": 5
+    }
+   ]
+  },
+  "Leman Russ Battle Tank": {
+   "points_additional": 195,
+   "points_first": 185,
+   "wargear": [
+    {
+     "name": "Demolisher battle cannon",
+     "points": 15
+    }
+   ]
+  },
+  "Leman Russ Eradicator": {
+   "points_additional": 180,
+   "points_first": 170
+  },
+  "Leman Russ Executioner": {
+   "points_additional": 180,
+   "points_first": 170
+  },
+  "Leman Russ Exterminator": {
+   "points_additional": 190,
+   "points_first": 180
+  },
+  "Leman Russ Punisher": {
+   "points_additional": 160,
+   "points_first": 150
+  },
+  "Leman Russ Vanquisher": {
+   "points_additional": 160,
+   "points_first": 150
+  },
+  "Lord Marshal Dreir": {
+   "points_first": 75
+  },
+  "Lord Solar Leontus": {
+   "points_first": 130
+  },
+  "Manticore": {
+   "points_additional": 170,
+   "points_first": 150
+  },
+  "Ministorum Priest": {
+   "points_first": 35
+  },
+  "Nork Deddog": {
+   "points_first": 60
+  },
+  "Ogryn Bodyguard": {
+   "points_first": 40
+  },
+  "Ogryn Squad": {
+   "points_additional": 120,
+   "points_first": 60
+  },
+  "Primaris Psyker": {
+   "points_first": 60
+  },
+  "Ratlings": {
+   "points_additional": 100,
+   "points_first": 60
+  },
+  "Rogal Dorn Battle Tank": {
+   "points_additional": 275,
+   "points_first": 260
+  },
+  "Rogal Dorn Commander": {
+   "points_additional": 305,
+   "points_first": 290
+  },
+  "Scout Sentinels": {
+   "points_additional": 100,
+   "points_first": 55
+  },
+  "Sly Marbo": {
+   "points_additional": 75,
+   "points_first": 55
+  },
+  "Tech-Priest Enginseer": {
+   "points_additional": 75,
+   "points_first": 45
+  },
+  "Ursula Creed": {
+   "points_first": 85
+  },
+  "Valkyrie": {
+   "points_additional": 180,
+   "points_first": 170
+  },
+  "Wyvern": {
+   "points_additional": 115,
+   "points_first": 95
+  }
+ }
+}

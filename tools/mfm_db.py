@@ -32,6 +32,17 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
 OUT_DIR = "data/mfm"
 RAW_DIR = "data/mfm/raw"
 
+# Hand-verified corrections for known parser gaps (applied after every parse, so
+# they survive dataslate refreshes). Keep this small + documented — each entry is
+# a case the SSR doesn't emit cleanly. Re-verify against the live MFM when points move.
+OVERRIDES = {
+    # The Knight Castellan's NAME slot is absent from the IK SSR (its 425/450 cost
+    # slots render, but not the name). Verified vs the live MFM + user, 2026-07-26.
+    "imperial-knights": {"Knight Castellan": {
+        "points_first": 425, "points_additional": 450,
+        "_override": "name slot absent from MFM SSR; 425/450 hand-verified (live MFM + user)"}},
+}
+
 # faction slug list (extend as needed; all follow /en/<slug>)
 SLUGS = [
     "adepta-sororitas", "adeptus-custodes", "adeptus-mechanicus", "aeldari",
@@ -115,6 +126,7 @@ def build(slug, src=None):
     with open(os.path.join(RAW_DIR, slug + ".html"), "w", encoding="utf-8") as fh:
         fh.write(h)
     units, enh, dets = parse_units(h), parse_enhancements(h), parse_detachments(h)
+    units.update(OVERRIDES.get(slug, {}))  # durable hand-verified corrections
     db = {"slug": slug, "source": BASE.format(slug),
           "units": units, "enhancements": enh, "detachments": dets}
     os.makedirs(OUT_DIR, exist_ok=True)

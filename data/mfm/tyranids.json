@@ -1,0 +1,227 @@
+{
+ "detachments": {
+  "AMBUSH PREDATORS": 1,
+  "ASSIMILATION SWARM": 2,
+  "CRUSHER STAMPEDE": 2,
+  "INVASION FLEET": 3,
+  "SUBTERRANEAN ASSAULT": 3,
+  "SYNAPTIC NEXUS": 2,
+  "TALONS OF THE NORN QUEEN": 1,
+  "UNENDING SWARM": 2,
+  "VANGUARD ONSLAUGHT": 2,
+  "WARRIOR BIOFORM ONSLAUGHT": 1
+ },
+ "enhancements": {
+  "Adaptive Biology": 25,
+  "Adrenalised Onslaught": 15,
+  "Alien Cunning": 30,
+  "Biophagic Flow": 10,
+  "Chameleonic": 15,
+  "Cryptophotaic Camouflage (Upgrade)": 15,
+  "Destabilising Predation (Upgrade)": 20,
+  "Elevated Might": 30,
+  "Encircling Horrors (Upgrade)": 20,
+  "Enraged Reserves": 20,
+  "Instinctive Defence": 15,
+  "Monstrous Nemesis": 25,
+  "Naturalised camouflage": 30,
+  "Neuronode": 20,
+  "Null Nodules": 10,
+  "Ocular Adaptation": 20,
+  "Ominous Presence": 15,
+  "Parasitic Biomorphology": 25,
+  "Perfectly Adapted": 15,
+  "Piercing Talons": 25,
+  "Power of the Hive Mind": 10,
+  "Psychostatic Disruption (Aura)": 30,
+  "Regenerating Monstrosity": 20,
+  "Relentless Hunger": 20,
+  "Stalker": 10,
+  "Synaptic Control": 20,
+  "Synaptic Linchpin": 20,
+  "Synaptic Strategy": 15,
+  "Synaptoprescience (Upgrade)": 25,
+  "The Dirgeheart of Kharis": 15,
+  "Tremor Senses": 20,
+  "Trygon Prime": 20,
+  "Vanguard Intellect": 15
+ },
+ "slug": "tyranids",
+ "source": "https://mfm.warhammer-community.com/en/tyranids",
+ "units": {
+  "Barbgaunts": {
+   "points_additional": 110,
+   "points_first": 55
+  },
+  "Biovores": {
+   "points_additional": 100,
+   "points_first": 60
+  },
+  "Broodlord": {
+   "points_first": 80
+  },
+  "Carnifexes": {
+   "points_additional": 180,
+   "points_first": 90
+  },
+  "Deathleaper": {
+   "points_first": 80
+  },
+  "Exocrine": {
+   "points_additional": 150,
+   "points_first": 140
+  },
+  "Gargoyles": {
+   "points_additional": 155,
+   "points_first": 80
+  },
+  "Genestealers": {
+   "points_additional": 140,
+   "points_first": 75
+  },
+  "Harpy": {
+   "points_first": 185
+  },
+  "Harridan": {
+   "points_additional": 660,
+   "points_first": 610
+  },
+  "Haruspex": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Hierophant": {
+   "points_additional": 910,
+   "points_first": 810
+  },
+  "Hive Crone": {
+   "points_first": 170
+  },
+  "Hive Guard": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Hive Tyrant": {
+   "points_first": 195
+  },
+  "Hormagaunts": {
+   "points_additional": 120,
+   "points_first": 70
+  },
+  "Hyperadapted Raveners": {
+   "points_additional": 175,
+   "points_first": 165
+  },
+  "Lictor": {
+   "points_additional": 190,
+   "points_first": 60
+  },
+  "Mawloc": {
+   "points_first": 135
+  },
+  "Mucolid Spores": {
+   "points_additional": 60,
+   "points_first": 30
+  },
+  "Neurogaunts": {
+   "points_additional": 90,
+   "points_first": 45
+  },
+  "Neurolictor": {
+   "points_additional": 90,
+   "points_first": 80
+  },
+  "Norn Assimilator": {
+   "points_additional": 270,
+   "points_first": 250
+  },
+  "Norn Emissary": {
+   "points_additional": 270,
+   "points_first": 250
+  },
+  "Old One Eye": {
+   "points_first": 140
+  },
+  "Parasite Of Mortrex": {
+   "points_first": 70
+  },
+  "Psychophage": {
+   "points_first": 110
+  },
+  "Pyrovores": {
+   "points_additional": 65,
+   "points_first": 45
+  },
+  "Raveners": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Ripper Swarms": {
+   "points_additional": 40,
+   "points_first": 30
+  },
+  "Screamer-Killer": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Spore Mines": {
+   "points_additional": 110,
+   "points_first": 55
+  },
+  "Sporocyst": {
+   "points_first": 145
+  },
+  "Termagants": {
+   "points_additional": 110,
+   "points_first": 60
+  },
+  "Tervigon": {
+   "points_first": 160
+  },
+  "The Red Terror": {
+   "points_first": 130
+  },
+  "The Swarmlord": {
+   "points_first": 210
+  },
+  "Trygon": {
+   "points_first": 140
+  },
+  "Tyranid Prime With Lash Whip": {
+   "points_first": 75
+  },
+  "Tyranid Warriors With Melee Bio-Weapons": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Tyrannofex": {
+   "points_additional": 190,
+   "points_first": 180,
+   "wargear": [
+    {
+     "name": "Acid spray",
+     "points": 10
+    },
+    {
+     "name": "Rupture cannon",
+     "points": 20
+    }
+   ]
+  },
+  "Tyrant Guard": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Venomthropes": {
+   "points_additional": 110,
+   "points_first": 55
+  },
+  "Winged Hive Tyrant": {
+   "points_first": 185
+  },
+  "Winged Tyranid Prime": {
+   "points_additional": 200,
+   "points_first": 65
+  }
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "detachments": {
+  "BIOSANCTIC BROODSURGE": 2,
+  "BROOD BROTHERS AUXILIA": 2,
+  "FINAL DAY": 2,
+  "HEROES OF THE UPRISING": 1,
+  "HOST OF ASCENSION": 3,
+  "OUTLANDER CLAW": 2,
+  "PURESTRAIN BROODSWARM": 1,
+  "XENOCREED CONGREGATION": 2,
+  "XENOCULT MASSES": 1
+ },
+ "enhancements": {
+  "A Chink In Their Armour": 20,
+  "Adaptive Reprisal": 15,
+  "Alien Majesty": 15,
+  "Assassination Edict": 15,
+  "Assault Commando": 15,
+  "Biomorph Adaptation": 25,
+  "Cartographic Data-leech": 10,
+  "Contraband Munitions": 20,
+  "Deeds that Speak to the Masses": 25,
+  "Denunciator of Tyrants": 25,
+  "Devious Disguises (Upgrade)": 15,
+  "Enraptured Damnation": 10,
+  "Fire-point Commander": 10,
+  "Gene-sire’s Reliquant": 5,
+  "Gene-tailored Toxins": 35,
+  "Incendiary Inspiration": 15,
+  "Inhuman Integration": 20,
+  "Inspired to Greatness": 15,
+  "Mark of the Star Children (Upgrade)": 30,
+  "Martial Espionage": 25,
+  "Mutagenic Regeneration": 10,
+  "Our Time is Nigh": 20,
+  "Predatory Instincts": 20,
+  "Prowling Agitant": 15,
+  "Serpentine Tactics": 10,
+  "Starfall Shells": 10,
+  "Synaptic Auger": 15,
+  "Talons of the Sire": 15,
+  "The Hero Returned": 20,
+  "Vanguard Tyrant": 25
+ },
+ "slug": "genestealer-cults",
+ "source": "https://mfm.warhammer-community.com/en/genestealer-cults",
+ "units": {
+  "Abominant": {
+   "points_additional": 95,
+   "points_first": 85
+  },
+  "Achilles Ridgerunners": {
+   "points_additional": 160,
+   "points_first": 95,
+   "wargear": [
+    {
+     "name": "Heavy mining laser",
+     "points": 10
+    }
+   ]
+  },
+  "Acolyte Hybrids With Autopistols": {
+   "points_additional": 130,
+   "points_first": 70
+  },
+  "Acolyte Iconward": {
+   "points_additional": 160,
+   "points_first": 50
+  },
+  "Benefictus": {
+   "points_first": 75
+  },
+  "Biophagus": {
+   "points_first": 50
+  },
+  "Clamavus": {
+   "points_first": 50
+  },
+  "Goliath Rockgrinder": {
+   "points_additional": 130,
+   "points_first": 120
+  },
+  "Jackal Alphus": {
+   "points_first": 55
+  },
+  "Kelermorph": {
+   "points_first": 60
+  },
+  "Locus": {
+   "points_first": 35
+  },
+  "Magus": {
+   "points_additional": 70,
+   "points_first": 50
+  },
+  "Nexos": {
+   "points_first": 60
+  },
+  "Patriarch": {
+   "points_first": 80
+  },
+  "Primus": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Sanctus": {
+   "points_first": 65
+  }
+ }
+}

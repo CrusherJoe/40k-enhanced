@@ -1,0 +1,123 @@
+{
+ "detachments": {
+  "CARNIVAL OF EXCESS": 2,
+  "COTERIE OF THE CONCEITED": 3,
+  "COURT OF THE PHOENICIAN": 2,
+  "ELEGANT BRUTES": 1,
+  "FRENZIED HOST": 1,
+  "MERCURIAL HOST": 2,
+  "PEERLESS BLADESMEN": 2,
+  "RAPID EVISCERATION": 2,
+  "SLAANESH’S CHOSEN": 2,
+  "SPECTACLE OF SLAUGHTER": 1
+ },
+ "enhancements": {
+  "Accomplished Tactician": 35,
+  "Beguiling Grotesquerie (Upgrade)": 15,
+  "Blinding Speed": 25,
+  "Cacophonic Accompaniment": 20,
+  "Dark Blessings": 10,
+  "Distortion": 25,
+  "Eager Patrons (Upgrade)": 20,
+  "Eager to Prove": 15,
+  "Empyric Suffusion": 15,
+  "Euphoric Crown": 20,
+  "Exalted Patron": 15,
+  "Faultless Opportunist": 15,
+  "Frenzied Ferocity (Upgrade)": 15,
+  "Heretek Adept": 35,
+  "Howling Plate": 20,
+  "Intoxicating Musk": 20,
+  "Loathsome Dexterity": 10,
+  "Pledge of Dark Glory": 25,
+  "Pledge of Eternal Servitude": 25,
+  "Pledge of Mortal Pain": 15,
+  "Pledge of Unholy Fortune": 30,
+  "Possessed Blade": 25,
+  "Proud and Vainglorious": 20,
+  "Repulsed by Weakness": 25,
+  "Rise to the Challenge": 30,
+  "Slayer of Champions": 15,
+  "Soulstain Made Manifest": 15,
+  "Spearhead Striker": 20,
+  "Spiritsliver": 20,
+  "Steeped in Suffering": 20,
+  "Sublime Prescience": 25,
+  "Tactical Perfection": 15,
+  "Tears of the Phoenix": 25,
+  "Warp Walker": 30
+ },
+ "slug": "emperors-children",
+ "source": "https://mfm.warhammer-community.com/en/emperors-children",
+ "units": {
+  "Chaos Land Raider": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Chaos Spawn": {
+   "points_first": 70
+  },
+  "Chaos Terminators": {
+   "points_first": 145
+  },
+  "Daemon Prince Of Slaanesh": {
+   "points_additional": 185,
+   "points_first": 170
+  },
+  "Daemon Prince Of Slaanesh With Wings": {
+   "points_additional": 235,
+   "points_first": 205,
+   "wargear": [
+    {
+     "name": "Heavy reaper autocannon",
+     "points": 15
+    },
+    {
+     "name": "Hades lascannon",
+     "points": 15
+    }
+   ]
+  },
+  "Daemonettes": {
+   "points_first": 90
+  },
+  "Fiends": {
+   "points_additional": 180,
+   "points_first": 90
+  },
+  "Flawless Blades": {
+   "points_additional": 190,
+   "points_first": 95
+  },
+  "Heldrake": {
+   "points_first": 175
+  },
+  "Infractors": {
+   "points_additional": 160,
+   "points_first": 85
+  },
+  "Keeper Of Secrets": {
+   "points_additional": 270,
+   "points_first": 255
+  },
+  "Lord Exultant": {
+   "points_additional": 90,
+   "points_first": 80
+  },
+  "Lord Kakophonist": {
+   "points_first": 70
+  },
+  "Noise Marines": {
+   "points_additional": 160,
+   "points_first": 145
+  },
+  "Seekers": {
+   "points_additional": 155,
+   "points_first": 80
+  },
+  "Tormentors": {
+   "points_additional": 160,
+   "points_first": 80
+  }
+ }
+}

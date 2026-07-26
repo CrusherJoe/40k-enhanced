@@ -1,0 +1,125 @@
+{
+ "detachments": {
+  "BASTIONS OF TYRANNY": 1,
+  "HELHUNT LANCE": 2,
+  "HOUNDPACK LANCE": 2,
+  "HUNTING WARPACK": 1,
+  "ICONOCLAST FIEFDOM": 1,
+  "INFERNAL LANCE": 3,
+  "LORDS OF DREAD": 2,
+  "TRAITORIS LANCE": 2
+ },
+ "enhancements": {
+  "Aspect of the Beast": 30,
+  "Bestial Aspect": 30,
+  "Blade of Celerity": 35,
+  "Blasphemous Engine": 35,
+  "Blessing of the Dark Master": 20,
+  "Cruel Lashmaster (Aura)": 25,
+  "Final Howl": 20,
+  "Fleshmetal Fusion": 35,
+  "Hate-filled Dominion": 20,
+  "Hunter’s Helm": 15,
+  "Iconoclast Idol (Aura)": 20,
+  "Knight Diabolus": 25,
+  "Loping Predator": 10,
+  "Malevolent Heraldry": 30,
+  "Mirror of Fates": 30,
+  "Nightmare’s Master": 20,
+  "Octagram of Conjuration": 40,
+  "Panoply of the Cursed Knights": 15,
+  "Preyslayer’s Mantle": 15,
+  "Pterrorshade Rookery": 20,
+  "Putrid Carapace": 30,
+  "Snarling Rivalry (Upgrade)": 10,
+  "Soul-spoor Auspicator (Upgrade)": 15,
+  "Throne Mechanicum of Skulls": 25,
+  "Throne Tyrannicus": 25,
+  "Tyrant’s Shadow": 25,
+  "Veil of Medrengard": 35,
+  "Warp-borne Stalker": 25
+ },
+ "slug": "chaos-knights",
+ "source": "https://mfm.warhammer-community.com/en/chaos-knights",
+ "units": {
+  "Chaos Acastus Knight Asterius": {
+   "points_additional": 860,
+   "points_first": 785
+  },
+  "Chaos Acastus Knight Porphyrion": {
+   "points_additional": 800,
+   "points_first": 725
+  },
+  "Chaos Cerastus Knight Acheron": {
+   "points_additional": 385,
+   "points_first": 370
+  },
+  "Chaos Cerastus Knight Atrapos": {
+   "points_additional": 415,
+   "points_first": 395
+  },
+  "Chaos Cerastus Knight Castigator": {
+   "points_additional": 385,
+   "points_first": 370
+  },
+  "Chaos Cerastus Knight Lancer": {
+   "points_additional": 415,
+   "points_first": 395
+  },
+  "Chaos Questoris Knight Magaera": {
+   "points_additional": 390,
+   "points_first": 375
+  },
+  "Chaos Questoris Knight Styrix": {
+   "points_additional": 380,
+   "points_first": 365
+  },
+  "Knight Abominant": {
+   "points_additional": 370,
+   "points_first": 355
+  },
+  "Knight Desecrator": {
+   "points_additional": 370,
+   "points_first": 355
+  },
+  "Knight Despoiler": {
+   "points_additional": 400,
+   "points_first": 380,
+   "wargear": [
+    {
+     "name": "Despoiler gatling cannon",
+     "points": 25
+    },
+    {
+     "name": "Despoiler battle cannon",
+     "points": 15
+    }
+   ]
+  },
+  "Knight Rampager": {
+   "points_additional": 380,
+   "points_first": 365
+  },
+  "Knight Ruinator": {
+   "points_additional": 355,
+   "points_first": 340
+  },
+  "Knight Tyrant": {
+   "points_additional": 420,
+   "points_first": 400
+  },
+  "War Dog Brigand": {
+   "points_first": 140
+  },
+  "War Dog Executioner": {
+   "points_first": 130
+  },
+  "War Dog Karnivore": {
+   "points_first": 155
+  },
+  "War Dog Moirax": {
+   "points_additional": 160,
+   "points_first": 150
+  }
+ }
+}

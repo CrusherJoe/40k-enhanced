@@ -1,0 +1,154 @@
+{
+ "detachments": {
+  "AURIC CHAMPIONS": 2,
+  "LIONS OF THE EMPEROR": 2,
+  "MIGHT OF THE MORITOI": 1,
+  "NULL MAIDEN VIGIL": 2,
+  "SHIELD HOST": 2,
+  "SILENT HUNTERS": 1,
+  "SOLAR SPEARHEAD": 2,
+  "TALONS OF THE EMPEROR": 3,
+  "THARANATOI HAMMERBLOW": 1
+ },
+ "enhancements": {
+  "Adamantine Talisman": 25,
+  "Aegis Projector": 20,
+  "Augury Uplink": 35,
+  "Auramite Sarcophagus (Upgrade)": 15,
+  "Auric Mantle": 15,
+  "Blade Imperator": 25,
+  "Castellan’s Mark": 20,
+  "Champion of the Imperium": 25,
+  "Efficient Aggression": 25,
+  "Encircling Hunter": 15,
+  "Enhanced Voidsheen Cloak": 10,
+  "Fierce Conqueror": 15,
+  "Gift of Terran Artifice": 15,
+  "Honoured Fallen": 15,
+  "Huntress’ Eye": 15,
+  "Inspirational Exemplar": 10,
+  "Interred Expertise (Upgrade)": 25,
+  "Martial Philosopher": 30,
+  "Mnemo-locked Shrine Cipher": 25,
+  "Oblivion Knight": 25,
+  "Panoptispex": 5,
+  "Praesidius": 25,
+  "Psyk-out Grenades (Upgrade)": 10,
+  "Radiant Mantle": 30,
+  "Raptor Blade": 5,
+  "Superior Creation": 25,
+  "Veiled Blade": 25,
+  "Veteran of the Kataphraktoi": 10
+ },
+ "slug": "adeptus-custodes",
+ "source": "https://mfm.warhammer-community.com/en/adeptus-custodes",
+ "units": {
+  "Agamatus Custodians": {
+   "points_additional": 450,
+   "points_first": 225
+  },
+  "Allarus Custodians": {
+   "points_additional": 165,
+   "points_first": 110
+  },
+  "Aquilon Custodians": {
+   "points_additional": 390,
+   "points_first": 195
+  },
+  "Ares Gunship": {
+   "points_additional": 610,
+   "points_first": 580
+  },
+  "Blade Champion": {
+   "points_additional": 125,
+   "points_first": 110
+  },
+  "Caladius Grav-Tank": {
+   "points_additional": 225,
+   "points_first": 210,
+   "wargear": [
+    {
+     "name": "Twin arachnus heavy blaze cannon",
+     "points": 15
+    }
+   ]
+  },
+  "Contemptor-Achillus Dreadnought": {
+   "points_additional": 170,
+   "points_first": 155
+  },
+  "Contemptor-Galatus Dreadnought": {
+   "points_additional": 180,
+   "points_first": 165
+  },
+  "Coronus Grav-Carrier": {
+   "points_additional": 200,
+   "points_first": 180
+  },
+  "Custodian Guard": {
+   "points_additional": 215,
+   "points_first": 170
+  },
+  "Knight-Centura": {
+   "points_first": 55
+  },
+  "Orion Assault Dropship": {
+   "points_additional": 740,
+   "points_first": 690
+  },
+  "Pallas Grav-Attack": {
+   "points_first": 100
+  },
+  "Prosecutors": {
+   "points_additional": 50,
+   "points_first": 45
+  },
+  "Sagittarum Custodians": {
+   "points_first": 225
+  },
+  "Shield-Captain": {
+   "points_additional": 130,
+   "points_first": 110
+  },
+  "Shield-Captain On Dawneagle Jetbike": {
+   "points_first": 140
+  },
+  "Telemon Heavy Dreadnought": {
+   "points_additional": 245,
+   "points_first": 225
+  },
+  "Trajann Valoris": {
+   "points_first": 135
+  },
+  "Valerian": {
+   "points_additional": 160,
+   "points_first": 110,
+   "wargear": [
+    {
+     "name": "Venatari lance",
+     "points": 5
+    }
+   ]
+  },
+  "Venerable Contemptor Dreadnought": {
+   "points_additional": 185,
+   "points_first": 170
+  },
+  "Venerable Land Raider": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Vertus Praetors": {
+   "points_additional": 215,
+   "points_first": 145
+  },
+  "Vigilators": {
+   "points_additional": 55,
+   "points_first": 50
+  },
+  "Witchseekers": {
+   "points_additional": 55,
+   "points_first": 50
+  }
+ }
+}

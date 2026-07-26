@@ -1,0 +1,108 @@
+{
+ "detachments": {
+  "BERZERKER WARBAND": 3,
+  "BRAZEN ENGINES": 1,
+  "BUTCHERS OF KHORNE": 1,
+  "CULT OF BLOOD": 2,
+  "GORETRACK ONSLAUGHT": 2,
+  "KHORNE DAEMONKIN": 2,
+  "POSSESSED SLAUGHTERBAND": 2,
+  "VESSELS OF WRATH": 1
+ },
+ "enhancements": {
+  "Aggressive Deployment": 20,
+  "Battle-lust": 20,
+  "Berzerker Glaive": 35,
+  "Blade of Endless Bloodshed": 30,
+  "Blood-Forged Armour": 20,
+  "Brazen Form": 25,
+  "Butcher Lord": 10,
+  "Chosen of the Blood God": 15,
+  "Disciple of Khorne": 15,
+  "Favoured of Khorne": 20,
+  "Frenzied Focus": 20,
+  "Gateways to Glory": 10,
+  "Helm of Brazen Ire": 30,
+  "Icon of War": 25,
+  "Infernal Infusion": 25,
+  "Killing Clarity": 15,
+  "Malicious Vigour": 30,
+  "Murder-forged Entity (Upgrade)": 15,
+  "Murderous Onslaught": 5,
+  "Sanctified in Slaughter (Upgrade)": 15,
+  "Strategic Slaughter": 20,
+  "Talons of Butchery (Upgrade)": 20,
+  "Unleash Hell": 10,
+  "Violent Demise": 10
+ },
+ "slug": "world-eaters",
+ "source": "https://mfm.warhammer-community.com/en/world-eaters",
+ "units": {
+  "Bloodletters": {
+   "points_first": 90
+  },
+  "Bloodthirster": {
+   "points_additional": 335,
+   "points_first": 320
+  },
+  "Chaos Land Raider": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Chaos Spawn": {
+   "points_first": 95
+  },
+  "Daemon Prince Of Khorne": {
+   "points_first": 200
+  },
+  "Daemon Prince Of Khorne With Wings": {
+   "points_additional": 270,
+   "points_first": 170,
+   "wargear": [
+    {
+     "name": "Hades lascannon",
+     "points": 15
+    },
+    {
+     "name": "Heavy reaper autocannon",
+     "points": 15
+    },
+    {
+     "name": "Ectoplasma cannon",
+     "points": 5
+    }
+   ]
+  },
+  "Flesh Hounds": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Goremongers": {
+   "points_first": 75
+  },
+  "Helbrute": {
+   "points_first": 120
+  },
+  "Heldrake": {
+   "points_first": 175
+  },
+  "Jakhals": {
+   "points_additional": 130,
+   "points_first": 65
+  },
+  "Khorne Lord Of Skulls": {
+   "points_additional": 535,
+   "points_first": 505
+  },
+  "Master Of Executions": {
+   "points_first": 60
+  },
+  "Skarbrand": {
+   "points_first": 315
+  },
+  "Slaughterbound": {
+   "points_additional": 95,
+   "points_first": 100
+  }
+ }
+}

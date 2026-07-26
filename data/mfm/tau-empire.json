@@ -1,0 +1,194 @@
+{
+ "detachments": {
+  "ADVANCED ACQUISITION CADRE": 1,
+  "AUXILIARY CADRE": 1,
+  "EXPERIMENTAL PROTOTYPE CADRE": 1,
+  "KAUYON": 2,
+  "KROOT HUNTING PACK": 2,
+  "MONT’KA": 3,
+  "RETALIATION CADRE": 3
+ },
+ "enhancements": {
+  "Admired Leader": 20,
+  "Borthrod Gland": 15,
+  "Coordinated Exploitation": 30,
+  "Exemplar of the Kauyon": 20,
+  "Exemplar of the Mont’ka": 10,
+  "Internal Grenade Racks": 20,
+  "Kroothawk Flock": 10,
+  "Negation Emitters (Upgrade)": 15,
+  "Nomadic Hunter": 20,
+  "Plasma Accelerator Rifle": 20,
+  "Precision of the Patient Hunter": 15,
+  "Prototype Weapon System": 15,
+  "Puretide Engram Neurochip": 15,
+  "Root-carved Weapons": 10,
+  "Solid-image Projection Unit": 20,
+  "Starflare Ignition System": 20,
+  "Strategic Conqueror": 15,
+  "Strike Swiftly": 35,
+  "Student of Kauyon": 20,
+  "Supernova Launcher": 15,
+  "Thermoneutronic Projector": 15,
+  "Through Unity, Devastation": 30,
+  "Unmasking Suite (Upgrade)": 15
+ },
+ "slug": "tau-empire",
+ "source": "https://mfm.warhammer-community.com/en/tau-empire",
+ "units": {
+  "Ax-1-0 Tiger Shark": {
+   "points_additional": 375,
+   "points_first": 315
+  },
+  "Breacher Team": {
+   "points_additional": 75,
+   "points_first": 90,
+   "wargear": [
+    {
+     "name": "High-yield missile pods",
+     "points": 5
+    }
+   ]
+  },
+  "Commander In Coldstar Battlesuit": {
+   "points_first": 95
+  },
+  "Commander In Enforcer Battlesuit": {
+   "points_first": 80
+  },
+  "Commander Shadowsun": {
+   "points_first": 100
+  },
+  "Crisis Fireknife Battlesuits": {
+   "points_additional": 110,
+   "points_first": 100,
+   "wargear": [
+    {
+     "name": "Missile pod",
+     "points": 5
+    }
+   ]
+  },
+  "Crisis Starscythe Battlesuits": {
+   "points_additional": 100,
+   "points_first": 90,
+   "wargear": [
+    {
+     "name": "T&#x27;au flamer",
+     "points": 5
+    }
+   ]
+  },
+  "Crisis Sunforge Battlesuits": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Darkstrider": {
+   "points_additional": 85,
+   "points_first": 60
+  },
+  "Ethereal": {
+   "points_first": 50
+  },
+  "Firesight Team": {
+   "points_additional": 150,
+   "points_first": 55,
+   "wargear": [
+    {
+     "name": "Cyclic Ion Raker",
+     "points": 15
+    }
+   ]
+  },
+  "Kroot Carnivores": {
+   "points_additional": 130,
+   "points_first": 65
+  },
+  "Kroot Farstalkers": {
+   "points_additional": 85,
+   "points_first": 75
+  },
+  "Kroot Flesh Shaper": {
+   "points_first": 45
+  },
+  "Kroot Hounds": {
+   "points_additional": 65,
+   "points_first": 45
+  },
+  "Kroot Lone-Spear": {
+   "points_first": 80
+  },
+  "Kroot Trail Shaper": {
+   "points_first": 50
+  },
+  "Kroot War Shaper": {
+   "points_first": 60
+  },
+  "Krootox Rampagers": {
+   "points_additional": 170,
+   "points_first": 85
+  },
+  "Krootox Riders": {
+   "points_additional": 60,
+   "points_first": 45
+  },
+  "Leader": {
+   "points_first": 50
+  },
+  "Manta": {
+   "points_additional": 100,
+   "points_first": 85,
+   "wargear": [
+    {
+     "name": "Ion rifle",
+     "points": 5
+    }
+   ]
+  },
+  "Piranhas": {
+   "points_additional": 110,
+   "points_first": 65
+  },
+  "Razorshark Strike Fighter": {
+   "points_additional": 190,
+   "points_first": 160,
+   "wargear": [
+    {
+     "name": "Ion accelerator",
+     "points": 25
+    }
+   ]
+  },
+  "Sky Ray Gunship": {
+   "points_first": 140
+  },
+  "Stealth Battlesuits": {
+   "points_additional": 110,
+   "points_first": 100
+  },
+  "Strike Team": {
+   "points_first": 70
+  },
+  "Sun Shark Bomber": {
+   "points_first": 150
+  },
+  "Ta’Unar Supremacy Armour": {
+   "points_additional": 890,
+   "points_first": 790
+  },
+  "Tidewall Droneport": {
+   "points_first": 85
+  },
+  "Tidewall Gunrig": {
+   "points_first": 90
+  },
+  "Tidewall Shieldline": {
+   "points_additional": 20,
+   "points_first": 85
+  },
+  "Vespid Stingwings": {
+   "points_additional": 115,
+   "points_first": 70
+  }
+ }
+}

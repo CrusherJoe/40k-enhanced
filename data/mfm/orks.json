@@ -1,0 +1,242 @@
+{
+ "detachments": {
+  "BLITZ BRIGADE": 2,
+  "BULLY BOYZ": 2,
+  "DA BIG HUNT": 2,
+  "DREAD MOB": 2,
+  "EQUATORIAL HORDES": 1,
+  "FREEBOOTER KREW": 2,
+  "GREEN TIDE": 3,
+  "KULT OF SPEED": 2,
+  "TAKTIKAL BRIGADE": 1,
+  "WAR HORDE": 3
+ },
+ "enhancements": {
+  "Big Gob": 20,
+  "Bionik Workshop": 15,
+  "Blitzkaptin": 25,
+  "Bloodthirsty Belligerence": 15,
+  "Boarding Ramps (Upgrade)": 10,
+  "Brutal But Kunnin’": 25,
+  "Da Biggest Boss": 15,
+  "Da Gobshot Thunderbuss": 15,
+  "Da Kaptin": 10,
+  "Dakkamek": 25,
+  "Dead Shiny Shootas (Upgrade)": 15,
+  "Fasta Than Yooz": 35,
+  "Ferocious Show Off": 10,
+  "Follow Me Ladz": 25,
+  "Git-Spotter Squig": 20,
+  "Gitfinder Gogglez": 10,
+  "Glory Hog": 30,
+  "Headwoppa’s Killchoppa": 20,
+  "Kunnin’ But Brutal": 15,
+  "Kustom Shokk Box": 10,
+  "Master Meknologist": 20,
+  "Mork’s Kunnin’": 20,
+  "Press It Fasta!": 35,
+  "Proper Killy": 15,
+  "Raucous Warcaller": 20,
+  "Razgit’s Magik Map": 25,
+  "Runnin’ Boots": 10,
+  "Skrag Every Stash!": 25,
+  "Slippery Git": 15,
+  "Smoky Gubbinz": 15,
+  "Speed Makes Right": 25,
+  "Squig-hide Tyres": 15,
+  "Supa-Burny Fuel": 15,
+  "Supa-Cybork Body": 15,
+  "Supa-glowy Fing": 20,
+  "Supercharged Squig Oil": 10,
+  "Surly as a Squiggoth": 20,
+  "Targetin’ Gizmos (Upgrade)": 15,
+  "Tellyporta": 25,
+  "Tuff Git": 5,
+  "Wazblasta": 10,
+  "’Eadstompa": 10
+ },
+ "slug": "orks",
+ "source": "https://mfm.warhammer-community.com/en/orks",
+ "units": {
+  "Bannernob": {
+   "points_first": 50
+  },
+  "Battlewagon": {
+   "points_first": 145,
+   "wargear": [
+    {
+     "name": "ard case",
+     "points": 15
+    }
+   ]
+  },
+  "Beast Snagga Boyz": {
+   "points_additional": 170,
+   "points_first": 90
+  },
+  "Beastboss": {
+   "points_first": 80
+  },
+  "Beastboss On Squigosaur": {
+   "points_first": 95
+  },
+  "Big Mek": {
+   "points_additional": 115,
+   "points_first": 70
+  },
+  "Big Mek In Mega Armour": {
+   "points_additional": 70,
+   "points_first": 80
+  },
+  "Bigboss": {
+   "points_first": 55
+  },
+  "Big’Ed Bossbunka": {
+   "points_first": 135
+  },
+  "Blitza-Bommer": {
+   "points_first": 105
+  },
+  "Boomdakka Snazzwagon": {
+   "points_first": 70
+  },
+  "Boss Snikrot": {
+   "points_additional": 75,
+   "points_first": 75
+  },
+  "Breaka Boyz": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Burna Boyz": {
+   "points_additional": 120,
+   "points_first": 60
+  },
+  "Burna-Bommer": {
+   "points_first": 115
+  },
+  "Dakkajet": {
+   "points_first": 125
+  },
+  "Deff Dread": {
+   "points_additional": 120,
+   "points_first": 110
+  },
+  "Deffkilla Wartrike": {
+   "points_first": 70
+  },
+  "Deffkoptas": {
+   "points_additional": 140,
+   "points_first": 75
+  },
+  "Flash Gitz": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Gargantuan Squiggoth": {
+   "points_additional": 490,
+   "points_first": 440
+  },
+  "Ghazghkull Thraka": {
+   "points_first": 235
+  },
+  "Gorkanaut": {
+   "points_additional": 275,
+   "points_first": 255
+  },
+  "Gretchin": {
+   "points_additional": 45,
+   "points_first": 45
+  },
+  "Hunta Rig": {
+   "points_first": 125
+  },
+  "Kill Rig": {
+   "points_first": 145
+  },
+  "Killa Kans": {
+   "points_additional": 240,
+   "points_first": 120
+  },
+  "Kommandos": {
+   "points_first": 120
+  },
+  "Kustom Boosta-Blasta": {
+   "points_first": 70
+  },
+  "Lootas": {
+   "points_additional": 100,
+   "points_first": 50
+  },
+  "Meganobz": {
+   "points_additional": 90,
+   "points_first": 60
+  },
+  "Megatrakk Scrapjet": {
+   "points_additional": 55,
+   "points_first": 75
+  },
+  "Mek Gunz": {
+   "points_additional": 90,
+   "points_first": 45
+  },
+  "Morkanaut": {
+   "points_additional": 290,
+   "points_first": 270
+  },
+  "Mozrog Skragbad": {
+   "points_first": 125
+  },
+  "Nobz": {
+   "points_additional": 210,
+   "points_first": 105
+  },
+  "Rukkatrukk Squigbuggy": {
+   "points_first": 85
+  },
+  "Shokkjump Dragsta": {
+   "points_first": 70
+  },
+  "Squighog Boyz": {
+   "points_additional": 270,
+   "points_first": 140
+  },
+  "Stompa": {
+   "points_additional": 700,
+   "points_first": 600
+  },
+  "Stormboyz": {
+   "points_additional": 130,
+   "points_first": 65
+  },
+  "Tankbustas": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Warbikers": {
+   "points_additional": 120,
+   "points_first": 60
+  },
+  "Warboss In Mega Armour": {
+   "points_first": 80
+  },
+  "Wartrakk": {
+   "points_first": 60
+  },
+  "Wazbom Blastajet": {
+   "points_first": 165
+  },
+  "Wazdakka Gutsmek": {
+   "points_first": 175
+  },
+  "Weirdboy": {
+   "points_first": 65
+  },
+  "Wurrboy": {
+   "points_first": 60
+  },
+  "Zodgrod Wortsnagga": {
+   "points_first": 80
+  }
+ }
+}

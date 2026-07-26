@@ -1,0 +1,134 @@
+{
+ "detachments": {
+  "ARMY OF FAITH": 2,
+  "BRINGERS OF FLAME": 2,
+  "CHAMPIONS OF FAITH": 2,
+  "CHORUS OF CONDEMNATION": 1,
+  "HALLOWED MARTYRS": 3,
+  "PENITENT HOST": 2,
+  "SACRED CHAMPIONS": 1,
+  "SANCTIFIED ORATORS": 1
+ },
+ "enhancements": {
+  "Blade of Saint Ellynor": 15,
+  "Chaplet of Sacrifice": 25,
+  "Clarion of Urgency": 15,
+  "Divine Aspect": 5,
+  "Eyes of the Oracle": 10,
+  "Fire and Fury": 30,
+  "Hagiomnifex (Upgrade)": 25,
+  "Iron Surplice of Saint Istalela": 10,
+  "Litanies of Faith": 10,
+  "Mantle of Ophelia": 20,
+  "Manual of Saint Griselda": 20,
+  "Mark of Devotion": 30,
+  "Perfervid Haste": 10,
+  "Righteous Rage": 15,
+  "Saintly Example": 10,
+  "Sanctified Amulet": 25,
+  "Symphonic Payload (Upgrade)": 10,
+  "Through Suffering, Strength": 25,
+  "Triptych of Judgement": 15,
+  "Triptych of the Macharian Crusade": 20,
+  "Verse of Holy Piety": 15,
+  "Writ of Compunction (Upgrade)": 20
+ },
+ "slug": "adepta-sororitas",
+ "source": "https://mfm.warhammer-community.com/en/adepta-sororitas",
+ "units": {
+  "Aestred Thurga And Agathae Dolan": {
+   "points_first": 80
+  },
+  "Arco-Flagellants": {
+   "points_additional": 140,
+   "points_first": 50
+  },
+  "Battle Sisters Squad": {
+   "points_first": 100
+  },
+  "Canoness": {
+   "points_first": 60
+  },
+  "Castigator": {
+   "points_additional": 175,
+   "points_first": 165
+  },
+  "Celestian Insidiants": {
+   "points_additional": 75,
+   "points_first": 120
+  },
+  "Daemonifuge": {
+   "points_first": 85
+  },
+  "Dialogus": {
+   "points_first": 40
+  },
+  "Dogmata": {
+   "points_first": 45,
+   "wargear": [
+    {
+     "name": "Meltagun",
+     "points": 5
+    }
+   ]
+  },
+  "Exorcist": {
+   "points_additional": 220,
+   "points_first": 180,
+   "wargear": [
+    {
+     "name": "Twin multi-melta",
+     "points": 15
+    }
+   ]
+  },
+  "Leader": {
+   "points_first": 75
+  },
+  "Ministorum Priest": {
+   "points_first": 50
+  },
+  "Mortifiers": {
+   "points_additional": 130,
+   "points_first": 70
+  },
+  "Palatine": {
+   "points_first": 50
+  },
+  "Paragon Warsuits": {
+   "points_additional": 190,
+   "points_first": 180,
+   "wargear": [
+    {
+     "name": "Multi-melta",
+     "points": 10
+    }
+   ]
+  },
+  "Penitent Engines": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Retributor Squad": {
+   "points_additional": 115,
+   "points_first": 105,
+   "wargear": [
+    {
+     "name": "Multi-melta",
+     "points": 5
+    }
+   ]
+  },
+  "Saint Celestine": {
+   "points_first": 150
+  },
+  "Sanctifiers": {
+   "points_additional": 75,
+   "points_first": 110
+  },
+  "Triumph Of Saint Katherine": {
+   "points_additional": 85,
+   "points_first": 245
+  }
+ }
+}

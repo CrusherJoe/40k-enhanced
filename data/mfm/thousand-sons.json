@@ -1,0 +1,142 @@
+{
+ "detachments": {
+  "CHANGEHOST OF DECEIT": 2,
+  "GRAND COVEN": 3,
+  "HEXWARP THRALLBAND": 3,
+  "RITUAL OF REGENERATION": 1,
+  "RUBRICAE PHALANX": 3,
+  "SEKHETAR COHORT": 1,
+  "SERVANTS OF CHANGE": 1,
+  "WARPFORGED CABAL": 2,
+  "WARPMELD PACT": 2
+ },
+ "enhancements": {
+  "Arcane Might": 20,
+  "Arcane Thralls": 5,
+  "Biomechanical Mutation": 15,
+  "Bray Lord": 15,
+  "Curse of Life": 20,
+  "Diabolic Savant": 20,
+  "Diamond of Distortion": 20,
+  "Duplicitous Malediction": 15,
+  "Eldritch Vortex of E’Taph": 35,
+  "Empowered Manifestation": 20,
+  "Empyric Onslaught": 25,
+  "Eruption of Vitality": 35,
+  "Flowing Flesh": 10,
+  "Incandaeum": 15,
+  "Lord of Forbidden Lore": 20,
+  "Lord of the Rubricae": 15,
+  "Nethershriek Mind-Eater": 10,
+  "Noctilith Mantle": 15,
+  "Occulus Infernum": 20,
+  "Perplexing Cloak": 20,
+  "Risen Rubricae": 30,
+  "Stave Abominus": 20,
+  "Thicket of Bladed Bone (Upgrade)": 10,
+  "Tome of True Names": 20,
+  "Umbralefic Crystal": 20,
+  "Unravelled Fates": 15,
+  "Walking Rampart": 30,
+  "Warp Syphon": 5,
+  "Warp-Cursed Runemaster": 10,
+  "Warpmeld Dagger": 10
+ },
+ "slug": "thousand-sons",
+ "source": "https://mfm.warhammer-community.com/en/thousand-sons",
+ "units": {
+  "Ahriman": {
+   "points_first": 100
+  },
+  "Blue Horrors": {
+   "points_first": 90
+  },
+  "Chaos Land Raider": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Chaos Spawn": {
+   "points_first": 65
+  },
+  "Chaos Vindicator": {
+   "points_additional": 195,
+   "points_first": 185
+  },
+  "Daemon Prince Of Tzeentch": {
+   "points_first": 170
+  },
+  "Daemon Prince Of Tzeentch With Wings": {
+   "points_additional": 180,
+   "points_first": 170,
+   "wargear": [
+    {
+     "name": "Hades lascannon",
+     "points": 15
+    },
+    {
+     "name": "Heavy reaper autocannon",
+     "points": 15
+    }
+   ]
+  },
+  "Exalted Sorcerer": {
+   "points_first": 90
+  },
+  "Exalted Sorcerer On Disc Of Tzeentch": {
+   "points_first": 90
+  },
+  "Flamers": {
+   "points_additional": 130,
+   "points_first": 65
+  },
+  "Forgefiend": {
+   "points_additional": 145,
+   "points_first": 135,
+   "wargear": [
+    {
+     "name": "Ectoplasma cannon",
+     "points": 5
+    }
+   ]
+  },
+  "Helbrute": {
+   "points_first": 110
+  },
+  "Heldrake": {
+   "points_first": 175
+  },
+  "Infernal Master": {
+   "points_first": 95
+  },
+  "Magnus The Red": {
+   "points_first": 455
+  },
+  "Maulerfiend": {
+   "points_additional": 130,
+   "points_first": 120
+  },
+  "Mutalith Vortex Beast": {
+   "points_additional": 190,
+   "points_first": 170
+  },
+  "Pink Horrors": {
+   "points_first": 115
+  },
+  "Rubric Marines": {
+   "points_additional": 190,
+   "points_first": 100
+  },
+  "Screamers": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Sorcerer In Terminator Armour": {
+   "points_additional": 105,
+   "points_first": 95
+  },
+  "Tzaangors": {
+   "points_additional": 145,
+   "points_first": 75
+  }
+ }
+}

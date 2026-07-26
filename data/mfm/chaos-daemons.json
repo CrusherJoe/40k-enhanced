@@ -1,0 +1,201 @@
+{
+ "detachments": {
+  "BLOOD LEGION": 2,
+  "CAVALCADE OF CHAOS": 1,
+  "DAEMONIC INCURSION": 3,
+  "LEGION OF EXCESS": 2,
+  "LORDS OF THE WARP": 1,
+  "PLAGUE LEGION": 2,
+  "SCINTILLATING LEGION": 2,
+  "SHADOW LEGION": 2,
+  "WARPTIDE": 1
+ },
+ "enhancements": {
+  "Apocalyptic Steeds (Upgrade)": 10,
+  "Avatar of Perfection": 15,
+  "A’rgath, The King of Blades": 20,
+  "Bane-forged Weapons (Upgrade)": 15,
+  "Brazenmaw": 15,
+  "Cankerblight": 15,
+  "Dreaming Crown": 30,
+  "Droning Shroud": 35,
+  "Fade to Darkness": 30,
+  "False Majesty": 30,
+  "Font of Spores": 20,
+  "Fury’s Cage": 20,
+  "Gateway Unto Damnation": 10,
+  "Improbable Shield": 30,
+  "Leaping Shadows": 25,
+  "Maggot Maws": 15,
+  "Malice Made Manifest": 25,
+  "Mantle of Gloom": 20,
+  "Slaughterthirst": 25,
+  "Soul Glutton": 10,
+  "Soul-hungry Slaughterers (Upgrade)": 10,
+  "Soul-shattering Charge (Upgrade)": 10,
+  "Soulstealer": 15,
+  "Swollen with Power (Upgrade)": 10,
+  "The Endless Gift": 30,
+  "The Everstave": 25
+ },
+ "slug": "chaos-daemons",
+ "source": "https://mfm.warhammer-community.com/en/chaos-daemons",
+ "units": {
+  "Be’Lakor": {
+   "points_additional": 95,
+   "points_first": 390
+  },
+  "Bloodletters": {
+   "points_first": 110
+  },
+  "Bloodmaster": {
+   "points_first": 65
+  },
+  "Bloodthirster": {
+   "points_additional": 335,
+   "points_first": 320
+  },
+  "Blue Horrors": {
+   "points_first": 125
+  },
+  "Burning Chariot": {
+   "points_first": 115
+  },
+  "Changecaster": {
+   "points_first": 60
+  },
+  "Contorted Epitome": {
+   "points_first": 100
+  },
+  "Daemon Prince Of Chaos": {
+   "points_first": 165
+  },
+  "Daemon Prince Of Chaos With Wings": {
+   "points_first": 190
+  },
+  "Daemonettes": {
+   "points_first": 90
+  },
+  "Epidemius": {
+   "points_first": 80
+  },
+  "Exalted Flamer": {
+   "points_first": 65
+  },
+  "Fateskimmer": {
+   "points_first": 95
+  },
+  "Feculent Gnarlmaw": {
+   "points_first": 100
+  },
+  "Fiends": {
+   "points_additional": 180,
+   "points_first": 90
+  },
+  "Flamers": {
+   "points_additional": 130,
+   "points_first": 65
+  },
+  "Flesh Hounds": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Great Unclean One": {
+   "points_additional": 280,
+   "points_first": 265
+  },
+  "Hellflayers": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Horticulous Slimux": {
+   "points_first": 120
+  },
+  "Infernal Enrapturess": {
+   "points_additional": 305,
+   "points_first": 60
+  },
+  "Karanak": {
+   "points_first": 70
+  },
+  "Keeper Of Secrets": {
+   "points_additional": 270,
+   "points_first": 255
+  },
+  "Nurglings": {
+   "points_additional": 90,
+   "points_first": 45
+  },
+  "Pink Horrors": {
+   "points_first": 150
+  },
+  "Plague Drones": {
+   "points_additional": 220,
+   "points_first": 110
+  },
+  "Plaguebearers": {
+   "points_first": 115
+  },
+  "Poxbringer": {
+   "points_first": 55
+  },
+  "Rendmaster On Blood Throne": {
+   "points_additional": 170,
+   "points_first": 150
+  },
+  "Rotigus": {
+   "points_first": 280
+  },
+  "Screamers": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Seekers": {
+   "points_additional": 155,
+   "points_first": 80
+  },
+  "Skarbrand": {
+   "points_first": 315
+  },
+  "Skull Altar": {
+   "points_first": 105
+  },
+  "Skull Cannon": {
+   "points_first": 90
+  },
+  "Skullmaster": {
+   "points_first": 85
+  },
+  "Skulltaker": {
+   "points_first": 85
+  },
+  "Sloppity Bilepiper": {
+   "points_first": 55
+  },
+  "Soul Grinder": {
+   "points_additional": 195,
+   "points_first": 180
+  },
+  "Spoilpox Scrivener": {
+   "points_first": 60
+  },
+  "Syll’Esske": {
+   "points_first": 120
+  },
+  "The Blue Scribes": {
+   "points_first": 75
+  },
+  "The Changeling": {
+   "points_first": 105
+  },
+  "The Masque Of Slaanesh": {
+   "points_first": 95
+  },
+  "Tormentbringer": {
+   "points_first": 135
+  },
+  "Tranceweaver": {
+   "points_first": 60
+  }
+ }
+}

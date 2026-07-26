@@ -1,0 +1,168 @@
+{
+ "detachments": {
+  "ARGENT ASSAULT": 1,
+  "AUGURIUM TASK FORCE": 2,
+  "BANISHERS": 2,
+  "BROTHERHOOD STRIKE": 2,
+  "FIRES OF PURGATION": 1,
+  "HALLOWED CONCLAVE": 2,
+  "IMMATERIAL INTERDICTION": 1,
+  "SANCTIC SPEARHEAD": 2,
+  "WARPBANE TASK FORCE": 3
+ },
+ "enhancements": {
+  "Astral Overlap (Upgrade)": 10,
+  "Banishing Wave": 20,
+  "Blinding Aura": 10,
+  "Boons of Deimos (Upgrade)": 20,
+  "Doomseer’s Amulet": 25,
+  "Driven by Duty": 10,
+  "Ephemeral Tome": 15,
+  "Eye of the Augurium": 25,
+  "Grimoire of Conjunctions": 10,
+  "Inescapable Judgement": 20,
+  "Mandulian Reliquary": 20,
+  "Nemesis Rounds": 10,
+  "One Foot in the Future": 15,
+  "Paragon of Sanctity": 10,
+  "Phial of the Abyss": 15,
+  "Precognicient Volleys (Upgrade)": 10,
+  "Predestined Coordinates (Upgrade)": 10,
+  "Psychic Celerity": 15,
+  "Purity of Purpose": 15,
+  "Pyresoul": 20,
+  "Quickening Foci": 15,
+  "Radiant Champion": 15,
+  "Sanctic Reaper": 15,
+  "Shield of Prophecy": 20,
+  "Sigil of Exigence": 30,
+  "Sigil of the Hunt": 10,
+  "Sixty-sixth Seal": 25,
+  "Spiritus Machina": 25,
+  "Tome of Forbidden Ways": 25,
+  "Vigilance of Titan": 20
+ },
+ "slug": "grey-knights",
+ "source": "https://mfm.warhammer-community.com/en/grey-knights",
+ "units": {
+  "Brother-Captain": {
+   "points_first": 95
+  },
+  "Brotherhood Champion": {
+   "points_first": 70
+  },
+  "Brotherhood Chaplain": {
+   "points_first": 65
+  },
+  "Brotherhood Librarian": {
+   "points_first": 90
+  },
+  "Brotherhood Techmarine": {
+   "points_additional": 140,
+   "points_first": 70,
+   "wargear": [
+    {
+     "name": "Psycannon",
+     "points": 5
+    }
+   ]
+  },
+  "Castellan Crowe": {
+   "points_first": 100
+  },
+  "Grand Master": {
+   "points_first": 95
+  },
+  "Grand Master In Nemesis Dreadknight": {
+   "points_additional": 215,
+   "points_first": 200,
+   "wargear": [
+    {
+     "name": "Sublimator",
+     "points": 15
+    },
+    {
+     "name": "Heavy psycannon",
+     "points": 15
+    }
+   ]
+  },
+  "Grey Knights Thunderhawk Gunship": {
+   "points_additional": 855,
+   "points_first": 805
+  },
+  "Interceptor Squad": {
+   "points_additional": 250,
+   "points_first": 125
+  },
+  "Land Raider": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Land Raider Crusader": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Land Raider Redeemer": {
+   "points_additional": 270,
+   "points_first": 250
+  },
+  "Leader": {
+   "points_first": 100
+  },
+  "Nemesis Dreadknight": {
+   "points_additional": 210,
+   "points_first": 195,
+   "wargear": [
+    {
+     "name": "Heavy psycannon",
+     "points": 15
+    }
+   ]
+  },
+  "Paladin Squad": {
+   "points_additional": 215,
+   "points_first": 170,
+   "wargear": [
+    {
+     "name": "Psycannon",
+     "points": 5
+    }
+   ]
+  },
+  "Purgation Squad": {
+   "points_additional": 220,
+   "points_first": 110,
+   "wargear": [
+    {
+     "name": "Psycannon",
+     "points": 5
+    }
+   ]
+  },
+  "Purifier Squad": {
+   "points_additional": 260,
+   "points_first": 130,
+   "wargear": [
+    {
+     "name": "Psycannon",
+     "points": 5
+    }
+   ]
+  },
+  "Stormhawk Interceptor": {
+   "points_first": 160
+  },
+  "Stormraven Gunship": {
+   "points_additional": 300,
+   "points_first": 280
+  },
+  "Stormtalon Gunship": {
+   "points_first": 170
+  },
+  "Venerable Dreadnought": {
+   "points_additional": 140,
+   "points_first": 130
+  }
+ }
+}

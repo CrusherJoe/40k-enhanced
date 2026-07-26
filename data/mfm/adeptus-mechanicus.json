@@ -1,0 +1,152 @@
+{
+ "detachments": {
+  "COHORT ACQUISITUS": 1,
+  "COHORT CYBERNETICA": 2,
+  "ERADICATION COHORT": 3,
+  "EXPLORATOR MANIPLE": 2,
+  "HALOSCREED BATTLE CLADE": 3,
+  "LORDS OF THE FORGE": 1,
+  "SKITARII HUNTER COHORT": 2
+ },
+ "enhancements": {
+  "Arch-negator": 5,
+  "Artisan": 10,
+  "Autoclavic Denunciation": 15,
+  "Battle-sphere Uplink": 25,
+  "Belicosa-class Capacitor Vanes": 25,
+  "Cantic Thrallnet": 25,
+  "Clandestine Infiltrator": 15,
+  "Cognitive Reinforcement": 30,
+  "Data-blessed Autosermon": 15,
+  "Electromiasmic Brazier": 10,
+  "Emotionless Clarity": 10,
+  "Explorator Dispensation": 20,
+  "Genetor": 20,
+  "Inloaded Lethality": 15,
+  "Logis": 15,
+  "Lord of Machines": 15,
+  "Magos": 10,
+  "Malphonic Susurrus": 20,
+  "Mantle of the Gnosticarch": 10,
+  "Martial Signatum Amplificator": 15,
+  "Mechanicus Locum": 5,
+  "Necromechanic": 20,
+  "Omnicogitator": 25,
+  "Omnissiah’s Fury": 10,
+  "Peerless Eradicator": 20,
+  "Radial Suffusion": 25,
+  "Sanctified Ordnance": 10,
+  "Stealth-screened Cybercanids (Upgrade)": 15,
+  "TL-4ø9": 30,
+  "Temporcopia": 20,
+  "Transoracular Dyad Wafers": 15,
+  "Veiled Hunter": 10,
+  "Vingh’s Wafers of Dynamism": 25,
+  "Voltagheist Reliquary": 15
+ },
+ "slug": "adeptus-mechanicus",
+ "source": "https://mfm.warhammer-community.com/en/adeptus-mechanicus",
+ "units": {
+  "Archaeopter Fusilave": {
+   "points_first": 160
+  },
+  "Archaeopter Stratoraptor": {
+   "points_first": 185
+  },
+  "Archaeopter Transvector": {
+   "points_first": 145
+  },
+  "Belisarius Cawl": {
+   "points_first": 220
+  },
+  "Corpuscarii Electro-Priests": {
+   "points_additional": 130,
+   "points_first": 65
+  },
+  "Cybernetica Datasmith": {
+   "points_first": 25
+  },
+  "Fulgurite Electro-Priests": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Hastarii Fusiliers": {
+   "points_additional": 130,
+   "points_first": 115,
+   "wargear": [
+    {
+     "name": "Twin cognis lascannon",
+     "points": 10
+    }
+   ]
+  },
+  "Kastelan Robots": {
+   "points_additional": 320,
+   "points_first": 160
+  },
+  "Onager Dunecrawler": {
+   "points_first": 155
+  },
+  "Pteraxii Skystalkers": {
+   "points_additional": 150,
+   "points_first": 80
+  },
+  "Pteraxii Sterylizors": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Servitor Battleclade": {
+   "points_first": 65
+  },
+  "Sicarian Infiltrators": {
+   "points_additional": 155,
+   "points_first": 75
+  },
+  "Sicarian Ruststalkers": {
+   "points_additional": 160,
+   "points_first": 75
+  },
+  "Skitarii Marshal": {
+   "points_first": 35
+  },
+  "Skitarii Rangers": {
+   "points_first": 85
+  },
+  "Skorpius Disintegrator": {
+   "points_additional": 85,
+   "points_first": 160,
+   "wargear": [
+    {
+     "name": "Ferrumite cannon",
+     "points": 10
+    }
+   ]
+  },
+  "Sydonian Dragoons With Radium Jezzails": {
+   "points_additional": 100,
+   "points_first": 55
+  },
+  "Sydonian Dragoons With Taser Lances": {
+   "points_additional": 120,
+   "points_first": 60
+  },
+  "Sydonian Skatros": {
+   "points_first": 50
+  },
+  "Tech-Priest Dominus": {
+   "points_first": 65
+  },
+  "Tech-Priest Enginseer": {
+   "points_first": 55
+  },
+  "Tech-Priest Manipulus": {
+   "points_first": 60
+  },
+  "Technoarcheologist": {
+   "points_first": 45
+  },
+  "Thulia Ghuld": {
+   "points_first": 180
+  }
+ }
+}

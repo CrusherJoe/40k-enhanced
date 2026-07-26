@@ -1,0 +1,214 @@
+{
+ "detachments": {
+  "ANNIHILATION LEGION": 2,
+  "AWAKENED DYNASTY": 3,
+  "CANOPTEK COURT": 3,
+  "CRYPTEK CONCLAVE": 2,
+  "CURSED LEGION": 2,
+  "HAND OF THE DYNASTY": 1,
+  "HYPERCRYPT LEGION": 2,
+  "OBEISANCE PHALANX": 2,
+  "PANTHEON OF WOE": 2,
+  "SKYSHROUD SPEARHEAD": 1,
+  "STARSHATTER ARSENAL": 3
+ },
+ "enhancements": {
+  "Animus Damper": 35,
+  "Arisen Tyrant": 25,
+  "Atomic Disintegrators": 10,
+  "Autodivinator": 15,
+  "Chrono-impedance Fields": 25,
+  "Cursed Circlet": 25,
+  "Deepening Madness (Upgrade)": 20,
+  "Demanding Leader": 10,
+  "Destroyer Ankh": 20,
+  "Dimensional Overseer": 25,
+  "Dimensional Sanctum": 20,
+  "Dread Majesty": 30,
+  "Eldritch Nightmare": 10,
+  "Enaegic Dermal Bond": 30,
+  "Enlivened Sentinels (Upgrade)": 20,
+  "Eternal Conqueror": 25,
+  "Eternal Madness": 20,
+  "Gauntlet of Compression": 20,
+  "Gravitic Bolas": 15,
+  "Honourable Combatant": 10,
+  "Hyperphasic Fulcrum": 15,
+  "Hyperspatial Transfer Node": 15,
+  "Ingrained Superiority": 5,
+  "Mark of the Nekrosor": 20,
+  "Metalodermal Tesla Weave": 10,
+  "Miniaturised Nebuloscope": 15,
+  "Mortality Shroud (Aura) (Upgrade)": 10,
+  "Murdermind": 15,
+  "Nether-realm Casket": 20,
+  "Osteoclave Fulcrum": 20,
+  "Phasal Subjugator": 35,
+  "Prelocational Optimiser": 25,
+  "Quantum Abacus": 15,
+  "Quantum Goad": 45,
+  "Recursive Reanimation (Upgrade)": 5,
+  "Reletavistic Tether": 40,
+  "Singularity Matrix": 45,
+  "Soulless Reaper": 15,
+  "Tools of Dominion (Upgrade)": 15,
+  "Unflinching Will": 20,
+  "Veil of Darkness": 20,
+  "Warrior Noble": 15
+ },
+ "slug": "necrons",
+ "source": "https://mfm.warhammer-community.com/en/necrons",
+ "units": {
+  "Annihilation Barge": {
+   "points_first": 95
+  },
+  "Canoptek Doomstalker": {
+   "points_first": 140
+  },
+  "Canoptek Macrocytes": {
+   "points_additional": 75,
+   "points_first": 70
+  },
+  "Canoptek Scarab Swarms": {
+   "points_additional": 80,
+   "points_first": 40
+  },
+  "Canoptek Spyders": {
+   "points_additional": 110,
+   "points_first": 65
+  },
+  "Canoptek Tomb Crawlers": {
+   "points_first": 50
+  },
+  "Canoptek Wraiths": {
+   "points_additional": 220,
+   "points_first": 95
+  },
+  "Catacomb Command Barge": {
+   "points_first": 120
+  },
+  "Convergence Of Dominion": {
+   "points_additional": 120,
+   "points_first": 60
+  },
+  "Cryptothralls": {
+   "points_first": 60
+  },
+  "C’Tan Shard Of The Deceiver": {
+   "points_first": 330
+  },
+  "C’Tan Shard Of The Nightbringer": {
+   "points_first": 360
+  },
+  "C’Tan Shard Of The Void Dragon": {
+   "points_first": 345
+  },
+  "Deathmarks": {
+   "points_additional": 120,
+   "points_first": 60
+  },
+  "Doom Scythe": {
+   "points_additional": 210,
+   "points_first": 200
+  },
+  "Flayed Ones": {
+   "points_additional": 100,
+   "points_first": 55
+  },
+  "Geomancer": {
+   "points_first": 75
+  },
+  "Ghost Ark": {
+   "points_first": 100
+  },
+  "Hexmark Destroyer": {
+   "points_first": 75
+  },
+  "Illuminor Szeras": {
+   "points_first": 175
+  },
+  "Immortals": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Imotekh The Stormlord": {
+   "points_additional": 40,
+   "points_first": 100
+  },
+  "Lokhust Lord": {
+   "points_first": 70
+  },
+  "Lychguard": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Monolith": {
+   "points_additional": 440,
+   "points_first": 420
+  },
+  "Necron Warriors": {
+   "points_additional": 190,
+   "points_first": 80
+  },
+  "Night Scythe": {
+   "points_first": 125
+  },
+  "Obelisk": {
+   "points_additional": 310,
+   "points_first": 280
+  },
+  "Ophydian Destroyers": {
+   "points_additional": 145,
+   "points_first": 80
+  },
+  "Orikan The Diviner": {
+   "points_first": 90
+  },
+  "Overlord": {
+   "points_first": 90
+  },
+  "Overlord With Translocation Shroud": {
+   "points_first": 90
+  },
+  "Plasmancer": {
+   "points_first": 55
+  },
+  "Psychomancer": {
+   "points_first": 55
+  },
+  "Royal Warden": {
+   "points_first": 50
+  },
+  "Seraptek Heavy Construct": {
+   "points_additional": 570,
+   "points_first": 540
+  },
+  "Skorpekh Destroyers": {
+   "points_additional": 170,
+   "points_first": 85
+  },
+  "Technomancer": {
+   "points_additional": 90,
+   "points_first": 80
+  },
+  "Tomb Blades": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Transcendent C’Tan": {
+   "points_additional": 360,
+   "points_first": 340
+  },
+  "Trazyn The Infinite": {
+   "points_first": 65
+  },
+  "Triarch Praetorians": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Triarch Stalker": {
+   "points_additional": 120,
+   "points_first": 110
+  }
+ }
+}

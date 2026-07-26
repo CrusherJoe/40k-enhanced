@@ -1,0 +1,242 @@
+{
+ "detachments": {
+  "ARMOURED WARHOST": 1,
+  "ASPECT HOST": 3,
+  "CORSAIR COTERIE": 2,
+  "DEVOTED OF YNNEAD": 2,
+  "ELDRITCH RAIDERS": 2,
+  "FATEFUL PERFORMANCE": 1,
+  "GHOSTS OF THE WEBWAY": 2,
+  "GUARDIAN BATTLEHOST": 2,
+  "PATH OF THE OUTCAST": 1,
+  "SEER COUNCIL": 2,
+  "SERPENT’S BROOD": 2,
+  "SPIRIT CONCLAVE": 2,
+  "TWILIGHT FLICKERS": 1,
+  "WARHOST": 3,
+  "WINDRIDER HOST": 2
+ },
+ "enhancements": {
+  "A Foot in the Future": 15,
+  "Adrenal Infusions": 20,
+  "Alacritous Assault": 20,
+  "Archraider": 35,
+  "Aspect of Murder": 15,
+  "Assassins' Eye (Upgrade)": 15,
+  "Borrowed Vigour": 10,
+  "Breath of Vaul": 10,
+  "Camouflaged Snipers (Upgrade)": 10,
+  "Cegorach’s Coil": 25,
+  "Craftworld’s Champion": 25,
+  "Echoes of Ulthanesh": 20,
+  "Ethereal Pathway": 30,
+  "Exotic Munitions": 15,
+  "Fanged Leer": 10,
+  "Firstdrawn Blade": 10,
+  "Gaze of Ynnead": 15,
+  "Gift of Foresight": 15,
+  "Guiding Presence": 25,
+  "Higher Duty": 25,
+  "Infamy": 25,
+  "Key of Ghosts": 20,
+  "Light of Clarity": 30,
+  "Lucid Eye": 30,
+  "Mantle of Wisdom": 20,
+  "Mask of Secrets": 15,
+  "Mirage Field": 25,
+  "Mistweave": 15,
+  "Morbid Might": 15,
+  "Murder’s Jest": 20,
+  "Phoenix Gem": 35,
+  "Pirate Prince": 15,
+  "Prelude Performer": 20,
+  "Protector of the Paths": 20,
+  "Psychic Destroyer": 30,
+  "Rune of Mists": 10,
+  "Runes of Warding": 25,
+  "Seersight Strike": 15,
+  "Shadowfall Masks (Upgrade)": 15,
+  "Shedskin Raiment": 25,
+  "Shimmerstone": 10,
+  "Spirit Stone of Raelyth": 20,
+  "Stave of Kurnous": 15,
+  "Stone of Eldritch Fury": 15,
+  "Storm of Whispers": 10,
+  "Strategic Savant": 10,
+  "Timeless Strategist": 15,
+  "Torc of Morai-Heg": 20,
+  "Voidstone": 15,
+  "Weavers' Wail": 20,
+  "Webway Pathstone": 25
+ },
+ "slug": "aeldari",
+ "source": "https://mfm.warhammer-community.com/en/aeldari",
+ "units": {
+  "Asurmen": {
+   "points_first": 135
+  },
+  "Corsair Voidreavers": {
+   "points_additional": 110,
+   "points_first": 65
+  },
+  "Crimson Hunter": {
+   "points_first": 160
+  },
+  "D-Cannon Platform": {
+   "points_additional": 125,
+   "points_first": 110
+  },
+  "Dark Reapers": {
+   "points_additional": 210,
+   "points_first": 100
+  },
+  "Dire Avengers": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Eldrad Ulthran": {
+   "points_first": 130
+  },
+  "Falcon": {
+   "points_first": 130
+  },
+  "Fire Dragons": {
+   "points_additional": 240,
+   "points_first": 120
+  },
+  "Fire Prism": {
+   "points_first": 150
+  },
+  "Fuegan": {
+   "points_first": 130
+  },
+  "Guardian Defenders": {
+   "points_first": 90
+  },
+  "Hemlock Wraithfighter": {
+   "points_first": 155
+  },
+  "Howling Banshees": {
+   "points_additional": 165,
+   "points_first": 85
+  },
+  "Jain Zar": {
+   "points_first": 105
+  },
+  "Kharseth": {
+   "points_first": 85
+  },
+  "Leader": {
+   "points_first": 125
+  },
+  "Lhykhis": {
+   "points_first": 135
+  },
+  "Maugan Ra": {
+   "points_first": 100
+  },
+  "Night Spinner": {
+   "points_additional": 190,
+   "points_first": 170
+  },
+  "Prince Yriel": {
+   "points_first": 95
+  },
+  "Rangers": {
+   "points_additional": 110,
+   "points_first": 60
+  },
+  "Shadow Weaver Platform": {
+   "points_additional": 175,
+   "points_first": 60
+  },
+  "Solitaire": {
+   "points_additional": 80,
+   "points_first": 115
+  },
+  "Spiritseer": {
+   "points_first": 55
+  },
+  "Starfangs": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Storm Guardians": {
+   "points_first": 110
+  },
+  "Striking Scorpions": {
+   "points_additional": 145,
+   "points_first": 75
+  },
+  "The Visarch": {
+   "points_first": 90
+  },
+  "The Yncarne": {
+   "points_first": 245
+  },
+  "Troupe": {
+   "points_additional": 100,
+   "points_first": 85
+  },
+  "Troupe Master": {
+   "points_first": 75
+  },
+  "Vibro Cannon Platform": {
+   "points_first": 60
+  },
+  "Voidweaver": {
+   "points_first": 115
+  },
+  "Vyper": {
+   "points_additional": 140,
+   "points_first": 75
+  },
+  "Warlock": {
+   "points_first": 45
+  },
+  "Warlock Conclave": {
+   "points_additional": 120,
+   "points_first": 55
+  },
+  "Wraithblades": {
+   "points_first": 140
+  },
+  "Wraithguard": {
+   "points_first": 145,
+   "wargear": [
+    {
+     "name": "Heavy wraithcannon",
+     "points": 10
+    }
+   ]
+  },
+  "Wraithlord": {
+   "points_first": 125
+  },
+  "Ynnari Archon": {
+   "points_first": 85
+  },
+  "Ynnari Incubi": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Ynnari Kabalite Warriors": {
+   "points_additional": 80,
+   "points_first": 110
+  },
+  "Ynnari Reavers": {
+   "points_additional": 120,
+   "points_first": 65
+  },
+  "Ynnari Succubus": {
+   "points_additional": 75,
+   "points_first": 45
+  },
+  "Ynnari Wyches": {
+   "points_first": 90
+  },
+  "Yvraine": {
+   "points_first": 100
+  }
+ }
+}

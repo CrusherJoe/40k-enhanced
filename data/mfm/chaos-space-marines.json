@@ -1,0 +1,229 @@
+{
+ "detachments": {
+  "CABAL OF CHAOS": 1,
+  "CHAOS CULT": 2,
+  "CREATIONS OF BILE": 3,
+  "CULT OF THE ARKIFANE": 2,
+  "DECEPTORS": 2,
+  "DEVOTEES OF DESTRUCTION": 1,
+  "DREAD TALONS": 2,
+  "HURON’S MARAUDERS": 3,
+  "MURDERTALON RAIDERS": 1,
+  "NIGHTMARE HUNT": 2,
+  "PACTBOUND ZEALOTS": 3,
+  "RENEGADE RAIDERS": 3,
+  "RENEGADE WARBAND": 2,
+  "SOULFORGED WARPACK": 2,
+  "VETERANS OF THE LONG WAR": 2,
+  "WARPSTRIKE CHAMPIONS": 2
+ },
+ "enhancements": {
+  "Akshur’s Binding Runes": 20,
+  "Amulet of Tainted Vigour": 20,
+  "Bastion Plate": 10,
+  "Conduit of Chaos": 20,
+  "Crown of Worms": 15,
+  "Cultist’s Brand": 30,
+  "Cursed Fang": 10,
+  "Cybinfernal Font": 20,
+  "Despot’s Claim": 15,
+  "Dread Reaver": 15,
+  "Dread Reputation": 25,
+  "Eager for Bloodshed": 30,
+  "Eager for Vengeance": 20,
+  "Eater of Dread": 15,
+  "Empyric Symbiote": 15,
+  "Eye of Abaddon": 15,
+  "Eye of Oblivion": 20,
+  "Eye of Tzeentch": 15,
+  "Eye of the Warp": 15,
+  "Eyes of the Hunter": 15,
+  "Falsehood": 10,
+  "Forge’s Blessing": 20,
+  "Fratricidal Trophies": 5,
+  "Greyveil Hex": 25,
+  "Helm of All-Seeing": 25,
+  "Incendiary Goad": 25,
+  "Infernal Fulgurite": 20,
+  "Intoxicating Elixir": 15,
+  "Invigorated Mechatendrils": 15,
+  "Iron Artifice": 10,
+  "Ironbound Enmity": 15,
+  "Living Carapace": 15,
+  "Mark of Legend": 10,
+  "Mark of the Hound": 25,
+  "Mark of the Soul Forges": 20,
+  "Night’s Shroud": 10,
+  "Orbs of Unlife": 15,
+  "Pact of Cursed Pinions": 20,
+  "Pact of Destruction": 15,
+  "Prime Test Subject": 35,
+  "Raid Leader": 20,
+  "Shadowcowl Talisman": 20,
+  "Shroud of Obfuscation": 15,
+  "Sorrowscent Vulture": 35,
+  "Soul Harvester": 15,
+  "Soul Link": 5,
+  "Surgical Precision": 10,
+  "Talisman of Burning Blood": 15,
+  "Terrorglut Parasite": 20,
+  "Touched by the Warp": 10,
+  "Tyrant’s Lash": 20,
+  "Tzagulla": 25,
+  "Voice of the Tyrant": 25,
+  "Warmaster’s Gift": 15,
+  "Warp Tracer": 20,
+  "Warp-Fuelled Thrusters": 20,
+  "Warped Foresight": 10,
+  "Weaponised Hatred": 35,
+  "Willbreaker": 10,
+  "Wyredjinn": 25
+ },
+ "slug": "chaos-space-marines",
+ "source": "https://mfm.warhammer-community.com/en/chaos-space-marines",
+ "units": {
+  "Chaos Bikers": {
+   "points_additional": 130,
+   "points_first": 70
+  },
+  "Chaos Land Raider": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Chaos Lord": {
+   "points_first": 90
+  },
+  "Chaos Lord In Terminator Armour": {
+   "points_additional": 145,
+   "points_first": 85
+  },
+  "Chaos Spawn": {
+   "points_first": 60
+  },
+  "Chaos Vindicator": {
+   "points_additional": 195,
+   "points_first": 185
+  },
+  "Cultist Firebrand": {
+   "points_additional": 50,
+   "points_first": 45
+  },
+  "Cultist Mob": {
+   "points_additional": 90,
+   "points_first": 50
+  },
+  "Cypher": {
+   "points_first": 90
+  },
+  "Dark Apostle": {
+   "points_additional": 90,
+   "points_first": 65,
+   "wargear": [
+    {
+     "name": "Heavy reaper autocannon",
+     "points": 15
+    },
+    {
+     "name": "Hades lascannon",
+     "points": 15
+    }
+   ]
+  },
+  "Fabius Bile": {
+   "points_first": 100
+  },
+  "Fellgor Beastmen": {
+   "points_first": 60
+  },
+  "Forgefiend": {
+   "points_additional": 170,
+   "points_first": 160,
+   "wargear": [
+    {
+     "name": "Ectoplasma cannon",
+     "points": 5
+    }
+   ]
+  },
+  "Haarken Worldclaimer": {
+   "points_first": 90
+  },
+  "Havocs": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Helbrute": {
+   "points_first": 130
+  },
+  "Heldrake": {
+   "points_first": 175
+  },
+  "Heretic Astartes Daemon Prince": {
+   "points_additional": 180,
+   "points_first": 165
+  },
+  "Khorne Lord Of Skulls": {
+   "points_additional": 475,
+   "points_first": 450
+  },
+  "Kravek Morne": {
+   "points_first": 120
+  },
+  "Legionaries": {
+   "points_additional": 170,
+   "points_first": 90
+  },
+  "Lord Discordant On Helstalker": {
+   "points_first": 160
+  },
+  "Master Of Executions": {
+   "points_first": 70
+  },
+  "Master Of Possession": {
+   "points_additional": 145,
+   "points_first": 60
+  },
+  "Maulerfiend": {
+   "points_first": 130
+  },
+  "Noctilith Crown": {
+   "points_first": 125
+  },
+  "Obliterators": {
+   "points_additional": 170,
+   "points_first": 160
+  },
+  "Possessed": {
+   "points_additional": 250,
+   "points_first": 120
+  },
+  "Raptors": {
+   "points_additional": 210,
+   "points_first": 110
+  },
+  "Red Corsairs Raiders": {
+   "points_additional": 210,
+   "points_first": 110
+  },
+  "Sorcerer": {
+   "points_first": 60
+  },
+  "Sorcerer In Terminator Armour": {
+   "points_first": 80
+  },
+  "Traitor Enforcer": {
+   "points_first": 70
+  },
+  "Traitor Guardsmen Squad": {
+   "points_additional": 220,
+   "points_first": 70
+  },
+  "Warp Talons": {
+   "points_additional": 280,
+   "points_first": 125
+  },
+  "Warpsmith": {
+   "points_first": 60
+  }
+ }
+}

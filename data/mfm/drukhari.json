@@ -1,0 +1,138 @@
+{
+ "detachments": {
+  "COVENITE COTERIE": 2,
+  "EXHIBITION OF SLAUGHTER": 1,
+  "KABALITE AGONYSTS": 1,
+  "KABALITE CARTEL": 2,
+  "REALSPACE RAIDERS": 2,
+  "REAPER’S WAGER": 3,
+  "SKYSPLINTER ASSAULT": 2,
+  "SPECTACLE OF SPITE": 2,
+  "TOOLS OF TORMENT": 1
+ },
+ "enhancements": {
+  "Archraider": 15,
+  "Chronoshard": 15,
+  "Conductor of Torment": 20,
+  "Contempt for Rivals": 20,
+  "Crucible of Malediction": 15,
+  "Dark Vitality": 20,
+  "Elixir of the Corpse Courts (Upgrade)": 15,
+  "Eye of Spite": 15,
+  "Gnarlskin Experimentor": 20,
+  "Hyperstimm Trafficker": 20,
+  "Informant Network": 30,
+  "Labyrinthine Cunning": 25,
+  "Leechbite Plate": 5,
+  "Master Artisan": 20,
+  "Master Nemesine": 5,
+  "Master Regenesist": 25,
+  "Master Repugnomancer": 15,
+  "Morghenna’s Curse": 20,
+  "Nightmare Shroud": 20,
+  "Periapt of Torments": 25,
+  "Phantasmal Smoke": 15,
+  "Pharmacophex": 15,
+  "Reaper’s Cowl": 25,
+  "Sadistic Fulcrum": 15,
+  "Spiteful Raider": 10,
+  "Towering Arrogance": 20,
+  "Webway Awl": 25,
+  "Webway Walker": 15
+ },
+ "slug": "drukhari",
+ "source": "https://mfm.warhammer-community.com/en/drukhari",
+ "units": {
+  "Archon": {
+   "points_first": 80
+  },
+  "Cronos": {
+   "points_additional": 100,
+   "points_first": 55
+  },
+  "Drazhar": {
+   "points_first": 85
+  },
+  "Haemonculus": {
+   "points_first": 50
+  },
+  "Hand Of The Archon": {
+   "points_first": 115
+  },
+  "Hellions": {
+   "points_additional": 180,
+   "points_first": 90
+  },
+  "Incubi": {
+   "points_additional": 180,
+   "points_first": 90
+  },
+  "Kabalite Warriors": {
+   "points_first": 110
+  },
+  "Lady Malys": {
+   "points_first": 100
+  },
+  "Lelith Hesperax": {
+   "points_first": 80
+  },
+  "Mandrakes": {
+   "points_additional": 160,
+   "points_first": 80,
+   "wargear": [
+    {
+     "name": "Dark lance",
+     "points": 5
+    }
+   ]
+  },
+  "Razorwing Jetfighter": {
+   "points_first": 170
+  },
+  "Reavers": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Scourges With Heavy Weapons": {
+   "points_additional": 120,
+   "points_first": 110,
+   "wargear": [
+    {
+     "name": "Haywire blaster",
+     "points": 5
+    },
+    {
+     "name": "Dark lance",
+     "points": 5
+    }
+   ]
+  },
+  "Scourges With Shardcarbines": {
+   "points_additional": 85,
+   "points_first": 75
+  },
+  "Succubus": {
+   "points_first": 50
+  },
+  "Talos": {
+   "points_additional": 150,
+   "points_first": 75,
+   "wargear": [
+    {
+     "name": "Twin haywire blaster",
+     "points": 5
+    }
+   ]
+  },
+  "Voidraven Bomber": {
+   "points_first": 245
+  },
+  "Wracks": {
+   "points_additional": 100,
+   "points_first": 60
+  },
+  "Wyches": {
+   "points_first": 90
+  }
+ }
+}

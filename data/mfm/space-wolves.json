@@ -1,0 +1,429 @@
+{
+ "detachments": {
+  "ANVIL SIEGE FORCE": 2,
+  "ARMOURED SPEARTIP": 3,
+  "BASTION TASK FORCE": 2,
+  "CERAMITE SENTINELS": 3,
+  "CHAMPIONS OF FENRIS": 1,
+  "FIRESTORM ASSAULT FORCE": 2,
+  "FULGURIS TASK FORCE": 1,
+  "GLADIUS TASK FORCE": 3,
+  "HEADHUNTER TASK FORCE": 2,
+  "IRONSTORM SPEARHEAD": 2,
+  "LEGENDS OF SAGA AND SONG": 1,
+  "LIBRARIUS CONCLAVE": 1,
+  "ORBITAL ASSAULT FORCE": 2,
+  "SAGA OF THE BEASTSLAYER": 2,
+  "SAGA OF THE BOLD": 2,
+  "SAGA OF THE GREAT WOLF": 2,
+  "SAGA OF THE HUNTER": 2,
+  "STORMLANCE TASK FORCE": 3,
+  "SUBVERSION ASSETS": 1,
+  "VANGUARD SPEARHEAD": 2,
+  "VENGEFUL HOSTS": 1,
+  "VETERANS OF THE FANG": 1
+ },
+ "enhancements": {
+  "A Giant Amongst Giants": 15,
+  "Adamantine Mantle": 20,
+  "Adept of the Codex": 20,
+  "Adept of the Omnissiah": 35,
+  "Architect of War": 25,
+  "Armoured Commander": 25,
+  "Astartes Tank Ace": 40,
+  "Bellicose Weapon Spirits (Upgrade)": 15,
+  "Blades of Valour": 15,
+  "Bombast Omnivox": 15,
+  "Braggart’s Steel": 20,
+  "Castellum Omnivox": 20,
+  "Celerity": 35,
+  "Champion of Humanity": 10,
+  "Chariots of the Storm": 25,
+  "Death in the Dark (Upgrade)": 15,
+  "Dedicated Gunship": 15,
+  "Defensive Mastery": 25,
+  "Elder’s Guidance": 20,
+  "Execute and Redeploy": 20,
+  "Eye of the Hunter": 20,
+  "Eye of the Primarch": 10,
+  "Fear Made Manifest": 30,
+  "Feinting Withdrawal": 10,
+  "Fenrisian Grit": 15,
+  "Feral Rage": 10,
+  "Fierce Example (Upgrade)": 25,
+  "Fire Discipline": 25,
+  "Firestorm Coordinators": 20,
+  "Fleet Commander": 15,
+  "Forged in Battle": 15,
+  "Fury of the Storm": 25,
+  "Ghostweave Cloak": 15,
+  "Grimnar’s Mark": 20,
+  "Gunnery Honours": 20,
+  "Helm of the Beastslayer": 15,
+  "Hero of the Chapter": 20,
+  "Honour Indefatigable": 25,
+  "Hordeslayer": 15,
+  "Howlmaw": 15,
+  "Hunter’s Guile": 20,
+  "Hunter’s Instincts": 25,
+  "Indomitable Fury": 20,
+  "Iron Resolve": 15,
+  "Laurels of Thunder": 15,
+  "Liberator": 15,
+  "Master of Machine War": 20,
+  "Obfuscation": 25,
+  "Orbital Uplink Reliquary": 25,
+  "Portents of Wisdom": 15,
+  "Prescience": 20,
+  "Preyslayer": 15,
+  "Raptorial Cogitator Core (Upgrade)": 15,
+  "Redoubtable Machine Spirit": 25,
+  "Rites of War": 10,
+  "Shadow War Veteran": 30,
+  "Shock Deployment": 20,
+  "Shroud Field": 20,
+  "Skjald": 15,
+  "Skjald’s Foretelling": 25,
+  "Spy-skull Data Link": 15,
+  "Stoic Defender": 15,
+  "Swift Hunter": 20,
+  "Target Augury Web": 30,
+  "The Blade Driven Deep": 25,
+  "The Honour Vehement": 15,
+  "The Imperium’s Sword": 25,
+  "Thirst for Glory (Upgrade)": 15,
+  "Thunderwolf’s Fortitude": 25,
+  "Tip of the Spear": 40,
+  "Veteran of the Vanguard": 20,
+  "War-tempered Artifice": 25,
+  "Weaver of Sagas": 15,
+  "Wolf Master": 5,
+  "Wolf-touched": 15
+ },
+ "slug": "space-wolves",
+ "source": "https://mfm.warhammer-community.com/en/space-wolves",
+ "units": {
+  "Ancient": {
+   "points_first": 40
+  },
+  "Ancient In Terminator Armour": {
+   "points_first": 65
+  },
+  "Assault Intercessor Squad": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Assault Intercessors With Jump Packs": {
+   "points_additional": 160,
+   "points_first": 85
+  },
+  "Astraeus": {
+   "points_additional": 575,
+   "points_first": 525
+  },
+  "Ballistus Dreadnought": {
+   "points_additional": 160,
+   "points_first": 150
+  },
+  "Bjorn The Fell-Handed": {
+   "points_first": 160
+  },
+  "Bladeguard Ancient": {
+   "points_first": 40
+  },
+  "Bladeguard Veteran Squad": {
+   "points_additional": 160,
+   "points_first": 80
+  },
+  "Blood Claws": {
+   "points_additional": 270,
+   "points_first": 135
+  },
+  "Brutalis Dreadnought": {
+   "points_additional": 160,
+   "points_first": 150
+  },
+  "Captain": {
+   "points_first": 80
+  },
+  "Captain In Gravis Armour": {
+   "points_first": 80
+  },
+  "Captain In Phobos Armour": {
+   "points_first": 70
+  },
+  "Captain In Terminator Armour": {
+   "points_first": 85
+  },
+  "Captain With Jump Pack": {
+   "points_first": 75
+  },
+  "Centurion Assault Squad": {
+   "points_additional": 300,
+   "points_first": 150
+  },
+  "Centurion Devastator Squad": {
+   "points_additional": 350,
+   "points_first": 175,
+   "wargear": [
+    {
+     "name": "Twin lascannon",
+     "points": 5
+    }
+   ]
+  },
+  "Chaplain": {
+   "points_first": 60
+  },
+  "Chaplain In Terminator Armour": {
+   "points_first": 75
+  },
+  "Chaplain On Bike": {
+   "points_first": 70
+  },
+  "Chaplain With Jump Pack": {
+   "points_first": 75
+  },
+  "Company Heroes": {
+   "points_first": 105
+  },
+  "Desolation Squad": {
+   "points_additional": 210,
+   "points_first": 180
+  },
+  "Dreadnought": {
+   "points_additional": 70,
+   "points_first": 135
+  },
+  "Eliminator Squad": {
+   "points_first": 75
+  },
+  "Eradicator Squad": {
+   "points_additional": 180,
+   "points_first": 90
+  },
+  "Fenrisian Wolves": {
+   "points_additional": 75,
+   "points_first": 45
+  },
+  "Firestrike Servo-Turrets": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Gladiator Lancer": {
+   "points_additional": 170,
+   "points_first": 160
+  },
+  "Gladiator Reaper": {
+   "points_additional": 170,
+   "points_first": 160
+  },
+  "Gladiator Valiant": {
+   "points_additional": 160,
+   "points_first": 150
+  },
+  "Grey Hunters": {
+   "points_first": 165
+  },
+  "Hammerfall Bunker": {
+   "points_first": 175
+  },
+  "Heavy Intercessor Squad": {
+   "points_additional": 200,
+   "points_first": 100
+  },
+  "Hellblaster Squad": {
+   "points_additional": 220,
+   "points_first": 110
+  },
+  "Incursor Squad": {
+   "points_additional": 150,
+   "points_first": 85
+  },
+  "Infiltrator Squad": {
+   "points_additional": 180,
+   "points_first": 110
+  },
+  "Intercessor Squad": {
+   "points_additional": 150,
+   "points_first": 80
+  },
+  "Invader Atv": {
+   "points_first": 60
+  },
+  "Invictor Tactical Warsuit": {
+   "points_first": 125
+  },
+  "Judiciar": {
+   "points_first": 55
+  },
+  "Land Raider": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Land Raider Crusader": {
+   "points_additional": 240,
+   "points_first": 220
+  },
+  "Land Raider Redeemer": {
+   "points_additional": 270,
+   "points_first": 250
+  },
+  "Librarian In Phobos Armour": {
+   "points_first": 70
+  },
+  "Librarian In Terminator Armour": {
+   "points_first": 75
+  },
+  "Lieutenant": {
+   "points_first": 45
+  },
+  "Lieutenant In Phobos Armour": {
+   "points_first": 45
+  },
+  "Lieutenant In Reiver Armour": {
+   "points_additional": 95,
+   "points_first": 45
+  },
+  "Murderfang": {
+   "points_first": 150
+  },
+  "Outrider Squad": {
+   "points_additional": 140,
+   "points_first": 70
+  },
+  "Predator Annihilator": {
+   "points_additional": 145,
+   "points_first": 135
+  },
+  "Predator Destructor": {
+   "points_additional": 150,
+   "points_first": 140
+  },
+  "Redemptor Dreadnought": {
+   "points_additional": 210,
+   "points_first": 195,
+   "wargear": [
+    {
+     "name": "Macro plasma incinerator",
+     "points": 10
+    }
+   ]
+  },
+  "Reiver Squad": {
+   "points_additional": 150,
+   "points_first": 75
+  },
+  "Repulsor": {
+   "points_additional": 190,
+   "points_first": 170
+  },
+  "Repulsor Executioner": {
+   "points_additional": 250,
+   "points_first": 230,
+   "wargear": [
+    {
+     "name": "Heavy laser destroyer",
+     "points": 10
+    }
+   ]
+  },
+  "Scout Squad": {
+   "points_additional": 120,
+   "points_first": 65
+  },
+  "Storm Speeder Hailstrike": {
+   "points_additional": 115,
+   "points_first": 105
+  },
+  "Storm Speeder Thunderstrike": {
+   "points_additional": 145,
+   "points_first": 135
+  },
+  "Stormhawk Interceptor": {
+   "points_first": 155
+  },
+  "Stormraven Gunship": {
+   "points_additional": 300,
+   "points_first": 280
+  },
+  "Stormtalon Gunship": {
+   "points_additional": 85,
+   "points_first": 165
+  },
+  "Techmarine": {
+   "points_first": 55
+  },
+  "Terminator Assault Squad": {
+   "points_additional": 310,
+   "points_first": 155,
+   "wargear": [
+    {
+     "name": "Thunder Hammer",
+     "points": 5
+    }
+   ]
+  },
+  "Terminator Squad": {
+   "points_additional": 320,
+   "points_first": 160
+  },
+  "Thunderhawk Gunship": {
+   "points_additional": 105,
+   "points_first": 840
+  },
+  "Thunderwolf Cavalry": {
+   "points_additional": 200,
+   "points_first": 100,
+   "wargear": [
+    {
+     "name": "Storm Shield",
+     "points": 5
+    }
+   ]
+  },
+  "Ulrik The Slayer": {
+   "points_first": 70
+  },
+  "Venerable Dreadnought": {
+   "points_additional": 135,
+   "points_first": 125
+  },
+  "Vindicator": {
+   "points_additional": 200,
+   "points_first": 185
+  },
+  "Whirlwind": {
+   "points_additional": 195,
+   "points_first": 175
+  },
+  "Wolf Guard Battle Leader": {
+   "points_first": 65
+  },
+  "Wolf Guard Headtakers": {
+   "points_additional": 115,
+   "points_first": 85,
+   "wargear": [
+    {
+     "name": "Storm Shield",
+     "points": 5
+    }
+   ]
+  },
+  "Wolf Priest": {
+   "points_first": 70
+  },
+  "Wulfen": {
+   "points_additional": 170,
+   "points_first": 85
+  },
+  "Wulfen Dreadnought": {
+   "points_additional": 145,
+   "points_first": 135
+  },
+  "Wulfen With Storm Shields": {
+   "points_additional": 200,
+   "points_first": 100
+  }
+ }
+}
