@@ -151,6 +151,19 @@ shot can chunk a Questoris).
   concepts hold, but re-verify STATS (wh40k-11e) + detachment rules (faction packs) against 11E before the GT.
 
 ## Analysis principles (user guidance — apply to ALL list/matchup work)
+- **★ KNIGHT MINDSET (user law 2026-07-26): "Always outnumbered, rarely outgunned."** Knights are FEW models
+  (~9) with huge firepower + durability but LOSE the OC/objective war by construction against durable,
+  army-wide-OC, sticky-objective armies (esp. elite terminators — the archetype that 98-31'd the user's Sisters
+  at HeeYaw with 3 Deathwing-Knight bricks). **Start every hard matchup from the EXPECTATION OF A LOSS and hunt
+  for the HEIST — don't assume the guns bail me out.** Where the win comes from for the outnumbered-but-outgunning
+  underdog: (1) FIREPOWER AS DENIAL not domination — delete his SOFT OC (each kill = OC + damage removed),
+  starving his kill/objective clauses (win by subtraction). (2) SECONDARIES are the Knight's real scoreboard —
+  fast Knights bank the MOBILITY deck (Engage, Behind Enemy Lines, Storm Hostile Objective) a slow wall can't;
+  this is how an outnumbered army out-POINTS a superior one. (3) A few DECISIVE strikes (a Lancer/Gallant blade
+  that KILLS characters / threatens the backfield+home) beats a passive extra gun. (4) NOT-DYING is the price
+  of entry, not the win. **Don't over-sell my matchups; model the opponent playing OPTIMALLY** (best Psychic
+  Discipline every round, Armour of Contempt on D, Wrathful Conquerors to bank objectives, Rapid Ingress timed
+  to punish). [I was repeatedly too optimistic vs Great Value; corrected.]
 - **HARD COUNTERS ARE A FEATURE OF 40k, NOT A LIST FLAW.** Almost every army has a
   matchup it can't fix by tuning (e.g. **Green Tide hard-counters Knights** — 8-9 elite
   models can't out-body/out-OC 165 disposable ones; Green Tide also grinds down basically
