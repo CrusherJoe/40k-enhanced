@@ -36,23 +36,26 @@ LIST_UNITS = [
      "395", "Anti-infantry SUBTRACTION: RFBC + Avenger A18 strip soft OC; thermal for anti-tank/Speeders."),
     ("Cerastus Knight Lancer", 1, "Shock lance — strike 5A S20 AP-3 D8 [Lance] / sweep 10A S10 AP-2 D3; ranged shock lance 12\" 6A [Assault, Sus2]",
      "415", "The one blade: 4++ FULL invuln vs ALL, M14 W28. Counter-charge + assassinate buff-characters + Shock-Charge free Tank Shock on the charge."),
-    ("Armiger Helverin", 1, "2x Armiger autocannon (48\" A4 S9 AP-1 D3), heavy stubber", "140",
-     "Backfield 48\" autocannons + cheap OC6 body / screen."),
+    ("Armiger Helverin", 2, "2x Armiger autocannon (48\" A4 S9 AP-1 D3), heavy stubber", "140 ea",
+     "TWO backfield 48\" autocannon platforms + OC6 screens — the points-efficient fill (a single Armiger wastes ~95 pts) + extra OC for the melee-heavy meta."),
     ("Navigator (Agents ally)", 1, "Gaze of the Empyrean", "~75",
      "12\" anti-Deep-Strike dome (vs BA/SW/GSC/deep-strike alphas) + Hidden home-holder. Allies take no enhancement."),
 ]
-# ★ FIX BEFORE LSO: as written the list is ~1825-1915/2000 with ZERO enhancements. Spend the free
-# points on 3 enhancements (one each on 3 different Knights). Rotate Ion Shields is FREE (a stratagem,
-# not an enhancement). The costed 2000/2000 template is examples/best-purge-the-foe.yaml.
+# ★ VERIFIED 2000-legal (points pulled from BSData = current MFM, 2026-07-26). The costed build is in
+# LIST_TOTAL below (1,995/2000). The 2nd Armiger uses the points a single Armiger would waste; the build
+# fits ~ONE enhancement (Blessed Plate is taken). NO Lancer's Sigil (rejected — not worth it).
 ENHANCEMENTS = [
-    ("Bearer of the Lancer's Sigil", "Cerastus Knight Lancer", "25",
-     "Re-roll the Lancer's charge — with only ONE decapitation blade, guaranteeing its decisive charge is the highest-value 25 pts in the list."),
-    ("Blessed Plate", "Knight Castellan #1", "30", "Castellan -> T13: the Volcano platform survives the incoming longer."),
-    ("Bearer of the Judicant's Helm", "Knight Castellan #2", "25", "[Ignores Cover] on a Castellan — stacks with Dominus +1-hit-in-terrain; beats intervening-terrain cover."),
+    ("Blessed Plate  [TAKEN]", "a Knight Castellan", "30",
+     "Castellan -> T13: pushes S12-13 anti-tank (rail / ferrumite / lascannon / Caladius / thermal) from wounding on 4+ to 5+ — survivability for the key Volcano platform. The 2-Armiger build fits ~one enhancement; this is it."),
+    ("Bearer of the Judicant's Helm  [bench]", "a Knight Castellan", "25",
+     "[Ignores Cover] on a Castellan — stacks with Dominus +1-hit-in-terrain. Offensive alternative to Blessed Plate."),
+    ("Sanctuary  [bench]", "a Knight Castellan", "20",
+     "5++ invuln vs MELEE on one Castellan — patches the no-melee-invuln weakness (newly relevant: 11E has NO Rotate Ion Shields and Questoris have no melee save). Consider vs a melee-heavy field."),
 ]
-LIST_TOTAL = ("As written ~1825-1915 / 2000 with NO enhancements = the one concrete error. "
-              "Add the 3 enhancements above to reach 2000 (Rotate is free). VERIFY exact points "
-              "vs LIVE MFM before submitting — BSData prices Castellan 400, the app may be 425.")
+LIST_TOTAL = ("VERIFIED 1,995 / 2000: 2x Castellan 400 + Cerastus Lancer 415 + Crusader 395 + 2x Armiger "
+              "Helverin 140 + Navigator 75 = 1,965, + Blessed Plate 30 = 1,995 (5 spare). Points from BSData = "
+              "current MFM (Castellan 400 confirmed, not 425). NO Lancer's Sigil (rejected). The 2nd Armiger is "
+              "the points-efficient fill — a single Armiger wastes ~95 pts the enhancement allowance can't absorb.")
 
 # ---- KEY RULES / CHEAT-SHEET ----------------------------------------------------
 RULES = [
@@ -327,9 +330,9 @@ RECORD_NOTE = (
     "(Necrons/T'au/Ravenwing/AdMech/SW). Correct Knight goal: strong positive + steal a couple you "
     "shouldn't win — NOT winning the event. The 2-Castellan shooting core IMPROVES this over 2-Lancer "
     "(more removal-race firepower for exactly the hard matchups). List blind spots (priority order): "
-    "(1) ~85-175 pts unspent + ZERO enhancements = fix to 2000 first; (2) only ONE 4++ Lancer into a "
-    "melee-heavy field — accepted price of shooting-dominance; mitigate by killing deliverers pre-charge "
-    "+ Lancer's-Sigil charge re-roll, NOT a 2nd blade; (3) screening deep-strike alphas (BA/SW/Votann/GSC) "
+    "(1) [RESOLVED] now costed to 1,995/2000 (2nd Armiger + Blessed Plate); (2) only ONE 4++ Lancer into a "
+    "melee-heavy field — accepted price of shooting-dominance; mitigate by killing deliverers pre-charge, "
+    "NOT a 2nd blade; (3) screening deep-strike alphas (BA/SW/Votann/GSC) "
     "with only ~5 combat models — the Navigator dome is load-bearing; (4) anti-horde is moderate (accept "
     "Green Tide); (5) out-OC'd by most of the field -> lock PURGE THE FOE (kill-weighted) over Priority Assets."
 )
