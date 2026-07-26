@@ -1,0 +1,5650 @@
+{
+ "slug": "chaos-daemons",
+ "source": "BSData/wh40k-11e :: Chaos - Chaos Daemons Library.json",
+ "datasheets": [
+  {
+   "name": "Aetaos'rau'keres [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 10,
+    "Sv": "6+",
+    "W": 24,
+    "Ld": "6+",
+    "OC": 6
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt of Tzeentch - witchfire",
+     "range": 24,
+     "A": 9,
+     "BS": "2+",
+     "S": 10,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Bolt of Tzeentch - focused witchfire",
+     "range": 24,
+     "A": 9,
+     "BS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Staff of cataclysm",
+     "A": 6,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Warpfire talons",
+     "A": 12,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Emissary of the Great Mutator (Aura)",
+      "text": "While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+     },
+     {
+      "name": "Master of Magicks (Psychic)",
+      "text": "In your Shooting phase, select one of the following abilities: [IGNORES COVER]; [LETHAL HITS]; [SUSTAINED HITS D3]. Until the end of the phase, this model’s ranged weapon has that ability."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-8",
+    "text": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Titanic",
+    "Towering",
+    "Fly",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Aetaos'rau'keres",
+    "Tzeentch non-Battleline"
+   ]
+  },
+  {
+   "name": "An'ggrath the Unbound [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 11,
+    "Sv": "4+",
+    "W": 24,
+    "Ld": "6+",
+    "OC": 6
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bloodlash",
+     "range": 12,
+     "A": 9,
+     "BS": "2+",
+     "S": 8,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Axe of Khorne - strike",
+     "A": 8,
+     "WS": "2+",
+     "S": 16,
+     "AP": -4,
+     "D": "D6+2"
+    },
+    {
+     "name": "Axe of Khorne - sweep",
+     "A": 16,
+     "WS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Emissary of the Blood God (Aura)",
+      "text": "While a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+     },
+     {
+      "name": "Relentless Carnage",
+      "text": "At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-8",
+    "text": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Titanic",
+    "Towering",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "An'ggrath the Unbound",
+    "Khorne non-Battleline"
+   ]
+  },
+  {
+   "name": "Be'lakor",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 11,
+    "Sv": "3+",
+    "W": 20,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Betraying Shades - witchfire",
+     "range": 18,
+     "A": 9,
+     "BS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Betraying Shades - focused witchfire",
+     "range": 18,
+     "A": 12,
+     "BS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Blade of Shadows - sweep",
+     "A": 14,
+     "WS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "The Blade of Shadows - strike",
+     "A": 7,
+     "WS": "2+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6+1",
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Stealth",
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "The Dark Master (Aura)",
+      "text": "The area of the battlefield within 6\" of this model is considered to be within your army’s Shadow of Chaos."
+     },
+     {
+      "name": "Shadow Form",
+      "text": "At the start of the battle round, select one Shadow Form ability. Until the end of the battle round, this model has that ability."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-6",
+    "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Fly",
+    "Epic Hero",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Be'lakor",
+    "Shadow Legion",
+    "Undivided"
+   ]
+  },
+  {
+   "name": "Beasts of Nurgle",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 9,
+    "Sv": "6+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Putrid appendages",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Bloodcrushers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Hellblade",
+     "A": 2,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Juggernaut's bladed horn",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LANCE"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Brass Stampede",
+      "text": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Bloodcrushers",
+    "Khorne non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Bloodletters",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 4,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Hellblade",
+     "A": 2,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Bane of Cowards",
+      "text": "Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Bloodletters",
+    "Khorne Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Bloodmaster",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 4,
+    "Sv": "5+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Blade of blood",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ BLOODLETTERS"
+     },
+     {
+      "name": "Bloodmaster",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll."
+     },
+     {
+      "name": "A Gory Path",
+      "text": "Each time this model’s unit Consolidates, it can move up to 6\" instead of up to 3\"."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Bloodmaster",
+    "Khorne non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Bloodthirster",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 11,
+    "Sv": "3+",
+    "W": 18,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Hellfire breath",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Bloodflail",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 16,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Lash of Khorne",
+     "range": 12,
+     "A": 6,
+     "BS": "2+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Great axe of Khorne - strike",
+     "A": 7,
+     "WS": "2+",
+     "S": 16,
+     "AP": -4,
+     "D": "D6+2"
+    },
+    {
+     "name": "Great axe of Khorne - sweep",
+     "A": 14,
+     "WS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Daemon Lord of Khorne (Aura)",
+      "text": "While a friendly Khorne Legiones Daemonica unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+     },
+     {
+      "name": "Relentless Carnage",
+      "text": "At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-6",
+    "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Bloodthirster",
+    "Khorne non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Blue Horrors",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Coruscating Blue flames",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Blue claws",
+     "A": 1,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Blue"
+   ]
+  },
+  {
+   "name": "Burning Chariot",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 8,
+    "Sv": "7+",
+    "W": 9,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Fires of Tzeentch - blue fire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Fires of Tzeentch - pink fire",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Flamer mouths",
+     "A": 6,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Screamer bites",
+     "A": 6,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+",
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Eldritch Flames (Psychic)",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Burning Chariot",
+    "Fly",
+    "Tzeentch non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Changecaster",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Arcane Fireball - witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - focused witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Herald combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Changecaster",
+      "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+     },
+     {
+      "name": "Storm of Mutating Sorcery (Psychic)",
+      "text": "In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ PINK HORRORS ■ BLUE HORRORS"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Changecaster",
+    "Tzeentch non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Contorted Epitome",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 6,
+    "Sv": "5+",
+    "W": 8,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Coiled tentacles",
+     "A": "D6",
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Ravaging claws",
+     "A": 8,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader",
+     "Fights First"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Swallow Energy (Psychic)",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+     },
+     {
+      "name": "Horrible Fascination (Psychic)",
+      "text": "At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ DAEMONETTES"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Slaanesh",
+    "Contorted Epitome",
+    "Slaanesh non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Daemon Prince of Chaos",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Infernal cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hellforged weapons - strike",
+     "A": 6,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - sweep",
+     "A": 14,
+     "WS": "2+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Prince of Darkness (Aura)",
+      "text": "While a friendly LEGIONES DAEMONICA unit is within 6\" of this model, models in that unit have the Stealth ability."
+     },
+     {
+      "name": "Unholy Vigour",
+      "text": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save."
+     },
+     {
+      "name": "Daemonic Lord",
+      "text": "While this model is within 3\" of one or more friendly Legiones Daemonica Infantry units, this model has the Lone Operative ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Daemon Prince of Chaos"
+   ]
+  },
+  {
+   "name": "Daemon Prince of Chaos with wings",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 9,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Infernal cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hellforged weapons - strike",
+     "A": 6,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - sweep",
+     "A": 14,
+     "WS": "2+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Malefic Destruction",
+      "text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this model’s hellforged weapons."
+     },
+     {
+      "name": "Harbinger of Death",
+      "text": "Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this model’s hellforged weapons have that ability: ■ [LETHAL HITS] ■ [PRECISION] ■ [SUSTAINED HITS 1]"
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Daemon Prince of Chaos with wings",
+    "Fly"
+   ]
+  },
+  {
+   "name": "Daemonettes",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 3,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Slashing claws",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Fights First"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Horrifying Beauty ",
+      "text": "At the start of the Fight phase, each enemy unit within Engagement Range of one of more units from your army with this ability must take a Battle-shock test, subtracting 1 from the result if that enemy unit is Below Half-strength."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Daemonettes",
+    "Slaanesh Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Daemonic Charioteer [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 7,
+    "Sv": "6+",
+    "W": 8,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Infernal cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Death's heads",
+     "range": 12,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Disgusting sneezes",
+     "range": 6,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Lashes of torment",
+     "range": 6,
+     "A": 6,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - focused witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Juggernaut's bladed horn",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Attendant's hellblades",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Blade of blood",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - strike",
+     "A": 8,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - sweep",
+     "A": 16,
+     "WS": "2+",
+     "S": 8,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Acidic maw",
+     "A": 2,
+     "WS": "4+",
+     "S": 7,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Diseased claws and teeth",
+     "A": 3,
+     "WS": "4+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Foul balesword",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Foul mouthparts",
+     "A": 2,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Tiny balesword",
+     "A": 3,
+     "WS": "4+",
+     "S": 2,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Tiny corrupted staff",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Bladed axle",
+     "A": 6,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Lashing tongue",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Ravaging claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Seeker tongues",
+     "A": 4,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Screamer bites",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Malefic Impact",
+      "text": "Melee weapons equipped by models in this unit have the [Lance] ability."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: Mounted Daemon units which share one of the following keywords with this model Khorne, Nurgle, Slaanesh, Tzeentch"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Crucible",
+    "Mounted",
+    "Daemonic Charioteer",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Daemonic Herald [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "7+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Infernal cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Death's heads",
+     "range": 12,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Disgusting sneezes",
+     "range": 6,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Lashes of torment",
+     "range": 6,
+     "A": 6,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - focused witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Juggernaut's bladed horn",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Attendant's hellblades",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Blade of blood",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - strike",
+     "A": 8,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - sweep",
+     "A": 16,
+     "WS": "2+",
+     "S": 8,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Acidic maw",
+     "A": 2,
+     "WS": "4+",
+     "S": 7,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Diseased claws and teeth",
+     "A": 3,
+     "WS": "4+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Foul balesword",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Foul mouthparts",
+     "A": 2,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Tiny balesword",
+     "A": 3,
+     "WS": "4+",
+     "S": 2,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Tiny corrupted staff",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Bladed axle",
+     "A": 6,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Lashing tongue",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Ravaging claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Seeker tongues",
+     "A": 4,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Screamer bites",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Daemonic Locus",
+      "text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model, or D3 destroyed models with the Battleline keyword, to that unit."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: Infantry Daemon units (excluding Possessed units) which share one of the following keywords with this model Khorne, Nurgle, Slaanesh, Tzeentch"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Chaos",
+    "Daemon",
+    "Summoned",
+    "Daemonic Herald",
+    "Crucible",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Epidemius",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "6+",
+    "W": 8,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Balesword and nurgling attendants",
+     "A": "D6+3",
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ PLAGUEBEARERS"
+     },
+     {
+      "name": "Blessed by the Plague God",
+      "text": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+     },
+     {
+      "name": "Tally of Pestilence",
+      "text": "Keep a tally of how many enemy models are destroyed by NURGLE LEGIONES DAEMONICA models from your army during the battle. At the start of your Command phase, if this tally is 7 or more, you gain 1CP and the tally is reset to 0."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Epidemius",
+    "Nurgle non-Battleline",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Exalted Flamer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 4,
+    "Sv": "7+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Fires of Tzeentch - blue fire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Fires of Tzeentch - pink fire",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Flamer mouths",
+     "A": 4,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ FLAMERS"
+     },
+     {
+      "name": "Blazing Warpfire (Psychic)",
+      "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+     },
+     {
+      "name": "Flames of Change (Psychic)",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks, and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
+     },
+     {
+      "name": "Manifestation of Destruction",
+      "text": "This model cannot be your Warlord and cannot be given Enhancements."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Exalted Flamer",
+    "Tzeentch non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Exalted Seeker Chariot [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "5+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Lashes of torment",
+     "range": 6,
+     "A": 6,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Seeker tongues",
+     "A": 8,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Slashing claws",
+     "A": 14,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Infernal Engines of Torment",
+      "text": "In the Fight phase, after this model has finished making its attacks, if one or more enemy units were destroyed as a result of those attacks, every enemy unit within 6\" of this model must take a Battleshock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Exalted Seeker Chariot",
+    "Slaanesh non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Fateskimmer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 7,
+    "Sv": "6+",
+    "W": 9,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Arcane Fireball - witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - focused witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Screamer bites",
+     "A": 6,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Herald combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ SCREAMERS"
+     },
+     {
+      "name": "Fateskimmer",
+      "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+     },
+     {
+      "name": "Rider of the Immaterial Winds",
+      "text": "Once per battle, at the end of your opponent’s turn, if this model’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Fly",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Fateskimmer",
+    "Tzeentch non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Feculent Gnarlmaw",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 9,
+    "Sv": "4+",
+    "W": 9,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "abilities": {
+    "core": [
+     "Infiltrators"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Shroud of Flies (Aura)",
+      "text": "While a friendly NURGLE LEGIONES DAEMONICA unit is within 6\" of this Fortification, models in that unit have the Stealth ability."
+     },
+     {
+      "name": "Diseased Cover",
+      "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+     }
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Feculent Gnarlmaw",
+    "Nurgle non-Battleline",
+    "Shadow Legion",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Fiends",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "7+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Barbed tail and dissecting claws",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Flamers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 4,
+    "Sv": "7+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Flickering Flames",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Flamer mouths",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Bounding Leaps",
+      "text": "This unit is eligible to shoot in a turn in which it Fell Back."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Flamers",
+    "Tzeentch non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Flesh Hounds",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "7+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Burning roar",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Gore-drenched fangs",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Hunters from the Warp",
+      "text": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+     }
+    ]
+   },
+   "keywords": [
+    "Beast",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Flesh Hounds",
+    "Khorne non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Fluxmaster",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Arcane Fireball - witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - focused witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Herald combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ PINK HORRORS ■ BLUE HORRORS"
+     },
+     {
+      "name": "Fluxmaster",
+      "text": "- This unit has Stealth. - Melee attacks that target this unit have ‑1 to hit rolls."
+     },
+     {
+      "name": "Altered Reality (Psychic)",
+      "text": "Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Fly",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Fluxmaster",
+    "Tzeentch non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Furies [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Daemonic claws",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Giant Chaos Spawn [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 8,
+    "Sv": "4+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Churning fangs and claws",
+     "A": "D6+6",
+     "WS": "3+",
+     "S": 10,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Feel No Pain 5+"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Regenerating Monstrosity",
+      "text": "At the start of each player’s Command phase, this model regains up to D3 lost wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Chaos",
+    "Giant Chaos Spawn",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Great Unclean One",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 12,
+    "Sv": "5+",
+    "W": 20,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Putrid vomit",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plague flail",
+     "range": 6,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bilesword - strike",
+     "A": 6,
+     "WS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6+1",
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Bilesword - sweep",
+     "A": 12,
+     "WS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Doomsday bell",
+     "A": 6,
+     "WS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS",
+      "REVERBERATING SUMMONS"
+     ]
+    },
+    {
+     "name": "Bileblade",
+     "A": 3,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike",
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Daemon Lord of Nurgle (Aura)",
+      "text": "While a friendly Nurgle Legiones Daemonica unit is within 6\" of this model, add 1 to the Toughness characteristic of models in that unit."
+     },
+     {
+      "name": "Nurgle’s Rot (Psychic)",
+      "text": "At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-7",
+    "text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Great Unclean One",
+    "Nurgle non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Hellflayers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "5+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Lashes of torment",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Seeker tongues",
+     "A": 4,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Slashing claws",
+     "A": 8,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Cutting Down the Foe",
+      "text": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Hellflayer",
+    "Slaanesh non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Herald of Slaanesh on Steed of Slaanesh [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "7+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Lashing tongue",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Ravaging claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader",
+     "Scouts 9\""
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Lethal Caress",
+      "text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+     },
+     {
+      "name": "Symphony of Pain (Psychic)",
+      "text": "At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a SLAANESH LEGIONES DAEMONICA model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ SEEKERS"
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Herald of Slaanesh",
+    "Shadow Legion",
+    "Slaanesh non-Battleline",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Horticulous Slimux",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 10,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Acidic maw",
+     "A": 2,
+     "WS": "4+",
+     "S": 7,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Lopping shears",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ BEASTS OF NURGLE"
+     },
+     {
+      "name": "Beast Handler",
+      "text": "While this model is leading a unit, you can re-roll charge rolls made for that unit. In addition, once per battle, you can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
+     },
+     {
+      "name": "Seed the Garden of Nurgle",
+      "text": "At the end of your Movement phase, if this model is within one AREA TERRAIN feature, until the end of the battle, that AREA TERRAIN feature is considered to be within your army’s Shadow of Chaos."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Horticulous Slimux",
+    "Nurgle non-Battleline",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Immortal Champion [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Infernal cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Death's heads",
+     "range": 12,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Disgusting sneezes",
+     "range": 6,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Lashes of torment",
+     "range": 6,
+     "A": 6,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Arcane Fireball - focused witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Juggernaut's bladed horn",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Attendant's hellblades",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Blade of blood",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - strike",
+     "A": 8,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - sweep",
+     "A": 16,
+     "WS": "2+",
+     "S": 8,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Acidic maw",
+     "A": 2,
+     "WS": "4+",
+     "S": 7,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Diseased claws and teeth",
+     "A": 3,
+     "WS": "4+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Foul balesword",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Foul mouthparts",
+     "A": 2,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Tiny balesword",
+     "A": 3,
+     "WS": "4+",
+     "S": 2,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Tiny corrupted staff",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Bladed axle",
+     "A": 6,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Lashing tongue",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Ravaging claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Seeker tongues",
+     "A": 4,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Screamer bites",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Infernal Attendants",
+      "text": "While this model is within 3\" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability."
+     },
+     {
+      "name": "Font of Unreality",
+      "text": "Each time an attack is allocated to a friendly Daemon unit within 3\" of this model, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Crucible",
+    "Monster",
+    "Immortal Champion",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Infernal Enrapturess",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 3,
+    "Sv": "7+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heartstring lyre - cacophonous melody",
+     "range": 18,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Heartstring lyre - euphonic blast",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ravaging claws",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike",
+     "Fights First"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ DAEMONETTES"
+     },
+     {
+      "name": "Harmonic Alignment",
+      "text": "While this model is leading a unit, in your Command phase, you can return D3 destroyed Bodyguard models to that unit."
+     },
+     {
+      "name": "Discordant Disruption (Aura)",
+      "text": "While an enemy Psyker unit is within 12\" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Infernal Enrapturess",
+    "Slaanesh non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Kairos Fateweaver",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 10,
+    "Sv": "6+",
+    "W": 20,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Infernal Gateway - witchfire",
+     "range": 24,
+     "A": "D6+3",
+     "BS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gateway - focused witchfire",
+     "range": 24,
+     "A": "D3+6",
+     "BS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Staff of Tomorrow",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": "2D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "One Head Looks Forward",
+      "text": "At the end of your Command phase, if this model is on the battlefield, take a Leadership test for this model; if that test is passed, you gain 1CP."
+     },
+     {
+      "name": "One Head Looks Back (Aura)",
+      "text": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-7",
+    "text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Kairos Fateweaver",
+    "Tzeentch non-Battleline"
+   ]
+  },
+  {
+   "name": "Karanak",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "7+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Scalding Roar",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Soul-rending fangs",
+     "A": 6,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-CHARACTER 3+",
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Pack Leader",
+      "text": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
+     },
+     {
+      "name": "Prey of the Blood God",
+      "text": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time a model in this model’s unit makes a melee attack that targets its prey, you can re-roll the Wound roll. Each time this model’s prey is destroyed, select one new enemy unit to be this model’s prey."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ FLESH HOUNDS"
+     }
+    ]
+   },
+   "keywords": [
+    "Beast",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Karanak",
+    "Khorne non-Battleline",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Keeper of Secrets",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 10,
+    "Sv": "5+",
+    "W": 18,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Phantasmagoria - witchfire",
+     "range": 18,
+     "A": 6,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Phantasmagoria - focused witchfire",
+     "range": 18,
+     "A": 9,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Living whip",
+     "range": 12,
+     "A": 6,
+     "BS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Snapping claws",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Witstealer sword",
+     "A": 6,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Ritual knife",
+     "A": 3,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Daemon Lord of Slaanesh (Aura)",
+      "text": "While a friendly Slaanesh Legiones Daemonica unit is within 6\" of this model, improve the Armour Penetration of melee weapons in that unit by 1."
+     },
+     {
+      "name": "Mesmerising Form",
+      "text": "Each time an attack targets this model, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-6",
+    "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Keeper of Secrets",
+    "Slaanesh non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Lord of Change",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 10,
+    "Sv": "6+",
+    "W": 18,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt of Change - witchfire",
+     "range": 18,
+     "A": 9,
+     "BS": "2+",
+     "S": 9,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Bolt of Change - focused witchfire",
+     "range": 18,
+     "A": 9,
+     "BS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Rod of sorcery",
+     "range": 18,
+     "A": 6,
+     "BS": "2+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Staff of Tzeentch",
+     "A": 5,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Baleful sword",
+     "A": 3,
+     "WS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Daemon Lord of Tzeentch (Aura)",
+      "text": "While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6\" of this model, each time a model in that unit makes a ranged attack, add 1 to the Strength characteristic of that attack."
+     },
+     {
+      "name": "Master of Magicks (Psychic)",
+      "text": "In your Shooting phase, select one of the following abilities: [IGNORES COVER]; [LETHAL HITS]; [SUSTAINED HITS D3]. Until the end of the phase, this model’s Bolt of Change has that ability."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-7",
+    "text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Fly",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Lord of Change",
+    "Tzeentch non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Nurglings",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 3,
+    "Sv": "7+",
+    "W": 4,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Diseased claws and teeth",
+     "A": 4,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Infiltrators"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Mischief Makers (Aura)",
+      "text": "Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Swarm",
+    "Battleline",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Nurglings",
+    "Nurgle Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Pink Horrors",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Coruscating Yellow flames (ref. only)",
+     "range": 18,
+     "A": 2,
+     "BS": "5+",
+     "S": 2,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Coruscating Blue flames (ref. only)",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Coruscating Pink flames",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Yellow claws (ref. only)",
+     "A": 2,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Blue claws (ref. only)",
+     "A": 1,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Pink claws",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Split",
+      "text": "Each time a Pink Horror or Blue Horror model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a Pink Horror, add two Blue Horror models to this unit, and if it was a Blue Horror, add one Brimstone Horror model to this unit."
+     },
+     {
+      "name": "Horrors are Pink. Horrors are Blue. Where once there was one, now there are two.",
+      "text": "If, at any point, this unit contains no Pink Horrors models, use the Blue Horrors datasheet for this unit. _Designer’s Note: While this unit contains one or more Pink Horrors models, the Cackling Horrors and Exploding Horrors abilities from the Blue Horrors datasheet do not apply to this unit._"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Tzeentch Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Plague Drones",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 8,
+    "Sv": "6+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Death's heads",
+     "range": 12,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Foul mouthparts",
+     "A": 2,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Plaguesword",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Death’s Heads",
+      "text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA unit makes an attack that targets that unit, you can re-roll the Wound roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Plague Drones",
+    "Nurgle non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Plague Toads [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 8,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Grasping tongue",
+     "range": 9,
+     "A": "D3",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Yawning maw",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Grandfather's Blessing",
+      "text": "If a model from your army with the Leader ability can be attached to a BEASTS OF NURGLE unit, it can be attached to this unit instead."
+     },
+     {
+      "name": "Pouncing Leap",
+      "text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+     }
+    ]
+   },
+   "keywords": [
+    "Beast",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Plague Toads",
+    "Nurgle non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Plaguebearers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "7+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Plaguesword",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Infected Outbreak",
+      "text": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Plaguebearers",
+    "Nurgle Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Pox Riders [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 8,
+    "Sv": "6+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Grasping tongue",
+     "range": 9,
+     "A": "D3",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Pox rider plaguesword",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Yawning maw",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Grandfather's Blessing",
+      "text": "If a model from your army with the Leader ability can be attached to a BEASTS OF NURGLE unit, it can be attached to this unit instead."
+     },
+     {
+      "name": "Bounding Assault",
+      "text": "Each time this unit ends a Charge move, until the end of the turn, Pox Rider plagueswords equipped by models in this unit have the [LANCE] ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Pox Riders",
+    "Nurgle non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Poxbringer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "7+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Foul balesword",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Feel No Pain 5+",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ PLAGUEBEARERS"
+     },
+     {
+      "name": "Poxbringer",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit."
+     },
+     {
+      "name": "Feculent Despair (Aura, Psychic)",
+      "text": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Poxbringer",
+    "Nurgle non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Rendmaster on Blood Throne",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "4+",
+    "W": 9,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Attendant's hellblades",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Blade of blood",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Blood Throne",
+      "text": "At the start of the Fight phase, select one enemy unit within 18\" of and visible to this model. Until the end of the phase, each time a friendly KHORNE LEGIONES DAEMONICA unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1."
+     },
+     {
+      "name": "Champion Slayer",
+      "text": "Each time this model makes a melee attack that targets a CHARACTER or MONSTER unit, you can re-roll the Wound roll. Each time this model destroys an enemy CHARACTER or MONSTER unit, this model regains up to D6 lost wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Rendmaster on Blood Throne",
+    "Khorne non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Rotigus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 12,
+    "Sv": "5+",
+    "W": 22,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Streams of brackish filth",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 8,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Gnarlrod - strike",
+     "A": 7,
+     "WS": "2+",
+     "S": 10,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "LETHAL HITS",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Gnarlrod - sweep",
+     "A": 14,
+     "WS": "2+",
+     "S": 8,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike",
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Virulent Blessing (Psychic)",
+      "text": "At the start of the Fight phase, you can select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time an attack made by a NURGLE LEGIONES DAEMONICA model is allocated to a model in that unit, add 1 to the Damage characteristic of that attack."
+     },
+     {
+      "name": "Deluge of Nurgle (Aura)",
+      "text": "While an enemy unit is within 6\" of this model, subtract 2 from the Move characteristic and subtract 1 from the Objective Control characteristic of models in that unit."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-7",
+    "text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Rotigus",
+    "Nurgle non-Battleline"
+   ]
+  },
+  {
+   "name": "Scabeiathrax the Bloated [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 12,
+    "Sv": "5+",
+    "W": 22,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Putrid vomit",
+     "range": 6,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Blade of decay - strike",
+     "A": 7,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Blade of decay - sweep",
+     "A": 14,
+     "WS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike",
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Emissary of the Plague God (Aura)",
+      "text": "While a friendly NURGLE LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+     },
+     {
+      "name": "Nurgle’s Rot (Psychic)",
+      "text": "At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-7",
+    "text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Scabeiathrax the Bloated",
+    "Nurgle non-Battleline"
+   ]
+  },
+  {
+   "name": "Screamers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Lamprey bite",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Seeker Chariot [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "5+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Lashes of torment",
+     "range": 6,
+     "A": 6,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Seeker tongues",
+     "A": 4,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Slashing claws",
+     "A": 9,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Seekers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "7+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Lashing tongues",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Slashing claws",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": [],
+   "extra_profiles": [
+    {
+     "name": "Heartseeker",
+     "stats": {
+      "M": 14,
+      "T": 4,
+      "Sv": "7+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shalaxi Helbane",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 10,
+    "Sv": "3+",
+    "W": 20,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Lash of Slaanesh",
+     "range": 12,
+     "A": 6,
+     "BS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Pavane of Slaanesh - witchfire",
+     "range": 18,
+     "A": "D6",
+     "BS": "2+",
+     "S": 9,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Pavane of Slaanesh - focused witchfire",
+     "range": 18,
+     "A": "D6",
+     "BS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "HAZARDOUS",
+      "DEVASTATING WOUNDS",
+      "PSYCHIC",
+      "SUSTAINED HITS 3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Snapping claws",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Soulpiercer",
+     "A": 6,
+     "WS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2",
+     "keywords": [
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "No Prey Can Evade",
+      "text": "You can re-roll Advance and Charge rolls made for this model."
+     },
+     {
+      "name": "Monarch of the Hunt",
+      "text": "At the start of the first battle round, select one enemy unit to be this model’s quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model’s quarry is destroyed, select one new enemy unit to be this model’s quarry."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-7",
+    "text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Shalaxi Helbane",
+    "Slaanesh non-Battleline"
+   ]
+  },
+  {
+   "name": "Skarbrand",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "3+",
+    "W": 20,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bellow of endless fury",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 8,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Slaughter and Carnage - strike",
+     "A": 8,
+     "WS": "2+",
+     "S": 16,
+     "AP": -4,
+     "D": 6
+    },
+    {
+     "name": "Slaughter and Carnage - sweep",
+     "A": 16,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Rage Embodied (Aura)",
+      "text": "While a friendly Khorne Legiones Daemonica unit is within 6\" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
+     },
+     {
+      "name": "Murderlust",
+      "text": "This unit is eligible to declare a charge in a turn in which it Advanced."
+     },
+     {
+      "name": "Damaged: 1-7 wounds remaining",
+      "text": "While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model’s Slaughter and Carnage."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Skarbrand",
+    "Khorne non-Battleline"
+   ]
+  },
+  {
+   "name": "Skull Altar",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 12,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "abilities": {
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Shadow of Khorne (Aura)",
+      "text": "The area of the battlefield within 6\" of this FORTIFICATION is considered to be within your army’s Shadow of Chaos. In addition, while a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this Fortification, each time you take a Battle-shock test for that unit, you can re-roll that test."
+     },
+     {
+      "name": "Cover",
+      "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+     }
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Skull Altar",
+    "Khorne non-Battleline",
+    "Shadow Legion",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Skull Cannon",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "4+",
+    "W": 9,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Skull cannon",
+     "range": 48,
+     "A": "D6+2",
+     "BS": "3+",
+     "S": 9,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Attendant's hellblades",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Biting maw",
+     "A": 2,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Skulls of the Fallen",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Skull Cannon",
+    "Khorne non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Skullmaster",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Blade of blood",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Juggernaut's bladed horn",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LANCE"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Skullmaster’s Fury",
+      "text": "While this model is leading a unit, each time that unit ends a Charge move, until the end of the turn, Juggernaut’s bladed horns equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+     },
+     {
+      "name": "Devastating Charge",
+      "text": "Each time this model’s unit ends a Charge move, each enemy unit within Engagement Range of that unit must take a Battle-shock test."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ BLOODCRUSHERS"
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Skullmaster",
+    "Khorne non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Skulltaker",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 4,
+    "Sv": "4+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "The Slayer Sword",
+     "A": 6,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Lord of Decapitations",
+      "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+     },
+     {
+      "name": "Skulls for Khorne",
+      "text": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model destroys an enemy Character unit, you gain 1CP."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ BLOODLETTERS"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Skulltaker",
+    "Khorne non-Battleline",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Sloppity Bilepiper",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "7+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Marotter",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ PLAGUEBEARERS"
+     },
+     {
+      "name": "Jolly Gutpipes",
+      "text": "While this model is leading a unit, add 1 to the Move characteristic of models in that unit and you can re-roll Advance rolls made for that unit."
+     },
+     {
+      "name": "Disease of Mirth (Aura)",
+      "text": "At the start of the Fight phase, every enemy unit (excluding Monsters and Vehicles) within 6\" of this model must take a Battle-shock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Sloppity Bilepiper",
+    "Nurgle non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Spined Chaos Beast [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "4+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": 4
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Jagged claws and tusked maw",
+     "A": 6,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Stealth"
+    ],
+    "faction": [
+     "Warp Rifts",
+     "The Shadow of Chaos"
+    ],
+    "datasheet": [
+     {
+      "name": "Warp Spines",
+      "text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Chaos",
+    "Spined Chaos Beast",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Spoilpox Scrivener",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "7+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Disgusting Sneezes",
+     "range": 6,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Plaguesword and distended maw",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ PLAGUE BEARERS"
+     },
+     {
+      "name": "Keep Counting!",
+      "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+     },
+     {
+      "name": "Meet Your Quota!",
+      "text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Spoilpox Scrivener",
+    "Nurgle non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Syll'esske",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 6,
+    "Sv": "6+",
+    "W": 9,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Cacophonic choir - witchfire",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Cacophonic choir - focused witchfire",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Axe of Dominion",
+     "A": 6,
+     "WS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Scourging whip",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Prince of Slaanesh",
+      "text": "While this model is leading a unit, each time a model in that unit makes a melee attack, a successful unmodified Wound roll of 5+ scores a Critical Wound."
+     },
+     {
+      "name": "Delightful Agonies",
+      "text": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ DAEMONETTES"
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Syll'esske",
+    "Slaanesh non-Battleline"
+   ]
+  },
+  {
+   "name": "The Blue Scribes",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "6+",
+    "W": 6,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Sharp quills",
+     "A": 4,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-PSYKER 2+"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Lone Operative"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "P’tarix’s Sorcerous Syphon (Aura)",
+      "text": "While an enemy unit is within 12\" of this model, each time a model in that unit makes a Psychic Attack, subtract 1 from the Wound roll."
+     },
+     {
+      "name": "Xirat’p’s Sorcerous Barrages (Psychic)",
+      "text": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "The Blue Scribes",
+    "Tzeentch non-Battleline",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "The Changeling",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "7+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Infernal Flames - witchfire",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Infernal Flames - focused witchfire",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "HAZARDOUS",
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Trickster's Staff",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Lone Operative",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Formless Horror",
+      "text": "Each time an enemy unit wishes to select this model as the target of an attack, that unit must first take a Battle-shock test. If that test is failed, in addition to being Battle-shocked, that enemy unit cannot target this model this phase."
+     },
+     {
+      "name": "Mischief and Confusion",
+      "text": "At the start of your opponent’s Shooting phase, select one enemy unit within 12\" of and visible to this model and roll one D6: on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "The Changeling",
+    "Tzeentch non-Battleline",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "The Masque of Slaanesh",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 3,
+    "Sv": "7+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Serrated claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Fights First",
+     "Deep Strike",
+     "Lone Operative"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "The Eternal Dance",
+      "text": "At the start of the Fight phase, select one enemy unit within 6\" of this model. Until the end of the phase: ■ Each time a friendly SLAANESH LEGIONES DAEMONICA model makes a melee attack that targets that enemy unit, add 1 to the Wound roll. ■ Each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll."
+     },
+     {
+      "name": "Dazzling Acrobatics",
+      "text": "This model is eligible to declare a charge in a turn in which it Advanced or Fell Back."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "The Masque of Slaanesh",
+    "Slaanesh non-Battleline",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Tormentbringer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "5+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Lashes of torment",
+     "range": 12,
+     "A": 6,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Seeker tongues",
+     "A": 4,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Slashing claws",
+     "A": 8,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Tormentbringer (Aura)",
+      "text": "While a friendly Slaanesh Legions Daemonica unit is within 6\" of this model, melee weapons in that unit have the [SUSTAINED HITS 1] ability."
+     },
+     {
+      "name": "Hysterical Frenzy",
+      "text": "Each time a model in this model’s unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Hellflayers"
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Tormentbringer",
+    "Slaanesh non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Tranceweaver",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 3,
+    "Sv": "7+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Ravaging claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike",
+     "Fights First"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Tranceweaver",
+      "text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead."
+     },
+     {
+      "name": "Symphony of Pain (Psychic)",
+      "text": "At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a SLAANESH LEGIONES DAEMONICA model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ DAEMONETTES"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Tranceweaver",
+    "Slaanesh non-Battleline",
+    "Shadow Legion",
+    "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Zarakynel [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 10,
+    "Sv": "5+",
+    "W": 20,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Phantasmagoria - witchfire",
+     "range": 18,
+     "A": 6,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Phantasmagoria - focused witchfire",
+     "range": 18,
+     "A": 9,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Snapping claws",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Souleater blade",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ],
+    "datasheet": [
+     {
+      "name": "Emissary of the Prince of Excess (Aura)",
+      "text": "While a friendly SLAANESH LEGIONES DAEMONICA unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+     },
+     {
+      "name": "Mesmerising Form",
+      "text": "Each time an attack targets this model, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-7",
+    "text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Zarakynel",
+    "Slaanesh non-Battleline"
+   ]
+  }
+ ]
+}

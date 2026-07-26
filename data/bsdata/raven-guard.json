@@ -1,0 +1,166 @@
+{
+ "slug": "raven-guard",
+ "source": "BSData/wh40k-11e :: Imperium - Raven Guard.json",
+ "datasheets": [
+  {
+   "name": "Aethon Shaan",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Claws of Severax",
+     "A": 7,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 2",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Stealth",
+     "Lone Operative"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Chapter Master of the Raven Guard",
+      "text": "At the start of the Declare Battle Formations step, if your army includes Aethon Shaan and Kayvaan Shrike, until the end of the battle, your Kayvaan Shrike unit loses its Lone Operative ability and it replaces its Chapter Master keyword with Captain."
+     },
+     {
+      "name": "Master of Shadows",
+      "text": "In your Command phase, you can select one unit from your opponent’s army. Until the start of your next Command phase, each time an Adeptus Astartes unit from your army declares a charge while it is within 12\" of that enemy unit, you can re-roll the Charge roll, but it must declare that enemy unit as a target of that charge (if possible)."
+     },
+     {
+      "name": "Blackwing Mantle",
+      "text": "You can target this model’s unit with the Rapid Ingress and Heroic Intervention Stratagems for 0CP, even if you have already used that Stratagem on a different unit this phase."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Fly",
+    "Jump Pack",
+    "Imperium",
+    "Tacticus",
+    "Chapter Master",
+    "Aethon Shaan"
+   ]
+  },
+  {
+   "name": "Kayvaan Shrike",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Blackout",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "PISTOL",
+      "PRECISION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Raven's Talons",
+     "A": 7,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "PRECISION",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Lone Operative",
+     "Deep Strike",
+     "Stealth"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Trifold Path of Shadow",
+      "text": "While this model is leading a unit, models in this unit cannot be targeted by ranged attacks unless the attacking model is within 12\"."
+     },
+     {
+      "name": "Echo of the Ravenspire",
+      "text": "At the end of your opponent’s turn, if this model’s unit is not within Engagement Range of any enemy models, you can remove it from the battlefield and place it into Strategic Reserves."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ ASSAULT INTERCESSORS WITH JUMP PACKS ■ VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+     },
+     {
+      "name": "Inspiring Commander",
+      "text": "If you include this model in your army, until the end of the battle, non-Character models in Assault Intercessors with Jump Packs units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Fly",
+    "Jump Pack",
+    "Chapter Master",
+    "Kayvaan Shrike",
+    "Phobos"
+   ]
+  }
+ ]
+}

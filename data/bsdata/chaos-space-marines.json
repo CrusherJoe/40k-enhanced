@@ -1,0 +1,8580 @@
+{
+ "slug": "chaos-space-marines",
+ "source": "BSData/wh40k-11e :: Chaos - Chaos Space Marines.json",
+ "datasheets": [
+  {
+   "name": "Abaddon the Despoiler",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 9,
+    "Ld": "5+",
+    "OC": 4
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Talon of Horus",
+     "range": 24,
+     "A": 4,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Drach'nyen",
+     "A": 8,
+     "WS": "2+",
+     "S": 14,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "The Warmaster",
+      "text": "In your Command phase, select one Warmaster ability. Until the start of your next Command phase, this model has that ability."
+     },
+     {
+      "name": "Dark Destiny",
+      "text": "Each time this model makes a Dark Pact and does not fail the resulting leadership roll, if the result of that roll was 7+, you gain 1CP."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ CHAOS TERMINATOR SQUAD ■ CHOSEN"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Terminator",
+    "Chaos Undivided",
+    "Chaos",
+    "Abaddon the Despoiler"
+   ]
+  },
+  {
+   "name": "Accursed Cultists",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Hideous mutations",
+     "A": "D6+2",
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "keywords": [],
+   "extra_profiles": [
+    {
+     "name": "Mutant",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "6+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Chaos Bikers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "3+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Rapid Assault",
+      "text": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristic of that attack by 1."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Grenades",
+    "Chaos",
+    "Chaos Bikers"
+   ]
+  },
+  {
+   "name": "Chaos Deimos Predator [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 11,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Plasma destroyer - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma destroyer - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Conversion beam cannon",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "CONVERSION",
+      "SUSTAINED HITS D3"
+     ]
+    },
+    {
+     "name": "Magna-melta cannon",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 4"
+     ]
+    },
+    {
+     "name": "Infernus cannon",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "2+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Armoured Spearhead",
+      "text": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Chaos",
+    "Deimos Predator"
+   ]
+  },
+  {
+   "name": "Chaos Land Raider",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 12,
+    "Sv": "2+",
+    "W": 16,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "ranged": [
+    {
+     "name": "Soulshatter lascannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Havoc launcher",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Twin heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 6,
+     "WS": "4+",
+     "S": 8,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Assault Ramp",
+      "text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Smoke",
+    "Chaos",
+    "Land Raider",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Chaos Lord",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Daemon hammer",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainblade",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ CHOSEN ■ LEGIONARIES"
+     },
+     {
+      "name": "Chance for Glory",
+      "text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour Penetration and Damage characteristics of melee weapons equipped by this model by 1."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Chaos Lord"
+   ]
+  },
+  {
+   "name": "Chaos Lord in Terminator Armour",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Exalted weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Chainfist",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 3+"
+     ]
+    },
+    {
+     "name": "Paired accursed weapons",
+     "A": 7,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ CHAOS TERMINATOR SQUAD"
+     },
+     {
+      "name": "Formidably Resilient",
+      "text": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Chaos",
+    "Terminator",
+    "Chaos Lord in Terminator Armour",
+    "Chaos Lord"
+   ]
+  },
+  {
+   "name": "Chaos Lord on Bike [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Paired accursed weapons",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ CHAOS BIKERS"
+     },
+     {
+      "name": "Swift Assault",
+      "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Chaos Lord on Bike"
+   ]
+  },
+  {
+   "name": "Chaos Lord on Disc of Tzeentch [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Paired accursed weapons",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ CHOSEN ■ LEGIONARIES ■ RUBRIC MARINES"
+     },
+     {
+      "name": "Lord of Fate",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Fly",
+    "Chaos",
+    "Tzeentch",
+    "Chaos Lord",
+    "Disc of Tzeentch"
+   ]
+  },
+  {
+   "name": "Chaos Lord on Juggernaut [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 6,
+    "Sv": "2+",
+    "W": 7,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bladed horn",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Paired accursed weapons",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ CHAOS BIKERS ■ KHORNE BERZERKERS"
+     },
+     {
+      "name": "Bloody Stampede",
+      "text": "Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Khorne",
+    "Chaos Lord",
+    "Juggernaut"
+   ]
+  },
+  {
+   "name": "Chaos Lord on Palanquin of Nurgle [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "3+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Nurgling's claws and teeth",
+     "A": 4,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Paired accursed weapons",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ CHOSEN ■ LEGIONARIES ■ PLAGUE MARINES"
+     },
+     {
+      "name": "Revolting Regeneration",
+      "text": "At the start of your Command phase, this model regains up to D3 lost wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Nurgle",
+    "Chaos Lord",
+    "Palanquin of Nurgle"
+   ]
+  },
+  {
+   "name": "Chaos Lord on Steed of Slaanesh [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 5,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Lashing tongue",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Paired accursed weapons",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ CHAOS BIKERS"
+     },
+     {
+      "name": "Cut Off Their Escape",
+      "text": "Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Slaanesh",
+    "Chaos Lord",
+    "Steed of Slaanesh"
+   ]
+  },
+  {
+   "name": "Chaos Lord with Jump Pack",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Twin lightning claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ RAPTORS"
+     },
+     {
+      "name": "Cruel Hunter",
+      "text": "While this model is leading a unit, each time that unit Piles In or Consolidates, each model in that unit can move up to 6\" instead of up to 3\"."
+     }
+    ]
+   },
+   "keywords": [
+    "Chaos Lord",
+    "Jump Pack",
+    "Character",
+    "Infantry",
+    "Fly",
+    "Grenades",
+    "Chaos"
+   ]
+  },
+  {
+   "name": "Chaos Predator Annihilator",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 11,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Predator twin lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Havoc launcher",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Annihilator",
+      "text": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Chaos",
+    "Predator Annihilator",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Chaos Predator Destructor",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 11,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Predator autocannon",
+     "range": 48,
+     "A": 4,
+     "BS": "3+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Havoc launcher",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Destructor",
+      "text": "Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Chaos",
+    "Predator Destructor",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Chaos Rhino",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 9,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Havoc launcher",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Firing Deck 2"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Self-repair",
+      "text": "At the start of your Command phase, this model regains 1 lost wound."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Dedicated Transport",
+    "Chaos",
+    "Rhino",
+    "Smoke",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Chaos Spawn",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 5,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "melee": [
+    {
+     "name": "Hideous Mutations",
+     "A": "D6+2",
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 5+"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Mind-breaking Mutations (Aura)",
+      "text": "While an enemy unit (excluding VEHICLES) is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+     }
+    ]
+   },
+   "keywords": [
+    "Beast",
+    "Chaos",
+    "Chaos Spawn"
+   ]
+  },
+  {
+   "name": "Chaos Vindicator",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 11,
+    "Sv": "2+",
+    "W": 11,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Demolisher cannon",
+     "range": 24,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Havoc launcher",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Siege Shield",
+      "text": "When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Chaos",
+    "Vindicator",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Cultist Firebrand",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Balefire pike",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 4,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Fiery Faith",
+      "text": "While this model is leading a unit, you can re-roll Leadership tests taken for that unit."
+     },
+     {
+      "name": "Cursed Flames",
+      "text": "In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks. That unit must make a Battle-shock test."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ ACCURSED CULTISTS ■ CULTIST MOB"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Damned",
+    "Cultist Firebrand"
+   ]
+  },
+  {
+   "name": "Cultist Mob",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "For the Dark Gods",
+      "text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Chaos",
+    "Cultist Mob",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Cultist Mob with Firearms [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Cultist grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Cultist grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 4,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "RAPID FIRE 3"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "For the Dark Gods",
+      "text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Chaos",
+    "Damned",
+    "Cultist Mob with Firearms"
+   ]
+  },
+  {
+   "name": "Cypher",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Cypher's bolt pistol",
+     "range": 12,
+     "A": 6,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Cypher's plasma pistol",
+     "range": 12,
+     "A": 3,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL",
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Lone Operative"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Agent of Discord (Aura)",
+      "text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
+     },
+     {
+      "name": "Guns Blazing",
+      "text": "Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attacks that targets a friendly HERETIC ASTARTES unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so and can only do so if that enemy unit is an eligible target."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Cypher",
+    "Fallen"
+   ]
+  },
+  {
+   "name": "Dark Apostle",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "5+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Accursed crozius",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "keywords": [
+    "Dark Apostle",
+    "Character"
+   ],
+   "extra_profiles": [
+    {
+     "name": "Dark Disciple",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "6+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Defiler",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 11,
+    "Sv": "3+",
+    "W": 18,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy missile launcher - frag",
+     "range": 48,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Heavy missile launcher - krak",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6+1"
+    },
+    {
+     "name": "Hades lascannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy reaper autocannon",
+     "range": 48,
+     "A": 4,
+     "BS": "3+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Hades battle cannon",
+     "range": 48,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 10,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Ectoplasma destructor",
+     "range": 36,
+     "A": "D6",
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Heavy baleflamer",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Excruciator cannon",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Magma cutter",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Shearing claws - strike",
+     "A": 5,
+     "WS": "3+",
+     "S": 16,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Shearing claws - sweep",
+     "A": 10,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Electroscourge",
+     "A": 5,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "SUSTAINED HITS 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Scuttling Walker",
+      "text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+     },
+     {
+      "name": "Daemonforge",
+      "text": "Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-6",
+    "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Defiler"
+   ]
+  },
+  {
+   "name": "Exalted Champion [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Flamer tendril",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Melta tendril",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Balefire tome",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Baleflamer",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Helstalker autocannon",
+     "range": 48,
+     "A": 3,
+     "BS": "2+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Magma cutter",
+     "range": 6,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Reaper autocannon",
+     "range": 36,
+     "A": 4,
+     "BS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Rite of Possession - witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "PISTOL",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Rite of Possession - focused witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "HAZARDOUS",
+      "PISTOL",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainblade",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Axe of dismemberment",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Bladed limbs",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Chainfist",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 3+"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Daemon hammer",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Exalted weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Impaler chainglaive",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Staff of possession",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Technovirus injector",
+     "A": 1,
+     "WS": "3+",
+     "S": 3,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 2+",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Twin lightning claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: Chosen, Havocs, Legionaries, Nemesis Claw, Raiders"
+     },
+     {
+      "name": "Marked by the Dark Gods",
+      "text": "Each time this model makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Exalted Champion",
+    "Crucible"
+   ]
+  },
+  {
+   "name": "Exalted Champion [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Exalted weapon",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts",
+     "Support"
+    ],
+    "datasheet": [
+     {
+      "name": "Support",
+      "text": "This model can be attached to the following units: ■ CHOSEN ■ LEGIONARIES You can attach this model to one of the above units even if one other CHARACTER model has already been attached to it (a unit cannot have two EXALTED CHAMPIONS attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     },
+     {
+      "name": "Dark Champion",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
+     },
+     {
+      "name": "Aspire to Glory",
+      "text": "Each time this model’s unit makes a Dark Pact, until the end of the phase, add D3 to the Strength characteristic of weapons equipped by this model."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Exalted Champion"
+   ]
+  },
+  {
+   "name": "Fabius Bile",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Xyclos needler",
+     "range": 18,
+     "A": 3,
+     "BS": "2+",
+     "S": 2,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Chirurgeon",
+     "A": 2,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Rod of Torment",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Chaos Undivided",
+    "Fabius Bile"
+   ],
+   "extra_profiles": [
+    {
+     "name": "Surgeon Acolyte",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "6+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Fellgor Beastmen",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol- supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chainsword",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Great weapon",
+     "A": 2,
+     "WS": "5+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Corrupted stave",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Bestial Raiders",
+      "text": "If this unit begins the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting it up on the battlefield, treat the current battle round number as being one higher than it actually is."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Fellgor Beastmen",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Forgefiend",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Ectoplasma cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Hades autocannon",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured limbs",
+     "A": 2,
+     "WS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 2
+    },
+    {
+     "name": "Forgefiend jaws",
+     "A": 5,
+     "WS": "3+",
+     "S": 7,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Daemonic Ordnance",
+      "text": "Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its ranged weapons have the [DEVASTATING WOUNDS] and [HAZARDOUS] abilities."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Forgefiend"
+   ]
+  },
+  {
+   "name": "Gellerpox Infected [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Brutal weapons",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [],
+   "extra_profiles": [
+    {
+     "name": "Nightmare Hulk",
+     "stats": {
+      "M": 5,
+      "T": 5,
+      "Sv": "6+",
+      "W": 4,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Haarken Worldclaimer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Hellspear",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "ASSAULT",
+      "SUSTAINED HITS D3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Herald's Talon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ RAPTORS"
+     },
+     {
+      "name": "Head Taker",
+      "text": "While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this model’s unit which is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound."
+     },
+     {
+      "name": "Herald of the Apocalypse (Aura)",
+      "text": "While an enemy unit is within 6\" of this model, in the Battle-shock step of your opponent’s Command phase, if that enemy unit is below its Starting Strength, it must take a Battle-shock test. This ability cannot cause a unit to take two Battle-shock tests in the same phase."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "Jump Pack",
+    "Chaos",
+    "Chaos Undivided",
+    "Haarken Worldclaimer"
+   ]
+  },
+  {
+   "name": "Havocs",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Helbrute",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 9,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Twin autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Helbrute plasma cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Twin heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 5,
+     "WS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Helbrute fist",
+     "A": 5,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Helbrute hammer",
+     "A": 5,
+     "WS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Power scourge",
+     "A": 8,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Dark Ascension (Aura)",
+      "text": "While a friendly HERETIC ASTARTES unit is within 6\" of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of only one)."
+     },
+     {
+      "name": "Devoted to Destruction",
+      "text": "If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristics of those 2 weapons."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Helbrute"
+   ]
+  },
+  {
+   "name": "Heldrake",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "12+",
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": "-"
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Baleflamer",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Hades autocannon",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Heldrake claws",
+     "A": 5,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-FLY 2+",
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Airborne Predator",
+      "text": "Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Heldrake"
+   ]
+  },
+  {
+   "name": "Hell Blade [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "20+",
+    "T": 8,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 0
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Interceptor",
+      "text": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Chaos",
+    "Hellblade"
+   ]
+  },
+  {
+   "name": "Hell Talon [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "20+",
+    "T": 9,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "6+",
+    "OC": 0
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Havoc launcher",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Twin lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Bomb Rack",
+      "text": "Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Chaos",
+    "Hell Talon"
+   ]
+  },
+  {
+   "name": "Heretic Astartes Daemon Prince",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Infernal cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hellforged weapons - strike",
+     "A": 6,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - sweep",
+     "A": 14,
+     "WS": "2+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Dark Blessing (Aura)",
+      "text": "While a friendly HERETIC ASTARTES INFANTRY unit is within 6\" of this model, each time a ranged attack is allocated to a model in that unit, that model has the Benefit of Cover against that attack."
+     },
+     {
+      "name": "Ascended Daemon",
+      "text": "Each time this model shoot or fights, while resolving those attacks, you can re-roll one Hit roll and you can re-roll one Wound roll."
+     },
+     {
+      "name": "Lord of Chaos",
+      "text": "While this model is within 3\" of a friendly Heretic Astartes Infantry unit, this model has Lone Operative."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Daemon Prince"
+   ]
+  },
+  {
+   "name": "Heretic Astartes Daemon Prince with wings",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 9,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Infernal cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hellforged weapons - strike",
+     "A": 6,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Hellforged weapons - sweep",
+     "A": 14,
+     "WS": "2+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Flying Horror",
+      "text": "Each time this model ends a Normal or Advance move, select one enemy unit it moved over during that move. That unit must take a Battle-shock test."
+     },
+     {
+      "name": "Daemonic Destruction",
+      "text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model’s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Fly",
+    "Daemon Prince with Wings",
+    "Daemon Prince"
+   ]
+  },
+  {
+   "name": "Huron Blackheart",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Tyrant's Claw heavy flamer",
+     "range": 12,
+     "A": "D6+2",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Tyrant's Claw and exalted power weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike",
+     "Feel No Pain 5+"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Chosen - Chaos Terminator Squad - Legionaries - Masters of the Maelstrom - Red Corsairs Raiders"
+     },
+     {
+      "name": "Lord of Badab (Aura)",
+      "text": "While a friendly Heretic Astartes Infantry unit (excluding Battle-shocked units and Damned units) is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit."
+     },
+     {
+      "name": "Hamadrya’s Knowledge (Psychic)",
+      "text": "Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\"."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Chaos Undivided",
+    "Huron Blackheart"
+   ]
+  },
+  {
+   "name": "Khorne Berzerkers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "melee": [
+    {
+     "name": "Chainblade",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Khorne Lord of Skulls",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 13,
+    "Sv": "3+",
+    "W": 24,
+    "Ld": "6+",
+    "OC": 8
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Hades gatling cannon",
+     "range": 48,
+     "A": 12,
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Skullhurler",
+     "range": 60,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 14,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Gorestorm cannon",
+     "range": 24,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Daemongore cannon",
+     "range": 18,
+     "A": "D6",
+     "BS": "3+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6+2",
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Ichor cannon",
+     "range": 48,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Great cleaver of Khorne - strike",
+     "A": 5,
+     "WS": "3+",
+     "S": 16,
+     "AP": -4,
+     "D": 8
+    },
+    {
+     "name": "Great cleaver of Khorne - sweep",
+     "A": 15,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Plough Through the Enemy",
+      "text": "In the Fight phase, after this model has finished making its attacks, if this model destroyed one or more enemy units this phase, each enemy unit within 6\" of this model must take a Battle-shock test."
+     },
+     {
+      "name": "Damaged: 1-8 wounds remaining",
+      "text": "While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Towering",
+    "Chaos",
+    "Khorne",
+    "Daemon",
+    "Lord of Skulls",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Kravek Morne",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Baleflamer",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Last Argument and power fist",
+     "A": 7,
+     "WS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Servo-harness",
+     "A": 3,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 2+",
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Headlong Destruction",
+      "text": "Each time a model in this unit makes an attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+     },
+     {
+      "name": "Architect of Ruin",
+      "text": "At the start of the battle, select one unit in your opponent’s army to be this model’s hated foe. Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll. Each time this model’s hated foe is destroyed, you can select a new unit from your opponent’s army to be its hated foe."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: Chaos Terminator Squad, Mutilators, Obliterators."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Chaos",
+    "Chaos Undivided",
+    "Terminator",
+    "Kravek Morne"
+   ]
+  },
+  {
+   "name": "Legionaries",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Lord Discordant on Helstalker",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 9,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 4
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Helstalker autocannon",
+     "range": 48,
+     "A": 3,
+     "BS": "2+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Baleflamer",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Magma cutter",
+     "range": 6,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bladed limbs",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Impaler chainglaive",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Techno-virus injector",
+     "A": 1,
+     "WS": "3+",
+     "S": 3,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 2+",
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Corrupt Machine Spirits",
+      "text": "At the start of your Shooting phase, select one visible enemy Vehicle unit within 12\" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’"
+     },
+     {
+      "name": "Spirit Thief",
+      "text": "At the start of your Shooting phase, select one visible enemy Vehicle unit. Until the end of the phase, each time a friendly Heretic Astartes model makes an attack that targets that unit, re-roll a Wound roll of 1."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Chaos",
+    "Daemon",
+    "Lord Discordant"
+   ]
+  },
+  {
+   "name": "Master of Executions",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Axe of dismemberment",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts",
+     "Support"
+    ],
+    "datasheet": [
+     {
+      "name": "Support",
+      "text": "This model can be attached to the following units: ■ CHOSEN ■ LEGIONARIES You can attach this model to one of the above units even if one other CHARACTER model has already been attached to it (a unit cannot have two MASTERS OF EXECUTIONS attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     },
+     {
+      "name": "Warp-sighted Butcher",
+      "text": "While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well."
+     },
+     {
+      "name": "Trophy Taker",
+      "text": "Each time this model destroys an enemy CHARACTER model, you gain 1CP."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Master of Executions"
+   ]
+  },
+  {
+   "name": "Master of Possession",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Rite of Possession - witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "PISTOL",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Rite of Possession - focused witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "HAZARDOUS",
+      "PISTOL",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Staff of possession",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ CHOSEN ■ LEGIONARIES ■ POSSESSED"
+     },
+     {
+      "name": "Daemonkin (Psychic)",
+      "text": "While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit."
+     },
+     {
+      "name": "Sacrificial Dagger",
+      "text": "Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this model’s unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Master of Possession"
+   ]
+  },
+  {
+   "name": "Masters of the Maelstrom",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Absolver bolt pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Reductor array",
+     "A": 6,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Choice Samples",
+      "text": "While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding Character models) to this unit, or, if one or more Heretic Astartes Infantry units from your army are below Starting Strength and within 3\" of this unit, you gain 1CP."
+     }
+    ]
+   },
+   "keywords": [],
+   "extra_profiles": [
+    {
+     "name": "Garlon Souleater",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "3+",
+      "W": 4,
+      "Ld": "6+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Katar Garrix",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "3+",
+      "W": 4,
+      "Ld": "6+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Captain Sargotta",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "4+",
+      "W": 3,
+      "Ld": "6+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "The Enforcer",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "4+",
+      "W": 3,
+      "Ld": "6+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Maulerfiend",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Magma cutter",
+     "range": 6,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Maulerfiend fists",
+     "A": 6,
+     "WS": "3+",
+     "S": 14,
+     "AP": -2,
+     "D": "D6+1"
+    },
+    {
+     "name": "Lasher tendrils",
+     "A": 6,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Siege Crawler",
+      "text": "You can ignore any or all modifiers to this model's Move characteristic and to Advance and Charge rolls made for it."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Maulerfiend"
+   ]
+  },
+  {
+   "name": "Mutilators",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 7,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Fleshmetal weapons - rending strikes",
+     "A": 4,
+     "WS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Fleshmetal weapons - clawed sweeps",
+     "A": 6,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Fleshmetal weapons - thunderous blows",
+     "A": 2,
+     "WS": "3+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6+2"
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Mutoid Vermin [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 2,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "melee": [
+    {
+     "name": "Diseased claws and fangs",
+     "A": 2,
+     "WS": "4+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Mischief Makers (Aura)",
+      "text": "While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Swarm",
+    "Chaos",
+    "Nurgle",
+    "Mutoid Vermin",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Negavolt Cultists [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Electro-goads",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 5+"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Voltagheist Field",
+      "text": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+     },
+     {
+      "name": "Servants of the Abyss",
+      "text": "If a unit from your army with the Leader ability can be attached to a CULTIST MOB, it can be attached to this unit instead."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Negavolt Cultists",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Nemesis Claw",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Nostraman chainblade",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Nostraman chainglaive",
+     "A": 4,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Paired accursed weapons",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Stealth"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Visions of Suffering (Psychic)",
+      "text": "Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll. If that enemy unit is Below Half-strength, add 1 to the Wound roll as well."
+     },
+     {
+      "name": "Attached Unit",
+      "text": "If a CHARACTER UNIT unit from your army with the Leader ability (excluding EPIC HEROES) can be attached to a LEGIONARIES unit, it can be attached to this unit instead."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Psyker",
+    "Grenades",
+    "Nemesis Claw",
+    "Chaos"
+   ]
+  },
+  {
+   "name": "Noctilith Crown",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "6+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Lashing warp energies",
+     "range": 6,
+     "A": 8,
+     "BS": "4+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Malevolent Locus (Aura)",
+      "text": "While a friendly HERETIC ASTARTES unit is within 9\" of this Fortification, improve that unit's Leadership characteristic by 1."
+     },
+     {
+      "name": "Malign Cover",
+      "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+     }
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Chaos",
+    "Noctilith Crown",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Noise Marines",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Screamer pistol",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Sonic blaster",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power sword",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Obliterators",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 4,
+    "T": 7,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Fleshmetal guns - focused malice",
+     "range": 18,
+     "A": "D3",
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": 4,
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Fleshmetal guns - ruinous salvo",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Fleshmetal guns - warp hail",
+     "range": 24,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Crushing fists",
+     "A": 4,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Warp Rift Firepower",
+      "text": "(Once per battle, per unit): In your Shooting phase, when this unit is selected to shoot, you can use this ability. If you do, this unit's ranged attacks have [INDIRECT FIRE]."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Daemon",
+    "Obliterators"
+   ]
+  },
+  {
+   "name": "Plague Marines",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 6,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Plague bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Blight launcher",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Plague spewer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plague belcher",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Plague knives",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Bubotic weapons",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Heavy plague weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Infused with the Blessings of Nurgle",
+      "text": "In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Chaos",
+    "Nurgle",
+    "Plague Marines"
+   ]
+  },
+  {
+   "name": "Possessed",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 6,
+    "Sv": "3+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Hideous mutations",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Unholy Bloodshed",
+      "text": "Once per battle, when this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Daemon",
+    "Possessed"
+   ]
+  },
+  {
+   "name": "Raptors",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Heavy melee weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Mutations",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Fearsome (Aura)",
+      "text": "While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result."
+     },
+     {
+      "name": "Terrifying Assault",
+      "text": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Jump Pack",
+    "Chaos",
+    "Raptors",
+    "Grenades"
+   ]
+  },
+  {
+   "name": "Red Corsairs Raiders",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Reaver's blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Red Corsairs Reave-captain",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power sword",
+     "A": 7,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Power maul",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Brutal Raider",
+      "text": "Each time this model's unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+     },
+     {
+      "name": "Raider's Due",
+      "text": "Each time this unit declares a Charge that targets one or more units that are within range of one or more objective markers, you can re-roll the Charge roll."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: Chosen, Legionaries, Red Corsairs Raiders"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Chaos",
+    "Red Corsairs Reave-captain"
+   ]
+  },
+  {
+   "name": "Renegade Enforcer [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Enforcer pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Autogun",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Shotgun",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Enforcer melee weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Brutal Example",
+      "text": "While this model is leading a unit, you can target that unit with the Insane Bravery Stratagem for 0CP, and can do so even if another unit from your army has already been targeted with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed."
+     },
+     {
+      "name": "Enforcer",
+      "text": "This model's unit is eligible to declare a charge in a turn in which it Fell Back."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ TRAITOR GUARDSMEN SQUAD ■ RENEGADE HEAVY WEAPONS SQUAD"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Renegade Enforcer",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Renegade Heavy Weapons Squad [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Renegade firearm",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 4,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "5+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "5+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "5+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Mortar",
+     "range": 48,
+     "A": "D6",
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "HEAVY",
+      "INDIRECT FIRE"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapons",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Covering Fire",
+      "text": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Renegade Heavy Weapons Squad",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Renegade Ogryn Beast Handler [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "5+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Mauler goad and ripper claw",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "keywords": [],
+   "extra_profiles": [
+    {
+     "name": "Chaos Mauler Hound",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "6+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Renegade Ogryn Brutes [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Ogryn weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Ogryn power drill",
+     "A": 3,
+     "WS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Ogryn Combat Stimms",
+      "text": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Renegade Ogryn Brutes",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Renegade Plague Ogryns [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 7,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Ogryn plague claws",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Wall of Muscle",
+      "text": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Nurgle",
+    "Renegade Plague Ogryns",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Rogue Psyker [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Psychic Strike - focused witchfire",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psychic Strike - witchfire",
+     "range": 12,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chaos stave",
+     "A": 1,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ ACCURSED CULTISTS ■ CULTIST MOB ■ NEGAVOLT CULTISTS"
+     },
+     {
+      "name": "Cursed Wardings (Psychic)",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+     },
+     {
+      "name": "Psychic Barrier (Psychic)",
+      "text": "At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ invulnerable save."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Rogue Psyker",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Rubric Marines",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Malefic Curse",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": -3,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Inferno bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Warpflame pistol",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Inferno boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Warpflamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Soulreaper cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Force weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Bringers of Change",
+      "text": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Tzeentch",
+    "Rubric Marines",
+    "Rubricae"
+   ]
+  },
+  {
+   "name": "Sorcerer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ CHOSEN ■ LEGIONARIES"
+     },
+     {
+      "name": "Prescience (Psychic)",
+      "text": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Gift of Chaos (Psychic)",
+      "text": "Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test: if that test is failed, that unit suffers D3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Grenades",
+    "Chaos",
+    "Sorcerer"
+   ]
+  },
+  {
+   "name": "Sorcerer in Terminator Armour",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ CHAOS TERMINATOR SQUAD"
+     },
+     {
+      "name": "Warptime (Psychic)",
+      "text": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
+     },
+     {
+      "name": "Death Hex (Psychic)",
+      "text": "At the start of your Shooting phase, one PSYKER with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER's unit suffers D3 mortal wounds; on a 2+, until the start of your next Movement phase, each time an attack targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Terminator",
+    "Sorcerer in Terminator Armour"
+   ]
+  },
+  {
+   "name": "Sorcerer on Bike [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - CHAOS BIKERS"
+     },
+     {
+      "name": "Prescience (Psychic)",
+      "text": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Unholy Power",
+      "text": "Each time this model's unit makes a Dark Pact, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Wound roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Chaos",
+    "Sorcerer on Bike"
+   ]
+  },
+  {
+   "name": "Sorcerer on Disc of Tzeentch [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - RUBRIC MARINES"
+     },
+     {
+      "name": "Flames of Change (Psychic)",
+      "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+     },
+     {
+      "name": "Altered Reality (Psychic)",
+      "text": "Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Fly",
+    "Chaos",
+    "Tzeentch",
+    "Sorcerer",
+    "Disc of Tzeentch"
+   ]
+  },
+  {
+   "name": "Sorcerer on Palanquin of Nurgle [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "3+",
+    "W": 7,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Nurgling's claws and teeth",
+     "A": 4,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ PLAGUE MARINES"
+     },
+     {
+      "name": "Gift of Poxes (Psychic)",
+      "text": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+     },
+     {
+      "name": "Feculent Despair (Aura, Psychic)",
+      "text": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Chaos",
+    "Nurgle",
+    "Sorcerer",
+    "Palanquin of Nurgle"
+   ]
+  },
+  {
+   "name": "Sorcerer on Steed of Slaanesh [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 5,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Lashing tongue",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - CHAOS BIKERS"
+     },
+     {
+      "name": "Infernal Speed",
+      "text": "While this model is leading a unit, change the Move characteristic of models in that unit to 14\"."
+     },
+     {
+      "name": "Dark Favour (Psychic)",
+      "text": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Chaos",
+    "Slaanesh",
+    "Sorcerer",
+    "Steed of Slaanesh"
+   ]
+  },
+  {
+   "name": "Sorcerous Champion [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Flamer tendril",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Melta tendril",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Balefire tome",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Baleflamer",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Helstalker autocannon",
+     "range": 48,
+     "A": 3,
+     "BS": "2+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Magma cutter",
+     "range": 6,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Reaper autocannon",
+     "range": 36,
+     "A": 4,
+     "BS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Rite of Possession - witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "PISTOL",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Rite of Possession - focused witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "HAZARDOUS",
+      "PISTOL",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainblade",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Axe of dismemberment",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Bladed limbs",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Chainfist",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 3+"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Daemon hammer",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Exalted weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Impaler chainglaive",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Staff of possession",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Technovirus injector",
+     "A": 1,
+     "WS": "3+",
+     "S": 3,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 2+",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Twin lightning claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: Chosen, Havocs, Legionaries, Nemesis Claw, Raiders"
+     },
+     {
+      "name": "Gift of Chaos (Psychic)",
+      "text": "Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC} ability. That unit must take a Leadership test. If it fails, it suffers D3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Psyker",
+    "Sorcerous Champion",
+    "Crucible"
+   ]
+  },
+  {
+   "name": "Soul Forge Tyrant [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 9,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 4
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Flamer tendril",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Melta tendril",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Balefire tome",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Baleflamer",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Helstalker autocannon",
+     "range": 48,
+     "A": 3,
+     "BS": "2+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Magma cutter",
+     "range": 6,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Reaper autocannon",
+     "range": 36,
+     "A": 4,
+     "BS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Rite of Possession - witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "PISTOL",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Rite of Possession - focused witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "HAZARDOUS",
+      "PISTOL",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Infernal Gaze - focused witchfire",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HAZARDOUS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainblade",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Axe of dismemberment",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Bladed limbs",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Chainfist",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 3+"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Daemon hammer",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Exalted weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Impaler chainglaive",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Staff of possession",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Technovirus injector",
+     "A": 1,
+     "WS": "3+",
+     "S": 3,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 2+",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Twin lightning claws",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Skulking Nightmare",
+      "text": "While this model is within 3\" of one or more friendly Heretic Astartes Infantry units, this model has the Lone Operative ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Chaos",
+    "Mounted",
+    "Daemon",
+    "Helstalker",
+    "Soul Forge Tyrant",
+    "Crucible"
+   ]
+  },
+  {
+   "name": "Traitor Enforcer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Traitor Enforcer"
+   ],
+   "extra_profiles": [
+    {
+     "name": "Traitor Ogryn",
+     "stats": {
+      "M": 6,
+      "T": 6,
+      "Sv": "5+",
+      "W": 4,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Traitor Guardsmen Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Corrupted pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Cultist sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Cultist grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Cultist grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chainsword",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Twisted Defence Force",
+      "text": "While this unit is within range of an objective, this unit has +1 Sv against ranged attacks."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Traitor Guardsmen Squad",
+    "Damned"
+   ]
+  },
+  {
+   "name": "Vashtorr the Arkifane",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 10,
+    "Sv": "2+",
+    "W": 14,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Vashtorr's claw",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Vashtorr's hammer - strike",
+     "A": 6,
+     "WS": "2+",
+     "S": 14,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Vashtorr's hammer - sweep",
+     "A": 12,
+     "WS": "2+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Unholy Mechanisms (Aura)",
+      "text": "While a friendly Daemon Vehicle unit is within 6\" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit."
+     },
+     {
+      "name": "Reorder Reality",
+      "text": "Each time an enemy unit within 18\" of this model targets this model, subtract 1 from the Hit roll and, until the end of the phase, that enemy unit’s ranged weapons have the [HAZARDOUS] ability."
+     },
+     {
+      "name": "Indentured Daemon Engines",
+      "text": "While this model is within 3\" of one or more friendly Daemon Vehicle units, this model has the Lone Operative ability."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Vashtorr the Arkifane"
+   ]
+  },
+  {
+   "name": "Venomcrawler",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 9,
+    "Sv": "3+",
+    "W": 9,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Excruciator cannon",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Soulflayer tendrils and claws",
+     "A": 6,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Soul Eater",
+      "text": "At the end of the Fight phase, if one or more attacks made by this model that phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this model’s weapons."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Venomcrawler"
+   ]
+  },
+  {
+   "name": "Warpsmith",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "2+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Flamer tendril",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Melta tendril",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 1",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Forge weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 4+"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Dark Pacts"
+    ],
+    "datasheet": [
+     {
+      "name": "Warpsmith",
+      "text": "While this model is within 3\" of one or more friendly Heretic Astartes Vehicle units, this model has the Lone Operative ability."
+     },
+     {
+      "name": "Master of Mechanisms",
+      "text": "In your Command phase, select one friendly Heretic Astartes Vehicle model within 3\" of this model. That Vehicle model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase."
+     },
+     {
+      "name": "Enrage Machine Spirits",
+      "text": "At the end of your Movement phase, select one enemy Vehicle unit within 12\" of this model. That unit must take a Battle-shock test."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: Chosen, Havocs, Legionaires"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Chaos",
+    "Warpsmith"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1036 @@
+{
+ "slug": "deathwatch",
+ "source": "BSData/wh40k-11e :: Imperium - Deathwatch.json",
+ "datasheets": [
+  {
+   "name": "Corvus Blackstar",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "6+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Hurricane bolter",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 6",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin assault cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Blackstar rocket launcher",
+     "range": 30,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Stormstrike missile launcher",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Stealth"
+    ],
+    "faction": [
+     "Mission Tactics",
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Blackstar Cluster Launcher",
+      "text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 5+, that unit suffers 1 mortal wound."
+     },
+     {
+      "name": "Damaged: 1-5 Wounds Remaining",
+      "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Transport",
+      "text": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY or KILL TEAM models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+     }
+    ]
+   },
+   "keywords": [
+    "Fly",
+    "Vehicle",
+    "Imperium",
+    "Transport",
+    "Corvus Blackstar",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Deathwatch Veteran w/ carbine",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Deathwatch marksman bolt carbine",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Special-issue bolt pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "PRECISION",
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Combat knife",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Tacticus"
+   ]
+  },
+  {
+   "name": "Deathwatch Veteran w/ heavy thunder hammer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy thunder hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": [
+    "Tacticus"
+   ]
+  },
+  {
+   "name": "Deathwatch Veteran w/ stalker bolt rifle",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Stalker bolt rifle",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "LETHAL HITS",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Plasma incinerator - Standard",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma incinerator - Supercharge",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Tacticus"
+   ]
+  },
+  {
+   "name": "Fortis Kill Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Deathwatch bolt rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "HEAVY",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Astartes grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Astartes grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Gravis Veteran w/ infernus heavy bolter",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 6,
+    "Sv": "3+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Frag cannon",
+     "range": 18,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST",
+      "HEAVY",
+      "LETHAL HITS",
+      "RAPID FIRE D3"
+     ]
+    },
+    {
+     "name": "Hellstorm bolt rifle",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "HEAVY",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Astartes grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Astartes grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Infernus heavy bolter - heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Infernus heavy bolter - heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL",
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Gravis"
+   ]
+  },
+  {
+   "name": "Kill Team Cassius [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "5+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Artificer crozius",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Invulnerable Save",
+      "text": "Chaplain Cassius has a 4+ invulnerable save."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character"
+   ],
+   "extra_profiles": [
+    {
+     "name": "Vael Donatus",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Zameon Gydrael",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Rodricus Grytt",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Antor Delassio",
+     "stats": {
+      "M": 12,
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Edryc Setorax",
+     "stats": {
+      "M": 12,
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Jensus Natorian",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Drenn Redblade",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Garran Branatar",
+     "stats": {
+      "M": 5,
+      "T": 5,
+      "Sv": "2+",
+      "W": 3,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Ennox Sorrlock",
+     "stats": {
+      "M": 6,
+      "T": 4,
+      "Sv": "3+",
+      "W": 2,
+      "Ld": "6+",
+      "OC": 2
+     }
+    },
+    {
+     "name": "Jetek Suberei",
+     "stats": {
+      "M": 12,
+      "T": 5,
+      "Sv": "3+",
+      "W": 3,
+      "Ld": "6+",
+      "OC": 2
+     }
+    }
+   ]
+  },
+  {
+   "name": "Kill Team Sergeant",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Plasma pistol - Standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - Supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "keywords": [
+    "Tacticus"
+   ]
+  },
+  {
+   "name": "Talonstrike Kill Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma pistol - Standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - Supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Watch Captain Artemis",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Hellfire Extremis",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Master-crafted power weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Mission Tactics",
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Invulnerable Save",
+      "text": "This model has a 4+ invulnerable save."
+     },
+     {
+      "name": "Tactical Instinct",
+      "text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+     },
+     {
+      "name": "Unstoppable Champion",
+      "text": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 1 wound remaining."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - DEATHWATCH VETERANS - FORTIS KILL TEAM"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Watch Captain Artemis",
+    "Captain"
+   ]
+  },
+  {
+   "name": "Watch Master",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Vigil spear",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Orksbane",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "CLEAVE 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment",
+     "Mission Tactics"
+    ],
+    "datasheet": [
+     {
+      "name": "Invulnerable Save",
+      "text": "This model has a 4+ invulnerable save."
+     },
+     {
+      "name": "Strategic Knowledge",
+      "text": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+     },
+     {
+      "name": "Watch Master",
+      "text": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - DEATHWATCH VETERANS - FORTIS KILL TEAM"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Captain",
+    "Grenades",
+    "Imperium",
+    "Watch Master"
+   ]
+  }
+ ]
+}

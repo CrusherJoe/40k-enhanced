@@ -1,0 +1,2951 @@
+{
+ "slug": "blood-angels",
+ "source": "BSData/wh40k-11e :: Imperium - Blood Angels.json",
+ "datasheets": [
+  {
+   "name": "Astorath",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "5+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "The Executioner's Axe",
+     "A": 6,
+     "WS": "2+",
+     "S": 7,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Redeemer of the Lost",
+      "text": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+     },
+     {
+      "name": "Mass of Doom",
+      "text": "Each time this model’s unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Death Company Marines with Jump Packs"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Fly",
+    "Jump Pack",
+    "Imperium",
+    "Chaplain",
+    "Astorath"
+   ]
+  },
+  {
+   "name": "Baal Predator",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 10,
+    "Sv": "3+",
+    "W": 11,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Heavy Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Heavy Bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Baal Flamestorm Cannon",
+     "range": 18,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Twin Assault Cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "DEVASTATING WOUNDS",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "2+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured Tracks",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Overcharged Engines",
+      "text": "You can re-roll Advance rolls made for this model."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Imperium",
+    "Smoke",
+    "Vehicle",
+    "Baal Predator",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Blood Angels Captain",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Inferno pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Master-crafted Chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Relic Weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Orksbane",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "CLEAVE 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Assault Intercessor Squad ■ Infernus Squad ■ Intercessor Squad ■ Sternguard Veteran Squad ■ Company Heroes ■ Tactical Squad"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Captain",
+    "Tacticus"
+   ]
+  },
+  {
+   "name": "Brother Corbulo [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Heaven's Teeth",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Sanguinary Priest",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+     },
+     {
+      "name": "The Red Grail",
+      "text": "While this model is leading a unit, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Assault Squad ■ Assault Intercessor Squad ■ Sternguard Veteran Squad ■ Devastator Squad ■ Tactical Squad ■ Vanguard Veteran Squad"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Sanguinary Priest",
+    "Brother Corbulo"
+   ]
+  },
+  {
+   "name": "Captain Tycho [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "2+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Blood Song",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Dead Man's Hand",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Gifted Commander",
+      "text": "While this model is leading a unit, each time that unit is selected to shoot, select one of the following abilities to apply to ranged weapons equipped by models in that unit until the end of the phase: ■ [ASSAULT] ■ [HEAVY] ■ [RAPID FIRE 1]"
+     },
+     {
+      "name": "Embittered",
+      "text": "The first time an attack is allocated to this model, after the attacking unit has finished making its attacks, until the end of the battle, change the Attacks characteristic of this model’s Dead Man’s Hand to 12"
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Assault Squad ■ Command Squad ■ Assault Intercessor Squad ■ Sternguard Veteran Squad ■ Company Heroes ■ Tactical Squad ■ Vanguard Veteran Squad"
+     },
+     {
+      "name": "Tycho",
+      "text": "Your army cannot contain both Captain Tycho and Tycho the Lost."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Grenades",
+    "Imperium",
+    "Tycho"
+   ]
+  },
+  {
+   "name": "Chief Librarian Mephiston",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 5,
+    "Sv": "2+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Fury of the Ancients - Witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PISTOL",
+      "PSYCHIC",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Fury of the Ancients - Focused Witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL",
+      "PSYCHIC",
+      "SUSTAINED HITS 3"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Vitarus",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -3,
+     "D": "D3",
+     "keywords": [
+      "LETHAL HITS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Lone Operative",
+     "Fights First",
+     "Feel No Pain 4+"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "The Quickening [Psychic]",
+      "text": "This model is eligible to declare a charge in a turn which it Advanced."
+     },
+     {
+      "name": "Transfixing Gaze [Aura, Psychic]",
+      "text": "While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Tacticus",
+    "Psyker",
+    "Chief Librarian Mephiston"
+   ]
+  },
+  {
+   "name": "Commander Dante",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "2+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Perdition",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL",
+      "SUSTAINED HITS D3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Axe Mortalis",
+     "A": 8,
+     "WS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Death Mask of Sanguinius",
+      "text": "At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle-shock test, subtracting 1 from that test when they do"
+     },
+     {
+      "name": "Lord Regent of the Imperium Nihilus",
+      "text": "While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Assault Squad with Jump Packs ■ Sanguinary Guard ■ Vanguard Veteran Squad with Jump Packs ■ Assault Intercessors with Jump Packs"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Fly",
+    "Jump Pack",
+    "Tacticus",
+    "Chapter Master",
+    "Commander Dante"
+   ]
+  },
+  {
+   "name": "Death Company Captain",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Inferno pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Master-crafted Chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Relic Weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Orksbane",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "CLEAVE 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Death Company Marines ■ Death Company Marines with Bolt Rifles"
+     },
+     {
+      "name": "Forlorn Hero",
+      "text": "While this model is leading a unit, unless that unit starts the battle embarked within a Transport, models in that unit have the Scouts 6\" ability"
+     },
+     {
+      "name": "Death Vision of Sanguinius",
+      "text": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Captain",
+    "Tacticus",
+    "Death Company"
+   ]
+  },
+  {
+   "name": "Death Company Captain with Jump Pack",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power fist",
+     "A": 5,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Relic Weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Orksbane",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "CLEAVE 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+",
+     "Deep Strike"
+    ],
+    "datasheet": [
+     {
+      "name": "Death Vision of Sanguinius",
+      "text": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds."
+     },
+     {
+      "name": "Lost to Fury",
+      "text": "When this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability"
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Death Company Marines with Jump Packs"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Captain",
+    "Grenades",
+    "Fly",
+    "Imperium",
+    "Jump Pack",
+    "Tacticus",
+    "Death Company"
+   ]
+  },
+  {
+   "name": "Death Company Dreadnought",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": 4
+   },
+   "ranged": [
+    {
+     "name": "Blood Fist Bolt Rifles",
+     "range": 24,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Icarus ironhail heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-FLY 4+",
+      "RAPID FIRE 3",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Blood Fists",
+     "A": 6,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Blood Talons - Strike",
+     "A": 6,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Blood Talons - Sweep",
+     "A": 10,
+     "WS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Feel No Pain 6+"
+    ],
+    "datasheet": [
+     {
+      "name": "Driven by Fury",
+      "text": "In your opponent’s Shooting phase, when an enemy unit has shot, if this model lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2"
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Dreadnought",
+    "Death Company Dreadnought",
+    "Death Company"
+   ]
+  },
+  {
+   "name": "Death Company Dreadnought with Magna-Grapple [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Storm Bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Blood Talons",
+     "A": 7,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Furioso Fists",
+     "A": 5,
+     "WS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+",
+     "Deadly Demise 1"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Frenzied Reprisal",
+      "text": "Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase."
+     },
+     {
+      "name": "Magna-grapple",
+      "text": "Add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a MOSNTER or VEHICLE unit."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Death Company Dreadnought",
+    "Death Company",
+    "Dreadnought"
+   ]
+  },
+  {
+   "name": "Death Company Intercessors",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Astartes Grenade Launcher - Frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Astartes Grenade Launcher - Krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Bolt Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Death Company Intercessors"
+   ]
+  },
+  {
+   "name": "Death Company Marines",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Inferno Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Eviscerator",
+     "A": 3,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "An Honourable Death in Combat",
+      "text": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength."
+     },
+     {
+      "name": "Attached Unit",
+      "text": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessor Squad, it can be attached to this unit instead."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines",
+    "Tacticus",
+    "Death Company"
+   ]
+  },
+  {
+   "name": "Death Company Marines with Bolt Rifles",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Astartes Grenade Launcher - Frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Astartes Grenade Launcher - Krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Bolt Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Inferno Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Eviscerator",
+     "A": 3,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power Fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Attached Unit",
+      "text": "If a Chaplain model from your army with the Leader ability can be attached to Intercessor Squad, it can be attached to this unit instead."
+     },
+     {
+      "name": "Visions of Heresy",
+      "text": "• This unit can re-roll charge rolls. ▪ When you target this unit with the Fire Overwatch/Heroic Intervention stratagem, that use is -1 CP."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines with Bolt Rifles",
+    "Tacticus",
+    "Death Company"
+   ]
+  },
+  {
+   "name": "Death Company Marines with Boltguns [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Inferno Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "An Honourable Death in Combat",
+      "text": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength."
+     },
+     {
+      "name": "Attached Leader",
+      "text": "If a Chaplain model from your army with the Leader ability can be attached to a Tactical Squad, it can be attached to this unit instead. If a Character unit from your army with the Leader ability can be attached to a Death Company Marines unit, it can be attached to this unit instead."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines with Boltguns",
+    "Death Company"
+   ]
+  },
+  {
+   "name": "Death Company Marines with Boltguns and Jump Packs [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Inferno Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Beserk Fury",
+      "text": "You can re-roll Charge rolls made for this unit"
+     },
+     {
+      "name": "Attached Leader",
+      "text": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs or an Assault Squad with Jump Packs, it can be attached to this unit instead. If a Character unit from your army with the Leader ability can be attached to a Death Company Marines with Jump Packs unit, it can be attached to this unit instead."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines with Boltguns and Jump Packs",
+    "Death Company"
+   ]
+  },
+  {
+   "name": "Death Company Marines with Jump Packs",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Inferno Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Eviscerator",
+     "A": 3,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 6+",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Savage Fury",
+      "text": "You can re-roll Charge rolls made for this unit."
+     },
+     {
+      "name": "Attached Unit",
+      "text": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines with Jump Packs",
+    "Tacticus",
+    "Fly",
+    "Jump Pack",
+    "Death Company"
+   ]
+  },
+  {
+   "name": "Furioso Dreadnought [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 9,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Heavy Frag Cannon",
+     "range": 18,
+     "A": "D6",
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST",
+      "RAPID FIRE D6"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Furioso Fist",
+     "A": 5,
+     "WS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Blood Talons",
+     "A": 7,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Furioso Fists",
+     "A": 5,
+     "WS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Wrathful Rampage",
+      "text": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Furioso Dreadnought",
+    "Smoke",
+    "Dreadnought"
+   ]
+  },
+  {
+   "name": "Gabriel Seth [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Blood Reaver",
+     "A": 6,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Lord of Slaughter",
+      "text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced"
+     },
+     {
+      "name": "Whirlwind of Rage",
+      "text": "Each time this model fights, until that fight is resolved, add 1 to the Attacks characteristic of this model’s Blood Reaver for every 5 enemy models within 6\" of this model."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Assault Squad ■ Command Squad ■ Tactical Squad ■ Vanguard Veteran Squad ■ Assault Intercessor Squad ■ Company Heroes ■ Sternguard Veteran Squad ■ Bladeguard Veteran Squad"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chapter Master",
+    "Imperium",
+    "Gabriel Seth"
+   ]
+  },
+  {
+   "name": "Lemartes",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "5+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Absolvor Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Blood Crozius",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike",
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Guardian of the Lost",
+      "text": "While this model is leading a unit, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack."
+     },
+     {
+      "name": "Fury Unbound",
+      "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Death Company Marines with Jump Packs"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Fly",
+    "Chaplain",
+    "Lemartes",
+    "Jump Pack"
+   ]
+  },
+  {
+   "name": "Librarian Dreadnought [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Blood Lance - Focused Witchfire",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+3",
+     "keywords": [
+      "HAZARDOUS",
+      "PSYCHIC",
+      "SUSTAINED HITS D3"
+     ]
+    },
+    {
+     "name": "Blood Lance - Witchfire",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6",
+     "keywords": [
+      "PSYCHIC",
+      "SUSTAINED HITS D3"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Furioso Fist",
+     "A": 5,
+     "WS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Furioso Force Halberd",
+     "A": 1,
+     "WS": "2+",
+     "S": 9,
+     "AP": -3,
+     "D": "D6+3",
+     "keywords": [
+      "EXTRA ATTACKS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Shield of Sanguinius (Aura, Psychic)",
+      "text": "While a friendly Adeptus Astartes unit is within 6\" of this model, models in that unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks."
+     },
+     {
+      "name": "Wings of Sanguinius (Psychic)",
+      "text": "Once per turn, at the end of your Movement phase, one Psyker from your army with this ability can use it. If it does, roll one D6: on a 1, that Psyker suffers D3 mortal wounds; on a 2+, select one friendly Adeptus Astartes Infantry unit within 12\" of that Psyker and remove the selected unit from the battlefield, then set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Psyker",
+    "Imperium",
+    "Librarian Dreadnought",
+    "Smoke",
+    "Dreadnought"
+   ]
+  },
+  {
+   "name": "Sanguinary Priest",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Absolvor bolt pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Astartes Chainsword",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Orksbane",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "CLEAVE 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Support",
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Sanguinary Priest",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability"
+     },
+     {
+      "name": "Blood Chalice",
+      "text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+     },
+     {
+      "name": "Support",
+      "text": "This model can be attached to the following units: - Assault Intercessor Squad - Bladeguard Veteran Squad - Desolation Squad - Devastator Squad - Hellblaster Squad - Infernus Squad - Intercessor Squad - Tactical Squad - Sternguard Veteran Squad You can attach this model to one of the above units, even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Sanguinary Priest",
+    "Tacticus"
+   ]
+  },
+  {
+   "name": "Sanguinary Priest on Bike [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Inferno Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "keywords": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Grav-pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 2+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Twin boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power Fist",
+     "A": 4,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Orksbane",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "CLEAVE 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Blood Chalice",
+      "text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Bike Squad ■ Outrider Squad"
+     },
+     {
+      "name": "Sanguinary Priest",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Mounted",
+    "Grenades",
+    "Imperium",
+    "Sanguinary Priest"
+   ]
+  },
+  {
+   "name": "Sanguinary Priest with Jump Pack [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Astartes Chainsword",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Orksbane",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "CLEAVE 2"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Sanguinary Priest",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability"
+     },
+     {
+      "name": "Blood Chalice",
+      "text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Assault Squad with Jump Packs ■ Vanguard Veteran Squad with Jump packs ■ Assault Intercessors with Jump Packs You can attach this model to one of the above units, even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Fly",
+    "Jump Pack",
+    "Sanguinary Priest"
+   ]
+  },
+  {
+   "name": "The Sanguinor",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "2+",
+    "W": 7,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Encarmine Broadsword",
+     "A": 8,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Lone Operative",
+     "Deep Strike",
+     "Fights First"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Aura of Fervour (Aura)",
+      "text": "While a friendly Adeptus Astartes unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit"
+     },
+     {
+      "name": "Miraculous Savior",
+      "text": "(Once per battle, per army) At the end of your opponent's Charge phase (excluding the first battle round), you can select one enemy unit that made a charge move this phase. This unit can make an ingress move and must be set up engaged with that enemy unit. . That move does not prevent this unit from being eligible to move"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Fly",
+    "Imperium",
+    "Jump Pack",
+    "The Sanguinor"
+   ]
+  },
+  {
+   "name": "Tycho the Lost [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "2+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Forlorn Hero",
+      "text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced"
+     },
+     {
+      "name": "Death Visions of Sanguinius",
+      "text": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord: on a 2-3, that enemy unit suffers 3 mortal wounds; on a 4-5, that enemy unit suffers D3+3 mortal wounds; on a 6+, that enemy unit suffers D6+3 mortal wounds."
+     },
+     {
+      "name": "Tycho",
+      "text": "Your army cannot contain both Captain Tycho and Tycho the Lost."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Death Company Marines"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Grenades",
+    "Tycho the Lost"
+   ]
+  }
+ ]
+}

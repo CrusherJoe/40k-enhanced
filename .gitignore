@@ -16,3 +16,7 @@ tools/*.json
 
 # Personal Claude Code settings (permissions, etc.)
 .claude/settings.local.json
+
+# Raw external source clones + caches (re-fetchable; only normalized data is committed)
+data/_src/
+data/mfm/raw/

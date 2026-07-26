@@ -1,0 +1,2411 @@
+{
+ "slug": "genestealer-cults",
+ "source": "BSData/wh40k-11e :: Genestealer Cults.json",
+ "datasheets": [
+  {
+   "name": "Abominant",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "5+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Power sledgehammer",
+     "A": 4,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": "D6+1"
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Feel No Pain"
+    ],
+    "datasheet": [
+     {
+      "name": "Feel No Pain 5+",
+      "text": "This model has a 5+ Feel No Pain"
+     },
+     {
+      "name": "The Chosen One",
+      "text": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+ do not remove the destroyed model from play, it can fight after the attacking model's unit has finished making it's attacks and is then removed from play."
+     },
+     {
+      "name": "Regenerating Gene-mass",
+      "text": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - ABERRANTS"
+     }
+    ]
+   },
+   "keywords": [
+    "Abominant",
+    "Infantry",
+    "Character",
+    "Great Devourer",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Acolyte Iconward",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Cult claws",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Scouts 6\"",
+     "Leader"
+    ],
+    "datasheet": [
+     {
+      "name": "Nexus of Devotion",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the HYBRID METAMORPHS keyword, models in that unit have the Feel No Pain 4+ ability instead."
+     },
+     {
+      "name": "Summon the Cult",
+      "text": "Once per battle, when you have to remove a Cult Ambush marker because your opponent has moved too close to it, if one or more models from your army with this ability are on the battlefield, you can use this ability. If you do, instead of removing that marker, you can place it anywhere on the battlefield that is within 12\" of a model from your army with this ability and more than 8\" horizontally away from all enemy units (if this is not possible, this ability is not considered to have been used and that marker is removed as normal)."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Acolyte Hybrids - Hybrid Metamorphs - Neophyte Hybrids"
+     }
+    ]
+   },
+   "keywords": [
+    "Acolyte Iconward",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Great Devourer",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Benefictus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Psionic cascade - witchfire",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psionic cascade - focused witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "HAZARDOUS",
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "datasheet": [
+     {
+      "name": "Bio-horror Disruption (Psychic)",
+      "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+     },
+     {
+      "name": "Psionic Shield (Psychic)",
+      "text": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 4+ invulnerable save."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Acolyte Hybrids - Hybrid Metamorphs - Neophyte Hybrids"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Great Devourer",
+    "Benefictus",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Biophagus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Chemical vials",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 1,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Injector goad",
+     "A": 1,
+     "WS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Support"
+    ],
+    "datasheet": [
+     {
+      "name": "Twisted Science",
+      "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+     },
+     {
+      "name": "Biological Warfare",
+      "text": "Once per battle, when this model’s unit is selected to fight, this model can use this ability. If it does, until the end of the phase, improve the Attacks and Damage characteristics of its injector goad by 3."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - ABERRANTS - ACOLYTE HYBRIDS WITH AUTOPISTOLS - ACOLYTE HYBRIDS WITH HANDFLAMERS - HYBRID METAMORPHS - NEOPHYTE HYBRIDS You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     }
+    ]
+   },
+   "keywords": [
+    "Biophagus",
+    "Infantry",
+    "Character",
+    "Great Devourer",
+    "Support"
+   ]
+  },
+  {
+   "name": "Clamavus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Support"
+    ],
+    "datasheet": [
+     {
+      "name": "Voice of New Truths",
+      "text": "In your Command phase, one model from your army with this ability can use it, if it does, select one enemy unit with 18\" of it, that enemy unit must take a Battle-shock test."
+     },
+     {
+      "name": "Scrambler Array",
+      "text": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - ACOLYTE HYBRIDS - HYBRID METAMORPHS - NEOPHYTE HYBRIDS You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     }
+    ]
+   },
+   "keywords": [
+    "Clamavus",
+    "Infantry",
+    "Character",
+    "Great Devourer",
+    "Support"
+   ]
+  },
+  {
+   "name": "Cult Guerrilla [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Demolition charges",
+     "range": 6,
+     "A": "D6",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST",
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hybrid firearm",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Mining laser",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Seismic cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "HEAVY",
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Chemical vials",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 1,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    },
+    {
+     "name": "Cult sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Psionic cascade - witchfire",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psionic cascade - focused witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "HAZARDOUS",
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Webber",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Remote explosives",
+     "range": 24,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Anointed pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Liberator autostub",
+     "range": 12,
+     "A": 2,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Scoped needle pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 1,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "IGNORES COVER",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bio-dagger",
+     "A": 6,
+     "WS": "2+",
+     "S": 3,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy mining tool",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "ANTI-VEHICLE 4+"
+     ]
+    },
+    {
+     "name": "Metamorph mutations - strike",
+     "A": 3,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Metamorph mutations - sweep",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Cult bonesword",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Cult claws and talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Force stave",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Injector goad",
+     "A": 1,
+     "WS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    },
+    {
+     "name": "Toxin injector claw",
+     "A": 2,
+     "WS": "2+",
+     "S": 2,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Lone Operative",
+     "Deep Strike",
+     "Infiltrators",
+     "Leader",
+     "Stealth"
+    ],
+    "faction": [
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Battlefield Analysis",
+      "text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Acolyte Hybrids with Hand Flamers - Acolyte Hybrids with Autopistols - Hybrid Metamorphs - Neophyte Hybrids"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Great Devourer",
+    "Grenades",
+    "Cult Guerrilla"
+   ]
+  },
+  {
+   "name": "Cult Insurrectionist [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Demolition charges",
+     "range": 6,
+     "A": "D6",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST",
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hybrid firearm",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Mining laser",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Seismic cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "HEAVY",
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Chemical vials",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 1,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    },
+    {
+     "name": "Cult sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Psionic cascade - witchfire",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psionic cascade - focused witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "HAZARDOUS",
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Webber",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Remote explosives",
+     "range": 24,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Anointed pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Liberator autostub",
+     "range": 12,
+     "A": 2,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Scoped needle pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 1,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "IGNORES COVER",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bio-dagger",
+     "A": 6,
+     "WS": "2+",
+     "S": 3,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy mining tool",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "ANTI-VEHICLE 4+"
+     ]
+    },
+    {
+     "name": "Metamorph mutations - strike",
+     "A": 3,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Metamorph mutations - sweep",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Cult bonesword",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Cult claws and talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Force stave",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Injector goad",
+     "A": 1,
+     "WS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    },
+    {
+     "name": "Toxin injector claw",
+     "A": 2,
+     "WS": "2+",
+     "S": 2,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Cult Demagogue",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Acolyte Hybrids with Hand Flamers - Acolyte Hybrids with Autopistols - Hybrid Metamorphs - Neophyte Hybrids"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Great Devourer",
+    "Cult Insurrectionist"
+   ]
+  },
+  {
+   "name": "Goliath Rockgrinder",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 10,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Clearance incinerator",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Heavy seismic cannon",
+     "range": 24,
+     "A": 4,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy mining laser",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Demolition charge cache",
+     "range": 8,
+     "A": "D6",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Drilldozer blade",
+     "A": 8,
+     "WS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Firing Deck 6"
+    ],
+    "datasheet": [
+     {
+      "name": "Grinding Line-breaker",
+      "text": "Each time an enemy unit (excluding MONSTER and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-3",
+    "text": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Goliath Rockgrinder",
+    "Vehicle",
+    "Great Devourer",
+    "Transport",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Goliath Truck",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 9,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Twin autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Demolition charge cache",
+     "range": 8,
+     "A": "D6",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Goliath wheels",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Firing Deck 6",
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Fire Support",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Goliath Truck",
+    "Vehicle",
+    "Dedicated Transport",
+    "Transport",
+    "Great Devourer",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Jackal Alphus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "5+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Cult sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Scouts 9\"",
+     "Stealth"
+    ],
+    "datasheet": [
+     {
+      "name": "Priority Target",
+      "text": "In your Shooting phase, after this model's unit has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the end of the phase, each time a friendly Genestealer Cults model makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
+     },
+     {
+      "name": "Master Outrider",
+      "text": "In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 6\" as if it were your Movement phase. If it does, until the end of the turn, that unit is not eligible to declare a charge."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - ATALAN JACKALS"
+     }
+    ]
+   },
+   "keywords": [
+    "Jackal Alphus",
+    "Character",
+    "Grenades",
+    "Great Devourer",
+    "Mounted",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Kelermorph",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Liberator autostubs",
+     "range": 12,
+     "A": 6,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Lone Operative"
+    ],
+    "datasheet": [
+     {
+      "name": "Hypersensory Abilities",
+      "text": "Once per turn, in your opponent’s Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase and then make a Normal move of up to D6\" (it cannot embark within a Transport as part of this move)."
+     },
+     {
+      "name": "Heroic Fusillade",
+      "text": "Once per turn, after one model from your army with this ability has shot, you can select one INFANTRY unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Kelermorph",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ]
+  },
+  {
+   "name": "Locus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Locus blades",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Fights First"
+    ],
+    "faction": [
+     "Support"
+    ],
+    "datasheet": [
+     {
+      "name": "Sudden Assault",
+      "text": "While this model is leading a unit, models in that unit have the Fights First ability"
+     },
+     {
+      "name": "Bodyguard",
+      "text": "While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability"
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Acolyte Hybrids - Hybrid Metamorphs - Neophyte Hybrids You can attach this model to an Acolyte Hybrids or Neophyte Hybrids unit, even if a Primus, Magus, or Acolyte Iconward model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     }
+    ]
+   },
+   "keywords": [
+    "Locus",
+    "Infantry",
+    "Character",
+    "Great Devourer",
+    "Support"
+   ]
+  },
+  {
+   "name": "Magus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Force stave",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "datasheet": [
+     {
+      "name": "Psychic Familiar",
+      "text": "Once per battle, at the start of any of your opponent’s Shooting phases, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Mind Control ability."
+     },
+     {
+      "name": "Mind Control (Psychic)",
+      "text": "At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If used, select one enemy unit within 18\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll and subtract 1 from the Wound Roll."
+     },
+     {
+      "name": "Spiritual Leader",
+      "text": "Once per battle, at the start of any phase, you can select one friendly GENESTELERS CULTS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Acolyte Hybrids - Hybrid Metamorphs - Neophyte Hybrids"
+     }
+    ]
+   },
+   "keywords": [
+    "Magus",
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Great Devourer",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Nexos",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Support"
+    ],
+    "datasheet": [
+     {
+      "name": "Battlefield Analysis",
+      "text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+     },
+     {
+      "name": "Cult Infiltration",
+      "text": "At the start of each player’s Command phase, if this model is on the battlefield, you can select one of your Cult Ambush markers that is on the battlefield and has not been moved this turn and move it up to 6\""
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - ACOLYTE HYBRIDS - HYBRID METAMORPHS - NEOPHYTE HYBRIDS You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     }
+    ]
+   },
+   "keywords": [
+    "Nexos",
+    "Infantry",
+    "Character",
+    "Great Devourer",
+    "Support"
+   ]
+  },
+  {
+   "name": "Patriarch",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 5,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Patriarch's claws",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Infiltrators"
+    ],
+    "datasheet": [
+     {
+      "name": "Might From Beyond",
+      "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+     },
+     {
+      "name": "Cosmic Horror (Psychic)",
+      "text": "At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle-shock test."
+     },
+     {
+      "name": "Psychic Familiar",
+      "text": "Once per battle, at the start of the Fight phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Cosmic Horror ability."
+     },
+     {
+      "name": "Supreme Commander",
+      "text": "- You cannot include more than one Patriarch model in your army. - If this model is in your army, it must be your Warlord."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - PURESTRAIN GENESTEALERS"
+     }
+    ]
+   },
+   "keywords": [
+    "Patriarch",
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Great Devourer",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Primus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Scoped needle pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 1,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "IGNORES COVER",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Toxin injector claw",
+     "A": 2,
+     "WS": "2+",
+     "S": 2,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Cult bonesword",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "datasheet": [
+     {
+      "name": "Cult Demagogue",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll."
+     },
+     {
+      "name": "Decoys and Misdirection",
+      "text": "If your army includes one or more models with this ability, after both players have deployed their armies, select up to three GENESTEALER CULTS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Acolyte Hybrids - Hybrid Metamorphs - Neophyte Hybrids"
+     }
+    ]
+   },
+   "keywords": [
+    "Primus",
+    "Infantry",
+    "Character",
+    "Great Devourer",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Reductus Saboteur",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Demolition charges",
+     "range": 8,
+     "A": "D6",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST",
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Remote explosives",
+     "range": 24,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Lone Operative",
+     "Deep Strike",
+     "Stealth"
+    ],
+    "datasheet": [
+     {
+      "name": "Primed and Ready",
+      "text": "In your Shooting phase, you can select one model from your army with this ability as the target of the Grenade Stratagem for 0CP, provided that model has not already been the target of that Stratagem this phase."
+     },
+     {
+      "name": "Planted Explosives",
+      "text": "Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, this model can use its Reductus mine. If it does, roll one D6: on a 2+, that enemy unit suffers D3+3 mortal wounds. Only one model from your army with this ability can use it in the same battle round."
+     }
+    ]
+   },
+   "keywords": [
+    "Reductus Saboteur",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Great Devourer"
+   ]
+  },
+  {
+   "name": "Sanctus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Cult sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "HEAVY",
+      "PRECISION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Sanctus bio-dagger",
+     "A": 6,
+     "WS": "2+",
+     "S": 3,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Lone Operative",
+     "Infiltrators",
+     "Stealth"
+    ],
+    "datasheet": [
+     {
+      "name": "Creeping Shadow",
+      "text": "If this model is equipped with a Cult Sniper Rifle, In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6”."
+     },
+     {
+      "name": "Psychic Spoor",
+      "text": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+     },
+     {
+      "name": "Cloaked Assassin",
+      "text": "If this model is equipped with a Sanctus Bio-dagger, enemy units cannot use the Fire Overwatch Stratagem to shoot at this model. Enemy units cannot target this unit with snap shooting attacks."
+     }
+    ]
+   },
+   "keywords": [
+    "Sanctus",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ]
+  },
+  {
+   "name": "Tectonic Fragdrill [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "melee": [
+    {
+     "name": "Fragdrill",
+     "A": 6,
+     "WS": "6+",
+     "S": 12,
+     "AP": -2,
+     "D": "D6"
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Tectonic Fragdrill",
+      "text": "Friendly Genestealer Cult Infantry models can be set up or end any type of move on top of the floor sections of this Fortification."
+     },
+     {
+      "name": "Underground Egress",
+      "text": "Each time one of your Cult Ambush markers is removed as the result of an enemy unit ending any kind of move within 8\" of it, you can instead move that marker so that it is wholly within 8\" of this Fortification and more than 8\" horizontally away from all enemy units (if this is not possible, that marker is removed as normal)."
+     },
+     {
+      "name": "Manufactorum Cover",
+      "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+     },
+     {
+      "name": "Fortification",
+      "text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATION from your army: ■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. ■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+     }
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Tectonic Fragdrill",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Voice of the Patriarch [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Demolition charges",
+     "range": 6,
+     "A": "D6",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST",
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hybrid firearm",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Mining laser",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Seismic cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "HEAVY",
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Chemical vials",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 1,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    },
+    {
+     "name": "Cult sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "ANTI-PSYKER 2+",
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Psionic cascade - witchfire",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psionic cascade - focused witchfire",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "HAZARDOUS",
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Webber",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Remote explosives",
+     "range": 24,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Anointed pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Liberator autostub",
+     "range": 12,
+     "A": 2,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Scoped needle pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 1,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "IGNORES COVER",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bio-dagger",
+     "A": 6,
+     "WS": "2+",
+     "S": 3,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy mining tool",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "ANTI-VEHICLE 4+"
+     ]
+    },
+    {
+     "name": "Metamorph mutations - strike",
+     "A": 3,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Metamorph mutations - sweep",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Cult bonesword",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Cult claws and talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Force stave",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Injector goad",
+     "A": 1,
+     "WS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    },
+    {
+     "name": "Toxin injector claw",
+     "A": 2,
+     "WS": "2+",
+     "S": 2,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Biohorror Disruption (Psychic)",
+      "text": "Ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Acolyte Hybrids with Hand Flamers - Acolyte Hybrids with Autopistols - Hybrid Metamorphs - Neophyte Hybrids"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Great Devourer",
+    "Psyker",
+    "Voice of the Patriarch"
+   ]
+  }
+ ]
+}

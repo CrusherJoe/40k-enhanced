@@ -1,0 +1,2027 @@
+{
+ "slug": "tyranids",
+ "source": "BSData/wh40k-11e :: Tyranids.json",
+ "datasheets": [
+  {
+   "name": "Barbed Hierodule [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 12,
+    "Sv": "2+",
+    "W": 18,
+    "Ld": "8+",
+    "OC": 5
+   },
+   "ranged": [
+    {
+     "name": "Bio-cannon",
+     "range": 48,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hierodule scything talons",
+     "A": 8,
+     "WS": "3+",
+     "S": 14,
+     "AP": -2,
+     "D": "D3+3"
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "datasheet": [
+     {
+      "name": "Overgrown Barbs",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Titanic units) that was hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-6",
+    "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Barbed Hierodule",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Barbgaunts",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Barblauncher",
+     "range": 24,
+     "A": "D6",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitinous claws and teeth",
+     "A": 1,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Biovores",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 6,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Spore mine launcher",
+     "range": 48,
+     "A": "D3",
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS",
+      "HEAVY",
+      "INDIRECT FIRE"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitin-barbed limbs",
+     "A": 2,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Broodlord",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 5,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Broodlord Claws and Talons",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Scouts 8\"",
+     "Leader"
+    ],
+    "faction": [
+     "Synapse",
+     "Shadow in the Warp"
+    ],
+    "datasheet": [
+     {
+      "name": "Vicious Insight",
+      "text": "While this model is leading a unit, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+     },
+     {
+      "name": "Hypnotic Gaze (Psychic)",
+      "text": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Genestealers"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Broodlord",
+    "Great Devourer",
+    "Vanguard Invader",
+    "Synapse",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Carnifexes",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "8+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Bio-plasma",
+     "range": 12,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Spine banks",
+     "range": 6,
+     "A": 5,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Deathspitters with slimer maggots",
+     "range": 24,
+     "A": 6,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Devourers with brainleech worms",
+     "range": 18,
+     "A": 12,
+     "BS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Stranglethorn cannon",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitinous claws and teeth",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Carnifex scything talons",
+     "A": 6,
+     "WS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Carnifex crushing claws",
+     "A": 4,
+     "WS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Carnifex extra scything talons",
+     "A": 2,
+     "WS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Dimachaeron [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 10,
+    "Sv": "3+",
+    "W": 16,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Massive scything talons",
+     "A": 10,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "datasheet": [
+     {
+      "name": "Digestion Spine",
+      "text": "Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 mortal wounds."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Dimachaeron",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Exocrine",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "8+",
+    "OC": 4
+   },
+   "ranged": [
+    {
+     "name": "Bio-plasmic cannon",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Powerful limbs",
+     "A": 3,
+     "WS": "3+",
+     "S": 7,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Symbiotic Targeting",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that unit, re-roll a Hit roll of 1."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Exocrine"
+   ]
+  },
+  {
+   "name": "Harpy",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "8+",
+    "OC": "-"
+   },
+   "ranged": [
+    {
+     "name": "Twin stranglethorn cannon",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin heavy venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Stinger salvoes",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Scything wings",
+     "A": 4,
+     "WS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Spore Mine Cysts",
+      "text": "At the end of your opponent’s Fight phase, you can do one of the following: - Select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit and roll six D6 for that unit: for each 3+, that unit suffers 1 mortal wound. - Add a new SPORE MINES unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 8\" horizontally away from all enemy units. You cannot select this option for more than one model per turn."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Harpy",
+    "Monster",
+    "Fly",
+    "Aircraft",
+    "Great Devourer",
+    "Vanguard Invader"
+   ]
+  },
+  {
+   "name": "Harridan",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 10,
+    "Sv": "3+",
+    "W": 30,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Dire bio-cannon",
+     "range": 48,
+     "A": "D6+6",
+     "BS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Gargantuan scything talons",
+     "A": 6,
+     "WS": "3+",
+     "S": 14,
+     "AP": -2,
+     "D": "D6"
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 2D6"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-10 wounds remaining",
+      "text": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Frenzied Metabolism",
+      "text": "Each time this model is selected to shoot, you can use this ability. If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll. After resolving those attacks, roll one D6: on a 2+, this model suffers D3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Titanic",
+    "Fly",
+    "Transport",
+    "Great Devourer",
+    "Harridan",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Haruspex",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "8+",
+    "OC": 4
+   },
+   "ranged": [
+    {
+     "name": "Grasping tongue",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D6+1",
+     "keywords": [
+      "PRECISION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Shovelling claws",
+     "A": 4,
+     "WS": "3+",
+     "S": 14,
+     "AP": -2,
+     "D": "D6+1",
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Ravenous maw",
+     "A": 14,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Grisly Spectacle",
+      "text": "Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock test."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Haruspex",
+    "Harvester"
+   ]
+  },
+  {
+   "name": "Hierophant",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 14,
+    "Sv": "2+",
+    "W": 30,
+    "Ld": "8+",
+    "OC": 12
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bio-plasma torrent",
+     "range": 12,
+     "A": "3D6",
+     "BS": "N/A",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dire bio-cannon",
+     "range": 48,
+     "A": "D6+6",
+     "BS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Lashwhip pods",
+     "A": 10,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Titanic scything talons",
+     "A": 8,
+     "WS": "3+",
+     "S": 20,
+     "AP": -2,
+     "D": "D6+1"
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 2D6"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-10 wounds remaining",
+      "text": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Apex-beast",
+      "text": "Each time this model makes an attack that targets a unit that is Battle-shocked, add 1 to the Hit roll."
+     },
+     {
+      "name": "Stalking Forward",
+      "text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Titanic",
+    "Towering",
+    "Transport",
+    "Great Devourer",
+    "Hierophant",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Hive Crone",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "8+",
+    "OC": "-"
+   },
+   "ranged": [
+    {
+     "name": "Drool cannon",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Tentaclids",
+     "range": 36,
+     "A": 4,
+     "BS": "3+",
+     "S": 7,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Stinger salvoes",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Thorax spur",
+     "A": 1,
+     "WS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6",
+     "keywords": [
+      "ANTI-FLY 2+",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Scything wings",
+     "A": 4,
+     "WS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Airborne Predator",
+      "text": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Aircraft",
+    "Monster",
+    "Fly",
+    "Great Devourer",
+    "Hive Crone",
+    "Vanguard Invader"
+   ]
+  },
+  {
+   "name": "Hive Tyrant",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Stranglethorn cannon",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Monstrous bonesword and lash whip",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Monstrous scything talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Leader"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Onslaught (Aura, Psychic)",
+      "text": "While a friendly TYRANIDS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [ASSAULT] and [LETHAL HITS] abilities."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Tyrant Guard"
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Psyker",
+    "Hive Tyrant",
+    "Great Devourer",
+    "Synapse",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Malanthrope [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "4+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "melee": [
+    {
+     "name": "Grasping tail",
+     "A": 4,
+     "WS": "4",
+     "S": 5,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Stealth",
+     "Leader"
+    ],
+    "datasheet": [
+     {
+      "name": "Enhanced Toxic Miasma",
+      "text": "While this model is leading a unit, the range of that unit's Foul Spores Aura ability is increased to 9\"."
+     },
+     {
+      "name": "Prey Adaptation",
+      "text": "Each time this model's unit is selected to fight, select one of the following abilities to apply to all melee weapons equipped by models in that unit until the end of the phase: - [SUSTAINED HITS 1] - [LANCE] - [LETHAL HITS]"
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Venomthropes"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Fly",
+    "Great Devourer",
+    "Synapse",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Maleceptor",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 4
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Psychic overload",
+     "range": 18,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Massive scything talons - strike",
+     "A": 3,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6+1"
+    },
+    {
+     "name": "Massive scything talons - sweep",
+     "A": 6,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Encephalic Diffusion (Aura, Psychic)",
+      "text": "While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll, and, if that enemy unit is Below Half-strength, subtract 1 from the Wound roll as well."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Psyker",
+    "Great Devourer",
+    "Malceptor",
+    "Synapse"
+   ]
+  },
+  {
+   "name": "Neurotyrant",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 8,
+    "Sv": "4+",
+    "W": 9,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Psychic scream",
+     "range": 18,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Neurotyrant claws and lashes",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Node Lash (Psychic)",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If the target is Battle-shocked, add 1 to the Wound roll as well."
+     },
+     {
+      "name": "Psychic Terror (Psychic)",
+      "text": "If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
+     },
+     {
+      "name": "Synaptic Relays",
+      "text": "In your Command phase, you can select up to two friendly Tyranids units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Neurogaunts - Tyrant Guard - Zoanthropes"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Monster",
+    "Fly",
+    "Psyker",
+    "Great Devourer",
+    "Neurotyrant",
+    "Synapse",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Norn Assimilator",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 16,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "melee": [
+    {
+     "name": "Monstrous scything talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Toxinjecter Harpoon",
+     "A": 4,
+     "WS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Harpoon Barbs",
+      "text": "Once per turn, when an enemy unit within Engagement Range of this unit is chosen to Fall Back, roll one D6; on a 2+, that unit suffers D6 mortal wounds."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Synapse",
+    "Norn Assimilator",
+    "Harvester"
+   ]
+  },
+  {
+   "name": "Norn Emissary",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 16,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Psychic tendril - neuroparasite",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psychic tendril - neurolance",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psychic tendril - neuroblast",
+     "range": 18,
+     "A": "2D6",
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Monstrous rending claws",
+     "A": 4,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Monstrous scything talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Unnatural Resistance",
+      "text": "This model has the Feel No Pain 4+ ability against Mortal Wounds."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Psyker",
+    "Great Devourer",
+    "Synapse",
+    "Norn Emissary"
+   ]
+  },
+  {
+   "name": "Old One Eye",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "2+",
+    "W": 9,
+    "Ld": "8+",
+    "OC": 3
+   },
+   "melee": [
+    {
+     "name": "Old One Eye’s claws and talons - Strike",
+     "A": 6,
+     "WS": "3+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Old One Eye’s claws and talons - Sweep",
+     "A": 12,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Feel No Pain 5+",
+     "Leader"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Alpha Leader",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+     },
+     {
+      "name": "Unstoppable Monster",
+      "text": "At the start of each player’s Command phase, this model regains up to D3 lost wounds."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Carnifexes"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Monster",
+    "Character",
+    "Great Devourer",
+    "Old One Eye",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Psychophage",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 9,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "8+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Psychoclastic torrent",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Talons and betentacled maw",
+     "A": 6,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-PSYKER 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1",
+     "Feel No Pain 5+"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Bio-stimulus",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly TYRANIDS unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+     },
+     {
+      "name": "Feeding Frenzy",
+      "text": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half strength, add 1 to the Wound roll as well."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Psychophage",
+    "Harvester",
+    "Smoke"
+   ]
+  },
+  {
+   "name": "Screamer-killer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "8+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Bio-plasmic scream",
+     "range": 18,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Screamer-killer talons",
+     "A": 10,
+     "WS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Death Scream",
+      "text": "In your Shooting phase, after this model has shot, select one unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 from that test."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Screamer-killer"
+   ]
+  },
+  {
+   "name": "Scythed Hierodule [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 12,
+    "Sv": "2+",
+    "W": 18,
+    "Ld": "8+",
+    "OC": 5
+   },
+   "ranged": [
+    {
+     "name": "Bio-acid spray",
+     "range": 18,
+     "A": "3D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hierodule scything talons",
+     "A": 10,
+     "WS": "3+",
+     "S": 14,
+     "AP": -2,
+     "D": "D3+3"
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "datasheet": [
+     {
+      "name": "Irresistible Force",
+      "text": "This model is eligible to declare a charge in a turn in which it Fell Back."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-6",
+    "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Scythed Hierodule",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Sky-slasher Swarms [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 2,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Spinemaws",
+     "range": 6,
+     "A": 4,
+     "BS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Claws and teeth",
+     "A": 6,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "datasheet": [
+     {
+      "name": "Chitinous Horrors",
+      "text": "While an enemy unit is within Engagement Range of one or more units with this ability, halve the Objective Control characteristic of models in that enemy unit."
+     }
+    ]
+   },
+   "keywords": [
+    "Swarm",
+    "Great Devourer",
+    "Fly",
+    "Sky-slasher Swarms"
+   ]
+  },
+  {
+   "name": "Sporocyst",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 10,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Sporocyst bio-weapon",
+     "range": 24,
+     "A": 10,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HIVE DEFENCES"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Flensing whips",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Seed Mucolids",
+      "text": "Once per turn, in your shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with it's ranged weapons. If it does, you can add one new MUCOLID SPORES containing 1 model to your army and set it up anywhere on the battlefield that is wholly within 18\" of this model and more than 8\" horizontally away from all enemy units."
+     },
+     {
+      "name": "Hive Defences",
+      "text": "You can target this model with the Fire Overwatch stratagem for 0CP, and can do so even if you have already targeted a different unit with that stratagem this turn. This model can only be targeted with that Stratagem once per turn"
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Sporocyst",
+    "Great Devourer"
+   ]
+  },
+  {
+   "name": "Tervigon",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "2+",
+    "W": 16,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "ranged": [
+    {
+     "name": "Stinger salvoes",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Massive scything talons - strike",
+     "A": 4,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Massive scything talons - sweep",
+     "A": 8,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Massive crushing claws",
+     "A": 4,
+     "WS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Spawn Termagants",
+      "text": "In your Command phase, you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed TERMAGANT models to that unit. A TERMAGANTS unit cannot be selected for this ability more than once per phase."
+     },
+     {
+      "name": "Brood Progenitor (Aura, Psychic)",
+      "text": "While a friendly TERMAGANTS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Character",
+    "Monster",
+    "Psyker",
+    "Great Devourer",
+    "Tervigon",
+    "Synapse"
+   ]
+  },
+  {
+   "name": "The Swarmlord",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Synaptic Pulse",
+     "range": 18,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bone Sabres",
+     "A": 8,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Leader"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Hive Commander",
+      "text": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP"
+     },
+     {
+      "name": "Malign Presence (Aura)",
+      "text": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
+     },
+     {
+      "name": "Domination of the Hive Mind (Aura)",
+      "text": "While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army’s Synapse Range."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Tyrant Guard"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Monster",
+    "The Swarmlord",
+    "Great Devourer",
+    "Synapse",
+    "Psyker",
+    "Hive Tyrant",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Toxicrene",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "8+",
+    "OC": 4
+   },
+   "melee": [
+    {
+     "name": "Massive toxic lashes",
+     "A": 12,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Grasping Tendrils",
+      "text": "Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, you can roll one D6: on a 3+, that enemy unit must Remain Stationary instead."
+     },
+     {
+      "name": "Hypertoxic Miasma (Aura)",
+      "text": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Toxicrene"
+   ]
+  },
+  {
+   "name": "Tyranid Prime with Lash Whip",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Rending claw",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Lash whip",
+     "A": 8,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Scything talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Synapse",
+     "Shadow in the Warp"
+    ],
+    "datasheet": [
+     {
+      "name": "Alpha Warrior",
+      "text": "Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability."
+     },
+     {
+      "name": "Aggressive Leader‑beast",
+      "text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed by those attacks, this unit can make a surge move of up to D6\"."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Hormagaunts - Termagants - Tyranid Warriors with Melee Bio-weapons - Tyranid Warriors with Ranged Bio-weapons"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Great Devourer",
+    "Synapse",
+    "Tyranid Prime with Lash Whip",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Tyrannofex",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 12,
+    "Sv": "2+",
+    "W": 16,
+    "Ld": "8+",
+    "OC": 5
+   },
+   "ranged": [
+    {
+     "name": "Rupture cannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 18,
+     "AP": -1,
+     "D": "D6+6",
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Fleshborer hive",
+     "range": 24,
+     "A": 20,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Acid spray",
+     "range": 18,
+     "A": "D6+6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Stinger salvoes",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Powerful limbs",
+     "A": 4,
+     "WS": "3+",
+     "S": 8,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Resilient Organism",
+      "text": "Once per battle, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Tyrannofex"
+   ]
+  }
+ ]
+}

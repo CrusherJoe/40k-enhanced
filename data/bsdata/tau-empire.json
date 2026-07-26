@@ -1,0 +1,6303 @@
+{
+ "slug": "tau-empire",
+ "source": "BSData/wh40k-11e :: T'au Empire.json",
+ "datasheets": [
+  {
+   "name": "AX-1-0 Tiger Shark",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 11,
+    "Sv": "3+",
+    "W": 18,
+    "Ld": "7+",
+    "OC": "-"
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin heavy rail cannon",
+     "range": 120,
+     "A": 1,
+     "BS": "4+",
+     "S": 26,
+     "AP": -5,
+     "D": 12,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - standard",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - overcharge",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Titan Hunter",
+      "text": "This model’s twin heavy rail cannon and seeker missiles have the [ANTI-TITANIC 3+] ability while targeting a unit within half range."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-6",
+    "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "AX-1-0 Tiger Shark",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Aun'shi [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Fidelity",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "datasheet": [
+     {
+      "name": "Inspirational Defiance",
+      "text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - BREACHER TEAM - KROOT CARNIVORES - KROOT FARSTALKERS - STRIKE TEAM"
+     },
+     {
+      "name": "Martial Warrior",
+      "text": "Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks: - Direct Grace: Fidelity has the [PRECISION] ability. - Forceful Strike: Fidelity has the [DEVASTATING WOUNDS] ability. - Whirling Stance: Fidelity has the [SUSTAINED HITS 2] ability instead of [SUSTAINED HITS 1]."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Ethereal",
+    "Aun'shi",
+    "Epic Hero",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Aun'va [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "6+",
+     "S": 2,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Aun'va",
+    "Ethereal",
+    "Infantry"
+   ],
+   "extra_profiles": [
+    {
+     "name": "Ethereal Guard",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "Barracuda [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": "-"
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Swiftstrike burst cannon",
+     "range": 36,
+     "A": 16,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Ion cannon - standard",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Ion cannon - overcharge",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Swiftstrike railgun",
+     "range": 72,
+     "A": 1,
+     "BS": "4+",
+     "S": 20,
+     "AP": -5,
+     "D": "D6+6",
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Long-barrelled burst cannon",
+     "range": 24,
+     "A": 8,
+     "BS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - standard",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - overcharge",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Agile Dogfighter",
+      "text": "Each time an attack targets this model, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Barracuda",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Battlesuit Veteran [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 4,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy rail rifle",
+     "range": 60,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6+1",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "High-yield missile pods",
+     "range": 30,
+     "A": 6,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Ion rifle - standard",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Ion rifle - overcharge",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Rail rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Semi-automatic grenade launcher - EMP",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Semi-automatic grenade launcher - fusion",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Twin plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin smart missile system",
+     "range": 30,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Tanglebomb launcher",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Fireblade pulse rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Kroot rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Blast javelin",
+     "range": 18,
+     "A": "D6",
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Kroot carbine",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 2
+    },
+    {
+     "name": "Kroot long gun",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Dart-bow and tri-blade",
+     "range": 24,
+     "A": "D3+1",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Kroot scattergun",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Londaxi tribalest",
+     "range": 18,
+     "A": 3,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Pulse blaster",
+     "range": 10,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Dvorgite skinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Kroot pistol and hunting javelins",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Kroot pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Kalamandra's bite",
+     "A": 4,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Rampager fists",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Crushing bulk",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Bladestave and prey-hook",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Hunting blades",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Shaper's blade",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Twin ritualistic blades",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Infiltrators",
+     "Stealth"
+    ],
+    "faction": [
+     "For The Greater Good",
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Strategic Redeployment",
+      "text": "The bearer's unit is eligible to shoot in a turn in which it Fell Back."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Stealth Battlesuits"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Fly",
+    "Battlesuit",
+    "Battlesuit Veteran"
+   ]
+  },
+  {
+   "name": "Breacher Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Pulse blaster",
+     "range": 10,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Cadre Fireblade",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Fireblade pulse rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Volley Fire",
+      "text": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
+     },
+     {
+      "name": "Crack Shot",
+      "text": "Each time this model makes a ranged attack, on a Critical Wound, that attack has an Armour Penetration characteristic of -3."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Breacher Team - Strike Team"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Cadre Fireblade",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Commander Farsight",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "High-intensity plasma rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 3
+    }
+   ],
+   "melee": [
+    {
+     "name": "Dawn Blade - strike",
+     "A": 4,
+     "WS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Dawn Blade - sweep",
+     "A": 8,
+     "WS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Way of the Short Blade",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit within 9\", add 1 to the Wound roll."
+     },
+     {
+      "name": "Puretide's Teachings",
+      "text": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - CRISIS BATTLESUITS - CRISIS FIREKNIFE BATTLESUITS - CRISIS STARSCYTHE BATTLESUITS - CRISIS SUNFORGE BATTLESUITS"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Character",
+    "Battlesuit",
+    "Commander Farsight",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Commander Shadowsun",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 4,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Light missile pod",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 7,
+     "AP": 0,
+     "D": 2
+    },
+    {
+     "name": "High-energy fusion blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 10,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Flechette launcher",
+     "range": 18,
+     "A": 5,
+     "BS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Lone Operative",
+     "Stealth"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Agile Combatant",
+      "text": "This model is eligible to shoot in a turn in which it Fell Back."
+     },
+     {
+      "name": "Hero of the Empire (Aura)",
+      "text": "While a friendly T’au Empire unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+     },
+     {
+      "name": "Advanced Guardian Drone",
+      "text": "Each time a ranged attack targets the bearer, subtract 1 from the Wound roll."
+     },
+     {
+      "name": "Command-link Drone (Aura)",
+      "text": "While a friendly T’au Empire unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+     },
+     {
+      "name": "Supreme Commander",
+      "text": "If this model is in your army, it must be your Warlord."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Fly",
+    "Character",
+    "Battlesuit",
+    "Commander Shadowsun",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Commander in Coldstar Battlesuit",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "High-output burst cannon",
+     "range": 18,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Airbursting fragmentation projector",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Cyclic ion blaster - standard",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - overcharge",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "T'au flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - CRISIS BATTLESUITS - CRISIS FIREKNIFE BATTLESUITS - CRISIS STARSCYTHE BATTLESUITS - CRISIS SUNFORGE BATTLESUITS"
+     },
+     {
+      "name": "Coldstar Commander",
+      "text": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Commander in Coldstar Battlesuit",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Commander in Crisis Battlesuit [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Airbursting fragmentation projector",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Cyclic ion blaster - standard",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - overcharge",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "T'au flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Crisis Commander",
+      "text": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - CRISIS BATTLESUITS - CRISIS FIREKNIFE BATTLESUITS - CRISIS STARSCYTHE BATTLESUITS - CRISIS SUNFORGE BATTLESUITS"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Commander in Crisis Battlesuit",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Commander in Enforcer Battlesuit",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 5,
+    "Sv": "2+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Airbursting fragmentation projector",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Cyclic ion blaster - standard",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - overcharge",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "T'au flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Enforcer Commander",
+      "text": "While this model is leading a unit, each time a ranged attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - CRISIS BATTLESUITS - CRISIS FIREKNIFE BATTLESUITS - CRISIS STARSCYTHE BATTLESUITS - CRISIS SUNFORGE BATTLESUITS"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Commander in Enforcer Battlesuit",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Crisis Battlesuits [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "T'au flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Airbursting fragmentation projector",
+     "range": 24,
+     "A": "D6",
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Cyclic ion blaster - standard",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - overcharge",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Crisis Fireknife Battlesuits",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Crisis Starscythe Battlesuits",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "T'au flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Darkstrider",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Shade",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Scouts 7\"",
+     "Leader"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Structural Analyser",
+      "text": "While this model is leading a unit, each time a model in that unit makes a ranged attack, add 1 to the Wound roll."
+     },
+     {
+      "name": "Jammer Array",
+      "text": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Pathfinder Team"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Darkstrider",
+    "Markerlight",
+    "Infantry",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Devilfish",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 9,
+    "Sv": "3+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Smart missile system",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Accelerator burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Rapid Deployment",
+      "text": "Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Transport",
+    "Dedicated Transport",
+    "Devilfish",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Drone Sentry Turret [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 8,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Twin plasma rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "5+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Reinforced Cover",
+      "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+     },
+     {
+      "name": "Sentinel Protocols",
+      "text": "Each time you select this FORTIFICATION for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+     }
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Drone Sentry Turret",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Ethereal",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Honour stave",
+     "A": 2,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Feel No Pain"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Coordinated Leadership",
+      "text": "In your Command phase, roll one D6: on a 4+, you gain 1CP."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Breacher Team - Strike Team"
+     },
+     {
+      "name": "Failure Is Not an Option",
+      "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Ethereal",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Firesight Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Longshot pulse rifles",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapons",
+     "A": 4,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Lone Operative",
+     "Stealth"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Precise Targeting",
+      "text": "Each time a model in this unit makes an attack that targets a Spotted unit, you can re-roll the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Markerlight",
+    "Firesight Team",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Ghostkeel Battlesuit",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 8,
+    "Sv": "2+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Twin burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin T'au flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Fusion collider",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Cyclic ion raker - standard",
+     "range": 36,
+     "A": 6,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Cyclic ion raker - overcharge",
+     "range": 36,
+     "A": 6,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ghostkeel fists",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Infiltrators",
+     "Lone Operative",
+     "Stealth"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Stealth Drones",
+      "text": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0. Designer’s Note: Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Smoke",
+    "Battlesuit",
+    "Ghostkeel",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Great Knarloc [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 8,
+    "Sv": "4+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Kroot bolt thrower",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HOOKED"
+     ]
+    },
+    {
+     "name": "Kroot rifle (Ranged)",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Twin Kroot gun",
+     "range": 36,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Great Knarloc beak and talons",
+     "A": 4,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Kroot rifle (Melee)",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Scouts 7\""
+    ],
+    "datasheet": [
+     {
+      "name": "Loping Stride",
+      "text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Kroot",
+    "Great Knarloc",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Hammerhead Gunship",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Railgun",
+     "range": 72,
+     "A": 1,
+     "BS": "4+",
+     "S": 20,
+     "AP": -5,
+     "D": "D6+6",
+     "keywords": [
+      "HEAVY",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Ion cannon - standard",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Ion cannon - overcharge",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Accelerator burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Smart missile system",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Armour Hunter",
+      "text": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Hammerhead Gunship",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Kinband Champion [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Heavy rail rifle",
+     "range": 60,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6+1",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "High-yield missile pods",
+     "range": 30,
+     "A": 6,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Ion rifle - standard",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Ion rifle - overcharge",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Rail rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Semi-automatic grenade launcher - EMP",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Semi-automatic grenade launcher - fusion",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Twin plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin smart missile system",
+     "range": 30,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Tanglebomb launcher",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Fireblade pulse rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Kroot rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Blast javelin",
+     "range": 18,
+     "A": "D6",
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Kroot carbine",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 2
+    },
+    {
+     "name": "Kroot long gun",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Dart-bow and tri-blade",
+     "range": 24,
+     "A": "D3+1",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Kroot scattergun",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Londaxi tribalest",
+     "range": 18,
+     "A": 3,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Pulse blaster",
+     "range": 10,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Dvorgite skinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Kroot pistol and hunting javelins",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Kroot pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Kalamandra's bite",
+     "A": 4,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Rampager fists",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Crushing bulk",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Bladestave and prey-hook",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Hunting blades",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Shaper's blade",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Twin ritualistic blades",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Stealth",
+     "Leader",
+     "Scouts 7\"",
+     "Infiltrators"
+    ],
+    "faction": [
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Kroot Carnivores - Kroot Farstalkers"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Kroot",
+    "Kinband Champion"
+   ]
+  },
+  {
+   "name": "Knarloc Riders [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 5,
+    "Sv": "5+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Kroot rifle (Ranged)",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Knarloc beak and talons",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Kroot rifle (Melee)",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Stealth",
+     "Scouts 7\""
+    ],
+    "datasheet": [
+     {
+      "name": "Thunderous Pounce",
+      "text": "Each time this unit ends a Charge move, until the end of the turn, Knarloc beak and talons equipped by models in this unit have the [LANCE] ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Kroot",
+    "Knarloc Riders"
+   ]
+  },
+  {
+   "name": "Kroot Carnivores",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Kroot rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Tanglebomb launcher",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Kroot carbine",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 2
+    },
+    {
+     "name": "Kroot pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Scouts 7\"",
+     "Stealth"
+    ],
+    "datasheet": [
+     {
+      "name": "Fieldcraft",
+      "text": "At the end of the your Command phase, if this unit within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+     },
+     {
+      "name": "Bodyguard",
+      "text": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one, provided those Leaders are not duplicates (e.g. you cannot attach two WAR SHAPERS to this unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Kroot",
+    "Carnivores"
+   ]
+  },
+  {
+   "name": "Kroot Farstalkers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Farstalker firearm",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Kroot pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Dvorgite skinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Londaxi tribalest",
+     "range": 18,
+     "A": 3,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "T'au tech rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ripping fangs",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Ritual blade",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Stealth"
+    ],
+    "datasheet": [
+     {
+      "name": "Bounty Hunters",
+      "text": "At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Kroot",
+    "Farstalkers"
+   ]
+  },
+  {
+   "name": "Kroot Flesh Shaper",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Kroot scattergun",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Twin ritualistic blades",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Scouts 7\"",
+     "Stealth",
+     "Leader",
+     "Feel No Pain"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Kroot Carnivores - Kroot Farstalkers"
+     },
+     {
+      "name": "Rites of Feasting",
+      "text": "While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that unit have the Feel No Pain 5+ ability instead."
+     },
+     {
+      "name": "Ritual Butchery",
+      "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Kroot",
+    "Shaper",
+    "Flesh Shaper",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Kroot Hounds",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "melee": [
+    {
+     "name": "Ripping fangs",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Scouts 7\"",
+     "Stealth"
+    ],
+    "datasheet": [
+     {
+      "name": "Loping Pounce",
+      "text": "At the start of your Command phase, if this unit is within 6\" of one or more friendly KROOT INFANTRY units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced."
+     },
+     {
+      "name": "Hunting Hounds",
+      "text": "While this unit is within 12\" of one or more friendly KROOT CHARACTER models, the Objective Control characteristic of models in this unit is 1."
+     }
+    ]
+   },
+   "keywords": [
+    "Beast",
+    "Kroot",
+    "Hounds"
+   ]
+  },
+  {
+   "name": "Kroot Lone-spear",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "5+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Blast javelin",
+     "range": 18,
+     "A": "D6",
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Kroot long gun",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Hunting javelin",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Kalamandra's bite",
+     "A": 4,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Stealth",
+     "Lone Operative",
+     "Scouts 7\""
+    ],
+    "datasheet": [
+     {
+      "name": "Fire and Fade",
+      "text": "In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this model is not eligible to declare a charge."
+     },
+     {
+      "name": "Advanced Scouting",
+      "text": "Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another KROOT model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Mounted",
+    "Kroot",
+    "Lone-spear"
+   ]
+  },
+  {
+   "name": "Kroot Trail Shaper",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Kroot rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Shaper's blade",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Scouts 7\"",
+     "Stealth",
+     "Leader"
+    ],
+    "datasheet": [
+     {
+      "name": "Kroot Ambush",
+      "text": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly KROOT unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+     },
+     {
+      "name": "Trail Finding",
+      "text": "In your opponent’s Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Kroot Carnivores - Kroot Farstalkers"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Kroot",
+    "Shaper",
+    "Trail Shaper",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Kroot War Shaper",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Dart-bow and tri-blade",
+     "range": 24,
+     "A": "D3+1",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Kroot pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bladestave and prey-hook",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Shaper's blade",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Scouts 7\"",
+     "Stealth",
+     "Leader"
+    ],
+    "datasheet": [
+     {
+      "name": "Root of Honour",
+      "text": "Once per battle, at the start of any phase, you can select one friendly KROOT unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Kroot Carnivores - Kroot Farstalkers"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Kroot",
+    "Shaper",
+    "War Shaper",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Krootox Rampagers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 6,
+    "Sv": "5+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Kroot pistol and hunting javelins",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hunting blades",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Rampager fists",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Scouts 7\""
+    ],
+    "datasheet": [
+     {
+      "name": "Kroot Linebreakers",
+      "text": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers D3 mortal wounds. If one or more enemy models are destroyed as a result of these mortal wounds, that enemy unit must take a Battle-shock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Grenades",
+    "Kroot",
+    "Krootox Rampagers"
+   ]
+  },
+  {
+   "name": "Krootox Riders",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 6,
+    "Sv": "5+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Repeater cannon",
+     "range": 36,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Tanglecannon",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Krootox fists",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Scouts 7\""
+    ],
+    "datasheet": [
+     {
+      "name": "Kroot Packmates",
+      "text": "Once per turn, in your opponent's Shooting phase, when a friendly KROOT INFANTRY unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that unit with this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+     }
+    ]
+   },
+   "keywords": [
+    "Mounted",
+    "Kroot",
+    "Krootox Riders",
+    "Grenades"
+   ]
+  },
+  {
+   "name": "Longstrike [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Railgun",
+     "range": 72,
+     "A": 1,
+     "BS": "3+",
+     "S": 20,
+     "AP": -5,
+     "D": "D6+6",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Ion cannon - standard",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Ion cannon - overcharge",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Accelerator burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Smart missile system",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Armour Hunter",
+      "text": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+     },
+     {
+      "name": "XV02 Pilot Battlesuit",
+      "text": "In your Command phase, you can select one friendly HAMMERHEAD GUNSHIP unit within 12\". Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Fly",
+    "Vehicle",
+    "Longstrike",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Manta",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 40,
+    "T": 14,
+    "Sv": "2+",
+    "W": 60,
+    "Ld": "7+",
+    "OC": "-"
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy rail cannon",
+     "range": 120,
+     "A": 1,
+     "BS": "4+",
+     "S": 26,
+     "AP": -5,
+     "D": 12,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Long-barrelled burst cannon array",
+     "range": 24,
+     "A": 32,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Ion cannon - standard",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Ion cannon - overcharge",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 8,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 3D6"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Aggressive Deployment",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+     },
+     {
+      "name": "Air Caste Colossus",
+      "text": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+     },
+     {
+      "name": "Damaged: 1-20 Wounds Remaining",
+      "text": "While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Titanic",
+    "Transport",
+    "Markerlight",
+    "Manta",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Orca Dropship [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 20,
+    "T": 12,
+    "Sv": "3+",
+    "W": 28,
+    "Ld": "7+",
+    "OC": "-"
+   },
+   "ranged": [
+    {
+     "name": "Long-barrelled burst cannon",
+     "range": 36,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 8,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Jet Pack Insertion",
+      "text": "At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability."
+     },
+     {
+      "name": "Damaged: 1-9 Wounds Remaining",
+      "text": "While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Titanic",
+    "Transport",
+    "Orca Dropship",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Piranhas",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 7,
+    "Sv": "4+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Piranha burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Piranha fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 4"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED",
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 2,
+     "WS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "R'varna Battlesuit [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 15,
+    "Ld": "7+",
+    "OC": 4
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Pulse submunitions cannon",
+     "range": 60,
+     "A": "D6+2",
+     "BS": "4+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 6,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Nova Shielding",
+      "text": "Once per battle, when this model is selected as the target of a ranged attack, it can use this ability. If it does, until the end of the phase, each time an attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "R'varna",
+    "Battlesuit",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Razorshark Strike Fighter",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 10,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": "-"
+   },
+   "ranged": [
+    {
+     "name": "Quad ion turret - standard",
+     "range": 30,
+     "A": 8,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Quad ion turret - overcharge",
+     "range": 30,
+     "A": 8,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Accelerator burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Ground Strike Fighter",
+      "text": "Each time this model makes a ranged attack that targets an enemy unit that cannot FLY, add 1 to the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Razorshark Strike Fighter",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Remora Stealth Drones [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 16,
+    "T": 6,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Remora seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Twin long-barrelled burst cannon",
+     "range": 24,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Remote Sensor Tower [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 8,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Orbital Comms Array (Aura)",
+      "text": "While a friendly T'AU EMPIRE unit is within 6\" of this FORTIFICATION, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+     },
+     {
+      "name": "Reinforced Cover",
+      "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+     }
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Remote Sensor Tower",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Riptide Battlesuit",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 9,
+    "Sv": "2+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 4
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy burst cannon",
+     "range": 36,
+     "A": 12,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Ion accelerator - standard",
+     "range": 72,
+     "A": 6,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Ion accelerator - overcharge",
+     "range": 72,
+     "A": 6,
+     "BS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": 4,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Twin smart missile system",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Riptide fists",
+     "A": 6,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Nova Charge",
+      "text": "Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the [DEVASTATING WOUNDS] ability."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Riptide",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Shas'nel [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Heavy rail rifle",
+     "range": 60,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6+1",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "High-yield missile pods",
+     "range": 30,
+     "A": 6,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Ion rifle - standard",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Ion rifle - overcharge",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Rail rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Semi-automatic grenade launcher - EMP",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Semi-automatic grenade launcher - fusion",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Twin plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin smart missile system",
+     "range": 30,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Tanglebomb launcher",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Fireblade pulse rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Kroot rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Blast javelin",
+     "range": 18,
+     "A": "D6",
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Kroot carbine",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 2
+    },
+    {
+     "name": "Kroot long gun",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Dart-bow and tri-blade",
+     "range": 24,
+     "A": "D3+1",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Kroot scattergun",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Londaxi tribalest",
+     "range": 18,
+     "A": 3,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Pulse blaster",
+     "range": 10,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Dvorgite skinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Kroot pistol and hunting javelins",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Kroot pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Kalamandra's bite",
+     "A": 4,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Rampager fists",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Crushing bulk",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Bladestave and prey-hook",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Hunting blades",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Shaper's blade",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Twin ritualistic blades",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "For The Greater Good",
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Volley Fire",
+      "text": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Breacher Team - Strike Team"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Grenades",
+    "Shas'nel"
+   ]
+  },
+  {
+   "name": "Shas'o R'alai [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 6,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Experimental pulse submunitions rifle - EMP",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 1,
+     "AP": 0,
+     "D": 3,
+     "keywords": [
+      "ANTI-VEHICLE 3+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Experimental pulse submunitions rifle - ionic cluster-beam shell",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Eclipse Field Generator",
+      "text": "While this model is leading a unit, models in that unit have a 5+ invulnerable save."
+     },
+     {
+      "name": "Assassin",
+      "text": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - XV9 Hazard Battlesuits"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Markerlight",
+    "Shas'o R'alai",
+    "Battlesuit",
+    "Non-Kroot",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Sky Ray Gunship",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Seeker missile rack",
+     "range": 48,
+     "A": 3,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Accelerator burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Smart missile system",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Velocity Tracker",
+      "text": "Each time this model makes an attack with a ranged weapon that targets a unit that can FLY, you can re-roll the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Markerlight",
+    "Sky Ray Gunship",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Stormsurge",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "2+",
+    "W": 20,
+    "Ld": "7+",
+    "OC": 6
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Cluster rocket system",
+     "range": 48,
+     "A": "4D6",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Destroyer missiles",
+     "range": 72,
+     "A": 1,
+     "BS": "4+",
+     "S": 16,
+     "AP": -4,
+     "D": "D6+2",
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Twin smart missile system",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Pulse Driver Cannon",
+     "range": 72,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Pulse blast cannon - focused",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 24,
+     "AP": -6,
+     "D": 12,
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Pulse blast cannon - dispersed",
+     "range": 48,
+     "A": 6,
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 4,
+     "keywords": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Twin airbursting fragmentation projector",
+     "range": 24,
+     "A": "D6",
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "HEAVY",
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin T'au flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Thunderous footfalls",
+     "A": 3,
+     "WS": "5+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-5 Wounds Remaining",
+      "text": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Heavy Walker",
+      "text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+     },
+     {
+      "name": "Support System",
+      "text": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+     },
+     {
+      "name": "Titan-killer",
+      "text": "Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Titanic",
+    "Towering",
+    "Stormsurge",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Sun Shark Bomber",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": "-"
+   },
+   "ranged": [
+    {
+     "name": "Twin ion rifle - standard",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin ion rifle - overcharged",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Pulse Bombs",
+      "text": "At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: For each 4+, that unit suffers 1 mortal wound."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Sun Shark Bomber",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "TX42 Piranha [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 7,
+    "Sv": "4+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Rail rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 2,
+     "WS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1",
+     "Scouts 9\""
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Outflank",
+      "text": "When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "TX42 Piranha",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Ta'unar Supremacy Armour",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 13,
+    "Sv": "2+",
+    "W": 30,
+    "Ld": "7+",
+    "OC": 10
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Tri-axis ion cannon - standard",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Tri-axis ion cannon - supercharge",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 9,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Fusion eradicator",
+     "range": 24,
+     "A": 5,
+     "BS": "4+",
+     "S": 10,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 3"
+     ]
+    },
+    {
+     "name": "Pulse ordnance driver",
+     "range": 60,
+     "A": 8,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "ANTI-INFANTRY 2+"
+     ]
+    },
+    {
+     "name": "Nexus missile launcher",
+     "range": 36,
+     "A": 8,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Heavy rail cannon array",
+     "range": 120,
+     "A": 2,
+     "BS": "4+",
+     "S": 26,
+     "AP": -5,
+     "D": 16,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Fragmentation cluster shell launcher",
+     "range": 24,
+     "A": "2D6+6",
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Smart missile system",
+     "range": 30,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "INDIRECT FIRE"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Crushing feet",
+     "A": 6,
+     "WS": "5+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+3"
+    ],
+    "faction": [
+     "For The Greater Good",
+     "Super-Heavy Walker"
+    ],
+    "datasheet": [
+     {
+      "name": "Coordinated Strike",
+      "text": "While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, re-roll a Hit roll of 1."
+     },
+     {
+      "name": "Damaged: 1-10 Wounds Remaining",
+      "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Walker",
+    "Towering",
+    "Ta'unar Supremacy Armour",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Tactical Drones [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "6+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ]
+   },
+   "keywords": [
+    "Drone",
+    "Fly",
+    "Tactical Drones",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Tidewall Droneport",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 4,
+    "T": 8,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Drone defenders",
+     "range": 20,
+     "A": 8,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Firing Deck 11"
+    ],
+    "datasheet": [
+     {
+      "name": "Droneport",
+      "text": "Each time this FORTIFICATION is selected to shoot, its drone defenders weapon will target and resolve attacks against every enemy unit that is an eligible target to this FORTIFICATION."
+     }
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Tidewall Droneport",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Tidewall Gunrig",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 4,
+    "T": 8,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Supremacy railgun",
+     "range": 72,
+     "A": 1,
+     "BS": "5+",
+     "S": 20,
+     "AP": -5,
+     "D": "D6+6",
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Firing Deck 11",
+     "Deadly Demise D3"
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Tidewall Gunrig",
+    "Non-Kroot",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Tidewall Shieldline",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 4,
+    "T": 8,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Firing Deck 20"
+    ]
+   },
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Tidewall Shieldline",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Tiger Shark",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 11,
+    "Sv": "3+",
+    "W": 18,
+    "Ld": "7+",
+    "OC": "-"
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Cyclic ion blaster - standard",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Cyclic ion blaster - overcharge",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Ion cannon - standard",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Ion cannon - overcharge",
+     "range": 60,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Swiftstrike burst cannon",
+     "range": 36,
+     "A": 16,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Swiftstrike railgun",
+     "range": 72,
+     "A": 1,
+     "BS": "4+",
+     "S": 20,
+     "AP": -5,
+     "D": "D6+6",
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "keywords": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Skyspear missile rack",
+     "range": 72,
+     "A": "D6+1",
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ANTI-FLY 3+",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Strafing Run",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks that cannot FLY. That enemy unit must take a Battle-shock test."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-6",
+    "text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Tiger Shark",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Vespid Stingwings",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Neutron blaster",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "T'au flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neutron grenade launcher",
+     "range": 18,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Neutron rail rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Stingwing claws",
+     "A": 1,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "datasheet": [
+     {
+      "name": "Airborne Agility",
+      "text": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Vespid Stingwings",
+    "Non-Kroot"
+   ]
+  },
+  {
+   "name": "Y'vahra Battlesuit [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 9,
+    "Sv": "2+",
+    "W": 15,
+    "Ld": "7+",
+    "OC": 4
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Flechette pod",
+     "range": 12,
+     "A": 5,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Ionic discharge cannon - standard",
+     "range": 18,
+     "A": "D6+1",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Ionic discharge cannon - overcharge",
+     "range": 18,
+     "A": "D6+1",
+     "BS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Phased plasma-flamer",
+     "range": 12,
+     "A": 10,
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 6,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "For The Greater Good"
+    ],
+    "datasheet": [
+     {
+      "name": "Nova Burst",
+      "text": "Once per battle, before this model makes a Normal, Advance or Fall Back move, it can use this ability. If it does, until the end of the phase, it has a Move characteristic of 18\"."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Y'vahra",
+    "Non-Kroot"
+   ]
+  }
+ ]
+}

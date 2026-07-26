@@ -1,0 +1,169 @@
+{
+ "slug": "salamanders",
+ "source": "BSData/wh40k-11e :: Imperium - Salamanders.json",
+ "datasheets": [
+  {
+   "name": "Adrax Agatone",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Drakkis",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Malleus Noctum",
+     "A": 5,
+     "WS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Unto the Anvil",
+      "text": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll."
+     },
+     {
+      "name": "Lord of the Pyroclasts",
+      "text": "While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit"
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ ASSAULT INTERCESSOR SQUAD ■ BLADEGUARD VETERAN SQUAD ■ COMPANY HEROES ■ INFERNUS SQUAD ■ INTERCESSOR SQUAD ■ STERNGUARD VETERAN SQUAD ■ TACTICAL SQUAD"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Adrax Agatone",
+    "Imperium",
+    "Tacticus"
+   ]
+  },
+  {
+   "name": "Vulkan He'stan",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Gauntlet of the Forge",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Spear of Vulkan",
+     "A": 6,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Feel No Pain 6+"
+    ],
+    "faction": [
+     "Oath of Moment"
+    ],
+    "datasheet": [
+     {
+      "name": "Forgefather",
+      "text": "In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes a ranged attack with a Torrent or Melta weapon that targets that enemy unit, you can re-roll the Wound roll"
+     },
+     {
+      "name": "Seeker of the Unfound",
+      "text": "The first time this model is set up on the battlefield, select one objective marker on the battlefield. While this model is within range of that objective marker, it has an Objective Control characteristic of 10, a Leadership characteristic of 5+ and the Feel No Pain 4+ ability."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ ASSAULT INTERCESSOR SQUAD ■ COMPANY HEROES ■ INFERNUS SQUAD ■ TACTICAL SQUAD"
+     },
+     {
+      "name": "Inspiring Commander",
+      "text": "If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Grenades",
+    "Vulkan He'stan",
+    "Tacticus"
+   ]
+  }
+ ]
+}

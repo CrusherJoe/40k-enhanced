@@ -1,0 +1,7514 @@
+{
+ "slug": "aeldari",
+ "source": "BSData/wh40k-11e :: Aeldari - Aeldari Library.json",
+ "datasheets": [
+  {
+   "name": "Amallyn Shadowguide [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Ranger long rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Stealth",
+     "Infiltrators",
+     "Lone Operative"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "The Path Least Travelled",
+      "text": "If your army includes this model, after both players have deployed their armies and determined who has the first turn, you can select one Rangers or Shroud Runners unit from your army and redeploy that unit. When doing so, that unit can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+     },
+     {
+      "name": "Path of the Outcast",
+      "text": "In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Aeldari",
+    "Amallyn Shadowguide"
+   ]
+  },
+  {
+   "name": "Asurmen",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "The Bloody Twins",
+     "range": 24,
+     "A": 6,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Sword of Asur",
+     "A": 6,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Hand of Asuryan",
+      "text": "Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Bloody Twins weapon has a Damage characteristic of 3 and the [ANTI‑INFANTRY 5+] and [DEVASTATING WOUNDS] abilities."
+     },
+     {
+      "name": "Tactical Acumen",
+      "text": "While this model is leading a unit, in your Shooting phase, after that unit has shot, it can make a Normal move of up to 6\". If it does, until the end of the turn, that unit is not eligible to declare a charge."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Dire Avengers"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Epic Hero",
+    "Character",
+    "Phoenix Lord",
+    "Asurmen",
+    "Aeldari",
+    "Grenades",
+    "Aspect Warrior",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Autarch",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starswarm",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Death Spinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Gun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Scorpion Chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Banshee Blade",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Star Glaive",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Superlative Strategist",
+      "text": "While this model is leading a unit, you can re-roll Advance rolls made for that unit, and you can re-roll any rolls made for that unit while it is performing an Agile Manoeuvre."
+     },
+     {
+      "name": "Path of Command",
+      "text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that stratagem by 1CP."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Dark Reapers - Dire Avengers - Fire Dragons - Guardian Defenders - Howling Banshees - Storm Guardians - Striking Scorpions"
+     },
+     {
+      "name": "Aspect Training",
+      "text": "While this model is leading a Howling Banshees unit, it has the Fights First ability. While this model is leading a Striking Scorpions unit, it has the Infiltrators, Scouts 7\" and Stealth abilities."
+     }
+    ]
+   },
+   "keywords": [
+    "Autarch",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Aeldari",
+    "Ynnari",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Autarch Skyrunner [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Laser Lance",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Gun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Banshee Blade",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -3,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Path of Command",
+      "text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: - Corsair Cloud Dancer Band - Windriders"
+     },
+     {
+      "name": "Ride the WInd",
+      "text": "While this model is leading a unit, each time that unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit"
+     }
+    ]
+   },
+   "keywords": [
+    "Autarch",
+    "Autarch Skyrunner",
+    "Character",
+    "Mounted",
+    "Fly",
+    "Aeldari",
+    "Frame",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Autarch Wayleaper",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 3,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starswarm",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Death Spinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Gun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Scorpion Chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Banshee Blade",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Star Glaive",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Path of Command",
+      "text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that stratagem by 1CP."
+     },
+     {
+      "name": "Indomitable Strength of Will",
+      "text": "While this model is leading a unit, each time you spend a Battle Focus token to enable that unit to perform an Agile Manoeuvre, roll one D6: on a 3+ you gain 1 Battle Focus token."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Swooping Hawks - Warp Spiders"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Fly",
+    "Autarch Wayleaper",
+    "Aeldari",
+    "Jump Pack",
+    "Ynnari",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Avatar of Khaine",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 14,
+    "Ld": "6+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "The Wailing Doom",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 16,
+     "AP": -4,
+     "D": "D6+2",
+     "keywords": [
+      "SUSTAINED HITS D3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Wailing Doom - Strike",
+     "A": 6,
+     "WS": "2+",
+     "S": 16,
+     "AP": -4,
+     "D": "D6+2"
+    },
+    {
+     "name": "The Wailing Doom - Sweep",
+     "A": 12,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Molten Form",
+      "text": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+     },
+     {
+      "name": "The Bloody Handed (Aura)",
+      "text": "While a friendly Aeldari unit is within 6\" of this model, add 1 to Advance and Charge rolls made for that unit."
+     },
+     {
+      "name": "Damaged: 1-5 Wounds Remaining",
+      "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Daemon",
+    "Epic Hero",
+    "Character",
+    "Monster",
+    "Avatar of Khaine",
+    "Aeldari"
+   ]
+  },
+  {
+   "name": "Baharroth",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Fury of the Tempest",
+     "range": 24,
+     "A": 4,
+     "BS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Shining Blade",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Swooping Hawks"
+     },
+     {
+      "name": "Cry of the Wind",
+      "text": "Each time this model is set-up on the battlefield, until the end of the turn, each time this model makes a ranged attack, a successful unmodified Hit roll scores a Critical Hit."
+     },
+     {
+      "name": "Cloudstrider",
+      "text": "While this model is leading a unit, at the end of your opponent’s turn, if that unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves. In addition, while this model is leading a unit, when that unit is set up on the battlefield using the Deep Strike ability, in your Movement phase, it can use this ability. If it does, that unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models, but until the end of the turn, it is not eligible to declare a charge."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Fly",
+    "Phoenix Lord",
+    "Baharroth",
+    "Aspect Warrior",
+    "Aeldari",
+    "Jump Pack",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Bonesinger [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Psytronome Shaper",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Wraithblades ■ Wraithguard ■ Wraithlord"
+     },
+     {
+      "name": "Way of the Shaper (Psychic)",
+      "text": "While this model is leading a unit, Wraith Construct models in that unit have the Feel No Pain 6+ ability."
+     },
+     {
+      "name": "Bonesinger",
+      "text": "While this model is within 3\" of one or more friendly Wraith Construct or Asuryani Vehicle units, unless it is leading a unit, this model has the Lone Operative ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Aeldari",
+    "Bonesinger",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Cobra [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 11,
+    "Sv": "2+",
+    "W": 24,
+    "Ld": "6+",
+    "OC": 8
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "D-Impaler",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 16,
+     "AP": -4,
+     "D": 4,
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Aeldari missile launcher - starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Aeldari missile launcher - sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-8 Wounds Remaining",
+      "text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll"
+     },
+     {
+      "name": "D-Rift",
+      "text": "In your Shooting phase, just after selecting a target for this model’s D-impaler, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is struck by a D-rift. After this model has finished making its attacks against that target unit this phase, each unit struck by a D-rift this phase suffers D3 mortal wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Fly",
+    "Cobra",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Craftworld Warleader [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Dragon Fusion Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Destructor",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Death Spinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Gun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    },
+    {
+     "name": "Eldritch Storm",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Long Rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starswarm",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Banshee Blade",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Ghostglaive - Strike",
+     "A": 4,
+     "WS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Ghostglaive - Sweep",
+     "A": 8,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Paragon Sabre",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Scorpion Chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Wraithbone Fists",
+     "A": 4,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Singing Spear",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 3,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Star Glaive",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Star Lance",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "ANTI-MONSTER 3+",
+      "ANTI-VEHICLE 3+",
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Witch Staff",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Witchblade",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Crucible",
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Guided by Fate",
+      "text": "Each time this model makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Guardian Defenders ■ Storm Guardian ■ Warlock Conclave"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Aeldari",
+    "Craftworld Warleader",
+    "Crucible"
+   ]
+  },
+  {
+   "name": "Crimson Hunter",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 8,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": "-"
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Pulse Laser",
+     "range": 48,
+     "A": 3,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Skyhunter",
+      "text": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll and add 1 to the Wound roll."
+     },
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Crimson Hunter",
+    "Aeldari",
+    "Aspect Warrior",
+    "Ynnari"
+   ]
+  },
+  {
+   "name": "D-Cannon Platform",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 6,
+    "Sv": "4+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "D-cannon",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 16,
+     "AP": -4,
+     "D": "D6+2",
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Structural Collapse",
+      "text": "Each time this model makes an attack with its D-Cannon, re-roll a Damage roll of 1. If that attack targets a Titanic unit, you can re-roll the Damage roll instead."
+     }
+    ]
+   },
+   "keywords": [
+    "Support Weapon",
+    "Infantry",
+    "Aeldari",
+    "D-Cannon Platform",
+    "Ynnari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Death Jester",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shrieker Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Jester's Blade",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Lone Operative"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Death is Not Enough",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks. That enemy unit must take a Battle-shock test. If one or more of those attacks destroyed a model in that enemy unit, subtract 1 from that test."
+     },
+     {
+      "name": "Cruel Amusement",
+      "text": "In your Shooting phase, each time this model is selected to shoot, select one of the abilities below. Until the end of the phase, this model’s Shrieker Cannon has that ability: ■ [IGNORES COVER] ■ [PRECISION] ■ [SUSTAINED HITS 3]"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Death Jester",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players"
+   ]
+  },
+  {
+   "name": "Eldrad Ulthran",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 4,
+    "Sv": "6+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Mind War",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": "D6",
+     "keywords": [
+      "ANTI-CHARACTER 4+",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Staff of Ulthamar and witchblade",
+     "A": 3,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Diviner of the Futures",
+      "text": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
+     },
+     {
+      "name": "Doom (Psychic)",
+      "text": "At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly Aeldari model makes an attack that targets that enemy unit, add 1 to the Wound roll"
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - GUARDIAN DEFENDERS - STORM GUARDIANS - WARLOCK CONCLAVE If this model is not already attached to a unit, you can attach this model to a unit, even if one WARLOCKS unit has already been attached to it."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Farseer",
+    "Eldrad Ultran",
+    "Aeldari",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Falcon",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Pulse Laser",
+     "range": 48,
+     "A": 3,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Fire Support",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll"
+     }
+    ]
+   },
+   "keywords": [
+    "Falcon",
+    "Fly",
+    "Transport",
+    "Vehicle",
+    "Aeldari",
+    "Ynnari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Farseer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Eldritch Storm",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Singing Spear",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": 0,
+     "D": 3,
+     "keywords": [
+      "ASSAULT",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Witchblade",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Branching Fates (Psychic)",
+      "text": "While this model is leading a unit, once per phase you can change the result of one Hit roll, one Wound roll, or one Damage roll made for a model in that unit (excluding Support Weapon models) to an unmodified 6."
+     },
+     {
+      "name": "Guide (Psychic)",
+      "text": "At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly Aeldari model makes an attack that targets that enemy unit, add 1 to the Hit roll. Each unit can only be selected for this ability once per turn."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: GUARDIAN DEFENDERS, STORM GUARDIANS, WARLOCK CONCLAVE."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Farseer",
+    "Aeldari",
+    "Ynnari",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Farseer Skyrunner",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "6+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Eldritch Storm",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Singing Spear",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": 0,
+     "D": 3,
+     "keywords": [
+      "ASSAULT",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Witchblade",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Branching Fates (Psychic)",
+      "text": "While this model is leading a unit, once per phase you can change the result of one Hit roll, one Wound roll, or one Damage roll made for a model in that unit to an unmodified 6."
+     },
+     {
+      "name": "Misfortune (Psychic)",
+      "text": "At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a model in that unit makes an attack, subtract 1 from the Wound roll. Each unit can only be selected for this ability once per turn."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Warlock Skyrunners ■ Windriders"
+     }
+    ]
+   },
+   "keywords": [
+    "Farseer Skyrunner",
+    "Farseer",
+    "Character",
+    "Fly",
+    "Mounted",
+    "Psyker",
+    "Aeldari",
+    "Ynnari",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Fire Prism",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Prism Cannon - dispersed pulse",
+     "range": 60,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Prism Cannon - focused lances",
+     "range": 60,
+     "A": 2,
+     "BS": "3+",
+     "S": 18,
+     "AP": -4,
+     "D": 6,
+     "keywords": [
+      "LINKED FIRE"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Crystal Matrix",
+      "text": "Each time this model is selected to shoot, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks."
+     }
+    ]
+   },
+   "keywords": [
+    "Fire Prism",
+    "Fly",
+    "Vehicle",
+    "Aeldari",
+    "Ynnari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Firestorm [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Firestorm Scatter Laser",
+     "range": 36,
+     "A": 16,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-FLY 2+"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Skyfire",
+      "text": "Each time you target this model with the Fire Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to shooting that enemy unit, you can select up to 3 other enemy units within 24\" of this model that can Fly; this model can also shoot at each of those units with its Firestorm scatter laser (provided each one is an eligible target), but when doing so, an unmodified Hit roll of 6 is required to score a hit."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Firestorm",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Fuegan",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Searsong - Beam",
+     "range": 12,
+     "A": 3,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "MELTA 1",
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Searsong - Lance",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 6"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Fire Axe",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -4,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Burning Lance",
+      "text": "While this model is leading a unit, add 6\" to the Range characteristic of Melta weapons equipped by models in that unit."
+     },
+     {
+      "name": "Unquenchable Resolve",
+      "text": "The first time this model is destroyed, at the end of the phase, roll one D6. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Fire Dragons"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Phoenix Lord",
+    "Fuegan",
+    "Aeldari",
+    "Aspect Warrior",
+    "Grenades",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Ghost Warrior [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Dragon Fusion Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Destructor",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Death Spinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Gun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    },
+    {
+     "name": "Eldritch Storm",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Long Rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starswarm",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Banshee Blade",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Ghostglaive - Strike",
+     "A": 4,
+     "WS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Ghostglaive - Sweep",
+     "A": 8,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Paragon Sabre",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Scorpion Chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Wraithbone Fists",
+     "A": 4,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Singing Spear",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 3,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Star Glaive",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Star Lance",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "ANTI-MONSTER 3+",
+      "ANTI-VEHICLE 3+",
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Witch Staff",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Witchblade",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ],
+    "faction": [
+     "Crucible",
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Awakened Spirit",
+      "text": "Each time this model makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Aeldari",
+    "Crucible",
+    "Monster",
+    "Walker",
+    "Ghost Warrior",
+    "Wraith Construct"
+   ]
+  },
+  {
+   "name": "Guardian Defenders",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 1,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [],
+   "extra_profiles": [
+    {
+     "name": "Heavy Weapon Platform",
+     "stats": {
+      "M": 7,
+      "T": 3,
+      "Sv": "4+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Hemlock Wraithfighter",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 8,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": "-"
+   },
+   "ranged": [
+    {
+     "name": "Heavy D-Scythe",
+     "range": 18,
+     "A": "D6",
+     "BS": "4+",
+     "S": 12,
+     "AP": -4,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Mindshock Pod (Aura, Psychic)",
+      "text": "While an enemy unit is within 9\" of this model, subtract 1 from Battle-shock and Leadership tests taken for that unit."
+     },
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Hemlock Wraithfighter",
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Psyker",
+    "Wraith Construct",
+    "Aeldari",
+    "Ynnari"
+   ]
+  },
+  {
+   "name": "Hornet [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 7,
+    "Sv": "3+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Aeldari Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Aeldari Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Hornet Pulse Laser",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Lightning Assault",
+      "text": "Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Hornet",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Illic Nightspear [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Voidbringer",
+     "range": 48,
+     "A": 1,
+     "BS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "HEAVY",
+      "PRECISION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Aeldari power sword",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Infiltrators",
+     "Leader",
+     "Stealth"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Bringer of the True Death",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Wound roll."
+     },
+     {
+      "name": "Hunter Unseen",
+      "text": "This model’s unit can only be selected as the target of a ranged attack if the attacking model is within 12\"."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Rangers"
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Illic Nightspear",
+    "Aeldari",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Irillyth [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Spear of Starlight",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 4
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike",
+     "Stealth"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Shadow Spectres"
+     },
+     {
+      "name": "Reaper of Souls",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll"
+     },
+     {
+      "name": "Shadow of Death (Aura)",
+      "text": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test."
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Fly",
+    "Irillyth",
+    "Phoenix Lord",
+    "Aeldari",
+    "Jump Pack",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Jain Zar",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Silent Death",
+     "range": 12,
+     "A": 6,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Blade of Destruction",
+     "A": 8,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Fights First"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Howling Banshees"
+     },
+     {
+      "name": "Whirling Death",
+      "text": "While this model is leading a unit, each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit and each time a model in that unit makes an Advance move, ignore any vertical distance when determining the total distance that model can be moved during that move."
+     },
+     {
+      "name": "Storm of Silence",
+      "text": "Each time this model makes an attack that targets a Character unit, you can re-roll the Wound roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Jain Zar",
+    "Phoenix Lord",
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Aeldari",
+    "Aspect Warrior",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Karandras [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Arhra's Bane",
+     "range": 12,
+     "A": 2,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Isirmathil",
+     "A": 8,
+     "WS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Infiltrators"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Striking Scorpions"
+     },
+     {
+      "name": "Shadow Hunter",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
+     },
+     {
+      "name": "Sustained Assault",
+      "text": "Each time this model makes a melee attack, if it made a Charge move this turn, a successful unmodified Hit roll of 4+ scores a Critical Hit"
+     },
+     {
+      "name": "The Scorpion's Bite",
+      "text": "Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the Titanic keyword"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Karandras",
+    "Phoenix Lord",
+    "Aeldari",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Kharseth",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Dread of the Deep Void",
+     "range": 24,
+     "A": "D6+2",
+     "BS": "3+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "BLAST",
+      "HAZARDOUS",
+      "IGNORES COVER",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Waystave",
+     "A": 3,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 3,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Scouts 7\"",
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - CORSAIR REAVER BAND - CORSAIR VOIDREAVERS - CORSAIR VOIDSCARRED"
+     },
+     {
+      "name": "Aethersense (Psychic)",
+      "text": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model."
+     },
+     {
+      "name": "Fury of the Void (Psychic)",
+      "text": "In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more attacks made with this model’s Dread of the Deep Void. Until the end of the turn, that unit is riven. Each time an Aeldari model from your army makes an attack that targets a riven unit, add 1 to the Strength characteristic of that attack."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Aeldari",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Anhrathe",
+    "Kharseth",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Lhykhis",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Brood Twain",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Spider's Fangs",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "EXTRA ATTACKS",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Weaverender",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Warp Spiders"
+     },
+     {
+      "name": "Empyric Ambush",
+      "text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it used its Flickerjump ability."
+     },
+     {
+      "name": "Whispering Web",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Aeldari model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Aeldari",
+    "Jump Pack",
+    "Fly",
+    "Aspect Warrior",
+    "Phoenix Lord",
+    "Lhykhis",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Lynx [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 9,
+    "Sv": "3+",
+    "W": 16,
+    "Ld": "6+",
+    "OC": 4
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Lynx Pulsar",
+     "range": 48,
+     "A": 4,
+     "BS": "3+",
+     "S": 16,
+     "AP": -3,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Aeldari missile launcher - starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Aeldari missile launcher - sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-5 Wounds Remaining",
+      "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Speed of Vaul",
+      "text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 9\" to the Move characteristic of this model"
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Lynx",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Maugan Ra",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Maugetar",
+     "range": 36,
+     "A": 6,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "IGNORES COVER"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Dark Reapers"
+     },
+     {
+      "name": "Harvester of Souls",
+      "text": "While this model is leading a unit, in your Shooting phase, after selecting targets for that unit's attacks, if every attack targets the same unit, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 5+, the unit being rolled for is struck by explosive debris; after resolving all of that unit's attacks against the target unit, each unit struck by explosive debris suffers D3 mortal wounds."
+     },
+     {
+      "name": "Face of Death",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
+     }
+    ]
+   },
+   "keywords": [
+    "Phoenix Lord",
+    "Maugan Ra",
+    "Infantry",
+    "Epic Hero",
+    "Character",
+    "Aeldari",
+    "Aspect Warrior",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Night Spinner",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Doomweaver",
+     "range": 48,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Monofilament Web",
+      "text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its doomweaver scored a hit against an enemy unit, until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit's Move characteristic and subtract 2 from Charge rolls made for it."
+     }
+    ]
+   },
+   "keywords": [
+    "Fly",
+    "Vehicle",
+    "Night Spinner",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Nightwing [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 8,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": "-"
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Interceptor",
+      "text": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Nightwing",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Phantom Titan",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 14,
+    "Sv": "2+",
+    "W": 55,
+    "Ld": "6+",
+    "OC": 20
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": true,
+   "ranged": [
+    {
+     "name": "Voidstorm missile launcher",
+     "range": 48,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "D-bombard",
+     "range": 72,
+     "A": "D6",
+     "BS": "3+",
+     "S": 20,
+     "AP": -4,
+     "D": "2D6",
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Phantom pulsar",
+     "range": 120,
+     "A": 8,
+     "BS": "3+",
+     "S": 18,
+     "AP": -4,
+     "D": 6
+    },
+    {
+     "name": "Phantom starcannon",
+     "range": 36,
+     "A": 4,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Pulse laser",
+     "range": 48,
+     "A": 3,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    }
+   ],
+   "melee": [
+    {
+     "name": "Phantom feet",
+     "A": 4,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": 4
+    },
+    {
+     "name": "Wraith glaive - strike",
+     "A": 6,
+     "WS": "3+",
+     "S": 18,
+     "AP": -4,
+     "D": 12
+    },
+    {
+     "name": "Wraith glaive - sweep",
+     "A": 12,
+     "WS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 4
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+6"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-16 Wounds Remaining",
+      "text": "While this model has 1-16 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Titanic Advance",
+      "text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding Titanic models) and terrain features that are 4\" or less in height as if they were not there."
+     },
+     {
+      "name": "Towering Wraith Construct",
+      "text": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+     },
+     {
+      "name": "Flawless Poise",
+      "text": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+     }
+    ]
+   },
+   "keywords": [
+    "Phantom Titan",
+    "Titanic",
+    "Towering",
+    "Walker",
+    "Monster",
+    "Aeldari",
+    "Wraith Construct",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Phoenix [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 9,
+    "Sv": "3+",
+    "W": 16,
+    "Ld": "6+",
+    "OC": "-"
+   },
+   "ranged": [
+    {
+     "name": "Phoenix missile array",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Phoenix pulse laser",
+     "range": 48,
+     "A": 4,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Twin shuriken cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Strafing Run",
+      "text": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
+     },
+     {
+      "name": "Damaged: 1-5 wounds remaining",
+      "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Aeldari",
+    "Aircraft",
+    "Fly",
+    "Phoenix",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Prince Yriel",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "The Eye of Wrath",
+     "range": 6,
+     "A": 3,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "The Spear of Twilight",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "LANCE"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader",
+     "Scouts 7\""
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - CORSAIR REAVER BAND - CORSAIR VOIDREAVERS - CORSAIR VOIDSCARRED"
+     },
+     {
+      "name": "Piratical Hero",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, that attack has the [Sustained Hits 1] ability and add 1 to the Hit roll."
+     },
+     {
+      "name": "Prince of Corsairs",
+      "text": "After both players have deployed their armies, if this model is on the battlefield (or any Transport it is embarked within is on the battlefield), select up to three Aeldari units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+     }
+    ]
+   },
+   "keywords": [
+    "Prince Yriel",
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Aeldari",
+    "Anhrathe",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Rangers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": true,
+   "ranged": [
+    {
+     "name": "Long rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 1,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Revenant Titan",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 16,
+    "T": 13,
+    "Sv": "2+",
+    "W": 30,
+    "Ld": "6+",
+    "OC": 16
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": true,
+   "ranged": [
+    {
+     "name": "Cloudburst missile launcher",
+     "range": 36,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Sonic Lance",
+     "range": 18,
+     "A": "D6+6",
+     "BS": "N/A",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+",
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Revenant Pulsar",
+     "range": 60,
+     "A": 6,
+     "BS": "3+",
+     "S": 14,
+     "AP": -3,
+     "D": 4,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Revenant feet",
+     "A": 8,
+     "WS": "3+",
+     "S": 10,
+     "AP": -1,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 2D6"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-10 Wounds Remaining",
+      "text": "While this model has 1-10 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Titanic Advance",
+      "text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding Titanic models) and terrain features that are 4\" or less in height as if they were not there."
+     },
+     {
+      "name": "Towering Wraith Construct",
+      "text": "Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
+     },
+     {
+      "name": "Revenant Jet Pack",
+      "text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model."
+     }
+    ]
+   },
+   "keywords": [
+    "Revenant Titan",
+    "Walker",
+    "Towering",
+    "Titanic",
+    "Monster",
+    "Fly",
+    "Wraith Construct",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Scorpion [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 11,
+    "Sv": "2+",
+    "W": 24,
+    "Ld": "6+",
+    "OC": 8
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin Scorpion Pulsar",
+     "range": 60,
+     "A": 6,
+     "BS": "3+",
+     "S": 18,
+     "AP": -3,
+     "D": 5,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Aeldari missile launcher - starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Aeldari missile launcher - sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-8 Wounds Remaining",
+      "text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll"
+     },
+     {
+      "name": "Lanced Obliteration",
+      "text": "Each time an attack made with this model’s twin Scorpion pulsar destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+ instead of on a 6."
+     }
+    ]
+   },
+   "keywords": [
+    "Scorpion",
+    "Vehicle",
+    "Fly",
+    "Titanic",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Shadow Spectres [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Prism Rifle - dispersed",
+     "range": 18,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Prism Rifle - focused",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Shadow Weaver Platform",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 6,
+    "Sv": "4+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Shadow weaver",
+     "range": 48,
+     "A": "D6+2",
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Monofilament Snare",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its Shadow Weaver. Until the start of your next turn, that enemy unit it snared. While a unit is snared, each time that unit makes a Normal, Advance or Fall Back move, roll one D6 for each model in that unit: for each 1, that unit suffers 1 mortal wound."
+     }
+    ]
+   },
+   "keywords": [
+    "Support Weapon",
+    "Aeldari",
+    "Infantry",
+    "Shadow Weaver Platform",
+    "Ynnari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Shadowseer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Neuro Disruptor",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Miststave",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Stealth",
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Troupe"
+     },
+     {
+      "name": "Fog of Dreams (Psychic)",
+      "text": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+     },
+     {
+      "name": "Treacherous Illusion (Psychic)",
+      "text": "Melee weapons equipped by enemy models have the [Hazardous] ability while targeting this model's unit."
+     }
+    ]
+   },
+   "keywords": [
+    "Shadowseer",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Psyker",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Shroud Runners",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": true,
+   "ranged": [
+    {
+     "name": "Long rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 1,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Skathach Wraithknight [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 12,
+    "Sv": "2+",
+    "W": 18,
+    "Ld": "6+",
+    "OC": 10
+   },
+   "ranged": [
+    {
+     "name": "Deathshroud Cannon - Dispersed",
+     "range": 12,
+     "A": "3D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Deathshroud Cannon - Focused",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Inferno Lance",
+     "range": 24,
+     "A": 4,
+     "BS": "3+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Titanic Feet",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-6 Wounds Remaining",
+      "text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Agile",
+      "text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over other models (excluding Titanic models) and terrain features that are 4\" or less in height as if they were not there."
+     },
+     {
+      "name": "Webway Shunt Generator",
+      "text": "Once per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield and place it into Strategic Reserves."
+     }
+    ]
+   },
+   "keywords": [
+    "Skathach Wraithknight",
+    "Wraith Construct",
+    "Towering",
+    "Titanic",
+    "Walker",
+    "Monster",
+    "Aeldari"
+   ]
+  },
+  {
+   "name": "Skyrunner [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "6+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Dragon Fusion Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Destructor",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Death Spinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Gun",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    },
+    {
+     "name": "Eldritch Storm",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "keywords": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Long Rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starswarm",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "HEAVY",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Banshee Blade",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Ghostglaive - Strike",
+     "A": 4,
+     "WS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Ghostglaive - Sweep",
+     "A": 8,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Paragon Sabre",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Scorpion Chainsword",
+     "A": 7,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Wraithbone Fists",
+     "A": 4,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Singing Spear",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 3,
+     "keywords": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Star Glaive",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 3
+    },
+    {
+     "name": "Star Lance",
+     "A": 4,
+     "WS": "2+",
+     "S": 5,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "ANTI-MONSTER 3+",
+      "ANTI-VEHICLE 3+",
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Witch Staff",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Witchblade",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Crucible",
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Winds of War",
+      "text": "This model’s unit is eligible to declare a charge in a turn in which it Advanced."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Aeldari",
+    "Crucible",
+    "Mounted",
+    "Skyrunner",
+    "Fly"
+   ]
+  },
+  {
+   "name": "Skyweavers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Skyweaver Haywire Cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Star Bolas",
+     "range": 12,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Zephyrglaive",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Solitaire",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Solitaire Weapons",
+     "A": 9,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Fights First",
+     "Lone Operative",
+     "Stealth"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Blitz",
+      "text": "Once per battle, in your Movement phase, before this model makes a Normal move it can use this ability. If it does, until the end of the turn, add 2D6\" to this model’s Move characteristic and add 3 to the Attacks characteristic of this model’s Solitaire weapons."
+     },
+     {
+      "name": "Blur of Movement",
+      "text": "This model is eligible to declare a charge in a turn in which it Advanced."
+     }
+    ]
+   },
+   "keywords": [
+    "Solitaire",
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players"
+   ]
+  },
+  {
+   "name": "Spiritseer",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Witch Staff",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": "D3",
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Stealth"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Spirit Mark (Psychic)",
+      "text": "Once per turn, in your Movement phase, when this model starts or ends a move, select one friendly Wraith Construct unit within 6\" of this model (excluding Titanic units) and one enemy unit visible to this model. Until the start of your next Movement phase, weapons equipped by models in that friendly unit have the [Sustained Hits 1] ability while targeting that enemy unit."
+     },
+     {
+      "name": "Tears of Isha (Psychic)",
+      "text": "In your Command phase, select one friendly Wraith Construct unit within 6\" of this model. If one or more models in that unit are destroyed, you can return one destroyed model to that unit. Otherwise, one model in that unit regains up to D3 lost wounds. Each unit can only be selected for this ability once per turn."
+     },
+     {
+      "name": "Spiritseer",
+      "text": "While this model is within 3\" of one or more friendly Wraith Construct units, this model has the Lone Operative ability."
+     }
+    ]
+   },
+   "keywords": [
+    "Spiritseer",
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Aeldari",
+    "Ynnari"
+   ]
+  },
+  {
+   "name": "Starfangs",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Disintegrator Cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Starfang Grenade Launcher",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 6,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1",
+     "Scouts 7\""
+    ]
+   },
+   "keywords": []
+  },
+  {
+   "name": "Starweaver",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1",
+     "Firing Deck 6"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Rapid Embarkation",
+      "text": "At the end of the Fight phase, if there are no models currently embarked within this Transport, you can select one friendly Harlequins Infantry unit that has 6 or fewer models that is wholly within 6\" of this Transport. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport. That unit can embark within this TRANSPORT in a turn it disembarked from this TRANSPORT."
+     }
+    ]
+   },
+   "keywords": [
+    "Star Weaver",
+    "Dedicated Transport",
+    "Fly",
+    "Smoke",
+    "Vehicle",
+    "Transport",
+    "Aeldari",
+    "Harlequin Allies",
+    "Corsairs and Travelling Players",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Storm Guardians",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Serpent Shield",
+      "text": "Models in the bearer’s unit have a 5+ invulnerable save."
+     }
+    ]
+   },
+   "keywords": []
+  },
+  {
+   "name": "The Visarch",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "2+",
+    "W": 5,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Asu-var - quicksilver stance",
+     "A": 8,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Asu-var - duellist stance",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Asu-var - mythic stance",
+     "A": 4,
+     "WS": "2+",
+     "S": 3,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "ANTI-EPIC HERO 2+",
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Way of the Blade",
+      "text": "While this model is leading a unit, models in that unit have the Fights First ability."
+     },
+     {
+      "name": "Yvraine's Champion",
+      "text": "While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - CORSAIR REAVER BAND - CORSAIR VOIDREAVERS - CORSAIR VOIDSCARRED - GUARDIAN DEFENDERS - STORM GUARDIANS - YNNARI INCUBI - YNNARI KABALITE WARRIORS - YNNARI WYCHES You can attach this unit to one of the above units, even if Yvraine has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     },
+     {
+      "name": "Servant of the Whispering God",
+      "text": "If your army includes The Visarch, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Visarch."
+     }
+    ]
+   },
+   "keywords": [
+    "The Visarch",
+    "Infantry",
+    "Epic Hero",
+    "Character",
+    "Aeldari",
+    "Leader"
+   ]
+  },
+  {
+   "name": "The Yncarne",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "2+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Swirling soul energy",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 7,
+     "AP": -1,
+     "D": "D3",
+     "keywords": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Vilith-zhar - Strike",
+     "A": 5,
+     "WS": "2+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6+1"
+    },
+    {
+     "name": "Vilith-zhar - Sweep",
+     "A": 10,
+     "WS": "2+",
+     "S": 6,
+     "AP": -4,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Inevitable Death",
+      "text": "Once in each of your opponent's turns, if this model is on the battlefield when another friendly Aeldari unit is destroyed, just after removing the last model in that unit, you can remove this model from the battlefield and set it up as close as possible to where that destroyed model was destroyed and not within Engagement Range of one or more enemy units. Doing so does not prevent this model from being eligible to move."
+     },
+     {
+      "name": "Ethereal Form",
+      "text": "Each time this model destroys an enemy unit it regains up to D3 lost wounds."
+     },
+     {
+      "name": "Avatar of the Whispering God",
+      "text": "If your army includes The Yncarne, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Yncarne."
+     }
+    ]
+   },
+   "keywords": [
+    "The Yncarne",
+    "Epic Hero",
+    "Monster",
+    "Character",
+    "Fly",
+    "Psyker",
+    "Daemon",
+    "Aeldari"
+   ]
+  },
+  {
+   "name": "Troupe Master",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Fusion Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "ASSAULT",
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Neuro Disruptor",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Harlequin's Special Weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Troupe Master's Blade",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Troupe"
+     },
+     {
+      "name": "Choreographer of War",
+      "text": "While this model is leading a unit, each time a model in that unit makes a Pile In or Consolidate move, it can move up to 6\" instead of 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit."
+     },
+     {
+      "name": "Cegorach’s Favour:",
+      "text": "Each time this model makes a melee attack you can re-roll a Hit roll of 1 and add 1 to the Wound roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Troupe Master",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Vampire Hunter [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 12,
+    "Sv": "3+",
+    "W": 30,
+    "Ld": "6+",
+    "OC": "-"
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Twin Pulse Laser",
+     "range": 48,
+     "A": 3,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Vampire Pulsar",
+     "range": 60,
+     "A": 3,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": 4,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-10 Wounds Remaining",
+      "text": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Titan Hunter",
+      "text": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, re-roll a Damage roll of 1."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Titanic",
+    "Vampire Hunter",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Vampire Raider [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 12,
+    "Sv": "3+",
+    "W": 30,
+    "Ld": "6+",
+    "OC": "-"
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Twin Pulse Laser",
+     "range": 48,
+     "A": 3,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 6,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6+2"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-10 Wounds Remaining",
+      "text": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Into the Foe",
+      "text": "If a unit disembarks from this Transport before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
+     },
+     {
+      "name": "Transport",
+      "text": "This model has a transport capacity of 30 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models or Ynnari models (excluding Yvraine and The Visarch)."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Titanic",
+    "Transport",
+    "Vampire Raider",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Vibro Cannon Platform",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 6,
+    "Sv": "4+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Vibro Cannon",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 9,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Sonic Destruction",
+      "text": "In your Shooting phase, each time this model makes an attack with its Vibro Cannon that targets an enemy unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1 for each other friendly Vibro Cannon Platform model that made one or more attacks with its Vibro Cannon that also targeted that enemy unit this phase."
+     }
+    ]
+   },
+   "keywords": [
+    "Support Weapon",
+    "Infantry",
+    "Aeldari",
+    "Vibro Cannon Platform",
+    "Ynnari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Voidweaver",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Prismatic Cannon - dispersed pulse",
+     "range": 24,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Prismatic Cannon - focused lances",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": 4
+    },
+    {
+     "name": "Voidweaver Haywire Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 3,
+     "keywords": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1",
+     "Stealth"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Polychromatic Camoflage",
+      "text": "This unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+     }
+    ]
+   },
+   "keywords": [
+    "Voidweaver",
+    "Fly",
+    "Vehicle",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Vypers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Bright Lance",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ]
+   },
+   "keywords": []
+  },
+  {
+   "name": "War Walkers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "War Walker feet",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Crystalline Targeting",
+      "text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Aeldari unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. Each unit can only be selected for that ability once per turn."
+     }
+    ]
+   },
+   "keywords": []
+  },
+  {
+   "name": "Warp Hunter [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 9,
+    "Sv": "3+",
+    "W": 12,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "D-Flail - blast",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 12,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "BLAST",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "D-Flail - rift",
+     "range": 12,
+     "A": "D3",
+     "BS": "N/A",
+     "S": 12,
+     "AP": -4,
+     "D": 3,
+     "keywords": [
+      "DEVASTATING WOUNDS",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Devastating Assault",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Warp Hunter",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Wasp Assault Walker [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "3+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Aeldari missile launcher - starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Aeldari missile launcher - sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wasp feet",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Cloudbreakers",
+      "text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+     }
+    ]
+   },
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Walker",
+    "Wasp Assault Walker",
+    "Aeldari"
+   ]
+  },
+  {
+   "name": "Wave Serpent",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 9,
+    "Sv": "3+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Twin Aeldari Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Aeldari Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2",
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wraithbone Hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Wave Serpent Shield",
+      "text": "Each time a ranged attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+     },
+     {
+      "name": "Damaged: 1-4 Wounds Remaining",
+      "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Wave Serpent",
+    "Fly",
+    "Dedicated Transport",
+    "Vehicle",
+    "Transport",
+    "Aeldari",
+    "Ynnari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Webway Gate [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 12,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "6+",
+    "OC": 0
+   },
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Arcane Cover",
+      "text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+     },
+     {
+      "name": "Webway Strike",
+      "text": "Each time a friendly AELDARI unit arrives from Strategic Reserves, you can choose to set it up anywhere on the battlefield that is wholly within 6\" of this FORTIFICATION. If you do, that AELDARI unit can be set up within 9\" of enemy models, and can be set up within Engagement Range of enemy models. If an AELDARI unit is set up within Engagement Range of any enemy models in this way, it counts as having made a Charge move this turn and is eligible to fight this turn."
+     },
+     {
+      "name": "Deployment",
+      "text": "Both Wraithbone Arches of this Fortification must be set up with their upper points no more than 1\" apart and with both statues facing in fully opposite directions so that an arch is formed, as shown on the right. Both arches are then treated as a single model for all rules purposes."
+     }
+    ]
+   },
+   "keywords": [
+    "Webway Gate",
+    "Fortification",
+    "Aeldari",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Wraithblades",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Ghostswords",
+     "A": 5,
+     "WS": "4+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Ghostaxe",
+     "A": 3,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Wraithguard",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Wraithcannon",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6+1"
+    },
+    {
+     "name": "D-Scythe",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 7,
+     "AP": -3,
+     "D": 1,
+     "keywords": [
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Wraithknight",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 12,
+    "Sv": "2+",
+    "W": 18,
+    "Ld": "6+",
+    "OC": 10
+   },
+   "ranged": [
+    {
+     "name": "Heavy Wraithcannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 20,
+     "AP": -4,
+     "D": "2D6",
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Suncannon",
+     "range": 48,
+     "A": "D6+4",
+     "BS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": 3,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Titanic Feet",
+     "A": 5,
+     "WS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-6 Wounds Remaining",
+      "text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Titanic Strides",
+      "text": "Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, this model is battle-shocked."
+     },
+     {
+      "name": "Point-blank Devastation",
+      "text": "Each time this model's Heavy Wraithcannon or Suncannon targets a unit within half range, you can re-roll the dice to determine the number of attacks made."
+     }
+    ]
+   },
+   "keywords": [
+    "Wraithknight",
+    "Wraith Construct",
+    "Monster",
+    "Titanic",
+    "Towering",
+    "Walker",
+    "Aeldari",
+    "Ynnari"
+   ]
+  },
+  {
+   "name": "Wraithknight with Ghostglaive",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 12,
+    "Sv": "2+",
+    "W": 18,
+    "Ld": "6+",
+    "OC": 10
+   },
+   "ranged": [
+    {
+     "name": "Heavy Wraithcannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 20,
+     "AP": -4,
+     "D": "2D6",
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Titanic Ghostglaive - Strike",
+     "A": 5,
+     "WS": "3+",
+     "S": 16,
+     "AP": -3,
+     "D": 6
+    },
+    {
+     "name": "Titanic Ghostglaive - Sweep",
+     "A": 15,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D6"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Damaged: 1-6 Wounds Remaining",
+      "text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+     },
+     {
+      "name": "Titanic Agility",
+      "text": "Each time this model makes a Normal, Advance or Fall Back move, it can move through models and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them."
+     }
+    ]
+   },
+   "keywords": [
+    "Wraith Construct",
+    "Monster",
+    "Titanic",
+    "Towering",
+    "Walker",
+    "Aeldari",
+    "Wraithknight with Ghostglaive",
+    "Ynnari"
+   ]
+  },
+  {
+   "name": "Wraithlord",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "8+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Aeldari Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Aeldari Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ghostglaive - Strike",
+     "A": 4,
+     "WS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Ghostglaive - Sweep",
+     "A": 8,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Wraithbone Fists",
+     "A": 4,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ],
+    "datasheet": [
+     {
+      "name": "Fated Hero",
+      "text": "At the start of the battle, select one of the following keywords: Infantry, Monster, Mounted, Vehicle. Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+     },
+     {
+      "name": "Psychic Guidance",
+      "text": "While this model is within 12\" of one or more friendly Aeldari Psyker models, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by this model by 1 and it has a Leadership characteristic of 6+."
+     }
+    ]
+   },
+   "keywords": [
+    "Wraithlord",
+    "Wraith Construct",
+    "Monster",
+    "Walker",
+    "Aeldari",
+    "Ynnari"
+   ]
+  },
+  {
+   "name": "Wraithseer [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 3
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Destructor",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Aeldari Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Aeldari Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Wraithseer D-Cannon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6",
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ghostspear - Strike",
+     "A": 4,
+     "WS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Ghostspear - Sweep",
+     "A": 12,
+     "WS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1"
+    ],
+    "faction": [
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Horrify (Psychic)",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Walker",
+    "Monster",
+    "Wraith Construct",
+    "Wraithseer",
+    "Psyker",
+    "Aeldari"
+   ]
+  },
+  {
+   "name": "Ynnari Archon",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "2+",
+   "invuln_ranged_only": true,
+   "ranged": [
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Huskblade",
+     "A": 5,
+     "WS": "2+",
+     "S": 3,
+     "AP": -2,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: ■ Ynnari Incubi ■ Ynnari Kabalite Warriors"
+     },
+     {
+      "name": "Overlord",
+      "text": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is below its Starting Strength, each time a model in that unit makes an attack, you can re-roll the Wound roll instead."
+     },
+     {
+      "name": "Reborn Mastermind",
+      "text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratgem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Aeldari",
+    "Archon"
+   ]
+  },
+  {
+   "name": "Ynnari Raider",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 8,
+    "Sv": "4+",
+    "W": 10,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Disintegrator Cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Dark Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bladevanes",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Firing Deck 11",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Aethersails",
+      "text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+     }
+    ]
+   },
+   "keywords": [
+    "Raider",
+    "Aeldari",
+    "Dedicated Transport",
+    "Fly",
+    "Vehicle",
+    "Transport",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Ynnari Succubus",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "keywords": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Succubus Weapons",
+     "A": 6,
+     "WS": "2+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Empowered by Death",
+      "text": "At the start of the Fight phase, if this model's unit is below its Starting Strength, models in that unit have the Fights First ability."
+     },
+     {
+      "name": "Storm of Blades",
+      "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following unit: ■ Ynnari Wyches"
+     }
+    ]
+   },
+   "keywords": [
+    "Succubus",
+    "Aeldari",
+    "Character",
+    "Infantry",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Ynnari Venom",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 6,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Splinter Cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 2,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Twin Splinter Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "RAPID FIRE 1",
+      "TWIN LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bladevanes",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise 1",
+     "Firing Deck 6",
+     "Stealth",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Lithe Embarkation",
+      "text": "At the end of the Fight phase, if there are no models currently embarked within this Transport, you can select one friendly Ynnari Infantry unit that only includes models from the units listed in this unit's Transport section, that has 6 or fewer models and that is wholly within 6\" of this Transport. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport. That unit can embark within this TRANSPORT in a turn it disembarked from this TRANSPORT."
+     }
+    ]
+   },
+   "keywords": [
+    "Venom",
+    "Aeldari",
+    "Fly",
+    "Dedicated Transport",
+    "Transport",
+    "Vehicle",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Yvraine",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Storm of Whispers",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "2+",
+     "S": 2,
+     "AP": -2,
+     "D": 1,
+     "keywords": [
+      "ANTI-INFANTRY 2+",
+      "DEVASTATING WOUNDS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Kha-vir",
+     "A": 5,
+     "WS": "2+",
+     "S": 4,
+     "AP": -3,
+     "D": 2,
+     "keywords": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Battle Focus",
+     "Disparate Paths"
+    ],
+    "datasheet": [
+     {
+      "name": "Herald of Ynnead",
+      "text": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a friendly AELDARI model makes an attack that targets that unit, you can re‑roll a Wound roll of 1."
+     },
+     {
+      "name": "Word of the Phoenix (Psychic)",
+      "text": "While this model is leading a unit, in your Command phase, roll one D6: on a 2+, D3+1 destroyed Bodyguard models (excluding Support Weapon models) are returned to that unit with their full wounds remaining."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - CORSAIR REAVER BAND - CORSAIR VOIDREAVERS - CORSAIR VOIDSCARRED - GUARDIAN DEFENDERS - STORM GUARDIANS - YNNARI INCUBI - YNNARI KABALITE WARRIORS - YNNARI WYCHES"
+     },
+     {
+      "name": "Servant of the Whispering God",
+      "text": "If your army includes Yvraine, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include Yvraine."
+     }
+    ]
+   },
+   "keywords": [
+    "Yvraine",
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Aeldari",
+    "Leader"
+   ]
+  }
+ ]
+}
