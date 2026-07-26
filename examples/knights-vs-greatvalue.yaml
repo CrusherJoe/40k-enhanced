@@ -1,29 +1,27 @@
-# COUNTER v2 to "Great Value" (Imperial Fists, Emperor's Shield 2DP + Librarius Conclave 1DP = 3DP).
-# REBUILT with the full tapestry in hand (2026-07-25). Key corrected reads:
-#  - His elite bricks are ~unkillable: TH/SS brick = 2+/4++ W4 + Lysander's Icon of Obstinacy (-1 to wound
-#    when S>=T5) + Armour of Contempt (-1 AP strat); my best guns do only ~6-8/turn into it. DON'T try.
-#  - His KILL engine = OATH OF MOMENT (re-roll Hits + +1 Wound) stacked with unit synergies (Sternguard
-#    full wound re-roll vs Oath; cyclone Termies +1 Hit vs Oath [Fury of the First]) + Wrath of Dorn +
-#    the round's Librarius discipline. Fully converged into ONE Oathed Knight = ~34 dmg = a dead Castellan,
-#    and ~10 of that is UNSAVEABLE Sternguard Dev Wounds (Rotate/4++ can't stop it).
-#  => The ONLY tech that touches unsaveable Dev Wounds is FEEL NO PAIN. So run FREEBLADE COMPANY (3DP):
-#     Knights of Legend = FNP 6+ army-wide + regain 1 wound/Command phase. Cuts the alpha ~1/6 AND heals chip.
-#  PLAN: out-score (Purge/Meatgrinder; his elite is only OC2). Break his convergence -- kill the SOFT legs
-#     (Sternguard, Land Speeders) and grind the cyclone Termies; NEVER feed the melee brick a premium Knight;
-#     bait the Oath onto a cheap Armiger; Navigator dome denies his reserve/teleport re-drops.
-name: Knights vs Great Value v2 - Freeblade FNP + out-score (Priority Assets)
-# DISPOSITION = Priority Assets (granted by Freeblade Company). Deliberate: his army is durable but LOW-OC
-# (only his Terminators are OC2, via Lysander) and SLOW (M5 bricks). An objective-HOLDING disposition lets my
-# OC10 Knights + OC10 Sisters out-control the board; a kill-race is unwinnable vs his ~unkillable bricks.
-detachments: [freeblade-company]
+# COUNTER v3 to "Great Value" (Imperial Fists, Emperor's Shield 2DP + Librarius Conclave 1DP).
+# STRATEGY REBUILT after killing the durability plan (2026-07-26). The hard truths:
+#  - His bricks are ~unkillable AND OC22 (Lysander's Inspiring Commander, un-shockable) AND ~50-dmg melee.
+#  - FNP 6+ (~1/6) does NOT save a Knight from ~50 melee, and CONTESTING his objective = getting within his
+#    charge range = a dead Knight. Durability + proximity is a losing axis. Freeblade is OUT.
+#  => WIN ON SPEED + RANGE + SPREAD, never entering his charge threat. His bricks are M5 and there are only
+#     two -- they hold ~2 objectives; I take the OTHER 3-4 with fast Armigers + steal his home (Vital Link
+#     +10). BIG-GUN STANDOFF: 3 gun-Knights sit at the BACK and delete his SOFT scorers (Sternguard, Land
+#     Speeders, cyclone Termies, Vanguard, Intercessors) at 36-60"; they never approach the brick.
+# DETACHMENTS (3 DP): Valourstrike Lance (2DP) + Dominus Foebreakers (1DP).
+#  - Dominus Foebreakers GRANTS Priority Assets (-> I play Vital Link vs his Purge) AND gives my DOMINUS
+#    Castellans +1 to hit units in a terrain area (his whole army sits on terrain objectives).
+#  - Valourstrike: Rotate Ion Shields (4++ on the Oathed Knight when his alpha lands), Advance-and-still-shoot
+#    (reposition the gunline without losing fire), Thunderstomp/Tactical Foil/Vow of Retribution.
+name: Knights vs Great Value v3 - big-gun standoff (Priority Assets)
+detachments: [valourstrike-lance, dominus-foebreakers]
 disposition: priority-assets
 units:
-  - {datasheet: Knight Crusader, count: 1, enhancement: Hunter's Eye}   # anti-SUPPORT gun: Avenger A18 deletes Sternguard, thermal+RFBC chip termies; Ignores Cover so nothing hides
-  - {datasheet: Knight Castellan, count: 1, enhancement: Sanctuary}     # durable OC10 anchor; Volcano one-shots Land Speeders + snipes Lysander/chars; full 5++ (melee too)
-  - {datasheet: Cerastus Knight Lancer, count: 1}                       # M14 4++ flanker: hunts Land Speeders + dives backline; Shock Charge (Tank Shock 0CP); D8 lance one-shots characters
-  - {datasheet: Armiger Warglaive, count: 2}                            # thermal spears (melta); forward screen/pin/BAIT (soak the Oath); anti-Speeder; Bondsman recipients
-  - {datasheet: Armiger Helverin, count: 1}                             # 2x autocannon backfield: anti-Sternguard/Speeder/chaff
+  - {datasheet: Knight Castellan, count: 1}                               # DOMINUS gun; Volcano one-shots Speeders + chunks Lysander @60"; plasma decimator shreds infantry; +1 hit vs terrain (Dominus Foebreakers). (Blessed Plate cut for points -- it sits at the back anyway.)
+  - {datasheet: Knight Castellan, count: 1}                               # 2nd DOMINUS gun: 2nd Volcano/plasma/siegebreaker; +1 hit vs terrain (Dominus Foebreakers)
+  - {datasheet: Knight Crusader, count: 1}                                # Avenger A18 = the anti-INFANTRY deleter (Sternguard/Vanguard/Intercessors); thermal+RFBC anti-Speeder/Termie
+  - {datasheet: Armiger Helverin, count: 2}                               # backfield 36" twin-autocannons: kill Speeders/cyclone-Termies/soft support from RANGE, never in charge threat
+  - {datasheet: Armiger Warglaive, count: 1}                              # M12 fast body: grab far objectives + screen the gunline; melta if a Speeder gets close
 allies:
-  - {datasheet: Navigator, count: 1}                                    # 12" anti-Deep-Strike dome: denies Temporal Corridor / Dropship Extraction / Land Speeder reserve re-drops
-  - {datasheet: Battle Sisters Squad, count: 1}                         # Requisitioned; forced split -> OC10 half locks home under the dome; melta half chips
-  - {datasheet: Immolator, count: 1}                                    # transport; twin multi-melta (NOT flamers vs 2+/4++) + Purge & Cleanse strips cover for my whole shooting
+  - {datasheet: Navigator, count: 1}                                      # 12" anti-Deep-Strike dome: denies his cyclone-Termie homer drop + Land Speeder reserves near my gunline
+  - {datasheet: Battle Sisters Squad, count: 1}                           # OC10 foot half cheaply LOCKS my home under the dome; melta half rides the Immolator
+  - {datasheet: Immolator, count: 1}                                      # Purge & Cleanse strips cover for my WHOLE gunline (stacks with Dominus +1 hit); twin-MM; mobile OC

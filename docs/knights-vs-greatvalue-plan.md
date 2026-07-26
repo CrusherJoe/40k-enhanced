@@ -1,16 +1,18 @@
 # Battle plan — Knights vs "Great Value" (Emperor's Shield + Librarius Conclave Imperial Fists)
 
-> **⚠ SUPERSEDED IN PLACES BY THE v2 REBUILD (2026-07-25).** After a full re-read of every unit + BOTH his
-> detachments (Emperor's Shield 2DP **+** Librarius Conclave 1DP — 11E lets you stack detachments up to your
-> DP budget; 2000pts = 3DP), the list + disposition changed. **Current list:** `examples/knights-vs-greatvalue.yaml`
-> = **Freeblade Company (3DP), Priority Assets** (FNP 6+ army-wide is the only tech vs his unsaveable Sternguard
-> Dev Wounds; I out-HOLD rather than out-kill). **Full turn-by-turn game:**
-> `docs/Great-Value-vs-Knights-Full-Game-Simulation.docx`. Newly-found layers this doc predates: his
-> **Emperor's Shield stratagems** (Armour of Contempt, Fury of the First, Disciplined Extermination, Dropship
-> Extraction), **unit Oath-synergies** (Sternguard = FULL wound-reroll vs Oath; cyclone Termies = +1 Hit vs
-> Oath), **Lysander** (Icon of Obstinacy −1-to-wound the brick; Inspiring Commander → his Terminators are
-> **OC20**), Bladeguard Malodraxian −1-to-wound. The threat-ranking + "never melee the brick / kill the soft
-> legs / bait the Oath / Navigator dome" logic below still holds; the numbers are the older (partial-stack) pass.
+> **⚠ SUPERSEDED BY THE v3 REBUILD (2026-07-26).** After a full re-read of every unit + BOTH his detachments
+> (Emperor's Shield 2DP **+** Librarius Conclave 1DP — 11E stacks detachments up to your DP budget; 2000pts=3DP)
+> AND correcting the durability plan, the whole approach changed. **The durability axis is DEAD:** his bricks
+> are OC22 (Inspiring Commander, un-shockable — Battle-shock only tests below half strength, passes Ld6+ ~72%),
+> ~unkillable (2+/4++/W4/−1-to-wound), and ~50-dmg melee; FNP 6+ (~1/6) does NOT save a Knight from that, and
+> contesting a brick's objective = a Knight in its charge range = dead. **Current list & plan:**
+> `examples/knights-vs-greatvalue.yaml` = **Valourstrike Lance + Dominus Foebreakers (3DP), Priority Assets —
+> a BIG-GUN STANDOFF**: 3 gun-Knights (2× Castellan Volcano + Crusader Avenger) delete his soft ranged legs
+> (Sternguard T1, then Speeders + cyclone Termies) from 36–60"; fast Armigers take the objectives his two M5
+> bricks can't reach + steal his home (+10); I NEVER enter his charge threat. **Full turn-by-turn game:**
+> `docs/Great-Value-vs-Knights-Full-Game-Simulation.docx` (~60/40 Knights). The threat-analysis below (his
+> tapestry, Oath stack, "kill the soft legs first") still holds; the *numbers* are the older partial-stack pass
+> and the *list/plan* here (pin-the-brick) is retired.
 
 Practice game for the LSO. Core data verified 11E (BSData/wh40k-11e + SM Faction Pack v1.1).
 

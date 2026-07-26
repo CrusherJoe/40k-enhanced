@@ -327,24 +327,31 @@ Champions 1/T&H). Rules STACK army-wide.
   **Lysander**: Icon of Obstinacy (his UNIT −1 to wound when S≥T5 — big def layer on the brick), Rampart (2+
   inv once), **Inspiring Commander → non-Character Terminators are OC2 WHILE NOT BATTLE-SHOCKED** (base OC1;
   OC = SUM of all models per unit [user sanity-check]) so a 10-Terminator brick = OC20 (+Lysander+Ancient
-  Characters at OC1 = OC22 un-shocked), dropping to OC12 if Battle-shocked — real board control but CONTESTABLE
-  (pile ~OC23+ nearby or Battle-shock it), NOT an auto-hold and NOT the flat "always OC20" I first stated. Fist of
+  Characters at OC1 = OC22 un-shocked). **Battle-shock is NOT a lever (user-corrected, CR 8.03/1.07): a unit
+  only TESTS while Below Half-Strength [need 6+ Terminators dead first — I can't] and passes on Ld6+ ~72% — so
+  the OC22 is effectively PERMANENT.** ⇒ I can't out-kill it, can't out-durable it, and can't contest its
+  objective up close (markers sit in terrain = getting a Knight in OC range = in its ~50-dmg charge range =
+  dead Knight; FNP 6+ ~1/6 does NOT save a Knight from ~50 melee). Fist of
   Dorn S10 AP-3 D3 A5 Dev; (e) Bladeguard Malodraxian Standard (−1 to wound when S>T4); (f) **Land Speeders
   have NO innate Deep Strike** (BSData) → Strategic Reserves/board-edge only (flag to user; he said "deep
   strike"). Full-stack alpha into an Oathed Castellan ≈ **34** (~10 of it UNSAVEABLE Sternguard Dev), kills it.
-  MY REBUILD — **examples/knights-vs-greatvalue.yaml v2 = FREEBLADE COMPANY (3DP), disposition Priority
-  Assets** (NOT Purge — his OC22-un-shocked bricks make a kill-race dumb; I out-HOLD with speed+spread). Freeblade
-  "Knights of Legend" = **FNP 6+ army-wide + regain 1W/Command phase** — the ONLY tech that touches his
-  unsaveable Dev Wounds (invulns/Rotate don't). Roster: Crusader[Hunter's Eye=Ignores Cover, Avenger deletes
-  Sternguard], Castellan[Sanctuary=full 5++, Volcano one-shots Speeders], Cerastus Lancer[4++ full/M14, hunts
-  Speeders+dives home], 2 Warglaive (screen/pin/BAIT the Oath), Helverin, + Navigator dome + BS(OC10 home) +
-  Immolator(twin-MM+cover-strip). KEY PLAN: kill Sternguard T1 (→ his T2 alpha drops ~34→~14, Castellan
-  survives), FNP soaks the rest, NEVER melee the brick (feed it Armigers), out-hold objectives, steal his home
-  R5 for +10 (Vital Link). MISSION: my Priority Assets vs his Purge → I play **Vital Link** (hold obj + 10 for
-  his home), he plays **Destroyer's Wrath** (3VP/kill + 6VP more-objectives). WHOLE-GAME SIM written to
-  **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) — 5 rounds
-  phase-by-phase, ~55/45 Knights. Verdict: winnable via SEQUENCING (kill soft leg first) + never-feed-brick +
-  out-hold, not dice.
+  MY LIST v3 (user picked "big-gun standoff", disposition Priority Assets — v2 Freeblade/FNP was REJECTED by
+  user: FNP is wrong axis, and durability/proximity is a losing game) — **examples/knights-vs-greatvalue.yaml =
+  Valourstrike Lance (2DP) + Dominus Foebreakers (1DP), disposition Priority Assets.** Dominus Foebreakers
+  GRANTS Priority Assets + gives DOMINUS Castellans +1 to hit units in terrain (his whole army sits on terrain
+  objectives). Valourstrike = **Rotate Ion Shields (4++ on the Oathed Knight)** + Advance-and-still-shoot.
+  Roster: **2× Knight Castellan (both DOMINUS — 2 Volcanoes one-shot both Speeders + chunk Lysander @60"; twin
+  plasma decimators wipe Sternguard) + Knight Crusader (Avenger A18 = anti-infantry deleter) + 2 Helverin
+  (36" backfield autocannons grind cyclone Termies) + 1 Warglaive (fast: grabs far objectives / steals home)**
+  + Navigator dome + BS(OC10 home) + Immolator(cover-strip stacks with Dominus +1 hit). PLAN = **SPEED + RANGE
+  + SPREAD, NEVER enter the brick's charge threat**: gunline sits at the BACK and deletes his SOFT ranged legs
+  (Sternguard T1, then 2 Speeders + cyclone Termies by T3) from 36-60"; his M5 brick can never catch it; I
+  cede the ONE central objective the OC22 brick squats and take the other 3-4 + steal his undefended home R5
+  (+10 Vital Link). Kill-Sternguard-T1 drops his T2 alpha ~34→~17 (→~14 w/ Rotate) — a 28W Castellan shrugs it.
+  MISSION: my Priority Assets vs his Purge → I play **Vital Link**, he plays **Destroyer's Wrath**. WHOLE-GAME
+  SIM (v3): **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) —
+  5 rounds phase-by-phase, ~60/40 Knights. Verdict: win by REFUSING the fight the wall wants, deleting what can
+  actually hurt me from safety, and out-mobiling M5 bricks on the mission — not by out-fighting/out-tanking.
 
 ## Status (2026-07-22)
 - All 8 IK detachments complete: DP, disposition, full rule/enhancements/
