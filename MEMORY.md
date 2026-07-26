@@ -460,7 +460,17 @@ Champions 1/T&H). Rules STACK army-wide.
   objective-secondaries (Secure No Man's Land, etc.) + DENY his (and deny his Destroyer's Wrath 'more objectives'
   clause); I can also hand him a dead A Tempting Target by designating an objective his bricks aren't on. So his
   secondary is moderate (~15-20, mostly kill-cards on my chaff [No Prisoners/Bring It Down on Immolator/Warglaive/
-  Sisters] + Defend Stronghold early + his 1-2 held objectives), NOT the ~28 I over-corrected to. Honest game ≈
+  Sisters] + Defend Stronghold early + his 1-2 held objectives), NOT the ~28 I over-corrected to. **STICKY OBJECTIVES
+  (user 2026-07-26): his Intercessors have OBJECTIVE SECURED** — if they control an objective at end of his
+  Command phase (in range), it stays HIS even after they die/leave, UNTIL I control it (higher OC) at the start
+  or end of ANY turn. **Second sticky source: Wrathful Conquerors** (Emperor's Shield strat, 1CP) makes a
+  Terminator/Bladeguard/Sternguard/Vanguard unit's objective sticky → a brick can grab+sticky a central and
+  move on. So I can't just 'show up after he leaves' — I must ACTIVELY OUT-CONTROL (higher OC in range than his
+  remaining OC) to flip a secured objective. **HOME-STEAL SEQUENCE for the +10 (Vital Link end-of-battle):** his
+  Intercessors (~OC10) secure his home → a lone Warglaive (OC6) can't flip it; I must WIPE the Intercessors
+  first (Crusader Avenger kills 5×T4W2) → his OC there = 0 → my Warglaive (OC6>0) controls → flips at end of
+  that turn → and I must STILL control it at end of battle (Warglaive survives on it, or a backup body). One
+  turn slower than 'run a Warglaive onto his home.' Honest game ≈
   Knights ~78 vs Great Value ~44 (clear ~34-VP win). Great Value is still a real army — don't dismiss it — but
   objectives are EXCLUSIVE, so my mobility/OC-spread out-scores his 2 immovable bricks. **★ CAVEAT (user 2026-07-26): ALL his models have OC, not just the bricks** — Sternguard ~OC11,
   Intercessors ~OC10 (sticky), Bladeguard ~OC7, Vanguard ~OC5 ×2, Land Speeders OC3 ×2. So his objective game is
