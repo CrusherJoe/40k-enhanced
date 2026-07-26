@@ -198,6 +198,7 @@ cover at the characteristic level (net 0 before other modifiers).
 | **Deep Strike** | 24.09 | set up from reserves >9" from enemies (via ingress). |
 | **Benefit of Cover** | 13.08 | −1 to hit; unit qualifies if EVERY model is INFANTRY/BEASTS/SWARM in a terrain area OR **not fully visible** behind intervening/obscuring terrain. Knights (VEHICLE) don't get it from the 1st clause, but DO from the 2nd — ruin walls clip the Towering silhouette → cover is EASY for Knights (user-confirmed). |
 | **Hidden** | 13.09 | INFANTRY/BEASTS/SWARM in DENSE terrain that didn't shoot this/last turn → only targetable within **detection range (15")**. Knights can't be Hidden (VEHICLE); Terminators/Sisters can. |
+| **Gone to Ground** | 13.11.01 [app] | a HIDDEN model also not-fully-visible behind **dense** terrain, whose unit didn't shoot this/last turn → **−3" detection range** (15→12"). Passive (not an action); INFANTRY-only. Shooting this/last turn disqualifies it regardless of shoot-and-stay-hidden abilities. |
 | **Obscuring** | 13.10 | if every LOS between two models crosses an obscuring area (that neither is within), they're not visible = can't target. |
 | **Plunging Fire** | 22.05 | +1 BS if attacker is on terrain ≥3" tall OR is TOWERING and target within **12"** (so useless for a long-range gunline). |
 | **Engagement Range** | 03.04 | within **2" horizontal / 5" vertical** — the number screening hangs on. |

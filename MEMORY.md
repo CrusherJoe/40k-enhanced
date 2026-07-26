@@ -74,9 +74,11 @@ didn't shoot this/last turn → only targetable within detection range (default 
 CAN'T be Hidden (VEHICLE, no detection range); Terminators + SISTERS can (very relevant for Sisters later). (3)
 OBSCURING 13.10 fully blocks LOS (untargetable) if every LOS crosses it. (4) ENGAGEMENT RANGE = 2" horiz/5"
 vert (03.04) — screening/charge geometry. (5) 13.06: VEHICLES/Knights can't move THROUGH dense terrain >2"
-tall (go around); INFANTRY move through freely. PENDING: 13.11.01 GONE TO GROUND (App-only, not in printed PDF;
-gdmissions.app has it but it's a JS SPA I can't scrape) — helps INFANTRY (Terminators/Sisters), not Knights;
-ASK USER for exact text.
+tall (go around); INFANTRY move through freely. GONE TO GROUND 13.11.01 (App-only, user-provided verbatim 2026-07-26): a HIDDEN model that is ALSO not-fully-
+visible behind DENSE terrain, whose unit did NOT shoot this or last turn → **-3" detection range (15→12")**.
+Passive state (not an action), INFANTRY-only (Knights excluded). Shooting this/last turn disqualifies it
+regardless of any shoot-and-stay-hidden ability. = stronger Hidden; matters for Sisters (super-safe home
+holders when not shooting) and his non-shooting infantry.
 
 1. **FORGET all 10E links + knowledge.** If a fact "feels" remembered, it's 10E-suspect → verify or discard.
    Tainted 10E scratchpad files from earlier (DO NOT USE): sm.json, orks.json, necrons.json, da.json, sal.json,
