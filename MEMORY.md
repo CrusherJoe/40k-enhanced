@@ -473,6 +473,36 @@ Champions 1/T&H). Rules STACK army-wide.
     weave); Vahl + 3 Paragons = the one hard punch bolted on. Wins the MISSION via resilience-through-reliability +
     disruption. **Build implication:** a great Sisters list layers 3-job units into compounding loops; decide whether
     to emulate this martyrdom/board-control engine or build our own — but the DENSE-WEAVE discipline is mandatory.
+- **★ FIVE-ARCHETYPE BREADTH PASS (5 parallel agents, rev-7 stub-resolved, 2026-07-26).** Explored all 5 candidate
+  engines; verdicts + piloting:
+  - **Hallowed Martyrs** (Priority Assets, 3DP): martyrdom board-control. Best vs AP-VOLUME (Blood of Martyrs
+    METABOLIZES it: bloodied→+hit/wound, deaths→dice). Play-mission vs un-killable; tricky vs true hordes.
+    **MODERATE/FORGIVING piloting** — the only forgiving one → front-runner for a non-Ketcham pilot.
+  - **Army of Faith** (+Sacred Champions, T&H): Miracle-Dice ECONOMY (Sacred Rites = 2 Acts/phase; Triptych of
+    Macharian = auto-pass a save). Best vs UN-KILLABLE (out-HOLDS it) + reliability + hordes; HARDEST vs elite melee.
+    HIGH piloting (dice budgeting IS the skill).
+  - **Champions of Faith** (+Sanctified Orators, Disruption): softening-stack MELTA (strip cover + stack AP → ~4×
+    multiplier; Vahl+3MM Paragons ~25 dmg one-shots a no-invuln anchor). SHINES vs no-invuln armour (Hammerheads/
+    Raiders/Ravagers/Kataphrons); STRUGGLES vs invuln/un-killable + fragile vs volume. HIGH piloting.
+  - **Bringers of Flame** (Purge, 2DP): advance-and-delete gunline (+1 S three ways at once). Good vs hordes, even vs
+    volume (Shield of Aversion AP-1→AP0), WORST vs un-killable. HIGH piloting. BENCHED.
+  - **Penitent Host** (+Sacred Champions, T&H): melee-alpha (vows R1→3 escalate, 6-threat saturation, corpses lock
+    objectives via Final Redemption; Ministorum Priest is natively PENITENT = the enhancement carrier). Good vs
+    hordes; SLIGHTLY UNFAVORED vs elite Fights-First melee (glass infantry die before swinging). HIGH piloting, low
+    floor. BENCHED.
+  - **★ UNIVERSAL FINDINGS:** (1) elite Fights-First MELEE (EC/Fulgrim, Custodes, Norns) is the Sisters gap — NONE of
+    the 5 is favored there; the fresh build MUST have a deliberate answer (Paragons + durable anchor + screening).
+    (2) You out-MISSION the un-killable, never out-kill it (Army of Faith does it best). (3) AP-volume answer rank:
+    Hallowed Martyrs > Army of Faith / Bringers > Penitent > Champions.
+- **★ rev-7 CORRECTIONS (verified, apply to ALL Sisters builds):** ALL core bodies incl. every Sacresant/Sac variant
+  are **W1** (user-confirmed; the 4++ "anchor" now dies one-for-one past the invuln); "Shield of Faith" is NOT a
+  named rule — 6++/5++/4++ baked into each datasheet's InSv; old Champions+Sacred-Champions combo LIKELY ILLEGAL
+  (both REVEREND — verified on Sacred Champions); **Bringers of Flame = 2DP** (user-confirmed; MFM has per-faction DP);
+  BSData carries NO stratagem text (strat details are FP/codex-sourced); Intranzia Fraye = a real rev-7 softening
+  unit; multi-detachment enhancement cap = 3 (+ Orators off-cap trick = 4, confirm w/ TO).
+- **DECISION (user, free rein 2026-07-26): DEEP-SIM the 3 finalists = Hallowed Martyrs + Army of Faith + Champions of
+  Faith.** Bench Bringers + Penitent. Next: granular per-phase, Miracle-Dice-aware matchup sims of each finalist vs
+  the current meta → head-to-head to pick the fresh list.
 
 ## Knights META RE-VISIT (2026-07-24) — re-analysed vs the Sisters-ingested meta
 - **Bidirectional mathhammer vs the real boogeyman lists** (not abstract disposition theory).
