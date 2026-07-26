@@ -25,8 +25,15 @@ or reading an opponent's list. This is THE enabler of the "tapestry" (Rule 8) �
 
 **★ OBJECTIVES ARE TERRAIN, NOT MARKERS (11E, user-corrected 2026-07-26).** The 10E "objective markers" (little
 tokens) DO NOT EXIST in 11E. Each objective is a specific MARKED TERRAIN PIECE (shown on the deployment map);
-its FOOTPRINT is the scoring area. Control = more Objective Control within that footprint. Consequence: to
-contest an objective you must be INSIDE the terrain footprint (close), and terrain = cover, so **cover is
+its FOOTPRINT is the scoring area. Control = more Objective Control within that footprint. CONTROL/CONTEST = your model's BASE TOUCHING the terrain footprint (you do NOT have to stand ON/inside it) —
+higher total OC touching = controls. Only MARKED terrain scores: ~5 objectives = home ×2 + 1-2 centre + 2
+expansion (No-Man's-Land); other terrain is just cover / wall-blocking. **BASE SIZES (positioning math,
+user-provided 2026-07-26):** big Knights (Castellan/Crusader/etc.) = **170×105mm oval (~6.7"×4.1"; edge ~3.35"
+from centre)** → can base-touch an objective while the hull sits ~3" BACK (out of a charge) + screens a huge
+lane; Armigers = **100mm round (~3.9")**; Immolator = Rhino hull **~120×75mm**; Sisters/Sternguard/Intercessors
+= 32mm; Terminators = 40mm. This CORRECTS my "contest = point-blank death" overstatement — I hold the SAFE
+objectives from a base-touch ~3" out; I only decline the ONE small footprint the OC22 brick squats (out-holding
+OC22 needs OC23+ crowded onto it = inside its 2D6" charge). Terrain = cover, so **cover is
 everywhere** on GW/tournament layouts. COVER = −1 to hit, RANGED ONLY (models in/behind terrain; Knights get it
 too but it does NOTHING vs melee). Always model cover in BOTH directions when analysing a matchup. (LSO uses GW
 terrain layouts closely; I have the maps+legends; sightlines are not an issue for a back-line gunline.)

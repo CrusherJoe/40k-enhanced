@@ -91,10 +91,12 @@ P("Why this plan (read first)", bold=True, color=GOLD)
 P("Three earlier ideas are DEAD, and the game only makes sense once you accept why: (1) You cannot KILL his "
   "bricks — my best guns do ~6–8/turn into a 2+/4++/W4/−1-to-wound Terminator wall. (2) You cannot BATTLE-SHOCK "
   "them off an objective — they only test below half strength (6+ dead first, which I can’t do) and pass on "
-  "Ld 6+ ~72% anyway, so their OC22 is permanent. (3) You cannot CONTEST their objective up close — in 11E the "
-  "objective IS the terrain piece (its footprint is the scoring area; there are no separate markers), so any "
-  "Knight in scoring range is standing inside that footprint = point-blank in the brick’s charge range, and the brick’s ~50-damage "
-  "Oathed melee (Thunder Hammers + Fist of Dorn, all Dev Wounds) deletes any Knight it touches — Feel No Pain 6+ "
+  "Ld 6+ ~72% anyway, so their OC22 is permanent. (3) You cannot out-CONTROL the objective the brick sits on — "
+  "in 11E the objective IS the terrain piece (its footprint is the scoring area; there are no separate markers), "
+  "and control goes to whoever has the most Objective Control base-touching it. Out-holding OC22 needs OC23+ = "
+  "two big Knights + an Armiger crowded onto the same small footprint the brick is on — i.e. inside its 2D6\" "
+  "charge, where the brick’s ~50-damage Oathed melee (Thunder Hammers + Fist of Dorn, all Dev Wounds) deletes "
+  "any Knight it touches. Feel No Pain 6+ "
   "(~1/6) turns ~50 into ~42, still a dead Knight. So durability and proximity are losing axes.", size=10)
 P("What DOES win: his bricks are M5 and there are only two of them. They can hold ~2 objectives, no more. So I "
   "keep three gun-Knights at the BACK, delete his soft scorers (Sternguard, Land Speeders, cyclone Terminators, "
@@ -164,9 +166,20 @@ P("The clash: his OC22 brick will squat the CENTRAL objective and deny me those 
   "that. I win on the NON-central objectives (4 VP), the closing 10 for his home, and secondaries, while my "
   "gunline deletes the mobile scorers he’d need to out-spread me (denying his 6-VP ‘more objectives’ clause). "
   "He farms ~3 VP/turn killing my cheap bodies — capped, and worth far less than a big Knight would have been.", size=10)
-P("Deployment — Crucible of Battle (diagonal). Objectives: A = his home, B = my home, C = centre, D/E = "
-  "no-man’s-land flanks. I win the roll-off and take the first turn (wipe his Sternguard before he can hide them; "
-  "seize objectives).", bold=True)
+P("Deployment — Crucible of Battle (diagonal), GW terrain layout. FIVE marked terrain-objectives (only these "
+  "score; all other terrain is just cover / movement-blocking): A = his home, B = my home, C = centre, "
+  "D/E = two expansion objectives in no-man’s-land. I win the roll-off and take the first turn (wipe his "
+  "Sternguard before he can hide them; seize objectives).", bold=True)
+P("Base sizes matter for who reaches what (control/contest = your base TOUCHING the objective’s terrain "
+  "footprint — you don’t have to stand on it):", bold=True, size=9)
+bullet("Big Knight (Castellan/Crusader) — 170×105mm oval (~6.7”×4.1”): its base edge is ~3.35” from centre, so "
+  "it can hold an objective with its near edge touching the footprint while its hull sits back — and it screens a "
+  "huge charge lane.")
+bullet("Armiger — 100mm round (~3.9”): fast, cheap objective-toucher and screen. Immolator — Rhino hull ~120×75mm "
+  "(~4.7”×3”). Sisters — 32mm. His Terminators — 40mm; Sternguard/​Intercessors — 32mm.")
+P("The base math is why the standoff works on OBJECTIVES too: my big Knights base-touch the safe objectives "
+  "from ~3” back (out of the brick’s reach), and an M12 Armiger toe-touches his home. I only decline to "
+  "base-touch the ONE small footprint his OC22 brick squats.", size=9, color=GREY)
 rich([("My deployment: ", {"bold":True,"color":STEEL}),
       ("both Castellans + the Crusader in a back-corner GUNLINE with LOS across the whole board (they never move "
        "forward). Helverins just ahead of them, also back, 36” guns covering the centre and both flanks. Battle "
