@@ -60,8 +60,14 @@ Each unit picks one move type:
 **Eligible to shoot if** the unit did not Advance (unless the weapon is
 **[ASSAULT]**), did not Fall Back, and is not engaged — **except**:
 - **[ASSAULT] (24.04):** may shoot after Advancing.
-- **Close-quarters shooting (10.06):** an engaged unit may shoot **[PISTOL]/
-  [CLOSE-QUARTERS]** weapons, targeting a unit it's engaged with (no [BLAST]).
+- **Close-quarters shooting (10.06):** an *engaged* unit may still shoot.
+  - **Non-MONSTER/VEHICLE (infantry):** only **[CLOSE-QUARTERS]/[PISTOL]** weapons,
+    and only at units it's engaged with.
+  - **MONSTER/VEHICLE (Knights/Armigers):** eligible even without a [CLOSE-QUARTERS]
+    weapon; can shoot **OUT of combat at ANY target**, at **−1 to hit** (all attacks,
+    unless a [CLOSE-QUARTERS] weapon at the engaged unit); **[BLAST] weapons just
+    can't target the unit it's engaged with** (can fire at other units). So a tar-pit
+    costs a gun-Knight only −1, not its shooting.
 - A unit can only shoot targets it can **see** (line of sight) and cannot target
   a unit it is engaged with (except close-quarters).
 - **Snap shooting (15.09):** only unmodified **6s** hit; limited to one visible

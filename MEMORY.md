@@ -84,9 +84,11 @@ non-TITANIC models + terrain ≤4" tall on normal/advance/fall-back moves; optio
 It does NOT grant fall-back-and-shoot (I'd INVENTED that). BIG Knights (Castellan/Crusader/Lancer/etc.) have
 SHW; **ARMIGERS (Warglaive/Helverin/Moirax) have plain WALKER — NOT SHW.** ⇒ NO Knight can fall back and still
 shoot; a fell-back unit can't shoot at all. Only Valourstrike's ADVANCE-and-shoot (Assault) is legal.
-PRACTICAL: keep gun-Knights + Helverins OUT of combat (can't disengage-and-shoot; if engaged, a VEHICLE can shoot via close-quarters
-shooting 10.06/17.03 but ONLY the unit it's engaged with, at −1, and NO [BLAST] weapons (engaged Castellan
-loses Volcano+plasma+siegebreaker) — degraded, so still keep them screened). The Warglaive is my melee-capable screen/objective
+PRACTICAL: keep gun-Knights + Helverins OUT of combat (can't disengage-and-shoot; if engaged, a MONSTER/VEHICLE
+(Knights/Armigers) can still shoot OUT of combat at ANY target (close-quarters shooting 10.06 — no [CLOSE-QUARTERS]
+weapon needed), at −1 to hit; ONLY restriction = [BLAST] weapons can't target the unit it's ENGAGED with (can
+fire blast at OTHER units). So a tar-pit costs a gun-Knight just −1 to hit, NOT its shooting — screening is a
+PREFERENCE (avoid the −1 + melee + objective-tie), not life-or-death. [I flip-flopped 4x on this; THIS is right.]). The Warglaive is my melee-capable screen/objective
 Armiger (can FIGHT its way out). **★ DEPLOY HIDDEN (user, from experience): good players (incl Great Value, and
 ME) deploy as HIDDEN/cover-max as possible to dodge alpha strikes — esp. going 2nd.** So his soft shooters are
 NOT easy T1 targets even if 'on the board' (Hidden beyond 15"/behind obscuring, or reserved) — my alpha is

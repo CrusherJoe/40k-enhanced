@@ -326,11 +326,11 @@ H("Battle Round 2 — his alpha lands and bounces", 1)
 turnhead("▶ My Turn 2 — bank objectives, keep range", STEEL)
 phase("Command.", "Gain 1 CP (2). Vital Link R2+ clause: I hold C (Immolator) + D (Warglaive) → 4 VP (non-home) + "
   "4 VP (C central) = 8 VP.")
-phase("Movement.", "Gunline still doesn’t move (it doesn’t need to). The Warglaive (an Armiger — plain WALKER, "
-  "NOT Super-heavy Walker; it can’t fall back and shoot) stays engaged and FIGHTS the Vanguard instead — it’s a "
-  "melee-capable Armiger (thermal spear + reaper chain-cleaver) and grinds them down. If I need to shift a "
-  "Castellan for LOS, Valourstrike lets it ADVANCE and still fire (Assault) — that’s legal; falling back to "
-  "shoot is not.")
+phase("Movement.", "Gunline still doesn’t move. The Warglaive (an Armiger — plain WALKER, NOT Super-heavy "
+  "Walker, so no fall-back-and-shoot) stays engaged: as a VEHICLE it still SHOOTS OUT of combat at −1 (10.06 — "
+  "its thermal spear at a distant target; just no [BLAST] at the Vanguard on it) AND fights them in the Fight "
+  "phase. A tar-pit costs my Knights only −1 to hit, not their shooting. If I need LOS, Valourstrike’s "
+  "ADVANCE-and-shoot (Assault) is the legal reposition — falling back to shoot is not.")
 phase("Shooting.", "His cyclone brick + Speeders are still in reserve, so I shoot the board: both Volcanoes + "
   "Avenger into the Bladeguard and the advancing brick for chip (I do NOT dump melta into the brick’s 4++ — I "
   "just deny his Bladeguard). ~3 Bladeguard + 3 Vanguard cleared. Helverins hold fire-lanes for the reserves.")
