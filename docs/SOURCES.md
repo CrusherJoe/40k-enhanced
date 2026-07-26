@@ -73,6 +73,30 @@ The large PDFs are gitignored to keep the repo lean. Re-download as needed:
     https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_grey_knights-dlzvusufhy-uialb3pko4.pdf
   - Necron **Awakened Dynasty** = a codex detachment already in `necrons11.json` (no new source needed).
 
+- **Remaining field — round 3** (gathered 2026-07-26; completes ALL 40k factions). BSData self-served from
+  github.com/BSData/wh40k-11e; FP URLs (22 Jul 2026 unless noted) below. Stub rosters + their libraries flagged.
+  - **Astra Militarum** — BSData `Imperium - Astra Militarum.json` (roster stub) + `Imperium - Astra Militarum -
+    Library.json` (units/costs) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40000_faction_pack_astra_militarum-y4301esy7a-bsy7fkb1gw.pdf
+  - **Aeldari / Craftworlds** — BSData `Aeldari - Craftworlds.json` (stub) + `Aeldari - Aeldari Library.json` (shared
+    Aeldari datasheets, same lib Drukhari uses) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_aeldari-qe1ykopo7h-blfkukhecc.pdf
+  - **Death Guard** — BSData `Chaos - Death Guard.json` (self-contained) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_death_guard-333phejcfc-tvefnstlub.pdf
+  - **World Eaters** — BSData `Chaos - World Eaters.json` (self-contained) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_world_eaters-5g8k1b5jg0-3ttsio6riy.pdf
+  - **Chaos Daemons** — BSData `Chaos - Chaos Daemons.json` (stub) + `Chaos - Chaos Daemons Library.json` (units) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_chaos_daemons-lycqqrymwe-qogh4b5yly.pdf
+  - **Genestealer Cults** — BSData `Genestealer Cults.json` (self-contained) — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_genestealer_cults-vmkwgeydbr-sh7picbeqo.pdf
+  - **Black Templars** — BSData `Imperium - Black Templars.json` + base `sm11.json`; BT detachment (Righteous
+    Crusaders) lives in the FP — FP:
+    https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_black_templars-inz7wljsdy-badlygdtjm.pdf
+  - **Deathwatch** — BSData `Imperium - Deathwatch.json` + base `sm11.json`; it's an INDEX not a codex — FP (08 Jun):
+    https://assets.warhammer-community.com/eng_08-06_warhammer40000_faction_pack_deathwatch-z0ebavrfze-muhcibnets.pdf
+  - **SM chapters** (Ultramarines/Iron Hands/Raven Guard/White Scars/Salamanders) have **NO bespoke FP** — they ride
+    out of base Space Marines (`sm11.json` + SM FP). Salamanders' Forgefather detachment is in base SM.
+
 ## Live data sources (see `tools/`)
 
 - **Dispositions + Force Disposition Matrix:** https://gdmissions.app/11th/matrix
