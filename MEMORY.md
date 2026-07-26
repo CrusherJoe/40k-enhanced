@@ -36,14 +36,21 @@ vs SHOOTING (5++ → 4++) for the phase** — THE Knight durability lever in sho
 because a garbled faction-pack text-grep missed it — absence of a grep hit in a PDF text-conversion ≠ absence in
 the rules. Trust the printed rules / the user over a lossy text dump.)
 
-**★★ BUILD LOCAL AUTHORITATIVE DATABASES — stop looking things up every time (user directive 2026-07-26).** Goal:
-one maintainable local source per data type, refreshed on demand. Status/plan:
-- **MFM** ✅ `tools/mfm_db.py` fetches the live SSR (mfm.warhammer-community.com/en/<slug>, browser UA) → `data/mfm/<slug>.json`
-  {units w/ escalating costs + wargear, enhancements, detachments w/ DP}. IK loaded (List A = 1,970/2000 verified from it).
-  Caveat: the live page 307-redirects bots → sometimes truncated (IK Castellan name slot was missing, patched by hand); pass a
-  complete saved page via `--src`. TODO: attachment (SUPPORT/LEADER→BODYGUARD) parsing; agents-of-the-imperium (Navigator 75).
-- **BSData** (profiles/weapons/keywords) → TODO `tools/bsdata_db.py` reading a local clone of BSData/wh40k-11e (user offered to clone/fork). Never cost lists from BSData — POINTS = MFM only.
-- **39k.pro** (stratagems, Missions, Secondaries, Disposition/Mission matrix), **rules PDF + gdmissions.app**, **deployments/maps** → TODO.
+**★★ LOCAL AUTHORITATIVE DATABASE — the single source of truth (user directive 2026-07-26). SEE `data/README.md`.**
+GOLDEN RULES: (1) analysis READS from `data/` — NEVER hand-copy points/profiles into a script (that's what caused my
+point errors); (2) POINTS = MFM only (`data/mfm/`), BSData is stale for points; (3) PROFILES/weapons = BSData
+(`data/bsdata/`); (4) listhammer meta = lists dated >= dataslate cutoff. Rebuild after a dataslate: `python3 tools/refresh.py`.
+Status:
+- **MFM** ✅ ALL 27 factions — `tools/mfm_db.py` (live SSR mfm.warhammer-community.com/en/<slug>) → `data/mfm/<slug>.json`
+  {units incl. escalating per-model + wargear costs, enhancements, detachments w/ DP}. Durable `OVERRIDES` table for parser
+  gaps (IK Knight Castellan 425/450 — its name slot is absent from the SSR). List A = 1,970/2000 verified from it.
+- **BSData** ✅ 34 factions, ~1216 datasheets — `tools/bsdata_db.py` over a clone at `data/_src/wh40k-11e` (gitignored) →
+  `data/bsdata/<slug>.json` {stats, invuln, ranged/melee weapons+keywords, abilities, damaged, keywords}. SM chapters hold
+  only chapter-specific units (load `space-marines.json` for common Marine datasheets).
+- **Missions / secondaries / matrix / dispositions / layouts** = existing hand-authored `data/*.yaml` (TODO: builders from
+  39k.pro / gdmissions.app / rules PDF). **Attachments (SUPPORT/LEADER→BODYGUARD)** + agents points → TODO.
+- **Portability**: `git clone` the repo + `git clone --depth 1 BSData/wh40k-11e data/_src/wh40k-11e` + `tools/refresh.py`.
+  A new box/Claude reads `MEMORY.md` + `data/README.md` and is operational.
 
 **★ listhammer DATA HYGIENE: exclude lists dated BEFORE 2026-07-23 (user law).** The 7/22/2026 Dataslate reset points +
 rules; pre-7/23 GT lists (e.g. Tacoma 7/17, Edinburgh 7/18) use stale rules → NOT valid meta signal. Filter the archive by
