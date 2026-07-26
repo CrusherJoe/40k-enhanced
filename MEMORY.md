@@ -325,12 +325,15 @@ Champions 1/T&H). Rules STACK army-wide.
   (c) **UNIT Oath-synergies**: Sternguard "Sternguard Focus" = FULL wound-reroll vs Oath; cyclone Termies
   "Fury of the First" = **+1 Hit vs Oath (datasheet)**; Terminatus Assault = Battle-shock on engage; (d)
   **Lysander**: Icon of Obstinacy (his UNIT −1 to wound when S≥T5 — big def layer on the brick), Rampart (2+
-  inv once), **Inspiring Commander → his Terminators are OC2 = each 10-brick is OC20** (NOT low-OC!), Fist of
+  inv once), **Inspiring Commander → non-Character Terminators are OC2 WHILE NOT BATTLE-SHOCKED** (base OC1;
+  OC = SUM of all models per unit [user sanity-check]) so a 10-Terminator brick = OC20 (+Lysander+Ancient
+  Characters at OC1 = OC22 un-shocked), dropping to OC12 if Battle-shocked — real board control but CONTESTABLE
+  (pile ~OC23+ nearby or Battle-shock it), NOT an auto-hold and NOT the flat "always OC20" I first stated. Fist of
   Dorn S10 AP-3 D3 A5 Dev; (e) Bladeguard Malodraxian Standard (−1 to wound when S>T4); (f) **Land Speeders
   have NO innate Deep Strike** (BSData) → Strategic Reserves/board-edge only (flag to user; he said "deep
   strike"). Full-stack alpha into an Oathed Castellan ≈ **34** (~10 of it UNSAVEABLE Sternguard Dev), kills it.
   MY REBUILD — **examples/knights-vs-greatvalue.yaml v2 = FREEBLADE COMPANY (3DP), disposition Priority
-  Assets** (NOT Purge — his OC20 bricks make a kill-race dumb; I out-HOLD with speed+spread). Freeblade
+  Assets** (NOT Purge — his OC22-un-shocked bricks make a kill-race dumb; I out-HOLD with speed+spread). Freeblade
   "Knights of Legend" = **FNP 6+ army-wide + regain 1W/Command phase** — the ONLY tech that touches his
   unsaveable Dev Wounds (invulns/Rotate don't). Roster: Crusader[Hunter's Eye=Ignores Cover, Avenger deletes
   Sternguard], Castellan[Sanctuary=full 5++, Volcano one-shots Speeders], Cerastus Lancer[4++ full/M14, hunts

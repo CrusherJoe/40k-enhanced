@@ -104,7 +104,7 @@ P("Detachments (3 DP): Emperor’s Shield (2 DP) + Librarius Conclave (1 DP). Di
 table(["Unit (attached)", "Key profile", "The threads that matter"],
 [["Darnath Lysander + Ancient in Term. + 10 Assault Terminators (TH/SS)",
   "T5 W4 2+/4++ ×11, M5, OC2. TH: S8 AP-2 D2 A5 Dev; Fist of Dorn S10 AP-3 D3 A5 Dev",
-  "Icon of Obstinacy (−1 to wound the unit when S≥T5), Rampart (2+ inv once), Inspiring Commander (his Terminators are OC2 → brick is OC20), Champion of the Feast (+1 A), Terminatus Assault (Battle-shock on engage). Wrath of Dorn: FULL wound re-roll vs Oath target."],
+  "Icon of Obstinacy (−1 to wound the unit when S≥T5), Rampart (2+ inv once), Inspiring Commander (non-Character Terminators are OC2 WHILE NOT BATTLE-SHOCKED → brick OC22; base OC12, and a Battle-shock drops it back to OC12), Champion of the Feast (+1 A), Terminatus Assault (Battle-shock on engage). Wrath of Dorn: FULL wound re-roll vs Oath target."],
  ["Bladeguard Ancient + 6 Bladeguard Vets",
   "T4 W3 3+/4++, MC power weapon S5 AP-2 D2",
   "Malodraxian Standard (−1 to wound when S>T4), Bladeguard (pick Swords=rr hit-1 or Shields=rr inv-1 each Fight). Very hard to shift."],
@@ -113,7 +113,7 @@ table(["Unit (attached)", "Key profile", "The threads that matter"],
   "PSYKER unit (gets the round’s Discipline). Sternguard Focus (FULL wound re-roll vs Oath). Temporal Corridor: Deep Strike if Telekinesis; bail to Reserves at end of my Fight phase if unengaged. THE unsaveable Dev-Wound chip — but SOFT (T4 W2, no invuln)."],
  ["Librarian in Term. [Fusillade] + 10 Terminators (2 cyclone)",
   "T5 W3 2+/4++, cyclone krak S9 AP-2 D6 A2; storm bolter S4 RF2; Teleport Homer",
-  "PSYKER unit. Fusillade (Lethal Hits; +Sustained under Pyromancy). Fury of the First (+1 Hit vs Oath, datasheet). OC20. The real ranged Knight-threat — but slow (M5)."],
+  "PSYKER unit. Fusillade (Lethal Hits; +Sustained under Pyromancy). Fury of the First (+1 Hit vs Oath, datasheet). OC22 un-shocked (Inspiring Commander), OC12 base. The real ranged Knight-threat — but slow (M5)."],
  ["2× Vanguard Vets w/ Jump Packs (5 ea)",
   "T4 W2 3+/4++, M12, jump",
   "Vanguard Assault (Lethal Hits on the charge). Fast harassers / action-monkeys."],
@@ -294,7 +294,7 @@ phase("Fight.", "The brick (not Oathed onto the Warglaive, but Champion-of-the-F
   "~2 mortal wounds spread onto the brick (1 Terminator chipped). Bait: executed.")
 phase("End of his turn — Destroyer’s Wrath.", "Destroyed 1 unit (the Warglaive) → 3 VP. Round-2+ "
   "objective clauses: does he control a non-home objective? His brick is near C but my Immolator (OC3) + presence "
-  "still contest — and his OC20 brick, IF it’s within range of C, would take it. Ruling it his: he controls C "
+  "still contest — and his OC22 brick, IF it’s within range of C, would take it. Ruling it his: he controls C "
   "→ 4 VP; but he does NOT control MORE objectives than me (I hold D + E-adjacent + my home; he has C + his home) "
   "→ no 6 VP. ‘Destroyed more than I lost last turn’ (I lost 0 last turn) → 4 VP. Secondary: Bring It "
   "Down (killed a Warglaive = Vehicle) → 4 VP.")
@@ -330,7 +330,7 @@ tally("29", "18", "Primary 4 + Secondary 6. Both his mobile ranged legs are dead
 turnhead("▶ His Turn 3 — Imperial Fists (squeeze the objectives)", FIST)
 phase("Command.", "Gain 1 CP. Oath: names the Castellan again (finish it) OR the Lancer (it’s now deep in his "
   "lines threatening home). He Oaths the LANCER to protect his backfield. Discipline: Divination.")
-phase("Movement.", "The TH/SS brick pivots to SQUAT the centre C (OC20 — nothing I own out-controls it there). "
+phase("Movement.", "The TH/SS brick pivots to SQUAT the centre C (OC22 un-shocked — to out-control it I must pile ~OC23+ nearby, e.g. two OC10 Knights + an Armiger, OR Battle-shock it down to OC12). "
   "Bladeguard remnant + Ancient shuffle to contest D. The surviving Vanguard chase objectives. He uses Dropship "
   "Extraction? No — no upside now; he needs bodies ON objectives, not in reserve.")
 phase("Shooting.", "Cyclone Terminators (now ~8 strong) into the Oathed Lancer: ~10 raw → FNP 6+ → ~8 → "
@@ -339,10 +339,10 @@ phase("Shooting.", "Cyclone Terminators (now ~8 strong) into the Oathed Lancer: 
 phase("Charge.", "Bladeguard Ancient + last Bladeguard try to wall D; no charge into my Knights that profits him.")
 phase("Fight.", "—")
 phase("End of his turn — Destroyer’s Wrath.", "Destroyed 0 of my units this turn → 0 on that clause. "
-  "Objectives: he controls C (brick OC20) + his home A + contests D → he may control MORE objectives than me this "
+  "Objectives: he controls C (brick OC22) + his home A + contests D → he may control MORE objectives than me this "
   "snapshot → 6 VP + 4 VP (non-home C) = 10 VP. ‘Destroyed more than I lost’ (I lost 0) → 0. Secondary: "
-  "Cleanse → 3 VP. This is his big primary turn — the OC20 brick squatting the centre is real.")
-tally("29", "31", "He surges on the objective-control clause — the OC20 brick on the centre is his one genuine "
+  "Cleanse → 3 VP. This is his big primary turn — the OC22 brick squatting the centre is real.")
+tally("29", "31", "He surges on the objective-control clause — the OC22 brick on the centre is his one genuine "
   "board-control tool. I MUST break the ‘more objectives than me’ math next turn.")
 
 # ============================================================ ROUND 4
@@ -438,7 +438,7 @@ bullet("Never fed the brick a premium Knight.", bold_lead="3. ")
 P("   Screened with Armigers; the ~50-damage Oathed melee brick spent turns 2–4 killing a 140-pt bait Armiger "
   "and an ally transport, a board-corner away from anything that scored.", size=9)
 bullet("Picked the objective mission, not the kill race.", bold_lead="4. ")
-P("   Priority Assets / Vital Link let my speed + OC10 win the board while his two OC20 bricks could only squat one "
+P("   Priority Assets / Vital Link let my speed + OC10 win the board while his two OC22 bricks could only squat one "
   "objective each. I conceded the centre and won B + D + E + his home instead — and denied his 6-VP "
   "‘more-objectives’ swing in rounds 4–5.", size=9)
 bullet("Built the Lancer to win the last roll.", bold_lead="5. ")
@@ -453,7 +453,7 @@ bullet("If I mis-screen and the brick reaches a big Knight, that’s ~50 Oathed 
   "and a Bring-It-Down + Assassination bonus for him. One positioning error can cost the game.")
 bullet("The Turn-5 Lancer-holds-the-home roll is genuine variance. If it dies, the 10-VP bonus vanishes and this is "
   "a loss. Bringing a second body to his home earlier (an Armiger) is the insurance if a real game allows it.")
-bullet("His OC20 Terminators are better board-control than ‘everything’s OC1’ implied. If both bricks reach "
+bullet("His OC22 Terminators are better board-control than ‘everything’s OC1’ implied. If both bricks reach "
   "objectives, the objective count tightens — speed and killing his soft scorers (Intercessors, Vanguard) is what "
   "keeps me ahead on the count.")
 
