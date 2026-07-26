@@ -164,6 +164,73 @@ shot can chunk a Questoris).
   of entry, not the win. **Don't over-sell my matchups; model the opponent playing OPTIMALLY** (best Psychic
   Discipline every round, Armour of Contempt on D, Wrathful Conquerors to bank objectives, Rapid Ingress timed
   to punish). [I was repeatedly too optimistic vs Great Value; corrected.]
+- **★ LANCER SKEPTICISM (user law 2026-07-26): do NOT over-value double Lancers.** Lancers CAN and WILL die
+  — an entire army shooting one for a turn, OR a dedicated melee-specialist unit, takes it down; the 4++ is not
+  immunity. Each Cerastus Lancer is **melee-ONLY (no guns)**, so running 2 gives up a LOT of ranged output — the
+  exact firepower the "firepower-as-denial" plan and the durable/horde meta (C'tan un-killable, Orks un-clearable)
+  actually need. The MC gauntlet's "blades" abstraction **OVER-CREDITS** Lancers (mobile OC/contest) and IGNORES:
+  screening/kiting denial, charge variance, and melee being **BLUNTED by the durable meta** (AP-3 wasted vs 4++,
+  D8→D7 vs −1 Dmg, more lost to FNP). So treat the sim's double-Lancer verdict (2-Lancer 73%) as SUSPECT — it
+  flatters a one-dimensional tool. **Settle Lancer-count empirically vs REAL lists, not hand-tuned enemy params.**
+  A Questoris **gun** package (e.g. Bondsman-buffed Helverins: 48" S9 AP-1 D3 autocannons that shoot AND hold OC
+  AND don't need a charge) is a live alternative to a 2nd melee blade. User still values ONE Lancer as a proven
+  "distraction carnifex" (does work every game), but is not sold on TWO. See [Two validated list variants].
+- **★ COUNTERPOINT — the Lancer's REAL premium role is DECAPITATION/assassin, not distraction (user law 2026-07-26).**
+  Cerastus shock lance strike = A5 WS2+ **S20 AP-3 D8 [LANCE]** (+ a minor 12" A6 S6 Assault Sus2 gun — it's NOT
+  gunless). Into a durable T9-11/4++ linchpin it punches THROUGH the invuln that guns can't crack: vs Lion (T9 W10
+  4++) ≈ **17 unsaved dmg in one charge → one-rounds him even under FNP**; M14 + Valourstrike advance makes the T2
+  catch. **User is 8-0 vs Lion El'Jonson and actively HUNTS him with the Lancer on sight** (do NOT advise "dodge
+  Lion" — the Lancer is the answer TO him). Guns only force a 4++ model onto its invuln and grind; a Lancer's D8×LANCE
+  charge kills it fast. **So Lancers SCALE with how many durable high-value melee targets (Lion, Daemon Princes, big
+  characters/monsters, enemy Knights) the meta presents** — a linchpin-monster list rewards a Lancer assassin; a
+  gun-heavy chaff list rewards guns. This is the real answer to "how many Lancers," not an abstract 1-vs-2. Balances
+  the LANCER SKEPTICISM bullet above — both are true; pick Lancer count by the TARGET-RICHNESS of the expected field.
+  - **Lancer kit detail:** Shock lance STRIKE A5 WS2+ S20 AP-3 D8 [LANCE] (single hard target: character/monster/
+    Knight) vs SWEEP A10 S10 AP-2 D3 (squishier, higher-model-count squads) — flexible, pick per target. **Shock
+    Charge ability = a FREE Crushing Impact** (core §15.06, normally 1CP tank-shock): after the Lancer ends a charge,
+    roll D6 = its Toughness (T11 → 11D6), each **5+ = 1 MW to the target (max 6, ~3.7 avg, BYPASSES invuln)**, each
+    1 = 1 MW to itself (~1.8, trivial on W28). So every Lancer charge = ~3-4 invuln-ignoring MW + the melee strike.
+  - **★ COROLLARY — the Lancer CANNOT heist a faceless BRICK WALL (the 31-98 hard counter).** vs 3× Deathwing-Knight
+    bricks there is NO decapitation target: killing a brick's leader changes nothing, Crushing Impact + Sweep only
+    chip ~1-2 W4 models out of an un-tableable 4++/−1Dmg OC wall, and the guns are wrong-shaped (W4 cap overkill).
+    It's a pure out-bodied/out-OC'd ATTRITION loss — accept it (see HARD COUNTERS principle). Lancer heist value ∝
+    enemy decapitatability: linchpins (Lion/DPs) → Lancer wins solo; no-target brick wall → nothing to bite, OC loss.
+- **★ TARGET-PRIORITY: kill the force-MULTIPLIER support piece before the shooters it buffs.** The mark-engine /
+  buff-aura / re-roll engine converts enemy VOLUME into lethality vs Knights. Concrete (DA Darkflight+Ironstorm
+  speeder list): **Storm Speeder Thunderstrike's "Thunderstrike"** = after it shoots, MARK one Monster/Vehicle it hit
+  → every friendly Adeptus Astartes ranged attack vs that unit gets **+1 to WOUND** till end of phase (turns 10
+  Hellblasters + 3 plasma speeders from wounding a Knight on 4+ to 3+). Kill the Storm Speeder FIRST (T9 W11 3+/6++,
+  a Volcano deletes it) → plasma volume drops from "dead Knight" to "chunked Knight." Also watch **Land Speeder
+  Vengeance "Storm of Vengeance"** (once/turn, in MY Shooting phase, if I destroy an Adeptus Astartes unit within 6"
+  of it, that Vengeance shoots back immediately — reactive out-of-sequence plasma; punishes clustering my kills near
+  it) + **Nightforged Battery** enh (re-roll shot count + Hazardous = maximized safe supercharge). Both speeders M14
+  T8/T9 W10/11 3+/**6++** OC3 — killable but FAST (+ Deep Strike). Plasma storm battery supercharge = 36" ~D6+1 shots
+  S9 AP-3 D3 Blast Twin-linked; Hellblaster plasma incinerator supercharge S9 AP-4 D3 RF1.
+- **★ ARCHETYPE — Tyranid 5-NORN MONSTER-MASH (HeeYaw Game 4, user won 81-75; verified 2026-07-26).** Assimilation
+  Swarm (HEAL/regen: Feed the Swarm = Harvester units Regenerate a friendly Tyranids unit each Command phase — heal
+  OR return a destroyed model; + Norn Unstoppable Monstrosity D3/turn) **+** Talons of the Norn Queen (Higher
+  Imperatives → **Protean Purpose**: each Norn re-picks its Singular Purpose ONCE per battle). **Take and Hold.**
+  5 Norns (M10 T11 W16 Sv2+ OC5; 3× **Assimilator** = 4++ via Synaptoprescience + Toxinjecter Harpoon [12" shoot to
+  MARK a Knight → +2 to charge it, then melee A4 S12 AP-3 D6+1] + talons A6 S9 AP-2 D3; 2× **Emissary** = NO invuln
+  base 2+, psychic tendril 18" S12 AP-3 D6 Melta2 + [ANTI-CHARACTER 2+]) + Neurotyrant (heal-aura/synapse/warlord)
+  + 6 Zoanthropes (Warp Blast S12 AP-3 D6+1 Lethal Hits psychic + MW) + chaff. Army: Synapse + Shadow in the Warp
+  (once/game ALL my units battle-shock test → can deny my Rotate on a key turn).
+  - **Singular Purpose menu (pick 1 turn-1, swap once via Protean Purpose):** (a) HUNTER = re-roll Hit AND Wound vs
+    one chosen unit all game → ~DOUBLES a Norn's dmg into a Knight it names; (b) ANCHOR = while on an objective, FNP
+    5+ **AND Objective Control 15**. **★ OC15 anchor is UNSHIFTABLE by OC (my Knight is OC10) → on Take and Hold I
+    CANNOT out-OC it; the primary becomes a KILL-RACE — I must physically remove the Norn to take its objective.**
+    Optimal enemy line: bank objectives early with OC15 anchors, then pivot Norns to Hunter to murder my Knights.
+  - **How Knights fare:** the threat is MELEE + psychic (my Ion Shield 5++ is RANGED-only → in melee I'm on bare 3+;
+    only the Lancer's 4++ holds). Their shooting is moderate (~13 S12 AP-3 shots). **Durability nuance that wins it:
+    only the 3 Assimilators have 4++; the 2 Emissaries + support have NO invuln → my Volcano (S18 AP-5) ~one-shots an
+    Emissary.** So it's a Monolith-style REMOVAL race (not a C'tan wall): focus-kill the no-invuln Emissaries/
+    Zoanthropes/Neurotyrant at range, grind the 4++/FNP/heal Assimilator anchors, Lancer-assassinate (target-rich,
+    ~21/charge kills a Norn), refuse the melee gang (kite M10-14, don't let 2+ Norns pile one Knight), win on kills +
+    secondaries + removing enough anchors — NOT on out-bodying OC15×several. Genuine coin-flip.
+  - **★ TRANSFERABLE: vs an OC-inflation anchor (OC15/sticky/FNP), "out-OC it" is OFF THE TABLE → it's a KILL-RACE;
+    target priority = remove the anchor BODY, not contest the objective.** Also deepens the Ion-Shield lesson: a
+    MELEE-primary army (5 Norns / Lion / DPs) bypasses my signature durability — win by shooting them off the board
+    BEFORE the charge + Lancer 4++, never by tanking hits.
 - **HARD COUNTERS ARE A FEATURE OF 40k, NOT A LIST FLAW.** Almost every army has a
   matchup it can't fix by tuning (e.g. **Green Tide hard-counters Knights** — 8-9 elite
   models can't out-body/out-OC 165 disposable ones; Green Tide also grinds down basically
@@ -640,6 +707,42 @@ Champions 1/T&H). Rules STACK army-wide.
   Bondsman aura; the Armiger is the RECIPIENT. So e.g. *Lancer's Duty (Bondsman):
   "may charge after Advancing"* buffs a nearby Armiger, NOT the Lancer itself —
   the Lancer does not advance-and-charge.
+- **Questoris Companions detachment (CORRECTED 2026-07-26) is an OATH / melee-hero detachment — NOT a
+  Bondsman/Armiger detachment** (I wrongly grafted baseline Bondsman + other detachments' enhancements onto it).
+  Rules: **Heroes of Legend** (start of your turn, if current Oath fulfilled → determine an ADDITIONAL Oath, no
+  repeats — stacks Quality buffs) + **Valour's Reward** (its Enhancements are EXPENDABLE — used once then locked;
+  each Oath you fulfil REFRESHES all expended ones). Enhancements (all expendable, big-Knight melee/hero flavour):
+  Crushing Condemnation (after bearer fights & destroys a unit → pick enemy unit not in ER within 12"/visible, roll
+  6D6, each 4+ = MW), Herald of Triumph (after a Charge, enemy units in ER take Battle-shock −1), Wyrmslayer
+  Divination (Shooting: re-roll Hits vs FLY), Pennant of Silvered Fury (bearer's melee gains [SUSTAINED HITS 2] a
+  phase). **Its main draw = the "Driven by the Past" stratagem: one TITANIC unit can Advance AND Charge** (user-
+  confirmed). **VERDICT for a gun list: NOT worth it — keep Valourstrike Lance.** Valourstrike's army-wide
+  Assault-on-Advance (whole gunline advance-and-shoot) >> one Titanic advance+charge; Assault already covers
+  advance+shoot, so QC only ADDS advance+CHARGE for ONE unit (marginal — a Lancer is M14 and can usually charge).
+- **Weapon profiles (BSData ik_lib.json, verified 2026-07-26) — don't confuse these two:**
+  **Armiger autocannon** = 48" A4 BS3+ S9 AP-1 D3 (no keywords; the Helverin's twin guns).
+  **Questoris heavy stubber** = 36" A3 BS3+ S4 AP-1 D1 [RAPID FIRE 3] (a big-Knight secondary; anti-infantry).
+- **★ Rotate Ion Shields is a VALOURSTRIKE LANCE stratagem — NOT a core/universal Knight stratagem** (user-
+  confirmed 2026-07-26; corroborated by ABSENCE from core army rules + faction pack + BSData library —
+  detachment stratagems aren't in those extracts). So **only a Valourstrike list gets the 4++-on-the-Oathed-Knight
+  every-turn survival lever** that ALL the meta analysis leans on. This is a MAJOR reason to lock Valourstrike
+  (on top of Bold Gallantry's army-wide Assault). Corollary: the MC meta-gauntlet's "Rotate every turn" assumption
+  is valid ONLY because both candidate lists run Valourstrike; a non-Valourstrike detachment loses Rotate entirely.
+- **Rotate protects AT MOST ONE Knight vs shooting per turn (user law 2026-07-26; Core Rules §15, core.txt:2552):
+  stratagems are once-per-phase.** In the opponent's Shooting phase I can Rotate exactly ONE Knight to 4++; **but
+  EVERY big Knight already has a base 5++ INVULN vs shooting (Ion Shield — ranged only), so AP is largely IRRELEVANT
+  vs Knights in the Shooting phase regardless of Rotate** (user law 2026-07-26). Rotate just upgrades ONE Knight
+  from 5++ → 4++. (Cerastus Lancer is even better: 4++ FULL invuln, melee AND ranged, always — no Rotate needed.)
+  Consequence: enemy AP-heavy shooting (Obliterators AP-3, death rays AP-4, CSM's +1-AP-near-objectives) is mostly
+  WASTED into Knights — they defend on the invuln. Also §15: can't target the same unit with >1 stratagem in a
+  phase. So shooting durability is "ONE Knight at 4++ + the rest at 5++", NOT "3+ armour eating full AP." Aligns fine with an enemy that
+  focus-fires ONE Knight (I Rotate that one); an army with enough anti-Knight to threaten TWO Knights in a single
+  phase (Necron death rays, C'tan) kills the un-Rotated one. Meta agents already modelled this ("Rotate saves one
+  Knight/turn; they focus another").
+- **Gate Warden Lance got NERFED in the latest Dataslate** — it was the user's HeeYaw detachment, so **the HeeYaw
+  games (incl. the 90-61 win vs the CSM "Longest Night" list) were played WITHOUT Rotate Ion Shields.** Meaning:
+  those matchups are even MORE favourable once we add Rotate via Valourstrike — the Knights survived that anti-Knight
+  fire without their best defensive tool and still won. (This nerf is WHY the user is detachment-shopping now.)
 - **39k.pro rules text is accurate for the FACTION-PACK detachments**, but the
   BASE-CODEX detachments got Rules Updates in the Faction Pack that supersede 39k.
   Gate Warden's Dauntless Defenders was stale (updated to: two chosen OBJECTIVES,

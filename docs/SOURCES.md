@@ -16,6 +16,24 @@ The large PDFs are gitignored to keep the repo lean. Re-download as needed:
   → `docs/40k_event_companion.pdf`
   https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_event_companion-alyapl19us-b2drgwkji4.pdf
 
+- **Chaos Space Marines Faction Pack** (v2.03, 22 Jul 2026) — opponent faction for
+  HeeYaw matchup testing (Huron's Marauders et al.):
+  → `docs/chaos_faction_pack.pdf`
+  https://assets.warhammer-community.com/eng_22-07_warhammer_40,000_faction_pack_chaos_space_marines-att4ehoaum-8mmiunajyf.pdf
+  - CSM points: https://mfm.warhammer-community.com/en/chaos-space-marines (JS-rendered;
+    fall back to BSData rev-4 costs — synced from the same GW source).
+  - CSM datasheets/weapons/points/detachments: BSData `Chaos - Chaos Space Marines.json`
+    (github.com/BSData/wh40k-11e — single file, no separate Library; carries costs).
+
+- **Tyranids Faction Pack** (22 Jul 2026) — opponent faction (HeeYaw Game 4):
+  → `docs/tyranids_faction_pack.pdf`
+  https://assets.warhammer-community.com/eng_22-07_warhammer_40000_faction_pack_tyranids-rz5ydhbpyi-a1yqdtcqcm.pdf
+  - Tyranid points: https://mfm.warhammer-community.com/en/tyranids (JS-rendered; use BSData costs).
+  - Tyranid datasheets/weapons/points: BSData `Tyranids.json`; **detachment rules live in the
+    separate `Library - Tyranids.json`** (Invasion Fleet, Crusher Stampede, Unending Swarm,
+    Assimilation Swarm, Synaptic Nexus, Vanguard Onslaught; + Shadow in the Warp, Synapse).
+    (github.com/BSData/wh40k-11e)
+
 ## Live data sources (see `tools/`)
 
 - **Dispositions + Force Disposition Matrix:** https://gdmissions.app/11th/matrix
