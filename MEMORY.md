@@ -87,8 +87,14 @@ shoot; a fell-back unit can't shoot at all. Only Valourstrike's ADVANCE-and-shoo
 PRACTICAL: keep gun-Knights + Helverins OUT of combat (can't disengage-and-shoot; if engaged, a MONSTER/VEHICLE
 (Knights/Armigers) can still shoot OUT of combat at ANY target (close-quarters shooting 10.06 — no [CLOSE-QUARTERS]
 weapon needed), at −1 to hit; ONLY restriction = [BLAST] weapons can't target the unit it's ENGAGED with (can
-fire blast at OTHER units). So a tar-pit costs a gun-Knight just −1 to hit, NOT its shooting — screening is a
-PREFERENCE (avoid the −1 + melee + objective-tie), not life-or-death. [I flip-flopped 4x on this; THIS is right.]). The Warglaive is my melee-capable screen/objective
+fire blast at OTHER units). So a tar-pit by SOFT CHAFF (Vanguard) costs a gun-Knight just −1
+to hit, NOT its shooting — screening THAT off is a preference. BUT keeping his ~50-dmg MELEE BRICK off a
+gun-Knight is MANDATORY (a brick that reaches it kills it in the Fight phase; shooting-while-engaged doesn't
+save it from melee) — enforced by DISTANCE/KITING (M5 brick can't cross 40"+ to a back-corner gunline), not
+screen bodies. Screen BODIES actually earn their keep for (a) RESERVE DENIAL (every model forces drops >9")
+and (b) protecting FORWARD grabbers (Warglaive/Immolator/Sisters) via 2" Engagement Range + no-move-through-
+models. The back gunline barely needs screens — distance protects it. [I flip-flopped 4x on the engaged rule;
+THIS is right.]). The Warglaive is my melee-capable screen/objective
 Armiger (can FIGHT its way out). **★ DEPLOY HIDDEN (user, from experience): good players (incl Great Value, and
 ME) deploy as HIDDEN/cover-max as possible to dodge alpha strikes — esp. going 2nd.** So his soft shooters are
 NOT easy T1 targets even if 'on the board' (Hidden beyond 15"/behind obscuring, or reserved) — my alpha is
