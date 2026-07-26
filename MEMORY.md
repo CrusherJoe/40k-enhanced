@@ -470,7 +470,19 @@ Champions 1/T&H). Rules STACK army-wide.
   Intercessors (~OC10) secure his home → a lone Warglaive (OC6) can't flip it; I must WIPE the Intercessors
   first (Crusader Avenger kills 5×T4W2) → his OC there = 0 → my Warglaive (OC6>0) controls → flips at end of
   that turn → and I must STILL control it at end of battle (Warglaive survives on it, or a backup body). One
-  turn slower than 'run a Warglaive onto his home.' Honest game ≈
+  turn slower than 'run a Warglaive onto his home.' **★ REALITY CHECK (user 2026-07-26 — I was TOO OPTIMISTIC):** (a) Intercessors = 5×OC2 = **OC10**;
+  to flip his SECURED home I need OC>10 in the footprint — a lone Warglaive (OC6) can't, a single Castellan
+  (OC10) only TIES (a tie doesn't beat a secured hold) → need TWO bodies (Knight+Armiger) OR Intercessors dead
+  first. (b) Clearing the Intercessors is HARD: **Armour of Contempt (1CP) drops my Avenger AP-2→AP-1 → they
+  save 4+**, + cover, so honest ≈ 3 dead / 2 left — and only IF he mis-positions; played HIDDEN behind his home
+  terrain they're untargetable >15". (c) The Immolator/Sisters package DIES (ablative, not durable — don't rely
+  on it for late OC). ⇒ **the +10 home-steal is UNRELIABLE**, and it was load-bearing in my ~74 estimate.
+  HONEST VERDICT: this is a CLOSE game, ~**Knights 62 vs Great Value 56** (narrow win / coin-flip), NOT a
+  comfortable win. His DEFENSIVE objective game (army-wide OC + STICKY objectives + Armour of Contempt + Hidden)
+  is strong; my standoff wins the SHOOTING+SURVIVAL war but is TOO PASSIVE ON OBJECTIVES to close. ⇒⇒ THE LIST
+  LIKELY NEEDS RETHINKING for the plan redo — the triple-gun standoff can't take/hold enough board; need more
+  MOBILE OC + a way to crack a sticky, defended home (durable OC bodies, not a fragile Immo package). Stop
+  over-selling the matchup — it's favorable-ish, not dominant. Honest game ≈
   Knights ~78 vs Great Value ~44 (clear ~34-VP win). Great Value is still a real army — don't dismiss it — but
   objectives are EXCLUSIVE, so my mobility/OC-spread out-scores his 2 immovable bricks. **★ CAVEAT (user 2026-07-26): ALL his models have OC, not just the bricks** — Sternguard ~OC11,
   Intercessors ~OC10 (sticky), Bladeguard ~OC7, Vanguard ~OC5 ×2, Land Speeders OC3 ×2. So his objective game is
