@@ -382,9 +382,18 @@ Champions 1/T&H). Rules STACK army-wide.
   (NML)** — NOT one central. ⇒ his OC22 brick squats ONE central; I hold the OTHER central with a fast body
   (Warglaive/Immolator) → I KEEP Vital Link's central bonuses (+2 end-turn, +4 Command) every round instead of
   conceding them (upgrades the win). Terrain-layout footprint sizes (EC p.7): 6x4"×4, 10x2.5"×2, 6x2"×4,
-  7x11.5"×4, 8x11.5" polygon×2 (Battlefields: Armageddon set). WHOLE-GAME
+  7x11.5"×4, 8x11.5" polygon×2 (Battlefields: Armageddon set). **SECONDARY MISSIONS (both players TACTICAL,
+  user-confirmed): identical 18-card deck (VERIFIED complete vs gdmissions.app/11th/secondary-missions; my
+  data/secondary-missions.yaml matches). Draw 2 each Command phase, complete for VP (3-5 ea, some 'for each'),
+  KEEP uncompleted (accumulate several active), many need an ACTION (Core Rules §16 = unit forgoes shooting).
+  ~40 VP of a ~90 game — I'd been hand-waving them. KEY ASYMMETRY: a mobile standoff completes the deck's
+  objective/mobility cards for free (Behind Enemy Lines, Engage, Secure No Man's Land, Centre Ground, Forward
+  Position=control-his-home which ALSO scores Vital Link +10, Bring It Down on his 2 Speeders, Cleanse action)
+  while his best cards (Bring It Down / Assassination) need to kill MY Knights (standoff denies it) and his
+  kill-cards (No Prisoners/Overwhelming Force) starve because I DELETE his soft support = I out-kill him in
+  unit-count. So the standoff wins the secondary race too (~40 vs ~18).** WHOLE-GAME
   SIM (v3): **docs/Great-Value-vs-Knights-Full-Game-Simulation.docx** (tools/gen_greatvalue_sim_docx.py) —
-  5 rounds phase-by-phase, ~78-39 Knights (the 2-central hold widened it). Verdict: win by REFUSING the fight the wall wants, deleting what can
+  5 rounds phase-by-phase, ~84-40 Knights. Verdict: win by REFUSING the fight the wall wants, deleting what can
   actually hurt me from safety, and out-mobiling M5 bricks on the mission — not by out-fighting/out-tanking.
 
 ## Status (2026-07-22)

@@ -167,6 +167,31 @@ P("The clash: his OC22 brick squats ONE central; I hold the OTHER central with a
   "his home, and secondaries, while my "
   "gunline deletes the mobile scorers he’d need to out-spread me (denying his 6-VP ‘more objectives’ clause). "
   "He farms ~3 VP/turn killing my cheap bodies — capped, and worth far less than a big Knight would have been.", size=10)
+
+H("Secondary Missions — the second scoreboard (and it’s lopsided)", 2)
+P("Both players run TACTICAL secondaries from the same 18-card deck: draw 2 in your Command phase, complete "
+  "any active card for its VP (then discard it), KEEP the ones you can’t yet complete (so a hand of active "
+  "objectives builds up), and many require an ACTION (Core Rules §16 — a unit spends its activation doing it "
+  "instead of shooting, completing at end of turn). Secondaries are ~40 VP of a ~90-VP game — I’d been "
+  "hand-waving them, and they are exactly where a mobile standoff pulls away, because the deck rewards what I’m "
+  "already doing and punishes what his army can’t do:", size=10)
+table(["Card", "Who it favours & why"],
+[["Behind Enemy Lines", "ME. Fast Armigers/Knights sit in his half. His M5 bricks can’t reach mine."],
+ ["Engage on All Fronts", "ME. My spread covers 3+ quarters. His clumped M5 wall can’t."],
+ ["Secure No Man’s Land / Centre Ground", "ME. I hold the centrals + expansions he can’t reach."],
+ ["Forward Position", "ME. Control his home = +5 secondary ON TOP of Vital Link’s +10 for the same act."],
+ ["Bring It Down", "SPLIT, but mine. His 2 Land Speeders (Vehicles) die to my Volcanoes → I score it; his copy needs to kill MY Knights, which the standoff denies."],
+ ["Assassination", "HIS in theory (my Knights are Characters) — but he can’t reach them; a dead letter in a standoff."],
+ ["No Prisoners / Overwhelming Force", "HIS — but see below: I actually out-KILL him, so even his kill-cards score thin."],
+ ["Cleanse / Plunder (ACTION)", "ME. Cheap Armigers/Sisters do the actions on objectives I already hold."]],
+widths=[2.0, 5.0])
+P("★ The kill asymmetry that breaks his whole game: a standoff that deletes his soft support (10 Sternguard, "
+  "2 Land Speeders, 10 cyclone Terminators, 5 Intercessors…) means I DESTROY MORE OF HIS UNITS than he destroys "
+  "of mine (I lose only cheap bodies). That simultaneously (a) starves his Destroyer’s Wrath ‘destroyed more "
+  "than I lost’ clause, and (b) starves his kill-secondaries (No Prisoners, Overwhelming Force), while (c) my "
+  "own Bring It Down / No Prisoners tick over on his dying units. His deck is built to punish a list that feeds "
+  "him models; I don’t.", size=10)
+
 P("Deployment — the ACTUAL board (GW Event Companion pp. 33–35): my Priority Assets vs his Purge the Foe → "
   "I play VITAL LINK, he plays DESTROYER’S WRATH (confirmed against the source). The pairing has three "
   "layouts — A (left/right zones), B (diagonal ‘Crucible’), C (top/bottom); the organiser picks or randomises. "
@@ -234,8 +259,8 @@ phase("Shooting.", "WIPE THE STERNGUARD. Crusader Avenger [with Immolator’s Pu
   "second Castellan’s Volcano has no Speeder yet, so it chunks the Bladeguard/​brick for chip; Helverins fire into "
   "the Vanguard (~3 dead).")
 phase("Charge / Fight.", "None — nothing of mine is anywhere near his lines.")
-phase("End of my turn — Vital Link.", "Control central C (Immolator) → 2 VP. Secondary (Engage on All Fronts) → 3 VP.")
-tally("5", "0", "The single most important turn in the game: his best Knight-killer is dead and I never left my corner.")
+phase("End of my turn — Vital Link.", "Control a central (Immolator) → 2 VP. Secondaries: draw Engage on All Fronts + Behind Enemy Lines; complete Engage (presence in 3 table quarters) → 4 VP; keep Behind Enemy Lines active.")
+tally("6", "0", "The single most important turn in the game: his best Knight-killer is dead and I never left my corner.")
 
 turnhead("▶ His Turn 1 — advance the wall", FIST)
 phase("Command.", "Gain 1 CP. Oath: my nearer Castellan — but with his shooters dead/in-reserve it does nothing "
@@ -245,7 +270,7 @@ phase("Movement.", "TH/SS brick advances toward C (M5+adv ~9”). Bladeguard tow
 phase("Shooting / Charge / Fight.", "Almost nothing reaches my back-corner gunline. A Vanguard squad jumps at the "
   "Warglaive and charges it → ~4 wounds; Warglaive lives (survives to 10 W) and reaper-cleavers 2 Vanguard back.")
 phase("End of his turn — Destroyer’s Wrath.", "0 units destroyed → 0 VP. Secondary → 3 VP.")
-tally("5", "3", "His wall is a turn closer, but it has nothing to shoot me with and I’m in no hurry.")
+tally("6", "4", "His wall is a turn closer, but it has nothing to shoot me with and I’m in no hurry.")
 
 # ===================================================== ROUND 2
 H("Battle Round 2 — his alpha lands and bounces", 1)
@@ -260,8 +285,8 @@ phase("Shooting.", "His cyclone brick + Speeders are still in reserve, so I shoo
   "just deny his Bladeguard). ~3 Bladeguard + 3 Vanguard cleared. Helverins hold fire-lanes for the reserves.")
 phase("Charge / Fight.", "None.")
 phase("End of my turn — Vital Link.", "End-of-turn central C control → 2 VP. Round primary = 8 + 2 = 10. "
-  "Secondary (Engage) → 4 VP.")
-tally("19", "3", "Objective race banked while his army is still walking and his guns are still in the box.")
+  "Secondaries: draw Secure No Man’s Land + Centre Ground; complete Secure No Man’s Land (I hold 2 No-Man’s-Land objectives — a central + an expansion) → 5 VP; keep Centre Ground.")
+tally("21", "4", "Objective race banked while his army is still walking and his guns are still in the box.")
 
 turnhead("▶ His Turn 2 — THE alpha", FIST)
 phase("Command.", "Gain 1 CP (~3). Oath: my nearer Castellan. Discipline: Divination (re-roll 1s) to sharpen the drop.")
@@ -284,7 +309,7 @@ phase("End of his turn — Destroyer’s Wrath.", "Destroyed 0 of my units this 
   "only bracketed a Castellan). Objectives: he now controls C (OC22) → 4 VP; he does NOT control more than me "
   "(I hold B + D + E-adjacent) → no 6 VP. ‘More than I lost last turn’ (I lost 0) → 0. Secondary (Bring It "
   "Down — he shot a Vehicle but destroyed none) → ~2.")
-tally("19", "9", "His signature turn produced ZERO kills and 4 primary. A standoff that never exposes a Knight "
+tally("21", "7", "His signature turn produced ZERO kills and 4 primary. A standoff that never exposes a Knight "
   "turns his whole plan into a slow squat on one objective.")
 
 # ===================================================== ROUND 3
@@ -298,9 +323,9 @@ phase("Shooting.", "REMOVE HIS RANGED. Castellan #1 Volcano → Land Speeder #1 
   "into the cyclone Terminators (2+/4++ W3) → ~15 damage through the 4++ → ~5 Terminators dead. His entire mobile "
   "ranged threat is now one half-strength cyclone squad.")
 phase("Charge / Fight.", "None.")
-phase("End of my turn — Vital Link.", "End-of-turn: I control central-2 (Warglaive) → 2 VP. Round primary = "
-  "8 + 2 = 10. Secondary (Bring It Down — 2 Speeders! + Behind Enemy Lines) → 6 VP.")
-tally("35", "9", "Both Speeders and half the cyclone brick gone, and I’m now banking a central every turn. After "
+phase("End of my turn — Vital Link.", "End-of-turn: I control central-2 (Warglaive) → 2 VP. Round primary = 8 + 2 = 10. "
+  "Secondaries: draw Bring It Down + Cleanse; complete Bring It Down (BOTH Land Speeders = Vehicles, killed this turn) → 5 VP and Behind Enemy Lines (kept — Warglaive in his half) → 4 VP; keep Cleanse. = 9 VP.")
+tally("40", "7", "Both Speeders and half the cyclone brick gone, and I’m now banking a central every turn. After "
   "next turn NOTHING in his army can hurt a Knight — and mine are barely scratched.")
 
 turnhead("▶ His Turn 3 — squat and squeeze", FIST)
@@ -313,7 +338,7 @@ phase("Shooting.", "Cyclone remnant (~5) into the Oathed Warglaive → ~8 → Wa
 phase("Charge / Fight.", "Bladeguard try to wall D; no profitable charge into my Knights exists.")
 phase("End of his turn — Destroyer’s Wrath.", "0 destroyed → 0. Objectives: he holds C + his home A + contests "
   "D → this snapshot he may control MORE objectives than me → 6 VP + 4 VP (non-home C) = 10 VP. Secondary → 3.")
-tally("35", "22", "His one big primary turn — the OC22 brick on centre plus a contested flank. I must break the "
+tally("40", "18", "His one big primary turn — the OC22 brick on centre plus a contested flank. I must break the "
   "objective count next turn, and I have the speed to do it.")
 
 # ===================================================== ROUND 4
@@ -330,8 +355,8 @@ phase("Shooting.", "Clear his home for the Warglaive: Crusader Avenger + a Caste
 phase("Charge.", "Warglaive contests/holds A (his home) uncontested.")
 phase("Fight.", "—")
 phase("End of my turn — Vital Link.", "D + E (4, scored). I now hold B + D + E + A and he holds only C → I "
-  "control MORE objectives, denying his 6-VP swing from here on. Secondary (Behind Enemy Lines + Engage) → 6 VP.")
-tally("51", "22", "The board has flipped: his ranged army is dead, his wall holds one square, and I’m sitting on "
+  "control MORE objectives, denying his 6-VP swing from here on. Secondaries: draw Forward Position + No Prisoners; complete Forward Position (I control his home) → 5 VP and Centre Ground (kept) → 4 VP. = 9 VP.")
+tally("59", "18", "The board has flipped: his ranged army is dead, his wall holds one square, and I’m sitting on "
   "his home for the closing 10.")
 
 turnhead("▶ His Turn 4 — nothing left but the wall", FIST)
@@ -343,7 +368,7 @@ phase("Shooting / Charge / Fight.", "With no ranged units left, he can only reac
   "Bladeguard remnant — a charge that kills it next turn at best. This turn: nothing of mine dies.")
 phase("End of his turn — Destroyer’s Wrath.", "0 destroyed → 0. Objectives: I hold more → no 6 VP; he has only "
   "C → 4 VP. Secondary → 3.")
-tally("51", "29", "His army has run out of tools. From here it’s arithmetic.")
+tally("59", "28", "His army has run out of tools. From here it’s arithmetic.")
 
 # ===================================================== ROUND 5
 H("Battle Round 5 — close it out", 1)
@@ -355,8 +380,8 @@ phase("Shooting.", "Thin the Bladeguard remnant and any body near A so nothing c
   "battle. Castellans keep the brick honest but don’t waste melta on it.")
 phase("Charge / Fight.", "Positional — stay on objectives, out of the brick’s reach.")
 phase("End of my turn — Vital Link.", "End-of-turn: D + E + A (R5 resolves the non-home clause at end of turn too) "
-  "→ 4 VP + a Maintain-Control operation token on E → +1. Round ≈ 5. Secondary (Behind Enemy Lines + Engage) → 6.")
-tally("68", "29", "Now the end-of-battle clause is pending, and I own his home.")
+  "→ 8 VP (Command central+non-home) + 2 (end-of-turn central) + a Maintain-Control operation-token action on E → +1 = 11 primary. Secondary: complete Cleanse (an Armiger spends its activation on the §16 Action on a held objective) → 4 VP.")
+tally("74", "28", "Now the end-of-battle clause is pending, and I own his home.")
 
 turnhead("▶ His Turn 5 — the last swing", FIST)
 phase("Command / Movement / Fight.", "He throws the Bladeguard remnant + whatever can reach at the Warglaive on A. "
@@ -365,17 +390,22 @@ phase("Command / Movement / Fight.", "He throws the Bladeguard remnant + whateve
   "after MY final positioning; on the average line I keep a model on A.")
 phase("End of his turn — Destroyer’s Wrath.", "Destroyed ~1 unit (the Warglaive) → 3 VP; objectives mostly denied "
   "→ ~4. Secondary → 3.")
-tally("68", "39", "Before the end-of-battle bonus.")
+tally("74", "40", "Before the end-of-battle bonus.")
 
 # ===================================================== RESULT
 H("Result & why", 1)
 P("End of Battle — Vital Link:", bold=True, color=STEEL)
 P("I control his home objective A → +10 VP.", size=11)
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER; p.paragraph_format.space_before = Pt(6)
-r = p.add_run("FINAL:  Knights 78  —  Imperial Fists 39"); r.bold=True; r.font.size=Pt(15); r.font.color.rgb=STEEL
-P("(Illustrative average-line tally. The margin is wider and safer than any durability build could produce, "
-  "because the standoff simply never gives him the kills his mission is built to farm.)",
-  italic=True, size=9, align=WD_ALIGN_PARAGRAPH.CENTER, color=GREY)
+r = p.add_run("FINAL:  Knights 84  —  Imperial Fists 40"); r.bold=True; r.font.size=Pt(15); r.font.color.rgb=STEEL
+P("Roughly: me = ~44 primary (Vital Link: a central every round + non-home objectives + the 10-VP home "
+  "steal) + ~40 secondary (Engage, Secure No Man’s Land, Bring It Down, Behind Enemy Lines, Forward Position, "
+  "Centre Ground, Cleanse — cards a mobile army completes for free). Him = ~22 primary (Destroyer’s Wrath, "
+  "starved because I hold more objectives and OUT-kill him) + ~18 secondary (Defend Stronghold early, a late "
+  "Bring It Down on my Immolator/Armiger, thin No Prisoners).", size=9, align=WD_ALIGN_PARAGRAPH.CENTER, color=GREY)
+P("(Illustrative average-line tally, both players on Tactical secondaries. The margin is wider and safer than "
+  "any durability build could produce, because the standoff never gives him the kills his mission — and half "
+  "his secondary deck — is built to farm.)", italic=True, size=9, align=WD_ALIGN_PARAGRAPH.CENTER, color=GREY)
 
 H("Why the standoff wins where durability loses", 2)
 bullet("Kill the Sternguard T1 — same as before, but now from total safety.", bold_lead="1. ")
