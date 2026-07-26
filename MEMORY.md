@@ -503,6 +503,36 @@ Champions 1/T&H). Rules STACK army-wide.
 - **DECISION (user, free rein 2026-07-26): DEEP-SIM the 3 finalists = Hallowed Martyrs + Army of Faith + Champions of
   Faith.** Bench Bringers + Penitent. Next: granular per-phase, Miracle-Dice-aware matchup sims of each finalist vs
   the current meta → head-to-head to pick the fresh list.
+- **★ THREE-WAY DEEP-SIM RESULT (3 parallel mathhammer agents, repo engine + rev-7 data, 2026-07-26) → RECOMMEND
+  HALLOWED MARTYRS as the fresh Sisters list.** Head-to-head vs the 8 current-meta archetypes:
+  - **Hallowed Martyrs (PICK):** Fav vs T'au/Custodes/Orks; even/grind vs Necrons/Nids/AdMech; UNFAV vs EC + DA-
+    Ravenwing. **The only FORGIVING one** (engine = variance crutch), and it handles the universal elite-melee gap
+    LEAST-BADLY *structurally*: W1 bodies WASTE Fulgrim/Norn multi-damage (S14 D6+1 kills only ~4), casualties FEED
+    the dice + Blood-of-Martyrs engines, Sacresants(−1 wound)+2× Arco tarpits waste enemy activations → out-TEMPO
+    the melee (can't win it). Wins the board on Priority Assets (out-OC: 2×BSS OC40 + Triumph + Insidiants + sticky
+    objectives). Melta one-rounds killable anchors (Hammerhead 33.5, Caladius 22.4) via Castigator +2AP/cover-strip/
+    Vahl-reroll. Piloting MODERATE.
+  - **Army of Faith (runner-up):** BEST at out-HOLDING un-killable (Defenders-of-Faith sticky tag-and-leave, out-
+    score elsewhere); reliability guarantees the plan; but HIGH piloting + the Sacred-Rites double-spend economy RUNS
+    DRY vs Fulgrim (can't fund saves AND offense same phase). Higher ceiling if you master dice-budgeting.
+  - **Champions of Faith (specialist):** no-invuln-armour EXECUTIONER (Vahl+3MM Paragons full stack ~24-33 dmg =
+    one-shots Hammerhead/Monolith/Kataphron/Ravager/no-inv Norn, 2-3/turn); FOLDS vs invuln/−1Dmg (Void Dragon 9.8,
+    Fulgrim 12/4++, Defiler 16/5++); EC WORST (~40/60); fragile screens (body-light, no martyrdom scaling); HIGH
+    piloting. Take only if the field is armour-heavy.
+  - **★ CORRECTIONS locked in:** (1) all 3 agents mis-modeled Necron shooting as Warrior gauss flayer S4 AP0 — the
+    real Cursed Legion list = **18 Lokhust Destroyers = 54 gauss CANNONS S7 AP-2 D2 Lethal** (verified in Knights
+    work) → **Necron is HARDER for all Sisters builds than rated** (~22 dead/turn; confirm decklist). (2) Structural:
+    W1 makes enemy HIGH-DAMAGE weapons (railgun/melta/D6+1) WASTE — it's AP-1/−2 VOLUME that kills (same lesson as
+    Knights). (3) Sisters melta is INEFFICIENT into multi-wound elite INFANTRY (no spillover: 6 melta = ~2.8 Custodian
+    / 3.8 Black Knight / 4.7 Kataphron) — save melta for W10+ single-model bricks, clear elites with volume/blast.
+    (4) Transport cap = 6 (a 10-Dominion can't be delivered — use 5-melta Rhino bombs).
+  - **★ RECOMMENDED FRESH LIST — Hallowed Martyrs, Priority Assets (~1975/2000):** Vahl + 3 Paragon Warsuits (multi-
+    meltas); Triumph of St Katherine; 2× Castigator (BATTLE CANNON); Celestian Insidiants(10) + Palatine[Through
+    Suffering, Strength] + Rhino; Sanctifiers(10, meltagun) + Ministorum Priest; Battle Sisters(10, Simulacrum) +
+    Canoness[Chaplet of Sacrifice]; Battle Sisters(10, Simulacrum) + Imagifier[Saintly Example] + Immolator;
+    Celestian Sacresants(5); **2× Arco-Flagellants(5)** (the deep-dive refinement = 2nd disposable tarpit, highest-EV
+    point vs the melee-heavy top meta). Practice priority before Oct GT: **Emperor's Children + DA-Ravenwing** (the
+    two losses) — play both as "tarpit + out-score", never as fights.
 
 ## Knights META RE-VISIT (2026-07-24) — re-analysed vs the Sisters-ingested meta
 - **Bidirectional mathhammer vs the real boogeyman lists** (not abstract disposition theory).
