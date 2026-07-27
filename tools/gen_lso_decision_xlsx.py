@@ -3,7 +3,7 @@
 """LSO Knights LIST DECISION workbook — 2 Castellan/1 Lancer (A) vs 1 Castellan/2 Lancer (B).
    PYTHONPATH=tools python3 tools/gen_lso_decision_xlsx.py
 Output: docs/Reports & Plans/LSO-Knights-List-Decision.xlsx
-Grounded in the listhammer top-finishing sample (n=75) + verified 11E profiles.
+Grounded in the listhammer top-finishing sample (n=70) + verified 11E profiles.
 """
 import os
 from openpyxl import Workbook
@@ -67,7 +67,7 @@ def sheet_decision(wb):
     r += 1
 
     # tally
-    ws.cell(r, 1, "PREVALENCE-WEIGHTED TALLY (n=75 top lists)").font = WHITEB; ws.cell(r, 1).fill = HEAD
+    ws.cell(r, 1, "PREVALENCE-WEIGHTED TALLY (n=70 top lists)").font = WHITEB; ws.cell(r, 1).fill = HEAD
     ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=4); r += 1
     fills = {"A": "BDD7EE", "B": "FCE4D6", "EVEN": "E2E2E2"}
     for bucket, items in D.DECISION_TALLY.items():
@@ -88,7 +88,7 @@ def sheet_decision(wb):
 
 def sheet_meta(wb):
     ws = wb.create_sheet("Meta (n=70)")
-    title(ws, 1, "WINNERS' META — top-finishing lists, ~14 late-July-2026 GTs (n=75)", 5)
+    title(ws, 1, "WINNERS' META — top-finishing lists, ~14 late-July-2026 GTs (n=70)", 5)
     ws.merge_cells("A2:E2"); ws.cell(2, 1, D.OBSERVED_META_NOTE).alignment = WRAP; ws.row_dimensions[2].height = 58
     hrow(ws, 3, ["Faction / archetype", "# of top lists", "Threat character", "Favours", "Note"])
     r = 4
