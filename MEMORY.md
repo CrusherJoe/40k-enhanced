@@ -805,7 +805,7 @@ Champions 1/T&H). Rules STACK army-wide.
   + Navigator dome + BS(OC10 home) + Immolator(cover-strip stacks with Dominus +1 hit). PLAN = **SPEED + RANGE
   + SPREAD, NEVER enter the brick's charge threat**: gunline sits at the BACK and deletes his SOFT ranged legs
   (Sternguard T1, then 2 Speeders + cyclone Termies by T3) from 36-60"; his M5 brick can never catch it; I
-  cede the ONE central objective the OC22 brick squats and take the other 3-4 + steal his undefended home R5
+  cede the ONE central objective the OC34 brick squats and take the other 3-4 + steal his undefended home R5
   (+10 Vital Link). Kill-Sternguard-T1 drops his T2 alpha ~34→~17 (→~13 w/ Rotate + my Castellan's COVER) — a
   28W Castellan shrugs it. **COVER (user: GW terrain layouts = cover EVERYWHERE; sightlines fine for standoff):
   −1 to hit, RANGED ONLY (Knights get it too but NOT vs the brick's melee).** MY cover-mitigation: 2 Castellans
@@ -819,7 +819,7 @@ Champions 1/T&H). Rules STACK army-wide.
   **REAL BOARD (EC pp.33-35):** 3 layouts for this pairing — A (left/right zones), B (diagonal/Crucible), C
   (top/bottom); organiser picks/randomizes; standoff works on all (GW deliberately leaves firing lanes — user
   confirms sightlines fine). **SIX objectives = 2 home (opposite corners) + 2 CENTRAL (middle) + 2 expansion
-  (NML)** — NOT one central. ⇒ his OC22 brick squats ONE central; I hold the OTHER central with a fast body
+  (NML)** — NOT one central. ⇒ his OC34 brick squats ONE central; I hold the OTHER central with a fast body
   (Warglaive/Immolator) → I KEEP Vital Link's central bonuses (+2 end-turn, +4 Command) every round instead of
   conceding them (upgrades the win). Terrain-layout footprint sizes (EC p.7): 6x4"×4, 10x2.5"×2, 6x2"×4,
   7x11.5"×4, 8x11.5" polygon×2 (Battlefields: Armageddon set). **SECONDARY MISSIONS (both players TACTICAL,
@@ -833,7 +833,7 @@ Champions 1/T&H). Rules STACK army-wide.
   **BUT CORRECTED (user 2026-07-26 — I'd UNDER-scored him): OBJECTIVE CONTROL IS EXCLUSIVE (user-corrected
   2026-07-26): the HIGHER total OC in range controls an objective and ONLY that player scores it (checked
   usually in the Command phase; some secondaries specify other timing) — players do NOT both hold the same
-  objective. His OC22 bricks reliably control the 1-2 objectives they SIT ON (can't out-OC a brick without
+  objective. His OC34 bricks reliably control the 1-2 objectives they SIT ON (can't out-OC a brick without
   crowding OC23 into its charge) → he banks single-objective cards there (Cleanse/hold). BUT he has only TWO
   slow bricks vs my 5+ mobile OC bodies, so I OUT-CONTROL the board's other objectives → *I* complete the
   objective-secondaries (Secure No Man's Land, etc.) + DENY his (and deny his Destroyer's Wrath 'more objectives'
