@@ -37,7 +37,11 @@ LIST_UNITS = [
     ("Cerastus Knight Lancer", 1, "Shock lance — strike 5A S20 AP-3 D8 [Lance] / sweep 10A S10 AP-2 D3; ranged shock lance 12\" 6A [Assault, Sus2]",
      "415", "The one blade: 4++ FULL invuln vs ALL, M14 W28. Counter-charge + assassinate buff-characters + Shock-Charge free Tank Shock on the charge."),
     ("Armiger Helverin", 1, "2x Armiger autocannon (48\" A4 S9 AP-1 D3), heavy stubber", "140",
-     "Backfield 48\" autocannon platform + OC6 screen."),
+     "Backfield 48\" autocannon platform — BOND TO THE CRUSADER (Crusader's Duty Bondsman = +1 to hit -> BS2+, 8 shots): "
+     "consistent anti-infantry/light removal that fills the list's anti-scorer gap. Survivable OC6 home/backfield anchor "
+     "(you're out-OC'd by most of the field) + Suppression Protocols (-1 to hit its target). Chosen over a Warglaive: the "
+     "list's anti-tank is already over-solved (2x Volcano + thermal + shieldbreaker + Lancer), so add ranged volume + a "
+     "body that survives to score, not a fragile forward melee piece that duplicates the Lancer."),
     ("Navigator (Agents ally)", 1, "Gaze of the Empyrean", "75",
      "12\" anti-Deep-Strike dome (vs BA/SW/GSC/deep-strike alphas) + Hidden home-holder. Allies take no enhancement. (75 confirmed from Scott Ketcham's Tacoma roster.)"),
 ]
