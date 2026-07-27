@@ -149,7 +149,8 @@ def run_game(ln, spec, rak, mak, rem, tw):
     their_obj = spec["obj"]
     k_lost = 0
     me = him = 0.0
-    clears = rem >= tw                        # do my big guns remove a priority piece/turn?
+    dura = spec.get("dura", 1.0)              # enemy durability soaks MY removal (reanim/4++/-1Dmg)
+    clears = rem >= tw * dura                 # do my big guns actually remove a priority piece/turn?
     for rnd in range(1, 6):
         # my strengths thin the matching enemy anti-Knight each turn
         if ln == "A":
@@ -158,20 +159,22 @@ def run_game(ln, spec, rak, mak, rem, tw):
         else:
             melee *= 0.55 if blades >= 2 else 0.8  # 2 blades counter-charge the melee threat
             ranged *= 0.90 if clears else 0.96     # less shooting, but Crusader/Helverin still remove
-        turn_ak = (ranged + melee) * spec.get("dura", 1.0)
+        turn_ak = ranged + melee
         rotate = 0.72                              # Rotate Ion Shields: one Knight to 4++/turn
-        kill_chance = min(0.5, turn_ak * rotate / 28.0) * (0.85 if ln == "B" else 1.0)
+        kill_chance = min(0.5, turn_ak * rotate / 24.0) * (0.85 if ln == "B" else 1.0)
         if rnd >= 2 and k_lost < 2 and random.random() < kill_chance:
             k_lost += 1
             my_obj = max(1.0, my_obj - 1.0)
-        # score
+        # score (calibrated so the better list lands in realistic bands: favourable
+        # ~58-68%, coin-flip ~46-52%, expect-a-loss ~32-44% -- NOT the old 0/100 extremes)
         outctrl = their_obj >= my_obj
-        him += min(15, spec["score"] + (5 if outctrl else 2) + (3 if k_lost else 0)) + noisy(spec["score"] * 0.7)
-        me += min(15, 4 + (5 if my_obj >= their_obj else 2) + (1 if clears else 0)) + noisy(4.0)
-        me += noisy(3.0 * min(blades, 2)) if spec.get("melee") else 0.0   # blades score in melee metas
-        me += noisy(2.5) if (ln == "A" and clears) else 0.0               # A's extra kill-secondaries
-        their_obj = max(spec["floor"], their_obj - (0.3 if (ln == "A" and clears) else 0.0)
-                        - (0.3 * min(blades, 2) if spec.get("melee") else 0.0))
+        him += min(15, spec["score"] + (4 if outctrl else 2) + (3 if k_lost else 0)) + noisy(spec["score"] * 0.7)
+        my_primary = 4 + (5 if my_obj >= their_obj else 2) + (1 if clears else 0) - 2 * k_lost  # losing Knights hurts
+        me += max(0.0, min(15, my_primary)) + noisy(3.5)
+        me += noisy(1.2 * min(blades, 2)) if spec.get("melee") else 0.0   # blades help, don't dominate
+        me += noisy(2.0) if (ln == "A" and clears) else 0.0               # A's extra kill-secondaries
+        their_obj = max(spec["floor"], their_obj - (0.25 if (ln == "A" and clears) else 0.0)
+                        - (0.25 * min(blades, 2) if spec.get("melee") else 0.0))
     return me - him
 
 
