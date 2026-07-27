@@ -390,6 +390,141 @@
    ]
   },
   {
+   "name": "Armoured Sentinels",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 8,
+    "Sv": "2+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Multi-laser",
+     "range": 36,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Sentinel chainsaw",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Artillery Team",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1680,6 +1815,99 @@
    ]
   },
   {
+   "name": "Cadian Command Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 4,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Character",
+    "Officer"
+   ]
+  },
+  {
    "name": "Carnodon [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1848,6 +2076,119 @@
     "Smoke",
     "Carnodon",
     "Frame"
+   ]
+  },
+  {
+   "name": "Catachan Command Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chainsword",
+     "A": 4,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Character",
+    "Officer"
    ]
   },
   {
@@ -2786,6 +3127,44 @@
     "Imperium",
     "Frame"
    ]
+  },
+  {
+   "name": "Death Korps Grenadier Squad [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Death Rider Commissar [Legends]",
@@ -4288,6 +4667,49 @@
    ]
   },
   {
+   "name": "Hell's Last [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Officer",
+    "Character",
+    "Epic Hero"
+   ]
+  },
+  {
    "name": "Hellhammer",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -4552,6 +4974,107 @@
    ]
   },
   {
+   "name": "Hippogriff AFV",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 8,
+    "Sv": "3+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Vigilator cannon",
+     "range": 36,
+     "A": "D6",
+     "BS": "4+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Melta cannon",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Chiron gatling cannon",
+     "range": 24,
+     "A": 12,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured hull",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Hydra",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -4706,6 +5229,116 @@
     "Artillery",
     "Frame"
    ]
+  },
+  {
+   "name": "Krieg Command Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Character",
+    "Officer"
+   ]
+  },
+  {
+   "name": "Krieg Heavy Weapons Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Leman Russ Commander",
@@ -6567,6 +7200,71 @@
    ]
   },
   {
+   "name": "Militarum Tempestus Command Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Tempestus dagger",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Character",
+    "Officer"
+   ]
+  },
+  {
    "name": "Ministorum Priest",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -7125,6 +7823,45 @@
     "Grenades",
     "Provisionally Prepared",
     "Leader"
+   ]
+  },
+  {
+   "name": "Quartermaster Cadre Squad [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Quartermaster's pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Quartermaster's close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Character"
    ]
   },
   {
@@ -7831,6 +8568,141 @@
     "Squadron",
     "Frame"
    ]
+  },
+  {
+   "name": "Scout Sentinels",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "3+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Multi-laser",
+     "range": 36,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Sentinel chainsaw",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Sentinel Commander [Crucible]",
@@ -9071,6 +9943,44 @@
     "Imperium",
     "Frame"
    ]
+  },
+  {
+   "name": "Tarantula Battery [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": "-",
+    "T": 5,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Twin heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Tauros Assault Vehicle [Legends]",

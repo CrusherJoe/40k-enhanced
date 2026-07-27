@@ -427,6 +427,31 @@
    ]
   },
   {
+   "name": "Genestealers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 4,
+    "Sv": "5+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Genestealers claws and talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Harpy",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -835,6 +860,43 @@
    ]
   },
   {
+   "name": "Hive Guard",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 7,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Shockcannon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "ANTI-VEHICLE 2+"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitinous claws and teeth",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Hive Tyrant",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -926,6 +988,29 @@
     "Synapse",
     "Leader"
    ]
+  },
+  {
+   "name": "Hormagaunts",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "melee": [
+    {
+     "name": "Hormagaunt talons",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Malanthrope [Legends]",
@@ -1049,6 +1134,29 @@
     "Malceptor",
     "Synapse"
    ]
+  },
+  {
+   "name": "Neurogaunts",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Chitinous claws and teeth",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Neurotyrant",
@@ -1415,6 +1523,45 @@
     "Harvester",
     "Smoke"
    ]
+  },
+  {
+   "name": "Pyrovores",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 6,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Flamespurt",
+     "range": 12,
+     "A": "D6+1",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitin-barbed limbs",
+     "A": 2,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Screamer-killer",
@@ -1930,6 +2077,113 @@
    ]
   },
   {
+   "name": "Tyranid Warriors with Melee Bio-Weapons",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "melee": [
+    {
+     "name": "Tyranid Warrior claws and talons",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Tyranid Warriors with Ranged Bio-Weapons",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Deathspitter",
+     "range": 24,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Spinefists",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Barbed strangler",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Devourer",
+     "range": 18,
+     "A": 5,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Tyranid Warrior claws and talons",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Tyrannofex",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -2022,6 +2276,74 @@
     "Great Devourer",
     "Tyrannofex"
    ]
+  },
+  {
+   "name": "Tyrant Guard",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 8,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Scything talons and rending claws",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Bone cleaver, lash whip and rending claws",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Crushing claws and rending claws",
+     "A": 2,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Venomthropes",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Toxic lashes",
+     "A": 5,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+"
+     ]
+    }
+   ],
+   "keywords": []
   }
  ]
 }

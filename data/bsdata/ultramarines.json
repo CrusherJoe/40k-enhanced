@@ -829,6 +829,59 @@
    ]
   },
   {
+   "name": "Tyrannic War Veterans [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-TYRANIDS 4+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-TYRANIDS 4+"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-TYRANIDS 4+"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Ultramarines Honour Guard [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {

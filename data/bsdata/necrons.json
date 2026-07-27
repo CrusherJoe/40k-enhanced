@@ -2870,6 +2870,40 @@
    ]
   },
   {
+   "name": "Lychguard",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Warscythe",
+     "A": 2,
+     "WS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Hyperphase sword",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Monolith",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -4316,6 +4350,71 @@
      }
     }
    ]
+  },
+  {
+   "name": "Tomb Blades",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Twin gauss blaster",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "LETHAL HITS",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Particle beamer",
+     "range": 18,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Twin tesla carbine",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "SUSTAINED HITS 2",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Tomb Citadel Walls",

@@ -867,6 +867,115 @@
    "keywords": []
   },
   {
+   "name": "Broadside Battlesuits",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 6,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Heavy rail rifle",
+     "range": 60,
+     "A": 2,
+     "BS": "4+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "High-yield missile pods",
+     "range": 30,
+     "A": 6,
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin plasma rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin smart missile system",
+     "range": 30,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Seeker missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Crushing bulk",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Cadre Fireblade",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -2595,6 +2704,42 @@
    ]
   },
   {
+   "name": "Heavy Gun Drones [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 5,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "6+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Markerlight"
+   ]
+  },
+  {
    "name": "Kinband Champion [Crucible]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -4158,6 +4303,52 @@
    ]
   },
   {
+   "name": "Pathfinder Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Piranhas",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -5243,6 +5434,40 @@
    ]
   },
   {
+   "name": "Stealth Battlesuits",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 2,
+     "WS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Stormsurge",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -5419,6 +5644,52 @@
     "Stormsurge",
     "Non-Kroot"
    ]
+  },
+  {
+   "name": "Strike Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Sun Shark Bomber",
@@ -5822,6 +6093,43 @@
    ]
   },
   {
+   "name": "Tetras [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 7,
+    "Sv": "4+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Pulse rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapons",
+     "A": 2,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Tidewall Droneport",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -6190,6 +6498,86 @@
     "Vespid Stingwings",
     "Non-Kroot"
    ]
+  },
+  {
+   "name": "XV9 Hazard Battlesuits [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 6,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Fusion cascade",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 4"
+     ]
+    },
+    {
+     "name": "Phased ion gun",
+     "range": 30,
+     "A": 4,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Twin hazard burst cannon",
+     "range": 24,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Y'vahra Battlesuit [Legends]",

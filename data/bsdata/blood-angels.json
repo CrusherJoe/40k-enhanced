@@ -2463,6 +2463,69 @@
    ]
   },
   {
+   "name": "Sanguinary Guard",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Angelus Boltgun",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Inferno Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "abilities": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Encarmine Blade",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Encarmine Spear",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "LANCE"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Sanguinary Priest",
    "source": "bsdata-wh40k-11e",
    "stats": {

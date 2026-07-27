@@ -629,6 +629,51 @@
    ]
   },
   {
+   "name": "Hounds of Morkai [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Morkai bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-PSYKER 4+",
+      "DEVASTATING WOUNDS",
+      "PISTOL",
+      "PRECISION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Morkai combat knife",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-PSYKER 4+",
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Iron Priest",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -3299,6 +3344,40 @@
      "S": 5,
      "AP": -2,
      "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Wolf Guard [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "5+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Heirloom weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
     }
    ],
    "keywords": []

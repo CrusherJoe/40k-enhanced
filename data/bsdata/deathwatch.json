@@ -118,6 +118,62 @@
    ]
   },
   {
+   "name": "Deathwatch Terminator Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Power Weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Chainfist",
+     "A": 3,
+     "WS": "4+",
+     "S": "8+",
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+"
+     ]
+    },
+    {
+     "name": "Twin lightning claws",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Deathwatch Veteran w/ carbine",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -311,6 +367,61 @@
      "S": 4,
      "AP": 0,
      "D": 1
+    }
+   ],
+   "keywords": [
+    "Tacticus"
+   ]
+  },
+  {
+   "name": "Decimus Kill Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Plasma pistol - Standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - Supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
     }
    ],
    "keywords": [
@@ -792,6 +903,56 @@
    "keywords": [
     "Tacticus"
    ]
+  },
+  {
+   "name": "Spectrus Kill Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Deathwatch marksman bolt carbine",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Talonstrike Kill Team",

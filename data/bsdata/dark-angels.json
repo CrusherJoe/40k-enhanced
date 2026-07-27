@@ -230,6 +230,92 @@
    ]
   },
   {
+   "name": "Deathwing Command Squad [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Storm Bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power Fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Invulnerable Save",
+      "text": "4+"
+     },
+     {
+      "name": "Astartes Banner",
+      "text": "While this unit contains an Ancient, add 1 to the Objective Control characteristic of its models."
+     }
+    ]
+   },
+   "keywords": []
+  },
+  {
+   "name": "Deathwing Knights",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 4,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Mace of absolution",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+"
+     ]
+    },
+    {
+     "name": "Power Weapon",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Deathwing Strikemaster [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -361,6 +447,45 @@
    ]
   },
   {
+   "name": "Deathwing Terminator Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Storm Bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power Weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Ezekiel",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -462,6 +587,57 @@
     "Librarian",
     "Deathwing"
    ]
+  },
+  {
+   "name": "Inner Circle Companions",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Calibanite Greatsword - Strike",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Calibanite Greatsword - Sweep",
+     "A": 5,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 2"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Land Speeder Vengeance",
@@ -830,6 +1006,94 @@
     "Nephilim Jetfighter",
     "Ravenwing"
    ]
+  },
+  {
+   "name": "Ravenwing Black Knights",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "3+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Astartes grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Astartes grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma talon - Standard",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma talon - Supercharged",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Black Knight combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Ravenwing Command Squad",

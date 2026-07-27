@@ -162,19 +162,44 @@ def weapon_dict(tn, name, c):
     return d
 
 
-def profile_source(entry):
+def _all_unit_holders(ctx, entry, depth=0, seen=None):
+    """Every entry bearing a 'Unit' statline profile, recursing selectionEntries,
+    selectionEntryGroups (+their entryLinks), and entryLinks (resolved via ctx)."""
+    seen = set() if seen is None else seen
+    if id(entry) in seen or depth > 6:
+        return []
+    seen.add(id(entry))
+    out = [entry] if any(p.get("typeName") == "Unit" for p in entry.get("profiles", [])) else []
+    kids = list(entry.get("selectionEntries", []))
+    for g in entry.get("selectionEntryGroups", []):
+        kids += g.get("selectionEntries", [])
+        kids += [t for el in g.get("entryLinks", [])
+                 if (t := ctx["SSE"].get(el.get("targetId")) or ctx["SSEG"].get(el.get("targetId")))]
+    kids += [t for el in entry.get("entryLinks", [])
+             if (t := ctx["SSE"].get(el.get("targetId")) or ctx["SSEG"].get(el.get("targetId")))]
+    for k in kids:
+        out += _all_unit_holders(ctx, k, depth + 1, seen)
+    return out
+
+
+def profile_source(ctx, entry):
+    # direct: unit statline on the entry itself
     if any(p.get("typeName") == "Unit" for p in entry.get("profiles", [])):
         return entry, []
+    # direct model sub-entries (original path — handles Canis Rex's pilot etc.)
     models = [s for s in entry.get("selectionEntries", [])
               if s.get("type") == "model" and any(p.get("typeName") == "Unit" for p in s.get("profiles", []))]
-    if not models:
-        return None, []
-    primary = next((m for m in models if m["name"] == entry["name"]), models[0])
-    return primary, [m for m in models if m is not primary]
+    if models:
+        primary = next((m for m in models if m["name"] == entry["name"]), models[0])
+        return primary, [m for m in models if m is not primary]
+    # fallback: statline lives in a group / entryLink (Sanguinary Guard, Deathwing
+    # Knights, Broadside, ...). Take the first Unit-holder; skip noisy extras.
+    holders = _all_unit_holders(ctx, entry)
+    return (holders[0], []) if holders else (None, [])
 
 
 def build_profile(ctx, entry):
-    src, extra = profile_source(entry)
+    src, extra = profile_source(ctx, entry)
     if src is None:
         return None
     up = [p for p in src.get("profiles", []) if p.get("typeName") == "Unit"]

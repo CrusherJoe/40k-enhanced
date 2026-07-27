@@ -3,6 +3,59 @@
  "source": "BSData/wh40k-11e :: Imperium - Agents of the Imperium.json",
  "datasheets": [
   {
+   "name": "Aquila Kill Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Plasma pistol - Standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - Supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Callidus Assassin",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -4840,6 +4893,55 @@
     "Sisters of Battle Squad",
     "Requisitioned"
    ]
+  },
+  {
+   "name": "Spectrus Kill Team [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Marksman bolt carbine",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Subductor Squad",

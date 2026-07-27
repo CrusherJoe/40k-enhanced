@@ -273,6 +273,97 @@
    ]
   },
   {
+   "name": "Crusader Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Heavy Bolt Pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Pyre Pistol",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Master-crafted Power Weapon",
+     "A": 3,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Crusader Squad [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Combat Knife",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Emperor's Champion",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1654,6 +1745,59 @@
    ]
   },
   {
+   "name": "Sternguard Veteran Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Sternguard Bolt Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Sternguard Bolt Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "DEVASTATING WOUNDS",
+      "HEAVY",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Sword Brethren Squad",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1781,6 +1925,64 @@
     "Tacticus",
     "Primaris Sword Brethren"
    ]
+  },
+  {
+   "name": "Terminator Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Chainfist",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+"
+     ]
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
   }
  ]
 }

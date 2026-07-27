@@ -2226,6 +2226,97 @@
    ]
   },
   {
+   "name": "Mortifiers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 6,
+    "Sv": "4+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy Bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Mortifier flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "n/a",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Twin Penitent Buzz-Blades",
+     "A": 4,
+     "WS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Penitent Flails",
+     "A": 8,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Penitent Buzz-Blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 10,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Penitent Flail",
+     "A": 8,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Morvenn Vahl",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -2516,6 +2607,86 @@
      }
     }
    ]
+  },
+  {
+   "name": "Penitent Engines",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 6,
+    "Sv": "4+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Penitent Flamers",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Twin Penitent Buzz-Blades",
+     "A": 4,
+     "WS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin Penitent Flails",
+     "A": 8,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Penitent Buzz-Blade",
+     "A": 4,
+     "WS": "4+",
+     "S": 10,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Penitent Flail",
+     "A": 8,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Reliquant Knight [Crucible]",

@@ -6223,6 +6223,105 @@
    ]
   },
   {
+   "name": "Sydonian Dragoons with radium jezzails",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "3+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Phosphor serpenta",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "IGNORES COVER",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Radium jezzail",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "HEAVY",
+      "PRECISION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ironstrider feet",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Sydonian Dragoons with taser lances",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "3+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Phosphor serpenta",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "IGNORES COVER",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Taser lance",
+     "A": 4,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-WALKER 2+",
+      "LANCE",
+      "SUSTAINED HITS 2"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Sydonian Skatros",
    "source": "bsdata-wh40k-11e",
    "stats": {

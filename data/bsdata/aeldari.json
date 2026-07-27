@@ -1431,6 +1431,57 @@
    ]
   },
   {
+   "name": "Dark Reapers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "3+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Reaper Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Reaper Launcher - Starswarm",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Death Jester",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1491,6 +1542,45 @@
     "Aeldari",
     "Corsairs and Travelling Players"
    ]
+  },
+  {
+   "name": "Dire Avengers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Avenger shuriken catapult",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Eldrad Ulthran",
@@ -1932,6 +2022,46 @@
     "Ynnari",
     "Leader"
    ]
+  },
+  {
+   "name": "Fire Dragons",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "3+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Dragon Fusion Gun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Fire Prism",
@@ -2807,6 +2937,49 @@
     "Aeldari",
     "Frame"
    ]
+  },
+  {
+   "name": "Howling Banshees",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+ / 5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Banshee Blade",
+     "A": 2,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Illic Nightspear [Legends]",
@@ -4402,6 +4575,48 @@
    ]
   },
   {
+   "name": "Shining Spears",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Laser Lance",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Shroud Runners",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -5322,6 +5537,89 @@
    "keywords": []
   },
   {
+   "name": "Striking Scorpions",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "3+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Scorpion chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Swooping Hawks",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Lasblaster",
+     "range": 24,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "The Visarch",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -6215,6 +6513,46 @@
     "Aeldari",
     "Frame"
    ]
+  },
+  {
+   "name": "Warp Spiders",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "3+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Death spinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Wasp Assault Walker [Legends]",
@@ -7197,6 +7535,31 @@
     "Aeldari",
     "Archon"
    ]
+  },
+  {
+   "name": "Ynnari Incubi",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "3+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Klaive",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Ynnari Raider",

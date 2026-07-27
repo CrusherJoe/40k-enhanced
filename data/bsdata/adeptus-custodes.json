@@ -833,6 +833,57 @@
    ]
   },
   {
+   "name": "Custodian Guard",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Guardian Spear",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Custodian Guard with Adrasite and Pyrithite spears",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Adrasite spear",
+     "range": 18,
+     "A": 1,
+     "BS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Custodian Wardens",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -2352,6 +2403,35 @@
     "Shield-Captain",
     "Epic Hero"
    ]
+  },
+  {
+   "name": "Venatari Custodians",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 6,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Venatari lance",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Venerable Contemptor Dreadnought",

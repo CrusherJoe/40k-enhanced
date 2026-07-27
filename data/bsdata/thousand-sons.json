@@ -3886,6 +3886,67 @@
    ]
   },
   {
+   "name": "Sekhetar Robots",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 6,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Pyreflux meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Heavy warpflamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Hellfyre missile rack",
+     "range": 36,
+     "A": 2,
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Sorcerer",
    "source": "bsdata-wh40k-11e",
    "stats": {

@@ -372,6 +372,55 @@
    ]
   },
   {
+   "name": "Beastmaster [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Splinter pods",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Agonizer",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Fly",
+    "Beastmaster"
+   ]
+  },
+  {
    "name": "Cronos",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -840,6 +889,31 @@
     "Infantry",
     "Leader"
    ]
+  },
+  {
+   "name": "Incubi",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "3+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Klaive",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Lady Malys",

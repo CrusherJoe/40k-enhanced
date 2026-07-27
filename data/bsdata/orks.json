@@ -284,6 +284,43 @@
    ]
   },
   {
+   "name": "Beast Snagga Boyz",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Thump gun",
+     "range": 18,
+     "A": "D3",
+     "BS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Beastboss",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1594,6 +1631,92 @@
     "Boss Zagstruk",
     "Leader"
    ]
+  },
+  {
+   "name": "Boyz",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Boyz (Armageddon)",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Shoota",
+     "range": 18,
+     "A": 2,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Breaka Boyz",
@@ -3016,6 +3139,43 @@
    ]
   },
   {
+   "name": "Gretchin",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "5+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Grot-smacka",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Grot Bomm Launcha [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -4313,6 +4473,43 @@
     "Transport",
     "Kill Tank"
    ]
+  },
+  {
+   "name": "Kommandos",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Kustom Boosta-blasta",
@@ -5948,6 +6145,46 @@
    ]
   },
   {
+   "name": "Skorchas [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 6,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Skorcha",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Spiked wheel",
+     "A": 2,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Squiggoth [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -6075,6 +6312,58 @@
       "ANTI-MONSTER 4+",
       "ANTI-VEHICLE 4+",
       "LANCE"
+     ]
+    },
+    {
+     "name": "Squig jaws",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Squighog Boyz",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Big choppa",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+"
      ]
     },
     {
@@ -6229,6 +6518,92 @@
     "Stompa",
     "Frame"
    ]
+  },
+  {
+   "name": "Stormboyz",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Tankbustas",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Rokkit pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Smash hammer",
+     "A": 2,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+"
+     ]
+    },
+    {
+     "name": "Choppa",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Trukk",
@@ -6837,6 +7212,75 @@
     "Grots",
     "Upstart Gretchin"
    ]
+  },
+  {
+   "name": "Warbikers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 6,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Twin dakkagun",
+     "range": 18,
+     "A": 3,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "RAPID FIRE 2",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Big choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Power klaw",
+     "A": 3,
+     "WS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Warboss",
