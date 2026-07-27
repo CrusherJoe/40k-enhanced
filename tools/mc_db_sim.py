@@ -105,6 +105,18 @@ ARCH = {
     ak=[("astra-militarum", "Shadowsword", "Volcano cannon", 1, "R"),
         ("astra-militarum", "Leman Russ", "Lascannon", 4, "R")],
     tgt=("astra-militarum", "Shadowsword", 24, "2+", 13, None, ("VEHICLE", "TITANIC"))),
+  # --- KNIGHT MIRRORS (mirror matches are real): my List A/B vs other Imperial Knights ---
+  "Imperial Knights (2 Cas/1 Lancer, shooting mirror)": dict(prev=3, hand=(20, 12), melee=True, dura=1.6,
+    obj=2.7, floor=2.0, score=4.2,
+    ak=[("imperial-knights", "Knight Castellan", "Volcano lance", 2, "R"),
+        ("imperial-knights", "Knight Castellan", "Shieldbreaker missile", 2, "R"),
+        ("imperial-knights", "Cerastus Knight Lancer", "shock lance - strike", 1, "M")],
+    tgt=("imperial-knights", "Knight Castellan", 28, "3+", 12, "5+", ("VEHICLE", "TITANIC"))),
+  "Imperial Knights (1 Cas/2 Lancer, melee mirror)": dict(prev=2, hand=(12, 24), melee=True, dura=1.5,
+    obj=2.6, floor=1.9, score=4.2,
+    ak=[("imperial-knights", "Knight Castellan", "Volcano lance", 1, "R"),
+        ("imperial-knights", "Cerastus Knight Lancer", "shock lance - strike", 2, "M")],
+    tgt=("imperial-knights", "Cerastus Knight Lancer", 28, "3+", 11, "4+", ("VEHICLE", "TITANIC"))),
 }
 
 

@@ -318,6 +318,24 @@ MATCHUPS = [
                 "Start from EXPECTATION OF A LOSS; steal via mobility secondaries. Honest coin-flip (~55-56 vs 62 in the hardened sim)."],
          kill_priority="Land Speeders (enablers) -> Sternguard (unsaveable Dev) -> break the brick's character support.",
          deploy="Navigator home-hold + deploy Hidden; don't over-expose to the alpha convergence."),
+    dict(key="knights-shooting-mirror", faction="Imperial Knights", archetype="2 Castellan / 1 Lancer (the shooting MIRROR)",
+         prev="Med (3)", verdict="COIN-FLIP (mirror — first-turn dependent)", disp="the gun-Knight mirror (2 Volcano Castellans + a Lancer)",
+         deciding="A shooting slugfest that's ~EVEN by definition (it's a mirror): first turn, cover (-1 to hit), and the Ion-Shield-cycling race decide it. THE KEY: shooting into a Knight gets Ion-Shielded (5++, Rotate 4++), but MELEE does NOT — Questoris/Dominus have no melee invuln — so the efficient kill is the LANCER charging a Castellan (S20, no invuln), not out-shooting the 4++. (Sim note: this reads as B-favoured because more Lancers = the better mirror tool; the absolute is a relative indicator, the real mirror is a coin-flip.)",
+         heist=["WIN THE ROLL-OFF / seize — first-turn Volcano into an un-Rotated Castellan is the swing.",
+                "Rotate Ion Shields onto the focused Knight every turn (4++ vs their Volcanos); fight from cover (-1 to hit).",
+                "Send the Lancer into a Castellan in MELEE (no invuln there) — that's your most efficient Knight-kill; don't rely on Ion-Shielded shooting.",
+                "Race the mission — 5 big models each means objectives are decided by positioning + who commits the Lancer."],
+         kill_priority="Enemy Castellans (their guns) -> the Lancer -> Armigers. Lancer-assassinate a Castellan in melee.",
+         deploy="Cover + first-turn positioning; hide the focused Knight; the Navigator holds home."),
+    dict(key="knights-melee-mirror", faction="Imperial Knights", archetype="1 Castellan / 2 Lancer (the melee MIRROR)",
+         prev="Med (2)", verdict="COIN-FLIP (lean unfav for List A)", disp="2 fast Cerastus Lancers + a Castellan",
+         deciding="Their two Cerastus Lancers (M14, 4++ ALL-around, S20 AP-3 D8) hunt you, and your shooting into a 4++ Lancer is inefficient. You out-gun them (2 Castellans vs 1), but killing a fast 4++ Lancer at range before it charges is slow — and your lone Lancer is out-numbered in the melee trade. This is the matchup List B (2 Lancer) is built for; List A is on the back foot.",
+         heist=["Focus a Lancer with everything T1-2 (2 Volcanos + Crusader + Helverins) — but expect the 4++ to drag it out; Rotate + kite the other.",
+                "Your Lancer counter-charges one of theirs (4++ vs 4++ trade); don't feed a Castellan into their Lancers (no melee invuln = you die).",
+                "Screen the charge lanes with the Helverin/Crusader; use Super-Heavy Walker to fall-back-and-shoot out of a Lancer's grip.",
+                "Out-score on the mission while trading — you won't cleanly out-fight two Lancers."],
+         kill_priority="Enemy Lancers (the M14 melee threat) -> Castellan -> Armigers.",
+         deploy="Screen the Lancer charge lanes; kite; keep the Castellans out of the 14\"+charge threat."),
 ]
 
 # ---- REALISM / RECORD EXPECTATION ----------------------------------------------
@@ -373,6 +391,8 @@ CODE_CHIVALRIC = {
         "chaos-daemons-khorne": ("Lay Low the Bloodthirster (standalone Greater Daemon)", "Martial Valour", "directly killable; guns + Lancer"),
         "thousand-sons": ("Lay Low MAGNUS (standalone Monster)", "Martial Valour", "Magnus is directly targetable + their only Knight-killer"),
         "great-value-imperial-fists": ("Reap a Tally (kill his soft legs: Speeders/Sternguard/Vanguard)", "Legacy or Martial Valour", "his chars hide in bricks; kill the mobile OC + out-remove"),
+        "knights-shooting-mirror": ("Lay Low the Tyrant (name an enemy Castellan — it's standalone/Titanic, you CAN kill it)", "Martial Valour", "the shooting amplifier for the gun mirror; the Lancer finishes the named Castellan in melee"),
+        "knights-melee-mirror": ("Lay Low the Tyrant (name an enemy Lancer — kill it before it kills you)", "Eager for the Challenge", "+2\"M/+1 Adv&Charge to out-position their M14 Lancers + guarantee your Lancer's counter-charge"),
         "sm-iron-hands-terminators": ("Reap a Tally (kill the backfield lascannon/scorers)", "Martial Valour", "Feirros/Librarians attached; out-remove the soft units"),
         "necrons-cursed-legion": ("Reap a Tally (18 Lokhust = many units to thin)", "Legacy Unsullied", "target-rich for the tally; +2 OC for the grind"),
         "necrons-monolith": ("Lay Low the Silent King (or Reap a Tally)", "Martial Valour", "concentrate-kill; re-rolls beat reanimation"),
@@ -513,6 +533,8 @@ MATCHUP_LEANS = {
     "chaos-knights":           ("EVEN",  "Mirror — trade gun-Knights (A) vs duel their War Dog/Lancer packs (B). Practice-dependent."),
     "grey-knights":            ("B",     "Counter-charge + assassinate casters throttles the MW; provisional (not deep-verified)."),
     "great-value-imperial-fists": ("A",  "The LSO target: a firepower + mission race. 2nd Castellan strips the Sternguard/Land-Speeder enablers faster and breaks the Oath convergence — out-gun, out-mobile."),
+    "knights-shooting-mirror": ("B",  "MELEE bypasses the enemy Ion Shield (no melee invuln on their Castellans), so more LANCERS = the better Knight-killer; List A's shooting gets Ion-Shielded. A ~even mirror, but B's 2nd Lancer is the sharper tool."),
+    "knights-melee-mirror":    ("B",  "List B's 2 Lancers match their 2 Lancers (4++ slugfest) and reach with M14; List A's shooting into 4++ Lancers is inefficient and its lone Lancer is out-numbered. B is built for this."),
 }
 
 # ---- THE DECISION ---------------------------------------------------------------
