@@ -3,7 +3,7 @@
 > **⚠ SUPERSEDED BY THE v3 REBUILD (2026-07-26).** After a full re-read of every unit + BOTH his detachments
 > (Emperor's Shield 2DP **+** Librarius Conclave 1DP — 11E stacks detachments up to your DP budget; 2000pts=3DP)
 > AND correcting the durability plan, the whole approach changed. **The durability axis is DEAD:** his bricks
-> are OC22 (Inspiring Commander, un-shockable — Battle-shock only tests below half strength, passes Ld6+ ~72%),
+> the Lysander brick is OC34 (Inspiring Commander SETS Terminators to OC2 army-wide + the Ancient's Astartes Banner +1 to the whole unit; not shock-immune, but a Knight army has no way to FORCE a test),
 > ~unkillable (2+/4++/W4/−1-to-wound), and ~50-dmg melee; FNP 6+ (~1/6) does NOT save a Knight from that, and
 > contesting a brick's objective = a Knight in its charge range = dead. **Current list & plan:**
 > `examples/knights-vs-greatvalue.yaml` = **Valourstrike Lance + Dominus Foebreakers (3DP), Priority Assets —
@@ -18,8 +18,7 @@ Practice game for the LSO. Core data verified 11E (BSData/wh40k-11e + SM Faction
 
 ## What he is (and the ONE thing that beats him)
 **~155 wounds of 2+/4++** — 10 TH/SS Terminators (T5 W4) + 10 Terminators (T5 W3) + Lysander (T5 W7)
-+ 6 Bladeguard + 10 Sternguard + 10 Vanguard + Intercessors + 2 Land Speeders. **Everything is OC1**
-(one unit OC2). Emperor's Shield adds **no save-buff** (Wrath of Dorn is *offensive* — re-roll a Wound-of-1
++ 6 Bladeguard + 10 Sternguard + 10 Vanguard + Intercessors + 2 Land Speeders. His **two Terminator bricks are OC2-3** (Inspiring Commander sets Terminators to OC2 army-wide; the Ancient's banner lifts the Lysander brick to 10x OC3 + Lysander/Ancient OC2 = **OC34**, the cyclone brick ~OC21), Intercessors **OC10** sticky, Bladeguard OC7, Vanguard OC5; the rest OC1. Emperor's Shield adds **no save-buff** (Wrath of Dorn is *offensive* — re-roll a Wound-of-1
 army-wide vs his Oath target, full wound re-roll for Lysander's unit; this stacks on top of base Oath's
 re-roll Hits + **+1 to Wound**). Librarius Conclave picks **one Discipline/round**
 (Telekinesis = the switch for Temporal Corridor **Deep Strike** + −1 S to wound his psyker units;

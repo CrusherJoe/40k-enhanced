@@ -201,7 +201,7 @@ cover at the characteristic level (net 0 before other modifiers).
 - **Secured (14.03):** a *secured* objective stays yours even with no models in
   range, **until the opponent's level of control exceeds yours at the end of a
   phase** (sticky, e.g. Intercessors' Objective Secured).
-- Consequence: **more mobile OC bodies out-control fewer big ones.** Two OC22
+- Consequence: **more mobile OC bodies out-control fewer big ones.** Two OC34
   bricks control only the 1-2 footprints they stand in; five mobile OC10/OC6
   Knights out-control the rest of the board. This is the body/OC tradeoff that
   drives Knight list design (see MEMORY / disposition analysis).

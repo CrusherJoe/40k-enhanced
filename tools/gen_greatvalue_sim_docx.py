@@ -3,7 +3,7 @@
 Foebreakers, Priority Assets) vs the friend's "Great Value" Imperial Fists (Emperor's Shield
 + Librarius Conclave, Purge the Foe).
 
-The durability plan is dead (Battle-shock can't drop his OC22 bricks; contesting a brick's
+The durability plan is dead (I can't Battle-shock his OC34 bricks — a Knight army has no forced-test tool; contesting a brick's
 objective = a dead Knight; FNP 6+ doesn't save a Knight from ~50 melee). This version wins on
 SPEED + RANGE + SPREAD: 3 gun-Knights delete his soft scorers from the back, fast Armigers
 take the objectives his two M5 bricks can't reach, and I steal his home for +10. Never enter
@@ -95,11 +95,12 @@ P("Three earlier ideas are DEAD, and the game only makes sense once you accept w
   "bricks — my best guns do ~6–8/turn into a 2+/4++/W4/−1-to-wound Terminator wall. (2) I cannot BATTLE-SHOCK "
   "them off an objective — the brick is NOT immune (Lysander grants no immunity), but a KNIGHT army has no way to "
   "FORCE a test, and they won’t take one voluntarily until below half strength (6+ dead, which I can’t inflict); "
-  "so for ME the OC22 is effectively permanent (a shock-weaponizer like Tyranids/Necrons could break it — I "
+  "so for ME the OC34 is effectively permanent (a shock-weaponizer like Tyranids/Necrons could break it — I "
   "can’t). (3) You cannot out-CONTROL the objective the brick sits on — "
   "in 11E the objective IS the terrain piece (its footprint is the scoring area; there are no separate markers), "
-  "and control goes to whoever has the most Objective Control base-touching it. Out-holding OC22 needs OC23+ = "
-  "two big Knights + an Armiger crowded onto the same small footprint the brick is on — i.e. inside its 2D6\" "
+  "and control goes to whoever has the most Objective Control base-touching it. Out-holding OC34 needs OC35+ = "
+  "FOUR big Knights (OC10 each) crammed onto the same small footprint the brick is on — physically impossible, and "
+  "it would put them inside its 2D6\" "
   "charge, where the brick’s ~50-damage Oathed melee (Thunder Hammers + Fist of Dorn, all Dev Wounds) deletes "
   "any Knight it touches. Feel No Pain 6+ "
   "(~1/6) turns ~50 into ~42, still a dead Knight. So durability and proximity are losing axes.", size=10)
@@ -116,7 +117,7 @@ P("Detachments (3 DP): Emperor’s Shield (2 DP) + Librarius Conclave (1 DP). Di
 table(["Unit (attached)", "Key profile", "The threads that matter"],
 [["Lysander + Ancient (Term.) + 10 Assault Terminators (TH/SS)",
   "T5 W4 2+/4++ ×11, M5. Fist of Dorn S10 AP-3 D3 A5 Dev; TH S8 AP-2 D2 A5 Dev",
-  "Icon of Obstinacy (unit −1 to wound when S≥T5), Rampart (2+ inv once), Inspiring Commander (non-Character Terminators OC2 while not Battle-shocked → OC22 brick, permanent in practice), Champion of the Feast (+1 A), Terminatus Assault (Battle-shocks what it engages). Wrath of Dorn: FULL wound re-roll vs Oath. ~50 Oathed melee = a dead Knight. AVOID."],
+  "Icon of Obstinacy (unit −1 to wound when S≥T5), Rampart (2+ inv once), Inspiring Commander (SETS Terminators to OC2, army-wide) + the Ancient's Astartes Banner (+1 OC to the whole unit) → 10 Terminators OC3 + Lysander & Ancient OC2 = OC34 brick (not shock-immune, but a Knight army can't force the test), Champion of the Feast (+1 A), Terminatus Assault (Battle-shocks what it engages). Wrath of Dorn: FULL wound re-roll vs Oath. ~50 Oathed melee = a dead Knight. AVOID."],
  ["Bladeguard Ancient + 6 Bladeguard", "T4 W3 3+/4++",
   "Malodraxian Standard (−1 to wound when S>T4) + Bladeguard (Swords/Shields). Tanky; not a priority — it’s slow melee I just don’t feed."],
  ["Librarian [Temporal Corridor] + 10 Sternguard", "T4 W2 3+; bolt rifle S4 AP-1 Dev/Heavy/RF1",
@@ -167,7 +168,7 @@ table(["", "Vital Link (me)", "Destroyer’s Wrath (him)"],
  ["R2+, end of turn", "—", "4 VP destroyed more than he lost last turn"],
  ["End of battle", "10 VP control his home", "—"]],
 widths=[1.6, 2.7, 2.7])
-P("The clash: his OC22 brick squats ONE central; I hold the OTHER central with a fast body, so I keep Vital "
+P("The clash: his OC34 brick squats ONE central; I hold the OTHER central with a fast body, so I keep Vital "
   "Link’s central bonuses. I win on holding a central + the non-central objectives (4 VP), the closing 10 for "
   "his home, and secondaries, while my "
   "gunline deletes the mobile scorers he’d need to out-spread me (denying his 6-VP ‘more objectives’ clause). "
@@ -205,7 +206,7 @@ P("Deployment — the ACTUAL board (GW Event Companion pp. 33–35): my Priority
   "cover / wall-blocking): his HOME (top-left corner) + my HOME (bottom-right corner) + TWO CENTRAL objectives "
   "in the middle + TWO EXPANSION objectives in no-man’s-land. I win the roll-off and take the first turn (wipe "
   "his Sternguard; seize objectives).", bold=True)
-P("★ The two-central objective is a gift: his OC22 brick can only squat ONE central. I put a fast body "
+P("★ The two-central objective is a gift: his OC34 brick can only squat ONE central. I put a fast body "
   "(Warglaive M12 or the Immolator) on the OTHER central and HOLD it — so I collect Vital Link’s central "
   "bonuses (+2 end-of-turn, +4 in Command) every round instead of conceding them. His two M5 bricks simply "
   "cannot cover both centrals + two expansions + threaten my home; I win the objective count on tempo.", size=10, color=STEEL)
@@ -218,7 +219,7 @@ bullet("Armiger — 100mm round (~3.9”): fast, cheap objective-toucher and scr
   "(~4.7”×3”). Sisters — 32mm. His Terminators — 40mm; Sternguard/​Intercessors — 32mm.")
 P("The base math is why the standoff works on OBJECTIVES too: my big Knights base-touch the safe objectives "
   "from ~3” back (out of the brick’s reach), and an M12 Armiger toe-touches his home. I only decline to "
-  "base-touch the ONE small footprint his OC22 brick squats.", size=9, color=GREY)
+  "base-touch the ONE small footprint his OC34 brick squats.", size=9, color=GREY)
 rich([("My deployment: ", {"bold":True,"color":STEEL}),
       ("both Castellans + the Crusader in a back-corner GUNLINE with LOS across the whole board (they never move "
        "forward). Helverins just ahead of them, also back, 36” guns covering the centre and both flanks. Battle "
@@ -361,7 +362,7 @@ phase("Charge.", "The brick reaches C but there is NOTHING of mine in charge ran
   "gun-Knight: brick M5 vs my ability to simply not be there. It consolidates onto C.")
 phase("Fight.", "None that matters.")
 phase("End of his turn — Destroyer’s Wrath.", "Destroyed 0 of my units this turn → 0 on that clause (his alpha "
-  "only bracketed a Castellan). Objectives: he now controls C (OC22) → 4 VP; he does NOT control more than me "
+  "only bracketed a Castellan). Objectives: he now controls C (OC34) → 4 VP; he does NOT control more than me "
   "(I hold B + D + E-adjacent) → no 6 VP. ‘More than I lost last turn’ (I lost 0) → 0. Secondary (Bring It "
   "Down — he shot a Vehicle but destroyed none) → ~2.")
 tally("21", "7", "His signature turn produced ZERO kills and 4 primary. A standoff that never exposes a Knight "
@@ -386,14 +387,14 @@ tally("40", "7", "Both Speeders and half the cyclone brick gone, and I’m now b
 turnhead("▶ His Turn 3 — squat and squeeze", FIST)
 phase("Command.", "Gain 1 CP. Oath: the bracketed Castellan (finish it) or the Warglaive threatening his home. He "
   "Oaths the Warglaive to protect A. Discipline: Divination.")
-phase("Movement.", "Brick stays on C (OC22 — his one real board-control tool). Bladeguard remnant shuffles to "
+phase("Movement.", "Brick stays on C (OC34 — his one real board-control tool). Bladeguard remnant shuffles to "
   "contest D. Cyclone remnant repositions to shoot.")
 phase("Shooting.", "Cyclone remnant (~5) into the Oathed Warglaive → ~8 → Warglaive to ~6 W, lives. Nothing "
   "reaches my Castellans (they’re in the corner, and the brick has no ranged).")
 phase("Charge / Fight.", "Bladeguard try to wall D; no profitable charge into my Knights exists.")
 phase("End of his turn — Destroyer’s Wrath.", "0 destroyed → 0. Objectives: he holds C + his home A + contests "
   "D → this snapshot he may control MORE objectives than me → 6 VP + 4 VP (non-home C) = 10 VP. Secondary → 3.")
-tally("40", "18", "His one big primary turn — the OC22 brick on centre plus a contested flank. I must break the "
+tally("40", "18", "His one big primary turn — the OC34 brick on centre plus a contested flank. I must break the "
   "objective count next turn, and I have the speed to do it.")
 
 # ===================================================== ROUND 4
@@ -453,7 +454,7 @@ P("End of Battle — Vital Link:", bold=True, color=STEEL)
 P("I control his home objective A → +10 VP.", size=11)
 p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER; p.paragraph_format.space_before = Pt(6)
 r = p.add_run("FINAL:  Knights ~76  —  Imperial Fists ~47"); r.bold=True; r.font.size=Pt(15); r.font.color.rgb=STEEL
-P("Roughly: me = ~46 primary (Vital Link: a central MOST rounds — his OC22 brick contests one — + non-home objectives + the 10-VP home "
+P("Roughly: me = ~46 primary (Vital Link: a central MOST rounds — his OC34 brick contests one — + non-home objectives + the 10-VP home "
   "steal) + ~40 secondary (Engage, Secure No Man’s Land, Bring It Down, Behind Enemy Lines, Forward Position, "
   "Centre Ground, Cleanse — cards a mobile army completes for free). Him = ~22 primary (Destroyer’s Wrath, "
   "starved because I hold more objectives and OUT-kill him) + ~18 secondary (Defend Stronghold early, a late "
@@ -475,7 +476,7 @@ P("   Two Volcanoes one-shot both Land Speeders; Avenger + two Helverins clear t
 bullet("Deny his mission, don’t out-kill his bricks.", bold_lead="4. ")
 P("   Destroyer’s Wrath wants kills and objective-majority; a standoff that loses only cheap bodies starves the "
   "kill clauses, and killing his mobile scorers lets my fast Armigers out-spread his two M5 bricks for the "
-  "majority. I concede only the ONE central his OC22 brick squats, HOLD the other central with a fast body, and win everywhere else.", size=9)
+  "majority. I concede only the ONE central his OC34 brick squats, HOLD the other central with a fast body, and win everywhere else.", size=9)
 bullet("Steal the home the wall marched away from.", bold_lead="5. ")
 P("   His bricks advance up-field, leaving A undefended; an M12 Warglaive walks onto it for the closing +10 that "
   "his slow army can’t come back to contest.", size=9)

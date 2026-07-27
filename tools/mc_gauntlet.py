@@ -51,7 +51,7 @@ ENEMIES = {
   # KILLABLE scorers (Repulsor W16 no-invuln, Eradicators/Sternguard/Scouts W2-3). They focus 1 Knight/turn.
   "DA Deathwing":   dict(obj0=2.2, obj_floor=1.0, dura=1.5, ak_dmg=14, ak_kill=0.22, score=3.5),
   # COIN-FLIP/UNDERDOG (hardened Great Value sim, prior work): unsaveable Sternguard Dev + sticky OC10
-  # Intercessors + Armour of Contempt + un-shockable OC22 brick I can never catch.
+  # Intercessors + Armour of Contempt + OC34 brick I can never catch (not shock-immune, but I have no forcer).
   "Great Value":    dict(obj0=3.2, obj_floor=2.2, dura=2.0, ak_dmg=18, ak_kill=0.22, score=5.0),
 }
 

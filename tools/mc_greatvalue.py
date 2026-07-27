@@ -31,7 +31,7 @@ def kills(dmg, wounds_per_model, models_left):
 def fresh_enemy():
     # oc = total unit OC; w = wounds/model; models; soft = killable-ish; role
     return {
-      "brick1":   dict(models=10, w=4, oc=22, soft=False, on=True),  # TH/SS Lysander (unkillable), OC22
+      "brick1":   dict(models=10, w=4, oc=34, soft=False, on=True),  # TH/SS Lysander (unkillable), OC34
       "brick2":   dict(models=10, w=3, oc=20, soft=True,  on=False, tough=True), # cyclone Termies 2+/4++ (slow kill), reserve
       "sternguard":dict(models=10,w=2, oc=11, soft=True,  on=False),  # reserve; the Dev-Wound alpha leg
       "speeder1": dict(models=1, w=9, oc=3,  soft=True,  on=False),   # Deep Strike
@@ -134,7 +134,7 @@ def run_game(list_name):
         for name in set(rem1+rem2):
             if e[name]["models"]<=0 and not e[name].get("_counted"):
                 his_units_killed+=1; e[name]["_counted"]=True
-        # Vital Link primary: his OC22 brick squats a central; his broad OC contests the rest until I kill it.
+        # Vital Link primary: his OC34 brick squats a central; his broad OC contests the rest until I kill it.
         his_contest = (enemy_oc_onboard(e)-e["brick1"]["oc"])*0.6
         central = 1 if cfg["fwd_oc"] > his_contest and random.random()<0.7 else 0
         me_prim += min(15, 2*central + (4 if cfg["fwd_oc"]>8 else 0) + 4*central)

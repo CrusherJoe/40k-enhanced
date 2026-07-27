@@ -22,7 +22,7 @@ docs/
 
 Every file here is **generated** from a single-source-of-truth data module in `tools/`
 (never hand-edited) and carries a **version number** on its cover, in a per-page footer,
-and **in its filename** (`…-v1.0.docx`). Each **`.docx` has a matching `.pdf`**;
+and **in its filename** (`…-vX.Y.docx`; the current versions live in `tools/doc_versions.py`). Each **`.docx` has a matching `.pdf`**;
 **`.xlsx` workbooks stay as Excel files** (no PDF/CSV export).
 
 Versions live in **`tools/doc_versions.py`** — bump there when content changes, then
@@ -31,14 +31,14 @@ regenerate; a new `-vX.Y` file is written and the old revision is left on disk
 
 | Deliverable | File | Generator | Data |
 |---|---|---|---|
-| **LSO Runbook — Imperial Knights** (list decision + 26 per-archetype battle plans) | `reports/knights/LSO-Runbook-v1.0.docx` | `gen_lso_runbook_docx.py` | `lso_data.py` |
-| **LSO Knights — List Decision** (List A vs B, prevalence-weighted) | `reports/knights/LSO-Knights-List-Decision-v1.0.xlsx` | `gen_lso_decision_xlsx.py` | `lso_data.py` |
-| **LSO Knights — List & Analysis** (single-List-A reference) | `reports/knights/LSO-Knights-List-and-Analysis-v1.0.xlsx` | `gen_lso_xlsx.py` | `lso_data.py` |
-| **Great Value — LSO Runbook** (the friend's Imperial Fists) | `reports/great-value/GV-LSO-Runbook-v1.0.docx` | `gen_gv_docx.py` | `gv_data.py` |
-| **Great Value — LSO Analysis** | `reports/great-value/GV-LSO-Analysis-v1.0.xlsx` | `gen_gv_xlsx.py` | `gv_data.py` + `mc_gv_sim.py` |
-| **Great Value vs Knights — Full-Game Simulation** | `reports/great-value/Great-Value-vs-Knights-Full-Game-Simulation-v1.0.docx` | `gen_greatvalue_sim_docx.py` | sim |
-| **Adepta Sororitas — Battle Plan** | `reports/sisters/Sisters-Battle-Plan-v1.0.docx` | `gen_sisters_docx.py` | army builder + layouts |
-| **Adepta Sororitas — Quick Reference** | `reports/sisters/Sisters-Quick-Reference-v1.0.docx` | `gen_sisters_qref_docx.py` | layouts |
+| **LSO Runbook — Imperial Knights** (list decision + 26 per-archetype battle plans) | `reports/knights/LSO-Runbook-vX.Y.docx` | `gen_lso_runbook_docx.py` | `lso_data.py` |
+| **LSO Knights — List Decision** (List A vs B, prevalence-weighted) | `reports/knights/LSO-Knights-List-Decision-vX.Y.xlsx` | `gen_lso_decision_xlsx.py` | `lso_data.py` |
+| **LSO Knights — List & Analysis** (single-List-A reference) | `reports/knights/LSO-Knights-List-and-Analysis-vX.Y.xlsx` | `gen_lso_xlsx.py` | `lso_data.py` |
+| **Great Value — LSO Runbook** (the friend's Imperial Fists) | `reports/great-value/GV-LSO-Runbook-vX.Y.docx` | `gen_gv_docx.py` | `gv_data.py` |
+| **Great Value — LSO Analysis** | `reports/great-value/GV-LSO-Analysis-vX.Y.xlsx` | `gen_gv_xlsx.py` | `gv_data.py` + `mc_gv_sim.py` |
+| **Great Value vs Knights — Full-Game Simulation** | `reports/great-value/Great-Value-vs-Knights-Full-Game-Simulation-vX.Y.docx` | `gen_greatvalue_sim_docx.py` | sim |
+| **Adepta Sororitas — Battle Plan** | `reports/sisters/Sisters-Battle-Plan-vX.Y.docx` | `gen_sisters_docx.py` | army builder + layouts |
+| **Adepta Sororitas — Quick Reference** | `reports/sisters/Sisters-Quick-Reference-vX.Y.docx` | `gen_sisters_qref_docx.py` | layouts |
 
 ### Rebuild
 

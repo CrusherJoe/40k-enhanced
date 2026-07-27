@@ -6,12 +6,12 @@ Conclave (1DP)**, ~1985 pts, disposition Purge the Foe. Stats from BSData/wh40k-
 (`sm11.json` + IF/Emperor's-Shield/Conclave in the SM faction pack v1.1).
 
 ## The list & tapestry
-A reserve-heavy teleport/deep-strike alpha built on an **un-shockable OC22
-Terminator brick**, with Oath of Moment as the convergence engine.
+A reserve-heavy teleport/deep-strike alpha built on an **OC34
+Terminator brick** (Lysander + Ancient), with Oath of Moment as the convergence engine.
 
 | Unit | Stats | Role |
 |---|---|---|
-| **TH/SS Assault Terminators (10) + Lysander + Ancient** | 2+/**4++**, OC22 | the brick. Fist of Dorn S10 AP-3 D3 A5 **Dev**; TH; ~**24-28 melee → one-rounds ANY Knight** (even Lancer 4++). No psyker; M5 + Teleport Homer |
+| **TH/SS Assault Terminators (10) + Lysander + Ancient** | 2+/**4++**, **OC34** | the brick. Fist of Dorn S10 AP-3 D3 A5 **Dev**; TH; ~**24-28 melee → one-rounds ANY Knight** (even Lancer 4++). No psyker; M5 + Teleport Homer |
 | **Cyclone Terminators (10) + Librarian [Fusillade]** | 2+/4++ | **#1 ranged Knight-threat**: krak S9 **AP-2** + cyclone missiles; ~13/big Knight, **~14 one-shots an Armiger**. *Fury of the First* +1 hit vs Oath. Fusillade = **Lethal Hits** |
 | **Sternguard (10) + Librarian [Temporal Corridor]** | T4 W2 | **unsaveable chipper**: *Sternguard Focus* = **FULL wound-reroll vs Oath** → each 6 = Dev-Wound mortal, ~5-7/turn skipping my Ion Shield. Character/Sisters sniper |
 | **2× Land Speeder** | M14 T8/9 W10 3+/**6++** OC3 | **Armiger-killer**: multi-melta S9 **AP-4** D6 **Melta 2** (2 shots ea). **Have Deep Strike** |
@@ -24,11 +24,15 @@ Terminator brick**, with Oath of Moment as the convergence engine.
   the Oathed Knight: Speeders 4.6→10.7, cyclones 6.4→11.5, Sternguard 4.2→8.1.
 - **Wrath of Dorn** (Emperor's Shield rule): re-roll a **Wound-of-1 army-wide** +
   **FULL wound re-roll for Lysander's unit**.
-- **Lysander — Inspiring Commander**: non-Character Terminators become **OC2** →
-  10-brick = OC20 (+Lysander +Ancient = **OC22**). **Un-shockable in practice**
-  (only tests below half-strength = need 6+ dead first; I can't get there) → the
-  OC22 is effectively permanent. + *Icon of Obstinacy* (−1 to wound at S≥T5) +
-  Rampart (2+ inv once).
+- **The OC34 brick — Inspiring Commander + Astartes Banner**: Lysander's Inspiring
+  Commander **sets** non-Character Terminators to **OC2** (army-wide — the cyclone
+  brick benefits too); the Ancient's **Astartes Banner** then adds **+1 OC to every
+  model in its unit** → **10 Terminators OC3 + Lysander OC2 + Ancient OC2 = OC34**
+  (earlier undercounted as OC22 by missing the banner). **Not shock-immune**, but it
+  only tests below half-strength (6+ dead) unless an enemy FORCES a test — and a Knight
+  army has no forcer, so for me it's effectively permanent (a shock-weaponizer like
+  Tyranids/Necrons/CSM/Daemons CAN drop it). + *Icon of Obstinacy* (−1 to wound at S≥T5)
+  + Rampart (2+ inv once).
 - **Emperor's Shield stratagems**: **Armour of Contempt** (−1 AP def — drops my
   Avenger AP-2→AP-1, saves his Intercessors), Fury of the First (+1 hit/+1 wound),
   Disciplined Extermination (+1 AP + Ignore Cover), **Dropship Extraction** (2nd
@@ -54,7 +58,7 @@ threatens through **convergence on the Oathed target**, not raw durability.
 **Verdict: COIN-FLIP** (~5-5; the hardened 2-Lancer sim lands even). Start from the
 **expectation of a loss** and hunt the heist — do NOT assume the guns bail me out.
 Deciding factor: **whether I break his convergence before it deletes a Knight, and
-whether I out-score two slow M5 OC22 bricks I can't out-OC head-on.**
+whether I out-score two slow M5 bricks (OC34 + ~OC21) I can't out-OC head-on.**
 
 **HEIST:**
 1. **Navigator's 12" anti-DS dome is the linchpin** — it denies all four arrival
@@ -75,7 +79,7 @@ whether I out-score two slow M5 OC22 bricks I can't out-OC head-on.**
    (Objective Secured + Wrathful Conquerors), so I **can't just show up after he
    leaves** — I win by ATTRITION: kill his soft OC (Speeders/Sternguard/Vanguard =
    OC removed) so his board control collapses to the 2 bricks by T3-5 while my
-   mobile pieces take the flanks. **Cede the ONE central objective the OC22 brick
+   mobile pieces take the flanks. **Cede the ONE central objective the OC34 brick
    squats; hold the others.** The +10 home-steal is UNRELIABLE (need OC>10 to flip
    his sticky Intercessors) — don't make the plan depend on it.
 
@@ -95,7 +99,7 @@ deleting his soft legs from safety, and out-mobiling M5 bricks on the mission �
 by out-fighting or out-tanking him.
 
 ## How Adepta Sororitas fare
-Harder for Sisters than for Knights. The **OC22 un-shockable brick is exactly the
+Harder for Sisters than for Knights. The **OC34 brick is exactly the
 elite-Terminator archetype that beats glass T3 W1** (it tabled the user's Sisters
 98-31 in a comparable HeeYaw game), and Sternguard Dev + AP-2 cyclone volume shred
 W1 bodies. BUT Sisters answer the **deep-strike/teleport alpha** better than Knights:

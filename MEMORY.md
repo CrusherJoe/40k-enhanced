@@ -72,6 +72,7 @@ Status:
 - **CP economy:** gain 1 CP at the START OF EACH PLAYER-TURN -> ~2 CP/round, ~10/game; + rare discard-a-secondary (max +1/turn) + CP-granting models. Each Strat once/phase, costs CP. **Knights: becoming HONOURED (Code Chivalric Deed done) = +2 CP (3 if you rolled the Oath)**, exempt from the cap -> a CP engine; complete a Deed EARLY to fund Rotate + Epic Challenge all game.
 - **CODE CHIVALRIC** (IK army rule): pick 1 DEED + 1 QUALITY at deploy. QUALITY is army-wide all game (Martial Valour rr1hit+1wound / Legacy +2OC+1Ld / Eager +2"M +1Adv&Charge). DEED complete once -> Honoured +2/3CP (Reap a Tally = kill >round-number units this round / Lay Low the Tyrant = kill a named enemy CHARACTER, only viable vs a killable standalone or Epic-Challengeable attached one / Reclaim the Realm = out-OC, AVOID). Per-archetype picks in `lso_data.CODE_CHIVALRIC`.
 - **When calibrating sims: account for Strat effects + CP spend-vs-availability** — buffs are NOT free/always-on (once/phase, cost CP, ~2 CP/round budget).
+- **OC MODIFIERS STACK — the GV brick is OC34, not OC22 (GV-pilot-corrected 2026-07-27; I missed the Ancient's banner).** Two effects on the Lysander brick: (1) Lysander's **Inspiring Commander SETS** non-Character Terminators to OC2 — **ARMY-WIDE** (every Terminator Assault/Terminator Squad in the army, not just his unit → the cyclone brick is OC2-each too); (2) the **Ancient in Terminator Armour's ASTARTES BANNER** adds **+1 OC to EVERY model in its own unit** (the Terminators AND the attached Characters, incl. itself; multiple banners STACK per FAQ). Net Lysander brick = 10 Termis at **OC3** + Lysander **OC2** + Ancient **OC2** = **OC34**; cyclone brick ≈ OC21 (no banner). LESSON: enumerate EVERY OC modifier per model — apply SET-effects first, then +1 banners/enhancements — don't eyeball the total.
 
 **★ listhammer DATA HYGIENE: exclude lists dated BEFORE 2026-07-23 (user law).** The 7/22/2026 Dataslate reset points +
 rules; pre-7/23 GT lists (e.g. Tacoma 7/17, Edinburgh 7/18) use stale rules → NOT valid meta signal. Filter the archive by
@@ -90,8 +91,8 @@ Terminators = 40mm. **REFERENCE (user-provided, verify-current): base-size guide
 en-blastedhorizons.blogspot.com/2015/07/guide-to-40k-bases.html — despite the 2015 URL it's a LIVING ARTICLE
 maintained to 2026 (current), good for OPPONENT base sizes in future matchups.** (It lists the Knight oval as
 170×109mm; user measures 170×105 — negligible ~4mm; use 170×105.) This CORRECTS my "contest = point-blank death" overstatement — I hold the SAFE
-objectives from a base-touch ~3" out; I only decline the ONE small footprint the OC22 brick squats (out-holding
-OC22 needs OC23+ crowded onto it = inside its 2D6" charge). Terrain = cover, so **cover is
+objectives from a base-touch ~3" out; I only decline the ONE small footprint the OC34 brick squats (out-holding
+OC34 needs OC35+ crowded onto it = four big Knights = impossible, and inside its 2D6" charge). Terrain = cover, so **cover is
 everywhere** on GW/tournament layouts. COVER = −1 to hit, RANGED ONLY (models in/behind terrain; Knights get it
 too but it does NOTHING vs melee). Always model cover in BOTH directions when analysing a matchup. (LSO uses GW
 terrain layouts closely; I have the maps+legends; sightlines are not an issue for a back-line gunline.)
@@ -781,11 +782,12 @@ Champions 1/T&H). Rules STACK army-wide.
   (c) **UNIT Oath-synergies**: Sternguard "Sternguard Focus" = FULL wound-reroll vs Oath; cyclone Termies
   "Fury of the First" = **+1 Hit vs Oath (datasheet)**; Terminatus Assault = Battle-shock on engage; (d)
   **Lysander**: Icon of Obstinacy (his UNIT −1 to wound when S≥T5 — big def layer on the brick), Rampart (2+
-  inv once), **Inspiring Commander → non-Character Terminators are OC2 WHILE NOT BATTLE-SHOCKED** (base OC1;
-  OC = SUM of all models per unit [user sanity-check]) so a 10-Terminator brick = OC20 (+Lysander+Ancient
-  Characters at OC1 = OC22 un-shocked). **Battle-shock is NOT a lever (user-corrected, CR 8.03/1.07): a unit
-  only TESTS while Below Half-Strength [need 6+ Terminators dead first — I can't] and passes on Ld6+ ~72% — so
-  the OC22 is effectively PERMANENT.** ⇒ I can't out-kill it, can't out-durable it, and can't contest its
+  inv once), **Inspiring Commander → non-Character Terminators are OC2 (SET, army-wide) WHILE NOT BATTLE-SHOCKED**,
+  **PLUS the Ancient's Astartes Banner +1 OC to the whole unit** (Termis AND the Characters) → 10 Termis at OC3 +
+  Lysander OC2 + Ancient OC2 = **OC34** (see banked "OC MODIFIERS STACK"; I earlier undercounted as OC22).
+  **Battle-shock is not a lever FOR ME (no Knight forced-test tool; CR 1.07): the brick only TESTS below
+  half-strength [need 6+ Termis dead — I can't] so for a Knight army the OC34 is effectively PERMANENT** (a
+  shock-weaponizer — Tyranids/Necrons/CSM/Daemons — CAN force it; it is NOT shock-immune). ⇒ I can't out-kill it, can't out-durable it, and can't contest its
   objective up close (markers sit in terrain = getting a Knight in OC range = in its ~50-dmg charge range =
   dead Knight; FNP 6+ ~1/6 does NOT save a Knight from ~50 melee). Fist of
   Dorn S10 AP-3 D3 A5 Dev; (e) Bladeguard Malodraxian Standard (−1 to wound when S>T4); (f) **Land Speeders
