@@ -1661,5 +1661,26 @@
   "startDate": "2026-07-25",
   "eventUid": "ba32d00d442f52e91c",
   "isRtt": false
+ },
+ {
+  "eventId": "KLSt4yURfmjCdIG",
+  "playerId": "55659dd0-94bc-4f5a-be4d-002a9be305d9",
+  "playerUid": "c5accd4cc8fb36cd79",
+  "playerName": "Mario Titz",
+  "faction": "Space Wolves",
+  "eventName": "120. Bedburger Scheunenkloppen",
+  "wins": 5,
+  "draws": 0,
+  "losses": 0,
+  "listId": "55659dd0-94bc-4f5a-be4d-002a9be305d9",
+  "listUid": "f25ffa21ee57d68d33",
+  "listText": "2k (2000 Punkte)\n\nSpace Marines\nSpace Wolves\nEinsatzverband (2000 Punkte)\nEine Legende,\ndie der Skalden w\u00fcrdig ist und Saga of the Beastslayer (3 Kontingentspunkte)\nEinnehmen und halten\n\nAngeschlossene Einheiten\nAngeschlossene Einheit 1\n\nLogan Grimnar (100 Punkte)\n\u2022 Angeschlossen als: Anf\u00fchrer (Charaktermodell)\n\u2022 Kriegsherr\n\u2022 1x Axe Morkai\n1x Storm bolter\n1x Tyrnak and Fenrir\n\nWolf Guard Terminators (300 Punkte)\n\u2022 Angeschlossen als: Leibw\u00e4chter\n\u2022 1x Wolf Guard Terminator Pack Leader\n\u2022 1x Relic greataxe\n\u2022 9x Wolf Guard Terminator\n\u2022 2x Assault cannon\n7x Master-crafted power weapon\n2x Power fist\n7x Storm bolter\n\nAngeschlossene Einheit 2\n\nRagnar Blackmane (90 Punkte)\n\u2022 Angeschlossen als: Anf\u00fchrer (Charaktermodell)\n\u2022 1x Bolt Pistol\n1x Frostfang\n\nBlood Claws (270 Punkte)\n\u2022 Angeschlossen als: Leibw\u00e4chter (Linientruppen)\n\u2022 1x Blood Claw Pack Leader\n\u2022 1x Plasma pistol\n1x Power weapon\n\u2022 19x Blood Claw\n\u2022 19x Astartes chainsword\n19x Bolt pistol\n\nAngeschlossene Einheit 3\n\nWolf Guard Battle Leader (65 Punkte)\n\u2022 Angeschlossen als: Anf\u00fchrer (Charaktermodell)\n\u2022 1x Master-crafted power weapon\n1x Storm Shield\n\nBlood Claws (135 Punkte)\n\u2022 Angeschlossen als: Leibw\u00e4chter (Linientruppen)\n\u2022 1x Blood Claw Pack Leader\n\u2022 1x Astartes chainsword\n1x Bolt pistol\n\u2022 9x Blood Claw\n\u2022 9x Astartes chainsword\n9x Bolt pistol\n\n\nCHARAKTERMODELLE\n\nBjorn the Fell-Handed (160 Punkte)\n\u2022 1x Heavy flamer\n1x Helfrost cannon\n1x Trueclaw\n\n\nLINIENTRUPPEN\n\nIntercessor Squad (80 Punkte)\n\u2022 1x Intercessor Sergeant\n\u2022 1x Astartes grenade launcher\n1x Bolt pistol\n1x Bolt rifle\n1x Power fist\n\u2022 4x Intercessor\n\u2022 4x Bolt pistol\n4x Bolt rifle\n4x Close combat weapon\n\n\nWEITERE DATENBL\u00c4TTER\n\nFenrisian Wolves (45 Punkte)\n\u2022 5x Fenrisian Wolf\n\u2022 5x Teeth and claws\n\nWolf Guard Headtakers (115 Punkte)\n\u2022 3x Wolf Guard Headtaker\n\u2022 3x Heavy bolt pistol\n3x Paired master\u2011crafted power weapons\n\u2022 3x Hunting Wolves\n\u2022 3x Teeth and claws\n\nWolf Guard Terminators (300 Punkte)\n\u2022 1x Wolf Guard Terminator Pack Leader\n\u2022 1x Relic greataxe\n\u2022 9x Wolf Guard Terminator\n\u2022 2x Assault cannon\n7x Master-crafted power weapon\n2x Power fist\n7x Storm bolter\n\nWulfen (170 Punkte)\n\u2022 10x Wulfen\n\u2022 10x Death Totem\n10x Wulfen weapons\n\nWulfen (170 Punkte)\n\u2022 10x Wulfen\n\u2022 10x Death Totem\n10x Wulfen weapons\n\nExportiert mit App-Version v2.2.0 (135), Datenversion: v909",
+  "numberOfPlayers": 33,
+  "detachment": "Saga of the Beastslayer",
+  "disposition": "Take and Hold",
+  "numberOfRounds": 5,
+  "startDate": "2026-07-25",
+  "eventUid": "e7ae68cffc86773558",
+  "isRtt": false
  }
 ]

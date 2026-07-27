@@ -21,3 +21,6 @@ tools/*.json
 # Raw external source clones + caches (re-fetchable; only normalized data is committed)
 data/_src/
 data/mfm/raw/
+
+# cron logs (local)
+logs/
