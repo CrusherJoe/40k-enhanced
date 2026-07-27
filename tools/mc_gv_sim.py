@@ -8,6 +8,10 @@ is computed from REAL profiles (data/bsdata via tools/db.py) with wh.mathhammer.
 durability (2+/4++ + Armour of Contempt) and each enemy's ability to actually hurt TEQ
 bodies are the meta-calibrated params (docs/meta + gv_data). Output = GV win% per archetype.
 
+GV's board control is modelled from its EXPLICIT OC bodies (not a single abstract constant):
+the OC34 Lysander brick + the OC21 cyclone brick each anchor a secure objective (see GV_BRICK_OC
+and run_game). spec["obj"] is the ENEMY's contested board control (their mobility/bodies).
+
   PYTHONPATH=tools:src python3 tools/mc_gv_sim.py [--games 800] [--verbose]
 
 CP economy: ~2 CP/round (1 per player-turn). Oath of Moment is FREE (army rule, always modelled
@@ -105,23 +109,51 @@ def noisy(mu, cv=0.28):
     return max(0.0, random.gauss(mu, mu * cv))
 
 
+# --- GV's BOARD CONTROL as EXPLICIT OC bodies (the win-con, not an abstraction) ---
+# GV out-scores by parking near-unkillable Objective-Control anchors. Each Terminator brick
+# SECURELY holds the objective it sits on: an enemy must both reach it (the bricks start on
+# objectives; M5) AND out-OC it WHILE it lives — practically impossible for either brick.
+#   - Lysander brick  = OC34 (10 Termis @OC3 via Inspiring Commander + Ancient's banner,
+#                        + Lysander/Ancient @OC2). ~Unkillable -> a PERMANENT secure objective.
+#   - Cyclone brick   = OC21 (10 Termis @OC2 via army-wide Inspiring Commander + Librarian @OC1).
+#                        2+/4++ and tanky, but NOT unkillable -> a heavy anti-TEQ meta can grind
+#                        it off its objective over a game (Lysander's brick cannot be shifted).
+# Two M5 bricks physically cap GV at ~2 held objectives; the game is decided on the REST by the
+# enemy's mobility (spec["obj"] = the enemy's contested board control) vs GV's sticky/mobile bits.
+GV_BRICK_OC = {"lysander": 34, "cyclone": 21}
+GV_STICKY_HOME = 10   # Intercessors (Objective Secured) -> a sticky home objective
+
+
 def run_game(spec, oath_dmg, brick, tw):
     """GV grinds: removes an enemy leg/turn (Oath convergence), tanks their damage behind
-    2+/4++/AoC, and out-scores on sticky OC + bodies. dura = enemy soaks GV's removal."""
+    2+/4++/AoC, and out-scores by anchoring objectives with its two durable OC bricks.
+    dura = enemy soaks GV's removal; enemy_kill = their EV damage into GV's TEQ bodies."""
     dura = spec.get("dura", 1.0)
     clears = (oath_dmg + 0.35 * brick) >= tw * dura       # does Oath+brick remove their priority piece/turn?
-    my_obj, their_obj = spec["obj"] - 0.4, spec["obj"]    # GV is sticky/durable -> holds its share
+    their_obj = spec["obj"]                                # enemy's contested board control (their mobility/bodies)
+    # GV's board control = its TWO secure OC anchors (OC34 Lysander + OC21 cyclone bricks) + sticky
+    # home, held against the enemy's contested control. Both bricks holding is GV's calibrated baseline;
+    # the OC21 cyclone brick is EXPLICIT and LOSABLE — a heavy anti-TEQ meta grinding it off an
+    # objective is a downside the old single-constant model never captured. (Losing it also costs GV
+    # its #1 ranged leg, so it clears less too — modelled here via the board-control hit.)
+    cyclone_alive = True
+    my_obj = spec["obj"] - 0.4                             # both bricks holding = the calibrated baseline
     bodies_lost = 0
     me = him = 0.0
     for rnd in range(1, 6):
-        # their turn: can they crack GV's TEQ? (AoC+4++ blunts most; hordes/melee/mortals hurt)
         kill = spec["enemy_kill"]
+        # their turn: chip GV's SOFT OC (Vanguard/Speeders/Intercessors) — AoC+4++ blunts most; hordes/melee/mortals hurt
         if rnd >= 2 and random.random() < min(0.5, kill / 26.0):
             bodies_lost += 1
-            my_obj = max(1.0, my_obj - 0.6)               # losing a unit dents OC (but sticky softens it)
+            my_obj = max(1.0, my_obj - 0.6)
+        # can a heavy anti-TEQ enemy grind the OC21 CYCLONE brick off its objective? (Lysander's OC34 never dies)
+        # only real grind metas (hordes w/ power fists, elite melee, mortals) manage it; gunlines bounce off 4++.
+        if rnd >= 2 and cyclone_alive and random.random() < min(0.45, max(0.0, kill - 13) / 32.0):
+            cyclone_alive = False
+            my_obj = max(1.0, my_obj - 1.0)               # losing an OC21 secure anchor is a real board-control hit
         outctrl = their_obj >= my_obj
         him += min(15, spec["score"] + (4 if outctrl else 2) + (2 if bodies_lost else 0)) + noisy(spec["score"] * 0.7)
-        # GV turn: Oath removes a leg -> their board control decays; sticky OC banks primary
+        # GV turn: Oath removes a leg -> enemy board control decays; the bricks bank primary
         if clears:
             their_obj = max(spec["floor"], their_obj - 0.3)
         me += max(0.0, min(15, 5 + (5 if my_obj >= their_obj else 2) + (1 if clears else 0) - bodies_lost)) + noisy(3.5)

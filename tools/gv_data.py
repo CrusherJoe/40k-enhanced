@@ -149,7 +149,7 @@ MATCHUPS = [
 BANDS = {
     "FAVOURABLE (bank these)": ["Emperor's Children", "AdMech", "T'au Retaliation", "Blood Angels", "Drukhari", "Astra Militarum"],
     "COIN-FLIP (practice)": ["Custodes", "Dark Angels Deathwing", "Necrons C'tan (lean unfav)"],
-    "HARDEST (accept ~45%)": ["Orks Green Tide"],
+    "HARDEST (clear underdog, ~20-25%)": ["Orks Green Tide"],
 }
 RECORD_NOTE = (
     "Great Value is a STRONG all-comers list — a better raw record expectation than a Knight army "
