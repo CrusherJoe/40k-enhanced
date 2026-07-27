@@ -24,7 +24,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "PRECISION"
      ]
@@ -91,7 +91,7 @@
      "S": 5,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -105,7 +105,7 @@
      "S": 6,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     }
@@ -166,7 +166,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -179,7 +179,7 @@
      "S": 10,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -192,7 +192,7 @@
      "S": 4,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -205,7 +205,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -218,7 +218,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3"
      ]
@@ -231,7 +231,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3",
       "PISTOL"
@@ -246,7 +246,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -257,7 +257,7 @@
      "S": 4,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     },
@@ -328,7 +328,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN LINKED"
      ]
@@ -341,7 +341,7 @@
      "S": 6,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -353,7 +353,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3"
      ]
@@ -432,7 +432,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -445,7 +445,7 @@
      "S": 10,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -458,7 +458,7 @@
      "S": 4,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -471,7 +471,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -484,7 +484,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3"
      ]
@@ -497,7 +497,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3",
       "PISTOL"
@@ -512,7 +512,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -523,7 +523,7 @@
      "S": 4,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     },
@@ -593,7 +593,7 @@
      "S": 16,
      "AP": -4,
      "D": "D6+2",
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS D3"
      ]
     }
@@ -669,7 +669,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "LETHAL HITS"
      ]
@@ -683,7 +683,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -746,7 +746,7 @@
      "S": 3,
      "AP": 0,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "PSYCHIC"
      ]
     }
@@ -804,7 +804,7 @@
      "S": 16,
      "AP": -4,
      "D": 4,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "DEVASTATING WOUNDS"
      ]
@@ -826,7 +826,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -865,7 +865,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -929,7 +929,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3",
       "PISTOL"
@@ -943,7 +943,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -956,7 +956,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PSYCHIC",
       "TORRENT"
      ]
@@ -969,7 +969,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -982,7 +982,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3"
      ]
@@ -995,7 +995,7 @@
      "S": 6,
      "AP": -2,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "BLAST",
       "PSYCHIC"
      ]
@@ -1008,7 +1008,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "PRECISION"
      ]
@@ -1030,7 +1030,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -1042,7 +1042,7 @@
      "S": 10,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -1055,7 +1055,7 @@
      "S": 4,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -1068,7 +1068,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "SUSTAINED HITS 1"
      ]
@@ -1081,7 +1081,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "LETHAL HITS"
      ]
@@ -1094,7 +1094,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN-LINKED"
      ]
@@ -1116,7 +1116,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -1129,7 +1129,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -1151,7 +1151,7 @@
      "S": 4,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     },
@@ -1194,7 +1194,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -1213,7 +1213,7 @@
      "S": 3,
      "AP": 0,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "PSYCHIC"
      ]
     },
@@ -1232,7 +1232,7 @@
      "S": 5,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-MONSTER 3+",
       "ANTI-VEHICLE 3+",
       "LANCE"
@@ -1245,7 +1245,7 @@
      "S": 3,
      "AP": 0,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -1257,7 +1257,7 @@
      "S": 3,
      "AP": 0,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -1384,7 +1384,7 @@
      "S": 16,
      "AP": -4,
      "D": "D6+2",
-     "keywords": [
+     "abilities": [
       "BLAST",
       "DEVASTATING WOUNDS",
       "INDIRECT FIRE"
@@ -1398,7 +1398,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     }
@@ -1514,7 +1514,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -1527,7 +1527,7 @@
      "S": 5,
      "AP": -2,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ANTI-CHARACTER 4+",
       "PRECISION",
       "PSYCHIC"
@@ -1542,7 +1542,7 @@
      "S": 5,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -1610,7 +1610,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN LINKED"
      ]
@@ -1623,7 +1623,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     },
@@ -1644,7 +1644,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -1665,7 +1665,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -1740,7 +1740,7 @@
      "S": 6,
      "AP": -2,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "BLAST",
       "PSYCHIC"
      ]
@@ -1753,7 +1753,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -1766,7 +1766,7 @@
      "S": 9,
      "AP": 0,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PSYCHIC"
      ]
@@ -1780,7 +1780,7 @@
      "S": 3,
      "AP": 0,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -1840,7 +1840,7 @@
      "S": 6,
      "AP": -2,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "BLAST",
       "PSYCHIC"
      ]
@@ -1853,7 +1853,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -1866,7 +1866,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN LINKED"
      ]
@@ -1879,7 +1879,7 @@
      "S": 9,
      "AP": 0,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PSYCHIC"
      ]
@@ -1893,7 +1893,7 @@
      "S": 3,
      "AP": 0,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -1953,7 +1953,7 @@
      "S": 6,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -1965,7 +1965,7 @@
      "S": 18,
      "AP": -4,
      "D": 6,
-     "keywords": [
+     "abilities": [
       "LINKED FIRE"
      ]
     },
@@ -1977,7 +1977,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN LINKED"
      ]
@@ -1990,7 +1990,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     }
@@ -2052,7 +2052,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-FLY 2+"
      ]
     },
@@ -2064,7 +2064,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN LINKED"
      ]
@@ -2077,7 +2077,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -2140,7 +2140,7 @@
      "S": 8,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 1",
       "SUSTAINED HITS 2"
@@ -2154,7 +2154,7 @@
      "S": 14,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 6"
      ]
@@ -2224,7 +2224,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3",
       "PISTOL"
@@ -2238,7 +2238,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -2251,7 +2251,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PSYCHIC",
       "TORRENT"
      ]
@@ -2264,7 +2264,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -2277,7 +2277,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3"
      ]
@@ -2290,7 +2290,7 @@
      "S": 6,
      "AP": -2,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "BLAST",
       "PSYCHIC"
      ]
@@ -2303,7 +2303,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "PRECISION"
      ]
@@ -2325,7 +2325,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -2337,7 +2337,7 @@
      "S": 10,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -2350,7 +2350,7 @@
      "S": 4,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -2363,7 +2363,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "SUSTAINED HITS 1"
      ]
@@ -2376,7 +2376,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "LETHAL HITS"
      ]
@@ -2389,7 +2389,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN-LINKED"
      ]
@@ -2411,7 +2411,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -2424,7 +2424,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -2446,7 +2446,7 @@
      "S": 4,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     },
@@ -2489,7 +2489,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -2508,7 +2508,7 @@
      "S": 3,
      "AP": 0,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "PSYCHIC"
      ]
     },
@@ -2527,7 +2527,7 @@
      "S": 5,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-MONSTER 3+",
       "ANTI-VEHICLE 3+",
       "LANCE"
@@ -2540,7 +2540,7 @@
      "S": 3,
      "AP": 0,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -2552,7 +2552,7 @@
      "S": 3,
      "AP": 0,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -2603,7 +2603,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     }
@@ -2653,7 +2653,7 @@
      "S": 12,
      "AP": -4,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     }
@@ -2723,7 +2723,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -2753,7 +2753,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -2830,7 +2830,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -2843,7 +2843,7 @@
      "S": 6,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "HEAVY",
       "PRECISION"
@@ -2975,7 +2975,7 @@
      "S": 6,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     }
@@ -2988,7 +2988,7 @@
      "S": 6,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     }
@@ -3049,7 +3049,7 @@
      "S": 5,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -3063,7 +3063,7 @@
      "S": 6,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -3127,7 +3127,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "BLAST",
       "HAZARDOUS",
@@ -3144,7 +3144,7 @@
      "S": 3,
      "AP": 0,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -3206,7 +3206,7 @@
      "S": 6,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT",
       "TWIN-LINKED"
@@ -3221,7 +3221,7 @@
      "S": 4,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "EXTRA ATTACKS",
       "LETHAL HITS"
      ]
@@ -3233,7 +3233,7 @@
      "S": 6,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     }
@@ -3296,7 +3296,7 @@
      "S": 16,
      "AP": -3,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -3317,7 +3317,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -3356,7 +3356,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -3419,7 +3419,7 @@
      "S": 7,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "IGNORES COVER"
      ]
@@ -3478,7 +3478,7 @@
      "S": 7,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "INDIRECT FIRE",
       "TWIN LINKED"
@@ -3492,7 +3492,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN LINKED"
      ]
@@ -3505,7 +3505,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     }
@@ -3568,7 +3568,7 @@
      "S": 12,
      "AP": -3,
      "D": "D6+2",
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     },
@@ -3580,7 +3580,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1",
       "TWIN-LINKED"
      ]
@@ -3651,7 +3651,7 @@
      "S": 20,
      "AP": -4,
      "D": "2D6",
-     "keywords": [
+     "abilities": [
       "BLAST",
       "DEVASTATING WOUNDS"
      ]
@@ -3767,7 +3767,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -3788,7 +3788,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1",
       "TWIN-LINKED"
      ]
@@ -3853,7 +3853,7 @@
      "S": 6,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -3866,7 +3866,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -3880,7 +3880,7 @@
      "S": 7,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "LANCE"
      ]
     }
@@ -3940,7 +3940,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "PRECISION"
      ]
@@ -3953,7 +3953,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -3993,7 +3993,7 @@
      "S": 8,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -4005,7 +4005,7 @@
      "S": 8,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-MONSTER 4+",
       "ANTI-VEHICLE 4+",
       "ASSAULT",
@@ -4020,7 +4020,7 @@
      "S": 14,
      "AP": -3,
      "D": 4,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     }
@@ -4095,7 +4095,7 @@
      "S": 18,
      "AP": -3,
      "D": 5,
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     },
@@ -4116,7 +4116,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -4155,7 +4155,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -4219,7 +4219,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -4265,7 +4265,7 @@
      "S": 6,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "INDIRECT FIRE"
      ]
@@ -4278,7 +4278,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     }
@@ -4332,7 +4332,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -4345,7 +4345,7 @@
      "S": 4,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "ASSAULT",
       "PISTOL"
@@ -4360,7 +4360,7 @@
      "S": 5,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "PSYCHIC"
      ]
     }
@@ -4423,7 +4423,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "PRECISION"
      ]
     },
@@ -4435,7 +4435,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -4447,7 +4447,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -4485,7 +4485,7 @@
      "S": 6,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "DEVASTATING WOUNDS"
      ]
@@ -4498,7 +4498,7 @@
      "S": 10,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "DEVASTATING WOUNDS"
      ]
@@ -4511,7 +4511,7 @@
      "S": 12,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "MELTA 2"
      ]
     },
@@ -4532,7 +4532,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -4611,7 +4611,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3",
       "PISTOL"
@@ -4625,7 +4625,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -4638,7 +4638,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PSYCHIC",
       "TORRENT"
      ]
@@ -4651,7 +4651,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -4664,7 +4664,7 @@
      "S": 9,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3"
      ]
@@ -4677,7 +4677,7 @@
      "S": 6,
      "AP": -2,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "BLAST",
       "PSYCHIC"
      ]
@@ -4690,7 +4690,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "PRECISION"
      ]
@@ -4712,7 +4712,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -4724,7 +4724,7 @@
      "S": 10,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -4737,7 +4737,7 @@
      "S": 4,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "IGNORES COVER"
      ]
@@ -4750,7 +4750,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "SUSTAINED HITS 1"
      ]
@@ -4763,7 +4763,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "LETHAL HITS"
      ]
@@ -4776,7 +4776,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN-LINKED"
      ]
@@ -4798,7 +4798,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -4811,7 +4811,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -4833,7 +4833,7 @@
      "S": 4,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     },
@@ -4876,7 +4876,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -4895,7 +4895,7 @@
      "S": 3,
      "AP": 0,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "PSYCHIC"
      ]
     },
@@ -4914,7 +4914,7 @@
      "S": 5,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-MONSTER 3+",
       "ANTI-VEHICLE 3+",
       "LANCE"
@@ -4927,7 +4927,7 @@
      "S": 3,
      "AP": 0,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -4939,7 +4939,7 @@
      "S": 3,
      "AP": 0,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -4991,7 +4991,7 @@
      "S": 3,
      "AP": -1,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-VEHICLE 4+",
       "DEVASTATING WOUNDS"
      ]
@@ -5004,7 +5004,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     },
@@ -5059,7 +5059,7 @@
      "S": 6,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "PRECISION"
      ]
     }
@@ -5117,7 +5117,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -5131,7 +5131,7 @@
      "S": 3,
      "AP": 0,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -5188,7 +5188,7 @@
      "S": 6,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -5200,7 +5200,7 @@
      "S": 6,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "BLAST"
      ]
@@ -5246,7 +5246,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     }
@@ -5342,7 +5342,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 2"
      ]
     },
@@ -5353,7 +5353,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "PRECISION"
      ]
@@ -5365,7 +5365,7 @@
      "S": 3,
      "AP": -4,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-EPIC HERO 2+",
       "PRECISION"
      ]
@@ -5429,7 +5429,7 @@
      "S": 7,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "PSYCHIC",
       "TORRENT"
@@ -5511,7 +5511,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "PISTOL"
      ]
@@ -5524,7 +5524,7 @@
      "S": 8,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 2",
       "PISTOL"
@@ -5538,7 +5538,7 @@
      "S": 4,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "ASSAULT",
       "PISTOL"
@@ -5553,7 +5553,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     },
@@ -5564,7 +5564,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     }
@@ -5634,7 +5634,7 @@
      "S": 9,
      "AP": -2,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     },
@@ -5646,7 +5646,7 @@
      "S": 12,
      "AP": -3,
      "D": 4,
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     }
@@ -5720,7 +5720,7 @@
      "S": 9,
      "AP": -2,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     }
@@ -5796,7 +5796,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     }
@@ -5850,7 +5850,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -5871,7 +5871,7 @@
      "S": 4,
      "AP": -1,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-VEHICLE 4+",
       "DEVASTATING WOUNDS"
      ]
@@ -5884,7 +5884,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     }
@@ -5954,7 +5954,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 2"
      ]
     },
@@ -5975,7 +5975,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     },
@@ -5996,7 +5996,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     }
@@ -6049,7 +6049,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -6070,7 +6070,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -6091,7 +6091,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     }
@@ -6136,7 +6136,7 @@
      "S": 12,
      "AP": -4,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "DEVASTATING WOUNDS"
      ]
@@ -6149,7 +6149,7 @@
      "S": 12,
      "AP": -4,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "TORRENT"
      ]
@@ -6162,7 +6162,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN LINKED"
      ]
@@ -6175,7 +6175,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -6247,7 +6247,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -6286,7 +6286,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -6345,7 +6345,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "TWIN LINKED"
      ]
@@ -6358,7 +6358,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     },
@@ -6370,7 +6370,7 @@
      "S": 10,
      "AP": -2,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     },
@@ -6382,7 +6382,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "TWIN-LINKED"
      ]
@@ -6395,7 +6395,7 @@
      "S": 12,
      "AP": -3,
      "D": "D6+2",
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     },
@@ -6407,7 +6407,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1",
       "TWIN-LINKED"
      ]
@@ -6420,7 +6420,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS",
       "TWIN-LINKED"
      ]
@@ -6433,7 +6433,7 @@
      "S": 8,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     }
@@ -6577,7 +6577,7 @@
      "S": 7,
      "AP": -3,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "TORRENT"
      ]
     }
@@ -6614,7 +6614,7 @@
      "S": 20,
      "AP": -4,
      "D": "2D6",
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     },
@@ -6626,7 +6626,7 @@
      "S": 10,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -6638,7 +6638,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -6650,7 +6650,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     },
@@ -6727,7 +6727,7 @@
      "S": 20,
      "AP": -4,
      "D": "2D6",
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     },
@@ -6739,7 +6739,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -6751,7 +6751,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     },
@@ -6832,7 +6832,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -6844,7 +6844,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "IGNORES COVER",
       "TORRENT"
@@ -6867,7 +6867,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -6888,7 +6888,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -6900,7 +6900,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LETHAL HITS"
      ]
     },
@@ -6986,7 +6986,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PSYCHIC",
       "TORRENT"
      ]
@@ -7008,7 +7008,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -7038,7 +7038,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -7059,7 +7059,7 @@
      "S": 14,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     }
@@ -7072,7 +7072,7 @@
      "S": 10,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PRECISION",
       "PSYCHIC"
@@ -7085,7 +7085,7 @@
      "S": 7,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PSYCHIC"
      ]
@@ -7136,7 +7136,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "PISTOL"
@@ -7150,7 +7150,7 @@
      "S": 8,
      "AP": -3,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     }
@@ -7163,7 +7163,7 @@
      "S": 3,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     }
@@ -7290,7 +7290,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "PISTOL"
@@ -7304,7 +7304,7 @@
      "S": 8,
      "AP": -3,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     }
@@ -7317,7 +7317,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     }
@@ -7372,7 +7372,7 @@
      "S": 3,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "SUSTAINED HITS 1"
      ]
@@ -7385,7 +7385,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "RAPID FIRE 1",
@@ -7453,7 +7453,7 @@
      "S": 2,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "DEVASTATING WOUNDS",
       "PSYCHIC"
@@ -7468,7 +7468,7 @@
      "S": 4,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     }

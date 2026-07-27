@@ -23,7 +23,7 @@
      "S": 10,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     }
@@ -87,7 +87,7 @@
      "S": 5,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "RAPID FIRE 2",
       "SUSTAINED HITS 1"
      ]
@@ -162,7 +162,7 @@
      "S": 5,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-VEHICLE 2+"
      ]
     }

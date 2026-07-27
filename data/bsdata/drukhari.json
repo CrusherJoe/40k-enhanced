@@ -24,7 +24,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "PISTOL"
@@ -38,7 +38,7 @@
      "S": 8,
      "AP": -3,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     }
@@ -51,7 +51,7 @@
      "S": 3,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     },
@@ -62,7 +62,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     },
@@ -132,7 +132,7 @@
      "S": 8,
      "AP": -4,
      "D": "D6+1",
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -144,7 +144,7 @@
      "S": 14,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3"
      ]
@@ -157,7 +157,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT"
      ]
@@ -170,7 +170,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "TWIN-LINKED"
@@ -184,7 +184,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT"
      ]
@@ -197,7 +197,7 @@
      "S": 8,
      "AP": -3,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     },
@@ -209,7 +209,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "PISTOL"
@@ -223,7 +223,7 @@
      "S": 2,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PISTOL",
       "PRECISION"
@@ -238,7 +238,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     },
@@ -249,7 +249,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "PRECISION"
      ]
@@ -261,7 +261,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "EXTRA ATTACKS",
       "LANCE"
      ]
@@ -289,7 +289,7 @@
      "S": 3,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PRECISION"
      ]
@@ -301,7 +301,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LANCE",
       "SUSTAINED HITS 1"
      ]
@@ -313,7 +313,7 @@
      "S": 3,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     },
@@ -332,7 +332,7 @@
      "S": 3,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "LANCE",
       "PRECISION"
@@ -393,7 +393,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "IGNORES COVER"
      ]
@@ -406,7 +406,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -420,7 +420,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+"
      ]
     }
@@ -448,7 +448,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     },
@@ -459,7 +459,7 @@
      "S": 6,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     }
@@ -522,7 +522,7 @@
      "S": 8,
      "AP": -4,
      "D": "D6+1",
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     },
@@ -534,7 +534,7 @@
      "S": 14,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3"
      ]
@@ -547,7 +547,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT"
      ]
@@ -560,7 +560,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "TWIN-LINKED"
@@ -574,7 +574,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT"
      ]
@@ -587,7 +587,7 @@
      "S": 8,
      "AP": -3,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     },
@@ -599,7 +599,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "PISTOL"
@@ -613,7 +613,7 @@
      "S": 2,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PISTOL",
       "PRECISION"
@@ -628,7 +628,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+"
      ]
     },
@@ -639,7 +639,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "PRECISION"
      ]
@@ -651,7 +651,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "EXTRA ATTACKS",
       "LANCE"
      ]
@@ -679,7 +679,7 @@
      "S": 3,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PRECISION"
      ]
@@ -691,7 +691,7 @@
      "S": 4,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LANCE",
       "SUSTAINED HITS 1"
      ]
@@ -703,7 +703,7 @@
      "S": 3,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     },
@@ -722,7 +722,7 @@
      "S": 3,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "LANCE",
       "PRECISION"
@@ -784,7 +784,7 @@
      "S": 2,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PISTOL",
       "PRECISION"
@@ -799,7 +799,7 @@
      "S": 3,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PRECISION"
      ]
@@ -862,7 +862,7 @@
      "S": 5,
      "AP": -3,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "HAZARDOUS"
      ]
@@ -874,7 +874,7 @@
      "S": 3,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "EXTRA ATTACKS"
      ]
     }
@@ -938,7 +938,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PRECISION",
       "SUSTAINED HITS 2"
@@ -1178,7 +1178,7 @@
      "S": 3,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "SUSTAINED HITS 2"
      ]
@@ -1244,7 +1244,7 @@
      "S": 6,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -1256,7 +1256,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "BLAST"
      ]
@@ -1269,7 +1269,7 @@
      "S": 7,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -1299,7 +1299,7 @@
      "S": 3,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "SUSTAINED HITS 1"
      ]
@@ -1312,7 +1312,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "RAPID FIRE 2",
@@ -1388,7 +1388,7 @@
      "S": 6,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     }
@@ -1409,7 +1409,7 @@
      "S": 8,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "EXTRA ATTACKS",
       "LANCE",
       "SUSTAINED HITS 3"
@@ -1469,7 +1469,7 @@
      "S": 3,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "PRECISION"
      ]
@@ -1529,7 +1529,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "TORRENT",
       "TWIN-LINKED"
@@ -1543,7 +1543,7 @@
      "S": 3,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "SUSTAINED HITS 1",
       "TWIN-LINKED"
@@ -1557,7 +1557,7 @@
      "S": 3,
      "AP": -1,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "ANTI-VEHICLE 4+",
       "DEVASTATING WOUNDS",
       "TWIN-LINKED"
@@ -1571,7 +1571,7 @@
      "S": 14,
      "AP": -4,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "MELTA 3",
       "TWIN-LINKED"
@@ -1603,7 +1603,7 @@
      "S": 8,
      "AP": -2,
      "D": "D6",
-     "keywords": [
+     "abilities": [
       "EXTRA ATTACKS"
      ]
     },
@@ -1648,7 +1648,7 @@
      "S": 10,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT"
      ]
     }
@@ -1717,7 +1717,7 @@
      "S": 3,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "ONE SHOT",
       "TORRENT"
@@ -1732,7 +1732,7 @@
      "S": 3,
      "AP": -1,
      "D": "D3",
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 2+",
       "PRECISION"
      ]
@@ -1798,7 +1798,7 @@
      "S": 3,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "SUSTAINED HITS 1"
      ]
@@ -1811,7 +1811,7 @@
      "S": 2,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 3+",
       "ASSAULT",
       "RAPID FIRE 2",
@@ -1882,7 +1882,7 @@
      "S": 9,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -1894,7 +1894,7 @@
      "S": 7,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },

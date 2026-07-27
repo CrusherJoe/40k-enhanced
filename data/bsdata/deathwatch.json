@@ -22,7 +22,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "RAPID FIRE 6",
       "TWIN-LINKED"
      ]
@@ -35,7 +35,7 @@
      "S": 6,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "TWIN-LINKED"
      ]
@@ -48,7 +48,7 @@
      "S": 12,
      "AP": -3,
      "D": "D6+1",
-     "keywords": [
+     "abilities": [
       "TWIN-LINKED"
      ]
     },
@@ -60,7 +60,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -137,7 +137,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "LETHAL HITS"
      ]
@@ -150,7 +150,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL",
       "PRECISION",
       "LETHAL HITS"
@@ -165,7 +165,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PRECISION"
      ]
     },
@@ -202,7 +202,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL",
       "LETHAL HITS"
      ]
@@ -216,7 +216,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -227,7 +227,7 @@
      "S": 10,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     }
@@ -256,7 +256,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HEAVY",
       "LETHAL HITS",
       "PRECISION"
@@ -270,7 +270,7 @@
      "S": 7,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "HEAVY"
      ]
@@ -283,7 +283,7 @@
      "S": 8,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "HAZARDOUS",
       "HEAVY"
@@ -297,7 +297,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL",
       "LETHAL HITS"
      ]
@@ -337,7 +337,7 @@
      "S": 5,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "HEAVY",
       "LETHAL HITS"
@@ -351,7 +351,7 @@
      "S": 3,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "PISTOL",
       "TORRENT"
@@ -365,7 +365,7 @@
      "S": 8,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HAZARDOUS",
       "PISTOL"
      ]
@@ -378,7 +378,7 @@
      "S": 7,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     },
@@ -399,7 +399,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -411,7 +411,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "CLOSE-QUARTERS"
      ]
     }
@@ -456,7 +456,7 @@
      "S": 8,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     }
@@ -483,7 +483,7 @@
      "S": 7,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "BLAST",
       "HEAVY",
       "LETHAL HITS",
@@ -498,7 +498,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "ASSAULT",
       "HEAVY",
       "LETHAL HITS"
@@ -512,7 +512,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "BLAST"
      ]
     },
@@ -533,7 +533,7 @@
      "S": 5,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     },
@@ -545,7 +545,7 @@
      "S": 5,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "TORRENT"
      ]
@@ -558,7 +558,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL",
       "LETHAL HITS"
      ]
@@ -598,7 +598,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "CLOSE-QUARTERS"
      ]
     }
@@ -758,7 +758,7 @@
      "S": 7,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     },
@@ -770,7 +770,7 @@
      "S": 8,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HAZARDOUS",
       "PISTOL"
      ]
@@ -784,7 +784,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 1"
      ]
     }
@@ -813,7 +813,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     },
@@ -825,7 +825,7 @@
      "S": 3,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "IGNORES COVER",
       "PISTOL",
       "TORRENT"
@@ -839,7 +839,7 @@
      "S": 7,
      "AP": -2,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     },
@@ -851,7 +851,7 @@
      "S": 8,
      "AP": -3,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "HAZARDOUS",
       "PISTOL"
      ]
@@ -905,7 +905,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "ANTI-INFANTRY 4+",
       "DEVASTATING WOUNDS",
       "IGNORES COVER",
@@ -991,7 +991,7 @@
      "S": 8,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "CLEAVE 2"
      ]
     }

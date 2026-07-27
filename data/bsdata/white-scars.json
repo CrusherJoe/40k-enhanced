@@ -24,7 +24,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     }
@@ -37,7 +37,7 @@
      "S": 5,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS",
       "PRECISION"
      ]
@@ -101,7 +101,7 @@
      "S": 5,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "DEVASTATING WOUNDS"
      ]
     },
@@ -113,7 +113,7 @@
      "S": 4,
      "AP": -1,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     }
@@ -126,7 +126,7 @@
      "S": 6,
      "AP": -2,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "LANCE",
       "ANTI-MONSTER 4+",
       "ANTI-VEHICLE 4+"

@@ -158,7 +158,7 @@ def weapon_dict(tn, name, c):
     d["S"], d["AP"], d["D"] = num(c.get("S")), num(c.get("AP")), num(c.get("D"))
     kw = kw_list(c.get("Keywords"))
     if kw:
-        d["keywords"] = kw
+        d["abilities"] = kw  # weapon keywords, as consumed by wh.mathhammer + data/profiles
     return d
 
 

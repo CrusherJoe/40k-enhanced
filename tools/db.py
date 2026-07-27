@@ -86,10 +86,26 @@ def detachment_dp(slug, name):
 
 
 def profile(slug, unit):
-    for d in bsdata(slug)["datasheets"]:
-        if re.sub(r"[’']", "'", d["name"]).lower() == re.sub(r"[’']", "'", unit).lower():
+    norm = lambda s: re.sub(r"[’']", "'", s).lower().strip()
+    t = norm(unit)
+    sheets = bsdata(slug)["datasheets"]
+    for d in sheets:                       # exact (apostrophe-insensitive)
+        if norm(d["name"]) == t:
             return d
-    raise KeyError(f"{unit!r} not in BSData {slug}")
+    subs = [d for d in sheets if t in norm(d["name"]) or norm(d["name"]) in t]
+    if len(subs) == 1:
+        return subs[0]
+    if subs:                                # prefer the shortest name (most generic)
+        return min(subs, key=lambda d: len(d["name"]))
+    raise KeyError(f"{unit!r} not in BSData {slug} (near: "
+                   f"{[d['name'] for d in sheets if t.split()[0] in norm(d['name'])][:5]})")
+
+
+def find(slug, substr):
+    """List datasheet names matching a substring (for discovering exact names)."""
+    t = re.sub(r"[’']", "'", substr).lower()
+    return [d["name"] for d in bsdata(slug)["datasheets"]
+            if t in re.sub(r"[’']", "'", d["name"]).lower()]
 
 
 def weapon(slug, unit, wname):

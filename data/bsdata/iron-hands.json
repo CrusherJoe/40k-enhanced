@@ -24,7 +24,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "RAPID FIRE 2"
      ]
     }
@@ -101,7 +101,7 @@
      "S": 5,
      "AP": -1,
      "D": 2,
-     "keywords": [
+     "abilities": [
       "SUSTAINED HITS 2"
      ]
     },
@@ -113,7 +113,7 @@
      "S": 4,
      "AP": 0,
      "D": 1,
-     "keywords": [
+     "abilities": [
       "PISTOL"
      ]
     }
@@ -134,7 +134,7 @@
      "S": 8,
      "AP": -2,
      "D": 3,
-     "keywords": [
+     "abilities": [
       "EXTRA ATTACKS"
      ]
     }

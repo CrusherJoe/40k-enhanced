@@ -45,8 +45,16 @@ Status:
   {units incl. escalating per-model + wargear costs, enhancements, detachments w/ DP}. Durable `OVERRIDES` table for parser
   gaps (IK Knight Castellan 425/450 — its name slot is absent from the SSR). List A = 1,970/2000 verified from it.
 - **BSData** ✅ 34 factions, ~1216 datasheets — `tools/bsdata_db.py` over a clone at `data/_src/wh40k-11e` (gitignored) →
-  `data/bsdata/<slug>.json` {stats, invuln, ranged/melee weapons+keywords, abilities, damaged, keywords}. SM chapters hold
-  only chapter-specific units (load `space-marines.json` for common Marine datasheets).
+  `data/bsdata/<slug>.json` {stats, invuln, ranged/melee weapons (kw under "abilities" per wh.mathhammer), damaged, keywords}.
+  SM chapters hold only chapter-specific units (load `space-marines.json` for common Marine datasheets). ⚠ **BSData wh40k-11e is
+  INCOMPLETE** (community WIP): missing units incl. Broadside, Sanguinary Guard, Deathwing Knights, Scourges. POINTS are complete
+  (MFM); PROFILES have gaps — pull enemy profiles best-effort + fall back to verified-analysis EV floors.
+- **Rules corpus committed** ✅ `data/faction-packs/<slug>.txt` (27), `data/rules/core-rules.txt`, `data/rules/event-companion.txt`.
+  39k.pro (Firebase) + gdmissions.app (Next.js) just DIGEST these official sources — their derived mission/matrix/layout data already
+  lives in `data/*.yaml`, so don't scrape their backends.
+- **Sim wiring** ✅ `tools/mc_db_sim.py` reads real Knight profiles from `data/bsdata` via `tools/db.py` + `wh.mathhammer`, runs
+  List A vs List B against the listhammer archetypes. Confirms the hand-analysis: A wins SHOOTING metas (T'au/AdMech/AM/Drukhari),
+  B wins MELEE metas (Custodes/BA/DA/EC/Orks); prevalence-weighted ~even (A 16 / B 17 / even 15) — genuinely playstyle-dependent.
 - **Missions / secondaries / matrix / dispositions / layouts** = existing hand-authored `data/*.yaml` (TODO: builders from
   39k.pro / gdmissions.app / rules PDF). **Attachments (SUPPORT/LEADER→BODYGUARD)** + agents points → TODO.
 - **Portability**: `git clone` the repo + `git clone --depth 1 BSData/wh40k-11e data/_src/wh40k-11e` + `tools/refresh.py`.
