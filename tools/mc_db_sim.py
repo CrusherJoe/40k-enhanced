@@ -178,6 +178,22 @@ def run_game(ln, spec, rak, mak, rem, tw):
     return me - him
 
 
+def results(games=800):
+    """Run the sim and return per-archetype results (for embedding in reports)."""
+    random.seed(7)
+    out = []
+    for name, spec in ARCH.items():
+        rak, mak, log = ak_split(spec)
+        remA, tw = removal("A", spec)
+        remB, _ = removal("B", spec)
+        pa = 100 * sum(run_game("A", spec, rak, mak, remA, tw) > 0 for _ in range(games)) / games
+        pb = 100 * sum(run_game("B", spec, rak, mak, remB, tw) > 0 for _ in range(games)) / games
+        best = "A" if pa > pb + 3 else "B" if pb > pa + 3 else "~even"
+        out.append(dict(archetype=name, prev=spec["prev"], akR=round(rak), akM=round(mak),
+                        remA=round(remA), remB=round(remB), winA=round(pa), winB=round(pb), best=best))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--games", type=int, default=400)

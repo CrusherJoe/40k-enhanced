@@ -87,7 +87,7 @@ def sheet_decision(wb):
 
 
 def sheet_meta(wb):
-    ws = wb.create_sheet("Meta (n=75)")
+    ws = wb.create_sheet("Meta (n=70)")
     title(ws, 1, "WINNERS' META — top-finishing lists, ~14 late-July-2026 GTs (n=75)", 5)
     ws.merge_cells("A2:E2"); ws.cell(2, 1, D.OBSERVED_META_NOTE).alignment = WRAP; ws.row_dimensions[2].height = 58
     hrow(ws, 3, ["Faction / archetype", "# of top lists", "Threat character", "Favours", "Note"])
@@ -162,6 +162,34 @@ def sheet_profiles(wb):
     widths(ws, [34, 44, 44])
 
 
+def sheet_sim(wb):
+    ws = wb.create_sheet("Sim Verification")
+    title(ws, 1, "DATA-DRIVEN SIM — A vs B (my Knights' output computed from data/bsdata via wh.mathhammer)", 9)
+    ws.merge_cells("A2:I2")
+    ws.cell(2, 1, "800 games/(list x archetype). tools/mc_db_sim.py. akR/akM = enemy anti-Knight EV/turn "
+                  "(ranged/melee, DB where present else verified floor); rmv = my EV onto their priority "
+                  "target/turn. Confirms: A wins SHOOTING metas, B wins MELEE metas.").alignment = WRAP
+    ws.row_dimensions[2].height = 42
+    hrow(ws, 3, ["Archetype", "prev", "akR", "akM", "A rmv", "B rmv", "A win%", "B win%", "Better list"])
+    r = 4
+    try:
+        import mc_db_sim
+        rows = mc_db_sim.results(800)
+    except Exception as e:
+        ws.cell(r, 1, f"(sim unavailable: {e})"); rows = []
+    for x in rows:
+        ws.cell(r, 1, x["archetype"]).alignment = WRAP
+        for c, k in enumerate(("prev", "akR", "akM", "remA", "remB", "winA", "winB"), 2):
+            ws.cell(r, c, x[k]).alignment = CTR
+        bc = ws.cell(r, 9, x["best"]); bc.alignment = CTR; bc.font = BOLD
+        bc.fill = lfill(x["best"].replace("~", "").upper()[:1]) if x["best"] != "~even" else lfill("EVEN")
+        for c in range(1, 10):
+            ws.cell(r, c).border = THIN
+        r += 1
+    widths(ws, [34, 6, 6, 6, 7, 7, 8, 8, 12])
+    ws.freeze_panes = "A4"
+
+
 def main():
     wb = Workbook()
     sheet_decision(wb)
@@ -169,6 +197,7 @@ def main():
     sheet_list(wb, D.LIST_A_NAME, "List A", D.LIST_A_IDENTITY, D.LIST_A_UNITS, "BDD7EE")
     sheet_list(wb, D.LIST_B_NAME, "List B", D.LIST_B_IDENTITY, D.LIST_B_UNITS, "FCE4D6")
     sheet_matchups(wb)
+    sheet_sim(wb)
     sheet_profiles(wb)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     wb.save(OUT)
