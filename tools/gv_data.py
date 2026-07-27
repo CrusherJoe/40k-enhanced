@@ -16,7 +16,7 @@ IDENTITY = (
     "A REVERSE-KNIGHT: instead of 5-6 big models, ~50-60 elite bodies that are hard to "
     "kill and hard to move. The win-con is CONVERGENCE, not raw guns: Oath of Moment names "
     "ONE enemy unit/turn and the whole army re-rolls Hits + adds +1 to Wound into it — "
-    "roughly DOUBLING every unit's output onto that target. Wrapped around an un-shockable "
+    "roughly DOUBLING every unit's output onto that target. Wrapped around an "
     "OC22 Terminator brick (Lysander) that one-rounds anything in melee, an unsaveable "
     "Sternguard Dev-Wound chipper, AP-2 cyclone missiles, and mobile Land Speeder melta. "
     "Defence: 2+/4++ (the real workhorse) + sticky objectives + hidden deploy. It rarely gets "
@@ -28,8 +28,8 @@ IDENTITY = (
 # (unit, count, wargear/role, ~pts) — points MFM-verified where noted; ~1985 total (friend's build).
 UNITS = [
     ("Terminator Assault Squad (TH/SS)", "10", "+ Darnath Lysander + Ancient in Terminator Armour = the OC22 BRICK. "
-     "Thunder hammer S8 AP-2 D2 [Dev]; ~24-28 melee one-rounds ANY target. Un-shockable, M5, Teleport Homer.", "310"),
-    ("Darnath Lysander", "1", "Warlord. Inspiring Commander -> non-Character Terminators become OC2 (brick = OC22, effectively permanent). Icon of Obstinacy (-1 to wound at S>=5).", "100"),
+     "Thunder hammer S8 AP-2 D2 [Dev]; ~24-28 melee one-rounds ANY target. M5, Teleport Homer. NOT battle-shock-immune (see below).", "310"),
+    ("Darnath Lysander", "1", "Warlord. Inspiring Commander -> non-Character Terminators become OC2 (brick = OC22 while intact). Icon of Obstinacy (-1 to wound at S>=5). Gives NO battle-shock immunity.", "100"),
     ("Ancient in Terminator Armour", "1", "Banner: +OC + re-roll a hit/wound; keeps the brick fighting on death.", "65"),
     ("Terminator Squad (2x Cyclone)", "10", "+ Librarian in Terminator Armour [Fusillade]. #1 RANGED threat: krak missile S9 AP-2 + cyclone; Fusillade = Lethal Hits. ~one-shots an Armiger.", "320"),
     ("Librarian in Terminator Armour", "1", "Leads the cyclone brick; Fusillade (Lethal Hits) + a Conclave Discipline/round.", "75"),
@@ -46,26 +46,30 @@ LIST_TOTAL = ("~1,985 / 2000 (the friend's actual build). Points MFM-verified wh
 
 RULES = [
     ("Oath of Moment (THE engine)", "Each Command phase name ONE enemy unit -> the whole army re-rolls Hits AND (mono-IF) adds +1 to Wound into it. ~DOUBLES every unit's damage onto the Oathed target. Convergence, not raw guns, is how GV kills."),
-    ("Lysander — Inspiring Commander", "Non-Character Terminators in his unit become OC2 -> the 10-brick is OC20 (+Lysander +Ancient = OC22). Battle-shock only tests below half strength (need 6+ dead first) -> the OC22 is effectively PERMANENT and un-shockable."),
+    ("Lysander — Inspiring Commander", "Non-Character Terminators in his unit become OC2 -> the 10-brick is OC20 (+Lysander +Ancient = OC22) WHILE INTACT. It won't take a Command-phase battle-shock test until below half strength (6+ dead), so vs most armies the OC22 holds. But Lysander grants NO battle-shock immunity: a FORCED test (see Battle-shock entry) can shock it at full strength -> OC drops to '-' (0), so all that OC evaporates."),
     ("Wrath of Dorn (Emperor's Shield)", "Re-roll a Wound-roll of 1 army-wide + FULL wound re-roll for Lysander's unit. Stacks with Oath."),
     ("Armour of Contempt (defence)", "-1 AP to incoming attacks (stratagem). Drops enemy AP-2 -> AP-1; brutal vs AP-1/-2 VOLUME (the common case). BUT does NOTHING vs AP-4/-5 (armour already negated) or whenever you're taking an INVULN save (AP never modifies an invuln), and NOTHING vs Devastating/mortal wounds -- so it does not save you from railguns/fusion/Dev spikes."),
     ("Sternguard Focus (unsaveable)", "vs the Oathed unit, Sternguard get FULL wound re-roll -> every crit-6 = a Devastating mortal wound. ~5-7 mortals/turn that skip ANY invuln/Ion Shield. Their teleport-arrival turn is their WEAKEST shoot."),
     ("Teleport / Deep-Strike engines", "THREE arrival threats: Sternguard teleport (Temporal Corridor), Land Speeder Deep Strike, Teleport-Homer jumps (Vanguard/Bladeguard). Reserve-heavy hidden alpha lands turn 2 within homer range."),
-    ("Librarius Conclave", "Pick 1 Discipline/round; ALL psyker-led units (Sternguard + cyclone Termies) get it: Divination (rr-1s) / Pyromancy (+1 AP + Sustained) / Telekinesis (deep-strike enable, -1 S def) / etc."),
+    ("Librarius Conclave", "Each round pick 1 Discipline; ALL friendly ADEPTUS ASTARTES PSYKER units get it until end of round (that's the Librarian-led Sternguard + the Librarian-in-Term cyclone brick — NOT the Lysander brick, it has no psyker). Verified from the pack: Biomancy = +2\" M / Divination = re-roll Hit-1s AND Wound-1s / Pyromancy = +1 AP vs enemies within 12\" / Telekinesis = -1 S to ranged attacks INTO the unit (defensive) / Telepathy = ignore BS/WS/hit-roll modifiers. Fusillade Enhancement makes the bearer's ranged attacks [LETHAL HITS], +[SUSTAINED HITS 1] if the unit also has Pyromancy. Typical pick: Pyromancy (turns the cyclone brick into +1 AP + Lethal + Sustained into the Oath target) or Divination for reliability."),
     ("The alpha math", "Full-stack into an Oathed target ~30-34 (10+ unsaveable Sternguard Dev); the Lysander brick (full Wrath re-roll + Oath) ~49 melee -> one-rounds ANY single model, even a 4++."),
     ("The soft underbelly", "Everything hangs on the SOFT LEGS (Sternguard, Land Speeders, cyclone Termies, Vanguard) + the 2 SLOW M5 bricks. Kill the legs -> the convergence collapses; out-mobile the bricks -> the board opens."),
     ("Killing characters (NO Precision)", "Sternguard/cyclone/brick have NO [PRECISION] -> you canNOT snipe a Character attached to a Bodyguard unit (wounds hit the bodyguard). Tools: (1) grind the whole unit down with Oath volume, exposing the char; (2) EPIC CHALLENGE (core strat 15.03, 1CP) -> Lysander's Fist gains [PRECISION] to assassinate an ATTACHED char in MELEE; (3) STANDALONE Monster/Titanic chars (Fulgrim/Magnus/Lion/superheavy) = shoot DIRECTLY. Oath the UNIT, not the character."),
     ("CP economy (~2/round)", "1 CP at the start of EACH player-turn (~10/game) + CP-model/discard extras. Oath of Moment is FREE (army rule). BUT Armour of Contempt, Fury of the First, Disciplined Extermination, Dropship Extraction, Wrathful Conquerors AND Epic Challenge all COMPETE for ~1 strat/turn -> you cannot fire them all. Each turn pick ONE priority: the offence convergence strat, OR defensive AoC, OR Epic Challenge -- and hold CP for the swing turns."),
+    ("Battle-shock — GV's HIDDEN weakness", "Core 01.07: a battle-shocked unit has OC '-' (0), CANNOT be targeted by ANY stratagem, and cannot do/finish Actions. GV's ENTIRE win-con is the OC22 brick out-scoring you on objectives -> shock it and that collapses, AND you shut off his defensive strats on it (no AoC/Rotate-equivalent on a shocked unit). Lysander gives NO immunity. His mitigations: Insane Bravery (core 15.04, 1CP, auto-pass ONE test -> competes for the same CP as everything else) and staying above half strength (no voluntary test). WEAPONIZERS to expect at LSO that FORCE tests at full strength: Tyranids (Shadow in the Warp = -1 Ld / forced tests near synapse), CSM (Dread Talons / Fear-based -1 & forced), Necrons (forced-test tech), Chaos Daemons (terror/forced). Against those decks the OC22 is NOT reliable -- plan for it to drop to OC0 on a bad round."),
+    ("Core strats cut BOTH ways", "Every army at LSO has the same 12 core stratagems (Section 15): Command Re-roll, Counter-offensive, Epic Challenge, Insane Bravery, Grenade, Tank Shock, Fire Overwatch, Smokescreen, Heroic Intervention, Rapid Ingress, Go to Ground, Armour of Contempt. So the OPPONENT can Epic-Challenge to snipe GV's characters in melee too, Counter-offensive to fight first, Rapid Ingress to steal the alpha, and Fire Overwatch the teleport drop. GV isn't the only one with these tricks -- budget CP for the enemy's core plays, not just your own."),
 ]
 
 MINDSET = (
     "GV is 'always outnumbered by big things, never out-graunched by small ones.' You are the "
     "DURABLE, STICKY, all-comers list — you rarely get tabled and rarely get out-scored. Play the "
     "OATH like a sniper (one perfect target/turn), weather the enemy's alpha behind 2+/4++ (Armour "
-    "of Contempt helps only vs AP-1/-2 volume, NOT railguns/fusion/Dev), and win the LONG GAME on sticky objectives + attrition. Your two failure modes: "
-    "(1) getting out-BODIED/out-OC'd by a true horde, and (2) getting out-MANOEUVRED and out-scored "
-    "by a faster army while your M5 bricks are stranded. Deploy your homers to control WHERE the alpha "
-    "lands; never waste the Oath on a target you can't finish.")
+    "of Contempt helps only vs AP-1/-2 volume, NOT railguns/fusion/Dev), and win the LONG GAME on sticky objectives + attrition. Your THREE failure modes: "
+    "(1) getting out-BODIED/out-OC'd by a true horde, (2) getting out-MANOEUVRED and out-scored "
+    "by a faster army while your M5 bricks are stranded, and (3) getting BATTLE-SHOCKED by a "
+    "shock-weaponizer (Tyranids/CSM/Necrons/Daemons) -> the OC22 brick drops to OC0 and its "
+    "defensive strats switch off. Deploy your homers to control WHERE the alpha "
+    "lands; hold 1 CP for Insane Bravery vs shock decks; never waste the Oath on a target you can't finish.")
 
 # ---- MATCHUPS: Great Value vs the n=70 listhammer archetypes (GV's perspective) ----
 # verdict in {FAVOURABLE, COIN-FLIP, UNFAVOURABLE, HARD}
@@ -104,7 +108,7 @@ MATCHUPS = [
          plan=["Oath + Sternguard Dev a C'tan each turn — mortals skip the 4++; you won't kill it but you suppress it.",
                "Don't feed the brick into the Void Dragon (Anti-Veh, heals off you); brick kills Wraiths/Lychguard instead.",
                "Win on sticky objectives + secondaries; it's a grind you can steal, not a matchup you dominate."],
-         watch="Reanimation refunding your chip — focus-remove whole units, don't spread."),
+         watch="Reanimation refunding your chip — focus-remove whole units, don't spread. BATTLE-SHOCK: their 1CP C'tan strat forces the OC22 brick to test at -1 (+D3+1 mortals on fail) -> a failed test zeroes its OC and shuts off its strats on the turn you most need it holding. Hold 1 CP for Insane Bravery when the brick is contesting a key objective."),
     dict(key="custodes", faction="Adeptus Custodes", archetype="Lions of the Emperor (elite melee)",
          prev="Med (4)", verdict="COIN-FLIP",
          deciding="Mirror of elites: their 2+/4++ + better melee weapons vs your 2+/4++ + more bodies + Oath + unsaveable Sternguard. They out-fight the brick model-for-model; you out-number and out-shoot (Dev bypasses their 4++).",
