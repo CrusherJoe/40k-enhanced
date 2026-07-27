@@ -1,0 +1,1170 @@
+                                      ADEPTUS CUSTODES
+                                               FACTION PACK: VERSION 1.1
+                                                  Legal for matched play from 22nd July 2026
+
+On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
+datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
+for your units and detachments.
+
+
+WHAT’S NEW?                                                               CONTENTS
+▪ Changes to Rules Updates                                                Detachments���������������������������������������������������������������������������������2
+▪ Ares Gunship, Orion Assault Dropship: remove 'FRAME'.                    Might of the Moritoi�������������������������������������������������������������������������������������2
+▪ Ares Gunship, Infernus Firebombs ability:                               Silent Hunters����������������������������������������������������������������������������������������������3
+   Change to:                                                              Tharanatoi Hammerblow���������������������������������������������������������������������������4
+   'At the end of your Movement phase, select one visible enemy unit       Lions of the Emperor����������������������������������������������������������������������������������5
+   (excluding AIRCRAFT/Lone Operative units) within 24" of this unit:      Solar Spearhead������������������������������������������������������������������������������������������7
+     ▫ That enemy unit cannot have the benefit of cover until the end    Imperial Armour Datasheets���������������������������������������������������������9
+        of your next Shooting phase.                                      Rules Updates�����������������������������������������������������������������������������35
+     ▫ Roll one D6 for each model in that enemy unit: for each 6, that
+        enemy unit suffers 1 mortal wound.'
+UNIQUE: ARMOURY
+
+MIGHT OF THE MORITOI
+AURAMITE‑CLAD DREADNOUGHTS STRIDE INTO THE FOE AND CRUSH THEM WITH ANCIENT WEAPONRY
+
+
+ DETACHMENT RULES                                                         FLAWLESS CONSTRUCTION                                                     1CP
+                                                                          MIGHT OF THE MORITOI STRATAGEM
+MARCH OF THE HONOURED DEAD
+                                                                          Adeptus Custodes Dreadnoughts possess expertly wrought armoured
+The fallen warriors interred in ancient Dreadnought sarcophagi are        forms that contain ancient and esoteric technology, including
+                                                                          auto‑repair subroutines and reactive field generators.
+ever eager for battle, and their hulking forms propel them towards
+the foe at a deadly pace.                                                 WHEN: Your opponent’s Shooting phase or the Fight phase, when an
+                                                                          enemy unit targets a friendly ADEPTUS CUSTODES WALKER unit.
+Friendly ADEPTUS CUSTODES WALKER units:                                   TARGET: That ADEPTUS CUSTODES WALKER unit.
+▪ Have +2" M.                                                             EFFECT: Attacks that target your unit with a S greater than your unit’s
+▪ Have +1 to advance rolls and charge rolls.                              T have -1 to wound rolls.
+
+
+This detachment has the ARMOURY tag and cannot be taken with
+another ARMOURY detachment.                                               UNSTOPPABLE ADVANCE                                                       1CP
+                                                                          MIGHT OF THE MORITOI STRATAGEM
+
+                                                                          Even the most formidable obstacles give way to the ancient
+ ENHANCEMENTS                                                             warriors of the Moritoi, ruptured and trampled underfoot or
+                                                                          barged aside with howl of empowered servos.
+
+INTERRED EXPERTISE UPGRADE                                                WHEN: Your Movement phase, when a friendly ADEPTUS CUSTODES
+                                                                          WALKER unit is selected to move.
+The eldest warriors of the Moritoi are revered champions with
+centuries of battle experience, whose strikes efficiently exploit their   TARGET: That ADEPTUS CUSTODES WALKER unit.
+foes’ every weakness.                                                     EFFECT: Your unit has MOBILE.
+
+
+ADEPTUS CUSTODES WALKER unit only. This unit’s attacks can:
+▪ Re‑roll hit rolls of 1.
+                                                                          PRIORITISED ERADICATION                                                   1CP
+▪ Re‑roll wound rolls of 1.                                              MIGHT OF THE MORITOI STRATAGEM
+
+                                                                          When lauded Telemon pilots turn their pitiless optics upon a
+AURAMITE SARCOPHAGUS UPGRADE                                              proximal threat, the storm of accelerated firepower that ensues
+                                                                          leaves naught but smoking ruin.
+These ancient sarcophagi are hardened with age and threaded with
+Dark Age mechanisms. When the warrior within slams their metallic         WHEN: Your Shooting phase, when a friendly TELEMON HEAVY
+                                                                          DREADNOUGHT unit is selected to shoot.
+form into the foe, they can crack armour, pulverise bone and wreck
+                                                                          TARGET: That TELEMON HEAVY DREADNOUGHT unit.
+enemy war machines.
+                                                                          EFFECT: Your unit’s:
+
+ADEPTUS CUSTODES WALKER unit only. When you target this unit with         ▪ Arachnus Storm Cannon weapons have [RAPID FIRE 6].
+                                                                          ▪ Iliastus Accelerator Culverin weapons have [RAPID FIRE 2].
+the Crushing Impact stratagem, that use is -1 CP.
+SILENT HUNTERS
+PREY RECOIL FROM THE SKIN-CRAWLING PRESENCE OF THE SISTERHOOD'S HUNTERS
+
+
+ DETACHMENT RULES                                                      DEATHSONG SCYTHES                                                  1CP
+                                                                       SILENT HUNTERS STRATAGEM
+SKIN-CRAWLING DISORIENTATION
+                                                                       After stalking their sorcerous prey in silence, the charge
+The mere presence of the Silent Sisterhood’s Blanks triggers a sense   of the Vigilators is accompanied by a keening song of death
+                                                                       emitted by their scything greatblades as they are swept in
+of agitated revulsion in their enemies. The foe’s discipline breaks    eviscerating arcs.
+down, and watchful focus becomes elusive, allowing positions to be
+given away and granting the Sisters opportunities to conduct vital     WHEN: Fight phase, when a friendly VIGILATORS unit is selected
+                                                                       to fight.
+strategic operations.
+                                                                       TARGET: That VIGILATORS unit.
+
+▪ When a friendly ANATHEMA PSYKANA unit is selected to make an        EFFECT:
+   advance move, that advance move does not prevent that unit          ▪ Your unit’s melee attacks have [LANCE].
+                                                                       ▪ Your unit’s melee attacks that target a PSYKER unit have +1 A.
+   from being eligible to start an action.
+
+▪ Friendly ANATHEMA PSYKANA units have the following ability:
+                                                                       UMBRAL PROSECUTION                                                 1CP
+  Ceaseless Vigilance: In your Shooting phase, this unit can select   SILENT HUNTERS STRATAGEM
+   one visible enemy unit within 12". That enemy unit is nulled:
+                                                                       When they have cornered their quarry at close range, Prosecutors
+  ▪ While a unit is nulled, that unit has +3" detection range.         fire their Umbra-pattern bolters in rapid bursts that sow
+                                                                       strings of armour-shredding shots amongst the enemy.
+
+                                                                       WHEN: Your Shooting phase, when a friendly PROSECUTORS unit is
+                                                                       selected to shoot.
+ ENHANCEMENTS                                                          TARGET: That PROSECUTORS unit.
+
+ENCIRCLING HUNTER                                                      EFFECT: Your unit’s Boltgun weapons have:
+                                                                       ▪ [RAPID FIRE 2].
+Possessed of years’ experience hunting duplicitous and evasive
+                                                                       ▪ +1 AP.
+witches, this Knight-Centura is skilled in ensuring every escape
+route is covered and their unknowing target reeling in horror
+and confusion.                                                         SYNCHRONISED INFERNO                                               1CP
+                                                                       SILENT HUNTERS STRATAGEM
+ANATHEMA PSYKANA model only. When both players have deployed
+                                                                       Coordinating through a rapid exchange of Thoughtmark,
+their armies, you can redeploy up to three friendly ANATHEMA           Witchseekers unleash a flesh-melting inferno of all-consuming
+PSYKANA INFANTRY units. When doing so, you can set those units up      promethium from their flamers.
+
+in strategic reserves, regardless of how many units are already in     WHEN: Your Shooting phase, when a friendly WITCHSEEKERS unit is
+strategic reserves.                                                    selected to shoot.
+                                                                       TARGET: That WITCHSEEKERS unit.
+PSYK-OUT GRENADES UPGRADE                                              EFFECT: Your unit’s [TORRENT] ranged attacks have [BLAST 1].
+These small, artificer-wrought explosives are deadly enough
+to lesser foes. Yet the favoured prey of the Sisters of Silence are
+excruciated or stunned by the grenades’ psi-refractive particles,
+convulsing in a vortex of despair.
+
+ANATHEMA PSYKANA unit only.
+▪ This unit has EXPLOSIVES.
+▪ When you target this unit with the Explosives stratagem, if you
+   select an enemy PSYKER unit, you can re-roll rolls to determine
+   whether that enemy unit suffers a mortal wound.
+UNIQUE: LIONS
+
+THARANATOI HAMMERBLOW
+TERMINATOR-ARMOURED WARRIORS CRUSH THE ENEMIES OF THE THRONE IN SWIFT ASSAULTS
+
+
+ DETACHMENT RULES                                                         HARDENED RESOLVE                                                      1CP
+                                                                          THARANATOI HAMMERBLOW STRATAGEM
+THE HAMMER FALLS
+                                                                          Steeling their souls and bracing their indomitable armour,
+Whether striking from amidst roiling teleport flares or advancing         heavily girded Custodians will cleave to their duty and reject
+                                                                          attempts to cut them down.
+from outflanking positions, the most heavily armoured of the
+Adeptus Custodes hit their foes in terrifyingly sudden incursions.        WHEN: Your opponent’s Shooting phase or the Fight phase, when an
+                                                                          enemy unit targets a friendly ADEPTUS CUSTODES TERMINATOR unit.
+If a friendly ADEPTUS CUSTODES TERMINATOR unit made an ingress            TARGET: That ADEPTUS CUSTODES TERMINATOR unit.
+move this turn, that unit can re‑roll charge rolls.                       EFFECT: Your unit has +1 T.
+
+This detachment has the LIONS tag and cannot be taken with
+another LIONS detachment.
+                                                                          UNLEASH THE LIONS                                                     1CP
+                                                                          THARANATOI HAMMERBLOW STRATAGEM
+ ENHANCEMENTS
+                                                                          Heroic bands of Terminator‑armoured Custodians engage entire
+                                                                          armies in unrelenting battle.
+MNEMO-LOCKED SHRINE CIPHER
+                                                                          WHEN:Your Command phase.
+This encrypted activation code dates back to before the Emperor’s
+                                                                          TARGET: One friendly ALLARUS CUSTODIANS/AQUILON CUSTODIANS unit
+compact with Mars. Committed to the enhanced memory of the
+                                                                          that is on the battlefield.
+bearer, it can be uttered to cut through a teleportarium shrine’s
+                                                                          EFFECT: Your unit is split into separate units, each containing one
+layers of ageing protocols to deliver armoured death in the blink of      model. These new units each have a starting strength of 1.
+an eye.
+
+ADEPTUS CUSTODES TERMINATOR model only. In your first Movement            ELECTROEXORCIST SATURATION                                            1CP
+phase, this unit can make an ingress move.                                THARANATOI HAMMERBLOW STRATAGEM
+
+EFFICIENT AGGRESSION                                                      A concussive barrage of specialist grenades enables Allarus
+                                                                          Custodians to maximise the destructive potential of their arm-
+This heavily armoured commander constantly seeks opportunities            mounted launchers against their massed enemies.
+
+to exploit the foe’s show of force, leading advances into the teeth of    WHEN: Your Shooting phase, when a friendly ADEPTUS CUSTODES
+the enemy where lesser warriors would quail.                              TERMINATOR unit is selected to shoot.
+                                                                          TARGET: That ADEPTUS CUSTODES TERMINATOR unit.
+ADEPTUS CUSTODES TERMINATOR model only. (Once per turn, per               EFFECT: Your unit’s Ballistus Grenade Launcher weapons have
+army) In your opponent’s Shooting phase, when an enemy unit has           D3+3 A.
+shot, if this unit lost a wound as a result of those attacks, this unit
+can make a surge move of up to D6+1".
+       LIONS OF THE EMPEROR
+       Many of the galaxy’s warrior cultures accept the time‑honoured truth that there is greater
+       strength in numbers. Not so for the champions of the Adeptus Custodes, the Lions of the Emperor.
+       Each of them is an army unto themselves, a warrior of legend gifted with terrifying strength,
+       armoured in nigh‑impenetrable golden plate and possessing limitless resolve. When the greatest
+       Custodians take to the field at once, those auric‑armoured champions have no need to pool
+       their resources in order to smite their foes. Relying instead upon their superhuman strength
+       and mastery of martial ka’tahs, they hurl themselves into the midst of the enemy, sweeping
+       aside gunlines, eviscerating rampaging monsters and obliterating enemy war machines with
+       terrifying ease.
+
+
+
+     DETACHMENT RULE                                    ENHANCEMENTS
+
+    AGAINST ALL ODDS                                   SUPERIOR CREATION
+    The Adeptus Custodes are outnumbered               The cellular alchemy by which this heroic warrior was
+    on every battlefield upon which they fight,        forged has rendered them breathtakingly resilient.
+    yet no matter the foe, and no matter
+    their number, the Lions of the Emperor             Adeptus Custodes Infantry model only. The first
+    will prevail.                                      time the bearer is destroyed, roll one D6 at the end
+                                                       of the phase. On a 2+, set the bearer back up on
+    Each time a model in an Adeptus                    the battlefield, as close as possible to where it was
+    Custodes unit from your army (excluding            destroyed and not within Engagement Range of one
+    Vehicles) makes an attack, if there are            or more enemy units, with its full wounds remaining.
+    no other friendly units within 6" of that
+    unit, add 1 to the Hit roll and add 1 to the       PRAES.IDIUS
+    Wound roll.                                        Fashioned by the Terran armourer Annah Tsvochakin
+                                                       in the latter years of the 32nd millennium, the
+                                                       stunningly worked Praesidius is a singular artefact.
+                                                       Nestled within its golden form are a series of
+                                                       microshield generators and stealth emitters. Employing
+                                                       a modification of displacer technology, the shield
+                                                       generates small localised displacement bubbles at the
+                                                       point of impact, literally beaming bolts, bullets and the
+                                                       tips of blades harmlessly away from its bearer.
+
+                                                       Adeptus Custodes model only. The bearer has the
+                                                       Lone Operative and Stealth abilities.
+
+                                                       FIERCE CONQUEROR
+                                                       This Captain‑Commander has trained extensively to
+                                                       face multiple foes at once, knowing that the Custodes
+                                                       will always be outnumbered.
+
+                                                       Shield‑Captain model only. At the start of the Fight
+                                                       phase, until the end of the phase, add 2 to the Attacks
+                                                       characteristic of melee weapons equipped by the
+                                                       bearer for every 5 enemy models within 6" of the
+                                                       bearer (rounding down).
+
+                                                       ADMONIMORTIS
+                                                       A relic of the Dread Host, this towering blade was
+                                                       wrought to make a bloody example of those who dare
+                                                       to set themselves against the might of Terra.
+
+                                                       Shield‑Captain model only. Improve the Strength
+                                                       characteristic of melee weapons equipped by the
+5                                                      bearer by 3, and improve the Armour Penetration and
+                                                       Damage characteristics of those weapons by 1.
+          GILDED CHAMPION                                                UNLEASH THE LIONS
+          LIONS OF THE EMPEROR – STRATEGIC PLOY STRATAGEM                LIONS OF THE EMPEROR – STRATEGIC PLOY STRATAGEM
+
+          The shining champions of the Adeptus Custodes                  Heroic bands of Terminator‑armoured Custodians
+          are looked upon in awe by all who witness their                engage entire armies in unrelenting battle.
+    1CP   grim arts. Their judgement is without flaw, and their    1CP
+                                                                         WHEN: Your Command phase.
+          tactical acumen utterly impeccable.
+                                                                         TARGET: One Allarus Custodians or Aquilon
+          WHEN: Any phase, just after an Adeptus Custodes                Custodians unit from your army that is on
+          Character model from your army has used an                     the battlefield.
+          ability on its datasheet that states it can only be
+          used ‘once per battle’.                                        EFFECT: That unit is split into separate units, each
+                                                                         containing one model. These new units each have a
+          TARGET: That Adeptus Custodes Character model.                 Starting Strength of 1.
+          EFFECT: Your model can use that ‘once per battle’
+          ability one additional time during the battle (but not
+          in the same phase).                                            MANOEUVRE AND FIRE
+          RESTRICTIONS: You cannot use this Stratagem on the             LIONS OF THE EMPEROR – STRATEGIC PLOY STRATAGEM
+          same Adeptus Custodes Character model more
+          than once per battle.                                          The Adeptus Custodes are unrelenting in their
+                                                                         advance, laying down punishing fire even as they
+                                                                   1CP   manoeuvre to new positions.
+          DEFIANT TO THE LAST                                            WHEN: Your Movement phase, just after an Adeptus
+          LIONS OF THE EMPEROR – STRATEGIC PLOY STRATAGEM                Custodes unit from your army Falls Back.
+                                                                         TARGET: That Adeptus Custodes unit.
+          The harder the battle, and the heavier their losses,
+          the more resolute the Lions of the Emperor become.             EFFECT: Until the end of the turn, your unit is eligible
+    1CP                                                                  to shoot and declare a charge in a turn in which it
+          WHEN: Fight phase, just after an enemy unit has
+                                                                         Fell Back.
+          selected its targets.
+          TARGET: One Adeptus Custodes unit from your army
+          that was selected as the target of one or more of the          SWIFT AS THE EAGLE
+          attacking unit’s attacks.
+                                                                         LIONS OF THE EMPEROR – STRATEGIC PLOY STRATAGEM
+          EFFECT: Until the end of the phase, each time a
+          model in your unit is destroyed, if that model has not         Although every Custodian is devastatingly fast on
+                                                                         the battlefield, with preternatural reactions to match,
+          fought this phase, roll one D6, adding 2 to the result   1CP   the Lions of the Emperor are outstanding even
+          if that model has the Character keyword. On a 4+,
+          do not remove it from play; the destroyed model can            among their peers.
+          fight after the attacking unit has finished making             WHEN: Your opponent’s Shooting phase, just after an
+          its attacks (when doing so, it is treated as having 1          enemy unit has shot.
+          wound remaining), and is then removed from play.               TARGET: One Adeptus Custodes unit from your army
+                                                                         (excluding VEHICLE units) that was selected as the
+                                                                         target of one or more of the attacking unit’s attacks.
+          PEERLESS WARRIOR
+                                                                         EFFECT: Your unit can make a Normal move of up
+          LIONS OF THE EMPEROR – BATTLE TACTIC STRATAGEM
+                                                                         to D6".
+          With every strike, the Lions of the Emperor prove
+          themselves the masters of single combat, even
+    1CP   when engaging the mightiest foes.
+          WHEN: Fight phase.
+          TARGET: One Adeptus Custodes unit from your army
+          that has not been selected to fight this phase.
+          EFFECT: Until the end of the phase, melee weapons
+          equipped by models in your unit have the
+          [PRECISION] ability.
+
+
+
+
+6
+       SOLAR SPEARHEAD
+       Within the deepest engine vaults of the Imperial Palace, the ancient and mighty vehicles of the
+       Custodians reside. Auramite‑clad combat walkers bristling with arcane weapons are roused from
+       stasis, ready to be unleashed upon the galaxy’s battlefields. Venerable Land Raiders as old as the
+       Imperium are awoken by complex rituals and prepared for war. When battle dawns, these dread
+       engines of destruction stride or rumble towards the cowering foe, their guns emitting furious
+       torrents of destruction. Those brave or foolish enough to stand before this armoured spearhead
+       are crushed beneath the tread of auric battle tanks or smashed to a bloody pulp by wrathful
+       interred champions.
+
+
+
+
+     DETACHMENT RULE                                     ENHANCEMENTS
+
+    AURIC ARMOUR                                        ADAMANTINE TALISMAN
+    The venerable war engines of the                    This amulet contains a reservoir of promethium
+    Adeptus Custodes possess aggressive                 harvested from the wreckage of one of the Adeptus
+    machine spirits.                                    Custodes’ most ancient Land Raiders. The fluid is
+                                                        said to possess the last lingering traces of that ancient
+    ■ While an Adeptus Custodes Vehicle                vehicle’s bellicose machine spirit, inspiring greater might
+       unit from your army is at Starting               and ferocity within its bearer.
+       Strength, unless that unit is an
+       Aircraft or it is Battle‑shocked, add 2          Adeptus Custodes model only. Improve the Attacks,
+       to the Objective Control characteristic          Strength and Damage characteristics of melee
+       of models in that unit.                          weapons equipped by the bearer by 1.
+    ■ While an Adeptus Custodes Vehicle
+       unit from your army is below Starting            AUGURY UPLINK
+       Strength, each time a model in that              The war engines of the Adeptus Custodes possess an
+       unit makes an attack, re‑roll a Hit roll         array of augury equipment that combines to build an
+       of 1.                                            intricate picture of the unfolding conflict, enabling the
+    ■ While an Adeptus Custodes Vehicle                bearer to tap into this accumulated data stream, detect
+       unit from your army is Below                     incoming threats and angle their armour to repel the
+       Half‑strength, each time a model in              worst of enemy attacks.
+       that unit makes an attack, re‑roll a Hit
+       roll of 1 and re‑roll a Wound roll of 1.         Adeptus Custodes model only. The bearer has the
+                                                        Feel No Pain 5+ ability.
+    MORITOI ANCIENTS
+    The Adeptus Custodes’ honoured fallen are           HONOURED FALLEN (AURA)
+    ever eager for battle.                              The eldest warriors of the Moritoi are revered
+                                                        champions with centuries of battle experience, and
+    Add 2" to the Move characteristic of                their presence on the battlefield is inspirational.
+    models in Adeptus Custodes Walker units
+    from your army and add 1 to Advance                 Adeptus Custodes Vehicle model only. While a
+    and Charge rolls made for such units.               friendly Adeptus Custodes Infantry or Adeptus
+                                                        Custodes Mounted unit is within 6" of the bearer, each
+                                                        time a model in that unit makes an attack, re‑roll a
+    KEYWORDS                                           Hit roll of 1.
+
+    In the Muster Armies step, you can select           VETERAN OF THE KATAPHRAKTOI
+    up to 2 Adeptus Custodes Walker models              This champion has served amongst the
+    from your army. The selected units gain             Kataphraktoi and is a master at coordinating swift
+    the Character keyword.                              armoured assaults.
+
+    Designer’s Note: This means that                    Adeptus Custodes Infantry or Adeptus Custodes
+    the selected models can be given                    Mounted model only. In your Command phase, select
+    Enhancements and one of them can be                 one Adeptus Custodes Vehicle or Adeptus Custodes
+    selected as your Warlord.                           Mounted unit within 6" of the bearer. Until the start
+7                                                       of your next Command phase, that unit is eligible to
+                                                        shoot in a turn in which it Fell Back.
+          FLAWLESS CONSTRUCTION                                          UNSTOPPABLE
+          SOLAR SPEARHEAD – BATTLE TACTIC STRATAGEM                      SOLAR SPEARHEAD – STRATEGIC PLOY STRATAGEM
+
+          The vehicles of the Adeptus Custodes are the finest            Armoured in adamantine and possessed of
+          examples of their kind. Their expertly wrought                 furious machine spirits, the vehicles of the
+          armoured forms contain ancient and esoteric                    Adeptus Custodes are almost impossible to stop in
+          technology, including auto‑repair subroutines and              their tracks.
+          reactive field generators.
+                                                                         WHEN: Your Movement phase or your Charge phase.
+    1CP   WHEN: Your opponent’s Shooting phase or the              1CP
+                                                                         TARGET: One Adeptus Custodes Vehicle or Adeptus
+          Fight phase, just after an enemy unit has selected             Custodes Mounted unit from your army.
+          its targets.
+                                                                         EFFECT: Until the end of the phase, each time a
+          TARGET: One Adeptus Custodes Vehicle unit from                 model in your unit makes a move, it can move
+          your army that was selected as the target of one or            through terrain features.
+          more of the attacking unit’s attacks.
+          EFFECT: Until the end of the phase, each time an
+          attack targets a model in your unit, if the Strength           RELENTLESS PERSECUTION
+          characteristic of that attack is greater than the              SOLAR SPEARHEAD – STRATEGIC PLOY STRATAGEM
+          Toughness characteristic of your unit, subtract 1
+          from the Wound roll.                                           Custodians coax wrathful fury from their war
+                                                                         engines’ machine spirits to hunt down and eliminate
+                                                                   1CP   their foes at speed.
+          EMPEROR’S VENGEANCE                                            WHEN: Your Movement phase, just after an Adeptus
+          SOLAR SPEARHEAD – BATTLE TACTIC STRATAGEM                      Custodes Vehicle unit from your army Advances.
+          Even as death’s cold embrace falls upon them,                  TARGET: That Adeptus Custodes Vehicle unit.
+          Custodians vent the last of their wrath upon the foe.          EFFECT: Until the end of the turn, your unit is eligible
+    1CP                                                                  to shoot in a turn in which it Advanced. If your unit
+          WHEN: Fight phase, just after an enemy unit has
+          selected its targets.                                          has the Walker keyword, until the end of the turn,
+                                                                         your unit is eligible to shoot and declare a charge in a
+          TARGET: One Adeptus Custodes unit from your army               turn in which it Advanced instead.
+          that was selected as the target of one or more of the
+          attacking unit’s attacks.
+          EFFECT: Until the end of the phase, each time a                PUNISHMENT INESCAPABLE
+          model in your unit is destroyed, if that model has not         SOLAR SPEARHEAD – STRATEGIC PLOY STRATAGEM
+          fought this phase, roll one D6, adding 1 to the result
+          if your unit has the Walker keyword. On a 4+, do               The Ten Thousand are relentless in pursuing the
+          not remove it from play; The destroyed model can               Emperor’s foes and thorough in their annihilation. No
+                                                                   1CP   armour, sorcery or hiding place can shield an enemy
+          fight after the attacking unit has finished making
+          its attacks (when doing so, it is assumed to have 1            from their wrath.
+          wound remaining), and is then removed from play.               WHEN: Your Shooting phase.
+                                                                         TARGET: One Adeptus Custodes unit from your army
+          WRATHFUL ADVANCE                                               that has not been selected to shoot this phase.
+
+          SOLAR SPEARHEAD – BATTLE TACTIC STRATAGEM
+                                                                         EFFECT: Until the end of the phase, ranged
+                                                                         weapons equipped by models in your unit have the
+          The golden‑armoured onslaught smashes through                  [IGNORES COVER] ability, and until the end of the
+          the enemy line, trapping the foe and preventing                phase, each time a model in your unit makes an
+    1CP   their escape.                                                  attack, you can ignore any or all modifiers to that
+          WHEN: Fight phase, just before an Adeptus                      attack’s Ballistic Skill characteristic and/or any or all
+          Custodes unit from your army Piles In.                         modifiers to the Hit roll.
+          TARGET: That Adeptus Custodes unit.
+          EFFECT: Until the end of the phase, each time a
+          model in your unit makes a Pile‑in move, it can move
+          up to D3+3" instead of up to 3".
+
+
+
+
+8
+CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS
+  M            T          SV      W     LD     OC
+
+
+ 6"           6          2+       3    6+      2
+                         4+       INVULNERABLE SAVE
+
+
+      RANGED WEAPONS                            RANGE       A   BS   S   AP   D    ABILITIES
+      Adrasite spear                                 18"    1   2+   5   -2   3    CORE: Deep Strike
+      Pyrithite spear [MELTA 2]                      12"    1   2+   9   -4   D6
+                                                                                   FACTION: Martial Ka’tah
+      MELEE WEAPONS                             RANGE       A   WS   S   AP   D    Stand Vigil: Each time a model in this unit makes an attack,
+      Adrasite spear                                Melee   5   2+   7   -2   2    re-roll a Wound roll of 1. While this unit is within range of
+                                                                                   an objective marker you control, you can re-roll the Wound
+      Pyrithite spear                               Melee   5   2+   7   -2   2
+                                                                                   roll instead.
+                                                                                   No Foe Shall Stand: Once per battle, at the start of your
+                                                                                   Shooting phase, this unit can use this ability. If it does,
+                                                                                   until the end of the phase, ranged weapons equipped
+                                                                                   by models in this unit have the [LETHAL HITS] and
+                                                                                   [IGNORES COVER] abilities.
+
+
+
+
+  KEYWORDS: Infantry, Imperium, Custodian Guard with Adrasite and                       FACTION KEYWORDS:
+            Pyrithite Spears                                                             Adeptus Custodes
+CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS
+The signature armaments of the Custodian Guard combine deadly power blades and
+integrated ranged weapons. While guardian spears are the most recognisable of these
+potent devices, for specialised tasks the bolt weapons they mount can be exchanged
+for the adrathic destructors of adrasite spears or the melta beams of pyrithite spears.
+
+
+
+
+  WARGEAR OPTIONS                                                                                UNIT COMPOSITION
+  ■ Any number of models can each have their adrasite spear replaced with 1 pyrithite spear.   ■ 5 Custodian Guard with Adrasite and Pyrithite Spears
+                                                                                                 Every model is equipped with: adrasite spear.
+
+
+                                                                                                 CUSTODIAN GUARD
+                                                                                                 If an Adeptus Custodes model from your army with the
+                                                                                                 Leader ability can be attached to a Custodian Guard unit, it
+                                                                                                 can be attached to this unit instead.
+
+
+
+
+   KEYWORDS: Infantry, Imperium, Custodian Guard with Adrasite and                                   FACTION KEYWORDS:
+             Pyrithite Spears                                                                         Adeptus Custodes
+SAGITTARUM CUSTODIANS
+ M            T           SV          W         LD   OC
+
+
+6"           6          2+            3         6+   2
+                        4+             INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                   RANGE       A   BS   S   AP   D   ABILITIES
+     Adrastus bolt caliver [SUSTAINED HITS 1]              36"    3   2+   5   -1   2   CORE: Deep Strike
+
+     MELEE WEAPONS                                    RANGE       A   WS   S   AP   D   FACTION: Martial Ka’tah
+     Misericordia                                         Melee   4   2+   5   -2   1   Saturation Volleys: In your Shooting phase, after this unit
+                                                                                        has shot, select one enemy unit (excluding Monsters and
+                                                                                        Vehicles) hit by one or more of those attacks. Until the start
+                                                                                        of your next turn, while this unit is on the battlefield, that
+                                                                                        enemy unit is suppressed. While a unit is suppressed, each
+                                                                                        time a model in that unit makes an attack, subtract 1 from
+                                                                                        the Hit roll.
+                                                                                        Disintegration Beams: Once per battle, at the start of your
+                                                                                        Shooting phase, this unit can use this ability. If it does, until
+                                                                                        the end of the phase, ranged weapons equipped by models in
+                                                                                        this unit have the [DEVASTATING WOUNDS] ability.
+
+
+
+
+                                                                                              FACTION KEYWORDS:
+ KEYWORDS: Infantry, Imperium, Sagittarum Custodians
+                                                                                              Adeptus Custodes
+SAGITTARUM CUSTODIANS
+In contrast with most warriors of the Adeptus Custodes, the
+Sagittarum Guard specialise in the slaying of foes at range, laying
+down fearsome volleys from their adrastus bolt calivers or using the
+same weapons to obliterate closer threats with pinpoint disintegration
+beams, switching between firing modes with faultless skill.
+
+
+
+  WARGEAR OPTIONS                                                        UNIT COMPOSITION
+  ■ None                                                               ■ 5 Sagittarum Custodians
+                                                                         Every model is equipped with: adrastus bolt
+                                                                         caliver; misericordia.
+
+
+                                                                         CUSTODIAN GUARD
+                                                                         If an Adeptus Custodes model from your army with the
+                                                                         Leader ability can be attached to a Custodian Guard unit, it
+                                                                         can be attached to this unit instead.
+
+
+
+
+                                                                              FACTION KEYWORDS:
+   KEYWORDS: Infantry, Imperium, Sagittarum Custodians
+                                                                              Adeptus Custodes
+AQUILON CUSTODIANS
+ M            T          SV           W           LD   OC
+
+
+5"           7          2+           4            6+   2
+                        4+            INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                     RANGE       A    BS    S   AP   D   ABILITIES
+     Infernus firepike [IGNORES COVER, TORRENT]              12"    D6   N/A   6   -1   1   CORE: Deep Strike
+     Lastrum storm bolter [RAPID FIRE 2]                     24"    2    2+    5   -1   1
+                                                                                            FACTION: Martial Ka’tah
+     Twin adrathic destructor [TWIN-LINKED]                  18"    1    2+    6   -2   3
+                                                                                            Heavy Assault Infantry: Each time a model in this unit makes
+     MELEE WEAPONS                                      RANGE       A    WS    S   AP   D   a ranged attack that targets the closest eligible target, re-roll
+                                                                                            a Wound roll of 1.
+     Solerite power gauntlet                                Melee   5    2+    8   -2   2
+     Solerite power talon                                   Melee   7    2+    7   -2   1   From Golden Light: Once per battle, at the end of your
+                                                                                            opponent’s turn, if this unit is not within Engagement Range
+                                                                                            of one or more enemy units, you can remove it from the
+                                                                                            battlefield and place it into Strategic Reserves.
+
+
+
+
+                                                                                                  FACTION KEYWORDS:
+ KEYWORDS: Infantry, Terminator, Imperium, Aquilon Custodians
+                                                                                                  Adeptus Custodes
+AQUILON CUSTODIANS
+Aquilon Custodians are the heavy assault infantry of the Custodian
+Guard, each warrior imbued with armour and wargear of ancient
+provenance and impeccable craftsmanship. Encased within flexible
+but highly durable Aquilon-pattern Terminator armour, they stride
+through the most perilous war zones to mete out death.
+
+
+
+  WARGEAR OPTIONS                                                                                       UNIT COMPOSITION
+  ■ Any number of models can each have their lastrum storm bolter replaced with one of the following:   ■ 3-6 Aquilon Custodians
+     ◦ 1 infernus firepike                                                                              Every model is equipped with: lastrum storm bolter; solerite
+     ◦ 1 twin adrathic destructor                                                                       power gauntlet.
+  ■ Any number of models can each have their solerite power gauntlet replaced with 1 solerite
+     power talon.                                                                                       LIONS OF THE EMPEROR
+                                                                                                        If a model from your army with the Leader ability can be
+                                                                                                        attached to an Allarus Custodians unit, it can be attached
+                                                                                                        to this unit instead.
+
+
+
+
+                                                                                                             FACTION KEYWORDS:
+   KEYWORDS: Infantry, Terminator, Imperium, Aquilon Custodians
+                                                                                                             Adeptus Custodes
+CONTEMPTOR-ACHILLUS DREADNOUGHT
+ M            T          SV          W           LD   OC
+
+
+6"           9          2+         10          6+     3
+                        5+            INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                    RANGE       A    BS    S    AP    D     ABILITIES
+     Achillus dreadspear                                    12"    1    2+    9    -2    3     CORE: Deadly Demise 1
+     Infernus incinerator [TORRENT, IGNORES COVER]          12"    D6   N/A   6    -1    1
+                                                                                               FACTION: Martial Ka’tah
+     Lastrum storm bolter [RAPID FIRE 2]                    24"    2    2+    5    -1    1
+     Twin adrathic destructor [TWIN-LINKED]                 18"    1    2+    6    -2    3     Dread Foe: Each time this model is selected to fight, you can
+                                                                                               select one enemy unit within Engagement Range of it and roll
+     MELEE WEAPONS                                     RANGE       A    WS    S    AP    D     one D6, adding 2 to the result if this model made a Charge
+                                                                                               move this turn: on a 4-5, that enemy unit suffers D3 mortal
+     Achillus dreadspear [LANCE]                           Melee   5    2+    12   -2   D6+1   wounds; on a 6+, that enemy unit suffers 3 mortal wounds.
+
+
+
+
+                                                                                                    FACTION KEYWORDS:
+ KEYWORDS: Vehicle, Walker, Imperium, Contemptor-Achillus Dreadnought
+                                                                                                    Adeptus Custodes
+CONTEMPTOR-ACHILLUS DREADNOUGHT
+The Contemptor-Achillus adds still greater refinement to an already celebrated
+blueprint – the revered Contemptor Dreadnought – arming its occupant with a
+mighty dreadspear equally capable of searing through foes at range or vanquishing
+them with a single thrust of its glowing blade.
+
+
+
+
+  WARGEAR OPTIONS                                                                     UNIT COMPOSITION
+  ■ This model’s 2 lastrum storm bolters can be replaced with one of the following:   ■ 1 Contemptor-Achillus Dreadnought
+     ◦ 2 infernus incinerators                                                        This model is equipped with: 2 lastrum storm bolters;
+     ◦ 2 twin adrathic destructors                                                    Achillus dreadspear.
+     ◦ 1 lastrum storm bolter and 1 infernus incinerator
+     ◦ 1 lastrum storm bolter and 1 twin adrathic destructor
+     ◦ 1 infernus incinerator and 1 twin adrathic destructor
+
+
+
+
+                                                                                           FACTION KEYWORDS:
+   KEYWORDS: Vehicle, Walker, Imperium, Contemptor-Achillus Dreadnought
+                                                                                           Adeptus Custodes
+AGAMATUS CUSTODIANS
+ M            T          SV          W        LD   OC
+
+
+12"          6          2+           4        6+   2
+                        4+           INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                 RANGE       A   BS   S   AP   D   ABILITIES
+     Adrathic devastator                                 18"    1   2+   7   -2   3   FACTION: Martial Ka’tah
+     Lastrum bolt cannon [SUSTAINED HITS 1]              36"    3   2+   6   -1   1
+                                                                                      Turbo-boost: Each time this unit Advances, do not make an
+     Twin las-pulsar [TWIN-LINKED]                       24"    2   2+   9   -1   2
+                                                                                      Advance roll. Instead, until the end of the phase, add 6" to the
+                                                                                      Move characteristic of models in this unit.
+     MELEE WEAPONS                                  RANGE       A   WS   S   AP   D
+                                                                                      Implacable Vanguard: Once per battle, in your Shooting
+     Interceptor lance [LANCE]                          Melee   5   2+   7   -2   2   phase, after this unit has shot, if it is not within Engagement
+                                                                                      Range of one or more enemy units, it can make a Normal
+                                                                                      move of up to 6". If it does, until the end of the turn, this unit is
+                                                                                      not eligible to declare a charge.
+
+
+
+
+                                                                                            FACTION KEYWORDS:
+ KEYWORDS: Mounted, Fly, Frame, Imperium, Agamatus Custodians
+                                                                                            Adeptus Custodes
+AGAMATUS CUSTODIANS
+Agamatus Custodians take Gyrfalcon-pattern jetbikes as their steeds,
+the machines’ power supporting the heavy armour of their riders and
+the powerful lastrum bolt cannon or other arcane weaponry. Closing
+with the enemy, Agamatus Custodians unleash this firepower with
+precision, before dealing a death blow with their interceptor lances.
+
+
+
+  WARGEAR OPTIONS                                                                                        UNIT COMPOSITION
+  ■ Any number of models can each have their lastrum bolt cannon replaced with one of the following:   ■ 3-6 Agamatus Custodians
+       ◦ 1 adrathic devastator                                                                           Every model is equipped with: lastrum bolt cannon;
+       ◦ 1 twin las-pulsar                                                                               interceptor lance.
+
+
+                                                                                                         JETBIKE OUTRIDERS
+                                                                                                         If a model from your army with the Leader ability can be
+                                                                                                         attached to a Vertus Praetors unit, it can be attached to this
+                                                                                                         unit instead.
+
+
+
+
+                                                                                                              FACTION KEYWORDS:
+   KEYWORDS: Mounted, Fly, Frame, Imperium, Agamatus Custodians
+                                                                                                              Adeptus Custodes
+VENATARI CUSTODIANS
+ M            T           SV           W            LD   OC
+
+
+10"          6           2+           3             6+   2
+                         4+             INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                       RANGE       A   BS   S   AP   D   ABILITIES
+     Kinetic destroyer [PISTOL, SUSTAINED HITS 1]              12"    2   2+   6   -1   1   CORE: Deep Strike
+     Venatari lance [ASSAULT]                                  24"    2   2+   4   -1   2
+                                                                                            FACTION: Martial Ka’tah
+     MELEE WEAPONS                                        RANGE       A   WS   S   AP   D   Strike from the Skies: This unit is eligible to shoot and declare
+     Tarsis buckler                                           Melee   5   2+   5   -2   1   a charge in a turn in which it Fell Back.
+     Venatari lance [LANCE]                                   Melee   5   2+   7   -2   2   Swooping Dive: Once per battle, you can target this unit with
+                                                                                            the Rapid Ingress Stratagem for 0CP, and can do so even if
+                                                                                            you have already targeted a different unit with that Stratagem
+                                                                                            this phase.
+
+
+                                                                                            WARGEAR ABILITIES
+                                                                                            Tarsis Buckler: The bearer has a Wounds characteristic of 4.
+
+
+
+
+                                                                                                  FACTION KEYWORDS:
+ KEYWORDS: Infantry, Fly, Jump Pack, Imperium, Venatari Custodians
+                                                                                                  Adeptus Custodes
+VENATARI CUSTODIANS
+The role of Venatari Custodian is vaunted as a high honour within
+the Adeptus Custodes, bestowed upon those with the most aquiline
+combat senses. These airborne hunting squads make masterful use
+of their archeotech jump packs to strike from the skies, swooping into
+the enemy’s midst to deliver swift ruin with their pistols and polearms.
+
+
+
+  WARGEAR OPTIONS                                                                                       UNIT COMPOSITION
+  ■ Any number of models can each have their Venatari lance replaced with 1 kinetic destroyer and 1   ■ 3-6 Venatari Custodians
+    tarsus buckler.
+                                                                                                        Every model is equipped with: Venatari lance.
+
+
+                                                                                                        JUMP PACKS
+                                                                                                        This unit cannot embark within a Venerable Land Raider.
+
+
+
+
+                                                                                                             FACTION KEYWORDS:
+   KEYWORDS: Infantry, Fly, Jump Pack, Imperium, Venatari Custodians
+                                                                                                             Adeptus Custodes
+PALLAS GRAV-ATTACK
+ M            T           SV             W     LD     OC
+
+
+12"          8          2+               9    6+      2
+                         5+              INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                    RANGE       A   BS   S   AP   D   ABILITIES
+     Twin arachnus blaze cannon                                                          CORE: Deadly Demise D3
+                                                            24"    8   2+   5   -1   1
+     [DEVASTATING WOUNDS, TWIN-LINKED]
+                                                                                         FACTION: Martial Ka’tah
+     MELEE WEAPONS                                     RANGE       A   WS   S   AP   D
+                                                                                         Merciless Hunter: In your Shooting phase, each time this
+     Armoured hull                                         Melee   3   4+   6   0    1   model makes an attack that targets an enemy unit that is
+                                                                                         Below Half-strength, add 1 to the Wound roll.
+
+
+
+
+                                                                                              FACTION KEYWORDS:
+ KEYWORDS: Vehicle, Fly, Frame, Imperium, Pallas Grav-attack
+                                                                                              Adeptus Custodes
+PALLAS GRAV-ATTACK
+Designed as a highly manoeuvrable hunter-killer, the Pallas
+Grav-attack provides the Adeptus Custodes with a rapid strike
+capacity, using its agility and versatile twin arachnus blaze cannon to
+inflict devastating hit-and-run assaults on the enemy, or to hunt down
+fleeing targets that have evaded Custodes ground troops.
+
+
+
+  WARGEAR OPTIONS                                                         UNIT COMPOSITION
+  ■ None                                                                ■ 1 Pallas Grav-attack
+                                                                          This model is equipped with: twin arachnus blaze cannon;
+                                                                          armoured hull.
+
+
+
+
+                                                                               FACTION KEYWORDS:
+   KEYWORDS: Vehicle, Fly, Frame, Imperium, Pallas Grav-attack
+                                                                               Adeptus Custodes
+TELEMON HEAVY DREADNOUGHT
+ M            T          SV          W          LD   OC
+
+
+8"          10         2+            12       6+     4
+                        4+           INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                   RANGE        A     BS    S    AP   D   ABILITIES
+     Arachnus storm cannon [DEVASTATING WOUNDS]            24"     12    2+    6    -1   1   CORE: Deadly Demise D3
+     Iliastus accelerator culverin                         48"     4     2+    9    -1   3
+                                                                                             FACTION: Martial Ka’tah
+     Spiculus bolt launcher [BLAST]                        36"    D6+3   2+    5    0    1
+     Twin plasma projector [TORRENT, TWIN-LINKED]          12"     D3    N/A   7    -2   1   Guardian Eternal: Each time an attack is allocated to
+                                                                                             this model, subtract 1 from the Damage characteristic of
+     MELEE WEAPONS                                    RANGE        A     WS    S    AP   D   that attack.
+     Armoured feet                                        Melee    5     2+    7    0    1   Devoted to Destruction: If this model is equipped with 2
+                                                                                             Telemon caestus weapons in addition to its armoured feet
+     Telemon caestus                                      Melee    5     2+    12   -2   3
+                                                                                             weapon, add 2 to the Attacks characteristic of those Telemon
+                                                                                             caestus weapons.
+
+
+                                                                                                  DAMAGED: 1-4 WOUNDS REMAINING
+                                                                                             While this model has 1-4 wounds remaining, each time this
+                                                                                             model makes an attack, subtract 1 from the Hit roll.
+
+
+
+
+                                                                                                  FACTION KEYWORDS:
+ KEYWORDS: Vehicle, Walker, Imperium, Telemon Heavy Dreadnought
+                                                                                                  Adeptus Custodes
+TELEMON HEAVY DREADNOUGHT
+The honour of interment within a Telemon Heavy Dreadnought falls
+to the most lauded of Custodians, whose battle prowess is deemed a
+match for the Telemon’s sheer power. Encased within, such souls fight
+on alongside their brethren, whether surging forward with righteous
+fury or repelling assaults with their spiculus bolt launcher.
+
+
+
+  WARGEAR OPTIONS                                                                              UNIT COMPOSITION
+  ■ This model’s 2 iliastus accelerator culverins can be replaced with one of the following:   ■ 1 Telemon Heavy Dreadnought
+     ◦ 2 arachnus storm cannons                                                                This model is equipped with: 2 iliastus accelerator culverins;
+     ◦ 2 Telemon caestus and 2 twin plasma projectors                                          spiculus bolt launcher; armoured feet.
+     ◦ 1 iliastus accelerator culverin and 1 arachnus storm cannon
+     ◦ 1 iliastus accelerator culverin, 1 Telemon caestus and 1 twin plasma projector
+     ◦ 1 arachnus storm cannon, 1 Telemon caestus and 1 twin plasma projector
+
+
+
+
+                                                                                                     FACTION KEYWORDS:
+   KEYWORDS: Vehicle, Walker, Imperium, Telemon Heavy Dreadnought
+                                                                                                     Adeptus Custodes
+CALADIUS GRAV-TANK
+ M             T            SV       W             LD   OC
+
+
+10" 11                    2+       14         6+        4
+                           5+        INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                      RANGE       A   BS   S    AP    D     ABILITIES
+     Twin arachnus heavy blaze cannon [TWIN-LINKED]           48"    4   2+   12   -3   D6+2   CORE: Deadly Demise D3
+     Twin iliastus accelerator cannon
+                                                              48"    4   2+   10   -1    3     FACTION: Martial Ka’tah
+     [RAPID FIRE 4, TWIN-LINKED]
+     Twin lastrum bolt cannon [SUSTAINED HITS 1]              36"    3   2+   6    -1    1
+                                                                                               Advanced Firepower: Each time this model makes an attack
+                                                                                               with its twin iliastus accelerator cannon that targets an
+     MELEE WEAPONS                                       RANGE       A   WS   S    AP    D     enemy unit (excluding Monsters and Vehicles), that attack
+     Armoured hull                                           Melee   4   4+   6    0     1     has the [LETHAL HITS] ability. Each time this model makes an
+                                                                                               attack with its twin arachnus heavy blaze cannon that targets
+                                                                                               an enemy Monster or Vehicle unit, that attack has the
+                                                                                               [LETHAL HITS] ability.
+
+
+                                                                                                    DAMAGED: 1-5 WOUNDS REMAINING
+                                                                                               While this model has 1-5 wounds remaining, each time this
+                                                                                               model makes an attack, subtract 1 from the Hit roll.
+
+
+
+
+                                                                                                    FACTION KEYWORDS:
+ KEYWORDS: Vehicle, Fly, Frame, Imperium, Caladius Grav-tank
+                                                                                                    Adeptus Custodes
+CALADIUS GRAV-TANK
+The Caladius Grav-tank fuses some of the heaviest firepower in the
+Custodian Guard arsenal with a highly mobile, resilient chassis. Taking
+as its principal armament either a twin iliastus accelerator cannon or
+a twin arachnus heavy blaze cannon, the Caladius excels in a range of
+battlefield roles, far outmatching more primitive vehicles of its class.
+
+
+
+  WARGEAR OPTIONS                                                                                UNIT COMPOSITION
+  ■ This model’s twin iliastus accelerator cannon can be replaced with 1 twin arachnus heavy   ■ 1 Caladius Grav-tank
+    blaze cannon.
+                                                                                                 This model is equipped with: twin iliastus accelerator cannon;
+                                                                                                 twin lastrum bolt cannon; armoured hull.
+
+
+
+
+                                                                                                      FACTION KEYWORDS:
+   KEYWORDS: Vehicle, Fly, Frame, Imperium, Caladius Grav-tank
+                                                                                                      Adeptus Custodes
+CORONUS GRAV-CARRIER
+ M            T           SV             W         LD   OC
+
+
+12" 12                  2+           16       6+        5
+                         5+              INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                      RANGE       A   BS   S   AP   D   ABILITIES
+     Twin arachnus blaze cannon                                                            CORE: Deadly Demise D6
+                                                              24"    8   2+   5   -1   1
+     [DEVASTATING WOUNDS, TWIN-LINKED]
+     Twin lastrum bolt cannon [SUSTAINED HITS 1]              36"    3   2+   6   -1   1   FACTION: Martial Ka’tah
+
+                                                                                           Fire Support: In your Shooting phase, after this model has
+     MELEE WEAPONS                                       RANGE       A   WS   S   AP   D   shot, select one enemy unit hit by one or more of those
+     Armoured hull                                           Melee   6   4+   8   0    1   attacks. Until the end of the phase, each time a friendly model
+                                                                                           that disembarked from this Transport this turn makes
+                                                                                           an attack that targets that enemy unit, you can re-roll the
+                                                                                           Wound roll.
+
+
+                                                                                                DAMAGED: 1-5 WOUNDS REMAINING
+                                                                                           While this model has 1-5 wounds remaining, each time this
+                                                                                           model makes an attack, subtract 1 from the Hit roll.
+
+
+
+
+                                                                                                 FACTION KEYWORDS:
+ KEYWORDS: Vehicle, Transport, Fly, Frame, Imperium, Coronus Grav-carrier
+                                                                                                 Adeptus Custodes
+CORONUS GRAV-CARRIER
+Coronus Grav-carriers are the primary tactical transports of the
+Adeptus Custodes. Their repulsor suspensor technology and flare
+shielding grants them the speed and survivability to engage or evade
+myriad threats at will, punishing targets with their potent turret
+weapons as they speed their elite passengers to the forefront of battle.
+
+
+
+  WARGEAR OPTIONS                                                             UNIT COMPOSITION
+  ■ None                                                                    ■ 1 Coronus Grav-carrier
+                                                                              This model is equipped with: twin arachnus blaze cannon;
+                                                                              twin lastrum bolt cannon; armoured hull.
+
+
+                                                                              TRANSPORT
+                                                                              This model has a transport capacity of 8 Adeptus Custodes
+                                                                              Infantry models.
+
+
+
+
+                                                                                   FACTION KEYWORDS:
+   KEYWORDS: Vehicle, Transport, Fly, Frame, Imperium, Coronus Grav-carrier
+                                                                                   Adeptus Custodes
+ORION ASSAULT DROPSHIP
+  M            T         SV          W          LD   OC
+
+
+ 14"        12          2+          22          6+   0
+                        5+            INVULNERABLE SAVE
+
+
+  RANGED WEAPONS                                     RANGE    A     BS   S    AP    D     ABILITIES
+  Arachnus heavy blaze cannon                         36"     4     2+   12   -3   D6+1   CORE: Deadly Demise D6, Hover
+  Spiculus heavy bolt launcher [BLAST]                36"    D6+6   2+   7    -1    2
+                                                                                          FACTION: Martial Ka’tah
+  Twin lastrum bolt cannon [SUSTAINED HITS 1]         36"     3     2+   6    -1    1
+                                                                                          Assault Dropship: If a unit disembarks from this Transport
+  MELEE WEAPONS                                      RANGE    A     WS   S    AP    D     before it moves, until the end of the turn, that unit is eligible to
+  Armoured hull                                      Melee    9     4+   9    0     1     charge in a turn in which it Advanced.
+
+
+                                                                                               DAMAGED: 1-7 WOUNDS REMAINING
+                                                                                          While this model has 1-7 wounds remaining, each time this
+                                                                                          model makes an attack, subtract 1 from the Hit roll.
+
+
+
+
+                                                                                                FACTION KEYWORDS:
+ KEYWORDS: Vehicle, Transport, Fly, Imperium, Orion Assault Dropship
+                                                                                                Adeptus Custodes
+ORION ASSAULT DROPSHIP
+The heavily armoured Orion is a superlative assault craft designed
+to weather attacks while it deploys its formidable cargo of Custodian
+Guard. With bolt and energy weapons blazing, the Orion swiftly clears
+a landing zone and unleashes its passengers, before soaring skyward
+to rain death upon any other threats that enter its sights.
+
+
+
+  WARGEAR OPTIONS                                                         UNIT COMPOSITION
+  ■ None                                                                ■ 1 Orion Assault Dropship
+                                                                          This model is equipped with: 2 arachnus heavy blaze
+                                                                          cannons; 2 twin lastrum bolt cannons; 2 spiculus heavy bolt
+                                                                          launchers; armoured hull.
+
+
+                                                                          TRANSPORT
+                                                                          This model has a transport capacity of 12 Adeptus Custodes
+                                                                          Infantry models. This model can also transport 1 Venerable
+                                                                          Contemptor Dreadnought, 1 Contemptor-Achillus
+                                                                          Dreadnought or 1 Contemptor Galatus-Dreadnought;
+                                                                          while doing so, its transport capacity is reduced to 6 Adeptus
+                                                                          Custodes Infantry models.
+
+
+
+
+                                                                               FACTION KEYWORDS:
+   KEYWORDS: Vehicle, Transport, Fly, Imperium, Orion Assault Dropship
+                                                                               Adeptus Custodes
+ARES GUNSHIP
+  M          T        SV        W     LD     OC
+
+
+  -        12       2+          22   6+      -
+                     5+         INVULNERABLE SAVE
+
+
+  RANGED WEAPONS                            RANGE      A    BS   S    AP    D     ABILITIES
+  Arachnus heavy blaze cannon                 36"      4    2+   12   -3   D6+1   CORE: Deadly Demise D6
+  Arachnus magna-blaze cannon                 48"      3    2+   18   -4   D6+6
+                                                                                  FACTION: Martial Ka’tah
+  MELEE WEAPONS                             RANGE      A    WS   S    AP    D     Infernus Firebombs: At the end of your Movement phase,
+  Armoured hull                              Melee     9    4+   9    0     1     select one visible enemy unit (excluding AIRCRAFT/Lone
+                                                                                  Operative units) within 24" of this unit:
+                                                                                  ■ That enemy unit cannot have the benefit of cover until the
+                                                                                     end of your next Shooting phase.
+                                                                                  ■ Roll one D6 for each model in that enemy unit: for each 6,
+                                                                                     that enemy unit suffers 1 mortal wound.’
+
+
+                                                                                       DAMAGED: 1-7 WOUNDS REMAINING
+                                                                                  While this model has 1-7 wounds remaining, each time this
+                                                                                  model makes an attack, subtract 1 from the Hit roll.
+
+
+
+
+                                                                                       FACTION KEYWORDS:
+ KEYWORDS: Vehicle, Aircraft, Fly, Imperium, Ares Gunship
+                                                                                       Adeptus Custodes
+ARES GUNSHIP
+The Ares Gunship first earned its reputation on Ancient Terra, and has
+quashed the Emperor’s enemies on hundreds of worlds since. Most
+terrifying of the Ares’ offensive capabilities is the arachnus magna-
+blaze cannon, whose extreme energies can pierce the densest armour,
+leaving a trail of wrecks and corpses wherever the Ares deploys.
+
+
+
+  WARGEAR OPTIONS                                                        UNIT COMPOSITION
+  ■ None                                                               ■ 1 Ares Gunship
+                                                                         This model is equipped with: 2 arachnus heavy blaze
+                                                                         cannons; arachnus magna-blaze cannon; armoured hull.
+
+
+
+
+                                                                              FACTION KEYWORDS:
+   KEYWORDS: Vehicle, Aircraft, Fly, Imperium, Ares Gunship
+                                                                              Adeptus Custodes
+CONTEMPTOR-GALATUS DREADNOUGHT
+ M            T          SV          W           LD           OC
+
+
+6"           9          2+         10          6+             3
+                        4+            INVULNERABLE SAVE
+
+
+     RANGED WEAPONS                                            RANGE       A    BS    S   AP   D   ABILITIES
+     Galatus warblade [IGNORES COVER, TORRENT, TWIN-LINKED]         12"    D6   N/A   6   -1   1   CORE: Deadly Demise 1
+
+     MELEE WEAPONS                                             RANGE       A    WS    S   AP   D   FACTION: Martial Ka’tah
+     Galatus warblade                                              Melee   8    2+    8   -2   3   Galatus Shield: Each time a melee attack targets this model,
+                                                                                                   subtract 1 from the Wound roll.
+
+
+
+
+                                                                                                        FACTION KEYWORDS:
+ KEYWORDS: Vehicle, Walker, Imperium, Contemptor-Galatus Dreadnought
+                                                                                                        Adeptus Custodes
+CONTEMPTOR-GALATUS DREADNOUGHT
+Like the Sentinel Guard of the ancient Legio Custodes, the Contemptor-Galatus is
+armed with a power blade and battle shield, albeit of a type greatly superior in size
+and potency. Coupled with the already resilient Contemptor chassis, this wargear
+enables the Galatus to stride through the inferno of battle with impunity, slaying elite
+infantry and crippling vehicles.
+
+
+
+   WARGEAR OPTIONS                                                                         UNIT COMPOSITION
+   ■ None                                                                                ■ 1 Contemptor-Galatus Dreadnought
+                                                                                           This model is equipped with: Galatus warblade.
+
+
+
+
+                                                                                                FACTION KEYWORDS:
+    KEYWORDS: Vehicle, Walker, Imperium, Contemptor-Galatus Dreadnought
+                                                                                                Adeptus Custodes
+                                        ADEPTUS CUSTODES
+                                                             RULES UPDATES
+This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
+Changes applied after the first iteration of this Faction Pack will be highlighted in red.
+
+
+                                                                              Champion of the Imperium Enhancement
+UPDATES                                                                       Change to:
+                                                                              'ADEPTUS CUSTODES model only. The range of the bearer’s Null Aegis or
+AURIC CHAMPIONS DETACHMENT                                                    Deadly Unity ability (see left) is increased to 9".'
+Martial Philosopher Enhancement
+Change third sentence to:                                                     DATASHEETS
+'Once per battle, in your opponent's Movement phase, when an enemy            Shield-Captain on Dawneagle Jetbike and Vertus Praetors,
+unit ends a Normal, Advance or Fall Back move within 8" of the bearer,        Ranged Weapons
+if the bearer's unit is not within Engagement Range of one or more            Change profiles to:
+enemy units, it can make a Normal move of up to 6".'
+                                                                              Salvo Launcher [TWIN-LINKED]
+Shoulder the Mantle Stratagem                                                       RANGE           A      BS      S     AP         D
+Change to:
+                                                                                      24"           1      2+     10     -3    D6+1
+'WHEN: Your Movement phase, before the Reinforcements step.
+TARGET: One ADEPTUS CUSTODES CHARACTER model from your army that              Vertus Hurricane Bolter [RAPID FIRE 3, TWIN-LINKED]
+is not leading a unit.                                                              RANGE           A      BS      S     AP         D
+EFFECT: Select one friendly unit (excluding Battle-shocked and Attached
+                                                                                      18"           3      2+      4      -1        2
+units) within 2" horizontally and 5" vertically of your model that it could
+lead (as described in the Leader section of its datasheet). Your model
+attaches to that unit as a Leader. Change that unit’s Starting Strength       Shield-Captain on Dawneagle Jetbike, Profile
+accordingly.'                                                                 Change Toughness characteristic to ‘7’ and Wounds characteristic to ‘8’.
+
+Assemblage of Might Detachment Rule                                           Valerian, Core Abilities
+Change to:                                                                    Add ‘Deep Strike'.
+'At the start of your Command phase, select one unit from your
+opponent’s army. Until the start of your next Command phase, each             Vertus Praetors
+time a model in an ADEPTUS CUSTODES CHARACTER unit from your army             ▪ Profile: Change Toughness characteristic to ‘7’ and Wounds
+makes an attack that targets that enemy unit, add 1 to the Wound roll.'           characteristic to ‘5’.
+                                                                              ▪ Quicksilver Execution Ability: change to:
+SHIELD HOST DETACHMENT                                                            ‘Once per battle, after this unit ends a Normal or Advance move, you
+SHIELD HOST DETACHMENT,                                                           can select one enemy unit (excluding MONSTERS and VEHICLES) that it
+Martial Mastery Detachment Rule                                                   moved over during that move, then roll one D6 for each model in this
+Change first paragraph to:                                                        unit: for each 2+, that enemy unit suffers 2 mortal wounds.’
+'At the start of the battle round, you can select one of the bullet points
+below. If you do, until the start of the next battle round, that bullet       Anathema Psykana Rhino, Venerable Land Raider – Keywords section
+point’s effects apply.'                                                       Add the 'FRAME' keyword.
+
+Castellan’s Mark Enhancement
+Change to:                                                                    FAQS
+'SHIELD-CAPTAIN model only. After both players have deployed their            Q: If I am using the Auric Champions Detachment and an ADEPTUS
+armies, you can select up to two ADEPTUS CUSTODES units from your             CUSTODES CHARACTER model that is leading a unit from my army is
+army (excluding ANATHEMA PSYKANA units) and redeploy all of those             destroyed (e.g. by an attack with the [PRECISION] ability), does the
+units. When doing so, any of those units can be placed into Strategic         Assemblage of Might Detachment rule still apply to the remaining
+Reserves, regardless of how many units are already in Strategic               models in that unit until the start of my next Command phase?
+Reserves.'                                                                    A: No.
+
+TALONS OF THE EMPEROR DETACHMENT                                              Q: If an enemy model is within 12" of any part of a unit that is led by a
+Taloned Pincer Stratagem, Target Section                                      CHARACTER with the Radiant Mantle Enhancement when that enemy
+Change 9" to 8".                                                              model selects targets for its attacks, do those attacks suffer from the -1
+                                                                              Hit roll penalty?
+                                                                              A: Yes.
+

@@ -1,0 +1,1039 @@
+                              ADEPTUS MECHANICUS
+                                           FACTION PACK: VERSION 1.1
+                                              Legal for matched play from 22nd July 2026
+
+On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
+datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
+for your units and detachments.
+
+
+WHAT’S NEW?                                                         CONTENTS
+▪ Thulia Ghuld datasheet:                                            Detachments���������������������������������������������������������������������������������2
+   ▫ Keywords Section: Add 'MOBILE'                                   Cohort Acquisitus����������������������������������������������������������������������������������������2
+   ▫ Abilities Section: Remove Cybernetic Augmentation ability        Lords of the Forge���������������������������������������������������������������������������������������3
+▪ New entries in Rules Updates                                        Luminen Auto-choir������������������������������������������������������������������������������������4
+                                                                      Eradication Cohort��������������������������������������������������������������������������������������5
+                                                                      Haloscreed Battle Clade����������������������������������������������������������������������������7
+                                                                     Datasheets������������������������������������������������������������������������������������9
+                                                                      Thulia Ghuld��������������������������������������������������������������������������������������������������9
+                                                                      Hastarii Exterminators����������������������������������������������������������������������������11
+                                                                      Hastarii Fusiliers���������������������������������������������������������������������������������������13
+                                                                      Servitor Battleclade���������������������������������������������������������������������������������15
+                                                                     Rules Updates�����������������������������������������������������������������������������17
+                                                                     Legends Datasheets�������������������������������������������������������������������20
+COHORT ACQUISITUS
+ADAPTED SKITARII HUNTERS IDENTIFY AND ELIMINATE TARGETS IN THE QUEST FOR KNOWLEDGE
+
+
+ DETACHMENT RULES                                                     DEFECT SCRUTINY                                                        1CP
+                                                                      COHORT ACQUISITUS STRATAGEM
+NOOSPHERIC RECON
+                                                                      By focusing implanted augurs with split‑second analysis, the
+Force‑loaded with enhanced divinatory augurs, far‑ranging Skitarii    foe’s flaws can be exposed and broadcast in a clarion call to
+                                                                      the rest of the Omnissiah’s faithful.
+are the unblinking eyes of their masters and cast their sensors
+in overlapping noospheric nets to root out the enemies of the         WHEN: Your Shooting phase, when a friendly ADEPTUS MECHANICUS
+Machine God.                                                          unit is selected to shoot.
+                                                                      TARGET: That ADEPTUS MECHANICUS unit.
+▪ Friendly PTERAXII/INFILTRATORS/RANGERS/SERBERYS RAIDERS/           EFFECT: Select one visible enemy unit within 12" of a friendly RECON
+   SERBERYS SULPHURHOUNDS units have RECON AUGURY.                    AUGURY unit. Your unit’s ranged attacks that target that enemy unit
+▪ Friendly RECON AUGURY units have the following ability:             have [IGNORES COVER].
+
+  Enhanced Augurs: In your Shooting phase, this unit can select
+   one visible enemy unit within 12". That enemy unit is analysed:    REPOLARISED AUGURS                                                     1CP
+  ▪ While a unit is analysed, that unit has +3" detection range.     COHORT ACQUISITUS STRATAGEM
+
+                                                                      With a recalibration of divinatory implants, their information
+                                                                      absorption can be redirected as a scrambled emission which the
+                                                                      enemy’s senses cannot easily penetrate.
+ ENHANCEMENTS
+                                                                      WHEN: Start of your opponent’s Movement phase.
+EXPLORATOR DISPENSATION                                               TARGET: One friendly unengaged RECON AUGURY unit.
+Mantled in a susurrus of shrouding code and implanted sensor          EFFECT: Your unit has -3" detection range until the end of the turn.
+baffles, this commander has been granted a holy commission to
+extend their forge world’s influence at the forefront of the Quest
+for Knowledge.
+                                                                      CLANDESTINE REPOSITION                                                 1CP
+                                                                      COHORT ACQUISITUS STRATAGEM
+
+SKITARII MARSHAL model only. This unit has Infiltrators.              Under the cover of a multi‑spectral burst of binharic feedback,
+                                                                      vectors of redeployment can be opened up that are unanticipated
+                                                                      and unseen by the enemy.
+STEALTH-SCREENED CYBERCANIDS UPGRADE
+These veteran raiders have been bestowed with rarefied cybernetic     WHEN: End of your opponent’s Fight phase.
+
+mounts that incorporate stealth‑screen projectors, silenced servos,   TARGET: One friendly unengaged INFILTRATORS/PTERAXII unit.
+and photo‑adaptive hides, rendering them all but invisible until      EFFECT: Place your unit in strategic reserves.
+they near their prey.
+
+SERBERYS RAIDERS unit only. This unit has Lone Operative 15".
+LORDS OF THE FORGE
+SENIOR CYBER-CLERGY AND TECHNOHIERARCHS MARSHAL THE MACHINE GOD’S DEVOUT
+
+
+ DETACHMENT RULES                                                          SCRIPTURAL PROGNOSIS                                                 1CP
+                                                                           LORDS OF THE FORGE STRATAGEM
+WAR-FORM MANTLES
+                                                                           Analysing data from thousands of sources at once, a disciple of
+When battle looms, many Tech-Priests don their war forms,                  the Omnissiah is able to rationalise the enemy’s capabilities
+                                                                           and dispense protocols of endurance to their servants.
+replacing more delicate mechanical appendages with steel-shod
+bionics that incorporate auto-repair subroutines. Some also outfit         WHEN: In your opponent’s Shooting phase or the Fight phase, when
+themselves with narrow-band screed casters. These project streams          an enemy unit targets a friendly TECH-PRIEST unit that is within
+of incomprehensible code that overwhelm the cogitator cores of             range of an objective.
+enemy vehicles and baffle augury.                                          TARGET: That TECH-PRIEST unit.
+                                                                           EFFECT: Attacks that target your unit have -1 AP until that enemy
+Friendly TECH-PRIEST models have:                                          unit has attacked.
+▪ 4+ InSv.
+▪ Feel No Pain 5+.
+                                                                           OVERLOADED SAFEGUARDS                                                1CP
+Friendly TECH-PRIEST models have the following ability:                    LORDS OF THE FORGE STRATAGEM
+
+                                                                           With a cascade of holy screed, implanted aggression protocols
+  Baffling Data Screed: In your Shooting phase, when this unit is          and biochemical triggers can be activated by a Tech-Priest to
+  selected to shoot, if this unit is not battle-shocked, you can use       transmute a seeming rout into a predatory counterstrike.
+
+  this ability. If you do, roll one D6:                                    WHEN: Your Movement phase, when a friendly TECH-PRIEST unit is
+  ▪ On a 2+, select one enemy VEHICLE unit within 12" of this unit.       selected to make a fall-back move.
+     That enemy unit makes a battle-shock roll, with -1 to that            TARGET: That TECH-PRIEST unit.
+     battle-shock roll. A unit cannot be selected for this ability         EFFECT: That move does not prevent your unit from being eligible
+     more than once per turn.                                              to shoot/declare a charge.
+  ▪ Or: On 2+, those ranged attacks do not prevent this unit from
+     being hidden.
+                                                                           HOLY AVARICE                                                         1CP
+                                                                           LORDS OF THE FORGE STRATAGEM
+
+ ENHANCEMENTS                                                              When a miracle of technology is identified, a Tech-Priest will
+                                                                           go to bloody lengths to retrieve it, simultaneously directing
+                                                                           the acquisition of their prize and the dismantling of anyone
+                                                                           who threatens it.
+VINGH’S WAFERS OF DYNAMISM
+The inimitable holy programming within these doctrina wafers               WHEN: Your Shooting phase, when a friendly TECH-PRIEST unit
+elicits a bullish agility in a Datasmith’s cybernetic wards. So            starts an action.
+commanded, such robots have scaled rusting piles of shifting               TARGET: That TECH-PRIEST unit.
+scree, bulldozed their way through heretek defences and smashed            EFFECT: That action does not prevent your unit from being eligible
+breaches in space hulk passages.                                           to shoot.
+
+
+CYBERNETICA DATASMITH model only. At the start of the first battle
+round, if this unit is an attached unit, this unit has MOBILE until the
+end of the battle.
+
+TL-4Ø9
+This modest-seeming casket is named for the almost indecipherable
+sigils on its ancient casing. The prevailing theocratic dogma is that
+this artefact is a weapon, for when its iris shutter is opened, a night-
+black beam of incredible power is released.
+
+TECH-PRIEST model only. This model has the following weapon:
+TL-4ø9 [DEVASTATING WOUNDS, HAZARDOUS]
+     RANGE            A          BS        S         AP          D
+       24"            3          2+        11        -2         D3+2
+UNIQUE: DATA-PSALM
+
+LUMINEN AUTO-CHOIR
+ELECTRO-PRIESTS HARNESS THE MOTIVE FORCE WITH ECSTATIC EMPOWERING CHANTS
+
+
+ DETACHMENT RULES                                                           ECHOES OF THE CONDUIT WARS                                            1CP
+                                                                            LUMINEN AUTO-CHOIR STRATAGEM
+CYBER-STATIC CANTICLES
+                                                                            Punishing transgressors has a long and ritualised tradition
+With voices or binharic emissions raised in holy verse, the disciples       amongst the unforgiving Electro-Priests, and they will eagerly
+                                                                            prove their faith in coruscating violence.
+of the Motive Force roar their worship. Thunderheads of potentiality
+roil above them, and rival sects vie to prove the supremacy of their        WHEN: Your Shooting phase or the Fight phase, when a friendly
+visionary dogma with coruscating intensity.                                 ELECTRO-PRIESTS unit is selected to attack.
+                                                                            TARGET: That ELECTRO-PRIESTS unit.
+▪ Friendly CORPUSCARII units’ ranged attacks have [LETHAL HITS].           EFFECT: Your unit’s attacks that target a unit within range of an
+▪ When a friendly FULGURITE unit has fought, that unit heals               objective can:
+   D3 wounds.                                                               ▪ Re-roll hit rolls of 1.
+                                                                            ▪ Re-roll wound rolls of 1.
+This detachment has the DATA-PSALM tag and cannot be taken with
+another DATA-PSALM detachment.
+                                                                            CHANT OF ELECTROTRACTION                                              1CP
+                                                                            LUMINEN AUTO-CHOIR STRATAGEM
+
+ ENHANCEMENTS                                                               With every Binharic chant in praise of the Divine Current,
+                                                                            Electro-Priests feel the surge of sacred power. The pulsing
+                                                                            nimbus demands a holy circuit which can only be closed by making
+VOLTAGHEIST RELIQUARY                                                       destructive contact with the foe.
+The wild voltagheists said to inhabit this holy casket are more             WHEN: Your Movement phase, when a friendly ELECTRO-PRIESTS
+aggressive and intrusive than those that guard the Electro-Priests,         BATTLECLADE unit is selected to make an advance move.
+and surge in interfering pulses that scramble the foe’s sensors.            TARGET: That ELECTRO-PRIESTS unit.
+                                                                            EFFECT: That move does not prevent your unit from being eligible to
+TECH-PRIEST model only. Enemy units cannot target this unit with            declare a charge.
+snap shooting attacks.
+
+ELECTROMIASMIC BRAZIER                                                      MOMENTUM FEEDBACK                                                     1CP
+This ornate brazier emits incense-laced particulate chaff that swirls       LUMINEN AUTO-CHOIR STRATAGEM
+in glittering veils. The silvered mist is alive with sacred energies that   Harnessing the force of the blasphemous enemy’s attacks
+foul attempts to pinpoint the Omnissiah’s faithful.                         into energy to fuel a holy retaliatory surge is an act of
+                                                                            righteous transmutation.
+
+TECH‑PRIEST model only. This unit has Stealth.                              WHEN: Your opponent’s Shooting phase, when an enemy unit that
+                                                                            targeted a friendly unengaged ELECTRO-PRIESTS unit has shot.
+                                                                            TARGET: That ELECTRO-PRIESTS unit.
+                                                                            EFFECT: Your unit can make a surge move of up to D6".
+       ERADICATION COHORT
+       The fury of the Skitarii is a manifestation of the Omnissiah in his most warlike and wrathful aspect.
+       These formations focus on purely offensive strategies. Blistering close‑ranged firefights are followed
+       by fanatical charges. Enemy threats are analysed by combat cogitators then met head‑on with
+       maximum aggression. The Tech‑Magi directing the cohort’s efforts from on high give no thought to the
+       survival of their warriors, instead issuing directives that cause data‑tethers to thrum with the urge to
+       butchery. Goaded on by the most warlike Tech‑Priests and Skitarii Marshals, maniples of Skitarii and
+       processions of Electro‑Priests surge forward to blast and rend all in their path. Armoured assets and
+       Servitors move up in support, grinding over strewn corpses to direct suppressing fire against any foe
+       likely to stall the advance. Casualties are typically horrific. However, the results they produce on the
+       battlefield are deemed more than worth the cost in the Omnissiah’s more expendable servants.
+
+
+
+     DETACHMENT RULE                                         ENHANCEMENTS
+
+    MURDEROUS IMPERATIVE                                    OMNICOGITATOR
+    The Skitarii fighting in a focused clade all            This unique tactical‑cogitation augmetic provides its
+    but vibrate with the inloaded need to kill.             bearer with a wealth of situation‑appropriate responses
+    This manifests not as wild rage, however,               in even the most intense battle.
+    but rather as a coldly efficient drive to
+    acquire the next target, bring it down                  Skitarii Marshal model only. The Conqueror
+    with pinpoint fire or neatly placed thrusts,            Imperative and Protector Imperative are both active
+    then find a new victim and repeat in an                 for the bearer’s unit.
+    infinite loop.
+                                                            MARTIAL SIGNATUM AMPLIFICATOR
+    Each time a model in a Skitarii unit from               This strange device taps into the data‑tethers that carry
+    your army makes an attack:                              Skitarii command imperatives and disseminates them
+                                                            to other, less soldierly servants of the Omnissiah.
+    ■ If the Protector Imperative is active for
+       that unit, re‑roll a Hit roll of 1.                  Tech‑Priest model only. Models in the bearer’s unit
+    ■ If the Conqueror Imperative is active                have the Skitarii keyword.
+       for that unit, re‑roll a Wound roll of 1.
+                                                            BELICOSA‑CLASS CAPACITOR VANES
+                                                            These slender conductor vanes channel esoteric energies
+                                                            into nearby weapon systems, rendering their machine
+                                                            spirits rapacious and bellicose.
+
+                                                            Adeptus Mechanicus model only. Add 6" to the
+                                                            Range characteristic of ranged weapons equipped by
+                                                            models in the bearer’s unit, and add 1 to the Strength
+                                                            characteristic of those weapons.
+
+                                                            OMNISSIAH’S FURY
+                                                            A Skitarii Marshal implanted with this thoracic
+                                                            augmetic feels the Machine God’s molten fury flowing
+                                                            through their veins and out into the weapons they wield
+                                                            in battle.
+
+                                                            Skitarii Marshal model only. Add 2 to the Attacks
+                                                            characteristic of melee weapons equipped by the
+                                                            bearer, and improve the Armour Penetration and
+                                                            Damage characteristics of those weapons by 1.
+
+
+
+
+5
+          SERVO‑DRIVEN CHARGE                                              THREAT‑COGITATION TARGETERS
+          ERADICATION COHORT – WARGEAR STRATAGEM                           ERADICATION COHORT – WARGEAR STRATAGEM
+
+          Sending reckless surges of motive force through                  Supplementary analytic cogitation routines identify
+          their units, these warriors charge headlong into                 targets of primary importance and assist in their
+    1CP   combat with punishing impact.                              1CP   rapid elimination.
+          WHEN: Fight phase.                                               WHEN: Your Shooting phase.
+          TARGET: One Adeptus Mechanicus unit from your                    TARGET: One Skitarii Vehicle unit from your army
+          army that has not been selected to fight this phase.             that has not been selected to shoot this phase.
+          EFFECT: Until the end of the phase, melee weapons                EFFECT: Until the end of the phase, each time a
+          equipped by models in your unit have the                         ranged attack made by a model in your unit is
+          [LANCE] ability.                                                 allocated to a Monster or Vehicle model, you can
+                                                                           re‑roll the Damage roll.
+
+          UNRELENTING AGGRESSION
+          ERADICATION COHORT – STRATEGIC PLOY STRATAGEM
+                                                                           PRECISION ONSLAUGHT
+                                                                           ERADICATION COHORT – BATTLE TACTIC STRATAGEM
+          Even when retreating temporarily in the face of
+          staunch resistance, the warriors of the Omnissiah                Leading the charge like a keen bayonet locked to a
+    1CP   keep up their storm of fire and violent blows.                   rifle’s barrel, maniples of Sicarians scythe into the
+                                                                     1CP   enemy amidst a welter of blood and severed limbs.
+          WHEN: Your Movement phase, just after an Adeptus
+          Mechanicus unit from your army Falls Back.                       WHEN: Your Charge phase, just after a Sicarian unit
+          TARGET: That Adeptus Mechanicus unit.                            from your army declares a charge.
+          EFFECT: Until the end of the turn, your unit is eligible         TARGET: That Sicarian unit.
+          to shoot in a turn in which it Fell Back. If your unit           EFFECT: Until the end of the phase, when your unit
+          has the Skitarii keyword, your unit is eligible to               ends a Charge move, select one enemy unit within
+          shoot and declare a charge in a turn in which it Fell            Engagement Range of it, then roll one D6 for each
+          Back instead.                                                    model in your unit that is within Engagement Range
+                                                                           of that enemy unit: for each 4+, that enemy unit
+                                                                           suffers 1 mortal wound.
+          UNSHACKLED WRATH
+          ERADICATION COHORT – WARGEAR STRATAGEM
+                                                                           ANALYTIC REPRISALS
+          With Binharic prayers of disengagement, these
+                                                                           ERADICATION COHORT – STRATEGIC PLOY STRATAGEM
+          warriors release the saviour protocols of their
+    1CP   weapon spirits to release the guns’ full wrath.                  Rapid threat analysis triggers the Skitarii to return
+                                                                           fire against foes deemed immediate threats,
+          WHEN: Your Shooting phase.                                 1CP   surprising the enemy and thinning their lines.
+          TARGET: One Skitarii unit from your army that has
+          not been selected to shoot this phase.                           WHEN: Your opponent’s Shooting phase, just after an
+                                                                           enemy unit has shot.
+          EFFECT: Select the [SUSTAINED HITS 1] or
+          [LETHAL HITS] ability. Until the end of the phase,               TARGET: One Skitarii Infantry unit from your
+          ranged weapons equipped by models in your unit                   army that lost one or more models as a result of the
+          have the selected ability. You can instead select the            attacking unit’s attacks.
+          [SUSTAINED HITS 1], [LETHAL HITS] and [HAZARDOUS]                EFFECT: Your unit can shoot as if it were your
+          abilities to apply to those weapons until the end of             Shooting phase, but must target only that enemy
+          the phase.                                                       unit when doing so, and can only do so if that enemy
+                                                                           unit is an eligible target.
+
+
+
+
+6
+       HALOSCREED
+       BATTLE CLADE
+       Tech‑Priests often monitor their forces remotely, but those who lead battle clades take this
+       intervention to an extreme, exerting even finer control over their thralls. Projecting fragments of
+       their consciousness through the noospheric battle‑sphere, they override the autonomy of their
+       soldiery and inload tactical information, target coordinates and vector directives into cybernetic
+       minds. Such assistance is gratefully received by the Machine God’s faithful, who feel blessed by
+       the rush of divine wisdom and implanted knowledge.
+
+
+
+     DETACHMENT RULE                                      ENHANCEMENTS
+
+    NOOSPHERIC TRANSFERENCE                              TRANSORACULAR DYAD WAFERS
+    Tech‑Priests can override the will of their          Inloaded with advanced combat protocols, tactical
+    thralls and project martial data inloads             hymnals and holy autoscripture, these doctrina wafers
+    into the minds of their warriors, blessing           grant greater autonomy and destructive might to the
+    the soldiery with endless streams of                 constructs of the Legio Cybernetica.
+    precisely tailored binharic code.
+                                                         Cybernetica Datasmith model only. When the bearer
+    In your Command phase, select one                    is attached to a Kastelan Robots unit, until the
+    or more Adeptus Mechanicus units                     end of the battle, models in that unit gain the Halo
+    from your army (including units that                 Override keyword. That unit cannot be selected when
+    are embarked within Transports). The                 selecting units as part of the Noospheric Transference
+    maximum number of units you can select               Detachment rule.
+    depends on the battle size, as follows:
+                                                         COGNITIVE REINFORCEMENT
+    INCURSION:             1 UNIT                        From afar, the guiding hand of the Omnissian
+    STRIKE FORCE:          2 UNITS                       priesthood allows this warrior to process streams of
+    ONSLAUGHT:             3 UNITS                       sensory input and encoded imperatives simultaneously.
+
+    Until the start of your next Command                 Adeptus Mechanicus model only (excluding
+    phase, those units gain the Halo Override            Cybernetica Datasmith models). The Conqueror
+    keyword. Then, select one of the Override            Imperative and Protector Imperative are both active
+    abilities below. Until the start of your next        for the bearer’s unit.
+    Command phase, units from your army
+    with the Halo Override keyword have the              SANCTIFIED ORDNANCE
+    selected Override ability:                           The ammunition borne to battle by this disciple of
+                                                         the Machine God and those at their command has
+    Electromotive Energisation                           been subjected to ritual anointings and autosermonic
+    Add 2" to the Move characteristic of                 blessings, lending it far greater stability.
+    models in this unit.
+                                                         Adeptus Mechanicus model only. Add 6" to the Range
+    Microactuator Bracing                                characteristic of ranged weapons equipped by models
+    Add 1 to the Toughness characteristic of             in the bearer’s unit and, each time a Hazardous test is
+    models in this unit.                                 taken for that unit, you can re‑roll the result.
+
+    Predation Protocols                                  INLOADED LETHALITY
+    This unit is eligible to declare a charge in         The ancient noospheric receptors implanted into this
+    a turn in which it Advanced.                         field commander enable them to receive constant
+                                                         streams of binharic kill code and static prayer chants,
+    Muted Servomotors                                    lending them greater strength and martial prowess.
+    Models in this unit have the
+    Stealth ability.                                     Tech‑Priest Dominus or Tech‑Priest Manipulus
+                                                         model only. Add 3 to the Attacks characteristic of
+                                                         the bearer’s melee weapons and add 1 to the Damage
+7                                                        characteristic of the bearer’s melee weapons.
+          ERADICATION PROTOCOLS                                            AGGRESSIVE IMPULSE
+          HALOSCREED BATTLE CLADE – BATTLE TACTIC STRATAGEM                HALOSCREED BATTLE CLADE – STRATEGIC PLOY STRATAGEM
+
+          Fresh imperatives flow down from on high. The                    Urgent imperatives flood into the crew thralls of
+          orders are simple: eliminate the foe.                            Skitarii transport units, urging them to deploy
+                                                                     1CP   their cargo of cybernetic soldiers into the heart of
+          WHEN: Your Shooting phase or the Fight phase.
+                                                                           the fight.
+          TARGET: One Adeptus Mechanicus unit from your
+          army that has not been selected to shoot or fight                WHEN: Your Movement phase.
+    1CP
+          this phase.                                                      TARGET: One Skorpius Dunerider model from your
+          EFFECT: Until the end of the phase, each time a                  army that has not been selected to move this phase.
+          model in your unit makes an attack, re‑roll a Wound              EFFECT: Until the end of the turn, each time an
+          roll of 1, and, if it is a Halo Override unit, re‑roll a         Adeptus Mechanicus unit disembarks from that
+          Hit roll of 1.                                                   model after it has made a Normal move, that unit is
+                                                                           still eligible to declare a charge this turn.
+
+          TARGETING OVERRIDE
+          HALOSCREED BATTLE CLADE – BATTLE TACTIC STRATAGEM
+                                                                           GUIDED RETREAT
+                                                                           HALOSCREED BATTLE CLADE – STRATEGIC PLOY STRATAGEM
+          Experienced Tech‑Priests rapidly analyse the
+          foe’s weaknesses and feed the resultant data to                  From their distant strategium pulpit, the Tech‑Priest
+          their soldiers, who exploit these flaws to destroy               commander’s guiding hand descends, seizing
+          their targets.                                             1CP   control of allied minds, steering their troops carefully
+                                                                           away from harm whilst maintaining a hail of
+          WHEN: Your Shooting phase or the Fight phase.
+    1CP                                                                    killing fire.
+          TARGET: One Adeptus Mechanicus unit from your
+          army that has not been selected to shoot or fight                WHEN: Your Movement phase, just after an Adeptus
+          this phase.                                                      Mechanicus unit from your army Falls back.
+          EFFECT: Until the end of the phase, each time a                  TARGET: That Adeptus Mechanicus unit.
+          model in your unit makes an attack, an unmodified                EFFECT: Until the end of the turn, your unit is eligible
+          Hit roll of 5+ scores a Critical Hit.                            to shoot and declare a charge in a turn in which it
+                                                                           Fell Back, and, if it is a Halo Override unit, you can
+                                                                           re‑roll Desperate Escape tests taken for it.
+          NEURAL OVERLOAD
+          HALOSCREED BATTLE CLADE – STRATEGIC PLOY STRATAGEM
+                                                                           ANALYTICAL DIVINATION
+          By projecting their consciousness into the minds of
+                                                                           HALOSCREED BATTLE CLADE – STRATEGIC PLOY STRATAGEM
+          tech thralls, a Tech‑Priest may significantly enhance
+    1CP   their warriors’ lethality. However, doing so risks               Tech‑Priest commanders process an overwhelming
+          overloading their combat units’ more limited neural              influx of data screeds, analysing this information
+          networks. Such hazards are seen as an opportunity          1CP   to read the flow of battle and coordinate the
+          to give one’s life in the name of the Omnissiah.                 movements of their thralls.
+          WHEN: Your Movement phase.                                       WHEN: Your opponent’s Movement phase, just
+          TARGET: One Adeptus Mechanicus unit from                         after an enemy unit ends a Normal, Advance or Fall
+          your army.                                                       Back move.
+          EFFECT: If your unit is a Halo Override unit, it                 TARGET: One Adeptus Mechanicus Infantry unit
+          suffers D3 mortal wounds. Select one Override                    (excluding Kataphron units) from your army
+          ability. Until the start of your next Command phase,             that is within 8" of that enemy unit and not within
+          that ability is active for your unit.                            Engagement Range of one or more enemy units.
+          Designer’s Note: This means that if the targeted                 EFFECT: Your unit can make a Normal move of up to
+          unit already has the Halo Override keyword, it                   D6", or up to 6" instead if it is a Halo Override unit.
+          can be affected by multiple Override abilities at
+          the same time, but suffers mortal wounds to do so.
+          Alternatively, if your unit does not have the Halo
+          Override keyword, it instead has the chosen
+          Override ability until the start of your next Command
+          phase, but does not benefit from any other Override
+          abilities that are active.
+
+
+
+
+8
+THULIA GHULD
+  M             T            SV           W            LD            OC
+
+ 8"            8           2+           10            6+              3
+                           4+              INVULNERABLE SAVE
+
+
+
+
+      RANGED WEAPONS                                                    RANGE                  A    BS   S    AP    D     ABILITIES
+      Jericho-class conversion resonator – titanic                                                                        FACTION: Doctrina Imperatives
+                                                                            24"                2    2+   12   -3   D6+2
+      impact [DEVASTATING WOUNDS]
+      Jericho-class conversion resonator – shockwave                                                                      Rod of the War Forge: In your Command phase, select one
+                                                                            24"           D6+2      2+   6    -2    1
+      [BLAST, SUSTAINED HITS 1]                                                                                           of the abilities in the Icon of War section (see next page).
+                                                                                                                          Until the start of your next Command phase, this model has
+      MELEE WEAPONS                                                     RANGE                  A    WS   S    AP    D     that ability.
+
+      Rod of the War Forge – strike                                       Melee                6    2+   10   -2    3     Mechanicus Bodyguard: While this model is within 3" of one
+                                                                                                                          or more other friendly Adeptus Mechanicus units, this model
+      Rod of the War Forge – sweep                                        Melee                12   2+   6    -1    1     has the Lone Operative ability.
+                                                                                                                          Secutor of Olympus: At the start of your Shooting phase,
+                                                                                                                          select one enemy Vehicle unit within 12" of this model
+                                                                                                                          and roll one D6: on a 2+, that enemy unit suffers D3+1
+                                                                                                                          mortal wounds.
+
+
+
+
+  Before selecting targets for this weapon, select one of its profiles to make attacks with.
+
+
+  KEYWORDS: Monster, Character, Mobile, Epic Hero, Imperium,                                                                  FACTION KEYWORDS:
+            Cult Mechanicus, Tech-Priest, Thulia Ghuld                                                                         Adeptus Mechanicus
+THULIA GHULD
+An avatar of the Omnissiah’s martial aspect, Thulia Ghuld
+commands fanatical devotion from the Martian cohorts she
+leads to war. With her Jericho-class conversion resonator,
+she blasts swathes of enemies into scattering sonic
+energy, while her Rod of the War Forge beams out carrier
+waves to goad her warriors into battle.
+
+
+
+       ICON OF WAR                                                                                                    UNIT COMPOSITION
+       Fanatical Devotion: You can select one friendly Skitarii or Thulia Ghuld unit within 6" of this model;         ■ 1 Archmagos Terminus Thulia Ghuld – Epic Hero
+       until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in
+                                                                                                                      This model is equipped with: Jericho-class conversion
+       which it Advanced.
+                                                                                                                      resonator; Rod of the War Forge.
+       Adaptive Tactics: You can select one friendly Skitarii or Thulia Ghuld unit within 6" of this model; until
+       the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in         SUPREME COMMANDER
+       which it Fell Back.
+                                                                                                                      If this model is in your army, it must be your Warlord.
+       The Fires of Mars: You can select one friendly Skitarii or Thulia Ghuld unit within 6" of this model;
+       until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both
+       active for that unit.
+
+
+
+
+     KEYWORDS: Monster, Character, Mobile, Epic Hero, Imperium,                                                           FACTION KEYWORDS:
+               Cult Mechanicus, Tech-Priest, Thulia Ghuld                                                                  Adeptus Mechanicus
+HASTARII EXTERMINATORS
+  M            T           SV             W            LD            OC
+
+ 5"            4          3+             2            7+              1
+                          5+               INVULNERABLE SAVE
+
+
+
+
+      RANGED WEAPONS                                                    RANGE                  A   BS   S   AP   D   ABILITIES
+      Hastarii arc blaster                                                                                           FACTION: Doctrina Imperatives
+                                                                            18"                1   4+   6   -1   2
+      [ANTI-VEHICLE 4+, DEVASTATING WOUNDS]
+      Eradication caster – dissipated [ANTI-INFANTRY 4+]                    30"                2   4+   5   -1   2   Broad-spectrum Targeting Augurs: Each time a model in this
+      Eradication caster – focused [ANTI-INFANTRY 4+]                       15"                2   4+   5   -2   2   unit makes an attack with an eradication caster that targets a
+                                                                                                                     unit (excluding Monster and Vehicle units), that attack has
+                                                                                                                     the [SUSTAINED HITS 1] ability.
+      MELEE WEAPONS                                                     RANGE                  A   WS   S   AP   D
+      Close-combat weapon                                                 Melee                1   4+   4   0    1
+      Power weapon                                                        Melee                2   4+   5   -2   1
+
+
+
+
+  Before selecting targets for this weapon, select one of its profiles to make attacks with.
+
+
+                                                                                                                          FACTION KEYWORDS:
+  KEYWORDS: Infantry, Imperium, Skitarii, Hastarii, Exterminators
+                                                                                                                          Adeptus Mechanicus
+HASTARII EXTERMINATORS
+These heavily armoured Skitarii lay down withering
+firepower with heightened efficiency. The expanding energy
+cones of their eradication casters disrupt the target at a
+molecular level, grossly maiming or completely obliterating
+their victims. Combined with their shoulder-mounted arc
+blasters, this arsenal allows Hastarii Exterminators to blast
+the heart from the enemy battle line.
+
+
+
+     WARGEAR OPTIONS                                                    ATTACHED UNIT
+     ■ None                                                             If a Character unit from your army can be attached to a
+                                                                        Skitarii Rangers unit, it can be attached to this unit instead.
+
+
+                                                                        UNIT COMPOSITION
+                                                                        ■ 1 Hastarii Exterminator Alpha
+                                                                        ■ 4 Hastarii Exterminators
+                                                                        The Hastarii Exterminator Alpha is equipped with: Hastarii
+                                                                        arc blaster; eradication caster; power weapon.
+                                                                        Every Hastarii Exterminator is equipped with: Hastarii arc
+                                                                        blaster; eradication caster; close combat weapon.
+
+
+
+
+                                                                             FACTION KEYWORDS:
+      KEYWORDS: Infantry, Imperium, Skitarii, Hastarii, Exterminators
+                                                                             Adeptus Mechanicus
+HASTARII FUSILIERS
+  M           T          SV         W             LD   OC
+
+ 5"           4        3+           2         7+       1
+                        5+           INVULNERABLE SAVE
+
+
+
+
+      RANGED WEAPONS                                    RANGE       A   BS   S    AP    D     ABILITIES
+      Neutron fusil                                          24"    1   4+   12   -3   D6+1   FACTION: Doctrina Imperatives
+      Hastarii phosphor blaster [IGNORES COVER]              18"    2   4+    5   0     1
+                                                                                              Monocular Targeting Helms: Each time a model in this unit
+      MELEE WEAPONS                                     RANGE       A   WS   S    AP    D     makes an attack with a neutron fusil against a Monster or
+                                                                                              Vehicle unit, that attack has the [IGNORES COVER] ability.
+      Close-combat weapon                                   Melee   1   4+   4    0     1
+      Power weapon                                          Melee   2   4+   5    -2    1
+
+
+
+
+                                                                                                   FACTION KEYWORDS:
+  KEYWORDS: Infantry, Imperium, Skitarii, Hastarii, Fusiliers
+                                                                                                   Adeptus Mechanicus
+HASTARII FUSILIERS
+The role of Hastarii Fusiliers is to lay down overwhelming
+firepower against the foe’s most heavily armoured
+assets. While their shoulder-mounted phosphor blasters
+drive back enemy counterattacks, the Fusiliers level one
+salvo after another, reducing battle tanks, elite infantry
+and monstrous beasts to blazing wrecks and burned
+out carcasses.
+
+
+
+     WARGEAR OPTIONS                                                ATTACHED UNIT
+     ■ None                                                         If a Character unit from your army can be attached to a
+                                                                    Skitarii Rangers unit, it can be attached to this unit instead.
+
+
+                                                                    UNIT COMPOSITION
+                                                                    ■ 1 Hastarii Fusilier Alpha
+                                                                    ■ 4 Hastarii Fusiliers
+                                                                    The Hastarii Fusilier Alpha is equipped with: neutron fusil;
+                                                                    Hastarii phosphor blaster; power weapon.
+                                                                    Every Hastarii Fusiller is equipped with: neutron fusil;
+                                                                    Hastarii phosphor blaster; close combat weapon.
+
+
+
+
+                                                                         FACTION KEYWORDS:
+      KEYWORDS: Infantry, Imperium, Skitarii, Hastarii, Fusiliers
+                                                                         Adeptus Mechanicus
+SERVITOR BATTLECLADE
+ M           T            SV           W            LD   OC
+                                                               SERVITOR
+6"           4          4+             2           7+    1     UNDERSEER
+                                                               COMBAT SERVITORS AND
+6"           4          4+             1          8+     1     GUN SERVITORS
+
+                         6+             INVULNERABLE SAVE
+
+
+      RANGED WEAPONS                                          RANGE   A    BS    S    AP   D    ABILITIES
+      Heavy arc rifle [ANTI-VEHICLE 4+, RAPID FIRE 1]          30"    1    4+    8    -2   3    FACTION: Doctrina Imperatives
+      Heavy bolter [HEAVY, SUSTAINED HITS 1]                   36"    3    4+    5    -1   2
+                                                                                                Network Override: While this unit contains one or more
+      Incendine igniter [IGNORES COVER, TORRENT]               12"    D6   N/A   3    0     1   Tech-Priest models, this unit is:
+      Mechanicus pistol [DEVASTATING WOUNDS, PISTOL]           12"    1    4+    6    -1    1
+                                                                                                ■ Eligible to perform an Action in a turn in which it Advanced.
+      Meltagun [MELTA 2]                                       12"    1    4+    9    -4   D6   ■ Eligible to shoot in a turn in which it started an Action.
+      Phosphor blaster [IGNORES COVER, RAPID FIRE 1]           24"    1    4+    4    0    1
+
+      MELEE WEAPONS                                           RANGE   A    WS    S    AP   D
+      Dataspikes                                              Melee   4    4+    4    0    1
+      Servo-claw                                              Melee   2    4+    4    0    1
+
+
+
+
+     KEYWORDS – ALL MODELS: Infantry, Imperium, Cult Mechanicus,                                     FACTION KEYWORDS:
+     Servitor Battleclade | UNDERSEER: Tech-Priest                                                   Adeptus Mechanicus
+SERVITOR BATTLECLADE
+Servitor Battleclades provide their Adeptus Mechanicus
+masters with expendable and extremely versatile combat
+assets in the field. Often sent to recover vital archeotech or
+data, their mix of firepower, close quarters punch, and array
+of servo-tools allows their Underseers to achieve whatever
+task is assigned to them.
+
+
+
+        WARGEAR OPTIONS                                                                                       UNIT COMPOSITION
+        ■ 1 Combat Servitor model can have its 1 phosphor blaster replaced with 1 meltagun.                   ■ 1 Servitor Underseer
+        ■ Up to 3 Combat Servitor models can each have their 1 phosphor blaster replaced with 1              ■ 2 Gun Servitors
+          incendine igniter.
+                                                                                                              ■ 6 Combat Servitors
+
+        ATTACHED UNIT                                                                                         The Servitor Underseer is equipped with: Mechanicus
+                                                                                                              pistol; dataspikes.
+        If a Character unit from your army with the Leader ability can be attached to a Kataphron Breachers   1 Gun Servitor is equipped with: heavy arc rifle; servo-claw.
+        unit, it can be attached to this unit instead.
+                                                                                                              1 Gun Servitor is equipped with: heavy bolter; servo-claw.
+                                                                                                              Every Combat Servitor is equipped with: phosphor
+                                                                                                              blaster; servo-claw.
+
+
+
+
+      KEYWORDS – ALL MODELS: Infantry, Imperium, Cult Mechanicus,                                                  FACTION KEYWORDS:
+      Servitor Battleclade | UNDERSEER: Tech-Priest                                                                Adeptus Mechanicus
+                                ADEPTUS MECHANICUS
+                                                          RULES UPDATES
+This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
+Changes applied after the first iteration of this Faction Pack will be highlighted in red.
+
+
+                                                                            DATASHEETS
+UPDATES                                                                     Belisarius Cawl, Corpuscarii Electro-Priests, Cybernetica Datasmith,
+                                                                            Fulgurite Electro-Priests, Kastelan Robots, Tech-Priest Dominus,
+ARMY RULES                                                                  Tech-Priest Enginseer, Tech-Priest Manipulus, Technoarcheologist –
+Doctrina Imperatives                                                        Faction Abilities section
+Change Protector Imperative to:                                             Add 'Doctrina Imperatives'.
+▪ Ranged weapons equipped by models in this unit have the
+   [HEAVY] ability.                                                         Archaeopter Fusilave, Archaeopter Stratoraptor – Core Abilities
+▪ Improve the Ballistic Skill characteristic of ranged weapons equipped    section
+   by models in this unit by 1.                                             Remove 'Hover'.
+▪ Each time a melee attack targets this unit, if this unit has the
+   BATTLELINE keyword and/or it is within 6" of one or more friendly        Archaeopter Fusilave, Archaeopter Stratoraptor – Profiles
+   ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.'      Change M and OC to '-'.
+
+Change Conqueror Imperative to:                                             Archaeopter Fusilave, Bomb Rack Ability
+▪ Ranged weapons equipped by models in this unit have the                  Change to:
+   [ASSAULT] ability.                                                       ‘At the end of your opponent’s Fight phase, select one visible enemy
+▪ Improve the Weapon Skill characteristic of melee weapons equipped        unit (excluding Lone Operative units) within 24” of this unit, and roll six
+   by models in this unit by 1.                                             D6 for that unit: for each 4+, that unit suffers 1 mortal wound.’
+▪ Each time a model in this unit makes an attack, if this unit has the
+   BATTLELINE keyword and/or it is within 6" of one or more friendly        Archaeopter Transvector
+   ADEPTUS MECHANICUS BATTLELINE units, improve the Armour                  • Profile: Change M to 14".
+   Penetration characteristic of that attack by 1.                          • Keywords: Remove 'AIRCRAFT'.
+
+COHORT CYBERNETICA DETACHMENT                                               Archaeopter Transvector, Aerial Deployment Ability
+Cyber-psalm Programming Detachment Rule                                     Change to:
+Change to:                                                                  'In your first Movement phase, this unit can make an ingress move.'
+‘Add 2" to the Move characteristic of models in LEGIO CYBERNETICA units
+from your army. In addition, unless that unit is Battle‑shocked, add 1 to
+the Objective Control characteristic of models in that unit.’
+
+RAD-ZONE CORPS DETACHMENT
+Rad-bombardment Detachment Rule, Battle Round 1 Section, Unit
+Taking Cover Section
+Change to:
+‘• That unit is battle-shocked.
+• On a 5+, that unit suffers D3 mortal wounds.’
+
+SKITARII HUNTER COHORT DETACHMENT
+Stealth Optimisation Detachment Rule
+Change to:
+'Friendly SKITARII INFANTRY, SKITARII MOUNTED and IRONSTRIDER
+BALLISTARII units have Stealth.'
+
+Veiled Hunter Enhancement
+Change to:
+‘SKITARII MARSHAL model only. After both players have deployed their
+armies, you can select up to three SKITARII INFANTRY units from your
+army and redeploy all of those units. When doing so, any of those units
+can be placed into Strategic Reserves, regardless of how many units are
+already in Strategic Reserves.’
+Belisarius Cawl                                                             Onager Dunecrawler
+▪ Keywords section: Add 'MOBILE'.                                           ▪ Change the following weapon profiles:
+▪ Move characteristic: change to 8".
+▪ Canticles of the Omnissiah Ability                                       Daedalus Missile Launcher [ANTI-FLY 2+]
+   Change to:                                                                     RANGE             A      BS    S    AP    D
+   ‘At the start of your Command phase, select one of the abilities in
+                                                                                    48"             2      4+    10   -2   D6+1
+   the Canticles of the Omnissiah section. Until the start of your next
+   Command phase, this model has that ability.’                             Eradication Beamer - dissipated
+▪ Invocation of Machine Vengeance Ability                                  [BLAST, SUSTAINED HITS 1]
+   Change to:                                                                     RANGE             A      BS    S    AP    D
+   ‘At the start of your Command phase, select one unit from your
+                                                                                    36"          3D3       4+    9    -2    2
+   opponent’s army. Until the start of your next Command phase, that
+   enemy unit is your Machine Vengeance target. Each time a model in        Eradication Beamer - focused
+   a friendly ADEPTUS MECHANICUS unit makes an attack that targets your     [BLAST, SUSTAINED HITS 1]
+   Machine Vengeance target, you can re-roll the Hit roll.’                       RANGE             A      BS    S    AP    D
+▪ Mantra of Discipline Ability
+                                                                                    18"          3D3       4+    10   -3    3
+   Change to:
+   ‘This model has the BATTLELINE keyword and has the following             Neutron Laser [HEAVY]
+   ability:Binharic Courage (Aura): While a friendly ADEPTUS                      RANGE             A      BS    S    AP    D
+   MECHANICUS unit is within 6" of this model, add 1 to the Objective
+                                                                                    48"             3      4+    16   -4   D6+2
+   Control characteristic of models in that unit and each time you take a
+   Battle-shock or Leadership test for that unit, add 1 to that test.’      Twin Onager Heavy Phosphor Blaster
+▪ Shroudpsalm (Aura) Ability                                               [IGNORES COVER, TWIN-LINKED]
+   Change to:                                                                     RANGE             A      BS    S    AP    D
+   ‘While a friendly ADEPTUS MECHANICUS unit is within 6" of this model,
+                                                                                    36"             12     4+    6    -1    2
+   that unit has the Stealth ability.’
+▪ Solar atomiser weapon: Change A to '3' and D to 'D6'.                     ▪ Add the following ability:
+                                                                                'Scuttling Walker: Each time this model makes a Normal, Advance or
+Cybernetica Datasmith, Core Abilities section                                   Fall Back move, it can move through friendly MONSTER and VEHICLE
+Remove ‘Leader’, add ‘Support’.                                               models and sections of terrain features that are 4" or less in height.'
+
+Cybernetica Datasmith                                                       Serberys Raiders, Tactica Obliqua Ability
+Add new ability:                                                            Change to:'In your opponent's Movement phase, if an enemy unit ends a
+‘Data-severed: If there are no KASTELAN ROBOT models in this unit:          move within 8” of this unit, if this unit is not within Engagement Range
+▪ This unit loses VEHICLE.                                                  of one or more enemy units, it can do one of the following:
+▪ This unit has INFANTRY.’                                                  ▪ Make a Normal move of up to D6"
+                                                                            ▪ Make a Normal move of up to 6" provided every model in this unit
+Ironstrider Ballistarii, Ranged Weapons                                        ends that move wholly within 6" of one or more friendly ADEPTUS
+                                                                               MECHANICUS BATTLELINE units.'
+Twin Cognis Autocannon
+[SUSTAINED HITS 1, TWIN-LINKED]                                             Sicarian Infiltrators, Melee Weapons
+      RANGE             A   BS    S    AP       D
+                                                                            Power Weapon
+       48"              4   4+    9     -1      3
+                                                                                  RANGE             A      WS    S    AP    D
+Twin Cognis Lascannon
+                                                                                   Melee            4      4+    4    -2    1
+[SUSTAINED HITS 1, TWIN-LINKED]
+      RANGE             A   BS    S    AP       D                           Taser Goad [SUSTAINED HITS 2]
+
+       48"              2   4+    12    -3   D6+1                                 RANGE             A      WS    S    AP    D
+                                                                                   Melee            3      4+    6    -1    1
+
+Kastelan Robots, Repulsor Grid ability
+Change to:
+‘When an enemy unit targets this unit with ranged attacks, until that
+enemy unit has shot, when this unit makes a save roll:
+▪ On an unmodified 6, that enemy unit suffers 1 mortal wound after
+   that enemy unit has shot.’
+Sicarian Ruststalkers, Melee Weapons                                       FAQS
+                                                                           Q: If I target a unit with the Auto-divinatory Targeting Stratagem while
+Transonic Blades [DEVASTATING WOUNDS, PRECISION]                           the Protector Imperative is active for my army, in what order are the
+      RANGE          A      WS      S      AP       D                      Ballistic Skill modifiers applied?
+                                                                           A: The Ballistic Skill characteristic of ranged weapons equipped by
+      Melee           5     4+      5      -1       1
+                                                                           models in that unit is first changed to 3+ by the Stratagem, then
+Transonic Blades and Chordclaw                                             improved by 1 by the Protector Imperative, for a final result of 2+
+[ANTI-INFANTRY 3+, DEVASTATING WOUNDS, PRECISION]                          (assuming no other modifiers apply).
+      RANGE          A      WS      S      AP       D
+      Melee           5     4+      5      -2       1
+
+Transonic Razor and Chordclaw
+[ANTI-INFANTRY 3+, PRECISION]
+      RANGE          A      WS      S      AP       D
+      Melee           3     4+      5      -2       2
+
+Skitarii Marshal, Core Abilities section
+Remove ‘Leader’, add ‘Support’.
+
+Skitarii Marshal, Servo-skull Uplink Ability
+Change to:
+‘Once per battle, at the start of any phase, you can select one friendly
+SKITARII unit that is Battle-shocked and within 6” of this model. That
+unit is no longer Battle-shocked.’
+
+Skorpius Disintegrator, Skorpius Dunerider – Keywords section
+Add the ‘FRAME’ keyword.
+
+Skorpius Disintegrator, Ferrumite Cannon
+
+Ferrumite Cannon
+      RANGE          A      BS      S      AP       D
+       48"            3     4+     12      -3      D6+1
+
+
+Skorpius Dunerider, Core Abilities
+Add ‘Firing Deck 2’.
+
+Technoarcheologist, Core Abilities section
+Remove ‘Leader’, add ‘Support’.
+X-101                                                                                          WA R HA M M E R L E G E N D S
+ M           T          SV         W   LD   OC
+
+
+6"          3          4+          3   8+   0
+
+
+
+      RANGED WEAPONS                             RANGE    A     BS    S    AP     D   ABILITIES
+      Grav-gun [ANTI-VEHICLE 4+]                  18"     2     3+    5    -1     2   FACTION: Doctrina Imperatives
+
+      MELEE WEAPONS                              RANGE    A     WS    S    AP     D   Mindlock: While a Tech-Priest model is leading this
+                                                                                      model’s unit, improve the Ballistic Skill and Weapon Skill
+      Hydraulic claw                             Melee    2     4+    8    -2     3   characteristics of this model’s weapons by 1.
+                                                                                      Bound Creation: While a Tech-Priest model is leading this
+                                                                                      model’s unit, that Tech-Priest model has the Feel No Pain
+                                                                                      5+ ability.
+
+
+
+
+                                                                                            FACTION KEYWORDS:
+     KEYWORDS: Infantry, Imperium, Character, Epic Hero, Cult Mechanicus, X-101
+                                                                                            Adeptus Mechanicus
+X-101                                                                                  WA R HA M M E R L E G E N D S
+
+
+
+
+  WARGEAR OPTIONS                                                              UNIT COMPOSITION
+  ■ None                                                                       ■ 1 X-101 – Epic Hero
+                                                                               This model is equipped with: grav-gun; hydraulic claw.
+
+
+                                                                               SERVITOR BODYGUARD
+                                                                               At the start of the Declare Battle Formations step, this
+                                                                               model can join one other unit from your army that is being
+                                                                               led by a Tech-Priest Infantry model. If it does, until the
+                                                                               end of the battle, this model counts as being part of that
+                                                                               Bodyguard unit, and that Bodyguard unit’s Starting Strength is
+                                                                               increased accordingly.
+
+
+
+
+                                                                                    FACTION KEYWORDS:
+  KEYWORDS: Infantry, Imperium, Character, Cult Mechanicus, Epic Hero, X-101
+                                                                                    Adeptus Mechanicus
+SECUTARII HOPLITES                                                                                         WA R HA M M E R L E G E N D S
+ M           T           SV           W           LD           OC
+
+
+6"          3          5+            1          7+             1
+                        4+           INVULNERABLE SAVE
+
+
+      RANGED WEAPON                                                 RANGE   A   BS   S   AP   D   ABILITIES
+      Arc lance [ANTI-VEHICLE 4+, DEVASTATING WOUNDS]                12"    1   4+   5   -1   1   FACTION: Doctrina Imperatives
+      Archeotech pistol [DEVASTATING WOUNDS, PISTOL]                 12"    1   4+   6   -1   1
+                                                                                                  Titan Guard: You can target this unit with the Heroic
+                                                                                                  Intervention Stratagem for 0CP, and can do so even if you
+      MELEE WEAPON                                                  RANGE   A   WS   S   AP   D   have already targeted a different unit with that Stratagem
+      Alpha close combat weapon                                     Melee   3   4+   5   -1   1   this phase. When doing so, if there are one or more friendly
+      Arc lance [ANTI-VEHICLE 4+, DEVASTATING WOUNDS, LANCE]        Melee   2   4+   5   -1   1   Adeptus Titanicus units on the battlefield, you can re-roll the
+                                                                                                  subsequent charge roll.
+
+
+                                                                                                  WARGEAR ABILITIES
+                                                                                                  Enhanced data-tether: Each time you select the bearer’s unit
+                                                                                                  as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP
+                                                                                                  Omnispex: Ranged weapons equipped by models in the
+                                                                                                  bearer’s unit have the [IGNORES COVER] ability.
+
+
+
+
+                                                                                                        FACTION KEYWORDS:
+     KEYWORDS: Infantry, Imperium, Skitarii, Secutarii Hoplites
+                                                                                                        Adeptus Mechanicus
+SECUTARII HOPLITES                                                                               WA R HA M M E R L E G E N D S
+Secutarii Hoplites are defensive troops able to endure the most hazardous battlefields
+thanks to the crackling energy barriers generated by their interlocking Kyropatris
+field generators. The power of these surgically implanted devices is channelled and
+amplified by the Hoplites’ unique shields, which allow them to withstand phenomenal
+amounts of enemy firepower while striking back with their potent arc lances.
+
+
+
+    WARGEAR OPTIONS                                                                      UNIT COMPOSITION
+    ■ The Hoplite Alpha’s arc lance can be replaced with 1 archeotech pistol.            ■ 1 Hoplite Alpha
+    ■ The Hoplite Alpha can be equipped with 1 Alpha close combat weapon.                ■ 4-9 Secutarii Hoplites
+    ■ 1 Secutarii Hoplite can be equipped with one of the following:                     Every model is equipped with: arc lance.
+       ◦ 1 enhanced data-tether
+       ◦ 1 omnispex
+                                                                                         SECUTARII
+                                                                                         If a model from your army with the Leader ability can be
+                                                                                         attached to a Skitarii Vanguard unit, it can be attached to
+                                                                                         this unit instead.
+
+
+
+
+                                                                                              FACTION KEYWORDS:
+     KEYWORDS: Infantry, Imperium, Skitarii, Secutarii Hoplites
+                                                                                              Adeptus Mechanicus
+SECUTARII PELTASTS                                                                                                            WA R HA M M E R L E G E N D S
+ M            T             SV            W             LD            OC
+
+
+6"           3            5+             1            7+             1
+                          6+              INVULNERABLE SAVE
+
+
+      RANGED WEAPON                                                        RANGE               A   BS   S   AP   D   ABILITIES
+      Archeotech pistol [DEVASTATING WOUNDS, PISTOL]                          12"              1   4+   6   -1   1   FACTION: Doctrina Imperatives
+      Galvanic caster – flechette [ASSAULT]                                   18"              5   4+   4   0    1
+                                                                                                                     Blind Barrage: In your Shooting phase, after this unit has
+      Galvanic caster – hammershot [HEAVY]                                    24"              2   4+   5   -1   1
+                                                                                                                     shot, select one enemy Infantry unit hit by one or more of
+                                                                                                                     those attacks. Until the start of your next turn, while this unit
+      MELEE WEAPON                                                         RANGE               A   WS   S   AP   D   is on the battlefield, that enemy unit is blinded. While a unit
+      Alpha close combat weapon                                             Melee              2   4+   5   -1   1   is blinded, each time a model in that unit makes an attack,
+                                                                                                                     subtract 1 from the Hit roll.
+      Close combat weapon                                                   Melee              1   4+   3   0    1
+
+                                                                                                                     WARGEAR ABILITIES
+                                                                                                                     Enhanced data-tether: Each time you select the bearer’s unit
+                                                                                                                     as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP
+                                                                                                                     Omnispex: Ranged weapons equipped by models in the
+                                                                                                                     bearer’s unit have the [IGNORES COVER] ability.
+
+
+
+
+     Before selecting targets with this weapon, select one of its profiles to make attacks with.
+
+                                                                                                                           FACTION KEYWORDS:
+     KEYWORDS: Infantry, Imperium, Skitarii, Secutarii Peltasts
+                                                                                                                           Adeptus Mechanicus
+SECUTARII PELTASTS                                                                              WA R HA M M E R L E G E N D S
+Secutarii Peltasts are specialised Adeptus Mechanicus ground troops principally
+employed to saturate targets with concentrated firepower from their galvanic casters,
+neutralising any threats to valuable Mechanicus assets. Like the Skitarii infantry
+they resemble, Peltasts are adaptable and mobile soldiers, and are often deployed to
+reach, encircle and defend their masters’ fallen god-engines.
+
+
+
+    WARGEAR OPTIONS                                                                     UNIT COMPOSITION
+    ■ The Peltast Alpha’s arc lance can be replaced with 1 archeotech pistol.           ■ 1 Peltast Alpha
+    ■ The Peltast Alpha can be equipped with 1 Alpha close combat weapon.               ■ 4-9 Secutarii Peltasts
+    ■ 1 Secutarii Peltast can be equipped with one of the following:                    Every model is equipped with: galvanic caster; close
+       ◦ 1 enhanced data-tether                                                         combat weapon.
+       ◦ 1 omnispex
+                                                                                        SECUTARII
+                                                                                        If a model from your army with the Leader ability can be
+                                                                                        attached to a Skitarii Vanguard unit, it can be attached to
+                                                                                        this unit instead.
+
+
+
+
+                                                                                             FACTION KEYWORDS:
+     KEYWORDS: Infantry, Imperium, Skitarii, Secutarii Peltasts
+                                                                                             Adeptus Mechanicus
+TERRAX-PATTERN TERMITE                                                                                           WA R HA M M E R L E G E N D S
+ M           T           SV             W       LD             OC
+
+
+8"         10           3+              14    6+               2
+
+
+
+      RANGED WEAPON                                                 RANGE   A    BS    S    AP    D     ABILITIES
+      Combi-bolter [RAPID FIRE 2]                                    24"    2    4+    4    0     1     CORE: Deadly Demise D3, Deep Strike
+      Heavy flamer [IGNORES COVER, TORRENT]                          12"    D6   N/A   5    -1    1
+                                                                                                        FACTION: Doctrina Imperatives
+      Terrax melta cutter [MELTA 2]                                  12"    5    4+    9    -4   D6
+      Twin volkite charger [DEVASTATING WOUNDS, TWIN-LINKED]         18"    2    4+    5    0     2     Termite Assault: This model must start the battle in Reserves,
+                                                                                                        but neither it nor any units embarked within it are counted
+      MELEE WEAPON                                                  RANGE   A    WS    S    AP    D     towards any limits placed on the maximum number of
+                                                                                                        Reserves units you can start the battle with. This model can
+      Termite drill [ANTI-VEHICLE 3+]                               Melee   6    4+    14   -2   D3+3   be set up in the Reinforcements step of your first, second or
+                                                                                                        third Movement phase, regardless of any mission rules. Any
+                                                                                                        units embarked within this model can disembark after it has
+                                                                                                        been set up on the battlefield, and if they do they must be set
+                                                                                                        up more than 9" away from all enemy models.
+
+
+                                                                                                             DAMAGED: 1-5 WOUNDS REMAINING
+                                                                                                        While this model has 1-5 wounds remaining, each time this
+                                                                                                        model makes an attack, subtract 1 from the Hit roll.
+
+
+
+
+     KEYWORDS: Vehicle, Imperium, Transport, Dedicated Transport,                                            FACTION KEYWORDS:
+               Terrax-pattern Termite                                                                         Adeptus Mechanicus
+TERRAX-PATTERN TERMITE                                                                  WA R HA M M E R L E G E N D S
+Originally designed on Terra for the task of rooting out burrowing xenos
+species during the Great Crusade, canny commanders quickly found use
+for the Termite Assault Drill in tearing through the foundations of enemy
+bastions or emerging behind barricades or trench lines to lay waste to
+their defenders.
+
+
+
+    WARGEAR OPTIONS                                                             UNIT COMPOSITION
+    ■ This model’s 2 combi-bolters can be replaced with one of the following:   ■ 1 Terrax-pattern Termite
+       ◦ 2 heavy flamers                                                        This model is equipped with: Terrax melta cutter;
+       ◦ 2 twin volkite chargers                                                2 combi-bolters; Termite drill.
+
+
+                                                                                TRANSPORT
+                                                                                This model has a transport capacity of 12 Adeptus
+                                                                                Mechanicus Infantry models. It cannot transport Jump Pack
+                                                                                or Kataphron models.
+
+
+
+
+     KEYWORDS: Vehicle, Imperium, Transport, Dedicated Transport,                   FACTION KEYWORDS:
+               Terrax-pattern Termite                                                Adeptus Mechanicus
+
