@@ -20,14 +20,14 @@ import os
 
 # key -> (version, YYYY-MM-DD content date, human title, one-line note, versionless output path)
 DOCS = {
-    "lso-runbook":    ("1.1", "2026-07-27", "LSO Runbook — Imperial Knights",
-                       "GV brick corrected to OC34 (Ancient Astartes Banner); battle-shock + Code Chivalric.",
+    "lso-runbook":    ("1.2", "2026-07-27", "LSO Runbook — Imperial Knights",
+                       "Meta add: SW Saga of the Beastslayer 5-0 (Knight-hunter detachment); OC34/battle-shock.",
                        "docs/reports/knights/LSO-Runbook.docx"),
-    "lso-analysis":   ("1.1", "2026-07-27", "LSO Knights — List & Analysis",
-                       "GV brick corrected to OC34; 26 matchups; List A locked at 1,970.",
+    "lso-analysis":   ("1.2", "2026-07-27", "LSO Knights — List & Analysis",
+                       "Meta add: SW Saga of the Beastslayer 5-0; OC34; List A locked at 1,970.",
                        "docs/reports/knights/LSO-Knights-List-and-Analysis.xlsx"),
-    "lso-decision":   ("1.1", "2026-07-27", "LSO Knights — List Decision",
-                       "GV brick corrected to OC34; List A vs B, prevalence-weighted.",
+    "lso-decision":   ("1.2", "2026-07-27", "LSO Knights — List Decision",
+                       "Meta add: SW Saga of the Beastslayer 5-0; List A vs B, prevalence-weighted.",
                        "docs/reports/knights/LSO-Knights-List-Decision.xlsx"),
     "gv-runbook":     ("1.2", "2026-07-27", "Great Value — LSO Runbook",
                        "Sim now models GV board control from explicit OC bricks (OC34 + losable OC21 cyclone).",

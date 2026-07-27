@@ -42,9 +42,21 @@ WS3+ S8 AP-2 D2 [DEVASTATING WOUNDS]**). It out-bodies and out-OCs while crackin
   into the 4++ (68% of 4++ fails) to shave a brick a turn while out-scoring on tempo. A hard grind,
   not a clean win.
 
+## Observed results
+- **2026-07-25 — Saga of the Beastslayer went 5-0** (Bedburger Scheunenkloppen, Take and Hold).
+  This CORRECTS the earlier note below: Saga of the Beastslayer is NOT a labeling artifact — it is a
+  real, winning SW detachment, and a **Knight-hunter by design**. Its detachment rule (verified,
+  `sw_fp.txt`) sets the "Beastslayer target" by halving the count of enemy units with the
+  **CHARACTER / MONSTER / VEHICLE** keywords — a Knight army is nothing *but* those, so it hands the
+  SW player their tally/target for free. Expect Thunderwolf/beast melee + Saga buffs pointed straight
+  at big models. Treat vs Knights as **at-least-as-UNFAVOURABLE as the Terminator deathstar** and a
+  distinct game (fast cavalry, not a slow deep-strike wall). One list ≠ a trend, but it is a real
+  top-table data point, not noise.
+
 ## Data caveats
-- **"Beastslayer" is a labeling artifact** — the live competitive detachment is **Librarius
-  Conclave**; ignore any "Beastslayer" tag on the source list.
+- **Two live SW shells now**: the **Librarius Conclave Terminator/Wulfen deathstar** (this doc's
+  focus) AND **Saga of the Beastslayer** (above). Earlier this doc called Beastslayer a labeling
+  artifact — the 5-0 above retires that claim.
 - **Wulfen encoded at S5** (BSData) — the Wulfen/Blood Claw melee is genuinely low-Strength and
   bounces off T12; the threat is concentrated in the thunder hammers, not the body count's damage.
 - Librarius Conclave psychic + SW stratagem text is FP/codex-sourced; unit stats verified.

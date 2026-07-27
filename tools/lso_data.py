@@ -135,7 +135,7 @@ MATCHUPS = [
          deploy="Screen the Deathwing deep-strike (Navigator dome); out-OC bodies."),
     dict(key="space-wolves", faction="Space Wolves", archetype="Librarius Conclave Terminator/Wulfen deathstar",
          prev="Medium", verdict="UNFAVOURABLE", disp="Take and Hold",
-         deciding="8 Assault-Terminator thunder hammers (S8 AP-2 D2 DEV) crack the no-melee-invuln Questoris (~12-14/charge); Sternguard Fusillade (Anti-Veh 5+ + Dev) punches the ion shield; out-bodies/out-OCs. (Half its melee is duds: Wulfen S5, Blood Claws S4.)",
+         deciding="8 Assault-Terminator thunder hammers (S8 AP-2 D2 DEV) crack the no-melee-invuln Questoris (~12-14/charge); Sternguard Fusillade (Anti-Veh 5+ + Dev) punches the ion shield; out-bodies/out-OCs. (Half its melee is duds: Wulfen S5, Blood Claws S4.) OBSERVED 2026-07-25: a DIFFERENT SW build — Saga of the Beastslayer (Thunderwolf/beast-hunter) — went 5-0 at Bedburger Scheunenkloppen. Its detachment tally targets enemy CHARACTER/MONSTER/VEHICLE units, so vs a Knight army it is a HUNTER BY DESIGN (every Knight is a VEHICLE) — a distinct, arguably nastier melee threat than this Terminator deathstar; watch for it and treat it as at-least-as-UNFAVOURABLE.",
          heist=["Lancer counter-charge: its 4++ survives the hammers a Questoris can't; hold it to trade INTO a landed brick.",
                 "BRICK-WALL CAVEAT: assassinating Logan/Ragnar/Librarians is only MARGINAL — it doesn't collapse a faceless 4++ wall. Kill a multiplier only if it strips a real buff; otherwise don't over-commit the Lancer.",
                 "Focus-kill one brick BEFORE it lands (deep-strike + Celerity advance-charge); screen the drop with the Navigator dome + Helverin.",
@@ -396,7 +396,9 @@ OBSERVED_META_NOTE = (
     "n=70 top-finishing lists dated ON/AFTER 2026-07-23 (post-Dataslate cutoff: the 7/22 Dataslate "
     "reset points/rules, so pre-7/23 GTs incl. Tacoma 7/17 + Edinburgh 7/18 are EXCLUDED). WINNERS' meta, "
     "late July 2026 — the exact filth LSO's top tables will bring. Counts are of top lists, not "
-    "raw popularity, so read them as 'what's winning', prevalence-weighted."
+    "raw popularity, so read them as 'what's winning', prevalence-weighted. "
+    "POST-SAMPLE ADD (2026-07-25): a Space Wolves Saga of the Beastslayer went 5-0 at Bedburger "
+    "Scheunenkloppen — folded into the Space Wolves read below (not re-weighted into the n=70 counts)."
 )
 # (faction/archetype, count, threat-character, which-list-it-favours, one-line)
 META = [
@@ -501,7 +503,7 @@ MATCHUP_LEANS = {
     "dark-angels-ravenwing":   ("A",     "Shoot the Storm Speeder mark-engine + Black Knight packs; a Lancer can't catch M12 fall-back-and-shoot bikes."),
     "dark-angels-deathwing":   ("B",     "Counter-charge the un-tableable 4++ bricks with a 2nd Lancer + assassinate the Termie Librarians; guns bounce off 2+/4++/-1Dmg."),
     "sm-iron-hands-terminators": ("B",   "2nd Lancer counter-charges the 10-model hammer brick (4++ survives the hammers a Castellan can't) + a 2nd assassin for Feirros/characters."),
-    "space-wolves":            ("B",     "Counter-charge the thunder-hammer brick; 4++ Lancer trades where a Castellan dies. (Not in the n=70 sample.)"),
+    "space-wolves":            ("B",     "Counter-charge the thunder-hammer brick; 4++ Lancer trades where a Castellan dies. (SW now IN the sample: a Saga of the Beastslayer build went 5-0 at Bedburger Scheunenkloppen 2026-07-25 — a Knight-hunting detachment, see the META entry.)"),
     "blood-angels":            ("B",     "TWO counter-charge blades vs the jump alpha — cover both drop lanes + double the assassin threat on Lemartes/Priests/Chaplains."),
     "custodes":                ("B",     "Lancer melee (S20 vs 2+/4++) + character assassination beat the elite brick where volume shooting only chips; the anti-Knight guns are thin, so you can afford to trade a Castellan."),
     "chaos-daemons-khorne":    ("B",     "2 Lancers counter-charge the Bloodcrusher cav + one duels the Bloodthirster (4++ trades). The cav out-runs a gunline read."),
