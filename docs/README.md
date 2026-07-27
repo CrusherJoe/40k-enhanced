@@ -41,6 +41,8 @@ regenerate; a new `-vX.Y` file is written and the old revision is left on disk
 | **Adepta Sororitas — Quick Reference** | `reports/sisters/Sisters-Quick-Reference-vX.Y.docx` | `gen_sisters_qref_docx.py` | layouts |
 | **Black Templars — 'Send Help' FIXED Runbook** (rescued list + tapestry + battle plans) | `reports/black-templars/BT-SendHelp-Fixed-Runbook-vX.Y.docx` | `gen_bt_docx.py` | `bt_data.py` |
 | **Black Templars — 'Send Help' FIXED Analysis** (matchups + sim) | `reports/black-templars/BT-SendHelp-Fixed-Analysis-vX.Y.xlsx` | `gen_bt_xlsx.py` | `bt_data.py` + `mc_bt_sim.py` |
+| **Black Templars — Templar Bastion Runbook** (the friend's Bastion Task Force list) | `reports/black-templars/BT-Templar-Bastion-Runbook-vX.Y.docx` | `gen_bt_bastion_docx.py` | `bt_bastion_data.py` |
+| **Black Templars — Templar Bastion Analysis** (matchups + sim) | `reports/black-templars/BT-Templar-Bastion-Analysis-vX.Y.xlsx` | `gen_bt_bastion_xlsx.py` | `bt_bastion_data.py` + `mc_bt_bastion_sim.py` |
 
 ### Rebuild
 

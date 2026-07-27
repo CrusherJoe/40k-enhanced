@@ -50,6 +50,12 @@ DOCS = {
     "bt-analysis":    ("1.1", "2026-07-27", "Black Templars — 'Send Help' FIXED Analysis",
                        "v2b promoted; 10 matchups + sim + v1/v2a/v2b version history.",
                        "docs/reports/black-templars/BT-SendHelp-Fixed-Analysis.xlsx"),
+    "bt-bastion-runbook":  ("1.0", "2026-07-27", "Black Templars — Templar Bastion Runbook",
+                            "The friend's Bastion Task Force list + tapestry + per-archetype battle plans.",
+                            "docs/reports/black-templars/BT-Templar-Bastion-Runbook.docx"),
+    "bt-bastion-analysis": ("1.0", "2026-07-27", "Black Templars — Templar Bastion Analysis",
+                            "10 matchups + data-driven sim (~55%, durable hold-and-grind).",
+                            "docs/reports/black-templars/BT-Templar-Bastion-Analysis.xlsx"),
 }
 
 

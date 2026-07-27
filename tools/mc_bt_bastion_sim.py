@@ -123,7 +123,8 @@ def run_game(spec, shoot, melee, tw):
     # durable holder but SLOW (M6 foot bricks) -> it holds its share yet starts BEHIND the enemy's
     # contested board; fast enemies out-manoeuvre, hordes out-body. Removing legs only slowly claws back.
     their_obj = spec["obj"] + (0.6 if spec.get("fast") else 0.0) + (0.3 if spec.get("horde") else 0.0)
-    my_obj = spec["obj"] - 0.45
+    # body_edge > 0 when BT OUT-bodies the opponent (e.g. vs a 5-model Knight army) -> BT starts ahead
+    my_obj = spec["obj"] - 0.45 + spec.get("body_edge", 0.0)
     # the pin/suppress toolkit + Angels Defiant blunt melee/alpha pressure
     kill = spec["enemy_kill"] * (0.8 if spec.get("melee") else 1.0)
     bodies_lost = 0
