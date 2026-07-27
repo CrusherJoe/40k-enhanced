@@ -33,8 +33,10 @@ IDENTITY = (
     "Hits of 5+ into Critical Hits; the Sword Brethren's master-crafted power weapons have [LETHAL HITS] "
     "so those crits AUTO-WOUND; the Castellan re-rolls the hits; and Slayers of Abominations (1CP) adds "
     "+2 S vs MONSTER/VEHICLE. Net: at S7 with ~half its attacks auto-wounding, one spike ONE-SHOTS an "
-    "Armiger in melee. The whole fix is DELIVERY — each spike now rides a Repulsor Executioner (cap 7 = "
-    "Marshal+Castellan+5 = exactly 7) instead of walking. Grimaldus (the only BT Chaplain worth taking) "
+    "Armiger in melee. The whole fix is DELIVERY — both spikes ride LAND RAIDER CRUSADERS, whose ASSAULT RAMP "
+    "lets them drive up and STILL CHARGE the same turn (core 18.04: a Repulsor CAN'T — a Rapid Disembark after "
+    "the transport moves forbids charging). A jump-pack Assault Intercessor RESERVE threatens whatever refuses "
+    "the fight. Grimaldus (the only BT Chaplain worth taking) "
     "anchors a 10-Crusader brick that ACTUALLY FITS COVER (GW's 20-brick can't hide on modern boards, so "
     "we don't run it). The Emperor's Champion is a Precision character-assassin. Honest ceiling: this is a "
     "swingy melee army with GOOD anti-tank IN MELEE but INHERENTLY BAD SHOOTING and only 2 delivery "
@@ -42,36 +44,38 @@ IDENTITY = (
 
 # (unit, count, wargear/role, ~pts) — MFM-verified where noted; * = not in BT MFM slug (app v912).
 UNITS = [
-    ("Repulsor Executioner (Spike A bus)", "1", "TRANSPORT (cap 7) for spike A + 1 Heavy Laser Destroyer (S16). The delivery + what little AT-at-range BT has.", "265*"),
+    ("Land Raider Crusader (Spike A bus)", "1", "ASSAULT RAMP: drive up + disembark + the spike STILL CHARGES this turn (core 18.04: a Repulsor CANNOT — Rapid Disembark forbids charging). T12/W16/2+, cap 16. This is why BT delivers in Land Raiders, not Repulsors.", "220"),
     ("Marshal + Oathbound Exemplar", "1", "WARLORD; leads Spike A's Sword Brethren. INSPIRATIONAL EXEMPLAR: unmodified Hit of 5+ = Critical Hit -> the whole reason the spike works.", "95*"),
     ("Castellan (Support)", "1", "Stacks into Spike A. VEHEMENT AGGRESSION: re-roll Hits (on a Ld pass) -> more 5+ crits to convert via Lethal Hits.", "70"),
-    ("Sword Brethren Squad (Spike A)", "5", "Master-crafted power weapon S5 AP-2 D2 A3 [LETHAL HITS] -> with crit-on-5 + re-rolls + Slayers of Abominations (+2 S vs Mon/Veh = S7), ONE-SHOTS an Armiger. -> Repulsor A.", "105"),
-    ("Repulsor Executioner (Spike B bus)", "1", "TRANSPORT (cap 7) for spike B + 2nd Heavy Laser Destroyer.", "265*"),
+    ("Sword Brethren Squad (Spike A)", "5", "Master-crafted power weapon S5 AP-2 D2 A3 [LETHAL HITS] -> with crit-on-5 + re-rolls + Slayers of Abominations (+2 S vs Mon/Veh = S7), ONE-SHOTS an Armiger. -> Land Raider Crusader A.", "105"),
+    ("Land Raider Crusader (Spike B bus)", "1", "2nd ASSAULT RAMP bus -> Spike B also alpha-charges in one turn. Hurricane bolters + assault cannon add anti-infantry (helps the horde a little).", "220"),
     ("Marshal (Spike B)", "1", "2nd crit-on-5 enabler; leads Spike B's Sword Brethren.", "80*"),
     ("Castellan (Support)", "1", "2nd re-roll enabler; stacks into Spike B.", "70"),
-    ("Sword Brethren Squad (Spike B)", "5", "The 2nd delivered anti-tank spike. -> Repulsor B.", "105"),
+    ("Sword Brethren Squad (Spike B)", "5", "The 2nd delivered anti-tank spike. -> Land Raider Crusader.", "105"),
     ("Chaplain Grimaldus (+3 Cenobyte)", "1", "The ONLY good BT Chaplain. FNP + Litany -> the durability that lets a foot brick hold. Leads the Crusader anvil.", "100*"),
     ("Crusader Squad (Grimaldus anvil)", "10", "A 10-model brick that FITS COVER (the whole point — a 20-brick can't hide on modern boards). Sticky OC + Righteous Zeal surge.", "150"),
-    ("Emperor's Champion", "1", "Duelist / character-assassin: Black Sword S8 AP-3 D3 A6 [ANTI-CHARACTER 5+, PRECISION]. Leads the 2nd Crusader brick or the Assault Intercessors.", "75*"),
+    ("Emperor's Champion", "1", "Duelist / character-assassin: Black Sword S8 AP-3 D3 A6 [ANTI-CHARACTER 5+, PRECISION]. Leads the 2nd Crusader brick (the jump Intercessors run solo from reserve).", "75*"),
     ("Crusader Squad (2nd cover-brick)", "10", "2nd cover-fittable objective holder + surge. EC or a Castellan can lead it.", "150"),
-    ("Assault Intercessor Squad", "10", "Board control / actions / screen for the buses. Chainsword S4 AP-1 D1 A4.", "150"),
+    ("Assault Intercessors w/ Jump Packs", "10", "The RESERVE/SPEED THREAT (v2): deep-strike + Rapid Ingress -> pressures a castled T'au/AdMech backfield and catches kiting Drukhari — a threat that DOESN'T need a bus. Fixes the two 'can't reach you' matchups.", "160"),
     ("Gladiator Lancer", "1", "The ONE efficient Oath-boosted RANGED AT: twin lascannon-class gun to reach the un-chargeable (a melee army's only long answer to castled armour).", "160"),
-    ("Eradicator Squad", "3", "Melta AT backup (BT shooting is thin — this is a concession, not a gunline). Deep-strike/reposition threat.", "90"),
+    ("Eradicator Squad", "6", "Melta AT backup (BT shooting is thin — this is a concession, not a gunline). Deep-strike/reposition threat.", "180"),
 ]
-LIST_TOTAL = ("~1,930 core / 2000 — spend the last ~70 on Sword Brethren upgrades (Inheritors of Sigismund = "
-              "Fights First, Fervent Exemplars = +1 charge; from Marshal's Household, so they DON'T count toward "
-              "the enhancement cap) + the Oathbound Exemplar. Points MFM-verified where present; * = Marshal / EC / "
-              "Grimaldus / Repulsor Executioner not in the BT MFM slug (app v912) — confirm vs your app. Transport "
-              "fit verified: each Repulsor carries Marshal + Castellan + 5 Sword Brethren = 7/7. ALL attachments "
-              "legality-checked vs the datasheets (Marshal & EC lead Sword Brethren; Grimaldus/EC lead Crusaders; "
-              "no BT character leads Bladeguard — which is why the original's Bladeguard was dead weight).")
+LIST_TOTAL = ("~1,940 core / 2000 (2x Land Raider Crusader runs ~45 pts cheaper than a Repulsor+LRC) — spend the "
+              "last ~60 on FERVENT EXEMPLARS (10, +1 charge; helps the post-Assault-Ramp charge land) + a Sword "
+              "Brethren size-bump / wargear. NOTE: these Marshal's Household upgrades DO count toward the "
+              "3-enhancement cap (the 'free enhancement' clause is The Living Miracle's, not this detachment), so with "
+              "Oathbound Exemplar that's 2 of 3. Points MFM-verified where present; * = Marshal / EC / Grimaldus not "
+              "in the BT MFM slug (app v912) — confirm vs your app. Transport fit verified: each Land Raider Crusader "
+              "(cap 16) carries Marshal + Castellan + 5 Sword Brethren, and ASSAULT RAMP lets the spike charge the "
+              "turn it disembarks. ALL attachments legality-checked (Marshal & EC lead Sword Brethren; Grimaldus/EC "
+              "lead Crusaders; no BT character leads Bladeguard). See VERSION HISTORY for the v1->v2 sim delta.")
 
 RULES = [
     ("The SPIKE — how BT does anti-tank (in melee)", "Marshal (INSPIRATIONAL EXEMPLAR: unmodified Hit 5+ = Critical Hit) + Sword Brethren power weapons ([LETHAL HITS]: crit = auto-wound) = Lethal Hits on 5s. + Castellan (VEHEMENT AGGRESSION: re-roll Hits) + Slayers of Abominations (1CP: +2 S vs MONSTER/VEHICLE = S7). One Marshal+Castellan+5-Sword-Brethren spike ONE-SHOTS an Armiger and badly hurts a big Knight/vehicle — in the fight phase, where Knights have no invuln. This IS the army's anti-tank."),
-    ("Delivery = the whole fix (2 Repulsor Executioners)", "The spikes are M6 on foot and die on the walk unless bused. Each Repulsor (cap 7) carries a full spike (Marshal+Castellan+5 = 7) and drops it into a chosen charge, then adds a Heavy Laser Destroyer. RISK: only 2 buses -> a shooty army that pops both strands both spikes. Protect them; this is the list's single point of failure."),
-    ("Oath of Moment (and BT's bad shooting)", "Marines shoot BADLY without Oath. Oath (name 1 enemy unit -> army-wide re-roll Hits into it) is what makes the thin gun package (2 Heavy Laser Destroyers + Gladiator Lancer + 3 Eradicators) do anything. Point it at the ONE big thing you must shoot; the rest of your killing is the delivered melee."),
+    ("Delivery = the whole fix (2x Land Raider Crusader + jump reserve)", "The spikes are M6 on foot and die on the walk unless bused — and per core 18.04 ONLY a Land Raider Crusader (ASSAULT RAMP) can drive up AND let the spike charge the same turn; a Repulsor forces a Rapid Disembark that FORBIDS charging. So both spikes ride Crusaders for a true one-turn alpha. A jump-pack Assault Intercessor RESERVE adds a delivery FLOOR (a threat even if a bus dies) + pressures a castled/kiting enemy — this lifts the delivery-race matchups (see VERSION HISTORY: T'au +4, Astra +10, Drukhari +5). RISK: still only 2 buses + a reserve, and dropping the Repulsors costs the Heavy Laser Destroyers, so ranged AT is thin (Lancer + Eradicators)."),
+    ("Oath of Moment (and BT's bad shooting)", "Marines shoot BADLY without Oath. Oath (name 1 enemy unit -> army-wide re-roll Hits into it) is what makes the thin gun package (Gladiator Lancer + 6 Eradicators, the Land Raiders' hurricane bolters + assault cannons) do anything. Point it at the ONE big thing you must shoot; the rest of your killing is the delivered melee."),
     ("Companions of Vehemence — surge (2 DP)", "Units make surge moves (~D6\"); Crusader Squads via Righteous Zeal surge toward the CLOSEST OBJECTIVE when shot. It's the mobility patch for a slow foot army — but see the cover caveat: a surge onto an objective you can't fit into cover on just exposes the brick."),
-    ("Marshal's Household — the Sword Brethren detachment (1 DP)", "Friendly SWORD BRETHREN SQUAD units have +1 OC. Strats: Slayers of Abominations (+2 S vs Mon/Veh — the spike's anti-tank switch), Blade of Detestation (mortals on the charge), Unsparing Execution (punish fall-back). Enhancements (Inheritors of Sigismund = Fights First, Fervent Exemplars = +1 charge) are Sword-Brethren-only and DON'T count toward the cap. Everything here feeds the spikes."),
+    ("Marshal's Household — the Sword Brethren detachment (1 DP)", "Friendly SWORD BRETHREN SQUAD units have +1 OC. Strats: Slayers of Abominations (+2 S vs Mon/Veh — the spike's anti-tank switch), Blade of Detestation (mortals on the charge), Unsparing Execution (punish fall-back). Enhancements: FERVENT EXEMPLARS (+1 charge, 10 — take this: it helps the spike CONNECT out of the transport) and INHERITORS OF SIGISMUND (Fights First, 15 — SKIP on a spike: per 12.04 charging already grants fights-first, so the ability only matters in ongoing combats a kill-and-leave scalpel avoids). Both are Sword-Brethren-SQUAD upgrades and DO count toward the 3-enhancement cap (the 'free enhancement' clause belongs to The Living Miracle detachment, not this one)."),
     ("Grimaldus — the only Chaplain worth it", "FNP + Litany on the Crusader anvil = the staying power a foot brick needs. Every OTHER BT Chaplain is a tax (the Execrator = 50 pts for Advance-and-Charge); this list runs Grimaldus and no other."),
     ("The 20-brick trap (why we run 10s)", "GW's intended BT survivability is a 20-model Crusader brick + surge. On modern terrain-dense boards a 20-brick physically CANNOT FIT INSIDE COVER, so it eats shooting in the open and the surge just walks it into more fire. We run 10-model bricks that actually fit cover and screen — less sticky, far more survivable in practice."),
     ("Emperor's Champion — the scalpel", "Black Sword S8 AP-3 D3 A6 [PRECISION] -> he alone can pick out and kill an attached enemy Character in melee (Sigismund's Heir even lets him re-roll a charge to reach a Character within 12\"). Lone Operative until he joins a unit. Save him for the enemy's key buff-character."),
@@ -113,7 +117,7 @@ MATCHUPS = [
                "Surge the anvil onto mid objectives; out-score once their shooting is tar-pitted in melee."],
          watch="Both buses dying early = you can't reach them and can't out-shoot them = a loss. This matchup lives or dies on the buses surviving to deliver."),
     dict(key="tau-retaliation", faction="T'au Empire", archetype="Retaliation Cadre (fusion/rail alpha)",
-         prev="High (5)", verdict="HARD (your worst matchup)",
+         prev="High (5)", verdict="UNFAVOURABLE (v2 lifts this from HARD)",
          deciding="The nightmare shape: a shooting alpha that one-shots Repulsors before you deliver, then kites your M6 spikes forever. Strand the buses and you have a melee army with nothing in range — and BT's own shooting can't punish T'au. You often just never get to fight.",
          plan=["MAX reserves + terrain T1-2; keep BOTH buses out of first-turn rail/fusion LoS at ALL costs.",
                "If you get a bus in, delete a Riptide/Crisis brick with a spike — T'au fold in melee IF you reach.",
@@ -134,7 +138,7 @@ MATCHUPS = [
                "Out-body + out-score; a spike one-shots the Caladius; hold cover-bricks."],
          watch="Their melee out-damages a single spike; commit together and let the EC take the character duel."),
     dict(key="blood-angels", faction="Blood Angels", archetype="Stormlance / Liberator jump alpha",
-         prev="Med (4)", verdict="COIN-FLIP (lean unfavourable)",
+         prev="Med (4)", verdict="COIN-FLIP (v2 nudges it toward even)",
          deciding="A faster melee army that gets the charge first: DC/Sang Guard M12 + Deep Strike out-deliver your 2 buses. You're durable enough to receive and counter-punch with a fresh spike, but you're behind on tempo and they can pop a bus on the drop.",
          plan=["Screen so DC/Sang Guard land 9\"+ out; gatling + Assault Intercessor overwatch thins them.",
                "RECEIVE the charge on the Grimaldus brick, then counter-charge the spent unit with a fresh spike + EC on their Priest/Lemartes.",
@@ -148,14 +152,14 @@ MATCHUPS = [
                "Race objectives; both armies are slow, so cover-bricks + surge decide it."],
          watch="Feeding one spike piecemeal into the mace brick; commit with support. Even, decided on primary."),
     dict(key="drukhari", faction="Drukhari", archetype="Skysplinter Assault (fast splinter + lance)",
-         prev="Med (3)", verdict="UNFAVOURABLE",
+         prev="Med (3)", verdict="COIN-FLIP (v2: the jump reserve catches the kiter)",
          deciding="Speed kills you: they out-manoeuvre M6, kite the spikes, dark-lance the Repulsors, and flip objectives late. Your armour tanks the splinter, but you can't CATCH them and your shooting can't punish their paper at range.",
          plan=["Hold a tight castle + cover-bricks; make them commit into your bubble (their paper folds if it does).",
                "Gladiator Lancer + Eradicators + Oath one-shot Ravagers/Venoms to cut their mobility and the lance threat to the buses.",
                "Zone with screens so they can't backfield-raid; grind the secondaries you can hold."],
          watch="Out-actioned by raw speed while the spikes chase air; protect the buses from lances. ~35%."),
     dict(key="astra-militarum", faction="Astra Militarum", archetype="Steel Hammer superheavy / artillery",
-         prev="Low-Med (2)", verdict="EVEN (slight favour, delivery race)",
+         prev="Low-Med (2)", verdict="FAVOURABLE (v2: the tanky bus wins the delivery race)",
          deciding="Their tanks are PRIME spike food — Slayers (+2 S, S7) + Lethal Hits one-shots a Russ and badly hurts a Shadowsword in melee — and their guns over-kill your bodies (waste). But their volume CAN pop a bus, so it's a delivery race again.",
          plan=["Advance behind terrain; deliver a spike into a superheavy/Russ each turn and delete it in the fight.",
                "Assault Intercessors + anvil carve the Guard infantry; surge onto objectives their tanks can't hold.",
@@ -187,7 +191,16 @@ VERIFIED_PROFILES = [
     ("Castellan — Vehement Aggression", "re-roll Hit rolls (Ld pass) / re-roll 1s (Ld fail)", "more 5+ crits to convert; stacks onto the Marshal's unit."),
     ("Slayers of Abominations (Marshal's Household, 1CP)", "Sword Brethren melee vs MONSTER/VEHICLE: +2 S", "S5 -> S7; the anti-tank switch."),
     ("Emperor's Champion — Black Sword (Strike)", "S8 | AP-3 | D3 | A6 | [ANTI-CHARACTER 5+, PRECISION]", "the character-assassin (Precision picks out attached chars)."),
+    ("--- delivery (core 18.04 + the transports) ---", "", ""),
+    ("Land Raider Crusader — Assault Ramp", "disembark after a Normal move -> still eligible to CHARGE", "the reason both spikes ride Crusaders; a Repulsor (no ramp) can't charge after it moves."),
+    ("Core 18.04 — Rapid Disembark", "if the transport MOVED, the unit CANNOT declare a charge", "so a non-ramp transport can only deliver a charge from stationary (slow/telegraphed)."),
     ("--- BT's (thin) shooting ---", "", ""),
-    ("Repulsor Executioner — Heavy Laser Destroyer", "S16 | AP-4 | D(D6+4) | A2 | [HEAVY]", "x2 (one per bus); wounds a Knight on 3s — the little AT-at-range there is."),
-    ("Eradicator / Gladiator Lancer — melta & las", "melta S9 AP-4 D(D6) [MELTA 2]; Lancer las-class", "Oath-boosted reach for the un-chargeable — thin, because Marines shoot badly without Oath."),
+    ("Gladiator Lancer + Eradicators — las & melta", "las-class S12+; melta S9 AP-4 D(D6) [MELTA 2]", "Oath-boosted reach for the un-chargeable — thin (no Heavy Laser Destroyers in v2b), because Marines shoot badly without Oath."),
+]
+
+# incremental-improvement log — maps the sim's CONFIGS to what changed (win% come live from mc_bt_sim.history()).
+CHANGELOG = [
+    ("v1 (2 Repulsor)", "The baseline fix: both spikes ride Repulsor Executioners + foot Assault Intercessors + 3 Eradicators. Flaw we later found: Repulsors have NO Assault Ramp, so they can't cleanly deliver a charge (core 18.04)."),
+    ("v2a (Repulsor+LRC)", "Swap ONE Repulsor for a Land Raider Crusader + jump-pack reserve + 6 Eradicators. One spike now alpha-charges (Assault Ramp); keeps a Heavy Laser Destroyer for ranged AT."),
+    ("v2b (2x LRC)", "DOCUMENTED: both spikes ride Land Raider Crusaders -> both alpha-charge (Assault Ramp). ~45 pts cheaper; trades the Heavy Laser Destroyers for reliable double delivery. Sim: tied with v2a on the weighted metric, chosen for consistency."),
 ]

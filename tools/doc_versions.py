@@ -44,11 +44,11 @@ DOCS = {
     "sisters-qref":   ("1.0", "2026-07-27", "Adepta Sororitas — Tabletop Quick Reference",
                        "Per-matchup mission/quick-ref.",
                        "docs/reports/sisters/Sisters-Quick-Reference.docx"),
-    "bt-runbook":     ("1.0", "2026-07-27", "Black Templars — 'Send Help' FIXED Runbook",
-                       "Rescued 2000-pt list + tapestry + per-archetype battle plans.",
+    "bt-runbook":     ("1.1", "2026-07-27", "Black Templars — 'Send Help' FIXED Runbook",
+                       "List promoted to v2b (2x Land Raider Crusader, Assault Ramp delivery) + version history.",
                        "docs/reports/black-templars/BT-SendHelp-Fixed-Runbook.docx"),
-    "bt-analysis":    ("1.0", "2026-07-27", "Black Templars — 'Send Help' FIXED Analysis",
-                       "10 matchups + data-driven sim (~46%, mid-tier grinder).",
+    "bt-analysis":    ("1.1", "2026-07-27", "Black Templars — 'Send Help' FIXED Analysis",
+                       "v2b promoted; 10 matchups + sim + v1/v2a/v2b version history.",
                        "docs/reports/black-templars/BT-SendHelp-Fixed-Analysis.xlsx"),
 }
 

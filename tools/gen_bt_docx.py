@@ -103,6 +103,34 @@ def main():
                           f"(vehicles/monsters/elites); loses to castled shooting (T'au), true hordes, and pure "
                           f"speed. Delivery-dependent.").italic = True
 
+    # version history (incremental-improvement tracker)
+    doc.add_page_break()
+    h(doc, "VERSION HISTORY — incremental improvements", 15)
+    doc.add_paragraph("Same Sword-Brethren-spike engine, iterated on DELIVERY. Win% per archetype for each list "
+                      "version (tools/mc_bt_sim.py, all configs). The documented list is the last column.").italic = True
+    try:
+        import mc_bt_sim
+        names, hrows, weighted = mc_bt_sim.history(2000)
+    except Exception as e:
+        names, hrows, weighted = [], [], {}
+        doc.add_paragraph(f"(history unavailable: {e})")
+    if names:
+        tbl = doc.add_table(rows=1, cols=2 + len(names)); tbl.style = "Light Grid Accent 1"; tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
+        heads = ["Archetype", "Prev."] + names
+        for i, x in enumerate(heads):
+            tbl.rows[0].cells[i].paragraphs[0].add_run(x).bold = True
+        for r in hrows:
+            c = tbl.add_row().cells
+            c[0].text = r["archetype"]; c[1].text = str(r["prev"])
+            for j, n in enumerate(names):
+                c[2 + j].text = f"{r[n]}%"
+        wr = tbl.add_row().cells
+        wr[0].paragraphs[0].add_run("PREVALENCE-WEIGHTED").bold = True
+        for j, n in enumerate(names):
+            wr[2 + j].paragraphs[0].add_run(f"{weighted[n]}%").bold = True
+    for name, desc in D.CHANGELOG:
+        p = doc.add_paragraph(style="List Bullet"); p.add_run(name + " — ").bold = True; p.add_run(desc)
+
     # battle plans
     doc.add_page_break()
     h(doc, "BATTLE PLANS", 16)

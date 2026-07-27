@@ -99,19 +99,26 @@ def noisy(mu, cv=0.28):
     return max(0.0, random.gauss(mu, mu * cv))
 
 
-# head-to-head list configs. v2 = swap a Repulsor for a Land Raider Crusader (T12/W16 tanky bus,
-# far harder to pop -> bus_pop_mult) + a jump Assault-Intercessor reserve threat (a delivery FLOOR
-# even if the buses are contested, and backfield pressure that eases a FAST enemy's board control).
+# head-to-head list configs. The key delivery rule (core 18.04 + Assault Ramp): a spike can only
+# move-and-charge out of a LAND RAIDER CRUSADER (Assault Ramp); a Repulsor with no ramp forces a
+# Rapid Disembark (no charge) or a slow stationary Tactical Disembark -> POOR charge delivery. So:
+#   delivery_base = how well the spikes actually reach the fight (0 ramp buses -> low; 2 -> high)
+#   shoot_mult    = ranged AT (2 Heavy Laser Destroyers on 2 Repulsors -> high; 0 on 2 LRCs -> low)
+#   bus_pop_mult  = bus survivability (LRC 2+ slightly tankier); reserve_floor/fast_relief = jump reserve.
 CONFIGS = {
-    "v1 current":  dict(bus_pop_mult=1.00, reserve_floor=0.00, fast_relief=0.00),
-    "v2 improved": dict(bus_pop_mult=0.55, reserve_floor=0.70, fast_relief=0.35),
+    "v1 (2 Repulsor)":   dict(delivery_base=0.72, shoot_mult=1.20, bus_pop_mult=1.00, reserve_floor=0.00, fast_relief=0.00),
+    "v2a (Repulsor+LRC)":dict(delivery_base=0.85, shoot_mult=1.00, bus_pop_mult=0.85, reserve_floor=0.70, fast_relief=0.35),
+    "v2b (2x LRC)":      dict(delivery_base=0.95, shoot_mult=0.78, bus_pop_mult=0.80, reserve_floor=0.70, fast_relief=0.35),
 }
+DOCUMENTED = "v2b (2x LRC)"   # the promoted list (results() defaults to this); the others are kept for tracking
 
 
-def run_game(spec, spike, shoot, tw, cfg=CONFIGS["v1 current"]):
+def run_game(spec, spike, shoot, tw, cfg=None):
     """BT buses a spike into the priority piece and deletes it in melee, holds with cover-bricks, and
     grinds primary. Delivery-dependent: shooty enemies strand the spike; hordes waste it; fast enemies
     out-manoeuvre. Shooting is a thin supplement, not a removal tool on its own. cfg = list version."""
+    if cfg is None:
+        cfg = CONFIGS[DOCUMENTED]
     dura = spec.get("dura", 1.0)
     their_obj = spec["obj"] + (max(0.0, 0.6 - cfg["fast_relief"]) if spec.get("fast") else 0.0) + (0.6 if spec.get("horde") else 0.0)
     my_obj = spec["obj"] - 0.7
@@ -127,11 +134,12 @@ def run_game(spec, spike, shoot, tw, cfg=CONFIGS["v1 current"]):
         if spec.get("shooty") and buses > 0 and rnd <= 3 and random.random() < spec.get("bus_pop", 0.28) * cfg["bus_pop_mult"]:
             buses -= 1
         # fraction of the spike(s) that reach the fight; v2's jump reserve sets a delivery FLOOR
-        delivered = max(cfg["reserve_floor"], 0.55 + 0.45 * (buses / 2.0))
-        # removal = the delivered spikes (both can focus a big target) + a thin shooting supplement;
-        # a horde wastes the spike (Slayers only fires vs Mon/Veh). "clears" = neutralise the priority
-        # threat (delete or cripple it over the turn), not necessarily a one-shot.
-        removal = spike * delivered * 1.5 * (0.4 if spec.get("horde") else 1.0) + 0.4 * shoot
+        # delivery quality = the config's base (Assault-Ramp buses reach; Repulsors deliver poorly),
+        # scaled by surviving buses, with the jump reserve as a floor
+        delivered = max(cfg["reserve_floor"], cfg["delivery_base"] * (0.6 + 0.4 * (buses / 2.0)))
+        # removal = the delivered spikes (both can focus a big target) + a thin shooting supplement
+        # (scaled by the config's ranged AT); a horde wastes the spike (Slayers only fires vs Mon/Veh).
+        removal = spike * delivered * 1.5 * (0.4 if spec.get("horde") else 1.0) + 0.4 * shoot * cfg["shoot_mult"]
         clears = removal >= 0.75 * tw * dura
         outctrl = their_obj >= my_obj
         him += min(15, spec["score"] + (4 if outctrl else 2) + (2 if bodies_lost else 0)) + noisy(spec["score"] * 0.7)
@@ -142,7 +150,9 @@ def run_game(spec, spike, shoot, tw, cfg=CONFIGS["v1 current"]):
     return me - him
 
 
-def results(games=800, cfg=CONFIGS["v1 current"]):
+def results(games=800, cfg=None):   # default = the DOCUMENTED list (set below); others kept for tracking
+    if cfg is None:
+        cfg = CONFIGS[DOCUMENTED]
     random.seed(11)
     out = []
     for name, spec in ARCH.items():
@@ -154,20 +164,35 @@ def results(games=800, cfg=CONFIGS["v1 current"]):
     return out
 
 
+def history(games=2000):
+    """Per-archetype win% for EVERY list version (v1, v2, ...) + prevalence-weighted per version.
+    This is the incremental-improvement tracker rendered into the deliverables."""
+    names = list(CONFIGS.keys())
+    per = {n: results(games, CONFIGS[n]) for n in names}
+    rows, tot = [], sum(ARCH[a]["prev"] for a in ARCH)
+    for i, arch in enumerate(ARCH):
+        row = dict(archetype=arch, prev=ARCH[arch]["prev"])
+        for n in names:
+            row[n] = per[n][i]["win"]
+        rows.append(row)
+    weighted = {n: round(sum(ARCH[a]["prev"] * per[n][i]["win"] for i, a in enumerate(ARCH)) / tot) for n in names}
+    return names, rows, weighted
+
+
 def compare(games=4000):
-    """Head-to-head: v1 (current) vs v2 (improved) win% per archetype + prevalence-weighted."""
-    v1 = {x["archetype"]: x for x in results(games, CONFIGS["v1 current"])}
-    v2 = {x["archetype"]: x for x in results(games, CONFIGS["v2 improved"])}
-    hdr = f"{'Archetype':34} {'prev':>4} {'v1%':>5} {'v2%':>5} {'Δ':>5}"
+    """Head-to-head across ALL delivery configs (v1 / v2a / v2b) — the version tracker."""
+    names, rows, weighted = history(games)
+    wcol = "".join(f"{n.split()[0]:>7}" for n in names)
+    hdr = f"{'Archetype':34} {'prev':>4}{wcol}"
     print(hdr); print("-" * len(hdr))
-    tot = w1 = w2 = 0
-    for name in ARCH:
-        a, b = v1[name], v2[name]
-        d = b["win"] - a["win"]
-        print(f"{name:34} {a['prev']:>4} {a['win']:>4}% {b['win']:>4}% {d:>+4}")
-        tot += a["prev"]; w1 += a["prev"] * a["win"]; w2 += a["prev"] * b["win"]
+    for r in rows:
+        cells = "".join(f"{r[n]:>6}%" for n in names)
+        print(f"{r['archetype']:34} {r['prev']:>4}{cells}")
     print("-" * len(hdr))
-    print(f"{'PREVALENCE-WEIGHTED':34} {'':>4} {w1/tot:>4.0f}% {w2/tot:>4.0f}% {w2/tot - w1/tot:>+4.0f}")
+    wcells = "".join(f"{weighted[n]:>6}%" for n in names)
+    print(f"{'PREVALENCE-WEIGHTED':34} {'':>4}{wcells}")
+    for n in names:
+        print(f"  {n:22} weighted = {weighted[n]}%")
 
 
 def main():

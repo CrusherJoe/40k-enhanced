@@ -124,9 +124,35 @@ def sheet_rules(wb):
     widths(ws, [30, 92])
 
 
+def sheet_history(wb):
+    ws = wb.create_sheet("Version History")
+    title(ws, 1, "VERSION HISTORY — incremental improvements (same engine, iterated on delivery)", 6)
+    try:
+        import mc_bt_sim
+        names, rows, weighted = mc_bt_sim.history(2000)
+    except Exception as e:
+        ws.cell(2, 1, f"(history unavailable: {e})"); return
+    hrow(ws, 2, ["Archetype", "Prev."] + names)
+    r = 3
+    for row in rows:
+        ws.cell(r, 1, row["archetype"]).alignment = WRAP; ws.cell(r, 2, row["prev"]).alignment = CTR
+        for j, n in enumerate(names):
+            ws.cell(r, 3 + j, f"{row[n]}%").alignment = CTR
+        for c in range(1, 3 + len(names)): ws.cell(r, c).border = THIN
+        r += 1
+    ws.cell(r, 1, "PREVALENCE-WEIGHTED").font = BOLD
+    for j, n in enumerate(names):
+        ws.cell(r, 3 + j, f"{weighted[n]}%").font = BOLD
+    r += 2
+    for name, desc in D.CHANGELOG:
+        ws.cell(r, 1, name).font = BOLD; ws.merge_cells(start_row=r, start_column=2, end_row=r, end_column=3 + len(names) - 1)
+        ws.cell(r, 2, desc).alignment = WRAP; ws.row_dimensions[r].height = 44; r += 1
+    widths(ws, [34, 6] + [16] * len(names))
+
+
 def main():
     wb = Workbook()
-    sheet_list(wb); sheet_matchups(wb); sheet_sim(wb); sheet_rules(wb)
+    sheet_list(wb); sheet_matchups(wb); sheet_sim(wb); sheet_history(wb); sheet_rules(wb)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     V.stamp_xlsx(wb, "bt-analysis")
     wb.save(OUT)
