@@ -12,6 +12,7 @@ the generator, never hand-edit the Office files:
 | `LSO-Knights-List-Decision.xlsx` ★ 2 Castellan/1 Lancer vs 1 Castellan/2 Lancer, grounded in the n=75 winners' meta + verified 11E profiles | `tools/gen_lso_decision_xlsx.py` | `tools/lso_data.py` |
 | `LSO-Runbook.docx` (list decision + per-archetype battle plans, each annotated with the better list) | `tools/gen_lso_runbook_docx.py` | `tools/lso_data.py` |
 | `LSO-Knights-List-and-Analysis.xlsx` (single-list-A reference) | `tools/gen_lso_xlsx.py` | `tools/lso_data.py` |
+| `GV-LSO-Runbook.docx` + `GV-LSO-Analysis.xlsx` (the friend's **Great Value** / Imperial Fists list — same sim/workup treatment) | `tools/gen_gv_docx.py` / `tools/gen_gv_xlsx.py` | `tools/gv_data.py` + `tools/mc_gv_sim.py` |
 
 Regenerate all:
 ```
