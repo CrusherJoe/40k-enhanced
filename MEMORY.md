@@ -55,6 +55,11 @@ Status:
 - **Sim wiring** ✅ `tools/mc_db_sim.py` reads real Knight profiles from `data/bsdata` via `tools/db.py` + `wh.mathhammer`, runs
   List A vs List B against the listhammer archetypes. Confirms the hand-analysis: A wins SHOOTING metas (T'au/AdMech/AM/Drukhari),
   B wins MELEE metas (Custodes/BA/DA/EC/Orks); prevalence-weighted ~even (A 16 / B 17 / even 15) — genuinely playstyle-dependent.
+- **Workup pipeline is GENERALIZABLE to ANY list** ✅ (2026-07-27). Pattern = a `*_data.py` module (list/tapestry/matchups/mindset/record/
+  profiles) + a `mc_*_sim.py` (output computed from data/bsdata via wh.mathhammer vs the n=70 archetypes, calibrated to verdict bands) +
+  `gen_*_docx.py`/`gen_*_xlsx.py` (Runbook + Analysis). First reuse: the friend's **Great Value / Imperial Fists** (`gv_data.py`,
+  `mc_gv_sim.py`, `gen_gv_*`; docs/Reports & Plans/GV-LSO-*). GV = strong all-comers (~59% vs top meta; hardest Orks horde 27%, Necrons
+  C'tan 33%; favourable vs glass/gunline). To work up any list: clone the gv_data pattern, point the sim at its real weapons, calibrate.
 - **Missions / secondaries / matrix / dispositions / layouts** = existing hand-authored `data/*.yaml` (TODO: builders from
   39k.pro / gdmissions.app / rules PDF). **Attachments (SUPPORT/LEADER→BODYGUARD)** + agents points → TODO.
 - **Portability**: `git clone` the repo + `git clone --depth 1 BSData/wh40k-11e data/_src/wh40k-11e` + `tools/refresh.py`.
