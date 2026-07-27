@@ -1,322 +1,390 @@
-                                         WORLD EATERS
-                                         FACTION PACK: VERSION 1.1
-                                            Legal for matched play from 22nd July 2026
-
+WORLD EATERS
+FACTION PACK: VERSION 1.1
+Legal for matched play from 22nd July 2026
 On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
 datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
 for your units and detachments.
+WHAT’S NEW? CONTENTS
+▪ Changes to Rules Updates Detachments���������������������������������������������������������������������������������2
+Brazen Engines��������������������������������������������������������������������������������������������2
+Butchers of Khorne�������������������������������������������������������������������������������������3
+Vessels of Wrath������������������������������������������������������������������������������������������4
+Datasheets������������������������������������������������������������������������������������5
+Defiler�������������������������������������������������������������������������������������������������������������5
+Rules Updates�������������������������������������������������������������������������������7
 
-
-WHAT’S NEW?                                                       CONTENTS
-▪ Changes to Rules Updates                                          Detachments���������������������������������������������������������������������������������2
-                                                                     Brazen Engines��������������������������������������������������������������������������������������������2
-                                                                     Butchers of Khorne�������������������������������������������������������������������������������������3
-                                                                     Vessels of Wrath������������������������������������������������������������������������������������������4
-                                                                    Datasheets������������������������������������������������������������������������������������5
-                                                                     Defiler�������������������������������������������������������������������������������������������������������������5
-                                                                    Rules Updates�������������������������������������������������������������������������������7
-UNIQUE: ONSLAUGHT
-
+UNIQUE: ONSLAUGHT
 BRAZEN ENGINES
-THE ARMOURED MIGHT OF THE WORLD EATERS IS AN UNSTOPPABLE ONSLAUGHT OF MURDEROUS MACHINES
-
-
- DETACHMENT RULES                                                       APOPLECTIC CLARITY                                                 1CP
-                                                                        BRAZEN ENGINES STRATAGEM
+THE ARMOURED MIGHT OF THE WORLD EATERS IS AN UNSTOPPABLE
+DETACHMENT RULES
 RAMPAGING TERRORS
-                                                                        So perfect a state of supernatural rage does this ironclad
-To stand in the path of stampeding Khornate daemon engines is to        entity exist in that nothing can distract it from its
-                                                                        single‑minded slaughter.
+To stand in the path of stampeding Khornate daemon engines is to
 know the instinctive terror of cornered prey.
-                                                                        WHEN: Your Shooting phase or the Fight phase, when a friendly
-Friendly DAEMON VEHICLE units have the following ability:               DAEMON VEHICLE unit is selected to attack.
-                                                                        TARGET: That DAEMON VEHICLE unit.
-  Terror of Khorne: At the start of the Fight phase, you can select
-   one enemy unit engaged with this unit. That enemy unit makes         EFFECT: Your unit’s attacks can ignore modifiers to:
-   a battle‑shock roll, with -1 to that battle‑shock roll. You cannot   ▪ BS.
-                                                                        ▪ WS.
-   select the same enemy unit for this effect more than once
-                                                                        ▪ Hit rolls and wound rolls.
-   per phase.
-
+Friendly DAEMON VEHICLE units have the following ability:
+Terror of Khorne: At the start of the Fight phase, you can select
+one enemy unit engaged with this unit. That enemy unit makes
+a battle‑shock roll, with -1 to that battle‑shock roll. You cannot
+select the same enemy unit for this effect more than once
+per phase.
 This detachment has the ONSLAUGHT tag and cannot be taken with
-another ONSLAUGHT detachment.                                           TRAIL OF DESTRUCTION                                               1CP
-                                                                        BRAZEN ENGINES STRATAGEM
-
-                                                                        Like a runaway engine of destruction, this Khornate war machine
- ENHANCEMENTS                                                           bulldozes a path through even the densest terrain in its urgency
-                                                                        to reach the foe.
-
-TALONS OF BUTCHERY UPGRADE                                              WHEN: Your Movement phase, when a friendly DAEMON VEHICLE unit
-                                                                        is selected to move.
+another ONSLAUGHT detachment.
+ENHANCEMENTS
+TALONS OF BUTCHERY UPGRADE
 The vicious talons of this daemon engine are said to have been
-                                                                        TARGET: That DAEMON VEHICLE unit.
 fashioned in the blazing forges of the Blood God’s empyric realm.
-                                                                        EFFECT: Your unit has MOBILE.
-
 MAULERFIEND unit only. This unit’s Maulerfiend Fists have
 [CLEAVE 2].
-
-MURDER-FORGED ENTITY UPGRADE                                            GOADED TO FURY                                                     1CP
-                                                                        BRAZEN ENGINES STRATAGEM
+MURDER-FORGED ENTITY UPGRADE
 Within this armoured shell burns the bloodthirsty essence of a
-greater daemon of Khorne, its power barely contained.                   Incensed by the cowardly affront of the foe, this war engine
-                                                                        charges down those who would dare fire upon it.
+greater daemon of Khorne, its power barely contained.
+WORLD EATERS VEHICLE unit only. This unit has DAEMON.
+ONSLAUGHT OF MURDEROUS MACHINES
+APOPLECTIC CLARITY 1CP
+BRAZEN ENGINES STRATAGEM
+So perfect a state of supernatural rage does this ironclad
+entity exist in that nothing can distract it from its
+single‑minded slaughter.
+WHEN: Your Shooting phase or the Fight phase, when a friendly
+DAEMON VEHICLE unit is selected to attack.
+TARGET: That DAEMON VEHICLE unit.
+EFFECT: Your unit’s attacks can ignore modifiers to:
+▪ BS.
+▪ WS.
+▪ Hit rolls and wound rolls.
+TRAIL OF DESTRUCTION 1CP
+BRAZEN ENGINES STRATAGEM
+Like a runaway engine of destruction, this Khornate war machine
+bulldozes a path through even the densest terrain in its urgency
+to reach the foe.
+WHEN: Your Movement phase, when a friendly DAEMON VEHICLE unit
+is selected to move.
+TARGET: That DAEMON VEHICLE unit.
+EFFECT: Your unit has MOBILE.
+GOADED TO FURY 1CP
+BRAZEN ENGINES STRATAGEM
+Incensed by the cowardly affront of the foe, this war engine
+charges down those who would dare fire upon it.
+WHEN: Your opponent’s Shooting phase, when an enemy unit that
+targeted a friendly unengaged DAEMON VEHICLE unit (excluding
+TITANIC units) has shot.
+TARGET: That DAEMON VEHICLE unit.
+EFFECT: Your unit can make a surge move of up to D6".
 
-WORLD EATERS VEHICLE unit only. This unit has DAEMON.                   WHEN: Your opponent’s Shooting phase, when an enemy unit that
-                                                                        targeted a friendly unengaged DAEMON VEHICLE unit (excluding
-                                                                        TITANIC units) has shot.
-                                                                        TARGET: That DAEMON VEHICLE unit.
-                                                                        EFFECT: Your unit can make a surge move of up to D6".
-BUTCHERS OF KHORNE
-BANDS OF TERMINATOR‑ARMOURED WORLD EATERS LEAD THE CHARGE INTO THE HEART OF THE FOE
-
-
- DETACHMENT RULES                                                      FOCUSED FEROCITY                                                      1CP
-                                                                       BUTCHERS OF KHORNE STRATAGEM
+BUTCHERS OF
+BANDS OF TERMINATOR‑ARMOURED WORLD EATERS LEAD THE
+DETACHMENT RULES
 ADAMANTINE AVALANCHE
-                                                                       Fighting with lunatic fierceness, these elite killers hack their
-Hurling themselves into battle with savage ferocity, the sheer         victims limb from limb in a blizzard of blows.
+Hurling themselves into battle with savage ferocity, the sheer
 armoured bulk of the World Eaters’ Terminator elites is enough to
-                                                                       WHEN: Fight phase, when a friendly TERMINATOR SQUAD unit is
-shatter armour and crush bone.                                         selected to fight.
-                                                                       TARGET: That TERMINATOR SQUAD unit.
+shatter armour and crush bone.
 At the start of the Fight phase, if a friendly TERMINATOR SQUAD unit
-                                                                       EFFECT: Your unit’s melee attacks have +1 A.
 is engaged, make a Blessings of Khorne roll and use the results to
 activate one Blessing of Khorne. Until the end of the phase, that
-Blessing of Khorne is active for friendly TERMINATOR SQUAD units in    A TROPHY FOR THE THRONE                                               1CP
+Blessing of Khorne is active for friendly TERMINATOR SQUAD units in
 addition to any other Blessings of Khorne that are currently active.
-                                                                       BUTCHERS OF KHORNE STRATAGEM
-
-                                                                       The greater and more terrible the enemies these warriors face
-                                                                       in battle, the mightier the trophies they can take in the Blood
- ENHANCEMENTS                                                          God’s name.
-
-                                                                       WHEN: Fight phase, when a friendly TERMINATOR SQUAD unit is
-SANCTIFIED IN SLAUGHTER UPGRADE                                        selected to fight.
-These Terminator‑armoured butchers soak the battlefield in gore,       TARGET: That TERMINATOR SQUAD unit.
-and in so doing consecrate it in the name of Khorne.                   EFFECT: Your unit’s attacks that target a MONSTER/VEHICLE unit have
-                                                                       +1 to wound rolls.
+ENHANCEMENTS
+SANCTIFIED IN SLAUGHTER UPGRADE
+These Terminator‑armoured butchers soak the battlefield in gore,
+and in so doing consecrate it in the name of Khorne.
 TERMINATOR SQUAD unit only. This unit has +1 OC.
-
-GORE-STAINED VETERANS UPGRADE                                          WRATH BEYOND REASON                                                   2CP
-Countless fields of bloody battle have honed these warriors’ martial   BUTCHERS OF KHORNE STRATAGEM
-skills to the keenest killing edge.                                    So seized by furious bloodlust are these killers that they fight
-                                                                       on through even the most grievous mortal wounds.
+GORE-STAINED VETERANS UPGRADE
+Countless fields of bloody battle have honed these warriors’ martial
+skills to the keenest killing edge.
 TERMINATOR SQUAD unit only. This unit’s melee attacks have +1 WS.
-                                                                       WHEN: Your opponent’s Shooting Phase, when an enemy unit
-                                                                       targets a friendly TERMINATOR SQUAD unit.
-                                                                       TARGET: That TERMINATOR SQUAD unit.
-                                                                       EFFECT: Ranged attacks that target your unit have -1 D until that
-                                                                       enemy unit has attacked.
-VESSELS OF WRATH
-THE CHAMPIONS OF KHORNE EARN THEIR DEITY'S BOONS THROUGH DEEDS OF SPECTACULAR BUTCHERY
+KHORNE
+CHARGE INTO THE HEART OF THE FOE
+FOCUSED FEROCITY 1CP
+BUTCHERS OF KHORNE STRATAGEM
+Fighting with lunatic fierceness, these elite killers hack their
+victims limb from limb in a blizzard of blows.
+WHEN: Fight phase, when a friendly TERMINATOR SQUAD unit is
+selected to fight.
+TARGET: That TERMINATOR SQUAD unit.
+EFFECT: Your unit’s melee attacks have +1 A.
+A TROPHY FOR THE THRONE 1CP
+BUTCHERS OF KHORNE STRATAGEM
+The greater and more terrible the enemies these warriors face
+in battle, the mightier the trophies they can take in the Blood
+God’s name.
+WHEN: Fight phase, when a friendly TERMINATOR SQUAD unit is
+selected to fight.
+TARGET: That TERMINATOR SQUAD unit.
+EFFECT: Your unit’s attacks that target a MONSTER/VEHICLE unit have
++1 to wound rolls.
+WRATH BEYOND REASON 2CP
+BUTCHERS OF KHORNE STRATAGEM
+So seized by furious bloodlust are these killers that they fight
+on through even the most grievous mortal wounds.
+WHEN: Your opponent’s Shooting Phase, when an enemy unit
+targets a friendly TERMINATOR SQUAD unit.
+TARGET: That TERMINATOR SQUAD unit.
+EFFECT: Ranged attacks that target your unit have -1 D until that
+enemy unit has attacked.
 
-
- DETACHMENT RULES                                                        SCORN THE WITCH                                                        1CP
-                                                                         VESSELS OF WRATH STRATAGEM
+VESSELS OF WRATH
+THE CHAMPIONS OF KHORNE EARN THEIR DEITY'S BOONS
+DETACHMENT RULES
 WRATH OF KHORNE
-                                                                         Those who feel Khorne’s blessings burning through their bodies
-Every Khornate champion treads a personal Path to Glory.                 and minds can shrug off hostile witchery with the force of their
-                                                                         hate-fuelled contempt.
+Every Khornate champion treads a personal Path to Glory.
 Through carnage and bloodshed, they earn empowering boons of
-martial might.                                                           WHEN: Any phase, when a friendly WORLD EATERS CHARACTER unit
-                                                                         (excluding EPIC HERO units) suffers a mortal wound.
-When a friendly WORLD EATERS CHARACTER unit (excluding EPIC              TARGET: That WORLD EATERS CHARACTER unit.
-HERO units) is selected to fight, that unit's CHARACTER models'          EFFECT: Your unit has Feel No Pain 4+ against mortal wounds.
+martial might.
+When a friendly WORLD EATERS CHARACTER unit (excluding EPIC
+HERO units) is selected to fight, that unit's CHARACTER models'
 melee attacks can have:
 ▪ [CLEAVE 1].
-▪ Or: +1 AP.                                                             ASPIRE TO INFAMY                                                       1CP
-                                                                         VESSELS OF WRATH STRATAGEM
-
-                                                                         Feeling that the Blood God’s eye must surely be sweeping the
- ENHANCEMENTS                                                            field of war, his champions strive with wild ferocity to
-                                                                         prove themselves.
-
-ARCHSLAUGHTERER                                                          WHEN: Fight phase, when a friendly WORLD EATERS CHARACTER unit
-This gifted killer channels the fullness of his rage into every weapon   (excluding EPIC HERO units) is selected to fight.
-swing – doubly so in that fleeting moment when he believes the           TARGET: That WORLD EATERS CHARACTER unit.
-Blood God’s gaze has fallen upon him.                                    EFFECT: Your unit's CHARACTER models' melee attacks have:
-                                                                         ▪ +1 A.
-WORLD EATERS model only. (Once per battle, per army) In your             ▪ +2 S.
+▪ Or: +1 AP.
+ENHANCEMENTS
+ARCHSLAUGHTERER
+This gifted killer channels the fullness of his rage into every weapon
+swing – doubly so in that fleeting moment when he believes the
+Blood God’s gaze has fallen upon him.
+WORLD EATERS model only. (Once per battle, per army) In your
 Command phase, you can use this ability. If you do, every Blessing
 of Khorne is active for this unit until the start of your next turn.
-                                                                         PUNISH THE CRAVEN                                                      1CP
-GATEWAYS TO GLORY                                                        VESSELS OF WRATH STRATAGEM
-
-With but a stroke of its infernal weapons, this favoured entity can      The Blood God is said to detest cowards. Meting out punishment
-                                                                         to such degenerates is believed to be a sure way to win
-hack paths through the meat of realspace itself to reach the foe all     his favour.
+GATEWAYS TO GLORY
+With but a stroke of its infernal weapons, this favoured entity can
+hack paths through the meat of realspace itself to reach the foe all
 the quicker.
-                                                                         WHEN: Your opponent's Movement phase, when a unit is selected to
-                                                                         make a fall-back move, if that unit is engaged with a friendly WORLD
 WORLD EATERS DAEMON PRINCE model only. This model has:
-                                                                         EATERS CHARACTER unit.
-▪ MOBILE.
-                                                                         TARGET: That WORLD EATERS CHARACTER unit.
+▪ MOBILE. 
 ▪  +1 to charge rolls.
-                                                                         EFFECT: When an enemy unit engaged with your unit is selected
-                                                                         to make a fall-back move, that enemy unit must use the desperate
-                                                                         escape mode. If that enemy unit is battle-shocked, -1 from those
-                                                                         hazard rolls.
-DEFILER
- M            T            SV             W             LD            OC
+THROUGH DEEDS OF SPECTACULAR BUTCHERY
+SCORN THE WITCH 1CP
+VESSELS OF WRATH STRATAGEM
+Those who feel Khorne’s blessings burning through their bodies
+and minds can shrug off hostile witchery with the force of their
+hate-fuelled contempt.
+WHEN: Any phase, when a friendly WORLD EATERS CHARACTER unit
+(excluding EPIC HERO units) suffers a mortal wound.
+TARGET: That WORLD EATERS CHARACTER unit.
+EFFECT: Your unit has Feel No Pain 4+ against mortal wounds.
+ASPIRE TO INFAMY 1CP
+VESSELS OF WRATH STRATAGEM
+Feeling that the Blood God’s eye must surely be sweeping the
+field of war, his champions strive with wild ferocity to
+prove themselves.
+WHEN: Fight phase, when a friendly WORLD EATERS CHARACTER unit
+(excluding EPIC HERO units) is selected to fight.
+TARGET: That WORLD EATERS CHARACTER unit.
+EFFECT: Your unit's CHARACTER models' melee attacks have:
+▪ +1 A.
+▪ +2 S.
+PUNISH THE CRAVEN 1CP
+VESSELS OF WRATH STRATAGEM
+The Blood God is said to detest cowards. Meting out punishment
+to such degenerates is believed to be a sure way to win
+his favour.
+WHEN: Your opponent's Movement phase, when a unit is selected to
+make a fall-back move, if that unit is engaged with a friendly WORLD
+EATERS CHARACTER unit.
+TARGET: That WORLD EATERS CHARACTER unit.
+EFFECT: When an enemy unit engaged with your unit is selected
+to make a fall-back move, that enemy unit must use the desperate
+escape mode. If that enemy unit is battle-shocked, -1 from those
+hazard rolls.
 
-14" 11                    3+            18            6+              5
-                          5+               INVULNERABLE SAVE
+DEFILER
+M T SV W LD OC
+14" 11 3+ 18 6+ 5
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Ectoplasma destructor [BLAST, RAPID FIRE 2] 36" D6 4+ 12 -3 3
+Excruciator cannon [RAPID FIRE 3] 36" 6 4+ 6 -1 2
+Heavy baleflamer [IGNORES COVER, TORRENT] 12" D6+3 N/A 7 -2 2
+Hades battle cannon [BLAST, RAPID FIRE 3] 48" D6+3 4+ 10 -1 3
+Hades lascannon [RAPID FIRE 1] 48" 2 4+ 12 -3 D6+1
+Heavy missile launcher – krak [RAPID FIRE 1] 48" 2 4+ 10 -2 D6+1
+Heavy missile launcher – frag [BLAST, RAPID FIRE 3] 48" 2D6 4+ 5 -1 1
+Heavy reaper autocannon 48" 4 4+ 9 -1 3
+[DEVASTATING WOUNDS, RAPID FIRE 2, SUSTAINED HITS 1]
+Magma cutters [MELTA 2, RAPID FIRE 1] 12" 2 4+ 9 -4 D6
+MELEE WEAPONS RANGE A WS S AP D
+Electroscourge [EXTRA ATTACKS, SUSTAINED HITS 2] Melee 7 3+ 12 -2 2
+Shearing claws – strike Melee 6 3+ 16 -3 D6+1
+Shearing claws – sweep Melee 12 3+ 6 -2 1
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Chaos, Khorne, Daemon, Defiler
+ABILITIES
+CORE: Deadly Demise D6
+FACTION: Blessings of Khorne
+Scuttling Walker: Each time this unit makes a Normal,
+Advance or Fall Back move, it can move through models
+(excluding Titanic models) and terrain features. When doing
+so, it can move within Engagement Range of enemy models,
+but cannot end that move within Engagement Range of them,
+and any Desperate Escape test is automatically passed.
+Unleash Wrath: At the end of your opponent’s Movement
+phase, you can select one enemy unit that was set up on the
+battlefield within 12" of this model; this model can then either:
+■ Shoot at that unit, but only if it is an eligible target.
+■ Declare a charge. This unit must end that charge move
+engaged with the enemy unit you selected (note that even
+if this charge is successful, this unit does not receive any
+Charge bonus this turn).
+FACTION KEYWORDS:
+World Eaters
 
-
-      RANGED WEAPONS                                                       RANGE                  A    BS    S    AP    D     ABILITIES
-      Ectoplasma destructor [BLAST, RAPID FIRE 2]                              36"                D6   4+    12   -3    3
-                                                                                                                              CORE: Deadly Demise D6
-      Excruciator cannon [RAPID FIRE 3]                                        36"                6    4+    6    -1    2
-      Heavy baleflamer [IGNORES COVER, TORRENT]                                12"           D6+3      N/A   7    -2    2     FACTION: Blessings of Khorne
-      Hades battle cannon [BLAST, RAPID FIRE 3]                                48"           D6+3      4+    10   -1    3
-                                                                                                                              Scuttling Walker: Each time this unit makes a Normal,
-      Hades lascannon [RAPID FIRE 1]                                           48"             2       4+    12   -3   D6+1
-                                                                                                                              Advance or Fall Back move, it can move through models
-      Heavy missile launcher – krak [RAPID FIRE 1]                             48"             2       4+    10   -2   D6+1
-                                                                                                                              (excluding Titanic models) and terrain features. When doing
-      Heavy missile launcher – frag [BLAST, RAPID FIRE 3]                      48"            2D6      4+     5   -1    1
-                                                                                                                              so, it can move within Engagement Range of enemy models,
-      Heavy reaper autocannon                                                                                                 but cannot end that move within Engagement Range of them,
-                                                                               48"                4    4+    9    -1    3
-      [DEVASTATING WOUNDS, RAPID FIRE 2, SUSTAINED HITS 1]
-                                                                                                                              and any Desperate Escape test is automatically passed.
-      Magma cutters [MELTA 2, RAPID FIRE 1]                                    12"                2    4+    9    -4    D6
-                                                                                                                              Unleash Wrath: At the end of your opponent’s Movement
-                                                                                                                              phase, you can select one enemy unit that was set up on the
-      MELEE WEAPONS                                                        RANGE                  A    WS    S    AP    D     battlefield within 12" of this model; this model can then either:
-      Electroscourge [EXTRA ATTACKS, SUSTAINED HITS 2]                       Melee                7    3+    12   -2    2
-      Shearing claws – strike                                                Melee                6    3+    16   -3   D6+1   ■ Shoot at that unit, but only if it is an eligible target.
-      Shearing claws – sweep                                                 Melee                12   3+    6    -2    1     ■ Declare a charge. This unit must end that charge move
-                                                                                                                                 engaged with the enemy unit you selected (note that even
-                                                                                                                                 if this charge is successful, this unit does not receive any
-                                                                                                                                 Charge bonus this turn).
-
-
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
-                                                                                                                                   FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Chaos, Khorne, Daemon, Defiler
-                                                                                                                                   World Eaters
-DEFILER
+DEFILER
 Infernal many-legged Daemon Engines of enormous size, Defilers
 combine an arsenal of heavy weapons with brutal close-quarters
 butchery. Those hurled into battle by the World Eaters are
 rune-daubed prisons for ferocious warp entities that vent their
 hate and fury upon the foe with cataclysmically gory results.
+WARGEAR OPTIONS
+■ This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor.
+■ This model’s excruciator cannons can be replaced with 2 magma cutters.
+■ This model’s heavy baleflamer can be replaced with one of the following:
+◦ 1 Hades lascannon
+◦ 1 heavy reaper autocannon
+◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
+■ This model’s heavy missile launcher can be replaced with one of the following:
+◦ 1 Hades lascannon
+◦ 1 heavy reaper autocannon
+◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
+KEYWORDS: Vehicle, Walker, Chaos, Khorne, Daemon, Defiler
+DAMAGED: 1-6 WOUNDS REMAINING
+While this model has 1-6 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+UNIT COMPOSITION
+■ 1 Defiler
+This model is equipped with: 1 Hades battle cannon;
+2 excruciator cannons; 1 heavy missile launcher; 1 heavy
+baleflamer; 1 shearing claws
+FACTION KEYWORDS:
+World Eaters
 
-
-
-    WARGEAR OPTIONS                                                                             DAMAGED: 1-6 WOUNDS REMAINING
-    ■ This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor.       While this model has 1-6 wounds remaining, each time this
-    ■ This model’s excruciator cannons can be replaced with 2 magma cutters.               model makes an attack, subtract 1 from the Hit roll.
-    ■ This model’s heavy baleflamer can be replaced with one of the following:
-       ◦ 1 Hades lascannon                                                                 UNIT COMPOSITION
-       ◦ 1 heavy reaper autocannon
-       ◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)   ■ 1 Defiler
-    ■ This model’s heavy missile launcher can be replaced with one of the following:       This model is equipped with: 1 Hades battle cannon;
-       ◦ 1 Hades lascannon                                                                 2 excruciator cannons; 1 heavy missile launcher; 1 heavy
-       ◦ 1 heavy reaper autocannon                                                         baleflamer; 1 shearing claws
-       ◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
-
-
-
-
-                                                                                                FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Chaos, Khorne, Daemon, Defiler
-                                                                                                World Eaters
-                                               WORLD EATERS
-                                                          RULES UPDATES
-This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
-Changes applied after the first iteration of this Faction Pack will be highlighted in red.
-
-
-                                                                          POSSESSED SLAUGHTERBOUND DETACHMENT
-UPDATES                                                                   Warp Stalkers Stratagem, Effect section
-                                                                          Change to:
-ARMY RULES                                                                ‘Until the end of the phase, each time a model in your unit makes a
-Blessings of Khorne, Unbridled Bloodlust                                  Normal, Advance, Fall Back or Charge move, it can move through enemy
-Change to:                                                                models (excluding MONSTERS and VEHICLES). When doing so, it can
-'This unit has +1 to charge rolls.'                                       move within Engagement Range of such models but, unless that move
-                                                                          was a Charge move, it cannot end that move within Engagement Range
-BERZERKER WARBAND DETACHMENT                                              of them, and any Desperate Escape test is automatically passed.
+WORLD
+RULES
+This section presents updates and clarifications to your faction’s
+Changes applied after the first iteration of this Faction Pack will
+UPDATES
+ARMY RULES
+Blessings of Khorne, Unbridled Bloodlust
+Change to:
+'This unit has +1 to charge rolls.'
+BERZERKER WARBAND DETACHMENT
 Berzerker's Wrath Stratagem, Target and Effect Sections
-Change to:                                                                Rapid Manifestation Stratagem
-'TARGET: One KHORNE BERZERKERS unit from your army that can make a        Change 3" to 6".
+Change to:
+'TARGET: One KHORNE BERZERKERS unit from your army that can make a
 surge move as a result of those attacks.
-EFFECT: Do not roll a D6 to determine how far models in your unit         Brazen Fury Detachment Rule
-can move when they make a surge move. Instead, when making a              Change to:
-surge move, those models can move up to 8".'                              'In your opponent’s Shooting phase, when an enemy unit has shot, if a
-                                                                          model in this unit was destroyed as a result of those attacks, this unit
-CULT OF BLOOD DETACHMENT                                                  can make a surge move of up to D6". That surge move is a Brazen Fury
-Butcher Lord Enhancement                                                  move.'
+EFFECT: Do not roll a D6 to determine how far models in your unit
+can move when they make a surge move. Instead, when making a
+surge move, those models can move up to 8".'
+CULT OF BLOOD DETACHMENT
+Butcher Lord Enhancement
 Change to:
-‘WORLD EATERS INFANTRY model only. The bearer has the                     DATASHEETS
-Infiltrators ability.’                                                    Heldrake
-                                                                          ▪ Profile: Change M to 12" and OC to '-'.
-GORETRACK ONSLAUGHT DETACHMENT                                            ▪ Keywords: Remove 'AIRCRAFT'.
+‘WORLD EATERS INFANTRY model only. The bearer has the
+Infiltrators ability.’
+GORETRACK ONSLAUGHT DETACHMENT
 Fury Unleashed Stratagem, Effect Section
-Change to:                                                                Chaos Rhino, Meet Any Challenge Ability
-'One KHORNE BERZERKERS unit embarked within your model can make a         Change 9" to 8".
+Change to:
+'One KHORNE BERZERKERS unit embarked within your model can make a
 disembark move and then make a surge move of up to D6+2".'
-                                                                          Chaos Terminators, Blood Fury Ability
-KHORNE DAEMONKIN DETACHMENT                                               Change to:
-Disciple of Khorne Enhancement                                            ▪ 'This unit’s ranged attacks that target the closest eligible target can
-Change to:                                                                    re-roll hit rolls.
-‘LORD ON JUGGERNAUT model only. The bearer has the Deep Strike ability,   ▪ When this unit declares a charge, you can use this part of this ability.
-and it has the BLOOD LEGIONS Faction keyword instead of the WORLD            If you do:
-EATERS Faction keyword.’                                                        ▫ This unit can re-roll that charge roll.
-                                                                                ▫ This unit must end that charge move engaged with the closest
-Summoned by Slaughter Stratagem                                                    charge target.'
+KHORNE DAEMONKIN DETACHMENT
+Disciple of Khorne Enhancement
 Change to:
-‘WHEN: Any phase, when the last model in a unit is destroyed, before      Exalted Eightbound, Rend and Tear Ability
-removing it from play. (If that unit is a TRANSPORT, any units embarked   Change to:
-within that TRANSPORT model must disembark first).                        ‘Each time a model in this unit makes a melee attack that targets
-TARGET: One BLOODLETTERS unit from your army that is in Reserves.         a MONSTER or VEHICLE unit, until the end of the phase, improve the
-EFFECT: Set your unit up anywhere on the battlefield wholly within 9"     Damage characteristic of that attack by 1.'
+‘LORD ON JUGGERNAUT model only. The bearer has the Deep Strike ability,
+and it has the BLOOD LEGIONS Faction keyword instead of the WORLD
+EATERS Faction keyword.’
+Summoned by Slaughter Stratagem
+Change to:
+‘WHEN: Any phase, when the last model in a unit is destroyed, before
+removing it from play. (If that unit is a TRANSPORT, any units embarked
+within that TRANSPORT model must disembark first).
+TARGET: One BLOODLETTERS unit from your army that is in Reserves.
+EFFECT: Set your unit up anywhere on the battlefield wholly within 9"
 of that destroyed model and more than 6" horizontally away from all
-enemy units, then remove the destroyed model from play.                   Goremongers, Loping Speed Ability
-RESTRICTIONS: You cannot use this Stratagem more than once per            Change to:
-battle round.                                                             'In your opponent's Movement phase, if an enemy unit ends a move
-                                                                          within 8" of this unit, if this unit is not within Engagement Range of one
-                                                                          or more enemy units, this unit can make a Normal move of up to D6".'
-Khorne Berzerkers, Jakhals – Icon of Khorne Wargear Ability                       FAQS
-Change to:                                                                        Q: If Angron is destroyed and I use his Reborn in Blood ability, can I
-‘If the bearer’s unit contains one or more Icons of Khorne, each time the         still use the Wrath of Khorne Detachment ability for the Vessels of
-bearer’s unit destroys an enemy unit, you gain 1 Bloodshed point. Each            Wrath Detachment?
-time you make a Blessings of Khorne roll, roll one additional D6 for each         A: Yes.
-Bloodshed point you have, after which, all your Bloodshed points are
-lost.'                                                                            Q: While using the Khorne Daemonkin Detachment, can I select a
-                                                                                  CHARACTER with the Disciple of Khorne Enhancement to be my WARLORD?
-Khorne Berzerkers, Blood Surge Ability                                            A: No.
+enemy units, then remove the destroyed model from play.
+RESTRICTIONS: You cannot use this Stratagem more than once per
+battle round.
+EATERS
+UPDATES
+rules, designed to improve the gaming experience for all players.
+be highlighted in red.
+POSSESSED SLAUGHTERBOUND DETACHMENT
+Warp Stalkers Stratagem, Effect section
 Change to:
-'In your opponent’s Shooting phase, when an enemy unit has shot, if a             Q: While using the Khorne Daemonkin Detachment, if I attach a Lord
-model in this unit was destroyed as a result of those attacks, this unit          on Juggernaut with the Disciple of Khorne Enhancement to a unit
-can make a surge move of up to D6+2".'                                            of Bloodcrushers or Flesh Hounds, does that unit benefit from the
-                                                                                  Blessings of Khorne ability, even though only the Lord on Juggernaut has
-Helbrute, Frenzy Ability                                                          that ability?
-Change to:                                                                        A: Yes.
+‘Until the end of the phase, each time a model in your unit makes a
+Normal, Advance, Fall Back or Charge move, it can move through enemy
+models (excluding MONSTERS and VEHICLES). When doing so, it can
+move within Engagement Range of such models but, unless that move
+was a Charge move, it cannot end that move within Engagement Range
+of them, and any Desperate Escape test is automatically passed.
+Rapid Manifestation Stratagem
+Change 3" to 6".
+Brazen Fury Detachment Rule
+Change to:
+'In your opponent’s Shooting phase, when an enemy unit has shot, if a
+model in this unit was destroyed as a result of those attacks, this unit
+can make a surge move of up to D6". That surge move is a Brazen Fury
+move.'
+DATASHEETS
+Heldrake
+▪ Profile: Change M to 12" and OC to '-'.
+▪ Keywords:  Remove 'AIRCRAFT'.
+Chaos Rhino, Meet Any Challenge Ability
+Change 9" to 8".
+Chaos Terminators, Blood Fury Ability
+Change to:
+▪ 'This unit’s ranged attacks that target the closest eligible target can
+re-roll hit rolls.
+▪ When this unit declares a charge, you can use this part of this ability.
+If you do:
+▫ This unit can re-roll that charge roll.
+▫ This unit must end that charge move engaged with the closest
+charge target.'
+Exalted Eightbound, Rend and Tear Ability
+Change to:
+‘Each time a model in this unit makes a melee attack that targets
+a MONSTER or VEHICLE unit, until the end of the phase, improve the
+Damage characteristic of that attack by 1.'
+Goremongers, Loping Speed Ability
+Change to:
+'In your opponent's Movement phase, if an enemy unit ends a move
+within 8" of this unit, if this unit is not within Engagement Range of one
+or more enemy units, this unit can make a Normal move of up to D6".'
+
+Khorne Berzerkers, Jakhals – Icon of Khorne Wargear Ability
+Change to:
+‘If the bearer’s unit contains one or more Icons of Khorne, each time the
+bearer’s unit destroys an enemy unit, you gain 1 Bloodshed point. Each
+time you make a Blessings of Khorne roll, roll one additional D6 for each
+Bloodshed point you have, after which, all your Bloodshed points are
+lost.'
+Khorne Berzerkers, Blood Surge Ability
+Change to:
+'In your opponent’s Shooting phase, when an enemy unit has shot, if a
+model in this unit was destroyed as a result of those attacks, this unit
+can make a surge move of up to D6+2".'
+Helbrute, Frenzy Ability
+Change to:
 '(Once per turn, per unit) In the Fight phase, when an enemy unit
 targets this unit, after that unit has resolved its attacks, you can use
 this ability. If you do, this unit is eligible to fight (even if it has already
 fought this phase) and must be selected to fight next.'
-
 Maulerfiend, Scent Of Blood Ability
 Change to:
 'In the Charge phase, when this unit declares a charge:
 ▪ If an enemy unit below starting strength is within 9" of this unit, this
-   unit has +1 to charge rolls.
+unit has +1 to charge rolls.
 ▪ Or: If an enemy unit below half strength is within 9" of this unit, this
-   unit has +2 to charge rolls.'
-
+unit has +2 to charge rolls.'
 Slaughterbound, Melee Weapons,Lacerator and Daemonic Claw
 Change S to '10'.
-
 Chaos Land Raider, Chaos Predator Annihilator, Chaos Predator
 Destructor, Chaos Rhino, Khorne Lord of Skulls – Keywords Section
 Add 'FRAME'.
-
+FAQS
+Q: If Angron is destroyed and I use his Reborn in Blood ability, can I
+still use the Wrath of Khorne Detachment ability for the Vessels of
+Wrath Detachment?
+A: Yes.
+Q: While using the Khorne Daemonkin Detachment, can I select a
+CHARACTER with the Disciple of Khorne Enhancement to be my WARLORD?
+A: No.
+Q: While using the Khorne Daemonkin Detachment, if I attach a Lord
+on Juggernaut with the Disciple of Khorne Enhancement to a unit
+of Bloodcrushers or Flesh Hounds, does that unit benefit from the
+Blessings of Khorne ability, even though only the Lord on Juggernaut has
+that ability?
+A: Yes.

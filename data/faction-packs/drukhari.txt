@@ -1,754 +1,835 @@
-                                                DRUKHARI
-                                         FACTION PACK: VERSION 1.1
-                                            Legal for matched play from 22nd July 2026
-
+DRUKHARI
+FACTION PACK: VERSION 1.1
+Legal for matched play from 22nd July 2026
 On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
 datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
 for your units and detachments.
+WHAT’S NEW? CONTENTS
+▪ Changes to Rules Updates Detachments���������������������������������������������������������������������������������2
+Exhibition of Slaughter������������������������������������������������������������������������������2
+Kabalite Agonysts���������������������������������������������������������������������������������������3
+Tools of Torment�������������������������������������������������������������������������������������������4
+Reaper’s Wager��������������������������������������������������������������������������������������������5
+Rules Updates�������������������������������������������������������������������������������7
+Legends Datasheets���������������������������������������������������������������������9
 
-
-WHAT’S NEW?                                                       CONTENTS
-▪ Changes to Rules Updates                                          Detachments���������������������������������������������������������������������������������2
-                                                                     Exhibition of Slaughter������������������������������������������������������������������������������2
-                                                                     Kabalite Agonysts���������������������������������������������������������������������������������������3
-                                                                     Tools of Torment�������������������������������������������������������������������������������������������4
-                                                                     Reaper’s Wager��������������������������������������������������������������������������������������������5
-                                                                    Rules Updates�������������������������������������������������������������������������������7
-                                                                    Legends Datasheets���������������������������������������������������������������������9
-UNIQUE: WYCH CULT
-
-EXHIBITION OF SLAUGHTER
-MURDEROUS ARTISTES OF THE WYCH CULTS EXHIBIT THE FULL REACH OF THEIR TALENTS
-
-
- DETACHMENT RULES                                                      PLANNED STRIKES                                                       1CP
-                                                                       EXHIBITION OF SLAUGHTER STRATAGEM
+UNIQUE: WYCH CULT
+EXHIBITION OF
+MURDEROUS ARTISTES OF THE WYCH CULTS EXHIBIT THE FULL
+DETACHMENT RULES
 EXACTING CRUELTY
-                                                                       Murderous rehearsals ensure that those who survive can bring
-With long lives spent honing their murderous skills against the        down the most resilient of prey in puissant displays.
+With long lives spent honing their murderous skills against the
 most powerful opponents, the renowned fighters of Commorragh’s
-                                                                       WHEN: Fight phase, when a friendly WYCH CULT unit is selected
-arenas have an instinct for just where to strike to bring their prey   to fight.
+arenas have an instinct for just where to strike to bring their prey
 low in the most painful and elegant manner possible.
-                                                                       TARGET: That WYCH CULT unit.
-                                                                       EFFECT: Your unit’s melee attacks have [LETHAL HITS].
 Friendly WYCH CULT units' melee attacks have
 [LETHAL HITS: non-MONSTER/VEHICLE].
-                                                                       SCULPTING THE STAGE                                                   1CP
 This detachment has the WYCH CULT tag and cannot be taken with
-                                                                       EXHIBITION OF SLAUGHTER STRATAGEM
 another WYCH CULT detachment.
-                                                                       Gauche are the gladiators who kill too relentlessly. Preparing
-                                                                       the stage with a variety of torments in order to build the
-                                                                       tension for a delightful crescendo is the mark of a true artist.
- ENHANCEMENTS                                                          WHEN: Your Movement phase, when a friendly WYCH CULT unit is
-                                                                       selected to make an advance/fall-back move.
-PERIAPT OF TORMENTS                                                    TARGET: That WYCH CULT unit.
-This hollow black stone is worn as warrior jewellery. The sinister     EFFECT: That move does not prevent your unit from being eligible to
-organism that lurks within it can detect those who intend malice       start an action.
+ENHANCEMENTS
+PERIAPT OF TORMENTS
+This hollow black stone is worn as warrior jewellery. The sinister
+organism that lurks within it can detect those who intend malice
 to its bearer and punishes them by lashing their psyches with
 its psi-barbs.
-                                                                       ACROBATIC DISPLAY                                                     1CP
-SUCCUBUS model only. Enemy units cannot target this unit with          EXHIBITION OF SLAUGHTER STRATAGEM
-snap shooting attacks.                                                 Moving so quickly they seem to blur, the Wyches evade incoming
-                                                                       fire with contemptuous elegance.
+SUCCUBUS model only. Enemy units cannot target this unit with
+snap shooting attacks.
 HYPERSTIMM TRAFFICKER
-                                                                       WHEN: Your opponent’s Shooting phase, when an enemy unit
-This gladiator has eyes only on the patronage of their audience.       targets a friendly WYCH CULT unit.
-Supplied by a network of narcotic distributors – and heedless          TARGET: That WYCH CULT unit.
+This gladiator has eyes only on the patronage of their audience.
+Supplied by a network of narcotic distributors – and heedless
 of the brutal effects of overdosing – the Succubus and their
-                                                                       EFFECT: Your unit has 5+ InSv.
 Wyches can endure long enough to provide extensive and
 heightened performances.
-
 SUCCUBUS model only. This unit has +1 T.
-UNIQUE: KABAL
+SLAUGHTER
+REACH OF THEIR TALENTS
+PLANNED STRIKES 1CP
+EXHIBITION OF SLAUGHTER STRATAGEM
+Murderous rehearsals ensure that those who survive can bring
+down the most resilient of prey in puissant displays.
+WHEN: Fight phase, when a friendly WYCH CULT unit is selected
+to fight.
+TARGET: That WYCH CULT unit.
+EFFECT: Your unit’s melee attacks have [LETHAL HITS].
+SCULPTING THE STAGE 1CP
+EXHIBITION OF SLAUGHTER STRATAGEM
+Gauche are the gladiators who kill too relentlessly. Preparing
+the stage with a variety of torments in order to build the
+tension for a delightful crescendo is the mark of a true artist.
+WHEN: Your Movement phase, when a friendly WYCH CULT unit is
+selected to make an advance/fall-back move.
+TARGET: That WYCH CULT unit.
+EFFECT: That move does not prevent your unit from being eligible to
+start an action.
+ACROBATIC DISPLAY 1CP
+EXHIBITION OF SLAUGHTER STRATAGEM
+Moving so quickly they seem to blur, the Wyches evade incoming
+fire with contemptuous elegance.
+WHEN: Your opponent’s Shooting phase, when an enemy unit
+targets a friendly WYCH CULT unit.
+TARGET: That WYCH CULT unit.
+EFFECT: Your unit has 5+ InSv.
 
+UNIQUE: KABAL
 KABALITE AGONYSTS
-KABALITES AND THEIR VENAL ALLIES SKILFULLY REAP AN ABUNDANCE OF SUFFERING
-
-
- DETACHMENT RULES                                                       PRIORITISED VICTIM                                                  1CP
-                                                                        KABALITE AGONYSTS STRATAGEM
+KABALITES AND THEIR VENAL ALLIES SKILFULLY REAP AN
+DETACHMENT RULES
 CONTRACTED HARVEST
-                                                                        Contracts to annihilate, maim or capture singular victims of
-Directed to inflict as much suffering as possible amongst the           rarefied value are eagerly competed for by a kabal’s killers.
+Directed to inflict as much suffering as possible amongst the
 enemy’s soldiers – on pain of their own torment – a kabal’s
-                                                                        WHEN: Your Shooting phase or the Fight phase, when a friendly
-vicious warriors spare no opportunity to unleash deluges of             BLADES FOR HIRE/KABAL unit targets a CHARACTER unit.
+vicious warriors spare no opportunity to unleash deluges of
 painful firepower.
-                                                                        TARGET: That BLADES FOR HIRE/KABAL unit.
-                                                                        EFFECT: Your unit’s attacks that target a CHARACTER unit can:
 Friendly BLADES FOR HIRE/KABAL units’ ranged attacks have
-                                                                        ▪ Re‑roll hit rolls of 1.
-[SUSTAINED HITS 1: non‑MONSTER/VEHICLE].                                ▪ Re‑roll wound rolls of 1.
-
+[SUSTAINED HITS 1: non‑MONSTER/VEHICLE].
 This detachment has the KABAL tag and cannot be taken with
-another KABAL detachment.                                               SHADOWS’ REACH                                                      1CP
-                                                                        KABALITE AGONYSTS STRATAGEM
-
-
- ENHANCEMENTS                                                           The capability of militant kabals to project their killing power
-                                                                        is rightfully feared, as is the fact that the perpetrators can
-                                                                        usually never be found.
-TOWERING ARROGANCE                                                      WHEN: Your Shooting phase, when a friendly BLADES FOR HIRE/
-So absolute is this war leader’s self‑belief, so monstrous their ego,   KABAL unit has shot.
-that it is virtually a weapon in its own right. Drukhari are drawn in   TARGET: That BLADES FOR HIRE/KABAL unit.
-their wake, unable to resist the charismatic certitude they exude.      EFFECT: Those attacks do not prevent your unit from being hidden.
+another KABAL detachment.
+ENHANCEMENTS
+TOWERING ARROGANCE
+So absolute is this war leader’s self‑belief, so monstrous their ego,
+that it is virtually a weapon in its own right. Drukhari are drawn in
+their wake, unable to resist the charismatic certitude they exude.
 Enemies, meanwhile, give ground and lose heart beneath their
 witheringly contemptuous glare.
-                                                                        KILLERS FROM THE DARK SPIRES                                        1CP
-ARCHON model only. This unit has:                                       KABALITE AGONYSTS STRATAGEM
+ARCHON model only. This unit has:
 ▪ +1 Ld and OC.
-                                                                        Defensive barriers or camouflage are little protection against
-                                                                        those who have honed their talents hunting amongst the twisted
-CONTEMPT FOR RIVALS                                                     and dark spires of their kabal’s territory.
-
-Assured of their utter superiority over any of the enemy’s champions,   WHEN: Your Shooting phase, when a friendly KABALITE WARRIORS
-this Archon rarely extends the offer of single combat and instead       unit is selected to shoot.
-directs their warriors en masse to cut the pretender down.              TARGET: That KABALITE WARRIORS unit.
-                                                                        EFFECT: Your unit’s ranged attacks have [IGNORES COVER].
+CONTEMPT FOR RIVALS
+Assured of their utter superiority over any of the enemy’s champions,
+this Archon rarely extends the offer of single combat and instead
+directs their warriors en masse to cut the pretender down.
 ARCHON model only. This unit’s attacks have [PRECISION].
-UNIQUE: COVENS
+ABUNDANCE OF SUFFERING
+PRIORITISED VICTIM 1CP
+KABALITE AGONYSTS STRATAGEM
+Contracts to annihilate, maim or capture singular victims of
+rarefied value are eagerly competed for by a kabal’s killers.
+WHEN: Your Shooting phase or the Fight phase, when a friendly
+BLADES FOR HIRE/KABAL unit targets a CHARACTER unit.
+TARGET: That BLADES FOR HIRE/KABAL unit.
+EFFECT: Your unit’s attacks that target a CHARACTER unit can:
+▪ Re‑roll hit rolls of 1.
+▪ Re‑roll wound rolls of 1.
+SHADOWS’ REACH 1CP
+KABALITE AGONYSTS STRATAGEM
+The capability of militant kabals to project their killing power
+is rightfully feared, as is the fact that the perpetrators can
+usually never be found.
+WHEN: Your Shooting phase, when a friendly BLADES FOR HIRE/
+KABAL unit has shot.
+TARGET: That BLADES FOR HIRE/KABAL unit.
+EFFECT: Those attacks do not prevent your unit from being hidden.
+KILLERS FROM THE DARK SPIRES 1CP
+KABALITE AGONYSTS STRATAGEM
+Defensive barriers or camouflage are little protection against
+those who have honed their talents hunting amongst the twisted
+and dark spires of their kabal’s territory.
+WHEN: Your Shooting phase, when a friendly KABALITE WARRIORS
+unit is selected to shoot.
+TARGET: That KABALITE WARRIORS unit.
+EFFECT: Your unit’s ranged attacks have [IGNORES COVER].
 
+UNIQUE: COVENS
 TOOLS OF TORMENT
-HORRIFIC AND TORTUROUS CREATIONS OF THE HAEMONCULI INFLICT GRUESOME AGONIES
-
-
- DETACHMENT RULES                                                       SALTING THE WOUND                                                     1CP
-                                                                        TOOLS OF TORMENT STRATAGEM
+HORRIFIC AND TORTUROUS CREATIONS OF THE HAEMONCULI
+DETACHMENT RULES
 DARKEST ARTIFICE
-                                                                        Confusion, terror, and panic are triggers for a Haemonculus’
-A Haemonculus’ most resilient Engines of Pain are each a dark           Engines of Pain, which stimulate them to drive their evil
-                                                                        augmentations even deeper into the foe.
+A Haemonculus’ most resilient Engines of Pain are each a dark
 triumph valued as a work of malevolent genius. Their finely wrought
-armoured carapaces shield toughened mech‑organic strata and             WHEN: Fight phase, when a friendly CRONOS/TALOS unit is selected
-slabs of mutated cartilage.                                             to fight.
-                                                                        TARGET: That CRONOS/TALOS unit.
-Attacks that target friendly CRONOS/TALOS units with a S greater        EFFECT: Your unit’s attacks that target a battle‑shocked unit have
-than that unit’s T have -1 to wound rolls.                              [DEVASTATING WOUNDS].
-
-
+armoured carapaces shield toughened mech‑organic strata and
+slabs of mutated cartilage.
+Attacks that target friendly CRONOS/TALOS units with a S greater
+than that unit’s T have -1 to wound rolls.
 This detachment has the COVENS tag and cannot be taken with
-another COVENS detachment.                                              DIVIDENDS OF AGONY                                                    1CP
-                                                                        TOOLS OF TORMENT STRATAGEM
-
-                                                                        Sharing is typically anathema to the self‑centred Drukhari,
- ENHANCEMENTS                                                           except where horror can be fruitfully reinvested in those marked
-                                                                        for later harvest.
-
-GNARLSKIN EXPERIMENTOR                                                  WHEN: Fight phase, when a friendly HAEMONCULUS COVENS unit
-                                                                        destroys an enemy unit.
+another COVENS detachment.
+ENHANCEMENTS
+GNARLSKIN EXPERIMENTOR
 This master fleshcrafter sees raids as opportunities to assess a host
-of novel skins for themselves and their suffering servants: scabrous    TARGET: That HAEMONCULUS COVENS unit.
-crusts, squirming meshes, resinous under layers and more besides.       EFFECT: Select one visible enemy unit within 12" of your unit.
-                                                                        That enemy unit makes a battle‑shock roll, with -1 to that
-                                                                        battle‑shock roll.
+of novel skins for themselves and their suffering servants: scabrous
+crusts, squirming meshes, resinous under layers and more besides.
 HAEMONCULUS model only. Attacks that target this unit with a S
 greater than your unit’s T have -1 to wound rolls.
-                                                                        URGENT METAMORPHOSIS                                                  1CP
 ELIXIR OF THE CORPSE COURTS UPGRADE
-                                                                        TOOLS OF TORMENT STRATAGEM
 Flowing from surgically grafted vials, this milky substance causes
-                                                                        The unhurried menace exuded by Covenites as they extricate
-tumorous masses of pallid and nerve‑deadened flesh to grow. It          themselves from gore‑slick foes can metamorphose in an instant
-sloughs away in sickly lumps when struck, but is soon replaced in a     back to pain‑hungry savagery.
+tumorous masses of pallid and nerve‑deadened flesh to grow. It
+sloughs away in sickly lumps when struck, but is soon replaced in a
+regenecyst cycle of cutaneous ablative armour.
+CRONOS/TALOS unit only. This unit has 5+ InSv.
+INFLICT GRUESOME AGONIES
+SALTING THE WOUND 1CP
+TOOLS OF TORMENT STRATAGEM
+Confusion, terror, and panic are triggers for a Haemonculus’
+Engines of Pain, which stimulate them to drive their evil
+augmentations even deeper into the foe.
+WHEN: Fight phase, when a friendly CRONOS/TALOS unit is selected
+to fight.
+TARGET: That CRONOS/TALOS unit.
+EFFECT: Your unit’s attacks that target a battle‑shocked unit have
+[DEVASTATING WOUNDS].
+DIVIDENDS OF AGONY 1CP
+TOOLS OF TORMENT STRATAGEM
+Sharing is typically anathema to the self‑centred Drukhari,
+except where horror can be fruitfully reinvested in those marked
+for later harvest.
+WHEN: Fight phase, when a friendly HAEMONCULUS COVENS unit
+destroys an enemy unit.
+TARGET: That HAEMONCULUS COVENS unit.
+EFFECT: Select one visible enemy unit within 12" of your unit.
+That enemy unit makes a battle‑shock roll, with -1 to that
+battle‑shock roll.
+URGENT METAMORPHOSIS 1CP
+TOOLS OF TORMENT STRATAGEM
+The unhurried menace exuded by Covenites as they extricate
+themselves from gore‑slick foes can metamorphose in an instant
+back to pain‑hungry savagery.
+WHEN: Your Movement phase, when a friendly HAEMONCULUS COVENS
+unit is selected to make a fall‑back move.
+TARGET: That HAEMONCULUS COVENS unit.
+EFFECT: That move does not prevent your unit from being eligible to
+declare a charge.
 
-regenecyst cycle of cutaneous ablative armour.                          WHEN: Your Movement phase, when a friendly HAEMONCULUS COVENS
-                                                                        unit is selected to make a fall‑back move.
-CRONOS/TALOS unit only. This unit has 5+ InSv.                          TARGET: That HAEMONCULUS COVENS unit.
-                                                                        EFFECT: That move does not prevent your unit from being eligible to
-                                                                        declare a charge.
-       REAPER’S WAGER
-       The Reaper’s Wager is among the most macabre saedaths, depicting a gruesome tale of
-       murderous bets between merciless killers and mythic executioners. It is a well‑known tale
-       that is greatly enjoyed in the depths of the Dark City. When Harlequin and Drukhari go to war as
-       one, Commorrite warriors often perform an accompanying role in its retelling. Bladed Drukhari
-       transports emerge from the Webway alongside scintillating Harlequin skimmers emblazoned with
-       dazzling adornments. Kabalite Warriors open fire upon the foe from firing decks, and Wyches howl
-       and whoop as they leap acrobatically into the fray. As Harlequin troupes begin their gore‑slick
-       recital, they inhabit their roles wholeheartedly, competing furiously with their Drukhari allies to
-       score the greatest tally of luridly violent kills.
+REAPER’S
+The Reaper’s Wager is among the most
+murderous bets between merciless killers
+that is greatly enjoyed in the depths of the
+one, Commorrite warriors often perform an
+transports emerge from the Webway alongside
+dazzling adornments. Kabalite Warriors
+and whoop as they leap acrobatically into
+recital, they inhabit their roles wholeheartedly,
+score the greatest tally of luridly violent
+DETACHMENT RULE
+CALLOUS COMPETITION
+In this saedath, the Harlequins embody the
+Reaper, whilst their Drukhari companions
+are mortal killers.
+At the start of the battle, Drukhari units
+from your army are winning the wager.
+Each time a Drukhari unit from your
+army destroys an enemy unit, Drukhari
+units from your army are winning
+the wager.
+Each time a Harlequins unit from your
+army destroys an enemy unit, Harlequin
+units from your army are winning
+the wager.
+While Drukhari units from your army
+are winning the wager, Harlequin units
+from your army are losing the wager, and
+vice versa.
+Each time a Drukhari or Harlequins
+model from your army makes an attack,
+if that model’s unit is winning the wager,
+re‑roll a Hit roll of 1. If that model’s unit
+is losing the wager, re‑roll a Hit roll of 1
+and re‑roll a Wound roll of 1 instead.
+HARLEQUINS
+You can include Harlequins units in your
+army (see Codex: Aeldari). The combined
+points cost of such units depends on your
+battle size:
+■ Incursion: Up to 500 pts
+■ Strike Force: Up to 1000 pts
+■ Onslaught: Up to 1500 pts
+No Harlequins models from your army
+5 can be your Warlord. If you select this
+Detachment, you cannot use the Corsairs
+and Travelling Players army rule.
+WAGER
+macabre saedaths, depicting a gruesome tale of
+and mythic executioners. It is a well‑known tale
+Dark City. When Harlequin and Drukhari go to war as
+accompanying role in its retelling. Bladed Drukhari
+scintillating Harlequin skimmers emblazoned with
+open fire upon the foe from firing decks, and Wyches howl
+the fray. As Harlequin troupes begin their gore‑slick
+competing furiously with their Drukhari allies to
+kills.
+ENHANCEMENTS
+ARCHRAIDER
+A veteran of countless realspace raids or vehicular
+saedaths, this warrior champion utilises the speed of
+their sleek anti‑grav craft to surprise their enemies.
+Harlequins or Drukhari model only. In the Declare
+Battle Formations step, if the bearer starts the battle
+embarked within a Dedicated Transport, that
+Dedicated Transport has the Scouts 9" ability.
+WEBWAY WALKER
+This elite combatant possesses intricate knowledge of the
+Webway’s hidden paths and employs them to enhance
+this dreadful performance.
+Harlequins or Drukhari model only. Models in the
+bearer’s unit have the Deep Strike ability. Each time
+the bearer’s unit is set up on the battlefield using the
+Deep Strike ability, if that unit is currently losing
+the wager, until the end of the turn, you can re‑roll
+Charge rolls made for that unit.
+REAPER’S COWL
+This ebon cloak contains a shadow field generator,
+which shrouds the bearer in a field of umbral darkness.
+Harlequins model only. Models in the bearer’s unit
+have the Stealth and Infiltrators abilities.
+CONDUCTOR OF TORMENT
+This cruel champion of Commorragh seeks only to
+bathe in the agony of the foe. To them, the outcome of
+any wager is secondary to the symphony of suffering.
+Drukhari model only. In your Command phase, you
+can do one of the following:
+■ If your Drukhari units are currently losing the
+wager, you can gain 1 Pain token. If you do,
+Drukhari units from your army are now winning
+the wager.
+■ If your Drukhari units are currently winning the
+wager, you can discard 1 Pain token. If you do,
+Harlequins units from your army are now winning
+the wager.
 
-
-
-     DETACHMENT RULE                                      ENHANCEMENTS
-
-    CALLOUS COMPETITION                                  ARCHRAIDER
-    In this saedath, the Harlequins embody the           A veteran of countless realspace raids or vehicular
-    Reaper, whilst their Drukhari companions             saedaths, this warrior champion utilises the speed of
-    are mortal killers.                                  their sleek anti‑grav craft to surprise their enemies.
-
-    At the start of the battle, Drukhari units           Harlequins or Drukhari model only. In the Declare
-    from your army are winning the wager.                Battle Formations step, if the bearer starts the battle
-                                                         embarked within a Dedicated Transport, that
-    Each time a Drukhari unit from your                  Dedicated Transport has the Scouts 9" ability.
-    army destroys an enemy unit, Drukhari
-    units from your army are winning                     WEBWAY WALKER
-    the wager.                                           This elite combatant possesses intricate knowledge of the
-                                                         Webway’s hidden paths and employs them to enhance
-    Each time a Harlequins unit from your                this dreadful performance.
-    army destroys an enemy unit, Harlequin
-    units from your army are winning                     Harlequins or Drukhari model only. Models in the
-    the wager.                                           bearer’s unit have the Deep Strike ability. Each time
-                                                         the bearer’s unit is set up on the battlefield using the
-    While Drukhari units from your army                  Deep Strike ability, if that unit is currently losing
-    are winning the wager, Harlequin units               the wager, until the end of the turn, you can re‑roll
-    from your army are losing the wager, and             Charge rolls made for that unit.
-    vice versa.
-                                                         REAPER’S COWL
-    Each time a Drukhari or Harlequins                   This ebon cloak contains a shadow field generator,
-    model from your army makes an attack,                which shrouds the bearer in a field of umbral darkness.
-    if that model’s unit is winning the wager,
-    re‑roll a Hit roll of 1. If that model’s unit        Harlequins model only. Models in the bearer’s unit
-    is losing the wager, re‑roll a Hit roll of 1         have the Stealth and Infiltrators abilities.
-    and re‑roll a Wound roll of 1 instead.
-                                                         CONDUCTOR OF TORMENT
-                                                         This cruel champion of Commorragh seeks only to
-    HARLEQUINS                                          bathe in the agony of the foe. To them, the outcome of
-                                                         any wager is secondary to the symphony of suffering.
-    You can include Harlequins units in your
-    army (see Codex: Aeldari). The combined              Drukhari model only. In your Command phase, you
-    points cost of such units depends on your            can do one of the following:
-    battle size:
-                                                         ■ If your Drukhari units are currently losing the
-    ■ Incursion: Up to 500 pts                              wager, you can gain 1 Pain token. If you do,
-    ■ Strike Force: Up to 1000 pts                          Drukhari units from your army are now winning
-    ■ Onslaught: Up to 1500 pts                             the wager.
-                                                         ■ If your Drukhari units are currently winning the
-    No Harlequins models from your army                     wager, you can discard 1 Pain token. If you do,
-5   can be your Warlord. If you select this                 Harlequins units from your army are now winning
-    Detachment, you cannot use the Corsairs                 the wager.
-    and Travelling Players army rule.
-          MALICIOUS FRENZY                                                 SHORTEN THE ODDS
-          REAPER’S WAGER – BATTLE TACTIC STRATAGEM                         REAPER’S WAGER – STRATEGIC PLOY STRATAGEM
-
-          Jealous competition descends into frenzied carnage               Having selected their victims, these killers strive
-          as the kill count climbs higher and the intoxicating             to complete the kill with speed and brutality whilst
-          screams of the dying fill the air.                         1CP   moving ever closer to winning their macabre wager.
-          WHEN: Your Shooting phase or the Fight phase.                    WHEN: Your Movement phase, just after a Drukhari
-          TARGET: One Drukhari or Harlequins unit from                     or Harlequins unit from your army has Advanced.
-    1CP   your army that has not been selected to shoot or                 TARGET: That unit.
-          fight this phase.                                                EFFECT: Until the end of the turn, your unit is eligible
-          EFFECT: Select [LETHAL HITS] or [SUSTAINED HITS 1].              to shoot and declare a charge in a turn in which
-          Until the end of the phase, weapons equipped by                  it Advanced.
-          models in your unit have the selected ability.
-
-                                                                           SCINTILLATING TEMPO
-          FATEFUL ROLE                                                     REAPER’S WAGER – STRATEGIC PLOY STRATAGEM
-          REAPER’S WAGER – STRATEGIC PLOY STRATAGEM
-                                                                           Commorrite or Harlequin, these lithe combatants
-          These warriors are so absorbed by their desire to                move with stunning speed, darting in and out of
-          win the wager that they risk death to land their                 firing lines before their foes can raise their weapons.
-    1CP   killing blows.
-                                                                           WHEN: Your Movement phase or your Charge phase,
-          WHEN: Fight phase, just after an enemy unit has                  just after a Drukhari or Harlequins unit from your
-          selected its targets.                                      1CP   army is selected to make a Normal, Advance or Fall
-          TARGET: One Drukhari or Harlequins unit from                     Back move, is set up on the battlefield, or declares
-          your army that was selected as the target of one or              a charge.
-          more of the attacking unit’s attacks.                            TARGET: That unit.
-          EFFECT: Until the end of the phase, each time a                  EFFECT: Until the end of the turn, enemy units
-          model in your unit is destroyed, if that model has not           cannot use the Fire Overwatch Stratagem to shoot
-          fought this phase, roll one D6, adding 1 to the result           at your unit.
-          if that unit is losing the wager: on a 4+, do not remove
-          it from play. That destroyed model can fight after
-          the attacking model’s unit has finished making its               DANCE MACABRE
-          attacks, and is then removed from play.                          REAPER’S WAGER – STRATEGIC PLOY STRATAGEM
-
-                                                                           The saedath’s victims become unwitting partners in
-          MURDERER’S CIRCUS                                          2CP
-                                                                           a frantic dance of ghastly slaughter.
-          REAPER’S WAGER – BATTLE TACTIC STRATAGEM                         WHEN: Your opponent’s Movement phase, just
-                                                                           after an enemy unit ends a Normal, Advance or Fall
-          In bounding leaps and graceful pirouettes, the
-                                                                           Back move.
-          cavalcade of capricious killers bounds through hails
-    1CP   of fire, cackling gleefully as they come.                        TARGET: One Drukhari Infantry or Harlequins
-                                                                           Infantry unit from your army that is within 8" of that
-          WHEN: Fight phase, just after an enemy unit has                  enemy unit.
-          selected its targets.
-                                                                           EFFECT: Your unit can make a Normal move of up to
-          TARGET: One Drukhari or Harlequins unit from                     D6". If your unit is currently losing the wager, it can
-          your army that was selected as the target of one or              make a Normal move of up to 6" instead.
-          more of the attacking unit’s attacks.
-          EFFECT: Until the end of the phase, each time an
-          attack targets your unit, subtract 1 from the Hit roll.
-
-
-
-
+MALICIOUS FRENZY
+REAPER’S WAGER – BATTLE TACTIC STRATAGEM
+Jealous competition descends into frenzied carnage
+as the kill count climbs higher and the intoxicating
+screams of the dying fill the air.
+WHEN: Your Shooting phase or the Fight phase.
+1CP TARGET: One Drukhari or Harlequins unit from
+your army that has not been selected to shoot or
+fight this phase.
+EFFECT: Select [LETHAL HITS] or [SUSTAINED HITS 1] .
+Until the end of the phase, weapons equipped by
+models in your unit have the selected ability.
+FATEFUL ROLE
+REAPER’S WAGER – STRATEGIC PLOY STRATAGEM
+These warriors are so absorbed by their desire to
+1CP win the wager that they risk death to land their
+killing blows.
+WHEN: Fight phase, just after an enemy unit has
+selected its targets.
+TARGET: One Drukhari or Harlequins unit from
+your army that was selected as the target of one or
+more of the attacking unit’s attacks.
+EFFECT: Until the end of the phase, each time a
+model in your unit is destroyed, if that model has not
+fought this phase, roll one D6, adding 1 to the result
+if that unit is losing the wager: on a 4+, do not remove
+it from play. That destroyed model can fight after
+the attacking model’s unit has finished making its
+attacks, and is then removed from play.
+MURDERER’S CIRCUS
+REAPER’S WAGER – BATTLE TACTIC STRATAGEM
+In bounding leaps and graceful pirouettes, the
+1CP cavalcade of capricious killers bounds through hails
+of fire, cackling gleefully as they come.
+WHEN: Fight phase, just after an enemy unit has
+selected its targets.
+TARGET: One Drukhari or Harlequins unit from
+your army that was selected as the target of one or
+more of the attacking unit’s attacks.
+EFFECT: Until the end of the phase, each time an
+attack targets your unit, subtract 1 from the Hit roll.
 6
-                                                          DRUKHARI
-                                                             RULES UPDATES
-This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
-Changes applied after the first iteration of this Faction Pack will be highlighted in red.
+SHORTEN THE ODDS
+REAPER’S WAGER – STRATEGIC PLOY STRATAGEM
+Having selected their victims, these killers strive
+1CP to complete the kill with speed and brutality whilst
+moving ever closer to winning their macabre wager.
+WHEN: Your Movement phase, just after a Drukhari
+or Harlequins unit from your army has Advanced.
+TARGET: That unit.
+EFFECT: Until the end of the turn, your unit is eligible
+to shoot and declare a charge in a turn in which
+it Advanced.
+SCINTILLATING TEMPO
+REAPER’S WAGER – STRATEGIC PLOY STRATAGEM
+Commorrite or Harlequin, these lithe combatants
+move with stunning speed, darting in and out of
+firing lines before their foes can raise their weapons.
+WHEN: Your Movement phase or your Charge phase,
+1CP just after a Drukhari or Harlequins unit from your
+army is selected to make a Normal, Advance or Fall
+Back move, is set up on the battlefield, or declares
+a charge.
+TARGET: That unit.
+EFFECT: Until the end of the turn, enemy units
+cannot use the Fire Overwatch Stratagem to shoot
+at your unit.
+DANCE MACABRE
+REAPER’S WAGER – STRATEGIC PLOY STRATAGEM
+The saedath’s victims become unwitting partners in
+2CP a frantic dance of ghastly slaughter.
+WHEN: Your opponent’s Movement phase, just
+after an enemy unit ends a Normal, Advance or Fall
+Back move.
+TARGET: One Drukhari Infantry or Harlequins
+Infantry unit from your army that is within 8" of that
+enemy unit.
+EFFECT: Your unit can make a Normal move of up to
+D6". If your unit is currently losing the wager, it can
+make a Normal move of up to 6" instead.
 
-
-                                                                              SPECTACLE OF SPITE DETACHMENT
-UPDATES                                                                       A Challenge Met Stratagem
-                                                                              ▪ Remove Restrictions section.
-ARMY RULES                                                                    ▪ Change When, Target and Effect to:
+RULES
+This section presents updates and clarifications to your faction’s
+Changes applied after the first iteration of this Faction Pack will
+UPDATES
+ARMY RULES
 Army Rule Section
-Add the following:                                                            'WHEN: Your opponent’s Movement phase, when an enemy unit ends a
-‘Corsairs and Travelling Players                                              fall‑back move.
-If your Army Faction is DRUKHARI, you can include HARLEQUINS and              TARGET: One friendly unengaged WYCH CULT unit that is within 6" of
-ANHRATHE units in your army, even though they do not have the                 that enemy unit.
-DRUKHARI Faction keyword. The combined points value of HARLEQUINS             EFFECT:Declare a charge with your unit. When selecting charge targets,
-and/or ANHRATHE units you can include in your army depends on the             you can only select enemy units that made a fall‑back move this phase
-battle size, as follows:                                                      and are within the maximum distance.'
-▪ Incursion: Up to 250 pts
-▪ Strike Force: Up to 500 pts                                                DATASHEETS
-▪ Onslaught: Up to 750 pts                                                   Raider, Ravager, Venom – Keywords Section
-                                                                              Add 'FRAME'.
+Add the following:
+‘Corsairs and Travelling Players
+If your Army Faction is DRUKHARI, you can include HARLEQUINS and
+ANHRATHE units in your army, even though they do not have the
+DRUKHARI Faction keyword. The combined points value of HARLEQUINS
+and/or ANHRATHE units you can include in your army depends on the
+battle size, as follows:
+▪  Incursion: Up to 250 pts
+▪ Strike  Force: Up to 500 pts
+▪ Onslaught:  Up to 750 pts
 No HARLEQUINS or ANHRATHE models included in your army in this way
-can be your WARLORD, and they cannot be given Enhancements.’                  Razorwing Jetfighter, Voidraven Bomber
-                                                                              ▪ Core Abilities: Remove 'Hover'.
-COVENITE COTERIE DETACHMENT                                                   ▪ Profile: Change M and OC to '-'.
+can be your WARLORD, and they cannot be given Enhancements.’
+COVENITE COTERIE DETACHMENT
 Postmortality Stratagem, Effect Section
-Change to:                                                                    Archon, Shadowfield Ability
-‘Spend 1-3 Pain tokens. At the end of the phase, set up the destroyed         Change to:
-model on the battlefield, unengaged and as close as possible to where         ‘While this model has an InSv, this unit cannot re-roll save rolls. When
-it was destroyed. That model is not part of an attached unit and its          this model loses a wound (excluding from mortal wounds), this model
-unit has a starting strength of 1. That model has a number of wounds          has no InSv until the end of the battle.’
+Change to:
+‘Spend 1-3 Pain tokens. At the end of the phase, set up the destroyed
+model on the battlefield, unengaged and as close as possible to where
+it was destroyed. That model is not part of an attached unit and its
+unit has a starting strength of 1. That model has a number of wounds
 remaining equal to the number of Pain tokens you just spent.’
-                                                                              Hellions, Skyboard Evasion Ability
-Enfolding Nightmare Stratagem, Effect Section                                 Change to:
-Change to:                                                                    'In your opponent's Movement phase, if an enemy unit ends a move
-'Your unit can make a surge move of up to D6".'                               within 8” of this unit, if this unit is not within Engagement Range of one
-                                                                              or more enemy units, this unit can make a Normal move of up to D6”.'
+Enfolding Nightmare Stratagem, Effect Section
+Change to:
+'Your unit can make a surge move of up to D6".'
 Connoisseurs of Pain Stratagem, Effect Section
-Change to:                                                                    Lady Malys, Mind Like a Steel Trap Ability
-'Spend 1 Pain Token. Until the attacking unit has finished making its         Change to:
-attacks, each time an attack targets your unit, worsen the Armour             'Mind Like a Steel Trap: Once per turn, when your opponent targets
-Penetration characteristic of that attack by 1. At the end of the phase, if   a unit from their army within 12” of this model with a stratagem, you
-your unit is still on the battlefield and it is a HAEMONCULUS COVENS unit,    can use this ability. If you do increase the CP cost of that use of that
-you gain 1 Pain Token.'                                                       stratagem by 1CP.'
-
-SKYSPLINTER ASSAULT DETACHMENT                                                Scourges with Shardcarbines, Swooping Descent Ability
-Swooping Mockery Stratagem, Target Section                                    Change 9" to 8".
+Change to:
+'Spend 1 Pain Token. Until the attacking unit has finished making its
+attacks, each time an attack targets your unit, worsen the Armour
+Penetration characteristic of that attack by 1. At the end of the phase,
+your unit is still on the battlefield and it is a HAEMONCULUS COVENS unit,
+you gain 1 Pain Token.'
+SKYSPLINTER ASSAULT DETACHMENT
+Swooping Mockery Stratagem, Target Section
 Change 9" to 8".
-
 Wraithlike Retreat Stratagem, Effect Section
 Add: 'Your unit can embark within that TRANSPORT in a turn it
 disembarked from that TRANSPORT.'
-Venom
+DRUKHARI
+UPDATES
+rules, designed to improve the gaming experience for all players.
+be highlighted in red.
+SPECTACLE OF SPITE DETACHMENT
+A Challenge Met Stratagem
+▪ Remove Restrictions section.
+▪ Change When, Target and Effect to:
+'WHEN: Your opponent’s Movement phase, when an enemy unit ends a
+fall‑back move.
+TARGET: One friendly unengaged WYCH CULT unit that is within 6" of
+that enemy unit.
+EFFECT:Declare a charge with your unit. When selecting charge targets,
+you can only select enemy units that made a fall‑back move this phase
+and are within the maximum distance.'
+DATASHEETS
+Raider, Ravager, Venom – Keywords Section
+Add 'FRAME'.
+Razorwing Jetfighter, Voidraven Bomber
+▪ Core  Abilities: Remove 'Hover'.
+▪ Profile: Change M and OC to '-'.
+Archon, Shadowfield Ability
+Change to:
+‘While this model has an InSv, this unit cannot re-roll save rolls. When
+this model loses a wound (excluding from mortal wounds), this model
+has no InSv until the end of the battle.’
+Hellions, Skyboard Evasion Ability
+Change to:
+'In your opponent's Movement phase, if an enemy unit ends a move
+within 8” of this unit, if this unit is not within Engagement Range of one
+or more enemy units, this unit can make a Normal move of up to D6”.'
+Lady Malys, Mind Like a Steel Trap Ability
+Change to:
+'Mind Like a Steel Trap: Once per turn, when your opponent targets
+if a unit from their army within 12” of this model with a stratagem, you
+can use this ability. If you do increase the CP cost of that use of that
+stratagem by 1CP.'
+Scourges with Shardcarbines, Swooping Descent Ability
+Change 9" to 8".
+
+Venom
 ▪ Aerialists ability – Change to:
-   ‘Aerialists: At the end of the Fight phase, if there are no models
-   currently embarked within this TRANSPORT, you can select one
-   friendly DRUKHARI INFANTRY unit that has 6 or fewer models that is
-   wholly within 6" of this TRANSPORT (you cannot select a unit that can
-   FLY). Unless that unit is within Engagement Range of one or more
-   enemy units, it can embark within this TRANSPORT. That unit can
-   embark within this TRANSPORT in a turn it disembarked from this
-   TRANSPORT.'
+‘Aerialists: At the end of the Fight phase, if there are no models
+currently embarked within this TRANSPORT, you can select one
+friendly DRUKHARI INFANTRY unit that has 6 or fewer models that is
+wholly within 6" of this TRANSPORT (you cannot select a unit that can
+FLY). Unless that unit is within Engagement Range of one or more
+enemy units, it can embark within this TRANSPORT. That unit can
+embark within this TRANSPORT in a turn it disembarked from this
+TRANSPORT.'
 ▪ Transport Section – Change to:
-   ‘This model has a transport capacity of 6 DRUKHARI INFANTRY models
-   (excluding JUMP PACK models).
-
-  Before the battle, at the start of the Declare Battle Formations step,
-  you can select one KABALITE WARRIORS, HAND OF THE ARCHON or WYCHES
-  unit from your army that has not already been split. If you do, that
-  unit is split into two units, each containing as equal a number of
-  models as possible (when splitting a unit in this way, make a note of
-  which models form each of the two new units). One of these units
-  must start the battle embarked within this model; the other can start
-  the battle embarked within another TRANSPORT, or it can be deployed
-  as a separate unit.’
-
+‘This model has a transport capacity of 6 DRUKHARI INFANTRY models
+(excluding JUMP PACK models).
+Before the battle, at the start of the Declare Battle Formations step,
+you can select one KABALITE WARRIORS, HAND OF THE ARCHON or WYCHES
+unit from your army that has not already been split. If you do, that
+unit is split into two units, each containing as equal a number of
+models as possible (when splitting a unit in this way, make a note of
+which models form each of the two new units). One of these units
+must start the battle embarked within this model; the other can start
+the battle embarked within another TRANSPORT, or it can be deployed
+as a separate unit.’
 Voidraven Bomber, Void Mine Ability
 Change to:
 'At the end of your opponent’s Fight phase, select one visible enemy
 model (excluding Lone Operative units) within 24" of this unit, and roll
 one D6 for each enemy unit within D6" of that model:
 ▪ For each 4+, that enemy unit suffers D6 mortal wounds.'
-
-
 FAQS
 Q: Does the Venom’s Aerialists ability allow a unit to embark within a
 TRANSPORT even if it disembarked from a TRANSPORT this turn?
 A: Yes, because it states 'That unit can embark within this TRANSPORT in
 a turn it disembarked from this TRANSPORT.'
-RAVEN STRIKE FIGHTER                                                                                   WA R HA M M E R L E G E N D S
-  M               T            SV            W     LD     OC
 
 
-20+"             8           4+              10    7+     0
-                             5+              INVULNERABLE SAVE
+RAVEN STRIKE FIGHTER
+M T SV W LD OC
+20+" 8 4+ 10 7+ 0
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Dark lance 36" 1 3+ 12 -3 D6+2
+Splinterstorm cannon 36" 8 3+ 3 -1 2
+[ANTI-INFANTRY 3+, SUSTAINED HITS 2]
+MELEE WEAPONS RANGE A WS S AP D
+Bladed wings Melee 3 4+ 6 -1 1
+KEYWORDS: Vehicle, Fly, Aircraft, Frame, Aeldari, Raven Strike Fighter
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Deadly Demise D3, Stealth
+FACTION: Power From Pain
+Shredding Fire (Pain): In your Shooting phase, when you
+select this unit to shoot, you can spend 1 Pain token to
+Empower this unit. While Empowered, the Armour Penetration
+characteristic of its ranged weapons is increased by 1.
+Ground-attack Craft: Each time a model in this unit makes a
+ranged attack that targets an enemy unit (excluding units that
+can Fly), add 1 to the Hit roll.
+FACTION KEYWORDS:
+Drukhari
 
+RAVEN STRIKE FIGHTER
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Vehicle, Fly, Aircraft, Frame, Aeldari, Raven Strike Fighter
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Raven Strike Fighter
+This model is equipped with: 2 dark lances; splinterstorm
+cannon; Bladed wings.
+FACTION KEYWORDS:
+Drukhari
 
-      RANGED WEAPONS                                       RANGE     A   BS   S    AP    D     ABILITIES
-      Dark lance                                               36"   1   3+   12   -3   D6+2   CORE: Deadly Demise D3, Stealth
-      Splinterstorm cannon
-                                                               36"   8   3+   3    -1    2     FACTION: Power From Pain
-      [ANTI-INFANTRY 3+, SUSTAINED HITS 2]
+REAPER
+M T SV W LD OC
+14" 9 4+ 11 7+ 3
+6+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Storm vortex projector – beam 36" 3 3+ 12 -3 D6
+Storm vortex projector – blast [BLAST] 24" D6+3 3+ 6 -2 2
+MELEE WEAPONS RANGE A WS S AP D
+Bladevanes Melee 3 4+ 6 -1 1
+Prow blade [EXTRA ATTACKS, LANCE, SUSTAINED HITS 3] Melee 1 4+ 8 -2 2
+DAMAGED: 1-4 WOUNDS REMAINING
+While this model has 1-4 wounds remaining, each time it makes an attack, subtract 1 from the Hit roll.
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Kabal, Fly, Frame, Aeldari, Reaper
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Deadly Demise D3, Deep Strike
+FACTION: Power From Pain
+Electromagentic Cascade (Pain): In your Shooting
+phase, when you select this model to shoot, you can
+spend 1 Pain token to Empower this model. While Empowered:
+■ Each time this model makes a ranged attack that targets a
+Vehicle unit, that attack has the [SUSTAINED HITS 2] ability.
+■ Each time this model makes a ranged attack that
+targets a non-Vehicle unit, that attack has the
+[SUSTAINED HITS 1] ability.
+Eradicate the Foe: Each time this model makes an attack that
+targets an enemy unit that is at its Starting Strength, re-roll
+a Hit roll of 1. If the target unit has a Starting Strength of 1,
+this ability only applies if that unit has its starting number
+of wounds.
+FACTION KEYWORDS:
+Drukhari
 
-                                                                                                   Shredding Fire (Pain): In your Shooting phase, when you
-      MELEE WEAPONS                                        RANGE     A   WS   S    AP    D         select this unit to shoot, you can spend 1 Pain token to
-      Bladed wings                                          Melee    3   4+   6    -1    1     Empower this unit. While Empowered, the Armour Penetration
-                                                                                               characteristic of its ranged weapons is increased by 1.
+REAPER
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Vehicle, Kabal, Fly, Frame, Aeldari, Reaper
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Reaper
+This model is equipped with: storm vortex projector;
+bladevanes; prow blade.
+FACTION KEYWORDS:
+Drukhari
 
-                                                                                               Ground-attack Craft: Each time a model in this unit makes a
-                                                                                               ranged attack that targets an enemy unit (excluding units that
-                                                                                               can Fly), add 1 to the Hit roll.
+TANTALUS
+M T SV W LD OC
+16" 10 4+ 18 7+ 5
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A
+Pulse disintegrators [ASSAULT] 36" 12
+MELEE WEAPONS RANGE A
+Dire scythe blades [DEVASTATING WOUNDS] Melee 9
+KEYWORDS: Vehicle, Transport, Fly, Frame, Aeldari, Tantalus
+WA R HA M M E R L E G E N D S
+BS S AP D ABILITIES
+3+ 10 -2 2 CORE: Deadly Demise D6, Deep Strike, Firing Deck 16
+WS S AP D FACTION: Power from Pain
+4+ 8 -1 2 Engine of Destruction (Pain): In your Shooting phase,
+when you select this model to shoot, you can spend 1
+Pain token to Empower this model. While Empowered, this
+model’s pulse disintegrators have the [RAPID FIRE 8] ability.
+Scything Charge: Each time this model ends a Charge move,
+select one enemy unit within Engagement Range of it and roll
+one D6: on a 2-3, that enemy unit suffers D3 mortal wounds;
+on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6,
+that enemy unit suffers D3+3 mortal wounds.
+DAMAGED: 1-6 WOUNDS REMAINING
+While this model has 1-6 wounds remaining, each time it
+makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+Drukhari
 
-
-
-
-                                                                                                    FACTION KEYWORDS:
-  KEYWORDS: Vehicle, Fly, Aircraft, Frame, Aeldari, Raven Strike Fighter
-                                                                                                    Drukhari
-RAVEN STRIKE FIGHTER                                                               WA R HA M M E R L E G E N D S
-
-
-
-
-  WARGEAR OPTIONS                                                          UNIT COMPOSITION
-  ■ None                                                                   ■ 1 Raven Strike Fighter
-                                                                           This model is equipped with: 2 dark lances; splinterstorm
-                                                                           cannon; Bladed wings.
-
-
-
-
-                                                                                FACTION KEYWORDS:
-  KEYWORDS: Vehicle, Fly, Aircraft, Frame, Aeldari, Raven Strike Fighter
-                                                                                Drukhari
-REAPER                                                                                                                             WA R HA M M E R L E G E N D S
- M            T             SV            W             LD            OC
-
-
-14"          9            4+            11            7+              3
-                          6+              INVULNERABLE SAVE
-
-
-      RANGED WEAPONS                                                       RANGE                  A   BS   S    AP   D    ABILITIES
-      Storm vortex projector – beam                                            36"                3   3+   12   -3   D6   CORE: Deadly Demise D3, Deep Strike
-      Storm vortex projector – blast [BLAST]                                   24"           D6+3     3+   6    -2   2
-                                                                                                                          FACTION: Power From Pain
-      MELEE WEAPONS                                                        RANGE                  A   WS   S    AP   D       Electromagentic Cascade (Pain): In your Shooting
-      Bladevanes                                                             Melee                3   4+   6    -1   1       phase, when you select this model to shoot, you can
-      Prow blade [EXTRA ATTACKS, LANCE, SUSTAINED HITS 3]                    Melee                1   4+   8    -2   2    spend 1 Pain token to Empower this model. While Empowered:
-                                                                                                                          ■ Each time this model makes a ranged attack that targets a
-      DAMAGED: 1-4 WOUNDS REMAINING                                                                                          Vehicle unit, that attack has the [SUSTAINED HITS 2] ability.
-                                                                                                                          ■ Each time this model makes a ranged attack that
-      While this model has 1-4 wounds remaining, each time it makes an attack, subtract 1 from the Hit roll.                 targets a non-Vehicle unit, that attack has the
-                                                                                                                             [SUSTAINED HITS 1] ability.
-
-                                                                                                                          Eradicate the Foe: Each time this model makes an attack that
-                                                                                                                          targets an enemy unit that is at its Starting Strength, re-roll
-                                                                                                                          a Hit roll of 1. If the target unit has a Starting Strength of 1,
-                                                                                                                          this ability only applies if that unit has its starting number
-                                                                                                                          of wounds.
-
-
-
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-                                                                                                                                FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Kabal, Fly, Frame, Aeldari, Reaper
-                                                                                                                                Drukhari
-REAPER                                                            WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                          UNIT COMPOSITION
- ■ None                                                   ■ 1 Reaper
-                                                          This model is equipped with: storm vortex projector;
-                                                          bladevanes; prow blade.
-
-
-
-
-                                                               FACTION KEYWORDS:
-  KEYWORDS: Vehicle, Kabal, Fly, Frame, Aeldari, Reaper
-                                                               Drukhari
-TANTALUS                                                                                          WA R HA M M E R L E G E N D S
- M            T         SV            W        LD   OC
-
-
-16" 10                 4+         18           7+   5
-                       5+             INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                                  RANGE       A    BS   S    AP   D   ABILITIES
-     Pulse disintegrators [ASSAULT]                       36"    12   3+   10   -2   2   CORE: Deadly Demise D6, Deep Strike, Firing Deck 16
-
-     MELEE WEAPONS                                   RANGE       A    WS   S    AP   D   FACTION: Power from Pain
-     Dire scythe blades [DEVASTATING WOUNDS]             Melee   9    4+   8    -1   2       Engine of Destruction (Pain): In your Shooting phase,
-                                                                                             when you select this model to shoot, you can spend 1
-                                                                                         Pain token to Empower this model. While Empowered, this
-                                                                                         model’s pulse disintegrators have the [RAPID FIRE 8] ability.
-
-                                                                                         Scything Charge: Each time this model ends a Charge move,
-                                                                                         select one enemy unit within Engagement Range of it and roll
-                                                                                         one D6: on a 2-3, that enemy unit suffers D3 mortal wounds;
-                                                                                         on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6,
-                                                                                         that enemy unit suffers D3+3 mortal wounds.
-
-
-                                                                                              DAMAGED: 1-6 WOUNDS REMAINING
-                                                                                         While this model has 1-6 wounds remaining, each time it
-                                                                                         makes an attack, subtract 1 from the Hit roll.
-
-
-
-
-                                                                                               FACTION KEYWORDS:
- KEYWORDS: Vehicle, Transport, Fly, Frame, Aeldari, Tantalus
-                                                                                               Drukhari
-TANTALUS                                                                          WA R HA M M E R L E G E N D S
+TANTALUS
 The Tantalus is a prestigious twin-hulled Drukhari assault skimmer
 perfectly crafted for high-speed terror raids. The signature armament
 of the Tantalus is a set of graceful scythevanes that extend from
 the vehicle’s hull, designed to slice and sever any foes caught in the
 skimmer’s sweeping flight path.
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Vehicle, Transport, Fly, Frame, Aeldari, Tantalus
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Tantalus
+This model is equipped with: pulse disintegrators; dire
+scythe blades.
+TRANSPORT
+This model has a transport capacity of 16 Drukhari Infantry
+models. Each Grotesque model takes up the space of 3
+models. This model cannot transport models that can Fly.
+FACTION KEYWORDS:
+Drukhari
 
+BEASTMASTER
+M T SV W LD OC
+12" 4 6+ 3 7+ 1 BEASTMASTER
+12" 4 6+ 5 8+ 1 CLAWED
+RANGED WEAPONS RANGE A
+Splinter pods [ANTI-INFANTRY 3+, ASSAULT, TWIN-LINKED] 18" 2
+MELEE WEAPONS RANGE A
+Agoniser [ANTI-INFANTRY 3+] Melee 3
+Clawed Fiend fists [DEVASTATING WOUNDS] Melee 5
+Khymerae talons [LETHAL HITS] Melee 4
+Razorwing feathers [SUSTAINED HITS 1] Melee 6
+KEYWORDS – ALL MODELS: Beasts, Aeldari | RAZORWING
+BEASTMASTER: Mounted, Character, Fly, Beastmaster
+WA R HA M M E R L E G E N D S
+M T SV W LD OC
+12" 4 6+ 2 8+ 1 KHYMERAE
+FIEND 12" 4 6+ 3 8+ 1 RAZORWING FLOCK
+BS S AP D ABILITIES
+3+ 2 0 1 CORE: Scouts 9"
+WS S AP D FACTION: Power from Pain
+3+ 3 -2 1 Goaded Savagery (Pain): In the Fight phase, when you
+4+ 5 -2 2 select this unit to fight, you can spend 1 of your Pain
+4+ 5 -1 1 tokens to Empower this unit. While this unit is Empowered, if it
+contains a Beastmaster model, each time a Beast model in
+4+ 3 0 1 this unit makes a melee attack, you can re-roll the Hit roll and
+you can re-roll the Wound roll.
+Beastmaster: While this unit contains a Beastmaster model,
+you can re-roll Charge rolls made for this unit.
+INVULNERABLE SAVE 6+
+FLOCKS: Fly | FACTION KEYWORDS:
+Drukhari
 
-
-  WARGEAR OPTIONS                                                        UNIT COMPOSITION
-  ■ None                                                                 ■ 1 Tantalus
-                                                                         This model is equipped with: pulse disintegrators; dire
-                                                                         scythe blades.
-
-
-                                                                         TRANSPORT
-                                                                         This model has a transport capacity of 16 Drukhari Infantry
-                                                                         models. Each Grotesque model takes up the space of 3
-                                                                         models. This model cannot transport models that can Fly.
-
-
-
-
-                                                                              FACTION KEYWORDS:
-   KEYWORDS: Vehicle, Transport, Fly, Frame, Aeldari, Tantalus
-                                                                              Drukhari
-BEASTMASTER                                                                                                        WA R HA M M E R L E G E N D S
- M             T          SV            W           LD        OC                             M        T    SV          W         LD          OC
-
-
-12"           4          6+            3          7+          1      BEASTMASTER            12"   4       6+          2         8+           1      KHYMERAE
-
-12"           4          6+            5          8+          1      CLAWED FIEND           12"   4       6+          3         8+           1      RAZORWING FLOCK
-
-
-     RANGED WEAPONS                                            RANGE       A    BS      S    AP   D       ABILITIES
-     Splinter pods [ANTI-INFANTRY 3+, ASSAULT, TWIN-LINKED]         18"    2       3+   2    0    1       CORE: Scouts 9"
-
-     MELEE WEAPONS                                             RANGE       A    WS      S    AP   D       FACTION: Power from Pain
-     Agoniser [ANTI-INFANTRY 3+]                                   Melee   3       3+   3    -2   1            Goaded Savagery (Pain): In the Fight phase, when you
-     Clawed Fiend fists [DEVASTATING WOUNDS]                       Melee   5       4+   5    -2   2            select this unit to fight, you can spend 1 of your Pain
-     Khymerae talons [LETHAL HITS]                                 Melee   4       4+   5    -1   1       tokens to Empower this unit. While this unit is Empowered, if it
-                                                                                                          contains a Beastmaster model, each time a Beast model in
-     Razorwing feathers [SUSTAINED HITS 1]                         Melee   6       4+   3    0    1       this unit makes a melee attack, you can re-roll the Hit roll and
-                                                                                                          you can re-roll the Wound roll.
-
-                                                                                                          Beastmaster: While this unit contains a Beastmaster model,
-                                                                                                          you can re-roll Charge rolls made for this unit.
-
-
-                                                                                                          INVULNERABLE SAVE                                       6+
-
-
-
-
- KEYWORDS – ALL MODELS: Beasts, Aeldari | RAZORWING FLOCKS: Fly |                                               FACTION KEYWORDS:
- BEASTMASTER: Mounted, Character, Fly, Beastmaster                                                              Drukhari
-BEASTMASTER                                                                    WA R HA M M E R L E G E N D S
+BEASTMASTER
 On thrumming skyboards that spit venom-laced shards, Beastmasters
 hover above the frenzied bloodletting of their thrall-creatures,
 goading them on with the cruel lashes of a nerve-inflaming agoniser.
 Many wear shamanistic masks that augment the wearer’s natural
 dominance with sub-vocal emissions and subjugating pheromones.
+WARGEAR OPTIONS
+■ None
+KEYWORDS – ALL MODELS: Beasts, Aeldari | RAZORWING FLOCKS: Fly |
+BEASTMASTER: Mounted, Character, Fly, Beastmaster
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Beastmaster
+■ 1 Clawed Fiends
+■ 2 Khymerae
+■ 3 Razorwing Flocks
+The Beastmaster is equipped with: splinter pods; agoniser.
+Every Clawed Fiend is equipped with: Clawed Fiend fists.
+Every Khymerae is equipped with: Khymerae talons.
+Every Razorwing Flock is equipped with: Razorwing feathers.
+FACTION KEYWORDS:
+Drukhari
 
+COURT OF THE ARCHON
+M T SV W LD OC
+7" 3 5+ 2 7+ 1
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A
+Eyeburst [PISTOL, TORRENT] 12" D6
+Shardcarbine [ANTI-INFANTRY 3+, ASSAULT] 18" 3
+Splinter pistol [ANTI-INFANTRY 3+, ASSAULT, PISTOL] 12" 1
+MELEE WEAPONS RANGE A
+Close combat weapon Melee 2
+Shaimeshi blade [ANTI-INFANTRY 2+] Melee 4
+Sslyth battle-blade Melee 3
+Ur-ghul talons [SUSTAINED HITS 1] Melee 6
+KEYWORDS: Infantry, Kabal, Aeldari, Court of the Archon
+WA R HA M M E R L E G E N D S
+BS S AP D ABILITIES
+N/A 6 -2 1 FACTION: Power from Pain
+3+ 2 0 1
+3+ 2 0 1 Deadly Retinue (Pain): At the start of your Shooting
+phase or at the start of the Fight phase, you can spend 1
+Pain token to Empower this unit. While this unit is Empowered:
+WS S AP D
+■ If it contains one or more Lhamaean models, melee
+3+ 3 0 1 weapons equipped by models in this unit have the
+3+ 4 -2 1 [LETHAL HITS] ability.
+3+ 5 -2 2 ■ If it contains one or more Medusae models, ranged
+weapons equipped by models in this unit have the
+3+ 4 0 1 [IGNORES COVER] ability.
+■ If it contains one or more Sslyth models, each time a melee
+attack targets this unit, subtract 1 from the Wound roll.
+■ If this unit contains one or more Ur-ghul models, this unit
+has the Fights First ability.
+Court of the Archon: While a Character model is leading a
+unit that contains one or more Lhamaean, Medusae, Sslyth
+and/or Ur-ghul models, that Character model has the Feel No
+Pain 4+ ability.
+FACTION KEYWORDS:
+Drukhari
 
-
-  WARGEAR OPTIONS                                                      UNIT COMPOSITION
-  ■ None                                                             ■ 1 Beastmaster
-                                                                       ■ 1 Clawed Fiends
-                                                                       ■ 2 Khymerae
-                                                                       ■ 3 Razorwing Flocks
-                                                                       The Beastmaster is equipped with: splinter pods; agoniser.
-                                                                       Every Clawed Fiend is equipped with: Clawed Fiend fists.
-                                                                       Every Khymerae is equipped with: Khymerae talons.
-                                                                       Every Razorwing Flock is equipped with: Razorwing feathers.
-
-
-
-
-   KEYWORDS – ALL MODELS: Beasts, Aeldari | RAZORWING FLOCKS: Fly |         FACTION KEYWORDS:
-   BEASTMASTER: Mounted, Character, Fly, Beastmaster                        Drukhari
-COURT OF THE ARCHON                                                                                      WA R HA M M E R L E G E N D S
- M             T           SV            W           LD    OC
-
-
-7"            3          5+              2          7+     1
-                          5+             INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                                         RANGE       A    BS    S   AP   D   ABILITIES
-     Eyeburst [PISTOL, TORRENT]                                  12"    D6   N/A   6   -2   1   FACTION: Power from Pain
-     Shardcarbine [ANTI-INFANTRY 3+, ASSAULT]                    18"    3    3+    2   0    1
-                                                                                                    Deadly Retinue (Pain): At the start of your Shooting
-     Splinter pistol [ANTI-INFANTRY 3+, ASSAULT, PISTOL]         12"    1    3+    2   0    1
-                                                                                                    phase or at the start of the Fight phase, you can spend 1
-                                                                                                Pain token to Empower this unit. While this unit is Empowered:
-     MELEE WEAPONS                                          RANGE       A    WS    S   AP   D
-                                                                                                ■ If it contains one or more Lhamaean models, melee
-     Close combat weapon                                        Melee   2    3+    3   0    1      weapons equipped by models in this unit have the
-     Shaimeshi blade [ANTI-INFANTRY 2+]                         Melee   4    3+    4   -2   1      [LETHAL HITS] ability.
-     Sslyth battle-blade                                        Melee   3    3+    5   -2   2   ■ If it contains one or more Medusae models, ranged
-                                                                                                   weapons equipped by models in this unit have the
-     Ur-ghul talons [SUSTAINED HITS 1]                          Melee   6    3+    4   0    1      [IGNORES COVER] ability.
-                                                                                                ■ If it contains one or more Sslyth models, each time a melee
-                                                                                                   attack targets this unit, subtract 1 from the Wound roll.
-                                                                                                ■ If this unit contains one or more Ur-ghul models, this unit
-                                                                                                   has the Fights First ability.
-
-                                                                                                Court of the Archon: While a Character model is leading a
-                                                                                                unit that contains one or more Lhamaean, Medusae, Sslyth
-                                                                                                and/or Ur-ghul models, that Character model has the Feel No
-                                                                                                Pain 4+ ability.
-
-
-                                                                                                     FACTION KEYWORDS:
- KEYWORDS: Infantry, Kabal, Aeldari, Court of the Archon
-                                                                                                     Drukhari
-COURT OF THE ARCHON                                                                                                      WA R HA M M E R L E G E N D S
+COURT OF THE ARCHON
 Nothing but the manipulative cunning of an Archon could demand the
 loyalty of their varied Courts. Drawn from diverse mercenary factions
 that inhabit Commorragh, Drukhari, aliens and other horrors protect
 their liege with all manner of twisted weapons, flesh-eating venoms,
 needle-like fangs and empathic leaching.
+WARGEAR OPTIONS
+■ None
+COURT OF THE ARCHON
+This unit can be led by an Archon. Alternatively, in the Declare Battle Formations step, this unit can join
+one Kabalite Warriors or Hand of the Archon unit from your army that is being led by an Archon
+(a unit cannot have more than one Court of the Archon unit joined to it). If it does, until the end of the
+battle, every model in this unit counts as part of that Kabalite Warriors or Hand of the Archon unit,
+and its Starting Strength is increased accordingly.
+KEYWORDS: Infantry, Kabal, Aeldari, Court of the Archon
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Lhamaean ■ 1 Sslyth
+■ 1 Medusae ■ 1 Ur-ghul
+A Lhamaean is equipped with: shaimeshi blade.
+A Medusae is equipped with: eyeburst; close combat weapon.
+A Sslyth is equipped with: shardcarbine; splinter pistol;
+Sslyth battle-blade.
+An Ur-ghul is equipped with: Ur-ghul talons.
+FACTION KEYWORDS:
+Drukhari
 
+GROTESQUES
+M T SV W LD OC
+7" 5 6+ 4 7+ 1
+6+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP
+Liquifier gun [ANTI-INFANTRY 3+, TORRENT] 12" D6 N/A 4 -1
+MELEE WEAPONS RANGE A WS S AP
+Monstrous weapons Melee 4 3+ 5 -2
+Paired monstrous weapons [ TWIN-LINKED] Melee 4 3+ 5 -2
+KEYWORDS: Infantry, Haemonculus Covens, Aeldari, Grotesques
+WA R HA M M E R L E G E N D S
+D ABILITIES
+1 CORE: Feel No Pain 5+
+D FACTION: Power from Pain
+2 Macro-steroids (Pain): In the Fight phase, when you
+2 select this unit to fight, you can spend 1 of your Pain
+tokens to Empower this unit. While Empowered, melee
+weapons equipped by models in this unit have a Strength
+characteristic of 8 and the [LETHAL HITS] ability.
+Monstrous Charge: Each time this unit ends a Charge
+move, select one enemy unit within Engagement Range of
+it, then roll one D6 for each model in this unit that is within
+Engagement Range of that enemy unit: for each 4+, that
+enemy unit suffers D3 mortal wounds.
+FACTION KEYWORDS:
+Drukhari
 
-
-  WARGEAR OPTIONS                                                                                               UNIT COMPOSITION
-  ■ None                                                                                                      ■ 1 Lhamaean                     ■ 1 Sslyth
-                                                                                                                ■ 1 Medusae                      ■ 1 Ur-ghul
-  COURT OF THE ARCHON                                                                                           A Lhamaean is equipped with: shaimeshi blade.
-  This unit can be led by an Archon. Alternatively, in the Declare Battle Formations step, this unit can join   A Medusae is equipped with: eyeburst; close combat weapon.
-  one Kabalite Warriors or Hand of the Archon unit from your army that is being led by an Archon
-  (a unit cannot have more than one Court of the Archon unit joined to it). If it does, until the end of the    A Sslyth is equipped with: shardcarbine; splinter pistol;
-  battle, every model in this unit counts as part of that Kabalite Warriors or Hand of the Archon unit,         Sslyth battle-blade.
-  and its Starting Strength is increased accordingly.                                                           An Ur-ghul is equipped with: Ur-ghul talons.
-
-
-
-
-                                                                                                                      FACTION KEYWORDS:
-   KEYWORDS: Infantry, Kabal, Aeldari, Court of the Archon
-                                                                                                                      Drukhari
-GROTESQUES                                                                                          WA R HA M M E R L E G E N D S
- M            T           SV           W         LD   OC
-
-
-7"            5          6+            4         7+   1
-                         6+            INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                                    RANGE       A    BS    S   AP   D   ABILITIES
-     Liquifier gun [ANTI-INFANTRY 3+, TORRENT]              12"    D6   N/A   4   -1   1   CORE: Feel No Pain 5+
-
-     MELEE WEAPONS                                     RANGE       A    WS    S   AP   D   FACTION: Power from Pain
-     Monstrous weapons                                     Melee   4    3+    5   -2   2       Macro-steroids (Pain): In the Fight phase, when you
-     Paired monstrous weapons [TWIN-LINKED]                Melee   4    3+    5   -2   2       select this unit to fight, you can spend 1 of your Pain
-                                                                                           tokens to Empower this unit. While Empowered, melee
-                                                                                           weapons equipped by models in this unit have a Strength
-                                                                                           characteristic of 8 and the [LETHAL HITS] ability.
-
-                                                                                           Monstrous Charge: Each time this unit ends a Charge
-                                                                                           move, select one enemy unit within Engagement Range of
-                                                                                           it, then roll one D6 for each model in this unit that is within
-                                                                                           Engagement Range of that enemy unit: for each 4+, that
-                                                                                           enemy unit suffers D3 mortal wounds.
-
-
-
-
-                                                                                                 FACTION KEYWORDS:
- KEYWORDS: Infantry, Haemonculus Covens, Aeldari, Grotesques
-                                                                                                 Drukhari
-GROTESQUES                                                                                                   WA R HA M M E R L E G E N D S
+GROTESQUES
 These modified meat-hulks are pumped full of painful chemicals,
 growth elixirs and macro-steroids. With swollen muscles they hack
 their master’s foes apart, their brutal cleavers and grafted claws
 dripping with toxins. They are mindlessly obedient and insensible to
 any hurt, chasing down fleeing prey at the behest of their creator.
+WARGEAR OPTIONS
+■ Any number of models can each replace their paired monstrous weapons with 1 monstrous weapon
+and 1 liquifier gun.
+MONSTROUS HULKS
+This unit cannot embark within a Venom, but it can embark within other Drukhari Transports; when
+doing so, each Grotesque model takes up the space of 3 models.
+KEYWORDS: Infantry, Haemonculus Covens, Aeldari, Grotesques
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 3-6 Grotesques
+Every model is equipped with: paired monstrous weapons.
+FACTION KEYWORDS:
+Drukhari
 
+URIEN RAKARTH
+M T SV W LD OC
+7" 4 6+ 5 6+ 1
+4+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP
+Casket of Flensing 12" 3D6 N/A 3 -1
+[DEVASTATING WOUNDS, ONE SHOT, TORRENT]
+One Shot: The bearer can only shoot with this weapon once per battle.
+MELEE WEAPONS RANGE A WS S AP
+Haemonculus tools and scissorhands Melee 5 2+ 3 -1
+[ANTI-INFANTRY 2+, PRECISION]
+KEYWORDS: Infantry, Haemonculus Covens, Character, Epic Hero, Aeldari,
+Haemonculus, Urien Rakarth
+WA R HA M M E R L E G E N D S
+D ABILITIES
+1 CORE: Feel No Pain 4+, Leader
+FACTION: Power from Pain
+D Sculptor of Torments (Pain): In your Fight phase, when
+you select this model’s unit to fight, you can spend 1 of
+D3 your Pain tokens to Empower this model’s unit. While that unit
+is Empowered, each time a model in that unit makes a melee
+attack, add 1 to the Wound roll.
+Father of Pain: Each time an attack with a Damage
+characteristic of 1 is allocated to a model in this model’s unit,
+that model has the Feel No Pain 4+ ability against that attack.
+Horrific Regeneration: The first time this model is destroyed,
+roll one D6 at the end of the phase. On a 2+, set this model
+back up on the battlefield, as close as possible to where it was
+destroyed and not within Engagement Range of any enemy
+units, with its full wounds remaining.
+FACTION KEYWORDS:
+Drukhari
 
-
-  WARGEAR OPTIONS                                                                                    UNIT COMPOSITION
-  ■ Any number of models can each replace their paired monstrous weapons with 1 monstrous weapon    ■ 3-6 Grotesques
-     and 1 liquifier gun.                                                                            Every model is equipped with: paired monstrous weapons.
-
-  MONSTROUS HULKS
-  This unit cannot embark within a Venom, but it can embark within other Drukhari Transports; when
-  doing so, each Grotesque model takes up the space of 3 models.
-
-
-
-
-                                                                                                          FACTION KEYWORDS:
-   KEYWORDS: Infantry, Haemonculus Covens, Aeldari, Grotesques
-                                                                                                          Drukhari
-URIEN RAKARTH                                                                                              WA R HA M M E R L E G E N D S
- M             T           SV          W       LD       OC
-
-
-7"            4           6+          5        6+      1
-                          4+           INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                                       RANGE          A    BS    S   AP   D    ABILITIES
-     Casket of Flensing                                                                           CORE: Feel No Pain 4+, Leader
-                                                              12"       3D6   N/A   3   -1   1
-     [DEVASTATING WOUNDS, ONE SHOT, TORRENT]
-     One Shot: The bearer can only shoot with this weapon once per battle.                        FACTION: Power from Pain
-
-                                                                                                      Sculptor of Torments (Pain): In your Fight phase, when
-     MELEE WEAPONS                                        RANGE          A    WS    S   AP   D        you select this model’s unit to fight, you can spend 1 of
-     Haemonculus tools and scissorhands                                                           your Pain tokens to Empower this model’s unit. While that unit
-                                                             Melee       5    2+    3   -1   D3
-     [ANTI-INFANTRY 2+, PRECISION]                                                                is Empowered, each time a model in that unit makes a melee
-                                                                                                  attack, add 1 to the Wound roll.
-
-                                                                                                  Father of Pain: Each time an attack with a Damage
-                                                                                                  characteristic of 1 is allocated to a model in this model’s unit,
-                                                                                                  that model has the Feel No Pain 4+ ability against that attack.
-                                                                                                  Horrific Regeneration: The first time this model is destroyed,
-                                                                                                  roll one D6 at the end of the phase. On a 2+, set this model
-                                                                                                  back up on the battlefield, as close as possible to where it was
-                                                                                                  destroyed and not within Engagement Range of any enemy
-                                                                                                  units, with its full wounds remaining.
-
-
-
-
- KEYWORDS: Infantry, Haemonculus Covens, Character, Epic Hero, Aeldari,                                FACTION KEYWORDS:
-           Haemonculus, Urien Rakarth                                                                   Drukhari
-URIEN RAKARTH                                                                         WA R HA M M E R L E G E N D S
+URIEN RAKARTH
 Urien Rakarth is the most ingenious of the many Haemonculi masters.
 He is the Sculptor of Torments, whose repugnant creations strain his
 enemies’ sanity. Once his casket of fanged spirits and his toxin-laced
 blades are finished, a coiling nest of Haemovores feast upon whatever
 is left of Rakarth’s foes.
-
-
-
-  WARGEAR OPTIONS                                                            UNIT COMPOSITION
-  ■ None                                                                   ■ 1 Urien Rakarth – Epic Hero
-                                                                             This model is equipped with: Casket of Flensing;
-                                                                             Haemonculus tools and scissorhands.
-
-
-                                                                             LEADER
-                                                                             This model can be attached to the following unit:
-                                                                             ■ Wracks
-
-
-
-
-   KEYWORDS: Infantry, Haemonculus Covens, Character, Epic Hero, Aeldari,         FACTION KEYWORDS:
-             Haemonculus, Urien Rakarth                                            Drukhari
-
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Infantry, Haemonculus Covens, Character, Epic Hero, Aeldari,
+Haemonculus, Urien Rakarth
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Urien Rakarth – Epic Hero
+This model is equipped with: Casket of Flensing;
+Haemonculus tools and scissorhands.
+LEADER
+This model can be attached to the following unit:
+■ Wracks
+FACTION KEYWORDS:
+Drukhari

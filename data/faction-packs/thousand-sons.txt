@@ -1,551 +1,731 @@
-                                             THOUSAND SONS
-                                                 FACTION PACK: VERSION 1.1
-                                                    Legal for matched play from 22nd July 2026
-
-On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
-datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
+THOUSAND
+FACTION PACK:
+Legal for matched play
+On the following pages you will find additional rules and clarifications
+datasheets to rules updates and FAQs. All of these changes are also
 for your units and detachments.
-
-
-WHAT’S NEW?                                                                  CONTENTS
-▪ Changes to Rules Updates                                                   Detachments���������������������������������������������������������������������������������2
-                                                                              Ritual of Regeneration�������������������������������������������������������������������������������2
-▪ Defiler                                                                     Sekhetar Cohort�������������������������������������������������������������������������������������������3
-   ▫ Core Abilities: Remove ‘Feel No Pain 6+’.                                Servants of Change������������������������������������������������������������������������������������4
-   ▫ Destroyer of Futures Ability: Change to:                                Hexwarp Thrallband������������������������������������������������������������������������������������5
-      ‘Destroyer of Futures (Once per phase, per unit): You can target       Datasheets������������������������������������������������������������������������������������7
-      this unit with the Counteroffensive stratagem, regardless of any        Defiler�������������������������������������������������������������������������������������������������������������7
-      other uses of that stratagem this phase. If you do:                    Rules Updates�������������������������������������������������������������������������������9
-        ▫ That use is ‑1 CP.
-        ▫ That use does not prevent any uses of that stratagem on
-           other units this phase.'
-
+WHAT’S NEW?
+▪ Changes to Rules Updates
+▪ Defiler
+▫ Core Abilities: Remove ‘Feel No Pain 6+’.
+▫ Destroyer of Futures Ability: Change to:
+‘Destroyer of Futures (Once per phase, per unit): You can target
+this unit with the Counteroffensive stratagem, regardless of any
+other uses of that stratagem this phase. If you do:
+▫ That use is ‑1 CP.
+▫ That use does not prevent any uses of that stratagem on
+other units this phase.'
 ▪ Ritual of Regeneration Detachment, Eruption of Vitality
-   Enhancement
-   Change to:
-   'INFANTRY/MOUNTED THOUSAND SONS PSYKER model only. (Once per
-   battle, per army) When this model is destroyed, at the end of the
-   phase, roll one D6:
-     ▫ On a 2+, set up this model on the battlefield, unengaged and as
-       close as possible to where it was destroyed. This model is not
-       part of an attached unit and its unit has a starting strength of 1.
-       This model has 3 wounds remaining.'
-
+Enhancement
+Change to:
+'INFANTRY/MOUNTED THOUSAND SONS PSYKER model only. (Once per
+battle, per army) When this model is destroyed, at the end of the
+phase, roll one D6:
+▫ On a 2+, set up this model on the battlefield, unengaged and as
+close as possible to where it was destroyed. This model is not
+part of an attached unit and its unit has a starting strength of 1.
+This model has 3 wounds remaining.'
 ▪ Hexwarp Thrallband Detachment, Kaleidoscopic Tempest
-   Stratagem, Effect Section
-   Change to:
-     ▫ Your unit has Stealth.
-     ▫ If your unit is wholly within your army’s Flow of Magic, your unit
-        has ‑3 detection range.
-RITUAL OF REGENERATION
-THE THOUSAND SONS UNLEASH AN ANCIENT AND FORBIDDEN RITE OF UNHOLY LIFE UNBOUND
+Stratagem, Effect Section
+Change to:
+▫ Your unit has Stealth.
+▫ If your unit is wholly within your army’s Flow of Magic, your unit
+has ‑3 detection range.
+SONS
+VERSION 1.1
+from 22nd July 2026
+that supplement your Codex, from extra detachments and
+updated in the Warhammer 40,000 app, along with points values
+CONTENTS
+Detachments���������������������������������������������������������������������������������2
+Ritual of Regeneration�������������������������������������������������������������������������������2
+Sekhetar Cohort�������������������������������������������������������������������������������������������3
+Servants of Change������������������������������������������������������������������������������������4
+Hexwarp Thrallband������������������������������������������������������������������������������������5
+Datasheets������������������������������������������������������������������������������������7
+Defiler�������������������������������������������������������������������������������������������������������������7
+Rules Updates�������������������������������������������������������������������������������9
 
-
- DETACHMENT RULES                                                        RELENTLESS REBIRTH                                                    1CP
-                                                                         RITUAL OF REGENERATION STRATAGEM
+RITUAL OF
+THE THOUSAND SONS UNLEASH AN ANCIENT AND FORBIDDEN
+DETACHMENT RULES
 SORCEROUS INVIGORATION
-                                                                         As quickly as these warriors are wounded, so their corporeal
-The sorcerous workings unleashed by this coven draw upon                 forms regenerate with supernatural swiftness.
+The sorcerous workings unleashed by this coven draw upon
 the energies of the Warp to effect relentless change, reknitting
-                                                                         WHEN: Any phase, when a friendly INFANTRY/MOUNTED THOUSAND
-damaged flesh, sealing shattered armour and infusing even the            SONS PSYKER unit suffers a mortal wound.
+damaged flesh, sealing shattered armour and infusing even the
 most gruesomely mangled bodies with relentless life.
-                                                                         TARGET: That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.
-                                                                         EFFECT: Your unit has Feel No Pain 5+ against mortal wounds.
 (Once per turn, per unit) When a friendly THOUSAND SONS PSYKER
 unit (excluding MONSTER units) successfully manifests a Ritual, that
-unit heals D3 wounds.                                                    MUTAGENIC MAGICKS                                                     1CP
-                                                                         RITUAL OF REGENERATION STRATAGEM
-
- ENHANCEMENTS                                                            Focusing the unholy energies of their ritual into the bodies of
-                                                                         the foe, the champions of Tzeentch cause them to erupt into a
-                                                                         riot of gruesome and unstoppable mutation.
+unit heals D3 wounds.
+ENHANCEMENTS
 ERUPTION OF VITALITY
-                                                                         WHEN: Start of the Fight phase.
 Their carcass consumed in a sudden pyre of warpflame, this
-                                                                         TARGET: One friendly engaged THOUSAND SONS PSYKER unit.
 champion of Tzeentch steps from the blaze as a mutant parody of
-                                                                         EFFECT: Select one enemy unit engaged with your unit. Roll six D6:
 their former self.
-                                                                         ▪ For each 4+, that enemy unit suffers 1 mortal wound.
-
 INFANTRY/MOUNTED THOUSAND SONS PSYKER model only. (Once per
 battle, per army) When this model is destroyed, at the end of the
-                                                                         MULTITUDINOUS LIMBS                                                   1CP
 phase, roll one D6:
-                                                                         RITUAL OF REGENERATION STRATAGEM
 ▪ On a 2+, set up this model on the battlefield, unengaged and as
-   close as possible to where it was destroyed. This model is not        So unstoppable is the torrent of life rushing through these
-                                                                         warriors that their bodies and even their wargear sprout nests
-   part of an attached unit and its unit has a starting strength of 1.   of twitching limbs that move and act with a mind of their own.
-   This model has 3 wounds remaining.
-                                                                         WHEN: Your Movement phase, when a friendly INFANTRY/MOUNTED
-                                                                         THOUSAND SONS PSYKER unit is selected to make an advance/fall
-CURSE OF LIFE                                                            back move.
-A ghastly torrent of unnatural life force pours through this warrior     TARGET: That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.
-mystic, which will curse them with animus long after they wish           EFFECT: That move does not prevent your unit from being eligible to
-themselves safely dead.                                                  start an action.
-
+close as possible to where it was destroyed. This model is not
+part of an attached unit and its unit has a starting strength of 1.
+This model has 3 wounds remaining.
+CURSE OF LIFE
+A ghastly torrent of unnatural life force pours through this warrior
+mystic, which will curse them with animus long after they wish
+themselves safely dead.
 INFANTRY/MOUNTED THOUSAND SONS PSYKER model only. When this
 model heals as a result of the Sorcerous Invigoration detachment
 rule, you can add 3 to the number of wounds healed.
-SEKHETAR COHORT
-SEKHETAR ROBOTS MARCH OUT LIKE PUPPETS MOVED BY THE STRINGS OF THEIR SORCEROUS MASTERS
+REGENERATION
+RITE OF UNHOLY LIFE UNBOUND
+RELENTLESS REBIRTH 1CP
+RITUAL OF REGENERATION STRATAGEM
+As quickly as these warriors are wounded, so their corporeal
+forms regenerate with supernatural swiftness.
+WHEN: Any phase, when a friendly INFANTRY/MOUNTED THOUSAND
+SONS PSYKER unit suffers a mortal wound.
+TARGET: That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.
+EFFECT: Your unit has Feel No Pain 5+ against mortal wounds.
+MUTAGENIC MAGICKS 1CP
+RITUAL OF REGENERATION STRATAGEM
+Focusing the unholy energies of their ritual into the bodies of
+the foe, the champions of Tzeentch cause them to erupt into a
+riot of gruesome and unstoppable mutation.
+WHEN: Start of the Fight phase.
+TARGET: One friendly engaged THOUSAND SONS PSYKER unit.
+EFFECT: Select one enemy unit engaged with your unit. Roll six D6:
+▪ For each 4+, that enemy unit suffers 1 mortal wound.
+MULTITUDINOUS LIMBS 1CP
+RITUAL OF REGENERATION STRATAGEM
+So unstoppable is the torrent of life rushing through these
+warriors that their bodies and even their wargear sprout nests
+of twitching limbs that move and act with a mind of their own.
+WHEN: Your Movement phase, when a friendly INFANTRY/MOUNTED
+THOUSAND SONS PSYKER unit is selected to make an advance/fall
+back move.
+TARGET: That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.
+EFFECT: That move does not prevent your unit from being eligible to
+start an action.
 
-
- DETACHMENT RULES                                                         ARCANE VENTING                                                          1CP
-                                                                          SEKHETAR COHORT STRATAGEM
+SEKHETAR COHORT
+SEKHETAR ROBOTS MARCH OUT LIKE PUPPETS MOVED BY THE
+DETACHMENT RULES
 ENSORCELLED ANIMUS
-                                                                          Even as they cross the battlefield, so these Sekhetar Robots
-Some amongst the sorcerers of the Thousand Sons have learned              vent glittering sorcerous residue that contaminates sites of
-                                                                          power and importance.
+Some amongst the sorcerers of the Thousand Sons have learned
 to channel their wills through the mechanical bodies of Sekhetar
-Robots, rendering the constructs extensions of their own                  WHEN: End of your Movement phase.
-subtle bodies.                                                            TARGET: One friendly SEKHETAR ROBOTS unit.
-                                                                          EFFECT: Select one objective your unit is controlling. That objective
-▪ Friendly SEKHETAR ROBOTS units’ attacks have [PSYCHIC].                is secured.
+Robots, rendering the constructs extensions of their own
+subtle bodies.
+▪ Friendly SEKHETAR ROBOTS units’ attacks have [PSYCHIC].
 ▪ Friendly THOUSAND SONS PSYKER units have the following ability:
-  Infusion (Aura): While a friendly SEKHETAR ROBOTS unit is within
-   12" of this unit, that unit’s melee attacks have +1 WS.
-                                                                          ECTOPLASMIC EXTRUSION                                                   1CP
-                                                                          SEKHETAR COHORT STRATAGEM
-
-                                                                          Employing a form of limited astral projection, the Sorcerer
- ENHANCEMENTS                                                             possesses these robots and then extrudes ectoplasmic limbs
-                                                                          from within their bodies to work his will even as they continue
-                                                                          to fight.
+Infusion (Aura): While a friendly SEKHETAR ROBOTS unit is within
+12" of this unit, that unit’s melee attacks have +1 WS.
+ENHANCEMENTS
 WALKING RAMPART
-                                                                          WHEN: Your Shooting phase, when a friendly SEKHETAR ROBOTS unit
 This Sorcerer callously employs the Sekhetar Robots as a mobile
-                                                                          within 12" of a friendly THOUSAND SONS PSYKER unit starts an action.
 fortification, pouring sorcery into them to repair their battered forms
-                                                                          TARGET: That SEKHETAR ROBOTS unit.
 and maintain his ambulatory shield.
-                                                                          EFFECT: That action does not prevent your unit from being eligible
-                                                                          to shoot.
 SORCERER/EXALTED SORCERER model only. This model has the
 following abilities:
-▪ Soul Bound: In your Movement phase, at the start or end of             WARP FIELDS                                                             1CP
-   this unit’s move, you can select one friendly SEKHETAR ROBOTS
-                                                                          SEKHETAR COHORT STRATAGEM
-   unit within 3" of this model. That SEKHETAR ROBOTS unit heals
-                                                                          Weaving sorcery into a shimmering shield, the sorcerer protects
-   D3+1 wounds.                                                           his enslaved automata from harm.
-▪ Kine‑shielded Guardians: While this model is within 3" of a
-   friendly SEKHETAR ROBOTS unit, this model has Lone Operative.          WHEN: Your opponent’s Shooting phase, when an enemy unit
-                                                                          targets a friendly SEKHETAR ROBOTS unit within 12" of a friendly
-                                                                          THOUSAND SONS PSYKER unit.
+▪ Soul  Bound: In your Movement phase, at the start or end of
+this unit’s move, you can select one friendly SEKHETAR ROBOTS
+unit within 3" of this model. That SEKHETAR ROBOTS unit heals
+D3+1 wounds.
+▪ Kine‑shielded  Guardians: While this model is within 3" of a
+friendly SEKHETAR ROBOTS unit, this model has Lone Operative.
 OCCULUS INFERNUM
-                                                                          TARGET: That SEKHETAR ROBOTS unit.
 It may be the Sekhetar Robots that fire upon the foe, but it is their
-                                                                          EFFECT: Ranged attacks that target your unit with a S greater than
-sorcerous master that aims through their stolen senses.                   your unit’s T have ‑1 to wound rolls.
-
+sorcerous master that aims through their stolen senses.
 SORCERER/EXALTED SORCERER model only. In your Movement phase,
 at the start or end of this unit’s move, you can select one friendly
 SEKHETAR ROBOTS unit within 6" of this unit. That unit’s ranged
 attacks have +1 BS until the start of your next turn.
-UNIQUE: MUTANT
+STRINGS OF THEIR SORCEROUS MASTERS
+ARCANE VENTING 1CP
+SEKHETAR COHORT STRATAGEM
+Even as they cross the battlefield, so these Sekhetar Robots
+vent glittering sorcerous residue that contaminates sites of
+power and importance.
+WHEN: End of your Movement phase.
+TARGET: One friendly SEKHETAR ROBOTS unit.
+EFFECT: Select one objective your unit is controlling. That objective
+is secured.
+ECTOPLASMIC EXTRUSION 1CP
+SEKHETAR COHORT STRATAGEM
+Employing a form of limited astral projection, the Sorcerer
+possesses these robots and then extrudes ectoplasmic limbs
+from within their bodies to work his will even as they continue
+to fight.
+WHEN: Your Shooting phase, when a friendly SEKHETAR ROBOTS unit
+within 12" of a friendly THOUSAND SONS PSYKER unit starts an action.
+TARGET: That SEKHETAR ROBOTS unit.
+EFFECT: That action does not prevent your unit from being eligible
+to shoot.
+WARP FIELDS 1CP
+SEKHETAR COHORT STRATAGEM
+Weaving sorcery into a shimmering shield, the sorcerer protects
+his enslaved automata from harm.
+WHEN: Your opponent’s Shooting phase, when an enemy unit
+targets a friendly SEKHETAR ROBOTS unit within 12" of a friendly
+THOUSAND SONS PSYKER unit.
+TARGET: That SEKHETAR ROBOTS unit.
+EFFECT: Ranged attacks that target your unit with a S greater than
+your unit’s T have ‑1 to wound rolls.
 
-SERVANTS OF CHANGE
-THE CHANGE-TWISTED HOSTS OF TZEENTCH ARE UNLEASHED, THEIR VERY PRESENCE DISTORTING REALITY
-
-
- DETACHMENT RULES                                                      PRISMATIC DISPLACEMENT                                              1CP
-                                                                       SERVANTS OF CHANGE STRATAGEM
+UNIQUE: MUTANT
+SERVANTS OF
+THE CHANGE-TWISTED HOSTS OF TZEENTCH ARE UNLEASHED,
+DETACHMENT RULES
 ALL-SEEING MUTANT HORDES
-                                                                       Flickering light like cast through a many-faceted gem, the
-Beneath the multitudinous eyes of so many servants of Tzeentch,        skyborne warriors of Tzeentch seem to manifest and fade, then
-                                                                       leap back into sharp relief elsewhere with sudden violence.
+Beneath the multitudinous eyes of so many servants of Tzeentch,
 reality itself shifts and mutates, leaving the foe exposed to the
-onrushing mutant masses.                                               WHEN: Your Movement phase, when a friendly INFANTRY/MOUNTED
-                                                                       MUTANT unit is selected to make an advance/fall back move.
-▪ Friendly TZAANGORS units have BATTLELINE.                           TARGET: That INFANTRY/MOUNTED MUTANT unit.
-▪ In your Shooting phase, while a friendly MUTANT unit is shooting,   EFFECT:
-   enemy units have +6" detection range.                               ▪ Your unit’s ranged attacks have [ASSAULT] until the end of
-                                                                          the turn.
-This detachment has the MUTANT tag and cannot be taken with            ▪ That move does not prevent your unit from being eligible to
-                                                                          shoot/declare a charge.
+onrushing mutant masses.
+▪ Friendly TZAANGORS units have BATTLELINE.
+▪ In your Shooting phase, while a friendly MUTANT unit is shooting,
+enemy units have +6" detection range.
+This detachment has the MUTANT tag and cannot be taken with
 another MUTANT detachment.
-
-
-                                                                       TEMPORAL INSTABILITY                                                1CP
- ENHANCEMENTS
-                                                                       SERVANTS OF CHANGE STRATAGEM
-
-UNRAVELLED FATES                                                       Time runs differently around these warriors, allowing them ample
-                                                                       space to act while their foes appear to lurch sluggishly on
-How can the foe hope to suppress or drive back the hordes when,        around them.
+ENHANCEMENTS
+UNRAVELLED FATES
+How can the foe hope to suppress or drive back the hordes when,
 with a twist of sorcery, panic turns to courage, and certain doom
-                                                                       WHEN: Your Movement phase, when a friendly INFANTRY/MOUNTED
-mutates into burgeoning triumph?                                       MUTANT unit is selected to make an advance/fall back move.
-                                                                       TARGET: That INFANTRY/MOUNTED MUTANT unit.
+mutates into burgeoning triumph?
 TZAANGOR SHAMAN model only. In your Movement phase, at the
-                                                                       EFFECT: In a turn your unit made an advance/fall-back move,
-start or end of this unit's move, you can select one friendly          that move does not prevent your unit from being eligible to start
-battle-shocked MUTANT unit within 6" of this model. That unit is no    an action.
+start or end of this unit's move, you can select one friendly
+battle-shocked MUTANT unit within 6" of this model. That unit is no
 longer battle-shocked.
-
-THICKET OF BLADED BONE UPGRADE                                         THE LAND WRITHES                                                    1CP
-Horrific mutations have rendered this degenerate Spawn especially      SERVANTS OF CHANGE STRATAGEM
+THICKET OF BLADED BONE UPGRADE
+Horrific mutations have rendered this degenerate Spawn especially
 dangerous at close quarters.
-                                                                       The very fabric of reality runs like melting wax before this
-                                                                       monstrous abomination, oozing aside to clear its path.
 SPAWN unit only. This unit’s melee attacks have:
-                                                                       WHEN: Your Movement phase, when a friendly MONSTER MUTANT unit
-▪ +1 AP.                                                              is selected to move.
-▪ [CLEAVE 1].                                                         TARGET: That MONSTER MUTANT unit.
-                                                                       EFFECT: Your unit has MOBILE.
-       HEXWARP THRALLBAND
-       The empyric ritualists who lead these thrallbands wield magic without restraint. They seek to
-       shatter the veil between reality and the Warp, empowering their arcane arts and unleashing
-       daemonic energies upon their weak‑minded foes. Directing their mindless Rubricae to seize sites
-       of power, these Sorcerers tap into the wellspring of potential power, weaving obscuring rituals
-       and killing spells. As the tide of arcane energy builds in strength, the battlefield comes alive
-       with mutagenic Warp energy, enhancing the Sorcerers’ magical power and haloing their thralls
-       in fulminating coronae of uncontrolled arcane force. With warpflame and hellfire, they sweep the
-       enemy from the field of battle, and Tzeentch claims the souls of the dead.
+▪ +1 AP.
+▪ [CLEAVE  1].
+CHANGE
+THEIR VERY PRESENCE DISTORTING REALITY
+PRISMATIC DISPLACEMENT 1CP
+SERVANTS OF CHANGE STRATAGEM
+Flickering light like cast through a many-faceted gem, the
+skyborne warriors of Tzeentch seem to manifest and fade, then
+leap back into sharp relief elsewhere with sudden violence.
+WHEN: Your Movement phase, when a friendly INFANTRY/MOUNTED
+MUTANT unit is selected to make an advance/fall back move.
+TARGET: That INFANTRY/MOUNTED MUTANT unit.
+EFFECT:
+▪ Your unit’s ranged attacks have [ASSAULT] until the end of
+the turn.
+▪ That move does not prevent your unit from being eligible to
+shoot/declare a charge.
+TEMPORAL INSTABILITY 1CP
+SERVANTS OF CHANGE STRATAGEM
+Time runs differently around these warriors, allowing them ample
+space to act while their foes appear to lurch sluggishly on
+around them.
+WHEN: Your Movement phase, when a friendly INFANTRY/MOUNTED
+MUTANT unit is selected to make an advance/fall back move.
+TARGET: That INFANTRY/MOUNTED MUTANT unit.
+EFFECT: In a turn your unit made an advance/fall-back move,
+that move does not prevent your unit from being eligible to start
+an action.
+THE LAND WRITHES 1CP
+SERVANTS OF CHANGE STRATAGEM
+The very fabric of reality runs like melting wax before this
+monstrous abomination, oozing aside to clear its path.
+WHEN: Your Movement phase, when a friendly MONSTER MUTANT unit
+is selected to move.
+TARGET: That MONSTER MUTANT unit.
+EFFECT: Your unit has MOBILE.
 
+HEXWARP
+The empyric ritualists who lead these
+shatter the veil between reality and the
+daemonic energies upon their weak‑minded
+of power, these Sorcerers tap into the
+and killing spells. As the tide of arcane
+with mutagenic Warp energy, enhancing
+in fulminating coronae of uncontrolled
+enemy from the field of battle, and Tzeentch
+DETACHMENT RULE
+FLOW OF MAGIC
+With each site seized by the thrallband’s
+warriors, the flow of arcane energies
+increases, and the veil between reality and
+the Warp erodes. The resultant influxes of
+Warp energy are potent enough to invoke
+the flesh‑change and must be channelled
+carefully by the thrallband’s Sorcerers.
+With masterful skill, they wield these
+mutagenic energies, expertly syphoning
+excess magic to empower themselves
+and the warriors at their command
+while maintaining control of their
+ever‑expanding ritual.
+Certain areas of the battlefield are within
+your army’s Flow of Magic, as follows:
+■ Your deployment zone is always within
+your army’s Flow of Magic.
+■ At the start of any phase, if you control
+at least half of the objective markers
+within No Man’s Land, until the end
+of that phase, No Man’s Land is within
+your army’s Flow of Magic.
+■ At the start of any phase, if you control
+at least half of the objective markers
+within your opponent’s deployment
+zone, until the end of that phase, your
+opponent’s deployment zone is within
+your army’s Flow of Magic.
+Each time a Thousand Sons model from
+your army makes a Psychic Attack, re‑roll
+a Wound roll of 1. If such a model is
+wholly within your army’s Flow of Magic,
+each time it makes a Psychic Attack, add
+1 to the Wound roll instead.
+5
+THRALLBAND
+thrallbands wield magic without restraint. They seek to
+Warp, empowering their arcane arts and unleashing
+foes. Directing their mindless Rubricae to seize sites
+wellspring of potential power, weaving obscuring rituals
+energy builds in strength, the battlefield comes alive
+the Sorcerers’ magical power and haloing their thralls
+arcane force. With warpflame and hellfire, they sweep the
+claims the souls of the dead.
+ENHANCEMENTS
+ARCANE MIGHT
+Drawing upon the rampant Warp energies coursing
+across the battlefield, this sorcerous champion imbues
+their weapons and those of their talented underlings
+with soul‑shattering force.
+Thousand Sons model only. Add 1 to the Strength
+characteristic of Psychic weapons equipped by models
+in the bearer’s unit. While the bearer’s unit is wholly
+within your army’s Flow of Magic, add 2 to the
+Strength characteristic of Psychic weapons equipped
+by models in that unit instead.
+EMPOWERED MANIFESTATION
+The many eyes of this witch lord blaze with barely
+contained arcane might. Whilst the spells they unleash
+are rendered far more lethal, such destructive power
+comes at significant risk.
+Thousand Sons model only. While the bearer’s unit
+is wholly within your army’s Flow of Magic, you can
+add 6" to the range of Psychic abilities the bearer has
+that specify a range (including Rituals) and each time
+a model in the bearer’s unit takes a Hazardous test for
+a Psychic weapon, you can re‑roll the result.
+EMPYRIC ONSLAUGHT
+Suffused with boundless empyric force, this ritualist
+unleashes overwhelming torrents of destructive magic
+upon their enemies.
+Thousand Sons model only. While the bearer’s unit
+is wholly within your army’s Flow of Magic, add 3 to
+the Attacks characteristic of ranged Psychic weapons
+equipped by the bearer.
+NOCTILITH MANTLE
+With this crest, wrought from empyrically charged
+blackstone, this warrior becomes a mobile locus of
+unchecked Warp power.
+Thousand Sons model only. While the bearer’s unit is
+on the battlefield, it is wholly within your army’s Flow
+of Magic. Models in that unit cannot be selected to
+use any Rituals.
 
-
-
-     DETACHMENT RULE                                    ENHANCEMENTS
-
-    FLOW OF MAGIC                                       ARCANE MIGHT
-    With each site seized by the thrallband’s           Drawing upon the rampant Warp energies coursing
-    warriors, the flow of arcane energies               across the battlefield, this sorcerous champion imbues
-    increases, and the veil between reality and         their weapons and those of their talented underlings
-    the Warp erodes. The resultant influxes of          with soul‑shattering force.
-    Warp energy are potent enough to invoke
-    the flesh‑change and must be channelled             Thousand Sons model only. Add 1 to the Strength
-    carefully by the thrallband’s Sorcerers.            characteristic of Psychic weapons equipped by models
-    With masterful skill, they wield these              in the bearer’s unit. While the bearer’s unit is wholly
-    mutagenic energies, expertly syphoning              within your army’s Flow of Magic, add 2 to the
-    excess magic to empower themselves                  Strength characteristic of Psychic weapons equipped
-    and the warriors at their command                   by models in that unit instead.
-    while maintaining control of their
-    ever‑expanding ritual.                              EMPOWERED MANIFESTATION
-                                                        The many eyes of this witch lord blaze with barely
-    Certain areas of the battlefield are within         contained arcane might. Whilst the spells they unleash
-    your army’s Flow of Magic, as follows:              are rendered far more lethal, such destructive power
-                                                        comes at significant risk.
-    ■ Your deployment zone is always within
-       your army’s Flow of Magic.                       Thousand Sons model only. While the bearer’s unit
-    ■ At the start of any phase, if you control        is wholly within your army’s Flow of Magic, you can
-       at least half of the objective markers           add 6" to the range of Psychic abilities the bearer has
-       within No Man’s Land, until the end              that specify a range (including Rituals) and each time
-       of that phase, No Man’s Land is within           a model in the bearer’s unit takes a Hazardous test for
-       your army’s Flow of Magic.                       a Psychic weapon, you can re‑roll the result.
-    ■ At the start of any phase, if you control
-       at least half of the objective markers           EMPYRIC ONSLAUGHT
-       within your opponent’s deployment                Suffused with boundless empyric force, this ritualist
-       zone, until the end of that phase, your          unleashes overwhelming torrents of destructive magic
-       opponent’s deployment zone is within             upon their enemies.
-       your army’s Flow of Magic.
-                                                        Thousand Sons model only. While the bearer’s unit
-    Each time a Thousand Sons model from                is wholly within your army’s Flow of Magic, add 3 to
-    your army makes a Psychic Attack, re‑roll           the Attacks characteristic of ranged Psychic weapons
-    a Wound roll of 1. If such a model is               equipped by the bearer.
-    wholly within your army’s Flow of Magic,
-    each time it makes a Psychic Attack, add            NOCTILITH MANTLE
-    1 to the Wound roll instead.                        With this crest, wrought from empyrically charged
-                                                        blackstone, this warrior becomes a mobile locus of
-                                                        unchecked Warp power.
-
-                                                        Thousand Sons model only. While the bearer’s unit is
-                                                        on the battlefield, it is wholly within your army’s Flow
-5                                                       of Magic. Models in that unit cannot be selected to
-                                                        use any Rituals.
-          WARDING HEX                                                       THROUGH THE VEIL
-          HEXWARP THRALLBAND – EPIC DEED STRATAGEM                          HEXWARP THRALLBAND – EPIC DEED STRATAGEM
-
-          Thousand Sons Sorcerers draw upon tide swells of                  With arcane energy flooding the battlefield, the veil
-          Warp energy to weave spells of binding and warding,               between Warp and reality rapidly collapses. From
-    1CP   thereby shackling sites of arcane power to their own        1CP   yawning rifts emerge Rubricae reinforcements to
-          arrogant will.                                                    ensure their thrallband’s victory.
-          WHEN: Command phase.                                              WHEN: Start of the Reinforcements step of your
-          TARGET: One Thousand Sons Psyker unit from your                   Movement phase.
-          army within range of an objective marker you control,             TARGET: One Rubric Marines or Scarab Occult
-          if that objective marker is wholly within your army’s             Terminators unit from your army that is in
-          Flow of Magic.                                                    Strategic Reserves.
-          EFFECT: That objective marker remains under your                  EFFECT: If it is a Rubric Marines unit, until the end
-          control until your opponent’s Level of Control over               of the phase, it has the Deep Strike ability. When
-          that objective marker is greater than yours at the end            your unit is set up on the battlefield using the Deep
-          of a phase.                                                       Strike ability, if it is a Scarab Occult Terminator
-                                                                            unit it can be set up anywhere on the battlefield that
-                                                                            is wholly within your army’s Flow of Magic and more
-          WRATH OF THE DOOMED                                               than 6" horizontally away from all enemy models.
-          HEXWARP THRALLBAND – STRATEGIC PLOY STRATAGEM                     RESTRICTIONS: If a Scarab Occult Terminators
-                                                                            unit is targeted with this Stratagem, it is not eligible
-          Forewarned of the moment of their demise, the
-                                                                            to declare a charge in the same turn.
-          followers of Tzeentch allow the flood of magic to run
-    1CP   rampant through their forms, providing them with a
-          final burst of killing energy before unbound arcane               SCOURING WARPFLAME
-          force rips their bodies asunder.
-                                                                            HEXWARP THRALLBAND – STRATEGIC PLOY STRATAGEM
-          WHEN: Fight phase, just after an enemy unit has
-          selected its targets.                                             At a spat curse, Warp‑infused ammunition can be
-                                                                            made to glow with sulphurous flame, enabling it to
-          TARGET: One Thousand Sons unit from your army               1CP   burn through solid cover to strike enemies beyond.
-          that was selected as the target of one or more of the
-                                                                            Those hit by the fusillade find their forms wreathed
-          attacking unit’s attacks.
-                                                                            in illuminating azure fire.
-          EFFECT: Until the end of the phase, each time a
-          model in your unit is destroyed, if that model has not            WHEN: Your Shooting phase.
-          fought this phase, roll one D6, adding 1 to the result if         TARGET: One Thousand Sons Psyker unit from your
-          your unit is wholly within your army’s Flow of Magic:             army that has not been selected to shoot this phase
-          on a 4+, do not remove it from play. That destroyed               and is wholly within your army’s Flow of Magic.
-          model can fight after the attacking unit has finished             EFFECT: Until the end of the phase, ranged
-          making its attacks, and is then removed from play.                weapons equipped by models in your unit have the
-                                                                            [IGNORES COVER] ability. After your unit has shot this
-                                                                            phase, select one enemy unit hit by one or more of
-          STRANDS OF TIME                                                   those attacks. Until the end of the phase, models in
-          HEXWARP THRALLBAND – STRATEGIC PLOY STRATAGEM                     that unit cannot have the Benefit of Cover.
-          By drawing upon their expanding nexus of magic,
-          this disciple of Tzeentch can tear strands of temporal            KALEIDOSCOPIC TEMPEST
-    1CP   energy from the Warp and wind them around
-          themselves and their thralls. Lent speed by this                  HEXWARP THRALLBAND – BATTLE TACTIC STRATAGEM
-          garland of stolen time, they melt away from their                 As the Thousand Sons solidify their control over sites
-          foes’ desperate strikes before lashing out again.                 of magical power, the Immaterium spills into reality
-                                                                      1CP   in searing torrents, blossoming into a multi‑spectral
-          WHEN: Your Movement phase, just after a Thousand
-          Sons Psyker unit from your army Falls Back.                       storm of arcane energy that obscures mortal senses
-                                                                            and mechanical augury.
-          TARGET: That Thousand Sons Psyker unit.
-          EFFECT: Until the end of the turn, your unit is eligible          WHEN: Your opponent’s Shooting phase, just after an
-          to shoot or declare a charge in a turn in which it Fell           enemy unit has selected its targets.
-          Back. If your unit is wholly within your army’s Flow              TARGET: One Thousand Sons Psyker unit from your
-          of Magic when it is targeted with this Stratagem, then            army that was selected as the target of one or more
-          until the end of the turn, your unit is eligible to shoot         of the attacking unit’s attacks.
-          and declare a charge in a turn in which it Fell Back.             EFFECT:
-                                                                            • Your unit has Stealth.
-                                                                            • If your unit is wholly within your army’s Flow of
-                                                                              Magic, your unit has ‑3 detection range.
-
-
-
-
+WARDING HEX
+HEXWARP THRALLBAND – EPIC DEED STRATAGEM
+Thousand Sons Sorcerers draw upon tide swells of
+1CP Warp energy to weave spells of binding and warding,
+thereby shackling sites of arcane power to their own
+arrogant will.
+WHEN: Command phase.
+TARGET: One Thousand Sons Psyker unit from your
+army within range of an objective marker you control,
+if that objective marker is wholly within your army’s
+Flow of Magic.
+EFFECT: That objective marker remains under your
+control until your opponent’s Level of Control over
+that objective marker is greater than yours at the end
+of a phase.
+WRATH OF THE DOOMED
+HEXWARP THRALLBAND – STRATEGIC PLOY STRATAGEM
+Forewarned of the moment of their demise, the
+1CP followers of Tzeentch allow the flood of magic to run
+rampant through their forms, providing them with a
+final burst of killing energy before unbound arcane
+force rips their bodies asunder.
+WHEN: Fight phase, just after an enemy unit has
+selected its targets.
+TARGET: One Thousand Sons unit from your army
+that was selected as the target of one or more of the
+attacking unit’s attacks.
+EFFECT: Until the end of the phase, each time a
+model in your unit is destroyed, if that model has not
+fought this phase, roll one D6, adding 1 to the result if
+your unit is wholly within your army’s Flow of Magic:
+on a 4+, do not remove it from play. That destroyed
+model can fight after the attacking unit has finished
+making its attacks, and is then removed from play.
+STRANDS OF TIME
+HEXWARP THRALLBAND – STRATEGIC PLOY STRATAGEM
+By drawing upon their expanding nexus of magic,
+1CP this disciple of Tzeentch can tear strands of temporal
+energy from the Warp and wind them around
+themselves and their thralls. Lent speed by this
+garland of stolen time, they melt away from their
+foes’ desperate strikes before lashing out again.
+WHEN: Your Movement phase, just after a Thousand
+Sons Psyker unit from your army Falls Back.
+TARGET: That Thousand Sons Psyker unit.
+EFFECT: Until the end of the turn, your unit is eligible
+to shoot or declare a charge in a turn in which it Fell
+Back. If your unit is wholly within your army’s Flow
+of Magic when it is targeted with this Stratagem, then
+until the end of the turn, your unit is eligible to shoot
+and declare a charge in a turn in which it Fell Back.
 6
-DEFILER
- M            T            SV             W             LD            OC
+THROUGH THE VEIL
+HEXWARP THRALLBAND – EPIC DEED STRATAGEM
+With arcane energy flooding the battlefield, the veil
+1CP between Warp and reality rapidly collapses. From
+yawning rifts emerge Rubricae reinforcements to
+ensure their thrallband’s victory.
+WHEN: Start of the Reinforcements step of your
+Movement phase.
+TARGET: One Rubric Marines or Scarab Occult
+Terminators unit from your army that is in
+Strategic Reserves.
+EFFECT: If it is a Rubric Marines unit, until the end
+of the phase, it has the Deep Strike ability. When
+your unit is set up on the battlefield using the Deep
+Strike ability, if it is a Scarab Occult Terminator
+unit it can be set up anywhere on the battlefield that
+is wholly within your army’s Flow of Magic and more
+than 6" horizontally away from all enemy models.
+RESTRICTIONS: If a Scarab Occult Terminators
+unit is targeted with this Stratagem, it is not eligible
+to declare a charge in the same turn.
+SCOURING WARPFLAME
+HEXWARP THRALLBAND – STRATEGIC PLOY STRATAGEM
+At a spat curse, Warp‑infused ammunition can be
+1CP made to glow with sulphurous flame, enabling it to
+burn through solid cover to strike enemies beyond.
+Those hit by the fusillade find their forms wreathed
+in illuminating azure fire.
+WHEN: Your Shooting phase.
+TARGET: One Thousand Sons Psyker unit from your
+army that has not been selected to shoot this phase
+and is wholly within your army’s Flow of Magic.
+EFFECT: Until the end of the phase, ranged
+weapons equipped by models in your unit have the
+[IGNORES COVER] ability. After your unit has shot this
+phase, select one enemy unit hit by one or more of
+those attacks. Until the end of the phase, models in
+that unit cannot have the Benefit of Cover.
+KALEIDOSCOPIC TEMPEST
+HEXWARP THRALLBAND – BATTLE TACTIC STRATAGEM
+As the Thousand Sons solidify their control over sites
+1CP of magical power, the Immaterium spills into reality
+in searing torrents, blossoming into a multi‑spectral
+storm of arcane energy that obscures mortal senses
+and mechanical augury.
+WHEN: Your opponent’s Shooting phase, just after an
+enemy unit has selected its targets.
+TARGET: One Thousand Sons Psyker unit from your
+army that was selected as the target of one or more
+of the attacking unit’s attacks.
+EFFECT:
+• Your unit has Stealth.
+• If your unit is wholly within your army’s Flow of
+Magic, your unit has ‑3 detection range.
 
-12" 11                    3+            18            6+              5
-                          5+               INVULNERABLE SAVE
+DEFILER
+M T SV W LD OC
+12" 11 3+ 18 6+ 5
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S
+Ectoplasma destructor [BLAST] 36" D6 3+ 12
+Excruciator cannon 36" 6 3+ 6
+Hades battle cannon [BLAST] 48" D6+3 3+ 10
+Hades lascannon 48" 2 3+ 12
+Heavy baleflamer [IGNORES COVER, TORRENT] 12" D6+3 N/A 7
+Heavy missile launcher – krak 48" 2 3+ 10
+Heavy missile launcher – frag [BLAST] 48" 2D6 3+ 5
+Heavy reaper autocannon 48" 4 3+ 9
+[DEVASTATING WOUNDS, SUSTAINED HITS 1]
+Pyraflux magma cutters [MELTA 2] 12" 2 3+ 10
+MELEE WEAPONS RANGE A WS S AP
+Electroscourge [EXTRA ATTACKS, SUSTAINED HITS 2] Melee 5 3+ 12 -2
+Shearing claws – strike Melee 5 3+ 16 -3
+Shearing claws – sweep Melee 10 3+ 6 -2
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Chaos, Tzeentch, Daemon, Defiler
+AP D ABILITIES
+-3 3 CORE: Deadly Demise D6
+-2 2
+-1 3 Scuttling Walker: Each time this unit makes a Normal,
+-3 D6+1 Advance or Fall Back move, it can move through models
+-2 2 (excluding Titanic models) and terrain features. When doing
+-2 D6+1 so, it can move within Engagement Range of enemy models,
+-1 1 but cannot end that move within Engagement Range of them,
+and any Desperate Escape test is automatically passed.
+-2 3 Destroyer of Futures (Once per phase, per unit): You
+-4 D6 can target this unit with the Counteroffensive stratagem,
+regardless of any other uses of that stratagem this phase. If
+D you do:
+2 ■ That use is ‑1 CP.
+D6+1 ■ That use does not prevent any uses of that stratagem on
+1 other units this phase.’
+FACTION KEYWORDS:
+Thousand Sons
 
-
-      RANGED WEAPONS                                                       RANGE                  A    BS    S    AP    D     ABILITIES
-      Ectoplasma destructor [BLAST]                                            36"                D6   3+    12   -3    3
-                                                                                                                              CORE: Deadly Demise D6
-      Excruciator cannon                                                       36"                6    3+    6    -2    2
-      Hades battle cannon [BLAST]                                              48"           D6+3      3+    10   -1    3     Scuttling Walker: Each time this unit makes a Normal,
-      Hades lascannon                                                          48"                2    3+    12   -3   D6+1   Advance or Fall Back move, it can move through models
-      Heavy baleflamer [IGNORES COVER, TORRENT]                                12"           D6+3      N/A    7   -2    2     (excluding Titanic models) and terrain features. When doing
-                                                                                                                              so, it can move within Engagement Range of enemy models,
-      Heavy missile launcher – krak                                            48"            2        3+    10   -2   D6+1
-                                                                                                                              but cannot end that move within Engagement Range of them,
-      Heavy missile launcher – frag [BLAST]                                    48"           2D6       3+     5   -1    1
-                                                                                                                              and any Desperate Escape test is automatically passed.
-      Heavy reaper autocannon
-                                                                               48"                4    3+    9    -2    3
-      [DEVASTATING WOUNDS, SUSTAINED HITS 1]                                                                                  Destroyer of Futures (Once per phase, per unit): You
-      Pyraflux magma cutters [MELTA 2]                                         12"                2    3+    10   -4    D6    can target this unit with the Counteroffensive stratagem,
-                                                                                                                              regardless of any other uses of that stratagem this phase. If
-                                                                                                                              you do:
-      MELEE WEAPONS                                                        RANGE                  A    WS    S    AP    D
-      Electroscourge [EXTRA ATTACKS, SUSTAINED HITS 2]                       Melee                5    3+    12   -2    2     ■ That use is ‑1 CP.
-      Shearing claws – strike                                                Melee                5    3+    16   -3   D6+1   ■ That use does not prevent any uses of that stratagem on
-      Shearing claws – sweep                                                 Melee                10   3+    6    -2    1        other units this phase.’
-
-
-
-
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
-                                                                                                                                    FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Chaos, Tzeentch, Daemon, Defiler
-                                                                                                                                    Thousand Sons
-DEFILER
+DEFILER
 These hulking masses of sorcery-wreathed mechanisms and
 daemon-bound flesh advance upon mechanical limbs that crush
 and rend even as the monstrosity’s heavy guns rain death on
 the foe, while shrugging off enemy fire by transmuting incoming
 projectiles or reknitting their flesh to repair damage.
+WARGEAR OPTIONS
+■ This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor.
+■ This model’s excruciator cannons can be replaced with 2 pyraflux magma cutters.
+■ This model’s heavy baleflamer can be replaced with one of the following:
+◦ 1 Hades lascannon
+◦ 1 heavy reaper autocannon
+◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
+■ This model’s heavy missile launcher can be replaced with one of the following:
+◦ 1 Hades lascannon
+◦ 1 heavy reaper autocannon
+◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
+KEYWORDS: Vehicle, Walker, Chaos, Tzeentch, Daemon, Defiler
+DAMAGED: 1-6 WOUNDS REMAINING
+While this model has 1-6 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+UNIT COMPOSITION
+■ 1 Defiler
+This model is equipped with: 1 Hades battle cannon;
+2 excruciator cannons; 1 heavy missile launcher; 1 heavy
+baleflamer; 1 shearing claws
+FACTION KEYWORDS:
+Death Guard
 
-
-
-       WARGEAR OPTIONS                                                                             DAMAGED: 1-6 WOUNDS REMAINING
-       ■ This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor.       While this model has 1-6 wounds remaining, each time this
-       ■ This model’s excruciator cannons can be replaced with 2 pyraflux magma cutters.      model makes an attack, subtract 1 from the Hit roll.
-       ■ This model’s heavy baleflamer can be replaced with one of the following:
-          ◦ 1 Hades lascannon                                                                 UNIT COMPOSITION
-          ◦ 1 heavy reaper autocannon
-          ◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)   ■ 1 Defiler
-       ■ This model’s heavy missile launcher can be replaced with one of the following:       This model is equipped with: 1 Hades battle cannon;
-          ◦ 1 Hades lascannon                                                                 2 excruciator cannons; 1 heavy missile launcher; 1 heavy
-          ◦ 1 heavy reaper autocannon                                                         baleflamer; 1 shearing claws
-          ◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
-
-
-
-
-                                                                                                   FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Chaos, Tzeentch, Daemon, Defiler
-                                                                                                   Death Guard
-                                                 THOUSAND SONS
-                                                                  RULES UPDATES
-This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
-Changes applied after the first iteration of this Faction Pack will be highlighted in red.
-
-
-                                                                                  CHANGEHOST OF DECEIT DETACHMENT
-UPDATES                                                                           Ethereal Phantasm Stratagem, Target Section
-                                                                                  Change 9" to 8".
+THOUSAND
+RULES
+This section presents updates and clarifications to your faction’s
+Changes applied after the first iteration of this Faction Pack will
+UPDATES
 ARMY RULES
-Cabal of Sorcerers                                                                Chronosorcerous Bleed Stratagem
-Change first paragraph to:                                                        Change to:
-‘If your Army Faction is THOUSAND SONS, at the start of your Shooting             WHEN: Start of your opponent's Charge phase.
-phase, one or more models from your army with this ability can                    TARGET: One friendly unengaged THOUSAND SONS PSYKER/
-attempt Rituals from those listed on the right. To do so, select one              SCINTILLATING LEGIONS unit.
-model from your army with this ability that has not yet attempted a               EFFECT: Select one visible enemy unit within 12" of your unit.
-Ritual this turn and select one Ritual no model from your army has                When that enemy unit declares a charge, that enemy unit has -1 to
-attempted to manifest this turn, then take a Psychic test for that model          charge rolls.
+Cabal of Sorcerers
+Change first paragraph to:
+‘If your Army Faction is THOUSAND SONS, at the start of your Shooting
+phase, one or more models from your army with this ability can
+attempt Rituals from those listed on the right. To do so, select one
+model from your army with this ability that has not yet attempted a
+Ritual this turn and select one Ritual no model from your army has
+attempted to manifest this turn, then take a Psychic test for that model
 by following the sequence below.’
-                                                                                  GRAND COVEN DETACHMENT
-Destiny’s Ruin (Psychic)                                                          Incandaeum Enhancement
-Change to:                                                                        Change to:
-‘Select one enemy unit within 24" of and visible to the manifesting               ‘EXALTED SORCERER model only. Once per battle, when selecting a
-model. Until the end of the phase, each time a THOUSAND SONS or                   Ritual for the bearer to attempt, you can select Doombolt, even if a
-SCINTILLATING LEGIONS model from your army makes an attack that                   model from your army have already attempted to manifest that Ritual
-targets that unit, re-roll a Hit roll of 1. If the Psychic test result for this   this phase.
+Destiny’s Ruin (Psychic)
+Change to:
+‘Select one enemy unit within 24" of and visible to the manifesting
+model. Until the end of the phase, each time a THOUSAND SONS or
+SCINTILLATING LEGIONS model from your army makes an attack that
+targets that unit, re-roll a Hit roll of 1. If the Psychic test result for this
 Ritual was 10+, you can re-roll the Hit roll instead.’
-                                                                                  Umbralefic Crystal Enhancement
-Temporal Surge (Psychic)                                                          Change to:
-Change to:                                                                        ‘THOUSAND SONS model only. (Once per battle, per army) In your
-‘Select one friendly THOUSAND SONS or SCINTILLATING LEGIONS unit that             Command phase, if this unit is unengaged, you can use this ability. If
-is not within Engagement Range of one or more enemy units and is                  you do:
-within 24" of and visible to the manifesting model. That unit can make            ▪ Place this unit in strategic reserves.
-a Normal move of up to D6". If the Psychic test result for this Ritual            ▪ This unit has Deep Strike until the start of your next Shooting phase.
-was 10+, that unit can make a Normal move of up to 6" instead. In                 ▪ This unit must make an ingress move in your next Movement phase
-either case, until the end of the turn, that unit is not eligible to declare         (including in your first turn).’
+Temporal Surge (Psychic)
+Change to:
+‘Select one friendly THOUSAND SONS or SCINTILLATING LEGIONS unit that
+is not within Engagement Range of one or more enemy units and is
+within 24" of and visible to the manifesting model. That unit can make
+a Normal move of up to D6". If the Psychic test result for this Ritual
+was 10+, that unit can make a Normal move of up to 6" instead. In
+either case, until the end of the turn, that unit is not eligible to declare
 a charge.’
-                                                                                  WARPFORGED CABAL DETACHMENT
-Twist of Fate (Psychic)                                                           Hex-marked Armour Stratagem, Effect Section
-Change to:                                                                        Change to:
-‘Select one enemy unit within 24" of and visible to the manifesting               ‘Until the attacking unit has finished making its attacks, each time an
-model. Until the end of the phase, each time a THOUSAND SONS or                   attack targets your unit, worsen the Armour Penetration characteristic
-SCINTILLATING LEGIONS model from your army makes an attack that                   of that attack by 1.’
+Twist of Fate (Psychic)
+Change to:
+‘Select one enemy unit within 24" of and visible to the manifesting
+model. Until the end of the phase, each time a THOUSAND SONS or
+SCINTILLATING LEGIONS model from your army makes an attack that
 targets that unit, improve the Armour Penetration characteristic of that
-attack by 1. If the Psychic test result for this Ritual was 12+, improve the      Ensorcelled Infusion Stratagem, Target Section
-Armour Penetration characteristic of that attack by 2 instead.’                   Change to:
-                                                                                  ‘One THOUSAND SONS VEHICLE unit from your army that has not been
-                                                                                  selected to shoot this phase, that is within 6" of one or more friendly
-                                                                                  THOUSAND SONS PSYKER units.’
+attack by 1. If the Psychic test result for this Ritual was 12+, improve the
+Armour Penetration characteristic of that attack by 2 instead.’
+SONS
+UPDATES
+rules, designed to improve the gaming experience for all players.
+be highlighted in red.
+CHANGEHOST OF DECEIT DETACHMENT
+Ethereal Phantasm Stratagem, Target Section
+Change 9" to 8".
+Chronosorcerous Bleed Stratagem
+Change to:
+WHEN: Start of your opponent's Charge phase.
+TARGET: One friendly unengaged THOUSAND SONS PSYKER/
+SCINTILLATING LEGIONS unit.
+EFFECT: Select one visible enemy unit within 12" of your unit.
+When that enemy unit declares a charge, that enemy unit has -1 to
+charge rolls.
+GRAND COVEN DETACHMENT
+Incandaeum Enhancement
+Change to:
+‘EXALTED SORCERER model only. Once per battle, when selecting a
+Ritual for the bearer to attempt, you can select Doombolt, even if a
+model from your army have already attempted to manifest that Ritual
+this phase.
+Umbralefic Crystal Enhancement
+Change to:
+‘THOUSAND SONS model only. (Once per battle, per army) In your
+Command phase, if this unit is unengaged, you can use this ability. If
+you do:
+▪ Place this unit in strategic reserves.
+▪ This unit has Deep Strike until the start of your next Shooting phase.
+▪ This unit must make an ingress move in your next Movement phase
+(including in your first turn).’
+WARPFORGED CABAL DETACHMENT
+Hex-marked Armour Stratagem, Effect Section
+Change to:
+‘Until the attacking unit has finished making its attacks, each time an
+attack targets your unit, worsen the Armour Penetration characteristic
+of that attack by 1.’
+Ensorcelled Infusion Stratagem, Target Section
+Change to:
+‘One THOUSAND SONS VEHICLE unit from your army that has not been
+selected to shoot this phase, that is within 6" of one or more friendly
+THOUSAND SONS PSYKER units.’
+Ensorcelled Infusion Stratagem, CP Cost
+Change to '2CP'.
 
-                                                                                  Ensorcelled Infusion Stratagem, CP Cost
-                                                                                  Change to '2CP'.
-WARPMELD PACT DETACHMENT                                                      Kairos Fateweaver, Ranged Weapons, Infernal Gateway
-Bray Lord Enhancement                                                         Change profiles to:
+WARPMELD PACT DETACHMENT
+Bray Lord Enhancement
 SORCERER or INFERNAL MASTER model only. The bearer has the
-Scouts 6" ability.                                                            Infernal Gateway - Witchfire
-                                                                              [BLAST, INDIRECT FIRE, PSYCHIC]
-Twisted Mirage Stratagem, Effect Section                                            RANGE            A       BS      S     AP     D
+Scouts 6" ability.
+Twisted Mirage Stratagem, Effect Section
 ▪ Change 3" to 6".
-                                                                                      24"          D6+3      2+      9     -2    D3
 ▪ Change 9" to 8".
-                                                                              Infernal Gateway - Focused Witchfire
-Warpmeld Sacrifice Detachment Rule                                            [BLAST, INDIRECT FIRE, HAZARDOUS, PSYCHIC]
-Change to:                                                                          RANGE            A       BS      S     AP     D
+Warpmeld Sacrifice Detachment Rule
+Change to:
 ‘Each time an enemy unit is selected to shoot or fight and one or more
-                                                                                      24"          D3+6      2+      9     -2     3
 TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED units from
 your army are selected as a target of one or more of those attacks, each
-of those TZEENTCH MUTANT units can make a Warpmeld Sacrifice. If it           Mutalith Vortex Beast, Immaterial Flare Ability
-does, until the end of the phase, each time an attack targets that unit,      Change to:
-subtract 1 from the Wound roll. At the end of the phase, that TZEENTCH        ‘While a friendly THOUSAND SONS PSYKER model is within 6" of this
-MUTANT unit suffers D3 mortal wounds.                                         model, each time that model Channels the Warp (pg 67), add 1 to the
-                                                                              Psychic test result. This is not cumulative with any other modifiers to
-Each time a TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED               the Psychic test result.
+of those TZEENTCH MUTANT units can make a Warpmeld Sacrifice. If it
+does, until the end of the phase, each time an attack targets that unit,
+subtract 1 from the Wound roll. At the end of the phase, that TZEENTCH
+MUTANT unit suffers D3 mortal wounds.
+Each time a TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED
 unit from your army is selected to shoot or fight, before selecting its
-targets, that unit can make a Warpmeld Sacrifice. If it does, until the       Lord of Change, Ranged Weapons
-end of the phase, each time a model in that unit makes an attack, add 1       ▪ Change the Bolt of Change profiles to:
+targets, that unit can make a Warpmeld Sacrifice. If it does, until the
+end of the phase, each time a model in that unit makes an attack, add 1
 to the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit
-suffers D3 mortal wounds.’                                                    Bolt of Change - Witchfire [PSYCHIC]
-                                                                                    RANGE            A       BS      S     AP     D
+suffers D3 mortal wounds.’
 DATASHEETS
-                                                                                      18"            9       2+      9     -1     1
 Chaos Land Raider, Chaos Predator Annihilator, Chaos Predator
-Destructor, Chaos Rhino and Chaos Vindicator – Keywords Section               Bolt of Change - Focused Witchfire [HAZARDOUS, PSYCHIC]
-Add ‘FRAME’.                                                                        RANGE            A       BS      S     AP     D
-                                                                                      18"            9       2+      9     -2     3
+Destructor, Chaos Rhino and Chaos Vindicator – Keywords Section
+Add ‘FRAME’.
 Heldrake
 ▪ Profile: Change M to 12" and OC to '-'.
-▪ Keywords: Remove 'AIRCRAFT'.                                               ▪ Change the rod of sorcery profile to:
-
-Chaos Rhino, Core Abilities                                                   Rod of Sorcery [PSYCHIC]
-Add ‘Firing Deck 2’.                                                                RANGE            A       BS      S     AP     D
-                                                                                      18"            6       2+      8     -1     2
+▪ Keywords:  Remove 'AIRCRAFT'.
+Chaos Rhino, Core Abilities
+Add ‘Firing Deck 2’.
 Chaos Vindicator, Profile
 Change M to 9".
-                                                                              Maulerfiend, Snarling Protector Ability
-Daemon Prince of Tzeentch with Wings, Aetherstride Ability                    Change to:
-Change to:                                                                    ▪ 'You can target this unit with the Heroic Intervention stratagem,
-‘In your Movement phase, when this model is set up on the battlefield            regardless of any other uses of that stratagem this phase. If you do:
-using the Deep Strike ability, it can perform an aetherstride. If it does:         ▫ That use is -1 CP.
-▪ It can be set up anywhere on the battlefield that is more than 6"               ▫ That use does not prevent any uses of that stratagem on other
-   horizontally away from all enemy units.                                            units this phase.
-▪ Until the end of the turn, its Dark Blessing has the                            ▫ When this unit declares a charge, If a friendly engaged PSYKER
-   [SUSTAINED HITS D3] ability.                                                       unit is within 12" of this unit, you can use this part of this ability.
-▪ Until the end of the turn, it is not eligible to declare a charge.’                If you do:
-                                                                                      • This unit can re-roll that charge roll.
-Flamers, Profile                                                                      • This unit must end that charge move engaged with an enemy
-Change Ld to 7+.                                                                          unit engaged with that friendly PSYKER unit.
-
-Infernal Master, Ranged Weapons, inferno bolt pistol                          Screamers, Profile
-Add ‘[PISTOL]’.                                                               Change Ld to 7+.
-
-Kairos Fateweaver, One Head Looks Back Ability                                Sekhetar Robots, Prophetic Sentinels Ability
-Change to:                                                                    Change to:
-‘Once per turn, when your opponent targets a unit from their army             'Once per turn, when you target this unit with the Fire Overwatch/
-within 12" of this model with a stratagem, you can use this ability. If you   Heroic Intervention stratagem, that use is -1 CP.'
+Daemon Prince of Tzeentch with Wings, Aetherstride Ability
+Change to:
+‘In your Movement phase, when this model is set up on the battlefield
+using the Deep Strike ability, it can perform an aetherstride. If it does:
+▪ It can be set up anywhere on the battlefield that is more than 6"
+horizontally away from all enemy units.
+▪ Until the end of the turn, its Dark Blessing has the
+[SUSTAINED HITS D3] ability.
+▪ Until the end of the turn, it is not eligible to declare a charge.’
+Flamers, Profile
+Change Ld to 7+.
+Infernal Master, Ranged Weapons, inferno bolt pistol
+Add ‘[PISTOL]’.
+Kairos Fateweaver, One Head Looks Back Ability
+Change to:
+‘Once per turn, when your opponent targets a unit from their army
+within 12" of this model with a stratagem, you can use this ability. If you
 do, increase the CP cost of that use of that stratagem by 1CP.’
-                                                                              Sorcerer in Terminator Armour, Marked by Fate Ability
-                                                                              Change to:
-‘At the start of your Shooting phase, select one enemy unit that is visible   FAQS
-to this PSYKER model. Until the end of the phase, each time a model           Q: When using the Touched by Tzeentch Stratagem in the Warpmeld
-in this unit makes an attack that targets that enemy unit, add 1 to the       Pact Detachment, do I have to declare if my unit will shoot or charge
-Hit roll.’                                                                    after Advancing as soon as I use the Stratagem?
-                                                                              A: No, you may decide later in the turn.
+Kairos Fateweaver, Ranged Weapons, Infernal Gateway
+Change profiles to:
+Infernal Gateway - Witchfire
+[BLAST, INDIRECT FIRE, PSYCHIC]
+RANGE A BS S AP D
+24" D6+3 2+ 9 -2 D3
+Infernal Gateway - Focused Witchfire
+[BLAST, INDIRECT FIRE, HAZARDOUS, PSYCHIC]
+RANGE A BS S AP D
+24" D3+6 2+ 9 -2 3
+Mutalith Vortex Beast, Immaterial Flare Ability
+Change to:
+‘While a friendly THOUSAND SONS PSYKER model is within 6" of this
+model, each time that model Channels the Warp (pg 67), add 1 to the
+Psychic test result. This is not cumulative with any other modifiers to
+the Psychic test result.
+Lord of Change, Ranged Weapons
+▪ Change the Bolt of Change profiles to:
+Bolt of Change - Witchfire [PSYCHIC]
+RANGE A BS S AP D
+18" 9 2+ 9 -1 1
+Bolt of Change - Focused Witchfire [HAZARDOUS, PSYCHIC]
+RANGE A BS S AP D
+18" 9 2+ 9 -2 3
+▪ Change the rod of sorcery profile to:
+Rod of Sorcery [PSYCHIC]
+RANGE A BS S AP D
+18" 6 2+ 8 -1 2
+Maulerfiend, Snarling Protector Ability
+Change to:
+▪ 'You can target this unit with the Heroic Intervention stratagem,
+regardless of any other uses of that stratagem this phase. If you do:
+▫ That use is -1 CP.
+▫ That use does not prevent any uses of that stratagem on other
+units this phase.
+▫ When this unit declares a charge, If a friendly engaged PSYKER
+unit is within 12" of this unit, you can use this part of this ability.
+If you do:
+• This unit can re-roll that charge roll.
+• This unit must end that charge move engaged with an enemy
+unit engaged with that friendly PSYKER unit.
+Screamers, Profile
+Change Ld to 7+.
+Sekhetar Robots, Prophetic Sentinels Ability
+Change to:
+'Once per turn, when you target this unit with the Fire Overwatch/
+Heroic Intervention stratagem, that use is -1 CP.'
+Sorcerer in Terminator Armour, Marked by Fate Ability
+Change to:
+
+‘At the start of your Shooting phase, select one enemy unit that is visible
+to this PSYKER model. Until the end of the phase, each time a model
+in this unit makes an attack that targets that enemy unit, add 1 to the
+Hit roll.’
 Tzaangor Enlightened with Fatecaster Greatbows,
-Malign Trickery Ability                                                       Q: When going second, can a Tzaangor unit that started the game
-Change to:                                                                    on the battlefield and was placed into Strategic Reserves by its
-'In your opponent's Movement phase, if an enemy unit ends a move              Ambushing Hunters ability then arrive during my first turn using the
-within 8" of this unit, if this unit is not within Engagement Range of one    Twisted Mirage Stratagem?
-or more enemy units, this unit can make a Normal move of up to D6".'          A: No.
-
-                                                                              Q: Can the Exalted Sorcerer on Disk of Tzeentch and the Tzaangor
-                                                                              Shaman lead Tzaangor Enlightened with fatecaster greatbows?
-                                                                              A: Yes.
-
-                                                                              Q: While using the Rubricae Phalanx Detachment, if I attach a
-                                                                              CHARACTER to a unit selected using the Risen Rubricae Enhancement,
-                                                                              does that CHARACTER also gain the Infiltrators ability?
-                                                                              A: Yes.
-
-                                                                              Q: When using the Cabal of Sorcerers army rule, do I have to choose
-                                                                              whether to Channel the Warp before rolling any dice?
-                                                                              A: No.
-
-                                                                              Q: When using the Cabal of Sorcerers army rule, if I roll one or more
-                                                                              doubles or triples, does my model only suffer D3 mortal wounds if I
-                                                                              chose to Channel the Warp?
-                                                                              A: Yes.
-
-                                                                              Q: Do I need to sequence all of my Cabal of Sorcerers Rituals at the start
-                                                                              of my Shooting phase?
-                                                                              A: No, you just pick a model with the Cabal of Sorcerers rule, pick a
-                                                                              Ritual to manifest, and attempt it, then repeat the process until you
-                                                                              have run out of models or Rituals or both.
-
+Malign Trickery Ability
+Change to:
+'In your opponent's Movement phase, if an enemy unit ends a move
+within 8" of this unit, if this unit is not within Engagement Range of one
+or more enemy units, this unit can make a Normal move of up to D6".'
+FAQS
+Q: When using the Touched by Tzeentch Stratagem in the Warpmeld
+Pact Detachment, do I have to declare if my unit will shoot or charge
+after Advancing as soon as I use the Stratagem?
+A: No, you may decide later in the turn.
+Q: When going second, can a Tzaangor unit that started the game
+on the battlefield and was placed into Strategic Reserves by its
+Ambushing Hunters ability then arrive during my first turn using the
+Twisted Mirage Stratagem?
+A: No.
+Q: Can the Exalted Sorcerer on Disk of Tzeentch and the Tzaangor
+Shaman lead Tzaangor Enlightened with fatecaster greatbows?
+A: Yes.
+Q: While using the Rubricae Phalanx Detachment, if I attach a
+CHARACTER to a unit selected using the Risen Rubricae Enhancement,
+does that CHARACTER also gain the Infiltrators ability?
+A: Yes.
+Q: When using the Cabal of Sorcerers army rule, do I have to choose
+whether to Channel the Warp before rolling any dice?
+A: No.
+Q: When using the Cabal of Sorcerers army rule, if I roll one or more
+doubles or triples, does my model only suffer D3 mortal wounds if I
+chose to Channel the Warp?
+A: Yes.
+Q: Do I need to sequence all of my Cabal of Sorcerers Rituals at the start
+of my Shooting phase?
+A: No, you just pick a model with the Cabal of Sorcerers rule, pick a
+Ritual to manifest, and attempt it, then repeat the process until you
+have run out of models or Rituals or both.

@@ -1,32 +1,34 @@
-                                                  DEATHWATCH
-                                               FACTION PACK: VERSION 1.0
-                                                   Legal for matched play from 20th June 2026
-
-On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
-datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
+DEATHWATCH
+FACTION PACK:
+Legal for matched play
+On the following pages you will find additional rules and clarifications
+datasheets to rules updates and FAQs. All of these changes are also
 for your units and detachments.
-
-
-WHAT’S NEW?                                                                  CONTENTS
-This is the first iteration of this Faction Pack for this edition of         Index: Deathwatch�������������������������������������������������������������������������2
+WHAT’S NEW?
+This is the first iteration of this Faction Pack for this edition of
 Warhammer 40,000, combining some earlier updates with new
 revisions designed to smooth the transition. As such, all of the following
 content should be regarded as new, and individual changes are not
 highlighted. The next time this document is updated, this section will
 summarise what has been added or changed.
-DEATHWATCH
-ARMY RULE
-From their hidden bases in orbiting watch fortresses, the Deathwatch dispatch carefully selected operatives to
-hunt down and exterminate alien presences wherever they may be found. Each of these post-human warriors
-is a veteran of countless battles, tithed by their original Chapter to undertake the Long Vigil and guard against
-alien incursion.
+VERSION 1.0
+from 20th June 2026
+that supplement your Codex, from extra detachments and
+updated in the Warhammer 40,000 app, along with points values
+CONTENTS
+Index: Deathwatch�������������������������������������������������������������������������2
 
+DEATHWATCH
+ARMY RULE
+From their hidden bases in orbiting watch fortresses, the
+hunt down and exterminate alien presences wherever
+is a veteran of countless battles, tithed by their original
+alien incursion.
 KILL TEAMS
 When faced with an array of missions to complete
 and varying enemies to lay low, the Deathwatch are
 highly adept at forming effective kill teams that mesh
 starkly diverse armour and equipment.
-
 Each time an attack targets a Kill Team unit from your
 army that contains models with different Toughness
 characteristics, until the attacking unit has finished
@@ -36,192 +38,229 @@ determining what result is required for that attack
 to successfully wound. If two or more Toughness
 characteristics are tied for majority, use the highest
 Toughness characteristic.
-
 For the purposes of determining which models
 can embark within a Transport model, Kill Team
 models follow the normal restrictions listed on the
 Transport model.
-DEATHWATCH – BLACK SPEAR TASK FORCE
+Deathwatch dispatch carefully selected operatives to
+they may be found. Each of these post-human warriors
+Chapter to undertake the Long Vigil and guard against
+
+DEATHWATCH – BLACK SPEAR
 DETACHMENT RULE
-If your Army Faction is Adeptus Astartes, you can          MISSION TACTICS
+If your Army Faction is Adeptus Astartes, you can
 use this Black Spear Task Force Detachment rule.
-                                                          Thousands of years of collated strategic data and
-                                                          hard-won combat experience have provided the
-RESTRICTIONS                                              Deathwatch with the ultimate battlefield tactics to
-■ Your army can include Adeptus Astartes                 combat almost any foe.
-   Deathwatch units, but it cannot include any
-   Adeptus Astartes units drawn from any                  At the start of your Command phase, you can select
-   other Chapter.                                         one of the Mission Tactics listed below. Until the start
-■ With the exception of Kill Team Cassius (see           of your next Command phase, that Mission Tactic
-   Legends: Agents of the Imperium), your army            is active and its effects apply to all units from your
-   cannot include any Agents of the Imperium              army with this ability. Each Mission Tactic can only be
-   Deathwatch units.                                      selected once per battle.
+RESTRICTIONS
+■ Your army can include Adeptus Astartes
+Deathwatch units, but it cannot include any
+Adeptus Astartes units drawn from any
+other Chapter.
+■ With the exception of Kill Team Cassius (see
+Legends: Agents of the Imperium), your army
+cannot include any Agents of the Imperium
+Deathwatch units.
 ■ Your army cannot include any of the following units:
-   Assault Squad; Assault Squad with Jump Packs;
-                                                          FUROR TACTICS
-   Attack Bike Squad; Devastator Squad; Land              When the enemy horde grows close, the Deathwatch
-   Speeder Storm; Relic Terminator Squad; Scout           will be tasked with the decimation of their core.
-   Bike Squad; Scout Squad; Scout Sniper Squad;           Aiming not for clinical kills but for maximum
-   Tactical Squad; Terminator Assault Squad;              destruction over a wide area, they tear the heart from
-   Terminator Squad.                                      the enemy army.
+Assault Squad; Assault Squad with Jump Packs;
+Attack Bike Squad; Devastator Squad; Land
+Speeder Storm; Relic Terminator Squad; Scout
+Bike Squad; Scout Squad; Scout Sniper Squad;
+Tactical Squad; Terminator Assault Squad;
+Terminator Squad.
+TASK FORCE
+MISSION TACTICS
+Thousands of years of collated strategic data and
+hard-won combat experience have provided the
+Deathwatch with the ultimate battlefield tactics to
+combat almost any foe.
+At the start of your Command phase, you can select
+one of the Mission Tactics listed below. Until the start
+of your next Command phase, that Mission Tactic
+is active and its effects apply to all units from your
+army with this ability. Each Mission Tactic can only be
+selected once per battle.
+FUROR TACTICS
+When the enemy horde grows close, the Deathwatch
+will be tasked with the decimation of their core.
+Aiming not for clinical kills but for maximum
+destruction over a wide area, they tear the heart from
+the enemy army.
+While this Mission Tactic is active, weapons equipped
+by Adeptus Astartes units from your army have the
+[SUSTAINED HITS 1 ] ability.
+MALLEUS TACTICS
+When the giants of war lumber forth, the Deathwatch
+will adopt Malleus tactics. Even the largest behemoth
+has a weak point, and the archives of the Deathwatch
+number them all.
+While this Mission Tactic is active, weapons equipped
+by Adeptus Astartes units from your army have the
+[LETHAL HITS] ability.
+PURGATUS TACTICS
+By adopting Purgatus tactics, the Deathwatch focus
+their deadly ire upon the commanders of the enemy
+host, assassinating them one after another with
+pitiless head shots and killing thrusts of the blade.
+While this Mission Tactic is active, each time an
+Adeptus Astartes unit from your army makes an
+attack, if a Critical Hit is scored, that attack has the
+[PRECISION] ability.
 
-                                                          While this Mission Tactic is active, weapons equipped
-                                                          by Adeptus Astartes units from your army have the
-                                                          [SUSTAINED HITS 1] ability.
-
-                                                          MALLEUS TACTICS
-                                                          When the giants of war lumber forth, the Deathwatch
-                                                          will adopt Malleus tactics. Even the largest behemoth
-                                                          has a weak point, and the archives of the Deathwatch
-                                                          number them all.
-
-                                                          While this Mission Tactic is active, weapons equipped
-                                                          by Adeptus Astartes units from your army have the
-                                                          [LETHAL HITS] ability.
-
-                                                          PURGATUS TACTICS
-                                                          By adopting Purgatus tactics, the Deathwatch focus
-                                                          their deadly ire upon the commanders of the enemy
-                                                          host, assassinating them one after another with
-                                                          pitiless head shots and killing thrusts of the blade.
-
-                                                          While this Mission Tactic is active, each time an
-                                                          Adeptus Astartes unit from your army makes an
-                                                          attack, if a Critical Hit is scored, that attack has the
-                                                          [PRECISION] ability.
-DEATHWATCH – BLACK SPEAR TASK FORCE
+DEATHWATCH – BLACK SPEAR
 STRATAGEMS
- If you are using the Black Spear Task Force Detachment rule, you can use these Black Spear Task
- Force Stratagems.
+If you are using the Black Spear Task Force Detachment
+Force Stratagems.
+ARMOUR OF CONTEMPT
+BLACK SPEAR TASK FORCE –
+BATTLE TACTIC STRATAGEM
+The belligerency and transhuman
+physiologies of the Adeptus Astartes make
+them unyielding foes.
+WHEN: Your opponent’s Shooting phase or
+1CP the Fight phase, just after an enemy unit
+has selected its targets.
+TARGET: One Adeptus Astartes unit
+from your army that was selected as the
+target of one or more of the attacking
+unit’s attacks.
+EFFECT: Until the attacking unit has
+finished making its attacks, each time
+an attack targets your unit, worsen the
+Armour Penetration characteristic of that
+attack by 1.
+ADAPTIVE TACTICS
+BLACK SPEAR TASK FORCE –
+STRATEGIC PLOY STRATAGEM
+1CP Only a truly versatile approach to warfare
+allows the tactical genius of the Deathwatch
+to best the myriad xenos foes they face.
+WHEN: Your Command phase.
+TARGET: Up to two Kill Team units
+from your army, or one other Adeptus
+Astartes unit from your army.
+EFFECT: For each unit targeted, select
+Furor Tactics, Malleus Tactics or Purgatus
+Tactics. Until the start of your next
+Command phase, that Mission Tactic is
+active for that unit instead of any Mission
+Tactic that is active for your army.
+TASK FORCE
+rule, you can use these Black Spear Task
+HELLFIRE ROUNDS
+BLACK SPEAR TASK FORCE – WARGEAR STRATAGEM
+Hellfire rounds douse their targets in
+1CP voracious acids that are utterly lethal to
+organic life.
+WHEN: Your Shooting phase.
+TARGET: One Kill Team unit from your
+army that has not been selected to shoot
+this phase.
+EFFECT: Until the end of the phase, ranged
+weapons (excluding Devastating Wounds
+weapons) equipped by models in your
+unit have the [ANTI-INFANTRY 2+] and
+[ANTI-MONSTER 5+] abilities.
+RESTRICTIONS: You cannot select any
+units that have already been targeted with
+either the Kraken Rounds or Dragonfire
+Rounds Stratagems this phase.
+KRAKEN ROUNDS
+BLACK SPEAR TASK FORCE – WARGEAR STRATAGEM
+Kraken rounds utilise adamantine cores
+1CP and improved propellants to penetrate the
+thickest hide.
+WHEN: Your Shooting phase.
+TARGET: One Kill Team unit from your
+army that has not been selected to shoot
+this phase.
+EFFECT: Until the end of the phase,
+improve the Armour Penetration
+characteristic of ranged weapons
+equipped by models in your unit by 1 and
+improve the Range characteristic of those
+weapons by 6".
+RESTRICTIONS: You cannot select any
+units that have already been targeted with
+either the Dragonfire Rounds or Hellfire
+Rounds Stratagems this phase.
 
-          ARMOUR OF CONTEMPT                                     HELLFIRE ROUNDS
-          BLACK SPEAR TASK FORCE –                               BLACK SPEAR TASK FORCE – WARGEAR STRATAGEM
-          BATTLE TACTIC STRATAGEM
-                                                                 Hellfire rounds douse their targets in
-          The belligerency and transhuman                        voracious acids that are utterly lethal to
-          physiologies of the Adeptus Astartes make      1CP     organic life.
-          them unyielding foes.
-                                                                 WHEN: Your Shooting phase.
-          WHEN: Your opponent’s Shooting phase or
-                                                                 TARGET: One Kill Team unit from your
-          the Fight phase, just after an enemy unit
- 1CP                                                             army that has not been selected to shoot
-          has selected its targets.
-                                                                 this phase.
-          TARGET: One Adeptus Astartes unit
-                                                                 EFFECT: Until the end of the phase, ranged
-          from your army that was selected as the
-                                                                 weapons (excluding Devastating Wounds
-          target of one or more of the attacking
-                                                                 weapons) equipped by models in your
-          unit’s attacks.
-                                                                 unit have the [ANTI-INFANTRY 2+] and
-          EFFECT: Until the attacking unit has                   [ANTI-MONSTER 5+] abilities.
-          finished making its attacks, each time
-          an attack targets your unit, worsen the                RESTRICTIONS: You cannot select any
-          Armour Penetration characteristic of that              units that have already been targeted with
-          attack by 1.                                           either the Kraken Rounds or Dragonfire
-                                                                 Rounds Stratagems this phase.
-
-          ADAPTIVE TACTICS
-                                                                 KRAKEN ROUNDS
-          BLACK SPEAR TASK FORCE –
-          STRATEGIC PLOY STRATAGEM                               BLACK SPEAR TASK FORCE – WARGEAR STRATAGEM
-
-          Only a truly versatile approach to warfare             Kraken rounds utilise adamantine cores
- 1CP      allows the tactical genius of the Deathwatch           and improved propellants to penetrate the
-          to best the myriad xenos foes they face.
-                                                         1CP     thickest hide.
-
-          WHEN: Your Command phase.                              WHEN: Your Shooting phase.
-          TARGET: Up to two Kill Team units                      TARGET: One Kill Team unit from your
-          from your army, or one other Adeptus                   army that has not been selected to shoot
-          Astartes unit from your army.                          this phase.
-          EFFECT: For each unit targeted, select                 EFFECT: Until the end of the phase,
-          Furor Tactics, Malleus Tactics or Purgatus             improve the Armour Penetration
-          Tactics. Until the start of your next                  characteristic of ranged weapons
-          Command phase, that Mission Tactic is                  equipped by models in your unit by 1 and
-          active for that unit instead of any Mission            improve the Range characteristic of those
-          Tactic that is active for your army.                   weapons by 6".
-                                                                 RESTRICTIONS: You cannot select any
-                                                                 units that have already been targeted with
-                                                                 either the Dragonfire Rounds or Hellfire
-                                                                 Rounds Stratagems this phase.
-DEATHWATCH – BLACK SPEAR TASK FORCE
+DEATHWATCH – BLACK SPEAR
 STRATAGEMS
- If you are using the Black Spear Task Force Detachment rule, you can use these Black Spear Task
- Force Stratagems.
+If you are using the Black Spear Task Force Detachment
+Force Stratagems.
+DRAGONFIRE ROUNDS
+BLACK SPEAR TASK FORCE – WARGEAR STRATAGEM
+Dragonfire rounds are designed to explode
+1CP just before contact, saturating foes in cover
+with searing gas and flames.
+WHEN: Your Shooting phase.
+TARGET: One Kill Team unit from your
+army that has not been selected to shoot
+this phase.
+EFFECT: Until the end of the phase,
+ranged weapons equipped by models
+in your unit have the [ASSAULT] and
+[IGNORES COVER] abilities.
+RESTRICTIONS: You cannot select any
+units that have already been targeted
+with either the Kraken Rounds or Hellfire
+Rounds Stratagems this phase.
+TASK FORCE
+rule, you can use these Black Spear Task
+SITE-TO-SITE TELEPORTATION
+BLACK SPEAR TASK FORCE –
+STRATEGIC PLOY STRATAGEM
+1CP Site-to-site battlefield teleportation is a
+rare capability indeed, used only by the
+Deathwatch in extreme situations.
+WHEN: End of your opponent’s
+Fight phase.
+TARGET: Up to two Kill Team units
+from your army, or one other Adeptus
+Astartes Infantry unit from your army,
+if those units are not within Engagement
+Range of one or more enemy units.
+EFFECT: Remove those units from the
+battlefield and place them into Strategic
+Reserves. Until the end of your next
+Movement phase, models in those units
+that do not have the Deep Strike ability
+have the Deep Strike ability.
 
-          DRAGONFIRE ROUNDS                                      SITE-TO-SITE TELEPORTATION
-          BLACK SPEAR TASK FORCE – WARGEAR STRATAGEM             BLACK SPEAR TASK FORCE –
-                                                                 STRATEGIC PLOY STRATAGEM
-          Dragonfire rounds are designed to explode
-          just before contact, saturating foes in cover          Site-to-site battlefield teleportation is a
- 1CP      with searing gas and flames.                    1CP    rare capability indeed, used only by the
-                                                                 Deathwatch in extreme situations.
-          WHEN: Your Shooting phase.
-                                                                 WHEN: End of your opponent’s
-          TARGET: One Kill Team unit from your
-                                                                 Fight phase.
-          army that has not been selected to shoot
-          this phase.                                            TARGET: Up to two Kill Team units
-                                                                 from your army, or one other Adeptus
-          EFFECT: Until the end of the phase,
-                                                                 Astartes Infantry unit from your army,
-          ranged weapons equipped by models
-                                                                 if those units are not within Engagement
-          in your unit have the [ASSAULT] and
-                                                                 Range of one or more enemy units.
-          [IGNORES COVER] abilities.
-                                                                 EFFECT: Remove those units from the
-          RESTRICTIONS: You cannot select any
-                                                                 battlefield and place them into Strategic
-          units that have already been targeted
-                                                                 Reserves. Until the end of your next
-          with either the Kraken Rounds or Hellfire
-          Rounds Stratagems this phase.                          Movement phase, models in those units
-                                                                 that do not have the Deep Strike ability
-                                                                 have the Deep Strike ability.
-DEATHWATCH – BLACK SPEAR TASK FORCE
+DEATHWATCH – BLACK SPEAR
 ENHANCEMENTS
-If you are using the Black Spear Task Force Detachment rule, you can use these Black Spear Task
+If you are using the Black Spear Task Force Detachment
 Force Enhancements.
-
-THIEF OF SECRETS                                                BEACON ANGELIS
-The Thief of Secrets is a blade whose machine                   The Beacon Angelis was devised to guide the
-spirit has an unquenchable thirst for knowledge.                Deathwatch to the threshold of the alien adversary.
-It has tasted the vitae of countless alien races,               Housed within a reliquary, it calls out to the warriors’
-absorbing those liquids through auto-sanctified                 augur arrays with the voices of a hundred electric
-sanguinator-channels and codifying them through                 cherubim, its summons so strong that it draws the
-the honeycombed array of logicum cells within. The              righteous unto its locale regardless of what darkness
-biological secrets of many xenos races have thus                may surround it.
+THIEF OF SECRETS
+The Thief of Secrets is a blade whose machine
+spirit has an unquenchable thirst for knowledge.
+It has tasted the vitae of countless alien races,
+absorbing those liquids through auto-sanctified
+sanguinator-channels and codifying them through
+the honeycombed array of logicum cells within. The
+biological secrets of many xenos races have thus
 been laid bare, allowing the blade’s user to modulate
-its power field, the better to slice through chitinous          Adeptus Astartes model only. Models in the bearer’s
-armour, rupture xenoform organs and burn out alien              unit have the Deep Strike ability. In addition, you
-nervous systems.                                                can target the bearer’s unit with the Rapid Ingress
-                                                                Stratagem for 0CP.
+its power field, the better to slice through chitinous
+armour, rupture xenoform organs and burn out alien
+nervous systems.
 Adeptus Astartes model only. Improve the Strength,
-Damage and Armour Penetration characteristics of                THE TOME OF ECTOCLADES
+Damage and Armour Penetration characteristics of
 the bearer’s melee weapons by 1. At the end of the
-Fight phase, if one or more enemy models were                   This grimoire, bound in the skin of the alien, holds
-destroyed as a result of a melee attack made by the             the most powerful truths the Deathwatch have
-bearer this phase, until the end of the battle, improve         uncovered about their foes, whether xenos or those
-the Strength, Damage and Armour Penetration                     who harbour them. On occasion, such knowledge has
-characteristics of the bearer’s melee weapons by                been known to save not only the book’s custodian,
-2 instead.                                                      but entire worlds.
-
-OSSEUS KEY                                                      Watch Master or Captain model only. Once per
-                                                                battle, after you have selected your Oath of Moment
-The ancient clavis known as the Osseus Key is said              target, the bearer can use this Enhancement. If it
-to be the most powerful of its kind. Where other such           does, select a second enemy unit to be an Oath of
-devices are made from sanctified platinum, the                  Moment target.
+Fight phase, if one or more enemy models were
+destroyed as a result of a melee attack made by the
+bearer this phase, until the end of the battle, improve
+the Strength, Damage and Armour Penetration
+characteristics of the bearer’s melee weapons by
+2 instead.
+OSSEUS KEY
+The ancient clavis known as the Osseus Key is said
+to be the most powerful of its kind. Where other such
+devices are made from sanctified platinum, the
 Osseus Key is made from the hand and finger bones
-of deceased Imperial Fists heroes that fought in the            Designer’s Note: This means that each time a model
-Horus Heresy, scrimshawed with inhuman care and                 with the Oath of Moment ability makes an attack that
-imbued with the fiercest machine spirits of the age.            targets either of your Oath of Moment targets, you can
-No portal can bar its bearer from entry, and no xenos           re-roll the Hit roll.
+of deceased Imperial Fists heroes that fought in the
+Horus Heresy, scrimshawed with inhuman care and
+imbued with the fiercest machine spirits of the age.
+No portal can bar its bearer from entry, and no xenos
 machine can stand before his wrath.
-
 Watch Master or Techmarine model only. At the
 start of your opponent’s Shooting phase, select one
 enemy Vehicle unit (excluding Titanic units) within
@@ -230,673 +269,719 @@ Leadership test. If that test is passed, until the end of
 the phase, each time a model in that unit makes an
 attack, subtract 1 from the Hit roll; if that test is failed,
 that unit is not eligible to shoot this phase.
-WATCH MASTER
- M            T            SV   W     LD     OC
+TASK FORCE
+rule, you can use these Black Spear Task
+BEACON ANGELIS
+The Beacon Angelis was devised to guide the
+Deathwatch to the threshold of the alien adversary.
+Housed within a reliquary, it calls out to the warriors’
+augur arrays with the voices of a hundred electric
+cherubim, its summons so strong that it draws the
+righteous unto its locale regardless of what darkness
+may surround it.
+Adeptus Astartes model only. Models in the bearer’s
+unit have the Deep Strike ability. In addition, you
+can target the bearer’s unit with the Rapid Ingress
+Stratagem for 0CP.
+THE TOME OF ECTOCLADES
+This grimoire, bound in the skin of the alien, holds
+the most powerful truths the Deathwatch have
+uncovered about their foes, whether xenos or those
+who harbour them. On occasion, such knowledge has
+been known to save not only the book’s custodian,
+but entire worlds.
+Watch Master or Captain model only. Once per
+battle, after you have selected your Oath of Moment
+target, the bearer can use this Enhancement. If it
+does, select a second enemy unit to be an Oath of
+Moment target.
+Designer’s Note: This means that each time a model
+with the Oath of Moment ability makes an attack that
+targets either of your Oath of Moment targets, you can
+re-roll the Hit roll.
 
-6"           4             2+   5    6+      1
-                           4+   INVULNERABLE SAVE
 
 
-     RANGED WEAPONS                           RANGE       A   BS   S   AP   D    ABILITIES
-     Vigil spear                                   24"    2   2+   4   -1   2    CORE: Leader
+WATCH MASTER
+M T SV W LD OC
+6" 4 2+ 5 6+ 1
+4+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP
+Vigil spear 24" 2 2+ 4 -1
+MELEE WEAPONS RANGE A WS S AP
+Vigil spear [LANCE] Melee 6 2+ 6 -2
+KEYWORDS: Infantry, Character, Grenades, Imperium, Captain, Watch Master
+D ABILITIES
+2 CORE: Leader
+D FACTION: Mission Tactics, Oath of Moment
+D3 Strategic Knowledge: While this model is leading a unit, that
+unit is eligible to shoot and declare a charge in a turn in which
+it Advanced or Fell Back.
+Rites of Battle: Once per battle round, one unit from your
+army with this ability can use it when its unit is targeted with
+a Stratagem. If it does, reduce the CP cost of that use of that
+Stratagem by 1CP.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-     MELEE WEAPONS                            RANGE       A   WS   S   AP   D    FACTION: Mission Tactics, Oath of Moment
-     Vigil spear [LANCE]                          Melee   6   2+   6   -2   D3   Strategic Knowledge: While this model is leading a unit, that
-                                                                                 unit is eligible to shoot and declare a charge in a turn in which
-                                                                                 it Advanced or Fell Back.
-                                                                                 Rites of Battle: Once per battle round, one unit from your
-                                                                                 army with this ability can use it when its unit is targeted with
-                                                                                 a Stratagem. If it does, reduce the CP cost of that use of that
-                                                                                 Stratagem by 1CP.
-
-
-
-
-                                                                                       FACTION KEYWORDS:
- KEYWORDS: Infantry, Character, Grenades, Imperium, Captain, Watch Master
-                                                                                       Adeptus Astartes, Deathwatch
-WATCH MASTER
+WATCH MASTER
 The galaxy’s foremost xenos hunters, each Watch Master commands
 one of the Chapter’s vigilant fortresses. These leaders possess
 centuries of strategic and esoteric knowledge of the horrors assailing
 Mankind. In battle, the crackling blades and tailored bolts of their vigil
 spears destroy any xenos before them.
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Infantry, Character, Grenades, Imperium, Captain, Watch Master
+UNIT COMPOSITION
+■ 1 Watch Master
+This model is equipped with: vigil spear.
+LEADER
+This model can be attached to the following units:
+■ Deathwatch Veterans
+■ Fortis Kill Team
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+WATCH CAPTAIN ARTEMIS
+M T SV W LD OC
+6" 4 3+ 4 6+ 1
+4+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP
+Hellfire Extremis [ANTI‑INFANTRY 4+, DEVASTATING WOUNDS, 12" D6 N/A 4 -1
+IGNORES COVER, TORRENT]
+MELEE WEAPONS RANGE A WS S AP
+Master‑crafted power weapon Melee 6 2+ 5 -2
+KEYWORDS: Infantry, Character, Epic Hero, Grenades, Imperium, Captain,
+Watch Captain Artemis
+D ABILITIES
+1 CORE: Feel No Pain 6+, Leader
+FACTION: Mission Tactics, Oath of Moment
+D
+Tactical Instinct: While this model is leading a unit,
+2 weapons equipped by models in that unit have the
+[LETHAL HITS] ability.
+Unstoppable Champion: The first time this model is
+destroyed, roll one D6 at the end of the phase. On a 2+, set
+this model back up on the battlefield, as close as possible to
+where it was destroyed and not within Engagement Range of
+any enemy units, with 1 wound remaining.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-   WARGEAR OPTIONS                                                             UNIT COMPOSITION
-   ■ None                                                                    ■ 1 Watch Master
-                                                                               This model is equipped with: vigil spear.
-
-
-                                                                               LEADER
-                                                                               This model can be attached to the following units:
-                                                                               ■ Deathwatch Veterans
-                                                                               ■ Fortis Kill Team
-
-
-
-
-                                                                                     FACTION KEYWORDS:
-    KEYWORDS: Infantry, Character, Grenades, Imperium, Captain, Watch Master
-                                                                                     Adeptus Astartes, Deathwatch
-WATCH CAPTAIN ARTEMIS
- M            T           SV          W           LD           OC
-
-6"           4          3+            4          6+            1
-                         4+            INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                                                 RANGE   A    BS    S   AP   D   ABILITIES
-     Hellfire Extremis[ANTI‑INFANTRY 4+, DEVASTATING WOUNDS,                                        CORE: Feel No Pain 6+, Leader
-                                                                     12"    D6   N/A   4   -1   1
-     IGNORES COVER, TORRENT]
-                                                                                                    FACTION: Mission Tactics, Oath of Moment
-     MELEE WEAPONS                                                  RANGE   A    WS    S   AP   D
-                                                                                                    Tactical Instinct: While this model is leading a unit,
-     Master‑crafted power weapon                                    Melee   6    2+    5   -2   2   weapons equipped by models in that unit have the
-                                                                                                    [LETHAL HITS] ability.
-                                                                                                    Unstoppable Champion: The first time this model is
-                                                                                                    destroyed, roll one D6 at the end of the phase. On a 2+, set
-                                                                                                    this model back up on the battlefield, as close as possible to
-                                                                                                    where it was destroyed and not within Engagement Range of
-                                                                                                    any enemy units, with 1 wound remaining.
-
-
-
-
- KEYWORDS: Infantry, Character, Epic Hero, Grenades, Imperium, Captain,                                  FACTION KEYWORDS:
-           Watch Captain Artemis                                                                          Adeptus Astartes, Deathwatch
-WATCH CAPTAIN ARTEMIS
+WATCH CAPTAIN ARTEMIS
 Born survivor of a feral world and formerly of the macabre Mortifactors
 Chapter, Artemis leads a Watch Company of Talasa Prime. Known for
 his instinct for xenos trickery, he still relishes the prospect of violence,
 whether with his blade, the mutagenic acid‑fire of Hellfire Extremis or a
 time‑warping stasis grenade.
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Infantry, Character, Epic Hero, Grenades, Imperium, Captain,
+Watch Captain Artemis
+UNIT COMPOSITION
+■ 1 Watch Captain Artemis
+This model is equipped with: Hellfire Extremis; master‑crafted
+power weapon.
+LEADER
+This model can be attached to the following units:
+■ Deathwatch Veterans
+■ Fortis Kill Team
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+DEATHWATCH VETERANS
+M T SV W LD OC
+6" 4 3+ 2 6+ 2
+RANGED WEAPONS RANGE A BS S AP D
+Boltgun 24" 2 3+ 4 0 1
+Combi‑weapon 24" 1 4+ 4 -1 1
+[ANTI‑INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1]
+Deathwatch shotgun [ASSAULT] 24" 2 3+ 4 0 2
+Frag cannon [BLAST, HEAVY, RAPID FIRE D3] 18" D3 4+ 7 -1 2
+Infernus heavy bolter – heavy bolter 36" 3 4+ 5 -1 2
+[HEAVY, SUSTAINED HITS 1]
+Infernus heavy bolter – heavy flamer 12" D6 N/A 5 -1 1
+[IGNORES COVER, TORRENT]
+Stalker‑pattern boltgun [HEAVY, PRECISION] 24" 1 3+ 4 -1 2
+MELEE WEAPONS RANGE A WS S AP D
+Black Shield blades [TWIN‑LINKED] Melee 4 3+ 5 -2 1
+Close combat weapon Melee 3 3+ 4 0 1
+Deathwatch thunder hammer [DEVASTATING WOUNDS] Melee 3 4+ 10 -2 3
+Power weapon Melee 3 3+ 5 -2 1
+Xenophase blade [DEVASTATING WOUNDS] Melee 4 3+ 5 -2 1
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Infantry, Battleline, Grenades, Imperium, Kill Team,
+Deathwatch Veterans
+ABILITIES
+FACTION: Mission Tactics, Oath of Moment
+Death to the Alien: Each time a model in this unit makes
+an attack, re‑roll a Hit roll of 1. If the target of that attack
+does not have the Imperium or Chaos keywords, you can
+re‑roll the Hit roll instead.
+WARGEAR ABILITIES
+Astartes Shield: The bearer has a 4+ invulnerable save.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-   WARGEAR OPTIONS                                                             UNIT COMPOSITION
-   ■ None                                                                    ■ 1 Watch Captain Artemis
-                                                                               This model is equipped with: Hellfire Extremis; master‑crafted
-                                                                               power weapon.
-
-
-                                                                               LEADER
-                                                                               This model can be attached to the following units:
-                                                                               ■ Deathwatch Veterans
-                                                                               ■ Fortis Kill Team
-
-
-
-
-    KEYWORDS: Infantry, Character, Epic Hero, Grenades, Imperium, Captain,         FACTION KEYWORDS:
-              Watch Captain Artemis                                                 Adeptus Astartes, Deathwatch
-DEATHWATCH VETERANS
- M             T           SV            W            LD            OC
-
-6"            4           3+            2            6+              2
-
-
-
-     RANGED WEAPONS                                                    RANGE                  A    BS    S    AP   D   ABILITIES
-     Boltgun                                                               24"                2    3+    4    0    1   FACTION: Mission Tactics, Oath of Moment
-     Combi‑weapon
-                                                                           24"                1    4+    4    -1   1   Death to the Alien: Each time a model in this unit makes
-     [ANTI‑INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1]
-     Deathwatch shotgun [ASSAULT]                                          24"                2    3+    4    0    2   an attack, re‑roll a Hit roll of 1. If the target of that attack
-                                                                                                                       does not have the Imperium or Chaos keywords, you can
-     Frag cannon [BLAST, HEAVY, RAPID FIRE D3]                             18"                D3   4+    7    -1   2
-                                                                                                                       re‑roll the Hit roll instead.
-     Infernus heavy bolter – heavy bolter
-                                                                           36"                3    4+    5    -1   2
-     [HEAVY, SUSTAINED HITS 1]
-     Infernus heavy bolter – heavy flamer                                                                              WARGEAR ABILITIES
-                                                                           12"                D6   N/A   5    -1   1
-     [IGNORES COVER, TORRENT]
-                                                                                                                       Astartes Shield: The bearer has a 4+ invulnerable save.
-     Stalker‑pattern boltgun [HEAVY, PRECISION]                            24"                1    3+    4    -1   2
-
-     MELEE WEAPONS                                                     RANGE                  A    WS    S    AP   D
-     Black Shield blades [TWIN‑LINKED]                                   Melee                4    3+    5    -2   1
-     Close combat weapon                                                 Melee                3    3+    4    0    1
-     Deathwatch thunder hammer [DEVASTATING WOUNDS]                      Melee                3    4+    10   -2   3
-     Power weapon                                                        Melee                3    3+    5    -2   1
-     Xenophase blade [DEVASTATING WOUNDS]                                Melee                4    3+    5    -2   1
- Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
- KEYWORDS: Infantry, Battleline, Grenades, Imperium, Kill Team,                                                             FACTION KEYWORDS:
-           Deathwatch Veterans                                                                                               Adeptus Astartes, Deathwatch
-DEATHWATCH VETERANS
+DEATHWATCH VETERANS
 Deathwatch Veterans’ skills have been honed in their former Chapter
 for decades, sometimes centuries. Throughout their long vigil against
 the manifold xenos threats, each Veteran learns to arm himself so as
 to best contribute to the mission at hand, and squads carry an array
 of weapons to fell any foe.
+WARGEAR OPTIONS
+■ For every 5 models in this unit, up to 2 models ■ For every 5 models in this unit, 1 model can
+can each have their boltgun and power weapon have its boltgun and power weapon replaced
+replaced with one of the following: with 1 frag cannon and 1 close combat weapon.
+◦ 1 boltgun, 1 Astartes shield and 1 close ■ For every 5 models in this unit, 1 model can
+combat weapon have its boltgun and power weapon replaced
+◦ 1 power weapon and 1 Astartes shield with 1 infernus heavy bolter and 1 close
+■ combat weapon.
+For every 5 models in this unit, up to 2 models ■ 1 model’s boltgun and power weapon can be
+can each have their boltgun and power weapon replaced with 1 Black Shield blades.
+replaced with 1 Deathwatch thunder hammer. ■
+■ For every 5 models in this unit, 1 model can The Watch Sergeant’s power weapon can be
+have its boltgun and power weapon replaced replaced with 1 xenophase blade.
+with 1 stalker‑pattern boltgun and 1 close ■ The Watch Sergeant’s boltgun can be replaced
+combat weapon. with 1 combi‑weapon.
+■ For every 5 models in this unit, up to 2 models
+can each have their boltgun and power weapon
+replaced with 1 Deathwatch shotgun and 1 close
+combat weapon.
+KEYWORDS: Infantry, Battleline, Grenades, Imperium, Kill Team,
+Deathwatch Veterans
+UNIT COMPOSITION
+■ 1 Watch Sergeant
+■ 4‑9 Deathwatch Veterans
+Every model is equipped with: boltgun; power weapon.
+ATTACHED UNIT
+If a Character unit from your army with the Leader ability
+can be attached to a Sternguard Veteran Squad, it can be
+attached to this unit instead.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+DEATHWATCH TERMINATOR SQUAD
+M T SV W LD OC
+5" 5 2+ 3 6+ 1
+4+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Assault cannon [DEVASTATING WOUNDS] 24" 6 3+ 6 0 1
+Cyclone missile launcher – frag [BLAST] 36" 2D6 3+ 4 0 1
+Cyclone missile launcher – krak 36" 2 3+ 9 -2 D6
+Heavy flamer [IGNORES COVER, TORRENT] 12" D6 N/A 5 -1 1
+Plasma cannon – standard [BLAST] 36" D3 3+ 7 -2 1
+Plasma cannon – supercharge [BLAST, HAZARDOUS] 36" D3 3+ 8 -3 2
+Storm bolter [RAPID FIRE 2] 24" 2 3+ 4 0 1
+MELEE WEAPONS RANGE A WS S AP D
+Chainfist [ANTI‑VEHICLE 3+] Melee 3 4+ 8 -2 2
+Power fist Melee 3 3+ 8 -2 2
+Power weapon Melee 4 3+ 5 -2 1
+Thunder hammer [DEVASTATING WOUNDS] Melee 3 4+ 8 -2 2
+Twin lightning claws [TWIN‑LINKED] Melee 5 3+ 5 -2 1
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Infantry, Imperium, Terminator, Kill Team,
+Deathwatch Terminator Squad
+ABILITIES
+CORE: Deep Strike
+FACTION: Mission Tactics, Oath of Moment
+Terminatus Assault: You can re‑roll Charge rolls made for
+this unit. Each time this unit ends a Charge move, each
+enemy unit within Engagement Range of this unit must take
+a Battle‑shock test. If that enemy unit does not have the
+Imperium or Chaos keywords, subtract 1 from that test.
+Teleport Homer: At the start of the battle, you can set up one
+Teleport Homer token for this unit anywhere on the battlefield
+that is not within your opponent’s deployment zone. If you do,
+once per battle, you can target this unit with the Rapid Ingress
+Stratagem for 0CP, but when resolving that Stratagem, you
+must set this unit up within 3" of that token and not within
+8" horizontally of one or more enemy units. That token is
+then removed.
+WARGEAR ABILITIES
+Storm Shield: The bearer has a Wounds characteristic of 4.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-  WARGEAR OPTIONS                                                                                          UNIT COMPOSITION
-  ■ For every 5 models in this unit, up to 2 models   ■ For every 5 models in this unit, 1 model can    ■ 1 Watch Sergeant
-    can each have their boltgun and power weapon           have its boltgun and power weapon replaced      ■ 4‑9 Deathwatch Veterans
-    replaced with one of the following:                    with 1 frag cannon and 1 close combat weapon.
-                                                                                                           Every model is equipped with: boltgun; power weapon.
-       ◦ 1 boltgun, 1 Astartes shield and 1 close      ■ For every 5 models in this unit, 1 model can
-          combat weapon                                    have its boltgun and power weapon replaced
-       ◦ 1 power weapon and 1 Astartes shield             with 1 infernus heavy bolter and 1 close        ATTACHED UNIT
-                                                           combat weapon.
-  ■ For every 5 models in this unit, up to 2 models                                                       If a Character unit from your army with the Leader ability
-                                                        ■ 1 model’s boltgun and power weapon can be
-     can each have their boltgun and power weapon                                                          can be attached to a Sternguard Veteran Squad, it can be
-                                                           replaced with 1 Black Shield blades.
-     replaced with 1 Deathwatch thunder hammer.                                                            attached to this unit instead.
-                                                        ■ The Watch Sergeant’s power weapon can be
-  ■ For every 5 models in this unit, 1 model can
-                                                           replaced with 1 xenophase blade.
-     have its boltgun and power weapon replaced
-     with 1 stalker‑pattern boltgun and 1 close         ■ The Watch Sergeant’s boltgun can be replaced
-     combat weapon.                                        with 1 combi‑weapon.
-  ■ For every 5 models in this unit, up to 2 models
-     can each have their boltgun and power weapon
-     replaced with 1 Deathwatch shotgun and 1 close
-     combat weapon.
-
-
-
-
-   KEYWORDS: Infantry, Battleline, Grenades, Imperium, Kill Team,                                              FACTION KEYWORDS:
-             Deathwatch Veterans                                                                                Adeptus Astartes, Deathwatch
-DEATHWATCH TERMINATOR SQUAD
- M            T           SV             W            LD            OC
-
-5"            5          2+             3            6+              1
-                         4+               INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                                                    RANGE                  A    BS    S   AP   D    ABILITIES
-     Assault cannon [DEVASTATING WOUNDS]                                   24"                6    3+    6   0    1    CORE: Deep Strike
-     Cyclone missile launcher – frag [BLAST]                               36"            2D6      3+    4   0    1
-                                                                                                                       FACTION: Mission Tactics, Oath of Moment
-     Cyclone missile launcher – krak                                       36"                2    3+    9   -2   D6
-     Heavy flamer [IGNORES COVER, TORRENT]                                 12"                D6   N/A   5   -1   1    Terminatus Assault: You can re‑roll Charge rolls made for
-     Plasma cannon – standard [BLAST]                                      36"                D3   3+    7   -2   1    this unit. Each time this unit ends a Charge move, each
-                                                                                                                       enemy unit within Engagement Range of this unit must take
-     Plasma cannon – supercharge [BLAST, HAZARDOUS]                        36"                D3   3+    8   -3   2    a Battle‑shock test. If that enemy unit does not have the
-     Storm bolter [RAPID FIRE 2]                                           24"                2    3+    4   0    1    Imperium or Chaos keywords, subtract 1 from that test.
-                                                                                                                       Teleport Homer: At the start of the battle, you can set up one
-     MELEE WEAPONS                                                     RANGE                  A    WS    S   AP   D    Teleport Homer token for this unit anywhere on the battlefield
-     Chainfist [ANTI‑VEHICLE 3+]                                         Melee                3    4+    8   -2   2    that is not within your opponent’s deployment zone. If you do,
-                                                                                                                       once per battle, you can target this unit with the Rapid Ingress
-     Power fist                                                          Melee                3    3+    8   -2   2    Stratagem for 0CP, but when resolving that Stratagem, you
-     Power weapon                                                        Melee                4    3+    5   -2   1    must set this unit up within 3" of that token and not within
-     Thunder hammer [DEVASTATING WOUNDS]                                 Melee                3    4+    8   -2   2    8" horizontally of one or more enemy units. That token is
-                                                                                                                       then removed.
-     Twin lightning claws [TWIN‑LINKED]                                  Melee                5    3+    5   -2   1
-
-                                                                                                                       WARGEAR ABILITIES
-
- Before selecting targets for this weapon, select one of its profiles to make attacks with.
-                                                                                                                       Storm Shield: The bearer has a Wounds characteristic of 4.
-
- KEYWORDS: Infantry, Imperium, Terminator, Kill Team,                                                                       FACTION KEYWORDS:
-           Deathwatch Terminator Squad                                                                                       Adeptus Astartes, Deathwatch
-DEATHWATCH TERMINATOR SQUAD
+DEATHWATCH TERMINATOR SQUAD
 The indomitable warriors honoured to wear hulking suits of Terminator
 armour are an inspiring sight to their brethren. Deathwatch
 Terminators carry the most powerful close combat weapons, and
 the strength and durability of their armour allows them to take the
 heaviest firepower directly into hidden xenos lairs.
+WARGEAR OPTIONS
+■ Up to 3 Deathwatch Terminators can each have their storm bolter replaced with one of the following:
+◦ 1 assault cannon
+◦ 1 heavy flamer
+◦ 1 plasma cannon
+◦ 1 cyclone missile launcher and 1 storm bolter (this model’s storm bolter cannot be replaced)
+■ Any number of models can each have their power fist and storm bolter replaced with one of
+the following:
+◦ 1 storm bolter and 1 power weapon
+◦ 1 storm bolter and 1 chainfist
+◦ 1 thunder hammer and 1 storm shield
+◦ 1 twin lightning claws
+KEYWORDS: Infantry, Imperium, Terminator, Kill Team,
+Deathwatch Terminator Squad
+UNIT COMPOSITION
+■ 1 Deathwatch Terminator Sergeant
+■ 4‑9 Deathwatch Terminators
+Every model is equipped with: power fist; storm bolter.
+ATTACHED UNIT
+If a Character from your army with the Leader ability can be
+attached to a Terminator Squad, it can be attached to this
+unit instead.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+CORVUS BLACKSTAR
+M T SV W LD OC
+14" 10 3+ 14 6+ 0
+RANGED WEAPONS RANGE A BS S AP
+Blackstar rocket launcher [BLAST] 30" D6+1 3+ 5 0
+Hurricane bolter [RAPID FIRE 6, TWIN‑LINKED] 24" 6 3+ 4 0
+Stormstrike missile launcher 48" 1 3+ 10 -2
+Twin assault cannon 24" 6 3+ 6 0
+[DEVASTATING WOUNDS, TWIN‑LINKED]
+Twin lascannon [TWIN‑LINKED] 48" 1 3+ 12 -3
+MELEE WEAPONS RANGE A WS S AP
+Armoured hull Melee 3 4+ 6 0
+KEYWORDS: Vehicle, Fly, Frame, Imperium, Transport, Corvus Blackstar
+D ABILITIES
+1 CORE: Deadly Demise D6, Hover, Stealth
+1
+3 FACTION: Mission Tactics, Oath of Moment
+1 Blackstar Cluster Launcher: Each time this model ends a
+Normal move, you can select one enemy unit it moved over
+D6+1 during that move and roll six D6: for each 5+, that unit suffers
+1 mortal wound.
+D
+1 WARGEAR ABILITIES
+Auspex Array: Ranged weapons equipped by the bearer have
+the [IGNORES COVER] ability.
+Infernum Halo‑launcher: The bearer has the Smoke keyword.
+DAMAGED: 1‑5 WOUNDS REMAINING
+While this model has 1‑5 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-  WARGEAR OPTIONS                                                                                           UNIT COMPOSITION
-  ■ Up to 3 Deathwatch Terminators can each have their storm bolter replaced with one of the following:   ■ 1 Deathwatch Terminator Sergeant
-       ◦ 1 assault cannon                                                                                   ■ 4‑9 Deathwatch Terminators
-       ◦ 1 heavy flamer                                                                                     Every model is equipped with: power fist; storm bolter.
-       ◦ 1 plasma cannon
-       ◦ 1 cyclone missile launcher and 1 storm bolter (this model’s storm bolter cannot be replaced)
-                                                                                                            ATTACHED UNIT
-  ■ Any number of models can each have their power fist and storm bolter replaced with one of
-     the following:                                                                                         If a Character from your army with the Leader ability can be
-      ◦ 1 storm bolter and 1 power weapon                                                                   attached to a Terminator Squad, it can be attached to this
-      ◦ 1 storm bolter and 1 chainfist                                                                      unit instead.
-      ◦ 1 thunder hammer and 1 storm shield
-      ◦ 1 twin lightning claws
-
-
-
-
-   KEYWORDS: Infantry, Imperium, Terminator, Kill Team,                                                         FACTION KEYWORDS:
-             Deathwatch Terminator Squad                                                                         Adeptus Astartes, Deathwatch
-CORVUS BLACKSTAR
-  M            T           SV           W        LD   OC
-
- 14"         10           3+          14         6+   0
-
-
-
-  RANGED WEAPONS                                      RANGE    A     BS   S    AP    D     ABILITIES
-  Blackstar rocket launcher [BLAST]                    30"    D6+1   3+   5    0     1     CORE: Deadly Demise D6, Hover, Stealth
-  Hurricane bolter [RAPID FIRE 6, TWIN‑LINKED]         24"     6     3+   4    0     1
-                                                                                           FACTION: Mission Tactics, Oath of Moment
-  Stormstrike missile launcher                         48"     1     3+   10   -2    3
-  Twin assault cannon                                                                      Blackstar Cluster Launcher: Each time this model ends a
-                                                       24"     6     3+   6    0     1
-  [DEVASTATING WOUNDS, TWIN‑LINKED]                                                        Normal move, you can select one enemy unit it moved over
-  Twin lascannon [TWIN‑LINKED]                         48"     1     3+   12   -3   D6+1   during that move and roll six D6: for each 5+, that unit suffers
-                                                                                           1 mortal wound.
-  MELEE WEAPONS                                       RANGE    A     WS   S    AP    D
-  Armoured hull                                       Melee    3     4+   6    0     1     WARGEAR ABILITIES
-                                                                                           Auspex Array: Ranged weapons equipped by the bearer have
-                                                                                           the [IGNORES COVER] ability.
-
-                                                                                           Infernum Halo‑launcher: The bearer has the Smoke keyword.
-
-
-                                                                                               DAMAGED: 1‑5 WOUNDS REMAINING
-                                                                                           While this model has 1‑5 wounds remaining, each time this
-                                                                                           model makes an attack, subtract 1 from the Hit roll.
-
-
-
-                                                                                                 FACTION KEYWORDS:
- KEYWORDS: Vehicle, Fly, Frame, Imperium, Transport, Corvus Blackstar
-                                                                                                 Adeptus Astartes, Deathwatch
-CORVUS BLACKSTAR
+CORVUS BLACKSTAR
 Corvus Blackstars are sleek and shrouded aircraft used to insert kill
 teams into heavily infested landing zones or even xenos strongholds.
 With a barrage of missiles, Blackstars secure aerial supremacy and
 sweep the target site clear before firing their hover jets and delivering
 their deadly payload of elite warriors.
+WARGEAR OPTIONS
+■ This model’s twin assault cannon can be replaced with 1 twin lascannon.
+■ This model’s 2 Blackstar rocket launchers can be replaced with 2 stormstrike missile launchers.
+■ This model can be equipped with 1 hurricane bolter.
+■ This model can be equipped with one of the following:
+◦ 1 auspex array
+◦ 1 infernum halo‑launcher
+KEYWORDS: Vehicle, Fly, Frame, Imperium, Transport, Corvus Blackstar
+UNIT COMPOSITION
+■ 1 Corvus Blackstar
+This model is equipped with: 2 Blackstar rocket launchers;
+twin assault cannon; armoured hull.
+TRANSPORT
+This model has a transport capacity of 12 Adeptus Astartes
+Infantry or Kill Team models. Each Jump Pack, Gravis or
+Terminator model takes up the space of 2 models and each
+Centurion model takes up the space of 3 models.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+TALONSTRIKE KILL TEAM
+M T SV W LD OC
+12" 4 3+ 2 6+ 1 KILL TEAM SERGEANT WITH JUMP PACK
+KILL TEAM INTERCESSORS WITH JUMP
+10" 6 3+ 3 6+ 1 KILL TEAM HEAVY INTERCESSORS WITH
+RANGED WEAPONS RANGE A BS S AP D
+Assault bolters 18" 3 3+ 5 -1 2
+[ASSAULT, PISTOL, SUSTAINED HITS 2, TWIN‑LINKED]
+Hand flamer [IGNORES COVER, PISTOL, TORRENT] 12" D6 N/A 3 0 1
+Heavy bolt pistol [PISTOL] 18" 1 3+ 4 -1 1
+Plasma exterminators – standard 18" 2 3+ 7 -2 2
+[ASSAULT, PISTOL, TWIN‑LINKED]
+Plasma exterminators – supercharge 18" 2 3+ 8 -3 3
+[ASSAULT, HAZARDOUS, PISTOL, TWIN‑LINKED]
+Plasma pistol – standard [PISTOL] 12" 1 3+ 7 -2 1
+Plasma pistol – supercharge [HAZARDOUS, PISTOL] 12" 1 3+ 8 -3 2
+MELEE WEAPONS RANGE A WS S AP D
+Astartes chainsword Melee 4 3+ 4 -1 1
+Close combat weapon Melee 3 3+ 4 0 1
+Power fist Melee 3 3+ 8 -2 2
+Power weapon Melee 4 3+ 5 -2 1
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Infantry, Fly, Jump Pack, Grenades, Imperium, Kill Team,
+Talonstrike Kill Team
+AND
+PACKS
+JUMP PACKS
+ABILITIES
+CORE: Deep Strike
+FACTION: Mission Tactics, Oath of Moment
+Talonstrike Doctrines: Each time this unit is set up on the
+battlefield, until the end of the turn:
+■ Improve the Armour Penetration characteristic of weapons
+equipped by models in this unit by 1.
+■ Melee weapons equipped by models in this unit have the
+[LANCE] ability.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-   WARGEAR OPTIONS                                                                                      UNIT COMPOSITION
-   ■ This model’s twin assault cannon can be replaced with 1 twin lascannon.                          ■ 1 Corvus Blackstar
-   ■ This model’s 2 Blackstar rocket launchers can be replaced with 2 stormstrike missile launchers.   This model is equipped with: 2 Blackstar rocket launchers;
-   ■ This model can be equipped with 1 hurricane bolter.                                               twin assault cannon; armoured hull.
-   ■ This model can be equipped with one of the following:
-        ◦ 1 auspex array
-                                                                                                        TRANSPORT
-        ◦ 1 infernum halo‑launcher
-                                                                                                        This model has a transport capacity of 12 Adeptus Astartes
-                                                                                                        Infantry or Kill Team models. Each Jump Pack, Gravis or
-                                                                                                        Terminator model takes up the space of 2 models and each
-                                                                                                        Centurion model takes up the space of 3 models.
-
-
-
-
-                                                                                                             FACTION KEYWORDS:
-    KEYWORDS: Vehicle, Fly, Frame, Imperium, Transport, Corvus Blackstar
-                                                                                                             Adeptus Astartes, Deathwatch
-TALONSTRIKE KILL TEAM
- M             T            SV            W             LD           OC
-                                                                              KILL TEAM SERGEANT WITH JUMP PACK AND
-12"           4           3+             2              6+            1       KILL TEAM INTERCESSORS WITH JUMP PACKS
-
-10"           6           3+             3              6+            1       KILL TEAM HEAVY INTERCESSORS WITH JUMP PACKS
-
-
-     RANGED WEAPONS                                                     RANGE                  A    BS    S   AP   D   ABILITIES
-     Assault bolters                                                                                                   CORE: Deep Strike
-                                                                            18"                3    3+    5   -1   2
-     [ASSAULT, PISTOL, SUSTAINED HITS 2, TWIN‑LINKED]
-     Hand flamer [IGNORES COVER, PISTOL, TORRENT]                           12"                D6   N/A   3   0    1   FACTION: Mission Tactics, Oath of Moment
-     Heavy bolt pistol [PISTOL]                                             18"                1    3+    4   -1   1
-                                                                                                                       Talonstrike Doctrines: Each time this unit is set up on the
-     Plasma exterminators – standard                                                                                   battlefield, until the end of the turn:
-                                                                            18"                2    3+    7   -2   2
-     [ASSAULT, PISTOL, TWIN‑LINKED]
-                                                                                                                       ■ Improve the Armour Penetration characteristic of weapons
-     Plasma exterminators – supercharge
-                                                                            18"                2    3+    8   -3   3      equipped by models in this unit by 1.
-     [ASSAULT, HAZARDOUS, PISTOL, TWIN‑LINKED]
-                                                                                                                       ■ Melee weapons equipped by models in this unit have the
-     Plasma pistol – standard [PISTOL]                                      12"                1    3+    7   -2   1      [LANCE] ability.
-     Plasma pistol – supercharge [HAZARDOUS, PISTOL]                        12"                1    3+    8   -3   2
-
-     MELEE WEAPONS                                                      RANGE                  A    WS    S   AP   D
-     Astartes chainsword                                                  Melee                4    3+    4   -1   1
-     Close combat weapon                                                  Melee                3    3+    4   0    1
-     Power fist                                                           Melee                3    3+    8   -2   2
-     Power weapon                                                         Melee                4    3+    5   -2   1
-
-
-  Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
- KEYWORDS: Infantry, Fly, Jump Pack, Grenades, Imperium, Kill Team,                                                         FACTION KEYWORDS:
-           Talonstrike Kill Team                                                                                             Adeptus Astartes, Deathwatch
-TALONSTRIKE KILL TEAM
+TALONSTRIKE KILL TEAM
 Diving from gunships or advancing in powered leaps across a war
 zone, the battle‑brothers of a Talonstrike Kill Team crush their prey in
 shockingly sudden assaults. They attack with howling chainswords
 and blasts of heavy, short‑range firepower. The roar of their jump
 packs follows each rapid kill as they close on their next targets.
+WARGEAR OPTIONS
+■ The Kill Team Sergeant with Jump Pack can ■ For every 5 models in this unit, 1 model can
+replace its heavy bolt pistol with one of replace its heavy bolt pistol with 1 plasma pistol.
+the following: ■ Any number of models can each have
+◦ 1 hand flamer their assault bolters replaced with
+◦ 1 plasma pistol 1 plasma exterminators.
+■ The Kill Team Sergeant with Jump Pack can
+replace its Astartes chainsword with one of
+the following:
+◦ 1 power fist
+◦ 1 power weapon
+ATTACHED UNIT
+If a Character unit from your army with the Leader ability can be attached to an Assault
+Intercessors with Jump Packs unit, it can be attached to this unit instead.
+KEYWORDS: Infantry, Fly, Jump Pack, Grenades, Imperium, Kill Team,
+Talonstrike Kill Team
+UNIT COMPOSITION (10 MODELS MAXIMUM)
+■ 1 Kill Team Sergeant with Jump Pack
+■ 2‑9 Kill Team Intercessors with Jump Packs
+■ 0‑5 Kill Team Heavy Intercessors with Jump Packs
+The Kill Team Sergeant with Jump Pack is equipped with:
+heavy bolt pistol; Astartes chainsword.
+Every Kill Team Intercessor with Jump Pack is equipped
+with: heavy bolt pistol; Astartes chainsword.
+Every Kill Team Heavy Intercessor with Jump Pack is
+equipped with: assault bolters; close combat weapon.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+FORTIS KILL TEAM
+M T SV W LD OC
+6" 4 3+ 2 6+ 2
+RANGED WEAPONS RANGE A BS S AP D
+Bolt pistol [PISTOL] 12" 1 3+ 4 0 1
+Castellan launcher [BLAST, INDIRECT FIRE] 36" D3 3+ 4 0 1
+Deathwatch bolt rifle [ASSAULT, HEAVY, LETHAL HITS] 24" 2 3+ 5 -2 1
+Heavy bolt pistol [PISTOL] 18" 1 3+ 4 -1 1
+Plasma incinerator – standard [ASSAULT, HEAVY] 24" 2 3+ 7 -2 1
+Plasma incinerator – supercharge 24" 2 3+ 8 -3 2
+[ASSAULT, HAZARDOUS, HEAVY]
+Pyreblaster [IGNORES COVER, TORRENT] 12" D6 N/A 5 0 1
+Superfrag rocket launcher [BLAST, HEAVY] 48" D6+1 4+ 5 0 1
+MELEE WEAPONS RANGE A WS S AP D
+Astartes chainsword Melee 4 3+ 4 -1 1
+Close combat weapon Melee 3 3+ 4 0 1
+Power fist Melee 3 3+ 8 -2 2
+Power weapon Melee 4 3+ 5 -2 1
+Thunder hammer [DEVASTATING WOUNDS] Melee 3 4+ 8 -2 2
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Infantry, Grenades, Imperium, Tacticus, Kill Team,
+Fortis Kill Team
+ABILITIES
+FACTION: Mission Tactics, Oath of Moment
+Fortis Doctrines: Each time a model in this unit makes an
+attack that targets a unit that is below its Starting Strength,
+add 1 to the Hit roll. If that attack targets a unit that is Below
+Half‑strength, add 1 to the Hit roll and add 1 to the Wound
+roll instead.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-   WARGEAR OPTIONS                                                                                             UNIT COMPOSITION (10 MODELS MAXIMUM)
-   ■ The Kill Team Sergeant with Jump Pack can        ■ For every 5 models in this unit, 1 model can        ■ 1 Kill Team Sergeant with Jump Pack
-      replace its heavy bolt pistol with one of          replace its heavy bolt pistol with 1 plasma pistol.   ■ 2‑9 Kill Team Intercessors with Jump Packs
-      the following:                                   ■ Any number of models can each have                  ■ 0‑5 Kill Team Heavy Intercessors with Jump Packs
-       ◦ 1 hand flamer                                  their assault bolters replaced with
-                                                         1 plasma exterminators.                               The Kill Team Sergeant with Jump Pack is equipped with:
-       ◦ 1 plasma pistol
-                                                                                                               heavy bolt pistol; Astartes chainsword.
-   ■ The Kill Team Sergeant with Jump Pack can
-                                                                                                               Every Kill Team Intercessor with Jump Pack is equipped
-      replace its Astartes chainsword with one of
-                                                                                                               with: heavy bolt pistol; Astartes chainsword.
-      the following:
-       ◦ 1 power fist                                                                                          Every Kill Team Heavy Intercessor with Jump Pack is
-       ◦ 1 power weapon                                                                                       equipped with: assault bolters; close combat weapon.
-
-
-   ATTACHED UNIT
-   If a Character unit from your army with the Leader ability can be attached to an Assault
-   Intercessors with Jump Packs unit, it can be attached to this unit instead.
-
-
-
-
-    KEYWORDS: Infantry, Fly, Jump Pack, Grenades, Imperium, Kill Team,                                             FACTION KEYWORDS:
-              Talonstrike Kill Team                                                                                 Adeptus Astartes, Deathwatch
-FORTIS KILL TEAM
- M            T             SV            W            LD            OC
-
-6"            4             3+           2            6+              2
-
-
-
-     RANGED WEAPONS                                                     RANGE                  A    BS    S   AP   D   ABILITIES
-     Bolt pistol [PISTOL]                                                   12"                1    3+    4   0    1   FACTION: Mission Tactics, Oath of Moment
-     Castellan launcher [BLAST, INDIRECT FIRE]                              36"                D3   3+    4   0    1
-                                                                                                                       Fortis Doctrines: Each time a model in this unit makes an
-     Deathwatch bolt rifle [ASSAULT, HEAVY, LETHAL HITS]                    24"                2    3+    5   -2   1
-                                                                                                                       attack that targets a unit that is below its Starting Strength,
-     Heavy bolt pistol [PISTOL]                                             18"                1    3+    4   -1   1   add 1 to the Hit roll. If that attack targets a unit that is Below
-     Plasma incinerator – standard [ASSAULT, HEAVY]                         24"                2    3+    7   -2   1   Half‑strength, add 1 to the Hit roll and add 1 to the Wound
-                                                                                                                       roll instead.
-     Plasma incinerator – supercharge
-                                                                            24"                2    3+    8   -3   2
-     [ASSAULT, HAZARDOUS, HEAVY]
-     Pyreblaster [IGNORES COVER, TORRENT]                                   12"                D6   N/A   5   0    1
-     Superfrag rocket launcher [BLAST, HEAVY]                               48"           D6+1      4+    5   0    1
-
-     MELEE WEAPONS                                                      RANGE                  A    WS    S   AP   D
-     Astartes chainsword                                                  Melee                4    3+    4   -1   1
-     Close combat weapon                                                  Melee                3    3+    4   0    1
-     Power fist                                                           Melee                3    3+    8   -2   2
-     Power weapon                                                         Melee                4    3+    5   -2   1
-     Thunder hammer [DEVASTATING WOUNDS]                                  Melee                3    4+    8   -2   2
-
-  Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
- KEYWORDS: Infantry, Grenades, Imperium, Tacticus, Kill Team,                                                               FACTION KEYWORDS:
-           Fortis Kill Team                                                                                                  Adeptus Astartes, Deathwatch
-FORTIS KILL TEAM
+FORTIS KILL TEAM
 Further refined from Watch Master Mordelai’s original concept, Fortis
 Kill Teams exemplify the supreme adaptability of the Tacticus variant
 of Mk X power armour, seamlessly merging a variety of close support
 roles and deadly firepower.
+WARGEAR OPTIONS
+■ The Kill Team Sergeant can replace its ■ For every 5 models in this unit, 1 model
+Deathwatch bolt rifle with one of the following: equipped with a Deathwatch bolt rifle can be
+◦ 1 Astartes chainsword equipped with 1 Astartes grenade launcher*.
+◦ 1 hand flamer* ■ One model equipped with a plasma incinerator
+◦ 1 plasma pistol* can replace its bolt pistol with 1 plasma pistol*.
+◦ 1 power weapon ■ 1 model can replace its superfrag rocket
+launcher with 1 vengor launcher*.
+■ The Kill Team Sergeant can replace its close ■ Any number of models can each replace their
+combat weapon with one of the following: superfrag rocket launcher with 1 superkrak
+◦ 1 Astartes chainsword rocket launcher*.
+◦ 1 power fist * The profile for this weapon can be found on the Deathwatch
+◦ 1 power weapon Armoury card.
+◦ 1 thunder hammer
+ATTACHED UNIT
+If a Character from your army with the Leader ability can be attached to an Intercessor Squad, it
+can be attached to this unit instead.
+KEYWORDS: Infantry, Grenades, Imperium, Tacticus, Kill Team,
+Fortis Kill Team
+UNIT COMPOSITION (10 MODELS MAXIMUM)
+■ 1 Kill Team Sergeant
+■ 2‑9 Kill Team Intercessors
+■ 0‑4 Kill Team Intercessors with plasma incinerators
+■ 0‑4 Kill Team Intercessors with heavy bolt pistols
+■ 0‑4 Kill Team Intercessors with pyreblasters
+■ 0‑2 Kill Team Intercessors with superfrag rocket launchers
+The Kill Team Sergeant and every Kill Team Intercessor
+is equipped with: bolt pistol; Deathwatch bolt rifle; close
+combat weapon.
+Every Kill Team Intercessor with plasma incinerator
+is equipped with: bolt pistol; plasma incinerator; close
+combat weapon.
+Every Kill Team Intercessor with heavy bolt pistol is
+equipped with: heavy bolt pistol; Astartes chainsword.
+Every Kill Team Intercessor with pyreblaster is equipped
+with: bolt pistol; pyreblaster; close combat weapon.
+Every Kill Team Intercessor with superfrag rocket launcher
+is equipped with: bolt pistol; castellan launcher; superfrag
+rocket launcher; close combat weapon.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+INDOMITOR KILL TEAM
+M T SV W LD OC
+5" 6 3+ 3 6+ 1
+RANGED WEAPONS RANGE A BS S AP D
+Auto boltstorm gauntlets [TWIN‑LINKED] 18" 3 3+ 4 0 1
+Bolt pistol [PISTOL] 12" 1 3+ 4 0 1
+Deathwatch heavy bolt rifle 30" 2 3+ 5 -2 2
+[ASSAULT, HEAVY, LETHAL HITS]
+Deathwatch heavy bolter 36" 3 3+ 5 -2 3
+[ASSAULT, HEAVY, LETHAL HITS, SUSTAINED HITS 1]
+Fragstorm grenade launcher [BLAST] 18" D6 3+ 4 0 1
+Flamestorm gauntlets 12" D6+1 N/A 4 0 1
+[IGNORES COVER, TORRENT, TWIN‑LINKED]
+Melta rifle [HEAVY, MELTA 2] 18" 1 3+ 9 -4 D6
+Multi‑melta [HEAVY, MELTA 2] 18" 2 4+ 9 -4 D6
+MELEE WEAPONS RANGE A WS S AP D
+Close combat weapon Melee 3 3+ 4 0 1
+Twin power fists [TWIN -LINKED] Melee 3 3+ 8 -2 2
+KEYWORDS: Infantry, Grenades, Imperium, Gravis, Kill Team,
+Indomitor Kill Team
+ABILITIES
+FACTION: Mission Tactics, Oath of Moment
+Indomitor Doctrines: Each time a model in this unit makes a
+ranged attack that targets the closest eligible target, or makes
+a melee attack in a turn in which it made a Charge move,
+improve the Strength characteristic of that attack by 2.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-
-  WARGEAR OPTIONS                                                                                                         UNIT COMPOSITION (10 MODELS MAXIMUM)
-  ■ The Kill Team Sergeant can replace its             ■ For every 5 models in this unit, 1 model                       ■ 1 Kill Team Sergeant
-     Deathwatch bolt rifle with one of the following:      equipped with a Deathwatch bolt rifle can be                   ■ 2‑9 Kill Team Intercessors
-      ◦ 1 Astartes chainsword                              equipped with 1 Astartes grenade launcher*.                    ■ 0‑4 Kill Team Intercessors with plasma incinerators
-      ◦ 1 hand flamer*                                  ■ One model equipped with a plasma incinerator                   ■ 0‑4 Kill Team Intercessors with heavy bolt pistols
-      ◦ 1 plasma pistol*                                   can replace its bolt pistol with 1 plasma pistol*.             ■ 0‑4 Kill Team Intercessors with pyreblasters
-      ◦ 1 power weapon                                  ■ 1 model can replace its superfrag rocket                       ■ 0‑2 Kill Team Intercessors with superfrag rocket launchers
-                                                           launcher with 1 vengor launcher*.
-  ■ The Kill Team Sergeant can replace its close                                                                         The Kill Team Sergeant and every Kill Team Intercessor
-                                                        ■ Any number of models can each replace their
-     combat weapon with one of the following:                                                                             is equipped with: bolt pistol; Deathwatch bolt rifle; close
-                                                           superfrag rocket launcher with 1 superkrak                     combat weapon.
-      ◦ 1 Astartes chainsword                              rocket launcher*.
-      ◦ 1 power fist                                                                                                      Every Kill Team Intercessor with plasma incinerator
-                                                          * The profile for this weapon can be found on the Deathwatch
-      ◦ 1 power weapon                                      Armoury card.                                                 is equipped with: bolt pistol; plasma incinerator; close
-                                                                                                                          combat weapon.
-      ◦ 1 thunder hammer
-                                                                                                                          Every Kill Team Intercessor with heavy bolt pistol is
-                                                                                                                          equipped with: heavy bolt pistol; Astartes chainsword.
-  ATTACHED UNIT
-                                                                                                                          Every Kill Team Intercessor with pyreblaster is equipped
-  If a Character from your army with the Leader ability can be attached to an Intercessor Squad, it                       with: bolt pistol; pyreblaster; close combat weapon.
-  can be attached to this unit instead.                                                                                   Every Kill Team Intercessor with superfrag rocket launcher
-                                                                                                                          is equipped with: bolt pistol; castellan launcher; superfrag
-                                                                                                                          rocket launcher; close combat weapon.
-
-
-   KEYWORDS: Infantry, Grenades, Imperium, Tacticus, Kill Team,                                                                FACTION KEYWORDS:
-             Fortis Kill Team                                                                                                   Adeptus Astartes, Deathwatch
-INDOMITOR KILL TEAM
- M             T            SV            W            LD   OC
-
-5"            6           3+             3             6+   1
-
-
-                                                                                                    ABILITIES
-     RANGED WEAPONS                                          RANGE        A     BS    S   AP   D
-     Auto boltstorm gauntlets [TWIN‑LINKED]                       18"     3     3+    4   0    1    FACTION: Mission Tactics, Oath of Moment
-     Bolt pistol [PISTOL]                                         12"     1     3+    4   0    1    Indomitor Doctrines: Each time a model in this unit makes a
-     Deathwatch heavy bolt rifle                                                                    ranged attack that targets the closest eligible target, or makes
-                                                                  30"     2     3+    5   -2   2
-     [ASSAULT, HEAVY, LETHAL HITS]                                                                  a melee attack in a turn in which it made a Charge move,
-     Deathwatch heavy bolter                                                                        improve the Strength characteristic of that attack by 2.
-                                                                  36"     3     3+    5   -2   3
-     [ASSAULT, HEAVY, LETHAL HITS, SUSTAINED HITS 1]
-     Fragstorm grenade launcher [BLAST]                           18"    D6     3+    4   0    1
-     Flamestorm gauntlets
-                                                                  12"    D6+1   N/A   4   0    1
-     [IGNORES COVER, TORRENT, TWIN‑LINKED]
-     Melta rifle [HEAVY, MELTA 2]                                 18"     1     3+    9   -4   D6
-     Multi‑melta [HEAVY, MELTA 2]                                 18"     2     4+    9   -4   D6
-
-     MELEE WEAPONS                                           RANGE        A     WS    S   AP   D
-     Close combat weapon                                         Melee    3     3+    4   0    1
-     Twin power fists [TWIN -LINKED]                             Melee    3     3+    8   -2   2
-
-
-
-
- KEYWORDS: Infantry, Grenades, Imperium, Gravis, Kill Team,                                              FACTION KEYWORDS:
-           Indomitor Kill Team                                                                            Adeptus Astartes, Deathwatch
-INDOMITOR KILL TEAM
+INDOMITOR KILL TEAM
 Comprising warriors wearing the heavier Gravis variant of Mk X armour,
 Indomitor Kill Teams are mobile bastions capable of unleashing the
 firepower of a squadron of battle tanks. Before them, hordes of xenos
 and monstrous beasts alike are torn apart.
+WARGEAR OPTIONS
+■ For every 5 models in this unit, 1 model can replace its Deathwatch heavy bolt rifle with 1 Deathwatch
+heavy bolter.
+■ 1 model can replace its melta rifle with 1 multi‑melta.
+■ Any number of models can each have their flamestorm gauntlets replaced with 1 auto boltstorm
+gauntlets and 1 fragstorm grenade launcher.
+ATTACHED UNIT
+If a Character unit from your army can be attached to a Heavy Intercessor Squad, it can be attached
+to this unit instead.
+KEYWORDS: Infantry, Grenades, Imperium, Gravis, Kill Team,
+Indomitor Kill Team
+UNIT COMPOSITION (10 MODELS MAXIMUM)
+■ 3‑10 Kill Team Heavy Intercessors
+■ 0‑3 Kill Team Heavy Intercessors with power fists
+■ 0‑3 Kill Team Heavy Intercessors with melta rifles
+Every Kill Team Heavy Intercessor is equipped with: bolt
+pistol; Deathwatch heavy bolt rifle; close combat weapon.
+Every Kill Team Heavy Intercessor with power fists is
+equipped with: flamestorm gauntlets; twin power fists.
+Every Kill Team Heavy Intercessor with melta rifle is
+equipped with: bolt pistol; melta rifle; close combat weapon.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+SPECTRUS KILL TEAM
+M T SV W LD OC
+6" 4 3+ 2 6+ 1
+RANGED WEAPONS RANGE A BS S AP D
+Bolt pistol [PISTOL] 12" 1 3+ 4 0 1
+Bolt sniper rifle [HEAVY, PRECISION] 36" 1 3+ 5 -2 3
+Deathwatch bolt carbine [LETHAL HITS, PRECISION] 24" 2 3+ 5 -1 1
+Deathwatch marksman bolt carbine 24" 2 3+ 5 -1 1
+[HEAVY, LETHAL HITS]
+Deathwatch occulus bolt carbine 24" 2 3+ 5 -1 1
+[ASSAULT, IGNORES COVER, LETHAL HITS]
+Instigator bolt carbine [HEAVY] 24" 1 3+ 4 -2 2
+Las fusil [HEAVY] 36" 1 3+ 9 -3 D6
+Special‑issue bolt pistol [PISTOL, PRECISION] 12" 1 3+ 4 -1 1
+MELEE WEAPONS RANGE A WS S AP D
+Close combat weapon Melee 3 3+ 4 0 1
+Combat knife [PRECISION] Melee 4 3+ 4 -1 1
+Paired combat blades [SUSTAINED HITS 1] Melee 3 3+ 4 -1 1
+KEYWORDS: Infantry, Smoke, Grenades, Imperium, Phobos, Kill Team,
+Spectrus Kill Team
+ABILITIES
+CORE: Infiltrators, Scouts 6"
+FACTION: Mission Tactics, Oath of Moment
+Spectrus Doctrines: At the end of your opponent’s turn, if
+this unit is more than 6" away from all enemy units, you
+can remove this unit from the battlefield and place it into
+Strategic Reserves.
+WARGEAR ABILITIES
+Helix Gauntlet: Models in the bearer’s unit have the
+Feel No Pain 6+ ability.
+Infiltrator Comms Array: Each time you target the bearer’s
+unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.
+Instigator Bolt Carbine: In your Shooting phase, after the
+bearer’s unit has shot, the bearer’s unit can make a Normal
+move. If it does, until the end of the turn, the bearer’s unit is
+not eligible to declare a charge.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-
-  WARGEAR OPTIONS                                                                                             UNIT COMPOSITION (10 MODELS MAXIMUM)
-  ■ For every 5 models in this unit, 1 model can replace its Deathwatch heavy bolt rifle with 1 Deathwatch   ■ 3‑10 Kill Team Heavy Intercessors
-     heavy bolter.                                                                                            ■ 0‑3 Kill Team Heavy Intercessors with power fists
-  ■ 1 model can replace its melta rifle with 1 multi‑melta.                                                   ■ 0‑3 Kill Team Heavy Intercessors with melta rifles
-  ■ Any number of models can each have their flamestorm gauntlets replaced with 1 auto boltstorm
-                                                                                                              Every Kill Team Heavy Intercessor is equipped with: bolt
-     gauntlets and 1 fragstorm grenade launcher.
-                                                                                                              pistol; Deathwatch heavy bolt rifle; close combat weapon.
-                                                                                                              Every Kill Team Heavy Intercessor with power fists is
-  ATTACHED UNIT                                                                                               equipped with: flamestorm gauntlets; twin power fists.
-  If a Character unit from your army can be attached to a Heavy Intercessor Squad, it can be attached         Every Kill Team Heavy Intercessor with melta rifle is
-  to this unit instead.                                                                                       equipped with: bolt pistol; melta rifle; close combat weapon.
-
-
-
-
-   KEYWORDS: Infantry, Grenades, Imperium, Gravis, Kill Team,                                                      FACTION KEYWORDS:
-             Indomitor Kill Team                                                                                    Adeptus Astartes, Deathwatch
-SPECTRUS KILL TEAM
- M             T            SV           W           LD   OC
-
-6"            4             3+          2        6+       1
-
-
-
-     RANGED WEAPONS                                        RANGE       A   BS   S   AP   D    ABILITIES
-     Bolt pistol [PISTOL]                                       12"    1   3+   4   0    1    CORE: Infiltrators, Scouts 6"
-     Bolt sniper rifle [HEAVY, PRECISION]                       36"    1   3+   5   -2   3
-                                                                                              FACTION: Mission Tactics, Oath of Moment
-     Deathwatch bolt carbine [LETHAL HITS, PRECISION]           24"    2   3+   5   -1   1
-     Deathwatch marksman bolt carbine                                                         Spectrus Doctrines: At the end of your opponent’s turn, if
-                                                                24"    2   3+   5   -1   1
-     [HEAVY, LETHAL HITS]                                                                     this unit is more than 6" away from all enemy units, you
-     Deathwatch occulus bolt carbine                                                          can remove this unit from the battlefield and place it into
-                                                                24"    2   3+   5   -1   1    Strategic Reserves.
-     [ASSAULT, IGNORES COVER, LETHAL HITS]
-     Instigator bolt carbine [HEAVY]                            24"    1   3+   4   -2   2
-     Las fusil [HEAVY]                                          36"    1   3+   9   -3   D6   WARGEAR ABILITIES
-     Special‑issue bolt pistol [PISTOL, PRECISION]              12"    1   3+   4   -1   1    Helix Gauntlet: Models in the bearer’s unit have the
-                                                                                              Feel No Pain 6+ ability.
-     MELEE WEAPONS                                         RANGE       A   WS   S   AP   D
-                                                                                              Infiltrator Comms Array: Each time you target the bearer’s
-     Close combat weapon                                       Melee   3   3+   4   0    1    unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.
-     Combat knife [PRECISION]                                  Melee   4   3+   4   -1   1
-                                                                                              Instigator Bolt Carbine: In your Shooting phase, after the
-     Paired combat blades [SUSTAINED HITS 1]                   Melee   3   3+   4   -1   1    bearer’s unit has shot, the bearer’s unit can make a Normal
-                                                                                              move. If it does, until the end of the turn, the bearer’s unit is
-                                                                                              not eligible to declare a charge.
-
-
- KEYWORDS: Infantry, Smoke, Grenades, Imperium, Phobos, Kill Team,                                 FACTION KEYWORDS:
-           Spectrus Kill Team                                                                       Adeptus Astartes, Deathwatch
-SPECTRUS KILL TEAM
+SPECTRUS KILL TEAM
 Sinister, silent and all but invisible until they strike, Spectrus Kill
 Teams are adept in inflicting death from both near and far. Clad in
 close‑fitting Mk X Phobos battle plate, they specialise in battlefield
 control and enemy destabilisation.
+WARGEAR OPTIONS
+■ One model equipped with a Deathwatch marksman bolt carbine can be equipped with one of
+the following:
+◦ 1 helix gauntlet
+◦ 1 Infiltrator comms array
+■ One model can replace its bolt sniper rifle with 1 instigator bolt carbine.
+■ Any number of models can each replace their bolt sniper rifle with 1 las fusil.
+■ Any number of models can each replace their combat knife with 1 Deathwatch bolt carbine and 1
+close combat weapon.
+ATTACHED UNIT
+If a Character from your army with the Leader ability can be attached to an Infiltrator Squad, it can
+be attached to this unit instead.
+If this unit has a Leader unit attached to it during the Declare Battle Formations step, that Leader unit
+gains the Infiltrators and Scouts 6" abilities.
+KEYWORDS: Infantry, Smoke, Grenades, Imperium, Phobos, Kill Team,
+Spectrus Kill Team
+UNIT COMPOSITION (10 MODELS MAXIMUM)
+■ 3‑10 Kill Team Infiltrators
+■ 0‑3 Kill Team Infiltrators with bolt sniper rifles
+■ 0‑4 Kill Team Infiltrators with Deathwatch occulus bolt
+carbines
+■ 0‑4 Kill Team Infiltrators with combat knives
+Every Kill Team Infiltrator is equipped with: bolt pistol;
+Deathwatch marksman bolt carbine; close combat weapon.
+Every Kill Team Infiltrator with bolt sniper rifle is equipped
+with: bolt pistol; bolt sniper rifle; close combat weapon.
+Every Kill Team Infiltrator with Deathwatch occulus bolt
+carbine is equipped with: bolt pistol; Deathwatch occulus bolt
+carbine; paired combat blades.
+Every Kill Team Infiltrator with combat knife is equipped
+with: special‑issue bolt pistol; combat knife.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
+DECIMUS KILL TEAM
+M T SV W LD OC
+6" 4 3+ 2 6+ 2 KILL TEAM SERGEANT,
+DEATHWATCH VETERAN
+5" 6 3+ 3 6+ 2 GRAVIS VETERAN
+RANGED WEAPONS RANGE A BS S AP D
+Astartes grenade launcher – frag [BLAST] 24" D3 3+ 4 0 1
+Astartes grenade launcher – krak 24" 1 3+ 9 -2 D3
+Bolt pistol [PISTOL, LETHAL HITS] 12" 1 3+ 4 0 1
+Deathwatch marksman bolt carbine [HEAVY, LETHAL HITS] 24" 2 3+ 5 -1 1
+Frag cannon [BLAST, HEAVY, LETHAL HITS, RAPID FIRE D3] 18" D3 3+ 7 -2 2
+Hellstorm bolt rifle [ASSAULT, HEAVY, LETHAL HITS] 30" 2 3+ 5 -2 2
+Infernus heavy bolter – heavy bolter [SUSTAINED HITS 1] 36" 3 3+ 5 -2 3
+Infernus heavy bolter – heavy flamer 12" D6 N/A 5 -1 1
+[IGNORES COVER, TORRENT]
+Plasma incinerator – standard [ASSAULT, HEAVY] 24" 2 3+ 7 -2 1
+Plasma incinerator – supercharge 24" 2 3+ 8 -3 2
+[ASSAULT, HAZARDOUS, HEAVY]
+Plasma pistol – standard [PISTOL] 12" 1 3+ 7 -2 1
+Plasma pistol – supercharge [HAZARDOUS, PISTOL] 12" 1 3+ 8 -3 2
+Special-issue bolt pistol [PISTOL, PRECISION, LETHAL HITS] 18" 1 3+ 4 -1 1
+Stalker bolt rifle [HEAVY, LETHAL HITS, PRECISION] 30" 2 3+ 5 -2 2
+MELEE WEAPONS RANGE A WS S AP D
+Close combat weapon Melee 3 3+ 4 0 1
+Combat knife [PRECISION] Melee 4 3+ 4 -1 1
+Heavy thunder hammer [DEVASTATING WOUNDS] Melee 3 4+ 10 -2 3
+Power weapon [SUSTAINED HITS 1] Melee 4 3+ 5 -2 2
+Xenophase blade [DEVASTATING WOUNDS] Melee 4 3+ 5 -2 1
+KEYWORDS – ALL MODELS: Infantry, Battleline, Grenades, Imperium, Kill Team, Decimus Kill
+Team | KILL TEAM SERGEANT AND DEATHWATCH VETERANS: Tacticus | GRAVIS VETERANS: Gravis
+ABILITIES
+FACTION: Mission Tactics, Oath of Moment
+Death to the Alien: Each time a model in this unit makes an
+attack, re-roll a Hit roll of 1. If the target of that attack does not
+have the Imperium or Chaos keywords, you can re-roll the Hit
+roll instead.
+WARGEAR ABILITIES
+Astartes Shield: The bearer has a 4+ invulnerable save.
+Before selecting targets for this weapon, select
+one of its profiles to make attacks with.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-
-   WARGEAR OPTIONS                                                                                             UNIT COMPOSITION (10 MODELS MAXIMUM)
-   ■ One model equipped with a Deathwatch marksman bolt carbine can be equipped with one of                   ■ 3‑10 Kill Team Infiltrators
-      the following:                                                                                           ■ 0‑3 Kill Team Infiltrators with bolt sniper rifles
-       ◦ 1 helix gauntlet                                                                                      ■ 0‑4 Kill Team Infiltrators with Deathwatch occulus bolt
-       ◦ 1 Infiltrator comms array                                                                                carbines
-   ■ One model can replace its bolt sniper rifle with 1 instigator bolt carbine.                               ■ 0‑4 Kill Team Infiltrators with combat knives
-   ■ Any number of models can each replace their bolt sniper rifle with 1 las fusil.                           Every Kill Team Infiltrator is equipped with: bolt pistol;
-   ■ Any number of models can each replace their combat knife with 1 Deathwatch bolt carbine and 1            Deathwatch marksman bolt carbine; close combat weapon.
-      close combat weapon.
-                                                                                                               Every Kill Team Infiltrator with bolt sniper rifle is equipped
-                                                                                                               with: bolt pistol; bolt sniper rifle; close combat weapon.
-   ATTACHED UNIT                                                                                               Every Kill Team Infiltrator with Deathwatch occulus bolt
-   If a Character from your army with the Leader ability can be attached to an Infiltrator Squad, it can       carbine is equipped with: bolt pistol; Deathwatch occulus bolt
-   be attached to this unit instead.                                                                           carbine; paired combat blades.
-   If this unit has a Leader unit attached to it during the Declare Battle Formations step, that Leader unit   Every Kill Team Infiltrator with combat knife is equipped
-   gains the Infiltrators and Scouts 6" abilities.                                                             with: special‑issue bolt pistol; combat knife.
-
-
-
-
-    KEYWORDS: Infantry, Smoke, Grenades, Imperium, Phobos, Kill Team,                                               FACTION KEYWORDS:
-              Spectrus Kill Team                                                                                     Adeptus Astartes, Deathwatch
-DECIMUS KILL TEAM
- M           T            SV            W            LD            OC
-
-6"           4           3+             2          6+              2     KILL TEAM SERGEANT,
-                                                                         DEATHWATCH VETERAN
-
-
-5"           6           3+             3          6+              2     GRAVIS VETERAN
-
-
-
-      RANGED WEAPONS                                                    RANGE      A      BS    S    AP   D    ABILITIES
-      Astartes grenade launcher – frag [BLAST]                            24"      D3     3+    4    0    1
-      Astartes grenade launcher – krak                                    24"       1     3+    9    -2   D3   FACTION: Mission Tactics, Oath of Moment
-      Bolt pistol [PISTOL, LETHAL HITS]                                   12"       1     3+    4    0    1
-                                                                                                               Death to the Alien: Each time a model in this unit makes an
-      Deathwatch marksman bolt carbine [HEAVY, LETHAL HITS]               24"       2     3+    5    -1   1
-                                                                                                               attack, re-roll a Hit roll of 1. If the target of that attack does not
-      Frag cannon [BLAST, HEAVY, LETHAL HITS, RAPID FIRE D3]              18"      D3     3+    7    -2   2
-                                                                                                               have the Imperium or Chaos keywords, you can re-roll the Hit
-      Hellstorm bolt rifle [ASSAULT, HEAVY, LETHAL HITS]                  30"       2     3+    5    -2   2
-                                                                                                               roll instead.
-      Infernus heavy bolter – heavy bolter [SUSTAINED HITS 1]             36"       3     3+    5    -2   3
-      Infernus heavy bolter – heavy flamer
-                                                                          12"      D6     N/A   5    -1   1
-      [IGNORES COVER, TORRENT]                                                                                 WARGEAR ABILITIES
-      Plasma incinerator – standard [ASSAULT, HEAVY]                      24"      2      3+    7    -2   1
-      Plasma incinerator – supercharge                                                                         Astartes Shield: The bearer has a 4+ invulnerable save.
-                                                                          24"      2      3+    8    -3   2
-      [ASSAULT, HAZARDOUS, HEAVY]
-      Plasma pistol – standard [PISTOL]                                   12"      1      3+    7    -2   1
-      Plasma pistol – supercharge [HAZARDOUS, PISTOL]                     12"      1      3+    8    -3   2
-      Special-issue bolt pistol [PISTOL, PRECISION, LETHAL HITS]          18"      1      3+    4    -1   1
-      Stalker bolt rifle [HEAVY, LETHAL HITS, PRECISION]                  30"      2      3+    5    -2   2
-
-      MELEE WEAPONS                                                     RANGE      A      WS    S    AP   D
-      Close combat weapon                                                Melee     3      3+     4   0    1
-      Combat knife [PRECISION]                                           Melee     4      3+     4   -1   1
-      Heavy thunder hammer [DEVASTATING WOUNDS]                          Melee     3      4+    10   -2   3
-      Power weapon [SUSTAINED HITS 1]                                    Melee     4      3+     5   -2   2      Before selecting targets for this weapon, select
-      Xenophase blade [DEVASTATING WOUNDS]                               Melee     4      3+     5   -2   1      one of its profiles to make attacks with.
-
-     KEYWORDS – ALL MODELS: Infantry, Battleline, Grenades, Imperium, Kill Team, Decimus Kill                        FACTION KEYWORDS:
-     Team | KILL TEAM SERGEANT AND DEATHWATCH VETERANS: Tacticus | GRAVIS VETERANS: Gravis                           Adeptus Astartes, Deathwatch
-DECIMUS KILL TEAM
+DECIMUS KILL TEAM
 The Decimus Kill Team provides a force-appropriate response to any
 alien threat at a squad-based level. Every warrior in this hand-picked
 squad possesses their own specialisms and an array of potent
 armaments that make them the bane of not only xenos foes but any
 enemy unlucky enough to bar their path.
+WARGEAR OPTIONS
+■ For every 5 models in the unit, up to 1 model’s ■ For every 5 models in the unit, up to 1 model’s
+infernus heavy bolter can be replaced with one stalker bolt rifle can be replaced with 1
+of the following: plasma incinerator.
+◦ 1 frag cannon ■ For every 5 models in the unit, up to 1 model’s
+◦ 1 hellstorm bolt rifle and 1 Astartes Deathwatch marksman bolt carbine can be
+grenade launcher replaced with 1 combat knife.
+■ For every 5 models in the unit, up to 1 model’s
+heavy thunder hammer can be replaced with 1
+power weapon and 1 Astartes shield.
+ATTACHED UNIT
+If a Character unit from your army can be attached to a Fortis Kill Team unit, it can be attached to
+unit instead.
+KEYWORDS – ALL MODELS: Infantry, Battleline, Grenades, Imperium, Kill Team, Decimus Kill
+Team | KILL TEAM SERGEANT AND DEATHWATCH VETERANS: Tacticus | GRAVIS VETERANS: Gravis
+UNIT COMPOSITION
+■ 1 Kill Team Sergeant
+■ 1 Gravis Veteran
+■ 3 Deathwatch Veterans
+OR
+■ 1 Kill Team Sergeant
+■ 2 Gravis Veterans
+■ 7 Deathwatch Veterans
+The Kill Team Sergeant is equipped with: plasma pistol;
+power weapon.
+Each Gravis Veteran is equipped with: infernus heavy bolter; bolt
+pistol; close combat weapon.
+For every 5 models in the unit, 1 Deathwatch Veteran is equipped
+with: stalker bolt rifle; bolt pistol; close combat weapon.
+this
+For every 5 models in the unit, 1 Deathwatch Veteran is equipped
+with: bolt pistol; heavy thunder hammer.
+For every 5 models in the unit, 1 Deathwatch Veteran is equipped
+with: Deathwatch marksman bolt carbine; special-issue bolt pistol;
+close combat weapon.
+If the unit contains 10 models, 1 Deathwatch Veteran is
+equipped with: special-issue bolt pistol; xenophase blade.
+FACTION KEYWORDS:
+Adeptus Astartes, Deathwatch
 
-
-
-       WARGEAR OPTIONS                                                                                             UNIT COMPOSITION
-       ■ For every 5 models in the unit, up to 1 model’s   ■ For every 5 models in the unit, up to 1 model’s     ■ 1 Kill Team Sergeant
-          infernus heavy bolter can be replaced with one       stalker bolt rifle can be replaced with 1           ■ 1 Gravis Veteran
-          of the following:                                    plasma incinerator.                                 ■ 3 Deathwatch Veterans
-           ◦ 1 frag cannon                                 ■ For every 5 models in the unit, up to 1 model’s     OR
-           ◦ 1 hellstorm bolt rifle and 1 Astartes                                                                ■ 1 Kill Team Sergeant
-                                                               Deathwatch marksman bolt carbine can be
-              grenade launcher                                                                                     ■ 2 Gravis Veterans
-                                                               replaced with 1 combat knife.
-                                                                                                                   ■ 7 Deathwatch Veterans
-       ■ For every 5 models in the unit, up to 1 model’s
-                                                                                                                   The Kill Team Sergeant is equipped with: plasma pistol;
-          heavy thunder hammer can be replaced with 1
-                                                                                                                   power weapon.
-          power weapon and 1 Astartes shield.
-                                                                                                                   Each Gravis Veteran is equipped with: infernus heavy bolter; bolt
-                                                                                                                   pistol; close combat weapon.
-       ATTACHED UNIT                                                                                               For every 5 models in the unit, 1 Deathwatch Veteran is equipped
-                                                                                                                   with: stalker bolt rifle; bolt pistol; close combat weapon.
-       If a Character unit from your army can be attached to a Fortis Kill Team unit, it can be attached to this
-       unit instead.                                                                                               For every 5 models in the unit, 1 Deathwatch Veteran is equipped
-                                                                                                                   with: bolt pistol; heavy thunder hammer.
-                                                                                                                   For every 5 models in the unit, 1 Deathwatch Veteran is equipped
-                                                                                                                   with: Deathwatch marksman bolt carbine; special-issue bolt pistol;
-                                                                                                                   close combat weapon.
-                                                                                                                   If the unit contains 10 models, 1 Deathwatch Veteran is
-                                                                                                                   equipped with: special-issue bolt pistol; xenophase blade.
-
-
-      KEYWORDS – ALL MODELS: Infantry, Battleline, Grenades, Imperium, Kill Team, Decimus Kill                          FACTION KEYWORDS:
-      Team | KILL TEAM SERGEANT AND DEATHWATCH VETERANS: Tacticus | GRAVIS VETERANS: Gravis                             Adeptus Astartes, Deathwatch
-DEATHWATCH ARMOURY
-
-  RANGED WEAPONS                                                        RANGE                 A    BS    S    AP    D     WEAPON LISTS
-  Astartes grenade launcher – frag [BLAST]                                 24"                D3   3+    4    0     1     Some Kill Team models can be equipped with one or more
-  Astartes grenade launcher – krak                                         24"                1    3+    9    -2   D3     weapons whose profiles are not listed on their datasheet. The
-  Hand flamer [IGNORES COVER, PISTOL, TORRENT]                             12"                D6   N/A   3    0     1     profiles for these weapons are instead listed on this card.
-  Plasma pistol – standard [PISTOL]                                        12"                1    3+    7    -2    1
-  Plasma pistol – supercharge [HAZARDOUS, PISTOL]                          12"                1    3+    8    -3    2
-  Superkrak rocket launcher [HEAVY]                                        48"                1    4+    10   -2   D6+1
-  Vengor launcher [BLAST, INDIRECT FIRE]                                   48"                D6   2+    7    -1    2
-
-
-
-
- Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
+DEATHWATCH ARMOURY
+RANGED WEAPONS RANGE A BS S AP D
+Astartes grenade launcher – frag [BLAST] 24" D3 3+ 4 0 1
+Astartes grenade launcher – krak 24" 1 3+ 9 -2 D3
+Hand flamer [IGNORES COVER, PISTOL, TORRENT] 12" D6 N/A 3 0 1
+Plasma pistol – standard [PISTOL] 12" 1 3+ 7 -2 1
+Plasma pistol – supercharge [HAZARDOUS, PISTOL] 12" 1 3+ 8 -3 2
+Superkrak rocket launcher [HEAVY] 48" 1 4+ 10 -2 D6+1
+Vengor launcher [BLAST, INDIRECT FIRE] 48" D6 2+ 7 -1 2
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+WEAPON LISTS
+Some Kill Team models can be equipped with one or more
+weapons whose profiles are not listed on their datasheet. The
+profiles for these weapons are instead listed on this card.

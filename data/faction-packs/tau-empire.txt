@@ -1,1783 +1,1721 @@
-                                                T’AU EMPIRE
-                                            FACTION PACK: VERSION 1.1
-                                               Legal for matched play from 22nd July 2026
-
-On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
-datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
+T’AU
+FACTION PACK:
+Legal for matched
+On the following pages you will find additional rules and clarifications
+datasheets to rules updates and FAQs. All of these changes are also
 for your units and detachments.
+WHAT’S NEW?
+▪ Changes to Rules Updates
+▪ Imperial Armour: Remove 'FRAME' from Tiger Shark and
+AX-1-0 Tiger Shark
+EMPIRE
+VERSION 1.1
+play from 22nd July 2026
+that supplement your Codex, from extra detachments and
+updated in the Warhammer 40,000 app, along with points values
+CONTENTS
+Detachments���������������������������������������������������������������������������������2
+Advanced Acquisition Cadre��������������������������������������������������������������������2
+Auxiliary Cadre���������������������������������������������������������������������������������������������3
+Experimental Prototype Cadre�����������������������������������������������������������������4
+Datasheets������������������������������������������������������������������������������������5
+The Twin Lance���������������������������������������������������������������������������������������������5
+Stealth Battlesuits��������������������������������������������������������������������������������������7
+Vespid Stingwings���������������������������������������������������������������������������������������9
+Imperial Armour Datasheets�������������������������������������������������������11
+Rules Updates�����������������������������������������������������������������������������19
+Legends Datasheets�������������������������������������������������������������������21
 
-
-WHAT’S NEW?                                                          CONTENTS
-▪ Changes to Rules Updates                                            Detachments���������������������������������������������������������������������������������2
-▪ Imperial Armour: Remove 'FRAME' from Tiger Shark and                Advanced Acquisition Cadre��������������������������������������������������������������������2
-   AX-1-0 Tiger Shark                                                  Auxiliary Cadre���������������������������������������������������������������������������������������������3
-                                                                       Experimental Prototype Cadre�����������������������������������������������������������������4
-                                                                      Datasheets������������������������������������������������������������������������������������5
-                                                                       The Twin Lance���������������������������������������������������������������������������������������������5
-                                                                       Stealth Battlesuits��������������������������������������������������������������������������������������7
-                                                                       Vespid Stingwings���������������������������������������������������������������������������������������9
-                                                                      Imperial Armour Datasheets�������������������������������������������������������11
-                                                                      Rules Updates�����������������������������������������������������������������������������19
-                                                                      Legends Datasheets�������������������������������������������������������������������21
-ADVANCED ACQUISITION CADRE
-T’AU INFILTRATION SPECIALISTS DEPLOY TO SEIZE A VITAL LOCATION AHEAD OF A MAJOR STRIKE
-
-
- DETACHMENT RULES                                                    MARKER BEACON                                                           1CP
-                                                                     ADVANCED ACQUISITION CADRE STRATAGEM
+ADVANCED ACQUISITION
+T’AU INFILTRATION SPECIALISTS DEPLOY TO SEIZE A VITAL
+DETACHMENT RULES
 EXPERT FIELDCRAFT
-                                                                     These small devices emit tightbeam triangulation signals for
-Extensive additional training – including tuition by Trail Shapers   follow‑up waves of incoming T’au forces, silently marking out
-                                                                     strategically vital sites to be secured.
+Extensive additional training – including tuition by Trail Shapers
 – enables these warriors to fire and relocate seamlessly while
-remaining concealed.                                                 WHEN: End of your Movement phase.
-                                                                     TARGET: One friendly PATHFINDER TEAM/STEALTH BATTLESUITS unit.
-In your Shooting phase, when a friendly PATHFINDER TEAM/             EFFECT: Select one objective your unit is controlling. That objective
-STEALTH BATTLESUITS unit is selected to shoot, those ranged          is secured.
+remaining concealed.
+In your Shooting phase, when a friendly PATHFINDER TEAM/
+STEALTH BATTLESUITS unit is selected to shoot, those ranged
 attacks do not prevent your unit from being hidden.
-
-                                                                     MICRODRONE SUPPORT                                                      1CP
- ENHANCEMENTS                                                        ADVANCED ACQUISITION CADRE STRATAGEM
-
-                                                                     Deployed from overflights of heavier stealth‑capable carrier
-NEGATION EMITTERS UPGRADE                                            drones, these tiny machines provide versatile battlefield
-                                                                     support for T’au stealth specialists, even in the midst of
-Modules of microcircuitry woven through battlesuit armour plating,   vicious firefights.
+ENHANCEMENTS
+NEGATION EMITTERS UPGRADE
+Modules of microcircuitry woven through battlesuit armour plating,
 these devices mask energy emissions, displace comms signals, and
-                                                                     WHEN: Your Shooting phase, when a friendly PATHFINDER TEAM/
 blind enemy sensors with particle scatter.
-                                                                     STEALTH BATTLESUITS unit starts an action.
-                                                                     TARGET: That PATHFINDER TEAM/STEALTH BATTLESUITS unit.
 STEALTH BATTLESUITS unit only. This unit has -3" detection range.
-                                                                     EFFECT: That action does not prevent your unit from being eligible
-                                                                     to shoot.
 UNMASKING SUITE UPGRADE
 This advanced AI targeting assistant features incredibly powerful
-active scanners that can locate and pinpoint even the most           AUTOREACTIVE CAMOUFLAGE                                                 1CP
+active scanners that can locate and pinpoint even the most
 well‑hidden foes as though they stood revealed in broad daylight.
-                                                                     ADVANCED ACQUISITION CADRE STRATAGEM
-
-                                                                     An experimental new form of portable electrocamouflage
-GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS             generators, these small devices interweave active energy
-unit only. When this unit is selected to shoot, you can select       shielding with passive sensor damping to further protect T’au
-                                                                     soldiery in hiding.
+GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS
+unit only. When this unit is selected to shoot, you can select
 one enemy unit within 24" of this unit. That enemy unit has +9"
-detection range until this unit has shot.                            WHEN: Your opponent’s Shooting phase, when an enemy unit
-                                                                     targets a friendly PATHFINDER TEAM/ STEALTH BATTLESUITS unit, if
-                                                                     that friendly unit is hidden.
-                                                                     TARGET: That PATHFINDER TEAM/STEALTH BATTLESUITS unit.
-                                                                     EFFECT: Your unit has +1 Sv.
-UNIQUE: AUXILIARIES
+detection range until this unit has shot.
+CADRE
+LOCATION AHEAD OF A MAJOR STRIKE
+MARKER BEACON 1CP
+ADVANCED ACQUISITION CADRE STRATAGEM
+These small devices emit tightbeam triangulation signals for
+follow‑up waves of incoming T’au forces, silently marking out
+strategically vital sites to be secured.
+WHEN: End of your Movement phase.
+TARGET: One friendly PATHFINDER TEAM/STEALTH BATTLESUITS unit.
+EFFECT: Select one objective your unit is controlling. That objective
+is secured.
+MICRODRONE SUPPORT 1CP
+ADVANCED ACQUISITION CADRE STRATAGEM
+Deployed from overflights of heavier stealth‑capable carrier
+drones, these tiny machines provide versatile battlefield
+support for T’au stealth specialists, even in the midst of
+vicious firefights.
+WHEN: Your Shooting phase, when a friendly PATHFINDER TEAM/
+STEALTH BATTLESUITS unit starts an action.
+TARGET: That PATHFINDER TEAM/STEALTH BATTLESUITS unit.
+EFFECT: That action does not prevent your unit from being eligible
+to shoot.
+AUTOREACTIVE CAMOUFLAGE 1CP
+ADVANCED ACQUISITION CADRE STRATAGEM
+An experimental new form of portable electrocamouflage
+generators, these small devices interweave active energy
+shielding with passive sensor damping to further protect T’au
+soldiery in hiding.
+WHEN: Your opponent’s Shooting phase, when an enemy unit
+targets a friendly PATHFINDER TEAM/ STEALTH BATTLESUITS unit, if
+that friendly unit is hidden.
+TARGET: That PATHFINDER TEAM/STEALTH BATTLESUITS unit.
+EFFECT: Your unit has +1 Sv.
 
+UNIQUE: AUXILIARIES
 AUXILIARY CADRE
-THIS CADRE OF ALIEN AUXILIARIES FIGHTS FOR THE FURTHERANCE OF THE GREATER GOOD
-
-
- DETACHMENT RULES                                                      EXPERIMENTAL MODIFICATIONS                                             1CP
-                                                                       AUXILIARY CADRE STRATAGEM
+THIS CADRE OF ALIEN AUXILIARIES FIGHTS FOR THE
+DETACHMENT RULES
 INTEGRATED COMMAND STRUCTURE
-                                                                       These experimental Earth caste weapon upgrades can only activate
-T’au officers given charge of auxiliary cadres receive additional      for short bursts at a time, but the extra stopping power they
-                                                                       provide is formidable.
+T’au officers given charge of auxiliary cadres receive additional
 training in optimised doctrinal and strategic alien amalgamation;
-this – coupled with specialised translation drones and endless         WHEN: Your Shooting phase or the Fight phase, when a friendly
-integrated combat drills – allows them to get the best out of their    KROOT/VESPID STINGWINGS unit is selected to attack.
-alien subordinates.                                                    TARGET: That KROOT/VESPID STINGWINGS unit.
-                                                                       EFFECT: Your unit’s attacks have +1 AP.
+this – coupled with specialised translation drones and endless
+integrated combat drills – allows them to get the best out of their
+alien subordinates.
 Friendly KROOT/VESPID STINGWINGS units have the following ability:
-  Harnessed Alien Instincts: In your Shooting phase, this unit
-   can select one visible enemy unit within 12". That enemy unit
-   is prey‑marked:                                                     ALIEN EXPERTISE                                                        1CP
-                                                                       AUXILIARY CADRE STRATAGEM
-  ▪ While a unit is prey‑marked, that unit has +3"
-     detection range.                                                  There is much that the alien auxiliaries of the T’au empire can
-                                                                       teach the Fire caste, not least through practical and deadly
-                                                                       battlefield demonstrations.
-
-Friendly GHOSTKEEL BATTLESUIT/STEALTH BATTLESUITS units have           WHEN: Your Movement phase, when a friendly KROOT/VESPID
-the following ability:                                                 STINGWINGS unit is selected to make an advance move.
-
-  Localised Stealth Projectors (Aura): When a friendly KROOT/         TARGET: That KROOT/VESPID STINGWINGS unit.
-   VESPID STINGWINGS unit within 6" of this unit has shot, those       EFFECT: That move does not prevent your unit from being eligible to
-                                                                       declare a charge.
-   attacks do not prevent that unit from being hidden.
-
+Harnessed Alien Instincts: In your Shooting phase, this unit
+can select one visible enemy unit within 12". That enemy unit
+is prey‑marked:
+▪ While a unit is prey‑marked, that unit has +3"
+detection range.
+Friendly GHOSTKEEL BATTLESUIT/STEALTH BATTLESUITS units have
+the following ability:
+Localised Stealth Projectors (Aura): When a friendly KROOT/
+VESPID STINGWINGS unit within 6" of this unit has shot, those
+attacks do not prevent that unit from being hidden.
 This detachment has the AUXILIARIES tag and cannot be taken
-with another AUXILIARIES detachment.                                   GUIDED BY UNITY                                                        1CP
-                                                                       AUXILIARY CADRE STRATAGEM
-
-                                                                       Firing on coordinates provided by selfless alien auxiliaries,
- ENHANCEMENTS                                                          the T’au are able to scythe down their targets with
-                                                                       pinpoint precision.
-
-STUDENT OF KAUYON                                                      WHEN: Your Shooting phase, when a friendly T’AU EMPIRE unit
-This Shaper has not only studied the Code of Fire but has also         (excluding KROOT/VESPID STINGWINGS units) is selected to shoot.
-
-adapted it to best suit their people’s skills.                         TARGET: That T’AU EMPIRE unit.
-                                                                       EFFECT: Your unit’s ranged attacks that target a unit within 9" of a
-KROOT SHAPER model only. In the Declare Battle Formations step,        friendly KROOT/VESPID STINGWINGS unit have [LETHAL HITS].
-
+with another AUXILIARIES detachment.
+ENHANCEMENTS
+STUDENT OF KAUYON
+This Shaper has not only studied the Code of Fire but has also
+adapted it to best suit their people’s skills.
+KROOT SHAPER model only. In the Declare Battle Formations step,
 you can select up to three friendly KROOT CARNIVORES/FARSTALKERS
 units. Those units have Deep Strike.
-
 ADMIRED LEADER
 Having proven themselves to their alien charges, this T’au has won
 their fierce loyalty and become an iconic folk hero to them.
-
 T’AU EMPIRE model only (excluding KROOT models). In your
 Command phase, you can select one KROOT/VESPID STINGWINGS
 unit within 12" of this model. If you do, that unit has +1 Ld and OC
 until the start of your next Command phase.
-UNIQUE: RETALIATION
+FURTHERANCE OF THE GREATER GOOD
+EXPERIMENTAL MODIFICATIONS 1CP
+AUXILIARY CADRE STRATAGEM
+These experimental Earth caste weapon upgrades can only activate
+for short bursts at a time, but the extra stopping power they
+provide is formidable.
+WHEN: Your Shooting phase or the Fight phase, when a friendly
+KROOT/VESPID STINGWINGS unit is selected to attack.
+TARGET: That KROOT/VESPID STINGWINGS unit.
+EFFECT: Your unit’s attacks have +1 AP.
+ALIEN EXPERTISE 1CP
+AUXILIARY CADRE STRATAGEM
+There is much that the alien auxiliaries of the T’au empire can
+teach the Fire caste, not least through practical and deadly
+battlefield demonstrations.
+WHEN: Your Movement phase, when a friendly KROOT/VESPID
+STINGWINGS unit is selected to make an advance move.
+TARGET: That KROOT/VESPID STINGWINGS unit.
+EFFECT: That move does not prevent your unit from being eligible to
+declare a charge.
+GUIDED BY UNITY 1CP
+AUXILIARY CADRE STRATAGEM
+Firing on coordinates provided by selfless alien auxiliaries,
+the T’au are able to scythe down their targets with
+pinpoint precision.
+WHEN: Your Shooting phase, when a friendly T’AU EMPIRE unit
+(excluding KROOT/VESPID STINGWINGS units) is selected to shoot.
+TARGET: That T’AU EMPIRE unit.
+EFFECT: Your unit’s ranged attacks that target a unit within 9" of a
+friendly KROOT/VESPID STINGWINGS unit have [LETHAL HITS].
 
+UNIQUE: RETALIATION
 EXPERIMENTAL
 PROTOTYPE CADRE
-ELITE CADRES ARE EQUIPPED WITH PROTOTYPE TECHNOLOGY, AND HONOURED TO TEST THEM IN BATTLE
-
-
- DETACHMENT RULES                                                      EXPERIMENTAL AMMUNITION                                            1CP
-                                                                       EXPERIMENTAL PROTOTYPE CADRE STRATAGEM
+ELITE CADRES ARE EQUIPPED WITH PROTOTYPE TECHNOLOGY,
+DETACHMENT RULES
 SUPERIOR CRAFTSMANSHIP
-                                                                       From hardened warheads and amplified ion capacitors, to
-The applied science divisions of the Earth caste labour endlessly to   hyperaccelerated pulse fields and refined fusion cores, the T’au
-                                                                       are forever innovating improvements to improve the lethality of
-provide front‑line units with superior weapons systems with which      their ammunition.
+The applied science divisions of the Earth caste labour endlessly to
+provide front‑line units with superior weapons systems with which
 to destroy the foe from afar.
-                                                                       WHEN: Your Shooting phase, when a friendly BATTLESUIT CHARACTER
-                                                                       unit is selected to shoot.
 Friendly BATTLESUIT CHARACTER units’ ranged attacks have +6" R.
-                                                                       TARGET: That BATTLESUIT CHARACTER unit.
-
-This detachment has the RETALIATION tag and cannot be taken            EFFECT: Your unit’s ranged attacks have:
-with another RETALIATION detachment.                                   ▪ +1 S.
-                                                                       ▪ OR: +1 S, AP and [HAZARDOUS].
-
-
- ENHANCEMENTS
-
+This detachment has the RETALIATION tag and cannot be taken
+with another RETALIATION detachment.
+ENHANCEMENTS
 THERMONEUTRONIC PROJECTOR
 The thermoneutronic projector uses volatile gases siphoned from
 the coronas of neutron stars to expel a flame capable of searing
 through the armour plating of a battle tank.
-
 BATTLESUIT model only. In the Declare Battle Formations step,
 select one of this model’s T’au Flamer weapons. That weapon’s
 attacks have:
 ▪ +2 S
 ▪ +1 AP and D.
-
 PLASMA ACCELERATOR RIFLE
 The plasma accelerator rifle blends pulse‑induction technology with
 a high‑yield plasma generator, rendering it highly effective against
 both infantry and light vehicles.
-
 BATTLESUIT model only. In the Declare Battle Formations step,
 select one of this model’s Plasma Rifle weapons. That weapon’s
 attacks have:
 ▪ +2 S
 ▪ +1 A, AP and D.
-
 SUPERNOVA LAUNCHER
 Adapted from standard‑issue fragmentation projectors, this weapon
 enables the bearer to fire explosive plasma charges on parabolic
 trajectories. These projectiles drop amongst the enemy and explode
 in a coruscating fireball that evaporates metal and flesh alike.
-
 BATTLESUIT model only. In the Declare Battle Formations step,
 select one of this model’s Airbursting Fragmentation Projector
 weapons. That weapon’s attacks have:
 ▪ +3 S
 ▪ +1 AP and D.
-THE TWIN LANCE
- M            T             SV            W             LD            OC
+AND HONOURED TO TEST THEM IN BATTLE
+EXPERIMENTAL AMMUNITION 1CP
+EXPERIMENTAL PROTOTYPE CADRE STRATAGEM
+From hardened warheads and amplified ion capacitors, to
+hyperaccelerated pulse fields and refined fusion cores, the T’au
+are forever innovating improvements to improve the lethality of
+their ammunition.
+WHEN: Your Shooting phase, when a friendly BATTLESUIT CHARACTER
+unit is selected to shoot.
+TARGET: That BATTLESUIT CHARACTER unit.
+EFFECT: Your unit’s ranged attacks have:
+▪ +1 S.
+▪ OR: +1 S, AP and [HAZARDOUS].
 
+THE TWIN LANCE
+M T SV W LD OC
+10" 6 2+ 8 6+ 2
+4+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S
+Fusion eliminator [MELTA 2] 18" 2 2+ 10
+Ion scattercannon – standard [RAPID FIRE 2] 18" 4 2+ 7
+Ion scattercannon – overcharge 18" 4 2+ 8
+[HAZARDOUS, RAPID FIRE 2]
+Shardstorm burst system [PISTOL] 18" D6 2+ 5
+Twin pulse blaster [ASSAULT, TWIN-LINKED] 10" 2 5+ 6
+XV pulse pistol [RAPID FIRE 2] 12" 2 2+ 6
+MELEE WEAPONS RANGE A WS S AP
+Fusion eliminator [EXTRA ATTACKS] Melee 1 4+ 10 -4
+Ion scattercannon [EXTRA ATTACKS] Melee 3 4+ 7 -2
+XV pulse pistol Melee 4 3+ 6 -1
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Fly, Character, Epic Hero, Battlesuit,
+The Twin Lance
+AP D ABILITIES
+-4 D6 CORE: Deep Strike, Scouts 8"
+-2 2
+FACTION: For the Greater Good
+-3 3
+Exemplars of Mont’ka: Each time a model in this unit
+0 1 makes a ranged attack that targets the closest eligible
+-1 1 target, that attack has the [SUSTAINED HITS 1] and
+-1 2 [IGNORES COVER] abilities.
+Neocapacitor Shields: At the start of your opponent’s Charge
+D phase, you can select one enemy unit (excluding Monster
+and Vehicle units) within 12" of this unit. That unit must take
+D6+2 a Battle-shock test and, until the end of the turn, subtract 1
+2 from Charge rolls made for that unit.
+2 Retro-thrusters: At the end of the Fight phase, if this unit was
+eligible to fight this phase, this unit can either make a Normal
+move of up to 6" or a Fall Back move.
+WARGEAR ABILITIES
+MV15 Gun Drone: The bearer is equipped with 1 twin
+pulse blaster.
+FACTION KEYWORDS:
+T’au Empire
 
-10"          6            2+              8           6+              2
-            4+               INVULNERABLE SAVE
+THE TWIN LANCE
+Shas’ri Locai and Shas’ri Lantar fight with an aggression rarely
+seen amongst the Fire caste. There is a focus to their ferocity,
+however, leaping close to their foes in jet-assisted bounds
+and unleashing punishing firepower before discharging
+kinetic shock waves built up by their neocapacitor shields and
+retreating again amidst the resultant carnage.
+WARGEAR OPTIONS
+■ None.
+KEYWORDS: Vehicle, Walker, Fly, Character, Epic Hero, Battlesuit,
+The Twin Lance
+UNIT COMPOSITION
+■ 1 Ri’Lantar – Epic Hero
+■ 1 Ri’Locai – Epic Hero
+Ri’Lantar is equipped with: 1 fusion eliminator; 1 XV pulse
+pistol; 1 shardstorm burst system; 1 MV15 gun drone.
+Ri’Locai is equipped with: 1 ion scattercannon; 1 XV pulse
+pistol; 1 shardstorm burst system; 1 MV15 gun drone.
+FACTION KEYWORDS:
+T’au Empire
 
+STEALTH BATTLESUITS
+M T SV W LD OC
+8" 4 3+ 2 7+ 1
+RANGED WEAPONS RANGE A BS S
+Burst cannon 18" 4 4+ 5
+Fusion blaster [MELTA 2] 12" 1 4+ 9
+Pulse pistol [PISTOL] 12" 1 4+ 5
+MELEE WEAPONS RANGE A WS S AP
+Battlesuit fists Melee 2 5+ 4 0
+KEYWORDS: Infantry, Fly, Battlesuit, Grenades, Markerlight, Stealth
+AP D ABILITIES
+0 1 CORE: Infiltrators, Stealth
+-4 D6
+0 1 FACTION: For the Greater Good
+Forward Observers: Each time this unit is an Observer unit,
+D until the end of the phase, each time a ranged attack is made
+1 by a model in a Guided unit that targets their Spotted unit,
+re-roll a Hit roll of 1 and re-roll a Wound roll of 1.
+WARGEAR ABILITIES
+Homing Beacon: Once per battle, you can use the Rapid
+Ingress Stratagem for 0CP. The target must be set up within
+3" of the bearer’s unit and more than 8" away from all
+enemy units.
+Designer’s Note: Place a Homing Beacon token next to this unit, removing it
+once this ability is used.
+FACTION KEYWORDS:
+T’au Empire
 
-      RANGED WEAPONS                                                       RANGE                  A    BS   S    AP    D     ABILITIES
-      Fusion eliminator [MELTA 2]                                              18"                2    2+   10   -4    D6    CORE: Deep Strike, Scouts 8"
-      Ion scattercannon – standard [RAPID FIRE 2]                              18"                4    2+   7    -2    2
-                                                                                                                             FACTION: For the Greater Good
-      Ion scattercannon – overcharge
-                                                                               18"                4    2+   8    -3    3
-      [HAZARDOUS, RAPID FIRE 2]
-                                                                                                                             Exemplars of Mont’ka: Each time a model in this unit
-      Shardstorm burst system [PISTOL]                                         18"                D6   2+   5    0     1     makes a ranged attack that targets the closest eligible
-      Twin pulse blaster [ASSAULT, TWIN-LINKED]                                10"                2    5+   6    -1    1     target, that attack has the [SUSTAINED HITS 1] and
-                                                                                                                             [IGNORES COVER] abilities.
-      XV pulse pistol [RAPID FIRE 2]                                           12"                2    2+   6    -1    2
-                                                                                                                             Neocapacitor Shields: At the start of your opponent’s Charge
-      MELEE WEAPONS                                                        RANGE                  A    WS   S    AP    D     phase, you can select one enemy unit (excluding Monster
-                                                                                                                             and Vehicle units) within 12" of this unit. That unit must take
-      Fusion eliminator [EXTRA ATTACKS]                                      Melee                1    4+   10   -4   D6+2   a Battle-shock test and, until the end of the turn, subtract 1
-      Ion scattercannon [EXTRA ATTACKS]                                      Melee                3    4+    7   -2    2     from Charge rolls made for that unit.
-      XV pulse pistol                                                        Melee                4    3+   6    -1    2     Retro-thrusters: At the end of the Fight phase, if this unit was
-                                                                                                                             eligible to fight this phase, this unit can either make a Normal
-                                                                                                                             move of up to 6" or a Fall Back move.
+STEALTH BATTLESUITS
+Benefiting from sensor-baffling stealth technology,
+jet-assisted speed and impressive firepower, Stealth
+Battlesuit teams make excellent forward operatives who can
+deploy homing beacons to guide entire insertion forces into
+battle from low orbit.
+WARGEAR OPTIONS
+■ The Stealth Shas’vre can be equipped with 1 gun drone.*
+■ The Stealth Shas’vre can be equipped with 1 marker drone.*
+■ The Stealth Shas’vre can be equipped with 1 pulse pistol.
+■ 1 Stealth Shas’ui can be equipped with 1 homing beacon.
+■ 2 models can each have their burst cannon replaced with 1 fusion blaster.
+* This drone’s rules can be found on page 77 of Codex: T’au Empire.
+KEYWORDS: Infantry, Fly, Battlesuit, Grenades, Markerlight, Stealth
+UNIT COMPOSITION
+■ 1 Stealth Shas’vre
+■ 4 Stealth Shas’ui
+Every model is equipped with: burst cannon; battlesuit fists.
+FACTION KEYWORDS:
+T’au Empire
 
-                                                                                                                             WARGEAR ABILITIES
-                                                                                                                             MV15 Gun Drone: The bearer is equipped with 1 twin
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.                              pulse blaster.
+VESPID STINGWINGS
+M T SV W LD OC
+12" 4 4+ 1 7+ 1
+RANGED WEAPONS RANGE
+Neutron blaster [ASSAULT] 18"
+Neutron grenade launcher [ANTI-INFANTRY 3+, BLAST] 18"
+Neutron rail rifle [DEVASTATING WOUNDS] 30"
+T’au flamer [IGNORES COVER, TORRENT] 12"
+MELEE WEAPONS RANGE
+Stingwing claws Melee
+KEYWORDS: Infantry, Fly, Vespid Stingwings
+A BS S AP D ABILITIES
+2 4+ 5 -2 2 CORE: Deep Strike
+D6 4+ 4 -1 2
+1 4+ 10 -4 3 Airborne Agility: At the end of your opponent’s turn, if this
+unit is not within Engagement Range of one or more enemy
+D6 N/A 4 0 1 units, you can remove it from the battlefield and place it into
+Strategic Reserves.
+A WS S AP D
+1 4+ 4 -1 1 WARGEAR ABILITIES
+Oversight Drone: Once per battle, when the bearer’s unit
+is selected to shoot, until the end of the phase, ranged
+weapons equipped by models in this unit have the
+[IGNORES COVER] ability.
+Designer’s Note: Place an Oversight Drone token next to the bearer, removing
+it once this ability has been used.
+FACTION KEYWORDS:
+T’au Empire
 
-     KEYWORDS: Vehicle, Walker, Fly, Character, Epic Hero, Battlesuit,                                                            FACTION KEYWORDS:
-               The Twin Lance                                                                                                      T’au Empire
-THE TWIN LANCE
- Shas’ri Locai and Shas’ri Lantar fight with an aggression rarely
- seen amongst the Fire caste. There is a focus to their ferocity,
- however, leaping close to their foes in jet-assisted bounds
- and unleashing punishing firepower before discharging
- kinetic shock waves built up by their neocapacitor shields and
- retreating again amidst the resultant carnage.
-
-
-     WARGEAR OPTIONS                                                    UNIT COMPOSITION
-     ■ None.                                                          ■ 1 Ri’Lantar – Epic Hero
-                                                                        ■ 1 Ri’Locai – Epic Hero
-                                                                        Ri’Lantar is equipped with: 1 fusion eliminator; 1 XV pulse
-                                                                        pistol; 1 shardstorm burst system; 1 MV15 gun drone.
-                                                                        Ri’Locai is equipped with: 1 ion scattercannon; 1 XV pulse
-                                                                        pistol; 1 shardstorm burst system; 1 MV15 gun drone.
-
-
-
-
-   KEYWORDS: Vehicle, Walker, Fly, Character, Epic Hero, Battlesuit,         FACTION KEYWORDS:
-             The Twin Lance                                                   T’au Empire
-STEALTH BATTLESUITS
- M           T           SV      W   LD     OC
-
-
-8"          4            3+      2   7+     1
-
-
-
-      RANGED WEAPONS                             RANGE     A    BS     S   AP   D    ABILITIES
-      Burst cannon                                18"      4     4+    5   0    1    CORE: Infiltrators, Stealth
-      Fusion blaster [MELTA 2]                    12"      1     4+    9   -4   D6
-                                                                                     FACTION: For the Greater Good
-      Pulse pistol [PISTOL]                       12"      1     4+    5   0    1
-                                                                                     Forward Observers: Each time this unit is an Observer unit,
-      MELEE WEAPONS                              RANGE     A    WS    S    AP   D    until the end of the phase, each time a ranged attack is made
-                                                                                     by a model in a Guided unit that targets their Spotted unit,
-      Battlesuit fists                           Melee     2     5+    4   0    1
-                                                                                     re-roll a Hit roll of 1 and re-roll a Wound roll of 1.
-
-
-                                                                                     WARGEAR ABILITIES
-                                                                                     Homing Beacon: Once per battle, you can use the Rapid
-                                                                                     Ingress Stratagem for 0CP. The target must be set up within
-                                                                                     3" of the bearer’s unit and more than 8" away from all
-                                                                                     enemy units.
-                                                                                     Designer’s Note: Place a Homing Beacon token next to this unit, removing it
-                                                                                     once this ability is used.
-
-
-
-
-                                                                                            FACTION KEYWORDS:
-     KEYWORDS: Infantry, Fly, Battlesuit, Grenades, Markerlight, Stealth
-                                                                                            T’au Empire
-STEALTH BATTLESUITS
- Benefiting from sensor-baffling stealth technology,
- jet-assisted speed and impressive firepower, Stealth
- Battlesuit teams make excellent forward operatives who can
- deploy homing beacons to guide entire insertion forces into
- battle from low orbit.
-
-
-     WARGEAR OPTIONS                                                               UNIT COMPOSITION
-     ■ The Stealth Shas’vre can be equipped with 1 gun drone.*                     ■ 1 Stealth Shas’vre
-     ■ The Stealth Shas’vre can be equipped with 1 marker drone.*                  ■ 4 Stealth Shas’ui
-     ■ The Stealth Shas’vre can be equipped with 1 pulse pistol.                   Every model is equipped with: burst cannon; battlesuit fists.
-     ■ 1 Stealth Shas’ui can be equipped with 1 homing beacon.
-     ■ 2 models can each have their burst cannon replaced with 1 fusion blaster.
-       * This drone’s rules can be found on page 77 of Codex: T’au Empire.
-
-
-
-
-                                                                                        FACTION KEYWORDS:
-   KEYWORDS: Infantry, Fly, Battlesuit, Grenades, Markerlight, Stealth
-                                                                                        T’au Empire
-VESPID STINGWINGS
- M           T          SV           W          LD         OC
-
-12"         4         4+            1           7+         1
-
-
-
-      RANGED WEAPONS                                            RANGE   A    BS    S    AP   D   ABILITIES
-      Neutron blaster [ASSAULT]                                  18"    2    4+    5    -2   2   CORE: Deep Strike
-      Neutron grenade launcher [ANTI-INFANTRY 3+, BLAST]         18"    D6   4+    4    -1   2
-                                                                                                 Airborne Agility: At the end of your opponent’s turn, if this
-      Neutron rail rifle [DEVASTATING WOUNDS]                    30"    1    4+    10   -4   3
-                                                                                                 unit is not within Engagement Range of one or more enemy
-      T’au flamer [IGNORES COVER, TORRENT]                       12"    D6   N/A   4    0    1   units, you can remove it from the battlefield and place it into
-                                                                                                 Strategic Reserves.
-      MELEE WEAPONS                                             RANGE   A    WS    S    AP   D
-      Stingwing claws                                           Melee   1    4+    4    -1   1   WARGEAR ABILITIES
-                                                                                                 Oversight Drone: Once per battle, when the bearer’s unit
-                                                                                                 is selected to shoot, until the end of the phase, ranged
-                                                                                                 weapons equipped by models in this unit have the
-                                                                                                 [IGNORES COVER] ability.
-                                                                                                 Designer’s Note: Place an Oversight Drone token next to the bearer, removing
-                                                                                                 it once this ability has been used.
-
-
-
-
-                                                                                                        FACTION KEYWORDS:
-     KEYWORDS:Infantry, Fly, Vespid Stingwings
-                                                                                                        T’au Empire
-VESPID STINGWINGS
+VESPID STINGWINGS
 These alien auxiliaries thrum into battle on membranous wings, their
 airborne agility leaving the enemy nowhere to hide. Resilient enough
 to shrug off all but the heaviest incoming fire, they unleash punishing
 radioactive salvoes from their neutron blasters that soon reduce their
 targets to little more than glowing craters.
+WARGEAR OPTIONS
+■ If this unit contains 10 models:
+◦ The Vespid Strain Leader can be equipped with 1 Oversight Drone.
+◦ 1 Vespid Stingwing can replace its neutron blaster with 1 T’au flamer.
+◦ 1 Vespid Stingwing can replace its neutron blaster with 1 neutron grenade launcher.
+◦ 1 Vespid Stingwing can replace its neutron blaster with 1 neutron rail rifle.
+KEYWORDS: Infantry, Fly, Vespid Stingwings
+UNIT COMPOSITION
+■  1 Vespid Strain Leader
+■ 4-9 Vespid Stingwings
+Each model is equipped with: neutron blaster;
+Stingwing claws.
+VESPID STINGWINGS
+This datasheet replaces the Vespid Stingwings datasheet
+found in Codex: T’au Empire.
+FACTION KEYWORDS:
+T’au Empire
 
+TA’UNAR SUPREMACY ARMOUR
+M T SV W LD OC
+8" 13 2+ 30 7+ 10
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Burst cannon 18" 4 4+ 5 0 1
+Fragmentation cluster shell launcher [BLAST] 24" 2D6+6 4+ 6 -1 1
+Fusion eradicator [MELTA 3] 24" 5 4+ 10 -4 D6
+Heavy rail cannon array [DEVASTATING WOUNDS, HEAVY] 120" 2 4+ 26 -5 16
+Nexus missile launcher 36" 8 4+ 8 -3 2
+Pulse ordnance driver [ANTI-INFANTRY 2+] 60" 8 4+ 5 -1 3
+Smart missile system [INDIRECT FIRE] 30" 3 4+ 5 0 1
+Tri-axis ion cannon – standard [BLAST] 36" D6+3 4+ 8 -2 2
+Tri-axis ion cannon – supercharge 36" D6+3 4+ 9 -3 3
+[BLAST, HAZARDOUS]
+MELEE WEAPONS RANGE A WS S AP D
+Crushing feet Melee 6 5+ 8 -1 2
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Titanic, Towering, Frame,
+Ta’unar Supremacy Armour
+ABILITIES
+CORE: Deadly Demise D6+3, Super-heavy Walker
+FACTION: For the Greater Good
+Coordinated Strike: While this model is a Guided unit, each
+time it makes an attack that targets its Spotted unit, re-roll a
+Hit roll of 1.
+DAMAGED: 1-10 WOUNDS REMAINING
+While this model has 1-10 wounds remaining, subtract 5 from
+this model’s Objective Control characteristic and each time
+this model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-     WARGEAR OPTIONS                                                                              UNIT COMPOSITION
-     ■ If this unit contains 10 models:                                                          ■ 1 Vespid Strain Leader
-          ◦ The Vespid Strain Leader can be equipped with 1 Oversight Drone.                      ■ 4-9 Vespid Stingwings
-          ◦ 1 Vespid Stingwing can replace its neutron blaster with 1 T’au flamer.                Each model is equipped with: neutron blaster;
-          ◦ 1 Vespid Stingwing can replace its neutron blaster with 1 neutron grenade launcher.   Stingwing claws.
-          ◦ 1 Vespid Stingwing can replace its neutron blaster with 1 neutron rail rifle.
-                                                                                                  VESPID STINGWINGS
-                                                                                                  This datasheet replaces the Vespid Stingwings datasheet
-                                                                                                  found in Codex: T’au Empire.
-
-
-
-
-                                                                                                         FACTION KEYWORDS:
-    KEYWORDS:Infantry, Fly, Vespid Stingwings
-                                                                                                         T’au Empire
-TA’UNAR SUPREMACY ARMOUR
- M            T           SV             W             LD            OC
-
-
-8"          13            2+           30            7+            10
-                          5+              INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                                                    RANGE                  A   BS   S    AP   D    ABILITIES
-     Burst cannon                                                          18"                4   4+   5    0    1    CORE: Deadly Demise D6+3, Super-heavy Walker
-     Fragmentation cluster shell launcher [BLAST]                          24"          2D6+6     4+   6    -1   1
-                                                                                                                      FACTION: For the Greater Good
-     Fusion eradicator [MELTA 3]                                           24"                5   4+   10   -4   D6
-     Heavy rail cannon array [DEVASTATING WOUNDS, HEAVY]                  120"                2   4+   26   -5   16   Coordinated Strike: While this model is a Guided unit, each
-     Nexus missile launcher                                                36"                8   4+   8    -3   2    time it makes an attack that targets its Spotted unit, re-roll a
-                                                                                                                      Hit roll of 1.
-     Pulse ordnance driver [ANTI-INFANTRY 2+]                              60"            8       4+   5    -1   3
-     Smart missile system [INDIRECT FIRE]                                  30"            3       4+   5    0    1
-     Tri-axis ion cannon – standard [BLAST]                                36"           D6+3     4+   8    -2   2         DAMAGED: 1-10 WOUNDS REMAINING
-     Tri-axis ion cannon – supercharge                                                                                While this model has 1-10 wounds remaining, subtract 5 from
-                                                                           36"           D6+3     4+   9    -3   3
-     [BLAST, HAZARDOUS]                                                                                               this model’s Objective Control characteristic and each time
-                                                                                                                      this model makes an attack, subtract 1 from the Hit roll.
-     MELEE WEAPONS                                                     RANGE                  A   WS   S    AP   D
-     Crushing feet                                                        Melee               6   5+   8    -1   2
-
-
-
-
- Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
- KEYWORDS: Vehicle, Walker, Titanic, Towering, Frame,                                                                      FACTION KEYWORDS:
-           Ta’unar Supremacy Armour                                                                                         T’au Empire
-TA’UNAR SUPREMACY ARMOUR
+TA’UNAR SUPREMACY ARMOUR
 Ta’unar Supremacy Armour is the largest class of T’au battlesuit
 yet encountered. Principally designed for static defence, the KX139
 platform lacks manoeuvrability, but supports a broad suite of
 immensely powerful weapons that can hold their own against targets
 ranging from Imperial Knights to towering alien monstrosities.
+WARGEAR OPTIONS
+■ This model’s tri-axis ion cannon can be replaced with 1 fusion eradicator.
+■ This model’s fusion eradicator can be replaced with 1 tri-axis ion cannon.
+■ This model’s 3 pulse ordnance drivers can be replaced with one of the following:
+◦ 2 nexus missile launchers
+◦ 1 heavy rail cannon array and 1 fragmentation cluster shell launcher
+KEYWORDS: Vehicle, Walker, Titanic, Towering, Frame,
+Ta’unar Supremacy Armour
+UNIT COMPOSITION
+■ 1 Ta’unar Supremacy Armour
+This model is equipped with: 4 burst cannons; fusion
+eradicator; 3 pulse ordnance drivers; 4 smart missile
+systems; tri-axis ion cannon; crushing feet.
+FACTION KEYWORDS:
+T’au Empire
 
+TIGER SHARK
+M T SV W LD OC
+- 11 3+ 18 7+ -
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Burst cannon 18" 4 4+ 5 0 1
+Cyclic ion blaster – standard 18" 3 4+ 7 -1 1
+Cyclic ion blaster – overcharge [HAZARDOUS] 18" 3 4+ 8 -2 2
+Ion cannon – standard [BLAST] 60" D6+3 4+ 7 -1 2
+Ion cannon – overcharge [BLAST, HAZARDOUS] 60" D6+3 4+ 8 -2 3
+Missile pod 30" 2 4+ 7 -1 2
+Seeker missile [ONE SHOT] 48" 1 4+ 14 -3 D6+1
+One Shot: The bearer can only shoot with this weapon once per battle.
+Skyspear missile rack [ANTI-FLY 3+, BLAST] 72" D6+1 4+ 6 -1 1
+Swiftstrike burst cannon 36" 16 4+ 6 -1 1
+Swiftstrike railgun [DEVASTATING WOUNDS] 72" 1 4+ 20 -5 D6+6
+MELEE WEAPONS RANGE A WS S AP D
+Armoured hull Melee 3 5+ 6 0 1
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Aircraft, Fly, Tiger Shark
+ABILITIES
+CORE: Deadly Demise D6+2
+FACTION: For the Greater Good
+Strafing Run: In your Shooting phase, after this model has
+shot, select one enemy unit hit by one or more of those
+attacks that cannot Fly. That enemy unit must take a
+Battle-shock test.
+WARGEAR ABILITIES
+Transport Bay: The bearer has the Transport keyword and
+has a transport capacity of 12 Tactical Drones models.
+DAMAGED: 1-6 WOUNDS REMAINING
+While this model has 1-6 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-  WARGEAR OPTIONS                                                                       UNIT COMPOSITION
-  ■ This model’s tri-axis ion cannon can be replaced with 1 fusion eradicator.        ■ 1 Ta’unar Supremacy Armour
-  ■ This model’s fusion eradicator can be replaced with 1 tri-axis ion cannon.          This model is equipped with: 4 burst cannons; fusion
-                                                                                        eradicator; 3 pulse ordnance drivers; 4 smart missile
-  ■ This model’s 3 pulse ordnance drivers can be replaced with one of the following:
-                                                                                        systems; tri-axis ion cannon; crushing feet.
-      ◦ 2 nexus missile launchers
-      ◦ 1 heavy rail cannon array and 1 fragmentation cluster shell launcher
-
-
-
-
-   KEYWORDS: Vehicle, Walker, Titanic, Towering, Frame,                                     FACTION KEYWORDS:
-             Ta’unar Supremacy Armour                                                        T’au Empire
-TIGER SHARK
-  M                T            SV             W            LD            OC
-
-
-  -             11            3+            18             7+              -
-                               5+              INVULNERABLE SAVE
-
-
-   RANGED WEAPONS                                                       RANGE                  A   BS   S    AP    D     ABILITIES
-   Burst cannon                                                             18"                4   4+   5    0     1     CORE: Deadly Demise D6+2
-   Cyclic ion blaster – standard                                            18"                3   4+   7    -1    1
-                                                                                                                         FACTION: For the Greater Good
-   Cyclic ion blaster – overcharge [HAZARDOUS]                              18"                3   4+   8    -2    2
-   Ion cannon – standard [BLAST]                                            60"           D6+3     4+   7    -1    2     Strafing Run: In your Shooting phase, after this model has
-   Ion cannon – overcharge [BLAST, HAZARDOUS]             60"        D6+3                          4+    8   -2    3     shot, select one enemy unit hit by one or more of those
-                                                                                                                         attacks that cannot Fly. That enemy unit must take a
-   Missile pod                                            30"          2                           4+    7   -1    2
-                                                                                                                         Battle-shock test.
-   Seeker missile [ONE SHOT]                              48"          1                           4+   14   -3   D6+1
-   One Shot: The bearer can only shoot with this weapon once per battle.
-   Skyspear missile rack [ANTI-FLY 3+, BLAST]             72"        D6+1                          4+    6   -1    1
-                                                                                                                         WARGEAR ABILITIES
-   Swiftstrike burst cannon                               36"         16                           4+    6   -1    1     Transport Bay: The bearer has the Transport keyword and
-   Swiftstrike railgun [DEVASTATING WOUNDS]               72"          1                           4+   20   -5   D6+6   has a transport capacity of 12 Tactical Drones models.
-
-   MELEE WEAPONS                                                        RANGE                  A   WS   S    AP    D          DAMAGED: 1-6 WOUNDS REMAINING
-   Armoured hull                                                          Melee                3   5+   6    0     1
-                                                                                                                         While this model has 1-6 wounds remaining, each time this
-                                                                                                                         model makes an attack, subtract 1 from the Hit roll.
-
-
-  Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
-                                                                                                                              FACTION KEYWORDS:
- KEYWORDS: Vehicle, Aircraft, Fly, Tiger Shark
-                                                                                                                              T’au Empire
-TIGER SHARK
+TIGER SHARK
 Tiger Sharks are large fighter-bombers employed to knock out key
 enemy assets with a range of sophisticated weaponry. Whether
 deploying a shower of remote weapons platforms or strafing ground
 targets with its ion cannons and wing-mounted missile pods, the
 aircraft’s silhouette has been the last sight of countless victims.
+WARGEAR OPTIONS
+■ This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters.
+■ This model’s 2 ion cannons can be replaced with one of the following:
+◦ 2 swiftstrike burst cannons
+◦ 2 swiftstrike railguns
+■ This model can be equipped with up to 6 seeker missiles.
+■ This model’s transport bay can be replaced with 2 skyspear missile racks.
+KEYWORDS: Vehicle, Aircraft, Fly, Tiger Shark
+UNIT COMPOSITION
+■ 1 Tiger Shark
+This model is equipped with: 2 burst cannons; 2 ion cannons;
+2 missile pods; armoured hull; transport bay.
+FACTION KEYWORDS:
+T’au Empire
 
+AX-1-0 TIGER SHARK
+M T SV W LD OC
+- 11 3+ 18 7+ -
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Burst cannon 18" 4 4+ 5 0 1
+Cyclic ion blaster – standard 18" 3 4+ 7 -1 1
+Cyclic ion blaster – overcharge [HAZARDOUS] 18" 3 4+ 8 -2 2
+Missile pod 30" 2 4+ 7 -1 2
+Seeker missile [ONE SHOT] 48" 1 4+ 14 -3 D6+1
+One Shot: The bearer can only shoot with this weapon once per battle.
+Twin heavy rail cannon 120" 1 4+ 26 -5 12
+[DEVASTATING WOUNDS, TWIN-LINKED]
+MELEE WEAPONS RANGE A WS S AP D
+Armoured hull Melee 3 5+ 6 0 1
+KEYWORDS: Vehicle, Aircraft, Fly, Ax-1-0 Tiger Shark
+ABILITIES
+CORE: Deadly Demise D6+2
+FACTION: For the Greater Good
+Titan Hunter: This model’s twin heavy rail cannon and seeker
+missiles have the [ANTI-TITANIC 3+] ability while targeting a
+unit within half range.
+DAMAGED: 1-6 WOUNDS REMAINING
+While this model has 1-6 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-  WARGEAR OPTIONS                                                               UNIT COMPOSITION
-  ■ This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters.    ■ 1 Tiger Shark
-  ■ This model’s 2 ion cannons can be replaced with one of the following:     This model is equipped with: 2 burst cannons; 2 ion cannons;
-       ◦ 2 swiftstrike burst cannons                                            2 missile pods; armoured hull; transport bay.
-       ◦ 2 swiftstrike railguns
-  ■ This model can be equipped with up to 6 seeker missiles.
-  ■ This model’s transport bay can be replaced with 2 skyspear missile racks.
-
-
-
-
-                                                                                     FACTION KEYWORDS:
-   KEYWORDS: Vehicle, Aircraft, Fly, Tiger Shark
-                                                                                     T’au Empire
-AX-1-0 TIGER SHARK
-  M            T           SV         W         LD     OC
-
-
-  -          11          3+           18        7+      -
-                          5+          INVULNERABLE SAVE
-
-
-  RANGED WEAPONS                                      RANGE          A    BS   S    AP    D     ABILITIES
-  Burst cannon                                          18"          4    4+   5    0     1     CORE: Deadly Demise D6+2
-  Cyclic ion blaster – standard                         18"          3    4+   7    -1    1
-                                                                                                FACTION: For the Greater Good
-  Cyclic ion blaster – overcharge [HAZARDOUS]           18"          3    4+   8    -2    2
-  Missile pod                                            30"          2   4+    7   -1    2     Titan Hunter: This model’s twin heavy rail cannon and seeker
-  Seeker missile [ONE SHOT]                              48"          1   4+   14   -3   D6+1   missiles have the [ANTI-TITANIC 3+] ability while targeting a
-                                                                                                unit within half range.
-  One Shot: The bearer can only shoot with this weapon once per battle.
-  Twin heavy rail cannon
-                                                        120"          1   4+   26   -5    12
-  [DEVASTATING WOUNDS, TWIN-LINKED]                                                                  DAMAGED: 1-6 WOUNDS REMAINING
-
-  MELEE WEAPONS                                       RANGE          A    WS   S    AP    D     While this model has 1-6 wounds remaining, each time this
-                                                                                                model makes an attack, subtract 1 from the Hit roll.
-  Armoured hull                                        Melee         3    5+   6    0     1
-
-
-
-
-                                                                                                     FACTION KEYWORDS:
- KEYWORDS: Vehicle, Aircraft, Fly, Ax-1-0 Tiger Shark
-                                                                                                     T’au Empire
-AX-1-0 TIGER SHARK
+AX-1-0 TIGER SHARK
 Developed as a direct response to the largest Titans, the Tiger Shark
 AX-1-0 replaces the drone racks and ion cannons of the fighter-bomber
 variant with a twin heavy rail cannon and a seeker missile array.
 These weapons turn it into a formidable ground-attack craft that is the
 bane of super-heavy war machines.
+WARGEAR OPTIONS
+■ This model can be equipped with up to 6 seeker missiles.
+■ This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters.
+KEYWORDS: Vehicle, Aircraft, Fly, Ax-1-0 Tiger Shark
+UNIT COMPOSITION
+■ 1 AX-1-0 Tiger Shark
+This model is equipped with: 2 burst cannons; 2 missile pods;
+twin heavy rail cannon; armoured hull.
+FACTION KEYWORDS:
+T’au Empire
 
+MANTA
+M T SV W LD OC
+40" 14 2+ 60 7+ -
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP
+Heavy rail cannon [DEVASTATING WOUNDS] 120" 1 4+ 26 -5
+Ion cannon – standard [BLAST] 60" D6+3 4+ 7 -1
+Ion cannon – overcharge [BLAST, HAZARDOUS] 60" D6+3 4+ 8 -2
+Long-barrelled burst cannon array 24" 32 4+ 6 -1
+Missile pod 30" 2 4+ 7 -1
+Seeker missile [ONE SHOT] 48" 1 4+ 14 -3
+One Shot: The bearer can only shoot with this weapon once per battle.
+MELEE WEAPONS RANGE A WS S AP
+Armoured hull Melee 8 5+ 6 0
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Aircraft, Fly, Frame, Titanic, Transport, Markerlight,
+Manta
+D ABILITIES
+12 CORE: Deadly Demise 3D6, Hover
+2
+3 FACTION: For the Greater Good
+1 Aggressive Deployment: In your Shooting phase, after this
+2 model has shot, select one enemy unit hit by one or more of
+D6+1 those attacks. Until the end of the phase, each time a friendly
+model that disembarked from this Transport this turn makes
+an attack that targets that enemy unit, you can re-roll the
+Wound roll.
+D
+Air Caste Colossus: Each time you target this model with
+1 a Stratagem, you must spend three times that Stratagem’s
+stated CP cost to do so.
+DAMAGED: 1-20 WOUNDS REMAINING
+While this model has 1-20 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-  WARGEAR OPTIONS                                                              UNIT COMPOSITION
-  ■ This model can be equipped with up to 6 seeker missiles.                 ■ 1 AX-1-0 Tiger Shark
-  ■ This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters.   This model is equipped with: 2 burst cannons; 2 missile pods;
-                                                                               twin heavy rail cannon; armoured hull.
-
-
-
-
-                                                                                    FACTION KEYWORDS:
-   KEYWORDS: Vehicle, Aircraft, Fly, Ax-1-0 Tiger Shark
-                                                                                    T’au Empire
-MANTA
-  M               T            SV             W            LD            OC
-
-
-40"            14            2+            60             7+              -
-                              5+              INVULNERABLE SAVE
-
-
-  RANGED WEAPONS                                                       RANGE                  A   BS   S    AP    D     ABILITIES
-  Heavy rail cannon [DEVASTATING WOUNDS]                                  120"                1   4+   26   -5    12    CORE: Deadly Demise 3D6, Hover
-  Ion cannon – standard [BLAST]                                            60"           D6+3     4+   7    -1    2
-                                                                                                                        FACTION: For the Greater Good
-  Ion cannon – overcharge [BLAST, HAZARDOUS]                               60"           D6+3     4+   8    -2    3
-  Long-barrelled burst cannon array                      24"         32                           4+    6   -1    1     Aggressive Deployment: In your Shooting phase, after this
-  Missile pod                                            30"          2                           4+    7   -1    2     model has shot, select one enemy unit hit by one or more of
-                                                                                                                        those attacks. Until the end of the phase, each time a friendly
-  Seeker missile [ONE SHOT]                              48"          1                           4+   14   -3   D6+1
-                                                                                                                        model that disembarked from this Transport this turn makes
-  One Shot: The bearer can only shoot with this weapon once per battle.                                                 an attack that targets that enemy unit, you can re-roll the
-                                                                                                                        Wound roll.
-  MELEE WEAPONS                                                        RANGE                  A   WS   S    AP    D     Air Caste Colossus: Each time you target this model with
-  Armoured hull                                                          Melee                8   5+   6    0     1     a Stratagem, you must spend three times that Stratagem’s
-                                                                                                                        stated CP cost to do so.
-
-
-                                                                                                                             DAMAGED: 1-20 WOUNDS REMAINING
-                                                                                                                        While this model has 1-20 wounds remaining, each time this
-                                                                                                                        model makes an attack, subtract 1 from the Hit roll.
-
-
- Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
- KEYWORDS: Vehicle, Aircraft, Fly, Frame, Titanic, Transport, Markerlight,                                                   FACTION KEYWORDS:
-           Manta                                                                                                              T’au Empire
-MANTA
+MANTA
 The Manta is an advanced, super-heavy dropship used to deliver large
 contingents of troops into combat. Powerful energy fields shield the
 craft during descent, while no less than sixteen drone-controlled burst
 cannons fend off hostile attention and wing-mounted primary guns
 engage priority targets that might jeopardise the Manta’s landing site.
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Vehicle, Aircraft, Fly, Frame, Titanic, Transport,
+Manta
+UNIT COMPOSITION
+■ 1 Manta
+This model is equipped with: 2 heavy rail cannons; 6 ion
+cannons; 2 long-barrelled burst cannon arrays; 2 missile
+pods; 10 seeker missiles; armoured hull.
+TRANSPORT
+This model has a transport capacity of all of the following:
+■ 200 T’au Empire Infantry or Tactical Drone models
+■ 4 Devilfish, Sky Ray Gunship or Hammerhead models
+■ 8 Battlesuit models with a Wounds characteristic of
+9 or less
+Markerlight, FACTION KEYWORDS:
+T’au Empire
 
-
-
-  WARGEAR OPTIONS                                                               UNIT COMPOSITION
-  ■ None                                                                      ■ 1 Manta
-                                                                                This model is equipped with: 2 heavy rail cannons; 6 ion
-                                                                                cannons; 2 long-barrelled burst cannon arrays; 2 missile
-                                                                                pods; 10 seeker missiles; armoured hull.
-
-
-                                                                                TRANSPORT
-                                                                                This model has a transport capacity of all of the following:
-                                                                                ■ 200 T’au Empire Infantry or Tactical Drone models
-                                                                                ■ 4 Devilfish, Sky Ray Gunship or Hammerhead models
-                                                                                ■ 8 Battlesuit models with a Wounds characteristic of
-                                                                                   9 or less
-
-
-
-
-   KEYWORDS: Vehicle, Aircraft, Fly, Frame, Titanic, Transport, Markerlight,         FACTION KEYWORDS:
-             Manta                                                                    T’au Empire
-                                                      T’AU EMPIRE
-                                                             RULES UPDATES
-This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
-Changes applied after the first iteration of this Faction Pack will be highlighted in red.
-
-
-                                                                               MONT’KA DETACHMENT
-UPDATES                                                                        Coordinated Exploitation Enhancement
-                                                                               Change to:
-ARMY RULES                                                                     ‘T’AU EMPIRE model only (excluding KROOT SHAPER models). While the
-For the Greater Good                                                           bearer is leading a unit, each time that unit is an Observer unit, until the
-Change to:                                                                     end of the phase, ranged weapons equipped by models in a Guided unit
-‘If your Army Faction is T’AU EMPIRE, at the start of your Shooting            have the [SUSTAINED HITS 1] ability while targeting their Spotted unit.’
+T’AU
+RULES
+This section presents updates and clarifications to your faction’s
+Changes applied after the first iteration of this Faction Pack will
+UPDATES
+ARMY RULES
+For the Greater Good
+Change to:
+‘If your Army Faction is T’AU EMPIRE, at the start of your Shooting
 phase you can select units from your army with this ability to become
-Observer units.                                                                Strike Swiftly Enhancement
-During your Shooting phase, for each Observer unit from your army              Change to:
-that has not been selected to shoot this phase and is eligible to shoot        ‘In the Resolve Pre-battle Abilities step, you can select up to two
-(excluding FORTIFICATION and Battle-shocked units) select one enemy            friendly T’AU EMPIRE units within 6" of this model that do not have the
-unit that is visible to be marked as their Spotted unit until the end of       Scouts ability. Until the end of the battle, all models in the selected units
-the phase. Each enemy unit can only be marked as a Spotted unit once           have the Scouts 6" ability.’
+Observer units.
+During your Shooting phase, for each Observer unit from your army
+that has not been selected to shoot this phase and is eligible to shoot
+(excluding FORTIFICATION and Battle-shocked units) select one enemy
+unit that is visible to be marked as their Spotted unit until the end of
+the phase. Each enemy unit can only be marked as a Spotted unit once
 per phase.
-Units from your army with the For the Greater Good ability (excluding          Killing Blow Detachment rule
-Observer units) are Guided units while targeting one or more                   Change to:
-Spotted units.                                                                 ‘During the first, second and third battle rounds, ranged weapons
-Until the end of the phase, each time a model from your army in a              equipped by T’AU EMPIRE models from your army have the [ASSAULT]
-Guided unit makes an attack that targets a Spotted unit, improve the           ability. During the first, second and third battle rounds, while a unit is
-Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit    a Guided unit (see For the Greater Good), its ranged weapons have the
-was marked by an Observer unit that has the Markerlight keyword, that          [LETHAL HITS] ability.’
+Units from your army with the For the Greater Good ability (excluding
+Observer units) are Guided units while targeting one or more
+Spotted units.
+Until the end of the phase, each time a model from your army in a
+Guided unit makes an attack that targets a Spotted unit, improve the
+Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit
+was marked by an Observer unit that has the Markerlight keyword, that
 attack has the [IGNORES COVER] ability.’
-                                                                               RETALIATION CADRE DETACHMENT
-KAUYON DETACHMENT                                                              Puretide Engram Neurochip Enhancement
-Through Unity, Devastation Enhancement                                         Change to:
-Change to:                                                                     ‘T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s
-‘T’AU EMPIRE model only (excluding KROOT SHAPER models). While the             unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.’
+KAUYON DETACHMENT
+Through Unity, Devastation Enhancement
+Change to:
+‘T’AU EMPIRE model only (excluding KROOT SHAPER models). While the
 bearer is leading a unit, each time that unit is an Observer unit, until the
-end of the phase, ranged weapons equipped by models in a Guided unit           The Shortened Blade Stratagem
-have the [LETHAL HITS] ability while targeting their Spotted unit.’            Change 3" to 6".
-
-Photon Grenades Stratagem, When Section                                        Bonded Heroes Detachment Rule
-Change to:                                                                     Change to:
-‘Your opponent’s charge phase, just after an enemy unit has selected its       ‘Each time a T’AU EMPIRE BATTLESUIT model from your army makes
-charge target.’                                                                a ranged attack that targets a unit within 12", improve the Strength
-                                                                               characteristic of that attack by 1. If that attack targets a unit within
-Patient Hunter Detachment Rule                                                 8", improve the Armour Penetration characteristic of that attack by 1
-Change to:                                                                     as well.’
+end of the phase, ranged weapons equipped by models in a Guided unit
+have the [LETHAL HITS] ability while targeting their Spotted unit.’
+Photon Grenades Stratagem, When Section
+Change to:
+‘Your opponent’s charge phase, just after an enemy unit has selected its
+charge target.’
+Patient Hunter Detachment Rule
+Change to:
 ‘During the third, fourth and fifth battle rounds, ranged weapons
-equipped by T’AU EMPIRE models from your army have the                         DATASHEETS
-[SUSTAINED HITS 1] ability. During the third, fourth and fifth battle          Devilfish, Hammerhead Gunship, Piranhas, Sky Ray Gunship, Tidewall
-rounds, while a unit is a Guided unit (see For the Greater Good), each         Droneport, Tidewall Gunrig, Tidewall Shieldline – Keywords Section
-time a ranged attack is made by a model in that unit that targets a            Add 'FRAME'.
+equipped by T’AU EMPIRE models from your army have the
+[SUSTAINED HITS 1] ability. During the third, fourth and fifth battle
+rounds, while a unit is a Guided unit (see For the Greater Good), each
+time a ranged attack is made by a model in that unit that targets a
 Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic
-skill characteristics and/or all modifiers to the Hit roll.’                   Crisis Sunforge Battlesuits, Sunforge Ability
-                                                                               Change to:
-                                                                               ‘Each time a model in this unit makes a ranged attack that targets a
-                                                                               MONSTER or VEHICLE unit, you can re-roll the Wound roll and
-                                                                               you can re-roll the Damage roll.’
-Ethereal, Abilities                                                            The Twin Lance, Neocapacitor Shields ability
-Add the following Faction Abilities section:                                   Change to:
-‘FACTION: For the Greater Good’                                                ‘At the start of your opponent’s Charge phase, you can select one visible
-                                                                               enemy unit (excluding MONSTER and VEHICLE units) within 12" of this
-Firesight Team, Precise Targeting Ability                                      unit. That unit must take a Battle-shock test and, until the end of the
-Change to:                                                                     turn, subtract 1 from Charge rolls made for that unit.’
+skill characteristics and/or all modifiers to the Hit roll.’
+EMPIRE
+UPDATES
+rules, designed to improve the gaming experience for all players.
+be highlighted in red.
+MONT’KA DETACHMENT
+Coordinated Exploitation Enhancement
+Change to:
+‘T’AU EMPIRE model only (excluding KROOT SHAPER models). While the
+bearer is leading a unit, each time that unit is an Observer unit, until the
+end of the phase, ranged weapons equipped by models in a Guided unit
+have the [SUSTAINED HITS 1] ability while targeting their Spotted unit.’
+Strike Swiftly Enhancement
+Change to:
+‘In the Resolve Pre-battle Abilities step, you can select up to two
+friendly T’AU EMPIRE units within 6" of this model that do not have the
+Scouts ability. Until the end of the battle, all models in the selected units
+have the Scouts 6" ability.’
+Killing Blow Detachment rule
+Change to:
+‘During the first, second and third battle rounds, ranged weapons
+equipped by T’AU EMPIRE models from your army have the [ASSAULT]
+ability. During the first, second and third battle rounds, while a unit is
+a Guided unit (see For the Greater Good), its ranged weapons have the
+[LETHAL HITS] ability.’
+RETALIATION CADRE DETACHMENT
+Puretide Engram Neurochip Enhancement
+Change to:
+‘T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s
+unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.’
+The Shortened Blade Stratagem
+Change 3" to 6".
+Bonded Heroes Detachment Rule
+Change to:
+‘Each time a T’AU EMPIRE BATTLESUIT model from your army makes
+a ranged attack that targets a unit within 12", improve the Strength
+characteristic of that attack by 1. If that attack targets a unit within
+8", improve the Armour Penetration characteristic of that attack by 1
+as well.’
+DATASHEETS
+Devilfish, Hammerhead Gunship, Piranhas, Sky Ray Gunship, Tidewall
+Droneport, Tidewall Gunrig, Tidewall Shieldline – Keywords Section
+Add 'FRAME'.
+Crisis Sunforge Battlesuits, Sunforge Ability
+Change to:
+‘Each time a model in this unit makes a ranged attack that targets a
+MONSTER or VEHICLE unit, you can re-roll the Wound roll and
+you can re-roll the Damage roll.’
+
+Ethereal, Abilities
+Add the following Faction Abilities section:
+‘FACTION: For the Greater Good’
+Firesight Team, Precise Targeting Ability
+Change to:
 ‘Each time a model in this unit makes an attack that targets a Spotted
 unit, you can re-roll the Hit roll.’
-                                                                               FAQS
-Kroot Trail Shaper                                                             Q: Can I use an Ethereal’s Coordinated Leadership ability while it is
-▪ Kroot Ambush Ability – Change to:                                           embarked within a TRANSPORT?
-   ‘After both players have deployed their armies, you can redeploy this       A: Yes.
-   model’s unit and one other friendly KROOT unit. When doing so, any of
-   those units can be placed into Strategic Reserves, regardless of how        Q: If I am using the Kroot Hunting Pack Detachment, if an enemy unit
-   many units are already in Strategic Reserves.’                              selects a KROOT unit from my army as a target of its ranged attacks, but
-▪ Trail Finding Ability – Change to:                                          I use the Hidden Hunters Stratagem so that my KROOT unit is no longer
-   ‘In your opponent’s Movement phase, if an enemy unit ends a move            an eligible target for any of those attacks, and there are no other eligible
-   within 8" of this unit, if this unit is not within Engagement Range of      targets for those attacks (as described in the Rules Commentary), can my
-   one or more enemy units, this unit can make a Normal move of up             nearby KROOTOX RIDERS unit still use its Kroot Packmates ability to shoot
-   to D6".’                                                                    at that attacking unit?
-                                                                               A: No.
+Kroot Trail Shaper
+▪ Kroot Ambush Ability – Change to:
+‘After both players have deployed their armies, you can redeploy this
+model’s unit and one other friendly KROOT unit. When doing so, any
+those units can be placed into Strategic Reserves, regardless of how
+many units are already in Strategic Reserves.’
+▪ Trail Finding Ability – Change to:
+‘In your opponent’s Movement phase, if an enemy unit ends a move
+within 8" of this unit, if this unit is not within Engagement Range of
+one or more enemy units, this unit can make a Normal move of up
+to D6".’
 Pathfinder Team, Target Uploaded Ability
 Change to:
 ‘Each time a model in this unit makes an attack that targets their
 Spotted unit, improve the Ballistic Skill characteristic of that attack by 1
 and that attack has the [IGNORES COVER] ability.’
-
 Riptide Battlesuit
 ▪ Nova Charge Ability
-   Change to:
-   ‘Once per battle, when this unit is selected to shoot in your Shooting
-   phase, select one ranged weapon equipped by this model. Until the
-   end of the phase, that weapon has the [DEVASTATING WOUNDS] ability.’
+Change to:
+‘Once per battle, when this unit is selected to shoot in your Shooting
+phase, select one ranged weapon equipped by this model. Until the
+end of the phase, that weapon has the [DEVASTATING WOUNDS] ability.’
 ▪ Ion Accelerator Ranged Weapon
-   Change profiles to:
-
+Change profiles to:
 Ion Accelerator - Standard
-      RANGE            A     BS      S      AP   D
-        72"            6     4+      9      -2   3
-
+RANGE A BS S AP D
+72" 6 4+ 9 -2 3
 Ion Accelerator - Supercharge [HAZARDOUS]
-
-      RANGE            A     BS      S      AP   D
-        72"            6     4+     10      -3   4
-
+RANGE A BS S AP D
+72" 6 4+ 10 -3 4
 Stealth Battlesuits
 ▪ Forward Observers Ability – Change to:
-   Each time this unit is an Observer unit, until the end of the phase,
-   each time a ranged attack is made by a model in a Guided unit that
-   targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound
-   roll of 1.’
+Each time this unit is an Observer unit, until the end of the phase,
+each time a ranged attack is made by a model in a Guided unit that
+targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound
+roll of 1.’
 ▪ Homing Beacon Wargear Ability – Change 9" to 8".
-
 Razorshark Strike Fighter, Sun Shark Bomber
-▪ Keywords: Add ‘FRAME’.
+▪ Keywords:  Add ‘FRAME’.
 ▪ Profile: Change M and OC to ‘-’.
-
 Sun Shark Bomber, Pulse Bombs Ability
 Change to:
 ‘At the end of your opponent’s Fight phase, select one visible enemy
 unit (excluding Lone Operative units) within 24" of this unit, and roll six
 D6 for that unit: For each 4+, that unit suffers 1 mortal wound.’
-ORCA DROPSHIP                                                                              WA R HA M M E R L E G E N D S
-  M            T         SV         W    LD   OC
-
-
- 20"         12         3+          28   7+   -
-
-
-
-      RANGED WEAPONS                          RANGE      A    BS     S    AP   D   ABILITIES
-      Long-barrelled burst cannon                  36"   4     4+    5    0    1   CORE: Deadly Demise D6+2, Hover
-      Missile pod                                  30"   2     4+    7    -1   2
-                                                                                   FACTION: For the Greater Good
-      MELEE WEAPONS                           RANGE      A    WS     S    AP   D   Jet Pack Insertion: At the end of your opponent’s Movement
-      Armoured hull                            Melee     3     5+    8    0    1   phase, one or more units embarked within this Transport
-                                                                                   can disembark from it, provided every model in each of those
-                                                                                   disembarking units has the Deep Strike ability.
-
-
-                                                                                        DAMAGED: 1-9 WOUNDS REMAINING
-                                                                                   While this model has 1-9 wounds remaining, each time this
-                                                                                   model makes an attack, subtract 1 from the Hit roll.
-
-
-
-
-                                                                                        FACTION KEYWORDS:
-  KEYWORDS: Vehicle, Aircraft, Fly, Frame, Titanic, Transport, Orca Dropship
-                                                                                        T’au Empire
-ORCA DROPSHIP                                                                          WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                                               UNIT COMPOSITION
- ■ None                                                                        ■ 1 Orca Dropship
-                                                                               This model is equipped with: 2 long-barrelled burst cannons;
-                                                                               missile pod; armoured hull.
-
-
-                                                                               TRANSPORT
-                                                                               This model has a transport capacity of 48 T’au Empire
-                                                                               Infantry models. This model can also transport up to 6
-                                                                               Battlesuit models (these models take up the space of a
-                                                                               number of models equal to their Wounds characteristic, e.g. a
-                                                                               Battlesuit with a Wounds characteristic of 8 would take up
-                                                                               the space of 8 models). This model cannot transport Kroot or
-                                                                               Vespid Stingwings models.
-
-
-
-
-                                                                                    FACTION KEYWORDS:
-  KEYWORDS: Vehicle, Aircraft, Fly, Frame, Titanic, Transport, Orca Dropship
-                                                                                    T’au Empire
-HEAVY GUN DRONES                                                                         WA R HA M M E R L E G E N D S
- M          T          SV         W     LD   OC
-
-
-8"         5         4+           2     8+   0
-
-
-
-      RANGED WEAPONS                              RANGE   A   BS   S   AP   D   ABILITIES
-      Burst cannon                                 18"    4   4+   5   0    1   Drone Escort: Once per turn, in your opponent’s Shooting
-      Twin burst cannon [TWIN-LINKED]              18"    4   5+   5   0    1   phase, when a friendly T'au Empire unit within 6" of this unit
-                                                                                is selected as the target of an attack, one unit from your army
-                                                                                with this ability can use it. If it does, after that enemy unit
-      MELEE WEAPONS                               RANGE   A   WS   S   AP   D   has finished making its attacks, the unit using this ability can
-      Close combat weapon                         Melee   1   6+   3   0    1   shoot as if it were your Shooting phase, but when resolving
-                                                                                those attacks it can only target that enemy unit (and only if it
-                                                                                is an eligible target).
-
-
-                                                                                WARGEAR ABILITIES
-                                                                                Markerlight: The bearer has the Markerlight keyword.
-
-
-
-
-                                                                                      FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Fly, Heavy Gun Drones
-                                                                                      T'au Empire
-HEAVY GUN DRONES                                                                                         WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                                                                 UNIT COMPOSITION
- ■ Any number of models can each have their burst cannon and markerlight replaced with 1 twin   ■ 2 Heavy Gun Drones
-    burst cannon.                                                                                Every model is equipped with: burst cannon; markerlight;
-                                                                                                 close combat weapon.
-
-
-
-
-                                                                                                      FACTION KEYWORDS:
-  KEYWORDS: Vehicle, Fly, Heavy Gun Drones
-                                                                                                      T'au Empire
-GREAT KNARLOC                                                                                                                     WA R HA M M E R L E G E N D S
- M           T          SV           W         LD          OC
-
-
-9"          8         4+          10          7+           3
-
-
-
-      RANGED WEAPONS                                            RANGE           A       BS       S     AP        D       ABILITIES
-      Kroot bolt thrower [HOOKED]                                    12"           1        4+      12     -2        3   CORE: Scouts 7"
-      Hooked: Each time the bearer makes an attack with this weapon that targets a Monster or Vehicle unit,
-      if a hit is scored, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to   Loping Stride: Each time this model Advances, do not make
-      Charge rolls made for the bearer and enemy units cannot use the Fire Overwatch Stratagem to shoot at               an Advance roll for it. Instead, until the end of the phase, add
-      the bearer.                                                                                                        6" to the Move characteristic of this model.
-      Kroot rifle [RAPID FIRE 1]                                     24"           1        4+       4      0        1
-      Twin Kroot gun [TWIN-LINKED]                                36"           2       4+       7      0        2       WARGEAR ABILITIES
-                                                                                                                         Baggage Harness (Aura): While a friendly Kroot unit is
-      MELEE WEAPONS                                             RANGE           A       WS       S     AP        D       within 3" of the bearer, ranged weapons equipped by models
-      Great Knarloc beak and talons [EXTRA ATTACKS]              Melee          4       3+       7      -1       3       in that unit have the [SUSTAINED HITS 1] ability.
-      Kroot rifle                                                Melee          2       3+       4      0        1
-
-
-
-
-                                                                                                                               FACTION KEYWORDS:
-     KEYWORDS: Monster, Frame, Kroot, Great Knarloc
-                                                                                                                               T'au Empire
-GREAT KNARLOC                                                      WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                           UNIT COMPOSITION
- ■ This model can be equipped with one of the following:   ■ 1 Great Knarloc
-    ◦ 1 Kroot bolt thrower and 1 Kroot rifle               This model is equipped with: Great Knarloc beak and talons.
-    ◦ 1 twin Kroot gun
-    ◦ 1 baggage harness
-
-
-
-
-                                                                FACTION KEYWORDS:
-  KEYWORDS: Monster, Frame, Kroot, Great Knarloc
-                                                                T'au Empire
-TX42 PIRANHA                                                                                   WA R HA M M E R L E G E N D S
- M           T           SV             W   LD   OC
-
-
-14"         7          4+               7   7+   2
-
-
-
-      RANGED WEAPONS                                  RANGE   A   BS   S    AP   D    ABILITIES
-      Fusion blaster [MELTA 2]                         12"    1   4+   9    -4   D6   CORE: Deadly Demise 1, Scouts 9"
-      Missile pod                                      30"    2   4+   7    -1   2
-                                                                                      FACTION: For the Greater Good
-      Plasma rifle                                     24"    1   4+   8    -3   3
-      Rail rifle [DEVASTATING WOUNDS]                  30"    1   4+   10   -4   3    Outflank: When this unit arrives from Strategic Reserves, it
-                                                                                      can be set up within your opponent’s deployment zone (all
-      MELEE WEAPONS                                   RANGE   A   WS   S    AP   D    other restrictions still apply).
-
-      Armoured hull                                   Melee   2   5+   4    0    1
-
-
-
-
-                                                                                            FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Fly, Frame, TX42 Piranha
-                                                                                            T'au Empire
-TX42 PIRANHA                                                                         WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                                             UNIT COMPOSITION
- ■ This model’s 2 plasma rifles can be replaced with one of the following:   ■ 1 TX42 Piranha
-    ◦ 2 fusion blasters                                                      This model is equipped with: 2 plasma rifles; armoured hull.
-    ◦ 2 missile pods
-    ◦ 2 rail rifles
-
-
-
-
-                                                                                  FACTION KEYWORDS:
-  KEYWORDS: Vehicle, Fly, Frame, TX42 Piranha
-                                                                                  T'au Empire
-KNARLOC RIDERS                                                                                  WA R HA M M E R L E G E N D S
- M           T            SV       W            LD   OC
-
-
-7"          5           5+         4        7+       2
-
-
-
-      RANGED WEAPONS                                      RANGE   A   BS   S   AP   D   ABILITIES
-      Kroot rifle [RAPID FIRE 1]                           24"    1   4+   4   0    1   CORE: Scouts 7", Stealth
-
-      MELEE WEAPONS                                       RANGE   A   WS   S   AP   D   Thunderous Pounce: Each time this unit ends a Charge move,
-                                                                                        until the end of the turn, Knarloc beak and talons equipped by
-      Knarloc beak and talons [EXTRA ATTACKS]             Melee   4   3+   6   -1   1   models in this unit have the [LANCE] ability.
-      Kroot rifle                                         Melee   2   3+   4   0    1
-
-
-
-
-                                                                                             FACTION KEYWORDS:
-     KEYWORDS: Mounted, Kroot, Knarloc Riders
-                                                                                             T'au Empire
-KNARLOC RIDERS                                       WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                             UNIT COMPOSITION
- ■ None                                      ■ 3 Knarloc Riders
-                                             Every model is equipped with: Kroot rifle; Knarloc beak
-                                             and talons.
-
-
-
-
-                                                  FACTION KEYWORDS:
-  KEYWORDS: Mounted, Kroot, Knarloc Riders
-                                                  T'au Empire
-SHAS'O R'ALAI                                                                                                                     WA R HA M M E R L E G E N D S
- M            T             SV            W             LD            OC
-
-
-8"           6            3+              6           7+              2
-                          4+              INVULNERABLE SAVE
-
-
-      RANGED WEAPONS                                                       RANGE                  A    BS   S   AP   D   ABILITIES
-      Experimental pulse submunitions rifle – EMP                                                                        CORE: Deep Strike, Leader
-                                                                               24"                1    3+   1   0    3
-      [ANTI-VEHICLE 3+, DEVASTATING WOUNDS]
-      Experimental pulse submunitions rifle – ionic                                                                      FACTION: For the Greater Good
-                                                                               24"                D6   3+   6   -1   1
-      cluster-beam shell [BLAST]
-                                                                                                                         Eclipse Field Generator: While this model is leading a unit,
-                                                                                                                         models in that unit have a 5+ invulnerable save.
-      MELEE WEAPONS                                                        RANGE                  A    WS   S   AP   D
-      Battlesuit fists                                                       Melee                3    4+   5   0    1   Assassin: Each time this model makes an attack that targets a
-                                                                                                                         Character unit, you can re-roll the Hit roll.
-
-
-                                                                                                                         WARGEAR ABILITIES
-                                                                                                                         Blacklight Marker Drones: Twice per battle, when this unit
-                                                                                                                         is an Observer unit, until the end of the phase, each time a
-                                                                                                                         ranged attack is made by a model in their Guided unit that
-                                                                                                                         targets their Spotted unit, re-roll a Wound roll of 1.
-                                                                                                                         Designer’s Note: Place two Blacklight Marker Drone tokens
-                                                                                                                         next to this model, removing one each time this ability has
-                                                                                                                         been used.
-
-
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-     KEYWORDS: Vehicle, Walker, Fly, Character, Markerlight, Epic Hero,                                                       FACTION KEYWORDS:
-               Battlesuit, Shas'o R'alai                                                                                       T'au Empire
-SHAS'O R'ALAI                                                                    WA R HA M M E R L E G E N D S
-
-
-
-
-  WARGEAR OPTIONS                                                       UNIT COMPOSITION
-  ■ None                                                                ■ 1 Shas'o R'alai – Epic Hero
-                                                                        This model is equipped with: experimental pulse
-                                                                        submunitions rifle; battlesuit fists; blacklight marker drones.
-
-
-                                                                        LEADER
-                                                                        This model can be attached to the following unit:
-                                                                        ■ XV9 Hazard Battlesuits
-
-
-
-
-  KEYWORDS: Vehicle, Walker, Fly, Character, Markerlight, Epic Hero,         FACTION KEYWORDS:
-            Battlesuit, Shas'o R'alai                                         T'au Empire
-XV9 HAZARD BATTLESUITS                                                                           WA R HA M M E R L E G E N D S
- M           T           SV       W            LD   OC
-
-
-8"          6            3+       4        7+       2
-
-
-
-      RANGED WEAPONS                                     RANGE   A   BS   S   AP   D    ABILITIES
-      Fusion cascade [MELTA 4]                            12"    1   4+   9   -4   D6   CORE: Deep Strike
-      Phased ion gun                                      30"    4   4+   6   -1   1
-                                                                                        FACTION: For the Greater Good
-      Twin hazard burst cannon [TWIN-LINKED]              24"    4   4+   5   0    1
-                                                                                        Photon Casters: In your Shooting phase, after this unit has
-      MELEE WEAPONS                                      RANGE   A   WS   S   AP   D    shot, if an enemy Infantry unit was hit by one or more of
-                                                                                        those attacks, until the end of your opponent’s next turn,
-      Battlesuit fists                                   Melee   3   5+   5   0    1
-                                                                                        that enemy unit is stunned. While a unit is stunned, subtract
-                                                                                        2 from that unit’s Move characteristic, and subtract 2 from
-                                                                                        Advance and Charge rolls made for that unit.
-
-
-                                                                                        WARGEAR ABILITIES
-                                                                                        Battlesuit Support System: The bearer’s unit is eligible to
-                                                                                        shoot in a turn in which it Fell Back, but when doing so only
-                                                                                        models equipped with this wargear can make ranged attacks.
-                                                                                        Shield Generator: The bearer has a 4+ invulnerable save.
-                                                                                        Weapon Support System: Each time the bearer makes a
-                                                                                        ranged attack, you can ignore any or all modifiers to the
-                                                                                        Hit roll.
-
-
-                                                                                              FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Fly, Battlesuit, XV9 Hazard
-                                                                                              T'au Empire
-XV9 HAZARD BATTLESUITS                                                                                            WA R HA M M E R L E G E N D S
-
-
-
-
-  WARGEAR OPTIONS                                                                                         UNIT COMPOSITION
-  ■ Any number of models can each have their fusion cascade replaced with one of the following:           ■ 1-2 XV9 Hazard Battlesuits
-     ◦ 1 phased ion gun                                                                                   Every model is equipped with: fusion cascade; twin hazard
-     ◦ 1 twin hazard burst cannon                                                                         burst cannon; battlesuit fists.
-  ■ Any number of models can each have their twin hazard burst cannon replaced with one of
-     the following:
-      ◦ 1 fusion cascade
-      ◦ 1 phased ion gun
-  ■ Any number of models can each be equipped with one of the following:
-      ◦ 1 battlesuit support system
-      ◦ 1 shield generator
-      ◦ 1 weapon support system
-  ■ Any number of models can each be equipped with up to two of the following, and can take duplicates:
-     ◦ 1 gun drone*
-     ◦ 1 marker drone*
-     ◦ 1 shield drone*
-   * This drone's rules can be found on the Drones page at the end of this document.
-
-
-
-
-                                                                                                               FACTION KEYWORDS:
-   KEYWORDS: Vehicle, Walker, Fly, Battlesuit, XV9 Hazard
-                                                                                                               T'au Empire
-REMOTE SENSOR TOWER                                                 WA R HA M M E R L E G E N D S
- M         T      SV       W      LD      OC
-
-
- -        8      4+       4      8+       0
-
-
-
-                                                           ABILITIES
-                                                           Orbital Comms Array (Aura): While a friendly T'au Empire unit
-                                                           is within 6" of this Fortification, each time you target that
-                                                           unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.
-                                                           Reinforced Cover: Each time a ranged attack is allocated to a
-                                                           model, if that model is not fully visible to every model in the
-                                                           attacking unit because of this Fortification, that model has
-                                                           the Benefit of Cover against that attack.
-                                                           Fortification: While an enemy unit is only within Engagement
-                                                           Range of one or more Fortifications from your army:
-                                                           ■ That unit can still be selected as the target of ranged
-                                                              attacks, but each time such an attack is made, unless it is
-                                                              made with a Pistol, subtract 1 from the Hit roll.
-                                                           ■ Models in that unit do not need to take Desperate Escape
-                                                              tests due to Falling Back while Battle-shocked, except for
-                                                              those that will move over enemy models when doing so.
-
-
-
-
-                                                                 FACTION KEYWORDS:
-     KEYWORDS: Fortification, Frame, Remote Sensor Tower
-                                                                 T'au Empire
-REMOTE SENSOR TOWER                                             WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                        UNIT COMPOSITION
- ■ None                                                 ■ 1 Remote Sensor Tower
-                                                        This model is equipped with: nothing.
-
-
-
-
-                                                             FACTION KEYWORDS:
-  KEYWORDS: Fortification, Frame, Remote Sensor Tower
-                                                             T'au Empire
-DRONE SENTRY TURRET                                                                                  WA R HA M M E R L E G E N D S
- M           T          SV           W             LD   OC
-
-
- -          8          4+           4          8+       0
-
-
-
-      RANGED WEAPONS                                         RANGE   A   BS   S   AP   D    ABILITIES
-      Twin burst cannon [TWIN-LINKED]                         18"    4   5+   5   0    1    Sentinel Protocols: Each time you select this Fortification
-      Twin fusion blaster [MELTA 2, TWIN-LINKED]              12"    1   5+   9   -4   D6   for the Fire Overwatch Stratagem, hits are scored on
-      Twin missile pod [TWIN-LINKED]                          30"    2   5+   7   -1   2    unmodified Hit rolls of 5+ when resolving that Stratagem.
-      Twin plasma rifle [TWIN-LINKED]                         24"    1   5+   8   -3   3    Reinforced Cover: Each time a ranged attack is allocated to a
-                                                                                            model, if that model is not fully visible to every model in the
-                                                                                            attacking unit because of this Fortification, that model has
-                                                                                            the Benefit of Cover against that attack.
-                                                                                            Fortification: While an enemy unit is only within Engagement
-                                                                                            Range of one or more Fortifications from your army:
-                                                                                            ■ That unit can still be selected as the target of ranged
-                                                                                               attacks, but each time such an attack is made, unless it is
-                                                                                               made with a Pistol, subtract 1 from the Hit roll.
-                                                                                            ■ Models in that unit do not need to take Desperate Escape
-                                                                                               tests due to Falling Back while Battle-shocked, except for
-                                                                                               those that will move over enemy models when doing so.
-
-
-
-
-                                                                                                  FACTION KEYWORDS:
-     KEYWORDS: Fortification, Vehicle, Frame, Drone Sentry Turret
-                                                                                                  T'au Empire
-DRONE SENTRY TURRET                                                                    WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                                               UNIT COMPOSITION
- ■ This model’s twin plasma rifle can be replaced with one of the following:   ■ 1 Drone Sentry Turret
-    ◦ 1 twin burst cannon                                                      This model is equipped with: twin plasma rifle.
-    ◦ 1 twin fusion blaster
-    ◦ 1 twin missile pod
-
-
-
-
-                                                                                    FACTION KEYWORDS:
-  KEYWORDS: Fortification, Vehicle, Frame, Drone Sentry Turret
-                                                                                    T'au Empire
-COMMANDER IN CRISIS BATTLESUIT                                                                                                       WA R HA M M E R L E G E N D S
-  M             T            SV             W            LD             OC
-
-
-10"            5           3+              5            7+             2
-
-
-
-       RANGED WEAPONS                                                        RANGE                 A    BS    S   AP   D    ABILITIES
-       Airbursting fragmentation projector                                                                                  CORE: Deep Strike, Leader
-                                                                                24"                D6   3+    3   0    1
-       [BLAST, INDIRECT FIRE]
-       Burst cannon                                                             18"                4    3+    5   0    1    FACTION: For the Greater Good
-       Cyclic ion blaster – standard                                            18"                3    3+    7   -1   1
-                                                                                                                            Crisis Commander: While this model is leading a unit, each
-       Cyclic ion blaster – overcharge [HAZARDOUS]                              18"                3    3+    8   -2   2    time a model in that unit makes a ranged attack, re-roll a Hit
-       Fusion blaster [MELTA 2]                                                 12"                1    3+    9   -4   D6   roll of 1.
-       Missile pod                                                              30"                2    3+    7   -1   2
-       Plasma rifle                                                             24"                1    3+    8   -3   3    WARGEAR ABILITIES
-       T’au flamer [IGNORES COVER, TORRENT]                                     12"                D6   N/A   4   0    1    Battlesuit Support System: The bearer’s unit is eligible to
-                                                                                                                            shoot in a turn in which it Fell Back, but when doing so only
-       MELEE WEAPONS                                                         RANGE                 A    WS    S   AP   D    models equipped with this wargear can make ranged attacks.
-       Battlesuit fists                                                        Melee               3    4+    5   0    1    Shield Generator: The bearer has a 4+ invulnerable save.
-
-                                                                                                                            Weapon Support System: Each time the bearer makes a
-                                                                                                                            ranged attack, you can ignore any or all modifiers to the
-                                                                                                                            Hit roll.
-
-
-      Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-      KEYWORDS: Vehicle, Walker, Fly, Character, Battlesuit,                                                                     FACTION KEYWORDS:
-                Commander in Crisis Battlesuit                                                                                    T’au Empire
-COMMANDER IN CRISIS BATTLESUIT                                                                                            WA R HA M M E R L E G E N D S
+The Twin Lance, Neocapacitor Shields ability
+Change to:
+‘At the start of your opponent’s Charge phase, you can select one visible
+enemy unit (excluding MONSTER and VEHICLE units) within 12" of this
+unit. That unit must take a Battle-shock test and, until the end of the
+turn, subtract 1 from Charge rolls made for that unit.’
+FAQS
+Q: Can I use an Ethereal’s Coordinated Leadership ability while it is
+embarked within a TRANSPORT?
+A: Yes.
+of
+Q: If I am using the Kroot Hunting Pack Detachment, if an enemy unit
+selects a KROOT unit from my army as a target of its ranged attacks, but
+I use the Hidden Hunters Stratagem so that my KROOT unit is no longer
+an eligible target for any of those attacks, and there are no other eligible
+targets for those attacks (as described in the Rules Commentary), can my
+nearby KROOTOX RIDERS unit still use its Kroot Packmates ability to shoot
+at that attacking unit?
+A: No.
+
+ORCA DROPSHIP
+M T SV W LD OC
+20" 12 3+ 28 7+ -
+RANGED WEAPONS RANGE A BS S AP
+Long-barrelled burst cannon 36" 4 4+ 5 0
+Missile pod 30" 2 4+ 7 -1
+MELEE WEAPONS RANGE A WS S AP
+Armoured hull Melee 3 5+ 8 0
+KEYWORDS: Vehicle, Aircraft, Fly, Frame, Titanic, Transport, Orca Dropship
+WA R HA M M E R L E G E N D S
+D ABILITIES
+1 CORE: Deadly Demise D6+2, Hover
+2
+FACTION: For the Greater Good
+D Jet Pack Insertion: At the end of your opponent’s Movement
+1 phase, one or more units embarked within this Transport
+can disembark from it, provided every model in each of those
+disembarking units has the Deep Strike ability.
+DAMAGED: 1-9 WOUNDS REMAINING
+While this model has 1-9 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
+
+ORCA DROPSHIP
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Vehicle, Aircraft, Fly, Frame, Titanic, Transport, Orca Dropship
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Orca Dropship
+This model is equipped with: 2 long-barrelled burst cannons;
+missile pod; armoured hull.
+TRANSPORT
+This model has a transport capacity of 48 T’au Empire
+Infantry models. This model can also transport up to 6
+Battlesuit models (these models take up the space of a
+number of models equal to their Wounds characteristic, e.g. a
+Battlesuit with a Wounds characteristic of 8 would take up
+the space of 8 models). This model cannot transport Kroot or
+Vespid Stingwings models.
+FACTION KEYWORDS:
+T’au Empire
+
+HEAVY GUN DRONES
+M T SV W LD OC
+8" 5 4+ 2 8+ 0
+RANGED WEAPONS RANGE
+Burst cannon 18"
+Twin burst cannon [TWIN-LINKED] 18"
+MELEE WEAPONS RANGE
+Close combat weapon Melee
+KEYWORDS: Vehicle, Fly, Heavy Gun Drones
+WA R HA M M E R L E G E N D S
+A BS S AP D ABILITIES
+4 4+ 5 0 1 Drone Escort: Once per turn, in your opponent’s Shooting
+4 5+ 5 0 1 phase, when a friendly T'au Empire unit within 6" of this unit
+is selected as the target of an attack, one unit from your army
+A WS S AP D with this ability can use it. If it does, after that enemy unit
+has finished making its attacks, the unit using this ability can
+1 6+ 3 0 1 shoot as if it were your Shooting phase, but when resolving
+those attacks it can only target that enemy unit (and only if it
+is an eligible target).
+WARGEAR ABILITIES
+Markerlight: The bearer has the Markerlight keyword.
+FACTION KEYWORDS:
+T'au Empire
+
+HEAVY GUN DRONES
+WARGEAR OPTIONS
+■ Any number of models can each have their burst cannon and markerlight replaced with 1 twin
+burst cannon.
+KEYWORDS: Vehicle, Fly, Heavy Gun Drones
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 2 Heavy Gun Drones
+Every model is equipped with: burst cannon; markerlight;
+close combat weapon.
+FACTION KEYWORDS:
+T'au Empire
+
+GREAT KNARLOC
+M T SV W LD OC
+9" 8 4+ 10 7+ 3
+RANGED WEAPONS RANGE A BS S AP D
+Kroot bolt thrower [HOOKED] 12" 1 4+ 12 -2 3
+Hooked: Each time the bearer makes an attack with this weapon that targets a Monster or Vehicle unit,
+if a hit is scored, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to
+Charge rolls made for the bearer and enemy units cannot use the Fire Overwatch Stratagem to shoot at
+the bearer.
+Kroot rifle [RAPID FIRE 1] 24" 1 4+ 4 0 1
+Twin Kroot gun [TWIN-LINKED] 36" 2 4+ 7 0 2
+MELEE WEAPONS RANGE A WS S AP D
+Great Knarloc beak and talons [EXTRA ATTACKS] Melee 4 3+ 7 -1 3
+Kroot rifle Melee 2 3+ 4 0 1
+KEYWORDS: Monster, Frame, Kroot, Great Knarloc
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Scouts 7"
+Loping Stride: Each time this model Advances, do not make
+an Advance roll for it. Instead, until the end of the phase, add
+6" to the Move characteristic of this model.
+WARGEAR ABILITIES
+Baggage Harness (Aura): While a friendly Kroot unit is
+within 3" of the bearer, ranged weapons equipped by models
+in that unit have the [SUSTAINED HITS 1] ability.
+FACTION KEYWORDS:
+T'au Empire
+
+GREAT KNARLOC
+WARGEAR OPTIONS
+■ This model can be equipped with one of the following:
+◦ 1 Kroot bolt thrower and 1 Kroot rifle
+◦ 1 twin Kroot gun
+◦ 1 baggage harness
+KEYWORDS: Monster, Frame, Kroot, Great Knarloc
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Great Knarloc
+This model is equipped with: Great Knarloc beak and talons.
+FACTION KEYWORDS:
+T'au Empire
+
+TX42 PIRANHA
+M T SV W LD OC
+14" 7 4+ 7 7+ 2
+RANGED WEAPONS RANGE A BS S AP D
+Fusion blaster [MELTA 2] 12" 1 4+ 9 -4 D6
+Missile pod 30" 2 4+ 7 -1 2
+Plasma rifle 24" 1 4+ 8 -3 3
+Rail rifle [DEVASTATING WOUNDS] 30" 1 4+ 10 -4 3
+MELEE WEAPONS RANGE A WS S AP D
+Armoured hull Melee 2 5+ 4 0 1
+KEYWORDS: Vehicle, Fly, Frame, TX42 Piranha
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Deadly Demise 1, Scouts 9"
+FACTION: For the Greater Good
+Outflank: When this unit arrives from Strategic Reserves, it
+can be set up within your opponent’s deployment zone (all
+other restrictions still apply).
+FACTION KEYWORDS:
+T'au Empire
+
+TX42 PIRANHA
+WARGEAR OPTIONS
+■ This model’s 2 plasma rifles can be replaced with one of the following:
+◦ 2 fusion blasters
+◦ 2 missile pods
+◦ 2 rail rifles
+KEYWORDS: Vehicle, Fly, Frame, TX42 Piranha
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 TX42 Piranha
+This model is equipped with: 2 plasma rifles; armoured hull.
+FACTION KEYWORDS:
+T'au Empire
+
+KNARLOC RIDERS
+M T SV W LD OC
+7" 5 5+ 4 7+ 2
+RANGED WEAPONS RANGE A BS S AP D
+Kroot rifle [RAPID FIRE 1] 24" 1 4+ 4 0 1
+MELEE WEAPONS RANGE A WS S AP D
+Knarloc beak and talons [EXTRA ATTACKS] Melee 4 3+ 6 -1 1
+Kroot rifle Melee 2 3+ 4 0 1
+KEYWORDS: Mounted, Kroot, Knarloc Riders
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Scouts 7", Stealth
+Thunderous Pounce: Each time this unit ends a Charge move,
+until the end of the turn, Knarloc beak and talons equipped by
+models in this unit have the [LANCE] ability.
+FACTION KEYWORDS:
+T'au Empire
+
+KNARLOC RIDERS
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Mounted, Kroot, Knarloc Riders
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 3 Knarloc Riders
+Every model is equipped with: Kroot rifle; Knarloc beak
+and talons.
+FACTION KEYWORDS:
+T'au Empire
+
+SHAS'O R'ALAI
+M T SV W LD OC
+8" 6 3+ 6 7+ 2
+4+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP
+Experimental pulse submunitions rifle – EMP 24" 1 3+ 1 0
+[ANTI-VEHICLE 3+, DEVASTATING WOUNDS]
+Experimental pulse submunitions rifle – ionic 24" D6 3+ 6 -1
+cluster-beam shell [BLAST]
+MELEE WEAPONS RANGE A WS S AP
+Battlesuit fists Melee 3 4+ 5 0
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Fly, Character, Markerlight, Epic Hero,
+Battlesuit, Shas'o R'alai
+WA R HA M M E R L E G E N D S
+D ABILITIES
+3 CORE: Deep Strike, Leader
+1 FACTION: For the Greater Good
+Eclipse Field Generator: While this model is leading a unit,
+D models in that unit have a 5+ invulnerable save.
+1 Assassin: Each time this model makes an attack that targets a
+Character unit, you can re-roll the Hit roll.
+WARGEAR ABILITIES
+Blacklight Marker Drones: Twice per battle, when this unit
+is an Observer unit, until the end of the phase, each time a
+ranged attack is made by a model in their Guided unit that
+targets their Spotted unit, re-roll a Wound roll of 1.
+Designer’s Note: Place two Blacklight Marker Drone tokens
+next to this model, removing one each time this ability has
+been used.
+FACTION KEYWORDS:
+T'au Empire
+
+SHAS'O R'ALAI
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Vehicle, Walker, Fly, Character, Markerlight, Epic Hero,
+Battlesuit, Shas'o R'alai
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Shas'o R'alai – Epic Hero
+This model is equipped with: experimental pulse
+submunitions rifle; battlesuit fists; blacklight marker drones.
+LEADER
+This model can be attached to the following unit:
+■ XV9 Hazard Battlesuits
+FACTION KEYWORDS:
+T'au Empire
+
+XV9 HAZARD BATTLESUITS
+M T SV W LD OC
+8" 6 3+ 4 7+ 2
+RANGED WEAPONS RANGE A
+Fusion cascade [MELTA 4] 12" 1
+Phased ion gun 30" 4
+Twin hazard burst cannon [TWIN-LINKED] 24" 4
+MELEE WEAPONS RANGE A
+Battlesuit fists Melee 3
+KEYWORDS: Vehicle, Walker, Fly, Battlesuit, XV9 Hazard
+WA R HA M M E R L E G E N D S
+BS S AP D ABILITIES
+4+ 9 -4 D6 CORE: Deep Strike
+4+ 6 -1 1
+4+ 5 0 1 FACTION: For the Greater Good
+Photon Casters: In your Shooting phase, after this unit has
+WS S AP D shot, if an enemy Infantry unit was hit by one or more of
+5+ 5 0 1 those attacks, until the end of your opponent’s next turn,
+that enemy unit is stunned. While a unit is stunned, subtract
+2 from that unit’s Move characteristic, and subtract 2 from
+Advance and Charge rolls made for that unit.
+WARGEAR ABILITIES
+Battlesuit Support System: The bearer’s unit is eligible to
+shoot in a turn in which it Fell Back, but when doing so only
+models equipped with this wargear can make ranged attacks.
+Shield Generator: The bearer has a 4+ invulnerable save.
+Weapon Support System: Each time the bearer makes a
+ranged attack, you can ignore any or all modifiers to the
+Hit roll.
+FACTION KEYWORDS:
+T'au Empire
+
+XV9 HAZARD BATTLESUITS
+WARGEAR OPTIONS
+■ Any number of models can each have their fusion cascade replaced with one of the following:
+◦ 1 phased ion gun
+◦ 1 twin hazard burst cannon
+■ Any number of models can each have their twin hazard burst cannon replaced with one of
+the following:
+◦ 1 fusion cascade
+◦ 1 phased ion gun
+■ Any number of models can each be equipped with one of the following:
+◦ 1 battlesuit support system
+◦ 1 shield generator
+◦ 1 weapon support system
+■ Any number of models can each be equipped with up to two of the following, and can take duplicates:
+◦ 1 gun drone*
+◦ 1 marker drone*
+◦ 1 shield drone*
+* This drone's rules can be found on the Drones page at the end of this document.
+KEYWORDS: Vehicle, Walker, Fly, Battlesuit, XV9 Hazard
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1-2 XV9 Hazard Battlesuits
+Every model is equipped with: fusion cascade; twin hazard
+burst cannon; battlesuit fists.
+FACTION KEYWORDS:
+T'au Empire
+
+REMOTE SENSOR TOWER
+M T SV W LD OC
+- 8 4+ 4 8+ 0
+KEYWORDS: Fortification, Frame, Remote Sensor Tower
+WA R HA M M E R L E G E N D S
+ABILITIES
+Orbital Comms Array (Aura): While a friendly T'au Empire unit
+is within 6" of this Fortification, each time you target that
+unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.
+Reinforced Cover: Each time a ranged attack is allocated to a
+model, if that model is not fully visible to every model in the
+attacking unit because of this Fortification, that model has
+the Benefit of Cover against that attack.
+Fortification: While an enemy unit is only within Engagement
+Range of one or more Fortifications from your army:
+■ That unit can still be selected as the target of ranged
+attacks, but each time such an attack is made, unless it is
+made with a Pistol, subtract 1 from the Hit roll.
+■ Models in that unit do not need to take Desperate Escape
+tests due to Falling Back while Battle-shocked, except for
+those that will move over enemy models when doing so.
+FACTION KEYWORDS:
+T'au Empire
+
+REMOTE SENSOR TOWER
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Fortification, Frame, Remote Sensor Tower
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Remote Sensor Tower
+This model is equipped with: nothing.
+FACTION KEYWORDS:
+T'au Empire
+
+DRONE SENTRY TURRET
+M T SV W LD OC
+- 8 4+ 4 8+ 0
+RANGED WEAPONS RANGE A BS S AP
+Twin burst cannon [TWIN-LINKED] 18" 4 5+ 5 0
+Twin fusion blaster [MELTA 2, TWIN-LINKED] 12" 1 5+ 9 -4
+Twin missile pod [TWIN-LINKED] 30" 2 5+ 7 -1
+Twin plasma rifle [TWIN-LINKED] 24" 1 5+ 8 -3
+KEYWORDS: Fortification, Vehicle, Frame, Drone Sentry Turret
+WA R HA M M E R L E G E N D S
+D ABILITIES
+1 Sentinel Protocols: Each time you select this Fortification
+D6 for the Fire Overwatch Stratagem, hits are scored on
+2 unmodified Hit rolls of 5+ when resolving that Stratagem.
+3 Reinforced Cover: Each time a ranged attack is allocated to a
+model, if that model is not fully visible to every model in the
+attacking unit because of this Fortification, that model has
+the Benefit of Cover against that attack.
+Fortification: While an enemy unit is only within Engagement
+Range of one or more Fortifications from your army:
+■ That unit can still be selected as the target of ranged
+attacks, but each time such an attack is made, unless it is
+made with a Pistol, subtract 1 from the Hit roll.
+■ Models in that unit do not need to take Desperate Escape
+tests due to Falling Back while Battle-shocked, except for
+those that will move over enemy models when doing so.
+FACTION KEYWORDS:
+T'au Empire
+
+DRONE SENTRY TURRET
+WARGEAR OPTIONS
+■ This model’s twin plasma rifle can be replaced with one of the following:
+◦ 1 twin burst cannon
+◦ 1 twin fusion blaster
+◦ 1 twin missile pod
+KEYWORDS: Fortification, Vehicle, Frame, Drone Sentry Turret
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Drone Sentry Turret
+This model is equipped with: twin plasma rifle.
+FACTION KEYWORDS:
+T'au Empire
+
+COMMANDER
+IN CRISIS BATTLESUIT
+M T SV W LD OC
+10" 5 3+ 5 7+ 2
+RANGED WEAPONS RANGE A
+Airbursting fragmentation projector 24" D6
+[BLAST, INDIRECT FIRE]
+Burst cannon 18" 4
+Cyclic ion blaster – standard 18" 3
+Cyclic ion blaster – overcharge [HAZARDOUS] 18" 3
+Fusion blaster [MELTA 2] 12" 1
+Missile pod 30" 2
+Plasma rifle 24" 1
+T’au flamer [IGNORES COVER, TORRENT] 12" D6
+MELEE WEAPONS RANGE A
+Battlesuit fists Melee 3
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Fly, Character, Battlesuit,
+Commander in Crisis Battlesuit
+WA R HA M M E R L E G E N D S
+BS S AP D ABILITIES
+3+ 3 0 1 CORE: Deep Strike, Leader
+3+ 5 0 1 FACTION: For the Greater Good
+3+ 7 -1 1 Crisis Commander: While this model is leading a unit, each
+3+ 8 -2 2 time a model in that unit makes a ranged attack, re-roll a Hit
+3+ 9 -4 D6 roll of 1.
+3+ 7 -1 2
+3+ 8 -3 3 WARGEAR ABILITIES
+N/A 4 0 1 Battlesuit Support System: The bearer’s unit is eligible to
+shoot in a turn in which it Fell Back, but when doing so only
+WS S AP D models equipped with this wargear can make ranged attacks.
+4+ 5 0 1 Shield Generator: The bearer has a 4+ invulnerable save.
+Weapon Support System: Each time the bearer makes a
+ranged attack, you can ignore any or all modifiers to the
+Hit roll.
+FACTION KEYWORDS:
+T’au Empire
+
+COMMANDER
+IN CRISIS BATTLESUIT
 A deadly blend of strategic mastery, courage and technological might,
 each T’au Commander pilots their battlesuit and directs their armies
 with great skill. It is their honour to wield some of the most cutting-edge
 weapons the empire can provide, enabling them to fight all the harder for
 the Greater Good.
+WARGEAR OPTIONS
+■ This model’s burst cannon can be replaced with ■ This model can be equipped with up to three of
+one of the following: the following, and can take duplicates:
+◦ 1 airbursting fragmentation projector* ◦ 1 airbursting fragmentation projector*
+◦ 1 battlesuit support system* ◦ 1 battlesuit support system*
+◦ 1 cyclic ion blaster ◦ 1 burst cannon
+◦ 1 fusion blaster ◦ 1 cyclic ion blaster
+◦ 1 missile pod ◦ 1 fusion blaster
+◦ 1 plasma rifle ◦ 1 missile pod
+◦ 1 shield generator* ◦ 1 plasma rifle
+◦ 1 T’au flamer ◦ 1 shield generator*
+◦ 1 weapon support system* ◦ 1 T’au flamer
+■ This model can be equipped with up to two of ◦ 1 weapon support system*
+the following, and can take duplicates: * This model cannot have duplicates of these pieces
+◦ 1 gun drone** of wargear.
+◦ 1 marker drone** ** This drone’s rules can be found on the Drones
+◦ 1 shield drone** page at the end of this document.
+KEYWORDS: Vehicle, Walker, Fly, Character, Battlesuit,
+Commander in Crisis Battlesuit
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Commander in Crisis Battlesuit
+This model is equipped with: burst cannon; battlesuit fists.
+LEADER
+This model can be attached to the following unit:
+■ Crisis Battlesuits
+■ Crisis Fireknife Battlesuits
+■ Crisis Starsycthe Battlesuits
+■ Crisis Sunforge Battlesuits
+FACTION KEYWORDS:
+T’au Empire
 
+AUN’VA
+M T SV W LD OC
+6" 3 5+ 5 7+ 1 AUN’VA
+6" 3 5+ 2 7+ 1 ETHEREAL GUARD
+4+ INVULNERABLE SAVE
+MELEE WEAPONS RANGE A WS S AP
+Close combat weapon Melee 1 6+ 2 0
+Supreme honour blade Melee 3 3+ 5 0
+KEYWORDS – ALL MODELS: Infantry
+– AUN’VA: Character, Epic Hero, Ethereal, Aun’Va
+WA R HA M M E R L E G E N D S
+D ABILITIES
+1 CORE: Lone Operative
+1
+Duality Shield: Once per battle, each time an attack targets
+this unit, it can use this ability. If it does, until the end of the
+phase, models in this unit have a 2+ invulnerable save.
+Paradox of Duality: Each time an attack targets this unit,
+subtract 1 from the Hit roll and subtract 1 from the Wound roll.
+Supreme Loyalty (Aura): While a friendly T’au Empire unit is
+within 6" of this unit, each time that unit takes a Battle-shock
+or Leadership test, add 1 to that test.
+FACTION KEYWORDS:
+T’au Empire
 
-
-     WARGEAR OPTIONS                                                                                             UNIT COMPOSITION
-     ■ This model’s burst cannon can be replaced with   ■ This model can be equipped with up to three of      ■ 1 Commander in Crisis Battlesuit
-       one of the following:                                 the following, and can take duplicates:             This model is equipped with: burst cannon; battlesuit fists.
-          ◦ 1 airbursting fragmentation projector*            ◦ 1 airbursting fragmentation projector*
-          ◦ 1 battlesuit support system*                      ◦ 1 battlesuit support system*
-          ◦ 1 cyclic ion blaster                              ◦ 1 burst cannon                                   LEADER
-          ◦ 1 fusion blaster                                  ◦ 1 cyclic ion blaster                             This model can be attached to the following unit:
-          ◦ 1 missile pod                                     ◦ 1 fusion blaster
-                                                                                                                 ■ Crisis Battlesuits
-          ◦ 1 plasma rifle                                    ◦ 1 missile pod
-                                                                                                                 ■ Crisis Fireknife Battlesuits
-          ◦ 1 shield generator*                               ◦ 1 plasma rifle
-                                                                                                                 ■ Crisis Starsycthe Battlesuits
-          ◦ 1 T’au flamer                                     ◦ 1 shield generator*
-                                                                                                                 ■ Crisis Sunforge Battlesuits
-          ◦ 1 weapon support system*                          ◦ 1 T’au flamer
-     ■ This model can be equipped with up to two of          ◦ 1 weapon support system*
-        the following, and can take duplicates:           * This model cannot have duplicates of these pieces
-                                                            of wargear.
-         ◦ 1 gun drone**
-         ◦ 1 marker drone**                               ** This drone’s rules can be found on the Drones
-                                                             page at the end of this document.
-         ◦ 1 shield drone**
-
-
-
-
-      KEYWORDS: Vehicle, Walker, Fly, Character, Battlesuit,                                                          FACTION KEYWORDS:
-                Commander in Crisis Battlesuit                                                                         T’au Empire
-AUN’VA                                                                                       WA R HA M M E R L E G E N D S
- M         T        SV       W     LD      OC
-
-
-6"        3        5+        5    7+       1     AUN’VA
-
-6"        3        5+        2    7+       1     ETHEREAL GUARD
-
-                   4+        INVULNERABLE SAVE
-
-
-      MELEE WEAPONS                             RANGE     A      WS   S   AP   D   ABILITIES
-      Close combat weapon                       Melee     1      6+   2   0    1   CORE: Lone Operative
-      Supreme honour blade                      Melee     3      3+   5   0    1
-                                                                                   Duality Shield: Once per battle, each time an attack targets
-                                                                                   this unit, it can use this ability. If it does, until the end of the
-                                                                                   phase, models in this unit have a 2+ invulnerable save.
-                                                                                   Paradox of Duality: Each time an attack targets this unit,
-                                                                                   subtract 1 from the Hit roll and subtract 1 from the Wound roll.
-                                                                                   Supreme Loyalty (Aura): While a friendly T’au Empire unit is
-                                                                                   within 6" of this unit, each time that unit takes a Battle-shock
-                                                                                   or Leadership test, add 1 to that test.
-
-
-
-
-     KEYWORDS – ALL MODELS: Infantry                                                    FACTION KEYWORDS:
-              – AUN’VA: Character, Epic Hero, Ethereal, Aun’Va                           T’au Empire
-AUN’VA                                                                           WA R HA M M E R L E G E N D S
+AUN’VA
 No greater or more inspirational figurehead is there to the T’au than
 Aun’Va, the Ethereal Supreme. Under his stony regard the Hunter Cadres
 strive to achieve excellence beyond imagining, fighting as though
 some living embodiment of the T’au’Va itself moved amongst them and
 demanded all that they could give.
+WARGEAR OPTIONS
+■ None
+KEYWORDS – ALL MODELS: Infantry
+– AUN’VA: Character, Epic Hero, Ethereal, Aun’Va
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Aun’Va – Epic Hero
+■ 2 Ethereal Guards
+Aun’Va is equipped with: close combat weapon.
+Each Ethereal Guard is equipped with:
+supreme honour blade.
+FACTION KEYWORDS:
+T’au Empire
 
+AUN’SHI
+M T SV W LD OC
+6" 3 6+ 3 7+ 1
+5+ INVULNERABLE SAVE
+MELEE WEAPONS RANGE A WS S AP
+Fidelity [SUSTAINED HITS 1] Melee 6 3+ 5 -1
+KEYWORDS: Infantry, Character, Epic Hero, Ethereal, Aun’Shi
+WA R HA M M E R L E G E N D S
+D ABILITIES
+2 CORE: Leader
+Inspirational Defiance: While this model is leading a unit, add
+1 to the Objective Control characteristic of models in that unit.
+Martial Warrior: Each time this model is selected to fight,
+select one of the following abilities to be active while
+resolving those attacks:
+■ Direct Grace: Fidelity has the [PRECISION] ability.
+■ Forceful Strike: Fidelity has the [DEVASTATING
+WOUNDS] ability.
+■ Whirling Stance: Fidelity has the [SUSTAINED HITS 2] ability
+instead of [SUSTAINED HITS 1] .
+FACTION KEYWORDS:
+T’au Empire
 
-
-    WARGEAR OPTIONS                                                      UNIT COMPOSITION
-    ■ None                                                             ■ 1 Aun’Va – Epic Hero
-                                                                         ■ 2 Ethereal Guards
-                                                                         Aun’Va is equipped with: close combat weapon.
-                                                                         Each Ethereal Guard is equipped with:
-                                                                         supreme honour blade.
-
-
-
-
-     KEYWORDS – ALL MODELS: Infantry                                         FACTION KEYWORDS:
-              – AUN’VA: Character, Epic Hero, Ethereal, Aun’Va                T’au Empire
-AUN’SHI                                                                                        WA R HA M M E R L E G E N D S
- M           T           SV         W     LD     OC
-
-
-6"          3           6+          3     7+     1
-                        5+          INVULNERABLE SAVE
-
-
-      MELEE WEAPONS                                   RANGE     A   WS   S   AP   D   ABILITIES
-      Fidelity [SUSTAINED HITS 1]                       Melee   6   3+   5   -1   2   CORE: Leader
-
-                                                                                      Inspirational Defiance: While this model is leading a unit, add
-                                                                                      1 to the Objective Control characteristic of models in that unit.
-                                                                                      Martial Warrior: Each time this model is selected to fight,
-                                                                                      select one of the following abilities to be active while
-                                                                                      resolving those attacks:
-                                                                                      ■ Direct Grace: Fidelity has the [PRECISION] ability.
-                                                                                      ■ Forceful Strike: Fidelity has the [DEVASTATING
-                                                                                         WOUNDS] ability.
-                                                                                      ■ Whirling Stance: Fidelity has the [SUSTAINED HITS 2] ability
-                                                                                         instead of [SUSTAINED HITS 1].
-
-
-
-
-                                                                                            FACTION KEYWORDS:
-     KEYWORDS: Infantry, Character, Epic Hero, Ethereal, Aun’Shi
-                                                                                            T’au Empire
-AUN’SHI                                                                           WA R HA M M E R L E G E N D S
+AUN’SHI
 Aun’Shi is a hero to his people, a humble warrior whose presence
 inspires the T’au of the Fire Caste as surely as a blazing beacon.
 Marrying the uplifting nature of his caste with exceptional martial
 skill, Aun’Shi leads the way to victory with his honour blade flashing
 and slicing.
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Infantry, Character, Epic Hero, Ethereal, Aun’Shi
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Aun’Shi – Epic Hero
+This model is equipped with: Fidelity.
+LEADER
+This model can be attached to the following units:
+■ Breacher Team
+■ Kroot Carnivores
+■ Kroot Farstalkers
+■ Strike Team
+FACTION KEYWORDS:
+T’au Empire
 
+LONGSTRIKE
+M T SV W LD OC
+10" 10 3+ 14 7+ 3
+RANGED WEAPONS RANGE A BS S AP
+Accelerator burst cannon 18" 4 4+ 6 -1
+Ion cannon – standard [BLAST] 60" D6+3 3+ 7 -1
+Ion cannon – overcharge [BLAST, HAZARDOUS] 60" D6+3 3+ 8 -2
+Railgun [DEVASTATING WOUNDS, HEAVY] 72" 1 3+ 20 -5
+Seeker missile [ONE SHOT] 48" 1 4+ 14 -3
+One Shot: The bearer can only shoot with this weapon once per battle.
+Twin pulse carbine [ASSAULT, TWIN-LINKED] 20" 2 4+ 5 0
+Smart missile system [INDIRECT FIRE] 30" 3 4+ 5 0
+MELEE WEAPONS RANGE A WS S AP
+Armoured hull Melee 3 5+ 6 0
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Fly, Frame, Character, Epic Hero, Longstrike
+WA R HA M M E R L E G E N D S
+D ABILITIES
+1 CORE: Deadly Demise D3
+2
+3 FACTION: For the Greater Good
+D6+6 Armour Hunter: Each time this model makes an attack that
+D6+1 targets a Monster or Vehicle, add 1 to the Hit roll.
+Targeting Array: Each time this model is selected to shoot,
+1 you can re-roll one Hit roll or you can re-roll one Wound roll
+when resolving its attacks.
+1
+XV02 Pilot Battlesuit: In your Command phase, you can
+D select one friendly Hammerhead Gunship unit within
+12". Until the start of your next Command phase, ranged
+1 weapons equipped by models in that unit have the
+[LETHAL HITS] ability.
+DAMAGED: 1-5 WOUNDS REMAINING
+While this model has 1-5 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-     WARGEAR OPTIONS                                                     UNIT COMPOSITION
-     ■ None                                                            ■ 1 Aun’Shi – Epic Hero
-                                                                         This model is equipped with: Fidelity.
-
-
-                                                                         LEADER
-                                                                         This model can be attached to the following units:
-                                                                         ■ Breacher Team
-                                                                         ■ Kroot Carnivores
-                                                                         ■ Kroot Farstalkers
-                                                                         ■ Strike Team
-
-
-
-
-                                                                              FACTION KEYWORDS:
-      KEYWORDS: Infantry, Character, Epic Hero, Ethereal, Aun’Shi
-                                                                              T’au Empire
-LONGSTRIKE                                                                                                                           WA R HA M M E R L E G E N D S
- M             T            SV             W            LD             OC
-
-
-10" 10                    3+             14            7+             3
-
-
-
-      RANGED WEAPONS                                                        RANGE                 A   BS   S    AP    D     ABILITIES
-      Accelerator burst cannon                                                 18"                4   4+   6    -1    1     CORE: Deadly Demise D3
-      Ion cannon – standard [BLAST]                                            60"           D6+3     3+   7    -1    2
-                                                                                                                            FACTION: For the Greater Good
-      Ion cannon – overcharge [BLAST, HAZARDOUS]                               60"           D6+3     3+   8    -2    3
-      Railgun [DEVASTATING WOUNDS, HEAVY]                                      72"                1   3+   20   -5   D6+6   Armour Hunter: Each time this model makes an attack that
-      Seeker missile [ONE SHOT]                                                48"                1   4+   14   -3   D6+1   targets a Monster or Vehicle, add 1 to the Hit roll.
-      One Shot: The bearer can only shoot with this weapon once per battle.                                                 Targeting Array: Each time this model is selected to shoot,
-                                                                                                                            you can re-roll one Hit roll or you can re-roll one Wound roll
-      Twin pulse carbine [ASSAULT, TWIN-LINKED]                                20"                2   4+   5    0     1
-                                                                                                                            when resolving its attacks.
-      Smart missile system [INDIRECT FIRE]                                     30"                3   4+   5    0     1
-                                                                                                                            XV02 Pilot Battlesuit: In your Command phase, you can
-                                                                                                                            select one friendly Hammerhead Gunship unit within
-      MELEE WEAPONS                                                         RANGE                 A   WS   S    AP    D     12". Until the start of your next Command phase, ranged
-      Armoured hull                                                           Melee               3   5+   6    0     1     weapons equipped by models in that unit have the
-                                                                                                                            [LETHAL HITS] ability.
-
-
-                                                                                                                                 DAMAGED: 1-5 WOUNDS REMAINING
-                                                                                                                            While this model has 1-5 wounds remaining, each time this
-                                                                                                                            model makes an attack, subtract 1 from the Hit roll.
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
-                                                                                                                                  FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Fly, Frame, Character, Epic Hero, Longstrike
-                                                                                                                                  T’au Empire
-LONGSTRIKE                                                                                      WA R HA M M E R L E G E N D S
+LONGSTRIKE
 Renowned throughout the T’au Empire as its foremost tank ace, Shas’la
 T’au Sha’ng possesses a sublime talent for armoured warfare. His XV02
 Pilot Battlesuit allows him to integrate seamlessly with the artificial
 intelligence of his chosen gunship, augmenting its targeting systems
 and ensuring that its every shot strikes home.
+WARGEAR OPTIONS
+■ This model’s railgun can be replaced with 1 ion cannon.
+■ This model’s 2 twin pulse carbines can be replaced with one of the following:
+◦ 2 accelerator burst cannons
+◦ 2 smart missile systems
+■ This model can be equipped with up to 2 seeker missiles.
+KEYWORDS: Vehicle, Fly, Frame, Character, Epic Hero, Longstrike
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Longstrike – Epic Hero
+This model is equipped with: 2 twin pulse carbines; railgun;
+armoured hull.
+FACTION KEYWORDS:
+T’au Empire
 
+CRISIS BATTLESUITS
+M T SV W LD OC
+10" 5 3+ 4 7+ 2
+RANGED WEAPONS RANGE A
+Airbursting fragmentation projector 24" D6
+[BLAST, INDIRECT FIRE]
+Burst cannon 18" 4
+Cyclic ion blaster – standard 18" 3
+Cyclic ion blaster – overcharge [HAZARDOUS] 18" 3
+Fusion blaster [MELTA 2] 12" 1
+Missile pod 30" 2
+Plasma rifle 24" 1
+T’au flamer [IGNORES COVER, TORRENT] 12" D6
+MELEE WEAPONS RANGE A
+Battlesuit fists Melee 3
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Fly, Battlesuit, Crisis
+WA R HA M M E R L E G E N D S
+BS S AP D ABILITIES
+4+ 3 0 1 CORE: Deep Strike
+4+ 5 0 1 FACTION: For the Greater Good
+4+ 7 -1 1 Turbo-jets: Each time this unit Advances, do not make an
+4+ 8 -2 2 Advance roll for it. Instead, until the end of the phase, add 6"
+4+ 9 -4 D6 to the Move characteristic of models in this unit.
+4+ 7 -1 2
+4+ 8 -3 3 WARGEAR ABILITIES
+N/A 4 0 1 Battlesuit Support System: The bearer’s unit is eligible to
+shoot in a turn in which it Fell Back, but when doing so only
+WS S AP D models equipped with this wargear can make ranged attacks.
+5+ 5 0 1 Shield Generator: The bearer has a 4+ invulnerable save.
+Weapon Support System: Each time the bearer makes a
+ranged attack, you can ignore any or all modifiers to the
+Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-    WARGEAR OPTIONS                                                                    UNIT COMPOSITION
-    ■ This model’s railgun can be replaced with 1 ion cannon.                       ■ 1 Longstrike – Epic Hero
-    ■ This model’s 2 twin pulse carbines can be replaced with one of the following:   This model is equipped with: 2 twin pulse carbines; railgun;
-        ◦ 2 accelerator burst cannons                                                  armoured hull.
-        ◦ 2 smart missile systems
-    ■ This model can be equipped with up to 2 seeker missiles.
-
-
-
-
-                                                                                            FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Fly, Frame, Character, Epic Hero, Longstrike
-                                                                                            T’au Empire
-CRISIS BATTLESUITS                                                                                                                  WA R HA M M E R L E G E N D S
- M             T            SV             W            LD             OC
-
-
-10"           5           3+              4            7+             2
-
-
-
-      RANGED WEAPONS                                                        RANGE                 A    BS    S   AP   D    ABILITIES
-      Airbursting fragmentation projector                                                                                  CORE: Deep Strike
-                                                                               24"                D6   4+    3   0    1
-      [BLAST, INDIRECT FIRE]
-      Burst cannon                                                             18"                4    4+    5   0    1    FACTION: For the Greater Good
-      Cyclic ion blaster – standard                                            18"                3    4+    7   -1   1
-                                                                                                                           Turbo-jets: Each time this unit Advances, do not make an
-      Cyclic ion blaster – overcharge [HAZARDOUS]                              18"                3    4+    8   -2   2    Advance roll for it. Instead, until the end of the phase, add 6"
-      Fusion blaster [MELTA 2]                                                 12"                1    4+    9   -4   D6   to the Move characteristic of models in this unit.
-      Missile pod                                                              30"                2    4+    7   -1   2
-      Plasma rifle                                                             24"                1    4+    8   -3   3    WARGEAR ABILITIES
-      T’au flamer [IGNORES COVER, TORRENT]                                     12"                D6   N/A   4   0    1    Battlesuit Support System: The bearer’s unit is eligible to
-                                                                                                                           shoot in a turn in which it Fell Back, but when doing so only
-      MELEE WEAPONS                                                         RANGE                 A    WS    S   AP   D    models equipped with this wargear can make ranged attacks.
-      Battlesuit fists                                                        Melee               3    5+    5   0    1    Shield Generator: The bearer has a 4+ invulnerable save.
-
-                                                                                                                           Weapon Support System: Each time the bearer makes a
-                                                                                                                           ranged attack, you can ignore any or all modifiers to the
-                                                                                                                           Hit roll.
-
-
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-                                                                                                                                 FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Fly, Battlesuit, Crisis
-                                                                                                                                 T’au Empire
-CRISIS BATTLESUITS                                                                                                    WA R HA M M E R L E G E N D S
+CRISIS BATTLESUITS
 Wherever the battle rages most fiercely, there the Crisis Battlesuits
 strike. Piloted by courageous Fire Caste veterans, these suits are as
 tough and well-armed as many races’ light tanks, yet they also boast
 jet-assisted speed that allows them to cross the battlefield in bounding
 leaps or drop in from Manta Gunships.
+WARGEAR OPTIONS
+■ Any number of models can each have their burst ■ Any number of models can each be equipped
+cannon replaced with one of the following: with up to three of the following, and can
+◦ 1 airbursting fragmentation projector* take duplicates***:
+◦ 1 battlesuit support system* ◦ 1 airbursting fragmentation projector*
+◦ 1 cyclic ion blaster ◦ 1 battlesuit support system*
+◦ 1 fusion blaster ◦ 1 burst cannon
+◦ 1 missile pod ◦ 1 cyclic ion blaster
+◦ 1 plasma rifle ◦ 1 fusion blaster
+◦ 1 shield generator* ◦ 1 missile pod
+◦ 1 T’au flamer ◦ 1 plasma rifle
+◦ 1 weapon support system* ◦ 1 shield generator*
+■ Any number of models can be equipped with up ◦ 1 T’au flamer
+to two of the following, and can take duplicates: ◦ 1 weapon support system*
+◦ 1 gun drone** * Each model cannot have duplicates of these pieces
+◦ 1 marker drone** of wargear.
+◦ 1 shield drone** ** This drone’s rules can be found on the Drones
+page at the end of this document.
+*** Each model cannot be equipped with more than 3
+ranged weapons.
+KEYWORDS: Vehicle, Walker, Fly, Battlesuit, Crisis
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Crisis Shas’vre
+■ 2-5 Crisis Shas’ui
+Every model is equipped with: burst cannon; battlesuit fists.
+CRISIS BODYGUARD
+If a Character unit from your army with the Leader ability
+can be attached to a Crisis Fireknife Battlesuit unit, it can
+be attached to this unit instead.
+FACTION KEYWORDS:
+T’au Empire
 
+R’VARNA BATTLESUIT
+M T SV W LD OC
+8" 10 2+ 15 7+ 4
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE
+Pulse submunitions cannon [BLAST] 60"
+MELEE WEAPONS RANGE
+Battlesuit fists Melee
+KEYWORDS: Vehicle, Walker, Fly, Battlesuit, R’varna
+WA R HA M M E R L E G E N D S
+A BS S AP D ABILITIES
+D6+2 4+ 8 -1 2 CORE: Deadly Demise D6
+A WS S AP D FACTION: For the Greater Good
+6 5+ 6 0 2 Battlesuit Support System: This model is eligible to shoot in a
+turn in which it Fell Back.
+Nova Shielding: Once per battle, when this model is selected
+as the target of a ranged attack, it can use this ability. If it
+does, until the end of the phase, each time an attack targets
+this model, if the Strength characteristic of that attack is
+greater than the Toughness characteristic of this model,
+subtract 1 from the Wound roll.
+Weapon Support System: Each time this model makes a
+ranged attack, you can ignore any or all modifiers to the
+Hit roll.
+DAMAGED: 1-5 WOUNDS REMAINING
+While this model has 1-5 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-    WARGEAR OPTIONS                                                                                           UNIT COMPOSITION
-    ■ Any number of models can each have their burst ■ Any number of models can each be equipped            ■ 1 Crisis Shas’vre
-       cannon replaced with one of the following:        with up to three of the following, and can           ■ 2-5 Crisis Shas’ui
-        ◦ 1 airbursting fragmentation projector*         take duplicates***:
-                                                                                                              Every model is equipped with: burst cannon; battlesuit fists.
-        ◦ 1 battlesuit support system*                    ◦ 1 airbursting fragmentation projector*
-        ◦ 1 cyclic ion blaster                            ◦ 1 battlesuit support system*
-        ◦ 1 fusion blaster                                ◦ 1 burst cannon                                    CRISIS BODYGUARD
-        ◦ 1 missile pod                                   ◦ 1 cyclic ion blaster                              If a Character unit from your army with the Leader ability
-        ◦ 1 plasma rifle                                  ◦ 1 fusion blaster                                  can be attached to a Crisis Fireknife Battlesuit unit, it can
-        ◦ 1 shield generator*                             ◦ 1 missile pod                                     be attached to this unit instead.
-        ◦ 1 T’au flamer                                   ◦ 1 plasma rifle
-        ◦ 1 weapon support system*                        ◦ 1 shield generator*
-    ■ Any number of models can be equipped with up       ◦ 1 T’au flamer
-       to two of the following, and can take duplicates:  ◦ 1 weapon support system*
-       ◦ 1 gun drone**                                 * Each model cannot have duplicates of these pieces
-                                                          of wargear.
-       ◦ 1 marker drone**
-                                                       ** This drone’s rules can be found on the Drones
-       ◦ 1 shield drone**                                 page at the end of this document.
-                                                       *** Each model cannot be equipped with more than 3
-                                                           ranged weapons.
-
-
-
-
-                                                                                                                   FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Fly, Battlesuit, Crisis
-                                                                                                                   T’au Empire
-R’VARNA BATTLESUIT                                                                            WA R HA M M E R L E G E N D S
- M            T         SV       W       LD    OC
-
-
-8"          10          2+     15        7+    4
-                        5+        INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                             RANGE        A     BS   S   AP   D   ABILITIES
-     Pulse submunitions cannon [BLAST]               60"    D6+2   4+   8   -1   2   CORE: Deadly Demise D6
-
-     MELEE WEAPONS                              RANGE        A     WS   S   AP   D   FACTION: For the Greater Good
-     Battlesuit fists                               Melee    6     5+   6   0    2   Battlesuit Support System: This model is eligible to shoot in a
-                                                                                     turn in which it Fell Back.
-                                                                                     Nova Shielding: Once per battle, when this model is selected
-                                                                                     as the target of a ranged attack, it can use this ability. If it
-                                                                                     does, until the end of the phase, each time an attack targets
-                                                                                     this model, if the Strength characteristic of that attack is
-                                                                                     greater than the Toughness characteristic of this model,
-                                                                                     subtract 1 from the Wound roll.
-                                                                                     Weapon Support System: Each time this model makes a
-                                                                                     ranged attack, you can ignore any or all modifiers to the
-                                                                                     Hit roll.
-
-
-                                                                                          DAMAGED: 1-5 WOUNDS REMAINING
-                                                                                     While this model has 1-5 wounds remaining, each time this
-                                                                                     model makes an attack, subtract 1 from the Hit roll.
-
-
-                                                                                           FACTION KEYWORDS:
- KEYWORDS: Vehicle, Walker, Fly, Battlesuit, R’varna
-                                                                                           T’au Empire
-R’VARNA BATTLESUIT                                                                            WA R HA M M E R L E G E N D S
+R’VARNA BATTLESUIT
 A development of the Riptide, the T’au XV107 R’varna battlesuit
 sacrifices mobility for heavier armour and increased firepower in the
 form of two pulse submunition cannons – experimental weapons
 systems that fire microcluster projectiles capable of saturating the
 target area in a deadly storm of plasma pulses.
+WARGEAR OPTIONS
+■ This model can be equipped with up to 2 missile drones.*
+* This drone’s rules can be found on the Drones page at the end of this document.
+KEYWORDS: Vehicle, Walker, Fly, Battlesuit, R’varna
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 R’varna Battlesuit
+This model is equipped with: 2 pulse submunitions cannons;
+battlesuit fists.
+FACTION KEYWORDS:
+T’au Empire
 
+Y’VAHRA BATTLESUIT
+M T SV W LD OC
+10" 9 2+ 15 7+ 4
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A
+Flechette pod 12" 5
+Ionic discharge cannon – standard [BLAST] 18" D6+1
+Ionic discharge cannon – overcharge 18" D6+1
+[BLAST, HAZARDOUS]
+Phased plasma-flamer [IGNORES COVER, TORRENT] 12" 10
+MELEE WEAPONS RANGE A
+Battlesuit fists Melee 6
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Fly, Battlesuit, Y’vahra
+WA R HA M M E R L E G E N D S
+BS S AP D ABILITIES
+4+ 3 0 1 CORE: Deadly Demise D6
+4+ 7 -1 2
+FACTION: For the Greater Good
+4+ 8 -2 3
+Battlesuit Support System: This model is eligible to shoot in a
+N/A 6 -1 1 turn in which it Fell Back.
+WS S AP D Nova Burst: Once per battle, before this model makes a
+Normal, Advance or Fall Back move, it can use this ability. If it
+5+ 6 0 2 does, until the end of the phase, it has a Move characteristic
+of 18".
+Weapon Support System: Each time this model makes a
+ranged attack, you can ignore any or all modifiers to the
+Hit roll.
+DAMAGED: 1-5 WOUNDS REMAINING
+While this model has 1-5 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-  WARGEAR OPTIONS                                                                     UNIT COMPOSITION
-  ■ This model can be equipped with up to 2 missile drones.*                        ■ 1 R’varna Battlesuit
-  * This drone’s rules can be found on the Drones page at the end of this document.   This model is equipped with: 2 pulse submunitions cannons;
-                                                                                      battlesuit fists.
-
-
-
-
-                                                                                           FACTION KEYWORDS:
-   KEYWORDS: Vehicle, Walker, Fly, Battlesuit, R’varna
-                                                                                           T’au Empire
-Y’VAHRA BATTLESUIT                                                                                                              WA R HA M M E R L E G E N D S
- M            T            SV             W             LD            OC
-
-
-10"          9            2+            15            7+              4
-                          5+               INVULNERABLE SAVE
-
-
-     RANGED WEAPONS                                                     RANGE                  A    BS    S   AP   D   ABILITIES
-     Flechette pod                                                          12"                5    4+    3   0    1   CORE: Deadly Demise D6
-     Ionic discharge cannon – standard [BLAST]                              18"           D6+1      4+    7   -1   2
-                                                                                                                       FACTION: For the Greater Good
-     Ionic discharge cannon – overcharge
-                                                                            18"           D6+1      4+    8   -2   3
-     [BLAST, HAZARDOUS]
-                                                                                                                       Battlesuit Support System: This model is eligible to shoot in a
-     Phased plasma-flamer [IGNORES COVER, TORRENT]                          12"                10   N/A   6   -1   1   turn in which it Fell Back.
-                                                                                                                       Nova Burst: Once per battle, before this model makes a
-     MELEE WEAPONS                                                      RANGE                  A    WS    S   AP   D   Normal, Advance or Fall Back move, it can use this ability. If it
-     Battlesuit fists                                                      Melee               6    5+    6   0    2   does, until the end of the phase, it has a Move characteristic
-                                                                                                                       of 18".
-                                                                                                                       Weapon Support System: Each time this model makes a
-                                                                                                                       ranged attack, you can ignore any or all modifiers to the
-                                                                                                                       Hit roll.
-
-
-                                                                                                                            DAMAGED: 1-5 WOUNDS REMAINING
-                                                                                                                       While this model has 1-5 wounds remaining, each time this
-                                                                                                                       model makes an attack, subtract 1 from the Hit roll.
-
-
-  Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
-                                                                                                                             FACTION KEYWORDS:
- KEYWORDS: Vehicle, Walker, Fly, Battlesuit, Y’vahra
-                                                                                                                             T’au Empire
-Y’VAHRA BATTLESUIT                                                                             WA R HA M M E R L E G E N D S
+Y’VAHRA BATTLESUIT
 Rushed into deployment after the success of the R’varna battlesuit,
 the XV109 Y’vahra is a Class 10 battlesuit designed for devastating
 shock assault. To facilitate this, it is equipped with a triple barrelled
 phased plasma-flamer capable of vaporising ceramite, and a massive
 EMP discharge cannon designed to incapacitate enemy war engines.
+WARGEAR OPTIONS
+■ This model can be equipped with up to 2 missile drones.*
+* This drone’s rules can be found on the Drones page at the end of this document.
+KEYWORDS: Vehicle, Walker, Fly, Battlesuit, Y’vahra
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Y’vahra Battlesuit
+This model is equipped with: flechette pod; ionic discharge
+cannon; phased plasma-flamer; battlesuit fists.
+FACTION KEYWORDS:
+T’au Empire
 
+TETRAS
+M T SV W LD OC
+14" 7 4+ 7 7+ 2
+RANGED WEAPONS RANGE
+Pulse rifle [RAPID FIRE 1] 30"
+MELEE WEAPONS RANGE
+Close combat weapons Melee
+KEYWORDS: Vehicle, Fly, Frame, Markerlight, Tetras
+WA R HA M M E R L E G E N D S
+A BS S AP D ABILITIES
+1 4+ 5 0 1 CORE: Deadly Demise 1, Infiltrators
+A WS S AP D FACTION: For the Greater Good
+2 5+ 3 0 1 High-intensity Markerlights: Each time this unit is an
+Observer unit, until the end of the phase, each time a model in
+its Guided unit makes an attack that targets their Spotted unit,
+you can re-roll the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-   WARGEAR OPTIONS                                                                     UNIT COMPOSITION
-   ■ This model can be equipped with up to 2 missile drones.*                        ■ 1 Y’vahra Battlesuit
-   * This drone’s rules can be found on the Drones page at the end of this document.   This model is equipped with: flechette pod; ionic discharge
-                                                                                       cannon; phased plasma-flamer; battlesuit fists.
-
-
-
-
-                                                                                            FACTION KEYWORDS:
-    KEYWORDS: Vehicle, Walker, Fly, Battlesuit, Y’vahra
-                                                                                            T’au Empire
-TETRAS                                                                                 WA R HA M M E R L E G E N D S
- M             T           SV     W   LD   OC
-
-
-14"           7          4+       7   7+   2
-
-
-
-     RANGED WEAPONS                         RANGE       A   BS   S   AP   D   ABILITIES
-     Pulse rifle [RAPID FIRE 1]                  30"    1   4+   5   0    1   CORE: Deadly Demise 1, Infiltrators
-
-     MELEE WEAPONS                          RANGE       A   WS   S   AP   D   FACTION: For the Greater Good
-     Close combat weapons                       Melee   2   5+   3   0    1   High-intensity Markerlights: Each time this unit is an
-                                                                              Observer unit, until the end of the phase, each time a model in
-                                                                              its Guided unit makes an attack that targets their Spotted unit,
-                                                                              you can re-roll the Hit roll.
-
-
-
-
-                                                                                    FACTION KEYWORDS:
- KEYWORDS: Vehicle, Fly, Frame, Markerlight, Tetras
-                                                                                    T’au Empire
-TETRAS                                                                           WA R HA M M E R L E G E N D S
+TETRAS
 The Tetra is a lightweight and fast scout speeder used by Pathfinders
 for long-range infiltration, reconnaissance and sabotage missions.
 With limited armour and weaponry, they are not true combat vehicles,
 but their stealth and speed extend the operational range of Pathfinder
 teams, as do their surveillance and communications technologies.
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Vehicle, Fly, Frame, Markerlight, Tetras
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 2-4 Tetras
+Every model is equipped with: 2 pulse rifles; close
+combat weapons.
+FACTION KEYWORDS:
+T’au Empire
 
+REMORA STEALTH DRONES
+M T SV W LD OC
+16" 6 3+ 5 7+ 0
+RANGED WEAPONS RANGE A BS S AP
+Remora seeker missile [ONE SHOT] 48" 1 4+ 14 -3
+One Shot: The bearer can only shoot with this weapon once per battle.
+Twin long-barrelled burst cannon [TWIN-LINKED] 24" 4 4+ 6 -1
+MELEE WEAPONS RANGE A WS S AP
+Close combat weapon Melee 1 5+ 4 0
+KEYWORDS: Vehicle, Fly, Markerlight, Remora Stealth Drones
+WA R HA M M E R L E G E N D S
+D ABILITIES
+D6+1 CORE: Infiltrators, Stealth
+1 FACTION: For the Greater Good
+Aerial Disengagement: In your opponent's Movement
+D phase, when an enemy unit ends a Normal, Advance or Fall
+1 Back move within 8" of this unit, if this unit is not within
+Engagement Range of one or more enemy units, it can make a
+Normal move of up to 6".
+FACTION KEYWORDS:
+T’au Empire
 
-
-  WARGEAR OPTIONS                                                        UNIT COMPOSITION
-  ■ None                                                               ■ 2-4 Tetras
-                                                                         Every model is equipped with: 2 pulse rifles; close
-                                                                         combat weapons.
-
-
-
-
-                                                                              FACTION KEYWORDS:
-   KEYWORDS: Vehicle, Fly, Frame, Markerlight, Tetras
-                                                                              T’au Empire
-REMORA STEALTH DRONES                                                                                       WA R HA M M E R L E G E N D S
- M           T         SV         W         LD         OC
-
-
-16"         6         3+          5        7+          0
-
-
-
-     RANGED WEAPONS                                      RANGE          A    BS   S    AP    D     ABILITIES
-     Remora seeker missile [ONE SHOT]                       48"          1   4+   14   -3   D6+1   CORE: Infiltrators, Stealth
-     One Shot: The bearer can only shoot with this weapon once per battle.
-     Twin long-barrelled burst cannon [TWIN-LINKED]         24"          4   4+   6    -1    1     FACTION: For the Greater Good
-
-                                                                                                   Aerial Disengagement: In your opponent's Movement
-     MELEE WEAPONS                                       RANGE          A    WS   S    AP    D     phase, when an enemy unit ends a Normal, Advance or Fall
-     Close combat weapon                                    Melee       1    5+   4    0     1     Back move within 8" of this unit, if this unit is not within
-                                                                                                   Engagement Range of one or more enemy units, it can make a
-                                                                                                   Normal move of up to 6".
-
-
-
-
-                                                                                                         FACTION KEYWORDS:
- KEYWORDS: Vehicle, Fly, Markerlight, Remora Stealth Drones
-                                                                                                         T’au Empire
-REMORA STEALTH DRONES                                                          WA R HA M M E R L E G E N D S
+REMORA STEALTH DRONES
 The Remora is an airborne weapons system often carried into battle
 on the fuselage of a larger mothership such as a Tiger Shark. Packed
 with intelligent technologies and armed with burst cannons and
 seeker missiles, Remoras can engage aerial or ground targets, and
 often attack in support of Pathfinder or Stealth Suit teams.
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Vehicle, Fly, Markerlight, Remora Stealth Drones
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 2 Remora Stealth Drones
+Every model is equipped with: twin long-barrelled burst
+cannons; 2 Remora seeker missiles; close combat weapon.
+FACTION KEYWORDS:
+T’au Empire
 
+BARRACUDA
+M T SV W LD OC
+- 10 3+ 14 7+ -
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Cyclic ion blaster – standard 18" 3 4+ 7 -1 1
+Cyclic ion blaster – overcharge [HAZARDOUS] 18" 3 4+ 8 -2 2
+Ion cannon – standard [BLAST] 60" D6+3 4+ 7 -1 2
+Ion cannon – overcharge [BLAST, HAZARDOUS] 60" D6+3 4+ 8 -2 3
+Long-barrelled burst cannon 24" 8 4+ 6 0 1
+Missile pod 30" 2 4+ 7 -1 2
+Seeker missile [ONE SHOT] 48" 1 4+ 14 -3 D6+1
+One Shot: The bearer can only shoot with this weapon once per battle.
+Swiftstrike burst cannon 36" 16 4+ 6 -1 1
+Swiftstrike railgun [DEVASTATING WOUNDS] 72" 1 4+ 20 -5 D6+6
+MELEE WEAPONS RANGE A WS S AP D
+Armoured hull Melee 3 5+ 6 0 1
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Aircraft, Fly, Frame, Barracuda
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Deadly Demise D3
+FACTION: For the Greater Good
+Agile Dogfighter: Each time an attack targets this model,
+subtract 1 from the Hit roll.
+DAMAGED: 1-5 WOUNDS REMAINING
+While this model has 1-5 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+T’au Empire
 
-
-  WARGEAR OPTIONS                                                      UNIT COMPOSITION
-  ■ None                                                             ■ 2 Remora Stealth Drones
-                                                                       Every model is equipped with: twin long-barrelled burst
-                                                                       cannons; 2 Remora seeker missiles; close combat weapon.
-
-
-
-
-                                                                            FACTION KEYWORDS:
-   KEYWORDS: Vehicle, Fly, Markerlight, Remora Stealth Drones
-                                                                            T’au Empire
-BARRACUDA                                                                                                                         WA R HA M M E R L E G E N D S
-  M               T            SV             W            LD            OC
-
-
-  -            10            3+            14             7+              -
-                              5+              INVULNERABLE SAVE
-
-
-  RANGED WEAPONS                                                       RANGE                  A    BS   S    AP    D     ABILITIES
-  Cyclic ion blaster – standard                                            18"                3    4+   7    -1    1     CORE: Deadly Demise D3
-  Cyclic ion blaster – overcharge [HAZARDOUS]                              18"                3    4+   8    -2    2
-                                                                                                                         FACTION: For the Greater Good
-  Ion cannon – standard [BLAST]                                            60"           D6+3      4+   7    -1    2
-  Ion cannon – overcharge [BLAST, HAZARDOUS]                               60"           D6+3      4+   8    -2    3     Agile Dogfighter: Each time an attack targets this model,
-  Long-barrelled burst cannon                                              24"                8    4+   6    0     1     subtract 1 from the Hit roll.
-  Missile pod                                                              30"                2    4+   7    -1    2
-  Seeker missile [ONE SHOT]                                                48"                1    4+   14   -3   D6+1        DAMAGED: 1-5 WOUNDS REMAINING
-  One Shot: The bearer can only shoot with this weapon once per battle.                                                  While this model has 1-5 wounds remaining, each time this
-  Swiftstrike burst cannon                                                 36"                16   4+    6   -1    1     model makes an attack, subtract 1 from the Hit roll.
-  Swiftstrike railgun [DEVASTATING WOUNDS]                                 72"                 1   4+   20   -5   D6+6
-
-  MELEE WEAPONS                                                        RANGE                  A    WS   S    AP    D
-  Armoured hull                                                          Melee                3    5+   6    0     1
-
-
-
-
- Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
-                                                                                                                              FACTION KEYWORDS:
- KEYWORDS: Vehicle, Aircraft, Fly, Frame, Barracuda
-                                                                                                                              T’au Empire
-BARRACUDA                                                                                               WA R HA M M E R L E G E N D S
+BARRACUDA
 The Barracuda was developed to arm the T’au Empire with a multirole
 fighter capable of combating the increasingly diverse threats to the
 Greater Good. Armed with an ion cannon and drone-controlled burst
 cannons, the Barracuda’s versatility and damage output place it at the
 forefront of T’au aerial warfare.
+WARGEAR OPTIONS
+■ This model’s 2 long-barrelled burst cannons can be replaced with 2 cyclic ion blasters.
+■ This model’s swiftstrike burst cannon can be replaced with one of the following:
+◦ 1 ion cannon
+◦ 1 swiftstrike railgun
+■ This model can be equipped with up to 4 seeker missiles.
+KEYWORDS: Vehicle, Aircraft, Fly, Frame, Barracuda
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Barracuda
+This model is equipped with: 2 long-barrelled burst cannons;
+swiftstrike burst cannon; 2 missile pods; armoured hull.
+FACTION KEYWORDS:
+T’au Empire
 
+TACTICAL DRONES
+M T SV W LD OC
+8" 3 4+ 1 7+ 0
+RANGED WEAPONS RANGE A BS S AP D
+Twin pulse carbine [ASSAULT, TWIN-LINKED] 20" 2 5+ 5 0 1
+MELEE WEAPONS RANGE A WS S AP D
+Close combat weapon Melee 1 6+ 3 0 1
+KEYWORDS: Drone, Fly, Tactical Drones
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Deep Strike
+FACTION T’au Empire KEYWORDS:
 
-
-  WARGEAR OPTIONS                                                                               UNIT COMPOSITION
-  ■ This model’s 2 long-barrelled burst cannons can be replaced with 2 cyclic ion blasters.   ■ 1 Barracuda
-  ■ This model’s swiftstrike burst cannon can be replaced with one of the following:            This model is equipped with: 2 long-barrelled burst cannons;
-     ◦ 1 ion cannon                                                                             swiftstrike burst cannon; 2 missile pods; armoured hull.
-     ◦ 1 swiftstrike railgun
-  ■ This model can be equipped with up to 4 seeker missiles.
-
-
-
-
-                                                                                                     FACTION KEYWORDS:
-   KEYWORDS: Vehicle, Aircraft, Fly, Frame, Barracuda
-                                                                                                     T’au Empire
-TACTICAL DRONES                                                                                  WA R HA M M E R L E G E N D S
- M            T          SV           W          LD   OC
-
-
-8"           3          4+           1           7+   0
-
-
-
-     RANGED WEAPONS                                    RANGE       A   BS   S   AP   D   ABILITIES
-     Twin pulse carbine [ASSAULT, TWIN-LINKED]              20"    2   5+   5   0    1   CORE: Deep Strike
-
-     MELEE WEAPONS                                     RANGE       A   WS   S   AP   D
-     Close combat weapon                                   Melee   1   6+   3   0    1
-
-
-
-
-                                                                                              FACTION KEYWORDS:
- KEYWORDS: Drone, Fly, Tactical Drones
-                                                                                              T’au Empire
-TACTICAL DRONES                                                                     WA R HA M M E R L E G E N D S
+TACTICAL DRONES
 Armoured units controlled by artificial intelligence and borne on
 gravitic repulsors, Tactical Drones provide support to T’au forces in the
 field. Capable of unleashing withering fusillades of pulse carbine fire,
 Commanders readily send these faithful units on seek-and-destroy
 missions to overwhelm enemy scouts or even light vehicles.
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Drone, Fly, Tactical Drones
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 4-12 Tactical Drones
+Every model is equipped with: twin pulse carbine;
+close combat weapon.
+FACTION KEYWORDS:
+T’au Empire
 
-
-
-   WARGEAR OPTIONS                                                          UNIT COMPOSITION
-   ■ None                                                                 ■ 4-12 Tactical Drones
-                                                                            Every model is equipped with: twin pulse carbine;
-                                                                            close combat weapon.
-
-
-
-
-                                                                                 FACTION KEYWORDS:
-    KEYWORDS: Drone, Fly, Tactical Drones
-                                                                                 T’au Empire
-T’AU EMPIRE                                                  WA R HA M M E R L E G E N D S
+T’AU EMPIRE
 DRONES
-If you have upgraded a model to have a drone, place a Drone token next to your model as a reminder. These do
+If you have upgraded a model to have a drone,
 not count as models for any rules purposes.
-
-
-                                                              GUARDIAN DRONE
-                                                              Each time a model makes a ranged attack that
-                                                              targets the bearer’s unit, subtract 1 from the
-                                                              Wound roll.
-
-
-
-  GUN DRONE
-   The bearer is equipped with the following ranged weapon:
-   RANGED WEAPON                     RANGE      A    BS       S    AP    D
-   Twin pulse carbine
-                                       20"      2     5+      5     0     1
-   [ASSAULT, TWIN-LINKED]
-
-
-
-
-                                                              MARKER DRONE
-                                                              The bearer’s unit has the Markerlight keyword
-                                                              and can act as an Observer unit for another unit
-                                                              even if it Advanced this turn.
-
-
-
-
-  MISSILE DRONE
-  The bearer is equipped with the following ranged weapon:
-   RANGED WEAPON                     RANGE      A    BS       S    AP    D
-   Missile pod                         30"      2    5+       7    -1    2
-
-
-
-
-                                                              SHIELD DRONE
-                                                              Add 1 to the bearer’s Wounds characteristic.
-
+GUN DRONE
+The bearer is equipped with the following
+RANGED WEAPON RANGE
+Twin pulse carbine 20"
+[ASSAULT, TWIN-LINKED]
+MISSILE DRONE
+The bearer is equipped with the following ranged
+RANGED WEAPON RANGE
+Missile pod 30"
+WA R HA M M E R L E G E N D S
+place a Drone token next to your model as a reminder. These do
+GUARDIAN DRONE
+Each time a model makes a ranged attack that
+targets the bearer’s unit, subtract 1 from the
+Wound roll.
+ranged weapon:
+A BS S AP D
+2 5+ 5 0 1
+MARKER DRONE
+The bearer’s unit has the Markerlight keyword
+and can act as an Observer unit for another unit
+even if it Advanced this turn.
+weapon:
+A BS S AP D
+2 5+ 7 -1 2
+SHIELD DRONE
+Add 1 to the bearer’s Wounds characteristic.

@@ -1,649 +1,738 @@
-                                              GREY KNIGHTS
-                                             FACTION PACK: VERSION 1.1
-                                                 Legal for matched play from 22nd July 2026
-
-On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
-datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
+GREY
+FACTION PACK:
+Legal for matched
+On the following pages you will find additional rules and clarifications
+datasheets to rules updates and FAQs. All of these changes are also
 for your units and detachments.
+WHAT’S NEW?
+▪ Changes to Rules Updates
+▪ Grey Knights Thunderhawk Gunship: Remove ‘FRAME’
+▪ Immaterial Interdiction detachment, Echojump detachment rule
+Change to:
+‘In your Shooting phase, when a friendly INTERCEPTOR SQUAD unit has
+shot, you can use this ability. If you do:
+▫ That unit cannot use its Personal Teleporters ability.
+▫ That unit can make a surge move of up to D6+1".’
+KNIGHTS
+VERSION 1.1
+play from 22nd July 2026
+that supplement your Codex, from extra detachments and
+updated in the Warhammer 40,000 app, along with points values
+CONTENTS
+Detachments���������������������������������������������������������������������������������2
+Argent Assault����������������������������������������������������������������������������������������������2
+Fires of Purgation����������������������������������������������������������������������������������������3
+Immaterial Interdiction������������������������������������������������������������������������������4
+Warpbane Task Force���������������������������������������������������������������������������������5
+Imperial Armour Datasheets���������������������������������������������������������7
+Rules Updates�������������������������������������������������������������������������������9
+Legends Datasheets�������������������������������������������������������������������10
 
-
-WHAT’S NEW?                                                              CONTENTS
-▪ Changes to Rules Updates                                               Detachments���������������������������������������������������������������������������������2
-▪ Grey Knights Thunderhawk Gunship: Remove ‘FRAME’                        Argent Assault����������������������������������������������������������������������������������������������2
-▪ Immaterial Interdiction detachment, Echojump detachment rule           Fires of Purgation����������������������������������������������������������������������������������������3
-   Change to:                                                             Immaterial Interdiction������������������������������������������������������������������������������4
-   ‘In your Shooting phase, when a friendly INTERCEPTOR SQUAD unit has    Warpbane Task Force���������������������������������������������������������������������������������5
-   shot, you can use this ability. If you do:                            Imperial Armour Datasheets���������������������������������������������������������7
-     ▫ That unit cannot use its Personal Teleporters ability.            Rules Updates�������������������������������������������������������������������������������9
-     ▫ That unit can make a surge move of up to D6+1".’                  Legends Datasheets�������������������������������������������������������������������10
-ARGENT ASSAULT
-THE GREATEST CHAMPIONS OF THE GREY KNIGHTS SEEK OUT THEIR DEADLIEST FOES FOR PURGATION
-
-
- DETACHMENT RULES                                                        TRUESILVER AEGIS                                                    1CP
-                                                                         ARGENT ASSAULT STRATAGEM
+ARGENT ASSAULT
+THE GREATEST CHAMPIONS OF THE GREY KNIGHTS SEEK OUT
+DETACHMENT RULES
 DAUNTLESS CHAMPIONS
-                                                                         Layered into the Paladins’ armour by shriven seers and blessed
-To be a Paladin of the Grey Knights is to do battle with the greatest    saints, these potent wards of abjuration turn aside attacks both
-                                                                         supernatural and mundane.
+To be a Paladin of the Grey Knights is to do battle with the greatest
 and most terrible enemies and yet emerge victorious, no matter
-the odds.                                                                WHEN: Any phase, when a friendly PALADIN SQUAD unit suffers a
-                                                                         mortal wound.
-When a friendly PALADIN SQUAD unit is selected to fight, if the S of     TARGET: That PALADIN SQUAD unit.
-those attacks is lower than the T of the target, those attacks have +1   EFFECT: Your unit has Feel No Pain 4+ against mortal wounds.
+the odds.
+When a friendly PALADIN SQUAD unit is selected to fight, if the S of
+those attacks is lower than the T of the target, those attacks have +1
 to wound rolls.
-
-                                                                         A THREAT ENDED                                                      1CP
- ENHANCEMENTS                                                            ARGENT ASSAULT STRATAGEM
-
-                                                                         Paladins, more than even their brother Grey Knights, must strive
-PSYCHIC CELERITY                                                         to lay low those heretical champions from whom the taint of
-                                                                         damnation spreads to threaten the Imperium.
+ENHANCEMENTS
+PSYCHIC CELERITY
 These champions of Titan employ their psychic might to lend
-themselves supernatural speed and catch their enemies unawares.          WHEN: Fight phase, when a friendly PALADIN SQUAD unit is selected
-                                                                         to fight.
-TERMINATOR model only. This unit has +1 to charge rolls.                 TARGET: That PALADIN SQUAD unit.
-                                                                         EFFECT: Your unit’s melee attacks have [PRECISION].
+themselves supernatural speed and catch their enemies unawares.
+TERMINATOR model only. This unit has +1 to charge rolls.
 VIGILANCE OF TITAN
 None who would work the unclean will of the Warp – even
-unknowingly – can escape the merciless gaze of the Grey Knights.         AURA OF VENGEANCE                                                   1CP
-                                                                         ARGENT ASSAULT STRATAGEM
-TERMINATOR model only. At the start of your Shooting phase, you          Chanting incantations of vengeful wrath, the Paladins curse
-can select one visible enemy unit within 12" of this unit. That          those who strike at them to be laid low by their own strength
-                                                                         and hatred.
+unknowingly – can escape the merciless gaze of the Grey Knights.
+TERMINATOR model only. At the start of your Shooting phase, you
+can select one visible enemy unit within 12" of this unit. That
 enemy unit has +6" detection range.
-                                                                         WHEN: Fight phase, when an enemy unit targets a friendly PALADIN
-                                                                         SQUAD unit.
-                                                                         TARGET: That PALADIN SQUAD unit.
-                                                                         EFFECT: That enemy unit’s melee attacks have [HAZARDOUS].
-FIRES OF PURGATION
-PURGATION SQUADS LEAD THEIR BRETHREN TO PURIFY THE BATTLEFIELD THROUGH FEROCIOUS FIREPOWER
+THEIR DEADLIEST FOES FOR PURGATION
+TRUESILVER AEGIS 1CP
+ARGENT ASSAULT STRATAGEM
+Layered into the Paladins’ armour by shriven seers and blessed
+saints, these potent wards of abjuration turn aside attacks both
+supernatural and mundane.
+WHEN: Any phase, when a friendly PALADIN SQUAD unit suffers a
+mortal wound.
+TARGET: That PALADIN SQUAD unit.
+EFFECT: Your unit has Feel No Pain 4+ against mortal wounds.
+A THREAT ENDED 1CP
+ARGENT ASSAULT STRATAGEM
+Paladins, more than even their brother Grey Knights, must strive
+to lay low those heretical champions from whom the taint of
+damnation spreads to threaten the Imperium.
+WHEN: Fight phase, when a friendly PALADIN SQUAD unit is selected
+to fight.
+TARGET: That PALADIN SQUAD unit.
+EFFECT: Your unit’s melee attacks have [PRECISION].
+AURA OF VENGEANCE 1CP
+ARGENT ASSAULT STRATAGEM
+Chanting incantations of vengeful wrath, the Paladins curse
+those who strike at them to be laid low by their own strength
+and hatred.
+WHEN: Fight phase, when an enemy unit targets a friendly PALADIN
+SQUAD unit.
+TARGET: That PALADIN SQUAD unit.
+EFFECT: That enemy unit’s melee attacks have [HAZARDOUS].
 
-
- DETACHMENT RULES                                                     SOUL-LOCKED                                                             1CP
-                                                                      FIRES OF PURGATION STRATAGEM
+FIRES OF PURGATION
+PURGATION SQUADS LEAD THEIR BRETHREN TO PURIFY THE
+DETACHMENT RULES
 SEARING SOULFLAME
-                                                                      Once these warriors have acquired a spiritual target lock upon
-Through potent psychic focus and the channelling of their             the animus of their enemies, they can hammer them with deadly
-                                                                      fire, no matter the circumstances.
+Through potent psychic focus and the channelling of their
 vehement wrath, Purgators imbue their salvoes with bursts of
-soul‑burning psy‑fire.                                                WHEN: Your Movement phase, when a friendly PURGATION SQUAD unit
-                                                                      is selected to make a fall‑back move.
-When you select a unit to be pinned by a friendly PURGATION SQUAD     TARGET: That PURGATION SQUAD unit.
-unit’s Righteous Persecution ability, that enemy unit makes a         EFFECT: That move does not prevent your unit from being eligible
-battle‑shock roll, with -1 to that battle‑shock roll.                 to shoot.
-
-
-
- ENHANCEMENTS                                                         FOCUSED IMMOLATION                                                      1CP
-                                                                      FIRES OF PURGATION STRATAGEM
-PRECOGNICIENT VOLLEYS UPGRADE                                         Concentrating their fire on a single luckless target and pouring
-These warriors have honed their psychic foretelling powers to         all their psychic might into every shot, the Purgators sear
-                                                                      their victims from existence as though cauterising an infested
-provide glimpses of their enemies’ movements and guide their fire     wound in the flesh of realspace.
+soul‑burning psy‑fire.
+When you select a unit to be pinned by a friendly PURGATION SQUAD
+unit’s Righteous Persecution ability, that enemy unit makes a
+battle‑shock roll, with -1 to that battle‑shock roll.
+ENHANCEMENTS
+PRECOGNICIENT VOLLEYS UPGRADE
+These warriors have honed their psychic foretelling powers to
+provide glimpses of their enemies’ movements and guide their fire
 in response.
-                                                                      WHEN: Your Shooting phase, when a friendly PURGATION SQUAD unit
-                                                                      is selected to shoot.
-PURGATION SQUAD unit only. This unit’s snap shooting attacks hit on   TARGET: That PURGATION SQUAD unit.
+PURGATION SQUAD unit only. This unit’s snap shooting attacks hit on
 unmodified hit rolls of 5+.
-                                                                      EFFECT: Select one enemy unit. Your unit’s ranged attacks that target
-                                                                      that unit have:
-BOONS OF DEIMOS UPGRADE                                               ▪ [DEVASTATING WOUNDS].
-Fashioned on Titan’s forge moon by the most skilled tech-magi,        ▪ [SUSTAINED HITS 1].
+BOONS OF DEIMOS UPGRADE
+Fashioned on Titan’s forge moon by the most skilled tech-magi,
 these remarkable firearms are a blessing to any who wield them.
+PURGATION SQUAD unit only. This unit’s ranged attacks have +2 S.
+BATTLEFIELD THROUGH FEROCIOUS FIREPOWER
+SOUL-LOCKED 1CP
+FIRES OF PURGATION STRATAGEM
+Once these warriors have acquired a spiritual target lock upon
+the animus of their enemies, they can hammer them with deadly
+fire, no matter the circumstances.
+WHEN: Your Movement phase, when a friendly PURGATION SQUAD unit
+is selected to make a fall‑back move.
+TARGET: That PURGATION SQUAD unit.
+EFFECT: That move does not prevent your unit from being eligible
+to shoot.
+FOCUSED IMMOLATION 1CP
+FIRES OF PURGATION STRATAGEM
+Concentrating their fire on a single luckless target and pouring
+all their psychic might into every shot, the Purgators sear
+their victims from existence as though cauterising an infested
+wound in the flesh of realspace.
+WHEN: Your Shooting phase, when a friendly PURGATION SQUAD unit
+is selected to shoot.
+TARGET: That PURGATION SQUAD unit.
+EFFECT: Select one enemy unit. Your unit’s ranged attacks that target
+that unit have:
+▪ [DEVASTATING WOUNDS].
+▪ [SUSTAINED HITS 1].
+SPIRITSEAR 1CP
+FIRES OF PURGATION STRATAGEM
+With their spiritual armour shattered along with that of their
+physical forms, the very souls of the enemy fall prey to the
+devastating fire of the Purgators.
+WHEN: Your Shooting phase, when a friendly PURGATION SQUAD unit
+has shot.
+TARGET: That PURGATION SQUAD unit.
+EFFECT: Select one battle‑shocked enemy unit hit by those attacks.
+That enemy unit suffers D3+1 mortal wounds.
 
-PURGATION SQUAD unit only. This unit’s ranged attacks have +2 S.      SPIRITSEAR                                                              1CP
-                                                                      FIRES OF PURGATION STRATAGEM
-
-                                                                      With their spiritual armour shattered along with that of their
-                                                                      physical forms, the very souls of the enemy fall prey to the
-                                                                      devastating fire of the Purgators.
-
-                                                                      WHEN: Your Shooting phase, when a friendly PURGATION SQUAD unit
-                                                                      has shot.
-                                                                      TARGET: That PURGATION SQUAD unit.
-                                                                      EFFECT: Select one battle‑shocked enemy unit hit by those attacks.
-                                                                      That enemy unit suffers D3+1 mortal wounds.
-IMMATERIAL INTERDICTION
-GREY KNIGHTS INTERCEPTORS LEAP THROUGH THE WARP TO MEET AND TURN BACK EACH NEW ENEMY PUSH
-
-
- DETACHMENT RULES                                                        BLADES FROM THE BEYOND                                               1CP
-                                                                         IMMATERIAL INTERDICTION STRATAGEM
+IMMATERIAL
+GREY KNIGHTS INTERCEPTORS LEAP THROUGH THE WARP TO
+DETACHMENT RULES
 ECHOJUMP
-                                                                         With exceptional skill, these Interceptors teleport perilously
-Pushing their esoteric wargear to its limits, Interceptors are able to   close to their foes, bursting from the Immaterium into their
-                                                                         very midst with lethal force.
+Pushing their esoteric wargear to its limits, Interceptors are able to
 make secondary, shorter personal teleportation jumps, effectively
-skimming the very surface of the Immaterium to respond all the           WHEN: Fight phase, when a friendly INTERCEPTOR SQUAD unit that
-more quickly to developing threats.                                      made a charge move this turn is selected to fight.
-                                                                         TARGET: That INTERCEPTOR SQUAD unit.
-In your Shooting phase, when a friendly INTERCEPTOR SQUAD unit           EFFECT: Your unit’s melee attacks have [LANCE].
+skimming the very surface of the Immaterium to respond all the
+more quickly to developing threats.
+In your Shooting phase, when a friendly INTERCEPTOR SQUAD unit
 has shot, you can use this ability. If you do:
 ▪ That unit cannot use its Personal Teleporters ability.
-▪ That unit can make a surge move of up to D6+1".                        BY THOUGHT ALONE                                                     1CP
-                                                                         IMMATERIAL INTERDICTION STRATAGEM
-
-                                                                         Employing telekinetic sorceries even in the midst of a furious
- ENHANCEMENTS                                                            battle, Interceptors are able to complete vital mission
-                                                                         objectives while interdicting the foe’s forces.
-
-PREDESTINED COORDINATES UPGRADE                                          WHEN: Your Shooting phase, when a friendly INTERCEPTOR SQUAD
-This rune‑sealed data-scroll is opened at the ordained moment,           unit starts an action.
-providing vital strategic insights and empyric jump coordinates          TARGET: That INTERCEPTOR SQUAD unit.
-foreseen by the Prognosticars themselves.                                EFFECT: That action does not prevent your unit from being eligible
-                                                                         to shoot.
+▪ That unit can make a surge move of up to D6+1".
+ENHANCEMENTS
+PREDESTINED COORDINATES UPGRADE
+This rune‑sealed data-scroll is opened at the ordained moment,
+providing vital strategic insights and empyric jump coordinates
+foreseen by the Prognosticars themselves.
 INTERCEPTOR SQUAD unit only. In your first Movement phase, this
 unit can make an ingress move.
-                                                                         RESPONSIVE DISPLACEMENT                                              1CP
-ASTRAL OVERLAP UPGRADE                                                   IMMATERIAL INTERDICTION STRATAGEM
-
-Esoteric adjustments to the calibration of these Interceptors’           Masters of reading the ebb and flow of battle, Interceptors stay
-                                                                         ever on the move and exploit any gap in the enemy lines with
-teleportation arrays allow them to achieve a temporary state of          lightning swiftness.
+ASTRAL OVERLAP UPGRADE
+Esoteric adjustments to the calibration of these Interceptors’
+teleportation arrays allow them to achieve a temporary state of
 semi‑incorporeality, in which enemy projectiles may simply pass
-through them as though they were ghosts.                                 WHEN: Your opponent’s Movement phase, when an enemy unit
-                                                                         that was engaged with a friendly INTERCEPTOR SQUAD unit ends a
-                                                                         fall‑back move, if that INTERCEPTOR SQUAD unit is unengaged.
+through them as though they were ghosts.
 INTERCEPTOR SQUAD unit only. This unit has Stealth.
-                                                                         TARGET: That INTERCEPTOR SQUAD unit.
-                                                                         EFFECT: Your unit can make a normal move of up to D3+3".
-       WARPBANE TASK FORCE
-       When daemonic entities corrupt the worlds of the Imperium, Grey Knights forces strike to cleanse
-       unhallowed ground and restore the sanctity of the Emperor’s domain. Such formations are raised
-       when only the most obscure and esoteric rituals of purgation will drive the taint of Chaos back
-       into the depths of the Warp. Striding fearlessly into malignant hellscapes, the warriors of the
-       Order of Purifiers lead the assault. The combined psychic might of these anointed champions
-       manifests in an azure fire that ignites the bodies and souls of unclean foes and scours away the
-       taint of witchcraft and infernal corruption. In place of this excised perversion, an ensorcelled
-       zone of consecration is created, within which the Grey Knights are emboldened and empowered.
+INTERDICTION
+MEET AND TURN BACK EACH NEW ENEMY PUSH
+BLADES FROM THE BEYOND 1CP
+IMMATERIAL INTERDICTION STRATAGEM
+With exceptional skill, these Interceptors teleport perilously
+close to their foes, bursting from the Immaterium into their
+very midst with lethal force.
+WHEN: Fight phase, when a friendly INTERCEPTOR SQUAD unit that
+made a charge move this turn is selected to fight.
+TARGET: That INTERCEPTOR SQUAD unit.
+EFFECT: Your unit’s melee attacks have [LANCE].
+BY THOUGHT ALONE 1CP
+IMMATERIAL INTERDICTION STRATAGEM
+Employing telekinetic sorceries even in the midst of a furious
+battle, Interceptors are able to complete vital mission
+objectives while interdicting the foe’s forces.
+WHEN: Your Shooting phase, when a friendly INTERCEPTOR SQUAD
+unit starts an action.
+TARGET: That INTERCEPTOR SQUAD unit.
+EFFECT: That action does not prevent your unit from being eligible
+to shoot.
+RESPONSIVE DISPLACEMENT 1CP
+IMMATERIAL INTERDICTION STRATAGEM
+Masters of reading the ebb and flow of battle, Interceptors stay
+ever on the move and exploit any gap in the enemy lines with
+lightning swiftness.
+WHEN: Your opponent’s Movement phase, when an enemy unit
+that was engaged with a friendly INTERCEPTOR SQUAD unit ends a
+fall‑back move, if that INTERCEPTOR SQUAD unit is unengaged.
+TARGET: That INTERCEPTOR SQUAD unit.
+EFFECT: Your unit can make a normal move of up to D3+3".
 
+WARPBANE
+When daemonic entities corrupt the worlds
+unhallowed ground and restore the sanctity
+when only the most obscure and esoteric
+into the depths of the Warp. Striding
+Order of Purifiers lead the assault. The
+manifests in an azure fire that ignites the
+taint of witchcraft and infernal corruption.
+zone of consecration is created, within
+DETACHMENT RULE
+HALLOWED GROUND
+Purging corrupted nodes of Warp
+energy, the Grey Knights establish an
+ever‑expanding area of hallowed ground
+within which their psychic powers and
+indomitable resolve are greatly enhanced.
+Certain areas of the battlefield are within
+your army’s Hallowed Ground, as follows:
+■ Your deployment zone is always within
+your army’s Hallowed Ground.
+■ The area of the battlefield within 6"
+of one or more Purifier Squad units
+from your army is within your army’s
+Hallowed Ground.
+■ At the start of any phase, if you control
+at least half of the objective markers
+within No Man’s Land, until the end
+of that phase, No Man’s Land is within
+your army’s Hallowed Ground.
+■ At the start of any phase, if you control
+at least half of the objective markers
+within your opponent’s deployment
+zone, until the end of that phase, your
+opponent’s deployment zone is within
+your army’s Hallowed Ground.
+Each time a model in a Grey Knights unit
+from your army makes a ranged attack
+that targets a visible target or makes a
+melee attack, re‑roll a Hit roll of 1. If that
+unit is a Purifier Squad and/or is wholly
+within your army’s Hallowed Ground,
+you can re‑roll the Hit roll instead.
+5
+TASK FORCE
+of the Imperium, Grey Knights forces strike to cleanse
+of the Emperor’s domain. Such formations are raised
+rituals of purgation will drive the taint of Chaos back
+fearlessly into malignant hellscapes, the warriors of the
+combined psychic might of these anointed champions
+bodies and souls of unclean foes and scours away the
+In place of this excised perversion, an ensorcelled
+which the Grey Knights are emboldened and empowered.
+ENHANCEMENTS
+MANDULIAN RELIQUARY
+This reliquary contains a single finger bone taken from
+the body of the feted former Grand Master, Mandulis. It
+serves as a symbol of unity and duty.
+Grey Knights model only. While the bearer’s unit is
+not Battle‑shocked, add 3 to the bearer’s Objective
+Control characteristic.
+RADIANT CHAMPION
+This warrior is a master slayer whose blade has found
+the cursed hearts of countless corrupted foes. When
+fighting within realms cleansed by eldritch power,
+his psychic might manifests in a nimbus of searing
+light, and his strikes inflict terrible wounds upon flesh
+and soul.
+Grey Knights Infantry model only. The bearer’s
+melee weapons have the [PRECISION] ability, and while
+the bearer is wholly within your army’s Hallowed
+Ground, each time a melee attack made by the bearer
+scores a wound, the target of that attack suffers 1
+mortal wound in addition to any normal damage.
+PHIAL OF THE ABYSS
+Gifted by the Prognosticars of the Augurium, this
+ampoule contains cosmic energies syphoned from the
+event horizon of a Warp singularity. At the prophesied
+hour, the vial shatters, its contents swirling around the
+bearer and wreathing them in a localised field of time
+and light distortion.
+Grey Knights Infantry model only. Models in the
+bearer’s unit have the Stealth ability.
+PARAGON OF SANCTITY
+This warrior sorcerer lends their spiritual strength to
+allies fighting amidst unholy corruption, bolstering
+their spiritual resolve.
+Grey Knights model only. Once per battle, at the
+start of any phase, the bearer can select one friendly
+Grey Knights unit within 18" of and visible to it. If it
+does, until the end of the phase, that unit is within
+your army’s Hallowed Ground.
 
-
-
-     DETACHMENT RULE                                    ENHANCEMENTS
-
-    HALLOWED GROUND                                    MANDULIAN RELIQUARY
-    Purging corrupted nodes of Warp                    This reliquary contains a single finger bone taken from
-    energy, the Grey Knights establish an              the body of the feted former Grand Master, Mandulis. It
-    ever‑expanding area of hallowed ground             serves as a symbol of unity and duty.
-    within which their psychic powers and
-    indomitable resolve are greatly enhanced.          Grey Knights model only. While the bearer’s unit is
-                                                       not Battle‑shocked, add 3 to the bearer’s Objective
-    Certain areas of the battlefield are within        Control characteristic.
-    your army’s Hallowed Ground, as follows:
-                                                       RADIANT CHAMPION
-    ■ Your deployment zone is always within           This warrior is a master slayer whose blade has found
-       your army’s Hallowed Ground.                    the cursed hearts of countless corrupted foes. When
-                                                       fighting within realms cleansed by eldritch power,
-    ■ The area of the battlefield within 6"           his psychic might manifests in a nimbus of searing
-       of one or more Purifier Squad units             light, and his strikes inflict terrible wounds upon flesh
-       from your army is within your army’s            and soul.
-       Hallowed Ground.
-                                                       Grey Knights Infantry model only. The bearer’s
-    ■ At the start of any phase, if you control       melee weapons have the [PRECISION] ability, and while
-       at least half of the objective markers          the bearer is wholly within your army’s Hallowed
-       within No Man’s Land, until the end             Ground, each time a melee attack made by the bearer
-       of that phase, No Man’s Land is within          scores a wound, the target of that attack suffers 1
-       your army’s Hallowed Ground.                    mortal wound in addition to any normal damage.
-
-    ■ At the start of any phase, if you control       PHIAL OF THE ABYSS
-       at least half of the objective markers          Gifted by the Prognosticars of the Augurium, this
-       within your opponent’s deployment               ampoule contains cosmic energies syphoned from the
-       zone, until the end of that phase, your         event horizon of a Warp singularity. At the prophesied
-       opponent’s deployment zone is within            hour, the vial shatters, its contents swirling around the
-       your army’s Hallowed Ground.                    bearer and wreathing them in a localised field of time
-                                                       and light distortion.
-    Each time a model in a Grey Knights unit
-    from your army makes a ranged attack               Grey Knights Infantry model only. Models in the
-    that targets a visible target or makes a           bearer’s unit have the Stealth ability.
-    melee attack, re‑roll a Hit roll of 1. If that
-    unit is a Purifier Squad and/or is wholly          PARAGON OF SANCTITY
-    within your army’s Hallowed Ground,                This warrior sorcerer lends their spiritual strength to
-    you can re‑roll the Hit roll instead.              allies fighting amidst unholy corruption, bolstering
-                                                       their spiritual resolve.
-
-                                                       Grey Knights model only. Once per battle, at the
-                                                       start of any phase, the bearer can select one friendly
-                                                       Grey Knights unit within 18" of and visible to it. If it
-5                                                      does, until the end of the phase, that unit is within
-                                                       your army’s Hallowed Ground.
-          SANCTIFIED KILL ZONE                                               FIRES OF COVENANT
-          WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM                      WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM
-
-          As new ground is seized and consecrated, so are the                As the enemy moves close, these warriors draw
-          Grey Knights lent greater ferocity and resolve.                    upon their pledges of duty and the bonds of their
-                                                                       1CP   brotherhood to unleash a fiery conflagration of
-          WHEN: Your Shooting phase or the Fight phase.
-                                                                             arcane death.
-          TARGET: One Grey Knights unit from your army
-          that has not been selected to shoot or fight this                  WHEN: Start of your opponent’s Movement phase.
-    1CP
-          phase and that is wholly within your army’s                        TARGET: One Grey Knights Infantry unit from
-          Hallowed Ground.                                                   your army.
-          EFFECT: Until the end of the phase, each time a                    EFFECT: Until the end of the phase, each time an
-          model in your unit makes an attack, re‑roll a Wound                enemy unit is set up or ends a Normal, Advance or
-          roll of 1, or, re‑roll the Wound roll instead if your unit         Fall Back move within 6" of your unit, roll one D6,
-          is a Purifier Squad.                                               adding 2 to the result if your unit is wholly within
-                                                                             your army’s Hallowed Ground: on a 4+, that enemy
-                                                                             unit suffers D3 mortal wounds.
-          FLAMES OF SANCTITY
-          WARPBANE TASK FORCE – STRATEGIC PLOY STRATAGEM
-                                                                             AEGIS ETERNAL
-          As the Purifiers battle, their pooled psychic might
-                                                                             WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM
-          manifests in a corona of flame that is anathema to
-    1CP   the unclean.                                                       Channelling their shared psychic potential, these
-                                                                             warriors form a coruscating aurora that courses
-          WHEN: End of the Fight phase.                                1CP   through the warding sigils of their armour, causing
-          TARGET: One Purifier Squad unit from your army                     them to flare with protective power.
-          that was eligible to fight this phase.
-                                                                             WHEN: Your opponent’s Shooting phase, just after an
-          EFFECT: Roll one D6 for each enemy unit within 6" of               enemy unit has selected its targets.
-          your unit, adding 1 to the result if your unit includes
-          Castellan Crowe: on a 4+, that enemy unit suffers                  TARGET: One Grey Knights Infantry unit from your
-          D3 mortal wounds.                                                  army that was selected as the target of one or more
-                                                                             of the attacking unit’s attacks.
-                                                                             EFFECT: Until the end of the phase, models in your
-          HALLOWED BEACON                                                    unit that are wholly within your Hallowed Ground
-          WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM                      have a 4+ invulnerable save.
-
-          Newly sanctified ground serves as a luminescent
-    1CP
-          beacon to guide warded battle‑brothers stepping                    REPELLING SPHERE
-          through glowing empyric gateways.
-                                                                             WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM
-          WHEN: Reinforcements step of your
-                                                                             Chanting a chorus of warding spells, the Grey
-          Movement phase.
-                                                                             Knights project a shimmering field of empyric forces
-          TARGET: One Grey Knights Infantry unit (excluding            1CP   that repels their foes.
-          Terminator units) that is arriving using the Deep
-          Strike ability this phase.                                         WHEN: Start of your opponent’s Charge phase.
-          EFFECT: Set up your unit wholly within your army’s                 TARGET: One Grey Knights Infantry unit from
-          Hallowed Ground and more than 6" horizontally away                 your army.
-          from all enemy units.                                              EFFECT: Until the end of the phase, each time an
-                                                                             enemy unit declares a charge and your unit is one of
-                                                                             the targets of that charge, subtract 1 from the Charge
-                                                                             roll, or subtract 2 instead if your unit is wholly within
-                                                                             your army’s Hallowed Ground.
-
-
-
-
+SANCTIFIED KILL ZONE
+WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM
+As new ground is seized and consecrated, so are the
+Grey Knights lent greater ferocity and resolve.
+WHEN: Your Shooting phase or the Fight phase.
+TARGET: One Grey Knights unit from your army
+1CP that has not been selected to shoot or fight this
+phase and that is wholly within your army’s
+Hallowed Ground.
+EFFECT: Until the end of the phase, each time a
+model in your unit makes an attack, re‑roll a Wound
+roll of 1, or, re‑roll the Wound roll instead if your unit
+is a Purifier Squad.
+FLAMES OF SANCTITY
+WARPBANE TASK FORCE – STRATEGIC PLOY STRATAGEM
+As the Purifiers battle, their pooled psychic might
+1CP manifests in a corona of flame that is anathema to
+the unclean.
+WHEN: End of the Fight phase.
+TARGET: One Purifier Squad unit from your army
+that was eligible to fight this phase.
+EFFECT: Roll one D6 for each enemy unit within 6" of
+your unit, adding 1 to the result if your unit includes
+Castellan Crowe: on a 4+, that enemy unit suffers
+D3 mortal wounds.
+HALLOWED BEACON
+WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM
+Newly sanctified ground serves as a luminescent
+1CP beacon to guide warded battle‑brothers stepping
+through glowing empyric gateways.
+WHEN: Reinforcements step of your
+Movement phase.
+TARGET: One Grey Knights Infantry unit (excluding
+Terminator units) that is arriving using the Deep
+Strike ability this phase.
+EFFECT: Set up your unit wholly within your army’s
+Hallowed Ground and more than 6" horizontally away
+from all enemy units.
 6
-GREY KNIGHTS THUNDERHAWK GUNSHIP
-  M            T           SV           W             LD   OC
+FIRES OF COVENANT
+WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM
+As the enemy moves close, these warriors draw
+1CP upon their pledges of duty and the bonds of their
+brotherhood to unleash a fiery conflagration of
+arcane death.
+WHEN: Start of your opponent’s Movement phase.
+TARGET: One Grey Knights Infantry unit from
+your army.
+EFFECT: Until the end of the phase, each time an
+enemy unit is set up or ends a Normal, Advance or
+Fall Back move within 6" of your unit, roll one D6,
+adding 2 to the result if your unit is wholly within
+your army’s Hallowed Ground: on a 4+, that enemy
+unit suffers D3 mortal wounds.
+AEGIS ETERNAL
+WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM
+Channelling their shared psychic potential, these
+1CP warriors form a coruscating aurora that courses
+through the warding sigils of their armour, causing
+them to flare with protective power.
+WHEN: Your opponent’s Shooting phase, just after an
+enemy unit has selected its targets.
+TARGET: One Grey Knights Infantry unit from your
+army that was selected as the target of one or more
+of the attacking unit’s attacks.
+EFFECT: Until the end of the phase, models in your
+unit that are wholly within your Hallowed Ground
+have a 4+ invulnerable save.
+REPELLING SPHERE
+WARPBANE TASK FORCE – BATTLE TACTIC STRATAGEM
+Chanting a chorus of warding spells, the Grey
+1CP Knights project a shimmering field of empyric forces
+that repels their foes.
+WHEN: Start of your opponent’s Charge phase.
+TARGET: One Grey Knights Infantry unit from
+your army.
+EFFECT: Until the end of the phase, each time an
+enemy unit declares a charge and your unit is one of
+the targets of that charge, subtract 1 from the Charge
+roll, or subtract 2 instead if your unit is wholly within
+your army’s Hallowed Ground.
 
+GREY KNIGHTS THUNDERHAWK GUNSHIP
+M T SV W LD OC
+20" 12 2+ 30 6+ 0
+RANGED WEAPONS RANGE A
+Hellstrike missile battery [ANTI-FLY 4+] 72" 4
+Lascannon 48" 1
+Thunderhawk heavy cannon [BLAST] 48" D6+6
+Turbo-laser destructor [BLAST] 96" D3+1
+Twin heavy bolter [SUSTAINED HITS 1, TWIN-LINKED] 36" 3
+MELEE WEAPONS RANGE A
+Armoured hull Melee 6
+KEYWORDS: Vehicle, Titanic, Fly, Transport, Imperium,
+Thunderhawk Gunship
+BS S AP D ABILITIES
+3+ 8 -2 3 CORE: Deadly Demise D6+2, Hover
+3+ 12 -3 D6+1
+3+ 10 -2 3 Aerial Assault: Each time a unit with the Deep Strike ability
+disembarks from this model after it has made a Normal move,
+3+ 20 -4 D6+6 that unit is still eligible to declare a charge this turn.
+3+ 5 -1 2
+WARGEAR ABILITIES
+WS S AP D
+4+ 8 0 1 Thunderhawk Cluster Bombs: Each time the bearer ends a
+Normal move, you can select one enemy unit it moved over
+during that move and roll six D6: for each 3+, that unit suffers
+1 mortal wound.
+DAMAGED: 1-10 WOUNDS REMAINING
+While this model has 1-10 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+FACTION KEYWORDS:
+Grey Knights
 
- 20"         12          2+           30          6+       0
-
-
-
-  RANGED WEAPONS                                           RANGE    A     BS   S    AP    D     ABILITIES
-  Hellstrike missile battery [ANTI-FLY 4+]                  72"     4     3+   8    -2    3     CORE: Deadly Demise D6+2, Hover
-  Lascannon                                                 48"     1     3+   12   -3   D6+1
-                                                                                                Aerial Assault: Each time a unit with the Deep Strike ability
-  Thunderhawk heavy cannon [BLAST]                          48"    D6+6   3+   10   -2    3
-                                                                                                disembarks from this model after it has made a Normal move,
-  Turbo-laser destructor [BLAST]                            96"    D3+1   3+   20   -4   D6+6   that unit is still eligible to declare a charge this turn.
-  Twin heavy bolter [SUSTAINED HITS 1, TWIN-LINKED]         36"     3     3+    5   -1    2
-                                                                                                WARGEAR ABILITIES
-  MELEE WEAPONS                                            RANGE    A     WS   S    AP    D
-                                                                                                Thunderhawk Cluster Bombs: Each time the bearer ends a
-  Armoured hull                                            Melee    6     4+   8    0     1
-                                                                                                Normal move, you can select one enemy unit it moved over
-                                                                                                during that move and roll six D6: for each 3+, that unit suffers
-                                                                                                1 mortal wound.
-
-
-                                                                                                     DAMAGED: 1-10 WOUNDS REMAINING
-                                                                                                While this model has 1-10 wounds remaining, each time this
-                                                                                                model makes an attack, subtract 1 from the Hit roll.
-
-
-
-
- KEYWORDS: Vehicle, Titanic, Fly, Transport, Imperium,                                               FACTION KEYWORDS:
-           Thunderhawk Gunship                                                                        Grey Knights
-GREY KNIGHTS THUNDERHAWK GUNSHIP
+GREY KNIGHTS THUNDERHAWK GUNSHIP
 Mighty Thunderhawk Gunships serve the Grey Knights Chapter as any other.
 Powerful, versatile flyers, they deploy squads of Titan’s sons into the heart of battle
 whilst slaughtering hosts of enemies with their vast array of anti-personnel and
 anti-armour weapons.
+WARGEAR OPTIONS
+■ This model’s Thunderhawk heavy cannon can be replaced with 1 turbo-laser destructor.
+■ This model’s Thunderhawk cluster bombs can be replaced with 1 hellstrike missile battery.
+KEYWORDS: Vehicle, Titanic, Fly, Transport, Imperium,
+Thunderhawk Gunship
+UNIT COMPOSITION
+■ 1 Grey Knights Thunderhawk Gunship
+This model is equipped with: 2 lascannons; Thunderhawk
+heavy cannon; 4 twin heavy bolters; armoured hull;
+Thunderhawk cluster bombs.
+TRANSPORT
+This model has a transport capacity of 30 Grey Knights
+Infantry models. Each Terminator model takes up the
+space of 2 models.
+FACTION KEYWORDS:
+Grey Knights
 
-
-
-
-   WARGEAR OPTIONS                                                                                UNIT COMPOSITION
-   ■ This model’s Thunderhawk heavy cannon can be replaced with 1 turbo-laser destructor.       ■ 1 Grey Knights Thunderhawk Gunship
-   ■ This model’s Thunderhawk cluster bombs can be replaced with 1 hellstrike missile battery.   This model is equipped with: 2 lascannons; Thunderhawk
-                                                                                                  heavy cannon; 4 twin heavy bolters; armoured hull;
-                                                                                                  Thunderhawk cluster bombs.
-
-
-                                                                                                  TRANSPORT
-                                                                                                  This model has a transport capacity of 30 Grey Knights
-                                                                                                  Infantry models. Each Terminator model takes up the
-                                                                                                  space of 2 models.
-
-
-
-
-    KEYWORDS: Vehicle, Titanic, Fly, Transport, Imperium,                                             FACTION KEYWORDS:
-              Thunderhawk Gunship                                                                      Grey Knights
-                                                  GREY KNIGHTS
-                                                             RULES UPDATES
-This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
-Changes applied after the first iteration of this Faction Pack will be highlighted in red.
-
-
-                                                                               DATASHEETS
-UPDATES                                                                        Land Raider, Land Raider Crusader, Land Raider Redeemer, Razorback,
-                                                                               Rhino – Keywords Section
-ARMY RULES                                                                     Add ‘FRAME’.
+GREY
+RULES
+This section presents updates and clarifications to your faction’s
+Changes applied after the first iteration of this Faction Pack will
+UPDATES
+ARMY RULES
 Gate of Infinity Army Rule, Last Paragraph
-Change to:                                                                     Stormtalon Gunship, Stormhawk Interceptor
-▪ Place those units in strategic reserves.                                     ▪ Core Abilities: Remove ‘Hover’.
-▪ Those units can make an ingress move in your next Movement                  ▪ Profile: Change M and OC to ‘-’.
-   phase (including in your first turn).
-                                                                               Brotherhood Chaplain, Abilities, Core Abilities
-AUGURIUM TASK FORCE DETACHMENT                                                 Add ‘Leader’.
+Change to:
+▪ Place those units in strategic reserves.
+▪ Those units can make an ingress move in your next Movement
+phase (including in your first turn).
+AUGURIUM TASK FORCE DETACHMENT
 One Foot in the Future Enhancement
-Change to:                                                                     Brotherhood Techmarine, Guardians of the Machine Ability
-‘GREY KNIGHTS model only. When this unit ends an ingress move, you             Change to:
-can use this ability. If you do:                                               ‘Each time an enemy unit ends a charge move engaged with one
-▪ This unit can make a normal move of up to D6".                               or more friendly GREY KNIGHTS VEHICLE units and within 6" of this
-▪ Until the end of the turn, this unit is not eligible to declare a charge.’   unit, you can target this unit with the Heroic Intervention stratagem,
-                                                                               regardless of any other uses of that stratagem this phase. If you do:
-Aggressive Anticipation Stratagem, Effect Section                              ▪ That use is -1 CP.
-Change to:                                                                     ▪ That use does not prevent any uses of that stratagem on other units
-‘Your unit's attacks can re-roll hit rolls.’                                      this phase.’
-
-BANISHERS DETACHMENT                                                           Grand Master Voldus, Sanctuary Ability
-Shadow of Anarch Stratagem, Target Section                                     Change to:
-Change 9" to 8".                                                               ▪ This unit has Stealth.
-                                                                               ▪ Melee attacks that target this unit have ‑1 to hit rolls.
+Change to:
+‘GREY KNIGHTS model only. When this unit ends an ingress move, you
+can use this ability. If you do:
+▪ This unit can make a normal move of up to D6".
+▪ Until the end of the turn, this unit is not eligible to declare a charge.’
+Aggressive Anticipation Stratagem, Effect Section
+Change to:
+‘Your unit's attacks can re-roll hit rolls.’
+BANISHERS DETACHMENT
+Shadow of Anarch Stratagem, Target Section
+Change 9" to 8".
 BROTHERHOOD STRIKE DETACHMENT
-Combat Manifestation Stratagem, Effect Section                                 Stormraven Gunship
-Change 3" to 6".                                                               ▪ Profile: Change M to 14”.
-                                                                               ▪ Keywords: Remove ‘AIRCRAFT’.
+Combat Manifestation Stratagem, Effect Section
+Change 3" to 6".
 HALLOWED CONCLAVE DETACHMENT
 Precognitive Strategies Stratagem, Target Section
-Change 9" to 8".                                                               FAQS
-                                                                               Q: Can a unit with the Sigil of Exigence enhancement use that ability
-Eye of the Augurium Enhancement                                                during my opponent’s first turn?
-Change to:                                                                     A: Yes.
+Change 9" to 8".
+Eye of the Augurium Enhancement
+Change to:
 ‘GREY KNIGHTS model only. You can target this unit with the Heroic
 Intervention stratagem, regardless of any other uses of that stratagem
 this phase. If you do:
 ▪ That use is -1 CP.
 ▪ That use does not prevent any uses of that stratagem on other units
-   this phase.’
-
+this phase.’
 SANCTIC SPEARHEAD DETACHMENT
 Sigil of Exigence Enhancement
 Change 9" to 8".
-GREY KNIGHTS DREADNOUGHT                                                                                                               WA R HA M M E R L E G E N D S
- M            T             SV            W             LD            OC
-
-
-6"           9            2+              8           6+              3
-
-      RANGED WEAPONS                                                       RANGE                  A    BS    S    AP    D     ABILITIES
-      Assault cannon [DEVASTATING WOUNDS]                                      24"                6    3+    6    0     1     CORE: Deadly Demise 1
-      Heavy flamer [IGNORES COVER, TORRENT]                                    12"                D6   N/A   5    -1    1
-                                                                                                                              FACTION: Gate of Infinity
-      Heavy plasma cannon – standard [BLAST]                                   36"                D3   3+    7    -2    2
-      Heavy plasma cannon – supercharge                                                                                       Wisdom of the Ancients (Aura): While a friendly Grey
-                                                                               36"                D3   3+    8    -3    3
-      [BLAST, HAZARDOUS]                                                                                                      Knights Infantry unit is within 6" of this model, each time
-      Heavy psycannon [PSYCHIC]                                                24"                6    3+    10   -1    3     a model in that unit makes an attack, re-roll a Hit roll of 1 and
-                                                                                                                              re-roll a Wound roll of 1.
-      Incinerator [IGNORES COVER, TORRENT]                                     12"                D6   N/A   6    -1    1
-      Missile launcher – frag [BLAST]                                          48"                D6   3+    4    0     1
-      Missile launcher – krak                                                  48"                1    3+    9    -2   D6
-      Multi-melta [MELTA 2]                                                    18"                2    3+    9    -4   D6
-      Storm bolter [RAPID FIRE 2]                                              24"                2    3+    4    0     1
-      Twin lascannon [TWIN-LINKED]                                             48"                1    3+    12   -3   D6+1
-
-      MELEE WEAPONS                                                        RANGE                  A    WS    S    AP    D
-      Armoured feet                                                          Melee                5    3+    6    0     1
-      Dreadnought combat weapon                                              Melee                5    3+    12   -2    3
-      Nemesis doomglaive [PSYCHIC]                                           Melee                5    3+    14   -3    3
-
-
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-                                                                                                                                    FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Psyker, Smoke, Imperium, Dreadnought
-                                                                                                                                    Grey Knights
-GREY KNIGHTS DREADNOUGHT                                                                                        WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                                                                        UNIT COMPOSITION
- ■ This model’s assault cannon, storm bolter and Dreadnought combat weapon can be replaced with one    ■ 1 Grey Knights Dreadnought
-    of the following:                                                                                   This model is equipped with: assault cannon; storm bolter;
-     ◦ 1 heavy psycannon, 1 storm bolter and 1 Nemesis doomglaive                                       Dreadnought combat weapon.
-     ◦ 1 heavy psycannon, 1 incinerator and 1 Nemesis doomglaive
- ■ This model’s assault cannon can be replaced with one of the following:
-    ◦ 1 heavy plasma cannon
-    ◦ 1 multi-melta
-    ◦ 1 twin lascannon
- ■ This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following:
-    ◦ 1 missile launcher and 1 armoured feet
-    ◦ 1 heavy flamer and 1 Dreadnought combat weapon
-
-
-
-
-                                                                                                             FACTION KEYWORDS:
-  KEYWORDS: Vehicle, Walker, Psyker, Smoke, Imperium, Dreadnought
-                                                                                                             Grey Knights
-GREY KNIGHTS RELIC RAZORBACK                                                                                WA R HA M M E R L E G E N D S
- M           T           SV          W           LD       OC
-
-
-12"         9          3+           10         6+         2
-
-
-
-      RANGED WEAPONS                                           RANGE      A   BS   S    AP    D     ABILITIES
-      Hunter-killer missile [ONE SHOT]                          48"       1   2+   14   -3   D6     CORE: Deadly Demise D3
-      One Shot: The bearer can only shoot with this weapon once per battle.
-                                                                                                    Fire Support: In your Shooting phase, after this model has
-      Multi-melta [MELTA 2]                                     18"       2   3+   9    -4   D6
-                                                                                                    shot, select one enemy unit it scored one or more hits against
-      Storm bolter [RAPID FIRE 2]                               24"       2   3+   4    0     1     this phase. Until the end of the phase, each time a friendly
-      Twin assault cannon                                                                           model that disembarked from this Transport this turn makes
-                                                                24"       6   3+   6    0     1     an attack that targets that enemy unit, you can re-roll the
-      [DEVASTATING WOUNDS, TWIN-LINKED]
-      Twin heavy bolter [SUSTAINED HITS 1, TWIN-LINKED]         36"       3   3+   5    -1    2     Wound roll.
-      Twin lascannon [TWIN-LINKED]                              48"       1   3+   12   -3   D6+1
-      Twin psycannon [PSYCHIC, TWIN-LINKED]                     24"       3   3+   8    -1    2
-
-      MELEE WEAPONS                                            RANGE      A   WS   S    AP    D
-      Armoured tracks                                          Melee      3   4+   6    0     1
-
-
-
-
-     KEYWORDS: Vehicle, Smoke, Transport, Dedicated Transport, Imperium,                                FACTION KEYWORDS:
-               Relic Razorback                                                                           Grey Knights
-GREY KNIGHTS RELIC RAZORBACK                                                           WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                                               UNIT COMPOSITION
- ■ This model’s twin heavy bolter can be replaced with one of the following:   ■ 1 Grey Knights Relic Razorback
-    ◦ 1 multi-melta                                                            This model is equipped with: twin heavy bolter;
-    ◦ 1 twin assault cannon                                                    armoured tracks.
-    ◦ 1 twin lascannon
-    ◦ 1 twin psycannon
-                                                                               TRANSPORT
- ■ This model can be equipped with 1 hunter-killer missile.
- ■ This model can be equipped with 1 storm bolter.                             This model has a transport capacity of 6 Grey Knights
-                                                                               Infantry models. It cannot transport Terminator models.
-
-
-
-
-  KEYWORDS: Vehicle, Smoke, Transport, Dedicated Transport, Imperium,              FACTION KEYWORDS:
-            Relic Razorback                                                         Grey Knights
-BROTHER-CAPTAIN STERN                                                                            WA R HA M M E R L E G E N D S
- M           T          SV          W     LD     OC
-
-
-5"          5          2+           6    6+      1
-                       4+           INVULNERABLE SAVE
-
-
-      RANGED WEAPONS                                  RANGE   A   BS   S    AP      D   ABILITIES
-      Storm bolter [RAPID FIRE 2]                       24"   2   2+   4        0   1   CORE: Deep Strike, Leader
-
-      MELEE WEAPONS                                   RANGE   A   WS   S    AP      D   FACTION: Gate of Infinity
-      Nemesis force sword [PSYCHIC]                   Melee   5   2+   6    -2      2   Exemplar of the Silvered Host: While this model is leading a
-                                                                                        unit, each time a model in that unit makes a melee attack, on
-                                                                                        a Critical Wound, the target suffers 1 mortal wound in addition
-                                                                                        to any normal damage.
-                                                                                        Strands of Fate (Psychic): The first time this model is
-                                                                                        destroyed, roll one D6 at the end of the phase. On a 2+, set
-                                                                                        this model back up on the battlefield as close as possible to
-                                                                                        where it was destroyed and not within Engagement Range of
-                                                                                        any enemy units, with its full wounds remaining.
-
-
-
-
-     KEYWORDS: Infantry, Character, Epic Hero, Psyker, Imperium, Terminator,                 FACTION KEYWORDS:
-               Brother-Captain Stern                                                          Grey Knights
-BROTHER-CAPTAIN STERN                                                                 WA R HA M M E R L E G E N D S
-
-
-
-
-  WARGEAR OPTIONS                                                            UNIT COMPOSITION
-  ■ None                                                                   ■ 1 Brother-Captain Stern – Epic Hero
-                                                                             This model is equipped with: storm bolter;
-                                                                             Nemesis force sword.
-
-
-                                                                             LEADER
-                                                                             This model can be attached to the following units:
-                                                                             ■ Brotherhood Terminator Squad
-                                                                             ■ Paladin Squad
-
-
-
-
-  KEYWORDS: Infantry, Character, Epic Hero, Psyker, Imperium, Terminator,        FACTION KEYWORDS:
-            Brother-Captain Stern                                                 Grey Knights
-KALDOR DRAIGO                                                                                          WA R HA M M E R L E G E N D S
- M           T          SV           W           LD        OC
-
-
-5"          5          2+           7            6+        1
-                       4+             INVULNERABLE SAVE
-
-
-      RANGED WEAPONS                                            RANGE   A   BS   S   AP   D   ABILITIES
-      Scourging [ANTI-DAEMON 2+, IGNORES COVER, PSYCHIC]         18"    3   2+   6   -2   2   CORE: Deep Strike, Leader
-      Storm bolter [RAPID FIRE 2]                                24"    2   2+   4   0    1
-                                                                                              FACTION: Gate of Infinity
-      MELEE WEAPONS                                             RANGE   A   WS   S   AP   D   Untouchable Purity: While this model is leading a unit,
-      The Titansword [ANTI-DAEMON 2+, PSYCHIC]                  Melee   6   2+   8   -4   3   models in that unit have the Feel No Pain 4+ ability against
-                                                                                              mortal wounds.
-                                                                                              One With the Warp (Psychic): Once per battle, when this
-                                                                                              model’s unit declares a charge in the same turn it was set up
-                                                                                              on the battlefield using the Deep Strike or Teleport Assault
-                                                                                              ability, add 3 to the Charge roll.
-
-
-
-
-     KEYWORDS: Infantry, Character, Epic Hero, Psyker, Terminator, Grenades,                       FACTION KEYWORDS:
-               Imperium, Kaldor Draigo                                                              Grey Knights
-KALDOR DRAIGO                                                                         WA R HA M M E R L E G E N D S
-
-
-
-
- WARGEAR OPTIONS                                                             UNIT COMPOSITION
- ■ None                                                                    ■ 1 Kaldor Draigo – Epic Hero
-                                                                             This model is equipped with: Scourging; storm bolter;
-                                                                             the Titansword.
-
-
-                                                                             LEADER
-                                                                             This model can be attached to the following units:
-                                                                             ■ Brotherhood Terminator Squad
-                                                                             ■ Paladin Squad
-
-
-                                                                             SUPREME COMMANDER
-                                                                             If this model is in your army, it must be your Warlord.
-
-
-
-
-  KEYWORDS: Infantry, Character, Epic Hero, Psyker, Terminator, Grenades,        FACTION KEYWORDS:
-            Imperium, Kaldor Draigo                                               Grey Knights
-SERVITORS                                                                                                                         WA R HA M M E R L E G E N D S
- M            T            SV             W             LD            OC
-
-
-6"           4            4+             1            8+              0
-                          6+               INVULNERABLE SAVE
-
-
-      RANGED WEAPONS                                                       RANGE                  A   BS   S   AP   D    ABILITIES
-      Heavy bolter [HEAVY, SUSTAINED HITS 1]                                  36"                 3   4+   5   -1   2    Mindlock: While a Brotherhood Techmarine model is
-      Multi-melta [HEAVY, MELTA 2]                                            18"                 2   4+   9   -4   D6   leading this unit, improve the Ballistic Skill and Weapon Skill
-      Plasma cannon – standard [BLAST, HEAVY]                                 36"             D3      4+   7   -2   1    characteristics of ranged and melee weapons equipped by
-                                                                                                                         Servitor models in this unit by 1.
-      Plasma cannon – supercharge
-                                                                              36"             D3      4+   8   -3   2    Retinue: While a Brotherhood Techmarine model is
-      [BLAST, HAZARDOUS, HEAVY]
-                                                                                                                         leading this unit, models in this unit have the Deep Strike and
-                                                                                                                         Teleport Assault abilities.
-      MELEE WEAPONS                                                        RANGE                  A   WS   S   AP   D
-      Servitor’s servo-arm                                                   Melee                1   5+   6   -2   3
-      Servitor’s tools                                                       Melee                1   5+   3   0    1
-
-
-
-
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-                                                                                                                               FACTION KEYWORDS:
-     KEYWORDS: Infantry, Imperium, Servitors
-                                                                                                                               Grey Knights
-SERVITORS                                                                                                    WA R HA M M E R L E G E N D S
-
-
-
-
-  WARGEAR OPTIONS                                                                                   UNIT COMPOSITION
-  ■ Up to 2 models can each have their Servitor’s servo-arm replaced with one of the following:   ■ 4 Servitors
-       ◦ 1 heavy bolter and 1 Servitor’s tools                                                      Every model is equipped with: Servitor’s servo-arm.
-       ◦ 1 multi-melta and 1 Servitor’s tools
-       ◦ 1 plasma cannon and 1 Servitor’s tools
-                                                                                                    SERVITOR RETINUE
-                                                                                                    At the start of the Declare Battle Formations step, this unit
-                                                                                                    can join one other unit from your army that is being led by a
-                                                                                                    Brotherhood Techmarine (a unit cannot have more than
-                                                                                                    one Servitors unit joined to it). If it does, until the end of the
-                                                                                                    battle, every model in this unit counts as being part of that
-                                                                                                    Bodyguard unit, and that Bodyguard unit’s Starting Strength is
-                                                                                                    increased accordingly.
-
-
-
-
-                                                                                                          FACTION KEYWORDS:
-  KEYWORDS: Infantry, Imperium, Servitors
-                                                                                                          Grey Knights
-
+KNIGHTS
+UPDATES
+rules, designed to improve the gaming experience for all players.
+be highlighted in red.
+DATASHEETS
+Land Raider, Land Raider Crusader, Land Raider Redeemer, Razorback,
+Rhino – Keywords Section
+Add ‘FRAME’.
+Stormtalon Gunship, Stormhawk Interceptor
+▪ Core Abilities: Remove ‘Hover’.
+▪ Profile: Change M and OC to ‘-’.
+Brotherhood Chaplain, Abilities, Core Abilities
+Add ‘Leader’.
+Brotherhood Techmarine, Guardians of the Machine Ability
+Change to:
+‘Each time an enemy unit ends a charge move engaged with one
+or more friendly GREY KNIGHTS VEHICLE units and within 6" of this
+unit, you can target this unit with the Heroic Intervention stratagem,
+regardless of any other uses of that stratagem this phase. If you do:
+▪ That use is -1 CP.
+▪ That use does not prevent any uses of that stratagem on other units
+this phase.’
+Grand Master Voldus, Sanctuary Ability
+Change to:
+▪ This unit has Stealth.
+▪ Melee attacks that target this unit have ‑1 to hit rolls.
+Stormraven Gunship
+▪ Profile: Change M to 14”.
+▪  Keywords: Remove ‘AIRCRAFT’.
+FAQS
+Q: Can a unit with the Sigil of Exigence enhancement use that ability
+during my opponent’s first turn?
+A: Yes.
+
+GREY KNIGHTS DREADNOUGHT
+M T SV W LD OC
+6" 9 2+ 8 6+ 3
+RANGED WEAPONS RANGE A BS S AP D
+Assault cannon [DEVASTATING WOUNDS] 24" 6 3+ 6 0 1
+Heavy flamer [IGNORES COVER, TORRENT] 12" D6 N/A 5 -1 1
+Heavy plasma cannon – standard [BLAST] 36" D3 3+ 7 -2 2
+Heavy plasma cannon – supercharge 36" D3 3+ 8 -3 3
+[BLAST, HAZARDOUS]
+Heavy psycannon [PSYCHIC] 24" 6 3+ 10 -1 3
+Incinerator [IGNORES COVER, TORRENT] 12" D6 N/A 6 -1 1
+Missile launcher – frag [BLAST] 48" D6 3+ 4 0 1
+Missile launcher – krak 48" 1 3+ 9 -2 D6
+Multi-melta [MELTA 2] 18" 2 3+ 9 -4 D6
+Storm bolter [RAPID FIRE 2] 24" 2 3+ 4 0 1
+Twin lascannon [TWIN-LINKED] 48" 1 3+ 12 -3 D6+1
+MELEE WEAPONS RANGE A WS S AP D
+Armoured feet Melee 5 3+ 6 0 1
+Dreadnought combat weapon Melee 5 3+ 12 -2 3
+Nemesis doomglaive [PSYCHIC] Melee 5 3+ 14 -3 3
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Psyker, Smoke, Imperium, Dreadnought
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Deadly Demise 1
+FACTION: Gate of Infinity
+Wisdom of the Ancients (Aura): While a friendly Grey
+Knights Infantry unit is within 6" of this model, each time
+a model in that unit makes an attack, re-roll a Hit roll of 1 and
+re-roll a Wound roll of 1.
+FACTION KEYWORDS:
+Grey Knights
+
+GREY KNIGHTS DREADNOUGHT
+WARGEAR OPTIONS
+■ This model’s assault cannon, storm bolter and Dreadnought combat weapon can be replaced with one
+of the following:
+◦ 1 heavy psycannon, 1 storm bolter and 1 Nemesis doomglaive
+◦ 1 heavy psycannon, 1 incinerator and 1 Nemesis doomglaive
+■ This model’s assault cannon can be replaced with one of the following:
+◦ 1 heavy plasma cannon
+◦ 1 multi-melta
+◦ 1 twin lascannon
+■ This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following:
+◦ 1 missile launcher and 1 armoured feet
+◦ 1 heavy flamer and 1 Dreadnought combat weapon
+KEYWORDS: Vehicle, Walker, Psyker, Smoke, Imperium, Dreadnought
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Grey Knights Dreadnought
+This model is equipped with: assault cannon; storm bolter;
+Dreadnought combat weapon.
+FACTION KEYWORDS:
+Grey Knights
+
+GREY KNIGHTS RELIC RAZORBACK
+M T SV W LD OC
+12" 9 3+ 10 6+ 2
+RANGED WEAPONS RANGE A BS S AP D
+Hunter-killer missile [ONE SHOT] 48" 1 2+ 14 -3 D6
+One Shot: The bearer can only shoot with this weapon once per battle.
+Multi-melta [MELTA 2] 18" 2 3+ 9 -4 D6
+Storm bolter [RAPID FIRE 2] 24" 2 3+ 4 0 1
+Twin assault cannon 24" 6 3+ 6 0 1
+[DEVASTATING WOUNDS, TWIN-LINKED]
+Twin heavy bolter [SUSTAINED HITS 1, TWIN-LINKED] 36" 3 3+ 5 -1 2
+Twin lascannon [TWIN-LINKED] 48" 1 3+ 12 -3 D6+1
+Twin psycannon [PSYCHIC, TWIN-LINKED] 24" 3 3+ 8 -1 2
+MELEE WEAPONS RANGE A WS S AP D
+Armoured tracks Melee 3 4+ 6 0 1
+KEYWORDS: Vehicle, Smoke, Transport, Dedicated Transport, Imperium,
+Relic Razorback
+WA R HA M M E R L E G E N D S
+ABILITIES
+CORE: Deadly Demise D3
+Fire Support: In your Shooting phase, after this model has
+shot, select one enemy unit it scored one or more hits against
+this phase. Until the end of the phase, each time a friendly
+model that disembarked from this Transport this turn makes
+an attack that targets that enemy unit, you can re-roll the
+Wound roll.
+FACTION KEYWORDS:
+Grey Knights
+
+GREY KNIGHTS RELIC RAZORBACK
+WARGEAR OPTIONS
+■ This model’s twin heavy bolter can be replaced with one of the following:
+◦ 1 multi-melta
+◦ 1 twin assault cannon
+◦ 1 twin lascannon
+◦ 1 twin psycannon
+■ This model can be equipped with 1 hunter-killer missile.
+■ This model can be equipped with 1 storm bolter.
+KEYWORDS: Vehicle, Smoke, Transport, Dedicated Transport, Imperium,
+Relic Razorback
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Grey Knights Relic Razorback
+This model is equipped with: twin heavy bolter;
+armoured tracks.
+TRANSPORT
+This model has a transport capacity of 6 Grey Knights
+Infantry models. It cannot transport Terminator models.
+FACTION KEYWORDS:
+Grey Knights
+
+BROTHER-CAPTAIN STERN
+M T SV W LD OC
+5" 5 2+ 6 6+ 1
+4+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A
+Storm bolter [RAPID FIRE 2] 24" 2
+MELEE WEAPONS RANGE A
+Nemesis force sword [PSYCHIC] Melee 5
+KEYWORDS: Infantry, Character, Epic Hero, Psyker, Imperium,
+Brother-Captain Stern
+WA R HA M M E R L E G E N D S
+BS S AP D ABILITIES
+2+ 4 0 1 CORE: Deep Strike, Leader
+WS S AP D FACTION: Gate of Infinity
+2+ 6 -2 2 Exemplar of the Silvered Host: While this model is leading a
+unit, each time a model in that unit makes a melee attack, on
+a Critical Wound, the target suffers 1 mortal wound in addition
+to any normal damage.
+Strands of Fate (Psychic): The first time this model is
+destroyed, roll one D6 at the end of the phase. On a 2+, set
+this model back up on the battlefield as close as possible to
+where it was destroyed and not within Engagement Range of
+any enemy units, with its full wounds remaining.
+Terminator, FACTION KEYWORDS:
+Grey Knights
+
+BROTHER-CAPTAIN STERN
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Infantry, Character, Epic Hero, Psyker, Imperium,
+Brother-Captain Stern
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Brother-Captain Stern – Epic Hero
+This model is equipped with: storm bolter;
+Nemesis force sword.
+LEADER
+This model can be attached to the following units:
+■ Brotherhood Terminator Squad
+■ Paladin Squad
+Terminator, FACTION KEYWORDS:
+Grey Knights
+
+KALDOR DRAIGO
+M T SV W LD OC
+5" 5 2+ 7 6+ 1
+4+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP
+Scourging [ANTI-DAEMON 2+, IGNORES COVER, PSYCHIC] 18" 3 2+ 6 -2
+Storm bolter [RAPID FIRE 2] 24" 2 2+ 4 0
+MELEE WEAPONS RANGE A WS S AP
+The Titansword [ANTI-DAEMON 2+, PSYCHIC] Melee 6 2+ 8 -4
+KEYWORDS: Infantry, Character, Epic Hero, Psyker, Terminator, Grenades,
+Imperium, Kaldor Draigo
+WA R HA M M E R L E G E N D S
+D ABILITIES
+2 CORE: Deep Strike, Leader
+1
+FACTION: Gate of Infinity
+D Untouchable Purity: While this model is leading a unit,
+3 models in that unit have the Feel No Pain 4+ ability against
+mortal wounds.
+One With the Warp (Psychic): Once per battle, when this
+model’s unit declares a charge in the same turn it was set up
+on the battlefield using the Deep Strike or Teleport Assault
+ability, add 3 to the Charge roll.
+FACTION KEYWORDS:
+Grey Knights
+
+KALDOR DRAIGO
+WARGEAR OPTIONS
+■ None
+KEYWORDS: Infantry, Character, Epic Hero, Psyker, Terminator,
+Imperium, Kaldor Draigo
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 1 Kaldor Draigo – Epic Hero
+This model is equipped with: Scourging; storm bolter;
+the Titansword.
+LEADER
+This model can be attached to the following units:
+■ Brotherhood Terminator Squad
+■ Paladin Squad
+SUPREME COMMANDER
+If this model is in your army, it must be your Warlord.
+Grenades, FACTION KEYWORDS:
+Grey Knights
+
+SERVITORS
+M T SV W LD OC
+6" 4 4+ 1 8+ 0
+6+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Heavy bolter [HEAVY, SUSTAINED HITS 1] 36" 3 4+ 5 -1 2
+Multi-melta [HEAVY, MELTA 2] 18" 2 4+ 9 -4 D6
+Plasma cannon – standard [BLAST, HEAVY] 36" D3 4+ 7 -2 1
+Plasma cannon – supercharge 36" D3 4+ 8 -3 2
+[BLAST, HAZARDOUS, HEAVY]
+MELEE WEAPONS RANGE A WS S AP D
+Servitor’s servo-arm Melee 1 5+ 6 -2 3
+Servitor’s tools Melee 1 5+ 3 0 1
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Infantry, Imperium, Servitors
+WA R HA M M E R L E G E N D S
+ABILITIES
+Mindlock: While a Brotherhood Techmarine model is
+leading this unit, improve the Ballistic Skill and Weapon Skill
+characteristics of ranged and melee weapons equipped by
+Servitor models in this unit by 1.
+Retinue: While a Brotherhood Techmarine model is
+leading this unit, models in this unit have the Deep Strike and
+Teleport Assault abilities.
+FACTION KEYWORDS:
+Grey Knights
+
+SERVITORS
+WARGEAR OPTIONS
+■ Up to 2 models can each have their Servitor’s servo-arm replaced with one of the following:
+◦ 1 heavy bolter and 1 Servitor’s tools
+◦ 1 multi-melta and 1 Servitor’s tools
+◦ 1 plasma cannon and 1 Servitor’s tools
+KEYWORDS: Infantry, Imperium, Servitors
+WA R HA M M E R L E G E N D S
+UNIT COMPOSITION
+■ 4 Servitors
+Every model is equipped with: Servitor’s servo-arm.
+SERVITOR RETINUE
+At the start of the Declare Battle Formations step, this unit
+can join one other unit from your army that is being led by a
+Brotherhood Techmarine (a unit cannot have more than
+one Servitors unit joined to it). If it does, until the end of the
+battle, every model in this unit counts as being part of that
+Bodyguard unit, and that Bodyguard unit’s Starting Strength is
+increased accordingly.
+FACTION KEYWORDS:
+Grey Knights

@@ -1,171 +1,201 @@
-                                     BLACK TEMPLARS
-                                         FACTION PACK: VERSION 1.1
-                                            Legal for matched play from 22nd July 2026
-
+BLACK TEMPLARS
+FACTION PACK: VERSION 1.1
+Legal for matched play from 22nd July 2026
 On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
 datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
 for your units and detachments.
+WHAT’S NEW? CONTENTS
+▪ Changes to Rules Updates Detachments���������������������������������������������������������������������������������2
+Marshal's Household���������������������������������������������������������������������������������2
+The Living Miracle���������������������������������������������������������������������������������������3
+Wrathful Procession�����������������������������������������������������������������������������������4
+Rules Updates�������������������������������������������������������������������������������5
 
-
-WHAT’S NEW?                                                       CONTENTS
-▪ Changes to Rules Updates                                          Detachments���������������������������������������������������������������������������������2
-                                                                     Marshal's Household���������������������������������������������������������������������������������2
-                                                                     The Living Miracle���������������������������������������������������������������������������������������3
-                                                                     Wrathful Procession�����������������������������������������������������������������������������������4
-                                                                    Rules Updates�������������������������������������������������������������������������������5
-MARSHAL’S HOUSEHOLD
-WARRIOR‑KNIGHTS – EACH A CHAMPION OF MARTIAL FAITH – STRIKE WITH UNCOMPROMISING FERVOUR
-
-
- DETACHMENT RULES                                                           SLAYERS OF ABOMINATIONS                                                1CP
-                                                                            MARSHAL’S HOUSEHOLD STRATAGEM
+MARSHAL’S
+WARRIOR‑KNIGHTS – EACH A CHAMPION OF MARTIAL FAITH
+DETACHMENT RULES
 FAITH-FUELLED RESOLVE
-                                                                            The largest manifestations of the foe’s sin are branded unholy
-Uncompromising in their faith, a crusade’s Sword Brethren are               abominations, challenges which a crusade’s champions gladly meet
-                                                                            to drive their sanctified weapons deeply beneath their hides.
+Uncompromising in their faith, a crusade’s Sword Brethren are
 blazing beacons of intolerant resolve capable of holding back
-hordes of blasphemous foes from sites sacred to the Black Templars.         WHEN: Fight phase, when a friendly SWORD BRETHREN SQUAD unit is
-                                                                            selected to fight.
-Friendly SWORD BRETHREN SQUAD units have +1 OC.                             TARGET: That SWORD BRETHREN SQUAD unit.
-                                                                            EFFECT: Your unit’s melee attacks that target a MONSTER/VEHICLE unit
-Restrictions: Your army can include BLACK TEMPLARS units, but               have +2 S.
-it cannot include any ADEPTUS ASTARTES units drawn from any
-other Chapter.
-                                                                            BLADE OF DETESTATION                                                   1CP
-                                                                            MARSHAL’S HOUSEHOLD STRATAGEM
- ENHANCEMENTS                                                               With roared litanies and incendiary hatred, the Sword Brethren
-                                                                            plunge into their foe like a white‑hot blade, their armoured
-                                                                            momentum cracking armour, crushing bones, and trampling the
-FERVENT EXEMPLARS UPGRADE                                                   foe underfoot.
-Paragons of their crusade’s inexorable wrath, these Sword Brethren
-                                                                            WHEN: Your Charge phase, when a friendly SWORD BRETHREN SQUAD
-have earned a reputation for carving a path to victory through their        unit ends a charge move.
-foes, unable to rest while one enemy yet lives.                             TARGET: That SWORD BRETHREN SQUAD unit.
-                                                                            EFFECT: Select one enemy unit engaged with your unit. Roll one D6
-SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls.           for each model in your unit engaged with that enemy unit:
-                                                                            ▪ For each 4+, that enemy unit suffers 1 mortal wound (to a
-INHERITORS OF SIGISMUND UPGRADE                                                maximum of 6 mortal wounds).
-These warrior elites have achieved feats of bloody slaughter against
-the most deadly of the God‑Emperor’s foes, executing them in
-displays of such blisteringly swift attacks that it is clear they share a   UNSPARING EXECUTION                                                    1CP
-sliver of Sigismund’s own skill.                                            MARSHAL’S HOUSEHOLD STRATAGEM
-
-                                                                            Those who attempt to flee their rightful death only stoke their
-SWORD BRETHREN SQUAD unit only. This unit has Fights First.                 executioners’ hatred all the hotter. None can be spared the
-                                                                            God‑Emperor’s wrath.
-
-                                                                            WHEN: Your opponent’s Movement phase, when a unit is selected to
-                                                                            make a fall‑back move, if that unit is engaged with a friendly SWORD
-                                                                            BRETHREN SQUAD unit.
-                                                                            TARGET: That SWORD BRETHREN SQUAD unit.
-                                                                            EFFECT: When an enemy unit engaged with your unit is selected
-                                                                            to make a fall‑back move, that enemy unit must use the desperate
-                                                                            escape mode, with ‑1 to those hazard rolls if that enemy unit
-                                                                            is battle‑shocked.
-THE LIVING MIRACLE
-THE MANIFESTATION OF THE GOD-EMPEROR’S WILL IS BLESSED WITH VISIONS OF EXCEPTIONAL DEEDS
-
-
- DETACHMENT RULES                                                       ENHANCEMENTS
-
-ANOINTED CHAMPION                                                      GUIDING OMENS
-The warrior anointed as Emperor’s Champion by a crusade's              The holy visions which fill the mind of the Emperor’s Champion on
-Chaplains is marked as such by the divine omens which assail him.      the eve of battle are clear to those of unwavering faith: they tell of
-With these visions as a guide, and having devoted what remains of      the foes he will strike down, of the pious deeds he must commit, and
-his existence to the rigorous perfection of the blade, the Emperor’s   the paths to be bloodily carved in his merciless crusade, all in the
-Champion becomes a force of righteous and unerring destruction.        God-Emperor’s name.
-
-▪ When a friendly EMPEROR’S CHAMPION unit is selected to fight,       EMPEROR’S CHAMPION model only. At the start of the first battle
-   that model’s melee attacks can:                                     round, you can select up to three of the following abilities. This
-     ▫ Re-roll one hit roll.                                           model has those abilities until the end of the battle:
-     ▫ Re-roll one wound roll.
-                                                                       ▪ Instrument of the God‑Emperor (Once per battle, per army):
-▪ Enhancements selected from this detachment do not count                In the Fight phase, when this unit is selected to fight, if this
-   towards the total number of enhancements in your army.                unit is engaged with an enemy CHARACTER unit, you can
-                                                                          use this ability. If you do, this model’s melee attacks have
-Restrictions: Your army can include BLACK TEMPLARS units, but             [DEVASTATING WOUNDS].
-it cannot include any ADEPTUS ASTARTES units drawn from any            ▪ Foreseen Paths of the Unholy: This unit has ‑3" detection range.
-other Chapter.                                                         ▪ Vision of Momentous Brutality: This model’s melee attacks have
-                                                                          +2 A.
-                                                                       ▪ Augury of Retribution: Melee attacks that target this unit
-                                                                          have [HAZARDOUS].
-                                                                       ▪ Omen of Sacred Intervention: When you target this unit with
-                                                                          the Heroic Intervention stratagem, that use is ‑1 CP.
-                                                                       ▪ Harbinger of Judgement: When an enemy unit (excluding
-                                                                          MONSTER/VEHICLE units) engaged with this model is selected to
-                                                                          make a fall‑back move, roll one D6:
-                                                                            ▫ On a 2+, that enemy unit suffers D6 mortal wounds.
-WRATHFUL PROCESSION
-CHAPLAINS STOKE THEIR BATTLE-BROTHERS' FANATICISM TO WITHSTAND THE FOE'S UNHOLY ATTACKS
-
-
- DETACHMENT RULES                                                          FUELLED BY FAITH                                                   1CP
-                                                                           WRATHFUL PROCESSION STRATAGEM
-CHANT OF DEATHLESS DEVOTION
-                                                                           So powerfully gripped by holy fervour are these warriors that
-With wrathful litanies, a crusade's Chaplains rouse the ardent souls       they fight on through even the most grievous wounds to body
-                                                                           and mind.
-of their battle-brothers, calling upon their faith in the God-Emperor
-to shield them from the blasphemy of the unbeliever.                       WHEN: Any phase, when a friendly CHAPLAIN unit suffers a
-                                                                           mortal wound.
-Friendly CHAPLAIN units have 5+ InSv against ranged attacks.               TARGET: That CHAPLAIN unit.
-                                                                           EFFECT: Your unit has Feel No Pain 4+ against mortal wounds.
+hordes of blasphemous foes from sites sacred to the Black Templars.
+Friendly SWORD BRETHREN SQUAD units have +1 OC.
 Restrictions: Your army can include BLACK TEMPLARS units, but
 it cannot include any ADEPTUS ASTARTES units drawn from any
-other Chapter.                                                             CASTIGATE THE DEMAGOGUES                                           1CP
-                                                                           WRATHFUL PROCESSION STRATAGEM
+other Chapter.
+ENHANCEMENTS
+FERVENT EXEMPLARS UPGRADE
+Paragons of their crusade’s inexorable wrath, these Sword Brethren
+have earned a reputation for carving a path to victory through their
+foes, unable to rest while one enemy yet lives.
+SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls.
+INHERITORS OF SIGISMUND UPGRADE
+These warrior elites have achieved feats of bloody slaughter against
+the most deadly of the God‑Emperor’s foes, executing them in
+displays of such blisteringly swift attacks that it is clear they share
+sliver of Sigismund’s own skill.
+SWORD BRETHREN SQUAD unit only. This unit has Fights First.
+HOUSEHOLD
+– STRIKE WITH UNCOMPROMISING FERVOUR
+SLAYERS OF ABOMINATIONS 1CP
+MARSHAL’S HOUSEHOLD STRATAGEM
+The largest manifestations of the foe’s sin are branded unholy
+abominations, challenges which a crusade’s champions gladly meet
+to drive their sanctified weapons deeply beneath their hides.
+WHEN: Fight phase, when a friendly SWORD BRETHREN SQUAD unit is
+selected to fight.
+TARGET: That SWORD BRETHREN SQUAD unit.
+EFFECT: Your unit’s melee attacks that target a MONSTER/VEHICLE unit
+have +2 S.
+BLADE OF DETESTATION 1CP
+MARSHAL’S HOUSEHOLD STRATAGEM
+With roared litanies and incendiary hatred, the Sword Brethren
+plunge into their foe like a white‑hot blade, their armoured
+momentum cracking armour, crushing bones, and trampling the
+foe underfoot.
+WHEN: Your Charge phase, when a friendly SWORD BRETHREN SQUAD
+unit ends a charge move.
+TARGET: That SWORD BRETHREN SQUAD unit.
+EFFECT: Select one enemy unit engaged with your unit. Roll one D6
+for each model in your unit engaged with that enemy unit:
+▪ For each 4+, that enemy unit suffers 1 mortal wound (to a
+maximum of 6 mortal wounds).
+UNSPARING EXECUTION 1CP
+a
+MARSHAL’S HOUSEHOLD STRATAGEM
+Those who attempt to flee their rightful death only stoke their
+executioners’ hatred all the hotter. None can be spared the
+God‑Emperor’s wrath.
+WHEN: Your opponent’s Movement phase, when a unit is selected to
+make a fall‑back move, if that unit is engaged with a friendly SWORD
+BRETHREN SQUAD unit.
+TARGET: That SWORD BRETHREN SQUAD unit.
+EFFECT: When an enemy unit engaged with your unit is selected
+to make a fall‑back move, that enemy unit must use the desperate
+escape mode, with ‑1 to those hazard rolls if that enemy unit
+is battle‑shocked.
 
-                                                                           There is nowhere that the architects of heresy can hide from the
- ENHANCEMENTS                                                              righteous judgement of the Black Templars.
+THE LIVING MIRACLE
+THE MANIFESTATION OF THE GOD-EMPEROR’S WILL IS BLESSED
+DETACHMENT RULES
+ANOINTED CHAMPION
+The warrior anointed as Emperor’s Champion by a crusade's
+Chaplains is marked as such by the divine omens which assail him.
+With these visions as a guide, and having devoted what remains of
+his existence to the rigorous perfection of the blade, the Emperor’s
+Champion becomes a force of righteous and unerring destruction.
+▪ When a friendly EMPEROR’S CHAMPION unit is selected to fight,
+that model’s melee attacks can:
+▫ Re-roll one hit roll.
+▫ Re-roll one wound roll.
+▪ Enhancements selected from this detachment do not count
+towards the total number of enhancements in your army.
+Restrictions: Your army can include BLACK TEMPLARS units, but
+it cannot include any ADEPTUS ASTARTES units drawn from any
+other Chapter.
+WITH VISIONS OF EXCEPTIONAL DEEDS
+ENHANCEMENTS
+GUIDING OMENS
+The holy visions which fill the mind of the Emperor’s Champion on
+the eve of battle are clear to those of unwavering faith: they tell of
+the foes he will strike down, of the pious deeds he must commit, and
+the paths to be bloodily carved in his merciless crusade, all in the
+God-Emperor’s name.
+EMPEROR’S CHAMPION model only. At the start of the first battle
+round, you can select up to three of the following abilities. This
+model has those abilities until the end of the battle:
+▪ Instrument of the God‑Emperor (Once per battle, per army):
+In the Fight phase, when this unit is selected to fight, if this
+unit is engaged with an enemy CHARACTER unit, you can
+use this ability. If you do, this model’s melee attacks have
+[DEVASTATING WOUNDS].
+▪ Foreseen Paths of the Unholy: This unit has ‑3" detection range.
+▪ Vision  of Momentous Brutality: This model’s melee attacks have
++2 A.
+▪ Augury  of Retribution: Melee attacks that target this unit
+have [HAZARDOUS].
+▪ Omen  of Sacred Intervention: When you target this unit with
+the Heroic Intervention stratagem, that use is ‑1 CP.
+▪ Harbinger  of Judgement: When an enemy unit (excluding
+MONSTER/VEHICLE units) engaged with this model is selected to
+make a fall‑back move, roll one D6:
+▫ On a 2+, that enemy unit suffers D6 mortal wounds.
 
-                                                                           WHEN: Fight phase, when a friendly CHAPLAIN unit is selected
-BENEDICTION OF FURY                                                        to fight.
-Borne through a dozen bloody and hard‑fought crusades, this                TARGET: That CHAPLAIN unit.
-crozius arcanum’s unique empathokinetic circuitry has absorbed             EFFECT: Your unit’s melee attacks have [PRECISION].
+WRATHFUL PROCESSION
+CHAPLAINS STOKE THEIR BATTLE-BROTHERS' FANATICISM TO
+DETACHMENT RULES
+CHANT OF DEATHLESS DEVOTION
+With wrathful litanies, a crusade's Chaplains rouse the ardent souls
+of their battle-brothers, calling upon their faith in the God-Emperor
+to shield them from the blasphemy of the unbeliever.
+Friendly CHAPLAIN units have 5+ InSv against ranged attacks.
+Restrictions: Your army can include BLACK TEMPLARS units, but
+it cannot include any ADEPTUS ASTARTES units drawn from any
+other Chapter.
+ENHANCEMENTS
+BENEDICTION OF FURY
+Borne through a dozen bloody and hard‑fought crusades, this
+crozius arcanum’s unique empathokinetic circuitry has absorbed
 the bellicosity and righteous wrath of every Chaplain who has ever
 wielded it. As a result, it now strikes with the force of a thunderbolt.
-                                                                           RITE OF PERFERVID WRATH                                            1CP
-CHAPLAIN model only. This model’s melee attacks have                       WRATHFUL PROCESSION STRATAGEM
+CHAPLAIN model only. This model’s melee attacks have
 [DEVASTATING WOUNDS].
-                                                                           With a bellowed oath to Rogal Dorn, Chaplains lead their
-                                                                           warriors plunging into the foe’s midst, shattering armour
-ADAPTABLE EXECUTIONER                                                      and crushing skulls with blows granted the strength of
-                                                                           their devotion.
+ADAPTABLE EXECUTIONER
 No blasphemous tyrant is safe from this zealot's wrath, no matter
-the numbers or the qualities of the deluded guardians they throw           WHEN: Fight phase, when a friendly CHAPLAIN unit is selected
-in his path.                                                               to fight.
-                                                                           TARGET: That CHAPLAIN unit.
-EXECRATOR model only. When this unit is selected to fight, this            EFFECT: Your unit’s melee attacks have +1 S.
+the numbers or the qualities of the deluded guardians they throw
+in his path.
+EXECRATOR model only. When this unit is selected to fight, this
 model’s melee attacks have:
-▪ [CLEAVE 1].
+▪ [CLEAVE  1].
 ▪ Or: [PRECISION].
-                                             BLACK TEMPLARS
-                                                              RULES UPDATES
-This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
-Changes applied after the first iteration of this Faction Pack will be highlighted in red.
+WITHSTAND THE FOE'S UNHOLY ATTACKS
+FUELLED BY FAITH 1CP
+WRATHFUL PROCESSION STRATAGEM
+So powerfully gripped by holy fervour are these warriors that
+they fight on through even the most grievous wounds to body
+and mind.
+WHEN: Any phase, when a friendly CHAPLAIN unit suffers a
+mortal wound.
+TARGET: That CHAPLAIN unit.
+EFFECT: Your unit has Feel No Pain 4+ against mortal wounds.
+CASTIGATE THE DEMAGOGUES 1CP
+WRATHFUL PROCESSION STRATAGEM
+There is nowhere that the architects of heresy can hide from the
+righteous judgement of the Black Templars.
+WHEN: Fight phase, when a friendly CHAPLAIN unit is selected
+to fight.
+TARGET: That CHAPLAIN unit.
+EFFECT: Your unit’s melee attacks have [PRECISION].
+RITE OF PERFERVID WRATH 1CP
+WRATHFUL PROCESSION STRATAGEM
+With a bellowed oath to Rogal Dorn, Chaplains lead their
+warriors plunging into the foe’s midst, shattering armour
+and crushing skulls with blows granted the strength of
+their devotion.
+WHEN: Fight phase, when a friendly CHAPLAIN unit is selected
+to fight.
+TARGET: That CHAPLAIN unit.
+EFFECT: Your unit’s melee attacks have +1 S.
 
-
-                                                                                Land Raider Crusader – Keywords section
-UPDATES                                                                         Add 'LAND RAIDER'.
-
-ARMY RULES                                                                      Terminator Squad, Teleport Homer Ability
-Abhor the Witch, Destroy the Witch Templar Vow                                  Change 9" to 8".
+BLACK
+RULES
+This section presents updates and clarifications to your faction’s rules,
+Changes applied after the first iteration of this Faction Pack will be
+UPDATES
+ARMY RULES
+Abhor the Witch, Destroy the Witch Templar Vow
 Change to:
-▪ This unit’s melee attacks that target a PSYKER unit have [PRECISION].        Gladiator Lancer, Gladiator Reaper, Gladiator Valiant, Impulsor, Land
-▪ When this unit declares a charge, If an enemy PSYKER unit is within          Raider Crusader, Repulsor, Repulsor Executioner – Keywords section
-   12" of this unit, you can use this part of this ability. If you do:          Add 'FRAME'.
-     ▫ This unit can re-roll that charge roll.
-     ▫ This unit must end that charge move engaged with one or more
-        of those enemy PSYKER units.
-
+▪ This unit’s melee attacks that target a PSYKER unit have [PRECISION].
+▪ When this unit declares a charge, If an enemy PSYKER unit is within
+12" of this unit, you can use this part of this ability. If you do:
+▫ This unit can re-roll that charge roll.
+▫ This unit must end that charge move engaged with one or more
+of those enemy PSYKER units.
 COMPANIONS OF VEHEMENCE DETACHMENT
 Heresy Begets Retribution Stratagem, Target Section
 Change 9" to 8".
-
 Heresy Begets Retribution Stratagem, Effect Section
 Change to:
 'Your unit can make a surge move of up to D6".'
-
 VINDICATION TASK FORCE DETACHMENT
 Purge and Sanctify Detachment Rule
 Change the second bullet point to:
@@ -174,27 +204,33 @@ of selecting a surge target, you can can select the closest objective to
 that unit. When that unit makes that surge move, each model in that
 unit must end that surge move as close as possible to that objective
 instead.'
-
 DATASHEETS
 Castellan, Crusade Ancient – Core Abilities section
 Remove 'Leader', add 'Support'.
-
 Crusader Squad, Righteous Zeal Ability
 Change to:
 'In your opponent's Shooting phase, each time an enemy unit has shot,
 if any models in this unit were destroyed as a result of those attacks,
 this unit can make a surge move of up to D6+2".'
-
 Emperor's Champion, Sigismund's Heir ability
 Change to:
 ▪ When this unit declares a charge, If an enemy CHARACTER unit is
-   within 12" of this unit, you can use this part of this ability. If you do:
-    ▫ This unit can re-roll that charge roll.
-    ▫ This unit must end that charge move engaged with one or more
-       of those enemy CHARACTER units.
-
+within 12" of this unit, you can use this part of this ability. If you do:
+▫ This unit can re-roll that charge roll.
+▫ This unit must end that charge move engaged with one or more
+of those enemy CHARACTER units.
 ▪ (Once per battle, per army) In the Fight phase, when this unit is
-   selected to fight, if this unit is engaged with a CHARACTER unit, you
-   can use this part of this ability. If you do, this unit's melee attacks
-   have [DEVASTATING WOUNDS].
-
+selected to fight, if this unit is engaged with a CHARACTER unit, you
+can use this part of this ability. If you do, this unit's melee attacks
+have [DEVASTATING WOUNDS].
+TEMPLARS
+UPDATES
+designed to improve the gaming experience for all players.
+highlighted in red.
+Land Raider Crusader – Keywords section
+Add 'LAND RAIDER'.
+Terminator Squad, Teleport Homer Ability
+Change 9" to 8".
+Gladiator Lancer, Gladiator Reaper, Gladiator Valiant, Impulsor, Land
+Raider Crusader, Repulsor, Repulsor Executioner – Keywords section
+Add 'FRAME'.

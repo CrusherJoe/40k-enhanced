@@ -1,409 +1,506 @@
-                                  EMPEROR’S CHILDREN
-                                               FACTION PACK: VERSION 1.1
-                                                  Legal for matched play from 22nd July 2026
-
+EMPEROR’S CHILDREN
+FACTION PACK: VERSION 1.1
+Legal for matched play from 22nd July 2026
 On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
 datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
 for your units and detachments.
+WHAT’S NEW? CONTENTS
+▪ Changes to Rules Updates. Detachments���������������������������������������������������������������������������������2
+▪ 'Host' tag removed from Frenzied Host detachment. Elegant Brutes����������������������������������������������������������������������������������������������2
+▪ Court of the Phoenician Detachment, Exalted Patron Enhancement Frenzied Host�����������������������������������������������������������������������������������������������3
+Change to: Spectacle of Slaughter�������������������������������������������������������������������������������4
+'LORD EXULTANT model only. Add 1" to the Move characteristic of the Court of the Phoenician�����������������������������������������������������������������������������5
+bearer.' Datasheets������������������������������������������������������������������������������������7
+Defiler�������������������������������������������������������������������������������������������������������������7
+Rules Updates�������������������������������������������������������������������������������9
 
-
-WHAT’S NEW?                                                              CONTENTS
-▪ Changes to Rules Updates.                                              Detachments���������������������������������������������������������������������������������2
-▪ 'Host' tag removed from Frenzied Host detachment.                       Elegant Brutes����������������������������������������������������������������������������������������������2
-▪ Court of the Phoenician Detachment, Exalted Patron Enhancement         Frenzied Host�����������������������������������������������������������������������������������������������3
-   Change to:                                                             Spectacle of Slaughter�������������������������������������������������������������������������������4
-   'LORD EXULTANT model only. Add 1" to the Move characteristic of the    Court of the Phoenician�����������������������������������������������������������������������������5
-   bearer.'                                                              Datasheets������������������������������������������������������������������������������������7
-                                                                          Defiler�������������������������������������������������������������������������������������������������������������7
-                                                                         Rules Updates�������������������������������������������������������������������������������9
-ELEGANT BRUTES
-SLAANESHI TERMINATORS BLEND MONSTROUS RESILIENCE WITH MARTIAL SKILL TO TERRIFYING EFFECT
-
-
- DETACHMENT RULES                                                       DELIGHT IN AGONY                                                          1CP
-                                                                        ELEGANT BRUTES STRATAGEM
+ELEGANT BRUTES
+SLAANESHI TERMINATORS BLEND MONSTROUS RESILIENCE
+DETACHMENT RULES
 EAGER TO KILL
-                                                                        So well shielded by their armour are Emperor’s Children
-Infused with a ferocious need to exert their superiority before any     Terminators that, when the foe’s attacks actually punch
-                                                                        through to wound them, the rarity of the sensation is an
-rival has the chance to outshine them, Chaos Terminators enter their    invigorating tonic.
+Infused with a ferocious need to exert their superiority before any
+rival has the chance to outshine them, Chaos Terminators enter their
 chosen arena with a horrific dynamism.
-                                                                        WHEN: Your opponent’s Shooting phase or the Fight phase, when an
-                                                                        enemy unit targets a friendly EMPEROR’S CHILDREN TERMINATOR unit.
 When a friendly EMPEROR’S CHILDREN TERMINATOR unit is set up,
-                                                                        TARGET: That EMPEROR’S CHILDREN TERMINATOR unit.
 that unit has +1 to charge rolls until the end of the turn.
-                                                                        EFFECT: Attacks that target your unit with a S greater than your unit’s
-                                                                        T have -1 to wound rolls.
-
- ENHANCEMENTS
-
-CACOPHONIC ACCOMPANIMENT                                                PSYCHEDELIC SOULFLAME                                                     1CP
-                                                                        ELEGANT BRUTES STRATAGEM
+ENHANCEMENTS
+CACOPHONIC ACCOMPANIMENT
 Like a parasite clinging to its host, this Lord Kakophonist’s mutated
-armour piggybacks on the teleport signals of Emperor’s Children         The Terminators’ fervid need to annihilate ever more enemies
-                                                                        manifests as a lurid empyric firestorm which wreathes their
-Terminators, slingshotting him perilously through the Empyrean to       blows and the projectiles spat from their guns.
+armour piggybacks on the teleport signals of Emperor’s Children
+Terminators, slingshotting him perilously through the Empyrean to
 explode onto the battlefield in a riot of discordant sonic fury.
-                                                                        WHEN: Your Shooting phase or the Fight phase, when a friendly
-                                                                        EMPEROR’S CHILDREN TERMINATOR unit is selected to attack.
-LORD KAKOPHONIST model only.                                            TARGET: That EMPEROR’S CHILDREN TERMINATOR unit
+LORD KAKOPHONIST model only.
 ▪ This model has Deep Strike.
-                                                                        EFFECT: Your unit’s attacks have +2 S.
 ▪ This unit’s ranged attacks have [IGNORES COVER].
-
 FRENZIED FEROCITY UPGRADE
-Encumbered not at all despite the massive bulk of their armour,         WARP PLUNGE                                                               1CP
+Encumbered not at all despite the massive bulk of their armour,
 these Terminators’ mutant muscle and warp‑tainted reactions
-                                                                        ELEGANT BRUTES STRATAGEM
 allow them to indulge in every aspect of attacking the foe to
-                                                                        Addicted to the supreme danger of teleportation, these
-wild excess.                                                            Terminators employ twisted warp sorcery to plunge into the
-                                                                        immaterium time and again.
-EMPEROR’S CHILDREN TERMINATOR SQUAD unit only. This unit’s attacks      WHEN: End of your opponent’s Fight phase.
+wild excess.
+EMPEROR’S CHILDREN TERMINATOR SQUAD unit only. This unit’s attacks
 have [SUSTAINED HITS 1].
-                                                                        TARGET: One friendly unengaged EMPEROR’S CHILDREN
-                                                                        TERMINATOR unit.
-                                                                        EFFECT: Place your unit in strategic reserves.
-FRENZIED HOST
-TORMENTORS AND INFRACTORS FORM THE HEART OF THIS WARBAND, DOING BATTLE WITH A HECTIC FRENZY
+WITH MARTIAL SKILL TO TERRIFYING EFFECT
+DELIGHT IN AGONY 1CP
+ELEGANT BRUTES STRATAGEM
+So well shielded by their armour are Emperor’s Children
+Terminators that, when the foe’s attacks actually punch
+through to wound them, the rarity of the sensation is an
+invigorating tonic.
+WHEN: Your opponent’s Shooting phase or the Fight phase, when an
+enemy unit targets a friendly EMPEROR’S CHILDREN TERMINATOR unit.
+TARGET: That EMPEROR’S CHILDREN TERMINATOR unit.
+EFFECT: Attacks that target your unit with a S greater than your unit’s
+T have -1 to wound rolls.
+PSYCHEDELIC SOULFLAME 1CP
+ELEGANT BRUTES STRATAGEM
+The Terminators’ fervid need to annihilate ever more enemies
+manifests as a lurid empyric firestorm which wreathes their
+blows and the projectiles spat from their guns.
+WHEN: Your Shooting phase or the Fight phase, when a friendly
+EMPEROR’S CHILDREN TERMINATOR unit is selected to attack.
+TARGET: That EMPEROR’S CHILDREN TERMINATOR unit
+EFFECT: Your unit’s attacks have +2 S.
+WARP PLUNGE 1CP
+ELEGANT BRUTES STRATAGEM
+Addicted to the supreme danger of teleportation, these
+Terminators employ twisted warp sorcery to plunge into the
+immaterium time and again.
+WHEN: End of your opponent’s Fight phase.
+TARGET: One friendly unengaged EMPEROR’S CHILDREN
+TERMINATOR unit.
+EFFECT: Place your unit in strategic reserves.
 
-
- DETACHMENT RULES                                                   POSSESSIVE MANIA                                                      1CP
-                                                                    FRENZIED HOST STRATAGEM
+FRENZIED HOST
+TORMENTORS AND INFRACTORS FORM THE HEART OF THIS
+DETACHMENT RULES
 FRANTIC FOCUS
-                                                                    Having seized some vital location or enthralling prize, these
-Seeming to be everywhere at once, bands of Infractors and           Slaaneshi warriors experience a frenzied need to claim it that
-                                                                    renders them inured to the most grievous hurts.
+Seeming to be everywhere at once, bands of Infractors and
 Tormentors seek to embrace all the sensations the battlefield can
-offer, never relenting for a moment.                                WHEN: Your opponent’s Shooting phase or the Fight phase, when an
-                                                                    enemy unit targets a friendly EMPEROR’S CHILDREN BATTLELINE unit
-When a friendly EMPEROR’S CHILDREN BATTLELINE unit is selected      within range of an objective.
-to make an advance/fall‑back move, that unit’s attacks have +1 S    TARGET: That EMPEROR’S CHILDREN BATTLELINE unit.
-until the end of the turn.                                          EFFECT: Attacks that target your unit have -1 AP until that enemy
-                                                                    unit has attacked.
+offer, never relenting for a moment.
+When a friendly EMPEROR’S CHILDREN BATTLELINE unit is selected
+to make an advance/fall‑back move, that unit’s attacks have +1 S
+until the end of the turn.
 This detachment has the HOST tag and cannot be taken with
 another HOST detachment.
-                                                                    AGONISED CACOPHONY                                                    1CP
-                                                                    FRENZIED HOST STRATAGEM
-
- ENHANCEMENTS                                                       Hurling vile semiorganic screamer grenades into the midst of
-                                                                    the foe, these warriors mark their presence not only by the
-                                                                    wails of their ordnance, but also by the agonised screams of
-EUPHORIC CROWN                                                      their victims.
-
-This champion of Slaanesh wears a helm that absorbs and amplifies   WHEN: Start of your Shooting phase.
-the frenzied carnival of carnage around them, driving the wearer    TARGET: One friendly EMPEROR’S CHILDREN BATTLELINE unit.
+ENHANCEMENTS
+EUPHORIC CROWN
+This champion of Slaanesh wears a helm that absorbs and amplifies
+the frenzied carnival of carnage around them, driving the wearer
 into a frenzy of euphoric might.
-                                                                    EFFECT: Select one visible enemy unit within 12" of your unit. That
-                                                                    enemy unit has +6" detection range.
 LORD EXULTANT model only. This model’s melee attacks have +1 S.
-
-HOWLING PLATE                                                       ABSOLUTE SENSORY OVERLOAD                                             1CP
-Mutant vox-emitters open like mouths all across this warrior’s      FRENZIED HOST STRATAGEM
+HOWLING PLATE
+Mutant vox-emitters open like mouths all across this warrior’s
 grotesque armour, vomiting targeted sonic shock waves that
-                                                                    Far from hiding from the foe, these warriors unleash such an
-enhance his allies’ already furious firepower.                      unbearable barrage of blinding light and deafening sound that
-                                                                    those who try to take aim at them are temporarily deafened
-                                                                    and blinded.
+enhance his allies’ already furious firepower.
 LORD EXULTANT model only. This unit’s ranged attacks have +1 AP.
-                                                                    WHEN: Your Shooting phase, when a friendly EMPEROR’S CHILDREN
-                                                                    BATTLELINE unit is selected to shoot.
-                                                                    TARGET: That EMPEROR’S CHILDREN BATTLELINE unit.
-                                                                    EFFECT: Those ranged attacks do not prevent your unit from
-                                                                    being hidden.
-SPECTACLE OF SLAUGHTER
-ALL EYES FALL ON THE FLAWLESS BLADES AS THEY TURN THE BATTLEFIELD INTO A GLADIATORIAL STAGE
+WARBAND, DOING BATTLE WITH A HECTIC FRENZY
+POSSESSIVE MANIA 1CP
+FRENZIED HOST STRATAGEM
+Having seized some vital location or enthralling prize, these
+Slaaneshi warriors experience a frenzied need to claim it that
+renders them inured to the most grievous hurts.
+WHEN: Your opponent’s Shooting phase or the Fight phase, when an
+enemy unit targets a friendly EMPEROR’S CHILDREN BATTLELINE unit
+within range of an objective.
+TARGET: That EMPEROR’S CHILDREN BATTLELINE unit.
+EFFECT: Attacks that target your unit have -1 AP until that enemy
+unit has attacked.
+AGONISED CACOPHONY 1CP
+FRENZIED HOST STRATAGEM
+Hurling vile semiorganic screamer grenades into the midst of
+the foe, these warriors mark their presence not only by the
+wails of their ordnance, but also by the agonised screams of
+their victims.
+WHEN: Start of your Shooting phase.
+TARGET: One friendly EMPEROR’S CHILDREN BATTLELINE unit.
+EFFECT: Select one visible enemy unit within 12" of your unit. That
+enemy unit has +6" detection range.
+ABSOLUTE SENSORY OVERLOAD 1CP
+FRENZIED HOST STRATAGEM
+Far from hiding from the foe, these warriors unleash such an
+unbearable barrage of blinding light and deafening sound that
+those who try to take aim at them are temporarily deafened
+and blinded.
+WHEN: Your Shooting phase, when a friendly EMPEROR’S CHILDREN
+BATTLELINE unit is selected to shoot.
+TARGET: That EMPEROR’S CHILDREN BATTLELINE unit.
+EFFECT: Those ranged attacks do not prevent your unit from
+being hidden.
 
-
- DETACHMENT RULES                                                      HONOUR IS FOR FOOLS                                                 1CP
-                                                                       SPECTACLE OF SLAUGHTER STRATAGEM
+SPECTACLE OF
+ALL EYES FALL ON THE FLAWLESS BLADES AS THEY TURN THE
+DETACHMENT RULES
 ENTITLED TO VICTORY
-                                                                       Far from facing enemy champions in fair duels one‑on‑one, the
-So certain are the Flawless Blades in their arrogant pre‑eminence,     Flawless Blades fall upon them like a pack of jackals competing
-                                                                       viciously to claim the glory of the kill.
+So certain are the Flawless Blades in their arrogant pre‑eminence,
 so sure they have already won before the first blow is struck, that
-they are filled with swift assurance that no foe can match.            WHEN: Fight phase, when a friendly FLAWLESS BLADES unit is
-                                                                       selected to fight.
-Friendly FLAWLESS BLADES units have Fights First.                      TARGET: That FLAWLESS BLADES unit.
-                                                                       EFFECT: Your unit’s melee attacks have [PRECISION].
-
- ENHANCEMENTS
-                                                                       SINGLE-MINDED STRIKE                                                1CP
-EAGER PATRONS UPGRADE                                                  SPECTACLE OF SLAUGHTER STRATAGEM
-The daemonic audience drawn by the deeds of these Flawless             Scornfully dismissing the chaff that blocks their path, the
-Blades is impatient for the spectacle to begin, and so bestows         Flawless Blades swat them aside and sweep regally on toward
-                                                                       their true quarry.
+they are filled with swift assurance that no foe can match.
+Friendly FLAWLESS BLADES units have Fights First.
+ENHANCEMENTS
+EAGER PATRONS UPGRADE
+The daemonic audience drawn by the deeds of these Flawless
+Blades is impatient for the spectacle to begin, and so bestows
 supernatural celerity upon those they consider the star performers.
-                                                                       WHEN: Your Charge phase, when a friendly FLAWLESS BLADES unit
-FLAWLESS BLADES unit only. This unit has +2" M.                        starts a charge move.
-                                                                       TARGET: That FLAWLESS BLADES unit.
-BEGUILING GROTESQUERIE UPGRADE                                         EFFECT: Your unit can move through models (excluding
-Unable to tear their gaze from the hypnotically hideous features of    MONSTER/VEHICLE models).
+FLAWLESS BLADES unit only. This unit has +2" M.
+BEGUILING GROTESQUERIE UPGRADE
+Unable to tear their gaze from the hypnotically hideous features of
 the Flawless Blades, foes stare slack‑jawed in horrified fascination
 as their death stalks elegantly toward them.
-                                                                       INTOXICATED BY TRIUMPH                                              1CP
-FLAWLESS BLADES unit only. Enemy units cannot target this unit         SPECTACLE OF SLAUGHTER STRATAGEM
+FLAWLESS BLADES unit only. Enemy units cannot target this unit
+with snap shooting attacks.
+SLAUGHTER
+BATTLEFIELD INTO A GLADIATORIAL STAGE
+HONOUR IS FOR FOOLS 1CP
+SPECTACLE OF SLAUGHTER STRATAGEM
+Far from facing enemy champions in fair duels one‑on‑one, the
+Flawless Blades fall upon them like a pack of jackals competing
+viciously to claim the glory of the kill.
+WHEN: Fight phase, when a friendly FLAWLESS BLADES unit is
+selected to fight.
+TARGET: That FLAWLESS BLADES unit.
+EFFECT: Your unit’s melee attacks have [PRECISION].
+SINGLE-MINDED STRIKE 1CP
+SPECTACLE OF SLAUGHTER STRATAGEM
+Scornfully dismissing the chaff that blocks their path, the
+Flawless Blades swat them aside and sweep regally on toward
+their true quarry.
+WHEN: Your Charge phase, when a friendly FLAWLESS BLADES unit
+starts a charge move.
+TARGET: That FLAWLESS BLADES unit.
+EFFECT: Your unit can move through models (excluding
+MONSTER/VEHICLE models).
+INTOXICATED BY TRIUMPH 1CP
+SPECTACLE OF SLAUGHTER STRATAGEM
+Seeing their foes fleeing in terror before them only fires the
+chem‑laced blood of the Flawless Blades, urging them on toward
+their next challenge all the quicker.
+WHEN: Your opponent’s Movement phase, when an enemy unit that
+was engaged with a friendly FLAWLESS BLADES unit ends a fall‑back
+move, if that FLAWLESS BLADES unit is unengaged.
+TARGET: That FLAWLESS BLADES unit.
+EFFECT: Your unit can make a normal move of up to D3+3".
 
-with snap shooting attacks.                                            Seeing their foes fleeing in terror before them only fires the
-                                                                       chem‑laced blood of the Flawless Blades, urging them on toward
-                                                                       their next challenge all the quicker.
-
-                                                                       WHEN: Your opponent’s Movement phase, when an enemy unit that
-                                                                       was engaged with a friendly FLAWLESS BLADES unit ends a fall‑back
-                                                                       move, if that FLAWLESS BLADES unit is unengaged.
-                                                                       TARGET: That FLAWLESS BLADES unit.
-                                                                       EFFECT: Your unit can make a normal move of up to D3+3".
-       COURT OF THE
-       PHOENICIAN
-       Many are the Emperor’s Children that seek to join their daemonic gene-sire in his excessive
-       spectacles of sublime artistry. Such warbands often style themselves as Fulgrim’s Court, a
-       mocking reflection of the circles of patronised champions he once favoured with his intoxicating
-       presence. These over-stimulated warriors lose themselves in hedonistic battle, aiming to commit
-       exquisite acts of martial prowess to prove themselves worthy of the Daemon Primarch’s fleeting
-       approbation and bask in the adulation they know is theirs by right.
-
-
-
-     DETACHMENT RULE                                    ENHANCEMENTS
-
-    SENSATIONAL PERFORMANCE                            TEARS OF THE PHOENIX
-    The craving for fresh experience and               The addictive substance in these droplets is said to
-    the obsession with enacting ever more              fracture consciousness – and sanity – to the point where
-    excessive destruction drives these warriors        the imbiber perceives every strike and parries their
-    to displays of sudden and obscene violence.        opponents’ attempts.
-
-    Emperor’s Children units from your                 Emperor’s Children model only. Each time a model
-    army have the following ability:                   in the bearer’s unit makes a melee attack, you can
-                                                       ignore any or all modifiers to that attack’s Weapon
-    Sensational Performance: Each time                 Skill characteristic and any or all modifiers to the Hit
-    this unit is selected to fight, if this unit       roll and Wound roll.
-    made a Charge move this turn, it can
-    use this ability. If it does, until the end of     EXALTED PATRON
-    the phase:                                         This champion is a domineering martial lord, hungry
-                                                       for the adulation and audience of his warband’s most
-    ■ This unit cannot target a unit it was          self-centred blademasters.
-       within Engagement Range of at the
-       start of the turn.                              Lord Exultant model only. Add 1" to the Move
-    ■ This unit cannot target a unit that             characteristic of the bearer.
-       was the target of another unit’s attack
-       this phase.                                     SOULSTAIN MADE MANIFEST
-    ■ Improve the Strength and Armour                 The corruption of this warrior’s soul is so total that it
-       Penetration characteristics of this unit’s      bleeds outwards in a nimbus of nauseating eldritch
-       melee weapons by 1.                             horror that repulses his enemies.
-
-    MASTER OF THE PAGEANT                              Emperor’s Children model only. At the start of the
-    Fulgrim sees war as a theatrical act, his          Fight phase, you can select one enemy unit within
-    warriors and the enemy alike a mere                Engagement Range of the bearer; that unit must take
-    chorus to his own egotistical performance          a Battle‑shock test, subtracting 1 from the result.
-    of sinuous strategy.
-                                                       SPIRITSLIVER
-    Once per battle round, when you target             This slender hellforged blade appears to weave in and
-    a Fulgrim unit from your army with the             out of being. Its daemonic bearer wields it in flickering
-    Sinuous Breach or Prideful Superiority             arcs at supernatural speed, swift enough for its
-    Stratagem, you can reduce the CP cost of           phantasmal edge to slice apart a victim’s soul before it is
-    that use of that Stratagem by 1CP.                 lost to the Warp.
-
-                                                       Emperor’s Children Daemon Prince model only. Add
-                                                       1 to the Strength and Attacks characteristics of the
-                                                       bearer’s melee weapons.
-
-
+COURT OF
+PHOENICIAN
+Many are the Emperor’s Children that seek
+spectacles of sublime artistry. Such warbands
+mocking reflection of the circles of patronised
+presence. These over-stimulated warriors
+exquisite acts of martial prowess to prove
+approbation and bask in the adulation they
+DETACHMENT RULE
+SENSATIONAL PERFORMANCE
+The craving for fresh experience and
+the obsession with enacting ever more
+excessive destruction drives these warriors
+to displays of sudden and obscene violence.
+Emperor’s Children units from your
+army have the following ability:
+Sensational Performance: Each time
+this unit is selected to fight, if this unit
+made a Charge move this turn, it can
+use this ability. If it does, until the end of
+the phase:
+■ This unit cannot target a unit it was
+within Engagement Range of at the
+start of the turn.
+■ This unit cannot target a unit that
+was the target of another unit’s attack
+this phase.
+■ Improve the Strength and Armour
+Penetration characteristics of this unit’s
+melee weapons by 1.
+MASTER OF THE PAGEANT
+Fulgrim sees war as a theatrical act, his
+warriors and the enemy alike a mere
+chorus to his own egotistical performance
+of sinuous strategy.
+Once per battle round, when you target
+a Fulgrim unit from your army with the
+Sinuous Breach or Prideful Superiority
+Stratagem, you can reduce the CP cost of
+that use of that Stratagem by 1CP.
 5
-          CONTEMPTUOUS DISREGARD                                           CLOSE-QUARTERS EXCRUCIATION
-          COURT OF THE PHOENICIAN – STRATAGEM                              COURT OF THE PHOENICIAN – STRATAGEM
+THE
+to join their daemonic gene-sire in his excessive
+often style themselves as Fulgrim’s Court, a
+champions he once favoured with his intoxicating
+lose themselves in hedonistic battle, aiming to commit
+themselves worthy of the Daemon Primarch’s fleeting
+know is theirs by right.
+ENHANCEMENTS
+TEARS OF THE PHOENIX
+The addictive substance in these droplets is said to
+fracture consciousness – and sanity – to the point where
+the imbiber perceives every strike and parries their
+opponents’ attempts.
+Emperor’s Children model only. Each time a model
+in the bearer’s unit makes a melee attack, you can
+ignore any or all modifiers to that attack’s Weapon
+Skill characteristic and any or all modifiers to the Hit
+roll and Wound roll.
+EXALTED PATRON
+This champion is a domineering martial lord, hungry
+for the adulation and audience of his warband’s most
+self-centred blademasters.
+Lord Exultant model only. Add 1" to the Move
+characteristic of the bearer.
+SOULSTAIN MADE MANIFEST
+The corruption of this warrior’s soul is so total that it
+bleeds outwards in a nimbus of nauseating eldritch
+horror that repulses his enemies.
+Emperor’s Children model only. At the start of the
+Fight phase, you can select one enemy unit within
+Engagement Range of the bearer; that unit must take
+a Battle‑shock test, subtracting 1 from the result.
+SPIRITSLIVER
+This slender hellforged blade appears to weave in and
+out of being. Its daemonic bearer wields it in flickering
+arcs at supernatural speed, swift enough for its
+phantasmal edge to slice apart a victim’s soul before it is
+lost to the Warp.
+Emperor’s Children Daemon Prince model only. Add
+1 to the Strength and Attacks characteristics of the
+bearer’s melee weapons.
 
-          With cocktails of resilience-enhancing stimms                    At short range, the Emperor’s Children eagerly target
-          or armour inlaid with forbidden runes of warding,                weak points in their enemies, exulting over every cry
-          the Emperor’s Children sneeringly disregard even
-                                                                     1CP   of pain they elicit.
-          powerful blows.
-                                                                           WHEN: Your Shooting phase.
-          WHEN: Your opponent’s Shooting phase or the                      TARGET: One Emperor’s Children unit from your
-    1CP   Fight phase.                                                     army that has not been selected to shoot this phase.
-          TARGET: One Emperor’s Children unit from                         EFFECT: Until the end of the phase, each time an
-          your army.                                                       Emperor’s Children model in your unit makes an
-          EFFECT: Until the end of the phase, each time an                 attack that targets an eligible unit within 12", improve
-          attack targets your unit, if the Strength characteristic         the Strength and Armour Penetration characteristics
-          of that attack is greater than the Toughness                     of that attack by 1.
-          characteristic of your unit, subtract 1 from the
-          Wound roll.
-                                                                           EUPHORIC INSPIRATION
-                                                                           COURT OF THE PHOENICIAN – STRATAGEM
-          PRIDEFUL SUPERIORITY
-                                                                           Those with the Dark Prince’s blessings inspire
-          COURT OF THE PHOENICIAN – STRATAGEM
-                                                                           euphoric floods of battle-lust in the Emperor’s
-          The chance to ostentatiously humble the foe’s              1CP   Children, who power towards the foe with screams of
-          champions and prove them worthless rivals is a lure              murderous ecstasy.
-    2CP   few Emperor’s Children can resist.
-                                                                           WHEN: Your Charge phase.
-          WHEN: Fight phase.                                               TARGET: One Emperor’s Children Daemon unit
-          TARGET: One Emperor’s Children unit from your                    from your army.
-          army that has not been selected to fight this phase.             EFFECT: Until the end of the phase, you can re-roll
-          EFFECT: Until the end of the phase, each time a                  Charge rolls for friendly Emperor’s Children units
-          model in your unit makes an attack that targets a                within 6" of your unit.
-          Character unit, you can re-roll the Hit roll and you
-          can re‑roll the Wound roll.
-                                                                           CATALYTIC STIMULUS
-                                                                           COURT OF THE PHOENICIAN – STRATAGEM
-          SINUOUS BREACH
-                                                                           Invigorated by pain, the Emperor’s Children will
-          COURT OF THE PHOENICIAN – STRATAGEM
-                                                                           embrace an enemy’s attack as a catalyst for
-          The power of Slaanesh is an undulating and writhing
-                                                                     1CP   masterful vengeance.
-          thing, and his daemonic servants can mould their
-                                                                           WHEN: Your opponent’s Shooting phase, just after an
-          forms to slither over and through any obstacle.
-                                                                           enemy unit has shot.
-          WHEN: Your Movement phase or your Charge phase.                  TARGET: One Emperor’s Children unit from your
-          TARGET: One Emperor’s Children Daemon unit                       army that lost one or more wounds as a result of
-    1CP   from your army that has not been selected to move                those attacks.
-          or charge this phase.                                            EFFECT: Your unit can make a surge move of up
-          EFFECT: Until the end of the phase, each time your               to D6".
-          unit makes a Normal, Advance or Charge move, it can
-          move horizontally through terrain features.
-
-
-
-
+CONTEMPTUOUS DISREGARD
+COURT OF THE PHOENICIAN – STRATAGEM
+With cocktails of resilience-enhancing stimms
+or armour inlaid with forbidden runes of warding,
+the Emperor’s Children sneeringly disregard even
+powerful blows.
+1CP WHEN: Your opponent’s Shooting phase or the
+Fight phase.
+TARGET: One Emperor’s Children unit from
+your army.
+EFFECT: Until the end of the phase, each time an
+attack targets your unit, if the Strength characteristic
+of that attack is greater than the Toughness
+characteristic of your unit, subtract 1 from the
+Wound roll.
+PRIDEFUL SUPERIORITY
+COURT OF THE PHOENICIAN – STRATAGEM
+The chance to ostentatiously humble the foe’s
+2CP champions and prove them worthless rivals is a lure
+few Emperor’s Children can resist.
+WHEN: Fight phase.
+TARGET: One Emperor’s Children unit from your
+army that has not been selected to fight this phase.
+EFFECT: Until the end of the phase, each time a
+model in your unit makes an attack that targets a
+Character unit, you can re-roll the Hit roll and you
+can re‑roll the Wound roll.
+SINUOUS BREACH
+COURT OF THE PHOENICIAN – STRATAGEM
+The power of Slaanesh is an undulating and writhing
+thing, and his daemonic servants can mould their
+forms to slither over and through any obstacle.
+WHEN: Your Movement phase or your Charge phase.
+1CP TARGET: One Emperor’s Children Daemon unit
+from your army that has not been selected to move
+or charge this phase.
+EFFECT: Until the end of the phase, each time your
+unit makes a Normal, Advance or Charge move, it can
+move horizontally through terrain features.
 6
-DEFILER
- M            T            SV             W             LD            OC
+CLOSE-QUARTERS EXCRUCIATION
+COURT OF THE PHOENICIAN – STRATAGEM
+At short range, the Emperor’s Children eagerly target
+1CP weak points in their enemies, exulting over every cry
+of pain they elicit.
+WHEN: Your Shooting phase.
+TARGET: One Emperor’s Children unit from your
+army that has not been selected to shoot this phase.
+EFFECT: Until the end of the phase, each time an
+Emperor’s Children model in your unit makes an
+attack that targets an eligible unit within 12", improve
+the Strength and Armour Penetration characteristics
+of that attack by 1.
+EUPHORIC INSPIRATION
+COURT OF THE PHOENICIAN – STRATAGEM
+Those with the Dark Prince’s blessings inspire
+1CP euphoric floods of battle-lust in the Emperor’s
+Children, who power towards the foe with screams of
+murderous ecstasy.
+WHEN: Your Charge phase.
+TARGET: One Emperor’s Children Daemon unit
+from your army.
+EFFECT: Until the end of the phase, you can re-roll
+Charge rolls for friendly Emperor’s Children units
+within 6" of your unit.
+CATALYTIC STIMULUS
+COURT OF THE PHOENICIAN – STRATAGEM
+Invigorated by pain, the Emperor’s Children will
+1CP embrace an enemy’s attack as a catalyst for
+masterful vengeance.
+WHEN: Your opponent’s Shooting phase, just after an
+enemy unit has shot.
+TARGET: One Emperor’s Children unit from your
+army that lost one or more wounds as a result of
+those attacks.
+EFFECT: Your unit can make a surge move of up
+to D6".
 
-12" 11                    3+            18            6+              5
-                          5+               INVULNERABLE SAVE
+DEFILER
+M T SV W LD OC
+12" 11 3+ 18 6+ 5
+5+ INVULNERABLE SAVE
+RANGED WEAPONS RANGE A BS S AP D
+Hades battle cannon [BLAST] 48" D6+3 3+ 10 -1 3
+Ectoplasma destructor [BLAST] 36" D6 3+ 12 -3 3
+Excruciator cannon 36" 6 3+ 6 -1 2
+Magma cutters [MELTA 2] 12" 2 3+ 9 -4 D6
+Heavy baleflamer [IGNORES COVER, TORRENT] 12" D6+3 N/A 7 -2 2
+Hades lascannon 48" 2 3+ 12 -3 D6+1
+Heavy reaper autocannon 48" 4 3+ 9 -1 3
+[DEVASTATING WOUNDS, SUSTAINED HITS 1]
+Heavy missile launcher – krak 48" 2 3+ 10 -2 D6+1
+Heavy missile launcher – frag [BLAST] 48" 2D6 3+ 5 -1 1
+MELEE WEAPONS RANGE A WS S AP D
+Shearing claws – strike [PRECISION] Melee 5 3+ 16 -3 D6+1
+Shearing claws – sweep Melee 10 3+ 6 -2 1
+Electroscourge [EXTRA ATTACKS, SUSTAINED HITS 2] Melee 5 3+ 12 -2 2
+Before selecting targets for this weapon, select one of its profiles to make attacks with.
+KEYWORDS: Vehicle, Walker, Chaos, Slaanesh, Daemon, Defiler
+ABILITIES
+CORE: Deadly Demise D6
+FACTION: Thrill Seekers
+Scuttling Walker: Each time this unit makes a Normal,
+Advance or Fall Back move, it can move through models
+(excluding Titanic models) and terrain features. When doing
+so, it can move within Engagement Range of enemy models,
+but cannot end that move within Engagement Range of them,
+and any Desperate Escape test is automatically passed.
+Revel in Desecration: Each time this model makes an attack
+that targets an enemy unit that is not below Half-strength, add
+1 to the Hit roll.
+FACTION KEYWORDS:
+Emperor’s Children
 
-
-      RANGED WEAPONS                                                       RANGE                  A    BS    S    AP    D     ABILITIES
-      Hades battle cannon [BLAST]                                              48"           D6+3      3+    10   -1    3
-                                                                                                                              CORE: Deadly Demise D6
-      Ectoplasma destructor [BLAST]                                            36"                D6   3+    12   -3    3
-      Excruciator cannon                                                       36"                6    3+    6    -1    2     FACTION: Thrill Seekers
-      Magma cutters [MELTA 2]                                                  12"                2    3+    9    -4    D6
-                                                                                                                              Scuttling Walker: Each time this unit makes a Normal,
-      Heavy baleflamer [IGNORES COVER, TORRENT]                                12"           D6+3      N/A   7    -2    2
-                                                                                                                              Advance or Fall Back move, it can move through models
-      Hades lascannon                                                          48"                2    3+    12   -3   D6+1   (excluding Titanic models) and terrain features. When doing
-      Heavy reaper autocannon                                                                                                 so, it can move within Engagement Range of enemy models,
-                                                                               48"                4    3+    9    -1    3
-      [DEVASTATING WOUNDS, SUSTAINED HITS 1]                                                                                  but cannot end that move within Engagement Range of them,
-      Heavy missile launcher – krak                                            48"             2       3+    10   -2   D6+1   and any Desperate Escape test is automatically passed.
-      Heavy missile launcher – frag [BLAST]                                    48"            2D6      3+     5   -1    1
-                                                                                                                              Revel in Desecration: Each time this model makes an attack
-                                                                                                                              that targets an enemy unit that is not below Half-strength, add
-      MELEE WEAPONS                                                        RANGE                  A    WS    S    AP    D     1 to the Hit roll.
-      Shearing claws – strike [PRECISION]                                    Melee                5    3+    16   -3   D6+1
-      Shearing claws – sweep                                                 Melee                10   3+    6    -2    1
-      Electroscourge [EXTRA ATTACKS, SUSTAINED HITS 2]                       Melee                5    3+    12   -2    2
-
-
-
-
-     Before selecting targets for this weapon, select one of its profiles to make attacks with.
-
-
-                                                                                                                                   FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Chaos, Slaanesh, Daemon, Defiler
-                                                                                                                                   Emperor’s Children
-DEFILER
+DEFILER
 Monstrous bio-mechanical Daemon Engines, Defilers are
 possessed of an insuppressible thirst for souls and lust for lurid
 slaughter. They are relentless in their pursuit of gratification,
 obliterating targets in tempests of gunfire and wading into enemy
 formations to rip warriors to shreds with their clanking claws.
+WARGEAR OPTIONS
+■ This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor.
+■ This model’s excruciator cannons can be replaced with 2 magma cutters.
+■ This model’s heavy baleflamer can be replaced with one of the following:
+◦ 1 Hades lascannon
+◦ 1 heavy reaper autocannon
+◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
+■ This model’s heavy missile launcher can be replaced with one of the following:
+◦ 1 Hades lascannon
+◦ 1 heavy reaper autocannon
+◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
+KEYWORDS: Vehicle, Walker, Chaos, Slaanesh, Daemon, Defiler
+DAMAGED: 1-6 WOUNDS REMAINING
+While this model has 1-6 wounds remaining, each time this
+model makes an attack, subtract 1 from the Hit roll.
+UNIT COMPOSITION
+■ 1 Defiler
+This model is equipped with: 1 Hades battle cannon;
+2 excruciator cannons; 1 heavy missile launcher; 1 heavy
+baleflamer; 1 shearing claws
+FACTION KEYWORDS:
+Emperor’s Children
 
-
-
-    WARGEAR OPTIONS                                                                             DAMAGED: 1-6 WOUNDS REMAINING
-    ■ This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor.       While this model has 1-6 wounds remaining, each time this
-    ■ This model’s excruciator cannons can be replaced with 2 magma cutters.               model makes an attack, subtract 1 from the Hit roll.
-    ■ This model’s heavy baleflamer can be replaced with one of the following:
-       ◦ 1 Hades lascannon                                                                 UNIT COMPOSITION
-       ◦ 1 heavy reaper autocannon
-       ◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)   ■ 1 Defiler
-    ■ This model’s heavy missile launcher can be replaced with one of the following:       This model is equipped with: 1 Hades battle cannon;
-       ◦ 1 Hades lascannon                                                                 2 excruciator cannons; 1 heavy missile launcher; 1 heavy
-       ◦ 1 heavy reaper autocannon                                                         baleflamer; 1 shearing claws
-       ◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge)
-
-
-
-
-                                                                                                FACTION KEYWORDS:
-     KEYWORDS: Vehicle, Walker, Chaos, Slaanesh, Daemon, Defiler
-                                                                                                Emperor’s Children
-                                    EMPEROR’S CHILDREN
-                                                             RULES UPDATES
-This section presents updates and clarifications to your faction’s rules, designed to improve the gaming experience for all players.
-Changes applied after the first iteration of this Faction Pack will be highlighted in red.
-
-
-                                                                          Refusal to be Outdone Stratagem
-UPDATES                                                                   Change to:
-                                                                          ‘WHEN: Your Charge phase, when a friendly EMPEROR’S CHILDREN
-CARNIVAL OF EXCESS DETACHMENT                                             CHARACTER unit within 12" of an engaged enemy unit declares a charge.
-Empyric Suffusion Enhancement                                             TARGET: That EMPEROR’S CHILDREN CHARACTER unit.
-Change to: 'EMPEROR’S CHILDREN model only. When you target this unit      EFFECT:
-with the Heroic Intervention stratagem, that use is -1 CP.'               ▪ Your unit can re-roll charge rolls.
-                                                                          ▪ Your unit must end that charge move engaged with one or more of
-Dark Apparitions Stratagem, Effect Section                                   those enemy units.’
+EMPEROR’S
+RULES
+This section presents updates and clarifications to your faction’s
+Changes applied after the first iteration of this Faction Pack will
+UPDATES
+CARNIVAL OF EXCESS DETACHMENT
+Empyric Suffusion Enhancement
+Change to: 'EMPEROR’S CHILDREN model only. When you target this
+with the Heroic Intervention stratagem, that use is -1 CP.'
+Dark Apparitions Stratagem, Effect Section
 Change 9" to 8".
-                                                                          DATASHEETS
-COTERIE OF THE CONCEITED DETACHMENT                                       Chaos Spawn, Scuttling Horrors Ability
-Armour of Abhorrence Stratagem, Effect Section                            Change to:
-Change to:                                                                'In your opponent's Movement phase, if an enemy unit ends a move
-Effect: ‘Until the attacking unit has finished making its attacks, each   within 8” of this unit, if this unit is not within Engagement Range of one
-time an attack targets your unit, worsen the Armour Penetration           or more enemy units, this unit can make a Normal move of up to 6”.'
-characteristic of that attack by 1.’
-                                                                          Chaos Terminators, Lethal Obsession Ability
-MERCURIAL HOST DETACHMENT                                                 Change to:
-Dark Vigour Stratagem, Target Section                                     'In your Shooting phase, after this unit has shot, you can use this ability.
-Change 9" to 8".                                                          If you do, select one enemy unit hit by those ranged attacks. Until the
-                                                                          end of the turn, when this unit declares a charge:
-PEERLESS BLADESMEN DETACHMENT                                             ▪ This unit can re-roll that charge roll.
-Faultless Opportunist Enhancement                                         ▪ This unit must end that charge move engaged with that enemy unit.
+COTERIE OF THE CONCEITED DETACHMENT
+Armour of Abhorrence Stratagem, Effect Section
 Change to:
-'You can target this unit with the Heroic Intervention stratagem,         Flawless Blades, Melee Weapons, Blissblade
-regardless of any other uses of that stratagem this phase. If you do:     Change A to '4'.
+Effect: ‘Until the attacking unit has finished making its attacks, each
+time an attack targets your unit, worsen the Armour Penetration
+characteristic of that attack by 1.’
+MERCURIAL HOST DETACHMENT
+Dark Vigour Stratagem, Target Section
+Change 9" to 8".
+PEERLESS BLADESMEN DETACHMENT
+Faultless Opportunist Enhancement
+Change to:
+'You can target this unit with the Heroic Intervention stratagem,
+regardless of any other uses of that stratagem this phase. If you do:
 ▪ That use is -1 CP.
-▪ That use does not prevent any uses of that stratagem on other units    Fulgrim, Keywords Section
-   this phase.'                                                           Add 'MOBILE'.
-
-RAPID EVISCERATION DETACHMENT                                             Heldrake
-On to the Next Stratagem, When and Target Sections                        ▪ Profile: Change M to 12", Sv to '3+' and OC to '-'.
-Change to:                                                                ▪ Keywords: Remove 'AIRCRAFT'.
+▪ That use does not prevent any uses of that stratagem on other units
+this phase.'
+RAPID EVISCERATION DETACHMENT
+On to the Next Stratagem, When and Target Sections
+Change to:
 ‘WHEN: End of the Fight phase. TARGET: One EMPEROR’S CHILDREN unit
-from your army that destroyed an enemy unit this phase, and one           Infractors, Melee Weapons, Power Sword
-friendly TRANSPORT it is able to embark within.                           Change Strength characteristic to ‘5’.
-
-Mechanised Murder Detachment Rule                                         Tormentors, Melee Weapons, Power Sword
-Change to:                                                                Change Strength characteristic to ‘5’.
+from your army that destroyed an enemy unit this phase, and one
+friendly TRANSPORT it is able to embark within.
+Mechanised Murder Detachment Rule
+Change to:
 ‘Each time an EMPEROR’S CHILDREN model from your army makes an
-attack, if it is a TRANSPORT model or disembarked from a TRANSPORT this   Chaos Land Raider and Chaos Rhino – Keywords Section
-turn, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.’             Add 'FRAME'.
-
+attack, if it is a TRANSPORT model or disembarked from a TRANSPORT
+turn, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.’
 SLAANESH’S CHOSEN DETACHMENT
 Vengeful Surge Stratagem, Effect Section
 Change to:
 'Your unit can make a surge move of up to D6". If your unit is not your
 army's Favoured Champions, you can re-roll the dice to determine the
 distance of that surge move.'
-FAQS
+CHILDREN
+UPDATES
+rules, designed to improve the gaming experience for all players.
+be highlighted in red.
+Refusal to be Outdone Stratagem
+Change to:
+‘WHEN: Your Charge phase, when a friendly EMPEROR’S CHILDREN
+CHARACTER unit within 12" of an engaged enemy unit declares a charge.
+TARGET: That EMPEROR’S CHILDREN CHARACTER unit.
+unit EFFECT:
+▪ Your unit can re-roll charge rolls.
+▪ Your unit must end that charge move engaged with one or more of
+those enemy units.’
+DATASHEETS
+Chaos Spawn, Scuttling Horrors Ability
+Change to:
+'In your opponent's Movement phase, if an enemy unit ends a move
+within 8” of this unit, if this unit is not within Engagement Range of one
+or more enemy units, this unit can make a Normal move of up to 6”.'
+Chaos Terminators, Lethal Obsession Ability
+Change to:
+'In your Shooting phase, after this unit has shot, you can use this ability.
+If you do, select one enemy unit hit by those ranged attacks. Until the
+end of the turn, when this unit declares a charge:
+▪ This unit can re-roll that charge roll.
+▪ This unit must end that charge move engaged with that enemy unit.
+Flawless Blades, Melee Weapons, Blissblade
+Change A to '4'.
+Fulgrim, Keywords Section
+Add 'MOBILE'.
+Heldrake
+▪ Profile: Change M to 12", Sv to '3+' and OC to '-'.
+▪ Keywords:  Remove 'AIRCRAFT'.
+Infractors, Melee Weapons, Power Sword
+Change Strength characteristic to ‘5’.
+Tormentors, Melee Weapons, Power Sword
+Change Strength characteristic to ‘5’.
+this Chaos Land Raider and Chaos Rhino – Keywords Section
+Add 'FRAME'.
+
+FAQS
 Q: While using the Coterie of the Conceited Detachment, if my WARLORD is
 not on the battlefield, can I use the Unbound Arrogance Stratagem?
 A: Yes, your pledge to Slaanesh would increase from 0 to 1.
-
 Q: Can the same enemy unit be affected by Noise Marines’ Terrifying
 Crescendo ability more than once, for multiple subtractions to its Battle-
 shock and Leadership tests?
 A: Yes.
-
 Q: While using the Carnival of Excess Detachment, for the purposes of
 the Daemonic Empowerment rule, if my unit already has a weapon with
 [SUSTAINED HITS] (e.g. Shalaxi Helbane’s Pavane of Slaanesh, which
 has [SUSTAINED HITS 3]), does an unmodified Hit roll of 5+ for such a
 weapon score a Critical Hit?
 A: Yes.
-
