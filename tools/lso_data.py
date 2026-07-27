@@ -311,7 +311,7 @@ MATCHUPS = [
          deploy="Navigator dome vs the drop; hold the Lancer to counter-charge the brick."),
     dict(key="great-value-imperial-fists", faction="Imperial Fists", archetype="'Great Value' — Emperor's Shield + Librarius Conclave (the LSO target)",
          prev="Target", verdict="COIN-FLIP", disp="Priority Assets (opp), you play Meatgrinder",
-         deciding="Unsaveable Sternguard Dev (full wound-reroll vs Oath) + sticky OC10 Intercessors + un-shockable OC22 Lysander Terminator brick + Armour of Contempt + a ~30-34 Oath-convergence alpha. Sisters 98-31 lesson: durable + sticky + volume.",
+         deciding="Unsaveable Sternguard Dev (full wound-reroll vs Oath) + sticky OC10 Intercessors + an OC22 Lysander Terminator brick (NOT battle-shock-immune, but Knights have no way to force a test) + Armour of Contempt + a ~30-34 Oath-convergence alpha. Sisters 98-31 lesson: durable + sticky + volume.",
          heist=["Navigator dome (12\" anti-Deep-Strike) blunts his Teleport-Homer / Land-Speeder deep-strike alpha.",
                 "BREAK the Oath convergence: Volcano/thermal the Land Speeders (deep-strike enablers) + the Sternguard FIRST; firepower-as-denial strips his soft OC.",
                 "Out-mobile the M5 bricks — his OC22 brick can't be everywhere; contest the objectives it isn't on with OC10 + the Lancer threatening his home.",
