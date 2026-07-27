@@ -1,0 +1,239 @@
+{
+ "_source": "stratagems grouped by DETACHMENT. PRIMARY = faction pack (_src=faction-pack); FALLBACK = 39k.pro JS bundle via pull_39k.py (_src=39k.pro) for strats/detachments the pack omits.",
+ "Biosanctic Broodsurge": {
+  "Gene-twisted Muscle": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **ABERRANTS**, **BIOPHAGUS** or **PURESTRAIN GENESTEALERS** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a **MONSTER** or **VEHICLE**, add 1 to the Wound roll.",
+   "lore": "The raw strength of those infused with the Patriarch’s distilled power is undeniable when directed against the foe’s hulking tools of tyranny.",
+   "_src": "39k.pro"
+  },
+  "Saintly Paroxysm": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit destroys a **GENESTEALER CULTS CHARACTER** model from your army.",
+   "target": "That destroyed **CHARACTER** model. You can use this Stratagem on that model even though it was just destroyed.",
+   "effect": "Roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds. If that **CHARACTER** model is an **ABOMINANT** or **PATRIARCH**, that enemy unit suffers 2D3 mortal wounds instead.",
+   "lore": "There are few more holy virtues in the cult’s eyes than to use one’s final act to lay low the oppressor.",
+   "_src": "39k.pro"
+  },
+  "Stimulated Bio-surge": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Charge phase.",
+   "target": "One **ABERRANTS**, **BIOPHAGUS** or **PURESTRAIN GENESTEALERS** unit from your army that has not declared a charge this phase.",
+   "effect": "Your unit has +2 to **charge rolls**.",
+   "lore": "Triggered by xenos bio-stimms flooding their bodies, when the cult’s predators spring their trap, the jaws close inescapably.",
+   "_src": "39k.pro"
+  }
+ },
+ "Final Day": {
+  "Avenge the Star Children": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight 1CP phase, just after an enemy unit has shot or fought.",
+   "target": "One Tyranids Character unit from your army that was destroyed by that enemy unit this phase. You can use this Stratagem on that unit even though it was just destroyed.",
+   "effect": "Until the end of the battle, each time a Genestealer Cults model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+   "_src": "faction-pack"
+  },
+  "Darting Attacks": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase or your Charge phase.",
+   "target": "One Tyranids unit from your army.",
+   "effect": "Until the end of the phase, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+   "_src": "faction-pack"
+  },
+  "Divine Imperative": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Charge phase, when a friendly Genestealer Cults unit within 12\" of a friendly engaged Tyranids unit declares a charge.",
+   "target": "That Genestealer Cults unit.",
+   "effect": "• Your unit has +1 to charge rolls. • You can use this part of this stratagem. If you do: • Your unit can re-roll charge rolls. • \u0007Your unit must end that charge move engaged with an enemy unit engaged with that friendly Tyranids unit.",
+   "_src": "faction-pack"
+  },
+  "Hyperferocity": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One Genestealer Cults unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re‑roll a Wound roll of 1. If one or more friendly Tyranids units are within 6\" of that enemy unit, you can re‑roll the Wound roll instead.",
+   "_src": "faction-pack"
+  },
+  "Psi Surge": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Start of any phase.",
+   "target": "One Tyranids unit from your army.",
+   "effect": "Until the start of your next Command phase, increase the range of your unit’s Catalyst ability by 3\".",
+   "restrictions": "Each time you use this Stratagem, until the end of your next Command phase, you cannot use this Stratagem again.",
+   "_src": "faction-pack"
+  },
+  "Resistance Tunnels": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your opponent’s Movement phase.",
+   "target": "Select one of those Cult Ambush markers.",
+   "effect": "Until the end of the phase, you can set up your unit on the battlefield without using a Cult Ambush marker. When doing so, set your unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.’ Tireless Fervour Stratagem, Effect Section Change to: ▪ '\u0007 If your unit made an advance/fall-back move this turn, that advance/fall-back move does not prevent your unit from being eligible to declare a charge. ▪ \u0007When your unit declares a charge, you can use this part of this stratagem. If you do: ▫ \u0007Your unit can re-roll charge rolls. ▫ \u0007Your unit must end that charge moveengaged with an enemy unit engaged with a friendly CHARACTER unit.' Deeds That Speak to the Masses Enhancement Change to: ‘MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You start the battle with 2 additional Resurgence points.’ is DATASHEETS Biophagus, Clamavus, Locus, Nexos – Core Abilities Section Remove 'Leader', add 'Support'. Biophagus, Unit Composition, Wargear Change to: ‘This model is equipped with: autopistol; chemical vials; injector goad; alchemicus familiar.’ Acolyte Hybrids with Hand Flamers, Ranged Weapons Change the Range characteristic of demolition charges to ‘8\"’. Acolyte Iconward, Summon the Cult Ability Change 9\" to 8\". Goliath Rockgrinder, Ranged Weapons Change the Range characteristic of demolition charge cache to ‘8\"’. Goliath Truck, Ranged Weapons Change the Range characteristic of demolition charge cache to ‘8\"’. Hybrid Metamorphs, Brood Surge Ability Change to: 'In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\".' Kelermorph, Hypersensory Abilities Change to: ‘Once per turn, in your opponent’s Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase and then make a Normal move of up to D6\" (it cannot embark within a Transport as part of this move). Nexos, Abilities, Battlefield Analysis Change to: ‘Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.’ Primus, Cult Demagogue Ability up Change to: ‘While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll.’ Reductus Saboteur ▪ Demolition Charges: Change Range characteristic to ‘8\"’. ▪ Planted Explosives Ability: Change 9\" to 8\". Sanctus ▪ \u0007Creeping Shadow Ability Change to: 'If this model is equipped with a Cult Sniper Rifle, In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6”.' ▪ \u0007Cloaked Assassin Ability, Second Sentence Change to: 'Enemy units cannot target this unit with snap shooting attacks.' Goliath Rockgrinder, Goliath Truck – Keywords Section Add 'FRAME'. FAQS Q: If I include Kasrkin units in my army using the rules for Brood Brothers, can I use their Warrior Elite ability to select an Order for them in my Command phase? A: Yes. Q: When I set up a unit using the Cult Ambush army rule without using a Cult Ambush marker, can I target that unit with the Tunnel Crawlers Stratagem? A: Yes. Q: If one of my CHARACTER models is destroyed, do I need to have another GENESTEALER CULTS CHARACTER model on the battlefield or in Reserves to use the Vengeance for the Martyr! Stratagem? A: Yes. Q: Do I have to remove ‘unused’ Cult Ambush markers from the battlefield at the end of my opponent’s next Movement phase? A: No. Q: If I have no units in Cult Ambush, do I have to remove any remaining Cult Ambush markers from the battlefield? A: No. Q: When setting up a unit using the Cult Ambush army rule, if my opponent has an ability that places restrictions on where my Reserves units can be set up (e.g. a Space Marine Infiltrator Squad’s Omni-scramblers ability), do I have to meet those restrictions when setting up my unit (e.g. for Omni-scramblers, not within 12” of that Infiltrator Squad)? A: Yes. TECTONIC FRAGDRILL M T SV W LD OC - 11 3+ 14 7+ 0 MELEE WEAPONS RANGE A WS S AP Fragdrill Melee 6 6+ 12 -2 FORTIFICATION While an enemy unit is only within Engagement Range of one or more Fortifications from your army: ■ \u0007That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. ■ \u0007Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so. KEYWORDS: Fortification, Vehicle, Frame, Tectonic Fragdrill WA R HA M M E R L E G E N D S D ABILITIES D6 CORE: Deadly Demise D3 Tectonic Fragdrill: Friendly Genestealer Cult Infantry models can be set up or end any type of move on top of the floor sections of this Fortification. Underground Egress: Each time one of your Cult Ambush markers is removed as the result of an enemy unit ending any kind of move within 8\" of it, you can instead move that marker so that it is wholly within 8\" of this Fortification and more than 8\" horizontally away from all enemy units (if this is not possible, that marker is removed as normal). Manufactorum Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack. FACTION KEYWORDS: Genestealer Cults TECTONIC FRAGDRILL WARGEAR OPTIONS ■ None KEYWORDS: Fortification, Vehicle, Frame, Tectonic Fragdrill WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Tectonic Fragdrill This model is equipped with: fragdrill. FACTION KEYWORDS: Genestealer Cults",
+   "_src": "faction-pack"
+  }
+ },
+ "Heroes of the Uprising": {
+  "Living Up to Legend": {
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase, when a friendly KILLER unit has attacked, if those attacks destroyed an enemy unit or an enemy CHARACTER model.",
+   "target": "That KILLER unit.",
+   "effect": "Each visible friendly battle-shocked GENESTEALER CULTS unit within 12\" of your unit is no longer battle-shocked.",
+   "_src": "faction-pack"
+  },
+  "Loyal to the End": {
+   "cp": 1,
+   "when": "Fight phase, when an enemy unit targets a friendly KILLER unit.",
+   "target": "That KILLER unit.",
+   "effect": "When a KILLER model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6: ▪ On a 1, that enemy unit suffers 1 mortal wound. ▪ \u0007On a 2+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield. UNIQUE: PURESTRAIN PURESTRAIN PURESTRAIN BROODS ARE UNLEASHED EN MASSE TO TEAR THE DETACHMENT RULES ENEMY WITHIN Genestealers on the hunt combine malevolent cunning and inhuman agility to strike and fade again and again, until their prey are reduced to panicked disarray. At the end of your opponent’s Fight phase, friendly unengaged PURESTRAIN GENESTEALER units can be placed in strategic reserves. This detachment has the PURESTRAIN tag and cannot be taken with another PURESTRAIN detachment. ENHANCEMENTS MARK OF THE STAR CHILDREN UPGRADE Spontaneous biomorphs amongst this brood of Purestrains render them bigger, stronger, and mark them out as surely being the chosen of the Star Children themselves. PURESTRAIN GENESTEALERS unit only. This unit has: ▪ \u0007+1 T. ▪ \u00074+ Sv. ▪ \u0007This unit’s melee attacks have +1 S. TALONS OF THE SIRE The broodmind bond between this Patriarch and its Purestrain spawn is so strong that it can virtually wield them like its own vicious talons. PATRIARCH model only. This unit’s attacks can re‑roll wound rolls of 1. BROODSWARM HEART FROM THE ENEMY ARMY",
+   "_src": "faction-pack"
+  },
+  "Surging Broodworship": {
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase, when a friendly KILLER unit is selected to attack.",
+   "target": "That KILLER unit.",
+   "effect": "Attacks made by KILLER models in your unit have [DEVASTATING WOUNDS].",
+   "_src": "faction-pack"
+  }
+ },
+ "Host of Ascension": {
+  "A Deadly Snare": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Charge phase, just after an enemy unit declares a charge.",
+   "target": "One **GENESTEALER CULTS INFANTRY** unit from your army that was selected as a target of that charge.",
+   "effect": "Roll one D6: on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5+, that enemy unit suffers 3 mortal wounds.",
+   "lore": "An enemy’s fervour to strike down the faithful of the cult can be turned against them, luring the foe into a region laced with hidden traps and primed explosives.",
+   "_src": "39k.pro"
+  },
+  "Coordinated Trap": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "The start of your Shooting phase or the start of the Fight phase.",
+   "target": "Two **GENESTEALER CULTS** units from your army that have not been selected to shoot or fight this phase.",
+   "effect": "Select one enemy unit (if this Stratagem is used in the Fight phase, that enemy unit must be within Engagement Range of both of your units). Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, add 1 to the Wound roll.",
+   "lore": "A tenet of guerrilla warfare is the concentration of even inferior firepower to inflict maximum harm.",
+   "_src": "39k.pro"
+  },
+  "Primed and Readied": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **GENESTEALER CULTS** units from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.",
+   "lore": "The broodkin have been trained and equipped for this moment, with weapons readied for Ascension.",
+   "_src": "39k.pro"
+  },
+  "Return to the Shadows": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One **GENESTEALER CULTS INFANTRY** unit from your army that is not within Engagement Range of one or more enemy units.",
+   "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+   "lore": "With their task of drawing the oppressors’ fire complete, the surviving cultists melt away, ready to strike again.",
+   "_src": "39k.pro"
+  }
+ },
+ "Outlander Claw": {
+  "Deft Manoeuvring": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One **ACHILLES RIDGERUNNERS** or **ATALAN JACKALS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+   "lore": "Serpent-fast, jinking and swerving with incredible skill, the cult’s light vehicles appear to slide through the oppressor’s gunfire.",
+   "_src": "39k.pro"
+  },
+  "Devoted Crew": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **GOLIATH ROCKGRINDER** or **GOLIATH TRUCK** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.",
+   "lore": "With evasive manoeuvres and split-second repairs, Outlander Claws marshal their rugged vehicles through the worst the foe can throw at them.",
+   "_src": "39k.pro"
+  }
+ },
+ "Purestrain Broodswarm": {
+  "Crawling Horror": {
+   "cp": 1,
+   "when": "Start of your opponent’s Movement phase.",
+   "target": "One friendly PURESTRAIN GENESTEALERS unit.",
+   "effect": "Your unit has ‑6\" detection range until the end of the turn.",
+   "_src": "faction-pack"
+  },
+  "Inhuman Reactions": {
+   "cp": 1,
+   "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged PURESTRAIN GENESTEALERS unit.",
+   "target": "That PURESTRAIN GENESTEALERS unit.",
+   "effect": "Your unit can make a normal move of up to D3+3\". UNIQUE: HOSTS XENOCULT MASSES MASSED BROODS OF NEOPHYTE HYBRIDS USE GUERRILLA TACTICS DETACHMENT RULES HORDES OF THE FAITHFUL More and yet more Neophytes surge from tunnel mouths, mine entrances and derelict fortifications, drowning the foe in a tide of fanatical killers. In your Command phase, if a friendly NEOPHYTE HYBRIDS unit is within a terrain area, that unit heals 3 wounds. This detachment has the HOSTS tag and cannot be taken with another HOSTS detachment. ENHANCEMENTS INSPIRED TO GREATNESS Fighting under the eyes of the very leaders of their cult, the faithful are gripped by an unwavering determination to excel in battle. MAGUS/PRIMUS model only. This unit’s attacks can re‑roll damage rolls. DEVIOUS DISGUISES UPGRADE Whether it be stolen uniforms, ad‑hoc camouflage or even some chameleonic xenomutation, these Neophytes are able to blend into their surroundings. NEOPHYTE HYBRIDS unit only. This unit has -3\" detection range. TO UNDERMINE THEIR ENEMIES",
+   "_src": "faction-pack"
+  },
+  "Lurk and Strike": {
+   "cp": 1,
+   "when": "Your Movement phase, when a friendly PURESTRAIN GENESTEALERS unit is selected to make a fall‑back move.",
+   "target": "That PURESTRAIN GENESTEALERS unit.",
+   "effect": "That move does not prevent your unit from being eligible to declare a charge.",
+   "_src": "faction-pack"
+  }
+ },
+ "Xenocreed Congregation": {
+  "Frenzied Devotion": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** or **NEOPHYTE HYBRIDS** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, improve the Attacks and Weapon Skill characteristics of melee weapons equipped by models (excluding **CHARACTERS**) in your unit by 1 and those weapons have the **[HAZARDOUS]** ability.",
+   "lore": "The faithful will gladly hurl themselves into harm’s way, frenziedly dragging the foe down.",
+   "_src": "39k.pro"
+  },
+  "Transcendent Celerity": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** or **NEOPHYTE HYBRIDS** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the **[ASSAULT]** ability.",
+   "lore": "Owing to their hypersensory reactions, the cult’s rate of fire increases.",
+   "_src": "39k.pro"
+  },
+  "Vengeance for the Martyr!": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit destroys a **GENESTEALER CULTS CHARACTER** model from your army.",
+   "target": "One other **GENESTEALER CULTS CHARACTER** model from your army.",
+   "effect": "Until the end of the battle, each time a friendly **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** or **NEOPHYTE HYBRIDS** model makes an attack that targets that enemy unit, re-roll a Hit roll of 1. If the destroyed model was a **MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD**, you can re-roll the Hit roll instead.",
+   "lore": "Should one of the Patriarch’s inner coven fall, those that remain are swift to call for lethal retribution.",
+   "_src": "39k.pro"
+  }
+ },
+ "Xenocult Masses": {
+  "Eyes of the Cult": {
+   "cp": 1,
+   "when": "Start of your Shooting phase.",
+   "target": "One friendly NEOPHYTE HYBRIDS unit within a terrain area.",
+   "effect": "Enemy units within that terrain area have +6\" detection range.",
+   "_src": "faction-pack"
+  },
+  "Fanatical Hail": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly NEOPHYTE HYBRIDS unit is selected to shoot.",
+   "target": "That NEOPHYTE HYBRIDS unit.",
+   "effect": "Select one enemy unit. Your unit’s ranged attacks that target that enemy unit can re‑roll hit rolls.",
+   "_src": "faction-pack"
+  },
+  "Slunk From the Underbelly": {
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly NEOPHYTE HYBRIDS unit with every model within a terrain area.",
+   "target": "That NEOPHYTE HYBRIDS unit.",
+   "effect": "Ranged attacks that target your unit have -1 AP until that unit has attacked. FINAL DAY Every Genestealer Cultist wishes to witness blessed oneness. They believe this will be a devotion. The reality is altogether more utterly alien Hive Mind assimilates the more from psionic shock. Others are freed from truth is revealed. The rest become short‑lived organisms descending on their world. Exerting the Hive Mind swiftly burns out these surviving reinvigorate its more valuable Tyranid organisms. DETACHMENT RULE PSIONIC PARASITISM With each tug on the synaptic leash, the Hive Mind drains more of its hapless worshippers. At the end of your Movement phase, for each Tyranids Synapse unit from your army, you can select one friendly Genestealer Cults unit (excluding Purestrain Genestealer and Patriarch units) and one friendly Tyranids unit each within 9\" of and visible to that Synapse unit. If you do, that Genestealer Cults unit from your army suffers D3+1 mortal wounds and one model in the selected Tyranids unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected Tyranids unit makes an attack, add 1 to the Hit roll. Tyranids units from your army have the following ability: Catalyst (Aura): While an enemy unit is within 6\" of this unit, each time a friendly Genestealer Cults unit makes an attack that targets that enemy unit, add 1 to the Hit roll. THE STAR CHILDREN’S BLESSINGS\b You can include Tyranids Vanguard Invader units (excluding Aircraft, Broodlord and Genestealers units) in your army. The combined points cost of such units depends on your battle size: ■ Incursion: Up to 500 pts ■ Strike Force: Up to 1000 pts ■ Onslaught: Up to 1500 pts 5 No Tyranids models from your army can be your Warlord. the Star Children’s arrival and ascend to join them in transcendent experience, a sublime reward for their hideous. As the Tyranids approach through the void, the nuanced Broodmind of the cult. Many faithful die Tyranid mind control only to go mad with horror as the puppets for the first waves of Tyranid vanguard its will to make them fight harder and move faster, faithful, harvesting each flicker of bioenergy to ENHANCEMENTS\b SYNAPTIC AUGER Invisible psionic tendrils drift around this bioform’s cranium, stabbing out to force alien demands into fragmenting hybrid minds and suck the bioenergy from them in merciless draughts. Tyranids model only. Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead. ENRAPTURED DAMNATION Though hollowing them out like acid, the insidious power of the Hive Mind blazes from this delirious fanatic and forces their enemies to recoil. Genestealer Cults model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit. VANGUARD TYRANT Adapted by the Hive Mind to lead the first invasion swarms, this leader organism’s bioweapons emphasise vicious shock assault and maximum bloodshed. Winged Hive Tyrant model only. Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1. INHUMAN INTEGRATION This cult leader’s powerful psyche has withstood Hive Mind integration better than most, at least for now. It even relays a crude approximation of synaptic signals to their underlings. Of course, this only makes them and their followers more selflessly obedient drones. Genestealer Cults model only. Weapons equipped by models in the bearer’s unit have the [SUSTAINED HITS 1] ability while targeting an enemy unit within 6\" of one or more friendly Tyranids units.",
+   "_src": "faction-pack"
+  }
+ }
+}

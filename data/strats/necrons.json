@@ -1,0 +1,436 @@
+{
+ "_source": "stratagems grouped by DETACHMENT. PRIMARY = faction pack (_src=faction-pack); FALLBACK = 39k.pro JS bundle via pull_39k.py (_src=39k.pro) for strats/detachments the pack omits.",
+ "Awakened Dynasty": {
+  "Protocol of the Conquering Tyrant": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **NECRONS** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within half range, re-roll a Hit roll of 1. If a **NECRONS CHARACTER** is leading your unit, until the end of the phase, you can re-roll the Hit roll for that attack instead.",
+   "lore": "The legions employ the strategies of their masters in perfect synchronicity, laying down hails of mechanically coordinated fire.",
+   "_src": "39k.pro"
+  },
+  "Protocol of the Eternal Revenant": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Any phase.",
+   "target": "One **NECRONS INFANTRY CHARACTER** model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+   "effect": "At the end of the phase, set up the **destroyed** model on the battlefield, **unengaged** and as close as possible to where it was **destroyed**. That model is not part of an **attached** unit and its unit has a **starting strength** of 1. That model has half of its starting number of wounds remaining.",
+   "lore": "Necron rulers possess enhanced self-repair systems.",
+   "_src": "39k.pro"
+  },
+  "Protocol of the Hungry Void": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **NECRONS** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by models in your unit. In addition, if a **NECRONS CHARACTER** is leading your unit, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 (this is not cumulative with any other modifiers that improve Armour Penetration).",
+   "lore": "Necrons strike with data-augmented accuracy.",
+   "_src": "39k.pro"
+  },
+  "Protocol of the Sudden Storm": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase.",
+   "target": "One **NECRONS** unit from your army.",
+   "effect": "Until the end of the turn, ranged weapons equipped by models in your unit have the **[ASSAULT]** ability. In addition, if a **NECRONS CHARACTER** is leading your unit, until the end of the phase, you can re-roll Advance rolls made for your unit.",
+   "lore": "Arcing energies leap from one Necron to the next, lending them unnatural speed and surety.",
+   "_src": "39k.pro"
+  },
+  "Protocol of the Undying Legions": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.",
+   "target": "One **NECRONS** unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
+   "effect": "Your unit activates its Reanimation Protocols and reanimates D3 wounds (or D3+1 wounds if a **NECRONS CHARACTER** is leading your unit).",
+   "lore": "Nanoscarabs are released in boiling black clouds that whirl about the legions and effect rapid repairs.",
+   "_src": "39k.pro"
+  }
+ },
+ "Canoptek Court": {
+  "Curse of the Cryptek": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has shot or fought.",
+   "target": "One **CRYPTEK** model from your army that was destroyed by one of the attacking unit’s attacks. You can use this Stratagem on that model even though it was just destroyed.",
+   "effect": "Until the end of the battle, each time a friendly **CANOPTEK** model makes an attack that targets the attacking unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+   "lore": "Vindictive Crypteks often hardwire vengeance subprotocols into the ancient cores of their unliving servants, by which a last act of reprisal is assured.",
+   "_src": "39k.pro"
+  },
+  "Cynosure of Eradication": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "The start of your Shooting phase or the start of the Fight phase.",
+   "target": "One **CRYPTEK** or **CANOPTEK** unit from your army that is wholly within your army’s Power Matrix.",
+   "effect": "Until the end of the phase, weapons equipped by **CRYPTEK** or **CANOPTEK** models in your unit have the **[DEVASTATING WOUNDS]** ability.",
+   "lore": "Only the foolish tread where a Cryptek has set their sights, for these arcane scientists will suffer no threat to their works.",
+   "_src": "39k.pro"
+  },
+  "Suboptimal Facade": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
+   "target": "One **CANOPTEK** unit from your army that was selected as a target of that charge and is wholly within your army’s Power Matrix.",
+   "effect": "Your unit’s Reanimation Protocols activate.",
+   "lore": "Canoptek constructs use sophisticated metalogic to craft sinister ambushes. Luring the foe in by appearing at suboptimal operation, a surge of reanimation protocols suddenly swells their numbers.",
+   "_src": "39k.pro"
+  }
+ },
+ "Cryptek Conclave": {
+  "Animus Curse": {
+   "type": "wargear",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight 1CP phase, just after an enemy unit has shot or fought.",
+   "target": "One Cryptek model from your army that was destroyed by one of the attacking unit’s attacks. You can use this Stratagem on that model even though it was just destroyed.",
+   "effect": "Until the end of the battle, each time a friendly Necrons model makes an attack that targets the attacking unit, you can re‑roll the Hit roll.",
+   "_src": "faction-pack"
+  },
+  "Microscarab Swarm": {
+   "type": "wargear",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected 1CP its targets.",
+   "target": "One Cryptek Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "If your unit has the Necron Warriors keyword, until the end of the phase, models in your unit have a 5+ invulnerable save. If your unit has the Immortals keyword, until the end of the phase, models in your unit have a 4+ invulnerable save.",
+   "_src": "faction-pack"
+  },
+  "Molecular Targeting": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase. 1CP",
+   "target": "One Necrons unit from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack’s Ballistic Skill or Weapon Skill characteristic; the Hit roll. If your unit has the Cryptek keyword, you can also ignore any or all modifiers to the Wound roll.",
+   "_src": "faction-pack"
+  },
+  "Potentiality Syphon": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Command phase.",
+   "target": "One Necrons unit from your army within range of one or more objective markers.",
+   "effect": "Your unit’s Reanimation Protocols activate. If it is a Cryptek unit, it reanimates an additional 1 wound. CURSED The cursed legion of Nekrosor Ammentar are avatars of death, a fanatical host through spread unchecked. Those gripped by the and vigorous in their efforts to forcibly inflict service. Entire phalanxes of android soldiery in their ocular lenses. Even the lowliest kill with nightmarish speed and efficiency cursed legion swell with new converts, and the bloodier. DETACHMENT RULE COLD FERVOUR The fury of the Destroyers and – by extension – of the cursed legion is not a wild or reckless thing. It is rather a ruthlessly methodical annihilation of the enemy, in which the Destroyers take the lead while ripples of their strange madness roll out to infect nearby Necrons and goad them, too, to greater efforts of tireless murder. ■ \u0007Add 2 to the Strength characteristic of weapons equipped by Destroyer Cult models from your army. ■ \u0007The first time each turn that a Destroyer Cult unit from your army makes attacks that destroy a unit or cause it to become Below Half‑strength, after that unit has finished resolving its attacks, until the end of the turn, add 2 to the Strength characteristic of weapons equipped by friendly Necrons models (excluding Destroyer Cult, Monster and Titanic models). LEGION sweeps across the stars like some android plague. They whose ranks the Destroyer madness is allowed to madness are fanatical in their devotion to the Nekrosor their blessed curse upon the lower ranks in their surge into battle with a sickly, killing light dancing Warriors fight with cold ferocity, while the Destroyers born of zeal. With every conflict the ranks of the the trail of carnage they leave in their wake grows all ENHANCEMENTS\b DESTROYER ANKH Though it resembles a typical ankh, this chest piece fills its host with an insatiable need to exterminate the foe. Catacomb Command Barge or Overlord model only. The bearer has the Destroyer Cult keyword. Add 2\" to the Move characteristic of models in the bearer’s unit and add 2 to the Attacks characteristic of melee weapons equipped by the bearer. MURDERMIND Consumed by the Destroyer madness, this Cryptek’s powerful intellect is turned entirely toward killing. Cryptek model only. The bearer has the Destroyer Cult keyword. Add 3\" to the Move characteristic of the bearer. MARK OF THE NEKROSOR The malevolent madness of Ammentar itself burns in the minds of this warrior and their comrades. Destroyer Cult model only. Each time a model in the bearer’s unit makes an attack, add 1 to the Hit roll. CURSED CIRCLET This band of living metal sinks into the bearer’s brow and floods their neural cortex with a murderous urge. Destroyer Cult model only. In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed by those attacks, this unit can make a surge move of up to D6\".",
+   "_src": "faction-pack"
+  },
+  "Synergistic Empowerment": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Start of your Shooting phase.",
+   "target": "One Cryptek unit from your army.",
+   "effect": "Select one friendly Necrons model (excluding Monsters and Vehicles) within 12\" of a Cryptek model in your unit. Until the end of the phase, that friendly Necrons model has the Cryptek keyword.",
+   "_src": "faction-pack"
+  },
+  "Untapped Power": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One Cryptek unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, each time your unit is selected to shoot, when selecting an ability for the Techno‑sorcerous Augmentations Detachment Rule, you can select one additional ability from those available.",
+   "_src": "faction-pack"
+  }
+ },
+ "Cursed Legion": {
+  "Driven to Butchery": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase or your Charge phase. 1CP",
+   "target": "One Destroyer Cult unit from your army.",
+   "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+   "restrictions": "You can only use this Stratagem once per turn.",
+   "_src": "faction-pack"
+  },
+  "Image of Death": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the 1CP Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One Destroyer Cult unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+   "_src": "faction-pack"
+  },
+  "Methodical Murder": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One Necrons unit (excluding Monsters 1CP and Vehicles) from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability.",
+   "_src": "faction-pack"
+  },
+  "Mortis Protocols": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase, just 1CP after the first time a Destroyer Cult unit from your army destroys an enemy unit this turn.",
+   "target": "One friendly Necrons unit (excluding Monsters and Vehicles) within 9\" of that Destroyer Cult unit.",
+   "effect": "The friendly unit’s Reanimation Protocols activate.",
+   "_src": "faction-pack"
+  },
+  "Spreading Madness": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Charge phase.",
+   "target": "One Necrons unit (excluding Monsters and Vehicles) from your army that has not declared a charge this phase.",
+   "effect": "Until the end of the phase, each time your unit declares a charge, if one or more targets of that charge are within Engagement Range of one or more friendly units, add 2 to the Charge roll.",
+   "_src": "faction-pack"
+  },
+  "Unnatural Aggression": {
+   "type": "strategicPloy",
+   "cp": 2,
+   "when": "End of your opponent’s Charge phase.",
+   "target": "One Necrons unit (excluding Monsters and Vehicles) from your army that is within 6\" of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units if it were your Charge phase.",
+   "effect": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn. PANTHEON To unleash such a power is a strategy of shards released from tesseract oubliettes Necrons employ powerful mechanisms it is a risk deploying even one such fettered its bonds and go on the rampage. battlefield, meanwhile, has a warping Crypteks using complex necrodermal For all this, the sheer cosmic devastation breathtaking to behold. DETACHMENT RULE COSMIC DISTORTION The quantum dissonance and molecular erosion caused by multiple C’tan shards in close proximity is enough to fray the very physical being of the foe at an atomic level. Necrons Monster units from your army have the following ability: Distortion Fields (Aura): While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1. At the start of each phase, for each Necrons Monster unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\". Designer’s Note: If your army contains more than one Transcendent C’tan unit, each of those units must take the Reletavistic Tether ability. RESTRICTIONS\b When mustering your army, each Necrons Monster unit from your army has the relevant Necrodermal Binding ability shown on the right, and you must increase the points cost of each of those units by the amount shown in the Munitorum Field Manual. If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army. OF WOE last resort for most Necrons, for it sees multiple C’tan and hurled into the heart of the foe. Though the to control the shattered remains of the star gods, still abomination amidst the mayhem of war lest it slip Concentrating the power of multiple shards upon a single effect upon reality itself, and requires the efforts of skilled bindings to prevent the C’tan shards from breaking free. unleashed by several shards on a single battlefield is NECRODERMAL BINDING ABILITIES\b SINGULARITY MATRIX This eldritch device fetters and directs the Deceiver’s powers within a vortex that devours lesser wits entirely. C’tan Shard of the Deceiver model only. This model has the following ability: Lord of Deceit (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP. QUANTUM GOAD The energies of this binding latch onto enemy targets and shunt the shard into alignment with them. C’tan Shard of the Nightbringer model only. This model is eligible to declare a charge in a turn in which it Advanced. ANIMUS DAMPER This device bleeds off the Void Dragon shard’s energies and earths them violently through nearby machines. C’tan Shard of the Void Dragon model only. Once per turn, at the start of your opponent’s Shooting phase, select one enemy Vehicle unit visible to the bearer. That unit must take a Leadership test. Until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll and, if that Leadership test was failed, subtract 1 from the Wound roll as well. RELETAVISTIC TETHER This binding uses atomic resonance magnetism to compel the shard into the midst of the foe. Transcendent C’tan model only. In your turn, when this unit makes an ingress/advance move using its Transdimensional Displacement ability, this unit can end that move more than 6\" horizontally from all enemy units. When this unit ends that move within 8\" of an enemy unit, this unit is not eligible to declare a charge until the end of the turn.",
+   "_src": "faction-pack"
+  }
+ },
+ "Hand of the Dynasty": {
+  "Dominance Protocols": {
+   "cp": 1,
+   "when": "Command phase.",
+   "target": "One friendly IMMORTALS unit.",
+   "effect": "Your unit has +1 OC until the end of the turn.",
+   "_src": "faction-pack"
+  },
+  "Nanosaturation": {
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly IMMORTALS/NECRON WARRIORS unit has shot.",
+   "target": "That IMMORTALS/NECRON WARRIORS unit.",
+   "effect": "Your unit shoots using snap shooting, but while doing so your unit can only target that enemy unit. SKYSHROUD LIKE A PLAGUE FROM ANCIENT MYTH, MURDEROUS GRAV‑SKIMMING DETACHMENT RULES TRANSDIMENSIONAL DEPLOYMENT Transported to the battlefield via dimension-shifting technologies, Tomb Blades materialise in crackling fields of energy and strafe unprepared targets, often to devastating effect. ▪ Friendly TOMB BLADES units have Deep Strike. ▪ \u0007When a friendly TOMB BLADES unit is selected to shoot, if that unit made an ingress move this turn, that unit’s ranged attacks have +1 to hit rolls. ENHANCEMENTS RECURSIVE REANIMATION UPGRADE Ancillary reclamators capture the molecular matter of these Tomb Blades even as it is blasted apart, drawing it in a swirling comet trail behind them and working it back into their physical forms. TOMB BLADES unit only. When this unit activates its Reanimation Protocols, +1 to the roll. DEEPENING MADNESS UPGRADE Like some echo of the Nekrosor’s own murder‑madness, a coldly efficient kill‑frenzy grips these Lokhust Destroyers so that – even as they streak into battle – they lay down one ferocious volley of fire after another. DESTROYER CULT MOUNTED unit only. This unit’s ranged attacks have [ASSAULT]. SPEARHEAD NECRON SWARMS FILL THE SKIES",
+   "_src": "faction-pack"
+  },
+  "Will of the Conqueror": {
+   "cp": 1,
+   "when": "End of your Movement phase.",
+   "target": "One friendly IMMORTALS/NECRON WARRIORS unit.",
+   "effect": "Select one objective your unit is controlling. That objective is secured.",
+   "_src": "faction-pack"
+  }
+ },
+ "Hypercrypt Legion": {
+  "Dimensional Corridor": {
+   "type": "strategicPloy",
+   "cp": 2,
+   "when": "Your Charge phase.",
+   "target": "One **NECRONS** unit from your army that was set up on the battlefield this turn using the Eternity Gate ability of a **MONOLITH** model that started the turn on the battlefield.",
+   "effect": "Your unit is eligible to charge this phase.",
+   "lore": "As the tomb’s warriors pass through a dimensional displacement corridor, the passage’s surface is lit with data-glyphs providing hyperlogical tactical information. When they step from an eternity gate, they are already prepared for the hunt.",
+   "_src": "39k.pro"
+  },
+  "Quantum Deflection": {
+   "type": "wargear",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **NECRONS VEHICLE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+   "lore": "Necron quantum shielding is a true marvel of techno-arcana. Channelled with energy reserves from the rising tomb structures, the shielding is capable of adaptive remodulation to diffuse and deflect the most powerful enemy attacks.",
+   "_src": "39k.pro"
+  },
+  "Reanimation Crypts": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Command phase.",
+   "target": "Your **NECRONS WARLORD**.",
+   "effect": "For each of your **NECRONS** units in Reserves, that Reserves unit’s Reanimation Protocols activate.",
+   "lore": "There is no rest for Necrons who fall in the service of their master. In dark crypts, their bodies are repaired and they are dispatched once more to war.",
+   "_src": "39k.pro"
+  }
+ },
+ "Obeisance Phalanx": {
+  "Enslaved Artifice": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **NECRONS** unit from your army (excluding **TITANIC** units) that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+   "lore": "It is not only android soldiery that be compelled to serve. With a command, prized war engines and ornate weapons are empowered to hyperlethality.",
+   "_src": "39k.pro"
+  },
+  "Nanoassembly Protocols": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **NECRONS VEHICLE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+   "lore": "A tomb world’s war engines are the pride of its nobility and they will suffer no affront to them, demanding the reassembly of slablike armour atom by atom even as the foe seek to sunder the vehicles.",
+   "_src": "39k.pro"
+  },
+  "Sentinels of Eternity": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **LYCHGUARD** or **TRIARCH PRAETORIANS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making attacks, and is then removed from play.",
+   "lore": "Lychguard never tire, nor give a thought to their own safety over that of their master. With parrying blows and blocking shots they protect their liege even as they continue to strike down their opponents.",
+   "_src": "39k.pro"
+  },
+  "Suffer No Rival": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **LYCHGUARD** or **TRIARCH** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the **[PRECISION]** ability.",
+   "lore": "Few enemy are worthy of a duel. What dangerous vermin are encountered are prioritised for execution to safeguard the nobles’ honour.",
+   "_src": "39k.pro"
+  },
+  "Territorial Obsession": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Command phase.",
+   "target": "One **LYCHGUARD** or **TRIARCH** unit from your army.",
+   "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. If your unit has the **VEHICLE** keyword, add 3 to the Objective Control characteristic instead.",
+   "lore": "The ancient and arrogant will of the nobility drives their powerful servants to stand their ground defiantly as they claim the dynasty’s rightful lands.",
+   "_src": "39k.pro"
+  },
+  "Your Time Is Nigh": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Any phase, just after your opponent’s **WARLORD** is destroyed.",
+   "target": "Your **NECRONS WARLORD**.",
+   "effect": "Until the end of the battle, each time an enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.",
+   "lore": "With a pulse of necroneural energy that erodes the foe’s will, the Necron commander declares the fall of the enemy general, promising their remaining forces that it is only a matter of time until they join their master in ignoble death.",
+   "_src": "39k.pro"
+  }
+ },
+ "Pantheon of Woe": {
+  "Chronodistortion": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One Necrons unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 if the attacking unit is unravelling: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+   "_src": "faction-pack"
+  },
+  "Disharmonisation Cascade": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Any phase, just after a Necrons Monster model from your army is destroyed, before making its Deadly Demise roll.",
+   "target": "That Necrons Monster model. You can use this Stratagem on that model even though it was just destroyed.",
+   "effect": "Until the end of the phase, your model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6.",
+   "_src": "faction-pack"
+  },
+  "Entrophasic Aura Targeting": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase. 1CP",
+   "target": "One Necrons unit (excluding Monsters) from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re‑roll a Hit roll of 1. If the target of that attack is unravelling, re‑roll a Wound roll of 1 as well.",
+   "_src": "faction-pack"
+  },
+  "Mass Transmogrification": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase, 1CP just after a Necrons Monster unit from your army destroys an enemy unit.",
+   "target": "One friendly Necrons unit (excluding Monsters) within 6\" of that Monster unit.",
+   "effect": "If that enemy unit was unravelling at the start of the phase, your friendly unit’s Reanimation Protocols activate.",
+   "restrictions": "You can only use this Stratagem once per turn.",
+   "_src": "faction-pack"
+  },
+  "Molecular Erosion": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Command phase.",
+   "target": "One Necrons Monster unit from your army.",
+   "effect": "Select one unravelling enemy unit visible to your unit. That enemy unit must take a Battle‑shock test. When doing so, subtract 1 from the result. If that test is failed, that enemy unit suffers D3+1 mortal wounds.",
+   "restrictions": "You can only use this Stratagem once per battle round.",
+   "_src": "faction-pack"
+  },
+  "Phase Melding": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged DESTROYER CULT/FLAYED ONES unit this phase has shot.",
+   "target": "That DESTROYER CULT/FLAYED ONES unit.",
+   "effect": "Your unit can make a surge move of up to D6\".’ AWAKENED DYNASTY DETACHMENT Veil of Darkness Enhancement Change to: ‘(Once per battle, per army) At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: ▪ Place this unit in strategic reserves. ▪ This unit has Deep Strike until the start of your next Shooting phase. ▪ \u0007This unit must make an ingress move in your next Movement phase (including in your first turn).’ Protocol of the Eternal Revenant Stratagem, Effect Section Change to: ‘At the end of the phase, set up the destroyed model on the battlefield, unengaged and as close as possible to where it was destroyed. That model is not part of an attached unit and its unit has a starting strength of 1. That model has half of its starting number of wounds remaining.’ NECRONS UPDATES rules, designed to improve the gaming experience for all players. be highlighted in red. CANOPTEK COURT DETACHMENT Reactive Subroutines Stratagem, Target Section Change 9\" to 8\". Cynosure of Eradication Stratagem, Effect Section Change to: ‘Until the end of the phase, weapons equipped by CRYPTEK or CANOPTEK models in your unit have the [DEVASTATING WOUNDS] ability.’ HYPERCRYPT LEGION DETACHMENT Cosmic Precision Stratagem, Target Section Change to: ‘One NECRONS unit from your army (excluding MONSTER units) that is arriving using the Deep Strike or Hyperphasing abilities this phase.’ Hyperphasing Detachment Rule, Battle Size Table Change to: ‘Incursion: Up to 1 unit Strike Force: Up to 2 units Onslaught: Up to 3 units’ OBEISANCE PHALANX DETACHMENT Territorial Obsession Stratagem, Target Section Change to: ‘One LYCHGUARD or TRIARCH unit from your army.’ Worthy Foes Detachment Rule Change to: ‘In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll. DATASHEETS Annihilation Barge, Catacomb Command Barge, Convergence of Dominion, Doomsday Ark, Ghost Ark, Monolith, Obelisk, Seraptek Heavy Construct, Tesseract Vault, Triarch Stalker – Keywords Section Add 'FRAME'. Chronomancer, Geomancer, Orikan The Diviner, Plasmancer, Psychomancer, Technomancer ▪ Core Abilities: Remove ‘Leader’, add ‘Support’. ▪ \u0007Leader Section: Remove ‘You can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their orginial Starting Strengths.’ Lokhust Lord, Overlord, Overlord with Translocation Shroud – Resurrection Orb Ability Change to: ‘(Once per battle, per unit) At the end of any phase, you can use this ability. If you do, this unit resurrects: ▪ \u0007When a unit resurrects, that unit’s Reanimation Protocols activate, but that unit heals D6 wounds (instead of D3 wounds). You cannot resurrect more than one unit per turn.’ Chronomancer, Geomancer, Orikan The Diviner, Plasmancer, Psychomancer, Technomancer – Core Abilities Section Remove ‘Leader’, add ‘Support’. Canoptek Reanimator, Nanoscarab Reanimation Beam Ability Change to: ‘While a friendly NECRONS unit is within 3\" of this model, each time that unit’s Reanimation Protocols activate, that unit heals an additional D3 wounds.’ Catacomb Command Barge ▪ Keywords Section: Add ‘NOBLE’. ▪ Ressurection \u0007 Orb Ability: Change to: ‘(Once per battle, per unit) At the end of any phase, you can use this ability. If you do, select up to one friendly NECRONS INFANTRY/NECRONS MOUNTED unit within 6\" of this unit. That unit resurrects: ▫ \u0007When a unit resurrects, that unit’s Reanimation Protocols activate, but that unit heals D6 wounds (instead of D3 wounds). You cannot resurrect more than one unit per turn.’ Chronomancer, Timesplinter Mantle Ability Change to: ▪ This unit has Stealth. ▪ Melee attacks that target this unit have ‑1 to hit rolls. Doom Scythe, Profile Change M and OC to '-'. Night Scythe ▪ Profile: Change M to 14\". ▪ Core \u0007 Abilities: Add 'Hover'. ▪ Keywords: Remove 'AIRCRAFT'. Monolith, Eternity Gate Ability Change to: 'In your movement phase (excluding the first battle round), you can select one friendly NECRONS INFANTRY unit that is either in strategic reserves or on the battlefield (if you select a unit on the battlefield, remove that unit from the battlefield and place it into strategic reserves). That unit can make an ingress move, and must be set up wholly within 6\" of this unit and not engaged with any enemy units. That unit cannot make a charge move this turn.' Night Scythe ▪ Core Abilities: Add ‘Deep Strike’. Ophydian Destroyers, Tunnelling Horrors Ability Change to: ‘At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: ▪ Place this unit in strategic reserves. ▪ \u0007This unit must make an ingress move in your next Movement phase (including in your first turn).’ Plasmancer, Living Lightning Ability Change to: ‘In your Shooting phase, select one enemy unit within 18\" of and visible to this model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this model) and roll four D6: for each 4+, that enemy unit suffers 1 mortal wound. The Silent King ▪ \u0007Bringer of Unity Ability: Change to ‘Relentless March (Aura): While a friendly NECRONS unit is within 6\" of this unit’s Szarekh model, add 2\" to the Move characteristic of models in that unit.’ ▪ \u0007Keywords: Change to: ‘ \u0007– ALL MODELS: VEHICLE, EPIC HERO, TRIARCH – SZAREKH MODEL: CHARACTER, THE SILENT KING’ Transcendent C'tan, Transdimensional Displacement Ability Change to: ‘In your Movement phase, when this unit is selected to make an advance move, you can use this ability. If you do: ▪ That advance move has no maximum distance. ▪ \u0007This unit can move through all types of model (including enemy models and MONSTER/VEHICLE models). ▪ \u0007After moving, this unit must be more than 8\" horizontally from all enemy units.’ FAQS Q: Can a Cryptothrall that has used its Systematic Vigour ability to ‘fight on death’ later fight again if returned to its unit before that unit is selected to fight? A: Yes. Q: When using the Protocol of the Undying Legions Stratagem, are any other rules that are applicable to Reanimation Protocols applied (e.g. Necron Warriors’ Their Number is Legion ability)? A: Yes. Q: If I am using the Canoptek Court Detachment, if there are no objective markers within No Man’s Land or within my opponent’s deployment zone, can those areas be within my army’s Power Matrix? A: No. Q: Can I use the Cosmic Precision Stratagem to set up a unit anywhere on the battlefield instead of only wholly within 6\" of a battlefield edge, even if it doesn't have the Deep Strike ability? A: Yes. Q: When being set up using the Cosmic Precision Stratagem, does a model that is large (e.g. a Tesseract Vault) have to follow the rules for large models in Setting Up Large Models (Rules Appendix, 03.02.02)? A: Yes. Q: When using the Protocol of the Conquering Tyrant Stratagem or Lokhust Destroyers’ Hard-wired for Destruction ability, to be eligible to re-roll the Hit roll, does the unit also need to be eligible to re-roll a Hit roll of 1? A: Yes (see Rules with Multiple Conditions and Effects, Rules Appendix 02.03.01). Q: When I set up a unit using the Monolith’s Eternity Gate ability, do I have to set that unit up wholly within 6\" of one battlefield edge? A: No. Q: When I set up a unit using the Monolith’s Eternity Gate ability, and that unit is not wholly within 6\" of one battlefield edge, is that unit eligible to shoot in my Shooting phase? A: Yes. Q: Does the Canoptek Court Autodivinator Enhancement trigger when army rule effects such as Code Chivalric (Imperial Knights) award a player CP, or when an opponent discards a Secondary Mission card for 1CP? A: No in both cases. It only triggers when your opponent gains CP as the result of an ability (not any other kind of rule). Q: If a unit is removed from the battlefield using the Hypercrypt Legion Hyperphasing Detachment rule and it has the Deep Strike ability, can that unit arrive from Reserves in the first battle round? A: No. Q: If I target a Canoptek Wraiths unit with the Canoptek Court Reactive Subroutines Stratagem, can this trigger that unit’s Wraith Form ability? A: Yes. Q: Can a unit be affected by a Resurrection Orb (e.g. from a Catacomb Command Barge and an Overlord) more than once per turn? A: No. SERAPTEK HEAVY CONSTRUCT M T SV W LD OC 10\" 12 3+ 24 7+ 10 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Singularity generator [BLAST, DEVASTATING WOUNDS] 36\" 2D6 3+ 10 -3 Synaptic obliterator [SUSTAINED HITS 2] 48\" 8 3+ 5 -1 Transdimensional projector 48\" 2 3+ 24 -4 MELEE WEAPONS RANGE A WS S AP Titanic forelimbs – strike Melee 6 3+ 14 -3 Titanic forelimbs – sweep Melee 12 3+ 8 -1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Walker, Titanic, Towering, Seraptek Heavy Construct D ABILITIES 4 CORE: Deadly Demise D6+2, Super-heavy Walker D6+4 FACTION: Reanimation Protocols Terrifying Monstrosity: At the start of the Fight phase, each D enemy unit within Engagement Range of one or more units 5 with this ability must take a Battle-shock test. DAMAGED: 1-9 WOUNDS REMAINING While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Necrons SERAPTEK HEAVY CONSTRUCT The Seraptek Heavy Construct wields energies that can disintegrate organic and mechanical matter. Despite its bulk, the Seraptek is an agile machine, exerting dominance over nearby Canoptek-class constructs. What purpose this colossus was originally intended for is unknown, but as a weapon of war it is truly devastating. WARGEAR OPTIONS ■ \u0007\u0007This model’s 2 singularity generators can be replaced with 2 synaptic obliterators and 2 transdimensional projectors. KEYWORDS: \u0007Vehicle, Walker, Titanic, Towering, Seraptek Heavy Construct UNIT COMPOSITION ■ 1 Seraptek Heavy Construct This model is equipped with: 2 singularity generators; titanic forelimbs. FACTION KEYWORDS: Necrons GAUSS PYLON M T SV W LD OC - 12 3+ 22 7+ 0 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Gauss annihilator [ANTI-FLY 2+, LETHAL HITS] 120\" 1 4+ 16 -4 Tesla arc [SUSTAINED HITS 2] 6\" 6 4+ 4 0 FORTIFICATION While an enemy unit is only within Engagement Range of one or more Fortifications from your army: ■ \u0007That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. ■ \u0007Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so. KEYWORDS: Fortification, Vehicle, Towering, Titanic, Gauss Pylon WA R HA M M E R L E G E N D S D ABILITIES D6+6 CORE: Deadly Demise D6+2 FACTION: Reanimation Protocols Phase Shift Generator (Aura): While a friendly Necrons unit is within 3\" of this Fortification, models in that unit have a 5+ invulnerable save against ranged attacks. Phase-shifted Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack. DAMAGED: 1-7 WOUNDS REMAINING While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Necrons GAUSS PYLON WARGEAR OPTIONS ■ None KEYWORDS: Fortification, Vehicle, Towering, Titanic, Gauss Pylon WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Gauss Pylon This model is equipped with: gauss annihilator; tesla arc. FACTION KEYWORDS: Necrons SENTRY PYLON M T SV W LD OC - 8 3+ 10 7+ 0 RANGED WEAPONS RANGE A BS S AP Focused death ray [SUSTAINED HITS 2] 36\" 6 4+ 8 -2 Gauss exterminator [LETHAL HITS] 48\" 1 4+ 14 -3 Heat cannon [MELTA 4] 36\" 2 4+ 9 -4 FORTIFICATION While an enemy unit is only within Engagement Range of one or more Fortifications from your army: ■ \u0007That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. ■ \u0007Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so. KEYWORDS: Fortification, Vehicle, Frame, Sentry Pylon WA R HA M M E R L E G E N D S D ABILITIES 2 CORE: Deadly Demise D3 D6 FACTION: Reanimation Protocols Teleportation Matrix: Once per battle, at the end of your opponent’s turn, if this Fortification is not within Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 8\" horizontally away from all enemy models. If the battle ends and this Fortification is not on the battlefield, it is destroyed. Phase-shifted Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack. FACTION KEYWORDS: Necrons SENTRY PYLON WARGEAR OPTIONS ■ This model’s gauss exterminator can be replaced with one of the following: ◦ 1 focused death ray ◦ 1 heat cannon KEYWORDS: Fortification, Vehicle, Frame, Sentry Pylon WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Sentry Pylon This model is equipped with: gauss exterminator. FACTION KEYWORDS: Necrons NIGHT SHROUD M T SV W LD OC 20\" 9 3+ 14 7+ - RANGED WEAPONS RANGE A Twin tesla destructor [SUSTAINED HITS 2, TWIN-LINKED] 36\" 6 MELEE WEAPONS RANGE A Armoured bulk Melee 3 KEYWORDS: Vehicle, Aircraft, Fly, Frame, Night Shroud WA R HA M M E R L E G E N D S BS S AP D ABILITIES 3+ 8 0 2 CORE: Deadly Demise D3 WS S AP D FACTION: Reanimation Protocols 4+ 6 0 1 Death Sphere Bombardment: Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound. DAMAGED: 1-5 WOUNDS REMAINING While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Necrons NIGHT SHROUD WARGEAR OPTIONS ■ None KEYWORDS: Vehicle, Aircraft, Fly, Frame, Night Shroud WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Night Shroud This model is equipped with: twin tesla destructor; armoured bulk FACTION KEYWORDS: Necrons TOMB CITADEL WALLS M T SV W LD OC - 13 2+ 50 7+ 0 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Gauss exterminator [LETHAL HITS] 48\" 1 4+ 14 -3 Twin tesla destructor [SUSTAINED HITS 2, TWIN-LINKED] 36\" 6 3+ 8 0 FORTIFICATION While an enemy unit is only within Engagement Range of one or more Fortifications from your army: ■ \u0007That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. ■ \u0007Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so. KEYWORDS: Fortification, Titanic, Vehicle, Frame, Tomb Citadel WA R HA M M E R L E G E N D S D ABILITIES 6 CORE: Deadly Demise 3D6 FACTION: Reanimation Protocols Ziggurat Dock: One friendly Monolith, Obelisk, Tesseract Vault or Sentry Pylon model can start the battle on top of this Fortification’s ziggurat platform. While such a model is on this platform, that model's ranged weapons have the [HEAVY] ability. Any friendly model can be set up or end any type of move on the ramps or platform sections of this Fortification. Phased Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack. DAMAGED: 1-15 WOUNDS REMAINING While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Necrons TOMB CITADEL WALLS WARGEAR OPTIONS ■ This unit can be equipped with one of the following: ◦ 1 gauss exterminator and 1 twin tesla destructor ◦ 2 gauss exterminators ◦ 2 twin tesla destructors KEYWORDS: Fortification, Titanic, Vehicle, Frame, Tomb Citadel WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Tomb Citadel This unit is equipped with: nothing. FACTION KEYWORDS: Necrons ANRAKYR THE TRAVELLER M T SV W LD OC 5\" 5 2+ 6 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Tachyon arrow [ONE SHOT] 72\" 1 2+ 16 -5 One Shot: The bearer can only shoot with this weapon once per battle. MELEE WEAPONS RANGE A WS S AP Warscythe [DEVASTATING WOUNDS] Melee 4 2+ 8 -3 KEYWORDS: \u0007Infantry, Character, Epic Hero, Noble, Anrakyr the Traveller WA R HA M M E R L E G E N D S D ABILITIES D6+2 CORE: Leader FACTION: Reanimation Protocols D Lord of the Pyrrhian Eternals: While this model is leading a 2 unit, each time a model in that unit makes an attack, add 1 to the Wound roll. Mind in the Machine: At the start of your opponent’s Shooting phase, select one enemy Vehicle unit within 12\" of and visible to this model. That unit must take a Leadership test. If that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase. FACTION KEYWORDS: Necrons ANRAKYR THE TRAVELLER Anrakyr voyages from one tomb world to the next at the head of his veteran Pyrrhian Eternals. His tachyon arrow can unleash an unstoppable thunderbolt of energy, capable of shattering mountains, and his will is so great that he can even seize temporary control of his enemies’ engines of war. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: \u0007Infantry, Character, Epic Hero, Noble, Anrakyr the Traveller WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Anrakyr the Traveller – Epic Hero This model is equipped with: tachyon arrow; warscythe. LEADER This model can be attached to the following unit: ■ Immortals FACTION KEYWORDS: Necrons VARGARD OBYRON M T SV W LD OC 5\" 5 2+ 5 6+ 1 MELEE WEAPONS RANGE A Warscythe [DEVASTATING WOUNDS, PRECISION] Melee 4 KEYWORDS: Infantry, Character, Epic Hero, Vargard Obyron WA R HA M M E R L E G E N D S WS S AP D ABILITIES 2+ 8 -3 2 CORE: Leader FACTION: Reanimation Protocols Ghostwalk Mantle: While this model is leading a unit, models in that unit have the Fights First ability. The Vargard’s Duty: While this model is in the same unit as Nemesor Zahndrekh, Character models in that unit have the Feel No Pain 4+ ability. FACTION KEYWORDS: Necrons VARGARD OBYRON Obyron is Nemesor Zahndrekh’s devoted bodyguard. He is a tremendously skilled close-quarters combatant. Moreover, thanks to his ghostwalk mantle, he is always ready to teleport back to his master’s side and place his resilient living metal form between Zahndrekh and harm, striking the foe down before they can react. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: Infantry, Character, Epic Hero, Vargard Obyron WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Vargard Obyron – Epic Hero This model is equipped with: warscythe. LEADER This model can be attached to the following units: ■ Immortals ■ Lychguard ■ Necron Warriors This model can be attached to a unit even if Nemesor Zahndrekh has already been attached to it. If it is, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. FACTION KEYWORDS: Necrons NEMESOR ZAHNDREKH M T SV W LD OC 5\" 5 2+ 6 7+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Staff of light 18\" 3 3+ 5 -2 MELEE WEAPONS RANGE A WS S AP Staff of light Melee 4 3+ 5 -2 KEYWORDS: \u0007Infantry, Character, Epic Hero, Noble, Nemesor Zahndrekh WA R HA M M E R L E G E N D S D ABILITIES 1 CORE: Leader D FACTION: Reanimation Protocols 1 Transient Madness: While this model is leading a unit, at the start of your Command phase, roll one D6: until the start of your next Command phase, weapons equipped by models in that unit gain the ability below that corresponds with that roll: ■ 1-2: [SUSTAINED HITS 1] ■ 3-4: [LETHAL HITS] ■ 5-6: [DEVASTATING WOUNDS] Counter-tactics: Once per battle, after your opponent uses a Stratagem, if this model is on the battlefield, it can use this ability. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP. FACTION KEYWORDS: Necrons NEMESOR ZAHNDREKH Nemesor Zahndrekh is one of the finest generals in the Sautekh Dynasty, expertly directing his own warriors while neutralising his enemies’ every gambit. This is especially impressive considering his degraded engrammatic state, which has left him convinced he still lives and breathes during the time of the Necrontyr. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: \u0007Infantry, Character, Epic Hero, Noble, Nemesor Zahndrekh WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Nemesor Zahndrekh – Epic Hero This model is equipped with: staff of light. LEADER This model can be attached to the following units: ■ Immortals ■ Lychguard ■ Necron Warriors FACTION KEYWORDS: Necrons LORD M T SV W LD OC 5\" 5 3+ 4 6+ 1 RANGED WEAPONS RANGE Staff of light 18\" MELEE WEAPONS RANGE Staff of light Melee Lord’s blade [DEVASTATING WOUNDS] Melee KEYWORDS: Infantry, Character, Noble, Lord WA R HA M M E R L E G E N D S A BS S AP D ABILITIES 3 3+ 5 -2 1 CORE: Leader A WS S AP D FACTION: Reanimation Protocols 3 3+ 5 -2 1 Relentless March: While this model is leading a unit, add 1\" to 3 3+ 8 -3 2 the Move characteristic of models in that unit. The Lord’s Will: While this model is leading a unit, you can target that unit with Stratagems even when it is Battle-shocked. WARGEAR ABILITIES Resurrection Orb: Once per battle, while the bearer is leading a unit, at the end of any phase, it can resurrect that unit if it is on the battlefield. When you do, that unit's Reanimation Protocols are activated, reanimating D6 wounds rather than D3 when doing so. You cannot resserect more than one unit per turn. FACTION KEYWORDS: Necrons LORD The Royal Courts of Necron dynasties include many lesser lords amongst their number, while fringeworld forces may be led by such beings. They are possessed of formidable cunning and martial strength, and the resurrection orbs they carry to war can overcharge the self- repair systems of nearby Necrons. WARGEAR OPTIONS ■ \u0007\u0007This model’s staff of light can be replaced with 1 Lord’s blade. ■ \u0007This model can be equipped with 1 resurrection orb. KEYWORDS: Infantry, Character, Noble, Lord WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Lord This model is equipped with: staff of light. LEADER This model can be attached to the following units: ■ Immortals ■ Lychguard ■ Necron Warriors FACTION KEYWORDS: Necrons CANOPTEK TOMB STALKER M T SV W LD OC 10\" 9 3+ 9 8+ 3 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE Gauss slicers [LETHAL HITS] 24\" MELEE WEAPONS RANGE Tomb Stalker claws [SUSTAINED HITS 1] Melee KEYWORDS: \u0007Monster, Canoptek, Tomb Stalker WA R HA M M E R L E G E N D S A BS S AP D ABILITIES 8 4+ 5 -1 1 CORE: Deep Strike A WS S AP D FACTION: Reanimation Protocols 6 4+ 6 -1 2 Snaking Ambush: You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: ■ That use is -1 CP. ■ \u0007That use does not prevent any uses of that stratagem on other units this phase. WARGEAR ABILITIES Gloom Prism (Aura): While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks. FACTION KEYWORDS: Necrons CANOPTEK TOMB STALKER Armed with gauss weaponry and rows of razor-sharp legs, Tomb Stalkers are unliving machines built to protect the sepulchres of Necron lords. Its arcane senses can detect life through hundreds of metres of solid rock, and once its prey has been detected, it closes in for the kill, using a form of phase field to part matter like water. WARGEAR OPTIONS ■ None KEYWORDS: \u0007Monster, Canoptek, Tomb Stalker WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Canoptek Tomb Stalker This model is equipped with: gauss slicers; Tomb Stalker claws; gloom prism. FACTION KEYWORDS: Necrons CANOPTEK TOMB SENTINEL M T SV W LD OC 10\" 9 3+ 9 8+ 3 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE Exile cannon [BLAST] 18\" MELEE WEAPONS RANGE Tomb Sentinel claws Melee KEYWORDS: \u0007Monster, Canoptek, Tomb Sentinel WA R HA M M E R L E G E N D S A BS S AP D ABILITIES D6+1 4+ 10 -2 2 CORE: Deep Strike A WS S AP D FACTION: Reanimation Protocols 6 4+ 6 0 1 Aggressor Guardian: Each time an attack targets this model, if this model is within range of an objective marker, worsen the Armour Penetration characteristic of that attack by 1. In addition, each time this model makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1. WARGEAR ABILITIES Gloom Prism (Aura): While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks. FACTION KEYWORDS: Necrons CANOPTEK TOMB SENTINEL Both guardian and aggressor, the Tomb Sentinel is a heavily modified variant of the Tomb Stalker, which forgoes that device’s close-combat ability in favour of an exile cannon. This ancient weapon casts its target into other dimensional realms beyond the material universe, removing trespassers and upstarts as though they never existed. WARGEAR OPTIONS ■ None KEYWORDS: \u0007Monster, Canoptek, Tomb Sentinel WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Canoptek Tomb Sentinel This model is equipped with: exile cannon; Tomb Sentinel claws; gloom prism. FACTION KEYWORDS: Necrons CANOPTEK ACANTHRITES M T SV W LD OC 12\" 5 3+ 2 8+ 2 RANGED WEAPONS RANGE Cutting beam [MELTA 2] 12\" MELEE WEAPONS RANGE Voidblade Melee KEYWORDS: \u0007Beasts, Fly, Canoptek, Acanthrites WA R HA M M E R L E G E N D S A BS S AP D ABILITIES 1 4+ 9 -4 D6 CORE: Infiltrators A WS S AP D FACTION: Reanimation Protocols 3 4+ 5 -2 1 Damaged Armour: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Necrons model makes an attack that targets that unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1. FACTION KEYWORDS: Necrons CANOPTEK ACANTHRITES Canoptek Acanthrites are created for a single purpose: the destruction of those who have dared to claim the ancient empire of the Necrontyr. Acanthrites’ articulated bodies are armed with hyper-phased voidblades and high-powered thermal cutting beams, enabling them to carve through and dissemble solid matter as though it were not there. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: \u0007Beasts, Fly, Canoptek, Acanthrites WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 3-6 Canoptek Acanthrites Every model is equipped with: cutting beam; voidblade. FACTION KEYWORDS: Necrons TESSERACT ARK M T SV W LD OC 9\" 9 3+ 10 6+ 3 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Gauss cannon [LETHAL HITS] 24\" 3 3+ 5 -2 2 Particle beamer [BLAST, DEVASTATING WOUNDS] 18\" D6 3+ 6 0 1 Tesla cannon [SUSTAINED HITS 2] 24\" 4 3+ 6 0 1 Tesseract singularity chamber – particle 12\" D6+3 N/A 6 -1 2 hurricane [IGNORES COVER, TORRENT] Tesseract singularity chamber – seismic lash 36\" D3 3+ 9 -3 D6+1 [BLAST] MELEE WEAPONS RANGE A WS S AP D Armoured bulk Melee 3 4+ 6 0 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Fly, Tesseract Ark WA R HA M M E R L E G E N D S ABILITIES CORE: Deadly Demise 1 FACTION: Reanimation Protocols Gravitational Field: Each time an enemy unit selects this model as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other reductions to that Charge roll). FACTION KEYWORDS: Necrons TESSERACT ARK Tesseract Arks are rare war machines of immense power, containing a singularity chamber that holds in stasis a fragment of a dying star. Siphoning off this cosmic energy, the Tesseract Ark can unleash terrible destruction, blasting foes with solar fire or excoriating particle winds, all while shielding itself within a field of gravitational distortion. WARGEAR OPTIONS ■ \u0007\u0007This model’s 2 tesla cannons can be replaced with one of the following: ◦ 2 gauss cannons ◦ \u00072 particle beamers KEYWORDS: \u0007Vehicle, Fly, Tesseract Ark WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Tesseract Ark This model is equipped with: tesseract singularity chamber; 2 tesla cannons; armoured bulk. FACTION KEYWORDS: Necrons",
+   "_src": "faction-pack"
+  }
+ },
+ "Skyshroud Spearhead": {
+  "Evasive Protocols": {
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly NECRONS MOUNTED unit.",
+   "target": "That NECRONS MOUNTED unit.",
+   "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls. UNIQUE: HYPERCRYPT THE PHAERON’S WAR ENGINES ARE UNLEASHED FROM WITHIN THE TOMB WORLD’S DETACHMENT RULES EMPOWERED ENGINES When a Necron ruler unleashes the mightiest war engines from amongst their armoury, they may charge their finest Crypteks to enhance them first. Friendly NECRONS TITANIC FLY units have +6\" M. This detachment has the HYPERCRYPT tag and cannot be taken with another HYPERCRYPT detachment. ENHANCEMENTS PRELOCATIONAL OPTIMISER Subtle transplanar optics allow this war leader to peer through the energy veil of a Monolith’s eternity gate and dissect the defences and weaknesses of the enemies beyond it. This ensures their emergence from the portal is as grandly bloody and spectacular as possible. NECRONS model only. When this unit is selected to shoot, if this unit was set up using a Monolith’s Eternity Gate ability this turn, this unit’s ranged attacks have: ▪ [LETHAL HITS]. ▪ Or: [SUSTAINED HITS 1]. MORTALITY SHROUD (AURA) UPGRADE Projecting a subtly tailored weave of spiritual entropy fields, antiphotons and infrasonic oppression waves, this war engine projects a sense of ominous dread and impending death like a shadow before it. OBELISK unit only. In your opponent’s Battle‑shock step, if an enemy unit within 8\" of this unit is below starting strength, that enemy unit makes a battle‑shock roll. ARMOURY ROYAL ARMOURY TO CRUSH THE FOE",
+   "_src": "faction-pack"
+  },
+  "Omnilocked Strafing": {
+   "cp": 1,
+   "when": "Your Movement phase, when a friendly NECRONS MOUNTED unit is selected to make a fall‑back move.",
+   "target": "That NECRONS MOUNTED unit.",
+   "effect": "That move does not prevent your unit from being eligible to shoot.",
+   "_src": "faction-pack"
+  },
+  "Swift As Death": {
+   "cp": 1,
+   "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged NECRONS MOUNTED unit.",
+   "target": "That NECRONS MOUNTED unit.",
+   "effect": "Your unit can make a normal move of up to D3+3\".",
+   "_src": "faction-pack"
+  }
+ },
+ "Starshatter Arsenal": {
+  "Chronoshift": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase.",
+   "target": "One Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) from your army that has not been selected to move this phase.",
+   "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+   "_src": "faction-pack"
+  },
+  "Dimensional Tunnel": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase.",
+   "target": "One Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) from your army.",
+   "effect": "Until the end of the phase, models in your unit can move horizontally through models and terrain features.",
+   "_src": "faction-pack"
+  },
+  "Endless Servitude": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your Fight phase.",
+   "target": "One Necrons unit (excluding Monster and Titanic units) from your army that is within range of one or more objective markers you control.",
+   "effect": "Your unit’s Reanimation Protocols activate.",
+   "_src": "faction-pack"
+  },
+  "Merciless Reclamation": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Your Shooting phase or the Fight phase. 2CP",
+   "target": "One Necrons unit (excluding Monster and Titanic units) from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, if the target of that attack is within range of one or more objective markers, add 1 to the Wound roll.",
+   "_src": "faction-pack"
+  },
+  "Reactive Reposition": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+   "target": "One Necrons unit from your army (excluding Monster and Titanic units) that was the target of one or more of the attacking unit’s attacks.",
+   "effect": "Your unit can make a Normal move of up to D6\". CRYPTEK It was during the ongoing war in the Nephilim edict of unprecedented technological in the Necrons’ campaign to reclaim galactic more conclaves of like‑minded Crypteks Necrons’ domains. Some such conclaves Ultramar, either in answer to the onset of rampage of Ammentar’s cursed legion. They fashion the greatest weapons and augment those enemies unlucky enough to stand in DETACHMENT RULE TECHNOSORCEROUS AUGMENTATIONS Whether building on one anothers’ shared results or vying to produce the most ingenious adaptations, the Crypteks treat the battlefield as an opportunity to test their latest scientific and technological breakthroughs. ■ \u0007Ranged weapons equipped by Cryptek models from your army have the [ASSAULT] ability. ■ \u0007In your Shooting phase, each time a Cryptek unit from your army is selected to shoot, select one of the following abilities: [ANTI‑INFANTRY 3+] , [ANTI‑MOUNTED 4+] , [ASSAULT] , [HEAVY] , [IGNORES COVER] . Until the end of the phase, ranged weapons equipped by models in that unit have that ability. CONCLAVE Anomaly that Szarekh, the Silent King, issued an freedom. No weapon of science‑sorcery was to be off limits dominance. With the Silent King’s blessings, ever are now gathering power and influence throughout the have arisen across the region now designated Greater Human invaders or as a defensive measure against the see powerful Crypteks compete with one another to their android phalanxes in the most cunning ways.For their way, the conclaves are a byword for terror. ENHANCEMENTS\b QUANTUM ABACUS This cloud‑like familiar of fractal computational electrons possesses a cogitational intellect that, when fed raw data, produces inspired strategic guidance. Necrons model only. Each time you select the bearer’s unit as the target of a Stratagem, roll one D6, adding 1 if it is within range of one or more objectives: on a 4+, you gain 1CP. ATOMIC DISINTEGRATORS Energy lenses project in a web from a central node borne by the Cryptek, coalescing about Necron weapon systems and focusing their power still further. Cryptek model only. In your Shooting phase, each time the bearer’s unit is selected to shoot, when selecting an ability for the Technosorcerous Augmentations Detachment rule, you can also select from the following abilities: [ANTI‑MONSTER 5+] , [ANTI‑VEHICLE 5+] . GAUNTLET OF COMPRESSION Clinging to the bearer’s hand like a glove woven from shadow, this strange device folds space‑time with a single gesture, momentarily compressing the relative distance between Necron weapons and their targets. Necrons model only. Add 6\" to the Range characteristic of ranged weapons equipped by models in the bearer’s unit. GRAVITIC BOLAS Projected from the bearer’s staff as a secondary energistic emission, these solid‑state electroshackles bind and trammel their victims in crackling fetters. Cryptek model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks (excluding Titanic units); until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit.",
+   "_src": "faction-pack"
+  },
+  "Unyielding Forms": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets a model in your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+   "_src": "faction-pack"
+  }
+ },
+ "The Phaeron’s Armoury": {
+  "Cosmic Storm": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly OBELISK/TESSERACT VAULT unit is selected to shoot.",
+   "target": "That OBELISK/TESSERACT VAULT unit.",
+   "effect": "Your unit’s Tesla Sphere weapons have +1 AP. STARSHATTER A wide range of mechanical treasures are dynasties. Some Necron nobles prefer to vehicles, including imperious anti‑grav assault craft powered by eldritch technologies the armoured tide sweeps over the rank upon rank of skeletal Necron Warriors. machines join the lethal procession, too, foe inevitably breaks, dynastic soldiery forwards to scythe down any who would DETACHMENT RULE RELENTLESS ONSLAUGHT The Necrons possess countless terrifying engines of war. When mustered in great number, these instruments of annihilation sweep across the battlefield, seeking to reclaim lost realms and obliterate any foolish enough to trespass upon the territories of their ancient dynasty. Each time a Necrons model (excluding Monster models) from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by Necrons Vehicle and Necrons Mounted models (excluding Titanic models) from your army have the [ASSAULT] ability. ARSENAL stored within the grand armouries of the Necron wage mobile warfare, utilising the swiftest of these war barques, looming mechanical walkers and supersonic to outflank, outrun and eliminate their enemies. As hopelessly outmatched foe, Ghost Arks swoop low to disgorge Other forms of servile construct and maniacal killing adding their firepower to the cosmic wrath, and when the piloting – or fused with – repulsor‑driven platforms surge attempt to flee. ENHANCEMENTS\b DREAD MAJESTY (AURA) When this noble unleashes the might of their cosmic armoury, their followers are left in no doubt as to the importance of the battle at hand. If they do not strive to live up to the lethal effectiveness of the dynasty’s war engines, their Overlord’s wrath will be terrible. Overlord or Catacomb Command Barge model only. While a friendly Necrons unit (excluding Monster and Titanic units) is within 6\" of the bearer, each time a model in that unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. MINIATURISED NEBULOSCOPE Feeding vampirically on datastreams from the dynasty’s war engines, this device enables its owner to track enemies through multiple dimensions, leaving them no hiding place. Necrons model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability. DEMANDING LEADER This Necron noble is a master of rapid warfare, commanding armoured columns with great precision. Necrons model only. In your Command phase, select one friendly Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back. CHRONO‑IMPEDANCE FIELDS When activated, this device wreathes dynastic craft in a time‑dilation field that reduces the force of incoming blows and shots. Necrons model only. In your Command phase, select one friendly Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) within 6\" of the bearer. Until the start of your next Command phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack.",
+   "_src": "faction-pack"
+  },
+  "Particle Pulse": {
+   "cp": 1,
+   "when": "Start of your Shooting phase.",
+   "target": "One friendly NECRONS TITANIC FLY unit.",
+   "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit has +3\" detection range.",
+   "_src": "faction-pack"
+  },
+  "Subsurface Quantumweave": {
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly NECRONS TITANIC FLY unit.",
+   "target": "That NECRONS TITANIC FLY unit.",
+   "effect": "Attacks that target your unit have ‑1 AP until that enemy unit has attacked.",
+   "_src": "faction-pack"
+  }
+ }
+}

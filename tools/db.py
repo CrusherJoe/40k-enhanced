@@ -65,6 +65,26 @@ def find_rules(slug, substr):
     return {k: v for k, v in bsrules(slug).items() if t in k.lower() or t in v.lower()}
 
 
+@functools.lru_cache(maxsize=None)
+def strats(slug):
+    """Stratagem cards by detachment (data/strats/<slug>.json). BSData does not carry these;
+    they come from the faction pack + 39k.pro (see tools/strats_ingest.py). Returns
+    {detachment: {name: {type, cp, when, target, effect, ...}}} (keys starting with '_' are notes)."""
+    p = os.path.join(DATA, "strats", slug + ".json")
+    if not os.path.exists(p):
+        raise KeyError(f"no strats DB for {slug!r}")
+    return {k: v for k, v in json.load(open(p, encoding="utf-8")).items() if not k.startswith("_")}
+
+
+def strat(slug, name):
+    """One stratagem card by name (searches every detachment, apostrophe/case-insensitive)."""
+    for det in strats(slug).values():
+        v = _ci(det, name)
+        if v is not None:
+            return v
+    raise KeyError(f"stratagem {name!r} not in {slug} strats DB")
+
+
 def _ci(d, name):
     """case-insensitive dict lookup that tolerates straight/curly apostrophes."""
     if name in d:

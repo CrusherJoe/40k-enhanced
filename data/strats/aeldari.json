@@ -1,0 +1,512 @@
+{
+ "_source": "stratagems grouped by DETACHMENT. PRIMARY = faction pack (_src=faction-pack); FALLBACK = 39k.pro JS bundle via pull_39k.py (_src=39k.pro) for strats/detachments the pack omits.",
+ "Armoured Warhost": {
+  "Layered Wards": {
+   "cp": 1,
+   "when": "Any phase, when a friendly AELDARI VEHICLE unit suffers a mortal wound.",
+   "target": "That AELDARI VEHICLE unit.",
+   "effect": "Your unit has Feel No Pain 5+ against mortal wounds.",
+   "_src": "faction-pack"
+  },
+  "Soulsight": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly AELDARI VEHICLE unit is selected to shoot.",
+   "target": "That AELDARI VEHICLE unit.",
+   "effect": "Your unit’s attacks can re‑roll: ▪ One hit roll. ▪ One wound roll. ▪ One damage roll.",
+   "_src": "faction-pack"
+  },
+  "Vectored Engines": {
+   "cp": 1,
+   "when": "Your Movement phase, when a friendly AELDARI VEHICLE unit makes a fall‑back move.",
+   "target": "That AELDARI VEHICLE unit.",
+   "effect": "That move does not prevent your unit from being eligible to shoot. UNIQUE: ACROBATIC FATEFUL PERFORMANCE ACROBATIC KILLERS OF THE HARLEQUINS MASQUES STRIKE DETACHMENT RULES ACROBATIC ONSLAUGHT Trying to fight the Harlequins of the Laughing God is like battling bladed smoke. They flip and bound through the enemy ranks with contemptuous ease, springing across the heads and shoulders of dumbfounded combatants, sprinting across the hulls of war engines, all the while bearing down with murderous intent upon their true intended victims. While a friendly HARLEQUINS unit is making a charge move, that unit can move through enemy models. This detachment has the ACROBATIC tag and cannot be taken with another ACROBATIC detachment. ENHANCEMENTS A FOOT IN THE FUTURE Flowing like starlight across the field of battle, this warrior‑artiste leads their chorus in a dance whose speed peaks as they surge into the foe. TROUPE MASTER model only. This unit can re‑roll charge rolls. MISTWEAVE Employing their psychic powers of illusion and obfuscation, this Shadowseer can cause their comrades to vanish from the foe’s perceptions. SHADOWSEER model only. This unit has Infiltrators. WITH SPEED, SKILL AND MURDEROUS GRACE",
+   "_src": "faction-pack"
+  }
+ },
+ "Aspect Host": {
+  "Khaine’s Vengeance": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Movement phase, just after an enemy unit (excluding **MONSTERS** and **VEHICLES**) is selected to Fall Back.",
+   "target": "One **ASPECT WARRIORS** or **AVATAR OF KHAINE** unit from your army that is within Engagement Range of that enemy unit.",
+   "effect": "All models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests.",
+   "lore": "Embodying the rage of Khaine himself, these warriors press home their attack and strike down those cowards who seek to flee their fury.",
+   "_src": "39k.pro"
+  },
+  "Preternatural Precision": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **ASPECT WARRIORS** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Each time you use this Stratagem, you can remove one Aspect Shrine token your unit has (see datasheets). Then, select one of the following abilities, or select two of the following abilities if you removed an Aspect Shrine token during this usage of this Stratagem: **[IGNORES COVER]**, **[LETHAL HITS]**, **[SUSTAINED HITS 1]**. Until the end of the phase, ranged weapons equipped by models in your unit have the selected abilities.",
+   "lore": "Analysing their targets’ weaknesses with incredible skill, the Aeldari fire for lethal effect.",
+   "_src": "39k.pro"
+  },
+  "Skyborne Sanctuary": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of the Fight phase.",
+   "target": "One unengaged **ASURYANI** unit from your army that was eligible to fight this phase and one friendly **TRANSPORT** it is able to embark within.",
+   "effect": "If your **ASURYANI** unit is wholly within 6” of that **TRANSPORT**, it can embark within it.",
+   "lore": "The Aeldari excel in striking swiftly then leaping back into the safety of their skimming transports.",
+   "_src": "39k.pro"
+  },
+  "To Their Final Breath": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **ASPECT WARRIORS** or **AVATAR OF KHAINE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Each time you use this Stratagem, you can remove one Aspect Shrine token your unit has (see datasheets). Then, until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if you removed an Aspect Shrine token during this usage of this Stratagem. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+   "lore": "As champions and defenders of a dying race, these warriors fight furiously to the very end.",
+   "_src": "39k.pro"
+  },
+  "Warrior Focus": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **ASPECT WARRIORS** or **AVATAR OF KHAINE** unit from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill, Weapon skill, Strength, Armour Penetration and Damage characteristics and/or any or all modifiers to the Hit roll.",
+   "lore": "So absolute is the focus of these warriors in battle that nothing can distract them or stay their blows.",
+   "_src": "39k.pro"
+  }
+ },
+ "Corsair Coterie": {
+  "Cloak and Shadow": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One Aeldari Infantry unit from your army that is within range of an objective marker that you control and that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, models in your unit have the Stealth ability and your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+   "_src": "faction-pack"
+  },
+  "Into the Breach": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase, just after an Anhrathe unit from your army destroyed one or more enemy units.",
+   "target": "That Anhrathe unit.",
+   "effect": "After your unit has resolved all of its shooting attacks, it can make a Normal move of up to D6+1\".",
+   "_src": "faction-pack"
+  },
+  "Lethal Ruse": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase, just after an Aeldari unit from your army Falls Back.",
+   "target": "That Aeldari unit.",
+   "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If it is an Anhrathe unit, also select one enemy unit your unit was within Engagement Range of at the start of the phase, and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+   "_src": "faction-pack"
+  },
+  "Outcast Ambush": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One Rangers or Shroud Runners unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] and [RAPID FIRE 1] abilities, and until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1.",
+   "_src": "faction-pack"
+  },
+  "Pirates’ Due": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "The Fight phase.",
+   "target": "One Aeldari unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1. If your unit has the Anhrathe keyword, then until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, you can re‑roll the Wound roll instead.",
+   "_src": "faction-pack"
+  },
+  "Vengeful Sorrow": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your Shooting phase or the end of the Fight phase.",
+   "target": "One ASURYANI MOUNTED unit from your army that destroyed one or more enemy units this phase.",
+   "effect": "Your unit can make a Normal move of up to 7\".’ Daring Riders Stratagem, Effect Section Change 9\" to 8\". DATASHEETS D-cannon Platform, Falcon, Fire Prism, Night Spinner, Shadow Weaver Platform, Starweaver, Vibro Cannon Platform, Voidweaver, Wave Serpent, Ynnari Raider, Ynnari Venom – Keywords Section Add 'FRAME'. Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions, Swooping Hawks, Warp Spiders – Aspect Shrine Token ability Change to: 'Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.' Asurmen, Hand of Asuryan Ability Change to: 'Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Bloody Twins weapon has a Damage characteristic of 3 and the [ANTI‑INFANTRY 5+] and [DEVASTATING WOUNDS] abilities.' Baharroth, Cloudstrider Ability Change to: 'While this model is leading a unit, at the end of your opponent’s turn, if that unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves. In addition, while this model is leading a unit, when that unit is set up on the battlefield using the Deep Strike ability, in your Movement phase, it can use this ability. If it does, that unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models, but until the end of the turn, it is not eligible to declare a charge.' Corsair Voidreavers ▪ Faction Abilities: Add 'Battle Focus'. ▪ \u0007Wargear Options, third bullet point: Change to: 'Any number ofCorsair Voidreavers in this unit can each have their shuriken pistol and power sword replaced with 1 shuriken rifle.' Crimson Hunter, Hemlock Wraithfighter ▪ Profile: \u0007 Change M and OC to ‘-’. Eldrad Ulthran, Leader Section Change to: ‘This model can be attached to the following units: GUARDIAN DEFENDERS, STORM GUARDIANS, WARLOCK CONCLAVE If this model is not already attached to a unit, you can attach this model to a unit, even if one WARLOCKS unit has already been attached to it.’ Falcon, Transport Section Change to: 'This model has a transport capacity of 6 AELDARI INFANTRY models. Each WRAITH CONSTRUCT model takes the space of 2 models. It cannot transport JUMP PACK models or YNNARI models (excluding ASURYANI, YVRAINE and THE VISARCH models).' Farseer, Leader section Change first paragraph to: ‘This model can be attached to the following units: GUARDIAN DEFENDERS, STORM GUARDIANS, WARLOCK CONCLAVE.’ Delete second paragraph. Rangers, Path of the Outcast Ability Change to:'In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\".' Shadowseer, Wargear Options Change to: ‘This model’s shuriken pistol can be replaced with 1 neuro disruptor.’ Skyweavers, Acrobatic Grace Ability Change to: ▪ This unit has Stealth. ▪ Melee attacks that target this unit have ‑1 to hit rolls. Starweaver, Rapid Embarkation Ability Add: 'That unit can embark within this TRANSPORT in a turn it disembarked from this TRANSPORT.' The Yncarne, Inevitable Death Ability Change to: ‘Once in each of your opponent’s turns, if this model is on the battlefield when another friendly AELDARI unit is destroyed, just after removing the last model in that unit, you can remove this model from the battlefield and set it up as close as possible to where that destroyed model was destroyed and not within Engagement Range of one or more enemy units. Doing so does not prevent this model from being eligible to move.’ Wave Serpent, Transport Section Change to: ‘This model has a transport capacity of 12 ASURYANI INFANTRY models. Each WRAITH CONSTRUCT model takes the space of 2 models. It cannot transport JUMP PACK models or YNNARI models (excluding ASURYANI, YVRAINE and THE VISARCH models).’ Warlock Conclave ▪ Keywords section: delete ‘CHARACTER’. ▪ \u0007Leader section: change to ‘At the start of the Declare Battle Formations step, if this unit is not an Attached unit, this unit can join one GUARDIAN DEFENDERS or STORM GUARDIANS unit from your army (a unit cannot have more than one WARLOCK CONCLAVE unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.’ Warlock Skyrunners ▪ Keywords section: delete ‘CHARACTER’. ▪ \u0007 Leader section: change to ‘At the start of the Declare Battle Formations step, if this unit is not an Attached unit, this unit can join one WINDRIDERS unit from your army (a unit cannot have more than one WARLOCK SKYRUNNERS unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.’ ▪ Runes \u0007 of Battle ability: change to ‘Weapons equipped by models in this unit have the [IGNORES COVER] ability.’ Yvraine, Herald of Ynnead Ability Change to: ‘At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a friendly AELDARI model makes an attack that targets that unit, you can re‑roll a Wound roll of 1.’ Ynnari Venom ▪ \u0007Lithe Embarkation Ability: add 'That unit can embark within this TRANSPORT in a turn it disembarked from this TRANSPORT.' ▪ \u0007Transport section, second paragraph: Change to: 'Before the battle, at the start of the Declare Battle Formations step, you can select one YNNARI KABALITE WARRIORS or YNNARI WYCHESunit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit.' Ynnari Incubi, Melee Weapons, Demiklaives (single blade) Change AP characteristic to ‘-2’. Warlock, Core Abilities section Remove 'Leader', add 'Support'. FAQS Q: Can the Yncarne use the Inevitable Death ability during my opponent’s first turn? A: Yes. Q: After using the Torc of Morai-Heg Enhancement, if my opponent does not have the necessary CP available for the selected Stratagem, what happens? A: No CP are spent and that Stratagem’s effects are not resolved (but that Stratagem still counts as having been used this phase). Q: When using the Yncarne’s Ethereal Form ability, can I choose for it to regain fewer lost wounds than the D3 roll generated? A: No. Q: After using the Torc of Morai-Heg Enhancement, must my opponent continue to use the selected Stratagem at the increased cost if they have necessary CP available? A: Yes. WEBWAY GATE M T SV W LD OC - 12 3+ 14 6+ 0 ABILITIES CORE: Deadly Demise D3 Arcane Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack. Webway Strike: Each time a friendly Aeldari unit arrives from Strategic Reserves, you can choose to set it up anywhere on the battlefield that is wholly within 6\" of this Fortification. If you do, that Aeldari unit can be set up within 9\" of enemy models, and can be set up within Engagement Range of enemy models. If an Aeldari unit is set up within Engagement Range of any enemy models in this way, it counts as having made a Charge move this turn and is eligible to fight this turn. Fortification: While an enemy unit is only within Engagement Range of one or more Fortifications from your army: ■ \u0007That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. ■ \u0007Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so. KEYWORDS: Fortification, Frame, Aeldari, Webway Gate WA R HA M M E R L E G E N D S FACTION Asuryani KEYWORDS: WEBWAY GATE Webway Gates allow the Aeldari access to the boundless corridors of the labyrinth dimension. Remnants of the lost Aeldari empire, millions of these portals are scattered across the galaxy, and every craftworld has a nexus of such constructs to enable their people to travel where they need to. UNIT COMPOSITION ■ 2 Wraithbone Arches This unit is equipped with: nothing. WARGEAR OPTIONS ■ \u0007\u0007None DEPLOYMENT Both Wraithbone Arches of this Fortification must be set up with their upper points no more than 1\" apart and with both statues facing in fully opposite directions so that an arch is formed, as shown on the right. Both arches are then treated as a single model for all rules purposes. KEYWORDS: Fortification, Frame, Aeldari, Webway Gate WA R HA M M E R L E G E N D S FACTION Asuryani KEYWORDS: KARANDRAS M T SV W LD OC 7\" 3 2+ 5 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Arhra’s Bane [ASSAULT, PISTOL] 12\" 2 2+ 5 -1 MELEE WEAPONS RANGE A WS S AP Arhra’s Bane [SUSTAINED HITS 1] Melee 5 2+ 8 -3 Isirmathil [SUSTAINED HITS 1] Melee 8 2+ 6 -1 KEYWORDS: \u0007Infantry, Character, Epic Hero, Phoenix Lord, Aeldari, Karandras WA R HA M M E R L E G E N D S D ABILITIES 2 CORE: Infiltrators, Leader D FACTION: Battle Focus 2 Shadow Hunter: While this model is leading a unit, each time 1 a model in that unit makes an attack, add 1 to the Hit roll. Sustained Assault: Each time this model makes a melee attack, if it made a Charge move this turn, a successful unmodified Hit roll of 4+ scores a Critical Hit. WARGEAR ABILITIES The Scorpion’s Bite: Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the Titanic keyword. FACTION KEYWORDS: Asuryani KARANDRAS Karandras is a master of stealth and patience, striking in a blur of emerald armour. He assails his enemies with a white-hot burst from the mandiblaster Scorpion’s Bite before ripping them to shreds with his diamond-tipped chainblade Isirmathil, or crushing them in the grip of Arhra’s Bane – his bespoke Scorpion’s claw. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: \u0007Infantry, Character, Epic Hero, Phoenix Lord, Aeldari, Karandras WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Karandras – Epic Hero This model is equipped with: Arhra’s Bane; Isirmathil; the Scorpion’s Bite. LEADER This model can be attached to the following unit: ■ Striking Scorpions FACTION KEYWORDS: Asuryani ILLIC NIGHTSPEAR M T SV W LD OC 7\" 3 5+ 3 6+ 1 5+* INVULNERABLE SAVE * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP Shuriken pistol [ASSAULT, PISTOL] 12\" 1 2+ 4 -1 Voidbringer [DEVASTATING WOUNDS, HEAVY, PRECISION] 48\" 1 2+ 6 -3 MELEE WEAPONS RANGE A WS S AP Aeldari power sword Melee 4 2+ 4 -2 KEYWORDS: Infantry, Character, Epic Hero, Aeldari, Illic Nightspear WA R HA M M E R L E G E N D S D ABILITIES 1 CORE: Infiltrators, Leader, Stealth FACTION: Battle Focus D Bringer of the True Death: While this model is leading a unit, 1 each time a model in that unit makes an attack, you can re-roll the Wound roll. Hunter Unseen: This model’s unit can only be selected as the target of a ranged attack if the attacking model is within 12\". FACTION KEYWORDS: Asuryani ILLIC NIGHTSPEAR There are few Aeldari more skilled in the arts of stealth and marksmanship than Illic Nightspear, whose kill-tally numbers in the hundreds of thousands. Illic’s weapon of choice is the long rifle Void Bringer; each shot from this weapon opens a tiny warp hole within the target, ripping their body apart or wrenching them into the void. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: Infantry, Character, Epic Hero, Aeldari, Illic Nightspear WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Illic Nightspear – Epic Hero This model is equipped with: Voidbringer; shuriken pistol; Aeldari power sword. LEADER This model can be attached to the following unit: ■ Rangers FACTION KEYWORDS: Asuryani AUTARCH SKYRUNNER M T SV W LD OC 14\" 4 3+ 5 6+ 2 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Dragon fusion gun [ASSAULT, MELTA 3] 12\" 1 2+ 9 -4 Laser lance [ASSAULT] 6\" 1 2+ 6 -3 Twin shuriken catapult [ASSAULT, TWIN-LINKED] 18\" 2 2+ 4 -1 MELEE WEAPONS RANGE A WS S AP Banshee blade Melee 5 2+ 4 -3 Close combat weapon Melee 3 2+ 3 0 Laser lance [LANCE] Melee 4 2+ 4 -3 KEYWORDS: \u0007Mounted, Character, Fly, Aeldari, Frame, Autarch, Autarch Skyrunner WA R HA M M E R L E G E N D S D ABILITIES D6 CORE: Leader 1 FACTION: Battle Focus Path of Command: Once per battle round, one model from D your army with this ability can use it when its unit is targeted 1 with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP. Ride the Wind: While this model is leading a unit, each time 2 that unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit. FACTION KEYWORDS: Asuryani AUTARCH SKYRUNNER Autarchs are more than capable of leading their warhosts from the front, plunging into the fray as Skyrunners astride jetbikes. When visited by war-lust, they draw upon all the skills they have learnt from the Aspect Shrines to spearhead assaults, duel enemy leaders and destroy war machines. WARGEAR OPTIONS ■ \u0007\u0007This model’s laser lance can be replaced with one of the following: ◦ 1 Dragon fusion gun ◦ 1 Banshee blade KEYWORDS: \u0007Mounted, Character, Fly, Aeldari, Frame, Autarch, Autarch Skyrunner WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Autarch Skyrunner This model is equipped with: close combat weapon; laser lance; twin shuriken catapult. LEADER This model can be attached to the following unit: ■ Windriders ■ Corsair Cloud Dancer Band FACTION KEYWORDS: Asuryani PHOENIX M T SV W LD OC - 9 3+ 16 6+ - RANGED WEAPONS RANGE A Phoenix missile array [BLAST] 48\" D6 Phoenix pulse laser 48\" 4 Twin shuriken cannon [SUSTAINED HITS 1, TWIN-LINKED] 24\" 3 MELEE WEAPONS RANGE A Wraithbone hull Melee 3 KEYWORDS: Vehicle, Fly, Aircraft, Frame, Aeldari, Phoenix WA R HA M M E R L E G E N D S BS S AP D ABILITIES 3+ 6 -1 2 CORE: Deadly Demise D6 3+ 10 -2 D6 3+ 6 -1 2 FACTION: Battle Focus Strafing Run: Each time this model makes a ranged attack WS S AP D that targets a unit that cannot Fly, add 1 to the Hit roll. 4+ 6 0 1 DAMAGED: 1-5 WOUNDS REMAINING While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani PHOENIX WARGEAR OPTIONS ■ None KEYWORDS: Vehicle, Fly, Aircraft, Frame, Aeldari, Phoenix WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Phoenix This model is equipped with: Phoenix missile array; Phoenix pulse laser; twin shuriken cannon; wraithbone hull. FACTION KEYWORDS: Asuryani VAMPIRE RAIDER M T SV W LD OC 14\" 12 3+ 30 6+ - 4+* INVULNERABLE SAVE * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP Scatter laser 36\" 6 3+ 5 0 Twin pulse laser [TWIN-LINKED] 48\" 3 3+ 9 -2 MELEE WEAPONS RANGE A WS S AP Wraithbone hull Melee 6 4+ 6 0 KEYWORDS: Vehicle, Fly, Titanic, Transport, Frame, Aeldari, Vampire Raider WA R HA M M E R L E G E N D S D ABILITIES 1 CORE: Deadly Demise D6+2, Hover D6 FACTION: Battle Focus D Into the Foe: If a unit disembarks from this Transport before 1 it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced. DAMAGED: 1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani VAMPIRE RAIDER WARGEAR OPTIONS ■ None KEYWORDS: Vehicle, Fly, Titanic, Transport, Frame, Aeldari, Vampire Raider WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Vampire Raider This model is equipped with: scatter laser; 2 twin pulse lasers; wraithbone hull. TRANSPORT This model has a transport capacity of 30 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models or Ynnari models (excluding Yvraine and The Visarch). FACTION KEYWORDS: Asuryani CORSAIR CLOUD DANCER BAND M T SV W LD OC 14\" 4 3+ 2 6+ 2 RANGED WEAPONS RANGE A BS S AP D Brace of pistols [ASSAULT, PISTOL] 12\" 2 3+ 3 0 1 Dark lance 36\" 1 3+ 12 -3 D6+2 Dissonance cannon [DEVASTATING WOUNDS] 24\" 3 3+ 6 -1 2 Dissonance pistol [DEVASTATING WOUNDS, PISTOL] 12\" 1 3+ 6 -1 1 Scatter laser 36\" 6 3+ 5 0 1 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 3+ 6 -1 2 Splinter cannon [ANTI-INFANTRY 3+, SUSTAINED HITS 1] 36\" 3 3+ 3 -1 2 Twin shuriken catapult [ASSAULT, TWIN-LINKED] 18\" 2 3+ 4 3 1 MELEE WEAPONS RANGE A WS S AP D Close combat weapon Melee 2 3+ 3 0 1 Void sabre Melee 3 3+ 4 -2 1 KEYWORDS: \u0007Mounted, Grenades, Anhrathe, Frame, Aeldari, Corsair Cloud Dancer Band WA R HA M M E R L E G E N D S ABILITIES CORE: Scouts 7\" Reckless Abandon: You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: ■ That use is -1 CP. ■ \u0007That use does not prevent any uses of that stratagem on other units this phase. FACTION KEYWORDS: Asuryani CORSAIR CLOUD DANCER BAND WARGEAR OPTIONS ■ Any number of models can each have their twin shuriken catapult replaced with one of the following: ◦ 1 dark lance ◦ 1 dissonance cannon ◦ 1 scatter laser ◦ 1 shuriken cannon ◦ 1 splinter cannon ■ The Cloud Dancer Felarch can be equipped with one of the following: ◦ 1 dissonance pistol ◦ 1 void sabre KEYWORDS: \u0007Mounted, Grenades, Anhrathe, Frame, Aeldari, Corsair Cloud Dancer Band WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 0-1 Cloud Dancer Felarch ■ 3-6 Corsair Cloud Dancers Every model is equipped with: brace of pistols; twin shuriken catapult; close combat weapon. FACTION KEYWORDS: Asuryani VAMPIRE HUNTER M T SV W LD OC - 12 3+ 30 6+ - 4+* INVULNERABLE SAVE * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP Scatter laser 36\" 6 3+ 5 0 Twin pulse laser [TWIN-LINKED] 48\" 3 3+ 9 -2 Twin Vampire pulsar [TWIN-LINKED] 60\" 3 3+ 12 -3 MELEE WEAPONS RANGE A WS S AP Wraithbone hull Melee 6 4+ 6 0 KEYWORDS: Vehicle, Fly, Aircraft, Titanic, Frame, Aeldari, Vampire Hunter WA R HA M M E R L E G E N D S D ABILITIES 1 CORE: Deadly Demise D6+2 D6 4 FACTION: Battle Focus Titan Hunter: Each time a ranged attack made by this model D is allocated to a Monster or Vehicle model, re-roll a Damage 1 roll of 1. DAMAGED: 1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani VAMPIRE HUNTER WARGEAR OPTIONS ■ None KEYWORDS: Vehicle, Fly, Aircraft, Titanic, Frame, Aeldari, Vampire Hunter WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Vampire Hunter This model is equipped with: scatter laser; 2 twin pulse lasers; twin Vampire pulsar; wraithbone hull. FACTION KEYWORDS: Asuryani BONESINGER M T SV W LD OC 7\" 3 6+ 3 6+ 1 4+ INVULNERABLE SAVE MELEE WEAPONS RANGE A Psytronome shaper [PSYCHIC] Melee 2 KEYWORDS: Character, infantry, Psyker, Aeldari, Bonesinger WA R HA M M E R L E G E N D S WS S AP D ABILITIES 2+ 3 0 D3 CORE: Leader FACTION: Battle Focus Way of the Shaper (Psychic): While this model is leading a unit, Wraith Construct models in that unit have the Feel No Pain 6+ ability. Bonesinger: While this model is within 3\" of one or more friendly Wraith Construct or Asuryani Vehicle units, unless it is leading a unit, this model has the Lone Operative ability. Psytronome Shaper: In your Command phase, you can select one friendly Wraith Construct or Asuryani Vehicle model within 3\" of this model. That Wraith Construct or Asuryani Vehicle model regains up to D3 lost wounds. FACTION KEYWORDS: Asuryani BONESINGER WARGEAR OPTIONS ■ None KEYWORDS: Character, infantry, Psyker, Aeldari, Bonesinger WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Bonesinger This model is equipped with: psytronome shaper. LEADER This model can be attached to the following units: ■ Wraithblades ■ Wraithguard ■ Wraithlord FACTION KEYWORDS: Asuryani WASP ASSAULT WALKER M T SV W LD OC 10\" 7 3+ 6 6+ 2 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Aeldari missile launcher – starshot 48\" 1 3+ 10 -2 D6 Aeldari missile launcher – sunburst [BLAST] 48\" D6 3+ 4 -1 1 Bright lance 36\" 1 3+ 12 -3 D6+2 Scatter laser 36\" 6 3+ 5 0 1 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 3+ 6 -1 2 Starcannon 36\" 2 3+ 8 -3 2 MELEE WEAPONS RANGE A WS S AP D Wasp feet Melee 3 3+ 5 0 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Vehicle, Walker, Fly, Aeldari, Wasp Assault Walker WA R HA M M E R L E G E N D S ABILITIES CORE: Deep Strike FACTION: Battle Focus Cloudbreakers: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model. FACTION KEYWORDS: Asuryani WASP ASSAULT WALKERS WARGEAR OPTIONS ■ This model’s scatter laser can be replaced with one of the following: ◦ 1 Aeldari missile launcher ◦ 1 bright lance ◦ 1 shuriken cannon ◦ 1 starcannon ■ This model’s shuriken cannon can be replaced with one of the following: ◦ 1 Aeldari missile launcher ◦ 1 bright lance ◦ 1 scatter laser ◦ 1 starcannon KEYWORDS: Vehicle, Walker, Fly, Aeldari, Wasp Assault Walker WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Wasp Assault Walker This model is equipped with: scatter laser; shuriken cannon; Wasp feet. FACTION KEYWORDS: Asuryani FIRESTORM M T SV W LD OC 14\" 9 3+ 12 6+ 3 RANGED WEAPONS RANGE Firestorm scatter laser [ANTI-FLY 2+] 36\" Shuriken cannon [SUSTAINED HITS 1] 24\" Twin shuriken catapult [ASSAULT, TWIN-LINKED] 18\" MELEE WEAPONS RANGE Wraithbone hull Melee KEYWORDS: Vehicle, Fly, Frame, Aeldari, Firestorm WA R HA M M E R L E G E N D S A BS S AP D ABILITIES 16 3+ 5 0 1 CORE: Deadly Demise D3 3 3+ 6 -1 2 2 3+ 4 3 1 FACTION: Battle Focus Skyfire: Each time you target this model with the Fire A WS S AP D Overwatch Stratagem just after an enemy unit that can Fly 3 4+ 6 0 1 starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to shooting that enemy unit, you can select up to 3 other enemy units within 24\" of this model that can Fly; this model can also shoot at each of those units with its Firestorm scatter laser (provided each one is an eligible target), but when doing so, an unmodified Hit roll of 6 is required to score a hit. DAMAGED: 1-4 WOUNDS REMAINING While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Aeldari FIRESTORM WARGEAR OPTIONS ■ This model’s twin shuriken catapult can be replaced with 1 shuriken cannon. KEYWORDS: Vehicle, Fly, Frame, Aeldari, Firestorm WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Firestorm This model is equipped with: Firestorm scatter laser; twin shuriken catapult; wraithbone hull. TRANSPORT This model has a transport capacity of 6 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models or Ynnari models (excluding Yvraine and The Visarch). FACTION KEYWORDS: Aeldari AMALLYN SHADOWGUIDE M T SV W LD OC 7\" 3 5+ 3 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Ranger long rifle [HEAVY, PRECISION] 36\" 1 3+ 4 -1 MELEE WEAPONS RANGE A WS S AP Power blade Melee 4 3+ 4 -2 KEYWORDS: \u0007Infantry, Character, Grenades, Epic Hero, Aeldari, Amallyn Shadowguide WA R HA M M E R L E G E N D S D ABILITIES 2 CORE: Infiltrators, Lone Operative, Stealth D FACTION: Battle Focus 1 The Path Least Travelled: If your army includes this model, after both players have deployed their armies and determined who has the first turn, you can select one Rangers or Shroud Runners unit from your army and redeploy that unit. When doing so, that unit can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves. Path of the Outcast: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\". FACTION KEYWORDS: Asuryani AMALLYN SHADOWGUIDE WARGEAR OPTIONS ■ None KEYWORDS: \u0007Infantry, Character, Grenades, Epic Hero, Aeldari, Amallyn Shadowguide WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Amallyn Shadowguide – Epic Hero This model is equipped with: ranger long rifle; power blade. FACTION KEYWORDS: Asuryani CORSAIR REAVER BAND M T SV W LD OC 7\" 3 5+ 3 6+ 2 RANGED WEAPONS RANGE A BS S AP D Blaster [ASSAULT] 18\" 1 3+ 8 -4 D6+1 Brace of pistols [ASSAULT, PISTOL] 12\" 2 3+ 3 0 1 Corsair firearm [ASSAULT, LETHAL HITS] 24\" 4 3+ 4 0 1 Dark lance [HEAVY] 36\" 1 4+ 12 -3 D6+2 Dissonance pistol [DEVASTATING WOUNDS, PISTOL] 12\" 1 3+ 6 -1 1 Flamer [ASSAULT, IGNORES COVER, TORRENT] 12\" D6 N/A 4 0 1 Fusion gun [ASSAULT, MELTA 2] 12\" 1 3+ 8 -4 D6+1 Shredder [ASSAULT, TORRENT] 18\" D6 N/A 6 0 1 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 3+ 6 -1 2 Splinter cannon [ANTI-INFANTRY 3+, SUSTAINED HITS 1] 36\" 3 3+ 3 -1 2 MELEE WEAPONS RANGE A WS S AP D Close combat weapon Melee 2 3+ 3 0 1 Spar-glaive Melee 4 3+ 3 0 1 Void sabre Melee 3 3+ 4 -2 1 KEYWORDS: Infantry, Grenades, Anhrathe, Aeldari, Corsair Reaver Band WA R HA M M E R L E G E N D S ABILITIES Reaver Band: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\". FACTION KEYWORDS: Asuryani CORSAIR REAVER BAND WARGEAR OPTIONS ■ Any number of models can each have their Corsair firearm replaced with 1 spar-glaive. ■ For every 5 models in this unit, 1 model’s Corsair firearm can be replaced with one of the following: ◦ 1 Aeldari missile launcher* ◦ 1 blaster ◦ 1 dark lance ◦ 1 flamer ◦ 1 fusion gun ◦ 1 shredder ◦ 1 shuriken cannon ◦ 1 splinter cannon ■ The Corsair Reaver Felarch can be equipped with one of the following: ◦ 1 dissonance pistol ◦ 1 void sabre * The profile for this weapon can be found on the Aeldari Legends Armoury card. KEYWORDS: Infantry, Grenades, Anhrathe, Aeldari, Corsair Reaver Band WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 0-1 Corsair Reaver Felarch ■ 5-10 Corsair Reavers Every model is equipped with: brace of pistols; Corsair firearm; close combat weapon. CORSAIRS If a model from your army with the Leader ability can be attached to a Corsair Voidreavers unit, it can be attached to this unit instead. FACTION KEYWORDS: Asuryani AELDARI LEGENDS ARMOURY RANGED WEAPONS RANGE A BS S AP D Aeldari missile launcher – starshot 48\" 1 3+ 10 -2 D6 Aeldari missile launcher – sunburst [BLAST] 48\" D6 3+ 4 -1 1 Blaster [ASSAULT] 18\" 1 3+ 8 -4 D6+1 Shredder [ASSAULT, TORRENT] 18\" D6 N/A 6 0 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. WA R HA M M E R L E G E N D S WEAPON LISTS \u0007Several Warhammer Legends Asuryani models have the option to be equipped with one or more weapons whose profiles are not listed on their datasheet. The profiles for these weapons are instead listed on this card. COBRA M T SV W LD OC 14\" 11 2+ 24 6+ 8 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A Aeldari missile launcher – starshot 48\" 1 Aeldari missile launcher – sunburst [BLAST] 48\" D6 Bright lance 36\" 1 D-impaler [BLAST, DEVASTATING WOUNDS] 36\" D6+3 Scatter laser 36\" 6 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 Starcannon 36\" 2 MELEE WEAPONS RANGE A Wraithbone hull Melee 6 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Vehicle, Titanic, Fly, Frame, Aeldari, Cobra WA R HA M M E R L E G E N D S BS S AP D ABILITIES 3+ 10 -2 D6 CORE: Deadly Demise D6+2 3+ 4 -1 1 3+ 12 -3 D6+2 FACTION: Battle Focus 3+ 16 -4 4 D-rift: In your Shooting phase, just after selecting a target for 3+ 5 0 1 this model’s D-impaler, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled 3+ 6 -1 2 for is struck by a D-rift. After this model has finished making 3+ 8 -3 2 its attacks against that target unit this phase, each unit struck by a D-rift this phase suffers D3 mortal wounds. WS S AP D 4+ 6 0 1 DAMAGED: 1-8 WOUNDS REMAINING While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani COBRA Cobras are huge skimmer tanks whose elegant hulls are dominated by a D-impaler – an enormous energy weapon against which not even powerful force fields are a reliable defence. So dangerous is this weapon that when a Cobra’s defence systems fail, a catastrophic D-rift will sometimes tear through reality, devouring the vehicle and any unfortunates nearby. WARGEAR OPTIONS ■ This model’s shuriken cannon can be replaced with one of the following: ◦ 1 Aeldari missile launcher ◦ 1 bright lance ◦ 1 scatter laser ◦ 1 starcannon KEYWORDS: Vehicle, Titanic, Fly, Frame, Aeldari, Cobra WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Cobra This model is equipped with: D-impaler; shuriken cannon; wraithbone hull. FACTION KEYWORDS: Asuryani HORNET M T SV W LD OC 14\" 7 3+ 8 6+ 2 RANGED WEAPONS RANGE A BS S AP D Aeldari missile launcher – starshot 48\" 1 3+ 10 -2 D6 Aeldari missile launcher – sunburst [BLAST] 48\" D6 3+ 4 -1 1 Bright lance 36\" 1 3+ 12 -3 D6+2 Hornet pulse laser 36\" 2 3+ 9 -2 D3 Scatter laser 36\" 6 3+ 5 0 1 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 3+ 6 -1 2 Starcannon 36\" 2 3+ 8 -3 2 MELEE WEAPONS RANGE A WS S AP D Wraithbone hull Melee 3 4+ 6 0 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Vehicle, Fly, Frame, Aeldari, Hornet WA R HA M M E R L E G E N D S ABILITIES CORE: Deadly Demise 1 FACTION: Battle Focus Lightning Assault: Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. FACTION KEYWORDS: Asuryani HORNET The Hornet is a small, single-seater attack craft deployed in a fast reconnaissance and raiding role. Often operating alongside jetbikes and Vypers, Hornets speed ahead of the main Aeldari force to harry and outmanoeuvre priority targets, utilising a range of paired heavy weapons to strike and fade before the enemy can respond. WARGEAR OPTIONS ■ Each of this model’s Hornet pulse lasers can be replaced with one of the following: ◦ Aeldari missile launcher ◦ Bright lance ◦ Scatter laser ◦ Shuriken cannon ◦ Starcannon KEYWORDS: Vehicle, Fly, Frame, Aeldari, Hornet WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Hornet This model is equipped with: 2 Hornet pulse lasers; wraithbone hull. FACTION KEYWORDS: Asuryani LYNX M T SV W LD OC 14\" 9 3+ 16 6+ 4 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Aeldari missile launcher – starshot 48\" 1 3+ 10 -2 D6 Aeldari missile launcher – sunburst [BLAST] 48\" D6 3+ 4 -1 1 Bright lance 36\" 1 3+ 12 -3 D6+2 Lynx pulsar [ASSAULT] 48\" 4 3+ 16 -3 D6 Scatter laser 36\" 6 3+ 5 0 1 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 3+ 6 -1 2 Starcannon 36\" 2 3+ 8 -3 2 MELEE WEAPONS RANGE A WS S AP D Wraithbone hull Melee 3 4+ 6 0 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Vehicle, Fly, Frame, Aeldari, Lynx WA R HA M M E R L E G E N D S ABILITIES CORE: Deadly Demise D6 FACTION: Battle Focus Speed of Vaul: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 9\" to the Move characteristic of this model. DAMAGED: 1-5 WOUNDS REMAINING While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani LYNX Resembling a sleek twin-bladed spearhead, the Lynx is a heavy grav-tank armed with a pulsar. Though they lack the resilience of the largest engines of Vaul, Lynxes more than compensate for this with their speed and agility, defying the tracking systems of the enemy as they manoeuvre themselves for the perfect precision kill. WARGEAR OPTIONS ■ This model’s shuriken cannon can be replaced with one of the following: ◦ Aeldari missile launcher ◦ Bright lance ◦ Scatter laser ◦ Starcannon KEYWORDS: Vehicle, Fly, Frame, Aeldari, Lynx WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Lynx This model is equipped with: Lynx pulsar; shuriken cannon; wraithbone hull. FACTION KEYWORDS: Asuryani NIGHTWING M T SV W LD OC - 8 3+ 12 6+ - 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Twin bright lance [TWIN-LINKED] 36\" 1 3+ 12 -3 D6+2 Twin shuriken cannon [SUSTAINED HITS 1, TWIN-LINKED] 24\" 3 3+ 6 -1 2 MELEE WEAPONS RANGE A WS S AP D Wraithbone hull Melee 3 4+ 6 0 1 KEYWORDS: Vehicle, Aircaft, Fly, Frame, Aeldari, Nightwing WA R HA M M E R L E G E N D S ABILITIES FACTION: Battle Focus Interceptor: Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll. DAMAGED: 1-4 WOUNDS REMAINING While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani NIGHTWING The Nightwing is a superlative dog-fighting aircraft, its swept-wing design granting it a combination of lightning speed and aerobatic agility unmatched by its rivals. Appearing only as a momentary blur in the sights of adversaries on the ground, Nightwings streak through the skies like born predators, vanquishing their quarry with a hail of shurikens or a single well-placed bright lance strike. WARGEAR OPTIONS ■ None KEYWORDS: Vehicle, Aircaft, Fly, Frame, Aeldari, Nightwing WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Nightwing This model is equipped with: twin bright lance; twin shuriken cannon; wraithbone hull. FACTION KEYWORDS: Asuryani SCORPION M T SV W LD OC 14\" 11 2+ 24 6+ 8 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A Aeldari missile launcher – starshot 48\" 1 Aeldari missile launcher – sunburst [BLAST] 48\" D6 Bright lance 36\" 1 Scatter laser 36\" 6 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 Starcannon 36\" 2 Twin Scorpion pulsar [TWIN-LINKED] 60\" 6 MELEE WEAPONS RANGE A Wraithbone hull Melee 6 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Vehicle, Titanic, Fly, Frame, Aeldari, Scorpion WA R HA M M E R L E G E N D S BS S AP D ABILITIES 3+ 10 -2 D6 CORE: Deadly Demise D6+2 3+ 4 -1 1 3+ 12 -3 D6+2 FACTION: Battle Focus 3+ 5 0 1 Lanced Obliteration: Each time an attack made with this 3+ 6 -1 2 model’s twin Scorpion pulsar destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise 3+ 8 -3 2 ability inflicts mortal wounds on a D6 roll of 4+ instead of on 3+ 18 -3 5 a 6. WS S AP D DAMAGED: 1-8 WOUNDS REMAINING 4+ 6 0 1 While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani SCORPION Optimised for hunting heavy tanks and titans, Scorpions are amongst the most powerful mobile weapons platforms employed by the Asuryani. Their twin pulsars are able to lance through the densest armour plating as though it was not there, vaporising everything they touch. WARGEAR OPTIONS ■ This model’s shuriken cannon can be replaced with one of the following: ◦ 1 Aeldari missile launcher ◦ 1 bright lance ◦ 1 scatter laser ◦ 1 starcannon KEYWORDS: Vehicle, Titanic, Fly, Frame, Aeldari, Scorpion WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Scorpion This model is equipped with: shuriken cannon; twin Scorpion pulsar; wraithbone hull. FACTION KEYWORDS: Asuryani SKATHACH WRAITHKNIGHT M T SV W LD OC 10\" 12 2+ 18 6+ 10 RANGED WEAPONS RANGE A BS S AP Deathshroud cannon – dispersed 12\" 3D6 3+ 6 -1 [BLAST, DEVASTATING WOUNDS] Deathshroud cannon – focused 48\" D6 3+ 10 -3 [BLAST, DEVASTATING WOUNDS] Inferno lance [MELTA 2] 24\" 4 3+ 12 -4 Scatter laser 36\" 6 3+ 5 0 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 3+ 6 -1 Starcannon 36\" 2 3+ 8 -3 MELEE WEAPONS RANGE A WS S AP Titanic feet Melee 5 3+ 8 -1 WARGEAR ABILITIES Scattershield: The bearer has a 4+ invulnerable save. Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Monster, Titanic, Towering, Walker, Wraith Construct, Aeldari, Skathach Wraithknight WA R HA M M E R L E G E N D S D ABILITIES 1 CORE: Deadly Demise D6, Deep Strike FACTION: Battle Focus 2 Agile: Each time this model makes a Normal, Advance or Fall D6 Back move, it can move over other models (excluding Titanic 1 models) and terrain features that are 4\" or less in height as if they were not there. Webway Shunt Generator: Once per battle, at the end of your 2 opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from D the battlefield and place it into Strategic Reserves. DAMAGED: 1-6 WOUNDS REMAINING While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani SKATHACH WRAITHKNIGHT Skathach Wraithknights were designed to walk the endless paths of the Labyrinth Dimension, purging those eldritch passageways of any trespassers. Equipped with complex webway shunt generators and rare, specialised weapons, these constructs stride the battlefield like vengeful demigods, dispensing doom with every graceful step. WARGEAR OPTIONS ■ This model’s inferno lance can be replaced with 1 deathshroud cannon. ■ This model’s scattershield can be replaced with one of the following: ◦ 1 inferno lance ◦ 1 deathshroud cannon ■ This model can be equipped with up to two of the following: ◦ 1 scatter laser ◦ 1 shuriken cannon ◦ 1 starcannon KEYWORDS: \u0007Monster, Titanic, Towering, Walker, Wraith Construct, Aeldari, Skathach Wraithknight WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Skathach Wraithknight This model is equipped with: inferno lance; titanic feet; scattershield. FACTION KEYWORDS: Asuryani SHADOW SPECTRES M T SV W LD OC 12\" 3 3+ 1 6+ 1 SHADOW SPECTRE 12\" 3 3+ 2 6+ 1 SHADOW SPECTRE EXARCH RANGED WEAPONS RANGE A BS S AP Prism rifle – dispersed [BLAST] 18\" D6 3+ 4 -1 Prism rifle – focused 24\" 1 3+ 6 -2 MELEE WEAPONS RANGE A WS S AP Close combat weapon Melee 2 3+ 3 0 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Infantry, Jump Pack, Fly, Aeldari, Shadow Spectres WA R HA M M E R L E G E N D S 5+ INVULNERABLE SAVE D ABILITIES 1 CORE: Deep Strike, Stealth FACTION: Battle Focus D Shade of Twilight: In your Shooting phase, after this unit 1 has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\". If it does, until the end of the turn, this unit is not eligible to declare a charge. FACTION KEYWORDS: Asuryani SHADOW SPECTRES Draped in holo-fields and gossamer-thin robes, Shadow Spectres haunt the battlefield as intangible ghosts, using their prism rifles to knock out valuable armoured targets before swiftly relocating. Their abilities allow these unsettling Aspect Warriors to stay a step ahead of any counterattack as they resume their terrifying hunt. WARGEAR OPTIONS ■ None KEYWORDS: Infantry, Jump Pack, Fly, Aeldari, Shadow Spectres WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 0-1 Shadow Spectre Exarch ■ 5-10 Shadow Spectres Every model is equipped with: prism rifle; close combat weapon. FACTION KEYWORDS: Asuryani IRILLYTH M T SV W LD OC 12\" 3 2+ 5 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Spear of Starlight 24\" 3 3+ 8 -2 MELEE WEAPONS RANGE A WS S AP Spear of Starlight Melee 4 3+ 5 -2 KEYWORDS: \u0007Infantry, Character, Epic Hero, Fly, Jump Pack, Phoenix Lord, Aeldari, Irillyth WA R HA M M E R L E G E N D S D ABILITIES 4 CORE: Leader, Deep Strike, Stealth D FACTION: Battle Focus 1 Reaper of Souls: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. Shadow of Death (Aura): While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test. FACTION KEYWORDS: Asuryani IRILLYTH Once a disciple of the first Phoenix Lord Asurmen, Irillyth founded the shrine of the Shadow Spectres on the craftworld of Mymeara, instilling in his warriors the arts of stealth, swiftness and decisive firepower. Known as the Shade of Twilight, he moves like a wraith among shadows, wielding the Spear of Starlight with lethal effect. WARGEAR OPTIONS ■ None KEYWORDS: \u0007Infantry, Character, Epic Hero, Fly, Jump Pack, Phoenix Lord, Aeldari, Irillyth WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Irillyth – Epic Hero This model is equipped with: Spear of Starlight. LEADER This model can be attached to the following unit: ■ Shadow Spectres FACTION KEYWORDS: Asuryani WARP HUNTER M T SV W LD OC 14\" 9 3+ 12 6+ 3 RANGED WEAPONS RANGE A BS S AP D D-flail – blast [BLAST, DEVASTATING WOUNDS] 24\" D3 3+ 12 -4 3 D-flail – rift [DEVASTATING WOUNDS, TORRENT] 12\" D3 N/A 12 -4 3 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 3+ 6 -1 2 Twin shuriken catapult [ASSAULT, TWIN-LINKED] 18\" 2 3+ 4 3 1 MELEE WEAPONS RANGE A WS S AP D Wraithbone hull Melee 3 4+ 6 0 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Vehicle, Fly, Frame, Aeldari, Warp Hunter WA R HA M M E R L E G E N D S ABILITIES CORE: Deadly Demise D3 FACTION: Battle Focus Devastating Assault: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test. DAMAGED: 1-4 WOUNDS REMAINING While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Asuryani WARP HUNTER Like the Fire Prism and Night Spinner, the rare Warp Hunter grav-tank foregoes the transport capacity of the Falcon chassis in favour of its potent main armament. Known as the D-flail, this huge weapon can be used either to project a sphere of warp energy that tears its target apart, or to open a temporary rift that drags hapless victims to a terrible death. WARGEAR OPTIONS ■ This model’s twin shuriken catapult can be replaced with 1 shuriken cannon. KEYWORDS: Vehicle, Fly, Frame, Aeldari, Warp Hunter WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Warp Hunter This model is equipped with: D-flail; twin shuriken catapult; wraithbone hull. FACTION KEYWORDS: Asuryani WRAITHSEER M T SV W LD OC 8\" 11 2+ 10 6+ 3 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Aeldari missile launcher – starshot 48\" 1 4+ 10 -2 D6 Aeldari missile launcher – sunburst [BLAST] 48\" D6 4+ 4 -1 1 Bright lance 36\" 1 4+ 12 -3 D6+2 Destructor [PSYCHIC, TORRENT] 12\" D6 N/A 5 -1 1 Scatter laser 36\" 6 4+ 5 0 1 Shuriken cannon [SUSTAINED HITS 1] 24\" 3 4+ 6 -1 2 Starcannon 36\" 2 4+ 8 -3 2 Wraithseer D-cannon [DEVASTATING WOUNDS] 24\" 1 4+ 14 -4 D6 MELEE WEAPONS RANGE A WS S AP D Ghostspear – strike Melee 4 4+ 10 -2 3 [ANTI-INFANTRY 2+, PRECISION, PSYCHIC] Ghostspear – sweep [ANTI-INFANTRY 2+, PSYCHIC] Melee 12 4+ 7 -1 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Monster, Psyker, Walker, Wraith Construct, Aeldari, Wraithseer WA R HA M M E R L E G E N D S ABILITIES CORE: Deadly Demise 1 FACTION: Battle Focus Horrify (Psychic): In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test. FACTION KEYWORDS: Asuryani WRAITHSEER Rare and precious beyond compare, Wraithseers are ancient vessels containing the spiritual essence of fallen Warlocks. As in their mortal lives, these venerable beings are war leaders and powerful psykers, marshalling eldritch forces as deftly as they wield their ghostspear. WARGEAR OPTIONS ■ \u0007\u0007This model can be equipped with one of the following: ◦ 1 Aeldari missile launcher ◦ 1 bright lance ◦ 1 scatter laser ◦ 1 shuriken cannon ◦ 1 starcannon ◦ 1 Wraithseer D-cannon KEYWORDS: \u0007Monster, Psyker, Walker, Wraith Construct, Aeldari, Wraithseer WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Wraithseer This model is equipped with: destructor; ghostspear. FACTION KEYWORDS: Asuryani",
+   "_src": "faction-pack"
+  }
+ },
+ "Devoted of Ynnead": {
+  "Death Answers Death": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your opponent’s Shooting phase.",
+   "target": "One **YNNARI** unit from your army (excluding **WRAITH CONSTRUCT** units), if one or more models in that unit were destroyed this phase.",
+   "effect": "Your unit can shoot as if it were your Shooting phase.",
+   "lore": "As the foe slays their warriors, a terrible vigour grips the Ynnari and compels them to repay the slaughter in kind.",
+   "_src": "39k.pro"
+  },
+  "Emissaries of Ynnead": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase, just after a **YNNARI INFANTRY** unit from your army has selected its targets.",
+   "target": "That **YNNARI INFANTRY** unit.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1. If your unit is below its Starting Strength, you can re‑roll the Hit roll instead.",
+   "lore": "Immersed in murder and gripped by holy purpose, these warriors bring Ynnead’s fatal message and his final gift to all who face them.",
+   "_src": "39k.pro"
+  },
+  "Macabre Resilience": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **YNNARI INFANTRY** or **YNNARI MOUNTED** unit from your army (excluding **WRAITH CONSTRUCT** units) that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+   "lore": "Such is the conviction and power of the Ynnari that sometimes even mortal wounds cannot slow them.",
+   "_src": "39k.pro"
+  },
+  "Pall of Dread": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Any phase.",
+   "target": "One **YNNARI** unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.",
+   "effect": "Select one of those objective markers. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+   "lore": "Even after they fall, the most fervent Ynnari leave a sinister sense of watchfulness in their wake like some invisible death shroud.",
+   "_src": "39k.pro"
+  },
+  "Parting the Veil": {
+   "type": "strategicPloy",
+   "cp": 2,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **YNNARI** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+   "lore": "In the moment of transcendent glory, before the Ynnari give their essence to their god, they fight harder than ever to take the foe with them to death.",
+   "_src": "39k.pro"
+  },
+  "Soulsight": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **YNNARI** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the **[LETHAL HITS]** and **[IGNORES COVER]** abilities",
+   "lore": "Perceiving the flickering soulstuff of their foes, the Ynnari strike with ruthless precision.",
+   "_src": "39k.pro"
+  }
+ },
+ "Eldritch Raiders": {
+  "Impeding Fire": {
+   "type": "wargear",
+   "cp": 1,
+   "when": "Start of your opponent’s Charge phase.",
+   "target": "One Rangers, Shroud Runners or Starfang unit from your army.",
+   "effect": "Select one enemy unit (excluding Titanic units) visible to and within 36\" of your unit. Until the end of the phase, each time that enemy unit declares a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
+   "_src": "faction-pack"
+  },
+  "No Prey Too Big": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One Anhrathe, Rangers or Shroud Runners unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, if the Strength characteristic of that attack is less than the highest Toughness characteristic of models in the target unit, add 1 to the Wound roll.",
+   "_src": "faction-pack"
+  },
+  "No Prey too Big": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **ANHRATHE**, **RANGERS** or **SHROUD RUNNERS** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, if the Strength characteristic of that attack is less than the highest Toughness characteristic of models in the target unit, add 1 to the Wound roll.",
+   "lore": "By accurately targeting weak points in anatomies and superstructures, the Anhrathe can bring down even the most resilient of foes.",
+   "_src": "39k.pro"
+  },
+  "Raiders’ Spoils": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Command phase.",
+   "target": "One Anhrathe unit from your army that is within Engagement Range of one or more enemy units.",
+   "effect": "Until the start of the next Command phase, add 1 to the Objective Control characteristic of models in your unit.",
+   "_src": "faction-pack"
+  },
+  "Raider’s Spoils": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Command phase.",
+   "target": "One **ANHRATHE** unit from your army that is within Engagement Range of one or more enemy units.",
+   "effect": "Until the start of the next Command phase, add 1 to the Objective Control characteristic of models in your unit.",
+   "lore": "Even as battle rages around them, the Eldritch Raiders prioritise the seizing of treasures above the destruction of their foes.",
+   "_src": "39k.pro"
+  },
+  "Ruthless Killers": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One Corsair Voidscarred unit from your 1CP army that has not been selected to shoot or Fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Damage characteristic of that attack.",
+   "_src": "faction-pack"
+  },
+  "Withdraw and Reinforce": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One Anhrathe unit from your army that is not within Engagement Range of one or more enemy units.",
+   "effect": "Remove your unit from the battlefield and place it into Strategic Reserves. If that unit is below Starting Strength, return all destroyed models (excluding Character models) to that unit. CORSAIR Ever opportunistic, Aeldari Corsairs ply the raiding forces known as coteries. Though lightly motivated, possessing a wealth of skills, overcome greater and more numerous foes have the riches they sought. Deploying by of voidships, winged Skyreavers lead the an adequate defence. Into the breach surge assault’s initial momentum to push the enemy fade away into the void, leaving victims reeling DETACHMENT RULE RELENTLESS RAIDERS Should the Anhrathe detect valuable plunder, they will go to great lengths to seize it, and fight with shocking ferocity to protect their prize. While an objective marker is under your control, each time an enemy unit ends a Normal, Advance, Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds. Anhrathe units from your army have the following ability: Void Thieves: At the end of a phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. VETERANS OF THE VOID No two bands of Anhrathe warriors are identical. Each possesses a wealth of experience that a cunning commander can bring to bear upon the foe. Each time you add an Anhrathe unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army. COTERIE void in search of worthwhile targets, often operating in small armed and armoured, such forces are cunning and knowledge and experience. These attributes enable them to and ensure that, by the time the final blow is struck, they sleek and swift skimmers or leaping from the open hatches assault, striking at stunned opponents before they can mount the remainder of the Corsair force, making the most of the back, seize loot and plunder from under their noses and in the aftermath of a dazzling and destructive onslaught. CORSAIR ENHANCEMENTS\b INFAMY (AURA) These infamous raiders are rightly feared, and use their reputation to their advantage with easily identifiable armour and insignia. Anhrathe unit only. While an enemy unit is within 3” of this unit, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1). WEBWAY PATHSTONE This smooth token contains esoteric knowledge of local Webway spurs. When activated by psychic impulse, it projects a mental map of these routes into the minds of the bearer, enabling them to locate hidden gates, bypass their foes, and seize the treasures they seek. Anhrathe unit only. Models in this unit have the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, it can use this ability. If it does, remove this unit from the battlefield and place it into Strategic Reserves. ARCHRAIDER A master of the lightning assault, this commander appears prescient in their ability to confound the foe. Anhrathe Character unit only. At the start of the battle, select one Character model in this unit. That model has the following ability: Lord of Deceit (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP. VOIDSTONE Seized from an alien tomb, this obsidian artefact seems to absorb light itself, offering the bearer and their unit a degree of protection against even the strongest attacks. Anhrathe Infantry unit only. Models in this unit have a 5+ invulnerable save.",
+   "_src": "faction-pack"
+  },
+  "Yriel’s Example": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One Aeldari Infantry unit from your army (excluding Wraith Construct units) that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+   "_src": "faction-pack"
+  }
+ },
+ "Fateful Performance": {
+  "Deceptive Feint": {
+   "cp": 1,
+   "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged HARLEQUINS INFANTRY unit.",
+   "target": "That HARLEQUINS INFANTRY unit.",
+   "effect": "Your unit can make a normal move of up to D3+3\". PATH OF THE STALKING SNIPERS AND RAPTORIAL HUNTERS UNLEASH DEATH DETACHMENT RULES FAR-REACHING DOOM With snipers’ instincts and psychoresponsive gunsights, the Asuryani frontier scouts can pierce almost any barrier to find the hearts of their targets. When a friendly RANGERS/SHROUD RUNNERS unit is selected to shoot, enemy units have +6\" detection range until that friendly unit has shot. ENHANCEMENTS CAMOUFLAGED SNIPERS UPGRADE Aeldari Rangers rely upon fieldcraft and marksmanship to defeat their foes. They conceal themselves so expertly that even the act of firing upon the enemy does not reveal their precise location. RANGERS unit only. This unit’s ranged attacks do not prevent this unit from being hidden. ASSASSINS' EYE UPGRADE Having trodden the Path of the Outcast for so long that they risk becoming trapped upon it, these snipers have honed their talents until they can pinpoint eye lenses, armour seals and other weaknesses to fell the toughest foes. RANGERS/SHROUD RUNNERS unit only. This unit’s ranged attacks that target a CHARACTER unit have +1 AP. OUTCAST AND FEAR FROM AFAR",
+   "_src": "faction-pack"
+  },
+  "Exit the Stage": {
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One friendly unengaged HARLEQUINS unit.",
+   "effect": "Place your unit in strategic reserves.",
+   "_src": "faction-pack"
+  },
+  "Heroes’ Fall": {
+   "cp": 1,
+   "when": "Fight phase, when an enemy unit targets a friendly HARLEQUINS unit.",
+   "target": "That HARLEQUINS unit.",
+   "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6: ▪ On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+   "_src": "faction-pack"
+  }
+ },
+ "Ghosts of the Webway": {
+  "Exit the Stage": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One **HARLEQUINS** unit from your army that is not within Engagement Range of one or more enemy units.",
+   "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+   "lore": "Players know when to fade back from the stage of war, ready to strike again when their moment comes.",
+   "_src": "39k.pro"
+  },
+  "Heroes’ Fall": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **HARLEQUINS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+   "lore": "Though they may be slain, this step of the saedath calls on the players to act out the demise of tragic heroes who take their enemies with them to death.",
+   "_src": "39k.pro"
+  },
+  "Mocking Flight": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase, just after a **HARLEQUINS** unit from your army Falls Back.",
+   "target": "That **HARLEQUINS** unit.",
+   "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+   "lore": "*The Harlequins tumble away in mock terror and panic before spinning back into the fight with cruel laughter and redoubled fury.*",
+   "_src": "39k.pro"
+  },
+  "Staged Death": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Any phase.",
+   "target": "One **HARLEQUINS CHARACTER** model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+   "effect": "At the end of the phase, set your model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with half of its starting number of wounds remaining.",
+   "lore": "A feigned death and sudden, shocking return are as impactful as dismaying to the foe.",
+   "_src": "39k.pro"
+  }
+ },
+ "Guardian Battlehost": {
+  "Blades of Asuryan": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **Dire AVENGERS** or **GUARDIANS** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the **[PISTOL]** ability.",
+   "lore": "Asuryani martial teachings enable those wielding ranged weapons to employ them as close‑quarter implements of death as well.",
+   "_src": "39k.pro"
+  },
+  "Cost of Victory": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One **GUARDIANS** unit from your army.",
+   "effect": "If your unit is not within Engagement Range of one or more enemy units, remove it from the battlefield and place it into Strategic Reserves. When doing so, return every destroyed **GUARDIANS** model to your unit.",
+   "lore": "In so desperate and vital a fight, the Aeldari must accept casualties they would normally avoid and even send fresh warriors in to bolster the flagging ranks if it means victory.",
+   "_src": "39k.pro"
+  },
+  "Shield Nodes": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **DIRE AVENGERS** or **GUARDIANS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "If your unit is within range of one or more objective markers, until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+   "lore": "Exploiting a spar of old Aeldari technology, these warriors engage the flickering ghosts of ancient defensive force fields.",
+   "_src": "39k.pro"
+  },
+  "Vaul’s Vengeance": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit destroys a **DIRE AVENGERS** or **GUARDIANS** unit from your army",
+   "target": "One **WAR WALKERS** unit from your army.",
+   "effect": "After that enemy unit has finished making its attacks, your unit can shoot as if it were your Shooting phase, but when resolving those attacks, it can only target that enemy unit (and only if it is an eligible target).",
+   "lore": "Swift and terrible vengeance comes for those who dare strike down the warriors of the Aeldari in the form of searing heavy weapons fire.",
+   "_src": "39k.pro"
+  },
+  "Warding Salvoes": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **DIRE AVENGERS** or **GUARDIANS** unit from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of one or more objective markers, you can re‑roll the Wound roll.",
+   "lore": "Woe betide the foe that seeks to claim the holdings of armed and determined Asuryani.",
+   "_src": "39k.pro"
+  }
+ },
+ "Path of the Outcast": {
+  "Casting Back the Veil": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly RANGERS/SHROUD RUNNERS unit has shot.",
+   "target": "That RANGERS/SHROUD RUNNERS unit.",
+   "effect": "Select one enemy unit hit by those ranged attacks. That enemy unit has +6\" detection range.",
+   "_src": "faction-pack"
+  },
+  "Eldritch Suppression": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly RANGERS/SHROUD RUNNERS unit has shot.",
+   "target": "That RANGERS/SHROUD RUNNERS unit.",
+   "effect": "Select one enemy unit hit by those ranged attacks. That enemy unit makes a battle‑shock roll, with ‑1 to that battle‑shock roll if a model in that enemy unit was destroyed by those attacks.",
+   "_src": "faction-pack"
+  },
+  "Nomads of the Hidden Way": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly RANGERS/SHROUD RUNNERS unit has shot.",
+   "target": "That RANGERS/SHROUD RUNNERS unit.",
+   "effect": "▪ Your unit can make a normal move of up to D6\". ▪ \u0007Your unit is not eligible to declare a charge or embark within a TRANSPORT until the end of the turn. UNIQUE: ACROBATIC TWILIGHT FLICKERS SHADE‑WREATHED HARLEQUINS SURGE FORWARD, AS SWIFT AND DETACHMENT RULES DANCE OF DISTORTION With their holofields attuned to a mist‑wreathed shadow performance, the Harlequins are insubstantial blurs as they dash through cover to reach their chosen stage. Friendly HARLEQUINS units have Stealth. This detachment has the ACROBATIC tag and cannot be taken with another ACROBATIC detachment. ENHANCEMENTS SHADOWFALL MASKS UPGRADE These nightmarish masks torment the enemy with a psychoresponsive bombardment laced through the murk generated by the wearers’ holofields. The confusing distortion leaves enemies vulnerable to the blades that suddenly spear from the terrifying gloom. TROUPE unit only. This unit has Fights First. PRELUDE PERFORMER With breathtakingly subtle yet rapid movements, this master of the opening act leads the Harlequins in a deadly dance that can catch their foes off guard. HARLEQUINS model only. This unit has Scouts 6\". UNSTOPPABLE AS PHANTASMS",
+   "_src": "faction-pack"
+  }
+ },
+ "Serpent’s Brood": {
+  "Fangs of the Brood": {
+   "cp": 1,
+   "when": "Start of the Fight phase.",
+   "target": "One Troupe unit from your army.",
+   "effect": "Until the end of the phase, when using your unit’s Dance of Death ability, you can select three of the abilities for your unit to gain, instead of one.",
+   "_src": "faction-pack"
+  },
+  "Skyward Lunge": {
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One Harlequins Vehicle or Harlequins Mounted unit from your army.",
+   "effect": "If your unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves. ELDRITCH Few of the deep void’s piratical denizens are as feared infamous pirate lord, these thrill‑seeking raiders sail without mercy. Speed and cunning are the hallmarks in volume. When the time comes for battle, veteran blizzards of shuriken fire to pin their enemies down they can raise a blade in defence. Above, leaping bands flanks, whilst Vypers and Starfangs soar overhead, fire. Always in the thick of the fighting is Prince Yriel leading by inspirational example and with the strategic DETACHMENT RULE YRIEL’S OWN These are Yriel’s most elite raiders, skilled in fast‑paced raids and used to fighting superior forces using a combination of guile, superior technology, and physical prowess. Aeldari units in your army are eligible to declare a charge in a turn in which they Advanced. In addition, each time an Anhrathe, Rangers or Shroud Runners unit from your army Advances, you can re‑roll the Advance roll. VETERANS OF THE VOID No two bands of Anhrathe warriors are identical. Each possesses a wealth of hard‑earned experience that a cunning commander can to bear upon their victims to devastating effect. Each time you add an Anhrathe unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army. RAIDERS as the Eldritch Raiders. Led by Prince Yriel of Iyanden, the the stars in search of prey, striking their targets hard, fast and of the Anhrathe, and the Eldritch Raiders possess these attributes Voidscarred and bands of Voidreavers rush into the fray, unleashing and rushing forward to scythe through opposing infantry before of Skyreavers soar over the enemy line to strike vulnerable raking heavy infantry and enemy vehicles with punishing volleys of himself, parrying, thrusting and killing with his Spear of Twilight, nous of one who has walked the Path of Command. CORSAIR ENHANCEMENTS\b PIRATE PRINCE Yriel’s speed, both of thought and action, ensures that he remains one step ahead of his opponents at all times. Prince Yriel unit only. Each time you spend a Battle Focus token to enable this unit to perform an Agile Manoeuvre, roll one D6: on a 3+, you gain 1 Battle Focus token. ALACRITOUS ASSAULT The key to any raid is the shock of the opening strike. Anhrathe warriors strike at breakneck speed, power swords and boarding hooks finding gaps in enemy armour and inflicting devastating wounds. Anhrathe unit only. Melee weapons equipped by models in this unit have the [LANCE] ability. EXOTIC MUNITIONS In their travels through the void, these Anhrathe warriors have collected a bounty of esoteric ammunition. The most lethal of these munitions are toxic or acidic enough to fell monstrous foes or to burn through armour and servo-motors with frightening rapidity. Anhrathe unit only. Ranged weapons equipped by models in this unit have the [ANTI‑MONSTER 5+] and [ANTI‑VEHICLE 5+] abilities. ADRENAL INFUSIONS Amongst the hauls taken by Aeldari Corsairs are many stimulants and elixirs, the most powerful of which enhance the already impressive grace and agility of the Aeldari physiology. Anhrathe Infantry unit only. This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other units from performing the same Agile Manoeuvre in the same phase.",
+   "_src": "faction-pack"
+  },
+  "Striking Stride": {
+   "cp": 1,
+   "when": "Your Charge phase.",
+   "target": "One Harlequins unit from your army.",
+   "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+   "_src": "faction-pack"
+  },
+  "Venomous Wrath": {
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One Harlequins Vehicle unit from your army that has not been selected to shoot this phase.",
+   "effect": "After your unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". Until the end of the turn, your unit is not eligible to declare a charge.",
+   "_src": "faction-pack"
+  },
+  "Weavers’ Coils": {
+   "cp": 1,
+   "when": "End of your Fight phase.",
+   "target": "One Harlequins Mounted unit from your army that was eligible to fight this phase.",
+   "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. Otherwise, your unit can make a Fall Back move of up to 6\".",
+   "_src": "faction-pack"
+  },
+  "Weaving Stride": {
+   "cp": 1,
+   "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+   "target": "One Harlequins Infantry unit from your army that is within 8\" of that enemy unit.",
+   "effect": "Your unit can make a Normal move of up to 6\".",
+   "_src": "faction-pack"
+  }
+ },
+ "Twilight Flickers": {
+  "Captivating Performance": {
+   "cp": 1,
+   "when": "End of your Movement phase.",
+   "target": "One friendly TROUPE unit.",
+   "effect": "Select one objective your unit is controlling. That objective is secured.",
+   "_src": "faction-pack"
+  },
+  "Phantasmal Mirage": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly HARLEQUINS VEHICLE unit has shot.",
+   "target": "That HARLEQUINS VEHICLE unit.",
+   "effect": "▪ Your unit can make a normal move of up to D6\". ▪ \u0007Your unit is not eligible to declare a charge until the end of the turn. SERPENT’S The saedath of the Harlequins are both level requiring the depthless Aeldari psyche specialised: the Serpent’s Brood is one such. myth, it focuses on troupes of Harlequins squadrons of Skyweaver Jetbikes and more is named for one of the Cosmic Serpent’s the Starweavers loyal and dutiful as they hurtling back and forth spreading carnage, equal measure. DETACHMENT RULE BOONS OF THE BROOD Playing their roles to perfection, the Harlequins embody the swift-striking fangs and deadly venoms of the Cosmic Serpent’s brood, dominating the stage of the battlefield with their swift and vicious performances. Weapons equipped by Harlequins Mounted and Harlequins Vehicle models from your army have the [SUSTAINED HITS 1] ability. Each time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit’s weapons have the [SUSTAINED HITS 1] ability. TRAVELLING PLAYERS\b ■ \u0007 Troupe units from your army gain the Battleline keyword, and Troupe models in those units have an Objective Control characteristic of 2. ■ \u0007You can include up to three of each of the following models in your army: Death Jester, Shadowseer, Troupe Master. BROOD scripted performances and battle plans, interwoven on a to truly comprehend. Some saedath are extremely Drawn from tales of the Cosmic Serpent of Aeldari mounted aboard Starweaver transports, supported by heavily armed Voidweavers. As each of these units children, so they play their roles on the battlefield: ferry their passengers into the fight, the Skyweavers and the Voidweavers imperious and murderous in ENHANCEMENTS\b KEY OF GHOSTS This mystic wraithbone implement allows the bearer to slip onto the stage from the Webway even before the curtain’s rise, beginning their performance in full and furious flow. Harlequins model only (excluding Solitaire models). Models in the bearer’s unit have the Scouts 6\" ability. WEAVERS’ WAIL A cruel weapon more often kept locked away, this ill-omened implement is said to resonate with the Cosmic Serpent’s own dismay at the suffering of its brood during the Fall. Troupe Master model only. Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer’s melee weapons. FANGED LEER This cruel mask is worn when performing the Serpent’s Brood, and lends its wearer a supernatural degree of venom and spite. Death Jester model only. When using the bearer’s Cruel Amusement ability, you can select two of the abilities for its shrieker cannon to gain, instead of one. SHEDSKIN RAIMENT This glittering cloak projects a grand illusion that falls away as its wearer sheds it like a discarded serpent’s hide, revealing a still-more dismaying reality beneath. Shadowseer model only. After both players have deployed their armies, select up to three Harlequins units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+   "_src": "faction-pack"
+  },
+  "Presaged Rehearsal": {
+   "cp": 1,
+   "when": "Fight phase, when a friendly TROUPE unit is selected to fight.",
+   "target": "That TROUPE unit.",
+   "effect": "Your unit’s melee attacks have [LANCE].",
+   "_src": "faction-pack"
+  }
+ },
+ "Warhost": {
+  "Feigned Retreat": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase, just after an **ASURYANI** unit from your army Falls Back.",
+   "target": "That **ASURYANI** unit.",
+   "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+   "lore": "What appears to be a full retreat one moment is revealed as the deceptive prelude to a devastating attack the next.",
+   "_src": "39k.pro"
+  },
+  "Lightning-fast Reactions": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **ASURYANI** unit from your army (excluding **WRAITH CONSTRUCT** units) that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+   "lore": "Processing events at incredible speed, these warriors easily evade attacks that would have slain any less celeritous combatants.",
+   "_src": "39k.pro"
+  },
+  "Skyborne Sanctuary": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of the Fight phase.",
+   "target": "One unengaged **ASURYANI** unit from your army that was eligible to fight this phase and one friendly **TRANSPORT** it is able to embark within.",
+   "effect": "If your **ASURYANI** unit is wholly within 6” of that **TRANSPORT**, it can embark within it.",
+   "lore": "The Aeldari excel in striking swiftly, then leaping back into the safety of their skimming transports.",
+   "_src": "39k.pro"
+  }
+ },
+ "Windrider Host": {
+  "Death From On High": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **ASURYANI MOUNTED** or **VYPER** unit from your army that was set up on the battlefield from Reserves this turn and has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re‑roll the Wound roll.",
+   "lore": "Streaking suddenly down from on high, the Aeldari strike like the fall of an executioner’s blade.",
+   "_src": "39k.pro"
+  },
+  "Focused Firepower": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **ASURYANI MOUNTED** or **VYPER** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1.",
+   "lore": "Able to analyse and assess target data at incredible speeds, these Aeldari isolate the foe’s weak spot and pour all their fire into it as they hurtle past.",
+   "_src": "39k.pro"
+  },
+  "Spiralling Evasion": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One **ASURYANI MOUNTED** or **VYPER** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+   "lore": "None but the Aeldari could risk such breakneck and seemingly suicidal evasive manoeuvres to jink around incoming enemy fire.",
+   "_src": "39k.pro"
+  },
+  "Wind of Blades": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase.",
+   "target": "One **ASURYANI MOUNTED** or **VYPER** unit from your army that has not been selected to move this phase.",
+   "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+   "lore": "Warriors such as these cannot be pinned down or held back. They hit and run at will, hammering the foe with constant fire and slashing blows.",
+   "_src": "39k.pro"
+  }
+ }
+}

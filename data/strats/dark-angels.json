@@ -1,0 +1,335 @@
+{
+ "_source": "stratagems grouped by DETACHMENT. PRIMARY = faction pack (_src=faction-pack); FALLBACK = 39k.pro JS bundle via pull_39k.py (_src=39k.pro) for strats/detachments the pack omits.",
+ "Company of Hunters": {
+  "Armour of Contempt": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+   "lore": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
+   "_src": "39k.pro"
+  },
+  "Death on the Wind": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Movement phase, when a friendly **ADEPTUS ASTARTES** unit ends an **advance move**.",
+   "target": "That **ADEPTUS ASTARTES** unit.",
+   "effect": "That **advance move** does not prevent your unit from being **eligible to declare a charge**.",
+   "lore": "The Ravenwing employ shock tactics and focussed firepower to tear bloody paths through the enemy ranks, shattering resistance and clearing the way to their true quarry.",
+   "_src": "39k.pro"
+  },
+  "High-speed Focus": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One **RAVENWING** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+   "lore": "Even when travelling at breakneck pace, the Ravenwing control their vehicles with consummate skill and are able to jink and dodge around incoming enemy fire.",
+   "_src": "39k.pro"
+  },
+  "Hunter’s Trail": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Command phase.",
+   "target": "One **RAVENWING MOUNTED** unit from your army that is within range of an objective marker you control.",
+   "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+   "lore": "Using augur beacons, servo-skulls and the like, the Ravenwing mark locations they have passed through and cleansed of foes, laying a trial their fellows can follow on the hunt.",
+   "_src": "39k.pro"
+  },
+  "Rapid Reappraisal": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One **RAVENWING** unit from your army that is not within Engagement Range of one or more enemy units.",
+   "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+   "lore": "The Ravenwing scan and analyse their foes’ strategic dispositions constantly, augury and aerial surveillance helping to watch that no quarry slips their closing net. They are quick to redirect combat assets should such a risk present itself.",
+   "_src": "39k.pro"
+  },
+  "Talon Strike": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase, when a friendly **ADEPTUS ASTARTES** unit is **selected to fight**.",
+   "target": "That **ADEPTUS ASTARTES** unit.",
+   "effect": "Your unit's melee attacks have **[LANCE]**.",
+   "lore": "Be it their true quarry or simply one who possesses knowledge that will lead them to their apprehension, when the Ravenwing strike at a priority target they do so with unmerciful surety.",
+   "_src": "39k.pro"
+  }
+ },
+ "Dark Age Arsenal": {
+  "No Sacrifice Too Great": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+   "target": "That ADEPTUS ASTARTES unit.",
+   "effect": "Your unit’s [HAZARDOUS] plasma ranged attacks have +1 S.",
+   "_src": "faction-pack"
+  },
+  "Revelation of Guilt": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+   "target": "That ADEPTUS ASTARTES unit.",
+   "effect": "Your unit’s plasma ranged attacks have +1 to hit rolls. DARKFLIGHT PURSUIT BLACK‑ARMOURED COMBAT CRAFT HUNT THEIR PREY UPON WINGS DETACHMENT RULES BLACK-WINGED VIGILANCE The anti‑grav skimmers and combat aircraft of the Ravenwing bristle not only with potent weapons but also with powerful augurs and trackers, whose sleepless machine spirits are as vigilant as the black‑armoured battle‑brothers. Friendly RAVENWING FLY units’ ranged attacks have [IGNORES COVER]. Restrictions: Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter. ENHANCEMENTS THUNDERCOWL TURBINES UPGRADE These master‑wrought engines from the Dark Age of Technology churn the gloom emanated by the Ravenwing’s reliquaries into a billowing cawl that shrouds their advance, allowing them to strike when the foe least expects. RAVENWING FLY unit only. In your first Movement phase, this unit can make an ingress move. NIGHTFORGED BATTERY UPGRADE Use of these relic plasma storm batteries is granted only by dispensation of the Master of the Rock. They unleash devastating toroids of searing plasma, while their venting subsystems are known to be especially vigilant. LAND SPEEDER VENGEANCE unit only. This unit can re‑roll: ▪ \u0007Rolls to determine the A of a weapon. ▪ Hazard \u0007 rolls. OF DARK FURY",
+   "_src": "faction-pack"
+  },
+  "Searing Bursts": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly HELLBLASTER SQUAD unit has shot.",
+   "target": "That HELLBLASTER SQUAD unit.",
+   "effect": "Select one enemy unit hit by your unit’s plasma ranged attacks. That enemy unit is seared until the start of your next turn: ▪ While a unit is seared, that unit has ‑2\" M.",
+   "_src": "faction-pack"
+  }
+ },
+ "Darkflight Pursuit": {
+  "Skyborne Surveillance": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly RAVENWING FLY unit has shot.",
+   "target": "That RAVENWING FLY unit.",
+   "effect": "Visible enemy units within 6\" of your unit have +3\" detection range.",
+   "_src": "faction-pack"
+  },
+  "We Are Vengeance": {
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged RAVENWING FLY unit has shot.",
+   "target": "That RAVENWING FLY unit.",
+   "effect": "Your unit can make a normal move of up to D3+3\". INTERROGATION MASTERS OF PRECISION EXCRUCIATION LEAD THE DARK ANGELS DETACHMENT RULES DREAD CATECHISM When the Chapter’s pitiless and dedicated Interrogator Chaplains mark a foe, they are the target for a torturous and precise excruciation. Matters of truth are kept to the hidden cells of the Rock; these instead are matters of painful battlefield castigation to sow dread and fear in the enemies of the Dark Angels. ▪ \u0007In the Fight phase, when a friendly CHAPLAIN unit destroys an enemy unit, enemy units within 6\" of that CHAPLAIN unit make a battle-shock roll. ▪ Friendly CHAPLAIN units have the following ability: Sower of Dread (Aura): While an enemy unit is within 6\" of this unit, that enemy unit has -1 Ld. Restrictions: Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter. ENHANCEMENTS LIMITLESS ZEAL This Interrogator‑Chaplain is restless and dynamic, not only in his pursuit of enemies but also when eliciting their screamed confessions. CHAPLAIN model only. This unit has +1 to charge rolls. INESCAPABLE INTERROGATION Whatever physical obfuscation the enemy hides behind mirrors only the lies shrouding their souls. This experienced Chaplain is deceived by neither. CHAPLAIN model only. This unit’s ranged attacks have [IGNORES COVER]. CONCLAVE IN CONDEMNATORY STRIKES",
+   "_src": "faction-pack"
+  },
+  "Wings of Shadow": {
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly RAVENWING FLY unit.",
+   "target": "That RAVENWING FLY unit.",
+   "effect": "Your unit has Stealth.",
+   "_src": "faction-pack"
+  }
+ },
+ "Inner Circle Task Force": {
+  "Armour of Contempt": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+   "lore": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
+   "_src": "39k.pro"
+  },
+  "Duty Unto Death": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **DEATHWING** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 if your unit is within range of your Vowed objective marker. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+   "lore": "So driven by duty are the veterans of the Unforgiven that even death cannot keep them from it.",
+   "_src": "39k.pro"
+  },
+  "Martial Mastery": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **DEATHWING INFANTRY** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit is within range of your Vowed objective marker, you can re-roll the Wound roll instead.",
+   "lore": "The warriors of the Deathwing fight with the honed skill and lethality of knightly champions.",
+   "_src": "39k.pro"
+  },
+  "Unmatched Fortitude": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One **DEATHWING INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than your unit’s Toughness characteristic, subtract 1 from the Wound roll.",
+   "lore": "In the name of their oaths to Chapter, Primarch and Emperor, the Deathwing march into the fiercest firestorms and refuse to falter.",
+   "_src": "39k.pro"
+  },
+  "Wrath of the Lion": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Your Charge phase.",
+   "target": "One **DEATHWING INFANTRY** unit from your army that just ended a Charge move.",
+   "effect": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit, adding 1 to the result if that enemy unit is within range of your Vowed objective marker: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 3 mortal wounds).",
+   "lore": "Channelling the strategic puissance and measured ferocity of their gene-sire, the veterans of the Unforgiven unleash a perfectly timed and utterly lethal storm of tightly controlled violence.",
+   "_src": "39k.pro"
+  }
+ },
+ "Interrogation Conclave": {
+  "Exacting Punishment": {
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase, when a friendly CHAPLAIN unit is selected to attack.",
+   "target": "That CHAPLAIN unit.",
+   "effect": "Your unit’s attacks have [PRECISION].",
+   "_src": "faction-pack"
+  },
+  "Terrifying Zeal": {
+   "cp": 1,
+   "when": "Your Charge phase, when a friendly CHAPLAIN unit ends a charge move.",
+   "target": "That CHAPLAIN unit.",
+   "effect": "Select one enemy unit (excluding MONSTER/VEHICLE units) engaged with your unit. That enemy unit makes a leadership roll: ▪ \u0007If that leadership roll fails, that enemy unit’s attacks have -1 to hit rolls until the end of the turn.",
+   "_src": "faction-pack"
+  },
+  "Wages of Cowardice": {
+   "cp": 1,
+   "when": "Your opponent’s Movement phase, when an enemy unit that was engaged with a friendly CHAPLAIN unit ends a fall‑back move, if that CHAPLAIN unit is unengaged.",
+   "target": "That CHAPLAIN unit.",
+   "effect": "Your unit can make a normal move of up to D3+3\". LION’S BLADE TASK FORCE There is no more significant duty to the Dark of the Fallen. A Lion’s Blade Task Force combines the Ravenwing with the obdurate might of the the Ravenwing thunder across the battlefield, teleport homers in key positions behind the crackling flashes of blue light to enact DETACHMENT RULE IN THE LION’S CLAWS Those unfortunate enough to be caught between the devastating speed of the Ravenwing and the adamantine might of the Deathwing are pinned in place and torn to shreds by their combined fury. ■ \u0007Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more Ravenwing units from your army Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests. ■ \u0007Each time a Deathwing unit from your army declares a charge, if one or more targets of that charge are within Engagement Range of one or more Ravenwing units from your army, add 2 to the Charge roll. RESTRICTIONS\b Your army can include Dark Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter. Angels’ Inner Circle than the pursuit and capture the speed, manoeuvrability and firepower of Deathwing. The bikes, aircraft and speeders of smashing through enemy formations to place enemy lines. Then come the Deathwing, appearing in retribution with brutal efficiency. ENHANCEMENTS\b CALIBANITE ARMAMENTS The eldest relic weapons of the Dark Angels trace their lineage to ancient Caliban and are wielded only by the greatest champions of the Unforgiven. Adeptus Astartes model only. Add 1 to the Damage characteristic of the bearer’s melee weapons. LORD OF THE HUNT This veteran of the Ravenwing has spent mortal lifetimes in the saddle, leading mechanised cavalry to battle on countless worlds. Ravenwing model only. The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back and you can re‑roll Desperate Escape tests taken for models in the bearer’s unit. STALWART CHAMPION Possessed of obdurate will, this warrior champion instils an indomitable resolve and absolute refusal to cede ground within his brothers. Captain, Chaplain or Lieutenant model only. While the bearer’s unit is not Battle‑shocked, add 1 to the Objective Control characteristic of models in the bearer’s unit. FULGUS MAGNA This ancient teleport homer projects a powerful narrow‑band signal, enabling the teleportarium chambers of orbiting vessels to lock on to the bearer even amid severe atmospheric or empyric disturbances. Deathwing model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, remove the bearer’s unit from the battlefield and place it into Strategic Reserves.",
+   "_src": "faction-pack"
+  }
+ },
+ "Lion’s Blade Task Force": {
+  "Armour of Contempt": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the 1CP Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+   "_src": "faction-pack"
+  },
+  "Illuminating Fire": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase, just after a Ravenwing unit from your army has selected its targets.",
+   "target": "That Ravenwing unit.",
+   "effect": "Select one enemy unit within 12\" of your unit that was selected as the target of one or more of the attacking unit’s attacks. Until the end of the phase, each time a friendly Deathwing unit makes an attack that targets that enemy unit, add 1 to the Wound roll.",
+   "_src": "faction-pack"
+  },
+  "Inescapable Wrath": {
+   "type": "strategicPloy",
+   "cp": 2,
+   "when": "End of your opponent’s Charge phase.",
+   "target": "One Deathwing Infantry or Deathwing Walker unit from your army that is within 6\" of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units if it were your Charge phase.",
+   "effect": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
+   "restrictions": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn. WRATH OF When the Dark Angels are roused to war, the lethal strike forces capable of countering against tides of enemies, their boltguns Ravenwing, an ebon-clad blur of bikes and the opposing army and runs down pursuers into the elite warriors at the forefront of the Terminator armour and bearing a trove of and killing until their bone-white armour is DETACHMENT RULE DUTIFUL TENACITY Even amongst the Adeptus Astartes, the battle-brothers of the Dark Angels are renowned for their tenacity and resilience on the battlefield. When ordered to war, they are utterly relentless in pursuing their objectives, wading into fields of withering fire and shrugging off blows that would slay mortal warriors outright. Each time an attack targets an Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll. THE ROCK constituent elements of the Chapter conspire to form any threat. Warriors of the battle companies stand tall bellowing a chorus of death. Upon the wings ride the lightning-fast speeders that crashes into the flank of with ruthless aggression. At the heart of the fighting, enemy formation, strike the Deathwing. Clad in relic weapons, they break the back of the foe, fighting stained with the crimson blood of their enemies. ENHANCEMENTS\b TEMPERED IN BATTLE (AURA) A veteran of the Inner Circle, this warrior inspires those around them to hold the line amidst the heat and chaos of battle. Adeptus Astartes model only. While a friendly Adeptus Astartes unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit. ANCIENT WEAPONS The vaults of the Dark Angels contain many relics from Humanity’s distant past. This soldier has been granted the honour of bearing such a weapon to battle. Adeptus Astartes model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1. DEATHWING ASSAULT A veteran inductee of the Inner Circle, this champion has served amongst the Deathwing for centuries and become an unmatched master of teleportarium insertions. Deathwing model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. LORD OF THE RAVENWING This commander has mastered the art of cavalry combat, instinctively noticing the opportune position to strike and navigating the chaos of battle with preternatural precision. Ravenwing model only. You can re-roll Advance and Charge rolls made for the bearer’s unit.",
+   "_src": "faction-pack"
+  },
+  "Knights of Iron": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase or your Charge phase.",
+   "target": "One Ravenwing unit from your army.",
+   "effect": "Until the end of the phase, each time a model in your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
+   "_src": "faction-pack"
+  },
+  "Overpowering Exaction": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Command phase or the start of the Fight phase.",
+   "target": "One Adeptus Astartes unit from your army.",
+   "effect": "Select one enemy unit within Engagement Range of your unit. That enemy unit must take a Battle‑shock test. When doing so, if your unit has the Deathwing or Ravenwing keyword, subtract 1 from the result.",
+   "restrictions": "You can only use this Stratagem once per battle round.",
+   "_src": "faction-pack"
+  },
+  "Strength in Unity": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "If that enemy unit is within Engagement Range of one or more Ravenwing units from your army, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll. If that enemy unit is within Engagement Range of one or more Deathwing units from your army, until the end of the phase, each time a model in that enemy unit makes an attack, if the Strength characteristic of that attack is greater than the Toughness characteristic of the target, subtract 1 from the Wound roll.",
+   "restrictions": "A unit cannot be targeted by this and the Armour of Contempt Stratagem in the same phase.",
+   "_src": "faction-pack"
+  }
+ },
+ "Unforgiven Task Force": {
+  "Armour of Contempt": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+   "lore": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
+   "_src": "39k.pro"
+  },
+  "Fire Discipline": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the **[ASSAULT]**, **[HEAVY]** and **[IGNORES COVER]** abilities.",
+   "lore": "There is no escaping the wrath of the Unforgiven when they bring their disciplined firepower to bear.",
+   "_src": "39k.pro"
+  },
+  "Grim Retribution": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that had one or more models destroyed as a result of the attacking unit’s attacks.",
+   "effect": "Your unit can shoot as if it were your Shooting phase, but it must target only the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.",
+   "lore": "Stern and vengeful as they are, the warriors of the Unforgiven Chapters deliver swift retribution to any foe foolish enough to try to lay them low.",
+   "_src": "39k.pro"
+  },
+  "Intractable": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase, just after an **ADEPTUS ASTARTES** unit from your army Falls Back.",
+   "target": "That **ADEPTUS ASTARTES** unit.",
+   "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+   "lore": "Even the Dark Angels must give ground occasionally, but their stubborn determination ensures they never do so for long, or without a fight.",
+   "_src": "39k.pro"
+  },
+  "Unbreakable Lines": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Your opponent’s Charge phase, just after an enemy unit ends a Charge move.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army within Engagement Range of that enemy unit.",
+   "effect": "Until the end of the turn, each time an attack targets your unit, subtract 1 from the Wound roll.",
+   "lore": "Countless assaults have faltered against the unbreakable ceramite wall that is the Unforgiven standing their ground.",
+   "_src": "39k.pro"
+  },
+  "Unforgiven Fury": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, weapons equipped by models in your unit have the **[LETHAL HITS]** ability. In addition, if one or more **ADEPTUS ASTARTES** units from your army are currently Battle-shocked, until the end of the phase, each time a model in your unit makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+   "lore": "With focused aggression, the Dark Angels relentlessly punish the foe.",
+   "_src": "39k.pro"
+  }
+ },
+ "Wrath of the Rock": {
+  "Armour of Contempt": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the 1CP Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+   "_src": "faction-pack"
+  },
+  "Inescapable Justice": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Any phase, just after your Oath of Moment target is destroyed.",
+   "target": "One Adeptus Astartes Character unit that is on the battlefield.",
+   "effect": "Select one enemy unit within 12\" and visible to your unit. That enemy unit becomes your Oath of Moment target until the start of your next Command phase.",
+   "_src": "faction-pack"
+  },
+  "Leonine Aggression": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+   "target": "That ADEPTUS ASTARTES unit.",
+   "effect": "Your unit’s melee attacks have [LANCE].’ ANGELS UPDATES rules, designed to improve the gaming experience for all players. be highlighted in red. INNER CIRCLE TASK FORCE DETACHMENT Vowed Target Detachment Rule Change to: ‘At the start of your Movement phase, select one of the following: – ▪ Defensive \u0007 Footing: Select one objective you control. Until the start of your next Movement phase, that objective is your Vowed objective. ▪ Aggressive \u0007 Push: Select one or more objective you do not control. Until the start of your next Movement phase, each of those objectives is one of your Vowed objectives. If a rule refers to a unit or model being within range of your Vowed objective, that rule takes effect if that unit or model is within range of one or more of your Vowed objectives. Each time a DEATHWING INFANTRY unit from your army makes an attack that targets a unit within range of one or more of your Vowed objectives, add 1 to the Wound roll.’ Relic Teleportarium Stratagem, Effect Section Change 3\" to 6\". UNFORGIVEN TASK FORCE DETACHMENT Grim Resolve Detachment Rule Change to: ‘While an ADEPTUS ASTARTES unit from your army is Battle-shocked, change the Objective Control characteristic of models in that unit to 1 instead of '-'. In your Command phase, you can select one ADEPTUS ASTARTES unit from your army. Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in that unit.’ Shroud of Heroes Enhancement Change to: ‘ADEPTUS ASTARTES model only. (Once per battle, per army) When this model is destroyed, at the end of the phase, roll one D6: ▪ \u0007On a 2+, set up this model on the battlefield, unengaged and as close as possible to where it was destroyed. This model is not part of an attached unit and its unit has a starting strength of 1. This model has 3 wounds remaining, or its full wounds remaining if this model was battle-shocked when it was destroyed.’ unit DATASHEETS Nephilim Jetfighter, Ravenwing Dark Talon • Core Abilities: Remove 'Hover'. ▪ Profile: \u0007 Change M and OC to '-'. Deathwing Terminator Squad, Deathwing Knights – Watcher in the Dark Ability Change to: ‘Once per battle, in any phase, just after a mortal wound is allocated to an ADEPTUS ASTARTES model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds.’ Deathwing Terminator Squad, Teleport Homer Ability Change 9\" to 8\". Deathwing Knights • Teleport Homer Ability: Change 9\" to 8\". • \u0007Melee Weapons: Change the mace of absolution and power profiles to: Mace of Absolution [ANTI-MONSTER 4+, ANTI-VEHICLE 4+] RANGE A WS S AP D Melee 4 2+ 6 -2 2 Power Weapon RANGE A WS S AP D Melee 5 2+ 6 -2 2 Inner Circle Companions, Braziers of Judgement ability Change to: ▪ This unit has Stealth. ▪ Melee attacks that target this unit have ‑1 to hit rolls. Inner Circle Companions, Calibanite Greatsword Profiles Change to: Calibanite Greatsword - Strike [LETHAL HITS] RANGE A WS S AP D Melee 4 3+ 6 -2 2 Calibanite Greatsword - Sweep [SUSTAINED HITS 2] RANGE A WS S AP D Melee 5 3+ 6 -2 1 Land Speeder Vengeance, Plasma Storm Battery Profiles Change to: Plasma Storm Battery - Standard [BLAST, TWIN-LINKED] RANGE A BS S AP D 36\" D6+1 3+ 8 -2 2 Plasma Storm Battery - Supercharge [BLAST, HAZARDOUS, TWIN-LINKED] RANGE A BS S AP D 36\" D6+1 3+ 9 -3 3 Lion El’Jonson ▪ Keywords section: Add 'MOBILE'.\u0007 ▪ \u0007All Secrets Revealed Ability – Change to: ‘Mist-wreathed Shadow Realms: At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: weapon ▫ Place this unit in strategic reserves. ▫ \u0007This unit can make an ingress move in your next Movement phase (including in your first turn).’ ▪ \u0007Martial Exemplar (Aura) Ability – Change to: ‘Martial Exemplar (Aura): While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, each time a model in that unit makes a melee attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.' ▪ \u0007Primarch of the First Legion Ability – Change to: ‘Primarch of the First Legion: At the start of your Command phase, select two Primarch of the First Legion abilities. Until the start of your next Command phase, this model has those abilities.’ ▪ \u0007The Emperor’s Shield Ability – Change to: ‘Each time an attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll.’ ▪ Fealty \u0007 weapon profile: change to: Fealty - Strike [LETHAL HITS] RANGE A WS S AP D Melee 8 2+ 12 -4 4 Fealty - Sweep [SUSTAINED HITS 1] RANGE A WS S AP D Melee 16 2+ 6 -3 2 Nephilim Jetfighter, Lightning-fast Manoeuvres Ability Change to: ‘Ranged attacks that target this unit have ‑1 to wound rolls.’ Ravenwing Black Knights, Ravenwing Command Squad – Black Knight Combat Weapon Profile Black Knight Combat Weapon [DEVASTATING WOUNDS] RANGE A WS S AP D Melee 3 3+ 5 -2 1 Ravenwing Command Squad, Keywords Section Remove ‘Leader’, add ‘Support’. Ravenwing Command Squad, Honour or Death Ability Change to: 'While this unit contains a Ravenwing Champion, add 1 to Advance and Charge rolls made for this unit.When you target this unit with the Heroic Intervention stratagem, that use is -1 CP.' Ravenwing Darkshroud, Icon of Old Caliban Ability Change to: ‘Friendly ADEPTUS ASTARTES units within 6\" of this unit have Stealth.’ Ravenwing Dark Talon, Stasis Bomb Ability Change to: ‘Stasis Bomb: At the end of your opponent’s Fight phase, select one visible enemy unit (excluding AIRCRAFT/Lone Operative units) within 24\" of this unit. That enemy unit is slowed until the end of your opponent’s next Movement phase: ▪ \u0007While a unit is slowed, in your opponent’s Movement phase, when that unit is selected to move, unless that unit remains stationary, roll one D6: ▫ \u0007On a 1-4, that unit suffers D3 mortal wounds and that unit has -2\" M. ▫ \u0007On a 5-6, that unit suffers 2D3 mortal wounds and that unit has -3\" M.’ Sammael, Grand Master of the Ravenwing Ability Change to: ▪ This unit’s ranged attacks have [ASSAULT]. ▪ \u0007When this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge. ▪ This unit has MOBILE. Land Speeder Vengeance, Ravenwing Darkshroud, Sammael – Keywords Section Add 'FRAME'. FAQS Q: While using the Wrath of the Rock Detachment, can I use the Charge move from the Leonine Aggression Stratagem to move a unit out of Engagement Range with another unit? A: No. RAVENWING TALONMASTER M T SV W LD OC 16\" 7 3+ 6 6+ 2 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Twin assault cannon 24\" 6 3+ 6 0 [DEVASTATING WOUNDS,TWIN-LINKED] Twin heavy bolter [SUSTAINED HITS 1, TWIN-LINKED] 36\" 3 3+ 5 -1 MELEE WEAPONS RANGE A WS S AP Power weapon Melee 5 3+ 5 -2 KEYWORDS: \u0007Vehicle, Character, Fly, Frame, Imperium, Ravenwing, Ravenwing Talonmaster WA R HA M M E R L E G E N D S D ABILITIES 1 CORE: Deadly Demise 1 2 FACTION: Oath of Moment D Talonmaster: While this model is within 3\" of one or more other friendly Adeptus Astartes Mounted or Adeptus 1 Astartes Fly Vehicle units, this model has the Lone Operative ability. Nowhere to Hide: While a friendly Adeptus Astartes Mounted or Adeptus Astartes Fly Vehicle unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability. Master of Manoeuvre: In your opponent’s Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, this model can make a Normal move of up to 6\". FACTION KEYWORDS: Adeptus Astartes, Dark Angels RAVENWING TALONMASTER Mounted in a Land Speeder outfitted with additional auspex scanners and vox-casters, it is a Talonmaster’s role to direct the Ravenwing’s fire, using his equipment to ensure no quarry can hide from them. They even identify foes seeking temporary refuge in dense terrain, revealing their location to all Ravenwing warriors. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: \u0007Vehicle, Character, Fly, Frame, Imperium, Ravenwing, Ravenwing Talonmaster WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Ravenwing Talonmaster This model is equipped with: twin assault cannon; twin heavy bolter; power weapon. FACTION KEYWORDS: Adeptus Astartes, Dark Angels DEATHWING STRIKEMASTER M T SV W LD OC 5\" 5 2+ 5 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Storm bolter [RAPID FIRE 2] 24\" 2 2+ 4 0 1 MELEE WEAPONS RANGE A WS S AP D Chainfist [ANTI-VEHICLE 3+] Melee 4 3+ 8 -2 2 Mace of absolution Melee 5 2+ 6 -1 3 Master-crafted power weapon Melee 5 2+ 5 -2 2 Power fist Melee 4 2+ 8 -2 2 Thunder hammer [DEVASTATING WOUNDS] Melee 4 3+ 8 -2 2 Twin lightning claws [TWIN-LINKED] Melee 6 2+ 5 -2 1 KEYWORDS: \u0007Infantry, Character, Imperium, Deathwing, Terminator, Lieutenant, Deathwing Strikemaster WA R HA M M E R L E G E N D S ABILITIES CORE: Deep Strike, Support FACTION: Oath of Moment Tactical Precision: While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability. Vanquish the Foe: Each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll. WARGEAR ABILITIES Storm Shield: The bearer has a Wounds characteristic of 6. FACTION KEYWORDS: Adeptus Astartes, Dark Angels DEATHWING STRIKEMASTER Deathwing Strikemasters serve as the Deathwing’s Lieutenants. To earn such an esteemed rank they have carried out deeds of enormous bravery on countless battlefields, honing their skills as warriors and leaders. In battle they guide their Deathwing brethren with skill and pride, bringing death to the enemy. WARGEAR OPTIONS ■ \u0007\u0007This model’s storm bolter and master-crafted power weapon can be replaced with either 1 twin lightning claws, or two different weapons from the following list: ◦ 1 storm bolter ◦ 1 chainfist ◦ 1 mace of absolution ◦ 1 power fist ◦ 1 thunder hammer ◦ 1 storm shield KEYWORDS: \u0007Infantry, Character, Imperium, Deathwing, Terminator, Lieutenant, Deathwing Strikemaster WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Deathwing Strikemaster This model is equipped with: storm bolter; master-crafted power weapon. LEADER This model can be attached to the following units: ■ Deathwing Command Squad ■ Deathwing Terminator Squad ■ Relic Terminator Squad ■ Terminator Assault Squad ■ Terminator Squad FACTION KEYWORDS: Adeptus Astartes, Dark Angels DEATHWING COMMAND SQUAD M T SV W LD OC 5\" 5 2+ 3 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Assault cannon [DEVASTATING WOUNDS] 24\" 6 3+ 6 0 1 Cyclone missile launcher – frag [BLAST] 36\" 2D6 3+ 4 0 1 Cyclone missile launcher – krak 36\" 2 3+ 9 -2 D6 Heavy flamer [IGNORES COVER, TORRENT] 12\" D6 N/A 5 -1 1 Plasma cannon – standard [BLAST] 36\" D3 3+ 7 -2 1 Plasma cannon – supercharge [BLAST, HAZARDOUS] 36\" D3 3+ 8 -3 2 Storm bolter [RAPID FIRE 2] 24\" 2 3+ 4 0 1 MELEE WEAPONS RANGE A WS S AP D Chainfist [ANTI-VEHICLE 3+] Melee 3 4+ 8 -2 2 Halberd of Caliban [PRECISION] Melee 5 3+ 6 -2 2 Power fist Melee 3 3+ 8 -2 2 Power weapon Melee 4 3+ 5 -2 1 Thunder hammer [DEVASTATING WOUNDS] Melee 3 4+ 8 -2 2 Twin lightning claws [TWIN-LINKED] Melee 5 3+ 5 -2 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Infantry, Imperium, Deathwing, Terminator, Deathwing Command Squad WA R HA M M E R L E G E N D S ABILITIES CORE: Deep Strike FACTION: Oath of Moment Narthecium: While this unit contains an Apothecary, in your Command phase, you can return 1 destroyed model (excluding Character models) to this unit. Astartes Banner: While this unit contains an Ancient, add 1 to the Objective Control characteristic of its models. Honour or Death: While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit. When you target this unit with the Heroic Intervention stratagem, that use is -1 CP. WARGEAR ABILITIES Storm Shield: The bearer has a Wounds characteristic of 4. FACTION KEYWORDS: Adeptus Astartes, Dark Angels DEATHWING COMMAND SQUAD On occasion a Deathwing squad will be formed into an honour guard to accompany high-ranking members of the Inner Circle, such as Librarians, Interrogator-Chaplains and even Company Masters. Together, they will lead their brothers straight into the heart of battle, where their skills are most needed. WARGEAR OPTIONS ■ \u0007Any number of Deathwing Command Terminators can each have their storm bolter and power fist replaced with one of the following: ◦ 1 twin lightning claws ◦ 1 thunder hammer and 1 storm shield ■ \u0007Any number of Deathwing Command Terminators can each have their power fist replaced with 1 chainfist. ■ 1 Deathwing Command Terminator’s power fist can be replaced with 1 power weapon. ■ \u0007For every 5 models in this unit, 1 Deathwing Command Terminator can replace its storm bolter with one of the following: ◦ 1 assault cannon ◦ 1 heavy flamer ◦ 1 plasma cannon ◦ 1 storm bolter and 1 cyclone missile launcher (this model’s storm bolter cannot be replaced) ■ This unit can be equipped with 1 Watcher in the Dark.* * The rules for a Watcher in the Dark can be found on the Deathwing Knights datasheet. KEYWORDS: \u0007Infantry, Imperium, Deathwing, Terminator, Deathwing Command Squad WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Deathwing Ancient ■ 1 Deathwing Apothecary ■ 1 Deathwing Champion ■ 2-7 Deathwing Command Terminators The Deathwing Ancient is equipped with: storm bolter; power fist. The Deathwing Apothecary is equipped with: storm bolter; chainfist. The Deathwing Champion is equipped with: halberd of Caliban. Every Deathwing Command Terminator is equipped with: storm bolter; power fist. ATTACHED UNIT If a Character unit from your army with the Leader ability can be attached to a Terminator Squad, it can be attached to this unit instead. FACTION KEYWORDS: Adeptus Astartes, Dark Angels",
+   "restrictions": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn. DARK RULES This section presents updates and clarifications to your faction’s Changes applied after the first iteration of this Faction Pack will UPDATES DETACHMENTS (VARIOUS) Company of Hunters, Inner Circle Task Force, Unforgiven Task Force Armour of Contempt Stratagem, Effect section Change to: ‘Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.’ COMPANY OF HUNTERS DETACHMENT Masters of Manoeuvre Detachment Rule Change to: ‘Friendly ADEPTUS ASTARTES have: ▪ This unit’s ranged attacks have [ASSAULT]. ▪ \u0007When this unit is selected to make a fall‑back move, that fall‑back move does not prevent this unit from being eligible to shoot. Friendly ADEPTUS ASTARTES MOUNTED have: ▪ This unit’s ranged attacks have [ASSAULT]. ▪ \u0007When this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge. ▪ \u0007When this unit is selected to make a fall‑back move, that fall‑back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.’ Keywords Section Change to 'OUTRIDER SQUAD units from your army gain the BATTLELINE keyword.’ Mounted Strategist Enhancement Change to ‘RAVENWING model only. You can re-roll Advance and Charge rolls made for the bearer’s unit.’ Death on the Wind Stratagem Change to: ‘",
+   "_src": "faction-pack"
+  },
+  "Lion’s Will": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Command phase.",
+   "target": "One Adeptus Astartes unit from your army that is within Engagement Range of one or more enemy units.",
+   "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, until the end of the turn, if your unit does not have the Deathwing, Ravenwing or Vehicle keyword, each time a model in your unit makes an attack, add 1 to the Hit roll.",
+   "_src": "faction-pack"
+  },
+  "Relics of the Dark Age": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit.",
+   "_src": "faction-pack"
+  },
+  "Tactical Mastery": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Movement phase.",
+   "target": "One Adeptus Astartes unit from your army.",
+   "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced. If your unit has the Ravenwing keyword, it is also eligible to shoot and declare a charge in a turn in which it Fell Back.",
+   "_src": "faction-pack"
+  }
+ }
+}

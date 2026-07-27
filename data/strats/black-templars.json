@@ -1,0 +1,172 @@
+{
+ "_source": "stratagems grouped by DETACHMENT. PRIMARY = faction pack (_src=faction-pack); FALLBACK = 39k.pro JS bundle via pull_39k.py (_src=39k.pro) for strats/detachments the pack omits.",
+ "Companions of Vehemence": {
+  "Dread Crusaders": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Charge phase, just after an enemy unit declares a charge.",
+   "target": "One **ADEPTUS ASTARTES INFANTRY** unit from your army that was selected as one of the targets of that charge.",
+   "effect": "That enemy unit must take a Battle-shock test, subtracting 1 from the result.",
+   "lore": "To face the Emperor’s transhuman crusaders as they chant their litanies of detestation can chill the soul.",
+   "_src": "39k.pro"
+  },
+  "For The Emperor’s Honour!": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **ADEPTUS ASTARTES INFANTRY** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the **[PRECISION]** ability.",
+   "lore": "Filled with the spirit of Sigismund, his heirs seek out the foe’s dark and unclean champions so that they may be crushed in the sight of their thralls.",
+   "_src": "39k.pro"
+  },
+  "Hearts Hardened to Duty": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase, just before an **ADEPTUS ASTARTES INFANTRY** unit from your army Consolidates.",
+   "target": "That **ADEPTUS ASTARTES INFANTRY** unit.",
+   "effect": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it does not need to end that move closer to the closest enemy model (or the closest enemy unit if the Suffer Not the Unclean to Live Vow is active for it).",
+   "lore": "To suffer not blind aggression is to evade the snares of foul deceit and honourably reject self-aggrandisement.",
+   "_src": "39k.pro"
+  },
+  "Pious Enmity": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **CHAPLAIN** or **JUDICIAR** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit, re-roll a Hit roll of 1. If that target is a **MONSTER** or **VEHICLE** unit, re-roll a Wound roll of 1 as well.",
+   "lore": "The warrior priests of a crusade drive Sigismund’s heirs into the heart of battle, daring the greatest abominations to face their spiritual strength.",
+   "_src": "39k.pro"
+  }
+ },
+ "Godhammer Assault Force": {
+  "Blessed Hull": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One **ADEPTUS ASTARTES VEHICLE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+   "lore": "Their hulls blessed by the chants of Techmarines and their prayer-servitors, a crusade’s war engines can be entreated to withstand the most malign attacks.",
+   "_src": "39k.pro"
+  },
+  "Condemnatory Info-Screed": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Fight phase",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, if it disembarked from a **TRANSPORT** this turn, re-roll a Wound roll of 1. lf that **TRANSPORT** has the **LAND RAIDER** keyword, you can re-roll the Wound roll instead.",
+   "lore": "Prepared within their troop compartment by a broadcast litany of their foe’s ungodly sins, the crusaders emerge with their hearts full of hatred.",
+   "_src": "39k.pro"
+  },
+  "Focused Hatred": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Charge phase, just after you make a Charge roll for an **ADEPTUS ASTARTES** unit from your army that disembarked from a **TRANSPORT** this turn.",
+   "target": "That **ADEPTUS ASTARTES** unit.",
+   "effect": "Until the end of the phase, each time your unit makes a Charge move, models in your unit can move through models (when doing so, its models can move within Engagement Range of enemy models, but they can only end that move within Engagement Range of enemy models if those enemy models belong to a unit that your unit declared a charge against this turn).",
+   "lore": "Surging from assault ramps, the Black Templars let none bar them from the most unholy threats, using their armoured might to bludgeon a path into battle.",
+   "_src": "39k.pro"
+  },
+  "Gauntlet of The God-Emperor": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase.",
+   "target": "One **ADEPTUS ASTARTES VEHICLE** model from your army that has not been selected to move this phase.",
+   "effect": "Until the end of the phase, each time your model makes a Normal or Advance move, it can move horizontally through terrain features.",
+   "lore": "Like the mailed fist of the Master of Mankind, the crusade’s armoured battle tanks, transports and combat walkers smash their way through choked war zones to reach those deserving execution.",
+   "_src": "39k.pro"
+  }
+ },
+ "Marshal’s Household": {
+  "Blade of Detestation": {
+   "cp": 1,
+   "when": "Your Charge phase, when a friendly SWORD BRETHREN SQUAD unit ends a charge move.",
+   "target": "That SWORD BRETHREN SQUAD unit.",
+   "effect": "Select one enemy unit engaged with your unit. Roll one D6 for each model in your unit engaged with that enemy unit: ▪ \u0007For each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). UNSPARING EXECUTION 1CP",
+   "_src": "faction-pack"
+  },
+  "Slayers of Abominations": {
+   "cp": 1,
+   "when": "Fight phase, when a friendly SWORD BRETHREN SQUAD unit is selected to fight.",
+   "target": "That SWORD BRETHREN SQUAD unit.",
+   "effect": "Your unit’s melee attacks that target a MONSTER/VEHICLE unit have +2 S.",
+   "_src": "faction-pack"
+  },
+  "a": {
+   "cp": 1,
+   "when": "Your opponent’s Movement phase, when a unit is selected to make a fall‑back move, if that unit is engaged with a friendly SWORD BRETHREN SQUAD unit.",
+   "target": "That SWORD BRETHREN SQUAD unit.",
+   "effect": "When an enemy unit engaged with your unit is selected to make a fall‑back move, that enemy unit must use the desperate escape mode, with ‑1 to those hazard rolls if that enemy unit is battle‑shocked. THE LIVING MIRACLE THE MANIFESTATION OF THE GOD-EMPEROR’S WILL IS BLESSED DETACHMENT RULES ANOINTED CHAMPION The warrior anointed as Emperor’s Champion by a crusade's Chaplains is marked as such by the divine omens which assail him. With these visions as a guide, and having devoted what remains of his existence to the rigorous perfection of the blade, the Emperor’s Champion becomes a force of righteous and unerring destruction. ▪ \u0007When a friendly EMPEROR’S CHAMPION unit is selected to fight, that model’s melee attacks can: ▫ Re-roll one hit roll. ▫ Re-roll one wound roll. ▪ \u0007Enhancements selected from this detachment do not count towards the total number of enhancements in your army.\u0007 Restrictions: Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter. WITH VISIONS OF EXCEPTIONAL DEEDS ENHANCEMENTS GUIDING OMENS The holy visions which fill the mind of the Emperor’s Champion on the eve of battle are clear to those of unwavering faith: they tell of the foes he will strike down, of the pious deeds he must commit, and the paths to be bloodily carved in his merciless crusade, all in the God-Emperor’s name. EMPEROR’S CHAMPION model only. At the start of the first battle round, you can select up to three of the following abilities. This model has those abilities until the end of the battle: ▪ \u0007Instrument of the God‑Emperor (Once per battle, per army): In the Fight phase, when this unit is selected to fight, if this unit is engaged with an enemy CHARACTER unit, you can use this ability. If you do, this model’s melee attacks have [DEVASTATING WOUNDS]. ▪ Foreseen Paths of the Unholy: This unit has ‑3\" detection range. ▪ Vision \u0007 of Momentous Brutality: This model’s melee attacks have +2 A. ▪ Augury \u0007 of Retribution: Melee attacks that target this unit have [HAZARDOUS]. ▪ Omen \u0007 of Sacred Intervention: When you target this unit with the Heroic Intervention stratagem, that use is ‑1 CP. ▪ Harbinger \u0007 of Judgement: When an enemy unit (excluding MONSTER/VEHICLE units) engaged with this model is selected to make a fall‑back move, roll one D6: ▫ On a 2+, that enemy unit suffers D6 mortal wounds. WRATHFUL PROCESSION CHAPLAINS STOKE THEIR BATTLE-BROTHERS' FANATICISM TO DETACHMENT RULES CHANT OF DEATHLESS DEVOTION With wrathful litanies, a crusade's Chaplains rouse the ardent souls of their battle-brothers, calling upon their faith in the God-Emperor to shield them from the blasphemy of the unbeliever. Friendly CHAPLAIN units have 5+ InSv against ranged attacks. Restrictions: Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter. ENHANCEMENTS BENEDICTION OF FURY Borne through a dozen bloody and hard‑fought crusades, this crozius arcanum’s unique empathokinetic circuitry has absorbed the bellicosity and righteous wrath of every Chaplain who has ever wielded it. As a result, it now strikes with the force of a thunderbolt. CHAPLAIN model only. This model’s melee attacks have [DEVASTATING WOUNDS]. ADAPTABLE EXECUTIONER No blasphemous tyrant is safe from this zealot's wrath, no matter the numbers or the qualities of the deluded guardians they throw in his path. EXECRATOR model only. When this unit is selected to fight, this model’s melee attacks have: ▪ [CLEAVE \u0007 1]. ▪ \u0007Or: [PRECISION]. WITHSTAND THE FOE'S UNHOLY ATTACKS",
+   "_src": "faction-pack"
+  }
+ },
+ "Vindication Task Force": {
+  "Litanies of Purgation": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, if that model’s unit is within range of one or more objective markers or the target unit is within range of one or more objective markers, improve the Armour Penetration characteristic of that attack by 1.",
+   "lore": "Where the emperor’s domain is imperilled by the unholy, the Black Tempars vow to cleanse it.",
+   "_src": "39k.pro"
+  },
+  "Recitation of the Revered": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One **ANCIENT** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+   "lore": "The Ancient leads a deafening recital of his banner’s honours, the projected chant’s zeal shaking the foe.",
+   "_src": "39k.pro"
+  },
+  "Reclaim Our Honour!": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit destroys an **ANCIENT** model from your army that has not been targeted with the Refusal to Yield Stratagem this phase",
+   "target": "One **ADEPTUS ASTARTES** unit from your army visible to that enemy unit",
+   "effect": "Until the end of the battle, each time an **ADEPTUS ASTARTES** model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll.",
+   "lore": "The sacred standards of a crusade embody its warriors’ honour, and no one would see them lost.",
+   "_src": "39k.pro"
+  },
+  "Refusal to Yield": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Any phase, just after an **ANCIENT** model from your army is destroyed.",
+   "target": "That **ANCIENT** model. You can use this Stratagem on that model even though it was just destroyed.",
+   "effect": "At the end of the phase, set your model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining.",
+   "lore": "Where honour is upheld, the emperor’s divinity may manifest to grant his pious warrior new strength.",
+   "_src": "39k.pro"
+  },
+  "Spoor of the Unholy": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **ADEPTUS ASTARTES** unit from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the **[IGNORES COVER]** ability and each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack’s Ballistic Skill or Weapon Skill characteristic; the Hit roll.",
+   "lore": "Perhaps guided by visions from the emperor, Black Templars can pick out heresy wherever it lurks.",
+   "_src": "39k.pro"
+  }
+ },
+ "Wrathful Procession": {
+  "Castigate the Demagogues": {
+   "cp": 1,
+   "when": "Fight phase, when a friendly CHAPLAIN unit is selected to fight.",
+   "target": "That CHAPLAIN unit.",
+   "effect": "Your unit’s melee attacks have [PRECISION].",
+   "_src": "faction-pack"
+  },
+  "Fuelled By Faith": {
+   "cp": 1,
+   "when": "Any phase, when a friendly CHAPLAIN unit suffers a mortal wound.",
+   "target": "That CHAPLAIN unit.",
+   "effect": "Your unit has Feel No Pain 4+ against mortal wounds.",
+   "_src": "faction-pack"
+  },
+  "Rite of Perfervid Wrath": {
+   "cp": 1,
+   "when": "Fight phase, when a friendly CHAPLAIN unit is selected to fight.",
+   "target": "That CHAPLAIN unit.",
+   "effect": "Your unit’s melee attacks have +1 S. BLACK RULES This section presents updates and clarifications to your faction’s rules, Changes applied after the first iteration of this Faction Pack will be UPDATES ARMY RULES Abhor the Witch, Destroy the Witch Templar Vow Change to: ▪ \u0007This unit’s melee attacks that target a PSYKER unit have [PRECISION]. ▪ \u0007When this unit declares a charge, If an enemy PSYKER unit is within 12\" of this unit, you can use this part of this ability. If you do: ▫ \u0007This unit can re-roll that charge roll. ▫ \u0007This unit must end that charge move engaged with one or more of those enemy PSYKER units. COMPANIONS OF VEHEMENCE DETACHMENT Heresy Begets Retribution Stratagem, Target Section Change 9\" to 8\". Heresy Begets Retribution Stratagem, Effect Section Change to: 'Your unit can make a surge move of up to D6\".' VINDICATION TASK FORCE DETACHMENT Purge and Sanctify Detachment Rule Change the second bullet point to: 'Each time a friendly CRUSADER SQUAD unit makes a surge move, instead of selecting a surge target, you can can select the closest objective to that unit. When that unit makes that surge move, each model in that unit must end that surge move as close as possible to that objective instead.' DATASHEETS Castellan, Crusade Ancient – Core Abilities section Remove 'Leader', add 'Support'. Crusader Squad, Righteous Zeal Ability Change to: 'In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\".' Emperor's Champion, Sigismund's Heir ability Change to: ▪ \u0007When this unit declares a charge, If an enemy CHARACTER unit is within 12\" of this unit, you can use this part of this ability. If you do: ▫ \u0007This unit can re-roll that charge roll. ▫ \u0007This unit must end that charge move engaged with one or more of those enemy CHARACTER units. ▪ \u0007(Once per battle, per army) In the Fight phase, when this unit is selected to fight, if this unit is engaged with a CHARACTER unit, you can use this part of this ability. If you do, this unit's melee attacks have [DEVASTATING WOUNDS]. TEMPLARS UPDATES designed to improve the gaming experience for all players. highlighted in red. Land Raider Crusader – Keywords section Add 'LAND RAIDER'. Terminator Squad, Teleport Homer Ability Change 9\" to 8\". Gladiator Lancer, Gladiator Reaper, Gladiator Valiant, Impulsor, Land Raider Crusader, Repulsor, Repulsor Executioner – Keywords section Add 'FRAME'.",
+   "_src": "faction-pack"
+  }
+ }
+}

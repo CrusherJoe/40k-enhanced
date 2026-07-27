@@ -1,0 +1,216 @@
+{
+ "_source": "stratagems grouped by DETACHMENT. PRIMARY = faction pack (_src=faction-pack); FALLBACK = 39k.pro JS bundle via pull_39k.py (_src=39k.pro) for strats/detachments the pack omits.",
+ "Berzerker Warband": {
+  "Apoplectic Frenzy": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase, ,just after a **KHORNE BERZERKERS** unit from your army is selected to Advance.",
+   "target": "That **KHORNE BERZERKERS** unit.",
+   "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced.",
+   "lore": "Those who fight for Khorne are driven to even greater depths of rage, surging towards the foe in a barely controlled tide of bloodthirsty savagery.",
+   "_src": "39k.pro"
+  },
+  "Blood Offering": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Any phase.",
+   "target": "One **WORLD EATERS** unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.",
+   "effect": "Select one of those objective markers. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+   "lore": "Khorne cares not from whence the blood flows, only that it does. The deaths of his own devoted are fitting offerings.",
+   "_src": "39k.pro"
+  },
+  "Frenzied Resilience": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **WORLD EATERS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+   "lore": "The depths of their fury lend the devoted of Khorne resilience. Mere flesh wounds will not stay the wrath of the World Eaters.",
+   "_src": "39k.pro"
+  },
+  "Hack and Slash": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **WORLD EATERS** unit from your army that has not been selected to fight this phase and that made a charge move this turn.",
+   "effect": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1.",
+   "lore": "Hack and slash, rend and tear, dismember and eviscerate. Kill! Kill! KILL!",
+   "_src": "39k.pro"
+  },
+  "Skulls for the Skull Throne!": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase, just after a **WORLD EATERS** unit from your army destroys a **CHARACTER** or **MONSTER** model.",
+   "target": "That **WORLD EATERS** unit.",
+   "effect": "Make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the battle round, that Blessing of Khorne is active in addition to any other Blessings of Khorne that are currently active.",
+   "lore": "The skulls of mighty champions and monstrous foes make a fitting tribute to the Blood God.",
+   "_src": "39k.pro"
+  }
+ },
+ "Brazen Engines": {
+  "Apoplectic Clarity": {
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase, when a friendly DAEMON VEHICLE unit is selected to attack.",
+   "target": "That DAEMON VEHICLE unit.",
+   "effect": "Your unit’s attacks can ignore modifiers to: ▪ BS. ▪ WS. ▪ Hit rolls and wound rolls.",
+   "_src": "faction-pack"
+  },
+  "Goaded to Fury": {
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged DAEMON VEHICLE unit (excluding TITANIC units) has shot.",
+   "target": "That DAEMON VEHICLE unit.",
+   "effect": "Your unit can make a surge move of up to D6\". BUTCHERS OF BANDS OF TERMINATOR‑ARMOURED WORLD EATERS LEAD THE DETACHMENT RULES ADAMANTINE AVALANCHE Hurling themselves into battle with savage ferocity, the sheer armoured bulk of the World Eaters’ Terminator elites is enough to shatter armour and crush bone. At the start of the Fight phase, if a friendly TERMINATOR SQUAD unit is engaged, make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the phase, that Blessing of Khorne is active for friendly TERMINATOR SQUAD units in addition to any other Blessings of Khorne that are currently active. ENHANCEMENTS SANCTIFIED IN SLAUGHTER UPGRADE These Terminator‑armoured butchers soak the battlefield in gore, and in so doing consecrate it in the name of Khorne. TERMINATOR SQUAD unit only. This unit has +1 OC. GORE-STAINED VETERANS UPGRADE Countless fields of bloody battle have honed these warriors’ martial skills to the keenest killing edge. TERMINATOR SQUAD unit only. This unit’s melee attacks have +1 WS. KHORNE CHARGE INTO THE HEART OF THE FOE",
+   "_src": "faction-pack"
+  },
+  "Trail of Destruction": {
+   "cp": 1,
+   "when": "Your Movement phase, when a friendly DAEMON VEHICLE unit is selected to move.",
+   "target": "That DAEMON VEHICLE unit.",
+   "effect": "Your unit has MOBILE.",
+   "_src": "faction-pack"
+  }
+ },
+ "Butchers of Khorne": {
+  "A Trophy for the Throne": {
+   "cp": 1,
+   "when": "Fight phase, when a friendly TERMINATOR SQUAD unit is selected to fight.",
+   "target": "That TERMINATOR SQUAD unit.",
+   "effect": "Your unit’s attacks that target a MONSTER/VEHICLE unit have +1 to wound rolls.",
+   "_src": "faction-pack"
+  },
+  "Focused Ferocity": {
+   "cp": 1,
+   "when": "Fight phase, when a friendly TERMINATOR SQUAD unit is selected to fight.",
+   "target": "That TERMINATOR SQUAD unit.",
+   "effect": "Your unit’s melee attacks have +1 A.",
+   "_src": "faction-pack"
+  },
+  "Wrath Beyond Reason": {
+   "cp": 2,
+   "when": "Your opponent’s Shooting Phase, when an enemy unit targets a friendly TERMINATOR SQUAD unit.",
+   "target": "That TERMINATOR SQUAD unit.",
+   "effect": "Ranged attacks that target your unit have -1 D until that enemy unit has attacked. VESSELS OF WRATH THE CHAMPIONS OF KHORNE EARN THEIR DEITY'S BOONS DETACHMENT RULES WRATH OF KHORNE Every Khornate champion treads a personal Path to Glory. Through carnage and bloodshed, they earn empowering boons of martial might. When a friendly WORLD EATERS CHARACTER unit (excluding EPIC HERO units) is selected to fight, that unit's CHARACTER models' melee attacks can have: ▪ [CLEAVE 1]. ▪ Or: +1 AP. ENHANCEMENTS ARCHSLAUGHTERER This gifted killer channels the fullness of his rage into every weapon swing – doubly so in that fleeting moment when he believes the Blood God’s gaze has fallen upon him. WORLD EATERS model only. (Once per battle, per army) In your Command phase, you can use this ability. If you do, every Blessing of Khorne is active for this unit until the start of your next turn. GATEWAYS TO GLORY With but a stroke of its infernal weapons, this favoured entity can hack paths through the meat of realspace itself to reach the foe all the quicker. WORLD EATERS DAEMON PRINCE model only. This model has: ▪ MOBILE. \u0007 ▪ \u0007 +1 to charge rolls. THROUGH DEEDS OF SPECTACULAR BUTCHERY",
+   "_src": "faction-pack"
+  }
+ },
+ "Cult of Blood": {
+  "Bloody Vengeance": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Any phase.",
+   "target": "One **WORLD EATERS MONSTER** or **WORLD EATERS TITANIC** unit from your army that was just destroyed by an enemy unit. You can use this Stratagem on that unit even though it was just destroyed.",
+   "effect": "Until the end of the battle, each time a model in a **JAKHALS** or **GOREMONGERS** unit from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll.",
+   "lore": "The demise of this titanic being showers nearby cultists in blood and viscera, inspiring vengeful fury.",
+   "_src": "39k.pro"
+  },
+  "Brazen Idol": {
+   "type": "epicDeed",
+   "cp": 2,
+   "when": "Your Command phase.",
+   "target": "One **WORLD EATERS MONSTER** or **WORLD EATERS TITANIC** unit from your army.",
+   "effect": "Select the Idol of Infinite Rage, Idol of Burning Wrath or Idol of Blessed Blood. Until the start of your next Command phase, that Idols of Khorne ability is active for your unit instead of any other Idols of Khorne ability that is active for your army, even if you have already selected that ability this battle.",
+   "lore": "The greatest idols wrought in Khorne’s infernal name bestow myriad blessings upon his faithful.",
+   "_src": "39k.pro"
+  },
+  "Drawn to the Slaughter": {
+   "type": "strategicPloy",
+   "cp": 2,
+   "when": "Any phase.",
+   "target": "One **JAKHALS** unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+   "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.",
+   "lore": "As the bloodshed increases, Jakhals are drawn to the fight like hungry scavengers to a kill.",
+   "_src": "39k.pro"
+  }
+ },
+ "Khorne Daemonkin": {
+  "A Worthy Skull": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Fight phase, just after a **BLOOD LEGIONS** or **WORLD EATERS** unit from your army has fought, and one or more enemy **CHARACTER** or **MONSTER** models were destroyed as a result of those attacks.",
+   "target": "That **BLOOD LEGIONS** or **WORLD EATERS** unit.",
+   "effect": "You gain D3BTP and you can then spend one or more BTP you have to activate one of the Blood Tithe abilities.",
+   "lore": "Khome’s followers seek to claim the skulls of the foe’s mightiest champions.",
+   "_src": "39k.pro"
+  },
+  "Murder-Call": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One **BLOOD LEGIONS** unit from your army that is on the battlefield and not within Engagement Range of one or more enemy units.",
+   "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+   "lore": "With their foes rent asunder, Khomate daemons return to the chaos of the Warp, awaiting the next massacre to strike again.",
+   "_src": "39k.pro"
+  }
+ },
+ "Possessed Slaughterband": {
+  "Daemonic Resistance": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **WORLD EATERS POSSESSED** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+   "lore": "Possession lends great resilience.",
+   "_src": "39k.pro"
+  },
+  "Daemonic Strength": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **WORLD EATERS POSSESSED** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, each time an attack made by a model in your unit is allocated to an enemy model, if your unit has the **EIGHTBOUND** keyword and that enemy model is not a **MONSTER** or **VEHICLE,** add 1 to the Damage characteristic of that attack. If your unit has the **EXALTED EIGHTBOUND** keyword and that enemy model is **a MONSTER** or **VEHICLE,** add 1 to the Damage characteristic of that attack instead.",
+   "lore": "Infernal mutations grant the possessed daemonic strength.",
+   "_src": "39k.pro"
+  },
+  "Horrifying Violence": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Command phase.",
+   "target": "One **WORLD EATERS POSSESSED** unit from your army.",
+   "effect": "Each enemy unit within Engagement Range of your unit must take a Battle-shock test, subtracting 1 from that test.",
+   "lore": "Enthralled warriors fall upon their victims in horrifying displays of carnage, sending panic rippling through the enemy ranks.",
+   "_src": "39k.pro"
+  },
+  "Immortal Fury": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **WORLD EATERS POSSESSED** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+   "lore": "Even as their host’s form is destroyed, Khorne’s daemons strive to strike a final, vengeful blow.",
+   "_src": "39k.pro"
+  },
+  "Warp Stalkers": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase or your Charge phase.",
+   "target": "One **WORLD EATERS POSSESSED** unit from your army that has not been selected to move or declare a charge this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move through enemy models (excluding **MONSTERS** and **VEHICLES**). When doing so, it can move within Engagement Range of such models but, unless that move was a Charge move, it cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
+   "lore": "Possessed warriors surge over and through their allies, swatting lessers aside in their eagerness to slaughter foes.",
+   "_src": "39k.pro"
+  }
+ },
+ "Vessels of Wrath": {
+  "Aspire to Infamy": {
+   "cp": 1,
+   "when": "Fight phase, when a friendly WORLD EATERS CHARACTER unit (excluding EPIC HERO units) is selected to fight.",
+   "target": "That WORLD EATERS CHARACTER unit.",
+   "effect": "Your unit's CHARACTER models' melee attacks have: ▪ +1 A. ▪ +2 S.",
+   "_src": "faction-pack"
+  },
+  "Punish the Craven": {
+   "cp": 1,
+   "when": "Any phase, when the last model in a unit is destroyed, before removing it from play. (If that unit is a TRANSPORT, any units embarked within that TRANSPORT model must disembark first).",
+   "target": "One BLOODLETTERS unit from your army that is in Reserves.",
+   "effect": "Set your unit up anywhere on the battlefield wholly within 9\" of that destroyed model and more than 6\" horizontally away from all enemy units, then remove the destroyed model from play.",
+   "restrictions": "You cannot use this Stratagem more than once per battle round. EATERS UPDATES rules, designed to improve the gaming experience for all players. be highlighted in red. POSSESSED SLAUGHTERBOUND DETACHMENT Warp Stalkers Stratagem, Effect section Change to: ‘Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move through enemy models (excluding MONSTERS and VEHICLES). When doing so, it can move within Engagement Range of such models but, unless that move was a Charge move, it cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed. Rapid Manifestation Stratagem Change 3\" to 6\". Brazen Fury Detachment Rule Change to: 'In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\". That surge move is a Brazen Fury move.' DATASHEETS Heldrake ▪ Profile: Change M to 12\" and OC to '-'. ▪ Keywords: \u0007 Remove 'AIRCRAFT'. Chaos Rhino, Meet Any Challenge Ability Change 9\" to 8\". Chaos Terminators, Blood Fury Ability Change to: ▪ '\u0007This unit’s ranged attacks that target the closest eligible target can re-roll hit rolls. ▪ \u0007When this unit declares a charge, you can use this part of this ability. If you do: ▫ \u0007This unit can re-roll that charge roll. ▫ \u0007This unit must end that charge move engaged with the closest charge target.' Exalted Eightbound, Rend and Tear Ability Change to: ‘Each time a model in this unit makes a melee attack that targets a MONSTER or VEHICLE unit, until the end of the phase, improve the Damage characteristic of that attack by 1.' Goremongers, Loping Speed Ability Change to: 'In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\".' Khorne Berzerkers, Jakhals – Icon of Khorne Wargear Ability Change to: ‘If the bearer’s unit contains one or more Icons of Khorne, each time the bearer’s unit destroys an enemy unit, you gain 1 Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost.' Khorne Berzerkers, Blood Surge Ability Change to: 'In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\".' Helbrute, Frenzy Ability Change to: '(Once per turn, per unit) In the Fight phase, when an enemy unit targets this unit, after that unit has resolved its attacks, you can use this ability. If you do, this unit is eligible to fight (even if it has already fought this phase) and must be selected to fight next.' Maulerfiend, Scent Of Blood Ability Change to: 'In the Charge phase, when this unit declares a charge: ▪ \u0007If an enemy unit below starting strength is within 9\" of this unit, this unit has +1 to charge rolls. ▪ \u0007Or: If an enemy unit below half strength is within 9\" of this unit, this unit has +2 to charge rolls.' Slaughterbound, Melee Weapons,Lacerator and Daemonic Claw Change S to '10'. Chaos Land Raider, Chaos Predator Annihilator, Chaos Predator Destructor, Chaos Rhino, Khorne Lord of Skulls – Keywords Section Add 'FRAME'. FAQS Q: If Angron is destroyed and I use his Reborn in Blood ability, can I still use the Wrath of Khorne Detachment ability for the Vessels of Wrath Detachment? A: Yes. Q: While using the Khorne Daemonkin Detachment, can I select a CHARACTER with the Disciple of Khorne Enhancement to be my WARLORD? A: No. Q: While using the Khorne Daemonkin Detachment, if I attach a Lord on Juggernaut with the Disciple of Khorne Enhancement to a unit of Bloodcrushers or Flesh Hounds, does that unit benefit from the Blessings of Khorne ability, even though only the Lord on Juggernaut has that ability? A: Yes.",
+   "_src": "faction-pack"
+  },
+  "Scorn the Witch": {
+   "cp": 1,
+   "when": "Any phase, when a friendly WORLD EATERS CHARACTER unit (excluding EPIC HERO units) suffers a mortal wound.",
+   "target": "That WORLD EATERS CHARACTER unit.",
+   "effect": "Your unit has Feel No Pain 4+ against mortal wounds.",
+   "_src": "faction-pack"
+  }
+ }
+}

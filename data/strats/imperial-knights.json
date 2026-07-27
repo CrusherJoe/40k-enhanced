@@ -1,0 +1,254 @@
+{
+ "_source": "stratagems grouped by DETACHMENT. PRIMARY = faction pack (_src=faction-pack); FALLBACK = 39k.pro JS bundle via pull_39k.py (_src=39k.pro) for strats/detachments the pack omits.",
+ "Dominus Foebreakers": {
+  "Fire Shocked": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly IMPERIAL KNIGHTS DOMINUS unit has shot.",
+   "target": "That IMPERIAL KNIGHTS DOMINUS unit.",
+   "effect": "Select one enemy unit hit by those attacks. That enemy unit makes a battle‑shock roll, with ‑1 to that battle‑shock roll. QUESTOR FORGEPACT KNIGHTLY NOBLES ANSWER THE CALL TO FIGHT ALONGSIDE DETACHMENT RULES COGBOUND ALLIANCE The Nobles of Questor Mechanicus houses commonly fight alongside the armies of forge worlds. They are bound together by their shared devotion to the Machine Cult. Friendly IMPERIAL KNIGHTS models have the following ability: \u0007Assisted Targeting (Aura): While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that ADEPTUS MECHANICUS unit’s ranged attacks have: ▪ +1 BS. ▪ [HEAVY]. Friendly TECH‑PRIEST models have the following ability: Sacristan \u0007 Pledge: In your Command phase, you can select one friendly IMPERIAL KNIGHTS model within 3\" of this model that has not been selected by this ability this phase. If you do, that model heals D3 wounds. Mechanicus Allies: You can include TECH‑PRIEST DOMINUS/ TECH‑PRIEST MANIPULUS/MARSHAL/RANGERS/VANGUARD units in your army (see Codex: Adeptus Mechanicus). The combined points value of such units cannot exceed 500 points. ENHANCEMENTS MAGOS QUESTORIS An expert in the intricate mechanisms and weapons systems of Imperial Knights, this Tech‑Priest taught Sacristans their craft. They now walk in the shadow of these war machines and make field repairs in the midst of battle. TECH‑PRIEST model only. When using this model’s Sacristan Pledge ability, the selected IMPERIAL KNIGHTS model heals 2 additional wounds. KNIGHT OF THE OPUS MACHINA (AURA) A devotee of the Omnissian creed, this Noble is inspired by the presence of the Adeptus Mechanicus, fighting with greater zeal and vigour in their holy presence. IMPERIAL KNIGHTS model only. While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that ADEPTUS MECHANICUS unit’s melee attacks have +1 WS and AP. THE CLADES OF THE ADEPTUS MECHANICUS",
+   "_src": "faction-pack"
+  },
+  "Foebreaker Firestorm": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly engaged IMPERIAL KNIGHTS DOMINUS unit is selected to shoot.",
+   "target": "That IMPERIAL KNIGHTS DOMINUS unit.",
+   "effect": "Your unit’s [BLAST] ranged attacks: ▪ Do not have [BLAST]. ▪ Have +1 A.",
+   "_src": "faction-pack"
+  },
+  "Ground-shaking Strides": {
+   "cp": 1,
+   "when": "Your Movement phase, when a friendly IMPERIAL KNIGHTS DOMINUS unit is selected to move.",
+   "target": "That IMPERIAL KNIGHTS DOMINUS unit.",
+   "effect": "Your unit has +2\" M.",
+   "_src": "faction-pack"
+  }
+ },
+ "Freeblade Company": {
+  "Flanking Manoeuvres": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "End of your opponent’s Fight phase.",
+   "target": "One Armiger unit from your army that is within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
+   "effect": "Remove your unit from the battlefield and place it into Strategic Reserves. KNIGHT DESTRIER M T SV W LD OC 12\" 10 3+ 18 6+ 8 5+ INVULNERABLE SAVE* * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP Chastiser gatling cannon [ASSAULT] 24\" 12 3+ 6 -1 Frag bombard [ASSAULT, BLAST, RAPID FIRE D6+3] 24\" D6+3 3+ 7 -1 Questoris heavy stubber [ASSAULT, RAPID FIRE 3] 36\" 6 3+ 4 -1 MELEE WEAPONS RANGE A WS S AP Bellatus reaper chainsword – strike Melee 5 3+ 12 -3 Bellatus reaper chainsword – sweep Melee 10 3+ 8 -2 Thundershock spear – strike [LANCE] Melee 4 3+ 12 -3 Thundershock spear – sweep [LANCE] Melee 8 3+ 6 -3 Titanic feet Melee 4 4+ 7 -1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Walker, Titanic, Towering, Bellatus, Character, Imperium, Knight Destrier D ABILITIES 2 CORE: Deadly Demise D6 1 FACTION: Code Chivalric, Super-heavy Walker Ram Jets: Each time this unit is selected to make a Normal D or Advance move, until the end of the phase, add D3\" to the D3+3 Move characteristic of this model. 2 Thundercharge: If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks D3+3 characteristic of melee weapons equipped by this model. 2 Saturation Fire: Each time this model makes a ranged attack 2 that targets a unit within range of one or more objective markers, that attack has the [IGNORES COVER] ability. DAMAGED: 1-6 WOUNDS REMAINING While this model has 1-6 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights KNIGHT DESTRIER The Knight Destrier is agile and fleet-footed. Employing rocket thrusters, skilled pilots are able to lend greater speed to their charge, tearing into the foe with thundershock spears or reaper chainswords before mowing down what remains of their shattered enemies with hails of chastiser gatling rounds or explosive munitions from their frag bombards. WARGEAR OPTIONS ■ This model’s chastiser gatling cannon can be replaced with one of the following: ◦ 1 bellatus reaper chainsword* ◦ 1 thundershock spear* ■ This model’s frag bombard can be replaced with one of the following: ◦ 1 bellatus reaper chainsword* ◦ 1 thundershock spear* * \u0007A model cannot be equipped with more than one bellatus reaper chainsword or more than one thundershock spear. KEYWORDS: \u0007Vehicle, Walker, Titanic, Towering, Bellatus, Character, Imperium, Knight Destrier UNIT COMPOSITION ■ 1 Knight Destrier This model is equipped with: 1 chastiser gatling cannon; 1 frag bombard; 1 Questoris heavy stubber; 1 titanic feet. FACTION KEYWORDS: Imperial Knights ACASTUS KNIGHT ASTERIUS M T SV W LD OC 8\" 13 2+ 30 6+ 10 5+ INVULNERABLE SAVE* * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP D Asterius volkite culverin [DEVASTATING WOUNDS] 24\" 6 3+ 6 0 2 Karacnos mortar battery 48\" D6+3 3+ 6 -1 1 [ANTI-INFANTRY 2+, BLAST, IGNORES COVER, INDIRECT FIRE] Twin conversion beam cannon 48\" 3 3+ 16 -2 6 [CONVERSION, TWIN-LINKED, SUSTAINED HITS D3] Conversion: Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit. MELEE WEAPONS RANGE A WS S AP D Titanic feet Melee 6 4+ 10 -1 2 KEYWORDS: \u0007Vehicle, Walker, Titanic, Towering, Frame, Imperium, Acastus, Knight Asterius ABILITIES CORE: Deadly Demise 2D6 FACTION: Code Chivalric, Super-heavy Walker Sunderer of Fortresses: Each time this model makes an attack that targets a Vehicle, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a Fortification, improve the Strength and Damage characteristics of that attack by 2 instead. DAMAGED: 1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights ACASTUS KNIGHT ASTERIUS Like its cousin the Porphyrion, the gigantic Acastus Knight Asterius is a relic of a lost technological age. Armed with a pair of twin conversion beam cannons, a karacnos mortar battery and two volkite culverins, the Asterius is capable of sundering the walls of mighty fortresses and clearing ramparts with a hail of high-explosives, its thick armoured hide making it near impervious to weapons fire. WARGEAR OPTIONS ■ None KEYWORDS: \u0007Vehicle, Walker, Titanic, Towering, Frame, Imperium, Acastus, Knight Asterius UNIT COMPOSITION ■ 1 Acastus Knight Asterius This model is equipped with: 2 Asterius volkite culverins; karacnos mortar battery; 2 twin conversion beam cannons; titanic feet. FACTION KEYWORDS: Imperial Knights ACASTUS KNIGHT PORPHYRION M T SV W LD OC 8\" 13 2+ 30 6+ 10 5+ INVULNERABLE SAVE* * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP D Acastus autocannon 48\" 2 3+ 9 -1 3 Acastus ironstorm missile pod 48\" D6+6 3+ 5 0 1 [BLAST, HEAVY, INDIRECT FIRE] Helios defence missiles [ANTI-FLY 2+, HEAVY] 48\" 3 3+ 10 -2 D6 Lascannon 48\" 1 3+ 12 -3 D6+1 Twin magna lascannon [BLAST, TWIN-LINKED] 72\" D6 3+ 18 -4 D6+6 MELEE WEAPONS RANGE A WS S AP D Titanic feet Melee 6 4+ 10 -1 2 KEYWORDS: \u0007Vehicle, Walker, Titanic, Towering, Frame, Imperium, Acastus, Knight Porphyrion ABILITIES CORE: Deadly Demise 2D6 FACTION: Code Chivalric, Super-heavy Walker Bastion of Firepower: Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability. DAMAGED: 1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights ACASTUS KNIGHT PORPHYRION One of the most heavily armed and armoured of all Knight chassis, the Acastus Knight Porphyrion approaches even the war machines of the Collegia Titanica in size and power, and reigns supreme against any foe not equipped with dedicated countermeasures. The Porphyrion’s giant torso supports a pair of twin magna lascannons, amongst other weapons, capable of obliterating the mightiest armoured targets. WARGEAR OPTIONS ■ This model’s 2 Acastus autocannons can be replaced with one of the following: ◦ 2 lascannons ◦ \u00071 Acastus autocannon and 1 lascannon ■ This model’s Acastus ironstorm missile pod can be replaced with 1 helios defence missiles. KEYWORDS: \u0007Vehicle, Walker, Titanic, Towering, Frame, Imperium, Acastus, Knight Porphyrion UNIT COMPOSITION ■ 1 Acastus Knight Porphyrion This model is equipped with: 2 Acastus autocannons; Acastus ironstorm missile pod; 2 twin magna lascannons; titanic feet. FACTION KEYWORDS: Imperial Knights CERASTUS KNIGHT LANCER M T SV W LD OC 14\" 11 3+ 28 6+ 10 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Cerastus shock lance [ASSAULT, SUSTAINED HITS 2] 12\" 6 3+ 6 0 MELEE WEAPONS RANGE A WS S AP Cerastus shock lance – strike [LANCE] Melee 5 2+ 20 -3 Cerastus shock lance – sweep Melee 10 2+ 10 -2 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Lancer D ABILITIES 2 CORE: Deadly Demise D6+2 D FACTION: Code Chivalric, Super-heavy Walker 8 Lancer’s Duty (Bondsman): While a model is affected by 3 this ability, it is eligible to declare a charge in a turn in which it Advanced. Shock Charge: You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase. DAMAGED: 1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights CERASTUS KNIGHT LANCER The Lancer is the most widely known variant of the swift and agile Cerastus chassis. Equipped with a potent shock lance and an ion gauntlet shield, Knights Lancer are perfectly suited to duelling titanic foes face to face, and often bound ahead of the main battle line to vanquish the enemy’s most prized war machines in single combat. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Lancer UNIT COMPOSITION ■ 1 Cerastus Knight Lancer This model is equipped with: Cerastus shock lance. FACTION KEYWORDS: Imperial Knights CERASTUS KNIGHT CASTIGATOR M T SV W LD OC 12\" 11 3+ 28 6+ 10 5+ INVULNERABLE SAVE* * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP Castigator bolt cannon [TWIN-LINKED] 36\" 18 3+ 6 -2 MELEE WEAPONS RANGE A WS S AP Tempest warblade – strike Melee 4 3+ 14 -4 Tempest warblade – sweep Melee 12 3+ 9 -3 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Castigator D ABILITIES 2 CORE: Deadly Demise D6+2 D FACTION: Code Chivalric, Super-heavy Walker 6 Castigator’s Duty (Bondsman): While a model is affected by 2 this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1. Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding Monsters and Vehicles) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll. DAMAGED: 1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights CERASTUS KNIGHT CASTIGATOR Armed with the fearsome Castigator-pattern bolt cannon, the Knight Castigator scythes down massed infantry formations in a thunderous rain of bolts, wiping out hordes that might overwhelm other patterns of Knight by their sheer numbers. Its path cleared, the Knight Castigator then strides forward to carve apart light vehicles or monstrous chitinous beasts with its tempest warblade. WARGEAR OPTIONS ■ \u0007\u0007\u0007\u0007None KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Castigator UNIT COMPOSITION ■ 1 Cerastus Knight Castigator This model is equipped with: Castigator bolt cannon; tempest warblade. FACTION KEYWORDS: Imperial Knights CERASTUS KNIGHT ACHERON M T SV W LD OC 12\" 11 3+ 28 6+ 10 5+ INVULNERABLE SAVE* * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP Acheron flame cannon [TORRENT, IGNORES COVER] 18\" 2D6 N/A 8 -1 Twin heavy bolter [SUSTAINED HITS 1, TWIN-LINKED] 36\" 3 3+ 5 -1 MELEE WEAPONS RANGE A WS S AP Reaper chainfist – strike Melee 4 3+ 14 -4 Reaper chainfist – sweep Melee 12 3+ 9 -3 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Acheron D ABILITIES 2 CORE: Deadly Demise D6+2 FACTION: Code Chivalric, Super-heavy Walker D Acheron’s Duty (Bondsman): While a model is affected by 6 this ability, at the start of the Fight phase, each enemy unit 2 within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 from the result when they do. Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover. DAMAGED: 1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights CERASTUS KNIGHT ACHERON The Cerastus Knight Acheron is a war machine designed not only to destroy, but also to inspire terror. Armed with a fearsome reaper chainfist, twin heavy bolters and an Acheron-pattern flame cannon, they are employed as weapons of extermination, and nothing will sway them from their grim task until the enemy is utterly crushed. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Acheron UNIT COMPOSITION ■ 1 Cerastus Knight Acheron This model is equipped with: Acheron flame cannon; twin heavy bolter; reaper chainfist. FACTION KEYWORDS: Imperial Knights CERASTUS KNIGHT ATRAPOS M T SV W LD OC 12\" 11 3+ 28 6+ 10 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Atrapos lascutter – low intensity [SUSTAINED HITS 1] 36\" 2D6 3+ 7 -1 Atrapos lascutter – high intensity [SUSTAINED HITS 1] 24\" D6 3+ 14 -3 Graviton singularity cannon – contained [BLAST] 24\" D3 3+ 16 -4 Graviton singularity cannon – singularity 24\" D3 3+ 16 -4 [BLAST, DEVASTATING WOUNDS, HAZARDOUS] MELEE WEAPONS RANGE A WS S AP Atrapos lascutter – low intensity [SUSTAINED HITS 1] Melee 12 3+ 7 -1 Atrapos lascutter – high intensity [SUSTAINED HITS 1] Melee 6 3+ 14 -3 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Atrapos D ABILITIES 2 CORE: Deadly Demise D6+2 D6+1 FACTION: Code Chivalric, Super-heavy Walker D6+1 Atrapos’ Duty (Bondsman): While a model is affected by this ability, each time that model makes an attack that targets a Titanic or Towering model, you can re-roll the Hit roll and D you can re-roll the Wound roll. 2 Macro-extinction Protocols: Each time this model makes an 4 attack that targets a Monster or Vehicle unit, add 1 to the Hit roll. If that target is Titanic or Towering, add 1 to the Wound roll as well. DAMAGED: 1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights CERASTUS KNIGHT ATRAPOS One of the rarest and most potent Knights, the Atrapos was created early in the Great Crusade to carry particularly rare and powerful weaponry with a single goal in mind – the destruction of heretic and xenos war machines. Knights Atrapos are said to carry with them a cold and all-destroying hunger, and to pilot one is thought to be to court madness. WARGEAR OPTIONS ■ \u0007\u0007None KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Atrapos UNIT COMPOSITION ■ 1 Cerastus Knight Atrapos This model is equipped with: Atrapos lascutter; graviton singularity cannon. FACTION KEYWORDS: Imperial Knights QUESTORIS KNIGHT MAGAERA M T SV W LD OC 10\" 11 3+ 26 6+ 10 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Lightning cannon [SUSTAINED HITS 2] 48\" 12 3+ 9 0 Phased plasma-fusil [RAPID FIRE 2] 24\" 2 3+ 8 -3 Twin rad cleanser 12\" D6 N/A 2 0 [TORRENT, IGNORES COVER, ANTI-INFANTRY 2+, TWIN-LINKED] MELEE WEAPONS RANGE A WS S AP Hekaton siege claw – strike Melee 4 3+ 20 -3 Hekaton siege claw – sweep Melee 8 3+ 10 -2 Reaper chainsword – strike Melee 4 3+ 14 -4 Reaper chainsword – sweep Melee 12 3+ 9 -3 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Questoris, Knight Magaera D ABILITIES 2 CORE: Deadly Demise D6 FACTION: Code Chivalric, Super-heavy Walker Magaera’s Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack that D targets the closest eligible target, improve the Strength and 8 Armour Penetration characteristics of that attack by 1. 3 Repair Auto-simulacra: At the end of your Command phase, 6 this model regains up to D3 lost wounds. DAMAGED: 1-9 WOUNDS REMAINING While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights QUESTORIS KNIGHT MAGAERA The Knight Magaera is a marvel of lost technology, ranging from its repair auto-simulacra to its nigh impregnable ionic flare shield. These esoteric devices make the Magaera ideally suited to shock assaults and breaching actions, enabling the Knight to surge through the most heavily defended positions unscathed and eradicate its foes with terrifying blasts from its lightning cannon. WARGEAR OPTIONS ■ This model’s reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser. KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Questoris, Knight Magaera UNIT COMPOSITION ■ 1 Questoris Knight Magaera This model is equipped with: lightning cannon; phased plasma-fusil; reaper chainsword. FACTION KEYWORDS: Imperial Knights QUESTORIS KNIGHT STYRIX M T SV W LD OC 10\" 11 3+ 26 6+ 10 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP Graviton crusher [ANTI-VEHICLE 2+, BLAST] 18\" 3 3+ 6 -1 Twin rad cleanser 12\" D6 N/A 2 0 [ANTI-INFANTRY 2+, IGNORES COVER, TWIN-LINKED, TORRENT] Volkite chierovile [DEVASTATING WOUNDS] 30\" 12 3+ 12 0 MELEE WEAPONS RANGE A WS S AP Hekaton siege claw – strike Melee 4 3+ 20 -3 Hekaton siege claw – sweep Melee 8 3+ 10 -2 Reaper chainsword – strike Melee 4 3+ 14 -4 Reaper chainsword – sweep Melee 12 3+ 9 -3 DAMAGED: 1-9 WOUNDS REMAINING While this model has1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Questoris, Knight Styrix D ABILITIES 2 CORE: Deadly Demise D6 1 FACTION: Code Chivalric, Super-heavy Walker 3 Styrix’s Duty (Bondsman): While a model is affected by this ability, each time that model is selected to shoot or D fight, after it has resolved all of its attacks, select one enemy 8 unit hit by one or more of those attacks; that unit must take a Battle-shock test, subtracting one from the test when 3 doing so. 6 Grav-pinned: In your Shooting phase, after this model has 2 shot, if an enemy Infantry unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit. FACTION KEYWORDS: Imperial Knights QUESTORIS KNIGHT STYRIX The Knight Styrix is a highly sophisticated machine meticulously designed for the eradication of infantry and supporting vehicles. Blasts from the Styrix’s integral graviton gun pin hapless targets in place, while scything volkite beams and flesh-boiling rad-cleanser discharges reap a heavy toll of lives. WARGEAR OPTIONS ■ This model’s reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser. KEYWORDS: \u0007Vehicle, Walker, Character, Titanic, Towering, Imperium, Questoris, Knight Styrix UNIT COMPOSITION ■ 1 Questoris Knight Styrix This model is equipped with: graviton crusher; volkite chierovile; reaper chainsword. FACTION KEYWORDS: Imperial Knights ARMIGER MOIRAX M T SV W LD OC 12\" 9 3+ 14 7+ 6 5+ INVULNERABLE SAVE* * Against ranged attacks only RANGED WEAPONS RANGE A BS S AP D Conversion beam cannon 24\" 1 3+ 10 -2 3 [CONVERSION, SUSTAINED HITS D3] Conversion: Each time an attack is made with this weapon, if the target is more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit. Graviton pulsar [ANTI-VEHICLE 2+, BLAST] 24\" D6 3+ 7 -1 2 Lightning lock [SUSTAINED HITS 2] 36\" 6 3+ 8 0 1 Rad cleanser [ANTI-INFANTRY 2+, IGNORES COVER, TORRENT] 12\" D6 N/A 2 0 1 Volkite veuglaire [DEVASTATING WOUNDS] 36\" 4 3+ 8 0 2 MELEE WEAPONS RANGE A WS S AP D Armoured feet Melee 4 3+ 6 0 1 Siege claw Melee 4 3+ 12 -3 D6+2 KEYWORDS: \u0007Vehicle, Walker, Imperium, Armiger, Moirax ABILITIES CORE: Deadly Demise D3 FACTION: Code Chivalric Protection Protocols: You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: ■ That use is -1 CP. ■ \u0007That use does not prevent any uses of that stratagem on other units this phase. DAMAGED: 1-5 WOUNDS REMAINING While this model has 1‑5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll. FACTION KEYWORDS: Imperial Knights ARMIGER MOIRAX While larger breeds of Knight are optimised for frontal assaults, tank-hunting and fortress-breaking, the smaller and more nimble Armiger Moirax is a natural skirmisher, able to speed ahead of more ponderous war machines and engage vulnerable targets. Armiger Moirax can be fitted with a range of esoteric energy weapons, all extremely effective but almost impossible to replace or repair. WARGEAR OPTIONS ■ This model’s volkite veuglaire can be replaced with one of the following: ◦ 1 siege claw and 1 rad cleanser ◦ 1 graviton pulsar ◦ 1 lightning lock ◦ 1 conversion beam cannon ■ This model’s graviton pulsar can be replaced with one of the following; ◦ 1 siege claw and 1 rad cleanser ◦ 1 lightning lock ◦ 1 conversion beam cannon ◦ 1 volkite veuglaire KEYWORDS: \u0007Vehicle, Walker, Imperium, Armiger, Moirax UNIT COMPOSITION ■ 1 Armiger Moirax This model is equipped with: graviton pulsar; volkite veuglaire; armoured feet. FACTION KEYWORDS: Imperial Knights IMPERIAL RULES This section presents updates and clarifications to your faction’s Changes applied after the first iteration of this Faction Pack will be UPDATES ARMY RULES Code Chivalric, ‘We pledge to reap a great tally’ Deed Change to: ‘This deed is completed at the end of the battle round if the number of enemy units destroyed this battle round is greater than the battle round number even if those units are subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round).’ GATE WARDEN LANCE DETACHMENT Dauntless Defenders Detachment Rule Change to: ‘At the start of the first battle round, select two objectives to be your foundations. Place a circular foundation marker in each one. When you draw a line from the closest part of one foundation marker to the closest part of the other, if any part of a model’s base (or any part of a model’s hull, for a model without a base) crosses that line, that model’s unit is said to be on your defensive line. While an IMPERIAL KNIGHTS unit from your army is on your defensive line, that unit has the following ability: Against the Horde: Each time a model in this unit makes an attack that targets a visible enemy unit, you can ignore any or all modifiers to the Hit roll, and weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.’ VALOURSTRIKE LANCE DETACHMENT Bold Gallantry Detachment Rule Change to: ‘Each time an IMPERIAL KNIGHTS unit from your army Advances, until the end of the turn, ranged weapons equipped by IMPERIAL KNIGHTS models from your army have the [ASSAULT] ability.’ Run Them Through! Stratagem, Target Section Change to: ‘One IMPERIAL KNIGHTS unit from your army that has not been selected to fight this phase.’ Full Tilt Stratagem, Target Section Change to: ‘One IMPERIAL KNIGHTS unit from your army that has not been selected to move this phase.’ Tactical Foil Stratagem, Target Section Change 9\" to 8\". KNIGHTS UPDATES rules, designed to improve the gaming experience for all players. highlighted in red. DATASHEETS Canis Rex, Knight Crusader, Knight Defender, Knight Errant, Knight Gallant, Knight Paladin, Knight Preceptor, Knight Warden – Damaged Section Change to: ‘While this model has 1‑9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.’ Knight Castellan, Knight Valiant – Damaged Section Change to: ‘While this model has 1‑10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.’ Canis Rex, Knight Castellan, Knight Crusader, Knight Defender, Knight Errant, Knight Gallant, Knight Paladin, Knight Preceptor, Knight Valiant, Knight Warden – Profiles Change OC characteristic to ‘10’. FAQS Q: Can Adeptus Mechanicus units use the Doctrina Imperatives ability when taken as part of the Questor Forgepact Detachment? A: No.",
+   "_src": "faction-pack"
+  },
+  "Full Tilt": {
+   "type": "wargear",
+   "cp": 1,
+   "when": "Your Movement phase.",
+   "target": "One Imperial Knights unit from your army.",
+   "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit, or 9\" instead if your unit is an Armiger or Destrier unit.",
+   "_src": "faction-pack"
+  },
+  "Noble Sacrifice": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Any phase.",
+   "target": "One Imperial Knights unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
+   "effect": "Your unit’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+, adding 1 to the result if it is an Armiger unit, instead of only a 6.",
+   "_src": "faction-pack"
+  },
+  "Point‑blank Barrage": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One Imperial Knights unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, when making ranged attacks with Blast weapons, models in your unit can target enemy units within Engagement Range of your unit (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, until the end of the phase, your unit does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units, but each time a model in your unit makes an attack with a Blast weapon that targets a unit within Engagement Range of your unit, on an unmodified Hit roll of 1, your unit suffers 1 mortal wound after all of its attacks have been resolved.",
+   "_src": "faction-pack"
+  },
+  "Strength From Exile": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One Imperial Knights unit from your 1CP army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, if there are no other friendly units within 9\" of your unit, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1.",
+   "_src": "faction-pack"
+  },
+  "Survivor of Strife": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One Imperial Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+   "_src": "faction-pack"
+  }
+ },
+ "Questor Forgepact": {
+  "In the Shadow of Giants": {
+   "cp": 1,
+   "when": "Your Movement phase, when a friendly ADEPTUS MECHANICUS unit is selected to make an advance/fall‑back move.",
+   "target": "That ADEPTUS MECHANICUS unit.",
+   "effect": "That move does not prevent your unit from being eligible to start an action. UNIQUE: ARMIGERS THRONE-BONDED ARMIGERS STRIDE OUT LIKE THE HUNTING HOUNDS OF THEIR DETACHMENT RULES DRIVEN FROM THEIR LAIRS The moment the loyal bondsmen locate and identify the foe, they share targeting data‑choristry with their ruling lords and ladies. While a friendly ARMIGER unit is affected by a Bondsman ability, that unit’s ranged attacks have [IGNORES COVER]. This detachment has the ARMIGERS tag and cannot be taken with another ARMIGERS detachment. ENHANCEMENTS GYRO-OPTIMISED ACTUATORS UPGRADE Flowing down the neural tether between Thrones and Helms Mechanicum, the faint whispering of ancestral gheists drives bondsmen on to greater urgency. ARMIGER unit only. This unit has MOBILE. ANCESTRAL OVERBLEED UPGRADE Though it requires additional work by the Sacristans, when Armigers are to be used like hunting hounds amidst dense terrain, it is considered worthwhile to enhance their steeds’ agility. ARMIGER unit only. When you target this unit with the Fire Overwatch/Heroic Intervention stratagem, that use is ‑1 CP. OUTRIDERS MIGHTY NOBLE MASTERS",
+   "_src": "faction-pack"
+  },
+  "Omnissiah’s Grace": {
+   "cp": 1,
+   "when": "Any phase, when a friendly IMPERIAL KNIGHTS unit suffers a mortal wound.",
+   "target": "That IMPERIAL KNIGHTS unit.",
+   "effect": "Your unit has Feel No Pain 5+ against mortal wounds.",
+   "_src": "faction-pack"
+  },
+  "Vengeance of the Machine Cult": {
+   "cp": 1,
+   "when": "Any phase, when a friendly IMPERIAL KNIGHTS TITANIC unit is destroyed by an enemy unit.",
+   "target": "One friendly ADEPTUS MECHANICUS unit.",
+   "effect": "That enemy unit is marked until the end of the battle: ▪ \u0007While a unit is marked, friendly ADEPTUS MECHANICUS units’ attacks that target that unit can re‑roll wound rolls.",
+   "_src": "faction-pack"
+  }
+ },
+ "Questoris Companions": {
+  "Courageous Stand": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **IMPERIAL KNIGHTS TITANIC** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability.",
+   "lore": "When the night is long and the unworthy claw at one’s shield, it is chivalry and duty that buoy the soul and bolster failing strength.",
+   "_src": "39k.pro"
+  },
+  "Driven By The Past": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Your Charge phase.",
+   "target": "One **IMPERIAL KNIGHTS TITANIC** unit from your army.",
+   "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced.",
+   "lore": "To the worthiest Noble, the whispers that reach their mind from a Throne Mechanicum appear as a tapestry of virtues, standards they strive to meet with wholehearted alacrity.",
+   "_src": "39k.pro"
+  },
+  "Hero’s Tread": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "End of your Command phase.",
+   "target": "One **IMPERIAL KNIGHTS TITANIC** model from your army that is within range of an objective marker you control.",
+   "effect": "Your Level of Control over that objective marker is 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+   "lore": "It is said that unalloyed heroism can purge the foulest dishonour, that the very footsteps of those of noblest purity are enough to sanctify their path.",
+   "_src": "39k.pro"
+  },
+  "Titanic Duel": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **IMPERIAL KNIGHTS TITANIC** model from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time your model makes an attack that targets a **MONSTER**, **TITANIC** or **WALKER** unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+   "lore": "The greatest Knightly champions suffer no dishonourable rival to insult them for long with their existence.",
+   "_src": "39k.pro"
+  },
+  "Unstoppable Warrior": {
+   "type": "epicDeed",
+   "cp": 2,
+   "when": "Your Movement phase, just after an **IMPERIAL KNIGHTS TITANIC** unit from your army Falls Back.",
+   "target": "That **IMPERIAL KNIGHTS TITANIC** unit.",
+   "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+   "lore": "Death is a distant priority when heroism’s favour awaits. A breath to seize a new perspective, a new angle at which to tilt towards the foe, permits only a brief reprieve for the enemy of a true warrior.",
+   "_src": "39k.pro"
+  }
+ },
+ "Spearhead-at-Arms": {
+  "Exemplar’s Wisdom": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase, just after an **IMPERIAL KNIGHTS TITANIC** model from your army has shot.",
+   "target": "That **IMPERIAL KNIGHTS TITANIC** model, and one or more friendly **ARMIGER** models affected by that model’s Bondsman ability.",
+   "effect": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time one of your **ARMIGER** models makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+   "lore": "With a fusillade upon their chosen enemy, the Bondsmen’s mentor lectures their loyal servants on the application of force to the foe’s weak points.",
+   "_src": "39k.pro"
+  },
+  "Let Duty Be Your Shield": {
+   "type": "epicDeed",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One **ARMIGER** unit from your army that was selected as the target of one or more of the attacking units attacks.",
+   "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+   "lore": "Heeding the teachings of their Noble master, a Bondsman is reminded that only by enduring can they hope to discharge their sworn obligations.",
+   "_src": "39k.pro"
+  },
+  "Mantle of the Mentor": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Start of your Shooting phase.",
+   "target": "One **ARMIGER** model from your army, or one **IMPERIAL KNIGHTS TITANIC** model from your army, and one or more friendly **ARMIGER** models affected by that model’s Bondsman ability.",
+   "effect": "Until the end of the phase, your **ARMIGER** models are eligible to shoot in a turn in which they Fell Back.",
+   "lore": "With a rapid volley of covering fire from a Noble liege, Bondsmen employ hit‑and‑run tactics at high speed.",
+   "_src": "39k.pro"
+  },
+  "Thin Their Ranks": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Start of your Shooting phase.",
+   "target": "One **ARMIGER** model from your army, or one **IMPERIAL KNIGHTS TITANIC** model from your army, and one or more friendly **ARMIGER** models affected by that model’s Bondsman ability.",
+   "effect": "Until the end of the phase, ranged weapons equipped by your **ARMIGER** models have the **[RAPID FIRE 1]** ability.",
+   "lore": "A stentorian firing solution floods their Helms Mechanicum, and eager young Nobles shred their master’s foes in a blizzard of fury.",
+   "_src": "39k.pro"
+  },
+  "Virtue of Courage": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Start of the Fight phase.",
+   "target": "One **ARMIGER** model from your army, or one **IMPERIAL KNIGHTS TITANIC** model from your army, and one or more friendly **ARMIGER** models affected by that model’s Bondsman ability.",
+   "effect": "Select one enemy unit. Until the end of the phase, each time one of your **ARMIGER** models makes an attack that targets that enemy unit, add 1 to the Hit roll.",
+   "lore": "A Knight must have the courage to face the greatest horrors of the galaxy, with duty focusing their blows.",
+   "_src": "39k.pro"
+  }
+ },
+ "Throne-bonded Outriders": {
+  "Helm Conditioning": {
+   "cp": 1,
+   "when": "Your Command phase, when a friendly IMPERIAL KNIGHTS unit uses a Bondsman ability.",
+   "target": "That IMPERIAL KNIGHTS unit.",
+   "effect": "When selecting an ARMIGER model for that Bondsman ability, you can select one within 18\" of your unit (excluding models already affected by a Bondsman ability).",
+   "_src": "faction-pack"
+  },
+  "Honoured to Serve": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly ARMIGER unit has shot.",
+   "target": "That ARMIGER unit.",
+   "effect": "Those attacks do not prevent your unit from being eligible to start an action. FREEBLADE Many Freeblades become figures of legend, supernatural natures. Often they fight they are capable of defeating entire armies, ages. Each brings unique skills and Dark Age of Technology. Others are masters or have been turned fey and dangerous by such unusual abilities and tactics, Freeblades unorthodox ways and unleashing unexpected veteran who knows just where to place Against such titanic and canny foes, few DETACHMENT RULE KNIGHTS OF LEGEND Warriors such as these are truly indomitable. Driven on by deadly oaths, bolstered by ancient technology or shimmering with supernatural energies, they stride through the most punishing firestorms to emerge victorious on the other side. Imperial Knights models from your army have the Feel No Pain 6+ ability. In addition, at the start of your Command phase, each Imperial Knights model from your army regains 1 lost wound. COMPANY whether for their mighty deeds or thanks to their strange and alone. However, when fate brings several such wanderers together and of carving out names for themselves that echo through the experiences to the muster. Some wield ancient relic weapons from the of battling a particular foe, exemplars of an unusual way of war, the touch of sorcery or strange cosmic phenomena. Combining can surprise their enemies at every turn by attacking in weapons and powers. Each scion amongst them is a storied their shots and land their blows to inflict maximum devastation. enemies can stand for long. ENHANCEMENTS\b MYSTERIOUS GUARDIAN Manifesting as though from nowhere, this Knight is an elemental force of vengeance against the Emperor of Mankind’s foes. At battle’s end, it disappears as mysteriously as it arrived. Imperial Knights model only. (Once per battle, per army) At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: ■ Place this unit in strategic reserves. ■ \u0007This unit has Deep Strike until the start of your next Shooting phase. ■ \u0007This unit must make an ingress move in your next Movement phase (including in your first turn). SANCTUARY Through the projection of rapidly modulating ion fields, this unique generator’s effects wreathe the suit in an all encompassing fog of protective energies that defend it from close‑quarters attacks. Imperial Knights model only. The bearer has a 5+ invulnerable save. BRINGER OF JUSTICE It is said that whenever this famed weapon is brought to life, it shall not fall silent until it has slaked its thirst for justice. Imperial Knights model only. Improve the Attacks characteristic of melee weapons equipped by the bearer by 2, and each time the bearer makes a melee attack, add 1 to the Hit roll. HUNTER’S EYE This remarkable data‑manifold surrounds a scion with holo‑projected bioscans and engine‑signature readouts, whose gaze penetrates the densest terrain as though it was not there. Imperial Knights model only. Ranged weapons equipped by the bearer have the [IGNORES COVER] ability.",
+   "_src": "faction-pack"
+  },
+  "Neural Lash": {
+   "cp": 1,
+   "when": "Command phase.",
+   "target": "One friendly IMPERIAL KNIGHTS TITANIC unit.",
+   "effect": "Select one friendly battle‑shocked ARMIGER unit within 12\" of your unit. That ARMIGER unit is no longer battle‑shocked.",
+   "_src": "faction-pack"
+  }
+ },
+ "Valourstrike Lance": {
+  "Rotate Ion Shields": {
+   "type": "wargear",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+   "target": "One **IMPERIAL KNIGHTS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+   "lore": "Veteran Knight pilots can swiftly re‑angle their ion shields and manipulate their energies to deflect incoming firepower.",
+   "_src": "39k.pro"
+  },
+  "Run Them Through!": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **IMPERIAL KNIGHTS** unit from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, melee weapons equipped by your models have the **[LANCE]** ability.",
+   "lore": "With deafening challenges blaring from their emitters, honour‑bound comrades slam into their foes, where the Nobles’ martial prowess and their Knight suits’ overwhelming power are wedded to overcome the most monstrous resilience.",
+   "_src": "39k.pro"
+  },
+  "Thunderstomp": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **IMPERIAL KNIGHTS** model from your army that has not been selected to fight this phase.",
+   "effect": "Until the end of the phase, the Attacks characteristic of any armoured Feet melee weapons equipped by your model is 8, the Attacks characteristic of any titanic Feet melee weapons equipped by your model is 12, and improve the Armour Penetration characteristic of those weapons by 1.",
+   "lore": "The Noble brings their Knight suit’s weight down with the force of an industrial piledriver, trampling their honourless foes beneath their iron tread.",
+   "_src": "39k.pro"
+  },
+  "Vow of Retribution": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **IMPERIAL KNIGHTS** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, ranged weapons equipped by your models have the **[LETHAL HITS]** ability.",
+   "lore": "With the swearing of cooperative pacts, Knightly companions vow to visit annihilation on their enemies in a searing barrage of retributive firepower.",
+   "_src": "39k.pro"
+  }
+ }
+}

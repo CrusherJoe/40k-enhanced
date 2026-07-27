@@ -1,0 +1,242 @@
+{
+ "_source": "stratagems grouped by DETACHMENT. PRIMARY = faction pack (_src=faction-pack); FALLBACK = 39k.pro JS bundle via pull_39k.py (_src=39k.pro) for strats/detachments the pack omits.",
+ "Champions of Contagion": {
+  "Blessings of Filth": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **DEATH GUARD** Attached unit from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+   "lore": "Employing their unique gifts, this champion enhances the weapons of their comrades with even greater levels of infectious malevolence.",
+   "_src": "39k.pro"
+  },
+  "Grotesque Fortitude": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **DEATH GUARD** Attached unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, add 2 to the Toughness characteristic of models in your unit.",
+   "lore": "After their champion calls down the blessings of Nurgle, these warriors can fight on no matter the catastrophic, often gruesome, damage done to them by the foe.",
+   "_src": "39k.pro"
+  },
+  "Malignance Magnified": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Your Shooting phase or the Fight phase.",
+   "target": "One **DEATH GUARD** Attached unit from your army that has not been selected to shoot or fight this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+   "lore": "The vile talents of such plague specialists act like a filth-smeared lens, focusing and intensifying the infectious gifts of Nurgle.",
+   "_src": "39k.pro"
+  },
+  "Rabid Infusion": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Start of the Fight phase.",
+   "target": "One **DEATH GUARD** unit from your army that includes two **CHARACTER** models.",
+   "effect": "Until the end of the phase, your unit has the Fights First ability.",
+   "lore": "The combined talents of these Death Guard champions drive their followers into a foam-jawed fury, be it through injection with a curdled cocktail of stimms or immersion in a fug of infectious agents.",
+   "_src": "39k.pro"
+  }
+ },
+ "Contagion Engines": {
+  "Bloodrust Deluge": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly CONTAGION ENGINE unit is selected to shoot.",
+   "target": "That CONTAGION ENGINE unit.",
+   "effect": "Select one visible enemy unit. That enemy unit is Afflicted until your unit has attacked.",
+   "_src": "faction-pack"
+  },
+  "Fresh Vectors": {
+   "cp": 1,
+   "when": "Your Shooting phase or the Fight phase, when a friendly CONTAGION ENGINE unit is selected to attack.",
+   "target": "That CONTAGION ENGINE unit.",
+   "effect": "Your unit’s attacks can re‑roll wound rolls of 1.",
+   "_src": "faction-pack"
+  },
+  "Soulrot Flux": {
+   "cp": 1,
+   "when": "Your opponent’s Movement phase, when an enemy unit is selected to make a fall‑back move, if that enemy unit is engaged with a friendly CONTAGION ENGINE unit.",
+   "target": "That CONTAGION ENGINE unit.",
+   "effect": "When an enemy unit engaged with your unit is selected to make a fall‑back move, roll one D6: ▪ On a 1, that enemy unit suffers 1 mortal wound. ▪ On a 2‑5, that enemy unit suffers D3 mortal wounds. ▪ On a 6, that enemy unit suffers 3 mortal wounds. UNIQUE: FLYBLOWN FLYBLOWN HOST PLAGUE MARINES ADVANCE INEXORABLY AMIDST A THRUMMING DETACHMENT RULES VERMINOUS HAZE A cloud of winged insects descends over Mortarion’s pathogenic sons, obscuring their malodorous ranks and shielding them from the eyes and augurs of the enemy. Beneath thrumming storms of fat‑bodied flies, Plague Marines stride towards their wavering foes until they are close enough to unleash punishing volleys of killing fire. In the Declare Battle Formations step, you can select up to two friendly PLAGUE MARINES units. Those units have Infiltrators. This detachment has the FLYBLOWN tag and cannot be taken with another FLYBLOWN detachment. ENHANCEMENTS INSECTILE MURMURATION UPGRADE The buzzing swarms respond to the will of Nurgle’s disciples, sweeping down upon their chosen target, their crawling, biting and droning enfeebling the horrified foe. PLAGUE MARINES unit only. When this unit’s attacks target a unit within Contagion Range of a friendly unit, those attacks can re‑roll wound rolls of 1. PLAGUEVEIL UPGRADE Nurgle’s blessings manifest as a buzzing clot of darkness that falls over these diseased pilgrims, enveloping them like an enshrouding fog. PLAGUE MARINES unit only. This unit has -3\" detection range. HAZE OF SWOLLEN DAEMON FLIES",
+   "_src": "faction-pack"
+  }
+ },
+ "Flyblown Host": {
+  "Droning Horror": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly PLAGUE MARINES unit is selected to shoot.",
+   "target": "That PLAGUE MARINES unit.",
+   "effect": "Your unit’s ranged attacks: ▪ Can re‑roll hit rolls of 1. ▪ \u0007That target a unit within half range, can re‑roll wound rolls of 1.",
+   "_src": "faction-pack"
+  },
+  "Eye of the Swarm": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly PLAGUE MARINES unit is selected to shoot.",
+   "target": "That PLAGUE MARINES unit.",
+   "effect": "Your unit’s ranged attacks have [CLOSE‑QUARTERS]. PARAGONS OF THE CHAMPIONS OF THE DEATH GUARD RADIATE THE MOST DETACHMENT RULES HYPERVIRULENT STRAINS The rancid champions of the Death Guard are blessed with the most virulent contagions of Nurgle, supernatural strains that radiate towards unwilling hosts in floods of foulness. Friendly DEATH GUARD CHARACTER units have +3\" to their Contagion Range (to a maximum of 12\"). ENHANCEMENTS REJUVENATING SWARM With a hacking prayer to Nurgle, this warrior can call upon a swarm of plague mites. Buzzing clumps of diseased flies and writhing waves of squirming things settle upon the bloated forms of the Death Guard and vomit streams of rejuvenating contagion into festering wounds. DEATH GUARD INFANTRY model only (excluding TERMINATOR models). Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls. HOST OF THE HYBRIDISED POX One plague is never enough for this champion, and their repulsive form is a vessel for a mutated and semisentient disease capable of manifesting in varied contagious forms. DEATH GUARD INFANTRY model only. (Once per battle, per army) In your Command phase, you can use this ability. If you do, select one of the Plagues listed in Nurgle’s Gift (see Codex: Death Guard). Enemy units within Contagion Range of this unit also have the effect of that Plague in addition to your army’s chosen Plague until the end of the battle. PUTRESCENCE LETHAL OF CONTAGIONS",
+   "_src": "faction-pack"
+  },
+  "Nauseating Paroxysms": {
+   "cp": 1,
+   "when": "Start of the Fight phase",
+   "target": "One friendly engaged PLAGUE MARINES unit.",
+   "effect": "Select one enemy unit engaged with your unit. That enemy unit makes a battle‑shock roll, with -1 to that battle‑shock roll.",
+   "_src": "faction-pack"
+  }
+ },
+ "Mortarion’s Hammer": {
+  "Drawn to Despair": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **DEATH GUARD** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a visible enemy unit (excluding **AIRCRAFT**) within your opponent’s deployment zone, you can re-roll the Hit roll.",
+   "lore": "Those who languish in misery or cower in terror make themselves easy targets for the Death Guard.",
+   "_src": "39k.pro"
+  },
+  "Eyestinger Storm": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your opponent’s Command phase.",
+   "target": "One **DEATH GUARD VEHICLE** unit from your army.",
+   "effect": "Select one objective marker visible to one or more models in your unit. Each Afflicted enemy unit within range of that objective marker must take a Battle-shock test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
+   "lore": "Swarms of these revolting insects burrow hives into the hulls of Death Guard vehicles. Drawn to sickened prey, they boil forth in buzzing masses and descend on the foe, spreading panic and horror.",
+   "_src": "39k.pro"
+  },
+  "Font of Filth": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **DEATH GUARD VEHICLE** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the **[ASSAULT]** ability.",
+   "lore": "As though afflicted with some awful vomiting sickness, this vehicle’s weapons retch an endless stream of fire at the enemy, heaving themselves empty even as it storms into the enemy lines.",
+   "_src": "39k.pro"
+  },
+  "Relentless Grind": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Movement phase or your Charge phase.",
+   "target": "One **DEATH GUARD VEHICLE** unit from your army that has not been selected to move or charge this phase.",
+   "effect": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
+   "lore": "When the armoured vehicles of the Death Guard advance, they plough through - or straight over- anything that stands in their way.",
+   "_src": "39k.pro"
+  },
+  "Stinking Mire": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Start of your opponent’s Charge phase.",
+   "target": "One **DEATH GUARD VEHICLE** unit from your army.",
+   "effect": "Until the end of the phase, each time an enemy unit selects your unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
+   "lore": "Attempting to counterattack Death Guard can leave foes floundering amidst bubbling filth.",
+   "_src": "39k.pro"
+  }
+ },
+ "Paragons of Putrescence": {
+  "Aggravus Spasms": {
+   "cp": 1,
+   "when": "Start of your Shooting Phase.",
+   "target": "One friendly DEATH GUARD CHARACTER unit.",
+   "effect": "Select one visible enemy unit within Contagion Range of your unit. That enemy unit has +6\" detection range.",
+   "_src": "faction-pack"
+  },
+  "Simultaneous Contamination": {
+   "cp": 1,
+   "when": "Your Shooting phase, when a friendly DEATH GUARD CHARACTER unit starts an action.",
+   "target": "That DEATH GUARD CHARACTER unit.",
+   "effect": "That action does not prevent your unit from being eligible to shoot. DEFILER M T SV W LD OC 12\" 11 3+ 18 6+ 5 5+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Ectoplasma destructor [BLAST, LETHAL HITS] 36\" D6 3+ 12 -3 3 Excruciator cannon [LETHAL HITS] 36\" 6 3+ 6 -1 2 Hades battle cannon [BLAST, LETHAL HITS] 48\" D6+3 3+ 10 -1 3 Hades lascannon [LETHAL HITS] 48\" 2 3+ 12 -3 D6+1 Heavy baleflamer [IGNORES COVER, TORRENT] 12\" D6+3 N/A 7 -2 2 Heavy missile launcher – krak [LETHAL HITS] 48\" 2 3+ 10 -2 D6+1 Heavy missile launcher – frag [BLAST, LETHAL HITS] 48\" 2D6 3+ 5 -1 1 Heavy reaper autocannon 48\" 4 3+ 9 -1 3 [DEVASTATING WOUNDS, LETHAL HITS, SUSTAINED HITS 1] Magma cutters [LETHAL HITS, MELTA 2] 12\" 2 3+ 9 -4 D6 MELEE WEAPONS RANGE A WS S AP D Electroscourge [EXTRA ATTACKS, SUSTAINED HITS 2] Melee 5 3+ 12 -2 2 Shearing claws – strike [LETHAL HITS] Melee 5 3+ 16 -3 D6+1 Shearing claws – sweep [LETHAL HITS] Melee 10 3+ 6 -2 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Vehicle, Walker, Chaos, Nurgle, Daemon, Defiler ABILITIES CORE: Deadly Demise D6 FACTION: Nurgle’s Gift (Aura) Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed. Barrage of Filth: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover. FACTION KEYWORDS: Death Guard DEFILER Huge Daemon Engines dripping with corruption, the Defilers used by the Death Guard are horrifically powerful whether bombarding the foe from range with grotesquely diseased projectiles or tearing them apart at close quarters with piston-driven claws of rusted metal etched with cursed runes of corrosion. WARGEAR OPTIONS ■ This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor. ■ This model’s excruciator cannons can be replaced with 2 magma cutters. ■ This model’s heavy baleflamer can be replaced with one of the following: ◦ 1 Hades lascannon ◦ 1 heavy reaper autocannon ◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge) ■ This model’s heavy missile launcher can be replaced with one of the following: ◦ 1 Hades lascannon ◦ 1 heavy reaper autocannon ◦ 1 electroscourge (a model cannot be equipped with more than one electroscourge) KEYWORDS: Vehicle, Walker, Chaos, Nurgle, Daemon, Defiler DAMAGED: 1-6 WOUNDS REMAINING While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. UNIT COMPOSITION ■ 1 Defiler This model is equipped with: 1 Hades battle cannon; 2 excruciator cannons; 1 heavy missile launcher; 1 heavy baleflamer; 1 shearing claws FACTION KEYWORDS: Death Guard DEATH RULES This section presents updates and clarifications to your faction’s Changes applied after the first iteration of this Faction Pack will UPDATES ARMY RULES Nurgle's Gift, Contagion Range Section Add 'Contagion Range cannot be greater than 12\" after modifiers.' Nurgle's Gift, Skullsquirm Blight Change to: ‘Each time a model in this unit makes a melee attack, subtract 1 from the Hit roll.’ TALLYBAND SUMMONERS DETACHMENT Beckoning Blight Enhancement Change to: ‘DEATH GUARD model only. Each time a PLAGUE LEGIONS unit from your army is set up on the battlefield using the Deep Strike ability, if it is set up wholly within 12\" of the bearer, it can be set up anywhere that is more than 6\" horizontally away from all enemy models, instead of more than 8\".’ VIRULENT VECTORIUM DETACHMENT Worldblight Detachment Rule Change to: ‘At the end of your Command phase, if a friendly DEATH GUARD unit is controlling an objective, that objective is secured. Until you lose control of that objective, while an enemy unit is within range of that objective, that enemy unit is Afflicted (pg 71).’ DATASHEETS Chaos Land Raider, Chaos Predator Annihilator, Chaos Predator Destructor, Chaos Rhino, Miasmic Malignifier, Plagueburst Crawler – Keywords section Add 'FRAME'. Chaos Predator Destructor, Predator Autocannon Change Strength to ‘9’. Deathshroud Terminators, Death Approaches ability Change to: 'In your Movement phase, each time this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all Afflicted enemy units, and more than 8\" horizontally away from all other enemy units.’ Mortarion, Diseased Influence Ability Change to: ‘Just after an enemy unit ends a Normal, Advance or Fall Back move within 8\" of a friendly DEATH GUARD unit that is within 6\" of this model, that DEATH GUARD unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 5\".’ GUARD UPDATES rules, designed to improve the gaming experience for all players. be highlighted in red. Mortarion, Inflamed Reprisal Ability Change to: ‘In your opponent’s Shooting phase, when a friendly DEATH GUARD unit within 6\" of this model is selected as the target of an attack, this model can use this ability. If it does, after the attacking unit has finished making its attacks, that DEATH GUARD unit can shoot as if it were your Shooting phase, but when resolving those attacks, worsen the BS characteristic of that attack by 1 and it can only target that enemy unit (and only if it is an eligible target).’ Typhus, Eater Plague Ability Change to: ‘In your Shooting phase, you can select one enemy unit within 18” of and visible to this PSYKER (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12” of this PSYKER) and roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’ FAQS Q: Does the Plagueburst Crawler’s Spore-laced Shock Waves ability inflict mortal wounds every turn to units affected by the ability? A: No. if DEATH GUARD POSSESSED M T SV W LD OC 9\" 6 3+ 3 6+ 1 5+ INVULNERABLE SAVE MELEE WEAPONS RANGE Hideous mutations Melee KEYWORDS: Infantry, Chaos, Daemon, Possessed WA R HA M M E R L E G E N D S A WS S AP D ABILITIES 4 3+ 5 -1 2 FACTION: Nurgle's Gift (Aura) Infectious Bloodshed: Each time this unit makes a Charge move, until the end of the turn, weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability. WARGEAR ABILITIES Diseased Icon: Melee weapons in the bearer's unit have the [LETHAL HITS] ability. FACTION KEYWORDS: Death Guard DEATH GUARD POSSESSED WARGEAR OPTIONS ■ 1 model can be equipped with 1 diseased icon. KEYWORDS: Infantry, Chaos, Daemon, Possessed WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Possessed Champion ■ 4-9 Possessed Each model is equipped with: hideous mutations. POSSESSED For the purposes of embarking within Transports, each Death Guard Possessed model counts as one Terminator model. FACTION KEYWORDS: Death Guard DEATH GUARD CHAOS LORD M T SV W LD OC 5\" 5 3+ 5 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Combi-weapon 24\" 1 2+ 4 0 1 [ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1] Plague bolt pistol [LETHAL HITS, PISTOL] 12\" 1 2+ 4 0 1 Plague combi-bolter [LETHAL HITS, RAPID FIRE 2] 24\" 2 2+ 4 0 1 Plasma pistol – standard [PISTOL] 12\" 1 2+ 7 -2 1 Plasma pistol – supercharge [HAZARDOUS, PISTOL] 12\" 1 2+ 8 -3 2 MELEE WEAPONS RANGE A WS S AP D Astartes chainsword Melee 7 2+ 4 -1 1 Plague fist [LETHAL HITS] Melee 5 3+ 8 -2 2 Plague-encrusted exalted weapon [LETHAL HITS] Melee 6 2+ 5 -2 1 Twin lightning claws [TWIN-LINKED] Melee 7 2+ 5 -2 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Infantry, Character, Chaos, Nurgle, Grenades, Chaos Lord WA R HA M M E R L E G E N D S ABILITIES CORE: Leader FACTION: Nurgle’s Gift (Aura) Chaos Lord: While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1. Desiccation Conduit (Aura): While an enemy unit is within Contagion Range of this model, at the end of the turn, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. FACTION KEYWORDS: Death Guard DEATH GUARD CHAOS LORD WARGEAR OPTIONS ■ \u0007\u0007This model’s plague bolt pistol can be replaced with one of the following: ◦ 1 combi-weapon ◦ 1 plague combi-bolter ◦ 1 plague fist ◦ 1 plague-encrusted exalted weapon ◦ 1 plasma pistol ■ \u0007This model’s Astartes chainsword can be replaced with one of the following: ◦ 1 plague fist ◦ 1 plague-encrusted exalted weapon ■ \u0007This model’s plague bolt pistol and Astartes chainsword can be replaced with 1 twin lighting claws. KEYWORDS: Infantry, Character, Chaos, Nurgle, Grenades, Chaos Lord WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Death Guard Chaos Lord This model is equipped with: plague bolt pistol; Astartes chainsword. LEADER This model can be attached to the following unit: ■ Plague Marines FACTION KEYWORDS: Death Guard DEATH GUARD CHAOS LORD IN TERMINATOR ARMOUR M T SV W LD OC 4\" 6 2+ 6 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Combi-weapon 24\" 1 3+ 4 0 1 [ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1] Plague combi-bolter [LETHAL HITS, RAPID FIRE 2] 24\" 2 2+ 4 0 1 MELEE WEAPONS RANGE A WS S AP D Chainfist [ANTI-VEHICLE 3+] Melee 5 3+ 8 -2 2 Plague fist [LETHAL HITS] Melee 5 2+ 8 -2 2 Plague-encrusted exalted weapon [LETHAL HITS] Melee 6 2+ 5 -2 1 Twin lightning claws [TWIN-LINKED] Melee 7 2+ 5 -2 1 KEYWORDS: Infantry, Character, Chaos, Nurgle, Terminator, Chaos Lord WA R HA M M E R L E G E N D S ABILITIES CORE: Deep Strike, Leader FACTION: Nurgle’s Gift (Aura) Chaos Lord: While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1. Desiccation Conduit (Aura): While an enemy unit is within Contagion Range of this model, at the end of the turn, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. FACTION KEYWORDS: Death Guard DEATH GUARD CHAOS LORD IN TERMINATOR ARMOUR WARGEAR OPTIONS ■ \u0007\u0007This model’s plague combi-bolter can be replaced with one of the following: ◦ 1 combi-weapon ◦ 1 plague-encrusted exalted weapon ■ \u0007This model’s plague-encrusted exalted weapon can be replaced with one of the following: ◦ 1 chainfist ◦ 1 plague fist ■ \u0007This model’s plague combi-bolter and plague-encrusted exalted weapon can be replaced with 1 twin lighting claws. KEYWORDS: Infantry, Character, Chaos, Nurgle, Terminator, Chaos Lord WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Death Guard Chaos Lord in Terminator Armour This model is equipped with: plague combi-bolter; plague-encrusted exalted weapon. LEADER This model can be attached to the following units: ■ Blightlord Terminators ■ Deathshroud Terminators FACTION KEYWORDS: Death Guard DEATH GUARD CULTISTS M T SV W LD OC 6\" 3 6+ 1 7+ 1 RANGED WEAPONS RANGE A BS S AP D Cultist firearm 24\" 1 4+ 3 0 1 Flamer [IGNORES COVER, TORRENT] 12\" D6 N/A 4 0 1 Grenade launcher – frag [BLAST] 24\" D3 4+ 4 0 1 Grenade launcher – krak 24\" 1 4+ 9 -2 D3 Heavy stubber [RAPID FIRE 3] 36\" 3 5+ 4 0 1 MELEE WEAPONS RANGE A WS S AP D Brutal assault weapon Melee 2 4+ 3 0 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: Infantry, Chaos, Nurgle, Cultists WA R HA M M E R L E G E N D S ABILITIES CORE: Scouts 6\" FACTION: Nurgle’s Gift (Aura) FACTION Death Guard KEYWORDS: DEATH GUARD CULTISTS WARGEAR OPTIONS ■ \u0007For every 10 models in the unit, 1 Death Guard Cultist’s Cultist firearm can be replaced with 1 flamer. ■ \u0007For every 10 models in the unit, 1 Death Guard Cultist’s Cultist firearm can be replaced with 1 heavy stubber. ■ \u0007For every 10 models in the unit, 1 Death Guard Cultist’s Cultist firearm can be replaced with 1 grenade launcher. KEYWORDS: Infantry, Chaos, Nurgle, Cultists WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Death Guard Cultist Champion ■ 9-19 Death Guard Cultists Every model is equipped with: Cultist firearm; brutal assault weapon. FACTION KEYWORDS: Death Guard DEATH GUARD SORCERER IN TERMINATOR ARMOUR M T SV W LD OC 4\" 6 2+ 5 6+ 1 4+ INVULNERABLE SAVE RANGED WEAPONS RANGE A BS S AP D Combi-weapon 24\" 1 4+ 4 0 1 [ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1] Curse of the Leper – witchfire 24\" D6 3+ 6 -1 1 [PSYCHIC] Curse of the Leper – focused witchfire 24\" 2D6 3+ 6 -2 1 [HAZARDOUS, PSYCHIC] Plague combi-bolter [LETHAL HITS, RAPID FIRE 2] 24\" 2 3+ 4 0 1 MELEE WEAPONS RANGE A WS S AP D Chainfist [ANTI-VEHICLE 3+] Melee 3 4+ 8 -2 2 Force weapon [PSYCHIC] Melee 4 3+ 6 -1 D3 Plague fist [LETHAL HITS] Melee 3 3+ 8 -2 2 Plague-encrusted exalted weapon [LETHAL HITS] Melee 4 3+ 5 -2 1 Twin lightning claws [TWIN-LINKED] Melee 5 3+ 5 -2 1 Before selecting targets for this weapon, select one of its profiles to make attacks with. KEYWORDS: \u0007Infantry, Character, Psyker, Chaos, Nurgle, Terminator, Sorcerer WA R HA M M E R L E G E N D S ABILITIES CORE: Deep Strike, Leader FACTION: Nurgle’s Gift (Aura) Putrescent Vitality (Psychic): At the start of the Fight phase, you can roll one D6: on a 1, this Psyker’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, each time an attack is allocated to a model in this Psyker’s unit, subtract 1 from the Damage characteristic of that attack. Pestilent Familiar (Psychic): Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2. Designer’s Note: Place a Pestilent Familiar token next to this model, removing it once this ability has been used. FACTION KEYWORDS: Death Guard DEATH GUARD SORCERER IN TERMINATOR ARMOUR WARGEAR OPTIONS ■ \u0007\u0007\u0007\u0007This model’s plague combi-bolter can be replaced with one of the following: ◦ 1 combi-weapon ◦ 1 plague-encrusted exalted weapon ■ \u0007This model’s force weapon can be replaced with one of the following: ◦ 1 chainfist ◦ 1 plague fist ◦ 1 plague-encrusted exalted weapon ■ \u0007This model’s plague combi-bolter and force weapon can be replaced with 1 twin lighting claws. KEYWORDS: \u0007Infantry, Character, Psyker, Chaos, Nurgle, Terminator, Sorcerer WA R HA M M E R L E G E N D S UNIT COMPOSITION ■ 1 Death Guard Sorcerer in Terminator Armour This model is equipped with: Curse of the Leper; plague combi-bolter; force weapon. LEADER This model can be attached to the following units: ■ Blightlord Terminators ■ Deathshroud Terminators FACTION KEYWORDS: Death Guard",
+   "_src": "faction-pack"
+  },
+  "Territorial Infection": {
+   "cp": 1,
+   "when": "Start of the Command phase.",
+   "target": "One friendly DEATH GUARD CHARACTER unit.",
+   "effect": "Your unit has +1 OC until the end of the turn.",
+   "_src": "faction-pack"
+  }
+ },
+ "Shamblerot Vectorium": {
+  "Gnawing Hunger": {
+   "type": "battleTactic",
+   "cp": 1,
+   "when": "Your Command phase.",
+   "target": "One **POXWALKERS** unit from your army.",
+   "effect": "Until the end of the turn, add 1 to the Move characteristic of models in your unit, and add 1 to the Attacks and Strength characteristics of melee weapons equipped by models in your unit.",
+   "lore": "Gripped by a sudden, monstrous hunger, the Poxwalkers surge forward in a ravenous mass.",
+   "_src": "39k.pro"
+  },
+  "Grip of the Walking Pox": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **POXWALKERS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "After the attacking unit has fought, roll one D6 for each model from your unit that was destroyed as a result of those attacks: on a 6, the attacking unit suffers 1 mortal wound. If your unit is not destroyed after the attacking unit has fought, enemy models destroyed as a result of this Stratagem count as enemy models destroyed by an attack made by a model in your unit for the purposes of the Curse of the Walking Pox ability.",
+   "lore": "Those infected by walking pox may fall as though fatally wounded, but they soon rise again.",
+   "_src": "39k.pro"
+  },
+  "Hidden Amongst The Dead": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "The Reinforcements step of your Movement phase.",
+   "target": "One **POXWALKERS** unit from your army that is in Strategic Reserves and that is not an Attached unit.",
+   "effect": "Until the end of the phase, models in that unit have the Deep Strike ability.",
+   "lore": "Another wave of Poxwalkers rises from the battlefield’s carrion heaps.",
+   "_src": "39k.pro"
+  },
+  "Shock and Horror": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Your Charge phase, just after a **DEATH GUARD** unit from your army ends a Charge move.",
+   "target": "That **DEATH GUARD** unit.",
+   "effect": "Each enemy unit within Engagement Range of your unit must take a Battle-shock test, subtracting 1 from that test.",
+   "lore": "Already dismayed by this living nightmare, the enemy falters before another sudden onslaught.",
+   "_src": "39k.pro"
+  },
+  "Smeared With Filth": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Fight phase.",
+   "target": "One **POXWALKERS** unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
+   "effect": "Select one enemy unit that made one or more attacks that targeted your unit this phase. Until the end of the battle, that enemy unit is Afflicted.",
+   "lore": "Hacking a path through a horde of Poxwalkers leaves aggressors coated in infectious matter.",
+   "_src": "39k.pro"
+  }
+ },
+ "Virulent Vectorium": {
+  "Creeping Blight": {
+   "type": "wargear",
+   "cp": 1,
+   "when": "Your Shooting phase.",
+   "target": "One **DEATH GUARD INFANTRY** unit from your army that has not been selected to shoot this phase.",
+   "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an Afflicted unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+   "lore": "Those in the grip of Nurgle’s unholy plagues become weaker by the moment, barely able to lift their weapons, let alone defend themselves from the attacking Death Guard.",
+   "_src": "39k.pro"
+  },
+  "Disgustingly Resilient": {
+   "type": "battleTactic",
+   "cp": 2,
+   "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+   "target": "One **DEATH GUARD** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+   "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+   "lore": "Those favoured by Nurgle are inured to pain, their rotting bodies shrugging off all but the most traumatic damage with ease.",
+   "_src": "39k.pro"
+  },
+  "Overwhelming Generosity": {
+   "type": "wargear",
+   "cp": 1,
+   "when": "Start of your Shooting phase.",
+   "target": "One **DEATH GUARD CHARACTER** unit from your army.",
+   "effect": "Select one enemy unit visible to your unit. Until the end of the phase, each time a **DEATH GUARD** unit from your army selects that enemy unit as the target of any ranged attacks, you can re-roll the dice to determine how many attacks a weapon equipped by a model in that unit makes.",
+   "lore": "Unholy filth gushes from Nurgle’s faithful into their guns until the armaments threaten to burst like bloated corpses.",
+   "_src": "39k.pro"
+  },
+  "Putrid Detonation": {
+   "type": "strategicPloy",
+   "cp": 1,
+   "when": "Any phase.",
+   "target": "One **DEATH GUARD VEHICLE** or **DEATH GUARD MONSTER** model from your army with the Deadly Demise ability that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+   "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted. In addition, any enemy units that suffer mortal wounds as a result of this Stratagem are Afflicted until the start of your next turn.",
+   "lore": "Bloated with putrefaction and swilling with infectious poisons, the demise of this hulking entity is as revolting as it is explosively hazardous.",
+   "_src": "39k.pro"
+  }
+ }
+}
