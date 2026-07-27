@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""make_pdfs.py — render every human-facing Word/Excel doc to a sibling PDF.
+"""make_pdfs.py — render every human-facing Word doc to a sibling PDF.
 
 Uses LibreOffice headless (soffice --convert-to pdf), which correctly renders
-the version footer + Page N-of-M fields and the xlsx print headers/footers.
-The PDF lands next to its source (docs/…/Foo.docx -> docs/…/Foo.pdf).
+the version footer + Page N-of-M fields. The PDF lands next to its source
+(docs/…/Foo.docx -> docs/…/Foo.pdf).
 
-  python3 tools/make_pdfs.py            # convert all .docx/.xlsx under docs/
-  python3 tools/make_pdfs.py a.docx b.xlsx   # convert specific files
+Only .docx is converted — Excel workbooks stay as .xlsx (not exported).
+
+  python3 tools/make_pdfs.py            # convert all .docx under docs/
+  python3 tools/make_pdfs.py a.docx     # convert specific files
 """
 import glob, os, shutil, subprocess, sys, tempfile
 
@@ -23,10 +25,8 @@ def _soffice():
 
 def targets(argv):
     if argv:
-        return [a for a in argv if a.lower().endswith((".docx", ".xlsx"))]
-    out = []
-    for ext in ("docx", "xlsx"):
-        out += glob.glob(f"{DOCS_DIR}/**/*.{ext}", recursive=True)
+        return [a for a in argv if a.lower().endswith(".docx")]
+    out = glob.glob(f"{DOCS_DIR}/**/*.docx", recursive=True)
     return sorted(f for f in out if not os.path.basename(f).startswith("~$"))
 
 
@@ -59,5 +59,5 @@ def convert(files):
 if __name__ == "__main__":
     files = targets(sys.argv[1:])
     if not files:
-        sys.exit("no .docx/.xlsx files found")
+        sys.exit("no .docx files found")
     sys.exit(0 if convert(files) else 1)

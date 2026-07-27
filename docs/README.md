@@ -22,7 +22,8 @@ docs/
 
 Every file here is **generated** from a single-source-of-truth data module in `tools/`
 (never hand-edited) and carries a **version number** on its cover, in a per-page footer,
-and **in its filename** (`…-v1.0.docx`). Each `.docx`/`.xlsx` has a matching `.pdf`.
+and **in its filename** (`…-v1.0.docx`). Each **`.docx` has a matching `.pdf`**;
+**`.xlsx` workbooks stay as Excel files** (no PDF/CSV export).
 
 Versions live in **`tools/doc_versions.py`** — bump there when content changes, then
 regenerate; a new `-vX.Y` file is written and the old revision is left on disk
@@ -49,7 +50,7 @@ for g in gen_lso_runbook_docx gen_gv_docx gen_greatvalue_sim_docx \
   PYTHONPATH=tools:src python3 tools/$g.py
 done
 
-# render matching PDFs (needs libreoffice-writer)
+# render the Word docs to PDF (needs libreoffice-writer); .xlsx stay as Excel
 python3 tools/make_pdfs.py
 ```
 
