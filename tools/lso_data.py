@@ -70,6 +70,7 @@ RULES = [
     ("Rain of Devastation (Dominus)", "Dominus Knights' attacks vs a unit in a terrain area get +1 to hit."),
     ("Super-Heavy Walker", "Movement-only. NO Knight falls back and shoots — an engaged Knight instead shoots OUT of combat at -1 to hit (tar-pit costs -1)."),
     ("What beats Knights", "(1) invuln-NEGATION: Anti-Vehicle/Monster X+ (wound regardless of S) + Devastating Wounds (crit->mortal); (2) massed AP-2+ VOLUME (5++ fails 68%); (3) MELEE into the no-invuln fight phase; (4) out-OC / out-score."),
+    ("Helverin Bondsman (EVERY TURN)", "Keep the Armiger Helverin within Bondsman range of the KNIGHT CRUSADER -> Crusader's Duty = +1 to hit = BS2+ on its 8 autocannon shots (48\"). It is your SAFE backfield/home OC6 anchor + Suppression (-1 to hit its target) -- do NOT push it forward, and don't let it drift out of the Crusader's bond."),
 ]
 
 MINDSET = (
