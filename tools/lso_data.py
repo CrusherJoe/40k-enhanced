@@ -35,7 +35,7 @@ LIST_UNITS = [
     ("Knight Crusader", 1, "Rapid-fire battle cannon (D6+3 S10, +15pts), Avenger gatling (A18 S6 AP-2 D2), heavy flamer, thermal cannon (2D3 S12 AP-4 Melta6), stubber, feet",
      "410", "395 base + 15 for the RFBC. Anti-infantry SUBTRACTION: RFBC + Avenger A18 strip soft OC; thermal for anti-tank/Speeders."),
     ("Cerastus Knight Lancer", 1, "Shock lance — strike 5A S20 AP-3 D8 [Lance] / sweep 10A S10 AP-2 D3; ranged shock lance 12\" 6A [Assault, Sus2]",
-     "415", "The one blade: 4++ FULL invuln vs ALL, M14 W28. Counter-charge + assassinate buff-characters + Shock-Charge free Tank Shock on the charge."),
+     "415", "The one blade: 4++ FULL invuln vs ALL, M14 W28. Counter-charge + kill characters (standalone monsters/Titanic DIRECTLY; ATTACHED buff-characters via EPIC CHALLENGE — 1CP core strat granting its melee [PRECISION]) + Shock-Charge free Tank Shock."),
     ("Armiger Helverin", 1, "2x Armiger autocannon (48\" A4 S9 AP-1 D3), heavy stubber", "140",
      "Backfield 48\" autocannon platform — BOND TO THE CRUSADER (Crusader's Duty Bondsman = +1 to hit -> BS2+, 8 shots): "
      "consistent anti-infantry/light removal that fills the list's anti-scorer gap. Survivable OC6 home/backfield anchor "
@@ -64,13 +64,16 @@ RULES = [
     ("Ion Shield", "5++ invuln vs SHOOTING ONLY (ranged). Does NOTHING in melee."),
     ("Rotate Ion Shields", "VALOURSTRIKE 1CP STRATAGEM: +1 to a Knight's invulnerable save vs SHOOTING (5++ -> 4++) for the phase. The core durability lever in the hard shooting matchups — cycle it onto the focused Knight each turn. (Stratagems ARE the detachment: how Valourstrike actually plays.)"),
     ("Questoris/Dominus melee", "NO melee invuln (verified — printed 5+* is 'vs ranged attacks only') — bare 3+ armour in the fight phase. Melee is the universal Knight weakness (only the Sanctuary enhancement adds a melee 5++)."),
-    ("Cerastus Lancer", "VERIFIED 415pts, M14 T11 W28, 4++ invuln vs ALL attacks (no asterisk). Shock lance STRIKE 5A WS2+ S20 AP-3 D8 [Lance] (wounds anything <=T12 on 2s) / SWEEP 10A S10 AP-2 D3. Shock Charge = free Tank Shock (0CP, repeatable) on the charge = bonus MW. The universal counter-charge + character-assassin."),
+    ("Cerastus Lancer", "VERIFIED 415pts, M14 T11 W28, 4++ invuln vs ALL attacks (no asterisk). Shock lance STRIKE 5A WS2+ S20 AP-3 D8 [Lance] (wounds anything <=T12 on 2s) / SWEEP 10A S10 AP-2 D3. Shock Charge = free Tank Shock (0CP) on the charge. Character-assassin: standalone monster/Titanic characters DIRECTLY; ATTACHED characters via EPIC CHALLENGE (1CP core strat -> [PRECISION] in melee). No Knight GUN has Precision -> you canNOT snipe attached characters at range."),
     ("Volcano lance", "VERIFIED 72\" D3 SHOTS (avg 2), S18 AP-5 D6+8 [Blast] — ~23 dmg/turn; one-shots no-invuln anchors (Hammerheads T10, Land Raiders T12, Kataphrons, Shadowsword, no-invuln Norns/Emissaries). Overkill into low-W chaff. The Castellan is 425/450 pts (escalating: 1st 425, 2nd 450 — MFM)."),
     ("Bold Gallantry (Valourstrike)", "Any Knight Advances -> ALL Knight ranged weapons gain [ASSAULT] army-wide that turn (advance-and-shoot)."),
     ("Rain of Devastation (Dominus)", "Dominus Knights' attacks vs a unit in a terrain area get +1 to hit."),
     ("Super-Heavy Walker", "Movement-only. NO Knight falls back and shoots — an engaged Knight instead shoots OUT of combat at -1 to hit (tar-pit costs -1)."),
     ("What beats Knights", "(1) invuln-NEGATION: Anti-Vehicle/Monster X+ (wound regardless of S) + Devastating Wounds (crit->mortal); (2) massed AP-2+ VOLUME (5++ fails 68%); (3) MELEE into the no-invuln fight phase; (4) out-OC / out-score."),
     ("Helverin Bondsman (EVERY TURN)", "Keep the Armiger Helverin within Bondsman range of the KNIGHT CRUSADER -> Crusader's Duty = +1 to hit = BS2+ on its 8 autocannon shots (48\"). It is your SAFE backfield/home OC6 anchor + Suppression (-1 to hit its target) -- do NOT push it forward, and don't let it drift out of the Crusader's bond."),
+    ("Killing characters (NO Precision on any Knight)", "You CANNOT target a Character attached to a Bodyguard unit — every wound goes to the bodyguard (no Knight GUN has [PRECISION], so you canNOT snipe at range). Tools: (1) EPIC CHALLENGE (core strat 15.03, 1CP): in the FIGHT phase a Knight CHARACTER's melee weapons gain [PRECISION] -> the Lancer (5x S20 AP-3 D8) charges the unit and deletes the attached character. (2) STANDALONE Monster/Vehicle/Titanic characters (Fulgrim, Magnus, Lion, Daemon Princes, Steel-Hammer superheavies, enemy Knights) = shoot/fight DIRECTLY, no strat. (3) Clear a SMALL bodyguard whole to expose the character. (4) Lone Operatives = only targetable within 12\"."),
+    ("CP economy (verify against list-building)", "~2 CP/round (1 at the start of EACH player-turn), ~10/game; + rare discard-a-secondary (max +1/turn) + CP-granting models. Each Strat is once/phase and costs CP. Rotate Ion Shields (1CP) and Epic Challenge (1CP) COMPETE each turn — plan the spend. HONOURED (Code Chivalric Deed completed) = +2 CP (3 if you rolled the Oath), exempt from the per-round cap -> a real CP engine; completing a Deed EARLY funds Rotate + Epic Challenge all game."),
+    ("Code Chivalric (the Oath — pick per matchup)", "1 Deed + 1 Quality at deploy. QUALITY (army-wide, all game): MARTIAL VALOUR (re-roll 1 hit + 1 wound shoot/fight = the shooting amplifier, DEFAULT) / LEGACY (+2 OC, +1 Ld = the out-OC fix vs hordes) / EAGER (+2\" M, +1 Adv & Charge = land the Lancer + out-manoeuvre). DEED (complete once -> Honoured +2/3CP): REAP A TALLY (destroy > round-number units this round — fast for a gun list) / LAY LOW THE TYRANT (kill a named enemy CHARACTER — only vs a STANDALONE/Titanic linchpin you can actually kill, or an attached one the Lancer can Epic-Challenge) / RECLAIM THE REALM (out-OC them — AVOID, you're usually out-OC'd). See CODE_CHIVALRIC for the per-archetype picks."),
 ]
 
 MINDSET = (
@@ -143,7 +146,7 @@ MATCHUPS = [
          deciding="Red Thirst (+2 S/+1 A on the charge) -> Death Company S10 fists, Sanguinary Guard S8 AP-3, Dev hammers; ~15-18 into a Questoris from one DC+Lemartes charge (no melee invuln); best-in-game delivery (M12 + Deep Strike + re-roll charge + Angelic-Host re-drop).",
          heist=["Deny the alpha, don't fight it: layered chaff/bubble-wrap so DC land 9\"+ out, eat overwatch, can't reach T2. Castle T1-2.",
                 "Avenger gatling OVERWATCH the drop (A18 S6 AP-2 into 2W-T4 DC) thins it before it swings.",
-                "Lancer = counter-charge assassin: blank the multipliers — Lemartes (-1 Dmg), Sanguinary Priests (FNP5+/+1AP), Chaplains (strip Black Rage -> DC go OC0, can't Fall Back).",
+                "Lancer + EPIC CHALLENGE (1CP): charge the DC/Sang-Guard unit and Precision-kill the ATTACHED multiplier — Lemartes (-1 Dmg) / Sanguinary Priest (FNP5+/+1AP) / Chaplain. You CANNOT snipe them at range; alternatively clear the small unit to expose them.",
                 "Win on the MISSION: out-OC massively (OC10/6 vs OC1 infantry). Do NOT try to table them."],
          kill_priority="Lemartes -> Sanguinary Priests -> Chaplains (the buff engine) -> Death Company as it lands.",
          deploy="Navigator dome + chaff screen the deep strike; never present an unscreened Knight to a 12\"+charge."),
@@ -181,7 +184,7 @@ MATCHUPS = [
                 "Win on PRIMARY: Priority Assets, OC10 Questoris sit on objectives; Lancer runs down the cheap OC screen (Spawn/Noise Marines) — trade a Knight/turn to Fulgrim while out-scoring the defanged swarm.",
                 "Close primary loss / draw-range if executed; blowout if Fulgrim reaches two Knights a turn."],
          kill_priority="Defiler -> Flawless Blades -> Noise Marines / Infractors (NOT Fulgrim).",
-         deploy="Screen Fulgrim's lane; keep the Lancer for a Lord Exultant, not Fulgrim (4++ + Beguiling)."),
+         deploy="Screen Fulgrim's lane (standalone Monster — shootable, but a 4++/Fights-First beatstick, so avoid melee). Use the Lancer + EPIC CHALLENGE (1CP) to Precision-kill an ATTACHED Lord Exultant in melee — not Fulgrim."),
     dict(key="drukhari-skysplinter", faction="Drukhari", archetype="Skysplinter Assault + Exhibition of Slaughter",
          prev="Medium", verdict="FAVOURABLE", disp="Reconnaissance",
          deciding="Durability mismatch in MY favour: Volcano one-shots their no-invuln Raiders/Ravagers (T8-9); their Incubi/Exhibition Lethal Hits are NON-Vehicle (don't touch Knights); no haywire = thin invuln-bypass. 13 dark lances chip ~1 Knight/turn but can't table me.",
@@ -340,6 +343,49 @@ RECORD_NOTE = (
     "Green Tide); (5) out-OC'd by most of the field -> lock PURGE THE FOE (kill-weighted) over Priority Assets."
 )
 
+# ---- CODE CHIVALRIC: the Oath (Deed + Quality) per archetype, for List A ----------
+CODE_CHIVALRIC = {
+    "deeds": [
+        ("Reap a Great Tally", "End of round: units you destroyed THIS round > the round number (R1 need 2, R2 need 3...). Fastest for a gun list — completes R1-2 vs target-rich armies -> early Honoured +CP."),
+        ("Lay Low the Tyrant", "Name an enemy CHARACTER at deploy; done when it dies. Only pick vs a linchpin you can ACTUALLY kill: a STANDALONE monster/Titanic (Fulgrim/Magnus/Lion/superheavy/enemy Knight), or an ATTACHED one the Lancer can reach + Epic-Challenge (1CP)."),
+        ("Reclaim the Realm", "End of THEIR turn: you control more objectives than them. AVOID for List A — you're out-OC'd by most of the field."),
+    ],
+    "qualities": [
+        ("Martial Valour", "Re-roll 1 hit + 1 wound each time a Knight shoots or fights. DEFAULT — amplifies the shooting win-con army-wide."),
+        ("Legacy Unsullied", "+2 OC, +1 Ld (Castellan OC12, Helverin OC8). Swap in vs the OC-race/horde matchups."),
+        ("Eager for the Challenge", "+2\" Move, +1 Advance & Charge. Out-manoeuvre fast/flip armies + GUARANTEE the Lancer's decisive charge."),
+    ],
+    # matchup key -> (Deed, Quality, why)
+    "picks": {
+        "emperors-children": ("Lay Low: Fulgrim / Keeper of Secrets (standalone Monsters)", "Martial Valour", "reliable standalone kill + consistent guns to delete Defilers"),
+        "orks-green-tide": ("Reap a Tally (kill 2 chaff units R1) — NOT Lay-Low (Ghaz is attached)", "Legacy Unsullied (+2 OC)", "you're massively out-OC'd; +2 OC is your only objective lever"),
+        "admech-rad-zone": ("Reap a Tally (target-rich -> R1-2 Honoured)", "Martial Valour", "many fragile units = fast tally + early CP tempo"),
+        "tau-retaliation-cadre": ("Reap a Tally (kill suit/Pathfinder units)", "Martial Valour", "Lay-Low is a trap (commanders hide in Crisis units); win the gun race"),
+        "tau-prototype-cadre": ("Reap a Tally", "Martial Valour", "same — chars attached; out-shoot"),
+        "necrons-awakened-ctan": ("Reap a Tally (soft support) — NOT the C'tan (too durable)", "Legacy Unsullied", "C'tan is a bad Deed target; +2 OC for the grind"),
+        "custodes": ("Reap a Tally (their chars attach to units)", "Martial Valour", "Lay-Low unreliable; re-roll volume chips the 2+/4++"),
+        "blood-angels": ("Lay Low Dante/Lemartes VIA Lancer + Epic Challenge (attached)", "Martial Valour", "Epic-Challenge the buff-char in melee; else Reap a Tally"),
+        "dark-angels-deathwing": ("Lay Low the LION (standalone) if present, else Reap a Tally", "Martial Valour", "the Lion is directly killable; Azrael/Librarians are attached"),
+        "dark-angels-ravenwing": ("Reap a Tally (target-rich bikes)", "Eager for the Challenge", "out-manoeuvre the M12 bikes + land the Lancer"),
+        "drukhari-skysplinter": ("Reap a Tally (fragile paper -> R1)", "Eager for the Challenge", "fast tally + Eager to match their speed"),
+        "astra-militarum-superheavy": ("Lay Low a SUPERHEAVY (Character via Steel Hammer + Titanic!)", "Martial Valour", "shieldbreaker + Volcano delete it -> Honoured; win the gun duel"),
+        "chaos-daemons-khorne": ("Lay Low the Bloodthirster (standalone Greater Daemon)", "Martial Valour", "directly killable; guns + Lancer"),
+        "thousand-sons": ("Lay Low MAGNUS (standalone Monster)", "Martial Valour", "Magnus is directly targetable + their only Knight-killer"),
+        "great-value-imperial-fists": ("Reap a Tally (kill his soft legs: Speeders/Sternguard/Vanguard)", "Legacy or Martial Valour", "his chars hide in bricks; kill the mobile OC + out-remove"),
+        "sm-iron-hands-terminators": ("Reap a Tally (kill the backfield lascannon/scorers)", "Martial Valour", "Feirros/Librarians attached; out-remove the soft units"),
+        "necrons-cursed-legion": ("Reap a Tally (18 Lokhust = many units to thin)", "Legacy Unsullied", "target-rich for the tally; +2 OC for the grind"),
+        "necrons-monolith": ("Lay Low the Silent King (or Reap a Tally)", "Martial Valour", "concentrate-kill; re-rolls beat reanimation"),
+        "csm-renegade-raiders": ("Lay Low Vashtorr / Lord Discordant (standalone)", "Martial Valour", "both are their own units -> directly killable"),
+        "votann": ("Reap a Tally (kill Land Fortresses + bricks)", "Martial Valour", "target-rich; Uthar/Kahl are attached so not Lay-Low"),
+        "tyranids-norn": ("Lay Low a NORN / Emissary (standalone Monster)", "Martial Valour", "Norns are their own units -> Lancer/Volcano kill directly"),
+        "orks-kult-of-speed": ("Reap a Tally (kill fast chaff units)", "Legacy Unsullied", "+2 OC vs the mobile board; tally off their many units"),
+        "salamanders": ("Reap a Tally (Land Raiders + W2-3 units)", "Martial Valour", "target-rich + consistent removal"),
+        "space-wolves": ("Reap a Tally (chars are attached — no Lay-Low)", "Legacy Unsullied", "out-OC help vs the brick wall"),
+        "grey-knights": ("Reap a Tally (provisional)", "Martial Valour", "casters attached; out-remove (needs a full pass)"),
+        "chaos-knights": ("Lay Low their gun-Knight (standalone)", "Martial Valour", "mirror — their Knights are targetable characters"),
+    },
+}
+
 # =================================================================================
 # LSO LIST DECISION — 2 Castellan/1 Lancer (A) vs 1 Castellan/2 Lancer (B)
 # Grounded in the listhammer TOP-FINISHING sample (n=70, X-1-or-better, dated ON/AFTER 2026-07-23
@@ -354,7 +400,7 @@ OBSERVED_META_NOTE = (
 # (faction/archetype, count, threat-character, which-list-it-favours, one-line)
 META = [
     ("Emperor's Children (Frenzied Host / Coterie / Court)", 9, "MELEE swarm + 1-2 Defilers (anti-tank shooting)", "EVEN",
-     "#1-tie. Lord Exultant+Infractors, Daemonettes/Tormentors, Flawless Blades, Maulerfiends + Defiler pair (ectoplasma S14 AP-3). Kill Defilers at range OR counter-charge the swarm."),
+     "#1-tie. Lord Exultant+Infractors, Daemonettes/Tormentors, Flawless Blades, Maulerfiends + Defiler pair (ectoplasma S12 AP-3). Kill Defilers at range OR counter-charge the swarm."),
     ("Orks (Green Tide / Dread Mob / Beast Snagga)", 8, "MELEE horde + OC-flood (some Stompa/Dakka)", "B (weak)",
      "#2 (behind EC). ~100 Boyz + klaws out-OC/tarpit; loss either way — 2nd Lancer sweep+4++ survives it marginally better."),
     ("Adeptus Mechanicus (Lords of the Forge / Rad-Zone / Eradication)", 6, "SHOOTING anti-tank + rad debuff", "A",
@@ -419,7 +465,7 @@ SIM_DELTA = [
      "VERIFIED profiles: Volcano lance 72\" D3 shots S18 AP-5 D6+8 [Blast] = avg ~2 shots x ~11.5 = ~23 dmg into "
      "one target (one-shots a Hammerhead/Land Raider/Shadowsword/Kataphron brick/Ironstrider/Defiler and splits "
      "over) + plasma decimator 48\" D6+3 shots S9 AP-4 D3 supercharge (~6.5 shots — shreds Terminators/elites, AP-4) "
-     "+ shieldbreaker S12 AP-6 D6+1 [Anti-Titanic 4+, Dev] character sniper. NET: ERASES ~1-2 extra priority "
+     "+ shieldbreaker S12 AP-6 D6+1 [Anti-Titanic 4+, Dev] — a TITANIC sniper (enemy Knights/superheavies), not an infantry-character sniper. NET: ERASES ~1-2 extra priority "
      "targets PER TURN at range (bigger than first modelled — Volcano is D3, not 1). Wins the SHOOTING matchups."),
     ("Extra Cerastus Lancer (List B gains)", "MELEE + DURABILITY",
      "VERIFIED: on the charge, shock-lance STRIKE 5A WS2+ S20 AP-3 D8 [Lance] = ~4.2 hits, wounds <=T12 on 2s, "
@@ -507,7 +553,7 @@ VERIFIED_PROFILES = [
     ("Knight Castellan (425 / 450 escalating)", "M8 T12 Sv3+ W28 OC10, 5+ inv vs RANGED only", "No melee invuln."),
     ("  Volcano lance", "72\" | D3 | S18 | AP-5 | D6+8 | Blast", "D3 SHOTS (avg 2) — one-shots no-invuln T10-14."),
     ("  Plasma decimator (supercharge)", "48\" | D6+3 | S9 | AP-4 | D3 | Blast, Hazardous", "Anti-elite volume (~6.5 shots)."),
-    ("  Shieldbreaker missile", "72\" | 1 | S12 | AP-6 | D6+1 | Anti-Titanic 4+, Dev Wounds", "Character/tank sniper."),
+    ("  Shieldbreaker missile", "72\" | 1 | S12 | AP-6 | D6+1 | Anti-Titanic 4+, Dev Wounds", "Anti-TITANIC (enemy Knights/superheavies) + tank sniper — NOT an infantry-character sniper (no Precision)."),
     ("Knight Crusader (395)", "M10 T11 Sv3+ W26 OC10, 5+ inv vs RANGED only", ""),
     ("  Rapid-fire battle cannon", "72\" | D6+3 | S10 | AP-1 | D3 | Blast, RF D6+3", "Anti-infantry/light."),
     ("  Avenger gatling cannon", "36\" | 18 | S6 | AP-2 | D2", "A18 strips soft OC."),

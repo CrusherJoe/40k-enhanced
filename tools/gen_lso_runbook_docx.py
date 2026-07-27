@@ -112,6 +112,15 @@ def main():
     h(doc, "RULES CHEAT-SHEET", 15)
     for name, desc in D.RULES:
         p = doc.add_paragraph(style="List Bullet"); p.add_run(name + " — ").bold = True; p.add_run(desc)
+    h(doc, "Code Chivalric — the Oath (pick 1 Deed + 1 Quality per game)", 12, color=RGBColor(0, 0, 0), before=8)
+    dp = doc.add_paragraph(); dp.add_run("Deeds").bold = True
+    dp.add_run(" (complete once → Honoured +2/3 CP):")
+    for n, d in D.CODE_CHIVALRIC["deeds"]:
+        p = doc.add_paragraph(style="List Bullet"); p.add_run(n + " — ").bold = True; p.add_run(d)
+    qp = doc.add_paragraph(); qp.add_run("Qualities").bold = True
+    qp.add_run(" (army-wide, all game):")
+    for n, d in D.CODE_CHIVALRIC["qualities"]:
+        p = doc.add_paragraph(style="List Bullet"); p.add_run(n + " — ").bold = True; p.add_run(d)
     h(doc, "Realistic record", 12, color=RGBColor(0, 0, 0), before=8)
     doc.add_paragraph(D.RECORD_NOTE)
     h(doc, "Mindset", 12, color=RGBColor(0, 0, 0), before=6)
@@ -152,6 +161,9 @@ def main():
         bullets(doc, m["heist"])
         kv(doc, "Kill-priority", m["kill_priority"])
         kv(doc, "Deploy / positioning", m["deploy"])
+        cc = D.CODE_CHIVALRIC["picks"].get(m["key"])
+        if cc:
+            kv(doc, "Code Chivalric (Deed | Quality)", f"{cc[0]}  |  {cc[1]} — {cc[2]}")
 
     # ---- VERIFIED PROFILES appendix ----
     doc.add_page_break()

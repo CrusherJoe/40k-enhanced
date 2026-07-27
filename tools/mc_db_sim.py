@@ -160,7 +160,10 @@ def run_game(ln, spec, rak, mak, rem, tw):
             melee *= 0.55 if blades >= 2 else 0.8  # 2 blades counter-charge the melee threat
             ranged *= 0.90 if clears else 0.96     # less shooting, but Crusader/Helverin still remove
         turn_ak = ranged + melee
-        rotate = 0.72                              # Rotate Ion Shields: one Knight to 4++/turn
+        # Rotate Ion Shields (1CP, one Knight -> 4++ vs shooting). CP economy: ~2 CP/round
+        # (1 per player-turn) + Honoured +2/3 CP makes it affordable most turns (competes with
+        # Epic Challenge for the CP); 0.72 = ~high but not 100% uptime.
+        rotate = 0.72
         kill_chance = min(0.5, turn_ak * rotate / 24.0) * (0.85 if ln == "B" else 1.0)
         if rnd >= 2 and k_lost < 2 and random.random() < kill_chance:
             k_lost += 1

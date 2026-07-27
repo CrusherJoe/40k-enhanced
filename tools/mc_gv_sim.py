@@ -9,6 +9,10 @@ durability (2+/4++ + Armour of Contempt) and each enemy's ability to actually hu
 bodies are the meta-calibrated params (docs/meta + gv_data). Output = GV win% per archetype.
 
   PYTHONPATH=tools:src python3 tools/mc_gv_sim.py [--games 800] [--verbose]
+
+CP economy: ~2 CP/round (1 per player-turn). Oath of Moment is FREE (army rule, always modelled
+on); AoC/Fury/Dropship/Epic Challenge compete for ~1 strat/turn, so GV durability here is innate
+2+/4++ (baked into enemy_kill), NOT always-on AoC.
 """
 import argparse, random
 import db
@@ -80,7 +84,7 @@ ARCH = {
      tgt=T(5, "6+", 1, None, 20, ("INFANTRY",))),                     # Boyz blob
   "AdMech (Rad-Zone gunline)": dict(prev=6, verdict="FAV", enemy_kill=10, obj=2.9, floor=1.9, score=4.4,
      tgt=T(7, "3+", 3, None, 6, ("INFANTRY",))),                      # Kataphron brick
-  "T'au (Retaliation alpha)": dict(prev=5, verdict="FAV", enemy_kill=15, obj=2.7, floor=1.7, score=4.4,
+  "T'au (Retaliation alpha)": dict(prev=5, verdict="COIN", enemy_kill=19, obj=2.7, floor=1.7, score=4.4,
      tgt=T(9, "2+", 14, "4+", 1, ("VEHICLE", "MONSTER"))),            # Riptide/Crisis bomb
   "Necrons (Awakened C'tan)": dict(prev=4, verdict="COIN-", enemy_kill=15, obj=3.4, floor=3.0, score=5.2, dura=1.9,
      tgt=T(12, "4+", 10, "4+", 1, ("VEHICLE", "MONSTER"))),           # C'tan (durable)
