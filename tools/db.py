@@ -40,6 +40,31 @@ def bsdata(slug):
     return json.load(open(p, encoding="utf-8"))
 
 
+@functools.lru_cache(maxsize=None)
+def bsrules(slug):
+    """Every named rule / army rule / detachment rule / ability for a faction
+    (data/bsdata/rules/<slug>.json, built by tools/bsdata_rules.py). {name: text}."""
+    p = os.path.join(DATA, "bsdata", "rules", slug + ".json")
+    if not os.path.exists(p):
+        raise KeyError(f"no rules DB for {slug!r} (run: python3 tools/bsdata_rules.py {slug})")
+    return json.load(open(p, encoding="utf-8"))
+
+
+def rule(slug, name):
+    """Exact (case/apostrophe-insensitive) rule/ability text, e.g.
+    rule('adeptus-custodes', \"Martial Ka'tah\")  ->  the army-rule text."""
+    r = _ci(bsrules(slug), name)
+    if r is None:
+        raise KeyError(f"rule {name!r} not in {slug} rules DB")
+    return r
+
+
+def find_rules(slug, substr):
+    """All rules/abilities whose NAME or TEXT contains substr (case-insensitive)."""
+    t = substr.lower()
+    return {k: v for k, v in bsrules(slug).items() if t in k.lower() or t in v.lower()}
+
+
 def _ci(d, name):
     """case-insensitive dict lookup that tolerates straight/curly apostrophes."""
     if name in d:
