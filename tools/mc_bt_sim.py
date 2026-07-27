@@ -99,12 +99,21 @@ def noisy(mu, cv=0.28):
     return max(0.0, random.gauss(mu, mu * cv))
 
 
-def run_game(spec, spike, shoot, tw):
+# head-to-head list configs. v2 = swap a Repulsor for a Land Raider Crusader (T12/W16 tanky bus,
+# far harder to pop -> bus_pop_mult) + a jump Assault-Intercessor reserve threat (a delivery FLOOR
+# even if the buses are contested, and backfield pressure that eases a FAST enemy's board control).
+CONFIGS = {
+    "v1 current":  dict(bus_pop_mult=1.00, reserve_floor=0.00, fast_relief=0.00),
+    "v2 improved": dict(bus_pop_mult=0.55, reserve_floor=0.70, fast_relief=0.35),
+}
+
+
+def run_game(spec, spike, shoot, tw, cfg=CONFIGS["v1 current"]):
     """BT buses a spike into the priority piece and deletes it in melee, holds with cover-bricks, and
     grinds primary. Delivery-dependent: shooty enemies strand the spike; hordes waste it; fast enemies
-    out-manoeuvre. Shooting is a thin supplement, not a removal tool on its own."""
+    out-manoeuvre. Shooting is a thin supplement, not a removal tool on its own. cfg = list version."""
     dura = spec.get("dura", 1.0)
-    their_obj = spec["obj"] + (0.6 if spec.get("fast") else 0.0) + (0.6 if spec.get("horde") else 0.0)
+    their_obj = spec["obj"] + (max(0.0, 0.6 - cfg["fast_relief"]) if spec.get("fast") else 0.0) + (0.6 if spec.get("horde") else 0.0)
     my_obj = spec["obj"] - 0.7
     buses = 2
     bodies_lost = 0
@@ -114,10 +123,11 @@ def run_game(spec, spike, shoot, tw):
         if rnd >= 2 and random.random() < min(0.5, kill / 28.0):
             bodies_lost += 1
             my_obj = max(1.0, my_obj - 0.4)
-        # shooty enemies pop a bus -> strand a melee spike (and BT's own shooting can't finish)
-        if spec.get("shooty") and buses > 0 and rnd <= 3 and random.random() < spec.get("bus_pop", 0.28):
+        # shooty enemies pop a bus -> strand a melee spike (v2's Land Raider Crusader is far harder to pop)
+        if spec.get("shooty") and buses > 0 and rnd <= 3 and random.random() < spec.get("bus_pop", 0.28) * cfg["bus_pop_mult"]:
             buses -= 1
-        delivered = 0.55 + 0.45 * (buses / 2.0)             # fraction of the spike(s) that reach the fight
+        # fraction of the spike(s) that reach the fight; v2's jump reserve sets a delivery FLOOR
+        delivered = max(cfg["reserve_floor"], 0.55 + 0.45 * (buses / 2.0))
         # removal = the delivered spikes (both can focus a big target) + a thin shooting supplement;
         # a horde wastes the spike (Slayers only fires vs Mon/Veh). "clears" = neutralise the priority
         # threat (delete or cripple it over the turn), not necessarily a one-shot.
@@ -132,23 +142,43 @@ def run_game(spec, spike, shoot, tw):
     return me - him
 
 
-def results(games=800):
+def results(games=800, cfg=CONFIGS["v1 current"]):
     random.seed(11)
     out = []
     for name, spec in ARCH.items():
         tgt = spec["tgt"]
         spike = bt_spike(tgt); shoot = bt_shoot(tgt)
-        win = sum(run_game(spec, spike, shoot, tgt.wounds) > 0 for _ in range(games))
+        win = sum(run_game(spec, spike, shoot, tgt.wounds, cfg) > 0 for _ in range(games))
         out.append(dict(archetype=name, prev=spec["prev"], verdict=spec["verdict"],
                         spike=round(spike), shoot=round(shoot), tgtW=tgt.wounds, win=round(100 * win / games)))
     return out
+
+
+def compare(games=4000):
+    """Head-to-head: v1 (current) vs v2 (improved) win% per archetype + prevalence-weighted."""
+    v1 = {x["archetype"]: x for x in results(games, CONFIGS["v1 current"])}
+    v2 = {x["archetype"]: x for x in results(games, CONFIGS["v2 improved"])}
+    hdr = f"{'Archetype':34} {'prev':>4} {'v1%':>5} {'v2%':>5} {'Δ':>5}"
+    print(hdr); print("-" * len(hdr))
+    tot = w1 = w2 = 0
+    for name in ARCH:
+        a, b = v1[name], v2[name]
+        d = b["win"] - a["win"]
+        print(f"{name:34} {a['prev']:>4} {a['win']:>4}% {b['win']:>4}% {d:>+4}")
+        tot += a["prev"]; w1 += a["prev"] * a["win"]; w2 += a["prev"] * b["win"]
+    print("-" * len(hdr))
+    print(f"{'PREVALENCE-WEIGHTED':34} {'':>4} {w1/tot:>4.0f}% {w2/tot:>4.0f}% {w2/tot - w1/tot:>+4.0f}")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--games", type=int, default=800)
     ap.add_argument("--verbose", action="store_true")
+    ap.add_argument("--compare", action="store_true", help="v1 (current) vs v2 (improved) head-to-head")
     a = ap.parse_args()
+    if a.compare:
+        print(f"# BLACK TEMPLARS v1 (current fixed) vs v2 (improved: Land Raider Crusader + jump reserve) — {max(a.games,4000)} games/archetype\n")
+        compare(max(a.games, 4000)); return
     print(f"# CORRECTED FIXED BLACK TEMPLARS sim — {a.games} games/archetype. Spike + shooting from data/bsdata via wh.mathhammer.\n")
     hdr = f"{'Archetype':34} {'prev':>4} {'verdict':>7} {'spike':>6} {'shoot':>6} {'tgtW':>5} {'BT win%':>8}"
     print(hdr); print("-" * len(hdr))
