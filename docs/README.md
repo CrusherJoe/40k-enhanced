@@ -39,6 +39,8 @@ regenerate; a new `-vX.Y` file is written and the old revision is left on disk
 | **Great Value vs Knights — Full-Game Simulation** | `reports/great-value/Great-Value-vs-Knights-Full-Game-Simulation-vX.Y.docx` | `gen_greatvalue_sim_docx.py` | sim |
 | **Adepta Sororitas — Battle Plan** | `reports/sisters/Sisters-Battle-Plan-vX.Y.docx` | `gen_sisters_docx.py` | army builder + layouts |
 | **Adepta Sororitas — Quick Reference** | `reports/sisters/Sisters-Quick-Reference-vX.Y.docx` | `gen_sisters_qref_docx.py` | layouts |
+| **Black Templars — 'Send Help' FIXED Runbook** (rescued list + tapestry + battle plans) | `reports/black-templars/BT-SendHelp-Fixed-Runbook-vX.Y.docx` | `gen_bt_docx.py` | `bt_data.py` |
+| **Black Templars — 'Send Help' FIXED Analysis** (matchups + sim) | `reports/black-templars/BT-SendHelp-Fixed-Analysis-vX.Y.xlsx` | `gen_bt_xlsx.py` | `bt_data.py` + `mc_bt_sim.py` |
 
 ### Rebuild
 
