@@ -79,8 +79,8 @@ def build_batch():
     sp = SCRATCH or _guess_scratch()
     # (dest, [candidate source paths]) — first existing wins
     jobs = {
-        "data/rules/core-rules.txt": [f"{sp}/40k_core_rules.pdf", "docs/40k_core_rules.pdf"],
-        "data/rules/event-companion.txt": [f"{sp}/event_companion.pdf", "docs/40k_event_companion.pdf"],
+        "data/rules/core-rules.txt": [f"{sp}/40k_core_rules.pdf", "docs/sources/40k_core_rules.pdf"],
+        "data/rules/event-companion.txt": [f"{sp}/event_companion.pdf", "docs/sources/40k_event_companion.pdf"],
     }
     fp = {"admech": "adeptus-mechanicus", "aeldari": "aeldari", "am": "astra-militarum", "ba": "blood-angels",
           "bt": "black-templars", "chaos": "chaos-space-marines", "chaosknights": "chaos-knights",

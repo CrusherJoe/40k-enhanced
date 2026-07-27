@@ -1,5 +1,6 @@
-# Large source reference PDFs (see docs/SOURCES.md to re-download)
-docs/*.pdf
+# Large GW source-reference PDFs (see docs/sources/SOURCES.md to re-download).
+# Generated deliverable PDFs under docs/reports/ ARE committed.
+docs/sources/*.pdf
 
 # Python
 __pycache__/

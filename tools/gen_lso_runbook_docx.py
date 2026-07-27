@@ -12,8 +12,10 @@ from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
 import lso_data as D
+import doc_versions as V
 
-OUT = "docs/Reports & Plans/LSO-Runbook.docx"
+DOCKEY = "lso-runbook"
+OUT = V.out_path(DOCKEY)
 
 NAVY = RGBColor(0x1F, 0x38, 0x64)
 BLUE = RGBColor(0x1F, 0x5C, 0x99)   # List A
@@ -75,6 +77,8 @@ def main():
     r = t.add_run("LSO RUNBOOK — IMPERIAL KNIGHTS"); r.bold = True; r.font.size = Pt(22); r.font.color.rgb = NAVY
     s = doc.add_paragraph(); s.alignment = WD_ALIGN_PARAGRAPH.CENTER
     s.add_run(f"List Decision + Per-Archetype Battle Plans\n{D.EVENT}\nGenerated {D.GENERATED}").italic = True
+    vp = doc.add_paragraph(); vp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    vr = vp.add_run(V.cover_line(DOCKEY)); vr.bold = True; vr.font.size = Pt(11); vr.font.color.rgb = NAVY
 
     # ---- THE DECISION ----
     h(doc, "THE DECISION — which list to take", 16)
@@ -175,9 +179,10 @@ def main():
         p.add_run(f"{wname.strip()}: ").bold = True
         p.add_run(prof + (f"  — {note}" if note else ""))
 
+    V.stamp_docx(doc, DOCKEY)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     doc.save(OUT)
-    print("wrote", OUT, "-", len(D.MATCHUPS), "battle plans")
+    print("wrote", OUT, V.cover_line(DOCKEY), "-", len(D.MATCHUPS), "battle plans")
 
 
 if __name__ == "__main__":

@@ -9,8 +9,9 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 import lso_data as D
+import doc_versions as V
 
-OUT = "docs/Reports & Plans/LSO-Knights-List-and-Analysis.xlsx"
+OUT = V.out_path("lso-analysis")
 
 HEAD = PatternFill("solid", fgColor="1F3864")
 SUB = PatternFill("solid", fgColor="D6DCE4")
@@ -140,6 +141,7 @@ def main():
     wb = Workbook()
     sheet_list(wb); sheet_matchups(wb); sheet_rules(wb); sheet_bands(wb)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    V.stamp_xlsx(wb, "lso-analysis")
     wb.save(OUT)
     print("wrote", OUT, "-", len(D.MATCHUPS), "matchups")
 

@@ -10,8 +10,10 @@ from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
 import gv_data as D
+import doc_versions as V
 
-OUT = "docs/Reports & Plans/GV-LSO-Runbook.docx"
+DOCKEY = "gv-runbook"
+OUT = V.out_path(DOCKEY)
 GOLD = RGBColor(0x8A, 0x6D, 0x00)   # Imperial Fists yellow-ish
 NAVY = RGBColor(0x1F, 0x38, 0x64)
 VERD = {"FAVOURABLE": RGBColor(0x2E, 0x7D, 0x32), "COIN-FLIP": RGBColor(0xB8, 0x86, 0x00),
@@ -48,6 +50,8 @@ def main():
     r = t.add_run("GREAT VALUE — LSO RUNBOOK"); r.bold = True; r.font.size = Pt(22); r.font.color.rgb = GOLD
     s = doc.add_paragraph(); s.alignment = WD_ALIGN_PARAGRAPH.CENTER
     s.add_run(f"{D.LIST_NAME}\n{D.EVENT}\nGenerated {D.GENERATED}").italic = True
+    vp = doc.add_paragraph(); vp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    vr = vp.add_run(V.cover_line(DOCKEY)); vr.bold = True; vr.font.size = Pt(11); vr.font.color.rgb = GOLD
 
     h(doc, "THE LIST", 15)
     kv(doc, "Detachments", D.DETACHMENTS)
@@ -118,8 +122,9 @@ def main():
         p.add_run(prof + (f"  — {note}" if note else ""))
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    V.stamp_docx(doc, DOCKEY)
     doc.save(OUT)
-    print("wrote", OUT, "-", len(D.MATCHUPS), "battle plans")
+    print("wrote", OUT, V.cover_line(DOCKEY), "-", len(D.MATCHUPS), "battle plans")
 
 
 if __name__ == "__main__":

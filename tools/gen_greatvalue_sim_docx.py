@@ -17,6 +17,7 @@ os.environ.setdefault("WH_FACTION", "knights")
 from docx import Document
 from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+import doc_versions as V
 
 STEEL = RGBColor(0x27, 0x3A, 0x5B)
 GOLD  = RGBColor(0x8A, 0x6D, 0x1F)
@@ -86,12 +87,16 @@ s = doc.add_paragraph(); s.alignment = WD_ALIGN_PARAGRAPH.CENTER
 r = s.add_run("Imperial Knights (Big-Gun Standoff) vs. “Great Value” Imperial Fists"); r.font.size=Pt(13); r.italic=True; r.font.color.rgb=GREY
 s2 = doc.add_paragraph(); s2.alignment = WD_ALIGN_PARAGRAPH.CENTER
 r = s2.add_run("LSO practice — full model-by-model, phase-by-phase simulation to conclusion (v3 plan)"); r.font.size=Pt(10); r.font.color.rgb=GREY
+sv = doc.add_paragraph(); sv.alignment = WD_ALIGN_PARAGRAPH.CENTER
+r = sv.add_run(V.cover_line("gv-sim")); r.bold=True; r.font.size=Pt(11); r.font.color.rgb=STEEL
 P()
 P("Why this plan (read first)", bold=True, color=GOLD)
 P("Three earlier ideas are DEAD, and the game only makes sense once you accept why: (1) You cannot KILL his "
-  "bricks — my best guns do ~6–8/turn into a 2+/4++/W4/−1-to-wound Terminator wall. (2) You cannot BATTLE-SHOCK "
-  "them off an objective — they only test below half strength (6+ dead first, which I can’t do) and pass on "
-  "Ld 6+ ~72% anyway, so their OC22 is permanent. (3) You cannot out-CONTROL the objective the brick sits on — "
+  "bricks — my best guns do ~6–8/turn into a 2+/4++/W4/−1-to-wound Terminator wall. (2) I cannot BATTLE-SHOCK "
+  "them off an objective — the brick is NOT immune (Lysander grants no immunity), but a KNIGHT army has no way to "
+  "FORCE a test, and they won’t take one voluntarily until below half strength (6+ dead, which I can’t inflict); "
+  "so for ME the OC22 is effectively permanent (a shock-weaponizer like Tyranids/Necrons could break it — I "
+  "can’t). (3) You cannot out-CONTROL the objective the brick sits on — "
   "in 11E the objective IS the terrain piece (its footprint is the scoring area; there are no separate markers), "
   "and control goes to whoever has the most Objective Control base-touching it. Out-holding OC22 needs OC23+ = "
   "two big Knights + an Armiger crowded onto the same small footprint the brick is on — i.e. inside its 2D6\" "
@@ -492,6 +497,7 @@ P("Bottom line: ~60/40 Knights. Not by out-fighting an unkillable wall — by re
   "deleting the parts of his army that can actually hurt me, and winning the mission with speed the wall can’t "
   "match.", bold=True, color=STEEL)
 
-out = "docs/Great-Value-vs-Knights-Full-Game-Simulation.docx"
+out = V.out_path("gv-sim")
+V.stamp_docx(doc, "gv-sim")
 doc.save(out)
-print("WROTE", out)
+print("WROTE", out, V.cover_line("gv-sim"))

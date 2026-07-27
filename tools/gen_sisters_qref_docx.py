@@ -12,6 +12,7 @@ from docx import Document
 from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
+import doc_versions as V
 
 doc = Document()
 for s in doc.sections:                      # tight margins for printing
@@ -65,7 +66,10 @@ t.paragraph_format.space_after = Pt(0)
 st = doc.add_paragraph(); st.alignment = WD_ALIGN_PARAGRAPH.CENTER
 sr = st.add_run('LOCK: DISRUPTION   ·   1985/2000   ·   Champions of Faith + Sacred Champions')
 sr.bold = True; sr.font.size = Pt(9.5); sr.font.color.rgb = STEEL
-st.paragraph_format.space_after = Pt(3)
+st.paragraph_format.space_after = Pt(1)
+sv = doc.add_paragraph(); sv.alignment = WD_ALIGN_PARAGRAPH.CENTER
+svr = sv.add_run(V.cover_line('sisters-qref')); svr.bold = True; svr.font.size = Pt(9); svr.font.color.rgb = CRIMSON
+sv.paragraph_format.space_after = Pt(3)
 
 # ---- mission by opponent (table, from the layout data) ----
 band('MISSION — set by OPPONENT’s disposition')
@@ -116,6 +120,7 @@ band('DON’T  (T3 W1 — girls die a lot)')
 line('✖ Sit within 12" of flamers (auto-wipes a squad).   ✖ Let a horde charge you.   '
      '✖ Over-melta the un-killable.   ✖ Over-expose transports.   ✖ Dogpile one anchor.', after=0, size=9)
 
-out = 'docs/Sisters-Quick-Reference.docx'
+out = V.out_path('sisters-qref')
+V.stamp_docx(doc, 'sisters-qref')
 doc.save(out)
 print(f'wrote {out}')

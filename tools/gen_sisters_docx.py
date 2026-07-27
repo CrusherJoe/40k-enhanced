@@ -13,6 +13,7 @@ from docx import Document
 from docx.shared import Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from wh import army as army_mod, data
+import doc_versions as V
 
 doc = Document()
 normal = doc.styles['Normal']
@@ -59,6 +60,8 @@ for r in t.runs:
     r.font.color.rgb = CRIMSON
 sub = para(('All-Comers Tournament Battle Plan  ·  Champions of Faith + Sacred Champions  ·  LOCK: DISRUPTION', True))
 sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
+vsub = para((V.cover_line('sisters-battle'), True))
+vsub.alignment = WD_ALIGN_PARAGRAPH.CENTER
 para('Derived from the current 11E meta (5 factions / 7 archetypes) and validated with the '
      'mathhammer engine. Points are exact (MFM). All rules verified against 11E sources.',
      italic=True, after=10)
@@ -192,10 +195,11 @@ for name, their_disp, mission, targets, plan in plans:
 
 # ---------------- footer ----------------
 para(('Sources: ', True),
-     'list examples/best-sisters-allcomers.yaml; mechanics docs/sisters-mechanics.md; mathhammer + '
-     'durability docs/sisters-battle-plan.md; matchups docs/sisters-matchup-plans.md; layouts '
+     'list examples/best-sisters-allcomers.yaml; mechanics docs/notes/sisters/mechanics.md; mathhammer + '
+     'durability docs/notes/sisters/battle-plan.md; matchups docs/notes/sisters/matchup-plans.md; layouts '
      'data/layouts/disruption.yaml. All points MFM; all rules verified 11E.', italic=True, after=0)
 
-out = 'docs/Sisters-Battle-Plan.docx'
+out = V.out_path('sisters-battle')
+V.stamp_docx(doc, 'sisters-battle')
 doc.save(out)
 print(f'wrote {out}  ({a.points}/{a.points_limit} pts, {len(a.lines)} units, {len(plans)} matchup plans)')

@@ -5,7 +5,7 @@ damage using an EV model that handles the common weapon abilities:
 BLAST, RAPID FIRE X, TORRENT, SUSTAINED HITS X, LETHAL HITS, TWIN-LINKED,
 DEVASTATING WOUNDS, ANTI-<kw> N+, MELTA X, LANCE, HEAVY, plus hit/wound
 modifiers and re-rolls passed via `Mods`. Rules verified against the 11e core
-rules PDF (see docs/core-rules-reference.md); notably cover is a -1 to HIT
+rules PDF (see docs/notes/core-rules-reference.md); notably cover is a -1 to HIT
 (11e 13.08), not a save bonus, and Devastating Wounds crit-wounds become mortal
 wounds equal to Damage (24.10).
 

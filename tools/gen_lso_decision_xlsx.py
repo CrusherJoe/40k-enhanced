@@ -10,8 +10,9 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 import lso_data as D
+import doc_versions as V
 
-OUT = "docs/Reports & Plans/LSO-Knights-List-Decision.xlsx"
+OUT = V.out_path("lso-decision")
 
 HEAD = PatternFill("solid", fgColor="1F3864")
 SUB = PatternFill("solid", fgColor="D6DCE4")
@@ -200,6 +201,7 @@ def main():
     sheet_sim(wb)
     sheet_profiles(wb)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    V.stamp_xlsx(wb, "lso-decision")
     wb.save(OUT)
     print("wrote", OUT, "-", len(D.MATCHUPS), "matchups,", len(D.META), "meta rows")
 

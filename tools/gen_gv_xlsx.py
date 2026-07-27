@@ -9,8 +9,9 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 import gv_data as D
+import doc_versions as V
 
-OUT = "docs/Reports & Plans/GV-LSO-Analysis.xlsx"
+OUT = V.out_path("gv-analysis")
 HEAD = PatternFill("solid", fgColor="7F6000")   # IF gold
 BOLD = Font(bold=True); WHITEB = Font(bold=True, color="FFFFFF")
 WRAP = Alignment(wrap_text=True, vertical="top"); CTR = Alignment(horizontal="center", vertical="center")
@@ -127,6 +128,7 @@ def main():
     wb = Workbook()
     sheet_list(wb); sheet_matchups(wb); sheet_sim(wb); sheet_rules(wb)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    V.stamp_xlsx(wb, "gv-analysis")
     wb.save(OUT)
     print("wrote", OUT, "-", len(D.MATCHUPS), "matchups")
 
