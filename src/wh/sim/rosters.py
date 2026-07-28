@@ -92,8 +92,8 @@ def custodes():
     spear_r = [dict(name="Guardian Spear (shooting)", A=2, BS="2+", S=4, AP=-1, D=2, abilities=["ASSAULT"])]
     balistus = [dict(name="Balistus grenade launcher", A="D6", BS="2+", S=4, AP=-1, D=1, abilities=["BLAST"])]
     u = [
-        mk(S, "Custodian Wardens", 5, role="line", threat=2.4, abilities=dict(CRIT5, fnp=None),
-           ranged=spear_r),
+        mk(S, "Custodian Wardens", 5, role="line", threat=2.4, abilities=dict(CRIT5, once_fnp="4+"),
+           ranged=spear_r),   # once-per-game 4+++ (Aegis) — activates when they take a big hit
         mk(S, "Valerian", 1, role="character", threat=3.0, abilities=CRIT5),
         mk(S, "Blade Champion", 1, role="character", threat=3.0, abilities=dict(CRIT5, reroll_charge=True),
            melee=bc_melee),
@@ -113,7 +113,10 @@ def custodes():
         mk(S, "Vertus Praetors", 2, role="fast", threat=1.5),
         mk(S, "Witchseekers", 4, role="anti_horde", threat=0.6),
     ]
-    return _deploy(Army("Custodes — The Better Thing 2", "priority-assets", "A", u, cp=3))
+    army = Army("Custodes — The Better Thing 2", "priority-assets", "A", u, cp=3)
+    army.slug = "adeptus-custodes"
+    army.strat_dets = ("Shield Host", "Tharanatoi Hammerblow")   # dual detachment -> both strat sets + core
+    return _deploy(army)
 
 
 # ---------------- NECRONS: Awakened Dynasty — the real 5-0 "old but new" list (Paul Withington) ------

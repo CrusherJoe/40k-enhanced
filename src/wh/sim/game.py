@@ -11,6 +11,7 @@ from .combat import resolve_attacks, apply_damage
 from .mission import score_turn, end_of_battle
 from ..mathhammer import Mods
 from .. import sim
+from . import stratagems
 
 
 def _mods_for(unit, target, charged=False):
@@ -90,11 +91,13 @@ def _shoot(me, opp, board, rng):
         if best is None:
             continue
         focus[id(best)] = focus.get(id(best), 0) + 1
+        mods = _mods_for(u, best)
+        stratagems.on_attack(me, opp, u, best, mods, "shoot")   # CP economy: attacker/defender may spend
         for w in _best_weapon_set(u, best, melee=False):
             if not _in_range(u, best, w):
                 continue
             half = dist(u.pos, best.pos) <= w["rng"] / 2
-            inst, mort = resolve_attacks(w, u.models, best, _mods_for(u, best), rng, half_range=half)
+            inst, mort = resolve_attacks(w, u.models, best, mods, rng, half_range=half)
             apply_damage(best, inst, mort, rng)
             if not best.alive:
                 break
@@ -156,9 +159,11 @@ def _charge_and_fight(me, opp, rng, board):
         if roll >= need:
             u.pos = (t.pos[0], t.pos[1] + (0.5 if u.side == "A" else -0.5))
             u.charged = True
-    # fight: chargers first (active player), then alternate — simplified: active chargers, then all others
+    # fight: chargers first (active player), then alternate — simplified: active chargers, then all others.
+    # COUNTER-OFFENSIVE: the defender (opp) may spend 2CP to fight FIRST with one unit vs a scary charge.
+    co_unit = stratagems.wants_counter_offensive(opp, [c for c in me.on_board() if c.charged], board)
     fighters = [u for u in me.on_board() if u.melee] + [u for u in opp.on_board() if u.melee]
-    fighters.sort(key=lambda u: (not u.charged))
+    fighters.sort(key=lambda u: (u is not co_unit, not u.charged))
     # ENGAGEMENT PERIMETER: a unit can only be attacked by as many enemy units as physically fit around
     # its footprint — you CANNOT pile the whole army onto one brick. Cap ~ its perimeter / an attacker's
     # frontage. This is the core screening/spatial fix for the focus-fire flaw.
@@ -180,8 +185,11 @@ def _charge_and_fight(me, opp, rng, board):
         pool = avail or engaged                              # if all full, extras still swing (edge case)
         t = max(pool, key=mval)
         piled[id(t)] = piled.get(id(t), 0) + 1
+        atk_army, def_army = (me, opp) if u.side == me.side else (opp, me)
+        mods = _mods_for(u, t, charged=u.charged)
+        stratagems.on_attack(atk_army, def_army, u, t, mods, "fight")   # CP economy in melee
         for w in _best_weapon_set(u, t, melee=True):
-            inst, mort = resolve_attacks(w, u.models, t, _mods_for(u, t, charged=u.charged), rng, charged=u.charged)
+            inst, mort = resolve_attacks(w, u.models, t, mods, rng, charged=u.charged)
             apply_damage(t, inst, mort, rng)
         u.fought = True
 
@@ -327,6 +335,9 @@ def _arrive_reserves(me, board, rnd, rng):
 
 
 def _command(me, rnd):
+    if stratagems.ENABLED and getattr(me, "_strat", None) is None:
+        stratagems.equip(me, getattr(me, "slug", None), getattr(me, "strat_dets", None))
+    stratagems.turn_start(me)                    # reset per-turn CP budget + clear last turn's temp buffs
     me.cp += 1
     for u in me.on_board():
         u.fought = False

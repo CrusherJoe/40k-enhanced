@@ -100,6 +100,8 @@ class Army:
     cp: int = 0
     detachment_rules: tuple = ()
     strat: object = None       # a callable hook(game, phase) for stratagem/ability use (optional)
+    slug: str = None           # BSData faction slug — for building this army's stratagem pool
+    strat_dets: tuple = ()      # chosen detachment name(s) — the army gets ALL their stratagems + the core set
 
     def alive_units(self):
         return [u for u in self.units if u.alive and not u.in_reserve]

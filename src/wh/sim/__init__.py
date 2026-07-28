@@ -46,6 +46,21 @@ WHAT WORKS + IS VALIDATED
     BSData cut (Deffkoptas, Aeldari Warlocks, Crisis Sunforge, Neurolictor omitted) are hand-built
     REPRESENTATIVE and flagged inline. Corrected tapestry stands: Shield Host = Martial Mastery (NO
     Assemblage — that's Auric Champions); Blade Champion 3 Vaultswords profiles; Shadowfield one-and-done.
+  * stratagems.py — CP ECONOMY + a stratagem layer driven by the REAL detachment strats (db.strats) + the
+    universal 11e core. Each army builds its pool from its chosen detachment(s) — Better Thing 2 runs TWO
+    (Shield Host + Tharanatoi Hammerblow), so it gets BOTH sets + core — every strat is classified from its
+    DB effect text into a modelled combat effect (defensive -1-to-be-hit / FNP-vs-mortals, offensive
+    re-roll/Lethal-Sustained/+1A, Counter-Offensive fight-first), and a CP-spend policy fires the best
+    affordable one at each trigger. +1 CP/round both sides. Plus once-per-game unit abilities (Custodian
+    Wardens' 4+++). Positional/mission strats (Vigilance Eternal, Rapid Ingress) are pooled but flagged
+    UNMODELLED. Toggle stratagems.ENABLED. IMPACT: grindy matchups +5-8% (Necrons 36->41, Orks 17->25) —
+    Custodes durability strats + Wardens 4+++ close toward the real ~47%; fast/tempo unchanged (you can't
+    strat out of being kited). Coverage: ME gets its full detachments; opponents get core only (their
+    detachment strats are a documented follow-up — needs each opponent roster's slug+detachment wired).
+  * gauntlet.py — the repeatable "analyze this list" runner: `python -m wh.sim.gauntlet custodes` prints
+    (1) TAPESTRY (army/detachment rules + strats from the DB + the rule->engine mapping per unit), (2)
+    PER-MATCHUP win% + weakness findings vs all 10 opponents (grindy to-the-point, fast directional), (3)
+    optimize's tested swap + detachment recommendations. Writes reports/gauntlet-<me>.md.
   * optimize.py — THE RECOMMENDATIONS ENGINE (2nd payoff piece). `python -m wh.sim.optimize <me> <opp>`
     finds the list's dead weight (via analyze), swaps each for a gap-filling candidate, RE-SIMULATES, and
     reports the TESTED win% delta of each swap ("swap Custodian Guard -> Caladius Grav-tank for +36%").
