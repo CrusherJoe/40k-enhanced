@@ -7,11 +7,19 @@ are DERIVED from the simulated win% so the docs never drift from the sim.
 
   PYTHONPATH=tools:src python3 tools/gen_custodes.py
 """
+import os
 import custodes_data as D
 import mc_custodes_sim as S
 import gen_pdf as G
+import doc_versions as V
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Alignment
 
 GAMES, SEED = 6000, 11
+HEAD = PatternFill("solid", fgColor="4A3D10")
+HFONT = Font(bold=True, color="FFFFFF")
+WRAP = Alignment(wrap_text=True, vertical="top")
+VF = {"fav": "C6EFCE", "even": "FFEB9C", "unfav": "FFC7CE"}
 
 
 def _rows():
@@ -46,48 +54,85 @@ def _disp_name(key):
             "disruption": "Disruption"}.get(key, key)
 
 
-def analysis(rows, weighted):
-    S1 = G.section("Overview", G.p(f"<b>{G.esc(D.LIST_NAME)}</b>")
-                   + G.p(G.esc(D.DETACHMENTS)) + G.p(G.esc(D.DISPOSITION))
-                   + G.p(f'<span class="small">{G.esc(D.LIST_TOTAL)}</span>')
-                   + G.p(G.esc(D.IDENTITY)))
+def _banner(ws, text, ncol, size=11):
+    r = ws.max_row + (1 if ws.max_row > 1 else 0) + 1
+    c = ws.cell(r, 1, text); c.font = Font(bold=True, size=size, color="FFFFFF"); c.fill = HEAD; c.alignment = WRAP
+    ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=ncol)
+    return r
 
-    finding = G.finding(
-        f"<b>Prevalence-weighted win rate: ~{weighted}%.</b> The rebuilt sim scores the REAL 11E "
-        f"missions (your Force Disposition is <b>Priority Assets</b>; each opponent's is taken from real "
-        f"list data, and the matrix hands each side a different mission). The key finding: the biggest "
-        f"weighted drag is <b>not</b> the Orks body-hole but the <b>Purge-the-Foe matchups (Emperor's "
-        f"Children, T'au)</b> — the matrix forces Priority-Assets Custodes onto <b>Vital Link</b> (needs "
-        f"you to hold centre + steal the enemy home; hard for a non-castle-cracker) while those armies "
-        f"get the strong <b>Destroyer's Wrath</b>. You out-<i>fight</i> them but lose the <i>mission</i>.")
 
-    hdr = ["Faction / archetype", "Opp disposition", "You play", "Win%", "Read"]
-    trows, cls = [], []
+def _row(ws, cells, fills=None, bold=False):
+    r = ws.max_row + 1
+    for i, val in enumerate(cells, 1):
+        c = ws.cell(r, i, val); c.alignment = WRAP
+        if bold:
+            c.font = Font(bold=True)
+        if fills and i - 1 < len(fills) and fills[i - 1]:
+            c.fill = PatternFill("solid", fgColor=fills[i - 1])
+    return r
+
+
+def analysis_xlsx(rows, weighted):
+    """The Analysis is an Excel workbook (Matchups / Bands / Tapestry / Profiles)."""
+    wb = Workbook()
+    ws = wb.active; ws.title = "Matchups"
+    ws.column_dimensions["A"].width = 30
+    for col in "BCDE":
+        ws.column_dimensions[col].width = 20
+    ws.column_dimensions["E"].width = 16
+
+    _banner(ws, D.LIST_NAME, 5, 12)
+    _row(ws, [D.DETACHMENTS]); ws.merge_cells(start_row=ws.max_row, start_column=1, end_row=ws.max_row, end_column=5)
+    _row(ws, [D.DISPOSITION]); ws.merge_cells(start_row=ws.max_row, start_column=1, end_row=ws.max_row, end_column=5)
+    _row(ws, [f"Prevalence-weighted win rate: ~{weighted}%.  FINDING: the biggest drag is the Purge-the-Foe "
+              "matchups (Emperor's Children, T'au) — the matrix forces Priority-Assets Custodes onto Vital "
+              "Link (hard) while they get Destroyer's Wrath. You out-fight them but lose the mission."], bold=True)
+    ws.merge_cells(start_row=ws.max_row, start_column=1, end_row=ws.max_row, end_column=5)
+
+    _banner(ws, "Matchups (Custodes = Priority Assets)", 5)
+    _row(ws, ["Faction / archetype", "Opp disposition", "You play", "Win%", "Read"], bold=True)
+    for cell in ws[ws.max_row]:
+        cell.fill = HEAD; cell.font = HFONT
     for r in rows:
         m = r["m"]
-        trows.append([f'{G.esc(m["faction"])} — <span class="small">{G.esc(m["archetype"])}</span>',
-                      _disp_name(r["disp"]), G.esc(r["mission"]), f'{r["win"]}%', r["verdict"]])
-        cls.append(["", "", "", r["cls"], r["cls"]])
-    S2 = G.section("Matchups (Custodes = Priority Assets)", G.table(hdr, trows, cls))
+        fill = VF.get(r["cls"])
+        _row(ws, [f'{m["faction"]} — {m["archetype"]}', _disp_name(r["disp"]), r["mission"],
+                  f'{r["win"]}%', r["verdict"]], fills=[None, None, None, fill, fill])
 
-    # bands derived from live win%
-    fav = [r for r in rows if r["win"] >= 55]
-    even = [r for r in rows if 45 <= r["win"] < 55]
-    unf = [r for r in rows if r["win"] < 45]
-    def names(g): return ", ".join(f'{x["m"]["faction"]} ({x["win"]}%)' for x in g) or "—"
-    S3 = G.section("Bands", G.p(f'<span class="fav">Favourable:</span> {G.esc(names(fav))}')
-                   + G.p(f'<span class="even">Coin-flip / even:</span> {G.esc(names(even))}')
-                   + G.p(f'<span class="unfav">Unfavourable:</span> {G.esc(names(unf))}'))
+    # Bands sheet
+    wb2 = wb.create_sheet("Bands")
+    wb2.column_dimensions["A"].width = 22; wb2.column_dimensions["B"].width = 70
+    _banner(wb2, "Bands (from simulated win%)", 2)
+    for label, lo, hi, key in [("Favourable", 55, 101, "fav"), ("Coin-flip / even", 45, 55, "even"),
+                               ("Unfavourable", 0, 45, "unfav")]:
+        g = [x for x in rows if lo <= x["win"] < hi]
+        _row(wb2, [label, ", ".join(f'{x["m"]["faction"]} ({x["win"]}%)' for x in g) or "—"],
+             fills=[VF[key], None], bold=True)
 
-    tap = "".join(G.sub(n, G.p(G.esc(t))) for n, t in D.RULES)
-    S4 = G.section("The rules tapestry (DB/pack-verified)", tap)
+    # Tapestry sheet
+    wt = wb.create_sheet("Tapestry")
+    wt.column_dimensions["A"].width = 42; wt.column_dimensions["B"].width = 95
+    _banner(wt, "The rules tapestry (DB/pack-verified)", 2)
+    _row(wt, ["Rule", "What it does"], bold=True)
+    for n, t in D.RULES:
+        _row(wt, [n, t])
 
-    prof = G.table(["Piece", "Profile / rule", "Note"],
-                   [[G.esc(a), G.esc(b), G.esc(c)] for a, b, c in D.VERIFIED_PROFILES])
-    S5 = G.section("Verified profiles & buffs", prof)
+    # Profiles sheet
+    wp = wb.create_sheet("Profiles")
+    for col, w in [("A", 42), ("B", 40), ("C", 55)]:
+        wp.column_dimensions[col].width = w
+    _banner(wp, "Verified profiles & buffs", 3)
+    _row(wp, ["Piece", "Profile / rule", "Note"], bold=True)
+    for a, b, c in D.VERIFIED_PROFILES:
+        _row(wp, [a, b, c])
+    _banner(wp, "Bottom line", 3)
+    _row(wp, [D.RECORD_NOTE]); wp.merge_cells(start_row=wp.max_row, start_column=1, end_row=wp.max_row, end_column=3)
 
-    S6 = G.section("Bottom line", G.p(G.esc(D.RECORD_NOTE)))
-    return [S1, finding, S2, S3, S4, S5, S6]
+    V.stamp_xlsx(wb, "custodes-analysis")
+    out = V.out_path("custodes-analysis")
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    wb.save(out)
+    return out
 
 
 def runbook(rows, weighted):
@@ -115,10 +160,8 @@ def runbook(rows, weighted):
 
 def main():
     rows, weighted = _rows()
-    a = G.render("custodes-analysis", analysis(rows, weighted))
-    print("wrote", a)
-    b = G.render("custodes-runbook", runbook(rows, weighted))
-    print("wrote", b)
+    print("wrote", analysis_xlsx(rows, weighted))            # Analysis = Excel
+    print("wrote", G.render("custodes-runbook", runbook(rows, weighted)))  # Runbook = PDF
 
 
 if __name__ == "__main__":

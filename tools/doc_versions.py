@@ -58,7 +58,7 @@ DOCS = {
                             "docs/reports/black-templars/BT-Templar-Bastion-Analysis.xlsx"),
     "custodes-analysis": ("1.0", "2026-07-28", "Adeptus Custodes — 'The Better Thing 2' Analysis",
                           "Meta Slayers list; real-mission sim (Priority Assets disposition); Purge-the-Foe is the bogey, ~52%.",
-                          "docs/reports/custodes/Custodes-Better-Thing-2-Analysis.pdf"),
+                          "docs/reports/custodes/Custodes-Better-Thing-2-Analysis.xlsx"),
     "custodes-runbook": ("1.0", "2026-07-28", "Adeptus Custodes — 'The Better Thing 2' Runbook",
                          "Full tapestry + per-matchup battle plans keyed to the forced mission; PDF-only pipeline.",
                          "docs/reports/custodes/Custodes-Better-Thing-2-Runbook.pdf"),

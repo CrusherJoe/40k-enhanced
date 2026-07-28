@@ -17,9 +17,8 @@ stand-in. Each game:
 
   PYTHONPATH=tools:src python3 tools/mc_custodes_sim.py [--games 2000] [--seed 11]
 """
-import argparse, random
-import db, missions
-from missions import Caps
+import argparse
+import db, sim_game
 from wh.mathhammer import expected_damage as ed, Target, Mods
 
 CU = "adeptus-custodes"
@@ -64,7 +63,7 @@ ARCH = {
   "Emperor's Children (Coterie/Frenzied)": dict(prev=9, disp="purge-the-foe", verdict="FAV",
      cust=dict(action=.85, kill=.82, ctrl=2.5, home=.55), opp=dict(action=.70, kill=.45, ctrl=1.9, home=.30),
      tgt=T(11, "3+", 18, "5+", 1, ("VEHICLE", "MONSTER"))),
-  "Orks (Green Tide horde)": dict(prev=8, disp="take-and-hold", verdict="UNFAV",
+  "Orks (Green Tide horde)": dict(prev=8, disp="take-and-hold", verdict="UNFAV", horde=True,
      cust=dict(action=.75, kill=.85, ctrl=1.8, home=.0), opp=dict(action=.74, kill=.50, ctrl=3.0, home=.25),
      tgt=T(5, "6+", 1, None, 20, ("INFANTRY",))),
   "AdMech (Rad-Zone gunline)": dict(prev=6, disp="priority-assets", verdict="FAV",
@@ -95,63 +94,19 @@ ARCH = {
 }
 
 
-def control_curve(peak, going_first):
-    """Per-round expected control [_, r1..r5] with a first-turn nudge + per-game noise."""
-    shape = [0.60, 0.95, 1.0, 1.0, 0.90]
-    nudge = (0.12 if going_first else -0.06)
-    out = [0.0]
-    for i, s in enumerate(shape):
-        early = nudge if i < 2 else 0.0
-        out.append(max(0.0, peak * s + early + random.gauss(0, 0.28)))
-    return out
+MY_DISP = "priority-assets"                     # Custodes list disposition (stated on the list)
 
 
-def secondary_vp(base, matchup_factor):
-    return max(0.0, min(40.0, random.gauss(base * matchup_factor, 6.5)))
-
-
-def play_side(mission_name, caps_dict, going_first, sec_base, sec_factor):
-    control = control_curve(caps_dict["ctrl"], going_first)
-    # jitter the action/kill probabilities a touch per game
-    caps = Caps(action_p=min(1, max(0, caps_dict["action"] + random.gauss(0, .05))),
-                kill_p=min(1, max(0, caps_dict["kill"] + random.gauss(0, .05))),
-                control=control, enemy_home_p=caps_dict["home"])
-    return missions.score_primary(mission_name, caps, going_first) + secondary_vp(sec_base, sec_factor)
-
-
-def run_game(spec):
-    # first-turn roll-off (reroll ties)
-    while True:
-        cu_roll, op_roll = random.randint(1, 6), random.randint(1, 6)
-        if cu_roll != op_roll:
-            break
-    cu_first = cu_roll > op_roll
-    cu_mission, op_mission = missions.pairing("priority-assets", spec["disp"])
-    horde = spec["disp"] == "take-and-hold" and spec["opp"]["ctrl"] >= 2.9
-    # secondaries: near-equal base; Custodes' fast pieces + Sisters give a slight edge, cut vs a horde
-    # that denies actions/board.
-    cu = play_side(cu_mission, spec["cust"], cu_first, 30, 0.84 if horde else 1.02)
-    op = play_side(op_mission, spec["opp"], not cu_first, 30, 1.0)
-    # GAME SWING: dice / terrain / deployment / secondary-draw / skill variance. 40k is very swingy
-    # (a game routinely moves 15+ VP on these), so this dominates the noise and keeps even a strong
-    # matchup near ~65-70%, not a blowout. Calibrated so FAV~60-70, COIN~48-55, UNFAV~36-40.
-    return (cu - op) + random.gauss(0, 15.0), cu_mission, op_mission
-
-
-def results(games, seed):
-    random.seed(seed)
+def results(games=6000, seed=11):
+    """Thin adapter over the shared sim_game engine: adds the melee-hammer display column + Custodes'
+    slight secondary edge (fast pieces + Sisters). Field names preserved for gen_custodes."""
+    base = sim_game.results(ARCH, MY_DISP, games, seed, cust_sec=1.02)
     out = []
-    for name, spec in ARCH.items():
+    for x, (name, spec) in zip(base, ARCH.items()):
         tgt = spec["tgt"]
-        h = hammer(tgt)
-        wins = cu_tot = op_tot = 0
-        cm = om = ""
-        for _ in range(games):
-            d, cm, om = run_game(spec)
-            wins += d > 0
-        out.append(dict(name=name, prev=spec["prev"], verdict=spec["verdict"], disp=spec["disp"],
-                        cu_mission=cm, op_mission=om, hammer=round(h), tgtW=tgt.wounds,
-                        win=round(100 * wins / games)))
+        out.append(dict(name=x["name"], prev=x["prev"], verdict=spec["verdict"], disp=x["disp"],
+                        cu_mission=x["mission"], op_mission=x["opp_mission"],
+                        hammer=round(hammer(tgt)), tgtW=tgt.wounds, win=x["win"]))
     return out
 
 
