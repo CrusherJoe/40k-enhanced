@@ -83,7 +83,7 @@ def resolve_attacks(weapon, n_models, target, mods, rng, half_range=False, charg
     lethal = "LETHAL HITS" in kw
     auto_w = n_crit_h if lethal else 0
     rolling = total_hits - (n_crit_h if lethal else 0)
-    need = wound_needed(int(weapon["S"]), target.toughness)
+    need = wound_needed(int(weapon["S"]) + getattr(mods, "str_bonus", 0), target.toughness)
     wmod = mods.wound + (1 if ("LANCE" in kw and charged) else 0)
     crit_w_need = mods.crit_wound
     for k, v in kw.items():

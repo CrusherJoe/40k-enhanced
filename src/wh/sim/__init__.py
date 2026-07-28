@@ -1,9 +1,26 @@
 """wh.sim — a positional, turn-by-turn 40k game simulator (the real thing, not caps math).
 
 ============================================================================================
-STATUS (2026-07-28): FORK-2 + THE TWO PAYOFF PIECES (optimizer + full meta field) COMPLETE.
-Validated for durable/grindy list-vs-list matchups; directional (correct ranking, not to-the-%)
-for fast/tempo/alpha matchups. 10 opponent rosters now cover the meta; recommendations engine live.
+STATUS (2026-07-28): *** THE SIM DOES NOT PREDICT MATCHUP WIN RATES — proven, read this first. ***
+After an exhaustive calibration effort (positional AI, adaptive strategy, combat rework, per-faction
+tapestry fidelity, calibration transforms), the definitive result: the sim's Custodes-vs-X win% has
+PEARSON CORRELATION ~0.0 with the real listhammer win rates (gauntlet.ANCHORS). REAL Custodes are a
+BALANCED army — every matchup lands 39-58% (mean ~48). The sim SPREADS them 7-96% (BA 96, Aeldari 8,
+Tau 8) with no signal. Therefore:
+  * The per-matchup win% is NOT usable as a prediction. Do not quote it; do not calibrate to it.
+  * WHY (proven, not guessed): real 40k win rates are compressed into a narrow band by variance /
+    missions / secondaries / deployment / skill; the sim amplifies raw combat edges instead (a melee
+    edge -> 96%, a shooting disadvantage -> 8%) AND mis-directs matchups (Aeldari: sim 8, real 58).
+  * A calibration transform CAN'T fix it (corr ~0 => the only fit is a constant ~45, erasing all what-if
+    discrimination). Per-faction tapestry CAN'T fix it either: Blood Angels with their FULL real rules
+    (Red Thirst +2 S on charge, Sanguinary-Priest 5+++, Black Rage, Death Visions fight-on-death) still
+    leaves Custodes at 96% (real 50) — Custodes are structurally too dominant in the sim's elite combat,
+    and you can't nerf them without wrecking the matchups where they read too LOW. Whole-model limit.
+STILL USEFUL (mechanistic, not predictive): the TAPESTRY report (rules from the DB), STRATAGEM/CP
+modelling, WEAKNESS diagnostics (what you can't remove / your dead weight), and the optimizer's
+WITHIN-matchup RELATIVE deltas where the mechanism is sound (add anti-tank vs a monster wall). The grindy
+matchups (Necrons 47, Orks 40) happen to sit near the balanced band. Everything else: ranking + findings,
+NEVER the %. Measure any change with `python -m wh.sim.harness`.
 ============================================================================================
 
 PURPOSE: score how a list does into KNOWN-WINNING opponent lists (post-Dataslate what-ifs that have no

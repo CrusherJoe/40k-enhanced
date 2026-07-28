@@ -107,7 +107,8 @@ def _deploy(army):
 # NO Assemblage of Might (that is the Auric Champions detachment). Blade Champion has 3 Vaultswords
 # profiles (Behemor/Hurricanis/Victus) -> modelled as one melee 'slot' with 3 options, best-picked.
 CRIT5 = {"crit_hit": 5}   # Martial Mastery (Shield Host); applies to melee of Martial Ka'tah models
-CUSTODES_WARD = "5+"      # calibration knob: shoot-ward level vs premium (high-AP) shooting (see harness)
+CUSTODES_WARD = None      # OFF: the shoot-ward was a calibration fudge for the matchup-win% target, which
+#                           is PROVEN unreachable (sim vs real win% correlation ~0). Combat stays pure.
 
 
 def custodes():
@@ -437,23 +438,27 @@ def space_marines():
 
 
 # ---------------- BLOOD ANGELS: 5-0 Liberator Assault Group (Take and Hold) — jump-pack alpha --------
-# Death Company + Sanguinary Guard + jump captains: a melee alpha that deep-strikes and charges. Red
-# Thirst (+1 to wound on the charge) + Oath -> melee units re-roll hits & wound better when charging.
+# Death Company + Sanguinary Guard + jump captains: a melee alpha that deep-strikes and charges. REAL
+# tapestry (from data/bsdata/rules/blood-angels): The Red Thirst = +2 STRENGTH on the charge (army-wide
+# Astartes) — DC power fists S8->S10 wound Custodes T6 on 2+; Sanguinary Priests give a 5+++ bubble (DC/
+# Sang Guard sticky); Death Company Black Rage = re-roll melee hits. This is what makes BA trade EVENLY
+# with Custodes instead of getting swept (the old model had a weak +1-wound reroll and no stickiness).
 def blood_angels():
     S = "blood-angels"
-    RED = dict(OATH, reroll_wounds="ones", reroll_charge=True)
+    RED = dict(OATH, str_charge=2, reroll_charge=True)               # Red Thirst: +2 S on the charge
+    DC = dict(RED, reroll_hits="fails", fight_on_death=True)         # + Black Rage + Death Visions (strike on death)
     u = [
-        _mkf(S, "Lemartes", 1, role="character", threat=2.2, abilities=RED, deep_strike=True, in_reserve=True),
-        _mkf(S, "Death Company Marines with Jump Packs", 10, role="fast", threat=2.4, abilities=RED,
+        _mkf(S, "Lemartes", 1, role="character", threat=2.2, abilities=DC, fnp="5+", deep_strike=True, in_reserve=True),
+        _mkf(S, "Death Company Marines with Jump Packs", 10, role="fast", threat=2.6, abilities=DC, fnp="5+",
            deep_strike=True, in_reserve=True),
-        _mkf(S, "Death Company Marines with Jump Packs", 10, role="fast", threat=2.4, abilities=RED,
+        _mkf(S, "Death Company Marines with Jump Packs", 10, role="fast", threat=2.6, abilities=DC, fnp="5+",
            deep_strike=True, in_reserve=True),
-        _mkf(S, "Death Company Captain with Jump Pack", 1, role="character", threat=2.2, abilities=RED,
+        _mkf(S, "Death Company Captain with Jump Pack", 1, role="character", threat=2.2, abilities=DC, fnp="5+",
            deep_strike=True, in_reserve=True),
         _mkf(S, "Captain with Jump Pack", 1, role="character", threat=2.0, abilities=RED,
            deep_strike=True, in_reserve=True),
-        _mkf(S, "Sanguinary Guard", 3, role="line", threat=2.2, abilities=RED, deep_strike=True, in_reserve=True),
-        _mkf(S, "Sanguinary Guard", 3, role="line", threat=2.2, abilities=RED, deep_strike=True, in_reserve=True),
+        _mkf(S, "Sanguinary Guard", 3, role="line", threat=2.2, abilities=RED, fnp="5+", deep_strike=True, in_reserve=True),
+        _mkf(S, "Sanguinary Guard", 3, role="line", threat=2.2, abilities=RED, fnp="5+", deep_strike=True, in_reserve=True),
         _mkf(S, "Chaplain", 1, role="character", threat=1.4),
         _mkf(S, "Sanguinary Priest", 1, role="character", threat=1.2),
         _mkf(S, "Sanguinary Priest", 1, role="character", threat=1.2),

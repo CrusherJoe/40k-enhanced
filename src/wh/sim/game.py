@@ -29,8 +29,10 @@ def _mods_for(unit, target, charged=False):
         m.reroll_hits = ab["reroll_hits"]
     if ab.get("reroll_wounds"):
         m.reroll_wounds = ab["reroll_wounds"]
-    if ab.get("lance_charge") and charged:
-        pass
+    if ab.get("str_charge") and charged:
+        m.str_bonus = ab["str_charge"]                    # e.g. Blood Angels' Red Thirst: +2 S on the charge
+    if ab.get("wound_charge") and charged:
+        m.wound += ab["wound_charge"]
     return m
 
 
@@ -208,6 +210,11 @@ def _charge_and_fight(me, opp, rng, board):
         for w in _best_weapon_set(u, t, melee=True):
             inst, mort = resolve_attacks(w, u.models, t, mods, rng, charged=u.charged)
             apply_damage(t, inst, mort, rng)
+        # DEATH VISIONS OF SANGUINIUS: a Death Company model destroyed in melee strikes back (mortals to
+        # its killer) — BA stickiness that makes them trade even while dying.
+        if not t.alive and t.abilities.get("fight_on_death") and not getattr(t, "_dv_used", False):
+            t._dv_used = True
+            apply_damage(u, np.zeros(0, dtype=int), int(rng.integers(1, 4)), rng)
         u.fought = True
 
 
