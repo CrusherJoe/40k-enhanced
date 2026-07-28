@@ -25,6 +25,11 @@ from . import run, analyze, optimize, rosters
 OPPONENTS = ["necrons", "orks", "space_marines", "thousand_sons", "tyranids",
              "drukhari", "aeldari", "tau", "dark_angels", "blood_angels"]
 GRINDY = {"necrons", "orks", "space_marines", "thousand_sons", "tyranids"}   # win% trustworthy
+# REAL Custodes win% per opponent, from listhammer (data/meta/custodes-matchups.json, HAR 2026-07-28).
+# The calibration anchors. games= is the sample size (small samples like Aeldari/Drukhari are noisier).
+ANCHORS = {"necrons": (47.2, 91), "orks": (39.8, 83), "thousand_sons": (38.6, 57), "tyranids": (52.0, 75),
+           "drukhari": (54.5, 22), "aeldari": (58.3, 24), "tau": (39.5, 86), "dark_angels": (40.0, 40),
+           "blood_angels": (50.0, 56)}
 # me-roster -> (bsdata slug, detachment name) for the tapestry pull
 ME_META = {"custodes": ("adeptus-custodes", "Shield Host")}
 
@@ -112,11 +117,13 @@ def _findings(d):
 
 def matchup_report(rows):
     L = ["# 2. PER-MATCHUP ANALYSIS", "",
-         f"  {'OPPONENT':16} {'WIN%':>5}  {'READ':11} {'BOARD R1→R5':14} CANT-REMOVE / YOUR DEAD WEIGHT"]
+         f"  {'OPPONENT':16} {'WIN%':>5} {'REAL':>6} {'GAP':>5}  {'BOARD R1→R5':14} CANT-REMOVE / YOUR DEAD WEIGHT"]
     for r in rows:
-        read = "to-the-pt" if r["grindy"] else "DIRECTIONAL"
         board = " ".join(f"{v:.1f}" for v in r["find"]["ctrl"])
-        L.append(f"  {r['opp']:16} {r['win']:>4}%  {read:11} {board:14} "
+        a = ANCHORS.get(r["opp"])
+        real = f"{a[0]:.0f}%" if a else "-"
+        gap = f"{r['win']-a[0]:+.0f}" if a else "-"
+        L.append(f"  {r['opp']:16} {r['win']:>4}% {real:>6} {gap:>5}  {board:14} "
                  f"can't:{r['find']['cant']}  | dead:{r['find']['dead']}")
     grindy = [r for r in rows if r["grindy"]]
     avg = round(sum(r["win"] for r in grindy) / max(1, len(grindy)))

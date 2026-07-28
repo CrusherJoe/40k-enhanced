@@ -33,12 +33,33 @@ Not a rules-fidelity upgrade (combat/missions are fine). No new datasheets. Not 
 (`tools/sim_game.py`). Not a per-matchup hardcode — the selector must *generalise* from army profiles so
 new opponents work without bespoke tuning.
 
-## 4. Hard dependency (blocker): real anchors
+## 4. Anchors — RESOLVED (listhammer, data/meta/custodes-matchups.json, in gauntlet.ANCHORS)
 
-**Calibration is blind without real per-matchup win rates.** Today we have only Tau 39.5%, Necrons 47%,
-and Drukhari ~54.6% (aggregate, pre-Dataslate). Tuning to one anchor (Tau) overfits — that's exactly how
-Phase 2 broke everything. **Need ≥6–8 real Custodes-vs-X win rates from listhammer before P4.** This is
-the single most important input; the user has the dashboard access. Without it, do NOT start calibration.
+Real Custodes win% per opponent (sim values as of Phase-1 LoS, 150g):
+
+| opponent | REAL | games | sim | gap | cluster |
+|---|---|---|---|---|---|
+| Aeldari | 58.3 | 24 | 3 | −55 | tempo (small sample) |
+| Drukhari | 54.5 | 22 | 16 | −39 | shooting-durability (small sample) |
+| Tyranids | 52.0 | 75 | 20 | −32 | shooting-durability |
+| Blood Angels | 50.0 | 56 | 91 | +41 | melee-grind (OVER) |
+| Necrons | 47.2 | 91 | 49 | +2 | calibrated ✓ |
+| Dark Angels | 40.0 | 40 | 3 | −37 | tempo/kiting |
+| Orks | 39.8 | 83 | 44 | +4 | calibrated ✓ |
+| T'au | 39.5 | 86 | 9 | −31 | shooting-durability |
+| Thousand Sons | 38.6 | 57 | 53 | +14 | melee-grind (OVER) |
+
+**This reframes the whole effort. It's NOT just "fast matchups" — the sim has THREE distinct
+miscalibration modes**, proven by testing a shooting-only Custodes FNP against every anchor:
+1. **Shooting-durability (under)** — Drukhari/Tyranids/Tau. A shooting-FNP helps *partially* (Tau 9→19,
+   Tyranids 20→28) but not to the anchor. Custodes get shot off the board.
+2. **Tempo/kiting (under)** — Aeldari/Dark Angels. The shooting-FNP **barely moves them** (both ~8); their
+   loss is being out-*scored* by a faster army, not tabled. This is the pure adaptive-strategy target.
+3. **Melee-grind (OVER)** — Blood Angels/Thousand Sons. The melee-centric sim over-rewards Custodes.
+Any single lever that helps one cluster harms another (the shooting-FNP inflated Orks 44→70, TSons 53→61).
+So the fix genuinely needs the per-opponent policy layer below — AND a durability/melee-balance pass, not
+just positioning. Caveat: Aeldari/Drukhari anchors are small samples (22–24 games) — wider error bars;
+weight the large-sample anchors (Necrons 91, Tau 86, Orks 83, Tyranids 75) more in calibration.
 
 ## 5. Architecture
 
