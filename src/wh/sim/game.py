@@ -77,9 +77,11 @@ def _shoot(me, opp, board, rng):
     for u in shooters:
         if u.fell_back or not u.ranged:
             continue
-        # GEOMETRIC LoS: you can only shoot targets you can SEE — Event-Companion ruins block the line.
-        # (this is what limits the turn-1 alpha across the board and makes screening real.)
-        targets = [t for t in opp.on_board() if board.has_los(u.pos, t.pos)]
+        # GEOMETRIC LoS: you can only shoot targets you can SEE — Event-Companion ruins block the line,
+        # AND intervening unit blobs SCREEN (a unit behind a screen can't be shot). This is the spatial
+        # fix for shooting: you must clear the screen before the valuable unit behind it.
+        blobs = me.on_board() + opp.on_board()
+        targets = [t for t in opp.on_board() if board.has_los(u.pos, t.pos) and not _screened(u, t, blobs)]
         if not targets:
             continue
         best = None; best_val = 0
@@ -96,6 +98,22 @@ def _shoot(me, opp, board, rng):
             apply_damage(best, inst, mort, rng)
             if not best.alive:
                 break
+
+
+def _screened(shooter, t, blobs):
+    """A non-tall target is SCREENED (can't be shot) if another unit's footprint sits on the line
+    between shooter and target. Tall models (vehicles/monsters) are seen over infantry screens."""
+    if t.tall:
+        return False
+    from .entities import seg_hits_circle
+    d_st = dist(shooter.pos, t.pos)
+    for u in blobs:
+        if u is shooter or u is t or u.tall or not u.alive:
+            continue
+        if dist(shooter.pos, u.pos) < d_st and dist(t.pos, u.pos) < d_st \
+                and seg_hits_circle(shooter.pos, t.pos, u.pos, u.radius):
+            return True
+    return False
 
 
 def _pick(u, t, pool, focus, best_val, best, melee=False):
@@ -141,26 +159,26 @@ def _charge_and_fight(me, opp, rng, board):
     # fight: chargers first (active player), then alternate — simplified: active chargers, then all others
     fighters = [u for u in me.on_board() if u.melee] + [u for u in opp.on_board() if u.melee]
     fighters.sort(key=lambda u: (not u.charged))
-    piled = {}                                                # base-contact limit: you can only physically
-    def cap(t):                                               # surround a BIG single model with ~2-3 units;
-        return t.wounds >= 8 and t.models == 1                # multi-model squads can be focused freely.
+    # ENGAGEMENT PERIMETER: a unit can only be attacked by as many enemy units as physically fit around
+    # its footprint — you CANNOT pile the whole army onto one brick. Cap ~ its perimeter / an attacker's
+    # frontage. This is the core screening/spatial fix for the focus-fire flaw.
+    piled = {}
+    def maxatk(t):
+        return max(2, min(6, int(round(t.radius * 1.8))))
     for u in fighters:
         if not u.alive or not u.melee:
             continue
         foe = me if u.side == "B" else opp
-        engaged = [t for t in foe.on_board() if dist(u.pos, t.pos) <= 3.0]
+        engaged = [t for t in foe.on_board() if dist(u.pos, t.pos) <= 3.0 + t.radius]
         if not engaged:
             continue
         def mval(t):
             dmg = _expected_vs(u, t, melee=True)
             frac = min(1.0, dmg / max(1.0, t.total_w))
-            v = t.threat * (0.25 + 0.75 * frac) * (0.5 + 0.5 * frac)   # reward wiping the unit
-            return v / (1 + 2.0 * piled.get(id(t), 0)) if cap(t) else v
-        t = max(engaged, key=mval)
-        if cap(t) and piled.get(id(t), 0) >= 3:
-            alt = [x for x in engaged if not (cap(x) and piled.get(id(x), 0) >= 3)]
-            if alt:
-                t = max(alt, key=mval)
+            return t.threat * (0.25 + 0.75 * frac) * (0.5 + 0.5 * frac)   # reward wiping the unit
+        avail = [t for t in engaged if piled.get(id(t), 0) < maxatk(t)]
+        pool = avail or engaged                              # if all full, extras still swing (edge case)
+        t = max(pool, key=mval)
         piled[id(t)] = piled.get(id(t), 0) + 1
         for w in _best_weapon_set(u, t, melee=True):
             inst, mort = resolve_attacks(w, u.models, t, _mods_for(u, t, charged=u.charged), rng, charged=u.charged)

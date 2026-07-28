@@ -60,6 +60,19 @@ class Unit:
         return self.models > 0
 
     @property
+    def radius(self):
+        """Footprint radius (inches) — a unit is a BLOB, not a point. More models = bigger footprint;
+        vehicles/monsters are chunky. Used for screening (LoS/charge blocking) + engagement perimeter."""
+        if any(k in self.keywords for k in ("VEHICLE", "MONSTER", "TITANIC")):
+            return 2.4
+        return min(3.6, 0.8 + 0.5 * (self.models ** 0.5))
+
+    @property
+    def tall(self):
+        """Tall models (vehicles/monsters) are visible over an infantry screen and can see over it."""
+        return any(k in self.keywords for k in ("VEHICLE", "MONSTER", "TITANIC"))
+
+    @property
     def total_w(self):
         return max(0, (self.models - 1) * self.wounds + self.cur_w)
 
@@ -120,6 +133,18 @@ def _seg_hits_rect(p1, p2, r):
             if t0 > t1:
                 return False
     return True
+
+
+def seg_hits_circle(p1, p2, c, r):
+    """Does segment p1->p2 pass within radius r of point c? (model-screening + charge-path checks)."""
+    ax, ay = p1; bx, by = p2; cx, cy = c
+    dx, dy = bx - ax, by - ay
+    L2 = dx * dx + dy * dy
+    if L2 == 0:
+        return math.hypot(cx - ax, cy - ay) <= r
+    t = max(0.0, min(1.0, ((cx - ax) * dx + (cy - ay) * dy) / L2))
+    px, py = ax + t * dx, ay + t * dy
+    return math.hypot(cx - px, cy - py) <= r
 
 
 class Board:
