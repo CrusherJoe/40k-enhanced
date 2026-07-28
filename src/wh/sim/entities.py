@@ -181,9 +181,12 @@ class Board:
         return held, None
 
     def update_cover(self, armies):
+        # Benefit of Cover: any non-vehicle/monster unit within a ruin's footprint gets it. (Gating on the
+        # "INFANTRY" keyword dropped cover for units the BSData cut doesn't tag — named characters, Sisters —
+        # so most of a Custodes army was taking fire in the open. `not u.tall` = infantry/mounted/etc.)
         for army in armies:
             for u in army.on_board():
-                u.in_cover = self.near_terrain(u.pos) and "INFANTRY" in u.keywords
+                u.in_cover = self.near_terrain(u.pos) and not u.tall
 
     def home_objective(self, side):
         # the objective nearest that side's home row

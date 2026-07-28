@@ -325,13 +325,17 @@ def _step_toward(u, dest, move):
 def _arrive_reserves(me, board, rnd, rng):
     if rnd < 2:
         return
-    for u in me.units:
-        if u.in_reserve and u.alive:
-            # deep strike near a contested/enemy objective, 9"+ from enemies (assumed placeable)
-            oi = board.home_objective("B" if me.side == "A" else "A")
-            ox, oy = board.objectives[oi]
-            u.pos = (ox, oy + (9 if me.side == "A" else -9))
-            u.in_reserve = False
+    # STAGGER the drop: real deep-strike/reserves aren't a single all-at-once alpha (you also can't start
+    # with most of your army in reserve). Bring ~half at R2, the rest from R3 — so a durable army can
+    # weather the alpha across two turns instead of being deleted in one, and can trade into what lands.
+    res = [u for u in me.units if u.in_reserve and u.alive]
+    k = len(res) if rnd >= 3 else (len(res) + 1) // 2
+    for u in res[:k]:
+        # deep strike near a contested/enemy objective, 9"+ from enemies (assumed placeable)
+        oi = board.home_objective("B" if me.side == "A" else "A")
+        ox, oy = board.objectives[oi]
+        u.pos = (ox, oy + (9 if me.side == "A" else -9))
+        u.in_reserve = False
 
 
 def _command(me, rnd):

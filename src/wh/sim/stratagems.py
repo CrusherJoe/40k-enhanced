@@ -20,16 +20,18 @@ import re, collections
 
 ENABLED = True
 
-# Universal 11e core stratagems (available to every army), with modelled effects.
+# Universal 11e CORE stratagems (available to every army). NB: 11e has NO universal defensive shooting
+# strat — "Gone to Ground" is a core RULE (13.11.01, a battle-shock consequence), not a spendable strat
+# (that was 10th ed's "Go to Ground"). Defensive strats are DETACHMENT-specific. So the only modelled
+# core effects are Command Re-roll (a save re-roll ~ light incoming mitigation) and Counter-Offensive.
 CORE = [
-    dict(name="Go to Ground", cp=1, role="def", phase="shoot", hit=-1, req="INFANTRY"),
-    dict(name="Smokescreen", cp=1, role="def", phase="shoot", hit=-1),
+    dict(name="Command Re-roll", cp=1, role="def", phase="any", save_help=True),
     dict(name="Counter-Offensive", cp=2, role="def", phase="fight", fight_first=True),
-    dict(name="Command Re-roll", cp=1, role="def", phase="shoot", fnp=None, save_help=True),
-    dict(name="Grenade", cp=1, role="off", phase="shoot", unmodelled=True),
+    dict(name="Epic Challenge", cp=1, role="off", phase="fight", unmodelled=True),
+    dict(name="Fire Overwatch", cp=1, role="def", phase="charge", unmodelled=True),
     dict(name="Rapid Ingress", cp=1, role="util", phase="move", unmodelled=True),
     dict(name="Heroic Intervention", cp=1, role="util", phase="charge", unmodelled=True),
-    dict(name="Fire Overwatch", cp=1, role="def", phase="charge", unmodelled=True),
+    dict(name="Grenade", cp=1, role="off", phase="shoot", unmodelled=True),
     dict(name="Insane Bravery", cp=1, role="util", phase="command", unmodelled=True),
     dict(name="Tank Shock", cp=1, role="off", phase="charge", unmodelled=True),
 ]
@@ -161,8 +163,10 @@ def on_attack(atk_army, def_army, attacker, target, mods, phase):
                 continue
             _spend(defender, e)
             break
-    # -- OFFENSIVE: the attacker's army spends to secure a kill on a high-value target --
-    if target.threat >= 2.4:
+    # -- OFFENSIVE: the attacker's army spends to secure a kill on a high-value target. Gated on keeping a
+    #    reserve (>=2 CP) so the durable player doesn't blow its whole pool on offence and then have nothing
+    #    to SURVIVE the enemy's shooting turn — surviving is the elite army's edge. --
+    if target.threat >= 2.6 and attacker_army.cp >= 2:
         for e in sorted(attacker_army._strat["pool"], key=lambda x: x.get("cp", 0)):
             if e["role"] != "off" or e["phase"] not in (phase, "any"):
                 continue

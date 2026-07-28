@@ -62,6 +62,31 @@ def _embark(transport, passengers, open_topped=True, move=14):
     return transport
 
 
+# each opponent's real detachment(s) (from its archive list) -> its stratagem pool. Keys verified against
+# db.strats. Several are dual-detachment just like the Custodes list. Blood Angels' "Liberator Assault
+# Group" isn't in this strats cut, so BA falls back to core-only (flagged).
+_OPP_DETS = {
+    "necrons":     ("necrons",       ("Awakened Dynasty",)),
+    "orks":        ("orks",          ("Kult of Speed", "More Dakka!")),
+    "space-marines": ("space-marines", ("Forgefather’s Seekers",)),
+    "thousand-sons": ("thousand-sons", ("Rubricae Phalanx",)),
+    "tyranids":    ("tyranids",      ("Talons of the Norn Queen", "Assimilation Swarm")),
+    "drukhari":    ("drukhari",      ("Skysplinter Assault", "Exhibition of Slaughter")),
+    "aeldari":     ("aeldari",       ("Armoured Warhost", "Warhost")),
+    "tau-empire":  ("tau-empire",    ("Retaliation Cadre", "Advanced Acquisition Cadre")),
+    "dark-angels": ("dark-angels",   ("Darkflight Pursuit", "Company of Hunters")),
+    "blood-angels": ("blood-angels", ()),   # Liberator Assault Group not in strats cut -> core only
+}
+
+
+def _strats(army, slug):
+    """Attach the army's faction slug + real detachment stratagem pool (for wh.sim.stratagems)."""
+    meta = _OPP_DETS.get(slug)
+    if meta:
+        army.slug, army.strat_dets = meta[0], meta[1]
+    return army
+
+
 def _deploy(army):
     """Spread units along the home row; forward units a bit up. Reserves stay off-board."""
     y = HOME_Y[army.side]
@@ -145,7 +170,7 @@ def necrons():
         _reanim(mk(S, "Flayed Ones", 5, role="line", threat=0.8, deep_strike=True, in_reserve=True), 0.4),
         mk(S, "Ophydian Destroyers", 3, role="line", threat=1.4, deep_strike=True, in_reserve=True),
     ]
-    return _deploy(Army("Necrons — Awakened Dynasty (5-0 triple-C'tan)", "take-and-hold", "B", u, cp=3))
+    return _deploy(_strats(Army("Necrons — Awakened Dynasty (5-0 triple-C'tan)", "take-and-hold", "B", u, cp=3), S))
 
 
 def _reanim(u, frac):
@@ -185,7 +210,7 @@ def drukhari():
         kab, hand,
         inc1, inc2, wy1, wy2,     # embarked
     ]
-    return _deploy(Army("Drukhari — Skysplinter/EoS (6-0)", "reconnaissance", "B", u, cp=3))
+    return _deploy(_strats(Army("Drukhari — Skysplinter/EoS (6-0)", "reconnaissance", "B", u, cp=3), S))
 
 
 def _shadowfield(u):
@@ -304,7 +329,7 @@ def orks():
         mk(S, "Deffkoptas", 3, role="fast", threat=1.4),
         mk(S, "Deffkoptas", 3, role="fast", threat=1.4),
     ]
-    return _deploy(Army("Orks — Kult of Speed / More Dakka (5-0)", "disruption", "B", u, cp=3))
+    return _deploy(_strats(Army("Orks — Kult of Speed / More Dakka (5-0)", "disruption", "B", u, cp=3), S))
 
 
 def _orks_gretchin(_tag):
@@ -341,7 +366,7 @@ def aeldari():
         mk(S, "Warlock Skyrunners", 1, role="fast", threat=1.1, abilities=FATE),
         mk(S, "Warlock Skyrunners", 1, role="fast", threat=1.1, abilities=FATE),
     ]
-    return _deploy(Army("Aeldari — Spirit Conclave / Armoured Warhost (5-1)", "reconnaissance", "B", u, cp=3))
+    return _deploy(_strats(Army("Aeldari — Spirit Conclave / Armoured Warhost (5-1)", "reconnaissance", "B", u, cp=3), S))
 
 
 # ---------------- TYRANIDS: 5-0 Talons of the Norn Queen | Assimilation Swarm (Take and Hold) --------
@@ -371,7 +396,7 @@ def tyranids():
         mk(S, "Pyrovores", 2, role="line", threat=0.8),
         mk(S, "Pyrovores", 1, role="line", threat=0.8),
     ]
-    return _deploy(Army("Tyranids — Talons of the Norn Queen (5-0)", "take-and-hold", "B", u, cp=3))
+    return _deploy(_strats(Army("Tyranids — Talons of the Norn Queen (5-0)", "take-and-hold", "B", u, cp=3), S))
 
 
 # ---------------- SPACE MARINES: 6-0 Librarius Conclave / Salamanders (Priority Assets) --------------
@@ -402,7 +427,7 @@ def space_marines():
         mk(S, "Land Raider Redeemer", 1, role="anti_tank", threat=3.4, abilities=OATH),
         term,
     ]
-    return _deploy(Army("Space Marines — Librarius Conclave / Salamanders (6-0)", "priority-assets", "B", u, cp=3))
+    return _deploy(_strats(Army("Space Marines — Librarius Conclave / Salamanders (6-0)", "priority-assets", "B", u, cp=3), S))
 
 
 # ---------------- BLOOD ANGELS: 5-0 Liberator Assault Group (Take and Hold) — jump-pack alpha --------
@@ -436,7 +461,7 @@ def blood_angels():
         _mkf(S, "Vanguard Veteran Squad with Jump Packs", 4, role="fast", threat=1.2, abilities=RED,
            deep_strike=True, in_reserve=True),
     ]
-    return _deploy(Army("Blood Angels — Liberator Assault Group (5-0)", "take-and-hold", "B", u, cp=3))
+    return _deploy(_strats(Army("Blood Angels — Liberator Assault Group (5-0)", "take-and-hold", "B", u, cp=3), S))
 
 
 # ---------------- T'AU: 4-0-1 Retaliation Cadre (Reconnaissance) — deep-strike battlesuit alpha -------
@@ -444,15 +469,18 @@ def blood_angels():
 # suits + Commanders bomb in; Broadsides are the T6 W8 railgun firebase; Pathfinders mark; Kroot screen.
 def tau():
     S = "tau-empire"
-    GUIDED = dict(reroll_hits="ones", reroll_wounds="ones")   # For the Greater Good / markerlight (diffused)
+    GUIDED = dict(reroll_hits="ones")   # For the Greater Good ~ reroll 1s to hit (a guided unit, diffused).
+    # NOTE: full reroll hits+wounds on every suit every turn was the same over-model as Oath — dropped.
     def suit(name, models, threat, reserve=True):
         return mk(S, name, models, role="anti_tank", threat=threat, abilities=GUIDED,
                   deep_strike=reserve, in_reserve=reserve)
     u = [
         mk(S, "Commander Farsight", 1, role="character", threat=2.6, abilities=GUIDED, deep_strike=True, in_reserve=True),
-        mk(S, "Commander in Enforcer Battlesuit", 3, role="character", threat=2.2, abilities=GUIDED, deep_strike=True, in_reserve=True),
-        mk(S, "Commander in Coldstar Battlesuit", 2, role="character", threat=2.0, abilities=GUIDED, deep_strike=True, in_reserve=True),
-        mk(S, "Commander in Coldstar Battlesuit", 4, role="character", threat=2.0, abilities=GUIDED, deep_strike=True, in_reserve=True),
+        # Tau Commanders are SINGLE-model units (the 3/2/4 were a stale buggy model-count parse — the
+        # points confirm 1 each). Building 9 commander-models was ~3x the real premium output.
+        mk(S, "Commander in Enforcer Battlesuit", 1, role="character", threat=2.2, abilities=GUIDED, deep_strike=True, in_reserve=True),
+        mk(S, "Commander in Coldstar Battlesuit", 1, role="character", threat=2.0, abilities=GUIDED, deep_strike=True, in_reserve=True),
+        mk(S, "Commander in Coldstar Battlesuit", 1, role="character", threat=2.0, abilities=GUIDED, deep_strike=True, in_reserve=True),
         suit("Crisis Fireknife Battlesuits", 2, 2.2),
         suit("Crisis Starscythe Battlesuits", 2, 1.8),
         # Crisis Sunforge (melta anti-tank) — now from the real datasheet (data/bsdata/_overrides/tau-empire.json)
@@ -471,7 +499,7 @@ def tau():
         mk(S, "Kroot Carnivores", 10, role="screen", threat=0.5),
         mk(S, "Vespid Stingwings", 4, role="fast", threat=0.7),
     ]
-    return _deploy(Army("T'au — Retaliation Cadre (4-0-1)", "reconnaissance", "B", u, cp=3))
+    return _deploy(_strats(Army("T'au — Retaliation Cadre (4-0-1)", "reconnaissance", "B", u, cp=3), S))
 
 
 # ---------------- DARK ANGELS: 6-0 Darkflight Pursuit / Company of Hunters (Reconnaissance) ----------
@@ -499,7 +527,7 @@ def dark_angels():
         _mkf(S, "Scout Squad", 4, role="action", threat=0.7),
         _mkf(S, "Scout Squad", 4, role="action", threat=0.7),
     ]
-    return _deploy(Army("Dark Angels — Darkflight Pursuit / Company of Hunters (6-0)", "reconnaissance", "B", u, cp=3))
+    return _deploy(_strats(Army("Dark Angels — Darkflight Pursuit / Company of Hunters (6-0)", "reconnaissance", "B", u, cp=3), S))
 
 
 # ---------------- THOUSAND SONS: 5-0 Rubricae Phalanx (Take and Hold) — durable psychic grind --------
@@ -531,4 +559,4 @@ def thousand_sons():
         mk(S, "Tzaangor Enlightened", 2, role="fast", threat=0.9),
         mk(S, "Tzaangors", 9, role="screen", threat=0.6),
     ]
-    return _deploy(Army("Thousand Sons — Rubricae Phalanx (5-0)", "take-and-hold", "B", u, cp=3))
+    return _deploy(_strats(Army("Thousand Sons — Rubricae Phalanx (5-0)", "take-and-hold", "B", u, cp=3), S))
