@@ -1,0 +1,215 @@
+{
+ "_source": "listhammer.info/factions/adeptus-custodes (HAR, human-fetched 2026-07-28)",
+ "overall": {
+  "wins": 638,
+  "losses": 627,
+  "total": 1265,
+  "winRate": "50.43"
+ },
+ "matchups": [
+  {
+   "opponentFaction": "Adepta Sororitas",
+   "wins": 14,
+   "losses": 16,
+   "total": 30,
+   "winRate": "46.67"
+  },
+  {
+   "opponentFaction": "Adeptus Mechanicus",
+   "wins": 14,
+   "losses": 22,
+   "total": 36,
+   "winRate": "38.89"
+  },
+  {
+   "opponentFaction": "Aeldari",
+   "wins": 14,
+   "losses": 10,
+   "total": 24,
+   "winRate": "58.33"
+  },
+  {
+   "opponentFaction": "Astra Militarum",
+   "wins": 32,
+   "losses": 15,
+   "total": 47,
+   "winRate": "68.09"
+  },
+  {
+   "opponentFaction": "Black Templars",
+   "wins": 5,
+   "losses": 7,
+   "total": 12,
+   "winRate": "41.67"
+  },
+  {
+   "opponentFaction": "Blood Angels",
+   "wins": 28,
+   "losses": 28,
+   "total": 56,
+   "winRate": "50.00"
+  },
+  {
+   "opponentFaction": "Chaos Daemons",
+   "wins": 34,
+   "losses": 20,
+   "total": 54,
+   "winRate": "62.96"
+  },
+  {
+   "opponentFaction": "Chaos Knights",
+   "wins": 21,
+   "losses": 13,
+   "total": 34,
+   "winRate": "61.76"
+  },
+  {
+   "opponentFaction": "Chaos Space Marines",
+   "wins": 36,
+   "losses": 26,
+   "total": 62,
+   "winRate": "58.06"
+  },
+  {
+   "opponentFaction": "Dark Angels",
+   "wins": 16,
+   "losses": 24,
+   "total": 40,
+   "winRate": "40.00"
+  },
+  {
+   "opponentFaction": "Death Guard",
+   "wins": 20,
+   "losses": 14,
+   "total": 34,
+   "winRate": "58.82"
+  },
+  {
+   "opponentFaction": "Deathwatch",
+   "wins": 2,
+   "losses": 3,
+   "total": 5,
+   "winRate": "40.00"
+  },
+  {
+   "opponentFaction": "Drukhari",
+   "wins": 12,
+   "losses": 10,
+   "total": 22,
+   "winRate": "54.55"
+  },
+  {
+   "opponentFaction": "Emperor's Children",
+   "wins": 28,
+   "losses": 31,
+   "total": 59,
+   "winRate": "47.46"
+  },
+  {
+   "opponentFaction": "Genestealer Cult",
+   "wins": 9,
+   "losses": 7,
+   "total": 16,
+   "winRate": "56.25"
+  },
+  {
+   "opponentFaction": "Grey Knights",
+   "wins": 17,
+   "losses": 21,
+   "total": 38,
+   "winRate": "44.74"
+  },
+  {
+   "opponentFaction": "Imperial Agents",
+   "wins": 1,
+   "losses": 0,
+   "total": 1,
+   "winRate": "100.00"
+  },
+  {
+   "opponentFaction": "Imperial Knights",
+   "wins": 36,
+   "losses": 23,
+   "total": 59,
+   "winRate": "61.02"
+  },
+  {
+   "opponentFaction": "Leagues of Votann",
+   "wins": 29,
+   "losses": 22,
+   "total": 51,
+   "winRate": "56.86"
+  },
+  {
+   "opponentFaction": "Necrons",
+   "wins": 43,
+   "losses": 48,
+   "total": 91,
+   "winRate": "47.25"
+  },
+  {
+   "opponentFaction": "Orks",
+   "wins": 33,
+   "losses": 50,
+   "total": 83,
+   "winRate": "39.76"
+  },
+  {
+   "opponentFaction": "Space Marines (Astartes)",
+   "wins": 61,
+   "losses": 59,
+   "total": 120,
+   "winRate": "50.83"
+  },
+  {
+   "opponentFaction": "Space Wolves",
+   "wins": 19,
+   "losses": 18,
+   "total": 37,
+   "winRate": "51.35"
+  },
+  {
+   "opponentFaction": "T'au Empire",
+   "wins": 34,
+   "losses": 52,
+   "total": 86,
+   "winRate": "39.53"
+  },
+  {
+   "opponentFaction": "Thousand Sons",
+   "wins": 22,
+   "losses": 35,
+   "total": 57,
+   "winRate": "38.60"
+  },
+  {
+   "opponentFaction": "Tyranids",
+   "wins": 39,
+   "losses": 36,
+   "total": 75,
+   "winRate": "52.00"
+  },
+  {
+   "opponentFaction": "World Eaters",
+   "wins": 19,
+   "losses": 17,
+   "total": 36,
+   "winRate": "52.78"
+  }
+ ],
+ "dispositions_distribution": {
+  "Disruption": 15,
+  "Priority Assets": 15,
+  "Purge the Foe": 166,
+  "Reconnaissance": 20,
+  "Take and Hold": 36
+ },
+ "detachments_distribution": {
+  "Lions of the Emperor": 40,
+  "Might of the Moritoi": 32,
+  "Silent Hunters": 8,
+  "Shield Host": 18,
+  "Tharanatoi Hammerblow": 12,
+  "Talons of the Emperor": 3
+ }
+}
