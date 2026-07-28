@@ -96,15 +96,53 @@ class Army:
         return [u for u in self.units if u.alive and not u.in_reserve and u.transport is None]
 
 
+# Terrain comes from the Warhammer Event Companion layouts (wh.sim.terrain), keyed per disposition
+# matchup — a ruin is a rect (x0, y0, x1, y1). LoS is geometric (segment vs ruin).
+def _inside(p, r, pad=0.0):
+    return (r[0] - pad) <= p[0] <= (r[2] + pad) and (r[1] - pad) <= p[1] <= (r[3] + pad)
+
+
+def _seg_hits_rect(p1, p2, r):
+    """Does the segment p1->p2 pass through rectangle r=(x0,y0,x1,y1)? (Liang-Barsky clip.)"""
+    x0, y0, x1, y1 = r
+    dx, dy = p2[0] - p1[0], p2[1] - p1[1]
+    t0, t1 = 0.0, 1.0
+    for p, q in ((-dx, p1[0] - x0), (dx, x1 - p1[0]), (-dy, p1[1] - y0), (dy, y1 - p1[1])):
+        if p == 0:
+            if q < 0:
+                return False
+        else:
+            t = q / p
+            if p < 0:
+                t0 = max(t0, t)
+            else:
+                t1 = min(t1, t)
+            if t0 > t1:
+                return False
+    return True
+
+
 class Board:
-    """Objective control + cover. Objectives are held by whichever side has more OC within 3\"."""
-    def __init__(self):
+    """Objectives + real terrain (LoS-blocking ruins + cover). Objectives held by higher OC within 3\"."""
+    def __init__(self, ruins=None):
+        from . import terrain
         self.objectives = list(OBJECTIVES)
-        # a couple of central terrain pieces that grant cover to INFANTRY near them
-        self.terrain = [(22, 30, 7.0), (14, 30, 4.0), (30, 30, 4.0)]   # (x, y, radius)
+        self.ruins = list(ruins) if ruins is not None else terrain._base_layout()
+
+    def has_los(self, p1, p2):
+        """Line of sight p1->p2 unless a ruin blocks it. A ruin does NOT block if a shooter/target is
+        effectively inside/at its edge (models on ruins can see out / be seen)."""
+        for r in self.ruins:
+            if _inside(p1, r, 1.5) or _inside(p2, r, 1.5):
+                continue
+            if _seg_hits_rect(p1, p2, r):
+                return False
+        return True
+
+    def near_terrain(self, pos):
+        return any(_inside(pos, r, 2.0) for r in self.ruins)
 
     def control(self, armies):
-        """Return {objective_index: side or None} by effective OC within 3\"."""
         held = {}
         for i, o in enumerate(self.objectives):
             oc = {"A": 0, "B": 0}
@@ -118,8 +156,7 @@ class Board:
     def update_cover(self, armies):
         for army in armies:
             for u in army.on_board():
-                u.in_cover = any(dist(u.pos, (tx, ty)) <= tr + 1 for tx, ty, tr in self.terrain) \
-                    and "INFANTRY" in u.keywords
+                u.in_cover = self.near_terrain(u.pos) and "INFANTRY" in u.keywords
 
     def home_objective(self, side):
         # the objective nearest that side's home row

@@ -9,6 +9,7 @@ import numpy as np
 from .entities import Board
 from .mission import pairing
 from .game import play_game
+from . import terrain
 
 
 def simulate(build_me, build_opp, games=2000, seed=11, verbose=False):
@@ -20,7 +21,7 @@ def simulate(build_me, build_opp, games=2000, seed=11, verbose=False):
     my_mission, opp_mission = pairing(a0.disposition, b0.disposition)
     for g in range(games):
         me = build_me(); opp = build_opp()
-        board = Board()
+        board = Board(terrain.layout_for(me.disposition, opp.disposition))
         first = "A" if rng.random() < 0.5 else "B"
         vp = play_game(me, opp, my_mission, opp_mission, board, rng, first=first)
         my_vp += vp["A"]; opp_vp += vp["B"]

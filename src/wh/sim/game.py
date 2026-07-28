@@ -66,7 +66,7 @@ def _in_range(unit, target, w):
     return dist(unit.pos, target.pos) <= w["rng"]
 
 
-def _shoot(me, opp, rng):
+def _shoot(me, opp, board, rng):
     focus = {}                                               # units already shooting each target
     shooters = list(me.on_board())
     for t in me.on_board():                                  # open-topped transports let cargo shoot
@@ -77,40 +77,25 @@ def _shoot(me, opp, rng):
     for u in shooters:
         if u.fell_back or not u.ranged:
             continue
-        targets = [t for t in opp.on_board()]
+        # GEOMETRIC LoS: you can only shoot targets you can SEE — Event-Companion ruins block the line.
+        # (this is what limits the turn-1 alpha across the board and makes screening real.)
+        targets = [t for t in opp.on_board() if board.has_los(u.pos, t.pos)]
         if not targets:
             continue
-        # focus: most useful damage (threat-weighted, prefer finishing) BUT spread fire — heavily
-        # penalise a target already engaged by 2+ of my units (you can't dogpile one model in real 40k).
         best = None; best_val = 0
         for t in targets:
             best_val, best = _pick(u, t, u.ranged, focus, best_val, best)
         if best is None:
             continue
         focus[id(best)] = focus.get(id(best), 0) + 1
-        los = _los(u, best, rng)                             # terrain/LoS: far shots on a real board
-        if los <= 0:                                         # (esp. the T1 alpha) often have no line of sight
-            continue
         for w in _best_weapon_set(u, best, melee=False):
             if not _in_range(u, best, w):
                 continue
             half = dist(u.pos, best.pos) <= w["rng"] / 2
-            shooters = max(1, int(round(u.models * los)))    # only models with LoS fire
-            inst, mort = resolve_attacks(w, shooters, best, _mods_for(u, best), rng, half_range=half)
+            inst, mort = resolve_attacks(w, u.models, best, _mods_for(u, best), rng, half_range=half)
             apply_damage(best, inst, mort, rng)
             if not best.alive:
                 break
-
-
-def _los(u, t, rng):
-    """Fraction of the shooting unit that has line of sight to the target. Real boards are ~30% blocking
-    terrain: across the table (turn-1 alpha range) most guns are screened; LoS improves as armies close
-    and as the target sits in the open. A little per-unit noise. Returns 0..1."""
-    d = dist(u.pos, t.pos)
-    base = 0.30 + 0.65 * max(0.0, 1 - d / 40.0)              # ~0.3 at 40"+, ~0.95 at contact
-    if t.in_cover:
-        base -= 0.1
-    return max(0.0, min(1.0, base + rng.normal(0, 0.12)))
 
 
 def _pick(u, t, pool, focus, best_val, best, melee=False):
@@ -315,7 +300,7 @@ def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
             board.update_cover(armies)
             _move(me, opp, board, rnd, rng)
             alive_before = sum(1 for u in opp.units if u.alive)
-            _shoot(me, opp, rng)
+            _shoot(me, opp, board, rng)
             _charge_and_fight(me, opp, rng, board)
             _reanimate(me, rng)
             _comeback(opp, rng)                              # C'tan necrodermis return after being attacked
