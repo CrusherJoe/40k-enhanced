@@ -166,11 +166,21 @@ def _charge_and_fight(me, opp, rng, board):
         if roll >= need:
             u.pos = (t.pos[0], t.pos[1] + (0.5 if u.side == "A" else -0.5))
             u.charged = True
-    # fight: chargers first (active player), then alternate — simplified: active chargers, then all others.
-    # COUNTER-OFFENSIVE: the defender (opp) may spend 2CP to fight FIRST with one unit vs a scary charge.
+    # fight: 11e ALTERNATING activation. Fights-First units (chargers) go first, then the rest — and within
+    # each group the two players ALTERNATE (active first). This is the key combat-fidelity fix: the old
+    # sequential order let the active player's chargers wipe the defenders BEFORE they could swing back
+    # (a big charger over-advantage — it inflated Custodes' elite-melee matchups). Now a defender trades
+    # back between the attacker's activations, so elite mirrors (Blood Angels) grind instead of a one-sided
+    # sweep. COUNTER-OFFENSIVE: the defender (opp) may spend 2CP to fight FIRST with one unit.
     co_unit = stratagems.wants_counter_offensive(opp, [c for c in me.on_board() if c.charged], board)
-    fighters = [u for u in me.on_board() if u.melee] + [u for u in opp.on_board() if u.melee]
-    fighters.sort(key=lambda u: (u is not co_unit, not u.charged))
+    mine = [u for u in me.on_board() if u.melee]
+    theirs = [u for u in opp.on_board() if u.melee]
+    ff_me = [u for u in mine if u.charged]
+    ff_them = [u for u in theirs if u is co_unit]
+    rest_me = [u for u in mine if not u.charged]
+    rest_them = [u for u in theirs if u is not co_unit]
+    fighters = ([co_unit] if co_unit else []) + _interleave(ff_me, [t for t in ff_them if t is not co_unit]) \
+        + _interleave(rest_me, rest_them)
     # ENGAGEMENT PERIMETER: a unit can only be attacked by as many enemy units as physically fit around
     # its footprint — you CANNOT pile the whole army onto one brick. Cap ~ its perimeter / an attacker's
     # frontage. This is the core screening/spatial fix for the focus-fire flaw.
@@ -199,6 +209,17 @@ def _charge_and_fight(me, opp, rng, board):
             inst, mort = resolve_attacks(w, u.models, t, mods, rng, charged=u.charged)
             apply_damage(t, inst, mort, rng)
         u.fought = True
+
+
+def _interleave(a, b):
+    """Alternate two ordered lists (active player first): a0, b0, a1, b1, ..."""
+    out = []
+    for i in range(max(len(a), len(b))):
+        if i < len(a):
+            out.append(a[i])
+        if i < len(b):
+            out.append(b[i])
+    return out
 
 
 _ZONE = {"A": (2, 17), "B": (43, 58)}       # deployment zones (24" no-man's-land), 11e-style
