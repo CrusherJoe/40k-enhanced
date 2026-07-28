@@ -87,7 +87,18 @@ WHAT WORKS + IS VALIDATED
     C'tan as unkillable vs the real Necron list).
   * run.py — Monte-Carlo (~25ms/game); builds the board from the disposition matchup's layout.
 
-CALIBRATION vs REAL LISTS (was inverted 95%/74% before the rebuild). Custodes "Better Thing 2" win%:
+CALIBRATION (2026-07-28, with the CP/stratagem layer + cover/commander/alpha fixes). Custodes win%:
+  * GRINDY band well-calibrated: Thousand Sons ~50, Orks ~47, Necrons ~40 (real 47), Space Marines ~40.
+  * FAST/EVASIVE badly UNDER-rated — the open calibration gap: Tau ~7 (real listhammer 39.5!), Aeldari ~1,
+    Dark Angels ~3, Drukhari ~13, Tyranids ~16. Real bugs were fixed here (cover was silently gated off for
+    non-INFANTRY-tagged units; Tau commanders were built 3x; the reserve alpha + GUIDED were over-modelled)
+    and it moved Tau 0->7 — but the RESIDUAL is systemic: slow Custodes can't catch/kill fast fliers/bikes,
+    so they get out-shot and out-tempo'd to near-zero when the real matchup is ~40%. Do NOT trust the fast %.
+  * Blood Angels ~98 (deep-strike melee alpha under-read — same boundary, opposite sign).
+  THE PRIORITY: fast-matchup calibration to the Tau 39.5 anchor (catch-the-fliers / threaten-backline AI +
+  Custodes objective-holding). The grindy numbers and the tooling (gauntlet/optimize/strats) are solid.
+
+(historical) CALIBRATION vs REAL LISTS (was inverted 95%/74% before the rebuild). Custodes "Better Thing 2" win%:
   * GRINDY/DURABLE matchups land in a believable band ("close, Custodes slight underdog"):
       Necrons (5-0 C'tan) ~36%  |  Orks (5-0) ~40%  |  Space Marines (6-0) ~38%  |  Thousand Sons ~40%.
     (Necrons moved 46% -> 36% when the keyword fix gave the C'tan their correct MONSTER footprint — you
