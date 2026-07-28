@@ -455,6 +455,8 @@ def tau():
         # Crisis Sunforge (melta anti-tank) — now from the real datasheet (data/bsdata/_overrides/tau-empire.json)
         suit("Crisis Sunforge Battlesuits", 3, 2.4),
         suit("Crisis Sunforge Battlesuits", 3, 2.4),
+        # The Twin Lance — Epic Hero anti-tank suit duo (real datasheet), deep strikes + scouts
+        mk(S, "The Twin Lance", 2, role="anti_tank", threat=3.4, abilities=GUIDED, deep_strike=True, in_reserve=True),
         mk(S, "Broadside Battlesuits", 2, role="anti_tank", threat=2.6, abilities=GUIDED),  # railgun firebase
         mk(S, "Broadside Battlesuits", 1, role="anti_tank", threat=2.6, abilities=GUIDED),
         mk(S, "Stealth Battlesuits", 4, role="action", threat=1.0),

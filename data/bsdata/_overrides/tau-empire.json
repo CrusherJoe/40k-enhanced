@@ -14,5 +14,24 @@
       {"name": "Battlesuit fists", "A": 3, "WS": "5+", "S": 5, "AP": 0, "D": 1}
     ],
     "keywords": ["Vehicle", "Walker", "Fly", "Battlesuit", "Crisis", "Sunforge", "T'au Empire"]
+  },
+  {
+    "name": "The Twin Lance",
+    "source": "manual-override (user-supplied datasheet; absent from bsdata-wh40k-11e cut 2026-07). Epic Hero duo Ri'Lantar (fusion) + Ri'Locai (ion). This engine fires one profile per model, so the two different main guns share slot 'main' (best-picked) ~= the unit's real 1 fusion + 1 ion anti-tank output; shared drones/pistols/bursts get their own slots.",
+    "stats": {"M": 10, "T": 6, "Sv": "2+", "W": 8, "Ld": "6+", "OC": 2},
+    "invuln": "4+",
+    "invuln_ranged_only": false,
+    "unit_size": 2,
+    "ranged": [
+      {"name": "Fusion eliminator", "range": 18, "A": 2, "BS": "2+", "S": 10, "AP": -4, "D": "D6", "abilities": ["MELTA 2"], "slot": "main"},
+      {"name": "Ion scattercannon", "range": 18, "A": 4, "BS": "2+", "S": 7, "AP": -2, "D": 2, "abilities": ["RAPID FIRE 2"], "slot": "main"},
+      {"name": "Twin pulse blaster (drone)", "range": 10, "A": 2, "BS": "5+", "S": 6, "AP": -1, "D": 1, "abilities": ["ASSAULT", "TWIN-LINKED"], "slot": "drone"},
+      {"name": "XV pulse pistol", "range": 12, "A": 2, "BS": "2+", "S": 6, "AP": -1, "D": 2, "abilities": ["RAPID FIRE 2"], "slot": "pistol"},
+      {"name": "Shardstorm burst system", "range": 18, "A": "D6", "BS": "2+", "S": 5, "AP": 0, "D": 1, "abilities": ["PISTOL"], "slot": "burst"}
+    ],
+    "melee": [
+      {"name": "XV pulse pistol (melee)", "A": 4, "WS": "3+", "S": 6, "AP": -1, "D": 2}
+    ],
+    "keywords": ["Epic Hero", "Vehicle", "Walker", "Fly", "Character", "Battlesuit", "T'au Empire", "The Twin Lance"]
   }
 ]
