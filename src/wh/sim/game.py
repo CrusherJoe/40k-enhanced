@@ -189,14 +189,32 @@ def _charge_and_fight(me, opp, rng, board):
 _ZONE = {"A": (2, 17), "B": (43, 58)}       # deployment zones (24" no-man's-land), 11e-style
 
 
+def _durable(u):
+    """A unit tough enough that it does NOT fear the enemy alpha — it pushes forward and trades."""
+    sv = 3 if str(u.save)[0] in "23" else (int(str(u.save)[0]) if str(u.save)[0].isdigit() else 6)
+    return sv <= 3 and (u.invuln is not None or u.wounds >= 3 or u.tall)
+
+
+def _threat_type(enemy):
+    """Is the enemy a SHOOTING alpha (long guns) or an ASSAULT alpha (fast melee)? Drives how I deploy."""
+    shoot = sum(u.models * max((w.get("rng", 0) for w in u.ranged), default=0) for u in enemy.units if u.ranged)
+    melee = sum(u.models * (u.move + 12) for u in enemy.units if u.melee and not u.ranged) + \
+        sum(u.move for u in enemy.units if u.role == "fast")
+    return "shooting" if shoot >= melee * 8 else "assault"
+
+
 def deploy(A, B, board):
-    """Threat-range-aware deployment (how good players actually deploy): durable/valuable units sit
-    JUST OUTSIDE the enemy's turn-1 melee reach (move + ~6 advance + ~9 charge), so a first-turn charge
-    only happens on a positioning error / Infiltrators — not by default. Aggressors push to their zone
-    front to threaten; deep-strikers stay in reserve; embarked units ride their transport."""
+    """Threat-TYPE-aware deployment (how good players actually deploy):
+      * vs an ASSAULT alpha: fragile units sit just outside the enemy's turn-1 melee reach (a first-turn
+        charge then only happens on a mistake / Infiltrators).
+      * vs a SHOOTING alpha: hiding back is pointless (the guns reach anyway) and wastes your own range,
+        so DURABLE units push forward INTO COVER to trade + close; only fragile units shelter.
+    Durable/aggressive units push forward regardless (they want to engage); deep-strikers stay in
+    reserve; embarked units ride their transport."""
     for army, enemy in ((A, B), (B, A)):
         my_lo, my_hi = _ZONE[army.side]
         toward = 1 if army.side == "A" else -1
+        ttype = _threat_type(enemy)
         ereach = max((u.move for u in enemy.units if u.melee and not u.in_reserve), default=6) + 15
         efront = _ZONE[enemy.side][0] if enemy.side == "B" else _ZONE[enemy.side][1]
         safe = min(my_hi, max(my_lo, efront - toward * (ereach + 3)))
@@ -206,7 +224,15 @@ def deploy(A, B, board):
         for i, u in enumerate(on):
             x = 6 + (BOARD_W - 12) * (i / max(1, n - 1)) if n > 1 else BOARD_W / 2
             aggressive = _melee_primary(u, enemy) and u.role in ("fast", "line", "anti_tank")
-            u.pos = (x, front if aggressive else safe)
+            # push forward if aggressive, or durable, or the enemy is a gunline you can't hide from
+            push = aggressive or _durable(u) or (ttype == "shooting" and u.wounds >= 2)
+            y = front if push else safe
+            # seek COVER when pushing into a gunline: nudge x toward the nearest ruin on that rank
+            if push and ttype == "shooting":
+                ruins = sorted(board.ruins, key=lambda r: abs((r[0] + r[2]) / 2 - x) + abs((r[1] + r[3]) / 2 - y))
+                if ruins:
+                    x = 0.5 * x + 0.5 * (ruins[0][0] + ruins[0][2]) / 2
+            u.pos = (x, y)
             u.side = army.side
     for army in (A, B):
         for u in army.units:
