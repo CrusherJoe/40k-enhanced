@@ -1,8 +1,9 @@
 """wh.sim — a positional, turn-by-turn 40k game simulator (the real thing, not caps math).
 
 ============================================================================================
-STATUS (2026-07-28): FORK-2 REBUILD COMPLETE + BANKED. Validated for durable/melee list-vs-list
-matchups; directional (with the correct disposition ranking) for fast/tempo matchups.
+STATUS (2026-07-28): FORK-2 + THE TWO PAYOFF PIECES (optimizer + full meta field) COMPLETE.
+Validated for durable/grindy list-vs-list matchups; directional (correct ranking, not to-the-%)
+for fast/tempo/alpha matchups. 10 opponent rosters now cover the meta; recommendations engine live.
 ============================================================================================
 
 PURPOSE: score how a list does into KNOWN-WINNING opponent lists (post-Dataslate what-ifs that have no
@@ -32,22 +33,47 @@ WHAT WORKS + IS VALIDATED
         TRANSPORTS (embark/disembark, open-topped firing), C'tan necrodermis return + reanimation.
   * mission.py — real primary VP from ACTUAL board state (data/missions.yaml + matrix.yaml), asymmetric
     per the Force-Disposition matrix, 15/round + 45 caps, + a state-driven secondary.
-  * rosters.py — units from real DB profiles; REAL winning lists loaded from the listhammer archive:
-    necrons() = the 5-0 triple-C'tan Awakened Dynasty (Paul Withington); drukhari() = the 6-0
-    Skysplinter/EoS (Ridvan Martinez). Corrected tapestry: Shield Host = Martial Mastery (NO Assemblage
-    — that's Auric Champions); Blade Champion 3 Vaultswords profiles; Shadowfield = one-and-done 2++.
+  * rosters.py — units from real DB profiles; keywords normalised to UPPERCASE in mk() so the
+    footprint/tall/screening/cover checks fire for DB-built vehicles & monsters (they silently didn't
+    before — BSData stores keywords Title-case). THE FULL META FIELD: 10 real winning lists from the
+    listhammer archive, each the actual tournament list's disposition, army rule mapped to a real engine
+    effect (Oath of Moment -> reroll-1s army-wide [NOT full re-roll: OoM is one target/turn]; monster
+    regen -> fnp on the resilient centrepieces; C'tan return -> comeback; jump/suit alpha -> deep-strike
+    reserve). necrons() 5-0 triple-C'tan (Withington), drukhari() 6-0 Skysplinter (Martinez), plus
+    orks() 5-0 Kult-of-Speed, aeldari() 5-1 Spirit-Conclave wraith, tyranids() 5-0 Norn-Queen monsters,
+    space_marines() 6-0 Librarius/Salamanders, blood_angels() 5-0 jump-alpha, tau() 4-0-1 Retaliation
+    Cadre, dark_angels() 6-0 Ravenwing, thousand_sons() 5-0 Rubricae. A few datasheets absent from the
+    BSData cut (Deffkoptas, Aeldari Warlocks, Crisis Sunforge, Neurolictor omitted) are hand-built
+    REPRESENTATIVE and flagged inline. Corrected tapestry stands: Shield Host = Martial Mastery (NO
+    Assemblage — that's Auric Champions); Blade Champion 3 Vaultswords profiles; Shadowfield one-and-done.
+  * optimize.py — THE RECOMMENDATIONS ENGINE (2nd payoff piece). `python -m wh.sim.optimize <me> <opp>`
+    finds the list's dead weight (via analyze), swaps each for a gap-filling candidate, RE-SIMULATES, and
+    reports the TESTED win% delta of each swap ("swap Custodian Guard -> Caladius Grav-tank for +36%").
+    Screens at low games, re-verifies the top swaps at --final. Vs the C'tan Necrons it correctly
+    surfaces anti-monster tools (Caladius/Telemon/Contemptor). Emits a DETACHMENT NOTE when the winning
+    swaps are vehicles/dreads (Shield Host's melee rule wastes on them) -> points at Might of the Moritoi
+    / Solar Spearhead (2 DP). Full detachment-swap re-sim is a documented future axis, not yet modelled.
   * analyze.py — THE PAYOFF LAYER. `python -m wh.sim.analyze <me> <opp> [--games N] [--disp ...]` runs
     the matchup and reports board-control curve, enemy units you CAN'T REMOVE, your DEAD WEIGHT, and
     findings + recommendations. Trustworthy where the sim is calibrated (it independently flagged the
     C'tan as unkillable vs the real Necron list).
   * run.py — Monte-Carlo (~25ms/game); builds the board from the disposition matchup's layout.
 
-CALIBRATION vs REAL LISTS (was inverted 95%/74% before the rebuild):
-  * Custodes vs Necrons Awakened Dynasty (real 5-0 C'tan): ~46%  ==  the real listhammer 47%.  NAILED.
-  * Custodes vs Drukhari Skysplinter (real 6-0): Purge ~18%, Priority Assets ~10%. DIRECTIONAL: the
-    disposition ranking is correct (Priority Assets worse than Purge — matching the team's lived read),
-    and it improved from ~3-7%. Still below the aggregate real ~55% BUT that number is (a) vs ALL
-    Drukhari lists (this specific elite 6-0 list is harder than average) and (b) pre-Dataslate.
+CALIBRATION vs REAL LISTS (was inverted 95%/74% before the rebuild). Custodes "Better Thing 2" win%:
+  * GRINDY/DURABLE matchups land in a believable band ("close, Custodes slight underdog"):
+      Necrons (5-0 C'tan) ~36%  |  Orks (5-0) ~40%  |  Space Marines (6-0) ~38%  |  Thousand Sons ~40%.
+    (Necrons moved 46% -> 36% when the keyword fix gave the C'tan their correct MONSTER footprint — you
+     genuinely can't dogpile 6 units on one C'tan now. More faithful mechanically; both readings agree
+     "competitive underdog" vs the real 47%. The single ground-truth point shifted, so treat ~36-46% as
+     the band, not 46% as gospel.)
+  * FAST/EVASIVE-SHOOTY matchups collapse LOW — DIRECTIONAL ONLY, do NOT read the %:
+      Aeldari ~0%  |  T'au ~2%  |  Dark Angels ~1%  |  Drukhari ~8%  |  Tyranids ~12% (monster-mash).
+    This is the documented kiting/tempo boundary: slow Custodes can't force engagement on a faster army,
+    and the blob/point model over-reads that. Confirmed structural, NOT the Oath model (Aeldari has zero
+    Oath and still reads ~0%). Right verdict = "bad matchup"; wrong to quote the number.
+  * DEEP-STRIKE MELEE ALPHA over-reads the OTHER way: Blood Angels ~94% FOR Custodes — the sim
+    under-rates a full-reserve jump-charge alpha (units sit in reserve, charges from deep strike don't
+    connect well). Directional only, same boundary, opposite sign.
 
 KNOWN BOUNDARY (audited, not guessed):
   * Fast/tempo matchups read DIRECTIONALLY, not to-the-point. The residual is the KITING/TEMPO dance
@@ -58,12 +84,23 @@ KNOWN BOUNDARY (audited, not guessed):
     inflates the many-unit side's scoring).
   * Partial: leader auras, stratagem/CP economy, some army rules are approximated.
 
-HOW TO USE: trust it for durable/grindy list-vs-list what-ifs + the weakness-exposure flow on those.
-For fast/alpha matchups, read the direction + the analyzer's failure-mode findings, not the exact %.
+HOW TO USE:
+  * `python -m wh.sim.analyze custodes <opp> [--games N] [--disp ...]` — weakness report (default 2000
+    games; 5000 is the calibrated standard). Trust it for the durable/grindy opponents; for fast/alpha
+    ones read the direction + the failure-mode findings, not the exact %.
+  * `python -m wh.sim.optimize custodes <opp> [--screen 600] [--final 3000]` — TESTED swap
+    recommendations + the detachment note. Best on the grindy matchups where the win% is trustworthy.
+  * Both take any of the 10 rosters as <opp>. Programmatic diagnose() defaults to 5000 games.
 NOT wired into any human-facing doc — the (imperfect but hand-checked) mission-caps sims still back
-those; wire these in only for matchups where the sim is calibrated.
+those; wire these in only for matchups where the sim is calibrated (the grindy band).
 
-TO RESUME (fast-matchup precision, sharply diminishing returns): a finer kiting/tempo AI (fall-back +
-reposition + when-to-hold-vs-engage for a slow army vs a fast one), leader-aura + stratagem layers,
-and exact Event-Companion layout coords per matchup. Only worth it if fast matchups become a priority.
+TO RESUME (sharply diminishing returns, only if these become priorities):
+  * FAST-MATCHUP + ALPHA precision — the biggest gap. A finer kiting/tempo AI (fall-back + reposition +
+    when-to-hold-vs-engage for a slow army vs a fast one) AND a working deep-strike-charge alpha (so BA
+    stops reading 94%). Same root: the model doesn't dance. Leader-aura + stratagem/CP layers next.
+  * DETACHMENT-SWAP simulation — model each detachment's army rule as an engine effect (Solar Spearhead
+    vehicle buffs, Might of the Moritoi dread buffs) so optimize() can TEST a detachment change, not just
+    flag it. Data is there (data/strats has all 7 Custodes detachments + their stratagems).
+  * Exact Event-Companion layout coords per matchup; refine the hand-built stand-in datasheets if GW's
+    next BSData cut adds them (Deffkoptas, Aeldari Warlocks, Crisis Sunforge).
 """

@@ -27,7 +27,7 @@ def _instrument():
     return taken, dealt
 
 
-def diagnose(build_me, build_opp, games=400, seed=11):
+def diagnose(build_me, build_opp, games=5000, seed=11):
     rng = np.random.default_rng(seed)
     a0, b0 = build_me(), build_opp()
     my_mission, opp_mission = pairing(a0.disposition, b0.disposition)
@@ -170,7 +170,7 @@ def main():
     ap = argparse.ArgumentParser(description="Expose a list's weaknesses vs a known opponent list.")
     ap.add_argument("me", help="roster builder (e.g. custodes)")
     ap.add_argument("opp", help="opponent roster builder (e.g. drukhari, necrons)")
-    ap.add_argument("--games", type=int, default=400)
+    ap.add_argument("--games", type=int, default=2000)   # 2k interactive; 5000 is the calibrated standard
     ap.add_argument("--disp", help="override your disposition (e.g. purge-the-foe)")
     a = ap.parse_args()
 
