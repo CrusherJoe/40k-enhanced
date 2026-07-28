@@ -12,6 +12,11 @@ from .mission import score_turn, end_of_battle
 from ..mathhammer import Mods
 from .. import sim
 from . import stratagems
+from . import strategy as _strat
+
+
+def _S(army):
+    return getattr(army, "strategy", None) or _strat.BALANCED
 
 
 def _mods_for(unit, target, charged=False):
@@ -143,11 +148,13 @@ def _expected_vs(u, t, melee):
 
 
 def _charge_and_fight(me, opp, rng, board):
-    # charges: melee units within 8" declare + roll 2d6
+    # charges: melee units declare + roll 2d6. `commit` widens/narrows the charge leash (cagey armies
+    # only charge what's already close; alpha armies reach further).
+    crange = 12 * min(1.4, max(0.5, _S(me).commit))
     for u in me.on_board():
         if not u.melee or u.fell_back:
             continue
-        near = [t for t in opp.on_board() if 0 < dist(u.pos, t.pos) <= 12]
+        near = [t for t in opp.on_board() if 0 < dist(u.pos, t.pos) <= crange]
         if not near:
             continue
         t = min(near, key=lambda t: dist(u.pos, t.pos))
@@ -235,6 +242,7 @@ def deploy(A, B, board):
             # push forward if aggressive, or durable, or the enemy is a gunline you can't hide from
             push = aggressive or _durable(u) or (ttype == "shooting" and u.wounds >= 2)
             y = front if push else safe
+            y = max(my_lo, min(my_hi, y + toward * _S(army).deploy_depth * 10))   # strategy deploy depth
             # seek COVER when pushing into a gunline: nudge x toward the nearest ruin on that rank
             if push and ttype == "shooting":
                 ruins = sorted(board.ruins, key=lambda r: abs((r[0] + r[2]) / 2 - x) + abs((r[1] + r[3]) / 2 - y))
@@ -264,6 +272,7 @@ def _move(me, opp, board, rnd, rng):
     objective charge in to clear it; everyone else moves to stand on the point. This makes both armies
     fight OVER objectives instead of scrumming in midfield."""
     held, _ = board.control([me, opp])
+    S = _S(me)
     crowd = {}
     order = sorted(me.on_board(), key=lambda u: -u.eff_oc() - (2 if _melee_primary(u, opp) else 0))
     for u in order:
@@ -273,26 +282,37 @@ def _move(me, opp, board, rnd, rng):
         dest = board.objectives[oi]
         boost = 3 if u.role in ("fast", "action") else 0
         moved = False
-        if _melee_primary(u, opp):
-            on_point = [t for t in opp.on_board() if dist(t.pos, dest) <= 4]
+        # FAST HUNTERS (strategy.hunt_shooters): bikes/fast melee run down the enemy's premium guns.
+        if S.hunt_shooters and u.role == "fast" and u.melee:
+            prey = [e for e in opp.on_board() if e.ranged and not e.fell_back
+                    and dist(u.pos, e.pos) <= u.move + boost + 6]
+            if prey:
+                _step_toward(u, max(prey, key=lambda e: e.threat).pos, u.move + boost)
+                moved = True
+        if not moved and _melee_primary(u, opp):
+            # cagey (commit<1) melee only lunges at a target sitting ON its objective; aggressive commit
+            # widens the leash so it hunts further afield.
+            reach = 4 + 8 * max(0.0, S.commit - 0.6)
+            on_point = [t for t in opp.on_board() if dist(t.pos, dest) <= reach]
             if on_point:
                 _step_toward(u, min(on_point, key=lambda t: dist(u.pos, t.pos)).pos, u.move + boost)
                 moved = True
         if not moved:
-            # LoS-AWARE HOLD: don't stand on the open point — take the objective-adjacent spot that hides
-            # from the most enemy guns (a ruin between you and them = you take ZERO fire, not just -1). This
-            # is how a durable army survives a gunline: hold from cover, not in the open.
-            _step_toward(u, _covered_hold(u, dest, board, opp), u.move + boost)
+            # LoS-AWARE HOLD: take the objective-adjacent spot hidden from the most enemy guns (ruin between
+            # = ZERO fire). los_hold scales how hard the unit prioritises cover over standing on the point.
+            _step_toward(u, _covered_hold(u, dest, board, opp, S.los_hold), u.move + boost)
         if u.embarked and dist(u.pos, dest) <= 8:      # transport delivers its cargo onto the point
             _disembark(u, dest)
 
 
-def _covered_hold(u, dest, board, opp):
+def _covered_hold(u, dest, board, opp, weight=1.0):
     """Pick the spot to hold `dest` from: within control range (<=3") of the objective but HIDDEN from as
-    many enemy shooters as possible (LoS blocked by a ruin). Falls back to the point itself. Non-tall units
-    only (vehicles/monsters are seen over terrain anyway)."""
+    many enemy shooters as possible (LoS blocked by a ruin). `weight` (strategy.los_hold) scales how much
+    hiding is worth vs standing on the point. Non-tall units only."""
+    if weight <= 0.05 or u.tall:
+        return dest
     shooters = [e for e in opp.on_board() if e.ranged and e.alive and not e.fell_back]
-    if not shooters or u.tall:
+    if not shooters:
         return dest
     import math
     best, best_score = dest, -1e9
@@ -302,7 +322,7 @@ def _covered_hold(u, dest, board, opp):
         if not (1 <= c[0] <= BOARD_W - 1 and 1 <= c[1] <= BOARD_H - 1):
             continue
         hidden = sum(1 for s in shooters if not board.has_los(c, s.pos))
-        score = hidden - 0.15 * dist(u.pos, c)          # prefer hidden, then reachable
+        score = weight * hidden - 0.15 * dist(u.pos, c)
         if score > best_score:
             best_score, best = score, c
     return best
@@ -317,6 +337,7 @@ def _disembark(transport, dest):
 
 def _best_objective(u, board, held, me, opp, crowd):
     opp_side = "B" if u.side == "A" else "A"
+    S = _S(me)
     best_i, best_v = 0, -1e9
     for i, o in enumerate(board.objectives):
         who = held.get(i)
@@ -329,8 +350,10 @@ def _best_objective(u, board, held, me, opp, crowd):
             need = 2.2 if enemy_near else 0.7              # defend if contested, else lightly hold
         if i == 0:
             need += 0.6                                    # centre matters most
-        if board.in_territory(o, opp_side) and u.role in ("fast", "action", "character"):
-            need += 0.5                                    # fast pieces push the enemy home
+        if board.in_territory(o, opp_side):
+            if u.role in ("fast", "action", "character"):
+                need += 0.5 * S.push_home                  # fast pieces push the enemy home (scaled)
+            need -= S.own_half_bias                        # TURTLE: down-weight enemy-half objectives
         v = need - dist(u.pos, o) / 30.0 - 0.5 * crowd.get(i, 0)   # spread out; prefer reachable
         if v > best_v:
             best_v, best_i = v, i
@@ -352,14 +375,17 @@ def _arrive_reserves(me, opp, board, rnd, rng):
     # STAGGER the drop: real deep-strike/reserves aren't a single all-at-once alpha (you also can't start
     # with most of your army in reserve). Bring ~half at R2, the rest from R3.
     res = [u for u in me.units if u.in_reserve and u.alive]
-    k = len(res) if rnd >= 3 else (len(res) + 1) // 2
+    aggr = _S(me).reserve_aggr
+    # ALPHA (aggr>0) brings everything at once for the charge; a shooty reserve (aggr<0) trickles in.
+    split = 1.0 if aggr > 0.3 else (0.5 if aggr >= -0.3 else 0.34)
+    k = len(res) if rnd >= 3 else max(1, int(round(len(res) * split + 0.49)))
     edge = 9 if me.side == "A" else -9
+    # aggr>0 deep-strikes to threaten the ENEMY objective (charge next turn); aggr<0 arrives safe at OWN
+    # objective to shoot; ~0 lands on a contested midfield point.
+    tgt_side = ("B" if me.side == "A" else "A") if aggr >= -0.1 else me.side
+    oi = board.home_objective(tgt_side)
+    ox, oy = board.objectives[oi]
     for u in res[:k]:
-        # deep strike onto a contested objective, 9"+ from enemies. (Arriving next to an enemy gun to
-        # "hunt" it just gets the unit focus-fired before it can charge — reverted; the on-board fast
-        # hunters below do the shooter-killing instead.)
-        oi = board.home_objective("B" if me.side == "A" else "A")
-        ox, oy = board.objectives[oi]
         u.pos = (ox, oy + edge)
         u.in_reserve = False
 
@@ -400,6 +426,7 @@ def _comeback(army, rng):
 def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
     for u in armyA.units + armyB.units:
         u.snapshot_start()
+    _strat.equip(armyA, armyB); _strat.equip(armyB, armyA)   # opponent-aware strategy for both sides
     deploy(armyA, armyB, board)                 # threat-range-aware deployment
     armies = [armyA, armyB]
     order = ([armyA, armyB] if (first or "A") == "A" else [armyB, armyA])

@@ -130,6 +130,15 @@ def resolve_attacks(weapon, n_models, target, mods, rng, half_range=False, charg
     else:
         failed = savable if savable > 0 else 0
     inst = dmg_for(failed)
+    # SHOOT-WARD: durable-elite bodies shrug a fraction of PREMIUM (high-AP) anti-elite SHOOTING that the
+    # point model over-lands — the aggregate of positioning / character-protection / spread / cover on the
+    # key models that keeps real Custodes competitive vs quality guns. Deliberately NOT applied to low-AP
+    # dakka (they tank that with their 2+ anyway), so the grindy anchors (Orks/Necrons) are untouched.
+    ward = None if melee else target.abilities.get("shoot_ward")
+    if ward and ap <= -3 and len(inst) > 0:            # AP-3/-4 only (fusion/rail/wraithcannon/plasma/ion),
+        #                                                not AP-2 dakka/rokkits -> spares the Orks/Necrons anchors
+        need = target_number(ward)
+        inst = inst[rng.integers(1, 7, len(inst)) < need]      # roll >= need -> wound ignored
     return inst, mortals
 
 

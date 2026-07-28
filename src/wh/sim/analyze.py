@@ -81,6 +81,8 @@ def _run_attributed(me, opp, mA, mB, board, rng, cur, ctrl, my_side):
     apply_damage can attribute wounds. Uses the real game phase functions."""
     for u in me.units + opp.units:
         u.snapshot_start()
+    from . import strategy as _strat
+    _strat.equip(me, opp); _strat.equip(opp, me)
     G.deploy(me, opp, board)
     order = [me, opp]
     for rnd in range(1, 6):

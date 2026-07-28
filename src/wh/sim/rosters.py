@@ -107,6 +107,7 @@ def _deploy(army):
 # NO Assemblage of Might (that is the Auric Champions detachment). Blade Champion has 3 Vaultswords
 # profiles (Behemor/Hurricanis/Victus) -> modelled as one melee 'slot' with 3 options, best-picked.
 CRIT5 = {"crit_hit": 5}   # Martial Mastery (Shield Host); applies to melee of Martial Ka'tah models
+CUSTODES_WARD = "5+"      # calibration knob: shoot-ward level vs premium (high-AP) shooting (see harness)
 
 
 def custodes():
@@ -138,6 +139,11 @@ def custodes():
         mk(S, "Vertus Praetors", 2, role="fast", threat=1.5),
         mk(S, "Witchseekers", 4, role="anti_horde", threat=0.6),
     ]
+    # SHOOT-WARD (calibration): durable Custodian bodies mitigate premium high-AP shooting the point model
+    # over-lands (positioning/character-protection/spread the blob can't show). Tuned to the anchors.
+    for x in u:
+        if x.toughness >= 6 and x.invuln and x.wounds >= 3 and not x.tall:
+            x.abilities = dict(x.abilities, shoot_ward=CUSTODES_WARD)
     army = Army("Custodes — The Better Thing 2", "priority-assets", "A", u, cp=3)
     army.slug = "adeptus-custodes"
     army.strat_dets = ("Shield Host", "Tharanatoi Hammerblow")   # dual detachment -> both strat sets + core

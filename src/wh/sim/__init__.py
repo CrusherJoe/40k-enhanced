@@ -126,6 +126,27 @@ CALIBRATION (2026-07-28, with the CP/stratagem layer + cover/commander/alpha fix
     (turtle-from-cover vs a gunline; aggress vs melee/mobile), a much larger effort with high thrash risk.
     Fast % stays DIRECTIONAL-ONLY. First turn is already a fair 50/50 roll-off (not the bias).
 
+  ADAPTIVE-STRATEGY BUILD + FULL-ANCHOR CALIBRATION (2026-07-28) — INFRASTRUCTURE SHIPPED, ANCHORS NOT MET:
+    Got the full real anchor set (gauntlet.ANCHORS, from the HAR) and built the whole layer the scope
+    called for: harness.py (anchor-gated scorecard + weighted error), strategy.py (army profiler ->
+    archetype classifier -> per-opponent Strategy presets, both sides), the game.py knob wiring
+    (deploy_depth / own_half_bias / los_hold / commit / hunt_shooters / reserve_aggr / push_home), and a
+    combat SHOOT-WARD calibration hook (rosters.CUSTODES_WARD; FNP vs AP<=-3 premium shooting only, so it
+    spares the Orks/Necrons anchors). RESULT: weighted error 25.1 (baseline) -> 24.6 — WITHIN NOISE. The
+    adaptive layer did NOT close the anchor gaps. Two gaps dominate and are UNREACHABLE by positioning or
+    durability tuning:
+      * Blood Angels +48 (sim 98 / real 50) — Custodes win ELITE MELEE too hard; giving BA the ALPHA
+        strategy made it WORSE (they connect and still lose the exchange). A melee-exchange bias.
+      * Aeldari -56 (sim 2 / real 58) — Custodes can't crack the wraith wall (T6-T10 2+) while being shot;
+        neither durability ward nor strategy moves it (roster is clean, no inflation bug).
+    VERDICT (now proven across all 9 anchors, not just Tau): the miscalibration is at the COMBAT/GAME-model
+    level (too fragile vs premium shooting; too strong in elite melee; can't grind durable walls), NOT the
+    positioning/policy level. Tuning has hit its ceiling (~24 weighted error). The infrastructure
+    (harness/profiler/strategy/ward) is correct and is the FOUNDATION for the real fix — a combat-model
+    rework — but that is research-level, not a tuning pass. Grindy anchors (Necrons 47, Orks 40) remain
+    calibrated; the sim stays trustworthy there + for the tapestry/optimizer/stratagems tooling, and
+    DIRECTIONAL-ONLY elsewhere. Run `python -m wh.sim.harness` for the live sim-vs-anchor scorecard.
+
 (historical) CALIBRATION vs REAL LISTS (was inverted 95%/74% before the rebuild). Custodes "Better Thing 2" win%:
   * GRINDY/DURABLE matchups land in a believable band ("close, Custodes slight underdog"):
       Necrons (5-0 C'tan) ~36%  |  Orks (5-0) ~40%  |  Space Marines (6-0) ~38%  |  Thousand Sons ~40%.
