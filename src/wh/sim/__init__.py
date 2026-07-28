@@ -95,8 +95,24 @@ CALIBRATION (2026-07-28, with the CP/stratagem layer + cover/commander/alpha fix
     and it moved Tau 0->7 — but the RESIDUAL is systemic: slow Custodes can't catch/kill fast fliers/bikes,
     so they get out-shot and out-tempo'd to near-zero when the real matchup is ~40%. Do NOT trust the fast %.
   * Blood Angels ~98 (deep-strike melee alpha under-read — same boundary, opposite sign).
-  THE PRIORITY: fast-matchup calibration to the Tau 39.5 anchor (catch-the-fliers / threaten-backline AI +
-  Custodes objective-holding). The grindy numbers and the tooling (gauntlet/optimize/strats) are solid.
+  FAST-MATCHUP INVESTIGATION (2026-07-28, vs the Tau 39.5 anchor) — CONCLUSIVE, do not re-run blind:
+    Diagnosed WHY Custodes read ~7% vs Tau (real 39.5). Custodes get TABLED (0/14 by R5) while still
+    scoring ~25 VP — they'd win if they survived to hold. Isolation experiments (all one-sided, 200g):
+      * Custodes +5+++ FNP  -> 46%   (a ~33% damage cut nails the anchor)
+      * Tau half the shots  -> 15%   (output is NOT the main lever — per-phase dmg audited at ~8 wounds)
+      * Custodes -1 damage  -> 60%   (damage-PER-HIT one-shotting multi-wound models is the killer)
+      * Custodes always cover (-1 hit, one-sided) -> 4%   (hit-COUNT reduction barely helps)
+      * Custodes 1.4x melee -> 0% ;  turtle-own-half -> 8%   (they CAN'T reach/kill the fly suits)
+    So: only DIRECT damage mitigation moves it; every positional/mechanic fix (cover, character-
+    protection [tried+reverted, hurt grindy], turtling, more melee) fails in the blob model. And a
+    BLANKET durability buff breaks the already-calibrated grindy anchors (FNP6+ -> necrons 49 GOOD but
+    orks 47->67 BAD; FNP5+ -> tau 38 GOOD but orks ->89 BAD). No universal level fits both anchors; no
+    clean damage trigger separates "Tau premium shooting" (needs mitigation) from "Ork dakka" (fine).
+    VERDICT: the point/blob model structurally cannot represent the positional durability (character
+    protection, screening, terrain, killing the suits) that keeps real Custodes competitive vs fast
+    premium-shooting armies. Fast-matchup % is DIRECTIONAL-ONLY and reads far too low; real is ~40%.
+    Closing it needs a real positional-model upgrade (LoS/screening/character-targeting + a catch-the-
+    fliers AI so Custodes trade into the backline), NOT a calibration fudge (which harms the good numbers).
 
 (historical) CALIBRATION vs REAL LISTS (was inverted 95%/74% before the rebuild). Custodes "Better Thing 2" win%:
   * GRINDY/DURABLE matchups land in a believable band ("close, Custodes slight underdog"):
