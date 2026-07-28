@@ -102,8 +102,10 @@ def custodes():
            deep_strike=True, in_reserve=True),
         mk(S, "Prosecutors", 4, role="action", threat=0.5),
         mk(S, "Prosecutors", 4, role="action", threat=0.5),
-        mk(S, "Venatari Custodians", 3, role="fast", threat=1.2),
-        mk(S, "Venatari Custodians", 3, role="fast", threat=1.2),
+        # Venatari are DEEP STRIKERS / objective-grabbers / actioners (Engage on All Fronts) — NOT a
+        # screen. Deep strike from reserve to grab points + do actions where they're needed.
+        mk(S, "Venatari Custodians", 3, role="action", threat=1.2, deep_strike=True, in_reserve=True),
+        mk(S, "Venatari Custodians", 3, role="action", threat=1.2, deep_strike=True, in_reserve=True),
         mk(S, "Vertus Praetors", 2, role="fast", threat=1.5),
         mk(S, "Vertus Praetors", 2, role="fast", threat=1.5),
         mk(S, "Witchseekers", 4, role="anti_horde", threat=0.6),

@@ -6,7 +6,7 @@ from __future__ import annotations
 
 import numpy as np
 
-from .entities import Board, dist, HOME_Y, DEPLOY_LINE, BOARD_H
+from .entities import Board, dist, HOME_Y, DEPLOY_LINE, BOARD_H, BOARD_W
 from .combat import resolve_attacks, apply_damage
 from .mission import score_turn, end_of_battle
 from ..mathhammer import Mods
@@ -168,6 +168,34 @@ def _charge_and_fight(me, opp, rng, board):
         u.fought = True
 
 
+_ZONE = {"A": (2, 17), "B": (43, 58)}       # deployment zones (24" no-man's-land), 11e-style
+
+
+def deploy(A, B, board):
+    """Threat-range-aware deployment (how good players actually deploy): durable/valuable units sit
+    JUST OUTSIDE the enemy's turn-1 melee reach (move + ~6 advance + ~9 charge), so a first-turn charge
+    only happens on a positioning error / Infiltrators — not by default. Aggressors push to their zone
+    front to threaten; deep-strikers stay in reserve; embarked units ride their transport."""
+    for army, enemy in ((A, B), (B, A)):
+        my_lo, my_hi = _ZONE[army.side]
+        toward = 1 if army.side == "A" else -1
+        ereach = max((u.move for u in enemy.units if u.melee and not u.in_reserve), default=6) + 15
+        efront = _ZONE[enemy.side][0] if enemy.side == "B" else _ZONE[enemy.side][1]
+        safe = min(my_hi, max(my_lo, efront - toward * (ereach + 3)))
+        front = my_hi if army.side == "A" else my_lo
+        on = [u for u in army.units if not u.in_reserve and u.transport is None]
+        n = len(on)
+        for i, u in enumerate(on):
+            x = 6 + (BOARD_W - 12) * (i / max(1, n - 1)) if n > 1 else BOARD_W / 2
+            aggressive = _melee_primary(u, enemy) and u.role in ("fast", "line", "anti_tank")
+            u.pos = (x, front if aggressive else safe)
+            u.side = army.side
+    for army in (A, B):
+        for u in army.units:
+            if u.transport is not None:
+                u.pos = u.transport.pos
+
+
 def _melee_primary(u, opp):
     """A unit whose melee is its real threat should hunt, even if it also has a gun (e.g. a C'tan)."""
     if not u.melee or not opp.on_board():
@@ -287,6 +315,7 @@ def _comeback(army, rng):
 def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
     for u in armyA.units + armyB.units:
         u.snapshot_start()
+    deploy(armyA, armyB, board)                 # threat-range-aware deployment
     armies = [armyA, armyB]
     order = ([armyA, armyB] if (first or "A") == "A" else [armyB, armyA])
     vp = {"A": 0.0, "B": 0.0}
