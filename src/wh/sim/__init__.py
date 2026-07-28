@@ -115,7 +115,8 @@ TO RESUME (sharply diminishing returns, only if these become priorities):
     detachment STRATAGEMS/enhancements too (only the army rules are modelled now), and add the other
     factions' detachments so opponents can be tested under theirs.
   * ROSTER coverage — listloader.py is the hybrid default; add the remaining meta factions by picking
-    full-text archive lists (or re-fetching the 54 truncated ones). Supply missing datasheets via
-    data/bsdata/_overrides/<slug>.json (Aeldari Warlocks, Crisis Sunforge, Neurolictor still needed).
+    full-text archive lists (or re-fetching the 54 truncated ones). Supply any datasheet absent from the
+    BSData cut via data/bsdata/_overrides/<slug>.json (the 4 known gaps — Deffkoptas, Aeldari Warlock
+    Conclave + Skyrunners, Crisis Sunforge, Neurolictor — are now filled from user-supplied sheets).
   * Exact Event-Companion layout coords per matchup.
 """
