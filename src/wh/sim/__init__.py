@@ -111,8 +111,20 @@ CALIBRATION (2026-07-28, with the CP/stratagem layer + cover/commander/alpha fix
     VERDICT: the point/blob model structurally cannot represent the positional durability (character
     protection, screening, terrain, killing the suits) that keeps real Custodes competitive vs fast
     premium-shooting armies. Fast-matchup % is DIRECTIONAL-ONLY and reads far too low; real is ~40%.
-    Closing it needs a real positional-model upgrade (LoS/screening/character-targeting + a catch-the-
-    fliers AI so Custodes trade into the backline), NOT a calibration fudge (which harms the good numbers).
+
+  POSITIONAL-MODEL UPGRADE ATTEMPT (2026-07-28) — Phase 1 SHIPPED, Phase 2 reverted:
+    * Phase 1 = LoS-AWARE HOLD (game._covered_hold): units hold an objective from the adjacent spot that
+      is HIDDEN from the most enemy guns (a ruin between = ZERO fire, not -1 to hit — genuine LoS denial,
+      the one positional lever that isn't a no-op). SHIPPED. It nudged the grindy anchors the right way
+      (Necrons 40->49 vs real 47; SM ->42; TSons ->53) and single games now show the REAL dynamic (with
+      it, Custodes beat Tau 56-52 when they survive the early rounds). Cost ~2x sim time (LoS candidate
+      search). Aggregate Tau still ~9% — variance is huge; they win the matchup ~9% not ~40% of the time.
+    * Phase 2 = HUNT-THE-SHOOTERS (deep-strikers/bikes chase premium guns) — REVERTED. Matchup-unstable:
+      helped Dark Angels (3->35) but cratered the anchors (Necrons 49->27/39, Tau ->4), because charging
+      a gunline just gets you focus-fired. Deep-strike-hunt arrives exposed; fast-hunt over-aggresses.
+    LESSON: a single greedy AI can't calibrate all matchups — the fast fix needs ADAPTIVE strategy
+    (turtle-from-cover vs a gunline; aggress vs melee/mobile), a much larger effort with high thrash risk.
+    Fast % stays DIRECTIONAL-ONLY. First turn is already a fair 50/50 roll-off (not the bias).
 
 (historical) CALIBRATION vs REAL LISTS (was inverted 95%/74% before the rebuild). Custodes "Better Thing 2" win%:
   * GRINDY/DURABLE matchups land in a believable band ("close, Custodes slight underdog"):

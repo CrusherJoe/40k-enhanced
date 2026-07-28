@@ -279,9 +279,33 @@ def _move(me, opp, board, rnd, rng):
                 _step_toward(u, min(on_point, key=lambda t: dist(u.pos, t.pos)).pos, u.move + boost)
                 moved = True
         if not moved:
-            _step_toward(u, dest, u.move + boost)
+            # LoS-AWARE HOLD: don't stand on the open point — take the objective-adjacent spot that hides
+            # from the most enemy guns (a ruin between you and them = you take ZERO fire, not just -1). This
+            # is how a durable army survives a gunline: hold from cover, not in the open.
+            _step_toward(u, _covered_hold(u, dest, board, opp), u.move + boost)
         if u.embarked and dist(u.pos, dest) <= 8:      # transport delivers its cargo onto the point
             _disembark(u, dest)
+
+
+def _covered_hold(u, dest, board, opp):
+    """Pick the spot to hold `dest` from: within control range (<=3") of the objective but HIDDEN from as
+    many enemy shooters as possible (LoS blocked by a ruin). Falls back to the point itself. Non-tall units
+    only (vehicles/monsters are seen over terrain anyway)."""
+    shooters = [e for e in opp.on_board() if e.ranged and e.alive and not e.fell_back]
+    if not shooters or u.tall:
+        return dest
+    import math
+    best, best_score = dest, -1e9
+    cands = [dest] + [(dest[0] + r * math.cos(math.radians(ang)), dest[1] + r * math.sin(math.radians(ang)))
+                      for ang in range(0, 360, 45) for r in (2.6,)]
+    for c in cands:
+        if not (1 <= c[0] <= BOARD_W - 1 and 1 <= c[1] <= BOARD_H - 1):
+            continue
+        hidden = sum(1 for s in shooters if not board.has_los(c, s.pos))
+        score = hidden - 0.15 * dist(u.pos, c)          # prefer hidden, then reachable
+        if score > best_score:
+            best_score, best = score, c
+    return best
 
 
 def _disembark(transport, dest):
@@ -322,19 +346,21 @@ def _step_toward(u, dest, move):
         u.pos = (u.pos[0] + (dest[0] - u.pos[0]) * f, u.pos[1] + (dest[1] - u.pos[1]) * f)
 
 
-def _arrive_reserves(me, board, rnd, rng):
+def _arrive_reserves(me, opp, board, rnd, rng):
     if rnd < 2:
         return
     # STAGGER the drop: real deep-strike/reserves aren't a single all-at-once alpha (you also can't start
-    # with most of your army in reserve). Bring ~half at R2, the rest from R3 — so a durable army can
-    # weather the alpha across two turns instead of being deleted in one, and can trade into what lands.
+    # with most of your army in reserve). Bring ~half at R2, the rest from R3.
     res = [u for u in me.units if u.in_reserve and u.alive]
     k = len(res) if rnd >= 3 else (len(res) + 1) // 2
+    edge = 9 if me.side == "A" else -9
     for u in res[:k]:
-        # deep strike near a contested/enemy objective, 9"+ from enemies (assumed placeable)
+        # deep strike onto a contested objective, 9"+ from enemies. (Arriving next to an enemy gun to
+        # "hunt" it just gets the unit focus-fired before it can charge — reverted; the on-board fast
+        # hunters below do the shooter-killing instead.)
         oi = board.home_objective("B" if me.side == "A" else "A")
         ox, oy = board.objectives[oi]
-        u.pos = (ox, oy + (9 if me.side == "A" else -9))
+        u.pos = (ox, oy + edge)
         u.in_reserve = False
 
 
@@ -384,7 +410,7 @@ def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
         for me in order:
             opp = armyB if me is armyA else armyA
             _command(me, rnd)
-            _arrive_reserves(me, board, rnd, rng)
+            _arrive_reserves(me, opp, board, rnd, rng)
             board.update_cover(armies)
             _move(me, opp, board, rnd, rng)
             alive_before = sum(1 for u in opp.units if u.alive)

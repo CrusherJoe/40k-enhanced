@@ -86,7 +86,7 @@ def _run_attributed(me, opp, mA, mB, board, rng, cur, ctrl, my_side):
     for rnd in range(1, 6):
         for act in order:
             foe = opp if act is me else me
-            G._command(act, rnd); G._arrive_reserves(act, board, rnd, rng); board.update_cover([me, opp])
+            G._command(act, rnd); G._arrive_reserves(act, foe, board, rnd, rng); board.update_cover([me, opp])
             G._move(act, foe, board, rnd, rng)
             # shooting + fighting with attribution: temporarily tag the acting army's units
             _tagged(act, cur, lambda: (G._shoot(act, foe, board, rng),
