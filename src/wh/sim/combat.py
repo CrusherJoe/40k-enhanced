@@ -138,6 +138,11 @@ def apply_damage(unit, instances, mortals, rng):
     mortals DO spill; FNP rolled per lost wound. Mutates unit.models / unit.cur_w. Returns wounds lost."""
     lost = 0
     fnp = target_number(unit.fnp) if unit.fnp else 99
+    # SHADOWFIELD: a 2++ that cannot be re-rolled and is DESTROYED the instant a save is failed. Any
+    # failed-save damage instance here means the 2++ was failed -> drop it (revert to armour) permanently.
+    if unit.abilities.get("shadowfield") and len(instances) > 0:
+        unit.invuln = None
+        unit.abilities = dict(unit.abilities, shadowfield=False)
     for d in instances:
         if unit.models <= 0:
             break

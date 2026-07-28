@@ -145,31 +145,89 @@ def _reanim(u, frac):
     return u
 
 
-# ---------------- DRUKHARI: Skysplinter Assault (Reconnaissance) — fast, poison volume, fragile -----
+# ---------------- DRUKHARI: the REAL 6-0 Skysplinter + Exhibition of Slaughter list (Ridvan Martinez) -
+# Reconnaissance. Elite/aggressive, NOT the generic paper roster: Drazhar + 2x Incubi (Klaives shred
+# Custodes in melee), 3x Scourges + 2x Ravagers (lance/disintegrator anti-tank), a 2++ Archon, and a
+# swarm of fast transports/Reavers to out-tempo on Recon. Fragile but it kills + evades + out-scores.
 def drukhari():
     S = "drukhari"
-    kab1, kab2, inc, wy = _kabalites(), _kabalites(), mk(S, "Incubi", 5, role="line", threat=1.6), _wyches()
-    r1 = _embark(mk(S, "Raider", 1, role="fast", threat=1.4), [kab1])
-    r2 = _embark(mk(S, "Raider", 1, role="fast", threat=1.4), [inc])
-    v1 = _embark(mk(S, "Venom", 1, role="fast", threat=1.0), [wy], move=14)
+    inc1 = mk(S, "Incubi", 5, role="line", threat=2.2)       # Klaive S5 AP-2 D2 A3 — anti-Custodes melee
+    inc2 = mk(S, "Incubi", 5, role="line", threat=2.2)
+    wy1, wy2 = _wyches(), _wyches()
+    kab, hand = _kabalites("Kabalite Warriors"), _kabalites("Hand of the Archon")
+    # transports deliver the melee (Skysplinter): Incubi in Venoms, Wyches in Raider/Venom
+    v1 = _embark(mk(S, "Venom", 1, role="fast", threat=1.0), [inc1])
+    v2 = _embark(mk(S, "Venom", 1, role="fast", threat=1.0), [inc2])
+    v3 = _embark(mk(S, "Venom", 1, role="fast", threat=1.0), [wy1])
+    r1 = _embark(mk(S, "Raider", 1, role="fast", threat=1.4), [wy2])
     u = [
-        r1, r2, v1,
-        mk(S, "Ravager", 1, role="anti_tank", threat=2.2),
-        mk(S, "Ravager", 1, role="anti_tank", threat=2.2),
-        mk(S, "Venom", 1, role="fast", threat=1.0),
-        kab2,
-        mk(S, "Archon", 1, role="character", threat=1.5),
-        kab1, inc, wy,     # embarked (excluded from the board until they disembark)
+        mk(S, "Drazhar", 1, role="character", threat=3.5),   # monster-killer demiklaives
+        mk(S, "Lady Malys", 1, role="character", threat=2.5),
+        _shadowfield(mk(S, "Archon", 1, role="character", threat=2.0)),   # 2++ until it fails once
+        mk(S, "Succubus", 1, role="character", threat=1.8),
+        v1, v2, v3, r1,
+        mk(S, "Ravager", 1, role="anti_tank", threat=2.6, ranged=[_disintegrator()]),
+        mk(S, "Ravager", 1, role="anti_tank", threat=2.6, ranged=[_disintegrator()]),
+        _scourges("dark"), _scourges("heat"), _scourges("shard"),   # 3x flying anti-tank/anti-infantry
+        _reavers(),
+        _mandrakes(),
+        mk(S, "Cronos", 2, role="line", threat=1.2),
+        kab, hand,
+        inc1, inc2, wy1, wy2,     # embarked
     ]
-    return _deploy(Army("Drukhari — Skysplinter", "reconnaissance", "B", u, cp=3))
+    return _deploy(Army("Drukhari — Skysplinter/EoS (6-0)", "reconnaissance", "B", u, cp=3))
 
 
-def _kabalites():
-    # Kabalite Warriors: T3 Sv5+ W1, splinter rifles (ANTI-INFANTRY 4+ poison), 10 models
-    return Unit(name="Kabalite Warriors", models=10, wounds=1, move=7, toughness=3, save="5+", oc=2,
-                ld=7, keywords=("INFANTRY",), role="line", threat=0.7,
+def _shadowfield(u):
+    u.invuln = "2+"; u.abilities = dict(u.abilities, shadowfield=True)   # 2++ until first failed save
+    return u
+
+
+def _disintegrator():
+    return dict(name="Disintegrator cannon", A=3, BS="3+", S=5, AP=-2, D=3, abilities=[], rng=36, slot="R")
+
+
+def _dark_lance():
+    return dict(name="Dark lance", A=1, BS="3+", S=12, AP=-3, D="D6+1", abilities=[], rng=36, slot="R")
+
+
+def _heat_lance():
+    return dict(name="Heat lance", A=1, BS="3+", S=9, AP=-4, D=3, abilities=["MELTA 2"], rng=18, slot="R")
+
+
+def _scourges(kind):
+    # Scourges: T4 W1 4+ M12 (FLY), 5 models, heavy weapons — the list's anti-tank delivery.
+    w = {"dark": _dark_lance(), "heat": _heat_lance(),
+         "shard": dict(name="Shardcarbine", A=3, BS="3+", S=4, AP=0, D=1, abilities=["ANTI-INFANTRY 4+"], rng=24, slot="R")}[kind]
+    # 4 heavy weapons in the unit -> model as 4 shooters carrying the weapon (its real Attacks: lances A1)
+    return Unit(name=f"Scourges ({kind})", models=4, wounds=1, move=12, toughness=4, save="4+", oc=1,
+                ld=7, keywords=("INFANTRY", "FLY"), role="anti_tank" if kind != "shard" else "fast", threat=1.6,
+                ranged=[w],
+                melee=[dict(name="Close combat weapon", A=1, WS="4+", S=3, AP=0, D=1, abilities=[], rng=0, slot="M")])
+
+
+def _reavers():
+    # Reaver jetbikes: fast (M14), heat lance + bladevanes, 3 models
+    return Unit(name="Reavers", models=3, wounds=3, move=14, toughness=4, save="4+", oc=1, ld=7,
+                keywords=("MOUNTED",), role="fast", threat=1.4,
+                ranged=[_heat_lance()],
+                melee=[dict(name="Bladevanes", A=2, WS="3+", S=4, AP=-1, D=1, abilities=[], rng=0, slot="M")])
+
+
+def _mandrakes():
+    # Mandrakes: deep-strike infiltrators, baleblast (S4 AP-1 D1 psychic), 5 models
+    return Unit(name="Mandrakes", models=5, wounds=1, move=8, toughness=3, save="6+", oc=1, ld=7,
+                invuln="5+", keywords=("INFANTRY",), role="action", threat=0.8, deep_strike=True, in_reserve=True,
+                ranged=[dict(name="Baleblast", A=1, BS="3+", S=4, AP=-1, D=1, abilities=[], rng=18, slot="R")],
+                melee=[dict(name="Glimmersteel blade", A=2, WS="3+", S=4, AP=-1, D=1, abilities=[], rng=0, slot="M")])
+
+
+def _kabalites(name="Kabalite Warriors"):
+    # Kabalites: T3 Sv5+ W1, splinter rifles (ANTI-INFANTRY 4+ poison) + a blaster/dark lance, 10 models
+    return Unit(name=name, models=10, wounds=1, move=7, toughness=3, save="5+", oc=2,
+                ld=7, keywords=("INFANTRY",), role="line", threat=0.8,
                 ranged=[dict(name="Splinter rifle", A=2, BS="3+", S=4, AP=0, D=1,
-                             abilities=["ANTI-INFANTRY 4+"], rng=24, slot="R")],
+                             abilities=["ANTI-INFANTRY 4+"], rng=24, slot="R")],  # (1 blaster omitted — would over-count per-model)
                 melee=[dict(name="Close combat weapon", A=1, WS="4+", S=3, AP=0, D=1, abilities=[], rng=0, slot="M")])
 
 

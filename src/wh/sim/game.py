@@ -54,6 +54,12 @@ def _score_weapon(w, target):
     return a * (1.4 if s >= target.toughness else 0.7) * (1 + 0.3 * ap) * d
 
 
+
+def _wdmg(w):
+    d = str(w.get("D", 1))
+    return 4 if "D6" in d else 3 if "D3" in d else (int(d) if d.isdigit() else 2)
+
+
 def _in_range(unit, target, w):
     if w.get("rng", 0) <= 0:
         return False
@@ -78,9 +84,17 @@ def _shoot(me, opp, rng):
         # penalise a target already engaged by 2+ of my units (you can't dogpile one model in real 40k).
         best = None; best_val = 0
         for t in targets:
-            val = _expected_vs(u, t, melee=False) * t.threat
-            if t.total_w <= _expected_vs(u, t, melee=False) * 1.4:
-                val *= 1.5
+            dmg = _expected_vs(u, t, melee=False)
+            # OVER-KILL AWARENESS: damage past the target's wounds is wasted, and D-heavy anti-tank guns
+            # are wasted on low-wound infantry -> value the min(damage, what removes models) and prefer
+            # tough targets for high-damage weapons (a dark lance wants a vehicle, not a 3W Custodian).
+            useful = min(dmg, t.total_w)
+            wpn_d = max((_wdmg(w) for w in u.ranged), default=1)
+            if wpn_d >= 3 and t.wounds < wpn_d:
+                useful *= 0.45                            # anti-tank into chaff = mostly wasted
+            val = useful * t.threat
+            if t.total_w <= dmg * 1.4:
+                val *= 1.5                                # can finish the unit
             val /= (1 + 1.5 * focus.get(id(t), 0))
             if val > best_val:
                 best_val, best = val, t
