@@ -296,23 +296,16 @@ def orks():
         mk(S, "Mek", 1, role="character", threat=0.6),
         _embark(mk(S, "Trukk", 1, role="fast", threat=0.8), [_orks_gretchin("g1")]),
         _embark(mk(S, "Trukk", 1, role="fast", threat=0.8), [_orks_gretchin("g2")]),
-        _deffkoptas(), _deffkoptas(), _deffkoptas(),    # 3x — absent from DB cut, representative build
+        # Deffkoptas ×3 — now from the real datasheet (data/bsdata/_overrides/orks.json), user-supplied.
+        mk(S, "Deffkoptas", 3, role="fast", threat=1.4),
+        mk(S, "Deffkoptas", 3, role="fast", threat=1.4),
+        mk(S, "Deffkoptas", 3, role="fast", threat=1.4),
     ]
     return _deploy(Army("Orks — Kult of Speed / More Dakka (5-0)", "disruption", "B", u, cp=3))
 
 
 def _orks_gretchin(_tag):
     return mk("orks", "Gretchin", 10, role="action", threat=0.3)
-
-
-def _deffkoptas():
-    # Deffkoptas: fast FLY attack copters (twin big shoota + kopta rokkits + buzzsaw). Not in this
-    # BSData cut -> representative 11e profile (3 models, T5 W3 4+, M20 FLY).
-    return Unit(name="Deffkoptas", models=3, wounds=3, move=20, toughness=5, save="4+", oc=1, ld=7,
-                keywords=("MOUNTED", "FLY"), role="fast", threat=1.4,
-                ranged=[dict(name="Twin big shoota", A=6, BS="5+", S=5, AP=0, D=1, abilities=["TWIN-LINKED"], rng=36, slot="R"),
-                        dict(name="Kopta rokkits", A="D3", BS="5+", S=8, AP=-2, D="D6", abilities=[], rng=36, slot="R2")],
-                melee=[dict(name="Kopta buzzsaw", A=3, WS="3+", S=7, AP=-2, D=2, abilities=[], rng=0, slot="M")])
 
 
 # ---------------- AELDARI: 5-1 Spirit Conclave | Armoured Warhost (Reconnaissance) — wraith-construct -

@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.abspath(__file__))))), "tools"))
 import db
 
-from . import run, analyze, rosters
+from . import run, analyze, rosters, detachments as D
 
 
 def _pts(name, slug="adeptus-custodes"):
@@ -78,6 +78,38 @@ def _swap_builder(build_me, remove_name, cand_build):
     return b
 
 
+def _multiswap_builder(build_me, swaps):
+    """Build with several swaps applied at once (remove name -> add cand_build), for the detachment test."""
+    def b():
+        a = build_me()
+        for rm, _cb in swaps:
+            for i, u in enumerate(a.units):
+                if u.name == rm:
+                    del a.units[i]
+                    break
+        for _rm, cb in swaps:
+            a.units.append(cb())
+        return a
+    return b
+
+
+def _detachment_test(build_me, build_opp, trials, candidates, veh, games, seed, homes=("Might of the Moritoi", "Solar Spearhead")):
+    """If the winning swaps are vehicles/dreads, TEST the dread-heavy build under each vehicle detachment
+    (vs Shield Host) and return the win% under each — turning the advisory into a re-simulated comparison.
+    Non-Shield-Host detachments strip Martial Mastery army-wide, so this shows whether you have committed
+    ENOUGH vehicles for the detachment to pay for that loss."""
+    vsw = [t for t in sorted(trials, key=lambda t: -t["delta"]) if t["add"] in veh and t["delta"] > 0][:2]
+    if not vsw:
+        return None
+    swaps = [(t["rm"], next(cb for cn, cb, _ in candidates if cn == t["add"])) for t in vsw]
+    mb = _multiswap_builder(build_me, swaps)
+    rows = [("Shield Host (current)", run.simulate(mb, build_opp, games=games, seed=seed)["win"], D.DP["Shield Host"])]
+    for dn in homes:
+        w = run.simulate(D.under(mb, dn), build_opp, games=games, seed=seed)["win"]
+        rows.append((dn, w, D.DP[dn]))
+    return dict(swaps=[(t["rm"], t["add"]) for t in vsw], rows=rows)
+
+
 def optimize(build_me, build_opp, candidates=None, screen=500, final=2000, seed=11):
     candidates = candidates or _custodes_candidates()
     base = run.simulate(build_me, build_opp, games=screen, seed=seed)["win"]
@@ -103,7 +135,8 @@ def optimize(build_me, build_opp, candidates=None, screen=500, final=2000, seed=
             cbuild = next(cb for cn, cb, _ in candidates if cn == t["add"])
             t["win"] = run.simulate(_swap_builder(build_me, t["rm"], cbuild), build_opp, games=final, seed=seed)["win"]
             t["delta"] = t["win"] - base
-    return dict(base=base, trials=trials, me=d["me_name"], opp=d["opp_name"], final=final, veh=veh)
+    det = _detachment_test(build_me, build_opp, trials, candidates, veh, min(final, 1500), seed)
+    return dict(base=base, trials=trials, me=d["me_name"], opp=d["opp_name"], final=final, veh=veh, det=det)
 
 
 def report(r):
@@ -124,18 +157,24 @@ def report(r):
         L.append("RECOMMENDATION: no single tested swap materially improves this matchup — the problem "
                  "is structural (mission/disposition or a whole-army speed/tempo gap), not one unit.")
 
-    # second-order lever: if the winning swaps are vehicles, Shield Host's melee rule wastes on them.
-    veh = r.get("veh") or set()
-    top_veh = [t for t in sorted(r["trials"], key=lambda t: -t["delta"])[:4]
-               if t["delta"] >= 3 and t["add"] in veh]
-    if len(top_veh) >= 2:
-        homes = "; ".join(f"{nm} ({why})" for nm, why, _ in _VEHICLE_HOMES)
-        L += ["",
-              f"DETACHMENT NOTE: your best swaps here ({', '.join(dict.fromkeys(t['add'] for t in top_veh))}) "
-              "are VEHICLES/DREADNOUGHTS. Shield Host's Martial Mastery (melee crit-on-5) does nothing for "
-              "them. If you lean into 2+ of these, the deeper fix is to change the DETACHMENT to a "
-              f"vehicle/dread home: {homes}. Full detachment-swap re-simulation isn't modelled yet — treat "
-              "this as a direction, then re-test by hand."]
+    # second-order lever: the dread-heavy build TESTED under each vehicle detachment (vs Shield Host).
+    det = r.get("det")
+    if det:
+        combo = " + ".join(f"-{rm}->+{add}" for rm, add in det["swaps"])
+        L += ["", f"DETACHMENT TEST — the dread-heavy build ({combo}) re-simulated under each detachment:",
+              f"  {'DETACHMENT':26} {'DP':>3} {'win%':>6}"]
+        base_sh = det["rows"][0][1]
+        for nm, w, dp in det["rows"]:
+            delta = "" if nm.startswith("Shield") else f"  ({w - base_sh:+d}% vs Shield Host)"
+            L.append(f"  {nm:26} {dp:>3} {w:>5}%{delta}")
+        best = max(det["rows"], key=lambda x: x[1])
+        if best[0].startswith("Shield"):
+            L.append("  -> Shield Host still wins: you haven't committed ENOUGH vehicles to pay for losing "
+                     "Martial Mastery army-wide. Add more dreads/tanks before switching detachment.")
+        else:
+            L.append(f"  -> {best[0]} is the better home for this build (+{best[1]-base_sh}% over Shield Host)"
+                     + (f", but it costs {best[2]} Detachment Points — balance that against your enhancements."
+                        if best[2] > 1 else "."))
     return "\n".join(L)
 
 

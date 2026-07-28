@@ -37,7 +37,19 @@ def bsdata(slug):
     p = os.path.join(DATA, "bsdata", slug + ".json")
     if not os.path.exists(p):
         raise KeyError(f"no BSData profiles for {slug!r} (run: python3 tools/bsdata_db.py {slug})")
-    return json.load(open(p, encoding="utf-8"))
+    data = json.load(open(p, encoding="utf-8"))
+    # Merge manual overrides (data/bsdata/_overrides/<slug>.json): a list of datasheets to ADD or REPLACE
+    # by name. This is where user-supplied datasheets that are ABSENT from the current BSData cut live, so
+    # they survive a bsdata_db.py regen (which rewrites <slug>.json but never touches _overrides/).
+    ov = os.path.join(DATA, "bsdata", "_overrides", slug + ".json")
+    if os.path.exists(ov):
+        norm = lambda s: re.sub(r"[’']", "'", s).lower().strip()
+        extra = json.load(open(ov, encoding="utf-8"))
+        by = {norm(d["name"]): d for d in data["datasheets"]}
+        for d in extra:
+            by[norm(d["name"])] = d                 # override/add by name
+        data["datasheets"] = list(by.values())
+    return data
 
 
 @functools.lru_cache(maxsize=None)

@@ -50,9 +50,22 @@ WHAT WORKS + IS VALIDATED
     finds the list's dead weight (via analyze), swaps each for a gap-filling candidate, RE-SIMULATES, and
     reports the TESTED win% delta of each swap ("swap Custodian Guard -> Caladius Grav-tank for +36%").
     Screens at low games, re-verifies the top swaps at --final. Vs the C'tan Necrons it correctly
-    surfaces anti-monster tools (Caladius/Telemon/Contemptor). Emits a DETACHMENT NOTE when the winning
-    swaps are vehicles/dreads (Shield Host's melee rule wastes on them) -> points at Might of the Moritoi
-    / Solar Spearhead (2 DP). Full detachment-swap re-sim is a documented future axis, not yet modelled.
+    surfaces anti-monster tools (Caladius/Telemon/Contemptor). When the winning swaps are vehicles/dreads
+    it runs a DETACHMENT TEST: builds the dread-heavy list and re-simulates it under each vehicle
+    detachment (via detachments.py) vs Shield Host, reporting each one's win% + DP cost — "should I change
+    detachment?" answered by re-simulation, not a guess (correctly shows Might of the Moritoi = +0% for a
+    Caladius build, since a Grav-tank isn't a WALKER).
+  * detachments.py — Custodes detachment rules as ENGINE EFFECTS (transcribed from the faction pack's
+    DETACHMENT RULES blocks): Shield Host (Martial Mastery crit-5), Might of the Moritoi (WALKER +2"M/
+    +charge), Solar Spearhead (VEHICLE +2 OC/reroll-1s, 2 DP), Lions (isolated +1/+1, approx), Tharanatoi
+    (TERMINATOR ingress reroll charge). apply_detachment()/under() swap an army's rule; a non-Shield-Host
+    detachment strips Martial Mastery army-wide, so a swap only pays once enough vehicles are committed.
+  * listloader.py — the HYBRID default for turning a real archive list into a roster: parses any full-text
+    listhammer entry, resolves units vs BSData (chapter + apostrophe fallbacks), auto-assigns role/threat,
+    applies a faction-default tapestry (Astartes Oath), then a per-faction OVERRIDE hook for deep tapestry.
+    Datasheets absent from the BSData cut go in data/bsdata/_overrides/<slug>.json (merged by db.bsdata,
+    regen-safe) — e.g. the user-supplied Deffkoptas. Curated rosters stay the validated anchors; the loader
+    is how NEW opponents get built. (54 of 98 archive entries have truncated text — those need a re-fetch.)
   * analyze.py — THE PAYOFF LAYER. `python -m wh.sim.analyze <me> <opp> [--games N] [--disp ...]` runs
     the matchup and reports board-control curve, enemy units you CAN'T REMOVE, your DEAD WEIGHT, and
     findings + recommendations. Trustworthy where the sim is calibrated (it independently flagged the
@@ -98,9 +111,11 @@ TO RESUME (sharply diminishing returns, only if these become priorities):
   * FAST-MATCHUP + ALPHA precision — the biggest gap. A finer kiting/tempo AI (fall-back + reposition +
     when-to-hold-vs-engage for a slow army vs a fast one) AND a working deep-strike-charge alpha (so BA
     stops reading 94%). Same root: the model doesn't dance. Leader-aura + stratagem/CP layers next.
-  * DETACHMENT-SWAP simulation — model each detachment's army rule as an engine effect (Solar Spearhead
-    vehicle buffs, Might of the Moritoi dread buffs) so optimize() can TEST a detachment change, not just
-    flag it. Data is there (data/strats has all 7 Custodes detachments + their stratagems).
-  * Exact Event-Companion layout coords per matchup; refine the hand-built stand-in datasheets if GW's
-    next BSData cut adds them (Deffkoptas, Aeldari Warlocks, Crisis Sunforge).
+  * DETACHMENT-SWAP simulation — DONE (detachments.py + optimize's DETACHMENT TEST). To extend: model the
+    detachment STRATAGEMS/enhancements too (only the army rules are modelled now), and add the other
+    factions' detachments so opponents can be tested under theirs.
+  * ROSTER coverage — listloader.py is the hybrid default; add the remaining meta factions by picking
+    full-text archive lists (or re-fetching the 54 truncated ones). Supply missing datasheets via
+    data/bsdata/_overrides/<slug>.json (Aeldari Warlocks, Crisis Sunforge, Neurolictor still needed).
+  * Exact Event-Companion layout coords per matchup.
 """
