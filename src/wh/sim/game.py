@@ -84,20 +84,7 @@ def _shoot(me, opp, rng):
         # penalise a target already engaged by 2+ of my units (you can't dogpile one model in real 40k).
         best = None; best_val = 0
         for t in targets:
-            dmg = _expected_vs(u, t, melee=False)
-            # OVER-KILL AWARENESS: damage past the target's wounds is wasted, and D-heavy anti-tank guns
-            # are wasted on low-wound infantry -> value the min(damage, what removes models) and prefer
-            # tough targets for high-damage weapons (a dark lance wants a vehicle, not a 3W Custodian).
-            useful = min(dmg, t.total_w)
-            wpn_d = max((_wdmg(w) for w in u.ranged), default=1)
-            if wpn_d >= 3 and t.wounds < wpn_d:
-                useful *= 0.45                            # anti-tank into chaff = mostly wasted
-            val = useful * t.threat
-            if t.total_w <= dmg * 1.4:
-                val *= 1.5                                # can finish the unit
-            val /= (1 + 1.5 * focus.get(id(t), 0))
-            if val > best_val:
-                best_val, best = val, t
+            best_val, best = _pick(u, t, u.ranged, focus, best_val, best)
         if best is None:
             continue
         focus[id(best)] = focus.get(id(best), 0) + 1
@@ -109,6 +96,20 @@ def _shoot(me, opp, rng):
             apply_damage(best, inst, mort, rng)
             if not best.alive:
                 break
+
+
+def _pick(u, t, pool, focus, best_val, best, melee=False):
+    """Efficiency-weighted target value: REMOVING a unit (fraction of its wounds you clear) matters far
+    more than chipping a tough one — so spears wipe the fragile scorers instead of pinging a Ravager,
+    and anti-tank isn't wasted on chaff. Threat scales it; fire-spread penalises pile-on."""
+    dmg = _expected_vs(u, t, melee=melee)
+    wpn_d = max((_wdmg(w) for w in pool), default=1)
+    if wpn_d >= 3 and t.wounds < wpn_d:
+        dmg *= 0.4                                        # anti-tank into chaff = mostly wasted overkill
+    frac = min(1.0, dmg / max(1.0, t.total_w))            # fraction of the unit removed
+    val = t.threat * (0.25 + 0.75 * frac) * (0.5 + 0.5 * frac)   # heavily reward WIPING a unit
+    val /= (1 + 1.5 * focus.get(id(t), 0))
+    return (val, t) if val > best_val else (best_val, best)
 
 
 def _expected_vs(u, t, melee):
@@ -150,12 +151,16 @@ def _charge_and_fight(me, opp, rng, board):
         engaged = [t for t in foe.on_board() if dist(u.pos, t.pos) <= 3.0]
         if not engaged:
             continue
-        t = max(engaged, key=lambda t: _expected_vs(u, t, melee=True) * t.threat
-                / (1 + (2.0 * piled.get(id(t), 0) if cap(t) else 0)))
+        def mval(t):
+            dmg = _expected_vs(u, t, melee=True)
+            frac = min(1.0, dmg / max(1.0, t.total_w))
+            v = t.threat * (0.25 + 0.75 * frac) * (0.5 + 0.5 * frac)   # reward wiping the unit
+            return v / (1 + 2.0 * piled.get(id(t), 0)) if cap(t) else v
+        t = max(engaged, key=mval)
         if cap(t) and piled.get(id(t), 0) >= 3:
             alt = [x for x in engaged if not (cap(x) and piled.get(id(x), 0) >= 3)]
             if alt:
-                t = max(alt, key=lambda t: _expected_vs(u, t, melee=True) * t.threat)
+                t = max(alt, key=mval)
         piled[id(t)] = piled.get(id(t), 0) + 1
         for w in _best_weapon_set(u, t, melee=True):
             inst, mort = resolve_attacks(w, u.models, t, _mods_for(u, t, charged=u.charged), rng, charged=u.charged)
