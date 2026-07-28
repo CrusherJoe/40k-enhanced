@@ -49,10 +49,20 @@ def mk(slug, name, models, role="line", threat=1.0, abilities=None, ranged=None,
                 abilities=abilities or {}, **over)
 
 
+def _embark(transport, passengers, open_topped=True, move=14):
+    transport.open_topped = open_topped
+    transport.move = move
+    transport.role = "fast"
+    for p in passengers:
+        p.transport = transport
+        transport.embarked.append(p)
+    return transport
+
+
 def _deploy(army):
     """Spread units along the home row; forward units a bit up. Reserves stay off-board."""
     y = HOME_Y[army.side]
-    on = [u for u in army.units if not u.in_reserve]
+    on = [u for u in army.units if not u.in_reserve and u.transport is None]
     n = max(1, len(on))
     for i, u in enumerate(on):
         x = 6 + (BOARD_W - 12) * (i / max(1, n - 1)) if n > 1 else BOARD_W / 2
@@ -112,15 +122,15 @@ def necrons():
             u = mk(S, "C'tan Shard of the Nightbringer", 1, role="anti_tank", threat=6.0)
         u.damage_reduction = 1
         u.invuln = u.invuln or "4+"
-        u.abilities = dict(u.abilities, comeback=0.55)
+        u.abilities = dict(u.abilities, comeback=0.72)
         return u
     u = [
         ctan("C'tan Shard of the Void Dragon"),
         ctan("C'tan Shard of the Nightbringer"),
-        _reanim(mk(S, "Necron Warriors", 20, role="line", threat=0.7), 0.5),
+        _reanim(mk(S, "Necron Warriors", 20, role="line", threat=0.8), 0.65),
         _reanim(mk(S, "Necron Warriors", 10, role="line", threat=0.7), 0.4),
         mk(S, "Lokhust Heavy Destroyers", 3, role="anti_tank", threat=2.0),
-        _reanim(mk(S, "Lychguard", 10, role="line", threat=1.4), 0.4),
+        _reanim(mk(S, "Lychguard", 10, role="line", threat=1.6), 0.5),
         mk(S, "Technomancer", 1, role="character", threat=1.5),
         mk(S, "Skorpekh Destroyers", 3, role="line", threat=1.6),
         mk(S, "Doomstalker", 1, role="anti_tank", threat=2.0),
@@ -136,17 +146,18 @@ def _reanim(u, frac):
 # ---------------- DRUKHARI: Skysplinter Assault (Reconnaissance) — fast, poison volume, fragile -----
 def drukhari():
     S = "drukhari"
+    kab1, kab2, inc, wy = _kabalites(), _kabalites(), mk(S, "Incubi", 5, role="line", threat=1.6), _wyches()
+    r1 = _embark(mk(S, "Raider", 1, role="fast", threat=1.4), [kab1])
+    r2 = _embark(mk(S, "Raider", 1, role="fast", threat=1.4), [inc])
+    v1 = _embark(mk(S, "Venom", 1, role="fast", threat=1.0), [wy], move=14)
     u = [
-        mk(S, "Raider", 1, role="fast", threat=1.4),
-        mk(S, "Raider", 1, role="fast", threat=1.4),
+        r1, r2, v1,
         mk(S, "Ravager", 1, role="anti_tank", threat=2.2),
         mk(S, "Ravager", 1, role="anti_tank", threat=2.2),
         mk(S, "Venom", 1, role="fast", threat=1.0),
-        mk(S, "Venom", 1, role="fast", threat=1.0),
-        mk(S, "Incubi", 5, role="line", threat=1.6),
-        _kabalites(), _kabalites(),
-        _wyches(),
+        kab2,
         mk(S, "Archon", 1, role="character", threat=1.5),
+        kab1, inc, wy,     # embarked (excluded from the board until they disembark)
     ]
     return _deploy(Army("Drukhari — Skysplinter", "reconnaissance", "B", u, cp=3))
 

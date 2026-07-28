@@ -1,6 +1,15 @@
 """wh.sim — a positional, turn-by-turn 40k game simulator (the real thing, not caps math).
 
-STATUS (2026-07-28): FOUNDATION BUILT, MATCHUPS NOT YET CALIBRATED.
+STATUS (2026-07-28): FOUNDATION + FIRST CALIBRATION. The two teammate-flagged matchups are now
+DIRECTIONALLY CORRECT (was inverted):
+  * Custodes vs Necrons C'tan:  95% -> ~47% (coin-flip; team read = a loss, so slightly high — a
+    candidate for finer calibration with the exact Necron list).
+  * Custodes vs Drukhari Skysplinter: 74% -> ~33% (very unfavourable — calibrated to the team read).
+The fixes that mattered: (1) an OBJECTIVE-CENTRIC AI (units contest/hold objectives instead of
+scrumming in midfield) — the single biggest correction; (2) TRANSPORTS (embark/disembark, open-topped
+firing) — Drukhari's whole tempo game; (3) C'tan necrodermis return + stronger reanimation. Still a
+representative-roster / partial-special-rules model, not exact — treat win-rates as directional and
+keep calibrating against the team's reads. Not wired into human-facing docs yet.
 
 WHAT WORKS + IS VALIDATED
   * combat.py — dice-resolved shooting/melee, numpy-vectorized, honours the 11e keyword set

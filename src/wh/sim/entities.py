@@ -47,6 +47,9 @@ class Unit:
     fell_back: bool = False
     charged: bool = False
     reanimate: float = 0.0     # Necrons: fraction of lost wounds returned per turn
+    embarked: list = field(default_factory=list)   # units this TRANSPORT is carrying
+    transport: object = None   # the transport this unit is riding in (None = on the board)
+    open_topped: bool = False  # embarked passengers can shoot
 
     def __post_init__(self):
         if not self.cur_w:
@@ -89,7 +92,8 @@ class Army:
         return [u for u in self.units if u.alive and not u.in_reserve]
 
     def on_board(self):
-        return [u for u in self.units if u.alive and not u.in_reserve]
+        # embarked passengers (transport set) are not physically on the board
+        return [u for u in self.units if u.alive and not u.in_reserve and u.transport is None]
 
 
 class Board:

@@ -62,7 +62,13 @@ def _in_range(unit, target, w):
 
 def _shoot(me, opp, rng):
     focus = {}                                               # units already shooting each target
-    for u in me.on_board():
+    shooters = list(me.on_board())
+    for t in me.on_board():                                  # open-topped transports let cargo shoot
+        if t.open_topped:
+            for p in t.embarked:
+                p.pos = t.pos
+                shooters.append(p)
+    for u in shooters:
         if u.fell_back or not u.ranged:
             continue
         targets = [t for t in opp.on_board()]
@@ -145,28 +151,58 @@ def _melee_primary(u, opp):
 
 
 def _move(me, opp, board, rnd, rng):
+    """Objective-centric AI: every unit is assigned the objective it should contest/hold (spread across
+    the board, weighted by need + reachability). Melee-primary units that find an enemy sitting ON their
+    objective charge in to clear it; everyone else moves to stand on the point. This makes both armies
+    fight OVER objectives instead of scrumming in midfield."""
     held, _ = board.control([me, opp])
-    for u in me.on_board():
+    crowd = {}
+    order = sorted(me.on_board(), key=lambda u: -u.eff_oc() - (2 if _melee_primary(u, opp) else 0))
+    for u in order:
         u.advanced = u.fell_back = u.charged = False
+        oi = _best_objective(u, board, held, me, opp, crowd)
+        crowd[oi] = crowd.get(oi, 0) + 1
+        dest = board.objectives[oi]
+        boost = 3 if u.role in ("fast", "action") else 0
+        moved = False
         if _melee_primary(u, opp):
-            # hunt the enemy this unit most wants to fight (best removal × threat), biased to the nearest
-            tgt = max(opp.on_board(), key=lambda t: _expected_vs(u, t, melee=True) * t.threat / (1 + dist(u.pos, t.pos) / 12))
-            _step_toward(u, tgt.pos, u.move + (3 if u.role == "fast" else 0))
-        else:
-            obj = _pick_objective(u, board, held, opp)
-            _step_toward(u, board.objectives[obj], u.move)
+            on_point = [t for t in opp.on_board() if dist(t.pos, dest) <= 4]
+            if on_point:
+                _step_toward(u, min(on_point, key=lambda t: dist(u.pos, t.pos)).pos, u.move + boost)
+                moved = True
+        if not moved:
+            _step_toward(u, dest, u.move + boost)
+        if u.embarked and dist(u.pos, dest) <= 8:      # transport delivers its cargo onto the point
+            _disembark(u, dest)
 
 
-def _pick_objective(u, board, held, opp):
-    # prefer an uncontrolled/enemy objective we can reach and matter on; else nearest
-    scored = []
+def _disembark(transport, dest):
+    for i, p in enumerate(transport.embarked):
+        p.transport = None
+        p.pos = (dest[0] + (i - len(transport.embarked) / 2) * 1.2, dest[1] + (0.5 if p.side == "A" else -0.5))
+    transport.embarked = []
+
+
+def _best_objective(u, board, held, me, opp, crowd):
+    opp_side = "B" if u.side == "A" else "A"
+    best_i, best_v = 0, -1e9
     for i, o in enumerate(board.objectives):
-        d = dist(u.pos, o)
-        want = 2.0 if held.get(i) != u.side else 0.6      # contest what we don't hold
-        if board.in_territory(o, "B" if u.side == "A" else "A"):
-            want += 0.4                                    # pushing enemy territory (home-grab)
-        scored.append((want - d / 60.0, i))
-    return max(scored)[1]
+        who = held.get(i)
+        enemy_near = any(dist(t.pos, o) <= 4 for t in opp.on_board())
+        if who == opp_side:
+            need = 3.0                                     # flip an enemy point
+        elif who is None:
+            need = 2.0                                     # claim an open point
+        else:
+            need = 2.2 if enemy_near else 0.7              # defend if contested, else lightly hold
+        if i == 0:
+            need += 0.6                                    # centre matters most
+        if board.in_territory(o, opp_side) and u.role in ("fast", "action", "character"):
+            need += 0.5                                    # fast pieces push the enemy home
+        v = need - dist(u.pos, o) / 30.0 - 0.5 * crowd.get(i, 0)   # spread out; prefer reachable
+        if v > best_v:
+            best_v, best_i = v, i
+    return best_i
 
 
 def _step_toward(u, dest, move):
@@ -203,7 +239,7 @@ def _reanimate(army, rng):
     for u in army.units:
         if u.reanimate and u.alive and u.models < u.start_strength:
             # reanimation protocols: return ~reanimate * start models this turn
-            back = int(round(u.reanimate * u.start_strength * 0.5))
+            back = int(round(u.reanimate * u.start_strength * 0.9))
             if back:
                 u.models = min(u.start_strength, u.models + back)
                 if u.cur_w <= 0:
