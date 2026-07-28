@@ -155,23 +155,25 @@ def drukhari():
     inc2 = mk(S, "Incubi", 5, role="line", threat=2.2)
     wy1, wy2 = _wyches(), _wyches()
     kab, hand = _kabalites("Kabalite Warriors"), _kabalites("Hand of the Archon")
-    # transports deliver the melee (Skysplinter): Incubi in Venoms, Wyches in Raider/Venom
-    v1 = _embark(mk(S, "Venom", 1, role="fast", threat=1.0), [inc1])
-    v2 = _embark(mk(S, "Venom", 1, role="fast", threat=1.0), [inc2])
-    v3 = _embark(mk(S, "Venom", 1, role="fast", threat=1.0), [wy1])
-    r1 = _embark(mk(S, "Raider", 1, role="fast", threat=1.4), [wy2])
+    # transports deliver the melee (Skysplinter): Incubi in Venoms, Wyches in Raider/Venom.
+    # CORRECT 11e guns (the DB profiles are inflated): Venom = 2x splinter cannon (poison S4 AP0 D1),
+    # Raider = 1 dark lance, Ravager = 3 disintegrators.
+    def venom(cargo):
+        return _embark(mk(S, "Venom", 1, role="fast", threat=1.0, ranged=[_splinter_cannon()]), cargo)
+    v1, v2, v3 = venom([inc1]), venom([inc2]), venom([wy1])
+    r1 = _embark(mk(S, "Raider", 1, role="fast", threat=1.4, ranged=[_dark_lance()]), [wy2])
     u = [
         mk(S, "Drazhar", 1, role="character", threat=3.5),   # monster-killer demiklaives
         mk(S, "Lady Malys", 1, role="character", threat=2.5),
         _shadowfield(mk(S, "Archon", 1, role="character", threat=2.0)),   # 2++ until it fails once
         mk(S, "Succubus", 1, role="character", threat=1.8),
         v1, v2, v3, r1,
-        mk(S, "Ravager", 1, role="anti_tank", threat=2.6, ranged=[_disintegrator()]),
-        mk(S, "Ravager", 1, role="anti_tank", threat=2.6, ranged=[_disintegrator()]),
+        mk(S, "Ravager", 1, role="anti_tank", threat=2.6, ranged=[dict(_disintegrator(), A=9)]),
+        mk(S, "Ravager", 1, role="anti_tank", threat=2.6, ranged=[dict(_disintegrator(), A=9)]),
         _scourges("dark"), _scourges("heat"), _scourges("shard"),   # 3x flying anti-tank/anti-infantry
         _reavers(),
         _mandrakes(),
-        mk(S, "Cronos", 2, role="line", threat=1.2),
+        mk(S, "Cronos", 2, role="line", threat=1.0, ranged=[]),
         kab, hand,
         inc1, inc2, wy1, wy2,     # embarked
     ]
@@ -181,6 +183,11 @@ def drukhari():
 def _shadowfield(u):
     u.invuln = "2+"; u.abilities = dict(u.abilities, shadowfield=True)   # 2++ until first failed save
     return u
+
+
+def _splinter_cannon():
+    # real 11e poison: S4 AP0 D1, ANTI-INFANTRY 4+ (NOT the DB's inflated AP-1 D2). Venom carries 2 -> A12.
+    return dict(name="Splinter cannon", A=12, BS="3+", S=4, AP=0, D=1, abilities=["ANTI-INFANTRY 4+"], rng=36, slot="R")
 
 
 def _disintegrator():
