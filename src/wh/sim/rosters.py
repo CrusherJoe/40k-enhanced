@@ -329,21 +329,16 @@ def aeldari():
         mk(S, "War Walkers", 2, role="line", threat=1.6, abilities=FATE),
         mk(S, "Shroud Runners", 3, role="action", threat=1.0),       # fast recon actioners
         mk(S, "Rangers", 5, role="action", threat=0.7),
-        _warlocks("Warlock Conclave", fast=False),                   # foot psykers — not in DB cut
-        _warlocks("Warlock Skyrunners", fast=True),                  # jetbike psykers — not in DB cut
+        # 3x Warlock Conclave (foot) + 3x Warlock Skyrunners (jetbike) — now from the real datasheets
+        # (data/bsdata/_overrides/aeldari.json, user-supplied). Destructor = Torrent psychic flamer.
+        mk(S, "Warlock Conclave", 2, role="character", threat=1.1, abilities=FATE),
+        mk(S, "Warlock Conclave", 2, role="character", threat=1.1, abilities=FATE),
+        mk(S, "Warlock Conclave", 2, role="character", threat=1.1, abilities=FATE),
+        mk(S, "Warlock Skyrunners", 1, role="fast", threat=1.1, abilities=FATE),
+        mk(S, "Warlock Skyrunners", 1, role="fast", threat=1.1, abilities=FATE),
+        mk(S, "Warlock Skyrunners", 1, role="fast", threat=1.1, abilities=FATE),
     ]
     return _deploy(Army("Aeldari — Spirit Conclave / Armoured Warhost (5-1)", "reconnaissance", "B", u, cp=3))
-
-
-def _warlocks(name, fast):
-    # Warlock psykers (Conclave on foot / Skyrunners on jetbikes). Absent from this BSData cut ->
-    # representative profile: T3/T4 W1 3+/4++, witchblade + a shuriken pistol, singing spear flavour.
-    return Unit(name=name, models=3, wounds=1 if not fast else 2, move=14 if fast else 7,
-                toughness=4 if fast else 3, save="3+", oc=1, ld=7, invuln="4+",
-                keywords=("MOUNTED", "PSYKER") if fast else ("INFANTRY", "PSYKER"),
-                role="fast" if fast else "character", threat=1.1,
-                ranged=[dict(name="Witchfire", A="D3", BS="3+", S=6, AP=-2, D="D3", abilities=[], rng=18, slot="R")],
-                melee=[dict(name="Witchblade", A=2, WS="3+", S=5, AP=-2, D=2, abilities=[], rng=0, slot="M")])
 
 
 # ---------------- TYRANIDS: 5-0 Talons of the Norn Queen | Assimilation Swarm (Take and Hold) --------
@@ -368,6 +363,7 @@ def tyranids():
         mk(S, "Tyrant Guard", 3, role="line", threat=1.6),
         mk(S, "Tyranid Prime with Lash Whip", 1, role="character", threat=1.4),
         mk(S, "Hormagaunts", 20, role="fast", threat=0.8),           # fast screen/objective swarm
+        mk(S, "Neurolictor", 1, role="action", threat=1.2),          # Lone Operative infiltrator/disruptor (real datasheet)
         mk(S, "Biovores", 1, role="line", threat=1.0),               # indirect spore mines
         mk(S, "Pyrovores", 2, role="line", threat=0.8),
         mk(S, "Pyrovores", 1, role="line", threat=0.8),
@@ -456,7 +452,9 @@ def tau():
         mk(S, "Commander in Coldstar Battlesuit", 4, role="character", threat=2.0, abilities=GUIDED, deep_strike=True, in_reserve=True),
         suit("Crisis Fireknife Battlesuits", 2, 2.2),
         suit("Crisis Starscythe Battlesuits", 2, 1.8),
-        _sunforge(), _sunforge(),                                # Crisis Sunforge (melta) — not in DB cut
+        # Crisis Sunforge (melta anti-tank) — now from the real datasheet (data/bsdata/_overrides/tau-empire.json)
+        suit("Crisis Sunforge Battlesuits", 3, 2.4),
+        suit("Crisis Sunforge Battlesuits", 3, 2.4),
         mk(S, "Broadside Battlesuits", 2, role="anti_tank", threat=2.6, abilities=GUIDED),  # railgun firebase
         mk(S, "Broadside Battlesuits", 1, role="anti_tank", threat=2.6, abilities=GUIDED),
         mk(S, "Stealth Battlesuits", 4, role="action", threat=1.0),
@@ -469,17 +467,6 @@ def tau():
         mk(S, "Vespid Stingwings", 4, role="fast", threat=0.7),
     ]
     return _deploy(Army("T'au — Retaliation Cadre (4-0-1)", "reconnaissance", "B", u, cp=3))
-
-
-def _sunforge():
-    # Crisis Sunforge Battlesuits: melta bomb suits (T5 W4 3+, twin fusion blaster). Absent from this
-    # BSData cut -> representative profile (3 models, MELTA anti-tank).
-    return Unit(name="Crisis Sunforge Battlesuits", models=3, wounds=4, move=10, toughness=5, save="3+",
-                oc=1, ld=7, keywords=("MOUNTED", "FLY"), role="anti_tank", threat=2.2,
-                abilities=dict(reroll_hits="ones", reroll_wounds="ones"), deep_strike=True, in_reserve=True,
-                ranged=[dict(name="Twin fusion blaster", A=2, BS="4+", S=9, AP=-4, D="D6",
-                             abilities=["MELTA 2", "TWIN-LINKED"], rng=18, slot="R")],
-                melee=[dict(name="Crushing bulk", A=3, WS="5+", S=5, AP=0, D=1, abilities=[], rng=0, slot="M")])
 
 
 # ---------------- DARK ANGELS: 6-0 Darkflight Pursuit / Company of Hunters (Reconnaissance) ----------

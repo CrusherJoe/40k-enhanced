@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Crisis Sunforge Battlesuits",
+    "source": "manual-override (user-supplied datasheet; absent from bsdata-wh40k-11e cut 2026-07)",
+    "stats": {"M": 10, "T": 5, "Sv": "3+", "W": 4, "Ld": "7+", "OC": 2},
+    "invuln": "4+",
+    "invuln_ranged_only": false,
+    "unit_size": 3,
+    "ranged": [
+      {"name": "Fusion blaster", "range": 12, "A": 2, "BS": "4+", "S": 9, "AP": -4, "D": "D6", "abilities": ["MELTA 2"],
+       "note": "2x Fusion blaster per model (A1 each) -> A2 aggregate for the sim's one-slot-per-model firing"}
+    ],
+    "melee": [
+      {"name": "Battlesuit fists", "A": 3, "WS": "5+", "S": 5, "AP": 0, "D": 1}
+    ],
+    "keywords": ["Vehicle", "Walker", "Fly", "Battlesuit", "Crisis", "Sunforge", "T'au Empire"]
+  }
+]

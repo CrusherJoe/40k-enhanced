@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Neurolictor",
+    "source": "manual-override (user-supplied datasheet; absent from bsdata-wh40k-11e cut 2026-07)",
+    "stats": {"M": 8, "T": 5, "Sv": "4+", "W": 7, "Ld": "7+", "OC": 1},
+    "invuln": "4+",
+    "invuln_ranged_only": false,
+    "unit_size": 1,
+    "ranged": [],
+    "melee": [
+      {"name": "Piercing claws and talons", "A": 6, "WS": "2+", "S": 6, "AP": -2, "D": 1, "abilities": ["PRECISION"]}
+    ],
+    "keywords": ["Infantry", "Great Devourer", "Neurolictor", "Vanguard Invader", "Tyranids", "Synapse"]
+  }
+]

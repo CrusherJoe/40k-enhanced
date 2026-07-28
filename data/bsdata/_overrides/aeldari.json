@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Warlock Conclave",
+    "source": "manual-override (user-supplied datasheet; absent from bsdata-wh40k-11e cut 2026-07)",
+    "stats": {"M": 7, "T": 3, "Sv": "6+", "W": 2, "Ld": "6+", "OC": 1},
+    "invuln": "4+",
+    "invuln_ranged_only": false,
+    "unit_size": 2,
+    "ranged": [
+      {"name": "Destructor", "range": 12, "A": "D6", "BS": "N/A", "S": 5, "AP": -1, "D": 1, "abilities": ["PSYCHIC", "TORRENT"]},
+      {"name": "Shuriken Pistol", "range": 12, "A": 1, "BS": "3+", "S": 4, "AP": -1, "D": 1, "abilities": ["ASSAULT", "PISTOL"]}
+    ],
+    "melee": [
+      {"name": "Witchblade", "A": 2, "WS": "3+", "S": 3, "AP": 0, "D": 2, "abilities": ["ANTI-INFANTRY 2+", "PSYCHIC"]}
+    ],
+    "keywords": ["Infantry", "Warlock Conclave", "Psyker", "Aeldari", "Warlock"]
+  },
+  {
+    "name": "Warlock Skyrunners",
+    "source": "manual-override (user-supplied datasheet; absent from bsdata-wh40k-11e cut 2026-07)",
+    "stats": {"M": 14, "T": 4, "Sv": "6+", "W": 3, "Ld": "6+", "OC": 2},
+    "invuln": "4+",
+    "invuln_ranged_only": false,
+    "unit_size": 1,
+    "ranged": [
+      {"name": "Destructor", "range": 12, "A": "D6", "BS": "N/A", "S": 5, "AP": -1, "D": 1, "abilities": ["PSYCHIC", "TORRENT"]},
+      {"name": "Shuriken Pistol", "range": 12, "A": 1, "BS": "3+", "S": 4, "AP": -1, "D": 1, "abilities": ["ASSAULT", "PISTOL"]},
+      {"name": "Twin Shuriken Catapult", "range": 18, "A": 2, "BS": "3+", "S": 4, "AP": -1, "D": 1, "abilities": ["ASSAULT", "TWIN-LINKED"]}
+    ],
+    "melee": [
+      {"name": "Witchblade", "A": 2, "WS": "3+", "S": 3, "AP": 0, "D": 2, "abilities": ["ANTI-INFANTRY 2+", "PSYCHIC"]}
+    ],
+    "keywords": ["Mounted", "Psyker", "Warlock Skyrunners", "Warlock", "Aeldari", "Fly"]
+  }
+]
