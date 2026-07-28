@@ -116,19 +116,19 @@ def _findings(d):
 
 
 def matchup_report(rows):
-    L = ["# 2. PER-MATCHUP ANALYSIS", "",
-         f"  {'OPPONENT':16} {'WIN%':>5} {'REAL':>6} {'GAP':>5}  {'BOARD R1→R5':14} CANT-REMOVE / YOUR DEAD WEIGHT"]
+    L = ["# 2. PER-MATCHUP WEAKNESS SCAN",
+         "  NOTE: the sim's win% is NOT a prediction (corr ~0 with real listhammer rates — see the sim",
+         "  STATUS). Real Custodes are balanced ~48% vs everything. Use the FINDINGS below (what you can't",
+         "  remove / your dead weight / board collapse), not the %. REAL rates shown only as context.", "",
+         f"  {'OPPONENT':16} {'sim':>4} {'real':>5}  {'BOARD R1→R5':14} CANT-REMOVE / YOUR DEAD WEIGHT"]
     for r in rows:
         board = " ".join(f"{v:.1f}" for v in r["find"]["ctrl"])
         a = ANCHORS.get(r["opp"])
         real = f"{a[0]:.0f}%" if a else "-"
-        gap = f"{r['win']-a[0]:+.0f}" if a else "-"
-        L.append(f"  {r['opp']:16} {r['win']:>4}% {real:>6} {gap:>5}  {board:14} "
+        L.append(f"  {r['opp']:16} {r['win']:>3}% {real:>5}  {board:14} "
                  f"can't:{r['find']['cant']}  | dead:{r['find']['dead']}")
-    grindy = [r for r in rows if r["grindy"]]
-    avg = round(sum(r["win"] for r in grindy) / max(1, len(grindy)))
-    L += ["", f"Grindy-matchup average (trustworthy band): {avg}% across {len(grindy)} opponents. "
-          "Fast/alpha rows are DIRECTIONAL — read the ranking + findings, not the exact %."]
+    L += ["", "The value here is the FINDINGS column — the enemy units you structurally can't remove and "
+          "your units that die before earning their points — which drive Section 3's recommendations."]
     return "\n".join(L)
 
 
