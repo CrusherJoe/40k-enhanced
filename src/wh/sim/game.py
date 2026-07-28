@@ -126,6 +126,9 @@ def _charge_and_fight(me, opp, rng, board):
     # fight: chargers first (active player), then alternate — simplified: active chargers, then all others
     fighters = [u for u in me.on_board() if u.melee] + [u for u in opp.on_board() if u.melee]
     fighters.sort(key=lambda u: (not u.charged))
+    piled = {}                                                # base-contact limit: you can only physically
+    def cap(t):                                               # surround a BIG single model with ~2-3 units;
+        return t.wounds >= 8 and t.models == 1                # multi-model squads can be focused freely.
     for u in fighters:
         if not u.alive or not u.melee:
             continue
@@ -133,7 +136,13 @@ def _charge_and_fight(me, opp, rng, board):
         engaged = [t for t in foe.on_board() if dist(u.pos, t.pos) <= 3.0]
         if not engaged:
             continue
-        t = max(engaged, key=lambda t: _expected_vs(u, t, melee=True) * t.threat)
+        t = max(engaged, key=lambda t: _expected_vs(u, t, melee=True) * t.threat
+                / (1 + (2.0 * piled.get(id(t), 0) if cap(t) else 0)))
+        if cap(t) and piled.get(id(t), 0) >= 3:
+            alt = [x for x in engaged if not (cap(x) and piled.get(id(x), 0) >= 3)]
+            if alt:
+                t = max(alt, key=lambda t: _expected_vs(u, t, melee=True) * t.threat)
+        piled[id(t)] = piled.get(id(t), 0) + 1
         for w in _best_weapon_set(u, t, melee=True):
             inst, mort = resolve_attacks(w, u.models, t, _mods_for(u, t, charged=u.charged), rng, charged=u.charged)
             apply_damage(t, inst, mort, rng)
@@ -252,7 +261,7 @@ def _comeback(army, rng):
         if u.abilities.get("comeback") and not u.alive and not getattr(u, "_came_back", False):
             if rng.random() < u.abilities["comeback"]:
                 u.models = 1
-                u.cur_w = max(1, u.wounds // 2)
+                u.cur_w = u.wounds
             u._came_back = True
 
 

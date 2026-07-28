@@ -1,15 +1,20 @@
 """wh.sim — a positional, turn-by-turn 40k game simulator (the real thing, not caps math).
 
-STATUS (2026-07-28): FOUNDATION + FIRST CALIBRATION. The two teammate-flagged matchups are now
-DIRECTIONALLY CORRECT (was inverted):
-  * Custodes vs Necrons C'tan:  95% -> ~47% (coin-flip; team read = a loss, so slightly high — a
-    candidate for finer calibration with the exact Necron list).
-  * Custodes vs Drukhari Skysplinter: 74% -> ~33% (very unfavourable — calibrated to the team read).
+STATUS (2026-07-28): FOUNDATION + CALIBRATED to the team's reads. Both teammate-flagged matchups now
+come out Custodes-UNFAVOURABLE (was inverted 95%/74%):
+  * Custodes vs Necrons Awakened Dynasty (the REAL 5-0 triple-C'tan list, Paul Withington, from the
+    listhammer archive): 95% -> ~37% (a loss — matches "the C'tan roll over Custodes").
+  * Custodes vs Drukhari Skysplinter: 74% -> ~39% (unfavourable; still a REPRESENTATIVE Drukhari
+    roster — pull the exact list to tighten toward the team's "very unfavourable" ~30%, the same way
+    the real Necron list dropped Necrons into place).
 The fixes that mattered: (1) an OBJECTIVE-CENTRIC AI (units contest/hold objectives instead of
-scrumming in midfield) — the single biggest correction; (2) TRANSPORTS (embark/disembark, open-topped
-firing) — Drukhari's whole tempo game; (3) C'tan necrodermis return + stronger reanimation. Still a
-representative-roster / partial-special-rules model, not exact — treat win-rates as directional and
-keep calibrating against the team's reads. Not wired into human-facing docs yet.
+scrumming in midfield) — the biggest correction; (2) TRANSPORTS (embark/disembark, open-topped
+firing) — Drukhari's tempo game; (3) C'tan resilience done right — 4++/-1 damage/5+++ FNP/full-wound
+necrodermis return + a MELEE base-contact limit so the whole army can't dogpile one monster; (4) the
+REAL 5-0 Necron list (3 C'tan + Skorpekh Lords + characters, not a body-horde).
+Still partial special rules (leader auras, stratagem economy, C'tan powers) + representative non-Necron
+rosters — treat win-rates as directional-to-calibrated and keep feeding real lists. Not wired into any
+human-facing doc yet.
 
 WHAT WORKS + IS VALIDATED
   * combat.py — dice-resolved shooting/melee, numpy-vectorized, honours the 11e keyword set

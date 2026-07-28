@@ -111,31 +111,33 @@ def custodes():
     return _deploy(Army("Custodes — The Better Thing 2", "priority-assets", "A", u, cp=3))
 
 
-# ---------------- NECRONS: Awakened Dynasty, C'tan-heavy (Take and Hold) ----------------------------
-# C'tan Shard: T11 W12 4++ and -1 to incoming Damage (min 1) -> rolls over Custodes' 2-damage spears.
+# ---------------- NECRONS: Awakened Dynasty — the real 5-0 "old but new" list (Paul Withington) ------
+# THREE C'tan + Skorpekh Lords + characters, almost no chaff. Not a horde — a monster/character wall:
+# each C'tan is T11 W16 4++ with -1 to incoming Damage (min 1) and a necrodermis return, and hits like
+# a truck in melee. This is what "the C'tan roll over Custodes" means.
 def necrons():
     S = "necrons"
-    def ctan(name):
-        try:
-            u = mk(S, name, 1, role="anti_tank", threat=6.0)
-        except Exception:
-            u = mk(S, "C'tan Shard of the Nightbringer", 1, role="anti_tank", threat=6.0)
+    def ctan(name, threat=6.0):
+        u = mk(S, name, 1, role="anti_tank", threat=threat)
         u.damage_reduction = 1
         u.invuln = u.invuln or "4+"
-        u.abilities = dict(u.abilities, comeback=0.72)
+        u.fnp = "5+"; u.abilities = dict(u.abilities, comeback=0.8)
         return u
     u = [
-        ctan("C'tan Shard of the Void Dragon"),
         ctan("C'tan Shard of the Nightbringer"),
-        _reanim(mk(S, "Necron Warriors", 20, role="line", threat=0.8), 0.65),
-        _reanim(mk(S, "Necron Warriors", 10, role="line", threat=0.7), 0.4),
-        mk(S, "Lokhust Heavy Destroyers", 3, role="anti_tank", threat=2.0),
-        _reanim(mk(S, "Lychguard", 10, role="line", threat=1.6), 0.5),
-        mk(S, "Technomancer", 1, role="character", threat=1.5),
-        mk(S, "Skorpekh Destroyers", 3, role="line", threat=1.6),
-        mk(S, "Doomstalker", 1, role="anti_tank", threat=2.0),
+        ctan("C'tan Shard of the Void Dragon"),
+        ctan("Transcendent C'tan"),
+        mk(S, "Illuminor Szeras", 1, role="character", threat=3.5),
+        mk(S, "Nekrosor Ammentar", 1, role="character", threat=3.0),
+        mk(S, "Skorpekh Lord", 1, role="fast", threat=2.4),
+        mk(S, "Skorpekh Lord", 1, role="fast", threat=2.2),
+        mk(S, "Imotekh the Stormlord", 1, role="character", threat=2.0),
+        _reanim(mk(S, "Immortals", 5, role="line", threat=1.0), 0.5),
+        mk(S, "Psychomancer", 1, role="character", threat=1.0),
+        _reanim(mk(S, "Flayed Ones", 5, role="line", threat=0.8, deep_strike=True, in_reserve=True), 0.4),
+        mk(S, "Ophydian Destroyers", 3, role="line", threat=1.4, deep_strike=True, in_reserve=True),
     ]
-    return _deploy(Army("Necrons — Awakened C'tan", "take-and-hold", "B", u, cp=3))
+    return _deploy(Army("Necrons — Awakened Dynasty (5-0 triple-C'tan)", "take-and-hold", "B", u, cp=3))
 
 
 def _reanim(u, frac):
