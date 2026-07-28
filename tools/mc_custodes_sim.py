@@ -97,7 +97,7 @@ ARCH = {
 MY_DISP = "priority-assets"                     # Custodes list disposition (stated on the list)
 
 
-def results(games=6000, seed=11):
+def results(games=10000, seed=11):
     """Thin adapter over the shared sim_game engine: adds the melee-hammer display column + Custodes'
     slight secondary edge (fast pieces + Sisters). Field names preserved for gen_custodes."""
     base = sim_game.results(ARCH, MY_DISP, games, seed, cust_sec=1.02)

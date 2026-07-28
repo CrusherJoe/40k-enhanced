@@ -15,7 +15,7 @@ import doc_versions as V
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 
-GAMES, SEED = 6000, 11
+GAMES, SEED = 10000, 11
 HEAD = PatternFill("solid", fgColor="4A3D10")
 HFONT = Font(bold=True, color="FFFFFF")
 WRAP = Alignment(wrap_text=True, vertical="top")

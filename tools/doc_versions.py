@@ -62,6 +62,12 @@ DOCS = {
     "custodes-runbook": ("1.0", "2026-07-28", "Adeptus Custodes — 'The Better Thing 2' Runbook",
                          "Full tapestry + per-matchup battle plans keyed to the forced mission; PDF-only pipeline.",
                          "docs/reports/custodes/Custodes-Better-Thing-2-Runbook.pdf"),
+    "knights-analysis": ("2.0", "2026-07-28", "Imperial Knights — LSO List A Analysis",
+                         "Rebuilt on the real-mission engine (Purge the Foe, 10k games): great vs Priority-Assets, poor vs Take-and-Hold; ~46%.",
+                         "docs/reports/knights/Knights-List-A-Analysis.xlsx"),
+    "knights-runbook": ("2.0", "2026-07-28", "Imperial Knights — LSO List A Runbook",
+                        "Per-matchup plans keyed to the FORCED mission; the disposition-driven scoring split is the headline.",
+                        "docs/reports/knights/Knights-List-A-Runbook.pdf"),
 }
 
 
