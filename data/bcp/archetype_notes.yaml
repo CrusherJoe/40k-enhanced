@@ -1,0 +1,138 @@
+# Archetype play-notes for the LSO 2026 field — verdict + how-to-play are FROM YOUR SEAT
+# (Imperial Knights, "This List Tastes Like Death by Rock and Roll" / death_rnr).
+# Seeded from the verified meta-map in MEMORY.md; verdicts vs Knights transfer directly.
+# Edit freely; `tools/bcp_archetypes.py build` folds these into the player lookup.
+# Key = exactly the archetype key ("<Faction> — <primary detachment>"). Verdict scale:
+# FAVOURABLE / COIN-FLIP / UNFAVOURABLE / HARD (accept-the-loss).
+
+"Adeptus Custodes — Shield Host":
+  verdict: "FAVOURABLE — out-OC + grind"
+  play: "Elite-but-FEW (W3-4, ~40 models). Out-OC (your OC10 vs their OC2) and grind their bodies with anti-infantry VOLUME (Avenger/RFBC/plasma). Volcano/thermal the Caladius + characters, NOT W3 Custodians (overkill). Lancer SWEEP (A10 S10) chews squads; target-rich for decapitation. Don't get greedy into their melee."
+
+"Adeptus Custodes — Lions of the Emperor":
+  verdict: "FAVOURABLE — out-OC + grind (HeeYaw 66-58 win)"
+  play: "Same as Shield Host: so-few-models, out-OC and grind them off with volume. Watch Martial Ka'tah stances in melee — stay at range, refuse the gang. Lancer sweeps their squads; Volcano the Caladius/characters, not W3 bodies."
+
+"Imperial Knights — Valourstrike Lance":
+  verdict: "MIRROR — the ditto"
+  play: "Knightball mirror (your own build). First turn + Rotate discipline decides it. Trade Volcano/plasma into their Questoris, Lancer hunts their Lancer/Castellan (Epic Challenge to snipe an attached char), win the secondary game. Don't lose a gun-Knight to their Lancer un-Rotated."
+
+"Space Marines (Astartes) — Librarius Conclave":
+  verdict: "COIN-FLIP → hard (kill the engine)"
+  play: "The Great Value engine: Dev-Wound Sternguard + Librarian Conclave discipline + Oath re-rolls stack a volley that IGNORES your invuln. KILL THE MULTIPLIER first (Librarian / re-roll or mark engine / Storm Speeder) — the naked bricks are chaff without it. Screen the alpha; don't cluster near a reactive shooter."
+
+"Dark Angels — Librarius Conclave":
+  verdict: "COIN-FLIP → hard (kill the engine)"
+  play: "As the SM Conclave — Dev-Wound plasma/Sternguard + psychic buffs that bypass invuln. Kill the buff/psychic engine first; spread vs Dev-wound smite; deny the alpha."
+
+"Necrons — Cursed Legion":
+  verdict: "UNFAVOURABLE (~20-30%)"
+  play: "54 Cold-Fervour Gauss (S7 AP-2 Lethal) + reanimation + out-OC, often an un-killable Void Dragon. Firepower-as-DENIAL: delete their soft OC to starve scoring, don't chase the un-killable. Accept the board loss, bank mobility secondaries, win on tempo not attrition."
+
+"Necrons — Awakened Dynasty":
+  verdict: "HARD / play-the-mission (triple-C'tan wall)"
+  play: "Un-killable: C'tan T11 W16 4++, -1 to incoming Damage, necrodermis return. You CANNOT table them. Remove the no-invuln support (Crypteks/lords) at range, out-tempo on secondaries, play the mission — never dump firepower into a C'tan."
+
+"Tyranids — Assimilation Swarm":
+  verdict: "COIN-FLIP — kill-race"
+  play: "5-Norn monster-mash w/ heal/regen + OC15 anchors. It's a KILL-RACE not an OC war (OC15 is unshiftable). Focus-kill the NO-INVULN pieces at range (Emissaries, Zoanthropes, Neurotyrant), grind the 4++ Assimilators, REFUSE the melee gang (kite M10-14), Lancer-assassinate a Norn (~21/charge). Win on kills + removing anchors."
+
+"Tyranids — Vanguard Onslaught":
+  verdict: "COIN-FLIP → directional (fast infiltrators)"
+  play: "Recon-disposition speed/infiltrate build — they out-tempo and grab early. Screen your deployment (deny infiltrate/scout charges >9\"), kill what scores, don't over-extend a gun-Knight. Directional read — verify at the table."
+
+"T'au Empire — Retaliation Cadre":
+  verdict: "UNFAVOURABLE"
+  play: "Railgun Dev-Wounds + markerlight AP-volume + fusion; they fall-back-and-shoot and evasion neuters your melee. Kill the rail/fusion platforms EARLY (no invuln — your Volcano deletes them), deny the alpha strike, win the movement/mission game, don't rely on the charge."
+
+"T'au Empire — Experimental Prototype Cadre":
+  verdict: "UNFAVOURABLE"
+  play: "As Retaliation — railgun Dev-Wounds + markerlight stacking. Prototype wargear = extra range/AP; kill the marker/rail platforms first, minimise firing angles into your Questoris, out-position."
+
+"T'au Empire — Mont'ka":
+  verdict: "UNFAVOURABLE → directional (aggressive T'au)"
+  play: "Mont'ka = forward/alpha T'au (extra move+shoot on the key turn). Weather the aggressive turn from cover, then punish the exposed suits with your guns. Kill fusion/rail first. Directional — verify."
+
+"Dark Angels — Company of Hunters":
+  verdict: "UNFAVOURABLE (Ravenwing)"
+  play: "Catechism Dev-Wound plasma + Black Knight Anti-Vehicle melee + 90-bike out-OC on Disruption + they fall-back-and-shoot. KILL THE STORM SPEEDER THUNDERSTRIKE FIRST (its mark = +1 to wound your Knights). Deny drops, accept the OC loss, don't feed the Black Knights a clean charge."
+
+"Dark Angels — Wrath of the Rock":
+  verdict: "HARD — accept it (Deathwing wall)"
+  play: "Deathwing terminator bricks: 2+/4++, -1 Dmg, army-wide OC, NO decapitation target. This is the 31-98 hard-counter shape — you cannot out-body OR kill-race it (guns wrong-shaped, Lancer finds nothing to bite). Minimise the bleed, steal secondaries + tempo, accept the primary loss. Dodge if the draw allows."
+
+"Leagues of Votann — Needgaârd Oathband":
+  verdict: "COIN-FLIP — deny the drop"
+  play: "Deep-strike Berserk maul-swarm (Anti-Vehicle 3+ MELEE wounds you regardless of S) + ~2 Land Fortresses. DENY THE DROPS (screen every landing >9\", Navigator Gaze bubble), kill the 2 Land Fortresses (no invuln), shred their W1 bodies. If the maul can't reach, you out-durable and out-shoot."
+
+"Emperor's Children — Coterie of the Conceited":
+  verdict: "COIN-FLIP — concede Fulgrim"
+  play: "Fulgrim + fast Slaaneshi melee (re-roll charges, hits above weight). SCREEN/CONCEDE Fulgrim — don't feed the Lancer to him unless it's a clean one-round kill. Shoot the killable support, win Priority Assets on OC10, Lancer 4++ counter-charges the chaff melee. Don't get caught mid-board."
+
+"Emperor's Children — Peerless Bladesmen":
+  verdict: "COIN-FLIP — concede Fulgrim"
+  play: "Slaaneshi elite-melee (Lucius/Lord Exultant + Flawless Blades/Infractors). Same plan: shoot the killable multipliers, refuse the melee trade you don't want, Lancer counters, win on OC/secondaries. Fast — screen your backfield."
+
+"Emperor's Children — Carnival of Excess":
+  verdict: "COIN-FLIP → directional"
+  play: "Slaaneshi horde-lean (more bodies, Take-and-Hold). Anti-infantry volume into the blades, out-durable, hold objectives on OC10. Directional — verify the exact build."
+
+"Drukhari — Skysplinter Assault":
+  verdict: "FAVOURABLE"
+  play: "Their Lethal/Decapitating keywords are NON-Vehicle → they don't touch your Knights, and no haywire. Out-durable and win the attrition. Only risk = losing Reconnaissance TEMPO — don't let them free-score; contest the board, kill the raiders (W-fragile)."
+
+"Blood Angels — Liberator Assault Group":
+  verdict: "HARD (melee)"
+  play: "BA hammers/fists smash your no-invuln fight phase (the sim's worst matchup the other way). SHOOT THEM OFF BEFORE THE CHARGE, Lancer 4++ is your only melee answer, screen + kite the Death Company / Sanguinary hammer. Never let a gun-Knight get charged; win at range or not at all."
+
+"Death Guard — Virulent Vectorium":
+  verdict: "COIN-FLIP — grindy, don't feed the FNP"
+  play: "Mortarion + Plague Marines, 5+++ and -1 Dmg army-wide. Don't grind into the FNP wall — out-tempo, remove what you can at range, play the mission. Mortarion is a Lancer target (T12 monster) but tanky; only commit for a clean kill."
+
+"Thousand Sons — Grand Coven":
+  verdict: "COIN-FLIP — kill the casters"
+  play: "Rubric marines (2+, All Is Dust -1 Dmg) + Magnus + psychic Dev-Wounds that BYPASS invuln. Magnus = a Lancer decapitation target (big monster, but warded — commit only for the kill). Kill the psychic buff/caster engine, spread vs Dev-wound smite, grind the Rubrics with high-Dmg guns (their -1 Dmg blunts multi-dmg)."
+
+"Thousand Sons — Rubricae Phalanx":
+  verdict: "COIN-FLIP — kill the casters"
+  play: "Rubric-heavy (2+/-1 Dmg bodies) + sorcerers. Same as Grand Coven: kill the casters/buff engine, use high-Dmg guns into the -1-Dmg Rubrics, spread vs Dev-wound smite. Out-OC where you can — Rubrics are low model-count."
+
+"Orks — Equatorial Hordes":
+  verdict: "HARD (horde) — accept the OC loss"
+  play: "The horde pole — 100+ bodies you can't out-OC. Anti-infantry VOLUME into the blobs (Avenger/RFBC), kill what's ON the objectives, don't chase. Accept the OC loss, win secondaries where possible. Green-Tide-adjacent = known bad matchup."
+
+"Orks — War Horde":
+  verdict: "HARD (horde) — accept the OC loss"
+  play: "Boyz-forward horde. Same as Equatorial: out-bodied, can't out-OC. Volume into the blobs, hold what you can, bank secondaries, accept the primary deficit."
+
+"Orks — Dread Mob":
+  verdict: "COIN-FLIP (dakka/walkers)"
+  play: "Walker/dakka (Kill Rig, Deffkoptas, big meks, rokkits). Their rokkits pop your Armigers — keep them back. Trade guns, kill the anti-tank platforms, out-durable the shooting; fewer bodies than a horde so OC is winnable."
+
+"World Eaters — Khorne Daemonkin":
+  verdict: "HARD (melee blender)"
+  play: "Angron + Berzerkers + Eightbound melee blender. SHOOT ON THE WAY IN, Lancer 4++ counter, screen + kite — never get charged in bulk. Angron is a Lancer target but returns; don't over-invest, just deny the charge and out-shoot."
+
+"World Eaters — Berzerker Warband":
+  verdict: "HARD (melee blender)"
+  play: "Berzerker-heavy charge army. Same plan: kill on the approach, screen the charge lanes, Lancer counters the lead brick, kite the rest. Win at range or lose the fight phase."
+
+"World Eaters — Possessed Slaughterband":
+  verdict: "HARD → directional (melee)"
+  play: "Possessed/daemon-engine melee. Shoot before the charge, Lancer 4++, screen. Directional — verify the engines (Lord of Skulls / daemon engines are Volcano targets)."
+
+"Chaos Knights — Lords of Dread":
+  verdict: "COIN-FLIP (knight duel)"
+  play: "Big-model mirror-ish — War Dogs + Abhorrent/Tyrant. It's a Knight duel: Lancer hunts their big knights/war dogs, Rotate discipline vs their guns, first turn matters. Trade Volcano into their Questoris; watch dread abilities (fear/MW)."
+
+"Chaos Knights — Infernal Lance":
+  verdict: "COIN-FLIP (knight duel)"
+  play: "War-Dog swarm lean. More small knights = out-activation risk; Lancer + Volcano pick off war dogs, Rotate the focused Knight, hold OC10 objectives. Knight duel — first turn + target priority decide it."
+
+"Adeptus Mechanicus — Explorator Maniple":
+  verdict: "UNFAVOURABLE (Rad-Zone-adjacent)"
+  play: "Kataphron Anti-Vehicle-4+ + Lethal bricks ≈ a dead Knight/turn, and they out-body you. Kill the Kataphron bricks first (they're the anti-tank), deny the alpha, don't get out-scored — bank secondaries, respect the loss."
+
+"Grey Knights — Banishers":
+  verdict: "COIN-FLIP → directional (elite psychic TP)"
+  play: "Elite terminators (2+/4++/5W) + teleport + psychic Dev-Wounds (ignore invuln) + deep strike. Deny the drops (>9\", Gaze bubble), out-OC the few bodies, spread vs psychic smite, focus casters. Directional — VERIFY at the table (new archetype, not yet play-tested vs Knights)."

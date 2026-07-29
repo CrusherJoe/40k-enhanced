@@ -100,6 +100,15 @@ event `VAiZ9vjF61Rk`, 330 players, starts 2026-08-01) is snapshotted locally. Se
   Navigator (NOTE: the real list runs a **Warglaive**, not the Helverin in the older hand-built `rosters.knights`
   List A). **Use `death_rnr` as `me` for ALL runbook/dossier/field/optimize work now — NOT knights/custodes/
   great_value.** Registered in `gauntlet.ME_META`. e.g. `python -m wh.sim.bcp field death_rnr` = List vs the real LSO field.
+- **ARCHETYPE LAYER = `tools/bcp_archetypes.py`** (built 2026-07-29) — clusters the field into archetypes
+  (`<Faction> — <primary detachment>`, since detachment=playstyle in 11E) for a RUNBOOK player-name lookup:
+  `python3 tools/bcp_archetypes.py who "<name>"` → archetype + VERDICT + HOW-TO-PLAY (from your seat). 324 lists →
+  129 archetypes; top 41 (n≥3) cover 217 lists. Play-notes live in editable `data/bcp/archetype_notes.yaml` (33
+  seeded from the meta-map, verdicts vs Knights transfer directly — FAVOURABLE Custodes/Drukhari, HARD Deathwing
+  Wrath-of-the-Rock/BA/WE/Ork-horde, UNFAVOURABLE Necrons-Cursed-Legion/T'au/DA-Company-of-Hunters/AdMech, COIN-FLIP
+  EC/Votann/Tyranid-Assimilation/TSons); derived `*-archetypes.json` is gitignored (rebuild: `bcp_archetypes.py build`).
+  Field-by-verdict (lists): 81 coin-flip / 38 hard / 37 unfav / 21 fav / 11 mirror / 136 unscored long-tail (TODO: fill
+  notes as runbooks get built). Use `who` at the table to know the archetype + plan from a player's name.
 
 **★★ RULES I GOT WRONG — banked (user-corrected 2026-07-27). Verify sims/plans against these:**
 - **KILLING CHARACTERS needs [PRECISION].** A Character attached to a Bodyguard = a Leader; you CANNOT target/allocate to it — wounds hit the bodyguard. NO Knight weapon (nor GV Sternguard/cyclone/brick) has Precision -> you canNOT snipe attached chars at range. TOOL: **EPIC CHALLENGE (core strat 15.03, 1CP)** — in the Fight phase a friendly CHARACTER's melee weapons gain [PRECISION]. Castellan/Crusader/**Lancer are all CHARACTERs** (Helverin is not) -> the Lancer (S20 AP-3 D8) charges + Epic-Challenges = assassinate the attached char in MELEE. Standalone Monster/Vehicle/Titanic chars (Fulgrim/Magnus/Lion/DPs/Steel-Hammer superheavies/enemy Knights) = shoot/fight DIRECTLY. Lone Operatives = only targetable within 12". Shieldbreaker = Anti-TITANIC (enemy Knights/superheavies), NOT an infantry-character sniper.

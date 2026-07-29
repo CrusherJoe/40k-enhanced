@@ -30,3 +30,4 @@ reports/
 www.bestcoastpairings.com.har
 *.har
 data/bcp/*.sqlite
+data/bcp/*-archetypes.json
