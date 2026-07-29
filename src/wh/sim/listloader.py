@@ -28,11 +28,17 @@ _DISP = {"take and hold": "take-and-hold", "purge the foe": "purge-the-foe",
          "reconnaissance": "reconnaissance", "priority assets": "priority-assets", "disruption": "disruption"}
 
 # chapter datasheets that live in the generic space-marines cut / a named-character cut
-_FALLBACK = {"blood-angels": ["space-marines"], "dark-angels": ["space-marines"],
-             "space-marines": ["salamanders", "ultramarines", "imperial-fists"],
+# Agents of the Imperium (Navigator, Assassins, Inquisitors, …) ally into most Imperium armies,
+# so their datasheets live in the agents cut, not the host army's — add it as a trailing fallback.
+_AGENTS = ["agents-of-the-imperium"]
+_FALLBACK = {"blood-angels": ["space-marines"] + _AGENTS, "dark-angels": ["space-marines"] + _AGENTS,
+             "space-marines": ["salamanders", "ultramarines", "imperial-fists"] + _AGENTS,
              # chapters that share the common Marine datasheet pool
-             "black-templars": ["space-marines"], "deathwatch": ["space-marines"],
-             "space-wolves": ["space-marines"]}
+             "black-templars": ["space-marines"] + _AGENTS, "deathwatch": ["space-marines"] + _AGENTS,
+             "space-wolves": ["space-marines"] + _AGENTS,
+             # Imperium armies that commonly ally in an Agent (e.g. Knights' Navigator)
+             "imperial-knights": _AGENTS, "astra-militarum": _AGENTS, "adepta-sororitas": _AGENTS,
+             "adeptus-custodes": _AGENTS, "adeptus-mechanicus": _AGENTS, "grey-knights": _AGENTS}
 
 _FACTION_SLUG = {"Orks": "orks", "Aeldari": "aeldari", "Tyranids": "tyranids",
                  "Emperor's Children": "emperors-children", "Astra Militarum": "astra-militarum",
