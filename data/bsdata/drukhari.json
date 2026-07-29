@@ -411,6 +411,39 @@
      "abilities": [
       "ANTI-INFANTRY 3+"
      ]
+    },
+    {
+     "name": "Clawed Fiend fists",
+     "A": 5,
+     "WS": "4+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Khymerae talons",
+     "A": 4,
+     "WS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Razorwing Feathers",
+     "A": 6,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
     }
    ],
    "keywords": [
@@ -418,6 +451,138 @@
     "Character",
     "Fly",
     "Beastmaster"
+   ]
+  },
+  {
+   "name": "Court of the Archon [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "5+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shardcarbine",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Splinter pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Eyeburst",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Shaimeshi Blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+"
+     ]
+    },
+    {
+     "name": "Sslyth battle-blade",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Ur-ghul Talons",
+     "A": 6,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "keywords": [],
+   "extra_profiles": [
+    {
+     "name": "Sslyth",
+     "stats": {
+      "M": 7,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Medusae",
+     "stats": {
+      "M": 7,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Ur-ghul",
+     "stats": {
+      "M": 7,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
    ]
   },
   {
@@ -812,6 +977,57 @@
    ]
   },
   {
+   "name": "Grotesques [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 5,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Liquifier Gun",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Paired monstrous Weapons",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Monstrous Weapons",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Haemonculus",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -891,6 +1107,265 @@
    ]
   },
   {
+   "name": "Hand of the Archon",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Splinter Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Stinger pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dark Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Splinter Cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 3,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shardcarbine",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power Weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Pain sculptors",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Razorflail",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Hellions",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Splinter Pods",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hellglaive",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LANCE",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "LANCE",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Stunclaw",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "LANCE",
+      "PRECISION"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Incubi",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -911,6 +1386,150 @@
      "S": 5,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Demiklaives - Dual Blades",
+     "A": 6,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Demiklaives - Single Blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Kabalite Warriors",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Splinter Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Splinter Cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 3,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Dark Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
     }
    ],
    "keywords": []
@@ -1056,6 +1675,50 @@
     "Infantry",
     "Leader"
    ]
+  },
+  {
+   "name": "Mandrakes",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Baleblast",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "DEVASTATING WOUNDS",
+      "IGNORES COVER"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Glimmersteel Blade",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Raider",
@@ -1521,6 +2184,346 @@
     "Reaper",
     "Frame"
    ]
+  },
+  {
+   "name": "Reavers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 16,
+    "T": 4,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Splinter Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Heat Lance",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bladevanes",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "LANCE"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Scourges with Heavy Weapons",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Heat Lance",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "HEAVY",
+      "MELTA 3"
+     ]
+    },
+    {
+     "name": "Splinter Cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 3,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dark Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Haywire Blaster",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 3,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Shardcarbine",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Scourges with Shardcarbines",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Shardcarbine",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Succubus",
@@ -2031,6 +3034,183 @@
     "Vehicle",
     "Fly"
    ]
+  },
+  {
+   "name": "Wracks",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 4,
+    "Sv": "5+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Hexrifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Liquifier Gun",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Ossefactor",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Stinger Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Twin Torturer's Tools",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Torturer's tool",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+"
+     ]
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Wyches",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "4+ / 6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hekatarii Blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Gladiatorial weapons",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 5,
+     "WS": "3+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "keywords": []
   }
  ]
 }

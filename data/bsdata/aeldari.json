@@ -908,6 +908,780 @@
    ]
   },
   {
+   "name": "Corsair Cloud Dancer Band [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Twin shuriken catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Shuriken cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Dark lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Dissonance cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Splinter cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Dissonance pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Brace of pistols",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Void sabre",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Corsair Reaver Band [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Corsair firearm",
+     "range": 24,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Aeldari missile launcher - sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Aeldari missile launcher - starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Fusion gun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Splinter cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Dark lance",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Shuriken cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Dissonance pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Brace of pistols",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Spar glaive",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Void sabre",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Corsair Skyreavers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Neuro disruptor",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Corsair blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Fusion gun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Corsair Blade",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Corsair Voidreavers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Shuriken cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Wraithcannon",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6+1"
+    },
+    {
+     "name": "Shuriken rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Corsair shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neuro disruptor",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power sword",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Corsair Voidscarred",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Executioner",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": "D3",
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Shuriken rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Fusion pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Wraithcannon",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6+1"
+    },
+    {
+     "name": "Long rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Corsair shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Corsair blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Neuro disruptor",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Shuriken pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Paired Hekatarii blades",
+     "A": 4,
+     "WS": "2+",
+     "S": 3,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power sword",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Witch staff",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": "D3",
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Craftworld Warleader [Crucible]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1467,6 +2241,57 @@
      "abilities": [
       "IGNORES COVER"
      ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "IGNORES COVER",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Tempest Launcher",
+     "range": 36,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "2+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "IGNORES COVER"
+     ]
     }
    ],
    "melee": [
@@ -1568,6 +2393,19 @@
      "abilities": [
       "ASSAULT"
      ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
@@ -1577,6 +2415,22 @@
      "WS": "3+",
      "S": 3,
      "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Diresword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power Glaive",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -3,
      "D": 1
     }
    ],
@@ -2049,6 +2903,60 @@
       "ASSAULT",
       "MELTA 3"
      ]
+    },
+    {
+     "name": "Exarch's Dragon Fusion Gun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 6"
+     ]
+    },
+    {
+     "name": "Dragon's Breath Flamer",
+     "range": 12,
+     "A": "D6+2",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Firepike",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    },
+    {
+     "name": "Dragon Fusion Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 3",
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
@@ -2059,6 +2967,14 @@
      "S": 3,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Dragon Axe",
+     "A": 3,
+     "WS": "3+",
+     "S": 6,
+     "AP": -4,
+     "D": "D6"
     }
    ],
    "keywords": []
@@ -2736,6 +3652,69 @@
      "abilities": [
       "ASSAULT"
      ]
+    },
+    {
+     "name": "Missile Launcher - Starshot",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Missile Launcher - Sunburst",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bright Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Starcannon",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
     }
    ],
    "melee": [
@@ -2970,6 +3949,39 @@
     {
      "name": "Banshee Blade",
      "A": 2,
+     "WS": "2+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Executioner",
+     "A": 3,
+     "WS": "2+",
+     "S": 6,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Triskele",
+     "A": 6,
+     "WS": "2+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    },
+    {
+     "name": "Mirrorswords",
+     "A": 4,
      "WS": "2+",
      "S": 4,
      "AP": -2,
@@ -4612,6 +5624,40 @@
      "abilities": [
       "ASSAULT"
      ]
+    },
+    {
+     "name": "Star Lance",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Paragon Sabre",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -5516,6 +6562,48 @@
     "Ld": "7+",
     "OC": 0
    },
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Fusion gun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 2"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Close Combat Weapon",
@@ -5523,6 +6611,14 @@
      "WS": "3+",
      "S": 3,
      "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power sword",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
      "D": 1
     }
    ],
@@ -5575,6 +6671,37 @@
      "abilities": [
       "SUSTAINED HITS 1"
      ]
+    },
+    {
+     "name": "Chainsabres",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Scorpion's claw",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Biting blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -3,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
     }
    ],
    "keywords": []
@@ -5605,6 +6732,57 @@
       "ASSAULT",
       "LETHAL HITS"
      ]
+    },
+    {
+     "name": "Exarch's Lasblaster",
+     "range": 24,
+     "A": 4,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Hawk's Talon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Sunpistol",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "LETHAL HITS",
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
@@ -5614,6 +6792,14 @@
      "WS": "3+",
      "S": 3,
      "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power Sword",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
      "D": 1
     }
    ],
@@ -5786,6 +6972,99 @@
     "Daemon",
     "Aeldari"
    ]
+  },
+  {
+   "name": "Troupe",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Fusion Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Neuro Disruptor",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Harlequin's Blade",
+     "A": 5,
+     "WS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Harlequin's Special Weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Power sword",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Troupe Master",
@@ -6415,6 +7694,257 @@
    "keywords": []
   },
   {
+   "name": "Warlock",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Singing Spear",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": 0,
+     "D": 3,
+     "abilities": [
+      "ASSAULT",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Destructor",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Witchblade",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Support",
+     "Battle Focus"
+    ],
+    "datasheet": [
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Guardian Defenders - Storm Guardians You can attach this model to a unit, even if one Autarch or Farseer model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+     },
+     {
+      "name": "Runes of Fortune (Psychic)",
+      "text": "Each time an enemy unit declares a charge, if one or more units with this ability are selected as a target of that charge, subtract 2 from the Charge roll."
+     },
+     {
+      "name": "Psychic Communion (Psychic)",
+      "text": "Each time this model is selected to shoot, until the end of the phase, add 1 to the Attacks and Strength characteristics of its Destructor weapon for each other friendly Aeldari Psyker model within 6\" of this model (to a maximum of +2)."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Warlock",
+    "Aeldari",
+    "Ynnari",
+    "Support"
+   ]
+  },
+  {
+   "name": "Warlock Conclave",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 7,
+    "T": 3,
+    "Sv": "6+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Destructor",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Singing Spear",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": 0,
+     "D": 3,
+     "abilities": [
+      "ASSAULT",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Witchblade",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Warlock Skyrunners",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "6+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Shuriken Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Destructor",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Singing Spear",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": 0,
+     "D": 3,
+     "abilities": [
+      "ASSAULT",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Witchblade",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Warp Hunter [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -6540,6 +8070,46 @@
       "IGNORES COVER",
       "TORRENT"
      ]
+    },
+    {
+     "name": "Exarch's Deathspinner",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Death Weavers",
+     "range": 6,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Spinneret Rifle",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
     }
    ],
    "melee": [
@@ -6550,6 +8120,30 @@
      "S": 3,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Powerblades",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "LETHAL HITS",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Powerblade Array",
+     "A": 10,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "LETHAL HITS",
+      "TWIN-LINKED"
+     ]
     }
    ],
    "keywords": []
@@ -6854,6 +8448,70 @@
     "Aeldari",
     "Frame"
    ]
+  },
+  {
+   "name": "Windriders",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 14,
+    "T": 4,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin Shuriken Catapult",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN LINKED"
+     ]
+    },
+    {
+     "name": "Scatter Laser",
+     "range": 36,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Shuriken Cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Wraithblades",
@@ -7557,6 +9215,153 @@
      "S": 4,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Demiklaives - Dual Blades",
+     "A": 6,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Demiklaives - Single Blade",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Ynnari Kabalite Warriors",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Shredder",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Splinter Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Splinter Cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 3,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Dark Lance",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+2",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close Combat Weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Sybarite Weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
     }
    ],
    "keywords": []
@@ -7630,6 +9435,96 @@
     "Transport",
     "Frame"
    ]
+  },
+  {
+   "name": "Ynnari Reavers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 16,
+    "T": 4,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Splinter Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blaster",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D6+1",
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Heat Lance",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 14,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 3"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bladevanes",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Agonizer",
+     "A": 4,
+     "WS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Ynnari Succubus",
@@ -7793,6 +9688,59 @@
     "Vehicle",
     "Frame"
    ]
+  },
+  {
+   "name": "Ynnari Wyches",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+ / 6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Splinter Pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "ASSAULT",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Blast Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": "D3",
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hekatarii Blade",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Yvraine",

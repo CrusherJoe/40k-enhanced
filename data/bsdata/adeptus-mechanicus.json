@@ -1612,6 +1612,97 @@
      "abilities": [
       "ANTI-INFANTRY 4+"
      ]
+    },
+    {
+     "name": "Digital Cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Electro-fire Implants",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "ANTI-INFANTRY 4+",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neural Jammer",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Nanoshard Projector",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arc Annulus",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Electro-fused Vambraces",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Syntaxik Charger",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "DEVASTATING WOUNDS",
+      "ONE SHOT",
+      "SONIC DEVASTATION"
+     ]
     }
    ],
    "melee": [
@@ -1621,6 +1712,14 @@
      "WS": "4+",
      "S": 5,
      "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
      "D": 1
     }
    ],
@@ -1660,6 +1759,97 @@
      "S": 12,
      "AP": -3,
      "D": "D6+1"
+    },
+    {
+     "name": "Digital Cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Electro-fire Implants",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "ANTI-INFANTRY 4+",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neural Jammer",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Nanoshard Projector",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arc Annulus",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Electro-fused Vambraces",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Syntaxik Charger",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "DEVASTATING WOUNDS",
+      "ONE SHOT",
+      "SONIC DEVASTATION"
+     ]
     }
    ],
    "melee": [
@@ -1669,6 +1859,14 @@
      "WS": "4+",
      "S": 5,
      "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
      "D": 1
     }
    ],
@@ -2206,6 +2404,150 @@
    ]
   },
   {
+   "name": "Ironstrider Ballistarii",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 7,
+    "Sv": "3+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "5+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin cognis autocannon",
+     "range": 48,
+     "A": 4,
+     "BS": "4+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin cognis lascannon",
+     "range": 48,
+     "A": 2,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Digital Cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Electro-fire Implants",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "ANTI-INFANTRY 4+",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neural Jammer",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Nanoshard Projector",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arc Annulus",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Electro-fused Vambraces",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Syntaxik Charger",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "DEVASTATING WOUNDS",
+      "ONE SHOT",
+      "SONIC DEVASTATION"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ironstrider feet",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Kastelan Robots",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -2267,6 +2609,97 @@
      "D": 2,
      "abilities": [
       "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Digital Cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Electro-fire Implants",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "ANTI-INFANTRY 4+",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neural Jammer",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Nanoshard Projector",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arc Annulus",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Electro-fused Vambraces",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Syntaxik Charger",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "DEVASTATING WOUNDS",
+      "ONE SHOT",
+      "SONIC DEVASTATION"
      ]
     }
    ],
@@ -6262,6 +6695,97 @@
       "HEAVY",
       "PRECISION"
      ]
+    },
+    {
+     "name": "Digital Cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Electro-fire Implants",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "ANTI-INFANTRY 4+",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neural Jammer",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Nanoshard Projector",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arc Annulus",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Electro-fused Vambraces",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Syntaxik Charger",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "DEVASTATING WOUNDS",
+      "ONE SHOT",
+      "SONIC DEVASTATION"
+     ]
     }
    ],
    "melee": [
@@ -6301,6 +6825,97 @@
      "abilities": [
       "IGNORES COVER",
       "PISTOL"
+     ]
+    },
+    {
+     "name": "Digital Cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Electro-fire Implants",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "ANTI-INFANTRY 4+",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neural Jammer",
+     "range": 18,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PISTOL",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Nanoshard Projector",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Arc Annulus",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Electro-fused Vambraces",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Syntaxik Charger",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 2+",
+      "DEVASTATING WOUNDS",
+      "ONE SHOT",
+      "SONIC DEVASTATION"
      ]
     }
    ],

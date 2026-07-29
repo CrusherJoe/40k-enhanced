@@ -252,6 +252,89 @@
      "abilities": [
       "RAPID FIRE 2"
      ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Cyclone missile launcher - frag",
+     "range": 36,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Cyclone missile launcher - krak",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Assault cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Heavy Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
     }
    ],
    "melee": [
@@ -262,6 +345,58 @@
      "S": 8,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Chainfist",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+"
+     ]
+    },
+    {
+     "name": "Halberd of Caliban",
+     "A": 5,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Power Weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Twin lightning claws",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
     }
    ],
    "abilities": {
@@ -311,6 +446,29 @@
      "S": 6,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Great Weapon of the Unforgiven",
+     "A": 5,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Relic Weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "LETHAL HITS"
+     ]
     }
    ],
    "keywords": []
@@ -471,6 +629,89 @@
      "abilities": [
       "RAPID FIRE 2"
      ]
+    },
+    {
+     "name": "Cyclone missile launcher - frag",
+     "range": 36,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Cyclone missile launcher - krak",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Assault cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Heavy Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
     }
    ],
    "melee": [
@@ -481,6 +722,25 @@
      "S": 5,
      "AP": -2,
      "D": 1
+    },
+    {
+     "name": "Power Fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Chainfist",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+"
+     ]
     }
    ],
    "keywords": []
@@ -1178,6 +1438,25 @@
      "D": 1,
      "abilities": [
       "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Master-crafted power weapon",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Orksbane",
+     "A": 4,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "CLEAVE 2"
      ]
     }
    ],

@@ -128,7 +128,112 @@
     "Ld": "6+",
     "OC": 1
    },
+   "ranged": [
+    {
+     "name": "Storm Bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Assault Cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Cyclone missile launcher - frag",
+     "range": 36,
+     "A": "2D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Cyclone missile launcher - krak",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    }
+   ],
    "melee": [
+    {
+     "name": "Power Fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
     {
      "name": "Power Weapon",
      "A": 4,
@@ -169,6 +274,22 @@
      "abilities": [
       "TWIN-LINKED"
      ]
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
     }
    ],
    "keywords": []
@@ -374,6 +495,160 @@
    ]
   },
   {
+   "name": "Deathwatch Veterans",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "3+",
+    "W": 2,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Frag cannon",
+     "range": 18,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HEAVY",
+      "RAPID FIRE D3"
+     ]
+    },
+    {
+     "name": "Infernus heavy bolter - heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Infernus heavy bolter - heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Stalker-pattern boltgun",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Deathwatch shotgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 2,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Deathwatch thunder hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Blackshield blades",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Xenophase blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Decimus Kill Team",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -409,6 +684,162 @@
       "HAZARDOUS",
       "PISTOL"
      ]
+    },
+    {
+     "name": "Stalker bolt rifle",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "LETHAL HITS",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Plasma incinerator - Standard",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma incinerator - Supercharge",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Deathwatch marksman bolt carbine",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Special-issue bolt pistol",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "PRECISION",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Frag cannon",
+     "range": 18,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HEAVY",
+      "LETHAL HITS",
+      "RAPID FIRE D3"
+     ]
+    },
+    {
+     "name": "Hellstorm bolt rifle",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "HEAVY",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Astartes grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Astartes grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Infernus heavy bolter - heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Infernus heavy bolter - heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
     }
    ],
    "melee": [
@@ -421,6 +852,47 @@
      "D": 2,
      "abilities": [
       "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy thunder hammer",
+     "A": 3,
+     "WS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Combat knife",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Xenophase blade",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
      ]
     }
    ],
@@ -524,6 +996,134 @@
      "D": 1,
      "abilities": [
       "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Heavy bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Pyreblaster",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma pistol - Standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - Supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma incinerator - Standard",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma incinerator - Supercharge",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Castellan Launcher",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Vengor launcher",
+     "range": 48,
+     "A": "D6",
+     "BS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Superfrag missile launcher",
+     "range": 48,
+     "A": "D6+1",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Superkrak missile launcher",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
      ]
     }
    ],
@@ -712,6 +1312,77 @@
      "abilities": [
       "CLOSE-QUARTERS"
      ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Long Vigil ranged weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Frag cannon",
+     "range": 18,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HEAVY",
+      "RAPID FIRE D3"
+     ]
+    },
+    {
+     "name": "Psychic Cleanse",
+     "range": 24,
+     "A": "D6",
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": "D3",
+     "abilities": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Heavy Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Deathwatch twin boltgun",
+     "range": 24,
+     "A": 4,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
     }
    ],
    "melee": [
@@ -721,6 +1392,52 @@
      "WS": "2+",
      "S": 6,
      "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Long Vigil melee weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Twin lightning claws",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Force weapon",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -3,
+     "D": "D3",
+     "abilities": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
      "D": 2
     }
    ],
@@ -940,6 +1657,83 @@
      "abilities": [
       "CLOSE-QUARTERS"
      ]
+    },
+    {
+     "name": "Deathwatch occulus bolt carbine",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Special-issue bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Deathwatch Bolt carbine",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "LETHAL HITS",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Instigator bolt carbine",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Las fusil",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Bolt sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
     }
    ],
    "melee": [
@@ -950,6 +1744,28 @@
      "S": 4,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Paired combat blades",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Combat knife",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PRECISION"
+     ]
     }
    ],
    "keywords": []
@@ -1016,6 +1832,50 @@
       "HAZARDOUS",
       "PISTOL"
      ]
+    },
+    {
+     "name": "Assault bolters",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL",
+      "SUSTAINED HITS 2",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Plasma exterminators - standard",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Plasma exterminators - supercharge",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "ASSAULT",
+      "HAZARDOUS",
+      "PISTOL",
+      "TWIN-LINKED"
+     ]
     }
    ],
    "melee": [
@@ -1041,6 +1901,14 @@
      "WS": "3+",
      "S": 5,
      "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
      "D": 1
     }
    ],

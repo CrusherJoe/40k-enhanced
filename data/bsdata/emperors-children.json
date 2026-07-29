@@ -381,6 +381,18 @@
      "D": "D6+1"
     },
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Combi-weapon",
      "range": 24,
      "A": 1,
@@ -470,6 +482,18 @@
     "OC": 2
    },
    "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
     {
      "name": "Combi-weapon",
      "range": 24,
@@ -590,6 +614,18 @@
    "invuln_ranged_only": false,
    "ranged": [
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Combi-weapon",
      "range": 24,
      "A": 1,
@@ -631,6 +667,14 @@
     }
    ],
    "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
     {
      "name": "Chainfist",
      "A": 3,
@@ -2691,6 +2735,30 @@
      "S": 5,
      "AP": -1,
      "D": 2,
+     "abilities": [
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Blastmaster - varied frequency",
+     "range": 18,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Blastmaster - single frequency",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
      "abilities": [
       "IGNORES COVER"
      ]

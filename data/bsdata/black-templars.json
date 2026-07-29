@@ -309,6 +309,56 @@
       "PISTOL",
       "TORRENT"
      ]
+    },
+    {
+     "name": "Bolt Rifle",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Pyreblaster",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Neophyte Firearm",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
     }
    ],
    "melee": [
@@ -322,6 +372,33 @@
      "abilities": [
       "LETHAL HITS"
      ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -349,6 +426,296 @@
      "abilities": [
       "CLOSE-QUARTERS"
      ]
+    },
+    {
+     "name": "Astartes Shotgun",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy Bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grav-cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "ANTI-VEHICLE 2+",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Krak",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "HEAVY",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HEAVY",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 1",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Grav-gun",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 2+"
+     ]
+    },
+    {
+     "name": "Grav-pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 2+",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Inferno Pistol",
+     "range": 6,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -4,
+     "D": "D3",
+     "abilities": [
+      "MELTA 2",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
     }
    ],
    "melee": [
@@ -358,6 +725,60 @@
      "WS": "3+",
      "S": 4,
      "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 2,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Twin Lightning Claws",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Thunder Hammer",
+     "A": 2,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
      "D": 1
     }
    ],
@@ -1783,6 +2204,47 @@
       "HEAVY",
       "RAPID FIRE 1"
      ]
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Pyrecannon",
+     "range": 12,
+     "A": "D6+1",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Sternguard Heavy Bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
     }
    ],
    "melee": [
@@ -1793,6 +2255,30 @@
      "S": 4,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Astartes Chainsword",
+     "A": 6,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power Weapon",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Power Fist",
+     "A": 4,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -1951,6 +2437,31 @@
      "abilities": [
       "RAPID FIRE 2"
      ]
+    },
+    {
+     "name": "Heavy Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Assault Cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
     }
    ],
    "melee": [
@@ -1975,6 +2486,14 @@
     },
     {
      "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power Fist",
      "A": 3,
      "WS": "3+",
      "S": 8,

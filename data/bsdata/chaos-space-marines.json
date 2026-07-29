@@ -94,6 +94,14 @@
      "S": 5,
      "AP": -1,
      "D": 2
+    },
+    {
+     "name": "Blasphemous appendages",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [],
@@ -124,6 +132,55 @@
    },
    "ranged": [
     {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Flamer",
      "range": 12,
      "A": "D6",
@@ -149,6 +206,31 @@
      ]
     },
     {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
      "name": "Combi-weapon",
      "range": 24,
      "A": 1,
@@ -164,6 +246,22 @@
     }
    ],
    "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
     {
      "name": "Power fist",
      "A": 3,
@@ -309,6 +407,18 @@
      ]
     },
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Hunter-killer missile",
      "range": 48,
      "A": 1,
@@ -376,6 +486,18 @@
      "S": 12,
      "AP": -3,
      "D": "D6+1"
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
     },
     {
      "name": "Combi-weapon",
@@ -1590,6 +1712,18 @@
      ]
     },
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Combi-weapon",
      "range": 24,
      "A": 1,
@@ -1698,6 +1832,18 @@
      ]
     },
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Combi-weapon",
      "range": 24,
      "A": 1,
@@ -1793,6 +1939,18 @@
     "OC": 2
    },
    "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
     {
      "name": "Combi-weapon",
      "range": 24,
@@ -1911,6 +2069,18 @@
    "invuln_ranged_only": false,
    "ranged": [
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Combi-weapon",
      "range": 24,
      "A": 1,
@@ -1923,9 +2093,43 @@
       "DEVASTATING WOUNDS",
       "RAPID FIRE 1"
      ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Reaper autocannon",
+     "range": 36,
+     "A": 4,
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "SUSTAINED HITS 1"
+     ]
     }
    ],
    "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
     {
      "name": "Power fist",
      "A": 3,
@@ -1933,6 +2137,17 @@
      "S": 8,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Chainfist",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 3+"
+     ]
     },
     {
      "name": "Paired accursed weapons",
@@ -1970,6 +2185,18 @@
      "D": "D6",
      "abilities": [
       "BLAST"
+     ]
+    },
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
      ]
     },
     {
@@ -2048,6 +2275,52 @@
    },
    "ranged": [
     {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
      "name": "Combi-weapon",
      "range": 24,
      "A": 1,
@@ -2064,12 +2337,12 @@
    ],
    "melee": [
     {
-     "name": "Power fist",
+     "name": "Accursed weapon",
      "A": 4,
      "WS": "3+",
-     "S": 8,
+     "S": 5,
      "AP": -2,
-     "D": 2
+     "D": 1
     },
     {
      "name": "Paired accursed weapons",
@@ -2081,6 +2354,14 @@
      "abilities": [
       "TWIN-LINKED"
      ]
+    },
+    {
+     "name": "Power fist",
+     "A": 4,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -2189,6 +2470,16 @@
      ]
     }
    ],
+   "melee": [
+    {
+     "name": "Brutal assault weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
    "abilities": {
     "faction": [
      "Dark Pacts"
@@ -2246,6 +2537,18 @@
      ]
     },
     {
+     "name": "Autogun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
      "name": "Flamer",
      "range": 12,
      "A": "D6",
@@ -2291,6 +2594,24 @@
       "HEAVY",
       "RAPID FIRE 3"
      ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Brutal assault weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "abilities": {
@@ -2396,6 +2717,20 @@
    },
    "invuln": "4+",
    "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Accursed crozius",
@@ -2404,6 +2739,14 @@
      "S": 6,
      "AP": -1,
      "D": 2
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [
@@ -2435,6 +2778,46 @@
     "Ld": "7+",
     "OC": 1
    },
+   "ranged": [
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Warp Curse - witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Warp Curse - focused witchfire",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PSYCHIC",
+      "SUSTAINED HITS 2"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Commune blade",
@@ -2443,6 +2826,25 @@
      "S": 4,
      "AP": -2,
      "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Commune stave",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": "D3",
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
     }
    ],
    "keywords": []
@@ -2636,6 +3038,18 @@
    },
    "ranged": [
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Flamer tendril",
      "range": 12,
      "A": "D6",
@@ -2732,18 +3146,6 @@
      "S": 4,
      "AP": 0,
      "D": 1
-    },
-    {
-     "name": "Combi-bolter",
-     "range": 24,
-     "A": 2,
-     "BS": "2+",
-     "S": 4,
-     "AP": 0,
-     "D": 1,
-     "abilities": [
-      "RAPID FIRE 2"
-     ]
     },
     {
      "name": "Combi-weapon",
@@ -3098,6 +3500,18 @@
    },
    "ranged": [
     {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
      "name": "Combi-weapon",
      "range": 24,
      "A": 1,
@@ -3195,6 +3609,14 @@
      "S": 5,
      "AP": -1,
      "D": 3
+    },
+    {
+     "name": "Surgeon Acolyte's tools",
+     "A": 1,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "abilities": {
@@ -3434,6 +3856,21 @@
     "Ld": "7+",
     "OC": 1
    },
+   "ranged": [
+    {
+     "name": "Belly flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Brutal weapons",
@@ -3442,6 +3879,14 @@
      "S": 4,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Hideous mutations",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
     }
    ],
    "keywords": [],
@@ -3547,6 +3992,78 @@
    },
    "ranged": [
     {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
      "name": "Meltagun",
      "range": 12,
      "A": 1,
@@ -3557,9 +4074,77 @@
      "abilities": [
       "MELTA 2"
      ]
+    },
+    {
+     "name": "Havoc autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Havoc lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Havoc missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Havoc missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Havoc reaper chaincannon",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Havoc heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
     }
    ],
    "melee": [
+    {
+     "name": "Accursed weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
     {
      "name": "Power fist",
      "A": 3,
@@ -3567,6 +4152,22 @@
      "S": 8,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": []
@@ -3583,6 +4184,18 @@
     "OC": 3
    },
    "ranged": [
+    {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
     {
      "name": "Heavy flamer",
      "range": 12,
@@ -4197,6 +4810,45 @@
     "Ld": "6+",
     "OC": 2
    },
+   "ranged": [
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Chainblade",
@@ -4205,6 +4857,14 @@
      "S": 4,
      "AP": -1,
      "D": 1
+    },
+    {
+     "name": "Khornate eviscerator",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -4437,6 +5097,187 @@
     "Ld": "6+",
     "OC": 2
    },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Balefire tome",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Havoc autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Reaper chaincannon",
+     "range": 24,
+     "A": 8,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Accursed weapon",
@@ -4445,6 +5286,22 @@
      "S": 5,
      "AP": -2,
      "D": 1
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Heavy melee weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
     },
     {
      "name": "Close combat weapon",
@@ -4588,6 +5445,20 @@
     "Ld": "6+",
     "OC": 1
    },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Axe of dismemberment",
@@ -4674,6 +5545,18 @@
       "PRECISION",
       "PSYCHIC"
      ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
@@ -4743,6 +5626,55 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Mind Wrench",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": "D6+1",
+     "abilities": [
+      "PRECISION",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Londaxi maimer",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
     }
    ],
    "melee": [
@@ -4753,6 +5685,45 @@
      "S": 4,
      "AP": -2,
      "D": 1
+    },
+    {
+     "name": "Force stave",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Axe of Ending",
+     "A": 6,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-CHARACTER 2+",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Power sabre",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Bionic gauntlet",
+     "A": 1,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
     }
    ],
    "abilities": {
@@ -5036,6 +6007,52 @@
    },
    "ranged": [
     {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
      "name": "Heavy bolter",
      "range": 36,
      "A": 3,
@@ -5087,6 +6104,31 @@
      ]
     },
     {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
      "name": "Meltagun",
      "range": 12,
      "A": 1,
@@ -5112,6 +6154,14 @@
      ]
     },
     {
+     "name": "Accursed weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
+    {
      "name": "Power fist",
      "A": 3,
      "WS": "3+",
@@ -5125,6 +6175,14 @@
      "WS": "3+",
      "S": 4,
      "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Astartes chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
      "D": 1
     },
     {
@@ -5259,6 +6317,30 @@
      "abilities": [
       "IGNORES COVER"
      ]
+    },
+    {
+     "name": "Blastmaster - varied frequency",
+     "range": 18,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Blastmaster - single frequency",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "IGNORES COVER"
+     ]
     }
    ],
    "melee": [
@@ -5388,6 +6470,31 @@
      ]
     },
     {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
      "name": "Boltgun",
      "range": 24,
      "A": 2,
@@ -5397,6 +6504,31 @@
      "D": 1,
      "abilities": [
       "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
      ]
     },
     {
@@ -5570,6 +6702,43 @@
    },
    "ranged": [
     {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
      "name": "Meltagun",
      "range": 12,
      "A": 1,
@@ -5580,9 +6749,63 @@
      "abilities": [
       "MELTA 2"
      ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
     }
    ],
    "melee": [
+    {
+     "name": "Astartes chainsword",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Accursed weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    },
     {
      "name": "Heavy melee weapon",
      "A": 3,
@@ -5660,6 +6883,39 @@
       "PISTOL",
       "TORRENT"
      ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
     }
    ],
    "melee": [
@@ -5670,6 +6926,14 @@
      "S": 5,
      "AP": -1,
      "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -6059,6 +7323,14 @@
      "S": 6,
      "AP": -1,
      "D": 2
+    },
+    {
+     "name": "Befouled fangs and claws",
+     "A": 2,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [],
@@ -6406,6 +7678,18 @@
     "OC": 1
    },
    "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
     {
      "name": "Infernal Gaze - witchfire",
      "range": 24,
@@ -7313,6 +8597,18 @@
    },
    "ranged": [
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Flamer tendril",
      "range": 12,
      "A": "D6",
@@ -7409,18 +8705,6 @@
      "S": 4,
      "AP": 0,
      "D": 1
-    },
-    {
-     "name": "Combi-bolter",
-     "range": 24,
-     "A": 2,
-     "BS": "2+",
-     "S": 4,
-     "AP": 0,
-     "D": 1,
-     "abilities": [
-      "RAPID FIRE 2"
-     ]
     },
     {
      "name": "Combi-weapon",
@@ -7778,6 +9062,18 @@
    "invuln_ranged_only": false,
    "ranged": [
     {
+     "name": "Combi-bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
      "name": "Flamer tendril",
      "range": 12,
      "A": "D6",
@@ -7874,18 +9170,6 @@
      "S": 4,
      "AP": 0,
      "D": 1
-    },
-    {
-     "name": "Combi-bolter",
-     "range": 24,
-     "A": 2,
-     "BS": "2+",
-     "S": 4,
-     "AP": 0,
-     "D": 1,
-     "abilities": [
-      "RAPID FIRE 2"
-     ]
     },
     {
      "name": "Combi-weapon",
@@ -8234,6 +9518,20 @@
    },
    "invuln": "5+",
    "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Power fist",
@@ -8241,6 +9539,14 @@
      "WS": "3+",
      "S": 6,
      "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Ogryn weapons",
+     "A": 5,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
      "D": 2
     }
    ],

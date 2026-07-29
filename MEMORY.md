@@ -44,11 +44,20 @@ Status:
 - **MFM** ✅ ALL 27 factions — `tools/mfm_db.py` (live SSR mfm.warhammer-community.com/en/<slug>) → `data/mfm/<slug>.json`
   {units incl. escalating per-model + wargear costs, enhancements, detachments w/ DP}. Durable `OVERRIDES` table for parser
   gaps (IK Knight Castellan 425/450 — its name slot is absent from the SSR). List A = 1,970/2000 verified from it.
-- **BSData** ✅ 34 factions, ~1216 datasheets — `tools/bsdata_db.py` over a clone at `data/_src/wh40k-11e` (gitignored) →
+- **BSData** ✅ 34 factions, ~1454 datasheets — `tools/bsdata_db.py` over a clone at `data/_src/wh40k-11e` (gitignored) →
   `data/bsdata/<slug>.json` {stats, invuln, ranged/melee weapons (kw under "abilities" per wh.mathhammer), damaged, keywords}.
-  SM chapters hold only chapter-specific units (load `space-marines.json` for common Marine datasheets). ⚠ **BSData wh40k-11e is
-  INCOMPLETE** (community WIP): missing units incl. Broadside, Sanguinary Guard, Deathwing Knights, Scourges. POINTS are complete
-  (MFM); PROFILES have gaps — pull enemy profiles best-effort + fall back to verified-analysis EV floors.
+  SM chapters hold only chapter-specific units (load `space-marines.json` for common Marine datasheets).
+  **★★ THE "BSData is INCOMPLETE" NOTE WAS WRONG (fixed 2026-07-29) — it was a BUILDER bug, not missing data.** The apparent
+  gaps (Broadside, Sanguinary Guard, Deathwing Knights, Scourges, all of Cadian/Kasrkin/Kriegsmen, Zoanthropes/Raveners, Battle
+  Sisters, …) were `bsdata_db.py` failing to extract units whose statline is an **infoLink → sharedProfile** (not inline `profiles[]`)
+  and units DEFINED in a linked own-faction **"Library" catalogue** (e.g. `Library - Tyranids`) rather than the main file. Builder now
+  (a) resolves Unit/weapon statlines via infoLinks→`ctx["SP"]` (see `unit_profiles()`), and (b) discovers datasheets from the faction's
+  OWN library too (stem-matched, so it never pulls shared ALLY libraries like the Chaos Daemons lib into CSM). All 4 memory-flagged
+  units now recover; field unresolved went 76→3. **ALWAYS `git -C data/_src/wh40k-11e pull` + `tools/bsdata_db.py --all` when data
+  looks thin — the clone can be days stale AND the builder must be current.** Remaining long-tail (2 units, nested-wrapper entries):
+  Victrix Honour Guard (ultramarines), Indomitor Kill Team (deathwatch) — accept per HARD-COUNTERS ethos; `_overrides` if ever needed.
+  **★ Sir Hekhtur = the PILOT SUB-MODEL of Canis Rex** (user-corrected 2026-07-29; builds as an `extra_profile` under Canis Rex, NOT a
+  standalone datasheet) — a list line naming just "Sir Hekhtur" is a parse artifact, not a missing sheet. POINTS still = MFM.
 - **Rules corpus committed** ✅ `data/faction-packs/<slug>.txt` (27), `data/rules/core-rules.txt`, `data/rules/event-companion.txt`.
   39k.pro (Firebase) + gdmissions.app (Next.js) just DIGEST these official sources — their derived mission/matrix/layout data already
   lives in `data/*.yaml`, so don't scrape their backends.

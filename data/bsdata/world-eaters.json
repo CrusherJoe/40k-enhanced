@@ -502,6 +502,22 @@
      "S": 10,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Axe of Khorne - strike",
+     "A": 8,
+     "WS": "2+",
+     "S": 14,
+     "AP": -4,
+     "D": "D3+1"
+    },
+    {
+     "name": "Axe of Khorne - sweep",
+     "A": 16,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 1
     }
    ],
    "abilities": {
@@ -2098,6 +2114,20 @@
    },
    "invuln": "5+",
    "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Chainblades",
+     "A": 4,
+     "WS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "ANTI-MONSTER 3+",
+      "ANTI-VEHICLE 3+"
+     ]
+    }
+   ],
    "abilities": {
     "core": [
      "Deep Strike"
@@ -2485,6 +2515,14 @@
      "D": 1
     },
     {
+     "name": "Helbrute fist",
+     "A": 6,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": 3
+    },
+    {
      "name": "Helbrute hammer",
      "A": 6,
      "WS": "4+",
@@ -2858,6 +2896,31 @@
    },
    "ranged": [
     {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
      "name": "Bolt pistol",
      "range": 12,
      "A": 1,
@@ -2878,6 +2941,14 @@
      "S": 4,
      "AP": -1,
      "D": 1
+    },
+    {
+     "name": "Khornate eviscerator",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []

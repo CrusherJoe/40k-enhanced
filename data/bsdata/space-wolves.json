@@ -1266,6 +1266,123 @@
      "abilities": [
       "CLOSE-QUARTERS"
      ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Grav-cannon",
+     "range": 24,
+     "A": 3,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "ANTI-VEHICLE 2+",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "HEAVY",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
     }
    ],
    "melee": [
@@ -1695,6 +1812,68 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grav-gun",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 2+"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
     }
    ],
    "melee": [
@@ -1721,6 +1900,14 @@
      "S": 8,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": []
@@ -2725,101 +2912,12 @@
      "D": 1
     }
    ],
-   "abilities": {
-    "faction": [
-     "Oath of Moment"
-    ],
-    "datasheet": [
-     {
-      "name": "Let Loose the Wolves",
-      "text": "At the start of the Declare Battle Formations step, split this unit into two units, one containing all of it's HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting Strengths accordingly."
-     },
-     {
-      "name": "Headhunters",
-      "text": "At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abilities while targeting it's quarry. Each time this unit's quarry is destroyed, select one new enemy unit to be this unit's quarry. This ability can be used even if this unit is embarked within a Transport"
-     },
-     {
-      "name": "Hunting Hounds",
-      "text": "While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control characteristic of 1"
-     }
-    ]
-   },
    "keywords": [
-    "Infantry"
-   ]
-  },
-  {
-   "name": "Wolf Guard Headtakers",
-   "source": "bsdata-wh40k-11e",
-   "stats": {
-    "M": 7,
-    "T": 4,
-    "Sv": "3+",
-    "W": 3,
-    "Ld": "6+",
-    "OC": 1
-   },
-   "ranged": [
-    {
-     "name": "Heavy Bolt Pistol",
-     "range": 18,
-     "A": 1,
-     "BS": "3+",
-     "S": 4,
-     "AP": -1,
-     "D": 1,
-     "abilities": [
-      "PISTOL"
-     ]
-    }
-   ],
-   "melee": [
-    {
-     "name": "Master-crafted Power Weapon",
-     "A": 4,
-     "WS": "3+",
-     "S": 5,
-     "AP": -2,
-     "D": 2
-    },
-    {
-     "name": "Paired Master-crafted Power Weapons",
-     "A": 6,
-     "WS": "3+",
-     "S": 5,
-     "AP": -2,
-     "D": 2
-    },
-    {
-     "name": "Teeth and Claws",
-     "A": 3,
-     "WS": "4+",
-     "S": 4,
-     "AP": 0,
-     "D": 1
-    }
-   ],
-   "abilities": {
-    "faction": [
-     "Oath of Moment"
-    ],
-    "datasheet": [
-     {
-      "name": "Let Loose the Wolves",
-      "text": "At the start of the Declare Battle Formations step, split this unit into two units, one containing all of it's HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting Strengths accordingly."
-     },
-     {
-      "name": "Headhunters",
-      "text": "At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abilities while targeting it's quarry. Each time this unit's quarry is destroyed, select one new enemy unit to be this unit's quarry. This ability can be used even if this unit is embarked within a Transport"
-     },
-     {
-      "name": "Hunting Hounds",
-      "text": "While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control characteristic of 1"
-     }
-    ]
-   },
-   "keywords": [
-    "Infantry"
+    "Infantry",
+    "Imperium",
+    "Tacticus",
+    "Wolf Guard",
+    "Headtakers"
    ]
   },
   {
@@ -3314,6 +3412,32 @@
     "Ld": "6+",
     "OC": 1
    },
+   "ranged": [
+    {
+     "name": "Storm Bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Assault Cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "2+",
+     "S": 6,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Twin lightning claws",
@@ -3344,6 +3468,14 @@
      "S": 5,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -3368,6 +3500,69 @@
      "S": 4,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Combi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
     }
    ],
    "melee": [
@@ -3924,6 +4119,118 @@
       "MELTA 2",
       "PISTOL"
      ]
+    },
+    {
+     "name": "Astartes shotgun",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 1",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Grav-gun",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-VEHICLE 2+"
+     ]
+    },
+    {
+     "name": "Heavy Bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile Launcher - Krak",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
     }
    ],
    "melee": [
@@ -3979,6 +4286,14 @@
      "WS": "3+",
      "S": 4,
      "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Combat knife",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
      "D": 1
     }
    ],

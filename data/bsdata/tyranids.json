@@ -319,6 +319,63 @@
    "keywords": []
   },
   {
+   "name": "Deathleaper",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 6,
+    "Sv": "3+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Lictor claws and talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Fights First",
+     "Infiltrators",
+     "Lone Operative",
+     "Stealth",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Fear of the Unseen (Aura)",
+      "text": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test."
+     },
+     {
+      "name": "Hunter Organism",
+      "text": "This model cannot be your Warlord"
+     }
+    ]
+   },
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Great Devourer",
+    "Deathleaper",
+    "Infantry",
+    "Vanguard Invader"
+   ]
+  },
+  {
    "name": "Dimachaeron [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -425,6 +482,43 @@
     "Great Devourer",
     "Exocrine"
    ]
+  },
+  {
+   "name": "Gargoyles",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 3,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Fleshborer",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Blinding venom",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Genestealers",
@@ -882,6 +976,19 @@
      "abilities": [
       "ANTI-VEHICLE 2+"
      ]
+    },
+    {
+     "name": "Impaler cannon",
+     "range": 36,
+     "A": 4,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "INDIRECT FIRE"
+     ]
     }
    ],
    "melee": [
@@ -1013,6 +1120,513 @@
    "keywords": []
   },
   {
+   "name": "Hyperadapted Raveners",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Venom bolt",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Prime claws and talons",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-MONSTER 5+",
+      "ANTI-VEHICLE 5+",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Ravener heavy claws and talons",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ANTI-MONSTER 5+",
+      "ANTI-VEHICLE 5+",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "faction": [
+     "Shadow in the Warp"
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Synapse"
+   ]
+  },
+  {
+   "name": "Lictor",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 6,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Lictor claws and talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Fights First",
+     "Infiltrators",
+     "Lone Operative",
+     "Stealth",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Pheromone Trail",
+      "text": "Once per battle round, you can target one model with this ability with the Rapid Ingress Stratagem for 0CP."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Great Devourer",
+    "Lictor",
+    "Vanguard Invader"
+   ]
+  },
+  {
+   "name": "Macro Organism [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "8+",
+    "OC": 4
+   },
+   "ranged": [
+    {
+     "name": "Barbed strangler",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bio-plasma",
+     "range": 12,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bio-plasmic cannon",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Deathspitter",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Deathspitters with slimer maggots",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Devourer",
+     "range": 18,
+     "A": 5,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Devourers with brainleech worms",
+     "range": 18,
+     "A": 12,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Spine banks",
+     "range": 6,
+     "A": 5,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Spinefists",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Stranglethorn cannon",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Thoracic bio-weapon",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Rupture cannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 18,
+     "AP": -4,
+     "D": "2D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Acid spray",
+     "range": 18,
+     "A": "D6+6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Bio-electric pulse",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Fleshborer hive",
+     "range": 24,
+     "A": 20,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Psychic overload",
+     "range": 18,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psychic scream",
+     "range": 18,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Psychoclastic torrent",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Stinger salvoes",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Crushing claws",
+     "A": 5,
+     "WS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Massive scything talons - strike",
+     "A": 5,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Massive scything talons - sweep",
+     "A": 10,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Monster-beast weapons",
+     "A": 12,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Piercing claws and talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Ravener claws and talons",
+     "A": 7,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Scything talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Tyrant-beast weapons",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Warrior-beast weapons",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Monstrous scything talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Monstrous bonesword and lash whip",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Ravenous maw",
+     "A": 14,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3 D6"
+    ],
+    "faction": [
+     "Synapse",
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Unstoppable Monstrosity",
+      "text": "At the start of each player's Command phase, this model regains up to D3 lost wounds."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Crucible",
+    "Great Devourer",
+    "Monster",
+    "Macro Organism"
+   ]
+  },
+  {
    "name": "Malanthrope [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1136,6 +1750,91 @@
    ]
   },
   {
+   "name": "Mawloc",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "8+",
+    "OC": 4
+   },
+   "melee": [
+    {
+     "name": "Distendible jaw",
+     "A": 1,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 3,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Mawloc scything talons",
+     "A": 16,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Terror from the Deep",
+      "text": "Each time this unit is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Mawloc",
+    "Monster",
+    "Great Devourer",
+    "Vanguard Invader"
+   ]
+  },
+  {
+   "name": "Mucolid Spores",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 4,
+    "T": 4,
+    "Sv": "7+",
+    "W": 3,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "keywords": []
+  },
+  {
+   "name": "Mucolid Spores (Sporocyst)",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 4,
+    "T": 4,
+    "Sv": "7+",
+    "W": 3,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "keywords": []
+  },
+  {
    "name": "Neurogaunts",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1157,6 +1856,66 @@
     }
    ],
    "keywords": []
+  },
+  {
+   "name": "Neurolictor",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 5,
+    "Sv": "4+",
+    "W": 7,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Piercing claws and talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PRECISION"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Lone Operative",
+     "Infiltrators",
+     "Stealth",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Feeder Tendrils",
+      "text": "Each time this model destroys an enemy CHARACTER model, you gain 1CP"
+     },
+     {
+      "name": "Neural Disruption",
+      "text": "In your Command phase, select one enemy unit within 12\" of this model. That unit must take a Battle-shock test"
+     },
+     {
+      "name": "Psychological Saboteur (Aura)",
+      "text": "While an enemy unit is with 12\" of this model, if that unit is Battle-shocked: - Each time a model in that unit makes an attack, subtract 1 from the Hit roll - Each time a friendly TYRANIDS model makes an attack that targets that unit, add 1 to the Wound roll."
+     }
+    ]
+   },
+   "keywords": [
+    "Infantry",
+    "Great Devourer",
+    "Neurolictor",
+    "Vanguard Invader",
+    "Synapse"
+   ]
   },
   {
    "name": "Neurotyrant",
@@ -1233,6 +1992,405 @@
     "Neurotyrant",
     "Synapse",
     "Leader"
+   ]
+  },
+  {
+   "name": "Node Organism [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 5,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Barbed strangler",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bio-plasma",
+     "range": 12,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bio-plasmic cannon",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Deathspitter",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Deathspitters with slimer maggots",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Devourer",
+     "range": 18,
+     "A": 5,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Devourers with brainleech worms",
+     "range": 18,
+     "A": 12,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Spine banks",
+     "range": 6,
+     "A": 5,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Spinefists",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Stranglethorn cannon",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Thoracic bio-weapon",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Rupture cannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 18,
+     "AP": -4,
+     "D": "2D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Acid spray",
+     "range": 18,
+     "A": "D6+6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Bio-electric pulse",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Fleshborer hive",
+     "range": 24,
+     "A": 20,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Psychic overload",
+     "range": 18,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psychic scream",
+     "range": 18,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Psychoclastic torrent",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Stinger salvoes",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Crushing claws",
+     "A": 5,
+     "WS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Massive scything talons - strike",
+     "A": 5,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Massive scything talons - sweep",
+     "A": 10,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Monster-beast weapons",
+     "A": 12,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Piercing claws and talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Ravener claws and talons",
+     "A": 7,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Scything talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Tyrant-beast weapons",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Warrior-beast weapons",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Monstrous scything talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Monstrous bonesword and lash whip",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Ravenous maw",
+     "A": 14,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Leader"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse",
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Alpha Warrior",
+      "text": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Tyranid Warriors with Melee Bio-weapons - Tyranid Warriors with Ranged Bio-weapons"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Great Devourer",
+    "Synapse",
+    "Node Organism"
    ]
   },
   {
@@ -1458,6 +2616,468 @@
    ]
   },
   {
+   "name": "Parasite of Mortrex",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "4+",
+    "W": 5,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Barbed ovipositor",
+     "A": 1,
+     "WS": "2+",
+     "S": 3,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "ANTI-INFANTRY 3+",
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Clawed limbs",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Lone Operative",
+     "Stealth"
+    ],
+    "faction": [
+     "Synapse",
+     "Shadow in the Warp"
+    ],
+    "datasheet": [
+     {
+      "name": "Parasitic Infection",
+      "text": "Each time an Infantry model is destroyed by an attack made with this model’s barbed ovipositor, after this model has finished making its attacks, you can add one new Ripper Swarms unit to your army consisting of D3 models and set it up within 3\" of this model. If you do, that Ripper Swarms unit can be set up within Engagement Range of the destroyed model’s unit (but not within Engagement Range of any other enemy units)."
+     },
+     {
+      "name": "It Itches!",
+      "text": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. That enemy unit must take a Battle-shock test."
+     }
+    ]
+   },
+   "keywords": [
+    "Parasite of Mortrex",
+    "Character",
+    "Fly",
+    "Great Devourer",
+    "Infantry",
+    "Vanguard Invader",
+    "Synapse"
+   ]
+  },
+  {
+   "name": "Prime Organism [Crucible]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "2+",
+    "W": 9,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Barbed strangler",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bio-plasma",
+     "range": 12,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Bio-plasmic cannon",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Deathspitter",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Deathspitters with slimer maggots",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Devourer",
+     "range": 18,
+     "A": 5,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Devourers with brainleech worms",
+     "range": 18,
+     "A": 12,
+     "BS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Heavy venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Spine banks",
+     "range": 6,
+     "A": 5,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Spinefists",
+     "range": 12,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Stranglethorn cannon",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Thoracic bio-weapon",
+     "range": 12,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Rupture cannon",
+     "range": 48,
+     "A": 2,
+     "BS": "3+",
+     "S": 18,
+     "AP": -4,
+     "D": "2D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Acid spray",
+     "range": 18,
+     "A": "D6+6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Bio-electric pulse",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 2"
+     ]
+    },
+    {
+     "name": "Fleshborer hive",
+     "range": 24,
+     "A": 20,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Psychic overload",
+     "range": 18,
+     "A": "D6+3",
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psychic scream",
+     "range": 18,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "IGNORES COVER",
+      "PSYCHIC",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Psychoclastic torrent",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Stinger salvoes",
+     "range": 24,
+     "A": 8,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Crushing claws",
+     "A": 5,
+     "WS": "2+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Massive scything talons - strike",
+     "A": 5,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
+    },
+    {
+     "name": "Massive scything talons - sweep",
+     "A": 10,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Monster-beast weapons",
+     "A": 12,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Piercing claws and talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Ravener claws and talons",
+     "A": 7,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Scything talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Tyrant-beast weapons",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Warrior-beast weapons",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Monstrous scything talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Monstrous bonesword and lash whip",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Ravenous maw",
+     "A": 14,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Leader"
+    ],
+    "faction": [
+     "Synapse",
+     "Crucible"
+    ],
+    "datasheet": [
+     {
+      "name": "Monstrous Barrage",
+      "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Carnifexes - Tyrant Guard"
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Crucible",
+    "Great Devourer",
+    "Monster",
+    "Prime Organism"
+   ]
+  },
+  {
    "name": "Psychophage",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1559,6 +3179,112 @@
      "S": 5,
      "AP": 0,
      "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Raveners",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Ravener claws and talons",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Ripper Swarms",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 2,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Spinemaw",
+     "range": 6,
+     "A": 4,
+     "BS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitinous claws and teeth",
+     "A": 6,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Ripper Swarms (Parasite of Mortrex)",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 2,
+    "Sv": "6+",
+    "W": 4,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Spinemaw",
+     "range": 6,
+     "A": 4,
+     "BS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitinous claws and teeth",
+     "A": 6,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
     }
    ],
    "keywords": []
@@ -1733,6 +3459,32 @@
    ]
   },
   {
+   "name": "Spore Mines",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 4,
+    "T": 1,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "keywords": []
+  },
+  {
+   "name": "Spore Mines (Biovore)",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 4,
+    "T": 1,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "keywords": []
+  },
+  {
    "name": "Sporocyst",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1790,6 +3542,105 @@
     "Sporocyst",
     "Great Devourer"
    ]
+  },
+  {
+   "name": "Termagants",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Fleshborer",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Termagant spinefist",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "PISTOL",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Termagant devourer",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Shardlauncher",
+     "range": 18,
+     "A": "D3",
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Spike rifle",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Strangleweb",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "DEVASTATING WOUNDS",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitinous claws and teeth",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Tervigon",
@@ -1869,6 +3720,69 @@
     "Great Devourer",
     "Tervigon",
     "Synapse"
+   ]
+  },
+  {
+   "name": "The Red Terror",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 8,
+    "Sv": "3+",
+    "W": 9,
+    "Ld": "8+",
+    "OC": 3
+   },
+   "melee": [
+    {
+     "name": "Gaping maw",
+     "A": 1,
+     "WS": "2+",
+     "S": 5,
+     "AP": "-",
+     "D": "D3+2",
+     "abilities": [
+      "EXTRA ATTACKS",
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Scything talons",
+     "A": 12,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Swallow Whole",
+      "text": "Each time an attack with this model’s gaping maw targets an Infantry, Mounted or Beasts unit, each successful unmodified Wound roll is a Critical Wound. Each time an Infantry, Mounted or Beasts model is destroyed as a result of an attack made by this model’s gaping maw, this model regains up to D3+2 lost wounds."
+     },
+     {
+      "name": "Subterranean Hunter",
+      "text": "At the end of the Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+     }
+    ]
+   },
+   "keywords": [
+    "Character",
+    "Great Devourer",
+    "Vanguard Invader",
+    "Epic Hero",
+    "Monster",
+    "The Red Terror",
+    "Burrowers",
+    "Mobile"
    ]
   },
   {
@@ -2002,6 +3916,66 @@
     "Monster",
     "Great Devourer",
     "Toxicrene"
+   ]
+  },
+  {
+   "name": "Trygon",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 10,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "8+",
+    "OC": 4
+   },
+   "ranged": [
+    {
+     "name": "Bio-electric pulse",
+     "range": 12,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "SUSTAINED HITS 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Trygon scything talons",
+     "A": 12,
+     "WS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Subterranean Tunnels",
+      "text": "In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can use a subterranean tunnel. If it does, this model can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Trygon",
+    "Monster",
+    "Great Devourer",
+    "Vanguard Invader"
    ]
   },
   {
@@ -2184,6 +4158,63 @@
    "keywords": []
   },
   {
+   "name": "Tyrannocyte",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 9,
+    "Sv": "3+",
+    "W": 10,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Tyrannocyte Bio-weapons",
+     "range": 24,
+     "A": 5,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Flensing Whips",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Aerial Seeding",
+      "text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 8\" away from all enemy models. After this model has been set up on the battlefield, no units can embark within it."
+     }
+    ]
+   },
+   "keywords": [
+    "Dedicated Transport",
+    "Transport",
+    "Monster",
+    "Fly",
+    "Great Devourer",
+    "Tyrannocyte",
+    "Vanguard Invader"
+   ]
+  },
+  {
    "name": "Tyrannofex",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -2201,7 +4232,7 @@
      "A": 2,
      "BS": "3+",
      "S": 18,
-     "AP": -1,
+     "AP": -4,
      "D": "D6+6",
      "abilities": [
       "HEAVY"
@@ -2341,6 +4372,239 @@
      "abilities": [
       "ANTI-INFANTRY 2+"
      ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Von Ryan's Leapers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "4+",
+    "W": 3,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "melee": [
+    {
+     "name": "Leaper's talons",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Winged Hive Tyrant",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 9,
+    "Sv": "2+",
+    "W": 10,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Stranglethorn cannon",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "2+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Heavy venom cannon",
+     "range": 36,
+     "A": "D3",
+     "BS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Tyrant talons",
+     "A": 5,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Monstrous scything talons",
+     "A": 4,
+     "WS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Monstrous bonesword and lash whip",
+     "A": 6,
+     "WS": "2+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike"
+    ],
+    "faction": [
+     "Shadow in the Warp",
+     "Synapse"
+    ],
+    "datasheet": [
+     {
+      "name": "Paroxysm (Psychic)",
+      "text": "At the start of the Fight phase, you can select one enemy unit within 12\" of and visible to this model and roll one D6: on a 1, this Psyker suffers D3 mortal wounds; on a 2+, until the end of the phase, subtract 1 from the Attacks characteristic of weapons equipped by models in that unit."
+     }
+    ]
+   },
+   "keywords": [
+    "Monster",
+    "Character",
+    "Psyker",
+    "Winged Hive Tyrant",
+    "Great Devourer",
+    "Fly",
+    "Synapse",
+    "Vanguard Invader",
+    "Hive Tyrant"
+   ]
+  },
+  {
+   "name": "Winged Tyranid Prime",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 5,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "melee": [
+    {
+     "name": "Prime talons",
+     "A": 6,
+     "WS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deep Strike",
+     "Leader"
+    ],
+    "faction": [
+     "Synapse",
+     "Shadow in the Warp"
+    ],
+    "datasheet": [
+     {
+      "name": "Alpha Warrior",
+      "text": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+     },
+     {
+      "name": "Death Blow",
+      "text": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+     },
+     {
+      "name": "Leader",
+      "text": "This model can be attached to the following units: - Gargoyles - Tyranid Warriors With Melee Bio-Weapons - Tyranid Warriors With Ranged Bio-Weapons"
+     }
+    ]
+   },
+   "keywords": [
+    "Winged Tyranid Prime",
+    "Character",
+    "Infantry",
+    "Fly",
+    "Great Devourer",
+    "Synapse",
+    "Vanguard Invader",
+    "Leader"
+   ]
+  },
+  {
+   "name": "Zoanthropes",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Warp blast - witchfire",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": "D3",
+     "abilities": [
+      "BLAST",
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Warp blast - focused witchfire",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "LETHAL HITS",
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chitinous claws and teeth",
+     "A": 2,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": []

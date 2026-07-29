@@ -521,6 +521,87 @@
    ]
   },
   {
+   "name": "Brotherhood Terminator Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Incinerator",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Psycannon",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psilencer",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PRECISION",
+      "PSYCHIC",
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Nemesis force weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Castellan Crowe",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -2878,6 +2959,87 @@
    ]
   },
   {
+   "name": "Paladin Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 5,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Incinerator",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Psycannon",
+     "range": 24,
+     "A": 3,
+     "BS": "2+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Psilencer",
+     "range": 24,
+     "A": 6,
+     "BS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PRECISION",
+      "PSYCHIC",
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Nemesis force weapon",
+     "A": 4,
+     "WS": "2+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PSYCHIC"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Purgation Squad",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -3267,6 +3429,94 @@
     "Rhino",
     "Frame"
    ]
+  },
+  {
+   "name": "Servitors [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "HEAVY",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Servo-arm",
+     "A": 1,
+     "WS": "5+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Servitor's tools",
+     "A": 1,
+     "WS": "5+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Stormhawk Interceptor",

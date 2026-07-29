@@ -550,6 +550,22 @@
      "S": 10,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Axe of Khorne - strike",
+     "A": 8,
+     "WS": "2+",
+     "S": 14,
+     "AP": -4,
+     "D": "D3+1"
+    },
+    {
+     "name": "Axe of Khorne - sweep",
+     "A": 16,
+     "WS": "2+",
+     "S": 8,
+     "AP": -2,
+     "D": 1
     }
    ],
    "abilities": {
@@ -603,6 +619,19 @@
    "invuln_ranged_only": false,
    "ranged": [
     {
+     "name": "Coruscating Yellow flames (ref. only)",
+     "range": 18,
+     "A": 2,
+     "BS": "5+",
+     "S": 2,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "PSYCHIC"
+     ]
+    },
+    {
      "name": "Coruscating Blue flames",
      "range": 18,
      "A": 2,
@@ -617,6 +646,14 @@
     }
    ],
    "melee": [
+    {
+     "name": "Yellow claws (ref. only)",
+     "A": 2,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1
+    },
     {
      "name": "Blue claws",
      "A": 1,
@@ -3446,6 +3483,100 @@
    ]
   },
   {
+   "name": "Khorne Soul Grinder",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Torrent of burning blood",
+     "range": 12,
+     "A": "2D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Harvester cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 10,
+     "AP": -1,
+     "D": 3
+    }
+   ],
+   "melee": [
+    {
+     "name": "Iron claw",
+     "A": 5,
+     "WS": "3+",
+     "S": 16,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Warpclaw",
+     "A": 6,
+     "WS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Warpsword",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Khorne",
+    "Soul Grinder",
+    "Khorne non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
    "name": "Lord of Change",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -3556,6 +3687,101 @@
     "Tzeentch",
     "Lord of Change",
     "Tzeentch non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
+   "name": "Nurgle Soul Grinder",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Phlegm bombardment",
+     "range": 36,
+     "A": "D6+1",
+     "BS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "INDIRECT FIRE",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Harvester cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 10,
+     "AP": -1,
+     "D": 3
+    }
+   ],
+   "melee": [
+    {
+     "name": "Iron claw",
+     "A": 5,
+     "WS": "3+",
+     "S": 16,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Warpclaw",
+     "A": 6,
+     "WS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Warpsword",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Nurgle",
+    "Soul Grinder",
+    "Nurgle non-Battleline",
     "Shadow Legion"
    ]
   },
@@ -4894,6 +5120,100 @@
    ]
   },
   {
+   "name": "Slaanesh Soul Grinder",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Scream of despair",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Harvester cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 10,
+     "AP": -1,
+     "D": 3
+    }
+   ],
+   "melee": [
+    {
+     "name": "Iron claw",
+     "A": 5,
+     "WS": "3+",
+     "S": 16,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Warpclaw",
+     "A": 6,
+     "WS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Warpsword",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Slaanesh",
+    "Soul Grinder",
+    "Slaanesh non-Battleline",
+    "Shadow Legion"
+   ]
+  },
+  {
    "name": "Sloppity Bilepiper",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -5544,6 +5864,100 @@
     "Slaanesh non-Battleline",
     "Shadow Legion",
     "Non-Monster Character"
+   ]
+  },
+  {
+   "name": "Tzeentch Soul Grinder",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 11,
+    "Sv": "3+",
+    "W": 14,
+    "Ld": "7+",
+    "OC": 5
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Warp gaze",
+     "range": 48,
+     "A": "D3",
+     "BS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": "D6+2",
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Harvester cannon",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 10,
+     "AP": -1,
+     "D": 3
+    }
+   ],
+   "melee": [
+    {
+     "name": "Iron claw",
+     "A": 5,
+     "WS": "3+",
+     "S": 16,
+     "AP": -3,
+     "D": "D6+2"
+    },
+    {
+     "name": "Warpclaw",
+     "A": 6,
+     "WS": "3+",
+     "S": 8,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Warpsword",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3",
+     "Deep Strike",
+     "Stealth"
+    ],
+    "faction": [
+     "The Shadow of Chaos",
+     "Warp Rifts"
+    ]
+   },
+   "damaged": {
+    "threshold": "1-5",
+    "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Soul Grinder",
+    "Tzeentch non-Battleline",
+    "Shadow Legion"
    ]
   },
   {

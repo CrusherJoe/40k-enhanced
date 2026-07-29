@@ -194,6 +194,27 @@
       "ANTI-MONSTER 3+",
       "ANTI-VEHICLE 3+"
      ]
+    },
+    {
+     "name": "Autoch-pattern bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Las-beam cutter",
+     "range": 6,
+     "A": 1,
+     "BS": "4+",
+     "S": 6,
+     "AP": -3,
+     "D": 1
     }
    ],
    "melee": [
@@ -208,6 +229,30 @@
       "ANTI-MONSTER 3+",
       "ANTI-VEHICLE 3+"
      ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Plasma torch",
+     "A": 1,
+     "WS": "4+",
+     "S": 6,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Manipulator arms",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [
@@ -379,6 +424,54 @@
     "Ld": "7+",
     "OC": 1
    },
+   "ranged": [
+    {
+     "name": "Mole grenade launcher",
+     "range": 18,
+     "A": "D6",
+     "BS": "5+",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "INDIRECT FIRE"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Concussion maul",
+     "A": 3,
+     "WS": "4+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "ANTI-MONSTER 3+",
+      "ANTI-VEHICLE 3+"
+     ]
+    },
+    {
+     "name": "Heavy plasma axe",
+     "A": 3,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Twin concussion gauntlets",
+     "A": 4,
+     "WS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
    "keywords": []
   },
   {
@@ -634,6 +727,15 @@
       "HAZARDOUS",
       "PSYCHIC"
      ]
+    },
+    {
+     "name": "Autoch-pattern bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
     }
    ],
    "melee": [
@@ -647,6 +749,14 @@
      "abilities": [
       "PSYCHIC"
      ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [
@@ -749,6 +859,27 @@
       "ASSAULT",
       "RAPID FIRE 3"
      ]
+    },
+    {
+     "name": "L7 missile launcher - blast",
+     "range": 24,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "L7 missile launcher - focused",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
     },
     {
      "name": "Magna-rail rifle",
@@ -2375,6 +2506,27 @@
      "S": 10,
      "AP": -3,
      "D": 3
+    },
+    {
+     "name": "L7 missile launcher - blast",
+     "range": 24,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "L7 missile launcher - focused",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6"
     },
     {
      "name": "MATR autocannon",

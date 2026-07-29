@@ -151,6 +151,124 @@
    "keywords": []
   },
   {
+   "name": "Acolyte Hybrids with Autopistols",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Cult claws and knife",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Heavy mining tool",
+     "A": 2,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "ANTI-VEHICLE 4+"
+     ]
+    },
+    {
+     "name": "Leader's Bio-weapons",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Acolyte Hybrids with Hand Flamers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Demolition charge",
+     "range": 8,
+     "A": "D6",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "BLAST",
+      "HAZARDOUS",
+      "ONE SHOT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Cult claws and knife",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Leader's bio-weapons",
+     "A": 5,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Acolyte Iconward",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -247,6 +365,53 @@
      "S": 9,
      "AP": -2,
      "D": "D3"
+    },
+    {
+     "name": "Atalan small arms",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Mining laser",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Atalan incinerator",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "RAPID FIRE 3"
+     ]
     }
    ],
    "melee": [
@@ -256,6 +421,14 @@
      "WS": "4+",
      "S": 3,
      "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Atalan power weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
      "D": 1
     }
    ],
@@ -1504,6 +1677,22 @@
    ],
    "melee": [
     {
+     "name": "Metamorph mutations - strike",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Metamorph mutations - sweep",
+     "A": 5,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
+    {
      "name": "Leader's Bio-weapons",
      "A": 5,
      "WS": "3+",
@@ -1814,12 +2003,124 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Mining laser",
+     "range": 24,
+     "A": 1,
+     "BS": "5+",
+     "S": 10,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Seismic cannon",
+     "range": 24,
+     "A": 2,
+     "BS": "5+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "abilities": [
+      "HEAVY",
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Webber",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 2,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Anointed pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
     {
      "name": "Close combat weapon",
      "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 2,
      "WS": "4+",
      "S": 3,
      "AP": 0,

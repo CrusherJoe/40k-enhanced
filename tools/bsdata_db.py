@@ -131,7 +131,13 @@ def resolve_rule_name(il):
 
 
 def collect_weapons(ctx, entry, seen, out):
-    for p in entry.get("profiles", []):
+    profs = list(entry.get("profiles", []))
+    for il in entry.get("infoLinks", []):        # weapons can be infoLink -> sharedProfile too
+        if il.get("type") == "profile":
+            tgt = ctx["SP"].get(il.get("targetId"))
+            if tgt and tgt.get("typeName") in ("Ranged Weapons", "Melee Weapons"):
+                profs.append(tgt)
+    for p in profs:
         if p.get("typeName") in ("Ranged Weapons", "Melee Weapons"):
             nm = clean_name(p["name"])
             if nm not in seen:
@@ -162,6 +168,19 @@ def weapon_dict(tn, name, c):
     return d
 
 
+def unit_profiles(ctx, entry):
+    """The 'Unit' statline profiles on an entry — inline OR referenced via an infoLink to a
+    sharedProfile (ctx['SP']). Newer BSData cuts (e.g. AM Kasrkin, Aeldari Windriders) put the
+    statline on a model sub-entry as an infoLink->sharedProfile, so inline-only lookup misses them."""
+    out = [p for p in entry.get("profiles", []) if p.get("typeName") == "Unit"]
+    for il in entry.get("infoLinks", []):
+        if il.get("type") == "profile":
+            tgt = ctx["SP"].get(il.get("targetId"))
+            if tgt and tgt.get("typeName") == "Unit":
+                out.append(tgt)
+    return out
+
+
 def _all_unit_holders(ctx, entry, depth=0, seen=None):
     """Every entry bearing a 'Unit' statline profile, recursing selectionEntries,
     selectionEntryGroups (+their entryLinks), and entryLinks (resolved via ctx)."""
@@ -169,7 +188,7 @@ def _all_unit_holders(ctx, entry, depth=0, seen=None):
     if id(entry) in seen or depth > 6:
         return []
     seen.add(id(entry))
-    out = [entry] if any(p.get("typeName") == "Unit" for p in entry.get("profiles", [])) else []
+    out = [entry] if unit_profiles(ctx, entry) else []
     kids = list(entry.get("selectionEntries", []))
     for g in entry.get("selectionEntryGroups", []):
         kids += g.get("selectionEntries", [])
@@ -183,12 +202,12 @@ def _all_unit_holders(ctx, entry, depth=0, seen=None):
 
 
 def profile_source(ctx, entry):
-    # direct: unit statline on the entry itself
-    if any(p.get("typeName") == "Unit" for p in entry.get("profiles", [])):
+    # direct: unit statline on the entry itself (inline or via infoLink -> sharedProfile)
+    if unit_profiles(ctx, entry):
         return entry, []
     # direct model sub-entries (original path — handles Canis Rex's pilot etc.)
     models = [s for s in entry.get("selectionEntries", [])
-              if s.get("type") == "model" and any(p.get("typeName") == "Unit" for p in s.get("profiles", []))]
+              if s.get("type") == "model" and unit_profiles(ctx, s)]
     if models:
         primary = next((m for m in models if m["name"] == entry["name"]), models[0])
         return primary, [m for m in models if m is not primary]
@@ -202,7 +221,7 @@ def build_profile(ctx, entry):
     src, extra = profile_source(ctx, entry)
     if src is None:
         return None
-    up = [p for p in src.get("profiles", []) if p.get("typeName") == "Unit"]
+    up = unit_profiles(ctx, src)
     if not up:
         return None
     st = ch(up[0])
@@ -214,7 +233,7 @@ def build_profile(ctx, entry):
         prof["invuln"] = insv.replace("*", "")
         prof["invuln_ranged_only"] = insv.endswith("*")
     weps = []
-    collect_weapons(ctx, src, set(), weps)
+    collect_weapons(ctx, entry, set(), weps)   # recurse the whole unit (src may be one model)
     ranged = [weapon_dict(t, n, c) for t, n, c in weps if t == "Ranged Weapons"]
     melee = [weapon_dict(t, n, c) for t, n, c in weps if t == "Melee Weapons"]
     if ranged:
@@ -250,7 +269,7 @@ def build_profile(ctx, entry):
     if extra:
         prof["extra_profiles"] = []
         for m in extra:
-            s = ch(next(p for p in m["profiles"] if p.get("typeName") == "Unit"))
+            s = ch(unit_profiles(ctx, m)[0])
             prof["extra_profiles"].append({"name": m["name"],
                 "stats": {"M": num((s.get("M") or "").replace('"', "")), "T": num(s.get("T")),
                           "Sv": s.get("Sv"), "W": num(s.get("W")), "Ld": s.get("LD"), "OC": num(s.get("OC"))}})
@@ -259,6 +278,16 @@ def build_profile(ctx, entry):
 
 def load_cat(path):
     return json.load(open(path, encoding="utf-8"))["catalogue"]
+
+
+def _fac_stem(fname):
+    """The faction's distinctive name from its catalogue filename — used to tell its OWN
+    datasheet library (e.g. 'Library - Tyranids') from shared ally libraries it also links
+    (e.g. a Chaos army linking 'Chaos Daemons Library')."""
+    s = fname.replace(".json", "")
+    for pre in ("Imperium - ", "Chaos - ", "Aeldari - ", "Library - "):
+        s = s.replace(pre, "")
+    return s.replace(" - Library", "").replace(" Library", "").strip()
 
 
 def build_faction(slug, id2file):
@@ -270,19 +299,34 @@ def build_faction(slug, id2file):
     cat = load_cat(path)
     ctx = new_ctx()
     merge_cat(ctx, cat)
-    # merge one level of linked catalogues (libraries / base SM / agents) for resolution
+    # merge one level of linked catalogues (libraries / base SM / agents) for resolution.
+    # A faction's own datasheets are sometimes DEFINED in a linked "Library" catalogue
+    # (e.g. Tyranids.json references Raveners but they live in "Library - Tyranids.json"),
+    # so those libraries must also be a DISCOVERY source, not just a resolution index.
+    stem = _fac_stem(fname)                      # this faction's distinctive name
+    discover = [cat]
     for link in cat.get("catalogueLinks", []):
         lf = id2file.get(link.get("targetId"))
         if lf and os.path.exists(os.path.join(SRC, lf)):
             try:
-                merge_cat(ctx, load_cat(os.path.join(SRC, lf)))
+                lcat = load_cat(os.path.join(SRC, lf))
+                merge_cat(ctx, lcat)
+                # discover ONLY from the faction's OWN library (name matches), never shared
+                # ally libraries (e.g. CSM links the Chaos Daemons library — those are allies,
+                # resolved at load time, not this faction's datasheets)
+                if "Library" in lf and stem and stem in lf:
+                    discover.append(lcat)
             except Exception:
                 pass
-    # datasheets = model/unit entries defined IN this faction's own cat
-    entries = [e for e in cat.get("sharedSelectionEntries", []) if e.get("type") in ("model", "unit")]
-    entries += [e for e in cat.get("selectionEntries", []) if e.get("type") in ("model", "unit")]
+    # datasheets = model/unit entries defined in this faction's cat OR its linked Library
+    entries, seen_ids = [], set()
+    for lc in discover:
+        for e in lc.get("sharedSelectionEntries", []) + lc.get("selectionEntries", []):
+            if e.get("type") in ("model", "unit") and e.get("id") not in seen_ids:
+                seen_ids.add(e.get("id"))
+                entries.append(e)
     flt = FACTION_FILTER.get(slug)
-    sheets = []
+    sheets, seen_names = [], set()
     for e in entries:
         if flt:  # split shared libraries by the raw 'Faction:' category
             mode, kw = flt
@@ -291,7 +335,8 @@ def build_faction(slug, id2file):
                 continue
         try:
             p = build_profile(ctx, e)
-            if p:
+            if p and p["name"] not in seen_names:   # dedup (a unit can be in main + library)
+                seen_names.add(p["name"])
                 sheets.append(p)
         except Exception as ex:
             print(f"#   {slug}: skip {e.get('name')}: {ex}", file=sys.stderr)

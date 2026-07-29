@@ -31,14 +31,23 @@ _DISP = {"take and hold": "take-and-hold", "purge the foe": "purge-the-foe",
 # Agents of the Imperium (Navigator, Assassins, Inquisitors, …) ally into most Imperium armies,
 # so their datasheets live in the agents cut, not the host army's — add it as a trailing fallback.
 _AGENTS = ["agents-of-the-imperium"]
-_FALLBACK = {"blood-angels": ["space-marines"] + _AGENTS, "dark-angels": ["space-marines"] + _AGENTS,
-             "space-marines": ["salamanders", "ultramarines", "imperial-fists"] + _AGENTS,
-             # chapters that share the common Marine datasheet pool
-             "black-templars": ["space-marines"] + _AGENTS, "deathwatch": ["space-marines"] + _AGENTS,
-             "space-wolves": ["space-marines"] + _AGENTS,
+# the common Marine pool + every chapter that holds named characters other chapters can't see
+_SM = ["space-marines", "salamanders", "ultramarines", "imperial-fists", "raven-guard",
+       "white-scars", "iron-hands"]
+_FALLBACK = {"blood-angels": _SM + _AGENTS, "dark-angels": _SM + _AGENTS,
+             "space-marines": _SM[1:] + _AGENTS,
+             "black-templars": _SM + _AGENTS, "deathwatch": _SM + _AGENTS, "space-wolves": _SM + _AGENTS,
              # Imperium armies that commonly ally in an Agent (e.g. Knights' Navigator)
              "imperial-knights": _AGENTS, "astra-militarum": _AGENTS, "adepta-sororitas": _AGENTS,
-             "adeptus-custodes": _AGENTS, "adeptus-mechanicus": _AGENTS, "grey-knights": _AGENTS}
+             "adeptus-custodes": _AGENTS, "adeptus-mechanicus": _AGENTS, "grey-knights": _AGENTS,
+             # Chaos cross-allies: Knights ally Daemons/CSM; Daemons appear in CSM/DG/TS/WE/Knight lists
+             "chaos-knights": ["chaos-daemons", "chaos-space-marines"],
+             "chaos-daemons": ["chaos-space-marines", "chaos-knights"],
+             "chaos-space-marines": ["chaos-daemons", "chaos-knights"],
+             "death-guard": ["chaos-daemons", "chaos-knights"], "thousand-sons": ["chaos-daemons"],
+             "world-eaters": ["chaos-daemons"],
+             # Xenos cross-allies: GSC ally Tyranids; Drukhari/Aeldari share the Aeldari range
+             "genestealer-cults": ["tyranids"], "drukhari": ["aeldari"], "aeldari": ["drukhari"]}
 
 _FACTION_SLUG = {"Orks": "orks", "Aeldari": "aeldari", "Tyranids": "tyranids",
                  "Emperor's Children": "emperors-children", "Astra Militarum": "astra-militarum",

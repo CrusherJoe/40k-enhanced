@@ -562,6 +562,18 @@
      "abilities": [
       "SUSTAINED HITS 1"
      ]
+    },
+    {
+     "name": "Hekhtur's pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "2+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
@@ -586,6 +598,14 @@
      "abilities": [
       "SUSTAINED HITS 1"
      ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "2+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "abilities": {

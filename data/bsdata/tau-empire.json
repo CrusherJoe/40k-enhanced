@@ -193,6 +193,14 @@
      "S": 2,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Supreme honour blade",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [
@@ -852,6 +860,41 @@
      "abilities": [
       "ASSAULT"
      ]
+    },
+    {
+     "name": "Support turret",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
     }
    ],
    "melee": [
@@ -1964,6 +2007,67 @@
    "keywords": []
   },
   {
+   "name": "Crisis Sunforge Battlesuits",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 5,
+    "Sv": "3+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battlesuit fists",
+     "A": 3,
+     "WS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Darkstrider",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -2723,6 +2827,18 @@
      "S": 5,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Twin burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
     }
    ],
    "melee": [
@@ -4334,6 +4450,97 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Semi-automatic grenade launcher - EMP",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-VEHICLE 4+",
+      "DEVASTATING WOUNDS"
+     ]
+    },
+    {
+     "name": "Semi-automatic grenade launcher - fusion",
+     "range": 18,
+     "A": 1,
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 3
+    },
+    {
+     "name": "Ion rifle - standard",
+     "range": 30,
+     "A": 3,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Ion rifle - overcharge",
+     "range": 30,
+     "A": 3,
+     "BS": "5+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Rail rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "5+",
+     "S": 10,
+     "AP": -4,
+     "D": 3,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Drone burst cannon",
+     "range": 18,
+     "A": 4,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
     }
    ],
    "melee": [
@@ -5453,6 +5660,52 @@
      "S": 5,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Fusion blaster",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Pulse pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
@@ -5677,6 +5930,53 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Pulse rifle",
+     "range": 30,
+     "A": 1,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Support turret",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "INDIRECT FIRE",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Twin pulse carbine",
+     "range": 20,
+     "A": 2,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Missile pod",
+     "range": 30,
+     "A": 2,
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
     }
    ],
    "melee": [
@@ -6128,6 +6428,123 @@
     }
    ],
    "keywords": []
+  },
+  {
+   "name": "The Twin Lance",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 6,
+    "Sv": "2+",
+    "W": 8,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Fusion eliminator",
+     "range": 18,
+     "A": 2,
+     "BS": "2+",
+     "S": 10,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Shardstorm burst system",
+     "range": 18,
+     "A": "D6",
+     "BS": "2+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Twin pulse blaster",
+     "range": 10,
+     "A": 2,
+     "BS": "5+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "XV pulse pistol",
+     "range": 12,
+     "A": 2,
+     "BS": "2+",
+     "S": 6,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Ion scattercannon - overcharge",
+     "range": 18,
+     "A": 4,
+     "BS": "2+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Ion scattercannon - standard",
+     "range": 18,
+     "A": 4,
+     "BS": "2+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ion scattercannon",
+     "A": 3,
+     "WS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "keywords": [],
+   "extra_profiles": [
+    {
+     "name": "Ri'Locai",
+     "stats": {
+      "M": 10,
+      "T": 6,
+      "Sv": "2+",
+      "W": 8,
+      "Ld": "6+",
+      "OC": 2
+     }
+    }
+   ]
   },
   {
    "name": "Tidewall Droneport",

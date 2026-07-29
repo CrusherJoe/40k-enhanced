@@ -306,6 +306,18 @@
      "abilities": [
       "BLAST"
      ]
+    },
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
     }
    ],
    "melee": [
@@ -316,6 +328,22 @@
      "S": 5,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Power snappa",
+     "A": 4,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
     }
    ],
    "keywords": []
@@ -500,6 +528,85 @@
     "Mounted",
     "Leader"
    ]
+  },
+  {
+   "name": "Big Gunz [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 3,
+    "T": 4,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Kannon - frag",
+     "range": 36,
+     "A": "D6",
+     "BS": "6+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Kannon - shell",
+     "range": 36,
+     "A": 1,
+     "BS": "6+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Lobba",
+     "range": 48,
+     "A": "D6",
+     "BS": "6+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Zzap gun",
+     "range": 36,
+     "A": 1,
+     "BS": "6+",
+     "S": "2D6",
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapons",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Big Mek",
@@ -1655,6 +1762,86 @@
      "abilities": [
       "CLOSE-QUARTERS"
      ]
+    },
+    {
+     "name": "Shoota",
+     "range": 18,
+     "A": 2,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Big shoota",
+     "range": 36,
+     "A": 3,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Rokkit launcha",
+     "range": 24,
+     "A": "D3",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Kustom shoota",
+     "range": 18,
+     "A": 4,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Kombi-shoota",
+     "range": 24,
+     "A": 2,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Kombi-rokkit",
+     "range": 24,
+     "A": 1,
+     "BS": "5+",
+     "S": 10,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Kombi-weapon",
+     "range": 24,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ANTI-INFANTRY 4+",
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 1"
+     ]
     }
    ],
    "melee": [
@@ -1665,6 +1852,30 @@
      "S": 4,
      "AP": -1,
      "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Big choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Power klaw",
+     "A": 3,
+     "WS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -1704,6 +1915,36 @@
      "abilities": [
       "CLOSE-QUARTERS"
      ]
+    },
+    {
+     "name": "Kombi-shoota",
+     "range": 24,
+     "A": 2,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Kombi-rokkit",
+     "range": 24,
+     "A": 1,
+     "BS": "5+",
+     "S": 10,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Kustom shoota",
+     "range": 18,
+     "A": 4,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
     }
    ],
    "melee": [
@@ -1714,6 +1955,14 @@
      "S": 4,
      "AP": -1,
      "D": 1
+    },
+    {
+     "name": "Big choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
     }
    ],
    "keywords": []
@@ -2723,6 +2972,155 @@
    ]
   },
   {
+   "name": "Deffkoptas",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 6,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Kopta rokkits",
+     "range": 24,
+     "A": "D3",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Kustom mega-blasta",
+     "range": 24,
+     "A": 3,
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HAZARDOUS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Spinnin’ blades",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Deffkoptas with Big Shootas [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 6,
+    "Sv": "4+",
+    "W": 4,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin big shoota",
+     "range": 36,
+     "A": 3,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Kopta rokkits",
+     "range": 24,
+     "A": "D3",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Kustom mega-blasta",
+     "range": 24,
+     "A": 3,
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Killsaw",
+     "A": 3,
+     "WS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": 2
+    },
+    {
+     "name": "Spinnin’ blades",
+     "A": 6,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Fighta-Bommer [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -3004,6 +3402,17 @@
      "S": 8,
      "AP": -2,
      "D": 2
+    },
+    {
+     "name": "Makari’s stabba",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
     }
    ],
    "keywords": [
@@ -3143,13 +3552,25 @@
    "source": "bsdata-wh40k-11e",
    "stats": {
     "M": 6,
-    "T": 5,
-    "Sv": "5+",
-    "W": 2,
-    "Ld": "7+",
-    "OC": 1
+    "T": 2,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 2
    },
    "ranged": [
+    {
+     "name": "Grot blasta",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
     {
      "name": "Slugga",
      "range": 12,
@@ -3165,10 +3586,55 @@
    ],
    "melee": [
     {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1
+    },
+    {
      "name": "Grot-smacka",
      "A": 3,
      "WS": "3+",
      "S": 5,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Gretchin (Armageddon)",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 2,
+    "Sv": "7+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Grot blasta",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "5+",
+     "S": 2,
      "AP": 0,
      "D": 1
     }
@@ -3357,6 +3823,94 @@
     "Grot Mega-Tank",
     "Grots"
    ]
+  },
+  {
+   "name": "Grot Tanks [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 6,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Grot tank shoota",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Grotzooka",
+     "range": 18,
+     "A": "D3+3",
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Kustom mega-blasta",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Rokkit launcha",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Skorcha",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Ramshackle hull",
+     "A": 3,
+     "WS": "5+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Grotmas Gitz [Legends]",
@@ -4475,6 +5029,84 @@
    ]
   },
   {
+   "name": "Killa Kans",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "3+",
+    "W": 5,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Kan shoota",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Grotzooka",
+     "range": 18,
+     "A": "D3+3",
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "IGNORES COVER"
+     ]
+    },
+    {
+     "name": "Rokkit launcha",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Skorcha",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Kan klaw",
+     "A": 3,
+     "WS": "4+",
+     "S": 8,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Kommandos",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -4497,6 +5129,43 @@
      "abilities": [
       "CLOSE-QUARTERS"
      ]
+    },
+    {
+     "name": "Kustom shoota",
+     "range": 18,
+     "A": 4,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Burna",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Rokkit launcha",
+     "range": 24,
+     "A": "D3",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
     }
    ],
    "melee": [
@@ -4507,6 +5176,38 @@
      "S": 4,
      "AP": -1,
      "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Breacha ram",
+     "A": 2,
+     "WS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power klaw",
+     "A": 3,
+     "WS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Big choppa",
+     "A": 4,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
     }
    ],
    "keywords": []
@@ -5209,6 +5910,110 @@
     "Mek",
     "Leader"
    ]
+  },
+  {
+   "name": "Mek Gunz",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 3,
+    "T": 5,
+    "Sv": "5+",
+    "W": 6,
+    "Ld": "8+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Smasha gun",
+     "range": 48,
+     "A": "D3+1",
+     "BS": "4+",
+     "S": 9,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "1-2 Bubblechukka - big bubble",
+     "range": 48,
+     "A": "2D6",
+     "BS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "BUBBLECHUKKA"
+     ]
+    },
+    {
+     "name": "3-4 Bubblechukka - wobbly bubble",
+     "range": 48,
+     "A": "D6",
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "BUBBLECHUKKA"
+     ]
+    },
+    {
+     "name": "5-6 Bubblechukka - dense bubble",
+     "range": 48,
+     "A": "D3",
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+3",
+     "abilities": [
+      "BLAST",
+      "BUBBLECHUKKA"
+     ]
+    },
+    {
+     "name": "Kustom mega-kannon",
+     "range": 36,
+     "A": "D6",
+     "BS": "4+",
+     "S": 12,
+     "AP": -1,
+     "D": "D6",
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Traktor kannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": "D6+1",
+     "abilities": [
+      "ANTI-FLY 2+",
+      "DEVASTATING WOUNDS"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Grot crew",
+     "A": 6,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Meka-Dread [Legends]",
@@ -6351,6 +7156,32 @@
      "abilities": [
       "CLOSE-QUARTERS"
      ]
+    },
+    {
+     "name": "Stikka (ranged)",
+     "range": 9,
+     "A": 1,
+     "BS": "5+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+"
+     ]
+    },
+    {
+     "name": "Saddlegit weapons",
+     "range": 9,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
     }
    ],
    "melee": [
@@ -6375,6 +7206,19 @@
      "D": 2,
      "abilities": [
       "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Stikka (melee)",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "ANTI-MONSTER 4+",
+      "ANTI-VEHICLE 4+",
+      "LANCE"
      ]
     }
    ],
@@ -6552,6 +7396,14 @@
      "S": 4,
      "AP": -1,
      "D": 1
+    },
+    {
+     "name": "Power klaw",
+     "A": 3,
+     "WS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -6579,6 +7431,18 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Rokkit launcha",
+     "range": 24,
+     "A": "D3",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
     }
    ],
    "melee": [
@@ -6600,6 +7464,14 @@
      "WS": "3+",
      "S": 5,
      "AP": -1,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": 0,
      "D": 1
     }
    ],
@@ -7220,25 +8092,13 @@
     "M": 12,
     "T": 6,
     "Sv": "4+",
-    "W": 4,
+    "W": 3,
     "Ld": "7+",
     "OC": 2
    },
    "invuln": "6+",
    "invuln_ranged_only": false,
    "ranged": [
-    {
-     "name": "Slugga",
-     "range": 12,
-     "A": 1,
-     "BS": "5+",
-     "S": 4,
-     "AP": 0,
-     "D": 1,
-     "abilities": [
-      "CLOSE-QUARTERS"
-     ]
-    },
     {
      "name": "Twin dakkagun",
      "range": 18,
@@ -7252,9 +8112,37 @@
       "RAPID FIRE 2",
       "TWIN-LINKED"
      ]
+    },
+    {
+     "name": "Slugga",
+     "range": 12,
+     "A": 1,
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
     }
    ],
    "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Choppa",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1
+    },
     {
      "name": "Big choppa",
      "A": 3,
@@ -7270,14 +8158,6 @@
      "S": 9,
      "AP": -2,
      "D": 2
-    },
-    {
-     "name": "Close combat weapon",
-     "A": 2,
-     "WS": "3+",
-     "S": 4,
-     "AP": 0,
-     "D": 1
     }
    ],
    "keywords": []
@@ -7357,14 +8237,6 @@
      "D": 2
     },
     {
-     "name": "Power klaw",
-     "A": 4,
-     "WS": "3+",
-     "S": 10,
-     "AP": -2,
-     "D": 2
-    },
-    {
      "name": "Kustom choppa",
      "A": 6,
      "WS": "2+",
@@ -7374,6 +8246,14 @@
      "abilities": [
       "CLEAVE 1"
      ]
+    },
+    {
+     "name": "Power klaw",
+     "A": 4,
+     "WS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 2
     }
    ],
    "abilities": {
@@ -7629,6 +8509,58 @@
     "Warboss",
     "Leader"
    ]
+  },
+  {
+   "name": "Warbuggies [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 6,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Twin big shoota",
+     "range": 36,
+     "A": 3,
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Rack of rokkits",
+     "range": 24,
+     "A": "D3+1",
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Spiked wheel",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Warphead [Crucible]",

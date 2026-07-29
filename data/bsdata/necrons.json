@@ -4313,6 +4313,15 @@
      "abilities": [
       "INDIRECT FIRE"
      ]
+    },
+    {
+     "name": "Annihilator beam",
+     "range": 24,
+     "A": 1,
+     "BS": "2+",
+     "S": 14,
+     "AP": -4,
+     "D": 6
     }
    ],
    "melee": [
@@ -4326,6 +4335,14 @@
      "abilities": [
       "LETHAL HITS"
      ]
+    },
+    {
+     "name": "Armoured bulk",
+     "A": 1,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
     }
    ],
    "abilities": {

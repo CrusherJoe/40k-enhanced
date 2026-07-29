@@ -104,6 +104,19 @@
    "invuln_ranged_only": false,
    "ranged": [
     {
+     "name": "Coruscating Yellow flames (ref. only)",
+     "range": 18,
+     "A": 2,
+     "BS": "5+",
+     "S": 2,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL",
+      "PSYCHIC"
+     ]
+    },
+    {
      "name": "Coruscating Blue flames",
      "range": 18,
      "A": 2,
@@ -118,6 +131,14 @@
     }
    ],
    "melee": [
+    {
+     "name": "Yellow claws (ref. only)",
+     "A": 2,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1
+    },
     {
      "name": "Blue claws",
      "A": 1,
@@ -2370,6 +2391,14 @@
      "D": 1
     },
     {
+     "name": "Helbrute fist",
+     "A": 5,
+     "WS": "3+",
+     "S": 12,
+     "AP": -2,
+     "D": 3
+    },
+    {
      "name": "Helbrute hammer",
      "A": 5,
      "WS": "4+",
@@ -3805,6 +3834,40 @@
      "abilities": [
       "RAPID FIRE 2"
      ]
+    },
+    {
+     "name": "Hellfyre missile rack",
+     "range": 36,
+     "A": 2,
+     "BS": "3+",
+     "S": 10,
+     "AP": -2,
+     "D": 3
+    },
+    {
+     "name": "Heavy warpflamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Soulreaper cannon",
+     "range": 24,
+     "A": 6,
+     "BS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS"
+     ]
     }
    ],
    "melee": [
@@ -3932,6 +3995,19 @@
      "S": 10,
      "AP": -2,
      "D": 3
+    },
+    {
+     "name": "Warpflame projector",
+     "range": 12,
+     "A": "D3",
+     "BS": "N/A",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
     }
    ],
    "melee": [
@@ -3942,6 +4018,14 @@
      "S": 5,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Power claw",
+     "A": 3,
+     "WS": "4+",
+     "S": 10,
+     "AP": -2,
+     "D": 2
     }
    ],
    "keywords": []
@@ -4538,6 +4622,14 @@
      "A": 3,
      "WS": "4+",
      "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Tzaangor blades",
+     "A": 2,
+     "WS": "4+",
+     "S": 5,
      "AP": 0,
      "D": 1
     }

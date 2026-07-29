@@ -2129,6 +2129,21 @@
     "Ld": "7+",
     "OC": 1
    },
+   "ranged": [
+    {
+     "name": "Belly flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
    "melee": [
     {
      "name": "Brutal weapons",
@@ -2137,6 +2152,14 @@
      "S": 4,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Hideous mutations",
+     "A": 4,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": 2
     }
    ],
    "keywords": [],

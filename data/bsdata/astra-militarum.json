@@ -767,6 +767,99 @@
    ]
   },
   {
+   "name": "Attilan Rough Riders",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 12,
+    "T": 4,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hunting lance - frag tip",
+     "A": "D6",
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Hunting lance - melta tip",
+     "A": 1,
+     "WS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Steed's hooves",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Goad lance",
+     "A": 2,
+     "WS": "3+",
+     "S": 6,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Power sabre",
+     "A": 4,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Augmented Bone 'Ead [Crucible]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1676,6 +1769,51 @@
    ]
   },
   {
+   "name": "Bullgryn Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "3+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Grenadier gauntlet",
+     "range": 18,
+     "A": "D6",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Bullgryn maul",
+     "A": 4,
+     "WS": "3+",
+     "S": 7,
+     "AP": -1,
+     "D": 2
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 4,
+     "WS": "3+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Cadian Castellan",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -1874,6 +2012,89 @@
       "HAZARDOUS",
       "PISTOL"
      ]
+    },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
     }
    ],
    "melee": [
@@ -1900,12 +2121,419 @@
      "S": 3,
      "AP": 0,
      "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [
     "Character",
     "Officer"
    ]
+  },
+  {
+   "name": "Cadian Heavy Weapons Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "5+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Mortar",
+     "range": 48,
+     "A": "D6",
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "5+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "5+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Cadian Recon Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Autostubber",
+     "range": 24,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Long-las",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Cadian Shock Troops",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 1",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Sergeant's autogun",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Carnodon [Legends]",
@@ -2085,7 +2713,7 @@
     "M": 6,
     "T": 3,
     "Sv": "5+",
-    "W": 3,
+    "W": 1,
     "Ld": "7+",
     "OC": 1
    },
@@ -2100,6 +2728,115 @@
      "D": 1,
      "abilities": [
       "PISTOL"
+     ]
+    },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
      ]
     },
     {
@@ -2154,6 +2891,14 @@
    ],
    "melee": [
     {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
      "name": "Chainsword",
      "A": 4,
      "WS": "4+",
@@ -2176,7 +2921,112 @@
      "S": 4,
      "AP": -2,
      "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Catachan Heavy Weapons Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "5+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
     },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Mortar",
+     "range": 48,
+     "A": "D6",
+     "BS": "5+",
+     "S": 5,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Missile launcher - frag",
+     "range": 48,
+     "A": "D6",
+     "BS": "5+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Missile launcher - krak",
+     "range": 48,
+     "A": 1,
+     "BS": "5+",
+     "S": 9,
+     "AP": -2,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "5+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Autocannon",
+     "range": 48,
+     "A": 2,
+     "BS": "5+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
     {
      "name": "Close combat weapon",
      "A": 2,
@@ -2186,10 +3036,69 @@
      "D": 1
     }
    ],
-   "keywords": [
-    "Character",
-    "Officer"
-   ]
+   "keywords": []
+  },
+  {
+   "name": "Catachan Jungle Fighters",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Centaur Light Carrier [Legends]",
@@ -3135,11 +4044,23 @@
     "M": 6,
     "T": 3,
     "Sv": "4+",
-    "W": 2,
+    "W": 1,
     "Ld": "7+",
-    "OC": 2
+    "OC": 1
    },
    "ranged": [
+    {
+     "name": "Hot-shot lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
     {
      "name": "Heavy flamer",
      "range": 12,
@@ -3152,6 +4073,115 @@
       "IGNORES COVER",
       "TORRENT"
      ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 1",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Sergeant's pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
@@ -3161,6 +4191,212 @@
      "WS": "4+",
      "S": 3,
      "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Sergeant's close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Death Korps of Krieg",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Long-las",
+     "range": 36,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 1",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
      "D": 1
     }
    ],
@@ -3245,6 +4481,65 @@
     "Death Rider Commissar",
     "Leader"
    ]
+  },
+  {
+   "name": "Death Riders",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 4,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Death Rider lascarbine",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Steed's savage claws",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    },
+    {
+     "name": "Power sabre",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Frag lance",
+     "A": "D6",
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "LANCE"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Deathstrike",
@@ -3844,6 +5139,94 @@
    "keywords": []
   },
   {
+   "name": "Field Ordnance Battery",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 3,
+    "T": 5,
+    "Sv": "4+",
+    "W": 6,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Malleus rocket launcher",
+     "range": 48,
+     "A": "D6+6",
+     "BS": "5+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bombast field gun",
+     "range": 48,
+     "A": "D6",
+     "BS": "5+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HEAVY",
+      "INDIRECT FIRE"
+     ]
+    },
+    {
+     "name": "Heavy lascannon",
+     "range": 48,
+     "A": 2,
+     "BS": "5+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Battery close combat weapons",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Front-line Commander [Crucible]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -4271,6 +5654,68 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Corbec's hot-shot lascarbine",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Larkin's long-las",
+     "range": 36,
+     "A": 1,
+     "BS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 4,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Lascarbine",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Rawne's lascarbine",
+     "range": 24,
+     "A": 3,
+     "BS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Bragg's autocannon",
+     "range": 48,
+     "A": 4,
+     "BS": "5+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "HEAVY"
+     ]
     }
    ],
    "melee": [
@@ -4281,12 +5726,89 @@
      "S": 3,
      "AP": -1,
      "D": 1
+    },
+    {
+     "name": "Straight silver knife",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Mkoll's straight silver knife",
+     "A": 5,
+     "WS": "2+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "DEVASTATING WOUNDS",
+      "PRECISION"
+     ]
     }
    ],
    "keywords": [
     "Epic Hero",
     "Character",
     "Officer"
+   ],
+   "extra_profiles": [
+    {
+     "name": "Tanith Ghost w/ Corbec's hot-shot lascarbine",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Tanith Ghost w/ Larkin's long-las",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Tanith Ghost w/ Mkoll's Straight Silver Knife",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Tanith Ghost w/ Rawne's lascarbine",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Tanith Ghost w/ Bragg's autocannon",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "5+",
+      "W": 2,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
    ]
   },
   {
@@ -4691,6 +6213,43 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Demolitions",
+     "range": 6,
+     "A": "D6",
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Hot-shot laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
     }
    ],
    "melee": [
@@ -4701,6 +6260,25 @@
      "S": 4,
      "AP": -2,
      "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Dirk",
+     "A": 3,
+     "WS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PRECISION"
+     ]
     }
    ],
    "keywords": [
@@ -5231,6 +6809,378 @@
    ]
   },
   {
+   "name": "Jungle Fighter",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Kasrkin",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Hot-shot lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Hot-shot marksman rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Hot-shot laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 1",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Hot-shot volley gun",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 4,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Krieg Combat Engineers",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Autopistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Combat shotgun",
+     "range": 12,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Hand flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "PISTOL",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Trench club",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 4,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Krieg Command Squad",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -5278,6 +7228,113 @@
      "abilities": [
       "PISTOL"
      ]
+    },
+    {
+     "name": "Boltgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
     }
    ],
    "melee": [
@@ -5296,6 +7353,30 @@
      "S": 4,
      "AP": -2,
      "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Trench club",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [
@@ -5307,14 +7388,27 @@
    "name": "Krieg Heavy Weapons Squad",
    "source": "bsdata-wh40k-11e",
    "stats": {
-    "M": 6,
+    "M": 4,
     "T": 3,
-    "Sv": "5+",
-    "W": 1,
+    "Sv": "4+",
+    "W": 2,
     "Ld": "7+",
     "OC": 1
    },
    "ranged": [
+    {
+     "name": "Krieg heavy flamer",
+     "range": 18,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
     {
      "name": "Laspistol",
      "range": 12,
@@ -5325,6 +7419,32 @@
      "D": 1,
      "abilities": [
       "PISTOL"
+     ]
+    },
+    {
+     "name": "Twin Krieg heavy stubber",
+     "range": 48,
+     "A": 3,
+     "BS": "5+",
+     "S": 6,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "HEAVY",
+      "RAPID FIRE 3",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "5+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "HEAVY"
      ]
     }
    ],
@@ -5339,6 +7459,172 @@
     }
    ],
    "keywords": []
+  },
+  {
+   "name": "Leman Russ Battle Tank",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Leman Russ battle cannon",
+     "range": 48,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 10,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Armoured Spearhead",
+      "text": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Leman Russ Battle Tank",
+    "Imperium",
+    "Vehicle",
+    "Squadron",
+    "Smoke",
+    "Frame"
+   ]
   },
   {
    "name": "Leman Russ Commander",
@@ -5596,6 +7882,1014 @@
     "Smoke",
     "Character",
     "Squadron",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Leman Russ Demolisher",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Demolisher battle cannon",
+     "range": 24,
+     "A": "D6+1",
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Line-breaker",
+      "text": "When making ranged attacks with its demolisher battle cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Leman Russ Demolisher",
+    "Imperium",
+    "Smoke",
+    "Vehicle",
+    "Squadron",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Leman Russ Eradicator",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Eradicator nova cannon",
+     "range": 36,
+     "A": "D3+6",
+     "BS": "4+",
+     "S": 7,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "IGNORES COVER"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Urban Warfare",
+      "text": "Each time a ranged attack targets this model, if this model has the Benefit of Cover against that attack, subtract 1 from the Damage characteristic of that attack."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Leman Russ Eradicator",
+    "Imperium",
+    "Vehicle",
+    "Squadron",
+    "Smoke",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Leman Russ Executioner",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Executioner plasma cannon - standard",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Executioner plasma cannon - supercharge",
+     "range": 36,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 3,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Gung-ho Executioners",
+      "text": "Each time this model makes an attack with its executioner plasma cannon that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Leman Russ Executioner",
+    "Imperium",
+    "Squadron",
+    "Smoke",
+    "Vehicle",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Leman Russ Exterminator",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Exterminator autocannon",
+     "range": 48,
+     "A": 4,
+     "BS": "4+",
+     "S": 9,
+     "AP": -1,
+     "D": 3,
+     "abilities": [
+      "RAPID FIRE 4",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Withering Hail",
+      "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly Astra Militarum unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Leman Russ Exterminator",
+    "Imperium",
+    "Smoke",
+    "Squadron",
+    "Vehicle",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Leman Russ Punisher",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Punisher gatling cannon",
+     "range": 24,
+     "A": 20,
+     "BS": "4+",
+     "S": 6,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Mow Down the Enemy",
+      "text": "Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Leman Russ Punisher",
+    "Imperium",
+    "Vehicle",
+    "Smoke",
+    "Squadron",
+    "Frame"
+   ]
+  },
+  {
+   "name": "Leman Russ Vanquisher",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 10,
+    "T": 11,
+    "Sv": "2+",
+    "W": 13,
+    "Ld": "7+",
+    "OC": 3
+   },
+   "ranged": [
+    {
+     "name": "Lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1"
+    },
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Heavy flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 5,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Storm bolter",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Heavy stubber",
+     "range": 36,
+     "A": 3,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    },
+    {
+     "name": "Hunter-killer missile",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 14,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "ONE SHOT"
+     ]
+    },
+    {
+     "name": "Vanquisher battle cannon",
+     "range": 72,
+     "A": 1,
+     "BS": "4+",
+     "S": 18,
+     "AP": -4,
+     "D": "D6+6",
+     "abilities": [
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Armoured tracks",
+     "A": 6,
+     "WS": "4+",
+     "S": 7,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "abilities": {
+    "core": [
+     "Deadly Demise D3"
+    ],
+    "datasheet": [
+     {
+      "name": "Tank-killer",
+      "text": "Each time this model makes a ranged attack with its vanquisher battle cannon that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+     }
+    ]
+   },
+   "damaged": {
+    "threshold": "1-4",
+    "text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+   },
+   "keywords": [
+    "Leman Russ Vanquisher",
+    "Imperium",
+    "Squadron",
+    "Smoke",
+    "Vehicle",
     "Frame"
    ]
   },
@@ -7206,11 +10500,118 @@
     "M": 6,
     "T": 3,
     "Sv": "4+",
-    "W": 3,
+    "W": 1,
     "Ld": "7+",
     "OC": 1
    },
    "ranged": [
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Hot-shot volley gun",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 1",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Hot-shot lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Hot-shot laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
     {
      "name": "Bolt pistol",
      "range": 12,
@@ -7251,6 +10652,14 @@
    ],
    "melee": [
     {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
      "name": "Tempestus dagger",
      "A": 4,
      "WS": "3+",
@@ -7259,10 +10668,7 @@
      "D": 1
     }
    ],
-   "keywords": [
-    "Character",
-    "Officer"
-   ]
+   "keywords": []
   },
   {
    "name": "Ministorum Priest",
@@ -7399,6 +10805,249 @@
     "Artillery",
     "Frame"
    ]
+  },
+  {
+   "name": "Mukaali Riders [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 8,
+    "T": 6,
+    "Sv": "4+",
+    "W": 5,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Plasma pistol - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharged",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    }
+   ],
+   "melee": [
+    {
+     "name": "Hunting lance",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "LANCE"
+     ]
+    },
+    {
+     "name": "Chainsword",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    },
+    {
+     "name": "Stomping Feet",
+     "A": 2,
+     "WS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "EXTRA ATTACKS"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Munitorum Servitors [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 0
+   },
+   "invuln": "6+",
+   "invuln_ranged_only": false,
+   "ranged": [
+    {
+     "name": "Heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "6+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "SUSTAINED HITS 1"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "6+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "HEAVY",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma cannon - standard",
+     "range": 36,
+     "A": "D3",
+     "BS": "6+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "BLAST",
+      "HEAVY"
+     ]
+    },
+    {
+     "name": "Plasma cannon - supercharge",
+     "range": 36,
+     "A": "D3",
+     "BS": "6+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS",
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Servitor's servo arm",
+     "A": 1,
+     "WS": "5+",
+     "S": 6,
+     "AP": -2,
+     "D": 3
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Nork Deddog",
@@ -7547,6 +11196,33 @@
     "Ogryn",
     "Character"
    ]
+  },
+  {
+   "name": "Ogryn Squad",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 6,
+    "Sv": "5+",
+    "W": 3,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Ripper gun",
+     "range": 18,
+     "A": 3,
+     "BS": "4+",
+     "S": 5,
+     "AP": -1,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 3"
+     ]
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Praetor [Legends]",
@@ -7858,6 +11534,14 @@
      "S": 4,
      "AP": -2,
      "D": 1
+    },
+    {
+     "name": "Medical scalpels",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
     }
    ],
    "keywords": [
@@ -7918,6 +11602,130 @@
    ]
   },
   {
+   "name": "Ratlings",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 2,
+    "Sv": "6+",
+    "W": 1,
+    "Ld": "8+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Sniper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Tankstopper rifle",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -3,
+     "D": "D6",
+     "abilities": [
+      "HEAVY"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "5+",
+     "S": 2,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Regimental Attachés [Legends]",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Astropath's stave",
+     "A": 1,
+     "WS": "4+",
+     "S": 6,
+     "AP": -1,
+     "D": "D3",
+     "abilities": [
+      "PSYCHIC"
+     ]
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": [
+    "Psyker"
+   ],
+   "extra_profiles": [
+    {
+     "name": "Master of Ordnance",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "5+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+     }
+    },
+    {
+     "name": "Officer of the Fleet",
+     "stats": {
+      "M": 6,
+      "T": 3,
+      "Sv": "5+",
+      "W": 1,
+      "Ld": "7+",
+      "OC": 1
+     }
+    }
+   ]
+  },
+  {
    "name": "Rein and Raus [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -7952,6 +11760,20 @@
      "abilities": [
       "HEAVY",
       "PRECISION"
+     ]
+    },
+    {
+     "name": "Demolition Charge",
+     "range": 6,
+     "A": "D6+3",
+     "BS": "4+",
+     "S": 12,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "BLAST",
+      "HAZARDOUS",
+      "ONE SHOT"
      ]
     }
    ],
@@ -9320,6 +13142,146 @@
    ]
   },
   {
+   "name": "Shock Trooper",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Shock Trooper Sergeant",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Sergeant's autogun",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "melee": [
+    {
+     "name": "Chainsword",
+     "A": 3,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Shock Trooper w/ Vox Caster",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "5+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 1,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Sly Marbo",
    "source": "bsdata-wh40k-11e",
    "stats": {
@@ -9968,6 +13930,18 @@
       "SUSTAINED HITS 1",
       "TWIN-LINKED"
      ]
+    },
+    {
+     "name": "Twin lascannon",
+     "range": 48,
+     "A": 1,
+     "BS": "4+",
+     "S": 12,
+     "AP": -3,
+     "D": "D6+1",
+     "abilities": [
+      "TWIN-LINKED"
+     ]
     }
    ],
    "melee": [
@@ -10430,6 +14404,373 @@
     "Character",
     "Leader"
    ]
+  },
+  {
+   "name": "Tempestus Aquilons",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Hot-shot lascarbine",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Hot-shot laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hot-shot long las",
+     "range": 36,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "HEAVY",
+      "PRECISION"
+     ]
+    },
+    {
+     "name": "Plasma carbine - standard",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "ASSAULT"
+     ]
+    },
+    {
+     "name": "Plasma carbine - supercharge",
+     "range": 18,
+     "A": 2,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Melta carbine",
+     "range": 10,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "ASSAULT",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Sentry flamer",
+     "range": 12,
+     "A": "D6+3",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Sentry hot-shot volley gun",
+     "range": 30,
+     "A": 4,
+     "BS": "4+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 4"
+     ]
+    },
+    {
+     "name": "Sentry grenade launcher - frag",
+     "range": 24,
+     "A": "D3+3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Sentry grenade launcher - krak",
+     "range": 24,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 4,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
+  },
+  {
+   "name": "Tempestus Scions",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 3,
+    "Sv": "4+",
+    "W": 1,
+    "Ld": "7+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Hot-shot laspistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Hot-shot lasgun",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 3,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Flamer",
+     "range": 12,
+     "A": "D6",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT"
+     ]
+    },
+    {
+     "name": "Grenade launcher - frag",
+     "range": 24,
+     "A": "D3",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Grenade launcher - krak",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -2,
+     "D": "D3"
+    },
+    {
+     "name": "Hot-shot volley gun",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 4,
+     "AP": -1,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 2"
+     ]
+    },
+    {
+     "name": "Meltagun",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Plasma gun - standard",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "RAPID FIRE 1"
+     ]
+    },
+    {
+     "name": "Plasma gun - supercharge",
+     "range": 24,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "RAPID FIRE 1",
+      "HAZARDOUS"
+     ]
+    },
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - standard",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 7,
+     "AP": -2,
+     "D": 1,
+     "abilities": [
+      "PISTOL"
+     ]
+    },
+    {
+     "name": "Plasma pistol - supercharge",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 8,
+     "AP": -3,
+     "D": 2,
+     "abilities": [
+      "HAZARDOUS",
+      "PISTOL"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 2,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Chainsword",
+     "A": 4,
+     "WS": "4+",
+     "S": 3,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Power fist",
+     "A": 3,
+     "WS": "4+",
+     "S": 6,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Power weapon",
+     "A": 3,
+     "WS": "4+",
+     "S": 4,
+     "AP": -2,
+     "D": 1
+    }
+   ],
+   "keywords": []
   },
   {
    "name": "Trojan Support Vehicle [Legends]",
