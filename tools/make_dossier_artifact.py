@@ -115,7 +115,7 @@ function render(){
 render();
 </script>'''
 
-LABELS = {"knights": "Imperial Knights", "custodes": "Custodes"}
+LABELS = {"knights": "Imperial Knights", "custodes": "Custodes", "great_value": "Great Value Redux"}
 
 
 def main(keys, combined=False):

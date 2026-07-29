@@ -243,6 +243,26 @@ def _nm(item):
     return f"{item['cnt']}x {item['name']}" if item.get("cnt", 1) > 1 else item["name"]
 
 
+def structured(r):
+    """The runbook as structured data (for the Excel analysis export / any downstream deliverable)."""
+    d = r["d"]
+    head, wincon = _assess(r)
+    pk, pa = _priority_kills(r), _play_around(r)
+    work = sorted([m for m in r["mine"] if m["dealt"] >= 1.0], key=lambda m: -m["dealt"])[:4]
+    weak = sorted([m for m in r["mine"] if m["surv"] < 0.35 and m["dealt"] < 3.0], key=lambda m: m["surv"])[:4]
+    lean, avoid = _secondaries(r)
+    return dict(
+        me=d["me_name"], opp=d["opp_name"], mission=d["my_mission"], opp_mission=d["opp_mission"],
+        deployment=d.get("deployment"), read=head, read_short=head.split("—")[0].strip(), wincon=wincon,
+        posture=r["my_strategy"].name if r["my_strategy"] else "balanced",
+        priority_kills=[(_nm(e), round(e["dmg"], 1), round(100 * (1 - e["surv"]))) for e in pk[:5]],
+        play_around=[(_nm(e), round(100 * e["surv"]), round(e["dmg"], 1)) for e in pa[:4]],
+        workhorses=[(_nm(m), round(m["dealt"], 1), round(100 * m["surv"])) for m in work],
+        liabilities=[(_nm(m), round(100 * m["surv"])) for m in weak],
+        board=[round(v, 1) for v in r["ctrl"]], oboard=[round(v, 1) for v in r["octrl"]],
+        sec_lean=lean, sec_avoid=avoid, trap=_trap(r, pa))
+
+
 def _posture_text(s):
     if s is None:
         return "contest the board and trade."

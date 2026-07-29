@@ -55,15 +55,19 @@ def gather(me_name="custodes", games=250, opt_opp="necrons", seed=11):
                 for nm, s in extra.items())
         except Exception:
             pass
-    rows, books = [], []
+    rows, books, details = [], [], []
     for opp in OPPONENTS:
         r = runbook.build(me_builder, getattr(rosters, opp), games=games, seed=seed)
-        rows.append(_matchup_row(me_name, opp, r))
+        row = _matchup_row(me_name, opp, r)
+        row["arch"] = St.archetype(getattr(rosters, opp)())
+        rows.append(row)
         books.append(runbook.report(r))
+        s = runbook.structured(r); s["opp_key"] = opp; s["arch"] = row["arch"]
+        details.append(s)
     opt = optimize.optimize(me_builder, getattr(rosters, opt_opp),
                             screen=max(400, games // 2), final=games, seed=seed)
     fixes = optimize.report(opt)
-    return dict(name=me_builder().name, me=me_name, tap=tap, rows=rows, books=books,
+    return dict(name=me_builder().name, me=me_name, tap=tap, rows=rows, books=books, details=details,
                 fixes=fixes, opt_opp=opt_opp, games=games)
 
 
@@ -133,24 +137,85 @@ def render_html(P):
     return "\n".join(h)
 
 
-def build(me_name="custodes", games=250, opt_opp="necrons", seed=11, pdf=True):
+_READ_FILL = {"FAVOURED": "C7E5CE", "EVEN": "CBDCEC", "ATTRITION": "F0E2C0", "HARD": "F0CCC7"}
+
+
+def render_xlsx(P, path):
+    """Analysis SPREADSHEET (.xlsx): a Matchup Map sheet + a per-matchup Threats & Plan sheet."""
+    from openpyxl import Workbook
+    from openpyxl.styles import Font, PatternFill, Alignment
+    from openpyxl.utils import get_column_letter
+    wb = Workbook()
+    hdr = Font(bold=True, color="FFFFFF"); hdrfill = PatternFill("solid", fgColor="2A2A2A")
+    wrap = Alignment(wrap_text=True, vertical="top")
+
+    def sheet(ws, headers, rows, widths, fills=None):
+        for c, h in enumerate(headers, 1):
+            cell = ws.cell(1, c, h); cell.font = hdr; cell.fill = hdrfill
+        for ri, row in enumerate(rows, 2):
+            for c, v in enumerate(row, 1):
+                cell = ws.cell(ri, c, v); cell.alignment = wrap
+            if fills:
+                key = next((k for k in _READ_FILL if str(row[fills[1]]).upper().startswith(k)), None)
+                if key:
+                    ws.cell(ri, fills[0] + 1).fill = PatternFill("solid", fgColor=_READ_FILL[key])
+        for c, w in enumerate(widths, 1):
+            ws.column_dimensions[get_column_letter(c)].width = w
+        ws.freeze_panes = "A2"
+
+    # 1. Matchup Map
+    ws1 = wb.active; ws1.title = "Matchup Map"
+    sheet(ws1, ["Opponent", "Archetype", "Read", "Posture", "Mission (you)", "Deployment",
+                "Biggest threat", "Win condition"],
+          [[d["opp"], d["arch"], d["read_short"], d["posture"], d["mission"], d["deployment"] or "",
+            (d["priority_kills"][0][0] if d["priority_kills"] else (d["play_around"][0][0] if d["play_around"] else "-")),
+            d["wincon"]] for d in P["details"]],
+          [30, 14, 20, 10, 20, 14, 22, 52], fills=(2, 2))
+
+    # 2. Threats & Plan
+    ws2 = wb.create_sheet("Threats & Plan")
+    def lst(items, fmt):
+        return "\n".join(fmt(x) for x in items) or "-"
+    sheet(ws2, ["Opponent", "Read", "Priority kills (dmg / removable%)", "Play around (survive% / dmg)",
+                "Your workhorses", "Your liabilities", "Secondaries: lean", "Secondaries: discard", "The trap"],
+          [[d["opp"], d["read_short"],
+            lst(d["priority_kills"], lambda x: f"{x[0]} — {x[1]}w, {x[2]}% kill"),
+            lst(d["play_around"], lambda x: f"{x[0]} — {x[1]}% lives, {x[2]}w"),
+            lst(d["workhorses"], lambda x: f"{x[0]} — {x[1]}w"),
+            lst(d["liabilities"], lambda x: f"{x[0]} — {x[1]}%"),
+            "\n".join(d["sec_lean"]) or "-", "\n".join(d["sec_avoid"]) or "-", d["trap"]]
+           for d in P["details"]],
+          [26, 18, 34, 30, 26, 22, 26, 24, 46], fills=(1, 1))
+    for ws in (ws2,):
+        for r in range(2, ws.max_row + 1):
+            ws.row_dimensions[r].height = 92
+    wb.save(path)
+
+
+def build(me_name="custodes", games=250, opt_opp="necrons", seed=11, pdf=True, xlsx=True):
     P = gather(me_name, games, opt_opp, seed)
     d = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
         os.path.abspath(__file__))))), "reports")
     os.makedirs(d, exist_ok=True)
     md_path = os.path.join(d, f"dossier-{me_name}.md")
     open(md_path, "w").write(render_markdown(P))
-    pdf_path = None
-    if pdf:
+    pdf_path = xlsx_path = None
+    if pdf:                                            # RUNBOOK -> PDF
         html_path = os.path.join(d, f"dossier-{me_name}.html")
         open(html_path, "w", encoding="utf-8").write(render_html(P))
         try:
             subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir", d, html_path],
-                           check=True, capture_output=True, timeout=120)
+                           check=True, capture_output=True, timeout=180)
             pdf_path = os.path.join(d, f"dossier-{me_name}.pdf")
         except Exception as ex:
             print(f"(pdf render skipped: {ex})")
-    return render_markdown(P), md_path, pdf_path
+    if xlsx:                                           # ANALYSIS -> Excel
+        try:
+            xlsx_path = os.path.join(d, f"analysis-{me_name}.xlsx")
+            render_xlsx(P, xlsx_path)
+        except Exception as ex:
+            print(f"(xlsx render skipped: {ex})"); xlsx_path = None
+    return render_markdown(P), md_path, pdf_path, xlsx_path
 
 
 def main():
@@ -160,9 +225,10 @@ def main():
     ap.add_argument("--games", type=int, default=250)
     ap.add_argument("--opt", default="necrons")
     a = ap.parse_args()
-    doc, md_path, pdf_path = build(a.me, a.games, a.opt)
+    doc, md_path, pdf_path, xlsx_path = build(a.me, a.games, a.opt)
     print(doc)
-    print(f"\n[markdown: {md_path}]" + (f"\n[PDF: {pdf_path}]" if pdf_path else ""))
+    print(f"\n[markdown: {md_path}]" + (f"\n[Runbook PDF: {pdf_path}]" if pdf_path else "")
+          + (f"\n[Analysis Excel: {xlsx_path}]" if xlsx_path else ""))
 
 
 if __name__ == "__main__":
