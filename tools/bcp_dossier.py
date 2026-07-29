@@ -90,8 +90,9 @@ def main():
     covered = sum(x["n"] for x in rows)
     L += ["", f"*Covers {covered}/{rec['n_lists']} lists ({100*covered//rec['n_lists']}%). "
           f"Board = your avg objective margin R4-5 (mechanistic).*", "", "---", "", "## Runbooks",
-          "*The most common archetypes you'll face, most prevalent first.*", ""]
-    for x in rows[:a.books]:
+          "*Every simmed archetype, most prevalent first (the field guide reads these; the PDF keeps "
+          "full runbooks for the top few + compact cards for the rest).*", ""]
+    for x in rows:
         if "r" not in x:
             continue
         L += [f"### {x['key']}  ·  {x['n']} in field  ·  {x['verdict']}", ""]

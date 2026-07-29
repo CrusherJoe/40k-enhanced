@@ -198,6 +198,7 @@ h1{font-family:var(--disp);font-weight:800;letter-spacing:.01em;text-transform:u
 .rb pre{font:12px/1.5 var(--mono);white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);
   border-radius:6px;padding:12px;color:var(--soft);overflow-x:auto;margin:0;}
 .rb pre b{color:var(--ink);}
+.rb .norb{font-size:12.5px;color:var(--soft);font-style:italic;margin:0;}
 .roster{margin-top:14px;}
 .roster h4{font:600 10px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--faint);margin:0 0 7px;}
 .pilots{display:flex;flex-wrap:wrap;gap:6px;}
@@ -283,7 +284,9 @@ function card(a){
   const vc=VC[a.vclass]||'--unscored';
   const mg = a.margin==null?'':`<span title="board margin R4-5">${a.margin>0?'+':''}${a.margin.toFixed(2)}</span>`;
   const dispStr = a.disp.map(([d,n])=>`${d} ${n}`).join(' · ');
-  const rb = a.runbook ? `<div class="rb"><h4>Runbook — sim vs a real list</h4><pre>${boldRB(a.runbook)}</pre></div>` : '';
+  const rb = a.runbook
+    ? `<div class="rb"><h4>Runbook — sim vs a real list</h4><pre>${boldRB(a.runbook)}</pre></div>`
+    : `<div class="rb"><h4>Runbook</h4><p class="norb">No sim runbook — this list uses an export format the parser can't read into the engine. The verdict + how-to-play above are the plan.</p></div>`;
   const pilots = a.players.map(p=>`<span class="pilot"><a href="${p.url}" target="_blank" rel="noopener">${esc(p.name)}</a></span>`).join('');
   return `<div class="row" style="--vc:var(${vc})" data-bucket="${a.bucket}" data-key="${esc(a.key.toLowerCase())}">
     <div class="rhead">
