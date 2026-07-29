@@ -88,7 +88,9 @@ def target_number(char) -> int:
     s = str(char).strip()
     if not s or s.upper() in ("N/A", "-"):
         return 0
-    return int(s.rstrip("+"))
+    # take the leading value — some saves are conditional ("4+ / 6+" = Aeldari melee/ranged invuln)
+    m = re.match(r"(\d+)", s)
+    return int(m.group(1)) if m else 0
 
 
 def p_roll(need: int, modifier: int = 0) -> float:

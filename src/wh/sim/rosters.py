@@ -4,7 +4,7 @@ Rotate Ion Shields, etc.). Rosters are representative of the meta archetypes; re
 time. Each build_* returns an Army with units pre-deployed along its home row."""
 from __future__ import annotations
 
-import sys, os
+import sys, os, re
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.abspath(__file__))))), "tools"))
 import db
@@ -27,8 +27,22 @@ def _range(name, is_melee_list):
     return 0 if is_melee_list else 24
 
 
+def _norm_stat(v, default):
+    """Coerce a weapon S/AP to int — BSData strings can be '-', 'N/A', '2D6', '4+ / 6+'. Combat and
+    mathhammer read S/AP raw with int(), so guarantee an int here (leading number, else default)."""
+    if isinstance(v, int):
+        return v
+    s = str(v).strip()
+    if not s or s.upper() in ("-", "N/A"):
+        return default
+    m = re.match(r"-?\d+", s)
+    return int(m.group(0)) if m else default
+
+
 def _wep(w, is_melee):
     x = dict(w)
+    x["S"] = _norm_stat(w.get("S"), 4)
+    x["AP"] = _norm_stat(w.get("AP"), 0)
     x["abilities"] = list(w.get("abilities") or w.get("keywords") or [])
     x["rng"] = 0 if is_melee else _range(w["name"], is_melee)
     # one slot per list unless the weapon declares its own (e.g. Blade Champion's 3 Vaultswords share
