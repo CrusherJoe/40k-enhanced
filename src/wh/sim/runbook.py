@@ -291,14 +291,36 @@ def _strat_advice(r):
 
 
 def _trap(r, pa):
-    if r["ctrl"][0] - r["ctrl"][-1] >= 0.8:
+    """The single most likely way to throw THIS game. Prefer POSITIONAL/tempo traps — the sim models the
+    control curve reliably, so those hold up. Be very conservative with any "can't kill it" claim: the sim
+    under-models focus-fire + stratagem burst, so an enemy's average survival systematically OVER-states how
+    unkillable it is for an elite army (this is exactly the kill-trap the Custodes/Knights players flagged
+    as wrong). Only call a brick unkillable at extreme survival, and never when the whole plan is to out-kill."""
+    ctrl = r["ctrl"]
+    head, wincon = _assess(r)
+    # 1) BODY-COUNT LOSS — the horde/OUT-CONTROLLED matchup. The trap is trying to KILL your way out: you
+    #    can't clear enough bodies, so units you chase are units not scoring. Reinforces the out-kill-what's-
+    #    ON-the-points win-con.
+    if "OUT-CONTROLLED" in head:
+        return ("trying to KILL your way out of a body-count game — you can't clear enough of them. Kill only "
+                "what's sitting ON the objectives and contest the rest; don't chase units that aren't scoring.")
+    # 2) POSITIONAL — over-extend early, get swept off late. The reliable read.
+    if ctrl[0] - ctrl[-1] >= 0.8:
         return "over-committing forward, taking the board R1-2, then getting shot/swept off it by R4. Hold, don't chase."
-    if pa:
-        return f"pouring attacks into {pa[0]['name']} (you can't kill it) instead of scoring — ignore it and take points."
-    weak = [m for m in r["mine"] if m["surv"] < 0.3]
+    # 3) WASTED UNIT — expose one of your own that dies WITHOUT earning. Require low damage (like the
+    #    liabilities filter) so a melee trade piece — Cerastus Lancer, Vanguard Vets — that dies AFTER doing
+    #    its work isn't mislabelled "dies for nothing"; only genuine support/chaff qualifies.
+    weak = [m for m in r["mine"] if m["surv"] < 0.3 and m["dealt"] < 3.0]
     if weak:
         return f"exposing {weak[0]['name']} — it dies for nothing. Screen it or hold it back until it matters."
-    return "trading your workhorses too early — keep them alive to close the game."
+    # 4) TAR-PIT — only a GENUINE brick (survives ~4/5 even in the sim's unfocused exchange), and only when
+    #    out-killing isn't already the plan. Framed as the wasted HALF-commit, not a false "you can't kill it".
+    brick = [e for e in pa if e["surv"] >= 0.8]
+    if brick and "out-KILL" not in wincon:
+        b = brick[0]
+        return (f"half-committing into {b['name']} — it survives ~{round(100 * b['surv'])}% even here, so a partial "
+                f"swing is wasted. Commit a full turn to remove it OR screen it and take the objectives — never both.")
+    return "trading your workhorses too early — keep them alive to close the game; you win late, not in an R1-2 slugfest."
 
 
 def main():
