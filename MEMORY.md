@@ -52,10 +52,12 @@ Status:
   Sisters, …) were `bsdata_db.py` failing to extract units whose statline is an **infoLink → sharedProfile** (not inline `profiles[]`)
   and units DEFINED in a linked own-faction **"Library" catalogue** (e.g. `Library - Tyranids`) rather than the main file. Builder now
   (a) resolves Unit/weapon statlines via infoLinks→`ctx["SP"]` (see `unit_profiles()`), and (b) discovers datasheets from the faction's
-  OWN library too (stem-matched, so it never pulls shared ALLY libraries like the Chaos Daemons lib into CSM). All 4 memory-flagged
-  units now recover; field unresolved went 76→3. **ALWAYS `git -C data/_src/wh40k-11e pull` + `tools/bsdata_db.py --all` when data
-  looks thin — the clone can be days stale AND the builder must be current.** Remaining long-tail (2 units, nested-wrapper entries):
-  Victrix Honour Guard (ultramarines), Indomitor Kill Team (deathwatch) — accept per HARD-COUNTERS ethos; `_overrides` if ever needed.
+  OWN library too (stem-matched, so it never pulls shared ALLY libraries like the Chaos Daemons lib into CSM). Also handles two more
+  statline placements: an inline Unit profile on a selectionEntryGroup (Victrix Honour Guard) and models nested in GROUPS-within-groups
+  (Deathwatch kill teams). All 4 memory-flagged units recover; **BCP field unresolved went 76→0 — 28/28 loadable factions 100% clean.**
+  **ALWAYS `git -C data/_src/wh40k-11e pull` + `tools/bsdata_db.py --all` when data looks thin — the clone can be days stale AND the
+  builder must be current.** Only non-DB gap left: 14 field lists are UNPARSEABLE list-builder TEXT exports (a `listloader.parse_units`
+  limitation — the DB has the units, the exported text just isn't in a format it reads). `_overrides` still the remedy for any true gap.
   **★ Sir Hekhtur = the PILOT SUB-MODEL of Canis Rex** (user-corrected 2026-07-29; builds as an `extra_profile` under Canis Rex, NOT a
   standalone datasheet) — a list line naming just "Sir Hekhtur" is a parse artifact, not a missing sheet. POINTS still = MFM.
 - **Rules corpus committed** ✅ `data/faction-packs/<slug>.txt` (27), `data/rules/core-rules.txt`, `data/rules/event-companion.txt`.
