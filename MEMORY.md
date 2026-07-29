@@ -65,6 +65,24 @@ Status:
 - **Portability**: `git clone` the repo + `git clone --depth 1 BSData/wh40k-11e data/_src/wh40k-11e` + `tools/refresh.py`.
   A new box/Claude reads `MEMORY.md` + `data/README.md` and is operational.
 
+**★★ LSO 2026 FIELD DATABASE — the real target-event field, pulled 2026-07-29 (user IS Joe Beddoe, playing
+Imperial Knights List A — the list I helped build).** The whole LSO (Lone Star Open 2026 — 40k Champs, BCP
+event `VAiZ9vjF61Rk`, 330 players, starts 2026-08-01) is snapshotted locally. See `data/bcp/README.md`.
+- **BCP API** (public roster, no auth): `newprod-api.bestcoastpairings.com/v1`, header `client-id: web-app`,
+  `/players?eventId=..&expand[]=user&expand[]=subFaction` (faction+team come by default; expanding them BLANKS
+  them), `nextKey` cursor, page<100. Decklist TEXT (`/armylists/<id>.armyListText`) needs a logged-in Cognito
+  **bearer token** (`Authorization: Bearer <accessToken>` from browser localStorage; ~1h TTL) in gitignored
+  `.env.bcp`. Tools: `tools/bcp_pull.py` (roster + `--fetch-lists`, resumable) → `tools/bcp_db.py` (build the DB
+  from the raw JSONs + `stats|faction|unit|show` CLI).
+- **THE DB = `data/bcp/lso2026.sqlite`** (derived/gitignored; rebuild from committed `data/bcp/lso2026-lists/_raw/`):
+  324 lists / 4630 units / 646 enhancements. Tables `lists`(faction/detachment/disposition/points/army_text/…),
+  `units`, `enhancements`. All have disposition+points; **314/324 have parsed units** (`parse_ok=1`; 10 exotic
+  exports are text-only). Field disposition split: T&H 106 / Priority Assets 100 / Purge 56 / Recon 46 / Disrupt 16.
+- **SIM INTEGRATION = `wh.sim.bcp`** — loads ANY BCP list as an opponent via `listloader.load(entry=…)` (same
+  parse→BSData→role/threat→tapestry pipeline). CLI: `python -m wh.sim.bcp {list|show|run <me> <opp>|field <me>}`.
+  Extended `listloader._FACTION_SLUG` with the 9 factions that have a BSData cut but the archive never hit (incl.
+  **imperial-knights**). Now I can runbook/dossier/field List A vs the REAL LSO field — directional only (sim STATUS).
+
 **★★ RULES I GOT WRONG — banked (user-corrected 2026-07-27). Verify sims/plans against these:**
 - **KILLING CHARACTERS needs [PRECISION].** A Character attached to a Bodyguard = a Leader; you CANNOT target/allocate to it — wounds hit the bodyguard. NO Knight weapon (nor GV Sternguard/cyclone/brick) has Precision -> you canNOT snipe attached chars at range. TOOL: **EPIC CHALLENGE (core strat 15.03, 1CP)** — in the Fight phase a friendly CHARACTER's melee weapons gain [PRECISION]. Castellan/Crusader/**Lancer are all CHARACTERs** (Helverin is not) -> the Lancer (S20 AP-3 D8) charges + Epic-Challenges = assassinate the attached char in MELEE. Standalone Monster/Vehicle/Titanic chars (Fulgrim/Magnus/Lion/DPs/Steel-Hammer superheavies/enemy Knights) = shoot/fight DIRECTLY. Lone Operatives = only targetable within 12". Shieldbreaker = Anti-TITANIC (enemy Knights/superheavies), NOT an infantry-character sniper.
 - **AP vs saves:** AP modifies the ARMOUR save only; an INVULN is NEVER modified by AP. So high-AP (railgun -5, rail/fusion -4) is wasted on a model taking its invuln, and **Armour of Contempt does nothing there** (nor vs Devastating/mortal wounds, which bypass all saves). AoC = a 1CP Strat, ONE unit vs ONE attacker, once/phase, shooting OR fight — only helps vs AP-1/-2 volume. NOT "army-wide durability."
