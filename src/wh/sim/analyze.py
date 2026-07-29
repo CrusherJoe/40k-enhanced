@@ -37,26 +37,19 @@ def diagnose(build_me, build_opp, games=5000, seed=11):
     ctrl_by_round = collections.defaultdict(lambda: [0.0, 0.0])   # round -> [my_obj, opp_obj]
     wins = 0
 
-    orig_apply = G.apply_damage
+    def on_damage(attacker, target, lost):
+        # PER-UNIT attribution: my units' damage dealt, enemy units' damage taken-from (their threat to me)
+        if attacker.side == my_side:
+            dealt[attacker.name] += lost
+        else:
+            taken[attacker.name] += lost
+    G.ON_DAMAGE = on_damage
 
     for g in range(games):
         me = build_me(); opp = build_opp()
         board = Board(terrain.layout_for(me.disposition, opp.disposition))
-        # attribution: patch apply_damage to record (attacker side inferred from the target's side)
         cur = {"attacker": None}
-
-        def apply(unit, instances, mortals, rng, _o=orig_apply):
-            lost = _o(unit, instances, mortals, rng)
-            if lost and cur["attacker"] is not None:
-                nm, side = cur["attacker"]
-                if side == my_side:
-                    dealt[nm] += lost
-                else:
-                    taken[nm] += lost
-            return lost
-        G.apply_damage = apply
         _run_attributed(me, opp, my_mission, opp_mission, board, rng, cur, ctrl_by_round, my_side)
-        G.apply_damage = orig_apply
 
         for u in opp.units:
             if u.alive:
@@ -68,12 +61,13 @@ def diagnose(build_me, build_opp, games=5000, seed=11):
         my_o = sum(1 for s in held.values() if s == my_side)
         wins += my_o >= 3  # rough
 
+    G.ON_DAMAGE = None
     opp_counts = collections.Counter(u.name for u in b0.units)     # units sharing a name (2 Ravagers…)
     me_counts = collections.Counter(u.name for u in a0.units)
     return dict(games=games, my_mission=my_mission, opp_mission=opp_mission,
                 taken=taken, dealt=dealt, survivors=survivors, my_survivors=my_survivors,
                 ctrl=ctrl_by_round, me_name=a0.name, opp_name=b0.name, me_units=a0.units,
-                opp_counts=opp_counts, me_counts=me_counts)
+                opp_counts=opp_counts, me_counts=me_counts, opp_units=b0.units)
 
 
 def _run_attributed(me, opp, mA, mB, board, rng, cur, ctrl, my_side):

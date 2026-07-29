@@ -19,6 +19,12 @@ def _S(army):
     return getattr(army, "strategy", None) or _strat.BALANCED
 
 
+# Optional per-unit damage attribution: if analysis sets ON_DAMAGE, it's called (attacker_unit, target,
+# wounds_lost) after each apply_damage. The shoot/fight phases tag CUR_ATTACKER so the hook knows the source.
+ON_DAMAGE = None
+CUR_ATTACKER = None
+
+
 def _mods_for(unit, target, charged=False):
     """Assemble the Mods for this unit vs this target from its abilities/army rules (the tapestry)."""
     m = Mods(charged=charged)
@@ -105,7 +111,9 @@ def _shoot(me, opp, board, rng):
                 continue
             half = dist(u.pos, best.pos) <= w["rng"] / 2
             inst, mort = resolve_attacks(w, u.models, best, mods, rng, half_range=half)
-            apply_damage(best, inst, mort, rng)
+            lost = apply_damage(best, inst, mort, rng)
+            if ON_DAMAGE and lost:
+                ON_DAMAGE(u, best, lost)
             if not best.alive:
                 break
 
@@ -209,7 +217,9 @@ def _charge_and_fight(me, opp, rng, board):
         stratagems.on_attack(atk_army, def_army, u, t, mods, "fight")   # CP economy in melee
         for w in _best_weapon_set(u, t, melee=True):
             inst, mort = resolve_attacks(w, u.models, t, mods, rng, charged=u.charged)
-            apply_damage(t, inst, mort, rng)
+            lost = apply_damage(t, inst, mort, rng)
+            if ON_DAMAGE and lost:
+                ON_DAMAGE(u, t, lost)
         # DEATH VISIONS OF SANGUINIUS: a Death Company model destroyed in melee strikes back (mortals to
         # its killer) — BA stickiness that makes them trade even while dying.
         if not t.alive and t.abilities.get("fight_on_death") and not getattr(t, "_dv_used", False):
