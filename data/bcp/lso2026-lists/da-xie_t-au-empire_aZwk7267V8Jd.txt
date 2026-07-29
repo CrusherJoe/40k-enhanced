@@ -1,0 +1,95 @@
+# Da Xie | T'au Empire | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/aZwk7267V8Jd  status=passed
+
++==========================================
+  montka — T'au Empire
+  Mont'ka (3DP)
+  Force Disposition: Priority Assets
+  2000 / 2000 pts · 15 units
++==========================================
+
+── EPIC HEROES ───────────────────────────
+  The Twin Lance  [220 pts]
+    1x Ri'Lantar
+    1x Ri'Locai
+    Weapons: Fusion eliminator, Shardstorm burst system x2, Twin pulse blaster x2, XV pulse pistol x2, ➤ Ion scattercannon - overcharge, ➤ Ion scattercannon - standard, Ion scattercannon
+    Wargear: MV15 Gun Drone
+
+  Commander Farsight  [70 pts]
+    Weapons: High-intensity plasma rifle, ➤ Dawn Blade - strike, ➤ Dawn Blade - sweep
+
+── CHARACTERS ────────────────────────────
+  Commander in Enforcer Battlesuit  [115 pts]
+    ↳ Attached to: Crisis Fireknife Battlesuits (A)
+    Enhancement: Strike Swiftly (+35)
+    Weapons: ➤ Cyclic ion blaster - standard, ➤ Cyclic ion blaster - overcharge, Battlesuit fists
+    Wargear: Battlesuit support system, Shield Drone, Marker Drone
+
+  Commander in Enforcer Battlesuit  [80 pts]
+    ↳ Attached to: Crisis Fireknife Battlesuits (B)
+    Weapons: ➤ Cyclic ion blaster - standard, ➤ Cyclic ion blaster - overcharge, Missile pod x3, Battlesuit fists
+    Wargear: Marker Drone, Shield Drone
+
+── INFANTRY ──────────────────────────────
+  Stealth Battlesuits  [100 pts]
+    2x Stealth Shas'ui w/ burst cannon
+    2x Stealth Shas'ui w/ fusion blaster
+    1x Stealth Shas'vre
+    Weapons: Burst cannon x3, Fusion blaster x2, Pulse pistol, Battlesuit fists x5
+    Wargear: Homing Beacon, Homing beacon
+
+  Stealth Battlesuits  [100 pts]
+    2x Stealth Shas'ui w/ burst cannon
+    2x Stealth Shas'ui w/ fusion blaster
+    1x Stealth Shas'vre
+    Weapons: Burst cannon x3, Fusion blaster x2, Pulse pistol, Battlesuit fists x5
+    Wargear: Homing Beacon, Homing beacon
+
+  Pathfinder Team  [85 pts]
+    6x Pathfinders w/ pulse carbine
+    3x Pathfinders w/ rail rifle
+    1x Pathfinder Shas'ui
+    Weapons: Pulse carbine x7, Pulse pistol x10, Rail rifle x3, Twin pulse carbine, ➤ Semi-automatic grenade launcher - EMP, ➤ Semi-automatic grenade launcher - fusion, Close combat weapon x10
+    Wargear: Grav-inhibitor drone, Shield Drone
+
+── VEHICLES ──────────────────────────────
+  Piranha  [65 pts]
+    1x Piranhas
+    Weapons: Twin pulse carbine x2, Piranha fusion blaster, Seeker missile x2, Armoured hull
+
+  Riptide Battlesuit  [215 pts]
+    Weapons: ➤ Ion accelerator - standard, ➤ Ion accelerator - overcharge, Missile pod x2, Twin plasma rifle, Riptide fists
+
+  Riptide Battlesuit  [215 pts]
+    Weapons: ➤ Ion accelerator - standard, ➤ Ion accelerator - overcharge, Missile pod x2, Twin plasma rifle, Riptide fists
+
+  Broadside Battlesuits  [75 pts]
+    1x Broadside Shas’vre
+    Weapons: Heavy rail rifle, Twin plasma rifle, Seeker missile, Crushing bulk
+    Wargear: Marker Drone, Shield Drone
+
+  Broadside Battlesuits  [75 pts]
+    1x Broadside Shas’vre
+    Weapons: Heavy rail rifle, Twin plasma rifle, Seeker missile, Crushing bulk
+    Wargear: Marker Drone, Shield Drone
+
+  Crisis Fireknife Battlesuits (A)  [110 pts]
+    ↳ Linked unit: Commander in Enforcer Battlesuit
+    2x Crisis Fireknife Shas’ui
+    1x Crisis Fireknife Shas’vre
+    Weapons: Plasma rifle x4, Twin pulse carbine x3, Missile pod x2, Battlesuit fists x3
+    Wargear: Shield Drone
+
+  Crisis Fireknife Battlesuits (B)  [100 pts]
+    ↳ Linked unit: Commander in Enforcer Battlesuit
+    2x Crisis Fireknife Shas’ui
+    1x Crisis Fireknife Shas’vre
+    Weapons: Plasma rifle x6, Battlesuit fists x3
+
+  Stormsurge  [375 pts]
+    Weapons: Cluster rocket system, Destroyer missiles, Twin smart missile system x2, ➤ Pulse blast cannon - focused, ➤ Pulse blast cannon - dispersed, Twin airbursting fragmentation projector, Thunderous footfalls
+
+Total: 2000 pts
+https://ironbuilt.app/#s=Qct3qUT9
+
+undefined

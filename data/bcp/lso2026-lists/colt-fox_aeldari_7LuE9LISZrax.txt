@@ -1,0 +1,134 @@
+# Colt Fox | Aeldari | None | team=Sol Invicta
+# list: https://www.bestcoastpairings.com/list/7LuE9LISZrax  status=passed
+
+aspect (2000 points)
+
+Aeldari
+Aspect Host (3 Detachment Points)
+Disruption
+Strike Force (2000 points)
+
+
+CHARACTERS
+
+Avatar of Khaine (250 points)
+  • 1x The Wailing Doom
+
+Fuegan (130 points)
+  • 1x Fire Axe
+    1x Searsong
+
+Jain Zar (105 points)
+  • 1x Blade of Destruction
+    1x Silent Death
+
+Lhykhis (135 points)
+  • Warlord
+  • 1x Brood Twain
+    1x Spider’s Fangs
+    1x Weaverender
+
+
+DEDICATED TRANSPORTS
+
+Wave Serpent (115 points)
+  • 1x Twin bright lance
+    1x Twin shuriken catapult
+    1x Wraithbone hull
+
+Wave Serpent (115 points)
+  • 1x Twin bright lance
+    1x Twin shuriken catapult
+    1x Wraithbone hull
+
+
+OTHER DATASHEETS
+
+Dark Reapers (100 points)
+  • 1x Aspect Shrine Token
+  • 1x Dark Reaper Exarch
+    • 1x Close combat weapon
+      1x Tempest launcher
+  • 4x Dark Reaper
+    • 4x Close combat weapon
+      4x Reaper launcher
+
+Falcon (130 points)
+  • 1x Bright lance
+    1x Pulse laser
+    1x Shuriken cannon
+    1x Wraithbone hull
+
+Fire Dragons (120 points)
+  • 1x Aspect Shrine Token
+  • 1x Fire Dragon Exarch
+    • 1x Close combat weapon
+      1x Exarch’s Dragon fusion gun
+  • 4x Fire Dragon
+    • 4x Close combat weapon
+      4x Dragon fusion gun
+
+Fire Dragons (120 points)
+  • 1x Aspect Shrine Token
+  • 1x Fire Dragon Exarch
+    • 1x Close combat weapon
+      1x Exarch’s Dragon fusion gun
+  • 4x Fire Dragon
+    • 4x Close combat weapon
+      4x Dragon fusion gun
+
+Howling Banshees (165 points)
+  • 1x Aspect Shrine Token
+  • 1x Howling Banshee Exarch
+    • 1x Mirrorswords
+  • 9x Howling Banshee
+    • 9x Banshee blade
+      9x Shuriken pistol
+
+Rangers (60 points)
+  • 5x Ranger
+    • 5x Close combat weapon
+      5x Long rifle
+      5x Shuriken pistol
+
+Striking Scorpions (75 points)
+  • 1x Aspect Shrine Token
+  • 1x Striking Scorpion Exarch
+    • 1x Scorpion chainsword
+      1x Scorpion’s claw
+      1x Shuriken pistol
+  • 4x Striking Scorpion
+    • 4x Scorpion chainsword
+      4x Shuriken pistol
+
+War Walkers (85 points)
+  • 1x Bright lance
+    1x Scatter laser
+    1x War Walker feet
+
+War Walkers (85 points)
+  • 1x Bright lance
+    1x Starcannon
+    1x War Walker feet
+
+Warp Spiders (105 points)
+  • 1x Aspect Shrine Token
+  • 1x Warp Spider Exarch
+    • 1x Close combat weapon
+      1x Powerblade array
+  • 4x Warp Spider
+    • 4x Close combat weapon
+      4x Death spinner
+
+Warp Spiders (105 points)
+  • 1x Aspect Shrine Token
+  • 1x Warp Spider Exarch
+    • 1x Close combat weapon
+      1x Exarch’s death spinner
+  • 4x Warp Spider
+    • 4x Close combat weapon
+      4x Death spinner
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

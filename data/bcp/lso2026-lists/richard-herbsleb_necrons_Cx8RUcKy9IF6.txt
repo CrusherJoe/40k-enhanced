@@ -1,0 +1,36 @@
+# Richard Herbsleb | Necrons | Take and Hold | team=Dpad Warlords
+# list: https://www.bestcoastpairings.com/list/Cx8RUcKy9IF6  status=passed
+
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Awakened Dynasty (Command Protocols)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char5: Imotekh the Stormlord
++ ENHANCEMENT: Enaegic Dermal Bond (on Char7: Skorpekh Lord)
++ NUMBER OF UNITS: 10
++ SECONDARY: - Bring It Down: (3x4) - Assassination: 8 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x C'tan Shard of the Deceiver (330 pts): Cosmic insanity, Golden fists
+
+Char2: 1x C'tan Shard of the Nightbringer (360 pts): Gaze of death, Scythe of the Nightbringer
+
+Char3: 1x C'tan Shard of the Void Dragon (345 pts): Canoptek tail blades, Spear of the Void Dragon, Voltaic storm
+
+Char4: 1x Illuminor Szeras (175 pts): Eldritch lance, Impaling legs
+
+Char5: 1x Imotekh the Stormlord (100 pts): Warlord, Gauntlet of Fire, Staff of the Destroyer
+
+Char6: 1x Nekrosor Ammentar (185 pts): Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+
+Char7: 1x Skorpekh Lord (120 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Enhancement: Enaegic Dermal Bond (+30 pts)
+
+Char8: 1x Technomancer (80 pts): Staff of light (attached to Wraiths)
+
+6x Canoptek Wraiths (220 pts): 6 with Particle caster, Vicious claws
+
+3x Ophydian Destroyers (80 pts): Plasmacyte, 3 with Ophydian hyperphase weapons
+
+undefined

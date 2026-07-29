@@ -1,0 +1,36 @@
+# Jordi Bejar | Necrons | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/O7bn5G49roee  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Obeisance Phalanx, The Phaeron's Armoury (Worthy Foes)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++ WORTH FEARING: Maybe
++ WARLORD: Char3: The Silent King
++ ENHANCEMENT: Eternal Conqueror (on Char4: Overlord)
++ NUMBER OF UNITS: 10
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Nekrosor Ammentar (185 pts): Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+Char2: 1x Orikan the Diviner (90 pts): Staff of Tomorrow
+Char4: 1x Overlord (115 pts): Resurrection orb, Voidscythe
+Enhancement: Eternal Conqueror (+25 pts)
+Char3: 3x The Silent King (420 pts): Warlord
+• 1x Szarekh: Sceptre of Eternal Glory, Staff of Stars, Weapons of the Final Triarch
+• 2x Triarchal Menhir: 2 with Annihilator beam, Armoured bulk
+
+20x Necron Warriors (190 pts): 20 with Close combat weapon, Gauss reaper
+
+3x Canoptek Scarab Swarms (40 pts): 3 with Feeder mandibles
+1x Ghost Ark (100 pts): Armoured bulk, 2x Gauss flayer array
+1x Monolith (420 pts): Particle whip, Portal of exile, 4x Death ray
+3x Ophydian Destroyers (80 pts): Plasmacyte, 3 with Ophydian hyperphase weapons
+6x Skorpekh Destroyers (170 pts): 2x Plasmacyte, 6 with Skorpekh hyperphase weapons
+5x Triarch Praetorians (80 pts): 5 with Rod of covenant
+1x Triarch Stalker (110 pts): Stalker's forelimbs, Heavy gauss cannon array
+
+Led units: 1
+Char2 Orikan, Char4 Overlord, 20x Necron Warriors.
+
+undefined

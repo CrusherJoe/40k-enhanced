@@ -1,0 +1,140 @@
+# Will Gilmore | Grey Knights | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/OaR1CfAbNGwQ  status=passed
+
+aug AA (2000 points)
+
+Grey Knights
+Argent Assault and Augurium Task Force (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Brother-Captain (110 points)
+• Attached as: Leader (Character)
+  • Warlord
+  • 1x Incinerator
+    1x Nemesis force weapon
+  • Enhancement: Psychic Celerity
+
+Paladin Squad (215 points)
+• Attached as: Bodyguard
+  • 1x Paragon
+    • 1x Nemesis force weapon
+      1x Storm bolter
+  • 1x Paladin Ancient
+    • 1x Ancient’s Banner
+      1x Incinerator
+      1x Nemesis force weapon
+  • 3x Paladin
+    • 1x Apothecary’s Narthecium
+      2x Incinerator
+      3x Nemesis force weapon
+
+Attached Unit 2
+
+Brother-Captain (110 points)
+• Attached as: Leader (Character)
+  • 1x Nemesis force weapon
+    1x Psilencer
+  • Enhancement: One Foot in the Future
+
+Paladin Squad (215 points)
+• Attached as: Bodyguard
+  • 1x Paragon
+    • 1x Nemesis force weapon
+      1x Storm bolter
+  • 1x Paladin Ancient
+    • 1x Ancient’s Banner
+      1x Nemesis force weapon
+      1x Psilencer
+  • 3x Paladin
+    • 1x Apothecary’s Narthecium
+      3x Nemesis force weapon
+      2x Psilencer
+
+Attached Unit 3
+
+Castellan Crowe (100 points)
+• Attached as: Leader (Character)
+  • 1x Black Blade of Antwyr
+    1x Purifying Flame
+    1x Storm bolter
+
+Purifier Squad (280 points)
+• Attached as: Bodyguard
+  • 1x Knight of the Flame
+    • 1x Nemesis force weapon
+      1x Purifying Flame
+      1x Storm bolter
+  • 9x Purifier
+    • 4x Close combat weapon
+      5x Nemesis force weapon
+      4x Psycannon
+      9x Purifying Flame
+      5x Storm bolter
+
+
+CHARACTERS
+
+Brotherhood Techmarine (70 points)
+  • 1x Forge bolter
+    1x Grav-pistol
+    1x Omnissian power axe
+    1x Servo-arm
+
+Grand Master in Nemesis Dreadknight (230 points)
+  • 1x Fragstorm grenade launcher
+    1x Heavy psycannon
+    1x Nemesis daemon greathammer
+    1x Sublimator
+
+Grand Master in Nemesis Dreadknight (230 points)
+  • 1x Fragstorm grenade launcher
+    1x Heavy psycannon
+    1x Nemesis daemon greathammer
+    1x Sublimator
+
+
+BATTLELINE
+
+Brotherhood Terminator Squad (140 points)
+  • 1x Justicar
+    • 1x Nemesis force weapon
+      1x Storm bolter
+  • 2x Terminator
+    • 2x Nemesis force weapon
+      2x Storm bolter
+  • 1x Ancient
+    • 1x Ancient’s Banner
+      1x Incinerator
+      1x Nemesis force weapon
+
+Strike Squad (115 points)
+  • 1x Justicar
+    • 1x Nemesis force weapon
+      1x Storm bolter
+  • 4x Grey Knight
+    • 4x Nemesis force weapon
+      4x Storm bolter
+
+Strike Squad (115 points)
+  • 1x Justicar
+    • 1x Nemesis force weapon
+      1x Storm bolter
+  • 4x Grey Knight
+    • 4x Nemesis force weapon
+      4x Storm bolter
+
+
+DEDICATED TRANSPORTS
+
+Rhino (70 points)
+  • 1x Armoured tracks
+    1x Hunter-killer missile
+    2x Storm bolter
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

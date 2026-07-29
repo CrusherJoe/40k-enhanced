@@ -1,0 +1,100 @@
+# Zachary Kramer | Astra Militarum | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/91RKRRAxRQil  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Astra Militarum
++ DETACHMENT: Grizzled Company (Ruthless Discipline)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Lord Solar Leontus
++ ENHANCEMENT: Abhuman Detail (on Char4: Commissar)
++ NUMBER OF UNITS: 23
++ SECONDARY: - Bring It Down: (7x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 5x Cadian Command Squad (65 pts)
+• 4x Cadian Veteran Guardsman
+    1 with Chainsword, Bolt pistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Medi-pack, Close combat weapon, Lasgun
+    1 with Close combat weapon, Lasgun, Regimental standard
+• 1x Cadian Commander: Chainsword, Laspistol
+Char3: 5x Cadian Command Squad (65 pts)
+• 4x Cadian Veteran Guardsman
+    1 with Chainsword, Bolt pistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Medi-pack, Close combat weapon, Lasgun
+    1 with Close combat weapon, Lasgun, Regimental standard
+• 1x Cadian Commander: Chainsword, Laspistol
+Char4: 1x Commissar (50 pts): Bolt pistol, Power weapon
+Enhancement: Abhuman Detail (+20 pts)
+Char1: 1x Lord Solar Leontus (130 pts): Warlord, Conquest, Konstantin's hooves, Sol's Righteous Gaze
+Char5: 1x Tech-Priest Enginseer (45 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+
+10x Cadian Shock Troops (75 pts)
+• 9x Shock Trooper
+    6 with Close combat weapon, Lasgun
+    1 with Vox-caster, Close combat weapon, Lasgun
+    1 with Close combat weapon, Meltagun
+    1 with Close combat weapon, Plasma gun
+• 1x Shock Trooper Sergeant: Chainsword, Laspistol
+10x Cadian Shock Troops (75 pts)
+• 9x Shock Trooper
+    6 with Close combat weapon, Lasgun
+    1 with Vox-caster, Close combat weapon, Lasgun
+    1 with Close combat weapon, Meltagun
+    1 with Close combat weapon, Plasma gun
+• 1x Shock Trooper Sergeant: Chainsword, Laspistol
+
+5x Attilan Rough Riders (60 pts)
+• 1x Rough Rider Sergeant: Lasgun, Laspistol, Steed's hooves, Power sabre, Hunting lance
+• 4x Rough Rider: 4 with Hunting lance, Lasgun, Laspistol, Steed's hooves
+5x Attilan Rough Riders (60 pts)
+• 1x Rough Rider Sergeant: Lasgun, Laspistol, Steed's hooves, Power sabre, Hunting lance
+• 4x Rough Rider: 4 with Hunting lance, Lasgun, Laspistol, Steed's hooves
+6x Bullgryn Squad (200 pts)
+• 1x Bullgryn Bone 'ead: Brute shield, Close combat weapon, Bullgryn maul
+• 5x Bullgryn: 5 with Brute shield, Close combat weapon, Bullgryn maul
+3x Catachan Heavy Weapons Squad (65 pts): 3 with Lascannon, Lasgun, Weapons team close combat weapons
+3x Catachan Heavy Weapons Squad (65 pts): 3 with Lascannon, Lasgun, Weapons team close combat weapons
+1x Chimera (85 pts): Armoured tracks, Lasgun array, Heavy flamer, Heavy flamer, Heavy stubber
+1x Chimera (85 pts): Armoured tracks, Lasgun array, Heavy flamer, Heavy flamer, Heavy stubber
+1x Hellhound (125 pts): Melta cannon, Multi-melta, Armoured tracks
+1x Hippogriff AFV (70 pts): Armoured hull, Meltagun, Melta cannon
+1x Hippogriff AFV (70 pts): Armoured hull, Meltagun, Melta cannon
+10x Kasrkin (115 pts)
+• 9x Kasrkin Trooper
+    2 with Close combat weapon, Hot-shot lasgun
+    1 with Melta mine, Close combat weapon, Hot-shot laspistol
+    1 with Close combat weapon, Hot-shot marksman rifle
+    1 with Vox-caster, Close combat weapon, Hot-shot lasgun
+    2 with Close combat weapon, Meltagun
+    2 with Close combat weapon, Plasma gun
+• 1x Kasrkin Sergeant: Power weapon, Plasma pistol
+10x Kasrkin (115 pts)
+• 9x Kasrkin Trooper
+    2 with Close combat weapon, Hot-shot lasgun
+    1 with Melta mine, Close combat weapon, Hot-shot laspistol
+    1 with Close combat weapon, Hot-shot marksman rifle
+    1 with Vox-caster, Close combat weapon, Hot-shot lasgun
+    2 with Close combat weapon, Meltagun
+    2 with Close combat weapon, Plasma gun
+• 1x Kasrkin Sergeant: Power weapon, Plasma pistol
+5x Krieg Combat Engineers (65 pts)
+• 4x Krieg Combat Engineer
+    2 with Autopistol, Trench club
+    1 with Close combat weapon, Flamer
+    1 with Remote mine, Autopistol, Close combat weapon
+• 1x Krieg Engineer Watchmaster: Autopistol, Trench club
+5x Krieg Combat Engineers (65 pts)
+• 4x Krieg Combat Engineer
+    2 with Autopistol, Trench club
+    1 with Close combat weapon, Flamer
+    1 with Remote mine, Autopistol, Close combat weapon
+• 1x Krieg Engineer Watchmaster: Autopistol, Trench club
+1x Leman Russ Vanquisher (150 pts): Armoured tracks, Vanquisher battle cannon, Hunter-killer missile, Lascannon, 2x Heavy bolter, Heavy stubber
+1x Leman Russ Vanquisher (150 pts): Armoured tracks, Vanquisher battle cannon, Hunter-killer missile, Lascannon, 2x Heavy bolter, Heavy stubber
+*list copied from new recruit
+
+undefined

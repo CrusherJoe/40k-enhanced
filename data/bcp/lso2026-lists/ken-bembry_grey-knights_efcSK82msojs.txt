@@ -1,0 +1,45 @@
+# Ken Bembry | Grey Knights | Purge the Foe | team=40KDIRTBAGS
+# list: https://www.bestcoastpairings.com/list/efcSK82msojs  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Grey Knights
++ DETACHMENT: Brotherhood Strike, Fires of Purgation (Fury of Titan)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++ NUMBER OF UNITS: 11
+
+Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Castellan Crowe (100 pts): Black Blade of Antwyr, Purifying Flame, Storm bolter
+Char2: 1x Grand Master in Nemesis Dreadknight (230 pts): Fragstorm grenade launcher, Nemesis daemon greathammer, Heavy psycannon, Sublimator
+Char3: 1x Grand Master in Nemesis Dreadknight (245 pts): Fragstorm grenade launcher, Nemesis daemon greathammer, Heavy psycannon, Sublimator
+Enhancement: Purity of Purpose (+15 pts)
+Char4: 1x Grand Master in Nemesis Dreadknight (245 pts): Warlord, Fragstorm grenade launcher, Nemesis daemon greathammer, Heavy psycannon, Sublimator
+Char5: 1x Venerable Dreadnought (130 pts): Heavy plasma cannon, Dreadnought combat weapon, Storm bolter
+
+5x Strike Squad (115 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Grey Knight: 4 with Nemesis force weapon, Storm bolter
+
+Char6: 1x Callidus Assassin (100 pts): Neural shredder, Phase sword and poison blades
+Char7: 1x Navigator (75 pts): Force-orb cane, Laspistol
+10x Purgation Squad (240 pts)
+• 9x Purgator
+    5 with Nemesis force weapon, Storm bolter
+    4 with Close combat weapon, Psilencer
+  Enhancement: Boons of Deimos (+20 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+10x Purgation Squad (240 pts)
+• 9x Purgator
+    5 with Nemesis force weapon, Storm bolter
+    4 with Close combat weapon, Psilencer
+  Enhancement: Boons of Deimos (+20 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+10x Purifier Squad (280 pts)
+• 9x Purifier
+    5 with Nemesis force weapon, Purifying Flame, Storm bolter
+    4 with Close combat weapon, Psycannon, Purifying Flame
+• 1x Knight of the Flame: Nemesis force weapon, Purifying Flame, Storm bolter
+
+undefined

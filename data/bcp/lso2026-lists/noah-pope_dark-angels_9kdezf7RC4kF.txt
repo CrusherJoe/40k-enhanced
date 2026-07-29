@@ -1,0 +1,71 @@
+# Noah Pope | Dark Angels | Disruption | team=Y'allHammer
+# list: https://www.bestcoastpairings.com/list/9kdezf7RC4kF  status=passed
+
++==========================================
+  Speeder Boys V10 — Adeptus Astartes · Dark Angels
+
+Speeder build. 
+
+  Darkflight Pursuit (1DP) + Company of Hunters (2DP)
+  Force Disposition: Disruption
+  2000 / 2000 pts · 16 units
++==========================================
+
+── EPIC HEROES ───────────────────────────
+  Watch Captain Artemis  [65 pts]
+
+── CHARACTERS ────────────────────────────
+  Ravenwing Command Squad  [125 pts]
+    ↳ Attached to: Ravenwing Black Knights (A)
+    Enhancement: Recon Hunter (+20)
+    1x Ravenwing Ancient
+    1x Ravenwing Apothecary
+    1x Ravenwing Champion
+
+  Ravenwing Command Squad  [120 pts]
+    ↳ Attached to: Ravenwing Black Knights (B)
+    Enhancement: Master of Manoeuvre (+15)
+    1x Ravenwing Ancient
+    1x Ravenwing Apothecary
+    1x Ravenwing Champion
+
+  Lieutenant with Combi-weapon  [95 pts]
+
+── MOUNTED ───────────────────────────────
+  Ravenwing Black Knights (A)  [150 pts]
+    ↳ Linked unit: Ravenwing Command Squad
+    1x Ravenwing Huntmaster
+    5x Ravenwing Black Knight
+
+  Ravenwing Black Knights (B)  [150 pts]
+    ↳ Linked unit: Ravenwing Command Squad
+    1x Ravenwing Huntmaster
+    5x Ravenwing Black Knight
+
+── VEHICLES ──────────────────────────────
+  Land Speeder  [105 pts]
+
+  Land Speeder  [105 pts]
+
+  Land Speeder  [105 pts]
+
+  Storm Speeder Thunderstrike  [150 pts]
+    Upgrade: Thundercowl Turbines
+
+  Storm Speeder Thunderstrike  [135 pts]
+
+  Land Speeder Vengeance  [130 pts]
+
+  Land Speeder Vengeance  [130 pts]
+
+  Land Speeder Vengeance  [140 pts]
+
+  Storm Speeder Hammerstrike  [155 pts]
+    Upgrade: Thundercowl Turbines
+
+  Storm Speeder Hammerstrike  [140 pts]
+
+Total: 2000 pts
+https://ironbuilt.app/#s=UTkSvfFu
+
+undefined

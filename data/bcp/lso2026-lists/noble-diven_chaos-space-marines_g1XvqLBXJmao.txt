@@ -1,0 +1,55 @@
+# Noble Diven | Chaos Space Marines | Priority Assets | team=Bottom Table Tyrants
+# list: https://www.bestcoastpairings.com/list/g1XvqLBXJmao  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Space Marines
++ DETACHMENT: Pactbound Zealots (Marks of Chaos)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char5: Sorcerer
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (4x2) + (1x6) - Assassination: 6 Characters - Cull The Horde: 1x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 3x Dark Apostle (65 pts): Chaos Undivided
+• 1x Dark Apostle: Accursed crozius, Bolt pistol
+• 2x Dark Disciple: 2 with Close combat weapon
+Char2: 5x Dark Commune (90 pts): Chaos Undivided
+• 1x Cult Demagogue: Autopistol, Commune stave
+• 2x Blessed Blades: 2 with Commune blade
+• 1x Iconarch: Chaos icon, Autopistol, Close combat weapon
+• 1x Mindwitch: Close combat weapon, Warp Curse
+Char3: 1x Heretic Astartes Daemon Prince with wings (180 pts): Mark of Khorne, Hellforged weapons, Infernal cannon
+Char4: 1x Master of Possession (60 pts): Chaos Undivided, Bolt pistol, Rite of Possession, Staff of possession
+Char5: 1x Sorcerer (60 pts): Warlord, Chaos Undivided, Bolt pistol, Force weapon, Infernal Gaze
+
+20x Cultist Mob (90 pts): Chaos Undivided
+• 1x Cultist Champion: Brutal assault weapon, Autopistol
+• 19x Cultist: 19 with Autopistol, Brutal assault weapon
+10x Legionaries (170 pts): Chaos Undivided
+• 9x Legionary
+    6 with Astartes chainsword, Bolt pistol, Close combat weapon
+    1 with Bolt pistol, Close combat weapon, Heavy melee weapon
+    1 with Bolt pistol, Close combat weapon, Plasma gun
+    1 with Bolt pistol, Close combat weapon, Flamer
+• 1x Aspiring Champion: Close combat weapon, Heavy melee weapon, Plasma pistol
+
+1x Chaos Predator Destructor (150 pts): Chaos Undivided, Armoured tracks, Havoc launcher, Predator autocannon, Combi-bolter, 2x Lascannon
+1x Chaos Rhino (65 pts): Chaos Undivided, Armoured tracks, Combi-bolter, Havoc launcher, Combi-bolter
+5x Chosen (135 pts): Chaos Undivided
+• 4x Chosen
+    1 with Accursed weapon, Bolt pistol, Boltgun
+    1 with Accursed weapon, Bolt pistol, Combi-weapon
+    1 with Accursed weapon, Combi-weapon, Plasma pistol
+    1 with Bolt pistol, Paired accursed weapons
+• 1x Chosen Champion: Chaos icon, Plasma pistol, Power fist, Boltgun
+1x Forgefiend (160 pts): Chaos Undivided, 2x Hades autocannon, Forgefiend jaws
+Char6: 1x Knight Rampager (365 pts): Diabolus heavy stubber, Reaper chainsword, Warpstrike claw
+2x Obliterators (160 pts): Chaos Undivided, 2 with Crushing fists, Fleshmetal guns
+10x Possessed (250 pts): Chaos Undivided
+  9 with Hideous mutations
+  1 with Chaos icon, Hideous mutations
+
+undefined

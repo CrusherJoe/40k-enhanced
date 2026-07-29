@@ -1,0 +1,37 @@
+# Joseph Hodgson | Chaos Knights | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/OBRRfZh3zz2p  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Knights
++ DETACHMENT: Hunting Warpack, Lords of Dread (Scenting Fear)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Knight Despoiler
++ ENHANCEMENT: Mirror of Fates (on Char1: Knight Despoiler)
+& Snarling Rivalry (on Vehi1: War Dog Executioner)
+& Snarling Rivalry (on Vehi1: War Dog Executioner)
+& Snarling Rivalry (on Vehi1: War Dog Executioner)
++ NUMBER OF UNITS: 12
++ SECONDARY: - Bring It Down: (11x2) + (1x6) - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Knight Despoiler (460 pts): Warlord, Titanic feet, Ruinspear rocket pod, Despoiler gatling cannon, Heavy darkflamer, Despoiler gatling cannon, Heavy darkflamer, Daemonbreath meltagun
+Enhancement: Mirror of Fates (+30 pts)
+
+1x War Dog Executioner (140 pts): Armoured feet, 2x War Dog autocannon, Diabolus heavy stubber
+Enhancement: Snarling Rivalry (+10 pts)
+1x War Dog Executioner (140 pts): Armoured feet, 2x War Dog autocannon, Diabolus heavy stubber
+Enhancement: Snarling Rivalry (+10 pts)
+1x War Dog Executioner (140 pts): Armoured feet, 2x War Dog autocannon, Diabolus heavy stubber
+Enhancement: Snarling Rivalry (+10 pts)
+1x War Dog Huntsman (135 pts): Daemonbreath spear, Reaper chaintalon, Daemonbreath meltagun
+1x War Dog Huntsman (135 pts): Daemonbreath spear, Reaper chaintalon, Daemonbreath meltagun
+1x War Dog Huntsman (135 pts): Daemonbreath spear, Reaper chaintalon, Daemonbreath meltagun
+1x War Dog Karnivore (155 pts): Reaper chaintalon, Slaughterclaw, Diabolus heavy stubber
+1x War Dog Karnivore (155 pts): Reaper chaintalon, Slaughterclaw, Diabolus heavy stubber
+1x War Dog Stalker (135 pts): Diabolus heavy stubber, Avenger chaincannon, Reaper chaintalon
+1x War Dog Stalker (135 pts): Diabolus heavy stubber, Avenger chaincannon, Reaper chaintalon
+1x War Dog Stalker (135 pts): Diabolus heavy stubber, Avenger chaincannon, Reaper chaintalon
+
+undefined

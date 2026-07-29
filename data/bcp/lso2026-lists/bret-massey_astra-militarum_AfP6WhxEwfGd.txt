@@ -1,0 +1,193 @@
+# Bret Massey | Astra Militarum | Take and Hold | team=Salt hammer
+# list: https://www.bestcoastpairings.com/list/AfP6WhxEwfGd  status=passed
+
+BREATHE IN BREATHE OUT (2000 points)
+
+Astra Militarum
+Armoured Infantry and Designation Force (3 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+
+CHARACTERS
+
+Catachan Command Squad (60 points)
+  • 1x Catachan Commander
+    • 1x Close combat weapon
+      1x Plasma pistol
+      1x Power fist
+  • 4x Veteran Guardsman
+    • 4x Close combat weapon
+      1x Flamer
+      1x Heavy flamer
+      2x Lasgun
+      4x Laspistol
+      1x Master Vox
+      1x Medi-pack
+
+Commissar Graves (125 points)
+  • Warlord
+  • 1x Aquiline Prow
+    1x Armoured hull
+    1x Chiron gatling cannon
+    1x Enforcer crew
+    1x Power sword and Manus Mortis
+    2x Prefectus heavy stubber
+
+Commissar Yarrick (120 points)
+  • 1x Bale Eye
+    1x Laspistol
+    1x Power klaw
+    1x Power sword
+    1x Storm bolter
+
+Sly Marbo (55 points)
+  • 1x Envenomed blade
+    1x Ripper pistol
+
+Tech-Priest Enginseer (80 points)
+  • 1x Enginseer axe
+    1x Mechanicus pistol
+    1x Servo-arm
+  • Enhancement: Omnissian Unguents (Aura)
+
+Ursula Creed (85 points)
+  • 1x Duty and Vengeance
+    1x Power weapon
+
+
+BATTLELINE
+
+Catachan Jungle Fighters (145 points)
+  • 2x Jungle Fighter Sergeant
+    • 2x Close combat weapon
+      2x Laspistol
+  • 18x Jungle Fighter
+    • 18x Close combat weapon
+      4x Flamer
+      14x Lasgun
+      2x Vox-caster
+
+
+DEDICATED TRANSPORTS
+
+Centaur RSV (65 points)
+  • 1x Armoured hull
+    1x Pintle‑mounted heavy stubber
+
+Chimera (75 points)
+  • 1x Armoured tracks
+    2x Heavy flamer
+    1x Heavy stubber
+    1x Hunter-killer missile
+    1x Lasgun array
+
+Taurox (65 points)
+  • 1x Armoured tracks
+    1x Storm bolter
+    1x Twin autocannon
+
+
+OTHER DATASHEETS
+
+Armoured Sentinels (65 points)
+  • 1x Close combat weapon
+    1x Hunter-killer missile
+    1x Lascannon
+    1x Sentinel chainsaw
+
+Cadian Recon Squad (80 points)
+  • 1x Recon Sergeant
+    • 1x Close combat weapon
+      1x Lasgun
+  • 9x Recon Trooper
+    • 1x Autostubber
+      9x Close combat weapon
+      5x Lasgun
+      1x Laspistol
+      1x Long-las
+      1x Meltagun
+      1x Missile launcher
+      1x Vox-caster
+      1x Vox‑relay Beacon
+
+Hellhound (125 points)
+  • 1x Armoured tracks
+    1x Heavy flamer
+    1x Inferno cannon
+
+Hippogriff AFV (140 points)
+  • 2x Hippogriff AFV
+    • 2x Armoured hull
+      2x Melta cannon
+      2x Meltagun
+
+Hippogriff AFV (140 points)
+  • 2x Hippogriff AFV
+    • 2x Armoured hull
+      2x Heavy stubber
+      2x Vigilator cannon
+
+Kasrkin (105 points)
+  • 1x Kasrkin Sergeant
+    • 1x Plasma pistol
+      1x Power weapon
+  • 9x Kasrkin
+    • 9x Close combat weapon
+      3x Hot-shot lasgun
+      1x Hot-shot laspistol
+      1x Hot-shot marksman rifle
+      1x Melta Mine
+      2x Meltagun
+      2x Plasma gun
+      1x Vox-caster
+
+Kasrkin (105 points)
+  • 1x Kasrkin Sergeant
+    • 1x Plasma pistol
+      1x Power weapon
+  • 9x Kasrkin
+    • 9x Close combat weapon
+      3x Hot-shot lasgun
+      1x Hot-shot laspistol
+      1x Hot-shot marksman rifle
+      1x Melta Mine
+      2x Meltagun
+      2x Plasma gun
+      1x Vox-caster
+
+Krieg Combat Engineers (65 points)
+  • 1x Krieg Engineer Watchmaster
+    • 1x Hand flamer
+      1x Power weapon
+  • 4x Krieg Combat Engineer
+    • 1x Autopistol
+      4x Close combat weapon
+      2x Combat shotgun
+      1x Flamer
+      1x Remote Mine
+
+Leman Russ Exterminator (180 points)
+  • 1x Armoured tracks
+    1x Exterminator autocannon
+    1x Heavy stubber
+    1x Hunter-killer missile
+    1x Lascannon
+    2x Multi-melta
+
+Scout Sentinels (55 points)
+  • 1x Close combat weapon
+    1x Heavy flamer
+    1x Hunter-killer missile
+    1x Sentinel chainsaw
+
+Scout Sentinels (65 points)
+  • 1x Close combat weapon
+    1x Heavy flamer
+    1x Hunter-killer missile
+    1x Sentinel chainsaw
+  • Enhancement: Long-range Scout (Upgrade)
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

@@ -26,3 +26,7 @@ data/mfm/raw/
 logs/
 # generated dossiers/runbooks, one folder per list (regenerate with wh.sim.dossier)
 reports/
+.env.bcp
+www.bestcoastpairings.com.har
+*.har
+data/bcp/*.sqlite

@@ -1,0 +1,146 @@
+# Nick Carpenter | Space Marines (Astartes) | Priority Assets | team=Tundra Tactics
+# list: https://www.bestcoastpairings.com/list/8W1OmohmAXwR  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Salamanders
++ DETACHMENT: Forgefather's Seekers, Librarius Conclave (Vulkan's Quest)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char3: Captain in Gravis Armour
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Adrax Agatone (80 pts) LEADING BLADEGUARD
+• 1x Drakkis
+• 1x Malleus Noctum
+
+Captain in Gravis Armour (80 pts) LEADING AGGRESSORS
+• 1x Boltstorm gauntlet
+• 1x Power fist
+• 1x Relic Blade
+• Warlord
+
+Librarian (80 pts) LEADING INFERNUS 10 MAN
+• 1x Bolt pistol
+• 1x Force weapon
+• 1x Smite
+• Immolator (+10 pts)
+
+Librarian (95 pts) LEADING INFERNUS 10 MAN
+• 1x Bolt pistol
+• 1x Force weapon
+• 1x Smite
+• Temporal Corridor (+25 pts)
+
+Vulkan He'stan (85 pts)
+• 1x Bolt pistol
+• 1x Gauntlet of the Forge
+• 1x Spear of Vulkan
+
+OTHER DATASHEETS
+
+Aggressor Squad (165 pts)
+• 1x Aggressor Sergeant
+    • 1x Twin power fist
+    • 1x Flamestorm Gauntlets
+• 5x Aggressors
+    • 5x Twin power fist
+    • 5x Flamestorm Gauntlets
+
+Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant
+    • 1x Master-crafted power weapon
+    • 1x Neo-volkite Pistol
+• 5x Bladeguard Veterans
+    • 5x Heavy Bolt Pistol
+    • 5x Master-crafted power weapon
+
+Devastator Squad (120 pts)
+• 1x Devastator Sergeant
+    • 1x Close combat weapon
+    • 1x Grav-pistol
+    • 1x Power fist
+• 4x Devastator Marine
+    • 4x Bolt pistol
+    • 4x Close combat weapon
+    • 4x Multi-melta
+
+Drop Pod (60 pts)
+
+Infernus Squad (180 pts)
+• 9x Infernus Marines
+    • 9x Bolt pistol
+    • 9x Close combat weapon
+    • 9x Pyreblaster
+• 1x Infernus Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Pyreblaster
+
+Infernus Squad (180 pts)
+• 9x Infernus Marines
+    • 9x Bolt pistol
+    • 9x Close combat weapon
+    • 9x Pyreblaster
+• 1x Infernus Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Pyreblaster
+
+Infernus Squad (85 pts)
+• 4x Infernus Marines
+    • 4x Bolt pistol
+    • 4x Close combat weapon
+    • 4x Pyreblaster
+• 1x Infernus Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Pyreblaster
+
+Land Raider Redeemer (250 pts)
+• 1x Armoured Tracks
+• 2x Flamestorm Cannon
+• 1x Hunter-killer missile
+• 1x Multi-melta
+• 1x Storm bolter
+• 1x Twin assault cannon
+
+Land Raider Redeemer (250 pts)
+• 1x Armoured Tracks
+• 2x Flamestorm Cannon
+• 1x Hunter-killer missile
+• 1x Multi-melta
+• 1x Storm bolter
+• 1x Twin assault cannon
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 1x Scout
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Missile Launcher
+• 3x Scouts
+    • 3x Bolt pistol
+    • 3x Close combat weapon
+    • 3x Combat Knife
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 1x Scout
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Missile Launcher
+• 3x Scouts
+    • 3x Bolt pistol
+    • 3x Close combat weapon
+    • 3x Combat Knife
+
+undefined
