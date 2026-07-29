@@ -19,7 +19,7 @@ CLI:
 """
 from __future__ import annotations
 
-import os, sqlite3, sys
+import os, re, sqlite3, sys
 
 from . import listloader as _L
 from . import rosters as _R
@@ -87,23 +87,33 @@ def _entry(row):
                 wins=0, losses=0, playerName=row["player"])
 
 
-def load(sel, disposition=None, db=None):
-    """Build an Army for the BCP list matching `sel` (listId or player substring)."""
+def _list_name(row):
+    """The list's own title (first line of the export), else a player/faction label."""
+    first = (row["army_text"] or "").splitlines()[0] if row["army_text"] else ""
+    title = re.sub(r"\s*\(.*?points?\)\s*$", "", first, flags=re.I).strip()
+    return title or f"{row['player']} — {row['faction']}"
+
+
+def load(sel, disposition=None, db=None, side="B", name=None, use_list_name=False):
+    """Build an Army for the BCP list matching `sel` (listId or player substring).
+    side "A" = your army (own deployment/turn), "B" (default) = opponent. `use_list_name`
+    labels the Army with the list's own title (e.g. 'This List Tastes Like Death by Rock and Roll')."""
     row = _find(sel, db)
     if not _L._FACTION_SLUG.get(row["faction"]):
         sys.exit(f"{row['player']}'s faction '{row['faction']}' has no BSData cut — not sim-loadable yet")
-    name = f"{row['player']} — {row['faction']} / {row['detachment'] or '?'}"
-    army = _L.load(entry=_entry(row), disposition=disposition, name=name)
+    label = name or (_list_name(row) if use_list_name
+                     else f"{row['player']} — {row['faction']} / {row['detachment'] or '?'}")
+    army = _L.load(entry=_entry(row), disposition=disposition, name=label, side=side)
     if not army.units:
         raise ValueError(f"{row['player']}'s list has no parseable units "
                          f"(list-builder export format unsupported by listloader)")
     return army
 
 
-def builder(sel, disposition=None, db=None):
-    """A build_opp thunk bound to a BCP list — pass to runbook.build / optimize / dossier."""
+def builder(sel, disposition=None, db=None, side="B", name=None, use_list_name=False):
+    """A build thunk bound to a BCP list — pass to runbook.build / optimize / dossier."""
     def b():
-        return load(sel, disposition=disposition, db=db)
+        return load(sel, disposition=disposition, db=db, side=side, name=name, use_list_name=use_list_name)
     return b
 
 

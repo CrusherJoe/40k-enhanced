@@ -217,9 +217,10 @@ def builder(faction=None, detachment=None, index=None, disposition=None):
 
 
 def load(faction=None, detachment=None, disposition=None, name=None, override=None, min_text=800, index=None,
-         entry=None):
+         entry=None, side="B"):
     """Build an Army from an archive list — a specific one (`index` or `entry`) or the best-record match for
-    `faction`[+`detachment`]. `disposition` overrides the archive's; `override(army)` applies faction tapestry."""
+    `faction`[+`detachment`]. `disposition` overrides the archive's; `override(army)` applies faction tapestry.
+    `side` "A" builds it as YOUR army (own deployment zone / turn), "B" (default) as the opponent."""
     if entry is None:
         entry = _archive()[index] if index is not None else pick(faction, detachment, min_text)
     faction = faction or entry["faction"]
@@ -240,7 +241,7 @@ def load(faction=None, detachment=None, disposition=None, name=None, override=No
     missing = [m for m in missing if _NORM(m) not in submodels]
     disp = disposition or _DISP.get((entry.get("disposition") or "").strip().lower(), "take-and-hold")
     army = Army(name or f"{faction} — {entry.get('detachment', '?')} ({entry.get('wins')}-{entry.get('losses')})",
-                disp, "B", units, cp=3)
+                disp, side, units, cp=3)
     _FACTION_DEFAULT.get(slug, lambda a: None)(army)
     (override or OVERRIDES.get(slug, lambda a: None))(army)
     army._missing = missing               # datasheets absent from the BSData cut (skipped) — surfaced for review

@@ -89,10 +89,17 @@ event `VAiZ9vjF61Rk`, 330 players, starts 2026-08-01) is snapshotted locally. Se
   324 lists / 4630 units / 646 enhancements. Tables `lists`(faction/detachment/disposition/points/army_text/…),
   `units`, `enhancements`. All have disposition+points; **314/324 have parsed units** (`parse_ok=1`; 10 exotic
   exports are text-only). Field disposition split: T&H 106 / Priority Assets 100 / Purge 56 / Recon 46 / Disrupt 16.
-- **SIM INTEGRATION = `wh.sim.bcp`** — loads ANY BCP list as an opponent via `listloader.load(entry=…)` (same
-  parse→BSData→role/threat→tapestry pipeline). CLI: `python -m wh.sim.bcp {list|show|run <me> <opp>|field <me>}`.
-  Extended `listloader._FACTION_SLUG` with the 9 factions that have a BSData cut but the archive never hit (incl.
-  **imperial-knights**). Now I can runbook/dossier/field List A vs the REAL LSO field — directional only (sim STATUS).
+- **SIM INTEGRATION = `wh.sim.bcp`** — loads ANY BCP list as an opponent (side B) or your army (side A) via
+  `listloader.load(entry=…, side=…)` (same parse→BSData→role/threat→tapestry pipeline). CLI:
+  `python -m wh.sim.bcp {list|show|run <me> <opp>|field <me>}`. Extended `listloader._FACTION_SLUG` with the 9
+  factions that have a BSData cut but the archive never hit (incl. **imperial-knights**). Field now resolves 100%.
+- **★★ MY "ME" LIST = `death_rnr` (user directive 2026-07-29, for the next day or two — LSO is 2026-08-01).**
+  `rosters.death_rnr()` loads Joe's ACTUAL submitted LSO list **"This List Tastes Like Death by Rock and Roll"**
+  (Imperial Knights / Valourstrike Lance / **Purge the Foe** locked / 1995 pts; listId `eHwja87KaIo0`) live from the
+  BCP DB as side A, under its real name. Units: Cerastus Lancer + 2× Castellan + Crusader + Armiger **Warglaive** +
+  Navigator (NOTE: the real list runs a **Warglaive**, not the Helverin in the older hand-built `rosters.knights`
+  List A). **Use `death_rnr` as `me` for ALL runbook/dossier/field/optimize work now — NOT knights/custodes/
+  great_value.** Registered in `gauntlet.ME_META`. e.g. `python -m wh.sim.bcp field death_rnr` = List vs the real LSO field.
 
 **★★ RULES I GOT WRONG — banked (user-corrected 2026-07-27). Verify sims/plans against these:**
 - **KILLING CHARACTERS needs [PRECISION].** A Character attached to a Bodyguard = a Leader; you CANNOT target/allocate to it — wounds hit the bodyguard. NO Knight weapon (nor GV Sternguard/cyclone/brick) has Precision -> you canNOT snipe attached chars at range. TOOL: **EPIC CHALLENGE (core strat 15.03, 1CP)** — in the Fight phase a friendly CHARACTER's melee weapons gain [PRECISION]. Castellan/Crusader/**Lancer are all CHARACTERs** (Helverin is not) -> the Lancer (S20 AP-3 D8) charges + Epic-Challenges = assassinate the attached char in MELEE. Standalone Monster/Vehicle/Titanic chars (Fulgrim/Magnus/Lion/DPs/Steel-Hammer superheavies/enemy Knights) = shoot/fight DIRECTLY. Lone Operatives = only targetable within 12". Shieldbreaker = Anti-TITANIC (enemy Knights/superheavies), NOT an infantry-character sniper.

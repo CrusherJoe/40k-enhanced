@@ -34,6 +34,7 @@ ANCHORS = {"necrons": (47.2, 91), "orks": (39.8, 83), "thousand_sons": (38.6, 57
 # me-roster -> (bsdata slug, detachment name) for the tapestry pull
 ME_META = {"custodes": ("adeptus-custodes", ("Shield Host", "Tharanatoi Hammerblow")),
            "knights": ("imperial-knights", ("Valourstrike Lance",)),
+           "death_rnr": ("imperial-knights", ("Valourstrike Lance",)),   # Joe's real LSO list
            "great_value": ("imperial-fists", ("Emperor's Shield", "Librarius Conclave"))}
 
 

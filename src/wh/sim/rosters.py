@@ -208,6 +208,18 @@ def great_value():
     return _deploy(army)
 
 
+# ---------------- JOE'S ACTUAL LSO 2026 LIST — loaded live from the BCP DB (side A) -----------------
+# "This List Tastes Like Death by Rock and Roll" — Imperial Knights / Valourstrike Lance / Purge the
+# Foe (1995 pts). The real submitted list, not the hand-built approximation in knights(). Use this
+# handle going forward. (Lazy bcp import: rosters is imported BY bcp, so import it at call time.)
+def death_rnr():
+    from . import bcp
+    army = bcp.load("eHwja87KaIo0", side="A", use_list_name=True)   # listId of Joe's LSO list
+    army.slug = "imperial-knights"
+    army.strat_dets = ("Valourstrike Lance",)
+    return army
+
+
 # ---------------- NECRONS: Awakened Dynasty — the real 5-0 "old but new" list (Paul Withington) ------
 # THREE C'tan + Skorpekh Lords + characters, almost no chaff. Not a horde — a monster/character wall:
 # each C'tan is T11 W16 4++ with -1 to incoming Damage (min 1) and a necrodermis return, and hits like
