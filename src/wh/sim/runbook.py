@@ -81,24 +81,24 @@ def build(build_me, build_opp, games=300, seed=11):
 # ---- narrative synthesis -------------------------------------------------------------------------
 def _assess(r):
     ctrl, octrl = r["ctrl"], r["octrl"]
-    board_start, board_end = ctrl[0], ctrl[-1]
-    collapse = board_start - board_end >= 0.8 and octrl[-1] > board_end + 0.6
-    hold = board_end >= octrl[-1] and board_end >= 1.5
-    # kill exchange: fraction of enemy you remove vs of you they remove
+    # late-game board margin (R4-5 average) + the attrition margin (do you out-survive?)
+    board_margin = (ctrl[3] + ctrl[4]) / 2 - (octrl[3] + octrl[4]) / 2
     my_surv = sum(m["surv"] for m in r["mine"]) / max(1, len(r["mine"]))
     opp_surv = sum(e["surv"] for e in r["enemy"]) / max(1, len(r["enemy"]))
-    if collapse:
-        head = "HARD — you take the board early then get pushed off it. This is a race you're behind in."
-        wincon = "Deny, don't chase: hold your primary from cover and force THEM to come dig you out."
-    elif hold and my_surv >= opp_surv:
-        head = "FAVOURED — you out-durable and out-hold them; the game grinds your way."
+    surv_margin = my_surv - opp_surv
+    collapse = ctrl[0] - ctrl[4] >= 1.0 and board_margin <= -0.6      # held early, then swept off
+    if board_margin >= 0.3 or (board_margin >= -0.2 and surv_margin >= 0.08):
+        head = "FAVOURED — you hold the board and out-last them; the game grinds your way."
         wincon = "Grind: trade your durable bodies into theirs and sit on the objectives. Time is on your side."
-    elif my_surv < opp_surv - 0.15:
-        head = "ATTRITION-NEGATIVE — you get removed faster than they do. Win on tempo, not the kill count."
+    elif collapse:
+        head = "HARD — you take the board early then get swept off it. You're behind on tempo."
+        wincon = "Deny, don't chase: hold your primary from cover and make THEM come dig you out."
+    elif surv_margin <= -0.18:
+        head = "ATTRITION-NEGATIVE — they remove you faster than you remove them. Win on tempo, not kills."
         wincon = "Score fast and early; do NOT get drawn into a straight trade you lose."
     else:
         head = "EVEN / GRINDY — decided by the objective play and who commits better."
-        wincon = "Win the secondary + primary math; pick your fights, hold the middle."
+        wincon = "Win the secondary + primary math; pick your fights, hold the middle, out-score."
     return head, wincon
 
 

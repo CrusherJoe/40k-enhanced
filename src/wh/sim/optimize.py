@@ -141,9 +141,10 @@ def optimize(build_me, build_opp, candidates=None, screen=500, final=2000, seed=
 
 def report(r):
     L = [f"LIST-IMPROVEMENT SEARCH — {r['me']}  vs  {r['opp']}",
-         f"  baseline win rate: {r['base']}%", "",
+         f"  baseline sim score: {r['base']} (the sim's INTERNAL scale — NOT a real win rate; trust the Δ,",
+         "  which is a like-for-like relative comparison of the same list with one piece swapped)", "",
          "Swaps tried (remove dead weight -> add a gap-filler), re-simulated:",
-         f"  {'SWAP':52} {'ΔpTS':>6} {'win%':>6} {'Δwin':>6}"]
+         f"  {'SWAP':52} {'ΔpTS':>6} {'score':>6} {'Δ':>6}"]
     for t in sorted(r["trials"], key=lambda t: -t["delta"])[:10]:
         arrow = "+" if t["delta"] >= 0 else ""
         L.append(f"  -{t['rm']:22} +{t['add']:24} {t['dpts']:+6} {t['win']:>5}% {arrow}{t['delta']:>4}%")
@@ -151,7 +152,7 @@ def report(r):
     L += [""]
     if best and best["delta"] >= 3:
         L.append(f"RECOMMENDATION: swap OUT {best['rm']} -> IN {best['add']} "
-                 f"({best['dpts']:+} pts) for +{best['delta']}% (to {best['win']}%). "
+                 f"({best['dpts']:+} pts) — a +{best['delta']} relative swing in this matchup. "
                  f"It plugs the gap the analyzer flagged. Re-verified at {r['final']} games.")
     else:
         L.append("RECOMMENDATION: no single tested swap materially improves this matchup — the problem "

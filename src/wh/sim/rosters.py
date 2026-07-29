@@ -107,8 +107,10 @@ def _deploy(army):
 # NO Assemblage of Might (that is the Auric Champions detachment). Blade Champion has 3 Vaultswords
 # profiles (Behemor/Hurricanis/Victus) -> modelled as one melee 'slot' with 3 options, best-picked.
 CRIT5 = {"crit_hit": 5}   # Martial Mastery (Shield Host); applies to melee of Martial Ka'tah models
-CUSTODES_WARD = None      # OFF: the shoot-ward was a calibration fudge for the matchup-win% target, which
-#                           is PROVEN unreachable (sim vs real win% correlation ~0). Combat stays pure.
+CUSTODES_WARD = "5+"      # Models the positional durability the point-model OMITS (character protection /
+#                           screening / cover on the key models) vs PREMIUM anti-elite guns (AP-3/-4 only —
+#                           not dakka, not melee). Set by FEEL — Custodes should be hard to shift, not
+#                           tabled by every gunline — NOT to hit the (non-predictive) published win rates.
 
 
 def custodes():
