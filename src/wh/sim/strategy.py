@@ -101,8 +101,9 @@ def select(me_arch, opp_arch):
 
 
 def _me_archetype(army):
-    # Custodes are the durable-elite anchor army; otherwise classify generically.
-    if army.slug == "adeptus-custodes":
+    # Custodes / Knights are durable-elite (few, tough, elite) — they get the adaptive posture selection;
+    # otherwise classify generically.
+    if army.slug in ("adeptus-custodes", "imperial-knights"):
         return "durable-elite"
     return archetype(army)
 

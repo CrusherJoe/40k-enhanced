@@ -31,7 +31,8 @@ ANCHORS = {"necrons": (47.2, 91), "orks": (39.8, 83), "thousand_sons": (38.6, 57
            "drukhari": (54.5, 22), "aeldari": (58.3, 24), "tau": (39.5, 86), "dark_angels": (40.0, 40),
            "blood_angels": (50.0, 56)}
 # me-roster -> (bsdata slug, detachment name) for the tapestry pull
-ME_META = {"custodes": ("adeptus-custodes", "Shield Host")}
+ME_META = {"custodes": ("adeptus-custodes", ("Shield Host", "Tharanatoi Hammerblow")),
+           "knights": ("imperial-knights", ("Valourstrike Lance",))}
 
 
 def tapestry(me_army, slug, detachment):
@@ -134,8 +135,8 @@ def matchup_report(rows):
 
 def run_gauntlet(me_name="custodes", games=1500, opt_opp="necrons", seed=11):
     me_builder = getattr(rosters, me_name)
-    slug, det = ME_META.get(me_name, (me_name, "?"))
-    out = [tapestry(me_builder(), slug, det), ""]
+    slug, dets = ME_META.get(me_name, (me_name, ("?",)))
+    out = [tapestry(me_builder(), slug, dets[0]), ""]
     rows = matchups(me_builder, games, seed)
     out.append(matchup_report(rows))
     # improvements on the chosen (calibrated) matchup

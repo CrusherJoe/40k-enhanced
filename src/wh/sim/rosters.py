@@ -153,6 +153,32 @@ def custodes():
     return _deploy(army)
 
 
+# ---------------- IMPERIAL KNIGHTS: the user's "List A" (LSO target) — Valourstrike Lance ----------
+# 2 Castellan + 1 Crusader (gunline super-heavies) + Cerastus Knight Lancer (M14 4++ melee) + Armiger
+# Helverin (autocannon support) + an allied Navigator. Rotate Ion Shields -> a 4++ vs ranged on the big
+# Knights (their signature durability). Bondsman -> the Helverin re-rolls near a big Knight.
+def knights():
+    S = "imperial-knights"
+    ROTATE = {"reroll_hits": "ones"}          # Code Chivalric / oath flavour on the big guns
+    def big(name, role, threat):
+        u = mk(S, name, 1, role=role, threat=threat, abilities=ROTATE)
+        u.invuln = "4+"                        # Rotate Ion Shields: 4++ vs ranged (their key defensive strat)
+        return u
+    u = [
+        big("Knight Castellan", "anti_tank", 6.0),
+        big("Knight Castellan", "anti_tank", 6.0),
+        big("Knight Crusader", "anti_tank", 5.5),
+        mk(S, "Cerastus Knight Lancer", 1, role="fast", threat=5.0,
+           abilities=dict(reroll_charge=True, str_charge=0)),   # M14 4++ melee spear; charges hard
+        mk(S, "Armiger Helverin", 1, role="anti_tank", threat=2.4, abilities=ROTATE),   # bondsman autocannons
+        mk("agents-of-the-imperium", "Navigator", 1, role="character", threat=0.8),     # allied psyker/buff
+    ]
+    army = Army("Imperial Knights — List A (Valourstrike Lance)", "take-and-hold", "A", u, cp=3)
+    army.slug = "imperial-knights"
+    army.strat_dets = ("Valourstrike Lance",)
+    return _deploy(army)
+
+
 # ---------------- NECRONS: Awakened Dynasty — the real 5-0 "old but new" list (Paul Withington) ------
 # THREE C'tan + Skorpekh Lords + characters, almost no chaff. Not a horde — a monster/character wall:
 # each C'tan is T11 W16 4++ with -1 to incoming Damage (min 1) and a necrodermis return, and hits like

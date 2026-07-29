@@ -110,8 +110,19 @@ def _detachment_test(build_me, build_opp, trials, candidates, veh, games, seed, 
     return dict(swaps=[(t["rm"], t["add"]) for t in vsw], rows=rows)
 
 
+def _candidates_for(army):
+    """Gap-filler candidates for the acting faction. Custodes has a tuned set; extend per faction here."""
+    if getattr(army, "slug", None) == "adeptus-custodes":
+        return _custodes_candidates()
+    return []                                          # no tuned candidates for this faction yet
+
+
 def optimize(build_me, build_opp, candidates=None, screen=500, final=2000, seed=11):
-    candidates = candidates or _custodes_candidates()
+    candidates = candidates if candidates is not None else _candidates_for(build_me())
+    if not candidates:
+        base = run.simulate(build_me, build_opp, games=screen, seed=seed)["win"]
+        return dict(base=base, trials=[], me=build_me().name, opp=build_opp().name, final=final,
+                    veh=set(), det=None, no_candidates=True)
     base = run.simulate(build_me, build_opp, games=screen, seed=seed)["win"]
     d = analyze.diagnose(build_me, build_opp, games=500, seed=seed)
     surv = sorted(((nm, 100 * c / (d["games"] * d["me_counts"][nm])) for nm, c in d["my_survivors"].items()),
@@ -140,6 +151,11 @@ def optimize(build_me, build_opp, candidates=None, screen=500, final=2000, seed=
 
 
 def report(r):
+    if r.get("no_candidates"):
+        return (f"LIST-IMPROVEMENT SEARCH — {r['me']}  vs  {r['opp']}\n"
+                "  No tuned swap-candidate pool for this faction yet (candidates are hand-curated gap-fillers).\n"
+                "  The WEAKNESS SCAN (per-matchup runbook) still shows your dead weight + the threats you\n"
+                "  can't remove — the inputs a candidate set would target. Add candidates in optimize._candidates_for.")
     L = [f"LIST-IMPROVEMENT SEARCH — {r['me']}  vs  {r['opp']}",
          f"  baseline sim score: {r['base']} (the sim's INTERNAL scale — NOT a real win rate; trust the Δ,",
          "  which is a like-for-like relative comparison of the same list with one piece swapped)", "",
