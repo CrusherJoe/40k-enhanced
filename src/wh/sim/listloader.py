@@ -29,7 +29,10 @@ _DISP = {"take and hold": "take-and-hold", "purge the foe": "purge-the-foe",
 
 # chapter datasheets that live in the generic space-marines cut / a named-character cut
 _FALLBACK = {"blood-angels": ["space-marines"], "dark-angels": ["space-marines"],
-             "space-marines": ["salamanders", "ultramarines", "imperial-fists"]}
+             "space-marines": ["salamanders", "ultramarines", "imperial-fists"],
+             # chapters that share the common Marine datasheet pool
+             "black-templars": ["space-marines"], "deathwatch": ["space-marines"],
+             "space-wolves": ["space-marines"]}
 
 _FACTION_SLUG = {"Orks": "orks", "Aeldari": "aeldari", "Tyranids": "tyranids",
                  "Emperor's Children": "emperors-children", "Astra Militarum": "astra-militarum",
@@ -38,7 +41,13 @@ _FACTION_SLUG = {"Orks": "orks", "Aeldari": "aeldari", "Tyranids": "tyranids",
                  "Necrons": "necrons", "Drukhari": "drukhari", "Adeptus Custodes": "adeptus-custodes",
                  "Chaos Space Marines": "chaos-space-marines", "Chaos Daemons": "chaos-daemons",
                  "Space Wolves": "space-wolves", "World Eaters": "world-eaters",
-                 "Adeptus Mechanicus": "adeptus-mechanicus", "Leagues of Votann": "leagues-of-votann"}
+                 "Adeptus Mechanicus": "adeptus-mechanicus", "Leagues of Votann": "leagues-of-votann",
+                 # factions with a BSData cut that the archive sample never hit — added for BCP field loading
+                 "Imperial Knights": "imperial-knights", "Death Guard": "death-guard",
+                 "Grey Knights": "grey-knights", "Chaos Knights": "chaos-knights",
+                 "Genestealer Cult": "genestealer-cults", "Genestealer Cults": "genestealer-cults",
+                 "Adepta Sororitas": "adepta-sororitas", "Black Templars": "black-templars",
+                 "Deathwatch": "deathwatch", "Imperial Agents": "agents-of-the-imperium"}
 
 _HDR = re.compile(r'^(.*?)\(([\d,]+)\s*points?\)', re.I)
 _NORM = lambda s: s.replace("’", "'").replace("‘", "'")

@@ -58,3 +58,19 @@ python3 tools/bcp_db.py unit "Caladius"              # which lists run a unit (s
 python3 tools/bcp_db.py show "Joe Beddoe"            # full parsed record + army text
 ```
 Or hit `lso2026.sqlite` directly with SQL for anything ad-hoc.
+
+## Feed real lists into the sim (`wh.sim.bcp`)
+
+The list `army_text` is the same shape `listloader` parses, so any BCP list loads as a sim
+opponent through the normal parse → resolve-vs-BSData → auto role/threat → tapestry pipeline:
+
+```bash
+PYTHONPATH=src python -m wh.sim.bcp list  --faction Necrons        # loadable lists
+PYTHONPATH=src python -m wh.sim.bcp show  "Anthony Colavito"       # parsed army + unresolved sheets
+PYTHONPATH=src python -m wh.sim.bcp run   knights "Anthony Colavito"   # full runbook vs a real list
+PYTHONPATH=src python -m wh.sim.bcp field knights --faction Necrons    # sweep YOUR army vs the field
+```
+
+Only factions with a BSData cut are sim-loadable (`list` hides the rest unless `--all`); the
+10 exotic-export lists parse to text only and are skipped by `field` (reported separately).
+Directional read only — see the sim STATUS in `src/wh/sim/__init__.py`; it is not a win% oracle.
