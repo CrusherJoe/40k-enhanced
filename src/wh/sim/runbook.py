@@ -158,9 +158,56 @@ def report(r):
     L += ["", "YOUR LIABILITIES (die before earning their points — protect, hold back, or reconsider):"]
     L += [f"   - {m['name']:30} survives only {100*m['surv']:.0f}%" for m in weak[:4]] or ["   (none — your list holds up)"]
 
+    lean, avoid = _secondaries(r)
+    L += ["", "SECONDARIES to lean into (you draw 2/turn — keep+score these, discard the rest):"]
+    L += [f"   + {s}" for s in lean] or ["   + (draw-dependent — no strong steer)"]
+    if avoid:
+        L += ["   DISCARD when drawn: " + ", ".join(avoid)]
+
     L += ["", "KEY STRATAGEMS this matchup: " + _strat_advice(r)]
     L += ["", f"THE TRAP: {_trap(r, pa)}"]
     return "\n".join(L)
+
+
+def _secondaries(r):
+    """Which of the 18 tactical secondaries suit THIS matchup — from the kill exchange, board hold, and
+    the enemy's composition (you draw 2/turn, so this is what to keep+score vs discard)."""
+    enemy = r["opp"].units
+    g = r["g"]
+    kill_rate = 1 - (sum(e["surv"] for e in r["enemy"]) / max(1, len(r["enemy"])))   # how well you remove things
+    board_margin = (r["ctrl"][3] + r["ctrl"][4]) / 2 - (r["octrl"][3] + r["octrl"][4]) / 2
+    posture = r["my_strategy"].name if r["my_strategy"] else "balanced"
+    has_char = any(u.role == "character" and not u.tall for u in enemy)
+    # a big model you actually remove often enough for Bring It Down to pay
+    big = [e for e in r["enemy"] if any(w >= 10 for w in [e["u"].wounds]) and e["u"].tall]
+    kill_big = any(e["surv"] < 0.5 for e in big)
+    unkillable_big = any(e["surv"] >= 0.6 for e in big)
+    horde = sum(u.models for u in enemy) >= 55
+    lean, avoid = [], []
+    if kill_rate >= 0.55:                       # you out-kill -> kill secondaries pay
+        lean += ["No Prisoners", "Overwhelming Force"]
+        if has_char:
+            lean.append("Assassination (you can reach their characters)")
+    else:                                       # you get out-traded -> don't bank on kills
+        avoid += ["No Prisoners", "Overwhelming Force"]
+        lean += ["Secure No Man's Land", "Engage on All Fronts"]     # board/action instead
+    if kill_big:
+        lean.append("Bring It Down (you crack their big models)")
+    elif unkillable_big:
+        avoid.append("Bring It Down")
+    if horde:
+        lean.append("A Grievous Blow (anti-horde)")
+    if board_margin >= 0.3:
+        lean += ["Display of Might", "Centre Ground"]
+    if posture in ("kite", "hold") or (r["ctrl"][0] - r["ctrl"][4] >= 0.8):
+        lean.append("Behind Enemy Lines")      # you're playing the board/tempo, not the trade
+    # de-dupe preserving order, cap
+    seen = set(); out = []
+    for s in lean:
+        k = s.split(" (")[0]
+        if k not in seen:
+            seen.add(k); out.append(s)
+    return out[:5], list(dict.fromkeys(avoid))[:3]
 
 
 def _deploy_advice(r):
