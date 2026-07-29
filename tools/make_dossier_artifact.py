@@ -18,7 +18,7 @@ def parse(list_key):
     tap = t.split("# MATCHUP MAP")[0].split("\n", 2)[2].strip()
     mapsec = t.split("# MATCHUP MAP")[1].split("# RUNBOOKS")[0]
     rows = [dict(opp=m.group(1), arch=m.group(2), read=m.group(3), posture=m.group(4), threat=m.group(5).strip())
-            for m in re.finditer(rf"^\s{{2}}(\w+) \((.+?)\)\s{{2,}}({READS})\s+(\w+)\s+(.+?)\s*$", mapsec, re.M)]
+            for m in re.finditer(rf"^\s{{2}}(\w+) \((.+?)\)\s+({READS})\s+(\w+)\s+(.+?)\s*$", mapsec, re.M)]
     rbsec = t.split("# RUNBOOKS")[1].split("# LIST-BUILDING")[0] if "# LIST-BUILDING" in t else t.split("# RUNBOOKS")[1]
     books = re.findall(r"```\n(.*?)\n```", rbsec, re.S)
     for i, r in enumerate(rows):
