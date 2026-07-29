@@ -174,10 +174,31 @@ def register_override(slug, fn):
     OVERRIDES[slug] = fn
 
 
-def load(faction, detachment=None, disposition=None, name=None, override=None, min_text=800):
-    """Build an Army from the best-record archive list for `faction`. `disposition` overrides the archive's
-    (slug form). `override(army)` (or a registered OVERRIDE) applies deep faction tapestry last."""
-    entry = pick(faction, detachment, min_text)
+def all_lists(min_text=800):
+    """Every runnable (full-text) archive list, as light dicts (index + faction/detachment/disposition/
+    record). Use the index with load(entry=...) / builder(index=...) to run YOUR list against any of them."""
+    return [dict(i=i, faction=L["faction"], detachment=(L.get("detachment") or "").split("|")[0].strip(),
+                 disposition=L.get("disposition", ""), wins=L.get("wins", 0), losses=L.get("losses", 0),
+                 player=L.get("playerName", ""), slug=_FACTION_SLUG.get(L["faction"]))
+            for i, L in enumerate(_archive()) if len(L.get("listText", "")) >= min_text
+            and _FACTION_SLUG.get(L["faction"])]
+
+
+def builder(faction=None, detachment=None, index=None, disposition=None):
+    """A build_opp function bound to a specific archive list — pass to runbook/optimize/run as the opponent.
+    Either an explicit `index` (from all_lists) or faction[+detachment] (best-record match)."""
+    def b():
+        return load(faction=faction, detachment=detachment, index=index, disposition=disposition)
+    return b
+
+
+def load(faction=None, detachment=None, disposition=None, name=None, override=None, min_text=800, index=None,
+         entry=None):
+    """Build an Army from an archive list — a specific one (`index` or `entry`) or the best-record match for
+    `faction`[+`detachment`]. `disposition` overrides the archive's; `override(army)` applies faction tapestry."""
+    if entry is None:
+        entry = _archive()[index] if index is not None else pick(faction, detachment, min_text)
+    faction = faction or entry["faction"]
     slug = _FACTION_SLUG.get(faction) or faction
     units, missing = [], []
     for uname, pts, block in parse_units(entry["listText"]):
