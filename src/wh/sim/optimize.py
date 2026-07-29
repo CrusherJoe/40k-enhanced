@@ -110,10 +110,31 @@ def _detachment_test(build_me, build_opp, trials, candidates, veh, games, seed, 
     return dict(swaps=[(t["rm"], t["add"]) for t in vsw], rows=rows)
 
 
+def _knights_candidates():
+    """Knight options that plug the army's gaps: anti-horde (their weakness), cheap melta bodies, support."""
+    S, mk = "imperial-knights", rosters.mk
+    out = []
+    for name, role, threat in [
+        ("Knight Warden", "anti_horde", 5.0),            # avenger gatling shreds infantry (Knights' weak spot)
+        ("Armiger Warglaive", "anti_tank", 2.4),         # cheap melta brawler + objective body
+        ("Knight Preceptor", "character", 4.5),          # las-impulsor + buffs (anti-elite support)
+    ]:
+        try:
+            mk(S, name, 1)
+            out.append((name, (lambda nm=name, rl=role, th=threat: mk(S, nm, 1, role=rl, threat=th,
+                                abilities={"reroll_hits": "ones"})), _pts(name, S)))
+        except Exception:
+            pass
+    return out
+
+
 def _candidates_for(army):
-    """Gap-filler candidates for the acting faction. Custodes has a tuned set; extend per faction here."""
-    if getattr(army, "slug", None) == "adeptus-custodes":
+    """Gap-filler candidates for the acting faction. Custodes/Knights have tuned sets; extend per faction."""
+    slug = getattr(army, "slug", None)
+    if slug == "adeptus-custodes":
         return _custodes_candidates()
+    if slug == "imperial-knights":
+        return _knights_candidates()
     return []                                          # no tuned candidates for this faction yet
 
 
@@ -146,7 +167,9 @@ def optimize(build_me, build_opp, candidates=None, screen=500, final=2000, seed=
             cbuild = next(cb for cn, cb, _ in candidates if cn == t["add"])
             t["win"] = run.simulate(_swap_builder(build_me, t["rm"], cbuild), build_opp, games=final, seed=seed)["win"]
             t["delta"] = t["win"] - base
-    det = _detachment_test(build_me, build_opp, trials, candidates, veh, min(final, 1500), seed)
+    # the detachment test uses the Custodes detachment models (detachments.CUSTODES) — Custodes only.
+    det = (_detachment_test(build_me, build_opp, trials, candidates, veh, min(final, 1500), seed)
+           if getattr(build_me(), "slug", None) == "adeptus-custodes" else None)
     return dict(base=base, trials=trials, me=d["me_name"], opp=d["opp_name"], final=final, veh=veh, det=det)
 
 
