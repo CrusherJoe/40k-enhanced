@@ -179,6 +179,35 @@ def knights():
     return _deploy(army)
 
 
+# ---------------- GREAT VALUE REDUX: Imperial Fists Terminator brick ("the budget Custodes") ----------
+# Emperor's Shield + Librarius Conclave, Purge the Foe. Two 10-Terminator bodyguard bricks (Assault TH/SS
+# + cyclone/fist) with Lysander + Librarians (Temporal Corridor teleport), Bladeguard/Sternguard support,
+# Land Speeders + jump Vanguard for mobility. Durable, hard-hitting, low-model — plays like Custodes-lite.
+def great_value():
+    S = "imperial-fists"
+    u = [
+        _mkf(S, "Darnath Lysander", 1, role="character", threat=3.2, abilities=dict(OATH, reroll_wounds="ones")),
+        _mkf(S, "Terminator Assault Squad", 10, role="line", threat=3.4, abilities=OATH),   # TH/SS 2+/4++ brick
+        _mkf(S, "Terminator Squad", 10, role="anti_tank", threat=3.0, abilities=OATH),        # fists + cyclone
+        _mkf(S, "Bladeguard Veteran Squad", 6, role="line", threat=2.2, abilities=OATH),
+        _mkf(S, "Sternguard Veteran Squad", 10, role="line", threat=1.8, abilities=OATH),     # bolter firebase
+        _mkf(S, "Librarian in Terminator Armour", 1, role="character", threat=1.6, abilities=OATH),
+        _mkf(S, "Librarian", 1, role="character", threat=1.4, abilities=OATH),
+        _mkf(S, "Ancient in Terminator Armour", 1, role="character", threat=1.4),
+        _mkf(S, "Bladeguard Ancient", 1, role="character", threat=1.2),
+        _mkf(S, "Lieutenant with Combi-weapon", 1, role="character", threat=1.2),
+        _mkf(S, "Intercessor Squad", 5, role="action", threat=0.9),
+        _mkf(S, "Land Speeder", 1, role="fast", threat=1.6, abilities=OATH),
+        _mkf(S, "Land Speeder", 1, role="fast", threat=1.6, abilities=OATH),
+        _mkf(S, "Vanguard Veteran Squad with Jump Packs", 5, role="fast", threat=1.2, abilities=OATH,
+             deep_strike=True, in_reserve=True),
+    ]
+    army = Army("Great Value Redux (Imperial Fists)", "purge-the-foe", "A", u, cp=3)
+    army.slug = "imperial-fists"
+    army.strat_dets = ("Emperor's Shield", "Librarius Conclave")
+    return _deploy(army)
+
+
 # ---------------- NECRONS: Awakened Dynasty — the real 5-0 "old but new" list (Paul Withington) ------
 # THREE C'tan + Skorpekh Lords + characters, almost no chaff. Not a horde — a monster/character wall:
 # each C'tan is T11 W16 4++ with -1 to incoming Damage (min 1) and a necrodermis return, and hits like
@@ -400,6 +429,79 @@ def orks_greentide():
             x.fnp = "5+"
     army = Army("Orks — GREEN TIDE (board-control horde)", "take-and-hold", "B", u, cp=3)
     army.slug = "orks"; army.strat_dets = ("Green Tide", "More Dakka!")
+    return _deploy(army)
+
+
+# ---------------- LOADER-BASED OPPONENTS: real archive lists (full text) via listloader -------------
+def chaos_space_marines():
+    from . import listloader as _L
+    return _L.load(faction="Chaos Space Marines")
+
+
+def chaos_daemons():
+    from . import listloader as _L
+    return _L.load(faction="Chaos Daemons")
+
+
+def leagues_of_votann():
+    from . import listloader as _L
+    return _L.load(faction="Leagues of Votann")
+
+
+# ---------------- EMPEROR'S CHILDREN: top-meta Slaaneshi fast-elite melee (hand-built; no archive full-text)
+def emperors_children():
+    S = "emperors-children"
+    FAST = dict(reroll_charge=True, str_charge=1)     # Slaanesh: quick + hits above weight on the charge
+    u = [
+        mk(S, "Fulgrim", 1, role="character", threat=5.0, abilities=dict(FAST, reroll_hits="ones")),  # daemon primarch
+        mk(S, "Lord Exultant", 1, role="character", threat=2.4, abilities=FAST),
+        mk(S, "Infractors", 10, role="line", threat=1.8, abilities=FAST),
+        mk(S, "Infractors", 10, role="line", threat=1.8, abilities=FAST),
+        mk(S, "Tormentors", 10, role="fast", threat=1.8, abilities=FAST),
+        mk(S, "Flawless Blades", 5, role="anti_tank", threat=2.2, abilities=dict(FAST, reroll_wounds="ones")),
+        mk(S, "Noise Marines", 5, role="line", threat=1.4),
+    ]
+    army = Army("Emperor's Children — Slaaneshi elite (meta)", "purge-the-foe", "B", u, cp=3)
+    army.slug = S
+    return _deploy(army)
+
+
+# ---------------- WORLD EATERS: Khorne melee blender (hand-built) — Angron + Berzerkers + Eightbound ----
+def world_eaters():
+    S = "world-eaters"
+    KHORNE = dict(reroll_charge=True, str_charge=1)    # Blessings of Khorne: relentless charges, extra bite
+    u = [
+        mk(S, "Angron", 1, role="character", threat=5.5, abilities=dict(KHORNE, reroll_hits="fails", reroll_wounds="ones")),
+        mk(S, "Khorne Berzerkers", 10, role="line", threat=2.0, abilities=KHORNE),
+        mk(S, "Khorne Berzerkers", 10, role="line", threat=2.0, abilities=KHORNE),
+        mk(S, "Exalted Eightbound", 5, role="anti_tank", threat=2.8, abilities=dict(KHORNE, reroll_wounds="ones")),
+        mk(S, "Eightbound", 5, role="anti_tank", threat=2.4, abilities=KHORNE),
+        mk(S, "Lord Invocatus", 1, role="fast", threat=2.6, abilities=KHORNE),
+        mk(S, "Jakhals", 10, role="screen", threat=0.6),
+    ]
+    army = Army("World Eaters — Khorne melee blender", "purge-the-foe", "B", u, cp=3)
+    army.slug = S
+    return _deploy(army)
+
+
+# ---------------- DEATH GUARD: durable Nurgle grind (hand-built) — Mortarion + Plague Marines + 5+++ ----
+def death_guard():
+    S = "death-guard"
+    u = []
+    mort = mk(S, "Mortarion", 1, role="character", threat=5.5); mort.fnp = "5+"; mort.damage_reduction = 1
+    u.append(mort)                                     # T12 5+++ -1dmg — a nightmare to shift
+    for _ in range(2):
+        pm = mk(S, "Plague Marines", 7, role="line", threat=1.8); pm.fnp = "5+"; pm.damage_reduction = 1
+        u.append(pm)                                   # Disgustingly Resilient + -1 damage
+    dsh = mk(S, "Deathshroud Terminators", 3, role="anti_tank", threat=2.2); dsh.fnp = "5+"; u.append(dsh)
+    bl = mk(S, "Blightlord Terminators", 5, role="line", threat=2.0); bl.fnp = "5+"; u.append(bl)
+    px = mk(S, "Poxwalkers", 10, role="screen", threat=0.5); px.fnp = "5+"; u.append(px)
+    u.append(mk(S, "Foul Blightspawn", 1, role="character", threat=1.0))
+    for x in u:                                        # Disgustingly Resilient bubble across the army
+        if not x.fnp:
+            x.fnp = "5+"
+    army = Army("Death Guard — Nurgle durable grind", "take-and-hold", "B", u, cp=3)
+    army.slug = S
     return _deploy(army)
 
 

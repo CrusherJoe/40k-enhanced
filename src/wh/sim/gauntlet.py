@@ -23,7 +23,8 @@ from . import run, analyze, optimize, rosters
 
 # the meta field (opponent roster builders) + which matchups the sim reads to-the-point vs directional
 OPPONENTS = ["necrons", "orks", "orks_greentide", "space_marines", "thousand_sons", "tyranids",
-             "drukhari", "aeldari", "tau", "dark_angels", "blood_angels"]
+             "drukhari", "aeldari", "tau", "dark_angels", "blood_angels", "emperors_children",
+             "world_eaters", "death_guard", "chaos_space_marines", "chaos_daemons", "leagues_of_votann"]
 GRINDY = {"necrons", "orks", "space_marines", "thousand_sons", "tyranids"}   # win% trustworthy
 # REAL Custodes win% per opponent, from listhammer (data/meta/custodes-matchups.json, HAR 2026-07-28).
 # The calibration anchors. games= is the sample size (small samples like Aeldari/Drukhari are noisier).
@@ -32,7 +33,8 @@ ANCHORS = {"necrons": (47.2, 91), "orks": (39.8, 83), "thousand_sons": (38.6, 57
            "blood_angels": (50.0, 56)}
 # me-roster -> (bsdata slug, detachment name) for the tapestry pull
 ME_META = {"custodes": ("adeptus-custodes", ("Shield Host", "Tharanatoi Hammerblow")),
-           "knights": ("imperial-knights", ("Valourstrike Lance",))}
+           "knights": ("imperial-knights", ("Valourstrike Lance",)),
+           "great_value": ("imperial-fists", ("Emperor's Shield", "Librarius Conclave"))}
 
 
 def tapestry(me_army, slug, detachment):
