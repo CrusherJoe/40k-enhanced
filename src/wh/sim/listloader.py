@@ -224,15 +224,20 @@ def load(faction=None, detachment=None, disposition=None, name=None, override=No
         entry = _archive()[index] if index is not None else pick(faction, detachment, min_text)
     faction = faction or entry["faction"]
     slug = _FACTION_SLUG.get(faction) or faction
-    units, missing = [], []
+    units, missing, submodels = [], [], set()
     for uname, pts, block in parse_units(entry["listText"]):
         sl, prof = _resolve(slug, uname)
         if prof is None:
             missing.append(uname)
             continue
+        # a datasheet's sub-model pilots (e.g. Sir Hekhtur under Canis Rex) may be listed on
+        # their own line by the exporter — record them so they aren't flagged "missing" below.
+        for ep in prof.get("extra_profiles", []):
+            submodels.add(_NORM(ep.get("name", "")))
         models = _model_count(uname, block, prof)
         role, threat = _role_threat(prof, models, pts)
         units.append(_R.mk(sl, uname if sl == slug else _NORM(uname), models, role=role, threat=threat))
+    missing = [m for m in missing if _NORM(m) not in submodels]
     disp = disposition or _DISP.get((entry.get("disposition") or "").strip().lower(), "take-and-hold")
     army = Army(name or f"{faction} — {entry.get('detachment', '?')} ({entry.get('wins')}-{entry.get('losses')})",
                 disp, "B", units, cp=3)

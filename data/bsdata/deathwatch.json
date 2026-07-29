@@ -1290,6 +1290,147 @@
    ]
   },
   {
+   "name": "Indomitor Kill Team",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 5,
+    "T": 6,
+    "Sv": "3+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 1
+   },
+   "ranged": [
+    {
+     "name": "Bolt pistol",
+     "range": 12,
+     "A": 1,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "CLOSE-QUARTERS"
+     ]
+    },
+    {
+     "name": "Melta rifle",
+     "range": 18,
+     "A": 1,
+     "BS": "3+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "HEAVY",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Multi-melta",
+     "range": 18,
+     "A": 2,
+     "BS": "4+",
+     "S": 9,
+     "AP": -4,
+     "D": "D6",
+     "abilities": [
+      "HEAVY",
+      "MELTA 2"
+     ]
+    },
+    {
+     "name": "Auto boltstorm gauntlets",
+     "range": 18,
+     "A": 3,
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Fragstorm grenade launcher",
+     "range": 18,
+     "A": "D6",
+     "BS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "BLAST"
+     ]
+    },
+    {
+     "name": "Flamestorm gauntlets",
+     "range": 12,
+     "A": "D6+1",
+     "BS": "N/A",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "IGNORES COVER",
+      "TORRENT",
+      "TWIN-LINKED"
+     ]
+    },
+    {
+     "name": "Deathwatch heavy bolt rifle",
+     "range": 30,
+     "A": 2,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "ASSAULT",
+      "HEAVY",
+      "LETHAL HITS"
+     ]
+    },
+    {
+     "name": "Deathwatch heavy bolter",
+     "range": 36,
+     "A": 3,
+     "BS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 3,
+     "abilities": [
+      "ASSAULT",
+      "HEAVY",
+      "LETHAL HITS",
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Close combat weapon",
+     "A": 3,
+     "WS": "3+",
+     "S": 4,
+     "AP": 0,
+     "D": 1
+    },
+    {
+     "name": "Twin power fists",
+     "A": 3,
+     "WS": "3+",
+     "S": 8,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Kill Team Cassius [Legends]",
    "source": "bsdata-wh40k-11e",
    "stats": {

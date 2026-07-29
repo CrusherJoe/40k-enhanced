@@ -1041,6 +1041,60 @@
    ]
   },
   {
+   "name": "Victrix Honour Guard",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 6,
+    "T": 4,
+    "Sv": "2+",
+    "W": 3,
+    "Ld": "6+",
+    "OC": 2
+   },
+   "ranged": [
+    {
+     "name": "Master-crafted Bolt Carbine",
+     "range": 24,
+     "A": 2,
+     "BS": "2+",
+     "S": 4,
+     "AP": -1,
+     "D": 2
+    }
+   ],
+   "melee": [
+    {
+     "name": "Master-crafted power weapon",
+     "A": 5,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2
+    },
+    {
+     "name": "Blades of Honour",
+     "A": 6,
+     "WS": "2+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "PRECISION",
+      "TWIN-LINKED"
+     ]
+    }
+   ],
+   "abilities": {
+    "datasheet": [
+     {
+      "name": "Attached Unit",
+      "text": "If a Captain or Chapter Master unit from your army can be attached to a Company Heroes unit, it can be attached to this unit instead."
+     }
+    ]
+   },
+   "keywords": []
+  },
+  {
    "name": "Wardens of Ultramar",
    "source": "bsdata-wh40k-11e",
    "stats": {

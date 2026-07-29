@@ -191,7 +191,10 @@ def _all_unit_holders(ctx, entry, depth=0, seen=None):
     out = [entry] if unit_profiles(ctx, entry) else []
     kids = list(entry.get("selectionEntries", []))
     for g in entry.get("selectionEntryGroups", []):
+        if unit_profiles(ctx, g):        # a group can carry the Unit statline inline (Victrix Honour Guard)
+            out.append(g)
         kids += g.get("selectionEntries", [])
+        kids += g.get("selectionEntryGroups", [])   # groups nest (Deathwatch kill-team squad members)
         kids += [t for el in g.get("entryLinks", [])
                  if (t := ctx["SSE"].get(el.get("targetId")) or ctx["SSEG"].get(el.get("targetId")))]
     kids += [t for el in entry.get("entryLinks", [])

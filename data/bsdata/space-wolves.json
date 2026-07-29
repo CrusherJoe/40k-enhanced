@@ -4300,6 +4300,47 @@
    "keywords": []
   },
   {
+   "name": "Wulfen",
+   "source": "bsdata-wh40k-11e",
+   "stats": {
+    "M": 9,
+    "T": 6,
+    "Sv": "4+",
+    "W": 2,
+    "Ld": "7+",
+    "OC": 0
+   },
+   "ranged": [
+    {
+     "name": "Stormfrag auto-launcher",
+     "range": 12,
+     "A": "D3",
+     "BS": "4+",
+     "S": 4,
+     "AP": 0,
+     "D": 1,
+     "abilities": [
+      "ASSAULT",
+      "BLAST"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "name": "Wulfen Weapons",
+     "A": 3,
+     "WS": "3+",
+     "S": 5,
+     "AP": -2,
+     "D": 2,
+     "abilities": [
+      "SUSTAINED HITS 1"
+     ]
+    }
+   ],
+   "keywords": []
+  },
+  {
    "name": "Wulfen Dreadnought",
    "source": "bsdata-wh40k-11e",
    "stats": {
