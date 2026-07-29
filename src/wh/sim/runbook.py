@@ -147,22 +147,22 @@ def report(r):
 
     pk = _priority_kills(r)
     L.append("PRIORITY KILLS (they hurt you AND you can remove them — kill in this order):")
-    L += [f"   {i+1}. {e['name']:30} deals {e['dmg']:.1f} w/turn to you, you remove it {100*(1-e['surv']):.0f}% of games"
+    L += [f"   {i+1}. {_nm(e):30} deals {e['dmg']:.1f} w/turn to you, you remove it {100*(1-e['surv']):.0f}% of games"
           for i, e in enumerate(pk[:5])] or ["   (nothing both threatening and removable)"]
 
     pa = _play_around(r)
     L += ["", "PLAY AROUND (you CAN'T reliably remove these — screen / avoid / out-score, don't feed them):"]
-    L += [f"   - {e['name']:30} survives {100*e['surv']:.0f}%, deals {e['dmg']:.1f} w/turn" for e in pa[:4]] \
+    L += [f"   - {_nm(e):30} survives {100*e['surv']:.0f}%, deals {e['dmg']:.1f} w/turn" for e in pa[:4]] \
         or ["   (none — you can remove their key pieces)"]
 
     work = sorted([m for m in r["mine"] if m["dealt"] >= 1.0], key=lambda m: -m["dealt"])[:4]
     trade = "" if any(m["surv"] > 0.3 for m in work) else "  (they trade hard and die doing it — that's the plan here, keep them earning until they drop)"
     L += ["", "YOUR WORKHORSES (do the damage — leverage + protect these):" + trade]
-    L += [f"   - {m['name']:30} {m['dealt']:.1f} w/turn, survives {100*m['surv']:.0f}%" for m in work]
+    L += [f"   - {_nm(m):30} {m['dealt']:.1f} w/turn, survives {100*m['surv']:.0f}%" for m in work]
 
     weak = sorted([m for m in r["mine"] if m["surv"] < 0.35 and m["dealt"] < 3.0], key=lambda m: m["surv"])
     L += ["", "YOUR LIABILITIES (die before earning their points — protect, hold back, or reconsider):"]
-    L += [f"   - {m['name']:30} survives only {100*m['surv']:.0f}%" for m in weak[:4]] or ["   (none — your list holds up)"]
+    L += [f"   - {_nm(m):30} survives only {100*m['surv']:.0f}%" for m in weak[:4]] or ["   (none — your list holds up)"]
 
     lean, avoid = _secondaries(r)
     L += ["", "SECONDARIES to lean into (you draw 2/turn — keep+score these, discard the rest):"]
@@ -236,6 +236,11 @@ def _deploy_advice(r):
     if fast_enemy or shooty_enemy:
         parts.append("screen your home objectives (they'll try to get behind you)")
     return "; ".join(parts) + "."
+
+
+def _nm(item):
+    """Unit name prefixed with its quantity when you field/they field more than one (e.g. '2x Knight Castellan')."""
+    return f"{item['cnt']}x {item['name']}" if item.get("cnt", 1) > 1 else item["name"]
 
 
 def _posture_text(s):

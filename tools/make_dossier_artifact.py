@@ -98,9 +98,9 @@ function render(){
   const r=rows[sel], rk=READKEY(r.read), L=r.runbook.split("\n");
   const who=esc(L[0].replace(/^RUNBOOK — /,"")), mission=esc((L[1]||"").trim()), rest=fmtRunbook(L.slice(2).join("\n").trim());
   const fixes=d.fixes?`<h2 class="sec">List-Building Notes</h2><div class="howto" style="border-left-color:var(--ink-soft)">Between events only — your list is LOCKED at the tournament. Use this when deciding what to bring.</div><details><summary>Optimiser: tested swaps</summary><pre>${esc(d.fixes)}</pre></details>`:"";
-  const btns=LISTS.map(l=>`<button class="${cur===l.key?'on':''}" data-list="${l.key}">${esc(l.label)}</button>`).join("");
+  const btns=LISTS.length>1?`<div class="sel" role="tablist">`+LISTS.map(l=>`<button class="${cur===l.key?'on':''}" data-list="${l.key}">${esc(l.label)}</button>`).join("")+`</div>`:"";
   document.getElementById("app").innerHTML=`<div class="wrap">
-    <header class="top"><div><div class="eyebrow">Tactical Dossier</div><h1>${esc(d.name)}</h1></div><div class="sel" role="tablist">${btns}</div></header>
+    <header class="top"><div><div class="eyebrow">Tactical Dossier</div><h1>${esc(d.name)}</h1></div>${btns}</header>
     <p class="sub">How your <b>locked tournament list</b> maps into the current meta — a positional simulation (thousands of dice-resolved games per matchup). The numbers describe the <b>dynamics</b>, not a win-rate prediction.</p>
     <div class="howto"><b>In-event tool:</b> tap any matchup for its RUNBOOK — how to pilot THIS list against it: who to kill first, what you <b>can't</b> remove (don't feed it), what to protect, your posture &amp; deployment, and the trap that loses the game. The map is your at-a-glance cheat sheet.</div>
     <h2 class="sec">Matchup Map</h2>
@@ -118,15 +118,25 @@ render();
 LABELS = {"knights": "Imperial Knights", "custodes": "Custodes"}
 
 
-def main(keys):
-    data = {k: parse(k) for k in keys}
-    lists = [dict(key=k, label=LABELS.get(k, data[k]["name"].split("—")[0].strip())) for k in keys]
-    html = TEMPLATE % dict(data=json.dumps(data), lists=json.dumps(lists),
-                           titles=" & ".join(LABELS.get(k, k).split()[-1] for k in keys))
-    out = os.path.join(REPORTS, "dossier.html")
-    open(out, "w").write(html)
-    print("wrote", out, len(html), "bytes")
+def main(keys, combined=False):
+    if combined:                                    # legacy: one page, list selector
+        data = {k: parse(k) for k in keys}
+        lists = [dict(key=k, label=LABELS.get(k, data[k]["name"].split("—")[0].strip())) for k in keys]
+        html = TEMPLATE % dict(data=json.dumps(data), lists=json.dumps(lists),
+                               titles=" & ".join(LABELS.get(k, k).split()[-1] for k in keys))
+        open(os.path.join(REPORTS, "dossier.html"), "w").write(html)
+        print("wrote dossier.html")
+        return
+    for k in keys:                                  # one STANDALONE page per list (give each teammate theirs)
+        d = parse(k)
+        lists = [dict(key=k, label=LABELS.get(k, d["name"].split("—")[0].strip()))]
+        html = TEMPLATE % dict(data=json.dumps({k: d}), lists=json.dumps(lists),
+                               titles=LABELS.get(k, d["name"].split("—")[0].strip()))
+        out = os.path.join(REPORTS, f"dossier-{k}.html")
+        open(out, "w").write(html)
+        print("wrote", out, len(html), "bytes")
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:] or ["knights", "custodes"])
+    args = sys.argv[1:] or ["knights", "custodes"]
+    main([a for a in args if a != "--combined"], combined="--combined" in args)
