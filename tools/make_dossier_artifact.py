@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Build the interactive matchup-dossier Artifact (self-contained HTML) from the generated dossier
-markdown. Parses reports/dossier-<list>.md for each list, embeds the data, and writes a single page:
+markdown. Parses reports/<list>/dossier.md for each list, embeds the data, and writes a page:
 list selector -> matchup map (status cards) -> click a card for the full runbook. Framed for LOCKED-list
 tournament play (runbooks are the in-event tool; list-building notes are for between events).
 
-  python3 tools/make_dossier_artifact.py knights custodes   # -> reports/dossier.html
+  python3 tools/make_dossier_artifact.py knights custodes   # -> reports/<list>/site.html (one each)
+  python3 tools/make_dossier_artifact.py knights custodes --combined  # -> reports/dossier-combined.html
 """
 import re, json, sys, os
 
@@ -13,7 +14,7 @@ READS = r"FAVOURED|EVEN / GRINDY|ATTRITION-NEGATIVE|HARD"
 
 
 def parse(list_key):
-    t = open(os.path.join(REPORTS, f"dossier-{list_key}.md")).read()
+    t = open(os.path.join(REPORTS, list_key, "dossier.md")).read()
     name = re.search(r"# TOURNAMENT DOSSIER — (.+)", t).group(1).strip()
     tap = t.split("# MATCHUP MAP")[0].split("\n", 2)[2].strip()
     mapsec = t.split("# MATCHUP MAP")[1].split("# RUNBOOKS")[0]
@@ -124,15 +125,16 @@ def main(keys, combined=False):
         lists = [dict(key=k, label=LABELS.get(k, data[k]["name"].split("—")[0].strip())) for k in keys]
         html = TEMPLATE % dict(data=json.dumps(data), lists=json.dumps(lists),
                                titles=" & ".join(LABELS.get(k, k).split()[-1] for k in keys))
-        open(os.path.join(REPORTS, "dossier.html"), "w").write(html)
-        print("wrote dossier.html")
+        open(os.path.join(REPORTS, "dossier-combined.html"), "w").write(html)
+        print("wrote dossier-combined.html")
         return
     for k in keys:                                  # one STANDALONE page per list (give each teammate theirs)
         d = parse(k)
         lists = [dict(key=k, label=LABELS.get(k, d["name"].split("—")[0].strip()))]
         html = TEMPLATE % dict(data=json.dumps({k: d}), lists=json.dumps(lists),
                                titles=LABELS.get(k, d["name"].split("—")[0].strip()))
-        out = os.path.join(REPORTS, f"dossier-{k}.html")
+        out = os.path.join(REPORTS, k, "site.html")
+        os.makedirs(os.path.dirname(out), exist_ok=True)
         open(out, "w").write(html)
         print("wrote", out, len(html), "bytes")
 

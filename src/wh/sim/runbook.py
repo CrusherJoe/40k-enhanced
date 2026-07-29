@@ -165,10 +165,13 @@ def report(r):
     L += [f"   - {_nm(m):30} survives only {100*m['surv']:.0f}%" for m in weak[:4]] or ["   (none — your list holds up)"]
 
     lean, avoid = _secondaries(r)
-    L += ["", "SECONDARIES to lean into (you draw 2/turn — keep+score these, discard the rest):"]
+    L += ["", "SECONDARIES that pay here (score these when the matchup hands them to you):"]
     L += [f"   + {s}" for s in lean] or ["   + (draw-dependent — no strong steer)"]
     if avoid:
-        L += ["   DISCARD when drawn: " + ", ".join(avoid)]
+        # 11e: no 2-card hold cap, so ditching a card never improves your draw — the ONLY
+        # value of a discard is the 1 CP you get for doing it in your Command Phase.
+        L += ["   Dead here — worth nothing but the 1 CP from discarding in your Command Phase: "
+              + ", ".join(avoid)]
 
     L += ["", "KEY STRATAGEMS this matchup: " + _strat_advice(r)]
     L += ["", f"THE TRAP: {_trap(r, pa)}"]
@@ -177,7 +180,8 @@ def report(r):
 
 def _secondaries(r):
     """Which of the 18 tactical secondaries suit THIS matchup — from the kill exchange, board hold, and
-    the enemy's composition (you draw 2/turn, so this is what to keep+score vs discard)."""
+    the enemy's composition. 'lean' = cards that actually score here; 'avoid' = dead cards whose only
+    use is being discarded in your Command Phase for 1 CP (11e has no 2-card hold cap to play around)."""
     enemy = r["opp"].units
     g = r["g"]
     kill_rate = 1 - (sum(e["surv"] for e in r["enemy"]) / max(1, len(r["enemy"])))   # how well you remove things

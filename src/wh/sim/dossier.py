@@ -177,7 +177,7 @@ def render_xlsx(P, path):
     def lst(items, fmt):
         return "\n".join(fmt(x) for x in items) or "-"
     sheet(ws2, ["Opponent", "Read", "Priority kills (dmg / removable%)", "Play around (survive% / dmg)",
-                "Your workhorses", "Your liabilities", "Secondaries: lean", "Secondaries: discard", "The trap"],
+                "Your workhorses", "Your liabilities", "Secondaries: lean", "Secondaries: dead (CP fodder)", "The trap"],
           [[d["opp"], d["read_short"],
             lst(d["priority_kills"], lambda x: f"{x[0]} — {x[1]}w, {x[2]}% kill"),
             lst(d["play_around"], lambda x: f"{x[0]} — {x[1]}% lives, {x[2]}w"),
@@ -194,24 +194,29 @@ def render_xlsx(P, path):
 
 def build(me_name="custodes", games=250, opt_opp="necrons", seed=11, pdf=True, xlsx=True):
     P = gather(me_name, games, opt_opp, seed)
-    d = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
+    root = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
         os.path.abspath(__file__))))), "reports")
+    d = os.path.join(root, me_name)                    # one folder per list
     os.makedirs(d, exist_ok=True)
-    md_path = os.path.join(d, f"dossier-{me_name}.md")
+    md_path = os.path.join(d, "dossier.md")
     open(md_path, "w").write(render_markdown(P))
     pdf_path = xlsx_path = None
     if pdf:                                            # RUNBOOK -> PDF
-        html_path = os.path.join(d, f"dossier-{me_name}.html")
-        open(html_path, "w", encoding="utf-8").write(render_html(P))
+        src_html = os.path.join(d, "_runbook_src.html")   # transient soffice input
+        open(src_html, "w", encoding="utf-8").write(render_html(P))
         try:
-            subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir", d, html_path],
+            subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir", d, src_html],
                            check=True, capture_output=True, timeout=180)
-            pdf_path = os.path.join(d, f"dossier-{me_name}.pdf")
+            os.replace(os.path.join(d, "_runbook_src.pdf"), os.path.join(d, "runbook.pdf"))
+            pdf_path = os.path.join(d, "runbook.pdf")
         except Exception as ex:
             print(f"(pdf render skipped: {ex})")
+        finally:
+            if os.path.exists(src_html):
+                os.remove(src_html)
     if xlsx:                                           # ANALYSIS -> Excel
         try:
-            xlsx_path = os.path.join(d, f"analysis-{me_name}.xlsx")
+            xlsx_path = os.path.join(d, "analysis.xlsx")
             render_xlsx(P, xlsx_path)
         except Exception as ex:
             print(f"(xlsx render skipped: {ex})"); xlsx_path = None
