@@ -52,12 +52,17 @@ def profile(army):
     speed = sum(u.move for u in combat) / n
     fly = sum(1 for u in units if "FLY" in u.keywords) / max(1, len(units))
     shoot = melee = 0.0
+    def _i(v, d=0):                       # stat strings can be '-', '2D6', etc. — best-effort int
+        try:
+            return int(str(v).strip())
+        except (ValueError, TypeError):
+            return d
     for u in units:
         for w in u.ranged:
-            S = int(w.get("S", 4)); ap = -int(w.get("AP", 0))
+            S = _i(w.get("S"), 4); ap = -_i(w.get("AP"), 0)
             shoot += u.models * _shots(w) * _wdmg(w) * (1.4 if S >= 7 else 1.0) * (1 + 0.4 * ap)
         for w in u.melee:
-            S = int(w.get("S", 4)); ap = -int(w.get("AP", 0))
+            S = _i(w.get("S"), 4); ap = -_i(w.get("AP"), 0)
             melee += u.models * _shots(w) * _wdmg(w) * (1.3 if S >= 6 else 1.0) * (1 + 0.4 * ap)
     dura = sum(u.total_w * (2.2 if (u.invuln and int(str(u.invuln)[0]) <= 4) else 1.0) *
                (1.3 if u.toughness >= 7 else 1.0) for u in units)

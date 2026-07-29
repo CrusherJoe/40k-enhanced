@@ -136,3 +136,113 @@
 "Grey Knights — Banishers":
   verdict: "COIN-FLIP → directional (elite psychic TP)"
   play: "Elite terminators (2+/4++/5W) + teleport + psychic Dev-Wounds (ignore invuln) + deep strike. Deny the drops (>9\", Gaze bubble), out-OC the few bodies, spread vs psychic smite, focus casters. Directional — VERIFY at the table (new archetype, not yet play-tested vs Knights)."
+
+# ---- second pass: the rest of the n>=2 clusters (grounded in real unit signatures) ----
+
+"Chaos Daemons — Legion of Excess":
+  verdict: "COIN-FLIP (fast Slaanesh melee)"
+  play: "Keeper of Secrets + Fiends + Daemonettes — fast, fights-first melee. Screen the charge lanes, shoot the Keepers (big monster, but 4++ — commit guns not a wasted Lancer), out-durable the fragile Daemonettes. Don't get caught mid-board; Lancer counters a lead daemon."
+
+"Imperial Knights — Freeblade Company":
+  verdict: "COIN-FLIP (knight duel, Armiger-heavy)"
+  play: "Mirror with more Armigers. Volume-kill their Armigers, Lancer hunts their big knights (Castellan/Destrier/Paladin), Rotate the focused Knight, first turn decides it. Out-activate carefully — more small knights = more of their activations."
+
+"Chaos Space Marines — Cabal of Chaos":
+  verdict: "COIN-FLIP (elite CSM + Abaddon)"
+  play: "Abaddon/Huron + Chosen/Terminators + Defiler. WATCH DARK PACTS — they buy Lethal/Dev on demand (invuln-negation). Defiler = Volcano target; Chosen/Terminators die to AP volume; Abaddon/Huron are tough (Lancer only for a clean kill). Kill the buff characters, screen the alpha."
+
+"Chaos Space Marines — Chaos Cult":
+  verdict: "COIN-FLIP → horde-lean"
+  play: "Cultist bodies + Defilers + bikers. Anti-infantry VOLUME into the cultists, Volcano the Defilers, out-durable; don't get out-OC'd by the chaff — kill what's on the points. Watch Dark Pacts on the Legionaries/Chosen."
+
+"Death Guard — Champions of Contagion":
+  verdict: "COIN-FLIP — grindy, don't feed the FNP"
+  play: "Poxwalkers + Blight-haulers + Deathshroud + Lord of Contagion, 5+++ / -1 Dmg. Don't grind into the FNP; kill the Myphitic Blight-haulers (their anti-tank) at range, out-tempo, play the mission. Deathshroud are a nasty counter-charge — don't feed a gun-Knight."
+
+"Space Marines (Astartes) — Shadowmark Talon":
+  verdict: "COIN-FLIP → directional (RG stealth/jump alpha)"
+  play: "Raven Guard infiltrate/stealth + jump-pack alpha (Shrike, Aethon Shaan, Incursors/Infiltrators). SCREEN your deployment to deny infiltrate/scout charges >9\", weather the jump alpha, out-shoot. Watch a marked-target buff. Directional — verify at the table."
+
+"Leagues of Votann — Brandfast Oathband":
+  verdict: "COIN-FLIP (durable mech gunline)"
+  play: "Land Fortress + Sagitaur + Hearthkyn + Thunderkyn. Judgement tokens = re-roll wound + AP vs a marked unit (invuln-negation risk). Kill the Land Fortress + Thunderkyn (anti-tank), deny the judgement stack on a key Knight, out-durable; fewer bodies than Needgaård so OC is winnable."
+
+"Genestealer Cult — Biosanctic Broodsurge":
+  verdict: "COIN-FLIP (ambush + Purestrain melee)"
+  play: "Purestrains + Abominant + Ridgerunners + Neophyte/Acolyte horde, cult ambush. DENY the ambush (screen every drop >9\"), anti-infantry volume into the bodies, Lancer counters the Purestrains. Watch the return/re-deploy; kill what scores, don't chase."
+
+"Space Wolves — Saga of the Beastslayer":
+  verdict: "HARD (terminator/character melee + Land Raider)"
+  play: "Wolf Guard Terminators + Arjac/Bjorn/Logan delivered by a Land Raider Redeemer. SHOOT THE LAND RAIDER before it disgorges (Volcano), Lancer counters the lead brick, screen + kite. Their characters hit like trucks in melee — never get a gun-Knight charged."
+
+"Necrons — Pantheon of Woe":
+  verdict: "HARD / play-the-mission (double-C'tan)"
+  play: "Nightbringer + Void Dragon C'tan (un-killable: 4++, -1 Dmg, necrodermis return) + Tomb Blades/Scarabs. Can't table the C'tan — kill the no-invuln soft OC (Tomb Blades/Scarabs), out-tempo on secondaries, play the mission. Never dump guns into a C'tan."
+
+"Orks — More Dakka!":
+  verdict: "COIN-FLIP (Ork shooting)"
+  play: "Tankbustas + Flash Gitz + Shokk Attack + Boyz. Their rokkits/Tankbustas threaten your Armigers + Questoris — KILL THE TANKBUSTAS/FLASH GITZ first (their anti-tank), out-durable the dakka. Fewer bodies than a horde so OC is winnable; keep Armigers out of rokkit range."
+
+"Astra Militarum — Grizzled Company":
+  verdict: "UNFAVOURABLE (gunline + anti-tank volume)"
+  play: "Orders + Bullgryn wall + tanks/artillery/lascannon volume that chunks Questoris. Kill the tanks/artillery/Hellhound early, weather the volume from cover, grind the infantry — but they out-body you on OC. Bank secondaries; don't over-expose a Knight to massed lascannon."
+
+"Space Marines (Astartes) — Reclamation Force":
+  verdict: "COIN-FLIP — kill the Eradicators"
+  play: "Ballistus Dread + Bladeguard + ERADICATORS (melta — they delete a Knight) + Captain Titus. Eradicators are the #1 priority kill (no invuln, your Volcano/volume removes them), then the Ballistus. Out-durable the rest, trade guns; don't cluster a Knight in melta range."
+
+"Emperor's Children — Court of the Phoenician":
+  verdict: "COIN-FLIP — concede Fulgrim"
+  play: "Fulgrim + Infractors/Flawless Blades/Noise Marines. Screen/concede Fulgrim, shoot the killable support, win Priority Assets on OC10, Lancer 4++ counters the chaff melee. Fast — protect your backfield."
+
+"Aeldari — Aspect Host":
+  verdict: "UNFAVOURABLE → directional (fast evasive aspects)"
+  play: "Fire Dragons (MELTA — delete a Knight) + Warp Spiders + Banshees + Avatar + Falcon. KILL THE FIRE DRAGONS before they reach melta range (screen the Falcon delivery), evasion neuters your melee, they out-tempo. Avatar = a Lancer target. Expect a tempo loss; win where the guns can catch them."
+
+"Astra Militarum — Bridgehead Strike":
+  verdict: "COIN-FLIP → directional (deep-strike alpha)"
+  play: "Tempestus Scions/Aquilons + Krieg deep-strike with melta/plasma. DENY THE DROPS (screen >9\", Gaze bubble), weather the alpha, then shred the droppers — they're T3 W1, volume deletes them once landed. Punish as they expose."
+
+"Space Wolves — Saga of the Great Wolf":
+  verdict: "HARD (terminator/leader melee)"
+  play: "Wolf Guard Terminators + Aggressors + Arjac/Bjorn/Logan. As Beastslayer — shoot the delivery/lead brick before the charge, Lancer counter, screen + kite. Logan/Arjac wreck a gun-Knight in melee; win at range."
+
+"Imperial Knights — Gate Warden Lance":
+  verdict: "COIN-FLIP (defensive knight duel)"
+  play: "Armigers + Canis Rex + big knights, defensive lance. Knight duel — Lancer hunts their big knights, volume-kills Armigers, Rotate the focused Knight. Canis Rex is a tough character-knight (Sir Hekhtur pilot ejects) — don't over-commit the Lancer into it."
+
+"Chaos Daemons — Scintillating Legion":
+  verdict: "COIN-FLIP (Tzeentch psychic Dev-wounds)"
+  play: "Lord of Change + Be'lakor + Horrors + Screamers. Dev-wound smite BYPASSES your invuln — KILL THE CASTERS (Lord of Change/Be'lakor are warded 4++, commit guns for a clean kill), spread vs smite, anti-infantry into the Horrors. Watch Be'lakor's shadow debuffs."
+
+"Space Marines (Astartes) — Forgefather's Seekers":
+  verdict: "COIN-FLIP — kill the Eradicators/Speeder"
+  play: "Salamander flamer/melta durable + ERADICATORS + Storm Speeder Hammerstrike + Vulkan. Kill the Eradicators (melta anti-tank) + Storm Speeder (anti-tank/buff) first, out-durable the flamers, trade guns. Vulkan buffs their melta — priority to remove the melta package."
+
+"Tyranids — Crusher Stampede":
+  verdict: "COIN-FLIP — kill-race (monster-mash)"
+  play: "Norn Emissary/Assimilator + Tyrannofex + Hive Tyrant + Broodlord. Kill-race, not OC. Volcano the NO-INVULN Norn Emissary + Tyrannofex at range, Lancer-assassinate a Norn (~21/charge), refuse the melee gang (kite), grind the 4++ Assimilators. Win on kills + anchors removed."
+
+"Adepta Sororitas — Bringers of Flame":
+  verdict: "COIN-FLIP — kill the melta package"
+  play: "Vahl + Paragons (melta HAMMER) + Immolators + Castigator + Dominions. Their buffed melta is REAL anti-tank that chunks Knights — KILL VAHL+PARAGONS and the melta Dominions first (Paragons T7 2+/4++; the girls are T3 W1, volume shreds them). Watch Miracle Dice on a key save/wound. Out-durable once the melta's gone."
+
+"Genestealer Cult — Outlander Claw":
+  verdict: "COIN-FLIP → directional (fast vehicle ambush)"
+  play: "Ridgerunners + Jackals + Rockgrinder + Purestrains, fast ambush. Deny the ambush (>9\"), kill the Rockgrinder/Ridgerunners (their punch), anti-infantry into the horde, Lancer counters Purestrains. They out-tempo — contest, don't chase. Directional."
+
+"Necrons — Hypercrypt Legion":
+  verdict: "HARD → directional (teleport + C'tan)"
+  play: "Transcendent C'tan + Reanimator + Wraiths + hypercrypt teleport (redeploy anywhere). Deny the drops, can't kill the C'tan — play the mission, remove no-invuln support, out-tempo. Directional — verify the teleport shenanigans."
+
+"Aeldari — Armoured Warhost":
+  verdict: "COIN-FLIP (mech gunline)"
+  play: "Fire Prisms (anti-tank — chunk Knights) + War Walkers + Farseer buffs (Guide/Doom re-rolls) + Fate dice. KILL THE FIRE PRISMS + FARSEER (the buff/anti-tank engine), out-durable the rest; watch Fate dice on a key save and their evasion. Trade guns, win on durability."
+
+"Death Guard — Flyblown Host":
+  verdict: "COIN-FLIP — grindy, don't feed the FNP"
+  play: "Blight-haulers + Plague Marines + Deathshroud + Bloat-Drones, 5+++/-1 Dmg. Kill the Blight-haulers/Bloat-Drones (anti-tank) at range, don't grind into the FNP, out-tempo + play the mission. Deathshroud counter-charge — screen your gun-Knights."
+
+"Chaos Daemons — Plague Legion":
+  verdict: "COIN-FLIP — grindy Nurgle"
+  play: "Great Unclean One + Rotigus + Plaguebearers + Skull Cannon, FNP everywhere. Volcano the GUO/Rotigus (big, tanky, 5+++ — commit real guns), anti-infantry into the Plaguebearers, out-tempo; don't grind into the FNP horde. Win on tempo/secondaries, not attrition."

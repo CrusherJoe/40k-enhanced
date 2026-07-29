@@ -61,10 +61,17 @@ def _best_weapon_set(unit, target, melee):
     return chosen
 
 
+def _ni(v, d=0):                          # weapon stats can be '-', '2D6', 'N/A' — best-effort int
+    try:
+        return int(str(v).strip())
+    except (ValueError, TypeError):
+        return d
+
+
 def _score_weapon(w, target):
     # crude removal proxy for profile choice: strength vs toughness, AP, damage, attacks
-    s = int(w["S"]); ap = -int(w["AP"]); d = 3 if "D" in str(w["D"]) else int(w["D"]) if str(w["D"]).isdigit() else 3
-    a = 4 if "D" in str(w["A"]) else int(w["A"]) if str(w["A"]).isdigit() else 3
+    s = _ni(w["S"], 4); ap = -_ni(w["AP"], 0); d = 3 if "D" in str(w["D"]) else _ni(w["D"], 3)
+    a = 4 if "D" in str(w["A"]) else _ni(w["A"], 3)
     return a * (1.4 if s >= target.toughness else 0.7) * (1 + 0.3 * ap) * d
 
 
