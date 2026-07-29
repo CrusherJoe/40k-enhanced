@@ -106,7 +106,7 @@ def main():
           file=sys.stderr)
     simmed = [x for x in rows if "s" in x]
     render_xlsx(simmed, me_name, disp, rec, stem + "-analysis.xlsx")
-    render_pdf(simmed, me_name, disp, rec, a.games, stem + ".pdf")
+    render_pdf(simmed, me_name, disp, rec, a.games, stem + ".pdf", a.books)
 
 
 def render_xlsx(rows, me_name, disp, rec, path):
@@ -185,6 +185,9 @@ td.n{font:700 13px/1 "Arial Narrow",Arial;text-align:center;font-variant-numeric
 .book .bt{font:800 13px/1.1 "Arial Narrow",Arial;text-transform:uppercase;letter-spacing:.02em;color:#1a1d23;}
 .book .bmeta{font:700 8.5px/1 ui-monospace,monospace;color:#7a7f88;margin:3px 0 6px;text-transform:uppercase;letter-spacing:.06em;}
 .book .play{font-size:10.5px;color:#22262d;margin:0 0 7px;}
+.book.compact{padding:7px 11px;margin-bottom:6px;}
+.book.compact .play{margin:0;}
+.book.compact .bt .pill{float:right;}
 .book pre{font:9px/1.45 ui-monospace,Menlo,monospace;white-space:pre-wrap;background:#fff;border:1px solid #e6e0d2;
    border-radius:4px;padding:8px;margin:0;color:#3a3f47;}
 .book pre b{color:#111;}
@@ -192,7 +195,7 @@ td.n{font:700 13px/1 "Arial Narrow",Arial;text-align:center;font-variant-numeric
 """
 
 
-def render_pdf(rows, me_name, disp, rec, games, path):
+def render_pdf(rows, me_name, disp, rec, games, path, books=14):
     e = _html.escape
     import re as _re
     boldrb = lambda s: _re.sub(r"^(READ:|WIN CONDITION:|POSTURE:|DEPLOYMENT:|THE TRAP:|PRIORITY KILLS.*?:|"
@@ -220,8 +223,8 @@ def render_pdf(rows, me_name, disp, rec, games, path):
                  f"<td><span class='pill' style='{pill}'>{e(x['verdict'].split(' —')[0].split(' (')[0])}</span></td>"
                  f"<td>{e(x['read'])}</td><td style='font-variant-numeric:tabular-nums'>{mg}</td>"
                  f"<td>{e(short)}</td></tr>")
-    H.append("</table><h2>Runbooks</h2>")
-    for x in rows:
+    H.append(f"<h2>Runbooks — top {min(books, len(rows))} archetypes</h2>")
+    for x in rows[:books]:
         if not x["r"]:
             continue
         vk = _vkey(x["verdict"]); vc = "#" + (VINK.get(vk, "c69a3a"))
@@ -230,6 +233,18 @@ def render_pdf(rows, me_name, disp, rec, games, path):
                  f"<div class='bmeta'>{e(x['arch']['faction'])} · {x['n']} pilots · {e(x['verdict'])}</div>"
                  + (f"<div class='play'><b>How to play:</b> {e(x['arch']['play'])}</div>" if x['arch']['play'] else "")
                  + f"<pre>{boldrb(runbook.report(x['r']).rstrip())}</pre></div>")
+    # the remaining archetypes as compact how-to-play cards (no full runbook — keeps the PDF printable)
+    rest = [x for x in rows[books:] if x["arch"]["play"]]
+    if rest:
+        H.append("<h2>Rest of the field — how-to-play</h2>")
+        for x in rest:
+            vk = _vkey(x["verdict"]); vc = "#" + (VINK.get(vk, "c69a3a"))
+            pill = f"background:#{VFILL.get(vk,'e8e8e8')};color:#{VINK.get(vk,'333')}" if vk else ""
+            H.append(f"<div class='book compact' style='--vc:{vc}'>"
+                     f"<div class='bt'>{e(x['arch']['detachment'])} "
+                     f"<span class='pill' style='{pill}'>{e(x['verdict'].split(' —')[0].split(' (')[0])}</span></div>"
+                     f"<div class='bmeta'>{e(x['arch']['faction'])} · {x['n']} pilots · sim {e(x['read'])}</div>"
+                     f"<div class='play'>{e(x['arch']['play'])}</div></div>")
     H.append(f"<div class='foot'>wh.sim positional simulator · mechanistic matchup analysis, not a win-rate "
              f"oracle · {len(rows)} archetypes · field: {e(rec['event'])}.</div></body></html>")
     src = path.rsplit(".", 1)[0] + "_src.html"
