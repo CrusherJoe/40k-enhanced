@@ -12,11 +12,20 @@ Mechanistic, not a win% oracle (see the sim STATUS). Writes reports/dossier-<me>
 """
 from __future__ import annotations
 
-import os
+import os, subprocess, html as _html
 
 from . import runbook, optimize, rosters, strategy as St
 from .gauntlet import tapestry, OPPONENTS, ME_META
 import db
+
+_READ_CLASS = {"FAVOURED": "fav", "EVEN": "even", "ATTRITION": "attr", "HARD": "hard"}
+
+
+def _read_key(read):
+    for k in _READ_CLASS:
+        if read.startswith(k):
+            return _READ_CLASS[k]
+    return "even"
 
 
 def _read_short(head):
@@ -33,53 +42,108 @@ def _matchup_row(me_name, opp, r):
     return dict(opp=opp, arch=arch, read=_read_short(head), threat=threat, posture=posture, wincon=wincon)
 
 
-def build(me_name="custodes", games=250, opt_opp="necrons", seed=11):
+def gather(me_name="custodes", games=250, opt_opp="necrons", seed=11):
+    """Run the sim ONCE and collect the structured pieces (tapestry, map rows, runbooks, fixes)."""
     me_builder = getattr(rosters, me_name)
     slug, dets = ME_META.get(me_name, (getattr(me_builder(), "slug", me_name), ("",)))
-    out = [f"# TOURNAMENT DOSSIER — {me_builder().name}", ""]
-
-    # 1. tapestry (army rule + BOTH detachments' strats)
-    out.append(tapestry(me_builder(), slug, dets[0]))
+    tap = tapestry(me_builder(), slug, dets[0])
     if len(dets) > 1:
         try:
             extra = db.strats(slug).get(dets[1], {})
-            out += ["", f"## {dets[1]} stratagems ({len(extra)}) — DB"]
-            out += [f"- **{nm}** ({s.get('cp','?')}CP) — {' '.join(str(s.get('effect','')).split())[:150]}"
-                    for nm, s in extra.items()]
+            tap += f"\n\n## {dets[1]} stratagems ({len(extra)}) — DB\n" + "\n".join(
+                f"- **{nm}** ({s.get('cp','?')}CP) — {' '.join(str(s.get('effect','')).split())[:150]}"
+                for nm, s in extra.items())
         except Exception:
             pass
-
-    # 2+3. run every matchup once (reuse the sim for both the map row and the full runbook)
     rows, books = [], []
     for opp in OPPONENTS:
         r = runbook.build(me_builder, getattr(rosters, opp), games=games, seed=seed)
         rows.append(_matchup_row(me_name, opp, r))
         books.append(runbook.report(r))
+    opt = optimize.optimize(me_builder, getattr(rosters, opt_opp),
+                            screen=max(400, games // 2), final=games, seed=seed)
+    fixes = optimize.report(opt)
+    return dict(name=me_builder().name, me=me_name, tap=tap, rows=rows, books=books,
+                fixes=fixes, opt_opp=opt_opp, games=games)
 
-    out += ["", "# MATCHUP MAP", "",
-            f"  {'ARCHETYPE (list)':28} {'READ':16} {'POSTURE':9} BIGGEST THREAT"]
-    for row in rows:
-        out.append(f"  {row['opp']+' ('+row['arch']+')':28} {row['read']:16} {row['posture']:9} {row['threat']}")
-    out += ["", "Read the runbooks below for the full plan per archetype."]
 
+def render_markdown(P):
+    out = [f"# TOURNAMENT DOSSIER — {P['name']}", "", P["tap"], "",
+           "# MATCHUP MAP", "", f"  {'ARCHETYPE (list)':28} {'READ':18} {'POSTURE':9} BIGGEST THREAT"]
+    for row in P["rows"]:
+        out.append(f"  {row['opp']+' ('+row['arch']+')':28} {row['read']:18} {row['posture']:9} {row['threat']}")
     out += ["", "# RUNBOOKS (per archetype)", ""]
-    for b in books:
+    for b in P["books"]:
         out += ["```", b, "```", ""]
-
-    # 4. list fixes
     out += ["# LIST FIXES — tested swap + detachment recommendations", "",
-            f"(optimizer vs {opt_opp})", "```"]
-    r = optimize.optimize(me_builder, getattr(rosters, opt_opp),
-                          screen=max(400, games // 2), final=games, seed=seed)
-    out += [optimize.report(r), "```"]
+            f"(optimizer vs {P['opt_opp']})", "```", P["fixes"], "```"]
+    return "\n".join(out)
 
-    doc = "\n".join(out)
+
+_CSS = """
+body{font-family:'DejaVu Sans',Arial,sans-serif;color:#1a1a1a;max-width:920px;margin:0 auto;padding:24px;line-height:1.4}
+h1{font-size:22px;border-bottom:3px solid #8a6d1a;padding-bottom:6px}
+h2{font-size:15px;color:#5a4a12;margin-top:22px}
+.sub{color:#666;font-size:12px;margin:2px 0 16px}
+table.map{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0 18px}
+table.map th{background:#2a2a2a;color:#fff;text-align:left;padding:6px 9px}
+table.map td{padding:5px 9px;border-bottom:1px solid #ddd}
+.pill{padding:2px 8px;border-radius:10px;font-weight:bold;font-size:11px;color:#fff;white-space:nowrap}
+.fav{background:#1f8a3b}.even{background:#2a6db0}.attr{background:#b8860b}.hard{background:#b23030}
+.book{border:1px solid #ccc;border-left:4px solid #8a6d1a;border-radius:4px;padding:10px 14px;margin:12px 0;
+ white-space:pre-wrap;font-family:'DejaVu Sans Mono',monospace;font-size:11px;page-break-inside:avoid}
+.book .rb-title{font-weight:bold;font-size:13px;color:#5a4a12}
+pre{white-space:pre-wrap;font-family:'DejaVu Sans Mono',monospace;font-size:11px;background:#f6f4ee;padding:10px;border-radius:4px}
+.note{background:#fff6e0;border:1px solid #e0c060;padding:8px 12px;border-radius:4px;font-size:12px;margin:10px 0}
+"""
+
+
+def render_html(P):
+    e = _html.escape
+    h = [f"<html><head><meta charset='utf-8'><title>Dossier — {e(P['name'])}</title><style>{_CSS}</style></head><body>",
+         f"<h1>Tournament Dossier — {e(P['name'])}</h1>",
+         f"<div class='sub'>{len(P['rows'])} archetypes · {P['games']} games each · mechanistic matchup analysis "
+         "(not a win% prediction — the values are the sim's internal scale)</div>",
+         "<div class='note'>How to use: the MAP is your at-a-glance cheat sheet; the RUNBOOKS are your per-archetype "
+         "prep (who to kill, what to ignore, what to protect, the trap). The sim maps the DYNAMICS of each matchup.</div>",
+         "<h2>Matchup Map</h2>",
+         "<table class='map'><tr><th>Archetype (list)</th><th>Read</th><th>Posture</th><th>Biggest threat</th></tr>"]
+    for row in P["rows"]:
+        h.append(f"<tr><td>{e(row['opp'])} <span style='color:#888'>({e(row['arch'])})</span></td>"
+                 f"<td><span class='pill {_read_key(row['read'])}'>{e(row['read'])}</span></td>"
+                 f"<td>{e(row['posture'])}</td><td>{e(row['threat'])}</td></tr>")
+    h.append("</table>")
+    # tapestry
+    h.append("<h2>Your Tapestry</h2><pre>" + e(P["tap"]) + "</pre>")
+    # runbooks
+    h.append("<h2>Runbooks (per archetype)</h2>")
+    for b in P["books"]:
+        lines = b.split("\n")
+        title = e(lines[0]); rest = e("\n".join(lines[1:]))
+        h.append(f"<div class='book'><span class='rb-title'>{title}</span>\n{rest}</div>")
+    h.append("<h2>List Fixes — tested swaps + detachment test</h2><pre>" + e(P["fixes"]) + "</pre>")
+    h.append("</body></html>")
+    return "\n".join(h)
+
+
+def build(me_name="custodes", games=250, opt_opp="necrons", seed=11, pdf=True):
+    P = gather(me_name, games, opt_opp, seed)
     d = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
         os.path.abspath(__file__))))), "reports")
     os.makedirs(d, exist_ok=True)
-    path = os.path.join(d, f"dossier-{me_name}.md")
-    open(path, "w").write(doc)
-    return doc, path
+    md_path = os.path.join(d, f"dossier-{me_name}.md")
+    open(md_path, "w").write(render_markdown(P))
+    pdf_path = None
+    if pdf:
+        html_path = os.path.join(d, f"dossier-{me_name}.html")
+        open(html_path, "w", encoding="utf-8").write(render_html(P))
+        try:
+            subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir", d, html_path],
+                           check=True, capture_output=True, timeout=120)
+            pdf_path = os.path.join(d, f"dossier-{me_name}.pdf")
+        except Exception as ex:
+            print(f"(pdf render skipped: {ex})")
+    return render_markdown(P), md_path, pdf_path
 
 
 def main():
@@ -89,9 +153,9 @@ def main():
     ap.add_argument("--games", type=int, default=250)
     ap.add_argument("--opt", default="necrons")
     a = ap.parse_args()
-    doc, path = build(a.me, a.games, a.opt)
+    doc, md_path, pdf_path = build(a.me, a.games, a.opt)
     print(doc)
-    print(f"\n[written to {path}]")
+    print(f"\n[markdown: {md_path}]" + (f"\n[PDF: {pdf_path}]" if pdf_path else ""))
 
 
 if __name__ == "__main__":
