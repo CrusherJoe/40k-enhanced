@@ -371,6 +371,38 @@ def _orks_gretchin(_tag):
     return mk("orks", "Gretchin", 10, role="action", threat=0.3)
 
 
+# ---------------- ORKS: GREEN TIDE — the board-control HORDE (the matchup elite armies dread) ----------
+# NOT the Kult of Speed list above. Green Tide floods the board with bodies + OC: an elite low-model army
+# (Custodes/Knights) physically cannot remove enough of it, and gets out-OC'd off every objective and
+# out-scored. This is the archetype everyone needs flagged as a likely LOSS. Waaagh! + weight of bodies.
+def orks_greentide():
+    S = "orks"
+    WAAAGH = {"reroll_charge": True}                 # Waaagh! turn: army-wide charge/advance surge (approx)
+    def mob(n=30):                                    # a Boyz mob that KEEPS COMING — the endless tide
+        b = mk(S, "Boyz", n, role="screen", threat=1.6, abilities=WAAAGH)
+        b.reanimate = 0.5                             # Green Tide returns destroyed models -> effectively un-clearable
+        b.fnp = "5+"                                  # Painboy / mob resilience across the horde
+        return b
+    u = [
+        mk(S, "Ghazghkull Thraka", 1, role="character", threat=4.0, abilities=dict(WAAAGH, reroll_hits="ones")),
+        mob(30), mob(30), mob(30), mob(30),           # 120 Boyz, OC2 each, returning -> a wall of control
+        mk(S, "Beast Snagga Boyz", 10, role="line", threat=1.2, abilities=WAAAGH),
+        mk(S, "Gretchin", 10, role="action", threat=0.3),                 # cheap objective/screen bodies
+        mk(S, "Gretchin", 10, role="action", threat=0.3),
+        mk(S, "Nobz", 5, role="line", threat=1.4, abilities=WAAAGH),
+        mk(S, "Meganobz", 5, role="anti_tank", threat=1.8, abilities=WAAAGH),   # T6 2+ tanky anvil
+        mk(S, "Painboy", 1, role="character", threat=0.6),
+        mk(S, "Weirdboy", 1, role="character", threat=0.8),
+        mk(S, "Stormboyz", 10, role="fast", threat=0.9, abilities=WAAAGH),
+    ]
+    for x in u:
+        if x.name in ("Meganobz", "Nobz"):
+            x.fnp = "5+"
+    army = Army("Orks — GREEN TIDE (board-control horde)", "take-and-hold", "B", u, cp=3)
+    army.slug = "orks"; army.strat_dets = ("Green Tide", "More Dakka!")
+    return _deploy(army)
+
+
 # ---------------- AELDARI: 5-1 Spirit Conclave | Armoured Warhost (Reconnaissance) — wraith-construct -
 # Fast, durable wraith constructs (T6-T10, 2+ saves) + Fire Prisms; Strands of Fate = dice manipulation
 # (modelled as a light hit re-roll on the key guns). Battle Focus keeps it slippery on Recon.

@@ -89,9 +89,15 @@ def _assess(r):
     opp_surv = sum(e["surv"] for e in r["enemy"]) / max(1, len(r["enemy"]))
     surv_margin = my_surv - opp_surv
     collapse = ctrl[0] - ctrl[4] >= 1.0 and board_margin <= -0.6      # held early, then swept off
+    # out-controlled: you survive fine but they OUT-HOLD the board (the horde / body-count loss) — you can't
+    # out-body them, so unless you out-KILL to thin their scoring you lose the primary. The Green Tide case.
+    out_controlled = board_margin <= -0.35 and surv_margin > -0.15
     if board_margin >= 0.3 or (board_margin >= -0.2 and surv_margin >= 0.08):
         head = "FAVOURED — you hold the board and out-last them; the game grinds your way."
         wincon = "Grind: trade your durable bodies into theirs and sit on the objectives. Time is on your side."
+    elif out_controlled:
+        head = "HARD — you get OUT-CONTROLLED: they out-body you and hold more of the board where it counts."
+        wincon = "You can't out-body them — you must out-KILL to thin their scoring + deny objectives, or you lose the primary. Prioritise clearing the units ON the points, not the ones threatening you."
     elif collapse:
         head = "HARD — you take the board early then get swept off it. You're behind on tempo."
         wincon = "Deny, don't chase: hold your primary from cover and make THEM come dig you out."

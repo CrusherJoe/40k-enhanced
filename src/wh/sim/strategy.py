@@ -74,10 +74,10 @@ def archetype(army):
         return "alpha-melee"                         # mobile, melee-heavy = ALPHA (Blood Angels, Drukhari)
     if p["speed"] >= 11 or p["fly"] >= 0.4:
         return "mobile"                              # fast skirmish (Dark Angels)
+    if p["bodies"] >= 55:
+        return "horde"                               # board-flooding body count (Green Tide) — before grind
     if p["melee"] >= p["shoot"] and p["speed"] <= 8:
         return "grind"                               # slow durable brick (Necrons, Tyranids, Thousand Sons)
-    if p["bodies"] >= 60:
-        return "horde"
     return "balanced"                                # mixed (Aeldari, Orks)
 
 

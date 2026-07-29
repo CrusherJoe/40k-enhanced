@@ -22,7 +22,7 @@ import db
 from . import run, analyze, optimize, rosters
 
 # the meta field (opponent roster builders) + which matchups the sim reads to-the-point vs directional
-OPPONENTS = ["necrons", "orks", "space_marines", "thousand_sons", "tyranids",
+OPPONENTS = ["necrons", "orks", "orks_greentide", "space_marines", "thousand_sons", "tyranids",
              "drukhari", "aeldari", "tau", "dark_angels", "blood_angels"]
 GRINDY = {"necrons", "orks", "space_marines", "thousand_sons", "tyranids"}   # win% trustworthy
 # REAL Custodes win% per opponent, from listhammer (data/meta/custodes-matchups.json, HAR 2026-07-28).
