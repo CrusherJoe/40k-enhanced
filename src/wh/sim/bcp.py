@@ -100,7 +100,7 @@ def load(sel, disposition=None, db=None, side="B", name=None, use_list_name=Fals
     labels the Army with the list's own title (e.g. 'This List Tastes Like Death by Rock and Roll')."""
     row = _find(sel, db)
     if not _L._FACTION_SLUG.get(row["faction"]):
-        sys.exit(f"{row['player']}'s faction '{row['faction']}' has no BSData cut — not sim-loadable yet")
+        raise ValueError(f"{row['player']}'s faction '{row['faction']}' has no BSData cut — not sim-loadable")
     label = name or (_list_name(row) if use_list_name
                      else f"{row['player']} — {row['faction']} / {row['detachment'] or '?'}")
     army = _L.load(entry=_entry(row), disposition=disposition, name=label, side=side)

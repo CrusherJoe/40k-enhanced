@@ -34,9 +34,9 @@ def _rep_build(arch):
     for p in arch["players"]:
         try:
             b = bcp.builder(p["list_id"])
-            b()                      # probe: raises if unparseable / no units
+            b()                      # probe: raises if unparseable / no units / no BSData cut
             return b, p["player"]
-        except Exception:
+        except (Exception, SystemExit):   # skip any rep that won't load; never let it kill the run
             continue
     return None, None
 
