@@ -246,3 +246,233 @@
 "Chaos Daemons — Plague Legion":
   verdict: "COIN-FLIP — grindy Nurgle"
   play: "Great Unclean One + Rotigus + Plaguebearers + Skull Cannon, FNP everywhere. Volcano the GUO/Rotigus (big, tanky, 5+++ — commit real guns), anti-infantry into the Plaguebearers, out-tempo; don't grind into the FNP horde. Win on tempo/secondaries, not attrition."
+
+# ---- third pass: the long-tail singletons + a few merged n>=2 (grounded in unit signatures) ----
+
+"Adepta Sororitas — Hallowed Martyrs":
+  verdict: "COIN-FLIP — kill the melta package"
+  play: "Vahl + Paragon Warsuits (buffed melta HAMMER) + Castigators + Sacresants. Kill Vahl+Paragons first (real anti-tank; Paragons T7 2+/4++) — the rest are T3 W1, volume shreds them. Watch Miracle Dice on a key save/wound; out-durable once the melta's gone."
+
+"Adepta Sororitas — Penitent Host":
+  verdict: "COIN-FLIP — glass melee, shoot it off"
+  play: "Repentia + Arco-flagellants = high-S no-save glass melee (fights-first is the danger) behind the Triumph (Miracle-Dice engine). SHOOT THEM OFF before they charge — any volume evaporates them (no armour save). Screen the charge lanes, Lancer counters; kill the Triumph buff-piece."
+
+"Adeptus Custodes — Lions of The Emperor":
+  verdict: "FAVOURABLE — out-OC + grind"
+  play: "Same as the other Lions/Shield Host: elite-but-few (Allarus/Wardens/Telemon). Out-OC, grind the bodies with volume, Volcano the Telemon + Caladius (not W3-4 Custodians), Lancer sweeps. Refuse the melee gang."
+
+"Adeptus Mechanicus — Cohort Cybernetica":
+  verdict: "UNFAVOURABLE (durable bricks + Cawl)"
+  play: "Kastelan Robots + Kataphron bricks + Belisarius Cawl (buff engine) + Skorpius anti-tank. KILL CAWL (the multiplier) and the Kataphron Destroyers (Anti-Vehicle) first; they out-body you and grind ~1 Knight/turn. Respect the loss, bank secondaries."
+
+"Adeptus Mechanicus — Rad-Zone Corps":
+  verdict: "UNFAVOURABLE (Rad-Zone chip + anti-tank)"
+  play: "Rad-Zone = chip-MW/battle-shock (no Toughness reduction) + Onager/Skorpius/Kataphron anti-tank + Cawl. Kill the anti-tank platforms + Cawl early, out-bodied on OC — win where you can at range, accept the deficit."
+
+"Adeptus Mechanicus — Skitarii Hunter Cohort":
+  verdict: "UNFAVOURABLE → directional (fast Skitarii)"
+  play: "Ironstrider anti-tank + Skitarii speed + Cawl + a Callidus. Screen vs the Callidus (character sniper) and infiltrators, kill the Ironstriders (their punch); they out-tempo on Recon. Directional — verify."
+
+"Aeldari — Eldritch Raiders":
+  verdict: "COIN-FLIP (Wraith constructs + Avatar)"
+  play: "Durable Wraithguard/Wraithblades (T-heavy) + Avatar + corsairs. Wraithguard carry melta/D anti-tank — kill them before they reach you; Avatar = a Lancer target. Out-durable the corsairs, don't feed the Wraithblade melee."
+
+"Aeldari — Fateful Performance":
+  verdict: "COIN-FLIP → directional (Harlequin/Fate)"
+  play: "Harlequin/Fate-dice speed — fast, fragile, evasive, Fate dice fix key rolls. Anti-infantry volume when you can catch them, screen the alpha, watch a Fate-dice save on your priority kill. Directional — verify the build."
+
+"Aeldari — Path of the Outcast":
+  verdict: "COIN-FLIP → directional (Harlequin speed)"
+  play: "Skyweavers + Troupe + Solitaire + Falcon — evasive glass melee. Volume shreds them if caught; screen the alpha, out-durable. The Solitaire is a lethal but fragile assassin — don't leave a lone character exposed to it."
+
+"Aeldari — Seer Council":
+  verdict: "COIN-FLIP — kill the seers + Fire Dragons"
+  play: "Eldrad + Warlock Conclave (Guide/Doom re-rolls + Fate dice) + Avatar/Fuegan + Fire Dragons (melta). Kill the SEER buff engine (Eldrad/Warlocks) and the Fire Dragons (anti-tank) first; Avatar/Fuegan are Lancer targets. Neuter the buffs and you out-durable."
+
+"Aeldari — Windrider Host":
+  verdict: "UNFAVOURABLE → directional (jetbike + melta)"
+  play: "Windrider jetbike speed + Fire Dragon melta drops (Falcon-delivered). KILL THE FIRE DRAGONS before melta range; Windriders out-tempo and evade your melee. Expect a tempo/board loss — win on kills where your guns catch them."
+
+"Astra Militarum — Abhuman Auxiliaries":
+  verdict: "COIN-FLIP — kill the superheavies"
+  play: "Baneblade/Stormlord superheavy tanks (big guns AND big targets your Volcano/thermal can one-shot) + Bullgryn wall + Leontus orders. Kill the superheavies, weather the orders-buffed volume from cover, out-durable the infantry."
+
+"Astra Militarum — Armoured Infantry":
+  verdict: "UNFAVOURABLE (tank/infantry gunline)"
+  play: "Leman Russ + Hippogriff AFVs + Catachan bodies. Battlecannon/lascannon anti-tank chunks Questoris — kill the tanks first, weather the volume from cover; they out-body you on OC. Bank secondaries."
+
+"Astra Militarum — Combined Arms":
+  verdict: "UNFAVOURABLE (artillery + orders + bodies)"
+  play: "Basilisk indirect artillery + Hellhounds + Ogryns + Leontus orders. Kill the Basilisks (indirect anti-tank you can't hide a Knight from), out-body loss is expected — win on tempo/secondaries, don't sit still in the open."
+
+"Astra Militarum — Designation Force":
+  verdict: "UNFAVOURABLE — respect the Shadowsword"
+  play: "A WALL of superheavy tanks (Shadowsword / Stormsword / Banesword / Banehammer). The SHADOWSWORD one-shots a Knight — KILL IT FIRST, then the Stormsword. It's a big-gun Volcano-duel: Rotate the focused Knight, trade into their hulls, hope to win the exchange. Genuinely dangerous."
+
+"Astra Militarum — Mechanised Assault":
+  verdict: "COIN-FLIP → directional (mobile AM drops)"
+  play: "Leontus + Kasrkin + Tempestus Scion drops. Deny the drops (screen >9\", Gaze bubble), kill the special-weapon teams (T3 W1 — volume deletes them), out-durable; fewer tanks than a gunline so more winnable."
+
+"Black Templars — Bastion Task Force":
+  verdict: "COIN-FLIP (SM armour + Crusaders)"
+  play: "Repulsor Executioners + Land Raider delivering Crusader/Sword Brethren melee. Kill the Repulsor Executioners (anti-tank), pop the Land Raider before it disgorges, out-durable the marines. Don't let a gun-Knight get charged by the Crusader brick."
+
+"Black Templars — Godhammer Assault Force":
+  verdict: "COIN-FLIP — kill Gladiators, pop the Raiders"
+  play: "3× Land Raider Redeemer (delivery) + Gladiator Lancers (anti-tank). Kill the Gladiator Lancers first (they chunk Questoris), pop a Land Raider before it delivers its brick, Rotate vs the incoming melee. A delivery race — deny the charge."
+
+"Blood Angels — Stormlance Task Force":
+  verdict: "HARD (jump-melee alpha)"
+  play: "Sanguinary Guard + Death Company (jump packs) + Dante + Gladiator Lancer. BA jump-hammer smashes your fight phase — SHOOT THEM OFF before the charge, Lancer 4++ counters the lead brick, screen + kite; kill the Gladiator Lancer (anti-tank). Never let a gun-Knight get charged."
+
+"Chaos Daemons — Chaos Cult":
+  verdict: "COIN-FLIP — kill the greater daemons"
+  play: "Bloodthirster + 2× Lord of Change + Great Unclean One + horrors — big monsters w/ FNP + Tzeentch psychic Dev-wounds. Volcano the greater daemons (commit real guns — they're warded/FNP), spread vs Dev-wound smite, anti-infantry into the Horrors/Plaguebearers. Kill-race the monsters."
+
+"Chaos Daemons — Daemonic Incursion":
+  verdict: "COIN-FLIP — kill casters, dodge Be'lakor"
+  play: "Be'lakor + Lord of Change + Kairos + Rotigus — psychic Dev-wound + Fate/re-rolls + FNP monsters. Kill the casters (Kairos/LoC) at range, spread vs smite (bypasses invuln), Volcano the big daemons. Be'lakor's shadow debuffs + -1 to be hit — don't over-commit the Lancer into him."
+
+"Chaos Daemons — Shadow Legion":
+  verdict: "COIN-FLIP → directional (Be'lakor + Khorne)"
+  play: "Be'lakor + 2× Bloodthirster + Plaguebearer/Nurgling chaff. Bloodthirsters are fast melee monsters (Lancer/Volcano targets) — shoot them on the way in, screen; anti-infantry into the chaff. Be'lakor = -1 to hit, hard to pin. Directional."
+
+"Chaos Knights — Chaos Cult":
+  verdict: "COIN-FLIP (War Dog swarm)"
+  play: "War Dog Karnivore/Brigand swarm — small fast chaos knights. Out-activation risk (many war dogs); Lancer + Volcano pick them off, Rotate the focused Knight, hold OC10. Watch dread/fear MW abilities. Knight duel — first turn matters."
+
+"Chaos Knights — Hunting Warpack":
+  verdict: "COIN-FLIP → directional (War Dog pack)"
+  play: "War Dog hunting pack (fast small chaos knights, likely Karnivore/Huntsman). Kill war dogs with volume + Lancer, Rotate vs their guns, out-activate carefully. Directional — verify the exact build (unparseable export)."
+
+"Chaos Knights — Traitoris Lance":
+  verdict: "COIN-FLIP (Abominant + War Dogs)"
+  play: "Knight Abominant (psychic dread big knight) + War Dog Karnivore/Huntsman swarm. Lancer hunts the Abominant (or Volcano it), pick off war dogs, Rotate the focused Knight. Watch the Abominant's MW/psychic output — a knight duel with a caster."
+
+"Chaos Space Marines — Pactbound Zealots":
+  verdict: "COIN-FLIP → directional (Dark Pact CSM)"
+  play: "Standard CSM elite — WATCH DARK PACTS (buy Lethal/Dev on demand = invuln-negation). Kill the buff characters + any Dev-wound volume, screen the alpha, out-durable the bricks. Directional — verify the build (unparseable export)."
+
+"Chaos — Chaos Cult":
+  verdict: "COIN-FLIP (Abaddon + Lord Discordant)"
+  play: "Abaddon + Lord Discordant on Helstalker + Possessed/Terminators + Defiler/Forgefiend. Assassinate the multipliers — Lord Discordant (buffs the daemon engines) and the engines (Volcano the Defiler/Forgefiend); Abaddon is tough (Lancer only for a clean kill). Watch Dark Pacts."
+
+"Chaos — Shadow Legion":
+  verdict: "COIN-FLIP → directional (Khorne daemon+knight)"
+  play: "Bloodthirster + Bloodcrushers + Rendmaster + a War Dog Executioner — fast Khorne melee. Shoot the Bloodthirster/War Dog on the way in (Volcano), Lancer counters, screen the charge; anti-infantry into the Bloodcrushers. Directional."
+
+"Dark Angels — Firestorm Assault Force":
+  verdict: "COIN-FLIP — kill the Speeder + Eradicators"
+  play: "Land Raider + Hellblasters + Redemptor + Eradicators + Azrael + Storm Speeder Thunderstrike. KILL THE STORM SPEEDER (its mark = +1 to wound you) and the Eradicators (melta) first; Azrael gives a 4++ bubble. Deny the delivery, out-durable the plasma."
+
+"Death Guard — Contagion Engines":
+  verdict: "COIN-FLIP — grindy, kill the engines"
+  play: "Defiler + 3× Deathshroud Terminators + Lord of Contagion + Bloat-Drone, 5+++/-1 Dmg. Volcano the Defiler/Bloat-Drones (anti-tank engines), don't grind into the FNP, out-tempo; Deathshroud are a brutal counter-charge — screen your gun-Knights."
+
+"Deathwatch — Black Spear Task Force":
+  verdict: "COIN-FLIP → directional (elite kill teams)"
+  play: "Indomitor/Talonstrike Kill Teams (mixed elite marines, special-issue ammo = anti-everything) + Storm Speeder. Their kill teams punch above their bodies vs vehicles — kill the Speeder (buff/anti-tank), out-durable, deny the drops. Directional — verify."
+
+"Drukhari — Kabalite Cartel":
+  verdict: "COIN-FLIP — kill the Scourges"
+  play: "Incubi + Scourges w/ Heavy Weapons (dark lances = ANTI-TANK that chunks Knights) + Ravager + Kabalites. KILL THE SCOURGES + RAVAGER first (their anti-tank), then out-durable the W-fragile bodies. Deny the Incubi charge; they're glass — volume shreds them."
+
+"Drukhari — Realspace Raiders":
+  verdict: "COIN-FLIP — kill the Scourges/Ravagers"
+  play: "Scourges w/ Heavy Weapons + 2× Ravager = dark-lance anti-tank + Kabalite/Wrack bodies. Kill the lance platforms (Scourges/Ravagers) early — they're the only thing that hurts you; then out-durable the fragile raiders. Watch Reconnaissance tempo."
+
+"Emperor's Children — Elegant Brutes":
+  verdict: "COIN-FLIP → directional (Slaanesh DP + Termis)"
+  play: "2× Daemon Prince of Slaanesh + Heldrake + Chaos Terminators — fast melee + a flyer. Shoot the DPs/Heldrake on the way in (Volcano — they're warded, commit guns), Lancer counters, AP-volume the Terminators. Screen the alpha, win on OC10."
+
+"Genestealer Cult — Final Day":
+  verdict: "COIN-FLIP (ambush + Purestrain/Aberrant melee)"
+  play: "Purestrains + Aberrants + Hyperadapted Raveners + Neophyte horde, cult ambush. DENY the ambush (screen every drop >9\"), anti-infantry volume into the bodies, Lancer counters the Purestrains/Aberrants. Watch the return; kill what scores."
+
+"Genestealer Cult — Host of Ascension":
+  verdict: "HARD (Neophyte horde) — accept the OC loss"
+  play: "Mass Neophyte Hybrids + Acolytes = a body horde with cult ambush. You can't out-OC it — anti-infantry VOLUME into the blobs, kill what's on the objectives, deny the ambush (>9\"), accept the OC deficit and bank secondaries."
+
+"Grey Knights — Augurium Task Force":
+  verdict: "COIN-FLIP → directional (Dreadknights + psychic)"
+  play: "2× Grand Master in Nemesis Dreadknight (big psychic monsters) + Paladins + Purifiers. The Dreadknights are Lancer/Volcano targets (T-heavy, warded) that teleport + hit hard; kill the psychic buff, spread vs smite (Dev-wound bypasses invuln), out-OC the few bodies. Deny teleport drops."
+
+"Grey Knights — Brotherhood Strike":
+  verdict: "COIN-FLIP → directional (elite psychic TP)"
+  play: "Paladin/Terminator bricks (2+/4++/multi-W) + Dreadknight + psychic Dev-wounds + teleport. Deny the drops (>9\"), out-OC the few bodies, spread vs smite, focus the casters. High-quality but low-count — grind them. Directional — verify."
+
+"Imperial Agents — Imperialis Fleet":
+  verdict: "COIN-FLIP → directional (assassins + kill teams)"
+  play: "Vindicare/Callidus/Eversor assassins + Deathwatch/Aquila kill teams. The assassins snipe characters (screen your Navigator/leaders, keep them >12\" or tucked) and the kill teams punch vehicles. Low body-count — out-OC + out-durable, kill the kill teams. Directional."
+
+"Imperial Knights — Dominus Foebreakers":
+  verdict: "MIRROR — the ditto (gun-heavy)"
+  play: "Knight mirror — Castellan + Valiant (short-range monster) + Helverins/Warglaives. Gun-duel: trade Volcano/plasma into their Questoris, Lancer hunts their big knights, keep the Valiant at range (it wants to get close). First turn + Rotate discipline decide it."
+
+"Leagues of Votann — Armoured Trailblazers":
+  verdict: "COIN-FLIP — deny the Hearthguard"
+  play: "Einhyr Hearthguard (deep-strike Anti-Vehicle MELEE maul) + Hearthkyn + Sagitaurs. DENY THE DROPS (screen >9\"), judgement tokens = re-roll wound + AP (invuln-negation) so don't let a Knight get marked-and-mauled; kill the Sagitaurs, out-durable if the maul can't reach."
+
+"Necrons — (no detachment)":
+  verdict: "COIN-FLIP → directional (Necron characters)"
+  play: "Imotekh + Overlord + Plasmancer character core (detachment not declared). Standard Necron plan: reanimation + out-OC — delete the soft OC, play the mission, don't chase what reanimates. Directional — verify the detachment/build."
+
+"Necrons — Canoptek Court":
+  verdict: "COIN-FLIP (Canoptek constructs + Doomsday)"
+  play: "Canoptek Wraiths (fast, S-heavy melee, reanimate) + Doomsday Arks + Doomstalkers (big guns). Kill the Doomsday Arks/Doomstalkers (anti-tank, no invuln — Volcano deletes them), grind the Wraiths (they come back — don't over-invest), out-tempo. No un-killable C'tan here = more winnable."
+
+"Necrons — Cryptek Conclave":
+  verdict: "HARD / play-the-mission (Deceiver C'tan)"
+  play: "C'tan Shard of the Deceiver (un-killable: 4++, -1 Dmg, return + it redeploys units) + Wraiths + Skorpekh. Can't table the C'tan — kill the no-invuln support (Praetorians/Immortals/Skorpekh), out-tempo, play the mission. The Deceiver's pre-game redeploy can wreck your screen — deploy reactively."
+
+"Necrons — Hand of the Dynasty":
+  verdict: "HARD / play-the-mission (double-C'tan)"
+  play: "Nightbringer + Void Dragon C'tan (un-killable, -1 Dmg, 4++) + Warriors + Skorpekh + Lychguard. Same as the other C'tan walls — kill the no-invuln soft OC (Warriors/Skorpekh) at range, out-tempo on secondaries, never dump guns into a C'tan."
+
+"Necrons — Obeisance Phalanx":
+  verdict: "HARD / play-the-mission (triple Monolith)"
+  play: "3× Monolith (T13 W22 2+, melta wounds on 5s) + Silent King + Imotekh. The Monoliths are near-un-killable AND deep-strike anchors — do NOT over-invest guns cracking them; kill the softer scoring pieces, out-manoeuvre (they're slow), play Disruption-style tempo. A removal/mission game, not attrition."
+
+"Orks — Da Big Hunt":
+  verdict: "COIN-FLIP → HARD (Ghaz + Beast Snaggas)"
+  play: "Ghazghkull + Wazdakka + Beast Snagga/Boyz + Kill Rig. Ghaz is a near-un-killable melee anchor (2+/4++/FNP, huge) — DON'T feed him; screen + kite, kill the Kill Rig + Boyz (soft OC), Lancer avoids Ghaz. Horde-lean = OC pressure; win on tempo where you out-shoot."
+
+"Orks — Green Tide":
+  verdict: "HARD — known auto-loss (100+ bodies)"
+  play: "The hard counter: Ghaz + 100+ Boyz that come back. You CANNOT out-body or out-OC it and can't clear enough — anti-infantry volume into blobs, kill what's on the points, accept the primary loss, scrap for secondaries. Dodge it in the draw if you can."
+
+"Orks — Rollin' Deff":
+  verdict: "COIN-FLIP (speed-dakka)"
+  play: "Wazdakka + Deffkoptas + Warbikers + Meganobz — fast Kult-of-Speed dakka + rokkits. Their rokkits pop Armigers — keep them back; kill the Deffkoptas/bikes (their anti-tank + speed), out-durable the dakka. Fast, so deny objectives + kite. Winnable but respect the alpha."
+
+"Space Marines (Astartes) — Blade of Ultramar":
+  verdict: "COIN-FLIP (Ultramarine armour + Calgar)"
+  play: "Repulsor Executioner + Land Raider + Bladeguard + Gladiator Lancer + Calgar. Kill the Gladiator Lancer + Repulsor (anti-tank), pop the delivery Raider, out-durable the marines; Calgar's brick hits hard in melee — don't feed a gun-Knight. Trade guns."
+
+"Space Marines (Astartes) — Fulguris Task Force":
+  verdict: "COIN-FLIP — kill the anti-tank"
+  play: "Repulsor Executioner + Repulsor + Bladeguard + Calgar + Storm Speeder Hammerstrike. Kill the Storm Speeder + Repulsor Executioner (anti-tank/buff), out-durable the marines, watch the Bladeguard/Calgar counter-charge. Trade at range."
+
+"Thousand Sons — Hexwarp Thrallband":
+  verdict: "COIN-FLIP — kill the casters"
+  play: "Scarab Occult Terminators (2+/-1 Dmg) + 2× Daemon Prince of Tzeentch + Mutalith + Forgefiend. Psychic Dev-wounds BYPASS invuln — kill the casters (DPs are warded, commit guns), spread vs smite, Volcano the Mutalith/Forgefiend; high-Dmg guns into the -1-Dmg Scarabs."
+
+"Tyranids — Subterranean Assault":
+  verdict: "COIN-FLIP — kill-race (burrow alpha)"
+  play: "Swarmlord + Old One Eye + Zoanthropes + Red Terror + Raveners, deep-strike/burrow alpha. Deny the drops (screen >9\"), Volcano the no-invuln big bugs (Old One Eye/Swarmlord), spread vs Zoanthrope smite, Lancer-assassinate a monster, kite the melee. Kill-race not OC."
+
+"Tyranids — Synaptic Nexus":
+  verdict: "COIN-FLIP — kill-race (Norn monster-mash)"
+  play: "Norn Emissaries + Maleceptors + Zoanthropes + Swarmlord — psychic monster-mash. Volcano the NO-INVULN Norn Emissaries + Maleceptors at range, spread vs psychic smite/Dev, Lancer-assassinate a Norn, refuse the melee gang. Kill-race + remove anchors."
+
+"Unknown — Taktikal Brigade":
+  verdict: "COIN-FLIP → HARD (Orks — Ghaz + bodies)"
+  play: "Orks: Ghazghkull + Nobz + Battlewagon + Flash Gitz + Kommandos. Ghaz is an un-killable melee anchor — don't feed him; kill the Battlewagon (delivery) + Flash Gitz (dakka), anti-infantry the bodies, kite Ghaz. Horde-lean OC pressure — win on tempo."
+
+"Unknown — Talons of the Emperor":
+  verdict: "FAVOURABLE — out-OC + grind (Custodes)"
+  play: "Custodes elite-few (Wardens + Caladius + Custodian Guard). Out-OC (OC10 vs OC2) and grind the W3-4 bodies with volume; Volcano the Caladius + characters, not the bodies; Lancer sweeps. Refuse the melee gang, win the board."
+
+"World Eaters — Goretrack Onslaught":
+  verdict: "HARD (Khorne melee blender)"
+  play: "Angron + Berzerkers + Eightbound + Defiler. Shoot them on the way in (Volcano the Defiler + Eightbound), Lancer 4++ counters the lead brick, screen + kite — never get charged in bulk. Angron returns; don't over-invest, just deny the charge and out-shoot."

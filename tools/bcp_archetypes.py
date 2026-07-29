@@ -24,12 +24,14 @@ OUT = "data/bcp/lso2026-archetypes.json"
 
 def primary_det(det):
     """The archetype-driving detachment: drop parentheticals, take the first of a stacked pair,
-    normalise apostrophes so 'Mont'ka'/'Mont'ka' etc. collapse."""
+    normalise whitespace (text-backfill leaves non-breaking spaces that split clusters) + apostrophes."""
     if not det:
         return "(no detachment)"
-    d = re.sub(r"\(.*?\)", "", det)                      # drop "(Command Protocols)" etc.
+    d = det.replace("\xa0", " ")                          # nbsp -> space (else 'Grizzled\xa0Company' splits)
+    d = re.sub(r"\(.*?\)", "", d)                         # drop "(Command Protocols)" etc.
     d = re.split(r"\s+and\s+|,\s*", d.strip())[0].strip()  # primary of a stacked/listed pair
-    return d.replace("’", "'").replace("‘", "'").strip()
+    d = re.sub(r"\s+", " ", d).replace("’", "'").replace("‘", "'").strip()
+    return d
 
 
 def _load_notes():
@@ -54,12 +56,20 @@ def _load_notes():
 def build():
     con = sqlite3.connect(DB); con.row_factory = sqlite3.Row
     notes = _load_notes()
+    rows = con.execute("SELECT player,faction,detachment,disposition,total_points,list_url,"
+                       "list_id,parse_ok FROM lists").fetchall()
+    # a detachment is faction-unique in 11E — recover the faction for lists that left it blank
+    detfac = {}
+    for r in rows:
+        if r["faction"]:
+            detfac.setdefault(primary_det(r["detachment"]), r["faction"])
     arch = {}
     pindex = {}
-    for r in con.execute("SELECT player,faction,detachment,disposition,total_points,list_url,"
-                         "list_id,parse_ok FROM lists").fetchall():
-        key = f"{r['faction']} — {primary_det(r['detachment'])}"
-        a = arch.setdefault(key, {"faction": r["faction"], "detachment": primary_det(r["detachment"]),
+    for r in rows:
+        pdet = primary_det(r["detachment"])
+        faction = r["faction"] or detfac.get(pdet) or "Unknown"
+        key = f"{faction} — {pdet}"
+        a = arch.setdefault(key, {"faction": faction, "detachment": pdet,
                                   "players": [], "dispositions": {},
                                   "verdict": notes.get(key, {}).get("verdict", ""),
                                   "play": notes.get(key, {}).get("play", "")})
