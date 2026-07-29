@@ -1,7 +1,18 @@
 """wh.sim — a positional, turn-by-turn 40k game simulator (the real thing, not caps math).
 
 ============================================================================================
-STATUS (2026-07-28): *** THE SIM DOES NOT PREDICT MATCHUP WIN RATES — proven, read this first. ***
+THE DELIVERABLE (2026-07-29): a tournament-prep tool, used MECHANISTICALLY (not for win%).
+  python -m wh.sim.dossier <me>          -> full dossier (matchup map + per-archetype runbooks +
+                                            list fixes) as reports/dossier-<me>.{md,pdf}
+  python -m wh.sim.runbook <me> <opp>    -> one matchup's play guide (priority kills / play-around /
+                                            protect / posture+deployment / stratagems / the trap)
+  python -m wh.sim.optimize <me> <opp>   -> tested swap + detachment recommendations
+  python -m wh.sim.harness                -> sim-vs-anchor scorecard (context only)
+me-rosters: `custodes` (teammate's Better Thing 2) and `knights` (the user's List A). The runbook is
+built on per-unit damage attribution (game.ON_DAMAGE) — who hurts you, who you can/can't remove, who
+does your work. This is the value; the sim maps a matchup's DYNAMICS, it does not predict the win%.
+============================================================================================
+STATUS (2026-07-28): *** THE SIM DOES NOT PREDICT MATCHUP WIN RATES — proven, read the below. ***
 After an exhaustive calibration effort (positional AI, adaptive strategy, combat rework, per-faction
 tapestry fidelity, calibration transforms), the definitive result: the sim's Custodes-vs-X win% has
 PEARSON CORRELATION ~0.0 with the real listhammer win rates (gauntlet.ANCHORS). REAL Custodes are a

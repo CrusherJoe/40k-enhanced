@@ -24,3 +24,4 @@ data/mfm/raw/
 
 # cron logs (local)
 logs/
+reports/           # generated dossiers/runbooks (regenerate with wh.sim.dossier)
