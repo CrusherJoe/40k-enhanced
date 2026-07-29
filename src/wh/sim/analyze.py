@@ -45,9 +45,11 @@ def diagnose(build_me, build_opp, games=5000, seed=11):
             taken[attacker.name] += lost
     G.ON_DAMAGE = on_damage
 
+    from . import deployments
+    dep = deployments.for_mission(my_mission)              # mission-specific deployment map (from dispositions)
     for g in range(games):
         me = build_me(); opp = build_opp()
-        board = Board(terrain.layout_for(me.disposition, opp.disposition))
+        board = Board(deployment=dep)
         cur = {"attacker": None}
         _run_attributed(me, opp, my_mission, opp_mission, board, rng, cur, ctrl_by_round, my_side)
 

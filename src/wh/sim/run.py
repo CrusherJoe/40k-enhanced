@@ -9,7 +9,7 @@ import numpy as np
 from .entities import Board
 from .mission import pairing
 from .game import play_game
-from . import terrain
+from . import terrain, deployments
 
 
 def simulate(build_me, build_opp, games=2000, seed=11, verbose=False):
@@ -19,9 +19,10 @@ def simulate(build_me, build_opp, games=2000, seed=11, verbose=False):
     t0 = time.time()
     a0, b0 = build_me(), build_opp()
     my_mission, opp_mission = pairing(a0.disposition, b0.disposition)
+    dep = deployments.for_mission(my_mission)               # deployment map from the mission (from dispositions)
     for g in range(games):
         me = build_me(); opp = build_opp()
-        board = Board(terrain.layout_for(me.disposition, opp.disposition))
+        board = Board(deployment=dep)
         first = "A" if rng.random() < 0.5 else "B"
         vp = play_game(me, opp, my_mission, opp_mission, board, rng, first=first)
         my_vp += vp["A"]; opp_vp += vp["B"]

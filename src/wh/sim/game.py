@@ -265,28 +265,30 @@ def deploy(A, B, board):
     Durable/aggressive units push forward regardless (they want to engage); deep-strikers stay in
     reserve; embarked units ride their transport."""
     for army, enemy in ((A, B), (B, A)):
-        my_lo, my_hi = _ZONE[army.side]
-        toward = 1 if army.side == "A" else -1
+        s = army.side
+        x0, y0, x1, y1 = board.zone[s]                       # this deployment's zone rect for my side
+        cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+        fx, fy = board.fwd[s]                                 # forward = toward the enemy
+        wx, wy = -fy, fx                                      # wide axis = perpendicular (spread along it)
+        depth = abs(fx) * (x1 - x0) + abs(fy) * (y1 - y0) or 12.0
+        wide = abs(wx) * (x1 - x0) + abs(wy) * (y1 - y0) or 30.0
         ttype = _threat_type(enemy)
         ereach = max((u.move for u in enemy.units if u.melee and not u.in_reserve), default=6) + 15
-        efront = _ZONE[enemy.side][0] if enemy.side == "B" else _ZONE[enemy.side][1]
-        safe = min(my_hi, max(my_lo, efront - toward * (ereach + 3)))
-        front = my_hi if army.side == "A" else my_lo
         on = [u for u in army.units if not u.in_reserve and u.transport is None]
         n = len(on)
         for i, u in enumerate(on):
-            x = 6 + (BOARD_W - 12) * (i / max(1, n - 1)) if n > 1 else BOARD_W / 2
+            t = ((i / (n - 1)) - 0.5) if n > 1 else 0.0       # -0.5..0.5 along the wide axis
             aggressive = _melee_primary(u, enemy) and u.role in ("fast", "line", "anti_tank")
-            # push forward if aggressive, or durable, or the enemy is a gunline you can't hide from
+            # push forward if aggressive/durable/vs a gunline you can't hide from; else shelter at the back
             push = aggressive or _durable(u) or (ttype == "shooting" and u.wounds >= 2)
-            y = front if push else safe
-            y = max(my_lo, min(my_hi, y + toward * _S(army).deploy_depth * 10))   # strategy deploy depth
-            # seek COVER when pushing into a gunline: nudge x toward the nearest ruin on that rank
-            if push and ttype == "shooting":
-                ruins = sorted(board.ruins, key=lambda r: abs((r[0] + r[2]) / 2 - x) + abs((r[1] + r[3]) / 2 - y))
-                if ruins:
-                    x = 0.5 * x + 0.5 * (ruins[0][0] + ruins[0][2]) / 2
-            u.pos = (x, y)
+            df = 0.42 if push else max(-0.45, 0.45 - (ereach + 3) / depth)   # depth frac (centre->enemy)
+            df = max(-0.46, min(0.46, df + _S(army).deploy_depth * 0.3))     # strategy deploy depth
+            px = cx + wx * t * wide * 0.92 + fx * df * depth
+            py = cy + wy * t * wide * 0.92 + fy * df * depth
+            if push and ttype == "shooting" and board.ruins:                 # seek cover vs a gunline
+                r = min(board.ruins, key=lambda r: (px - (r[0] + r[2]) / 2) ** 2 + (py - (r[1] + r[3]) / 2) ** 2)
+                px, py = 0.6 * px + 0.4 * (r[0] + r[2]) / 2, 0.6 * py + 0.4 * (r[1] + r[3]) / 2
+            u.pos = (max(1.0, min(BOARD_W - 1, px)), max(1.0, min(BOARD_H - 1, py)))
             u.side = army.side
     for army in (A, B):
         for u in army.units:

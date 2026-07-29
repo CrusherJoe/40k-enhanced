@@ -45,6 +45,8 @@ def _unit_output(u, target):
 
 def build(build_me, build_opp, games=300, seed=11):
     d = analyze.diagnose(build_me, build_opp, games=games, seed=seed)
+    from . import deployments
+    d["deployment"] = deployments.for_mission(d["my_mission"])["name"]
     me0, opp0 = build_me(), build_opp()
     St.equip(me0, opp0); St.equip(opp0, me0)
     g = d["games"]
@@ -123,7 +125,8 @@ def report(r):
     head, wincon = _assess(r)
     d = r["d"]
     L = [f"RUNBOOK — {d['me_name']}  vs  {d['opp_name']}",
-         f"  you play {d['my_mission']}  |  they play {d['opp_mission']}  ({r['g']} games simulated)",
+         f"  you play {d['my_mission']}  |  they play {d['opp_mission']}  |  deployment: {d.get('deployment','-')}"
+         f"  ({r['g']} games simulated)",
          "",
          f"READ: {head}",
          f"WIN CONDITION: {wincon}",

@@ -150,11 +150,18 @@ def seg_hits_circle(p1, p2, c, r):
 
 
 class Board:
-    """Objectives + real terrain (LoS-blocking ruins + cover). Objectives held by higher OC within 3\"."""
-    def __init__(self, ruins=None):
-        from . import terrain
-        self.objectives = list(OBJECTIVES)
-        self.ruins = list(ruins) if ruins is not None else terrain._base_layout()
+    """Objectives + real terrain (LoS-blocking ruins + cover) for a specific DEPLOYMENT MAP (which comes
+    from the mission, which comes from the disposition matchup). Objectives held by higher OC within 3\".
+    Pass a `deployment` dict (deployments.for_mission(...)) for the mission's real objectives/zones/terrain;
+    a bare `ruins` list falls back to the default long-edge map (back-compat)."""
+    def __init__(self, ruins=None, deployment=None):
+        from . import terrain, deployments
+        self.dep = deployment or deployments.for_mission("Battlefield Dominance")
+        self.objectives = list(self.dep["objectives"])
+        self.zone = self.dep["zone"]
+        self.fwd = self.dep["fwd"]
+        self.home = self.dep["home"]
+        self.ruins = list(ruins) if ruins is not None else list(self.dep["ruins"])
 
     def has_los(self, p1, p2):
         """Line of sight p1->p2 unless a ruin blocks it. A ruin does NOT block if a shooter/target is
@@ -189,9 +196,13 @@ class Board:
                 u.in_cover = self.near_terrain(u.pos) and not u.tall
 
     def home_objective(self, side):
-        # the objective nearest that side's home row
-        y = HOME_Y[side]
-        return min(range(len(self.objectives)), key=lambda i: abs(self.objectives[i][1] - y))
+        # the objective nearest that side's home corner/edge (deployment-aware)
+        hx, hy = self.home[side]
+        return min(range(len(self.objectives)),
+                   key=lambda i: (self.objectives[i][0] - hx) ** 2 + (self.objectives[i][1] - hy) ** 2)
 
     def in_territory(self, pos, side):
-        return (pos[1] < 30) if side == "A" else (pos[1] >= 30)
+        # nearer to your home than the enemy's = your half (works for any deployment geometry)
+        da = (pos[0] - self.home["A"][0]) ** 2 + (pos[1] - self.home["A"][1]) ** 2
+        db = (pos[0] - self.home["B"][0]) ** 2 + (pos[1] - self.home["B"][1]) ** 2
+        return (da <= db) if side == "A" else (db < da)

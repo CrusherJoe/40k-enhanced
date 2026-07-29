@@ -49,3 +49,10 @@ LAYOUTS = {frozenset((a, b)): _base_layout() for a in _DISPS for b in _DISPS}
 
 def layout_for(disp_a, disp_b):
     return LAYOUTS.get(frozenset((disp_a, disp_b)), _base_layout())
+
+
+def layout_for_deployment(name):
+    """Terrain for a deployment map. The Event Companion uses ONE footprint set; positions here are the
+    faithful reconstruction. (Orienting the blockers to each deployment's sightline axis is a refinement;
+    the base set already gives ~28% coverage + LoS breaks around the objectives for every map.)"""
+    return _base_layout()
