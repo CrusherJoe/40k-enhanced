@@ -129,6 +129,7 @@ def report(r):
          f"WIN CONDITION: {wincon}",
          f"POSTURE: play {r['my_strategy'].name if r['my_strategy'] else 'balanced'} — "
          + _posture_text(r["my_strategy"]),
+         f"DEPLOYMENT: {_deploy_advice(r)}",
          "",
          "BOARD CONTROL you vs them (avg objectives, R1->R5):",
          "   you : " + " ".join(f"{v:.1f}" for v in r["ctrl"]),
@@ -146,7 +147,8 @@ def report(r):
         or ["   (none — you can remove their key pieces)"]
 
     work = sorted([m for m in r["mine"] if m["dealt"] >= 1.0], key=lambda m: -m["dealt"])[:4]
-    L += ["", "YOUR WORKHORSES (do the damage — leverage + protect these):"]
+    trade = "" if any(m["surv"] > 0.3 for m in work) else "  (they trade hard and die doing it — that's the plan here, keep them earning until they drop)"
+    L += ["", "YOUR WORKHORSES (do the damage — leverage + protect these):" + trade]
     L += [f"   - {m['name']:30} {m['dealt']:.1f} w/turn, survives {100*m['surv']:.0f}%" for m in work]
 
     weak = sorted([m for m in r["mine"] if m["surv"] < 0.35 and m["dealt"] < 3.0], key=lambda m: m["surv"])
@@ -156,6 +158,28 @@ def report(r):
     L += ["", "KEY STRATAGEMS this matchup: " + _strat_advice(r)]
     L += ["", f"THE TRAP: {_trap(r, pa)}"]
     return "\n".join(L)
+
+
+def _deploy_advice(r):
+    me, opp = r["me"], r["opp"]
+    posture = r["my_strategy"].name if r["my_strategy"] else "balanced"
+    ds = [u.name for u in me.units if u.deep_strike]
+    fast_enemy = any(u.move >= 11 or "FLY" in u.keywords for u in opp.units if u.role != "action")
+    shooty_enemy = sum(len(u.ranged) for u in opp.units) > sum(len(u.melee) for u in opp.units) * 1.5
+    parts = []
+    if posture in ("turtle", "hold", "gunline", "brace"):
+        parts.append("deploy BACK, in/behind cover near your primary — deny a turn-1 alpha and make them come to you")
+    elif posture == "grind":
+        parts.append("deploy centrally; push your durable bodies onto the mid-board objectives and trade forward")
+    elif posture == "kite":
+        parts.append("deploy spread for mobility; take objectives and reposition, never sit in the open")
+    else:
+        parts.append("deploy to contest the board")
+    if ds:
+        parts.append(f"keep {', '.join(ds[:2])}{' +' if len(ds) > 2 else ''} in reserve — drop them onto objectives or the enemy backfield when it swings the game")
+    if fast_enemy or shooty_enemy:
+        parts.append("screen your home objectives (they'll try to get behind you)")
+    return "; ".join(parts) + "."
 
 
 def _posture_text(s):
