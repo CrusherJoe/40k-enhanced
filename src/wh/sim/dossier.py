@@ -68,15 +68,20 @@ def gather(me_name="custodes", games=250, opt_opp="necrons", seed=11):
 
 
 def render_markdown(P):
-    out = [f"# TOURNAMENT DOSSIER — {P['name']}", "", P["tap"], "",
+    out = [f"# TOURNAMENT DOSSIER — {P['name']}", "",
+           "Your list is LOCKED at the event. The RUNBOOKS below are your IN-EVENT tool — how to pilot "
+           "THIS list through each matchup. The MATCHUP MAP is the cheat sheet. LIST-BUILDING notes at the "
+           "end are for choosing your list BETWEEN events, not for mid-tournament.", "",
+           P["tap"], "",
            "# MATCHUP MAP", "", f"  {'ARCHETYPE (list)':28} {'READ':18} {'POSTURE':9} BIGGEST THREAT"]
     for row in P["rows"]:
         out.append(f"  {row['opp']+' ('+row['arch']+')':28} {row['read']:18} {row['posture']:9} {row['threat']}")
-    out += ["", "# RUNBOOKS (per archetype)", ""]
+    out += ["", "# RUNBOOKS (per archetype) — your in-event pilot guide", ""]
     for b in P["books"]:
         out += ["```", b, "```", ""]
-    out += ["# LIST FIXES — tested swap + detachment recommendations", "",
-            f"(optimizer vs {P['opt_opp']})", "```", P["fixes"], "```"]
+    out += ["# LIST-BUILDING NOTES (between events — the list is locked at the tournament)", "",
+            f"(optimizer vs {P['opt_opp']}; use this when choosing what to bring, not mid-event)", "```",
+            P["fixes"], "```"]
     return "\n".join(out)
 
 
@@ -104,8 +109,9 @@ def render_html(P):
          f"<h1>Tournament Dossier — {e(P['name'])}</h1>",
          f"<div class='sub'>{len(P['rows'])} archetypes · {P['games']} games each · mechanistic matchup analysis "
          "(not a win% prediction — the values are the sim's internal scale)</div>",
-         "<div class='note'>How to use: the MAP is your at-a-glance cheat sheet; the RUNBOOKS are your per-archetype "
-         "prep (who to kill, what to ignore, what to protect, the trap). The sim maps the DYNAMICS of each matchup.</div>",
+         "<div class='note'>Your list is LOCKED at the event. The RUNBOOKS are your IN-EVENT tool — how to pilot "
+         "THIS list through each matchup (who to kill, what you can't remove, what to protect, the trap). The MAP is "
+         "the cheat sheet. LIST-BUILDING notes at the end are for BETWEEN events, not mid-tournament.</div>",
          "<h2>Matchup Map</h2>",
          "<table class='map'><tr><th>Archetype (list)</th><th>Read</th><th>Posture</th><th>Biggest threat</th></tr>"]
     for row in P["rows"]:
@@ -121,7 +127,8 @@ def render_html(P):
         lines = b.split("\n")
         title = e(lines[0]); rest = e("\n".join(lines[1:]))
         h.append(f"<div class='book'><span class='rb-title'>{title}</span>\n{rest}</div>")
-    h.append("<h2>List Fixes — tested swaps + detachment test</h2><pre>" + e(P["fixes"]) + "</pre>")
+    h.append("<h2>List-Building Notes <span style='font-weight:400;font-size:12px;color:#888'>"
+             "(between events — the list is locked at the tournament)</span></h2><pre>" + e(P["fixes"]) + "</pre>")
     h.append("</body></html>")
     return "\n".join(h)
 
