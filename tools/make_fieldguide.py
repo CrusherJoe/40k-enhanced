@@ -59,6 +59,16 @@ VCLASS = {"FAVOURABLE": "fav", "MIRROR": "mirror", "COIN-FLIP": "coin",
           "UNFAVOURABLE": "unfav", "HARD": "hard"}
 
 
+def _verdict_tier(verdict):
+    """(display label, css class) from the LEADING verdict keyword — verdicts can carry a
+    qualifier like 'COIN-FLIP → HARD (…)' or 'UNFAVOURABLE → directional', so match the prefix."""
+    v = (verdict or "").upper().strip()
+    for kw in ("FAVOURABLE", "MIRROR", "COIN-FLIP", "UNFAVOURABLE", "HARD"):
+        if v.startswith(kw):
+            return kw, VCLASS[kw]
+    return "UNSCORED", "unscored"
+
+
 def build():
     rec = json.load(open(ARCH, encoding="utf-8"))
     sim, books, me, disp, meta = parse_dossier(DOSSIER)
@@ -67,11 +77,11 @@ def build():
         if a["size"] < 1:
             continue
         s = sim.get(key, {})
-        vshort = (a["verdict"] or "").split(" —")[0].split(" (")[0].strip() or "UNSCORED"
+        vshort, vcls = _verdict_tier(a["verdict"])       # leading keyword (handles "COIN-FLIP → HARD")
         bkey, glyph, gtip = bucket(a["verdict"] or "", s.get("sim", "—"), s.get("margin"))
         arches.append({
             "key": key, "faction": a["faction"], "det": a["detachment"], "n": a["size"],
-            "verdict": a["verdict"] or "", "vshort": vshort, "vclass": VCLASS.get(vshort, "unscored"),
+            "verdict": a["verdict"] or "", "vshort": vshort, "vclass": vcls,
             "play": a["play"] or "", "sim": s.get("sim", "—"), "margin": s.get("margin"),
             "bucket": bkey, "glyph": glyph, "gtip": gtip,
             "runbook": books.get(key, ""),
@@ -227,14 +237,22 @@ mark{background:var(--brass);color:var(--bg);border-radius:2px;padding:0 2px;}
 <script>
 const D = /*DATA*/;
 const VC = {fav:'--fav',coin:'--coin',unfav:'--unfav',hard:'--hard',mirror:'--mirror',unscored:'--unscored'};
-const BUCKETS = [
+// Filter chips = VERDICT tiers (so a chip's dot colour matches the rows it shows). The one
+// cross-axis chip, "Sim disagrees", is brass (a different axis) + surfaces the ⚠/▲ rows.
+const CHIPS = [
   ['all','All',null],
-  ['confirmed-hard','Real threats','--hard'],
-  ['sim-flags','Sim flags worse','--unfav'],
-  ['trust-verdict','Trust verdict','--coin'],
-  ['coinflip','Coin-flip','--coin'],
-  ['confirmed-good','Favourable','--fav'],
+  ['fav','Favourable','--fav'],
+  ['coin','Coin-flip','--coin'],
+  ['unfav','Unfavourable','--unfav'],
+  ['hard','Hard','--hard'],
+  ['mirror','Mirror','--mirror'],
+  ['disagree','⚠ Sim disagrees','--brass'],
 ];
+function match(a,k){
+  if(k==='all') return true;
+  if(k==='disagree') return a.bucket==='trust-verdict'||a.bucket==='sim-flags';
+  return a.vclass===k;
+}
 const esc = s => (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const boldRB = s => esc(s).replace(/^(READ:|WIN CONDITION:|POSTURE:|DEPLOYMENT:|THE TRAP:|PRIORITY KILLS.*?:|PLAY AROUND.*?:|YOUR WORKHORSES.*?:|YOUR LIABILITIES.*?:|BOARD CONTROL.*?:)/gm,'<b>$1</b>');
 let filter='all';
@@ -251,8 +269,8 @@ document.getElementById('foot').innerHTML =
 
 // filters
 const fbar=document.getElementById('filters');
-BUCKETS.forEach(([k,label,vc])=>{
-  const n = k==='all'?D.arches.length:D.arches.filter(a=>a.bucket===k).length;
+CHIPS.forEach(([k,label,vc])=>{
+  const n = D.arches.filter(a=>match(a,k)).length;
   if(k!=='all' && n===0) return;
   const b=document.createElement('button');
   b.className='chip'; b.setAttribute('aria-pressed', k==='all'); b.dataset.k=k;
@@ -286,7 +304,7 @@ function card(a){
 }
 
 function render(){
-  const list = D.arches.filter(a=>filter==='all'||a.bucket===filter);
+  const list = D.arches.filter(a=>match(a,filter));
   document.getElementById('map').innerHTML = list.map(card).join('');
   const nl = list.reduce((s,a)=>s+a.n,0);
   document.getElementById('count').textContent = `${list.length} archetypes · ${nl} of ${D.n_lists} lists`;
