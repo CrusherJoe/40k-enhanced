@@ -163,36 +163,31 @@ def render_xlsx(rows, me_name, disp, rec, path):
 
 
 _PDF_CSS = """
-@page{size:A4;margin:14mm 12mm;}
-*{box-sizing:border-box;}
-body{font:11px/1.5 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#22262d;margin:0;}
-h1{font:800 26px/1 "Arial Narrow","Helvetica Neue",Arial,sans-serif;text-transform:uppercase;
-   letter-spacing:.01em;margin:0 0 3px;color:#1a1d23;}
-.eyebrow{font:700 9px/1 ui-monospace,Menlo,monospace;letter-spacing:.25em;text-transform:uppercase;color:#9a6f1c;margin-bottom:6px;}
-.sub{color:#5a6069;font-size:11px;margin-bottom:2px;}
-.disp{display:inline-block;font:700 9px/1 ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase;
-   color:#7a5713;border:1px solid #9a6f1c;border-radius:3px;padding:3px 6px;}
-.note{font-size:10px;color:#5a6069;border-left:3px solid #c69a3a;background:#f6f1e4;padding:7px 10px;margin:12px 0;}
-h2{font:800 13px/1 "Arial Narrow",Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;
-   color:#1a1d23;border-bottom:2px solid #c69a3a;padding-bottom:3px;margin:22px 0 10px;}
-table{border-collapse:collapse;width:100%;font-size:10px;}
-th{background:#20242b;color:#fff;text-align:left;padding:5px 7px;font:700 8.5px/1.2 ui-monospace,monospace;
-   letter-spacing:.06em;text-transform:uppercase;}
-td{padding:5px 7px;border-bottom:1px solid #e0dccf;vertical-align:top;}
-td.n{font:700 13px/1 "Arial Narrow",Arial;text-align:center;font-variant-numeric:tabular-nums;}
-.pill{font:700 8.5px/1 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.04em;padding:3px 5px;border-radius:3px;white-space:nowrap;}
-.book{break-inside:avoid;border:1px solid #ddd6c6;border-left:4px solid var(--vc,#c69a3a);border-radius:5px;
-   padding:9px 12px;margin:0 0 9px;background:#faf8f2;}
-.book .bt{font:800 13px/1.1 "Arial Narrow",Arial;text-transform:uppercase;letter-spacing:.02em;color:#1a1d23;}
-.book .bmeta{font:700 8.5px/1 ui-monospace,monospace;color:#7a7f88;margin:3px 0 6px;text-transform:uppercase;letter-spacing:.06em;}
-.book .play{font-size:10.5px;color:#22262d;margin:0 0 7px;}
-.book.compact{padding:7px 11px;margin-bottom:6px;}
-.book.compact .play{margin:0;}
-.book.compact .bt .pill{float:right;}
-.book pre{font:9px/1.45 ui-monospace,Menlo,monospace;white-space:pre-wrap;background:#fff;border:1px solid #e6e0d2;
-   border-radius:4px;padding:8px;margin:0;color:#3a3f47;}
-.book pre b{color:#111;}
-.foot{margin-top:16px;font:9px/1.5 ui-monospace,monospace;color:#8b909a;border-top:1px solid #ddd;padding-top:8px;}
+body{font-family:'DejaVu Sans',Arial,sans-serif;color:#22262d;max-width:900px;margin:0 auto;
+   padding:24px;line-height:1.45;font-size:11px}
+.eyebrow{font-family:'DejaVu Sans Mono',monospace;font-size:9px;letter-spacing:2px;color:#9a6f1c;font-weight:bold}
+h1{font-size:23px;margin:2px 0 4px;color:#1a1d23;border-bottom:3px solid #c69a3a;padding-bottom:5px}
+.sub{color:#5a6069;font-size:11px;margin:2px 0}
+.disp{font-family:'DejaVu Sans Mono',monospace;font-size:9px;color:#7a5713;border:1px solid #9a6f1c;
+   padding:2px 6px;font-weight:bold}
+.note{font-size:10px;color:#4a4f57;border:1px solid #e0c060;background:#fff6e0;padding:8px 11px;margin:12px 0}
+h2{font-size:14px;color:#5a4a12;border-bottom:2px solid #c69a3a;padding-bottom:3px;margin:22px 0 10px}
+table{border-collapse:collapse;width:100%;font-size:10px;margin:6px 0 14px}
+th{background:#20242b;color:#fff;text-align:left;padding:5px 7px;font-size:10px}
+td{padding:5px 7px;border-bottom:1px solid #e0dccf;vertical-align:top}
+td.n{font-weight:bold;font-size:13px;text-align:center}
+.pill{padding:2px 7px;font-weight:bold;font-size:10px;white-space:nowrap}
+.book{border:1px solid #ddd6c6;border-left:4px solid #c69a3a;padding:9px 13px;margin:0 0 10px;
+   background:#faf8f2;page-break-inside:avoid}
+.book .bt{font-weight:bold;font-size:14px;color:#1a1d23}
+.book .bmeta{font-family:'DejaVu Sans Mono',monospace;font-size:9px;color:#7a7f88;margin:3px 0 6px}
+.book .play{font-size:10.5px;color:#22262d;margin:0 0 7px}
+.book.compact{padding:7px 11px;margin-bottom:6px}
+.book pre{font-family:'DejaVu Sans Mono',monospace;font-size:9px;white-space:pre-wrap;background:#fff;
+   border:1px solid #e6e0d2;padding:8px;margin:0;color:#3a3f47}
+.book pre b{color:#111}
+.foot{margin-top:16px;font-family:'DejaVu Sans Mono',monospace;font-size:9px;color:#8b909a;
+   border-top:1px solid #ddd;padding-top:8px}
 """
 
 
@@ -229,7 +224,7 @@ def render_pdf(rows, me_name, disp, rec, games, path, books=14):
         if not x["r"]:
             continue
         vk = _vkey(x["verdict"]); vc = "#" + (VINK.get(vk, "c69a3a"))
-        H.append(f"<div class='book' style='--vc:{vc}'>"
+        H.append(f"<div class='book' style='border-left-color:{vc}'>"
                  f"<div class='bt'>{e(x['arch']['detachment'])}</div>"
                  f"<div class='bmeta'>{e(x['arch']['faction'])} · {x['n']} pilots · {e(x['verdict'])}</div>"
                  + (f"<div class='play'><b>How to play:</b> {e(x['arch']['play'])}</div>" if x['arch']['play'] else "")
@@ -241,7 +236,7 @@ def render_pdf(rows, me_name, disp, rec, games, path, books=14):
         for x in rest:
             vk = _vkey(x["verdict"]); vc = "#" + (VINK.get(vk, "c69a3a"))
             pill = f"background:#{VFILL.get(vk,'e8e8e8')};color:#{VINK.get(vk,'333')}" if vk else ""
-            H.append(f"<div class='book compact' style='--vc:{vc}'>"
+            H.append(f"<div class='book compact' style='border-left-color:{vc}'>"
                      f"<div class='bt'>{e(x['arch']['detachment'])} "
                      f"<span class='pill' style='{pill}'>{e(x['verdict'].split(' —')[0].split(' (')[0])}</span></div>"
                      f"<div class='bmeta'>{e(x['arch']['faction'])} · {x['n']} pilots · sim {e(x['read'])}</div>"
