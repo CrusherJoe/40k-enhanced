@@ -135,27 +135,31 @@ def render_xlsx(rows, me_name, disp, rec, path):
 
     ws1 = wb.active; ws1.title = "Matchup Map"
     sheet(ws1, ["# Pilots", "Archetype", "Faction", "Verdict", "Sim (directional)", "Board",
-                "Biggest threat", "How to play"],
+                "Biggest threat", "Top OC holder", "How to play"],
           [(x["verdict"], [x["n"], x["arch"]["detachment"], x["arch"]["faction"],
                            x["verdict"], x["read"], round(x["margin"], 2) if x["margin"] is not None else "",
                            (x["s"]["priority_kills"][0][0] if x["s"]["priority_kills"] else
                             (x["s"]["play_around"][0][0] if x["s"]["play_around"] else "-")),
+                           (f"{x['s']['lynchpins'][0][0]} (OC{x['s']['lynchpins'][0][1]})"
+                            if x["s"]["lynchpins"] else "-"),
                            x["arch"]["play"]]) for x in rows],
-          [8, 30, 20, 30, 12, 7, 22, 80], vcol=4)
+          [8, 30, 20, 30, 12, 7, 22, 22, 80], vcol=4)
 
     ws2 = wb.create_sheet("Threats & Plan")
 
     def lst(items, fmt):
         return "\n".join(fmt(i) for i in items) or "-"
     sheet(ws2, ["Archetype", "Verdict", "Priority kills (dmg / removable%)", "Play around (survive% / dmg)",
-                "Your workhorses", "Your liabilities", "Secondaries: lean", "The trap"],
+                "Board lynchpins (OC — who holds objectives)", "Your workhorses", "Your liabilities",
+                "Secondaries: lean", "The trap"],
           [(x["verdict"], [x["arch"]["detachment"], x["verdict"],
                            lst(x["s"]["priority_kills"], lambda t: f"{t[0]} — {t[1]}w, {t[2]}% kill"),
                            lst(x["s"]["play_around"], lambda t: f"{t[0]} — {t[1]}% lives, {t[2]}w"),
+                           lst(x["s"]["lynchpins"], lambda t: f"{t[0]} — OC{t[1]} ({t[3]})"),
                            lst(x["s"]["workhorses"], lambda t: f"{t[0]} — {t[1]}w"),
                            lst(x["s"]["liabilities"], lambda t: f"{t[0]} — {t[1]}%"),
                            "\n".join(x["s"]["sec_lean"]) or "-", x["s"]["trap"]]) for x in rows],
-          [30, 30, 34, 30, 26, 22, 26, 46], vcol=2)
+          [30, 30, 34, 30, 30, 26, 22, 26, 46], vcol=2)
     for r in range(2, ws2.max_row + 1):
         ws2.row_dimensions[r].height = 108
     wb.save(path)

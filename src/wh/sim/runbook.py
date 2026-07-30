@@ -127,6 +127,35 @@ def _priority_kills(r):
     return [e for e, _ in sorted(out, key=lambda x: -x[1])]
 
 
+def _durable(u):
+    """Datasheet-reliable 'hard to shift' test (NOT the sim's directional survival): a good invuln,
+    high toughness, FNP, -1 damage, or a monster/vehicle/titanic body. Distinguishes an OC ANCHOR
+    (durable — out-position/contest) from SOFT OC (chaff blob — volume clears it)."""
+    inv = getattr(u, "invuln", None)
+    invn = int(str(inv)[0]) if inv and str(inv)[0].isdigit() else 7
+    kw = " ".join(str(k) for k in (getattr(u, "keywords", ()) or ())).upper()
+    return ((getattr(u, "toughness", 4) or 4) >= 8 or invn <= 4 or getattr(u, "fnp", None)
+            or getattr(u, "damage_reduction", 0) or any(w in kw for w in ("MONSTER", "VEHICLE", "TITANIC")))
+
+
+def _lynchpins(r):
+    """Enemy units ranked by OC contribution — who actually HOLDS the objectives (the board-control
+    axis, separate from who hurts you). OC = base datasheet OC x models x copies (RELIABLE — datasheet
+    math); sticky/OC-set buffs (Norn OC15, banners, reanimation) aren't modelled, they're in the notes.
+    ANCHOR vs SOFT is from datasheet DURABILITY (not the sim's shaky survival); `threat` = a real damage
+    dealer to you (>=3 w/turn), so a high-OC piece that barely hurts you is flagged board-only."""
+    lyn = []
+    for e in r["enemy"]:
+        u = e["u"]
+        oc_per = (getattr(u, "oc", 1) or 0) * u.models       # OC one copy contributes on an objective
+        if oc_per < 3:                                        # skip lone low-OC characters/support
+            continue
+        lyn.append(dict(e=e, oc_per=oc_per, oc_total=oc_per * e["cnt"], surv=e["surv"],
+                        dmg=e["dmg"], anchor=_durable(u), threat=e["dmg"] >= 3.0))
+    lyn.sort(key=lambda x: -x["oc_total"])
+    return lyn
+
+
 def report(r):
     head, wincon = _assess(r)
     d = r["d"]
@@ -144,6 +173,21 @@ def report(r):
          "   you : " + " ".join(f"{v:.1f}" for v in r["ctrl"]),
          "   them: " + " ".join(f"{v:.1f}" for v in r["octrl"]),
          ""]
+
+    lyn = _lynchpins(r)
+    L.append("BOARD LYNCHPINS (their OC backbone — who HOLDS the objectives; base OC, buffs/sticky not modelled):")
+    if lyn:
+        for x in lyn[:5]:
+            tag = ("ANCHOR — durable, hard to shift: contest / out-position, or commit a full turn to remove"
+                   if x["anchor"] else
+                   "SOFT OC — clear it with volume; every kill strips their scoring")
+            extra = "  [+ also hurts you — a two-for-one kill]" if x["threat"] else \
+                    "  [board-only — it barely touches you, but it's how they out-score you]"
+            cnt = f"{x['e']['cnt']}x {x['oc_per']}" if x["e"]["cnt"] > 1 else f"{x['oc_per']}"
+            L.append(f"   - {_nm(x['e']):30} OC {x['oc_total']:>3} ({cnt})  {tag}{extra}")
+    else:
+        L.append("   (no big OC blocks — they don't out-body you here; hold the objectives and the board is yours)")
+    L.append("")
 
     pk = _priority_kills(r)
     L.append("PRIORITY KILLS (they hurt you AND you can remove them — kill in this order):")
@@ -252,6 +296,7 @@ def structured(r):
     d = r["d"]
     head, wincon = _assess(r)
     pk, pa = _priority_kills(r), _play_around(r)
+    lyn = _lynchpins(r)
     work = sorted([m for m in r["mine"] if m["dealt"] >= 1.0], key=lambda m: -m["dealt"])[:4]
     weak = sorted([m for m in r["mine"] if m["surv"] < 0.35 and m["dealt"] < 3.0], key=lambda m: m["surv"])[:4]
     lean, avoid = _secondaries(r)
@@ -263,6 +308,8 @@ def structured(r):
         play_around=[(_nm(e), round(100 * e["surv"]), round(e["dmg"], 1)) for e in pa[:4]],
         workhorses=[(_nm(m), round(m["dealt"], 1), round(100 * m["surv"])) for m in work],
         liabilities=[(_nm(m), round(100 * m["surv"])) for m in weak],
+        lynchpins=[(_nm(x["e"]), x["oc_total"], round(100 * x["surv"]),
+                    "anchor" if x["anchor"] else "soft", round(x["dmg"], 1)) for x in lyn[:5]],
         board=[round(v, 1) for v in r["ctrl"]], oboard=[round(v, 1) for v in r["octrl"]],
         sec_lean=lean, sec_avoid=avoid, trap=_trap(r, pa))
 
