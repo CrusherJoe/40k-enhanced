@@ -52,10 +52,12 @@ the sim, every tool, and the project's memory. Nothing else is hiding on the old
 
 ---
 
-## STEP 3 — Rebuild the reports (one time, ~5 minutes)
+## STEP 3 — Rebuild the reports (optional — they come with the clone)
 
-A few files are deliberately *not* stored in git because they're generated from the data that
-*is* stored (keeps the repo clean). Rebuild them with these four commands:
+The finished, versioned deliverables are committed under `docs/reports/knights/`, so they're
+already there after STEP 2 — you can just open them. Re-run the four commands below only if you
+want to regenerate (e.g. after a data refresh). Steps 1–2 rebuild the local DB + index (those are
+gitignored); steps 3–4 rewrite the versioned deliverables:
 
 ```bash
 export PYTHONPATH=src
@@ -73,10 +75,14 @@ python3 tools/bcp_dossier.py death_rnr --min 1
 python3 tools/make_fieldguide.py
 ```
 
-Your deliverables are now in `reports/`:
-- `reports/death_rnr-field-dossier.pdf` — the printable dossier
-- `reports/death_rnr-field-dossier-analysis.xlsx` — the Excel
-- `reports/death_rnr-fieldguide.html` — the interactive field guide
+Your deliverables are now in **`docs/reports/knights/`**, each with a version number in the name:
+- `LSO-Field-Dossier-v1.0.pdf` — the printable dossier
+- `LSO-Field-Analysis-v1.0.xlsx` — the Excel
+- `LSO-Field-Guide-v1.0.html` — the interactive field guide
+- `LSO-Roster-v1.0.html` — the linked player roster
+
+(The version number means a re-run with bumped content never overwrites the old one — you won't
+lose track. The top-level `reports/` folder is just throwaway build scratch.)
 
 ---
 
@@ -96,7 +102,7 @@ If both print sensible output, the move is done. ✅
 
 1. **The field guide's web link.** The interactive field guide was published to *my old
    Claude account*, so that URL won't work from the new account. **The file itself travels fine**
-   — after STEP 3 you have `reports/death_rnr-fieldguide.html` locally. On the new account just
+   — after STEP 3 you have `docs/reports/knights/LSO-Field-Guide-v1.0.html` locally. On the new account just
    ask Claude to **"publish the field guide as an artifact"** and you'll get a fresh link. (Or
    just open the HTML file in a browser — it works offline, no server needed.)
 

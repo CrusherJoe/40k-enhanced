@@ -16,7 +16,11 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(
 from wh.sim import rosters, bcp, runbook
 from wh.sim.runbook import _assess
 
+import doc_versions as V            # tools/ is on sys.path (script dir); central version registry
+
 REC = "data/bcp/lso2026-archetypes.json"
+# me-roster -> (dossier doc key, analysis doc key) in doc_versions; output goes to the versioned docs home
+DOC_KEYS = {"death_rnr": ("lso-field-dossier", "lso-field-analysis")}
 
 # verdict -> spreadsheet/print fill (the VERDICT is the plan; colour by it, not the directional sim)
 VFILL = {"FAVOURABLE": "C7E5CE", "MIRROR": "DBE0E7", "COIN-FLIP": "CBDCEC",
@@ -100,17 +104,25 @@ def main():
             L += [f"**How to play:** {x['arch']['play']}", ""]
         L += ["```", runbook.report(x["r"]).rstrip(), "```", ""]
 
-    stem = (a.out or f"reports/{a.me}-field-dossier.md").rsplit(".", 1)[0]
-    os.makedirs(os.path.dirname(stem) or ".", exist_ok=True)
-    open(stem + ".md", "w", encoding="utf-8").write("\n".join(L))
-    print(f"\n# dossier -> {stem}.md  ({len(rows)} archetypes, {sum(1 for x in rows if 'r' in x)} simmed)",
+    # Output to the committed, VERSIONED docs/reports home (via doc_versions) for registered lists;
+    # other lists fall back to reports/ scratch. Every filename carries -vX.Y so nothing is overwritten.
+    dkey, akey = DOC_KEYS.get(a.me, (None, None))
+    if dkey and not a.out:
+        pdf_path, xlsx_path = V.out_path(dkey), V.out_path(akey)
+        md_path = os.path.splitext(pdf_path)[0] + ".md"          # md shares the versioned stem
+    else:
+        stem = (a.out or f"reports/{a.me}-field-dossier.md").rsplit(".", 1)[0]
+        md_path, pdf_path, xlsx_path = stem + ".md", stem + ".pdf", stem + "-analysis.xlsx"
+    os.makedirs(os.path.dirname(md_path) or ".", exist_ok=True)
+    open(md_path, "w", encoding="utf-8").write("\n".join(L))
+    print(f"\n# dossier -> {md_path}  ({len(rows)} archetypes, {sum(1 for x in rows if 'r' in x)} simmed)",
           file=sys.stderr)
     simmed = [x for x in rows if "s" in x]
-    render_xlsx(simmed, me_name, disp, rec, stem + "-analysis.xlsx")
-    render_pdf(simmed, me_name, disp, rec, a.games, stem + ".pdf", a.books)
+    render_xlsx(simmed, me_name, disp, rec, xlsx_path, akey)
+    render_pdf(simmed, me_name, disp, rec, a.games, pdf_path, a.books, dkey)
 
 
-def render_xlsx(rows, me_name, disp, rec, path):
+def render_xlsx(rows, me_name, disp, rec, path, doc_key=None):
     """Analysis SPREADSHEET: Matchup Map (one row per archetype) + Threats & Plan (per archetype)."""
     from openpyxl import Workbook
     from openpyxl.styles import Font, PatternFill, Alignment
@@ -162,6 +174,9 @@ def render_xlsx(rows, me_name, disp, rec, path):
           [30, 30, 34, 30, 30, 26, 22, 26, 46], vcol=2)
     for r in range(2, ws2.max_row + 1):
         ws2.row_dimensions[r].height = 108
+    if doc_key:
+        V.stamp_xlsx(wb, doc_key)              # version/date into every sheet's print header+footer
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     wb.save(path)
     print(f"# analysis  -> {path}", file=sys.stderr)
 
@@ -195,17 +210,18 @@ td.n{font-weight:bold;font-size:13px;text-align:center}
 """
 
 
-def render_pdf(rows, me_name, disp, rec, games, path, books=14):
+def render_pdf(rows, me_name, disp, rec, games, path, books=14, doc_key=None):
     e = _html.escape
     import re as _re
     boldrb = lambda s: _re.sub(r"^(READ:|WIN CONDITION:|POSTURE:|DEPLOYMENT:|THE TRAP:|PRIORITY KILLS.*?:|"
                               r"PLAY AROUND.*?:|YOUR WORKHORSES.*?:|YOUR LIABILITIES.*?:|BOARD CONTROL.*?:)",
                               r"<b>\1</b>", e(s), flags=_re.M)
+    ver_line = f" &middot; <b>{e(V.cover_line(doc_key))}</b>" if doc_key else ""
     H = [f"<html><head><meta charset='utf-8'><style>{_PDF_CSS}</style></head><body>",
          "<div class='eyebrow'>Imperial Knights · Field Manual</div>",
          f"<h1>{e(me_name)}</h1>",
          f"<div class='sub'>vs the {e(rec['event'])} field · {rec['n_lists']} lists / {rec['n_archetypes']} "
-         f"archetypes · {games} games/matchup</div>",
+         f"archetypes · {games} games/matchup{ver_line}</div>",
          f"<div class='sub'>Your locked disposition: <span class='disp'>{e(disp)}</span></div>",
          "<div class='note'><b>Read this first:</b> the VERDICT + how-to-play are hand-set from the Knights "
          "seat — that is the plan. The <b>Sim</b> column is the positional simulator: <b>directional only</b> "
@@ -247,6 +263,7 @@ def render_pdf(rows, me_name, disp, rec, games, path, books=14):
                      f"<div class='play'>{e(x['arch']['play'])}</div></div>")
     H.append(f"<div class='foot'>wh.sim positional simulator · mechanistic matchup analysis, not a win-rate "
              f"oracle · {len(rows)} archetypes · field: {e(rec['event'])}.</div></body></html>")
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     src = path.rsplit(".", 1)[0] + "_src.html"
     open(src, "w", encoding="utf-8").write("\n".join(H))
     try:

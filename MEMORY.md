@@ -128,6 +128,15 @@ event `VAiZ9vjF61Rk`, 330 players, starts 2026-08-01) is snapshotted locally. Se
   you — the holder you'd otherwise ignore) vs **two-for-one** (also a real threat). Flows to .md/PDF/field
   guide (all render `runbook.report`) + `structured()` → Excel (Top OC holder on the map, Board-lynchpins on
   Threats & Plan). Captures the board-control armies that win by holding, not killing.
+- **★★ DELIVERABLES LIVE IN `docs/reports/<army>/`, VERSIONED — NEVER loose in top-level `reports/` (user law
+  2026-07-30).** Top-level `reports/` is gitignored BUILD SCRATCH only. Every human-facing doc is registered in
+  `tools/doc_versions.py` (key → version/date/title/note/path) and written with a `-vX.Y` filename via
+  `V.out_path(key)`, stamped (xlsx print header/footer, PDF cover line, HTML header chip) — so a regen never
+  overwrites; bump the version+date (MINOR=content fix, MAJOR=new event/list) to cut a new file. LSO field keys:
+  `lso-field-dossier` (PDF+md), `lso-field-analysis` (xlsx), `lso-field-guide` (HTML = the Artifact),
+  `lso-field-roster` → `docs/reports/knights/LSO-Field-*-v1.0.*`. `bcp_dossier.py`/`make_fieldguide.py` map
+  `death_rnr`→these keys automatically. The published Field-Guide Artifact URL is FIXED
+  (95fdd9d5-0893-49e3-96b0-a26f7aa67ba1) — republish with `url=` to keep it when the file path changes.
 
 **★★ RULES I GOT WRONG — banked (user-corrected 2026-07-27). Verify sims/plans against these:**
 - **KILLING CHARACTERS needs [PRECISION].** A Character attached to a Bodyguard = a Leader; you CANNOT target/allocate to it — wounds hit the bodyguard. NO Knight weapon (nor GV Sternguard/cyclone/brick) has Precision -> you canNOT snipe attached chars at range. TOOL: **EPIC CHALLENGE (core strat 15.03, 1CP)** — in the Fight phase a friendly CHARACTER's melee weapons gain [PRECISION]. Castellan/Crusader/**Lancer are all CHARACTERs** (Helverin is not) -> the Lancer (S20 AP-3 D8) charges + Epic-Challenges = assassinate the attached char in MELEE. Standalone Monster/Vehicle/Titanic chars (Fulgrim/Magnus/Lion/DPs/Steel-Hammer superheavies/enemy Knights) = shoot/fight DIRECTLY. Lone Operatives = only targetable within 12". Shieldbreaker = Anti-TITANIC (enemy Knights/superheavies), NOT an infantry-character sniper.

@@ -32,18 +32,19 @@ export PYTHONPATH=src
 python3 tests/test_data.py                                       # data sanity
 python3 -m wh.sim.runbook knights custodes --games 30            # sim sanity (hand-built rosters, no DB)
 
-# 4. rebuild the gitignored DERIVED artifacts (one-time, deterministic from committed data):
+# 4. (optional) regenerate the versioned deliverables in docs/reports/knights/ (they're committed;
+#    this rewrites them deterministically from the committed data):
 python3 tools/bcp_db.py build data/bcp/lso2026-lists/_raw --db data/bcp/lso2026.sqlite --roster data/bcp/lso2026.json
 python3 tools/bcp_archetypes.py build                            # needs the sqlite from the line above
-PYTHONPATH=src python3 tools/bcp_dossier.py death_rnr --min 1     # death_rnr + all the reports (.md/.xlsx/.pdf)
-python3 tools/make_fieldguide.py                                 # -> reports/*-fieldguide.html
+PYTHONPATH=src python3 tools/bcp_dossier.py death_rnr --min 1     # -> docs/reports/knights/LSO-Field-{Dossier,Analysis}-vX.Y
+python3 tools/make_fieldguide.py                                 # -> docs/reports/knights/LSO-Field-Guide-vX.Y.html
 ```
 
 ### What's gitignored, and why it's safe
 
 | Ignored | Why it's fine |
 |---|---|
-| `reports/**` | derived — regenerate with step 4 |
+| `reports/**` | transient build scratch — deliverables live **versioned** in `docs/reports/<army>/` (committed); regenerate with step 4 |
 | `data/bcp/*.sqlite`, `*-archetypes.json` | derived from the committed `_raw/` JSONs + `archetype_notes.yaml` |
 | `data/_src/wh40k-11e/` (BSData clone) | only needed to **refresh** profiles after a GW dataslate — the built `data/bsdata/*.json` cuts are committed, so the sim runs without it |
 | `data/mfm/raw/*.html` | SSR cache — the parsed `data/mfm/*.json` points DB is committed |

@@ -11,10 +11,13 @@ coloured by verdict, with a sim-vs-verdict agreement glyph) + expandable runbook
 """
 import json, os, re, sys
 
+import doc_versions as V            # tools/ on sys.path (script dir)
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARCH = os.path.join(ROOT, "data", "bcp", "lso2026-archetypes.json")
-DOSSIER = os.path.join(ROOT, "reports", "death_rnr-field-dossier.md")
-OUT = os.path.join(ROOT, "reports", "death_rnr-fieldguide.html")
+# read the versioned dossier .md that bcp_dossier wrote (shares the -vX.Y stem), write the versioned HTML
+DOSSIER = os.path.join(ROOT, os.path.splitext(V.out_path("lso-field-dossier"))[0] + ".md")
+OUT = os.path.join(ROOT, V.out_path("lso-field-guide"))
 
 
 def parse_dossier(path):
@@ -92,7 +95,8 @@ def build():
     arches.sort(key=lambda x: (-x["n"], x["key"]))
     pindex = [{"name": n, "key": k} for n, k in sorted(rec["player_index"].items())]
     payload = {"me": me, "disp": disp, "meta": meta, "n_lists": rec["n_lists"],
-               "n_arch": rec["n_archetypes"], "arches": arches, "players": pindex}
+               "n_arch": rec["n_archetypes"], "arches": arches, "players": pindex,
+               "ver": V.cover_line("lso-field-guide")}
     open(OUT, "w", encoding="utf-8").write(TEMPLATE.replace("/*DATA*/", json.dumps(payload)))
     print(f"# wrote {OUT}  ({len(arches)} archetypes, {len(pindex)} players, {len(books)} runbooks)",
           file=sys.stderr)
@@ -262,7 +266,8 @@ let filter='all';
 document.getElementById('me').textContent = D.me;
 document.getElementById('brief').innerHTML =
   `vs the <b>${esc(D.meta)}</b> · ${D.n_lists} lists / ${D.n_arch} archetypes · your disposition `+
-  `<span class="disp-chip">${esc(D.disp)}</span>`;
+  `<span class="disp-chip">${esc(D.disp)}</span>` +
+  (D.ver ? ` &middot; <span class="disp-chip">${esc(D.ver)}</span>` : '');
 document.getElementById('foot').innerHTML =
   `Verdicts + how-to-play are hand-set from the Knights seat and are the plan. The <b>sim</b> read is the `+
   `positional simulator — <b>directional only</b>, it over-credits you in melee / vs reanimation & hordes, `+
