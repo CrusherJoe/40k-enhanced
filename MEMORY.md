@@ -119,6 +119,15 @@ event `VAiZ9vjF61Rk`, 330 players, starts 2026-08-01) is snapshotted locally. Se
   EC/Votann/Tyranid-Assimilation/TSons); derived `*-archetypes.json` is gitignored (rebuild: `bcp_archetypes.py build`).
   Field-by-verdict (lists): 81 coin-flip / 38 hard / 37 unfav / 21 fav / 11 mirror / 136 unscored long-tail (TODO: fill
   notes as runbooks get built). Use `who` at the table to know the archetype + plan from a player's name.
+- **★ RUNBOOKS ARE TWO-AXIS (added 2026-07-30, user-requested).** Beyond PRIORITY KILLS (damage — kill what
+  hurts you), every runbook now has **BOARD LYNCHPINS** (`runbook._lynchpins`): enemy units ranked by OC
+  contribution (base datasheet OC×models×copies = reliable, NOT sim-derived; sticky/OC-set buffs like Norn
+  OC15 / banners / reanimation aren't modelled — those stay in the archetype notes). Tagged **ANCHOR**
+  (durable via datasheet toughness≥8 / invuln≤4 / FNP / −1dmg / monster-vehicle → contest/out-position) vs
+  **SOFT OC** (chaff → clear with volume, firepower-as-denial), and **board-only** (high OC but <3 w/turn to
+  you — the holder you'd otherwise ignore) vs **two-for-one** (also a real threat). Flows to .md/PDF/field
+  guide (all render `runbook.report`) + `structured()` → Excel (Top OC holder on the map, Board-lynchpins on
+  Threats & Plan). Captures the board-control armies that win by holding, not killing.
 
 **★★ RULES I GOT WRONG — banked (user-corrected 2026-07-27). Verify sims/plans against these:**
 - **KILLING CHARACTERS needs [PRECISION].** A Character attached to a Bodyguard = a Leader; you CANNOT target/allocate to it — wounds hit the bodyguard. NO Knight weapon (nor GV Sternguard/cyclone/brick) has Precision -> you canNOT snipe attached chars at range. TOOL: **EPIC CHALLENGE (core strat 15.03, 1CP)** — in the Fight phase a friendly CHARACTER's melee weapons gain [PRECISION]. Castellan/Crusader/**Lancer are all CHARACTERs** (Helverin is not) -> the Lancer (S20 AP-3 D8) charges + Epic-Challenges = assassinate the attached char in MELEE. Standalone Monster/Vehicle/Titanic chars (Fulgrim/Magnus/Lion/DPs/Steel-Hammer superheavies/enemy Knights) = shoot/fight DIRECTLY. Lone Operatives = only targetable within 12". Shieldbreaker = Anti-TITANIC (enemy Knights/superheavies), NOT an infantry-character sniper.
