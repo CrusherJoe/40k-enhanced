@@ -137,6 +137,10 @@ event `VAiZ9vjF61Rk`, 330 players, starts 2026-08-01) is snapshotted locally. Se
   `lso-field-roster` → `docs/reports/knights/death_rnr-LSO-Field-*-v2.0.*`. `bcp_dossier.py`/`make_fieldguide.py` map
   `death_rnr`→these keys automatically. The published Field-Guide Artifact URL is FIXED
   (95fdd9d5-0893-49e3-96b0-a26f7aa67ba1) — republish with `url=` to keep it when the file path changes.
+  Deliverables now at **v2.0** with a `death_rnr-` filename prefix. **RETIRED (2026-07-30):** the old
+  List-A / pre-field Knights LSO docs (Knights-List-A-*, LSO-Runbook-v1.3, LSO-Knights-List-*) moved to
+  `docs/reports/_superseded/knights-list-a/` (their doc_versions keys lso-runbook/lso-analysis/lso-decision/
+  knights-runbook/knights-analysis repointed there) — superseded by the death_rnr field set; NOT the current plan.
 
 **★★ RULES I GOT WRONG — banked (user-corrected 2026-07-27). Verify sims/plans against these:**
 - **KILLING CHARACTERS needs [PRECISION].** A Character attached to a Bodyguard = a Leader; you CANNOT target/allocate to it — wounds hit the bodyguard. NO Knight weapon (nor GV Sternguard/cyclone/brick) has Precision -> you canNOT snipe attached chars at range. TOOL: **EPIC CHALLENGE (core strat 15.03, 1CP)** — in the Fight phase a friendly CHARACTER's melee weapons gain [PRECISION]. Castellan/Crusader/**Lancer are all CHARACTERs** (Helverin is not) -> the Lancer (S20 AP-3 D8) charges + Epic-Challenges = assassinate the attached char in MELEE. Standalone Monster/Vehicle/Titanic chars (Fulgrim/Magnus/Lion/DPs/Steel-Hammer superheavies/enemy Knights) = shoot/fight DIRECTLY. Lone Operatives = only targetable within 12". Shieldbreaker = Anti-TITANIC (enemy Knights/superheavies), NOT an infantry-character sniper.

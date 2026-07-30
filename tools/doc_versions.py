@@ -20,15 +20,17 @@ import os
 
 # key -> (version, YYYY-MM-DD content date, human title, one-line note, versionless output path)
 DOCS = {
+    # --- RETIRED 2026-07-30: List-A / pre-field Knights LSO docs, superseded by the
+    #     death_rnr LSO FIELD set (lso-field-*). Kept in _superseded/ for reference. ---
     "lso-runbook":    ("1.3", "2026-07-27", "LSO Runbook — Imperial Knights",
                        "Meta add: Imperial Knights MIRROR (2Cas/1Lancer + 1Cas/2Lancer); SW Beastslayer; OC34.",
-                       "docs/reports/knights/LSO-Runbook.pdf"),
+                       "docs/reports/_superseded/knights-list-a/LSO-Runbook.pdf"),
     "lso-analysis":   ("1.3", "2026-07-27", "LSO Knights — List & Analysis",
                        "Meta add: Knights mirror matchups; SW Beastslayer; List A locked at 1,970.",
-                       "docs/reports/knights/LSO-Knights-List-and-Analysis.xlsx"),
+                       "docs/reports/_superseded/knights-list-a/LSO-Knights-List-and-Analysis.xlsx"),
     "lso-decision":   ("1.3", "2026-07-27", "LSO Knights — List Decision",
                        "Meta add: Knights mirror (best=B); SW Beastslayer; List A vs B, prevalence-weighted.",
-                       "docs/reports/knights/LSO-Knights-List-Decision.xlsx"),
+                       "docs/reports/_superseded/knights-list-a/LSO-Knights-List-Decision.xlsx"),
     "gv-runbook":     ("2.0", "2026-07-27", "Great Value — LSO Runbook",
                        "Sim now models GV board control from explicit OC bricks (OC34 + losable OC21 cyclone).",
                        "docs/reports/great-value/GV-LSO-Runbook.pdf"),
@@ -64,10 +66,10 @@ DOCS = {
                          "docs/reports/custodes/Custodes-Better-Thing-2-Runbook.pdf"),
     "knights-analysis": ("2.0", "2026-07-28", "Imperial Knights — LSO List A Analysis",
                          "Rebuilt on the real-mission engine (Purge the Foe, 10k games): great vs Priority-Assets, poor vs Take-and-Hold; ~46%.",
-                         "docs/reports/knights/Knights-List-A-Analysis.xlsx"),
+                         "docs/reports/_superseded/knights-list-a/Knights-List-A-Analysis.xlsx"),
     "knights-runbook": ("2.0", "2026-07-28", "Imperial Knights — LSO List A Runbook",
                         "Per-matchup plans keyed to the FORCED mission; the disposition-driven scoring split is the headline.",
-                        "docs/reports/knights/Knights-List-A-Runbook.pdf"),
+                        "docs/reports/_superseded/knights-list-a/Knights-List-A-Runbook.pdf"),
     # --- LSO 2026 FIELD deliverables: death_rnr vs the real 324-list BCP field (by archetype) ---
     "lso-field-dossier":  ("2.0", "2026-07-30", "LSO 2026 — Field Dossier (Death by Rock and Roll)",
                            "death_rnr vs the REAL 324-list LSO field, by archetype; each runbook has PRIORITY "
