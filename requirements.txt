@@ -1,1 +1,5 @@
 PyYAML>=6.0
+numpy>=1.24        # wh.sim positional simulator (combat/analyze)
+openpyxl>=3.1      # Excel analysis export (tools/bcp_dossier.py, wh.sim.dossier)
+# System dependency (NOT pip): LibreOffice `soffice` on PATH — renders the dossier/runbook PDFs.
+#   Ubuntu:  sudo apt-get install -y libreoffice-calc libreoffice-writer

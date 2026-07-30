@@ -73,8 +73,17 @@ Status:
   C'tan 33%; favourable vs glass/gunline). To work up any list: clone the gv_data pattern, point the sim at its real weapons, calibrate.
 - **Missions / secondaries / matrix / dispositions / layouts** = existing hand-authored `data/*.yaml` (TODO: builders from
   39k.pro / gdmissions.app / rules PDF). **Attachments (SUPPORT/LEADER→BODYGUARD)** + agents points → TODO.
-- **Portability**: `git clone` the repo + `git clone --depth 1 BSData/wh40k-11e data/_src/wh40k-11e` + `tools/refresh.py`.
-  A new box/Claude reads `MEMORY.md` + `data/README.md` and is operational.
+- **★★ PORTABILITY — 100% (verified 2026-07-30, for a move to a new Ubuntu box + new Claude account).**
+  EVERYTHING authoritative is committed: all `data/` (MFM points, BSData profile cuts `data/bsdata/*.json`,
+  strats, faction-packs, rules, listhammer archive, the whole LSO 2026 BCP field = 324 `_raw` list JSONs +
+  roster), the sim (`src/wh/sim`), every tool, and this `MEMORY.md`. **`README.md` has the fresh-box BOOTSTRAP**
+  (clone → `pip install -r requirements.txt` [PyYAML+numpy+openpyxl] + `soffice` → rebuild the derived artifacts).
+  Only DERIVED (reports/, `*.sqlite`, `*-archetypes.json`) + SECRETS (`.env.bcp`) + the BSData clone
+  (`data/_src`, needed only to REFRESH after a dataslate) are gitignored — all regenerate or aren't needed.
+  Clean-rebuild TESTED (delete sqlite+archetypes → `bcp_db.py build` + `bcp_archetypes.py build` → identical:
+  324 lists / 117 archetypes / 117 noted). A fresh Claude reads `MEMORY.md` + README bootstrap + `data/README.md`
+  + `data/bcp/README.md` + `tools/README.md` and is fully operational; the old `~/.claude` global memory does
+  NOT transfer and is NOT needed (this MEMORY.md is in-repo + self-contained).
 
 **★★ LSO 2026 FIELD DATABASE — the real target-event field, pulled 2026-07-29 (user IS Joe Beddoe, playing
 Imperial Knights List A — the list I helped build).** The whole LSO (Lone Star Open 2026 — 40k Champs, BCP

@@ -5,6 +5,62 @@ practice**. It models the 11th-edition army-building + mission system and helps
 answer: *which detachments should I bring, which army disposition should I
 commit to, and which missions will that make me play?*
 
+## Portability — moving to a new box / new Claude account
+
+**Everything authoritative is committed to git.** A `git clone` gives you the whole project:
+all hand-authored + ingested data (MFM points, BSData profile cuts, stratagems, faction packs,
+rules, the listhammer archive, the **LSO 2026 BCP field** — 324 raw list JSONs + roster), the
+positional sim (`src/wh/sim`), every tool, and the project's living memory (`MEMORY.md`). Only
+**derived** artifacts and **secrets** are gitignored — they rebuild from committed sources or
+aren't needed (see below). Nothing important lives only on the old box.
+
+### Fresh-box bootstrap
+
+```bash
+# 1. clone
+git clone https://github.com/CrusherJoe/40k-enhanced.git wh && cd wh
+
+# 2. deps  (Python + one system package for PDF export)
+pip install -r requirements.txt
+sudo apt-get install -y libreoffice-calc libreoffice-writer      # provides `soffice` for PDFs
+
+# 3. you are already operational — the committed data drives everything:
+export PYTHONPATH=src
+python3 tests/test_data.py                                       # data sanity
+python3 -m wh.sim.runbook knights custodes --games 30            # sim sanity (hand-built rosters, no DB)
+
+# 4. rebuild the gitignored DERIVED artifacts (one-time, deterministic from committed data):
+python3 tools/bcp_db.py build data/bcp/lso2026-lists/_raw --db data/bcp/lso2026.sqlite --roster data/bcp/lso2026.json
+python3 tools/bcp_archetypes.py build                            # needs the sqlite from the line above
+PYTHONPATH=src python3 tools/bcp_dossier.py death_rnr --min 1     # death_rnr + all the reports (.md/.xlsx/.pdf)
+python3 tools/make_fieldguide.py                                 # -> reports/*-fieldguide.html
+```
+
+### What's gitignored, and why it's safe
+
+| Ignored | Why it's fine |
+|---|---|
+| `reports/**` | derived — regenerate with step 4 |
+| `data/bcp/*.sqlite`, `*-archetypes.json` | derived from the committed `_raw/` JSONs + `archetype_notes.yaml` |
+| `data/_src/wh40k-11e/` (BSData clone) | only needed to **refresh** profiles after a GW dataslate — the built `data/bsdata/*.json` cuts are committed, so the sim runs without it |
+| `data/mfm/raw/*.html` | SSR cache — the parsed `data/mfm/*.json` points DB is committed |
+| `.env.bcp` | short-lived BCP token; only needed to **re-pull a new event's** lists (this event's are committed). See `data/bcp/README.md` |
+
+### Refresh after a GW dataslate (not needed for the move)
+
+```bash
+git clone --depth 1 https://github.com/BSData/wh40k-11e data/_src/wh40k-11e
+python3 tools/refresh.py            # re-ingest MFM points + rebuild BSData profile cuts
+```
+
+### For a fresh Claude Code session on the new box
+
+Read **`MEMORY.md`** (the project's laws, data-provenance rules, everything learned — incl. the
+BCP field pipeline, the `death_rnr` "me" list, the archetype layer) + **`data/README.md`** +
+**`data/bcp/README.md`** + **`tools/README.md`**. That's the full operating context. The old
+account's `~/.claude` global memory does **not** transfer and isn't needed — `MEMORY.md` is
+in-repo and self-contained.
+
 ## The 11e model
 
 - An army is **2000 pts** and gets **3 Detachment Points (DP)**.
