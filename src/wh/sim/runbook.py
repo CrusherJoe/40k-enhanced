@@ -175,20 +175,19 @@ def report(r):
          ""]
 
     lyn = _lynchpins(r)
-    L.append("BOARD LYNCHPINS (their OC backbone — who HOLDS the objectives; base OC, buffs/sticky not modelled):")
+    L.append("BOARD LYNCHPINS — who HOLDS the objectives  "
+             "(ANCHOR = durable, contest/out-position · SOFT = chaff, clear with volume):")
     if lyn:
         for x in lyn[:5]:
-            tag = ("ANCHOR — durable, hard to shift: contest / out-position, or commit a full turn to remove"
-                   if x["anchor"] else
-                   "SOFT OC — clear it with volume; every kill strips their scoring")
-            extra = "  [+ also hurts you — a two-for-one kill]" if x["threat"] else \
-                    "  [board-only — it barely touches you, but it's how they out-score you]"
+            kind = "ANCHOR" if x["anchor"] else "SOFT  "
+            role = "hurts you" if x["threat"] else "board-only"
             ocpm = getattr(x["e"]["u"], "oc", 1) or 0
-            units = f"{x['e']['cnt']} units" if x["e"]["cnt"] > 1 else "1 unit"
-            L.append(f"   - {x['e']['name'][:28]:28} OC {x['oc_total']:>3}  "
-                     f"({units} @ OC{ocpm}/model)  {tag}{extra}")
+            units = f"{x['e']['cnt']} units" if x["e"]["cnt"] > 1 else "1 unit "
+            L.append(f"   - {x['e']['name'][:20]:20} OC {x['oc_total']:>3} "
+                     f"({units} @ OC{ocpm}/model)  {kind} · {role}")
+        L.append("   (OC = base datasheet OC x models x copies; sticky/OC-set buffs are in the how-to-play note)")
     else:
-        L.append("   (no big OC blocks — they don't out-body you here; hold the objectives and the board is yours)")
+        L.append("   (no big OC blocks — hold the objectives and the board is yours)")
     L.append("")
 
     pk = _priority_kills(r)

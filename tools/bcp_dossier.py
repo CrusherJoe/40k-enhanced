@@ -223,7 +223,7 @@ def render_pdf(rows, me_name, disp, rec, games, path, books=14):
                  f"<td><span class='pill' style='{pill}'>{e(x['verdict'].split(' —')[0].split(' (')[0])}</span></td>"
                  f"<td>{e(x['read'])}</td><td style='font-variant-numeric:tabular-nums'>{mg}</td>"
                  f"<td>{e(short)}</td></tr>")
-    H.append(f"<h2>Runbooks — top {min(books, len(rows))} archetypes</h2>")
+    H.append(f"</table><h2>Runbooks — top {min(books, len(rows))} archetypes</h2>")
     for x in rows[:books]:
         if not x["r"]:
             continue
