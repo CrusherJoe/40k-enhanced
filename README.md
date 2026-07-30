@@ -7,6 +7,9 @@ commit to, and which missions will that make me play?*
 
 ## Portability — moving to a new box / new Claude account
 
+> **Moving the project to a new machine? → see [`HOW-TO-CHANGE-BOXES-JOE.md`](HOW-TO-CHANGE-BOXES-JOE.md)** —
+> the plain-English, step-by-step handoff guide. The section below is the same thing in reference form.
+
 **Everything authoritative is committed to git.** A `git clone` gives you the whole project:
 all hand-authored + ingested data (MFM points, BSData profile cuts, stratagems, faction packs,
 rules, the listhammer archive, the **LSO 2026 BCP field** — 324 raw list JSONs + roster), the

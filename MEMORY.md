@@ -74,7 +74,8 @@ Status:
 - **Missions / secondaries / matrix / dispositions / layouts** = existing hand-authored `data/*.yaml` (TODO: builders from
   39k.pro / gdmissions.app / rules PDF). **Attachments (SUPPORT/LEADER→BODYGUARD)** + agents points → TODO.
 - **★★ PORTABILITY — 100% (verified 2026-07-30, for a move to a new Ubuntu box + new Claude account).**
-  EVERYTHING authoritative is committed: all `data/` (MFM points, BSData profile cuts `data/bsdata/*.json`,
+  **Step-by-step move guide for the user = `HOW-TO-CHANGE-BOXES-JOE.md`** (plain-English; README has the
+  reference version). EVERYTHING authoritative is committed: all `data/` (MFM points, BSData profile cuts `data/bsdata/*.json`,
   strats, faction-packs, rules, listhammer archive, the whole LSO 2026 BCP field = 324 `_raw` list JSONs +
   roster), the sim (`src/wh/sim`), every tool, and this `MEMORY.md`. **`README.md` has the fresh-box BOOTSTRAP**
   (clone → `pip install -r requirements.txt` [PyYAML+numpy+openpyxl] + `soffice` → rebuild the derived artifacts).
