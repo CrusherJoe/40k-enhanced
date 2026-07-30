@@ -12,7 +12,7 @@ armylist endpoint (one logged-in bearer token; the roster itself is public).
 | `lso2026-lists/*.txt` | one decklist per player (`<player>_<faction>_<listId>.txt`), header + army text |
 | `lso2026-lists/_raw/*.json` | the full raw `/armylists/<id>` records (source of truth for the DB) |
 | `lso2026.sqlite` | **the queryable DB** — built from `_raw/` (gitignored; rebuild with one command) |
-| `../../docs/reports/knights/LSO-Roster-v1.0.html` | filterable roster page, each name linked to its BCP list (versioned deliverable) |
+| `../../docs/reports/knights/death_rnr-LSO-Roster-v2.0.html` | filterable roster page, each name linked to its BCP list (versioned deliverable) |
 
 ## Rebuild / refresh
 
@@ -20,7 +20,7 @@ armylist endpoint (one logged-in bearer token; the roster itself is public).
 # 1. roster + decklists (decklists need a fresh bearer token in ../../.env.bcp)
 python3 tools/bcp_pull.py VAiZ9vjF61Rk \
     --store data/bcp/lso2026.json \
-    --html  docs/reports/knights/LSO-Roster-v1.0.html \
+    --html  docs/reports/knights/death_rnr-LSO-Roster-v2.0.html \
     --fetch-lists data/bcp/lso2026-lists          # resumable; skips already-saved
 
 # 2. (re)build the SQLite DB from the raw JSONs

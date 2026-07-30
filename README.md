@@ -36,8 +36,8 @@ python3 -m wh.sim.runbook knights custodes --games 30            # sim sanity (h
 #    this rewrites them deterministically from the committed data):
 python3 tools/bcp_db.py build data/bcp/lso2026-lists/_raw --db data/bcp/lso2026.sqlite --roster data/bcp/lso2026.json
 python3 tools/bcp_archetypes.py build                            # needs the sqlite from the line above
-PYTHONPATH=src python3 tools/bcp_dossier.py death_rnr --min 1     # -> docs/reports/knights/LSO-Field-{Dossier,Analysis}-vX.Y
-python3 tools/make_fieldguide.py                                 # -> docs/reports/knights/LSO-Field-Guide-vX.Y.html
+PYTHONPATH=src python3 tools/bcp_dossier.py death_rnr --min 1     # -> docs/reports/knights/death_rnr-LSO-Field-{Dossier,Analysis}-vX.Y
+python3 tools/make_fieldguide.py                                 # -> docs/reports/knights/death_rnr-LSO-Field-Guide-vX.Y.html
 ```
 
 ### What's gitignored, and why it's safe

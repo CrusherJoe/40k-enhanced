@@ -134,7 +134,7 @@ event `VAiZ9vjF61Rk`, 330 players, starts 2026-08-01) is snapshotted locally. Se
   `V.out_path(key)`, stamped (xlsx print header/footer, PDF cover line, HTML header chip) — so a regen never
   overwrites; bump the version+date (MINOR=content fix, MAJOR=new event/list) to cut a new file. LSO field keys:
   `lso-field-dossier` (PDF+md), `lso-field-analysis` (xlsx), `lso-field-guide` (HTML = the Artifact),
-  `lso-field-roster` → `docs/reports/knights/LSO-Field-*-v1.0.*`. `bcp_dossier.py`/`make_fieldguide.py` map
+  `lso-field-roster` → `docs/reports/knights/death_rnr-LSO-Field-*-v2.0.*`. `bcp_dossier.py`/`make_fieldguide.py` map
   `death_rnr`→these keys automatically. The published Field-Guide Artifact URL is FIXED
   (95fdd9d5-0893-49e3-96b0-a26f7aa67ba1) — republish with `url=` to keep it when the file path changes.
 

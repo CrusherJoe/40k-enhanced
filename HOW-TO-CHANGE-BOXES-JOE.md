@@ -76,10 +76,10 @@ python3 tools/make_fieldguide.py
 ```
 
 Your deliverables are now in **`docs/reports/knights/`**, each with a version number in the name:
-- `LSO-Field-Dossier-v1.0.pdf` — the printable dossier
-- `LSO-Field-Analysis-v1.0.xlsx` — the Excel
-- `LSO-Field-Guide-v1.0.html` — the interactive field guide
-- `LSO-Roster-v1.0.html` — the linked player roster
+- `death_rnr-LSO-Field-Dossier-v2.0.pdf` — the printable dossier
+- `death_rnr-LSO-Field-Analysis-v2.0.xlsx` — the Excel
+- `death_rnr-LSO-Field-Guide-v2.0.html` — the interactive field guide
+- `death_rnr-LSO-Roster-v2.0.html` — the linked player roster
 
 (The version number means a re-run with bumped content never overwrites the old one — you won't
 lose track. The top-level `reports/` folder is just throwaway build scratch.)
@@ -102,7 +102,7 @@ If both print sensible output, the move is done. ✅
 
 1. **The field guide's web link.** The interactive field guide was published to *my old
    Claude account*, so that URL won't work from the new account. **The file itself travels fine**
-   — after STEP 3 you have `docs/reports/knights/LSO-Field-Guide-v1.0.html` locally. On the new account just
+   — after STEP 3 you have `docs/reports/knights/death_rnr-LSO-Field-Guide-v2.0.html` locally. On the new account just
    ask Claude to **"publish the field guide as an artifact"** and you'll get a fresh link. (Or
    just open the HTML file in a browser — it works offline, no server needed.)
 

@@ -69,21 +69,21 @@ DOCS = {
                         "Per-matchup plans keyed to the FORCED mission; the disposition-driven scoring split is the headline.",
                         "docs/reports/knights/Knights-List-A-Runbook.pdf"),
     # --- LSO 2026 FIELD deliverables: death_rnr vs the real 324-list BCP field (by archetype) ---
-    "lso-field-dossier":  ("1.0", "2026-07-30", "LSO 2026 — Field Dossier (Death by Rock and Roll)",
+    "lso-field-dossier":  ("2.0", "2026-07-30", "LSO 2026 — Field Dossier (Death by Rock and Roll)",
                            "death_rnr vs the REAL 324-list LSO field, by archetype; each runbook has PRIORITY "
                            "KILLS (damage) + BOARD LYNCHPINS (OC/board-control).",
-                           "docs/reports/knights/LSO-Field-Dossier.pdf"),
-    "lso-field-analysis": ("1.0", "2026-07-30", "LSO 2026 — Field Analysis",
+                           "docs/reports/knights/death_rnr-LSO-Field-Dossier.pdf"),
+    "lso-field-analysis": ("2.0", "2026-07-30", "LSO 2026 — Field Analysis",
                            "Matchup Map + Threats & Plan over the real field; verdict-coloured, Top-OC holder + "
                            "board lynchpins per archetype.",
-                           "docs/reports/knights/LSO-Field-Analysis.xlsx"),
-    "lso-field-guide":    ("1.0", "2026-07-30", "LSO 2026 — Interactive Field Guide",
+                           "docs/reports/knights/death_rnr-LSO-Field-Analysis.xlsx"),
+    "lso-field-guide":    ("2.0", "2026-07-30", "LSO 2026 — Interactive Field Guide",
                            "Enemy-pilot lookup + verdict-filtered threat map + runbooks; self-contained HTML "
                            "(also the published Artifact).",
-                           "docs/reports/knights/LSO-Field-Guide.html"),
-    "lso-field-roster":   ("1.0", "2026-07-30", "LSO 2026 — Roster (linked)",
+                           "docs/reports/knights/death_rnr-LSO-Field-Guide.html"),
+    "lso-field-roster":   ("2.0", "2026-07-30", "LSO 2026 — Roster (linked)",
                            "All 330 players, each name linked to their BCP list; filterable by faction.",
-                           "docs/reports/knights/LSO-Roster.html"),
+                           "docs/reports/knights/death_rnr-LSO-Roster.html"),
 }
 
 
