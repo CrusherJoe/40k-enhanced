@@ -25,7 +25,7 @@ data/mfm/raw/
 # cron logs (local)
 logs/
 # generated dossiers/runbooks, one folder per list (regenerate with wh.sim.dossier)
-reports/
+/reports/
 .env.bcp
 www.bestcoastpairings.com.har
 *.har
