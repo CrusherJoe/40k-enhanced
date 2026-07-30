@@ -183,8 +183,10 @@ def report(r):
                    "SOFT OC — clear it with volume; every kill strips their scoring")
             extra = "  [+ also hurts you — a two-for-one kill]" if x["threat"] else \
                     "  [board-only — it barely touches you, but it's how they out-score you]"
-            cnt = f"{x['e']['cnt']}x {x['oc_per']}" if x["e"]["cnt"] > 1 else f"{x['oc_per']}"
-            L.append(f"   - {_nm(x['e']):30} OC {x['oc_total']:>3} ({cnt})  {tag}{extra}")
+            ocpm = getattr(x["e"]["u"], "oc", 1) or 0
+            units = f"{x['e']['cnt']} units" if x["e"]["cnt"] > 1 else "1 unit"
+            L.append(f"   - {x['e']['name'][:28]:28} OC {x['oc_total']:>3}  "
+                     f"({units} @ OC{ocpm}/model)  {tag}{extra}")
     else:
         L.append("   (no big OC blocks — they don't out-body you here; hold the objectives and the board is yours)")
     L.append("")
@@ -308,8 +310,9 @@ def structured(r):
         play_around=[(_nm(e), round(100 * e["surv"]), round(e["dmg"], 1)) for e in pa[:4]],
         workhorses=[(_nm(m), round(m["dealt"], 1), round(100 * m["surv"])) for m in work],
         liabilities=[(_nm(m), round(100 * m["surv"])) for m in weak],
-        lynchpins=[(_nm(x["e"]), x["oc_total"], round(100 * x["surv"]),
-                    "anchor" if x["anchor"] else "soft", round(x["dmg"], 1)) for x in lyn[:5]],
+        lynchpins=[(x["e"]["name"], x["oc_total"], round(100 * x["surv"]),
+                    "anchor" if x["anchor"] else "soft", round(x["dmg"], 1),
+                    x["e"]["cnt"], getattr(x["e"]["u"], "oc", 1) or 0) for x in lyn[:5]],
         board=[round(v, 1) for v in r["ctrl"]], oboard=[round(v, 1) for v in r["octrl"]],
         sec_lean=lean, sec_avoid=avoid, trap=_trap(r, pa))
 
