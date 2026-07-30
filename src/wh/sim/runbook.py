@@ -182,10 +182,9 @@ def report(r):
             kind = "ANCHOR" if x["anchor"] else "SOFT  "
             role = "hurts you" if x["threat"] else "board-only"
             ocpm = getattr(x["e"]["u"], "oc", 1) or 0
-            units = f"{x['e']['cnt']} units" if x["e"]["cnt"] > 1 else "1 unit "
-            L.append(f"   - {x['e']['name'][:20]:20} OC {x['oc_total']:>3} "
-                     f"({units} @ OC{ocpm}/model)  {kind} · {role}")
-        L.append("   (OC = base datasheet OC x models x copies; sticky/OC-set buffs are in the how-to-play note)")
+            L.append(f"   - {x['e']['name'][:30]:30} OC {x['oc_total']:>3}  "
+                     f"{x['e']['cnt']}u @OC{ocpm}  {kind} · {role}")
+        L.append("   (OC N = board total; '5u @OC2' = 5 units at OC2 per model; buffs/sticky in the how-to-play note)")
     else:
         L.append("   (no big OC blocks — hold the objectives and the board is yours)")
     L.append("")

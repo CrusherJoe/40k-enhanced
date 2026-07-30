@@ -183,7 +183,7 @@ th{background:#20242b;color:#fff;text-align:left;padding:5px 7px;font-size:10px}
 td{padding:5px 7px;border-bottom:1px solid #e0dccf;vertical-align:top}
 td.n{font-weight:bold;font-size:13px;text-align:center}
 .pill{padding:2px 7px;font-weight:bold;font-size:10px;white-space:nowrap}
-.book{margin:16px 0 0;padding-top:9px;border-top:1px solid #d8d2c4;page-break-inside:avoid}
+.book{margin:20px 0 0;page-break-inside:avoid}   /* NO border-top: soffice propagates it to every <pre> line as a hairline rule; the coloured bold title separates books */
 .book .bt{font-weight:bold;font-size:14px}
 .book .bmeta{font-family:'DejaVu Sans Mono',monospace;font-size:9px;color:#7a7f88;margin:2px 0 6px}
 .book .play{font-size:10.5px;color:#22262d;margin:0 0 7px}
