@@ -29,5 +29,7 @@ reports/
 .env.bcp
 www.bestcoastpairings.com.har
 *.har
-data/bcp/*.sqlite
+# BCP tournament DBs ARE committed (private repo) -- they are ingested data we built.
+data/bcp/*.sqlite-wal
+data/bcp/*.sqlite-shm
 data/bcp/*-archetypes.json
