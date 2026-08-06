@@ -106,6 +106,29 @@ def _in_range(unit, target, w):
     return dist(unit.pos, target.pos) <= w["rng"]
 
 
+def _engaged(u, opp):
+    """Is this unit within Engagement Range of any enemy (locked in melee)? Then it may only shoot PISTOLs,
+    and only at what it's engaged with. Threshold matches the fight phase's engagement test (3\" + the
+    other unit's footprint) — NOT both radii, which over-flagged distant units as locked."""
+    return any(e.alive and dist(u.pos, e.pos) <= 3.0 + e.radius for e in opp.on_board())
+
+
+def _can_fire(w, engaged, advanced):
+    """11E firing eligibility for a weapon PROFILE given the unit's state:
+      - ENGAGED (locked in melee): only [PISTOL] weapons may fire (at the unit you're engaged with).
+      - ADVANCED this turn: only [ASSAULT] weapons may fire.
+      - otherwise: any weapon.
+    Note [ASSAULT] weapons fire whether or not you Advanced — the Advance branch permits them, and a
+    non-advanced unit reaches the final `return True` (all weapons, Assault included). Nothing but being
+    locked in melee ever stops an Assault weapon from firing."""
+    kw = w.get("abilities", [])
+    if engaged:
+        return "PISTOL" in kw
+    if advanced:
+        return "ASSAULT" in kw
+    return True
+
+
 def _shoot(me, opp, board, rng):
     focus = {}                                               # units already shooting each target
     held, _ = board.control([me, opp])                       # for VP-aware target priority
@@ -118,11 +141,20 @@ def _shoot(me, opp, board, rng):
     for u in shooters:
         if u.fell_back or not u.ranged:
             continue
+        # ASSAULT / PISTOL / engagement: an ADVANCED unit fires only [ASSAULT] weapons; a unit locked in
+        # melee fires only [PISTOL] weapons (at the enemy it's engaged with). Skip if nothing can fire.
+        engaged = _engaged(u, opp)
+        if not any(_can_fire(w, engaged, u.advanced) for w in u.ranged):
+            continue
         # GEOMETRIC LoS: you can only shoot targets you can SEE — Event-Companion ruins block the line,
         # AND intervening unit blobs SCREEN (a unit behind a screen can't be shot). This is the spatial
         # fix for shooting: you must clear the screen before the valuable unit behind it.
         blobs = me.on_board() + opp.on_board()
-        targets = [t for t in opp.on_board() if board.has_los(u.pos, t.pos) and not _screened(u, t, blobs)]
+        if engaged:                                          # PISTOLs: only the enemy you're locked with
+            targets = [t for t in opp.on_board()
+                       if dist(u.pos, t.pos) <= 3.0 + u.radius + t.radius and board.has_los(u.pos, t.pos)]
+        else:
+            targets = [t for t in opp.on_board() if board.has_los(u.pos, t.pos) and not _screened(u, t, blobs)]
         # PRECISION: this shooter can pick an attached CHARACTER out of its unit (the only way to target an
         # embedded leader in 11E — there is no Look Out Sir). It appears at its host's position.
         if "PRECISION" in u.keywords or u.abilities.get("precision"):
@@ -141,6 +173,8 @@ def _shoot(me, opp, board, rng):
         mods = _mods_for(u, best, army=me)
         stratagems.on_attack(me, opp, u, best, mods, "shoot")   # CP economy: attacker/defender may spend
         for w in _best_weapon_set(u, best, melee=False):
+            if not _can_fire(w, engaged, u.advanced):           # ASSAULT-only if advanced / PISTOL-only if engaged
+                continue
             if not _in_range(u, best, w):
                 continue
             half = dist(u.pos, best.pos) <= w["rng"] / 2
@@ -215,7 +249,7 @@ def _charge_and_fight(me, opp, rng, board):
     crange = 12 * min(1.4, max(0.5, _S(me).commit))
     held, _ = board.control([me, opp])                       # for VP-aware charge/fight priority
     for u in me.on_board():
-        if not u.melee or u.fell_back:
+        if not u.melee or u.fell_back or u.advanced:         # Advancing forbids charging this turn
             continue
         near = [t for t in opp.on_board() if 0 < dist(u.pos, t.pos) <= crange]
         if not near:
@@ -362,6 +396,20 @@ def _melee_primary(u, opp):
     return mbest >= rbest and u.role in ("line", "anti_tank", "fast", "character")
 
 
+def _should_advance(u, opp):
+    """Advance (Move + D6") when the extra reach helps AND the shooting given up isn't worth keeping:
+    no guns to forgo, or ALL guns are [ASSAULT] (so advancing costs nothing — the whole point of ASSAULT),
+    or the unit is a board-grabber (action/screen/fast) whose job is position, not this turn's shots. A
+    unit that wants to charge doesn't Advance (Advancing forbids charging)."""
+    if _melee_primary(u, opp):
+        return False
+    if not u.ranged:
+        return True
+    if all("ASSAULT" in w.get("abilities", []) for w in u.ranged):
+        return True
+    return u.role in ("action", "screen", "fast")
+
+
 def _move(me, opp, board, rnd, rng):
     """Objective-centric AI: every unit is assigned the objective it should contest/hold (spread across
     the board, weighted by need + reachability). Melee-primary units that find an enemy sitting ON their
@@ -402,7 +450,12 @@ def _move(me, opp, board, rnd, rng):
         if not moved:
             # LoS-AWARE HOLD: take the objective-adjacent spot hidden from the most enemy guns (ruin between
             # = ZERO fire). los_hold scales how hard the unit prioritises cover over standing on the point.
-            _step_toward(u, _covered_hold(u, dest, board, opp, S.los_hold), u.move + boost)
+            dest_pt = _covered_hold(u, dest, board, opp, S.los_hold)
+            step = u.move + boost
+            if dist(u.pos, dest_pt) > step and _should_advance(u, opp):
+                step += int(rng.integers(1, 7))       # ADVANCE +D6" (forfeits non-Assault shooting + charge)
+                u.advanced = True
+            _step_toward(u, dest_pt, step)
         if u.embarked and dist(u.pos, dest) <= 8:      # transport delivers its cargo onto the point
             _disembark(u, dest)
 
