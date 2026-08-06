@@ -2410,7 +2410,7 @@
   "listId": "lz3dMj9ew0IQ",
   "listUid": "ac0964f6300312f3fa",
   "listText": "(2000 points)\n\nNecrons\nAwakened Dynasty (3 Detachment Points)\nTake and Hold\nStrike Force (2000 points)\n\nAttached Units\nAttached Unit 1\n\nTechnomancer (80 points)\n\u2022 Attached as: Support (Character)\n\u2022 1x Staff of light\n\nCanoptek Wraiths (220 points)\n\u2022 Attached as: Bodyguard\n\u2022 6x Canoptek Wraith\n\u2022 6x Particle caster\n6x Vicious claws\n\nAttached Unit 2\n\nOverlord (90 points)\n\u2022 Attached as: Leader (Character)\n\u2022 1x Resurrection Orb\n1x Voidscythe\n\nImmortals (70 points)\n\u2022 Attached as: Bodyguard (Battleline)\n\u2022 5x Immortal\n\u2022 5x Close combat weapon\n5x Tesla carbine\n\nAttached Unit 3\n\nLokhust Lord (90 points)\n\u2022 Attached as: Leader (Character)\n\u2022 1x Lord\u2019s blade\n1x Resurrection Orb\n\u2022 Enhancement: Veil of Darkness\n\nLokhust Heavy Destroyers (160 points)\n\u2022 Attached as: Bodyguard\n\u2022 3x Lokhust Heavy Destroyer\n\u2022 3x Close combat weapon\n3x Enmitic exterminator\n\n\nCHARACTERS\n\nC\u2019tan Shard of the Nightbringer (360 points)\n\u2022 1x Gaze of death\n1x Scythe of the Nightbringer\n\nC\u2019tan Shard of the Void Dragon (345 points)\n\u2022 1x Canoptek tail blades\n1x Spear of the Void Dragon\n1x Voltaic storm\n\nHexmark Destroyer (75 points)\n\u2022 1x Close combat weapon\n1x Enmitic disintegrator pistols\n\nIlluminor Szeras (175 points)\n\u2022 1x Eldritch Lance\n1x Impaling legs\n\nImotekh the Stormlord (100 points)\n\u2022 Warlord\n\u2022 1x Gauntlet of Fire\n1x Staff of the Destroyer\n\nSkorpekh Lord (120 points)\n\u2022 1x Enmitic annihilator\n1x Flensing claw\n1x Hyperphase harvester\n\u2022 Enhancement: Enaegic Dermal Bond\n\n\nOTHER DATASHEETS\n\nCanoptek Reanimator (75 points)\n\u2022 2x Atomiser beam\n1x Reanimator\u2019s claws\n\nCanoptek Scarab Swarms (40 points)\n\u2022 3x Canoptek Scarab Swarm\n\u2022 3x Feeder mandibles\n\nExported with App Version: v2.3.0 (137), Data Version: v912",
-  "numberOfPlayers": 37,
+  "numberOfPlayers": 38,
   "detachment": "Awakened Dynasty",
   "disposition": "Take and Hold",
   "numberOfRounds": 5,
@@ -2983,6 +2983,27 @@
   "numberOfRounds": 5,
   "startDate": "2026-08-01",
   "eventUid": "af6e104871899ff261",
+  "isRtt": false
+ },
+ {
+  "eventId": "t6xJ1duT4yGP",
+  "playerId": "GFYLmmAhEW",
+  "playerUid": "93162bf47607461c98",
+  "playerName": "Michael Duff",
+  "faction": "Dark Angels",
+  "eventName": "Da Gathering GT",
+  "wins": 5,
+  "draws": 0,
+  "losses": 0,
+  "listId": "kl2WEaP8IuP6",
+  "listUid": "3fa8b08e17d9ee475a",
+  "listText": "DA - Recon (1995 points)\n\nSpace Marines\nDark Angels\nCompany of Hunters and Darkflight Pursuit (3 Detachment Points)\nReconnaissance\nStrike Force (2000 points)\n\nAttached Units\nAttached Unit 1\n\nAzrael (140 points)\n\u2022 Attached as: Leader (Character)\n\u2022 1x Lion\u2019s Wrath\n1x The Lion Helm\n1x The Sword of Secrets\n\nInner Circle Companions (160 points)\n\u2022 Attached as: Bodyguard\n\u2022 6x Inner Circle Companion\n\u2022 6x Calibanite greatsword\n6x Heavy bolt pistol\n\nAttached Unit 2\n\nSammael (95 points)\n\u2022 Attached as: Leader (Character)\n\u2022 1x Bolt Pistol\n1x Master-crafted plasma cannon\n1x The Raven Sword\n1x Twin storm bolter\n\nRavenwing Command Squad (125 points)\n\u2022 1x Ravenwing Champion\n\u2022 1x Bolt pistol\n1x Master-crafted power weapon\n1x Plasma talon\nEnhancement: Recon Hunter\n\u2022 1x Ravenwing Apothecary\n\u2022 1x Black Knight combat weapon\n1x Bolt pistol\n1x Plasma talon\n\u2022 1x Ravenwing Ancient\n\u2022 1x Black Knight combat weapon\n1x Bolt pistol\n1x Plasma talon\n\nOutrider Squad (70 points)\n\u2022 Attached as: Bodyguard (Battleline)\n\u2022 1x Outrider Sergeant\n\u2022 1x Astartes chainsword\n1x Heavy bolt pistol\n1x Twin bolt rifle\n\u2022 2x Outrider\n\u2022 2x Astartes chainsword\n2x Heavy bolt pistol\n2x Twin bolt rifle\n\n\nCHARACTERS\n\nLion El\u2019Jonson (265 points)\n\u2022 Warlord\n\u2022 1x Arma Luminis\n1x Fealty\n\n\nBATTLELINE\n\nIntercessor Squad (80 points)\n\u2022 1x Intercessor Sergeant\n\u2022 1x Astartes grenade launcher\n1x Bolt pistol\n1x Bolt rifle\n1x Power fist\n\u2022 4x Intercessor\n\u2022 4x Bolt pistol\n4x Bolt rifle\n4x Close combat weapon\n\n\nOTHER DATASHEETS\n\nLand Speeder (105 points)\n\u2022 1x Close-combat weapon\n1x Multi-melta\n1x Onslaught gatling cannon\n1x Stormfury missile launcher\n\nLand Speeder (105 points)\n\u2022 1x Close-combat weapon\n1x Multi-melta\n1x Onslaught gatling cannon\n1x Stormfury missile launcher\n\nLand Speeder Vengeance (145 points)\n\u2022 1x Assault cannon\n1x Close combat weapon\n1x Plasma storm battery\n\u2022 Enhancement: Nightforged Battery (Upgrade)\n\nLand Speeder Vengeance (145 points)\n\u2022 1x Assault cannon\n1x Close combat weapon\n1x Plasma storm battery\n\u2022 Enhancement: Nightforged Battery (Upgrade)\n\nLand Speeder Vengeance (155 points)\n\u2022 1x Assault cannon\n1x Close combat weapon\n1x Plasma storm battery\n\u2022 Enhancement: Nightforged Battery (Upgrade)\n\nRavenwing Darkshroud (70 points)\n\u2022 1x Close combat weapon\n1x Heavy bolter\n\nScout Squad (65 points)\n\u2022 1x Scout Sergeant\n\u2022 1x Astartes chainsword\n1x Bolt pistol\n1x Close combat weapon\n\u2022 4x Scout\n\u2022 4x Bolt pistol\n4x Close combat weapon\n4x Combat knife\n\nStorm Speeder Thunderstrike (135 points)\n\u2022 1x Close combat weapon\n1x Stormfury missiles\n1x Thunderstrike las-talon\n1x Twin Icarus rocket pod\n\nStorm Speeder Thunderstrike (135 points)\n\u2022 1x Close combat weapon\n1x Stormfury missiles\n1x Thunderstrike las-talon\n1x Twin Icarus rocket pod\n\nExported with App Version: v2.3.0 (137), Data Version: v912",
+  "numberOfPlayers": 38,
+  "detachment": "Darkflight Pursuit | Company of Hunters",
+  "disposition": "Reconnaissance",
+  "numberOfRounds": 5,
+  "startDate": "2026-08-01",
+  "eventUid": "1e362797f434b69d1c",
   "isRtt": false
  }
 ]
