@@ -46,6 +46,7 @@ class Unit:
     advanced: bool = False
     fell_back: bool = False
     charged: bool = False
+    stationary: bool = False    # Remained Stationary this turn (enables [HEAVY] +1 to hit)
     reanimate: float = 0.0     # Necrons: fraction of lost wounds returned per turn
     embarked: list = field(default_factory=list)   # units this TRANSPORT is carrying
     transport: object = None   # the transport this unit is riding in (None = on the board)

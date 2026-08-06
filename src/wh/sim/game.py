@@ -45,6 +45,7 @@ def _mods_for(unit, target, charged=False, army=None):
         m.str_bonus = ab["str_charge"]                    # e.g. Blood Angels' Red Thirst: +2 S on the charge
     if ab.get("wound_charge") and charged:
         m.wound += ab["wound_charge"]
+    m.stationary = getattr(unit, "stationary", False)     # [HEAVY] +1 to hit if it Remained Stationary
     # ARMY RULE — OATH OF MOMENT (Adeptus Astartes). vs the Oath target: full re-roll Hits; +1 to Wound for
     # a Codex-SM detachment (no BA/DA/DW/SW); Caanok Var (Calculated Annihilation) adds re-roll Wound-1s AND
     # RE-SELECTS the target when it dies, so the benefit never wastes.
@@ -420,12 +421,13 @@ def _move(me, opp, board, rnd, rng):
     crowd = {}
     order = sorted(me.on_board(), key=lambda u: -u.eff_oc() - (2 if _melee_primary(u, opp) else 0))
     for u in order:
-        u.advanced = u.fell_back = u.charged = False
+        u.advanced = u.fell_back = u.charged = u.stationary = False
+        _sp = u.pos                                        # start position, to detect Remain Stationary
         # FALL BACK: a non-durable unit locked in melee by an enemy that would likely wipe it disengages to
         # preserve itself (and its VP) instead of standing to be tabled. It forfeits shooting/charging this
         # turn (the real cost). Durable bricks stay and TRADE — this is a losing-side-survives compression
         # lever, not a blanket retreat. (Revives u.fell_back, which was dead code — only ever reset.)
-        if _fall_back(u, opp, board):
+        if _fall_back(u, opp, board, rng):
             continue
         oi = _best_objective(u, board, held, me, opp, crowd)
         crowd[oi] = crowd.get(oi, 0) + 1
@@ -456,11 +458,13 @@ def _move(me, opp, board, rnd, rng):
                 step += int(rng.integers(1, 7))       # ADVANCE +D6" (forfeits non-Assault shooting + charge)
                 u.advanced = True
             _step_toward(u, dest_pt, step)
+        # Remained Stationary if it effectively didn't move (and didn't Advance/Fall Back) -> HEAVY bonus
+        u.stationary = (not u.advanced and not u.fell_back and dist(u.pos, _sp) < 0.5)
         if u.embarked and dist(u.pos, dest) <= 8:      # transport delivers its cargo onto the point
             _disembark(u, dest)
 
 
-def _fall_back(u, opp, board):
+def _fall_back(u, opp, board, rng):
     """Decide + execute Fall Back. Returns True if the unit disengaged (and should skip its normal move).
     Trigger: the unit is a non-durable piece engaged by melee enemies whose expected damage would cripple
     it (>=60% of its wounds) if it stayed. It retreats directly away from the engagers toward its own
@@ -493,6 +497,13 @@ def _fall_back(u, opp, board):
     u.pos = (max(1.0, min(BOARD_W - 1, u.pos[0] + vx / vn * step)),
              max(1.0, min(BOARD_H - 1, u.pos[1] + vy / vn * step)))
     u.fell_back = True
+    # DESPERATE ESCAPE (09.07): a BATTLE-SHOCKED unit that Falls Back tests per model — each 1-2 loses a
+    # model. (A non-shocked unit only tests if it moves THROUGH enemies, which this away-move doesn't.)
+    if u.battle_shocked and u.models > 0:
+        lost = int((rng.integers(1, 7, u.models) <= 2).sum())
+        if lost:
+            u.models = max(0, u.models - lost)
+            u.cur_w = u.wounds if u.models > 0 else 0
     return True
 
 
@@ -579,6 +590,18 @@ def _arrive_reserves(me, opp, board, rnd, rng):
     for u in res[:k]:
         u.pos = (ox, oy + edge)
         u.in_reserve = False
+        if u.deep_strike:
+            # DEEP STRIKE (24.09): set up >9" from every enemy. Push back if the drop landed closer, so a
+            # same-turn charge needs to cover >8" -> ~2D6>=9 (~28%), matching the real DS-charge odds.
+            foes = opp.on_board()
+            if foes:
+                ne = min(foes, key=lambda e: dist(u.pos, e.pos))
+                if dist(u.pos, ne.pos) < 9.1:
+                    import math
+                    vx, vy = u.pos[0] - ne.pos[0], u.pos[1] - ne.pos[1]
+                    n = math.hypot(vx, vy) or 1.0
+                    u.pos = (max(1.0, min(BOARD_W - 1, ne.pos[0] + vx / n * 9.1)),
+                             max(1.0, min(BOARD_H - 1, ne.pos[1] + vy / n * 9.1)))
 
 
 def _select_oath(army, opp):
