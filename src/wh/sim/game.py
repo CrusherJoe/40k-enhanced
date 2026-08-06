@@ -304,6 +304,7 @@ def _charge_and_fight(me, opp, rng, board):
         engaged = [t for t in foe.on_board() if dist(u.pos, t.pos) <= 3.0 + t.radius]
         if not engaged:
             continue
+        _pile_in(u, foe)                                     # up to 3" toward the closest enemy (12.03)
         def mval(t):
             dmg = _expected_vs(u, t, melee=True)
             frac = min(1.0, dmg / max(1.0, t.total_w))
@@ -327,6 +328,31 @@ def _charge_and_fight(me, opp, rng, board):
             t._dv_used = True
             apply_damage(u, np.zeros(0, dtype=int), int(rng.integers(1, 4)), rng)
         u.fought = True
+        _consolidate(u, foe, board)                          # up to 3" — grab a nearby objective (12.08)
+
+
+def _pile_in(u, foe):
+    """Pile-in (12.03): up to 3" toward the closest enemy model, before making attacks."""
+    foes = [e for e in foe.on_board() if e.alive]
+    if foes:
+        _step_toward(u, min(foes, key=lambda e: dist(u.pos, e.pos)).pos, 3.0)
+
+
+def _consolidate(u, foe, board):
+    """Consolidate (12.08): up to 3" after fighting. Priority: (1) if standing on an objective, stay
+    centred on it — never consolidate OFF a point you control; (2) else if still in a fight, edge toward
+    the closest enemy to keep the lock; (3) else combat is over — grab the closest reachable objective."""
+    on_obj = [o for o in board.objectives if dist(u.pos, o) <= 3.0]
+    if on_obj:
+        _step_toward(u, min(on_obj, key=lambda o: dist(u.pos, o)), 3.0)
+        return
+    foes = [e for e in foe.on_board() if e.alive and dist(u.pos, e.pos) <= 6.0]
+    if foes:
+        _step_toward(u, min(foes, key=lambda e: dist(u.pos, e.pos)).pos, 3.0)
+        return
+    reach = [o for o in board.objectives if dist(u.pos, o) <= 6.0]
+    if reach:
+        _step_toward(u, min(reach, key=lambda o: dist(u.pos, o)), 3.0)     # combat over -> grab a point
 
 
 def _interleave(a, b):
