@@ -590,16 +590,29 @@ def _select_oath(army, opp):
     army._oath_target = max(foes, key=lambda t: t.threat) if foes else None
 
 
-def _command(me, rnd):
+def _ld_val(ld):
+    """Numeric Ld target for a 2D6 leadership roll (stored as '6+' or an int); default 6."""
+    try:
+        return int(str(ld).rstrip("+"))
+    except (ValueError, TypeError):
+        return 6
+
+
+def _command(me, rnd, rng):
     if stratagems.ENABLED and getattr(me, "_strat", None) is None:
         stratagems.equip(me, getattr(me, "slug", None), getattr(me, "strat_dets", None))
     stratagems.turn_start(me)                    # reset per-turn CP budget + clear last turn's temp buffs
     me.cp += 1
     for u in me.on_board():
         u.fought = False
-        # battle-shock: below half strength -> Ld test (simplified: 8+ on 2d6 with Ld)
-        if u.models * 2 < u.start_strength:
-            u.battle_shocked = False   # Custodes/most pass reliably; opponents handled in roster ld
+        # BATTLE-SHOCK (08.03 / 01.07): a unit AT OR BELOW half-strength (or already battle-shocked) tests
+        # leadership — 2D6 >= a Ld in the unit. Fail -> battle-shocked until a later test passes: OC becomes
+        # 0 (can't hold objectives, via eff_oc) and it can't be targeted by stratagems. Real morale variance,
+        # and below-half hordes stop scoring.
+        if u.battle_shocked or u.models * 2 <= u.start_strength:
+            u.battle_shocked = int(rng.integers(1, 7) + rng.integers(1, 7)) < _ld_val(u.ld)
+        else:
+            u.battle_shocked = False
 
 
 def _reanimate(army, rng):
@@ -638,7 +651,7 @@ def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
     for rnd in range(1, 6):
         for me in order:
             opp = armyB if me is armyA else armyA
-            _command(me, rnd)
+            _command(me, rnd, rng)
             _select_oath(me, opp)                            # Army rule: pick the Oath of Moment target
             _arrive_reserves(me, opp, board, rnd, rng)
             board.update_cover(armies)

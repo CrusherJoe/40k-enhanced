@@ -169,6 +169,7 @@ class Board:
         self.fwd = self.dep["fwd"]
         self.home = self.dep["home"]
         self.ruins = list(ruins) if ruins is not None else list(self.dep["ruins"])
+        self.secured = {}          # obj index -> side that has SECURED it (14.03); sticky until out-controlled
 
     def has_los(self, p1, p2):
         """Line of sight p1->p2 unless a ruin blocks it. A ruin does NOT block if a shooter/target is
@@ -184,14 +185,33 @@ class Board:
         return any(_inside(pos, r, 2.0) for r in self.ruins)
 
     def control(self, armies):
+        """Level of Control (14.02): higher OC total within range controls; a TIE = neither — UNLESS the
+        objective is SECURED (14.03), in which case the securing side keeps it (even with no models there)
+        until the opponent's OC is strictly greater. Identical to plain presence-control when no unit has a
+        securing ability (self.secured stays empty)."""
         held = {}
         for i, o in enumerate(self.objectives):
             oc = {"A": 0, "B": 0}
+            secures = {"A": False, "B": False}
             for army in armies:
                 for u in army.on_board():
                     if dist(u.pos, o) <= 3.0:
-                        oc[u.side] += u.eff_oc()
-            held[i] = ("A" if oc["A"] > oc["B"] else "B" if oc["B"] > oc["A"] else None)
+                        e = u.eff_oc()
+                        oc[u.side] += e
+                        if e > 0 and u.abilities.get("secures"):
+                            secures[u.side] = True
+            a, b = oc["A"], oc["B"]
+            cur = self.secured.get(i)
+            if a != b:
+                winner = "A" if a > b else "B"
+                loser = "B" if winner == "A" else "A"
+                if cur and cur == loser and oc[winner] > oc[loser]:
+                    self.secured.pop(i, None)           # out-controlled -> secured lost
+                if secures[winner]:
+                    self.secured[i] = winner            # (re)secure it while controlling
+                held[i] = winner
+            else:                                        # tie or empty: a secured holder keeps it
+                held[i] = cur if cur else None
         return held, None
 
     def update_cover(self, armies):

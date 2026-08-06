@@ -82,6 +82,8 @@ def classify(text):
         (fx["melee_kw"] if melee else fx["ranged_kw"]).append("DEVASTATING WOUNDS")
     if "[PRECISION]" in t or "PRECISION] ABILITY" in t or "THE PRECISION" in t:
         fx["unit_ability"]["precision"] = True
+    if "SECURED BY" in U or "IS SECURED" in U or "OBJECTIVE SECURED" in U:
+        fx["unit_ability"]["secures"] = True              # sticky objective control (14.03)
     if "IGNORES COVER" in t:
         fx["ranged_kw"].append("IGNORES COVER")
     if "ARMOUR PENETRATION" in t or "ARMOR PENETRATION" in t:
