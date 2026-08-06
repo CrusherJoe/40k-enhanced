@@ -111,11 +111,24 @@ Everything load-bearing for a positional VP sim is now modelled. The remainder i
 - **🟡 Approximations (blob limits):** Engagement Range 3" vs 2"; objectives as point+radius vs footprints;
   vertical/true-3D LoS via the `tall` flag; obscuring light/dense split; wound-allocation via the attach model.
 - **⚪ N/A:** Hover/Aircraft (no such units in the meta rosters).
-- **The dominant remaining ERROR is NOT here** — it's the **combat-model over-strength of Custodes elite
-  melee** (BA/Orks/TSons overshoot; aeldari −41). That is a research-level combat rework, separate from the
-  core-mechanic coverage this matrix tracks. Anchor werr moved 25.5 (pre-tapestry) → ~20-21 across this work;
-  rules-correct changes that reduce a loser's output can raise it against that single-army, combat-biased
-  baseline without being wrong (see [[wh-40k-project]]).
+- **The dominant remaining ERROR is NOT here** — it's the **combat-model equilibrium**, and it is now
+  DIAGNOSED (2026-08-06; `tools/sim_winmode_diag.py`):
+  - Every anchor is decided on **VP/scoring, not tabling** (tabling 0–22%). `combat.resolve_attacks`
+    matches mathhammer — the **dice are correct**.
+  - **Overshoot** (BA 84/50, Orks 71/40, TSons 64/39): vs SLOW armies Custodes sit and OUTSCORE (BA scores
+    only 27 VP). **Undershoot** (aeldari 16/58, tau 24/40, tyranids 18/52): vs FAST/durable armies Custodes
+    are OUTSCORED — they survive but can't contest/hold the mid or can't crack the durable centrepiece.
+  - A **CONTEST-the-mid movement posture was TESTED and REVERTED** (tau worse, DA overshot, werr 19.8→22.6):
+    pushing a slow durable army forward just gets it shot or overshoots the killable ones. The archetype
+    profiler also lumps overshoot (orks/TSons) and undershoot (aeldari/tyranids) both as "balanced" — no
+    clean feature separates them.
+  - **CONCLUSION:** this is NOT a fixable mechanics bug and NOT a tuning pass. The sim faithfully computes a
+    simplified game whose (mathhammer-correct) combat equilibrium is more extreme than real 40k, which
+    compresses to 40–58% via list variety, player skill, real lists differing from the curated rosters, and
+    secondary nuance. No movement/durability knob closes it (confirmed here + across the prior effort). Use
+    the sim **mechanistically** (its stated purpose); the win% is DIRECTIONAL for these extremes. A true fix
+    is a different combat PARADIGM (research), not calibration. Anchor werr 25.5 (pre-tapestry) → **~19.8**
+    across all this work — treat it as a THRASH-GUARD, not a target (see [[wh-40k-project]]).
 
 ## Two axes of completeness (standing law)
 - **Rules-stack** (per list): [[tapestry-full-rules-stack]] — Army→…→Weapon/Wargear every time.

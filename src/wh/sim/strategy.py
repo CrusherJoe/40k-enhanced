@@ -90,6 +90,9 @@ def archetype(army):
 # rows = the acting army's archetype; picks how IT should play given the opponent.
 def select(me_arch, opp_arch):
     if me_arch == "durable-elite":                   # Custodes
+        # NOTE (2026-08-06): a CONTEST-the-mid posture vs mobile/gunline was TESTED and REVERTED — pushing a
+        # slow durable army forward just gets it shot (tau worse) or overshoots the killable ones (DA +11).
+        # The fast-army "undershoot" has no movement fix; it's the combat-model wall (see the coverage matrix).
         return {"gunline": TURTLE, "mobile": HOLD, "alpha-melee": BRACE,
                 "grind": GRIND, "horde": GRIND, "balanced": GRIND}.get(opp_arch, GRIND)
     if me_arch == "gunline":
