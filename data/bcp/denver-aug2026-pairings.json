@@ -1,0 +1,1842 @@
+[
+ {
+  "round": 1,
+  "table": 5,
+  "p1": "Daniel Mailey",
+  "p1_pts": 24,
+  "p2": "Anthony Massicotte",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 7,
+  "p1": "Matt Evans",
+  "p1_pts": 96,
+  "p2": "Cole Like",
+  "p2_pts": 60
+ },
+ {
+  "round": 1,
+  "table": 8,
+  "p1": "Ben Rogers",
+  "p1_pts": 24,
+  "p2": "Tim Hosker",
+  "p2_pts": 29
+ },
+ {
+  "round": 1,
+  "table": 11,
+  "p1": "Jon Adams",
+  "p1_pts": 89,
+  "p2": "Justin Burnside",
+  "p2_pts": 19
+ },
+ {
+  "round": 1,
+  "table": 14,
+  "p1": "Tim Lanza",
+  "p1_pts": 72,
+  "p2": "Nicholas Rosasco",
+  "p2_pts": 99
+ },
+ {
+  "round": 1,
+  "table": 18,
+  "p1": "Marc Cooley",
+  "p1_pts": 61,
+  "p2": "Aleka Xenakis",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 19,
+  "p1": "Colin Kay",
+  "p1_pts": 91,
+  "p2": "Kohl Parrott",
+  "p2_pts": 53
+ },
+ {
+  "round": 1,
+  "table": 22,
+  "p1": "Eric Marler",
+  "p1_pts": 80,
+  "p2": "",
+  "p2_pts": null
+ },
+ {
+  "round": 1,
+  "table": 24,
+  "p1": "John Gianforte",
+  "p1_pts": 100,
+  "p2": "Mark Strong",
+  "p2_pts": 45
+ },
+ {
+  "round": 1,
+  "table": 25,
+  "p1": "Mason Mutz",
+  "p1_pts": 92,
+  "p2": "Zack Davis",
+  "p2_pts": 55
+ },
+ {
+  "round": 1,
+  "table": 27,
+  "p1": "Zachary Ness",
+  "p1_pts": 100,
+  "p2": "Christopher Ashton",
+  "p2_pts": 68
+ },
+ {
+  "round": 1,
+  "table": 32,
+  "p1": "Phil Gilchrist",
+  "p1_pts": 100,
+  "p2": "Ken Ford",
+  "p2_pts": 69
+ },
+ {
+  "round": 1,
+  "table": 34,
+  "p1": "Trae Burnett",
+  "p1_pts": 91,
+  "p2": "Kevin Landers",
+  "p2_pts": 48
+ },
+ {
+  "round": 1,
+  "table": 36,
+  "p1": "River soldano",
+  "p1_pts": 73,
+  "p2": "Nicolas Thompson",
+  "p2_pts": 93
+ },
+ {
+  "round": 1,
+  "table": 38,
+  "p1": "Annabelle Lewis",
+  "p1_pts": 78,
+  "p2": "Joshua Laping",
+  "p2_pts": 91
+ },
+ {
+  "round": 1,
+  "table": 39,
+  "p1": "Kevin Wagoner",
+  "p1_pts": 47,
+  "p2": "David Parker",
+  "p2_pts": 49
+ },
+ {
+  "round": 1,
+  "table": 40,
+  "p1": "Matt Chavez",
+  "p1_pts": 93,
+  "p2": "Sean Scanlon",
+  "p2_pts": 46
+ },
+ {
+  "round": 1,
+  "table": 1,
+  "p1": "Doug McNeill",
+  "p1_pts": 100,
+  "p2": "Sam Jaspering",
+  "p2_pts": 43
+ },
+ {
+  "round": 1,
+  "table": 2,
+  "p1": "Thomas Leechin",
+  "p1_pts": 50,
+  "p2": "Daniel A.",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 3,
+  "p1": "Drew Parker",
+  "p1_pts": 49,
+  "p2": "Lane Nusbaum",
+  "p2_pts": 87
+ },
+ {
+  "round": 1,
+  "table": 4,
+  "p1": "Colton Titus",
+  "p1_pts": 95,
+  "p2": "Devin Omoto",
+  "p2_pts": 27
+ },
+ {
+  "round": 1,
+  "table": 6,
+  "p1": "Andrew Champion",
+  "p1_pts": 100,
+  "p2": "Aidan Fischer",
+  "p2_pts": 59
+ },
+ {
+  "round": 1,
+  "table": 9,
+  "p1": "Caleb Lefor",
+  "p1_pts": 69,
+  "p2": "Mykola Lukashenko",
+  "p2_pts": 69
+ },
+ {
+  "round": 1,
+  "table": 10,
+  "p1": "Hunter  Williams",
+  "p1_pts": 88,
+  "p2": "Andrei Gorin",
+  "p2_pts": 88
+ },
+ {
+  "round": 1,
+  "table": 12,
+  "p1": "Joshua Petzel",
+  "p1_pts": 79,
+  "p2": "Garrett Russell",
+  "p2_pts": 81
+ },
+ {
+  "round": 1,
+  "table": 13,
+  "p1": "Zak Engelbrecht",
+  "p1_pts": 89,
+  "p2": "Calvin Fertig",
+  "p2_pts": 81
+ },
+ {
+  "round": 1,
+  "table": 15,
+  "p1": "Steven Pampreen",
+  "p1_pts": 100,
+  "p2": "Mustafa Alici",
+  "p2_pts": 23
+ },
+ {
+  "round": 1,
+  "table": 16,
+  "p1": "Patrick Kilcommons",
+  "p1_pts": 99,
+  "p2": "Ryan Wyskochil",
+  "p2_pts": 47
+ },
+ {
+  "round": 1,
+  "table": 17,
+  "p1": "(Tito) Roberto Garcia",
+  "p1_pts": 95,
+  "p2": "John Kilcommons",
+  "p2_pts": 98
+ },
+ {
+  "round": 1,
+  "table": 20,
+  "p1": "Andy Shellenbarger",
+  "p1_pts": 93,
+  "p2": "Austin Gardner",
+  "p2_pts": 41
+ },
+ {
+  "round": 1,
+  "table": 21,
+  "p1": "Khael Hopkins",
+  "p1_pts": 100,
+  "p2": "Jason Helton",
+  "p2_pts": 53
+ },
+ {
+  "round": 1,
+  "table": 23,
+  "p1": "Joel Davis",
+  "p1_pts": 95,
+  "p2": "Rudy Venegas",
+  "p2_pts": 38
+ },
+ {
+  "round": 1,
+  "table": 26,
+  "p1": "Jayde Russell",
+  "p1_pts": 100,
+  "p2": "Abby Stealer",
+  "p2_pts": 64
+ },
+ {
+  "round": 1,
+  "table": 28,
+  "p1": "Jeff Henderson",
+  "p1_pts": 100,
+  "p2": "Stoic Nauj",
+  "p2_pts": 59
+ },
+ {
+  "round": 1,
+  "table": 29,
+  "p1": "Cameron Jones",
+  "p1_pts": 84,
+  "p2": "Frank Rauen",
+  "p2_pts": 88
+ },
+ {
+  "round": 1,
+  "table": 30,
+  "p1": "Joe Marcantano",
+  "p1_pts": 75,
+  "p2": "Nathan Pitts",
+  "p2_pts": 88
+ },
+ {
+  "round": 1,
+  "table": 31,
+  "p1": "Bryan Mayo",
+  "p1_pts": 91,
+  "p2": "Kaleb Hogg",
+  "p2_pts": 73
+ },
+ {
+  "round": 1,
+  "table": 33,
+  "p1": "Miguel Fuentes",
+  "p1_pts": 99,
+  "p2": "Jack Myers",
+  "p2_pts": 22
+ },
+ {
+  "round": 1,
+  "table": 35,
+  "p1": "Mike Pestilens",
+  "p1_pts": 91,
+  "p2": "Sartre the Underslept",
+  "p2_pts": 68
+ },
+ {
+  "round": 1,
+  "table": 37,
+  "p1": "Scott Cowan",
+  "p1_pts": 79,
+  "p2": "Brody Wood",
+  "p2_pts": 91
+ },
+ {
+  "round": 1,
+  "table": 41,
+  "p1": "Jarrett Goodwin (Keksueki)",
+  "p1_pts": 100,
+  "p2": "Brandon Wood",
+  "p2_pts": 51
+ },
+ {
+  "round": 2,
+  "table": 1,
+  "p1": "Cole Like",
+  "p1_pts": 95,
+  "p2": "Aidan Fischer",
+  "p2_pts": 39
+ },
+ {
+  "round": 2,
+  "table": 2,
+  "p1": "Brody Wood",
+  "p1_pts": 69,
+  "p2": "Joshua Laping",
+  "p2_pts": 97
+ },
+ {
+  "round": 2,
+  "table": 3,
+  "p1": "Andrew Champion",
+  "p1_pts": 73,
+  "p2": "Jeff Henderson",
+  "p2_pts": 63
+ },
+ {
+  "round": 2,
+  "table": 4,
+  "p1": "Scott Cowan",
+  "p1_pts": 100,
+  "p2": "Joshua Petzel",
+  "p2_pts": 80
+ },
+ {
+  "round": 2,
+  "table": 5,
+  "p1": "Patrick Kilcommons",
+  "p1_pts": 90,
+  "p2": "Miguel Fuentes",
+  "p2_pts": 50
+ },
+ {
+  "round": 2,
+  "table": 6,
+  "p1": "Bryan Mayo",
+  "p1_pts": 59,
+  "p2": "Mike Pestilens",
+  "p2_pts": 93
+ },
+ {
+  "round": 2,
+  "table": 7,
+  "p1": "Andrei Gorin",
+  "p1_pts": 85,
+  "p2": "Caleb Lefor",
+  "p2_pts": 85
+ },
+ {
+  "round": 2,
+  "table": 8,
+  "p1": "Tim Lanza",
+  "p1_pts": 86,
+  "p2": "Ken Ford",
+  "p2_pts": 86
+ },
+ {
+  "round": 2,
+  "table": 9,
+  "p1": "Joel Davis",
+  "p1_pts": 92,
+  "p2": "Colton Titus",
+  "p2_pts": 52
+ },
+ {
+  "round": 2,
+  "table": 10,
+  "p1": "River soldano",
+  "p1_pts": 86,
+  "p2": "Kaleb Hogg",
+  "p2_pts": 83
+ },
+ {
+  "round": 2,
+  "table": 11,
+  "p1": "Jason Helton",
+  "p1_pts": 91,
+  "p2": "Kohl Parrott",
+  "p2_pts": 50
+ },
+ {
+  "round": 2,
+  "table": 12,
+  "p1": "Colin Kay",
+  "p1_pts": 79,
+  "p2": "Trae Burnett",
+  "p2_pts": 53
+ },
+ {
+  "round": 2,
+  "table": 13,
+  "p1": "Abby Stealer",
+  "p1_pts": 64,
+  "p2": "Marc Cooley",
+  "p2_pts": 85
+ },
+ {
+  "round": 2,
+  "table": 14,
+  "p1": "Ryan Wyskochil",
+  "p1_pts": 90,
+  "p2": "Kevin Wagoner",
+  "p2_pts": 90
+ },
+ {
+  "round": 2,
+  "table": 15,
+  "p1": "Stoic Nauj",
+  "p1_pts": 80,
+  "p2": "Zack Davis",
+  "p2_pts": 91
+ },
+ {
+  "round": 2,
+  "table": 16,
+  "p1": "Phil Gilchrist",
+  "p1_pts": 97,
+  "p2": "Zachary Ness",
+  "p2_pts": 51
+ },
+ {
+  "round": 2,
+  "table": 17,
+  "p1": "Justin Burnside",
+  "p1_pts": 87,
+  "p2": "David Parker",
+  "p2_pts": 71
+ },
+ {
+  "round": 2,
+  "table": 18,
+  "p1": "Sam Jaspering",
+  "p1_pts": 66,
+  "p2": "Austin Gardner",
+  "p2_pts": 87
+ },
+ {
+  "round": 2,
+  "table": 19,
+  "p1": "Mykola Lukashenko",
+  "p1_pts": 86,
+  "p2": "(Tito) Roberto Garcia",
+  "p2_pts": 79
+ },
+ {
+  "round": 2,
+  "table": 20,
+  "p1": "Christopher Ashton",
+  "p1_pts": 68,
+  "p2": "Sartre the Underslept",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 21,
+  "p1": "Cameron Jones",
+  "p1_pts": 50,
+  "p2": "Calvin Fertig",
+  "p2_pts": 85
+ },
+ {
+  "round": 2,
+  "table": 22,
+  "p1": "Brandon Wood",
+  "p1_pts": 47,
+  "p2": "Thomas Leechin",
+  "p2_pts": 93
+ },
+ {
+  "round": 2,
+  "table": 23,
+  "p1": "Jayde Russell",
+  "p1_pts": 81,
+  "p2": "Aleka Xenakis",
+  "p2_pts": 82
+ },
+ {
+  "round": 2,
+  "table": 24,
+  "p1": "Nicolas Thompson",
+  "p1_pts": 73,
+  "p2": "Matt Chavez",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 25,
+  "p1": "Steven Pampreen",
+  "p1_pts": 100,
+  "p2": "Nicholas Rosasco",
+  "p2_pts": 40
+ },
+ {
+  "round": 2,
+  "table": 26,
+  "p1": "Rudy Venegas",
+  "p1_pts": 57,
+  "p2": "Devin Omoto",
+  "p2_pts": 67
+ },
+ {
+  "round": 2,
+  "table": 27,
+  "p1": "John Kilcommons",
+  "p1_pts": 100,
+  "p2": "Matt Evans",
+  "p2_pts": 71
+ },
+ {
+  "round": 2,
+  "table": 28,
+  "p1": "Sean Scanlon",
+  "p1_pts": 83,
+  "p2": "Mark Strong",
+  "p2_pts": 88
+ },
+ {
+  "round": 2,
+  "table": 29,
+  "p1": "Mustafa Alici",
+  "p1_pts": 65,
+  "p2": "Jack Myers",
+  "p2_pts": 74
+ },
+ {
+  "round": 2,
+  "table": 30,
+  "p1": "Andy Shellenbarger",
+  "p1_pts": 26,
+  "p2": "Mason Mutz",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 31,
+  "p1": "Daniel Mailey",
+  "p1_pts": 93,
+  "p2": "Ben Rogers",
+  "p2_pts": 55
+ },
+ {
+  "round": 2,
+  "table": 32,
+  "p1": "Lane Nusbaum",
+  "p1_pts": 92,
+  "p2": "Garrett Russell",
+  "p2_pts": 61
+ },
+ {
+  "round": 2,
+  "table": 33,
+  "p1": "Khael Hopkins",
+  "p1_pts": 85,
+  "p2": "Jarrett Goodwin (Keksueki)",
+  "p2_pts": 78
+ },
+ {
+  "round": 2,
+  "table": 34,
+  "p1": "Zak Engelbrecht",
+  "p1_pts": 89,
+  "p2": "Jon Adams",
+  "p2_pts": 80
+ },
+ {
+  "round": 2,
+  "table": 35,
+  "p1": "Tim Hosker",
+  "p1_pts": 53,
+  "p2": "Hunter  Williams",
+  "p2_pts": 70
+ },
+ {
+  "round": 2,
+  "table": 37,
+  "p1": "Frank Rauen",
+  "p1_pts": 72,
+  "p2": "Nathan Pitts",
+  "p2_pts": 86
+ },
+ {
+  "round": 2,
+  "table": 38,
+  "p1": "Daniel A.",
+  "p1_pts": 48,
+  "p2": "John Gianforte",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 39,
+  "p1": "Doug McNeill",
+  "p1_pts": 42,
+  "p2": "Anthony Massicotte",
+  "p2_pts": 92
+ },
+ {
+  "round": 2,
+  "table": 40,
+  "p1": "Annabelle Lewis",
+  "p1_pts": 68,
+  "p2": "Joe Marcantano",
+  "p2_pts": 77
+ },
+ {
+  "round": 2,
+  "table": 41,
+  "p1": "Drew Parker",
+  "p1_pts": 87,
+  "p2": "Kevin Landers",
+  "p2_pts": 88
+ },
+ {
+  "round": 3,
+  "table": 1,
+  "p1": "Christopher Ashton",
+  "p1_pts": 63,
+  "p2": "Cameron Jones",
+  "p2_pts": 98
+ },
+ {
+  "round": 3,
+  "table": 2,
+  "p1": "David Parker",
+  "p1_pts": 35,
+  "p2": "Andy Shellenbarger",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 3,
+  "p1": "Aleka Xenakis",
+  "p1_pts": 83,
+  "p2": "Lane Nusbaum",
+  "p2_pts": 98
+ },
+ {
+  "round": 3,
+  "table": 4,
+  "p1": "Jack Myers",
+  "p1_pts": 90,
+  "p2": "Devin Omoto",
+  "p2_pts": 70
+ },
+ {
+  "round": 3,
+  "table": 5,
+  "p1": "Anthony Massicotte",
+  "p1_pts": 100,
+  "p2": "Patrick Kilcommons",
+  "p2_pts": 41
+ },
+ {
+  "round": 3,
+  "table": 6,
+  "p1": "Brody Wood",
+  "p1_pts": 85,
+  "p2": "Frank Rauen",
+  "p2_pts": 84
+ },
+ {
+  "round": 3,
+  "table": 7,
+  "p1": "Matt Evans",
+  "p1_pts": 100,
+  "p2": "Nicolas Thompson",
+  "p2_pts": 28
+ },
+ {
+  "round": 3,
+  "table": 8,
+  "p1": "Jon Adams",
+  "p1_pts": 23,
+  "p2": "Sartre the Underslept",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 9,
+  "p1": "Caleb Lefor",
+  "p1_pts": 94,
+  "p2": "Joe Marcantano",
+  "p2_pts": 56
+ },
+ {
+  "round": 3,
+  "table": 10,
+  "p1": "Hunter  Williams",
+  "p1_pts": 90,
+  "p2": "Mykola Lukashenko",
+  "p2_pts": 52
+ },
+ {
+  "round": 3,
+  "table": 11,
+  "p1": "Calvin Fertig",
+  "p1_pts": 98,
+  "p2": "Jeff Henderson",
+  "p2_pts": 65
+ },
+ {
+  "round": 3,
+  "table": 12,
+  "p1": "Annabelle Lewis",
+  "p1_pts": 93,
+  "p2": "Stoic Nauj",
+  "p2_pts": 85
+ },
+ {
+  "round": 3,
+  "table": 13,
+  "p1": "John Gianforte",
+  "p1_pts": 88,
+  "p2": "Steven Pampreen",
+  "p2_pts": 72
+ },
+ {
+  "round": 3,
+  "table": 14,
+  "p1": "Daniel Mailey",
+  "p1_pts": 98,
+  "p2": "Justin Burnside",
+  "p2_pts": 56
+ },
+ {
+  "round": 3,
+  "table": 15,
+  "p1": "Khael Hopkins",
+  "p1_pts": 40,
+  "p2": "Mike Pestilens",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 16,
+  "p1": "John Kilcommons",
+  "p1_pts": 93,
+  "p2": "Phil Gilchrist",
+  "p2_pts": 66
+ },
+ {
+  "round": 3,
+  "table": 17,
+  "p1": "Sam Jaspering",
+  "p1_pts": 66,
+  "p2": "Kohl Parrott",
+  "p2_pts": 61
+ },
+ {
+  "round": 3,
+  "table": 18,
+  "p1": "Jason Helton",
+  "p1_pts": 100,
+  "p2": "Thomas Leechin",
+  "p2_pts": 43
+ },
+ {
+  "round": 3,
+  "table": 19,
+  "p1": "Jarrett Goodwin (Keksueki)",
+  "p1_pts": 77,
+  "p2": "Andrei Gorin",
+  "p2_pts": 74
+ },
+ {
+  "round": 3,
+  "table": 20,
+  "p1": "Tim Hosker",
+  "p1_pts": 68,
+  "p2": "Tim Lanza",
+  "p2_pts": 70
+ },
+ {
+  "round": 3,
+  "table": 21,
+  "p1": "Joshua Petzel",
+  "p1_pts": 86,
+  "p2": "Kaleb Hogg",
+  "p2_pts": 89
+ },
+ {
+  "round": 3,
+  "table": 22,
+  "p1": "Aidan Fischer",
+  "p1_pts": 95,
+  "p2": "Brandon Wood",
+  "p2_pts": 71
+ },
+ {
+  "round": 3,
+  "table": 23,
+  "p1": "Jayde Russell",
+  "p1_pts": 95,
+  "p2": "Scott Cowan",
+  "p2_pts": 41
+ },
+ {
+  "round": 3,
+  "table": 24,
+  "p1": "Kevin Wagoner",
+  "p1_pts": 86,
+  "p2": "(Tito) Roberto Garcia",
+  "p2_pts": 74
+ },
+ {
+  "round": 3,
+  "table": 25,
+  "p1": "Miguel Fuentes",
+  "p1_pts": 69,
+  "p2": "Daniel A.",
+  "p2_pts": 95
+ },
+ {
+  "round": 3,
+  "table": 26,
+  "p1": "Garrett Russell",
+  "p1_pts": 26,
+  "p2": "Doug McNeill",
+  "p2_pts": 94
+ },
+ {
+  "round": 3,
+  "table": 27,
+  "p1": "Rudy Venegas",
+  "p1_pts": 53,
+  "p2": "Mustafa Alici",
+  "p2_pts": 95
+ },
+ {
+  "round": 3,
+  "table": 28,
+  "p1": "Marc Cooley",
+  "p1_pts": 100,
+  "p2": "Trae Burnett",
+  "p2_pts": 17
+ },
+ {
+  "round": 3,
+  "table": 29,
+  "p1": "Nicholas Rosasco",
+  "p1_pts": 81,
+  "p2": "Kevin Landers",
+  "p2_pts": 83
+ },
+ {
+  "round": 3,
+  "table": 30,
+  "p1": "River soldano",
+  "p1_pts": 65,
+  "p2": "Cole Like",
+  "p2_pts": 82
+ },
+ {
+  "round": 3,
+  "table": 32,
+  "p1": "Mark Strong",
+  "p1_pts": 91,
+  "p2": "Austin Gardner",
+  "p2_pts": 61
+ },
+ {
+  "round": 3,
+  "table": 33,
+  "p1": "Joshua Laping",
+  "p1_pts": 38,
+  "p2": "Joel Davis",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 34,
+  "p1": "Zak Engelbrecht",
+  "p1_pts": 84,
+  "p2": "Nathan Pitts",
+  "p2_pts": 68
+ },
+ {
+  "round": 3,
+  "table": 35,
+  "p1": "Ken Ford",
+  "p1_pts": 30,
+  "p2": "Ryan Wyskochil",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 36,
+  "p1": "Sean Scanlon",
+  "p1_pts": 100,
+  "p2": "Abby Stealer",
+  "p2_pts": 81
+ },
+ {
+  "round": 3,
+  "table": 37,
+  "p1": "Colton Titus",
+  "p1_pts": 97,
+  "p2": "Zack Davis",
+  "p2_pts": 46
+ },
+ {
+  "round": 3,
+  "table": 38,
+  "p1": "Zachary Ness",
+  "p1_pts": 72,
+  "p2": "Bryan Mayo",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 39,
+  "p1": "Andrew Champion",
+  "p1_pts": 81,
+  "p2": "Colin Kay",
+  "p2_pts": 79
+ },
+ {
+  "round": 3,
+  "table": 40,
+  "p1": "Matt Chavez",
+  "p1_pts": 30,
+  "p2": "Mason Mutz",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 1,
+  "p1": "Andrew Champion",
+  "p1_pts": 87,
+  "p2": "John Kilcommons",
+  "p2_pts": 84
+ },
+ {
+  "round": 4,
+  "table": 2,
+  "p1": "Mason Mutz",
+  "p1_pts": 90,
+  "p2": "Joel Davis",
+  "p2_pts": 65
+ },
+ {
+  "round": 4,
+  "table": 3,
+  "p1": "Zak Engelbrecht",
+  "p1_pts": 82,
+  "p2": "Anthony Massicotte",
+  "p2_pts": 87
+ },
+ {
+  "round": 4,
+  "table": 4,
+  "p1": "Mike Pestilens",
+  "p1_pts": 90,
+  "p2": "John Gianforte",
+  "p2_pts": 90
+ },
+ {
+  "round": 4,
+  "table": 5,
+  "p1": "Lane Nusbaum",
+  "p1_pts": 87,
+  "p2": "Hunter  Williams",
+  "p2_pts": 71
+ },
+ {
+  "round": 4,
+  "table": 6,
+  "p1": "Caleb Lefor",
+  "p1_pts": 98,
+  "p2": "Aleka Xenakis",
+  "p2_pts": 64
+ },
+ {
+  "round": 4,
+  "table": 7,
+  "p1": "Matt Chavez",
+  "p1_pts": 78,
+  "p2": "Joshua Laping",
+  "p2_pts": 77
+ },
+ {
+  "round": 4,
+  "table": 8,
+  "p1": "Steven Pampreen",
+  "p1_pts": 100,
+  "p2": "Nathan Pitts",
+  "p2_pts": 42
+ },
+ {
+  "round": 4,
+  "table": 9,
+  "p1": "Khael Hopkins",
+  "p1_pts": 72,
+  "p2": "Colin Kay",
+  "p2_pts": 79
+ },
+ {
+  "round": 4,
+  "table": 10,
+  "p1": "Patrick Kilcommons",
+  "p1_pts": 100,
+  "p2": "Phil Gilchrist",
+  "p2_pts": 48
+ },
+ {
+  "round": 4,
+  "table": 11,
+  "p1": "Matt Evans",
+  "p1_pts": 100,
+  "p2": "Andy Shellenbarger",
+  "p2_pts": 31
+ },
+ {
+  "round": 4,
+  "table": 12,
+  "p1": "Doug McNeill",
+  "p1_pts": 62,
+  "p2": "Daniel A.",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 13,
+  "p1": "Bryan Mayo",
+  "p1_pts": 78,
+  "p2": "Jarrett Goodwin (Keksueki)",
+  "p2_pts": 77
+ },
+ {
+  "round": 4,
+  "table": 14,
+  "p1": "Colton Titus",
+  "p1_pts": 100,
+  "p2": "Brody Wood",
+  "p2_pts": 67
+ },
+ {
+  "round": 4,
+  "table": 15,
+  "p1": "Jayde Russell",
+  "p1_pts": 98,
+  "p2": "Jack Myers",
+  "p2_pts": 37
+ },
+ {
+  "round": 4,
+  "table": 16,
+  "p1": "Sartre the Underslept",
+  "p1_pts": 84,
+  "p2": "Marc Cooley",
+  "p2_pts": 87
+ },
+ {
+  "round": 4,
+  "table": 17,
+  "p1": "Jason Helton",
+  "p1_pts": 99,
+  "p2": "Mark Strong",
+  "p2_pts": 57
+ },
+ {
+  "round": 4,
+  "table": 18,
+  "p1": "Daniel Mailey",
+  "p1_pts": 91,
+  "p2": "Kevin Landers",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 19,
+  "p1": "Cole Like",
+  "p1_pts": 77,
+  "p2": "Calvin Fertig",
+  "p2_pts": 96
+ },
+ {
+  "round": 4,
+  "table": 20,
+  "p1": "Kevin Wagoner",
+  "p1_pts": 71,
+  "p2": "Tim Lanza",
+  "p2_pts": 54
+ },
+ {
+  "round": 4,
+  "table": 21,
+  "p1": "Ryan Wyskochil",
+  "p1_pts": 90,
+  "p2": "Andrei Gorin",
+  "p2_pts": 57
+ },
+ {
+  "round": 4,
+  "table": 22,
+  "p1": "Tim Hosker",
+  "p1_pts": 79,
+  "p2": "David Parker",
+  "p2_pts": 26
+ },
+ {
+  "round": 4,
+  "table": 23,
+  "p1": "Frank Rauen",
+  "p1_pts": 97,
+  "p2": "Garrett Russell",
+  "p2_pts": 48
+ },
+ {
+  "round": 4,
+  "table": 24,
+  "p1": "Nicolas Thompson",
+  "p1_pts": 88,
+  "p2": "Jon Adams",
+  "p2_pts": 57
+ },
+ {
+  "round": 4,
+  "table": 25,
+  "p1": "Nicholas Rosasco",
+  "p1_pts": 67,
+  "p2": "Miguel Fuentes",
+  "p2_pts": 57
+ },
+ {
+  "round": 4,
+  "table": 26,
+  "p1": "Jeff Henderson",
+  "p1_pts": 20,
+  "p2": "Trae Burnett",
+  "p2_pts": 93
+ },
+ {
+  "round": 4,
+  "table": 27,
+  "p1": "Zachary Ness",
+  "p1_pts": 48,
+  "p2": "Scott Cowan",
+  "p2_pts": 97
+ },
+ {
+  "round": 4,
+  "table": 28,
+  "p1": "Zack Davis",
+  "p1_pts": 100,
+  "p2": "Devin Omoto",
+  "p2_pts": 67
+ },
+ {
+  "round": 4,
+  "table": 29,
+  "p1": "Thomas Leechin",
+  "p1_pts": 25,
+  "p2": "Joe Marcantano",
+  "p2_pts": 99
+ },
+ {
+  "round": 4,
+  "table": 30,
+  "p1": "Austin Gardner",
+  "p1_pts": 100,
+  "p2": "Justin Burnside",
+  "p2_pts": 43
+ },
+ {
+  "round": 4,
+  "table": 31,
+  "p1": "Aidan Fischer",
+  "p1_pts": 95,
+  "p2": "Sam Jaspering",
+  "p2_pts": 83
+ },
+ {
+  "round": 4,
+  "table": 32,
+  "p1": "Mustafa Alici",
+  "p1_pts": 97,
+  "p2": "Cameron Jones",
+  "p2_pts": 45
+ },
+ {
+  "round": 4,
+  "table": 33,
+  "p1": "Sean Scanlon",
+  "p1_pts": 80,
+  "p2": "Kaleb Hogg",
+  "p2_pts": 91
+ },
+ {
+  "round": 4,
+  "table": 34,
+  "p1": "Annabelle Lewis",
+  "p1_pts": 75,
+  "p2": "Ken Ford",
+  "p2_pts": 79
+ },
+ {
+  "round": 4,
+  "table": 35,
+  "p1": "Christopher Ashton",
+  "p1_pts": 99,
+  "p2": "Joshua Petzel",
+  "p2_pts": 63
+ },
+ {
+  "round": 4,
+  "table": 36,
+  "p1": "Kohl Parrott",
+  "p1_pts": 89,
+  "p2": "Brandon Wood",
+  "p2_pts": 47
+ },
+ {
+  "round": 4,
+  "table": 37,
+  "p1": "Stoic Nauj",
+  "p1_pts": 95,
+  "p2": "(Tito) Roberto Garcia",
+  "p2_pts": 83
+ },
+ {
+  "round": 4,
+  "table": 38,
+  "p1": "Abby Stealer",
+  "p1_pts": 46,
+  "p2": "Rudy Venegas",
+  "p2_pts": 50
+ },
+ {
+  "round": 5,
+  "table": 20,
+  "p1": "Nicolas Thompson",
+  "p1_pts": 42,
+  "p2": "Sartre the Underslept",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 21,
+  "p1": "Cole Like",
+  "p1_pts": 100,
+  "p2": "Daniel Mailey",
+  "p2_pts": 45
+ },
+ {
+  "round": 5,
+  "table": 22,
+  "p1": "Jack Myers",
+  "p1_pts": 96,
+  "p2": "Mark Strong",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 23,
+  "p1": "Joe Marcantano",
+  "p1_pts": 88,
+  "p2": "Austin Gardner",
+  "p2_pts": 74
+ },
+ {
+  "round": 5,
+  "table": 24,
+  "p1": "Scott Cowan",
+  "p1_pts": 98,
+  "p2": "Zack Davis",
+  "p2_pts": 83
+ },
+ {
+  "round": 5,
+  "table": 25,
+  "p1": "Aidan Fischer",
+  "p1_pts": 59,
+  "p2": "Mustafa Alici",
+  "p2_pts": 87
+ },
+ {
+  "round": 5,
+  "table": 26,
+  "p1": "Kaleb Hogg",
+  "p1_pts": 70,
+  "p2": "Tim Lanza",
+  "p2_pts": 90
+ },
+ {
+  "round": 5,
+  "table": 27,
+  "p1": "Ken Ford",
+  "p1_pts": 68,
+  "p2": "Andrei Gorin",
+  "p2_pts": 74
+ },
+ {
+  "round": 5,
+  "table": 28,
+  "p1": "Jeff Henderson",
+  "p1_pts": 54,
+  "p2": "Miguel Fuentes",
+  "p2_pts": 53
+ },
+ {
+  "round": 5,
+  "table": 29,
+  "p1": "Zachary Ness",
+  "p1_pts": 95,
+  "p2": "Garrett Russell",
+  "p2_pts": 36
+ },
+ {
+  "round": 5,
+  "table": 30,
+  "p1": "David Parker",
+  "p1_pts": 95,
+  "p2": "Thomas Leechin",
+  "p2_pts": 41
+ },
+ {
+  "round": 5,
+  "table": 31,
+  "p1": "Justin Burnside",
+  "p1_pts": 42,
+  "p2": "Cameron Jones",
+  "p2_pts": 93
+ },
+ {
+  "round": 5,
+  "table": 32,
+  "p1": "Annabelle Lewis",
+  "p1_pts": 100,
+  "p2": "Sam Jaspering",
+  "p2_pts": 29
+ },
+ {
+  "round": 5,
+  "table": 33,
+  "p1": "Sean Scanlon",
+  "p1_pts": 39,
+  "p2": "Stoic Nauj",
+  "p2_pts": 84
+ },
+ {
+  "round": 5,
+  "table": 34,
+  "p1": "Kohl Parrott",
+  "p1_pts": 96,
+  "p2": "Christopher Ashton",
+  "p2_pts": 67
+ },
+ {
+  "round": 5,
+  "table": 35,
+  "p1": "Rudy Venegas",
+  "p1_pts": 89,
+  "p2": "Brandon Wood",
+  "p2_pts": 83
+ },
+ {
+  "round": 5,
+  "table": 36,
+  "p1": "Abby Stealer",
+  "p1_pts": 95,
+  "p2": "Joshua Petzel",
+  "p2_pts": 92
+ },
+ {
+  "round": 5,
+  "table": 17,
+  "p1": "Brody Wood",
+  "p1_pts": 75,
+  "p2": "Jarrett Goodwin (Keksueki)",
+  "p2_pts": 98
+ },
+ {
+  "round": 5,
+  "table": 18,
+  "p1": "Frank Rauen",
+  "p1_pts": 84,
+  "p2": "Nicholas Rosasco",
+  "p2_pts": 91
+ },
+ {
+  "round": 5,
+  "table": 19,
+  "p1": "Trae Burnett",
+  "p1_pts": 100,
+  "p2": "Tim Hosker",
+  "p2_pts": 28
+ },
+ {
+  "round": 5,
+  "table": 1,
+  "p1": "Anthony Massicotte",
+  "p1_pts": 96,
+  "p2": "Andrew Champion",
+  "p2_pts": 88
+ },
+ {
+  "round": 5,
+  "table": 2,
+  "p1": "Lane Nusbaum",
+  "p1_pts": 21,
+  "p2": "Mason Mutz",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 3,
+  "p1": "Mike Pestilens",
+  "p1_pts": 91,
+  "p2": "Caleb Lefor",
+  "p2_pts": 78
+ },
+ {
+  "round": 5,
+  "table": 4,
+  "p1": "John Gianforte",
+  "p1_pts": 95,
+  "p2": "Zak Engelbrecht",
+  "p2_pts": 80
+ },
+ {
+  "round": 5,
+  "table": 5,
+  "p1": "Joel Davis",
+  "p1_pts": 95,
+  "p2": "John Kilcommons",
+  "p2_pts": 39
+ },
+ {
+  "round": 5,
+  "table": 6,
+  "p1": "Colin Kay",
+  "p1_pts": 41,
+  "p2": "Steven Pampreen",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 7,
+  "p1": "Patrick Kilcommons",
+  "p1_pts": 98,
+  "p2": "Matt Chavez",
+  "p2_pts": 63
+ },
+ {
+  "round": 5,
+  "table": 8,
+  "p1": "Jayde Russell",
+  "p1_pts": 100,
+  "p2": "Daniel A.",
+  "p2_pts": 40
+ },
+ {
+  "round": 5,
+  "table": 9,
+  "p1": "Bryan Mayo",
+  "p1_pts": 93,
+  "p2": "Colton Titus",
+  "p2_pts": 89
+ },
+ {
+  "round": 5,
+  "table": 10,
+  "p1": "Kevin Landers",
+  "p1_pts": 94,
+  "p2": "Jason Helton",
+  "p2_pts": 85
+ },
+ {
+  "round": 5,
+  "table": 11,
+  "p1": "Marc Cooley",
+  "p1_pts": 84,
+  "p2": "Calvin Fertig",
+  "p2_pts": 97
+ },
+ {
+  "round": 5,
+  "table": 12,
+  "p1": "Hunter  Williams",
+  "p1_pts": 95,
+  "p2": "Ryan Wyskochil",
+  "p2_pts": 92
+ },
+ {
+  "round": 5,
+  "table": 13,
+  "p1": "Kevin Wagoner",
+  "p1_pts": 81,
+  "p2": "Joshua Laping",
+  "p2_pts": 91
+ },
+ {
+  "round": 5,
+  "table": 14,
+  "p1": "Khael Hopkins",
+  "p1_pts": 50,
+  "p2": "Phil Gilchrist",
+  "p2_pts": 47
+ },
+ {
+  "round": 5,
+  "table": 15,
+  "p1": "Aleka Xenakis",
+  "p1_pts": 89,
+  "p2": "Nathan Pitts",
+  "p2_pts": 75
+ },
+ {
+  "round": 5,
+  "table": 16,
+  "p1": "Andy Shellenbarger",
+  "p1_pts": 79,
+  "p2": "Doug McNeill",
+  "p2_pts": 47
+ },
+ {
+  "round": 6,
+  "table": 1,
+  "p1": "Anthony Massicotte",
+  "p1_pts": 60,
+  "p2": "Mason Mutz",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 2,
+  "p1": "Mike Pestilens",
+  "p1_pts": 100,
+  "p2": "Andrew Champion",
+  "p2_pts": 69
+ },
+ {
+  "round": 6,
+  "table": 3,
+  "p1": "John Gianforte",
+  "p1_pts": 89,
+  "p2": "Lane Nusbaum",
+  "p2_pts": 75
+ },
+ {
+  "round": 6,
+  "table": 4,
+  "p1": "Joel Davis",
+  "p1_pts": 100,
+  "p2": "Patrick Kilcommons",
+  "p2_pts": 60
+ },
+ {
+  "round": 6,
+  "table": 5,
+  "p1": "Steven Pampreen",
+  "p1_pts": 96,
+  "p2": "Bryan Mayo",
+  "p2_pts": 64
+ },
+ {
+  "round": 6,
+  "table": 6,
+  "p1": "Jayde Russell",
+  "p1_pts": 72,
+  "p2": "Calvin Fertig",
+  "p2_pts": 96
+ },
+ {
+  "round": 6,
+  "table": 7,
+  "p1": "Kevin Landers",
+  "p1_pts": 86,
+  "p2": "Hunter  Williams",
+  "p2_pts": 90
+ },
+ {
+  "round": 6,
+  "table": 8,
+  "p1": "Caleb Lefor",
+  "p1_pts": 93,
+  "p2": "Zak Engelbrecht",
+  "p2_pts": 88
+ },
+ {
+  "round": 6,
+  "table": 9,
+  "p1": "John Kilcommons",
+  "p1_pts": 69,
+  "p2": "Matt Chavez",
+  "p2_pts": 90
+ },
+ {
+  "round": 6,
+  "table": 10,
+  "p1": "Colin Kay",
+  "p1_pts": 100,
+  "p2": "Aleka Xenakis",
+  "p2_pts": 38
+ },
+ {
+  "round": 6,
+  "table": 11,
+  "p1": "Joshua Laping",
+  "p1_pts": 81,
+  "p2": "Khael Hopkins",
+  "p2_pts": 94
+ },
+ {
+  "round": 6,
+  "table": 12,
+  "p1": "Daniel A.",
+  "p1_pts": 86,
+  "p2": "Colton Titus",
+  "p2_pts": 76
+ },
+ {
+  "round": 6,
+  "table": 13,
+  "p1": "Jarrett Goodwin (Keksueki)",
+  "p1_pts": 51,
+  "p2": "Andy Shellenbarger",
+  "p2_pts": 90
+ },
+ {
+  "round": 6,
+  "table": 14,
+  "p1": "Nicholas Rosasco",
+  "p1_pts": 69,
+  "p2": "Trae Burnett",
+  "p2_pts": 69
+ },
+ {
+  "round": 6,
+  "table": 15,
+  "p1": "Jason Helton",
+  "p1_pts": 100,
+  "p2": "Marc Cooley",
+  "p2_pts": 73
+ },
+ {
+  "round": 6,
+  "table": 16,
+  "p1": "Cole Like",
+  "p1_pts": 48,
+  "p2": "Mark Strong",
+  "p2_pts": 76
+ },
+ {
+  "round": 6,
+  "table": 17,
+  "p1": "Sartre the Underslept",
+  "p1_pts": 88,
+  "p2": "Joe Marcantano",
+  "p2_pts": 75
+ },
+ {
+  "round": 6,
+  "table": 18,
+  "p1": "Scott Cowan",
+  "p1_pts": 89,
+  "p2": "Mustafa Alici",
+  "p2_pts": 74
+ },
+ {
+  "round": 6,
+  "table": 19,
+  "p1": "Ryan Wyskochil",
+  "p1_pts": 93,
+  "p2": "Tim Lanza",
+  "p2_pts": 57
+ },
+ {
+  "round": 6,
+  "table": 20,
+  "p1": "Kevin Wagoner",
+  "p1_pts": 59,
+  "p2": "Andrei Gorin",
+  "p2_pts": 66
+ },
+ {
+  "round": 6,
+  "table": 21,
+  "p1": "Nathan Pitts",
+  "p1_pts": 54,
+  "p2": "Phil Gilchrist",
+  "p2_pts": 87
+ },
+ {
+  "round": 6,
+  "table": 22,
+  "p1": "Brody Wood",
+  "p1_pts": 30,
+  "p2": "Doug McNeill",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 23,
+  "p1": "Tim Hosker",
+  "p1_pts": 81,
+  "p2": "Nicolas Thompson",
+  "p2_pts": 67
+ },
+ {
+  "round": 6,
+  "table": 24,
+  "p1": "Frank Rauen",
+  "p1_pts": 100,
+  "p2": "David Parker",
+  "p2_pts": 51
+ },
+ {
+  "round": 6,
+  "table": 25,
+  "p1": "Jeff Henderson",
+  "p1_pts": 98,
+  "p2": "Zachary Ness",
+  "p2_pts": 73
+ },
+ {
+  "round": 6,
+  "table": 26,
+  "p1": "Daniel Mailey",
+  "p1_pts": 97,
+  "p2": "Jack Myers",
+  "p2_pts": 61
+ },
+ {
+  "round": 6,
+  "table": 27,
+  "p1": "Austin Gardner",
+  "p1_pts": 69,
+  "p2": "Kaleb Hogg",
+  "p2_pts": 84
+ },
+ {
+  "round": 6,
+  "table": 28,
+  "p1": "Aidan Fischer",
+  "p1_pts": 25,
+  "p2": "Cameron Jones",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 29,
+  "p1": "Annabelle Lewis",
+  "p1_pts": 56,
+  "p2": "Kohl Parrott",
+  "p2_pts": 73
+ },
+ {
+  "round": 6,
+  "table": 30,
+  "p1": "Stoic Nauj",
+  "p1_pts": 90,
+  "p2": "Rudy Venegas",
+  "p2_pts": 67
+ },
+ {
+  "round": 6,
+  "table": 31,
+  "p1": "Ken Ford",
+  "p1_pts": 94,
+  "p2": "Garrett Russell",
+  "p2_pts": 66
+ },
+ {
+  "round": 6,
+  "table": 32,
+  "p1": "Miguel Fuentes",
+  "p1_pts": 47,
+  "p2": "Justin Burnside",
+  "p2_pts": 30
+ },
+ {
+  "round": 6,
+  "table": 33,
+  "p1": "Thomas Leechin",
+  "p1_pts": 42,
+  "p2": "Sean Scanlon",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 34,
+  "p1": "Sam Jaspering",
+  "p1_pts": 71,
+  "p2": "Christopher Ashton",
+  "p2_pts": 82
+ },
+ {
+  "round": 6,
+  "table": 35,
+  "p1": "Abby Stealer",
+  "p1_pts": 95,
+  "p2": "Brandon Wood",
+  "p2_pts": 84
+ },
+ {
+  "round": 6,
+  "table": 36,
+  "p1": "Joshua Petzel",
+  "p1_pts": 80,
+  "p2": "",
+  "p2_pts": null
+ }
+]
