@@ -115,6 +115,8 @@ def _embed(leader, body):
     leader.host = body
     body.leading = list(getattr(body, "leading", [])) + [leader]
     _merge_one(body, leader)
+    from . import tapestry as _tap
+    _tap.apply_fx(body, getattr(leader, "_aura", None))     # LEADER AURA (Feirros FNP5+, Biologis Lethal...)
     apply_enh_wfx(body, getattr(leader, "_enh_wfx", None))  # the leader's enhancement buffs its new squad
     leader._wfx_done = True
 

@@ -229,6 +229,16 @@ def _enh_text(slug, name):
     return _ENH_TEXT[key]
 
 
+def _detachment_line(text):
+    """The declared detachment(s) from an export header, e.g. 'Bastion Task Force and Librarius Conclave'
+    (the line carrying '(N Detachment Points)'). Returns '' if not found."""
+    for ln in text.splitlines():
+        s = ln.strip()
+        if re.search(r"(?i)\(\s*\d+\s*detachment points?\s*\)", s):
+            return re.sub(r"(?i)\s*\(\s*\d+\s*detachment points?\s*\)", "", s).strip()
+    return ""
+
+
 def _parse_enhancements(block):
     """Enhancement names on a unit, from its '• Enhancements: X' line(s)."""
     out = []
@@ -349,6 +359,10 @@ def load(faction=None, detachment=None, disposition=None, name=None, override=No
         # AUTHORITATIVE attachment from the export: which 'Attached unit N' group + Leader/Support/Bodyguard
         u._grp = grp
         u._arole = arole
+        # UNIT LAYER — read the datasheet's BSData abilities (core/faction/datasheet): self-effects apply
+        # now; leader AURAS ('while leading a unit...') stash on u._aura to transfer to the bodyguard.
+        from . import tapestry as _tap
+        _tap.ingest_unit(u, prof.get("abilities"), sl)
         # ENHANCEMENTS — foundation of the tapestry (sit just above detachment rules): parse the names and
         # fold their combat effect into this unit's abilities so an attached leader carries it to its squad.
         u._enh = _parse_enhancements(block)
@@ -358,6 +372,11 @@ def load(faction=None, detachment=None, disposition=None, name=None, override=No
     disp = disposition or _DISP.get((entry.get("disposition") or "").strip().lower(), "take-and-hold")
     army = Army(name or f"{faction} — {entry.get('detachment', '?')} ({entry.get('wins')}-{entry.get('losses')})",
                 disp, side, units, cp=3)
+    # DETACHMENT layer: record the slug + chosen detachment(s) so the stratagem pool + tapestry report load.
+    # A list can declare more than one ('Bastion Task Force and Librarius Conclave') — keep them all.
+    army.slug = slug
+    det_str = _detachment_line(entry.get("listText", "")) or (entry.get("detachment") or "")
+    army.strat_dets = tuple(d.strip() for d in re.split(r"\s+and\s+|\s*/\s*|,", det_str) if d.strip())
     _FACTION_DEFAULT.get(slug, lambda a: None)(army)
     (override or OVERRIDES.get(slug, lambda a: None))(army)
     # ARMY RULE — Oath of Moment: re-roll Hits vs the Oath target; +1 to Wound too for a Codex-SM
