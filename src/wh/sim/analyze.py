@@ -73,24 +73,32 @@ def diagnose(build_me, build_opp, games=5000, seed=11):
 
 
 def _run_attributed(me, opp, mA, mB, board, rng, cur, ctrl, my_side):
-    """A copy of the game loop that sets cur['attacker'] before each unit's shooting/fighting so
-    apply_damage can attribute wounds. Uses the real game phase functions."""
+    """Attribution copy of the game loop — sets cur['attacker'] before each unit's shooting/fighting so
+    apply_damage can attribute wounds. MUST mirror game.play_game's per-turn sequence exactly (deploy +
+    attach + the full phase order incl. Oath / Deadly Demise / detach), or the runbook/dossier would model
+    a different game than run.simulate. (This drift once left leaders un-attached here — keep it in step.)"""
+    from . import strategy as _strat
+    from . import attach as _att
     for u in me.units + opp.units:
         u.snapshot_start()
-    from . import strategy as _strat
     _strat.equip(me, opp); _strat.equip(opp, me)
     G.deploy(me, opp, board)
-    order = [me, opp]
+    _att.attach_all(me); _att.attach_all(opp)              # embed leaders (tapestry) — was missing here
+    armies = [me, opp]
     for rnd in range(1, 6):
-        for act in order:
+        for act in armies:
             foe = opp if act is me else me
-            G._command(act, rnd); G._arrive_reserves(act, foe, board, rnd, rng); board.update_cover([me, opp])
+            foe._ow_used = False
+            G._command(act, rnd, rng)
+            G._select_oath(act, foe)
+            G._arrive_reserves(act, foe, board, rnd, rng)
+            board.update_cover(armies)
             G._move(act, foe, board, rnd, rng)
-            # shooting + fighting with attribution: temporarily tag the acting army's units
             _tagged(act, cur, lambda: (G._shoot(act, foe, board, rng),
                                        G._charge_and_fight(act, foe, rng, board)))
             G._reanimate(act, rng); G._comeback(foe, rng)
-        held, _ = board.control([me, opp])
+            G._deadly_demise(armies, rng); _att.detach_dead(armies)
+        held, _ = board.control(armies)
         ctrl[rnd][0] += sum(1 for s in held.values() if s == my_side)
         ctrl[rnd][1] += sum(1 for s in held.values() if s and s != my_side)
 
