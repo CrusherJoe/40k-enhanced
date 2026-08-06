@@ -91,6 +91,13 @@ DOCS = {
                            "(no-Lancer avg finish 134 vs 225); disposition secondary; two winning shapes "
                            "(all-gun / guns+bodies), both Lancer-less.",
                            "docs/reports/knights/death_rnr-LSO-PostEvent-Review.md"),
+    # --- Death v2: Iron Hands pivot (Jared Garcia "Baby Shark", NM2026 6th) ---
+    "death-v2-pivot":     ("1.0", "2026-08-06", "Death v2 — Iron Hands Pivot Assessment",
+                           "Baby Shark (Iron Hands, Librarius Conclave) validated across two metas: "
+                           "NM2026 actual 5-1 gauntlet + cross-event sim vs Denver top (board-favoured 8/9). "
+                           "Meta-portable board-control chassis; ceiling set by two shapes (elite DA burst; "
+                           "mass-OC durable gunline).",
+                           "docs/reports/iron-hands/death_v2-IronHands-Pivot-Assessment.md"),
 }
 
 
