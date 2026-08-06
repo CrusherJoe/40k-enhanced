@@ -1,0 +1,931 @@
+{
+ "event": "Northern Maelstrom 2026 GT",
+ "id": "r9vSaIhXEfwq",
+ "n_players": 132,
+ "placings": [
+  {
+   "placing": 1,
+   "points": 246.09,
+   "player": "Aaron Pescheck",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 2,
+   "points": 231.02,
+   "player": "Kyle McCord",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 3,
+   "points": 228.29,
+   "player": "Matthew Root",
+   "faction": "Orks",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 4,
+   "points": 225.59,
+   "player": "David Bergstrom",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 5,
+   "points": 222.92,
+   "player": "Matt Stadnik",
+   "faction": "Imperial Agents",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 6,
+   "points": 220.29,
+   "player": "Jared Garcia",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 7,
+   "points": 217.69,
+   "player": "Reid Olson",
+   "faction": "Genestealer Cult",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 8,
+   "points": 215.12,
+   "player": "James Walsh",
+   "faction": "Dark Angels",
+   "detachment": "Disruption"
+  },
+  {
+   "placing": 9,
+   "points": 212.59,
+   "player": "Nathaniel Pommer",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 10,
+   "points": 210.08,
+   "player": "Tim Royers",
+   "faction": "Deathwatch",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 11,
+   "points": 207.61,
+   "player": "Stephen Crawford",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 12,
+   "points": 205.17,
+   "player": "Mark Behm",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 13,
+   "points": 202.76,
+   "player": "Zachary Rothman",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 14,
+   "points": 200.38,
+   "player": "Nick Ranallo",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 15,
+   "points": 198.03,
+   "player": "James Kelling",
+   "faction": "Aeldari",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 16,
+   "points": 195.7,
+   "player": "Nicholas Howard",
+   "faction": "Chaos Knights",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 17,
+   "points": 193.41,
+   "player": "Seth Pommer",
+   "faction": "Orks",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 18,
+   "points": 191.15,
+   "player": "Benjamin Paper",
+   "faction": "Necrons",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 19,
+   "points": 188.91,
+   "player": "Craig Parker",
+   "faction": "Tyranids",
+   "detachment": null
+  },
+  {
+   "placing": 20,
+   "points": 186.71,
+   "player": "Andrew Moe",
+   "faction": "Grey Knights",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 21,
+   "points": 184.53,
+   "player": "Tim Cook",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 22,
+   "points": 182.37,
+   "player": "Jake Lindfors",
+   "faction": "Astra Militarum",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 23,
+   "points": 180.25,
+   "player": "Andy Graber",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 24,
+   "points": 178.15,
+   "player": "Jabbar Haider",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 25,
+   "points": 176.07,
+   "player": "Jeff Snyder",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 26,
+   "points": 174.03,
+   "player": "Alex Vian",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 27,
+   "points": 172.01,
+   "player": "Payten Roberts",
+   "faction": "Tyranids",
+   "detachment": "Disruption"
+  },
+  {
+   "placing": 28,
+   "points": 170.01,
+   "player": "Jack Kosidowski",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 29,
+   "points": 168.04,
+   "player": "Mike Vasseur",
+   "faction": "Necrons",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 30,
+   "points": 166.09,
+   "player": "Tony Ranallo",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 31,
+   "points": 164.17,
+   "player": "Mr. Pibb",
+   "faction": "Adeptus Custodes",
+   "detachment": "Disruption"
+  },
+  {
+   "placing": 32,
+   "points": 162.27,
+   "player": "Gavin Matz",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 33,
+   "points": 160.4,
+   "player": "Ben Cherwien",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 34,
+   "points": 158.55,
+   "player": "Scott Blegen",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 35,
+   "points": 156.72,
+   "player": "John Teets",
+   "faction": "Black Templars",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 36,
+   "points": 154.91,
+   "player": "Braydon Anderson",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 37,
+   "points": 153.13,
+   "player": "Aaron Scherer",
+   "faction": "T'au Empire",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 38,
+   "points": 151.37,
+   "player": "Max Lipschultz",
+   "faction": "Orks",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 39,
+   "points": 149.63,
+   "player": "Nicholas Rupel",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 40,
+   "points": 147.91,
+   "player": "Michael Douglass",
+   "faction": "Thousand Sons",
+   "detachment": "Disruption"
+  },
+  {
+   "placing": 41,
+   "points": 146.22,
+   "player": "Dylan Sempel",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 42,
+   "points": 144.55,
+   "player": "Jacob Nelsen",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 43,
+   "points": 142.89,
+   "player": "Austin Cance",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 44,
+   "points": 141.26,
+   "player": "Alexander Washington",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 45,
+   "points": 139.65,
+   "player": "Brian Fulford",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 46,
+   "points": 138.06,
+   "player": "Logan Payne",
+   "faction": "Chaos Space Marines",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 47,
+   "points": 136.48,
+   "player": "Sean Lu Opa",
+   "faction": "Orks",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 48,
+   "points": 134.93,
+   "player": "Daniel Lorbiecki",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 49,
+   "points": 133.4,
+   "player": "Tyler Devries",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 50,
+   "points": 131.89,
+   "player": "Mac McGregor",
+   "faction": "Leagues of Votann",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 51,
+   "points": 130.39,
+   "player": "Codey Bolte",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 52,
+   "points": 128.91,
+   "player": "Justin Johnson",
+   "faction": "Leagues of Votann",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 53,
+   "points": 127.46,
+   "player": "Brian Evans",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 54,
+   "points": 126.02,
+   "player": "Jordan Albee",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 55,
+   "points": 124.6,
+   "player": "Bryan Burt",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 56,
+   "points": 123.19,
+   "player": "Raphael Peralez",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 57,
+   "points": 121.81,
+   "player": "Martin Beamish",
+   "faction": "Necrons",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 58,
+   "points": 120.44,
+   "player": "Kade Smrecek",
+   "faction": "Aeldari",
+   "detachment": "Disruption"
+  },
+  {
+   "placing": 59,
+   "points": 119.09,
+   "player": "Chris Adams",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 60,
+   "points": 117.75,
+   "player": "Tait Chambers",
+   "faction": "Emperor's Children",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 61,
+   "points": 116.43,
+   "player": "Justin Southworth",
+   "faction": "Imperial Knights",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 62,
+   "points": 115.13,
+   "player": "David Arimond",
+   "faction": "Grey Knights",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 63,
+   "points": 113.85,
+   "player": "Eric Tessier",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 64,
+   "points": 112.58,
+   "player": "Joe Barthel",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 65,
+   "points": 111.32,
+   "player": "Ryan Kline",
+   "faction": "Chaos Knights",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 66,
+   "points": 110.09,
+   "player": "Henry Pezzo",
+   "faction": "Genestealer Cult",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 67,
+   "points": 108.86,
+   "player": "Brent Gibson",
+   "faction": "Astra Militarum",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 68,
+   "points": 107.66,
+   "player": "Ali Pedraza",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 69,
+   "points": 106.46,
+   "player": "Emerson Maki",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 70,
+   "points": 105.29,
+   "player": "Zachary Mann",
+   "faction": "Astra Militarum",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 71,
+   "points": 104.13,
+   "player": "Gene Richtsmeier",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 72,
+   "points": 102.98,
+   "player": "Calvin Hetzel",
+   "faction": "Death Guard",
+   "detachment": null
+  },
+  {
+   "placing": 73,
+   "points": 101.84,
+   "player": "Bill Stineman",
+   "faction": "Orks",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 74,
+   "points": 100.72,
+   "player": "Leo Schue",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 75,
+   "points": 99.62,
+   "player": "ian high",
+   "faction": "Orks",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 76,
+   "points": 98.53,
+   "player": "Cal Green",
+   "faction": "World Eaters",
+   "detachment": null
+  },
+  {
+   "placing": 77,
+   "points": 97.45,
+   "player": "Kevin Johnston",
+   "faction": "Orks",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 78,
+   "points": 96.39,
+   "player": "Caleb Gruber",
+   "faction": "Space Wolves",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 79,
+   "points": 95.34,
+   "player": "Mark Hetchler",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 80,
+   "points": 94.3,
+   "player": "Zoey Martin",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 81,
+   "points": 93.27,
+   "player": "Juan Ramos",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 82,
+   "points": 92.26,
+   "player": "James Amundson",
+   "faction": "Orks",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 83,
+   "points": 91.26,
+   "player": "Chris Franson",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 84,
+   "points": 90.27,
+   "player": "Andre Carrero",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 85,
+   "points": 89.3,
+   "player": "Juan Miranda",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 86,
+   "points": 88.34,
+   "player": "Matthew Pedretti",
+   "faction": "Death Guard",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 87,
+   "points": 87.39,
+   "player": "Malachi Michaelson",
+   "faction": "Space Marines (Astartes)",
+   "detachment": null
+  },
+  {
+   "placing": 88,
+   "points": 86.45,
+   "player": "Blayne Schuetzle",
+   "faction": "Adeptus Custodes",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 89,
+   "points": 85.52,
+   "player": "Taryn  Koss",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 90,
+   "points": 84.61,
+   "player": "Tyler Alberts",
+   "faction": "Space Wolves",
+   "detachment": "Disruption"
+  },
+  {
+   "placing": 91,
+   "points": 83.7,
+   "player": "Laird Cunningham",
+   "faction": "Tyranids",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 92,
+   "points": 82.81,
+   "player": "Henry Rumreich",
+   "faction": "Orks",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 93,
+   "points": 81.93,
+   "player": "Max Ganshyn",
+   "faction": "Grey Knights",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 94,
+   "points": 81.06,
+   "player": "Scott Syverson",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 95,
+   "points": 80.2,
+   "player": "Nick Harbeck",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 96,
+   "points": 79.35,
+   "player": "Nas Erstad",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 97,
+   "points": 78.51,
+   "player": "Kazimierz Thorp",
+   "faction": "Tyranids",
+   "detachment": "Disruption"
+  },
+  {
+   "placing": 98,
+   "points": 77.68,
+   "player": "Joe Copeland",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 99,
+   "points": 76.87,
+   "player": "Kirk Hetzel",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 100,
+   "points": 76.06,
+   "player": "Matthew Coleman",
+   "faction": "Aeldari",
+   "detachment": null
+  },
+  {
+   "placing": 101,
+   "points": 75.26,
+   "player": "Peter Harjung",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 102,
+   "points": 74.48,
+   "player": "Alessio Caselli",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 103,
+   "points": 73.7,
+   "player": "Kobi Mcneill",
+   "faction": "Emperor's Children",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 104,
+   "points": 72.93,
+   "player": "Darian Anderson",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 105,
+   "points": 72.17,
+   "player": "David Kopilenko",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 106,
+   "points": 71.43,
+   "player": "Uziel Ramos",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 107,
+   "points": 70.69,
+   "player": "noah schmelzer",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 108,
+   "points": 69.96,
+   "player": "Sage Coff",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 109,
+   "points": 69.24,
+   "player": "David Grunau",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 110,
+   "points": 68.52,
+   "player": "Tom Wurzinger",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 111,
+   "points": 67.82,
+   "player": "Jeremiah Petit",
+   "faction": "Leagues of Votann",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 112,
+   "points": 67.13,
+   "player": "James Hetzel",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 113,
+   "points": 66.44,
+   "player": "Kiran Arquin",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 114,
+   "points": 65.77,
+   "player": "Thomas Getz",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 115,
+   "points": 65.1,
+   "player": "Seth Borne",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 116,
+   "points": 64.44,
+   "player": "Rob Roguske",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 117,
+   "points": 63.79,
+   "player": "Eric Klevar",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 118,
+   "points": 63.14,
+   "player": "Gregory Hast",
+   "faction": "Grey Knights",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 119,
+   "points": 62.51,
+   "player": "Justin Hamilton",
+   "faction": "Orks",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 120,
+   "points": 61.88,
+   "player": "Gabriel Hiner",
+   "faction": "T'au Empire",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 121,
+   "points": 61.26,
+   "player": "Michael Brun",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets"
+  },
+  {
+   "placing": 122,
+   "points": 60.65,
+   "player": "Kenny Rugg",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 123,
+   "points": 60.04,
+   "player": "Andrew Smith",
+   "faction": "Chaos Daemons",
+   "detachment": "Reconnaissance"
+  },
+  {
+   "placing": 124,
+   "points": 59.45,
+   "player": "Tom Anderson",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 125,
+   "points": 58.86,
+   "player": "Bryan Rindo",
+   "faction": "World Eaters",
+   "detachment": "Disruption"
+  },
+  {
+   "placing": 126,
+   "points": 58.28,
+   "player": "Dale Inman",
+   "faction": "Leagues of Votann",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 127,
+   "points": 57.7,
+   "player": "Michael Peters",
+   "faction": "World Eaters",
+   "detachment": null
+  },
+  {
+   "placing": 128,
+   "points": 57.13,
+   "player": "Aaron Hanson",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 129,
+   "points": 56.57,
+   "player": "Dave Danuser",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 130,
+   "points": 56.02,
+   "player": "Matheau Sater",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Purge the Foe"
+  },
+  {
+   "placing": 131,
+   "points": 55.47,
+   "player": "Darrel Laumann",
+   "faction": "Imperial Knights",
+   "detachment": "Take and Hold"
+  },
+  {
+   "placing": 132,
+   "points": 54.93,
+   "player": "Michael Peters",
+   "faction": "World Eaters",
+   "detachment": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+# Seth Borne | T'au Empire | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/oBh8q3Mr5W7x  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - T'au Empire
++ DETACHMENT: Mont'ka (Killing Blow)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: Commander Shadowsun
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 20
++ SECONDARY: - Bring It Down: (7x2) + (2x4) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Cadre Fireblade (50 pts): 2x Shield Drone, Close combat weapon, Fireblade pulse rifle
+Char3: 1x Commander in Coldstar Battlesuit (95 pts): 4x Fusion blaster, Battlesuit fists
+Char1: 1x Commander Shadowsun (100 pts): Warlord, Battlesuit fists, Flechette launcher, 2x High-energy fusion blaster, Light missile pod, Pulse pistol
+Char4: 1x Ethereal (50 pts): Hover Drone, 2x Shield Drone, Honour stave
+
+10x Breacher Team (90 pts)
+• 1x Breacher Fire Warrior Shas'ui: Close combat weapon, Pulse blaster, Pulse pistol, Support turret
+• 9x Breacher Fire Warriors: 9 with Close combat weapon, Pulse blaster, Pulse pistol
+
+10x Strike Team (70 pts)
+• 1x Fire Warrior Shas'ui: 2x Shield Drone, Close combat weapon, Pulse pistol, Pulse rifle, Support turret
+• 9x Fire Warrior: 9 with Close combat weapon, Pulse pistol, Pulse rifle
+
+10x Strike Team (70 pts)
+• 1x Fire Warrior Shas'ui: 2x Shield Drone, Close combat weapon, Pulse pistol, Pulse rifle, Support turret
+• 9x Fire Warrior: 9 with Close combat weapon, Pulse pistol, Pulse rifle
+
+10x Strike Team (70 pts)
+• 1x Fire Warrior Shas'ui: 2x Shield Drone, Close combat weapon, Pulse pistol, Pulse rifle, Support turret
+• 9x Fire Warrior: 9 with Close combat weapon, Pulse pistol, Pulse rifle
+
+
+1x Broadside Battlesuits (75 pts): 2x Shield Drone, Weapon support system, Crushing bulk, Heavy rail rifle, Seeker missile
+
+3x Crisis Fireknife Battlesuits (130 pts)
+• 1x Crisis Fireknife Shas’vre: Gun Drone, Shield Drone, 2x Missile pod, Battlesuit fists
+• 2x Crisis Fireknife Shas’ui: 2 with Gun Drone, Shield Drone, Battlesuit fists, 2x Missile pod
+
+3x Crisis Sunforge Battlesuits (125 pts)
+• 1x Crisis Sunforge Shas’vre: Gun Drone, Shield Drone, 2x Fusion blaster, Battlesuit fists
+• 2x Crisis Sunforge Shas’ui: 2 with Gun Drone, Shield Drone, Battlesuit fists, 2x Fusion blaster
+
+1x Devilfish (85 pts): Accelerator burst cannon, Armoured hull, 2x Seeker missile, 2x Twin pulse carbine
+
+1x Ghostkeel Battlesuit (160 pts): Battlesuit support system, Ghostkeel fists, Cyclic ion raker, Twin fusion blaster
+
+10x Pathfinder Team (95 pts)
+• 9x Pathfinders
+    6 with Close combat weapon, Pulse carbine, Pulse pistol
+    3 with Close combat weapon, Ion rifle, Pulse pistol
+• 1x Pathfinder Shas'ui: Shield Drone, Grav-inhibitor drone, Close combat weapon, Pulse carbine, Pulse pistol
+
+10x Pathfinder Team (95 pts)
+• 9x Pathfinders
+    6 with Close combat weapon, Pulse carbine, Pulse pistol
+    3 with Close combat weapon, Ion rifle, Pulse pistol
+• 1x Pathfinder Shas'ui: Shield Drone, Grav-inhibitor drone, Close combat weapon, Pulse carbine, Pulse pistol
+1x Piranhas (65 pts): Armoured hull, 2x Twin pulse carbine, Piranha fusion blaster, 2x Seeker missile
+1x Riptide Battlesuit (200 pts): Riptide fists, Ion accelerator, 2x Missile pod, Twin plasma rifle
+1x Riptide Battlesuit (200 pts): Riptide fists, Ion accelerator, 2x Missile pod, Twin plasma rifle
+5x Stealth Battlesuits (100 pts)
+• 1x Stealth Shas'vre: Gun Drone, Marker Drone, Battlesuit fists, Burst cannon
+• 4x Stealth Shas'ui: 4 with Battlesuit fists, Burst cannon
+5x Vespid Stingwings (70 pts)
+• 1x Vespid Strain Leader: Neutron blaster, Stingwing claws
+• 4x Vespid Stingwings: 4 with Neutron blaster, Stingwing claws
+5x Vespid Stingwings (70 pts)
+• 1x Vespid Strain Leader: Neutron blaster, Stingwing claws
+• 4x Vespid Stingwings: 4 with Neutron blaster, Stingwing claws
+
+undefined

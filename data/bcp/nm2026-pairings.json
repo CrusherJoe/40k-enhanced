@@ -1,0 +1,3098 @@
+[
+ {
+  "round": 1,
+  "table": 32,
+  "p1": "Tom Wurzinger",
+  "p1_pts": 92,
+  "p2": "Seth Borne",
+  "p2_pts": 90
+ },
+ {
+  "round": 1,
+  "table": 33,
+  "p1": "David Arimond",
+  "p1_pts": 91,
+  "p2": "Craig Parker",
+  "p2_pts": 97
+ },
+ {
+  "round": 1,
+  "table": 34,
+  "p1": "Gavin Matz",
+  "p1_pts": 93,
+  "p2": "Matheau Sater",
+  "p2_pts": 79
+ },
+ {
+  "round": 1,
+  "table": 35,
+  "p1": "Blayne Schuetzle",
+  "p1_pts": 92,
+  "p2": "Cal Green",
+  "p2_pts": 91
+ },
+ {
+  "round": 1,
+  "table": 36,
+  "p1": "Payten Roberts",
+  "p1_pts": 80,
+  "p2": "Sage Coff",
+  "p2_pts": 70
+ },
+ {
+  "round": 1,
+  "table": 37,
+  "p1": "Tim Royers",
+  "p1_pts": 100,
+  "p2": "Nicholas Rupel",
+  "p2_pts": 37
+ },
+ {
+  "round": 1,
+  "table": 38,
+  "p1": "Kirk Hetzel",
+  "p1_pts": 79,
+  "p2": "Gregory Hast",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 39,
+  "p1": "Seth Pommer",
+  "p1_pts": 97,
+  "p2": "Kenny Rugg",
+  "p2_pts": 64
+ },
+ {
+  "round": 1,
+  "table": 40,
+  "p1": "Malachi Michaelson",
+  "p1_pts": 88,
+  "p2": "Michael Peters",
+  "p2_pts": 41
+ },
+ {
+  "round": 1,
+  "table": 41,
+  "p1": "Scott Syverson",
+  "p1_pts": 50,
+  "p2": "Rob Roguske",
+  "p2_pts": 35
+ },
+ {
+  "round": 1,
+  "table": 42,
+  "p1": "Kade Smrecek",
+  "p1_pts": 99,
+  "p2": "Juan Ramos",
+  "p2_pts": 80
+ },
+ {
+  "round": 1,
+  "table": 43,
+  "p1": "Bryan Burt",
+  "p1_pts": 67,
+  "p2": "Braydon Anderson",
+  "p2_pts": 64
+ },
+ {
+  "round": 1,
+  "table": 44,
+  "p1": "Dylan Sempel",
+  "p1_pts": 53,
+  "p2": "Nathaniel Pommer",
+  "p2_pts": 90
+ },
+ {
+  "round": 1,
+  "table": 45,
+  "p1": "Sean Lu Opa",
+  "p1_pts": 99,
+  "p2": "David Kopilenko",
+  "p2_pts": 80
+ },
+ {
+  "round": 1,
+  "table": 46,
+  "p1": "Matt Stadnik",
+  "p1_pts": 100,
+  "p2": "Juan Miranda",
+  "p2_pts": 53
+ },
+ {
+  "round": 1,
+  "table": 47,
+  "p1": "Kobi Mcneill",
+  "p1_pts": 80,
+  "p2": "Chris Adams",
+  "p2_pts": 96
+ },
+ {
+  "round": 1,
+  "table": 48,
+  "p1": "Dave Danuser",
+  "p1_pts": 68,
+  "p2": "Henry Pezzo",
+  "p2_pts": 86
+ },
+ {
+  "round": 1,
+  "table": 49,
+  "p1": "Zoey Martin",
+  "p1_pts": 59,
+  "p2": "Austin Cance",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 50,
+  "p1": "Tim Cook",
+  "p1_pts": 100,
+  "p2": "Joe Barthel",
+  "p2_pts": 66
+ },
+ {
+  "round": 1,
+  "table": 51,
+  "p1": "Ryan Kline",
+  "p1_pts": 64,
+  "p2": "Aaron Pescheck-Thompson",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 52,
+  "p1": "Jack Kosidowski",
+  "p1_pts": 100,
+  "p2": "Tom Anderson",
+  "p2_pts": 29
+ },
+ {
+  "round": 1,
+  "table": 53,
+  "p1": "Andre Carrero",
+  "p1_pts": 88,
+  "p2": "Alexander Washington",
+  "p2_pts": 88
+ },
+ {
+  "round": 1,
+  "table": 54,
+  "p1": "Mr. Pibb Zero",
+  "p1_pts": 100,
+  "p2": "Justin Hamilton",
+  "p2_pts": 43
+ },
+ {
+  "round": 1,
+  "table": 55,
+  "p1": "Ben Cherwien",
+  "p1_pts": 100,
+  "p2": "Jake Roux",
+  "p2_pts": 43
+ },
+ {
+  "round": 1,
+  "table": 56,
+  "p1": "Justin Southworth",
+  "p1_pts": 91,
+  "p2": "James Amundson",
+  "p2_pts": 60
+ },
+ {
+  "round": 1,
+  "table": 57,
+  "p1": "Dale Inman",
+  "p1_pts": 22,
+  "p2": "Jacob Nelsen",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 58,
+  "p1": "Caleb Gruber",
+  "p1_pts": 45,
+  "p2": "Henry Rumreich",
+  "p2_pts": 51
+ },
+ {
+  "round": 1,
+  "table": 59,
+  "p1": "Joe Copeland",
+  "p1_pts": 82,
+  "p2": "Max Ganshyn",
+  "p2_pts": 83
+ },
+ {
+  "round": 1,
+  "table": 60,
+  "p1": "Chris Franson",
+  "p1_pts": 66,
+  "p2": "Tyler Alberts",
+  "p2_pts": 72
+ },
+ {
+  "round": 1,
+  "table": 61,
+  "p1": "John Teets",
+  "p1_pts": 50,
+  "p2": "Taryn Koss",
+  "p2_pts": 93
+ },
+ {
+  "round": 1,
+  "table": 62,
+  "p1": "David Bergstrom",
+  "p1_pts": 100,
+  "p2": "Leo Schue",
+  "p2_pts": 65
+ },
+ {
+  "round": 1,
+  "table": 63,
+  "p1": "Keaton King",
+  "p1_pts": 71,
+  "p2": "Jameson Mutch",
+  "p2_pts": 44
+ },
+ {
+  "round": 1,
+  "table": 64,
+  "p1": "Laird Cunningham",
+  "p1_pts": 72,
+  "p2": "Michael Peters",
+  "p2_pts": 14
+ },
+ {
+  "round": 1,
+  "table": 65,
+  "p1": "Nick Harbeck",
+  "p1_pts": 98,
+  "p2": "Darian Anderson",
+  "p2_pts": 72
+ },
+ {
+  "round": 1,
+  "table": 66,
+  "p1": "Gabriel Hiner",
+  "p1_pts": 29,
+  "p2": "Jeff Snyder",
+  "p2_pts": 51
+ },
+ {
+  "round": 1,
+  "table": 67,
+  "p1": "Matthew Coleman",
+  "p1_pts": 56,
+  "p2": "Brian Evans",
+  "p2_pts": 98
+ },
+ {
+  "round": 1,
+  "table": 68,
+  "p1": "Jordan Albee",
+  "p1_pts": 70,
+  "p2": "",
+  "p2_pts": null
+ },
+ {
+  "round": 1,
+  "table": 17,
+  "p1": "Zachary Mann",
+  "p1_pts": 55,
+  "p2": "Tait Chambers",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 18,
+  "p1": "Gene Richtsmeier",
+  "p1_pts": 80,
+  "p2": "Kyle McCord",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 19,
+  "p1": "Max Lipschultz",
+  "p1_pts": 89,
+  "p2": "James Kelling",
+  "p2_pts": 95
+ },
+ {
+  "round": 1,
+  "table": 20,
+  "p1": "Jabbar Haider",
+  "p1_pts": 99,
+  "p2": "Nick Ranallo",
+  "p2_pts": 75
+ },
+ {
+  "round": 1,
+  "table": 21,
+  "p1": "Aaron Scherer",
+  "p1_pts": 67,
+  "p2": "Mr. Pibb",
+  "p2_pts": 96
+ },
+ {
+  "round": 1,
+  "table": 22,
+  "p1": "James Hetzel",
+  "p1_pts": 77,
+  "p2": "Tyler Devries",
+  "p2_pts": 93
+ },
+ {
+  "round": 1,
+  "table": 23,
+  "p1": "Mac McGregor",
+  "p1_pts": 98,
+  "p2": "Ali Pedraza",
+  "p2_pts": 83
+ },
+ {
+  "round": 1,
+  "table": 24,
+  "p1": "Kiran Arquin",
+  "p1_pts": 100,
+  "p2": "Aaron Hanson",
+  "p2_pts": 50
+ },
+ {
+  "round": 1,
+  "table": 25,
+  "p1": "Bryan Rindo",
+  "p1_pts": 62,
+  "p2": "Codey Bolte",
+  "p2_pts": 78
+ },
+ {
+  "round": 1,
+  "table": 26,
+  "p1": "Bill Stineman",
+  "p1_pts": 44,
+  "p2": "Reid Olson",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 27,
+  "p1": "Brian Fulford",
+  "p1_pts": 55,
+  "p2": "ian high",
+  "p2_pts": 54
+ },
+ {
+  "round": 1,
+  "table": 28,
+  "p1": "Daniel Lorbiecki",
+  "p1_pts": 100,
+  "p2": "Nash Erstad",
+  "p2_pts": 54
+ },
+ {
+  "round": 1,
+  "table": 29,
+  "p1": "Raphael Peralez",
+  "p1_pts": 95,
+  "p2": "Michael Brun",
+  "p2_pts": 52
+ },
+ {
+  "round": 1,
+  "table": 30,
+  "p1": "Tony Ranallo",
+  "p1_pts": 100,
+  "p2": "Peter Harjung",
+  "p2_pts": 72
+ },
+ {
+  "round": 1,
+  "table": 31,
+  "p1": "Zachary Rothman",
+  "p1_pts": 75,
+  "p2": "Jared Garcia",
+  "p2_pts": 90
+ },
+ {
+  "round": 1,
+  "table": 6,
+  "p1": "Alessio Caselli",
+  "p1_pts": 42,
+  "p2": "Nicholas Howard",
+  "p2_pts": 90
+ },
+ {
+  "round": 1,
+  "table": 7,
+  "p1": "Andrew Moe",
+  "p1_pts": 100,
+  "p2": "Eric Tessier",
+  "p2_pts": 95
+ },
+ {
+  "round": 1,
+  "table": 8,
+  "p1": "Kazimierz Thorp",
+  "p1_pts": 74,
+  "p2": "Alex Vian",
+  "p2_pts": 95
+ },
+ {
+  "round": 1,
+  "table": 9,
+  "p1": "Martin Beamish",
+  "p1_pts": 100,
+  "p2": "David Grunau",
+  "p2_pts": 19
+ },
+ {
+  "round": 1,
+  "table": 10,
+  "p1": "Jeremiah Petit",
+  "p1_pts": 49,
+  "p2": "James Walsh",
+  "p2_pts": 99
+ },
+ {
+  "round": 1,
+  "table": 11,
+  "p1": "Michael Douglass",
+  "p1_pts": 65,
+  "p2": "Matthew Pedretti",
+  "p2_pts": 93
+ },
+ {
+  "round": 1,
+  "table": 12,
+  "p1": "Calvin Hetzel",
+  "p1_pts": 23,
+  "p2": "Jake Lindfors",
+  "p2_pts": 100
+ },
+ {
+  "round": 1,
+  "table": 13,
+  "p1": "Mark Behm",
+  "p1_pts": 88,
+  "p2": "Eric Klevar",
+  "p2_pts": 72
+ },
+ {
+  "round": 1,
+  "table": 14,
+  "p1": "Justin Johnson",
+  "p1_pts": 92,
+  "p2": "Mr. Rocks",
+  "p2_pts": 77
+ },
+ {
+  "round": 1,
+  "table": 15,
+  "p1": "Brent Gibson",
+  "p1_pts": 47,
+  "p2": "Matthew Root",
+  "p2_pts": 99
+ },
+ {
+  "round": 1,
+  "table": 16,
+  "p1": "noah schmelzer",
+  "p1_pts": 78,
+  "p2": "Scott Blegen",
+  "p2_pts": 95
+ },
+ {
+  "round": 1,
+  "table": 1,
+  "p1": "Stephen Crawford",
+  "p1_pts": 100,
+  "p2": "Emerson Maki",
+  "p2_pts": 79
+ },
+ {
+  "round": 1,
+  "table": 2,
+  "p1": "Mike Vasseur",
+  "p1_pts": 89,
+  "p2": "Kevin Johnston",
+  "p2_pts": 88
+ },
+ {
+  "round": 1,
+  "table": 3,
+  "p1": "Mark Hetchler",
+  "p1_pts": 100,
+  "p2": "Uziel Ramos",
+  "p2_pts": 50
+ },
+ {
+  "round": 1,
+  "table": 4,
+  "p1": "Logan Payne",
+  "p1_pts": 96,
+  "p2": "Andrew Smith",
+  "p2_pts": 79
+ },
+ {
+  "round": 1,
+  "table": 5,
+  "p1": "Darrel Laumann",
+  "p1_pts": 73,
+  "p2": "Andy Graber",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 1,
+  "p1": "Jacob Nelsen",
+  "p1_pts": 94,
+  "p2": "Austin Cance",
+  "p2_pts": 94
+ },
+ {
+  "round": 2,
+  "table": 2,
+  "p1": "Matthew Pedretti",
+  "p1_pts": 91,
+  "p2": "Taryn Koss",
+  "p2_pts": 78
+ },
+ {
+  "round": 2,
+  "table": 3,
+  "p1": "Andy Graber",
+  "p1_pts": 98,
+  "p2": "Keaton King",
+  "p2_pts": 89
+ },
+ {
+  "round": 2,
+  "table": 4,
+  "p1": "Laird Cunningham",
+  "p1_pts": 58,
+  "p2": "Tyler Devries",
+  "p2_pts": 97
+ },
+ {
+  "round": 2,
+  "table": 5,
+  "p1": "Tony Ranallo",
+  "p1_pts": 76,
+  "p2": "Daniel Lorbiecki",
+  "p2_pts": 97
+ },
+ {
+  "round": 2,
+  "table": 6,
+  "p1": "Logan Payne",
+  "p1_pts": 93,
+  "p2": "Tyler Alberts",
+  "p2_pts": 81
+ },
+ {
+  "round": 2,
+  "table": 7,
+  "p1": "Stephen Crawford",
+  "p1_pts": 71,
+  "p2": "Reid Olson",
+  "p2_pts": 88
+ },
+ {
+  "round": 2,
+  "table": 8,
+  "p1": "James Kelling",
+  "p1_pts": 100,
+  "p2": "Blayne Schuetzle",
+  "p2_pts": 73
+ },
+ {
+  "round": 2,
+  "table": 9,
+  "p1": "James Walsh",
+  "p1_pts": 91,
+  "p2": "Raphael Peralez",
+  "p2_pts": 25
+ },
+ {
+  "round": 2,
+  "table": 10,
+  "p1": "Matthew Root",
+  "p1_pts": 100,
+  "p2": "Mike Vasseur",
+  "p2_pts": 28
+ },
+ {
+  "round": 2,
+  "table": 11,
+  "p1": "Gavin Matz",
+  "p1_pts": 75,
+  "p2": "Kyle McCord",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 12,
+  "p1": "Mr. Pibb Zero",
+  "p1_pts": 84,
+  "p2": "Ben Cherwien",
+  "p2_pts": 77
+ },
+ {
+  "round": 2,
+  "table": 13,
+  "p1": "Tim Royers",
+  "p1_pts": 93,
+  "p2": "Justin Johnson",
+  "p2_pts": 63
+ },
+ {
+  "round": 2,
+  "table": 14,
+  "p1": "Henry Pezzo",
+  "p1_pts": 83,
+  "p2": "Aaron Pescheck-Thompson",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 15,
+  "p1": "Tait Chambers",
+  "p1_pts": 78,
+  "p2": "Andrew Moe",
+  "p2_pts": 96
+ },
+ {
+  "round": 2,
+  "table": 16,
+  "p1": "Craig Parker",
+  "p1_pts": 94,
+  "p2": "Chris Adams",
+  "p2_pts": 81
+ },
+ {
+  "round": 2,
+  "table": 17,
+  "p1": "Codey Bolte",
+  "p1_pts": 69,
+  "p2": "Matt Stadnik",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 18,
+  "p1": "Scott Blegen",
+  "p1_pts": 53,
+  "p2": "Mac McGregor",
+  "p2_pts": 96
+ },
+ {
+  "round": 2,
+  "table": 19,
+  "p1": "Brian Evans",
+  "p1_pts": 63,
+  "p2": "Jabbar Haider",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 20,
+  "p1": "Mark Hetchler",
+  "p1_pts": 65,
+  "p2": "Nathaniel Pommer",
+  "p2_pts": 88
+ },
+ {
+  "round": 2,
+  "table": 21,
+  "p1": "Nicholas Howard",
+  "p1_pts": 82,
+  "p2": "Mark Behm",
+  "p2_pts": 76
+ },
+ {
+  "round": 2,
+  "table": 22,
+  "p1": "Max Ganshyn",
+  "p1_pts": 71,
+  "p2": "Jared Garcia",
+  "p2_pts": 85
+ },
+ {
+  "round": 2,
+  "table": 23,
+  "p1": "Gregory Hast",
+  "p1_pts": 41,
+  "p2": "Jeff Snyder",
+  "p2_pts": 84
+ },
+ {
+  "round": 2,
+  "table": 24,
+  "p1": "Brian Fulford",
+  "p1_pts": 94,
+  "p2": "Nick Harbeck",
+  "p2_pts": 91
+ },
+ {
+  "round": 2,
+  "table": 25,
+  "p1": "Malachi Michaelson",
+  "p1_pts": 89,
+  "p2": "Justin Southworth",
+  "p2_pts": 59
+ },
+ {
+  "round": 2,
+  "table": 26,
+  "p1": "Tim Cook",
+  "p1_pts": 83,
+  "p2": "Henry Rumreich",
+  "p2_pts": 66
+ },
+ {
+  "round": 2,
+  "table": 27,
+  "p1": "Kiran Arquin",
+  "p1_pts": 87,
+  "p2": "Tom Wurzinger",
+  "p2_pts": 92
+ },
+ {
+  "round": 2,
+  "table": 28,
+  "p1": "Jake Lindfors",
+  "p1_pts": 96,
+  "p2": "Scott Syverson",
+  "p2_pts": 52
+ },
+ {
+  "round": 2,
+  "table": 29,
+  "p1": "David Bergstrom",
+  "p1_pts": 100,
+  "p2": "Kade Smrecek",
+  "p2_pts": 62
+ },
+ {
+  "round": 2,
+  "table": 30,
+  "p1": "Alex Vian",
+  "p1_pts": 91,
+  "p2": "Bryan Burt",
+  "p2_pts": 81
+ },
+ {
+  "round": 2,
+  "table": 31,
+  "p1": "Payten Roberts",
+  "p1_pts": 100,
+  "p2": "Martin Beamish",
+  "p2_pts": 90
+ },
+ {
+  "round": 2,
+  "table": 32,
+  "p1": "Mr. Pibb",
+  "p1_pts": 64,
+  "p2": "Sean Lu Opa",
+  "p2_pts": 75
+ },
+ {
+  "round": 2,
+  "table": 33,
+  "p1": "Jack Kosidowski",
+  "p1_pts": 96,
+  "p2": "Jordan Albee",
+  "p2_pts": 56
+ },
+ {
+  "round": 2,
+  "table": 34,
+  "p1": "Seth Pommer",
+  "p1_pts": 98,
+  "p2": "Andre Carrero",
+  "p2_pts": 67
+ },
+ {
+  "round": 2,
+  "table": 35,
+  "p1": "Alexander Washington",
+  "p1_pts": 42,
+  "p2": "Zachary Rothman",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 36,
+  "p1": "Michael Douglass",
+  "p1_pts": 95,
+  "p2": "Leo Schue",
+  "p2_pts": 46
+ },
+ {
+  "round": 2,
+  "table": 37,
+  "p1": "Mr. Rocks",
+  "p1_pts": 64,
+  "p2": "Kazimierz Thorp",
+  "p2_pts": 74
+ },
+ {
+  "round": 2,
+  "table": 38,
+  "p1": "Juan Miranda",
+  "p1_pts": 63,
+  "p2": "Kobi Mcneill",
+  "p2_pts": 81
+ },
+ {
+  "round": 2,
+  "table": 39,
+  "p1": "Kenny Rugg",
+  "p1_pts": 60,
+  "p2": "Joe Barthel",
+  "p2_pts": 99
+ },
+ {
+  "round": 2,
+  "table": 40,
+  "p1": "John Teets",
+  "p1_pts": 99,
+  "p2": "Chris Franson",
+  "p2_pts": 76
+ },
+ {
+  "round": 2,
+  "table": 41,
+  "p1": "ian high",
+  "p1_pts": 100,
+  "p2": "Darrel Laumann",
+  "p2_pts": 66
+ },
+ {
+  "round": 2,
+  "table": 42,
+  "p1": "Ryan Kline",
+  "p1_pts": 76,
+  "p2": "Sage Coff",
+  "p2_pts": 54
+ },
+ {
+  "round": 2,
+  "table": 43,
+  "p1": "Bill Stineman",
+  "p1_pts": 88,
+  "p2": "Zoey Martin",
+  "p2_pts": 61
+ },
+ {
+  "round": 2,
+  "table": 44,
+  "p1": "Dylan Sempel",
+  "p1_pts": 86,
+  "p2": "Aaron Scherer",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 45,
+  "p1": "Uziel Ramos",
+  "p1_pts": 55,
+  "p2": "Gabriel Hiner",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 46,
+  "p1": "Braydon Anderson",
+  "p1_pts": 97,
+  "p2": "Michael Brun",
+  "p2_pts": 75
+ },
+ {
+  "round": 2,
+  "table": 47,
+  "p1": "David Grunau",
+  "p1_pts": 56,
+  "p2": "Jake Roux",
+  "p2_pts": 83
+ },
+ {
+  "round": 2,
+  "table": 48,
+  "p1": "Ali Pedraza",
+  "p1_pts": 92,
+  "p2": "Rob Roguske",
+  "p2_pts": 33
+ },
+ {
+  "round": 2,
+  "table": 49,
+  "p1": "Nick Ranallo",
+  "p1_pts": 92,
+  "p2": "Aaron Hanson",
+  "p2_pts": 66
+ },
+ {
+  "round": 2,
+  "table": 50,
+  "p1": "Kevin Johnston",
+  "p1_pts": 60,
+  "p2": "Emerson Maki",
+  "p2_pts": 99
+ },
+ {
+  "round": 2,
+  "table": 51,
+  "p1": "Darian Anderson",
+  "p1_pts": 41,
+  "p2": "Max Lipschultz",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 52,
+  "p1": "Bryan Rindo",
+  "p1_pts": 93,
+  "p2": "Cal Green",
+  "p2_pts": 52
+ },
+ {
+  "round": 2,
+  "table": 53,
+  "p1": "Matheau Sater",
+  "p1_pts": 83,
+  "p2": "Justin Hamilton",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 54,
+  "p1": "Tom Anderson",
+  "p1_pts": 31,
+  "p2": "Joe Copeland",
+  "p2_pts": 51
+ },
+ {
+  "round": 2,
+  "table": 55,
+  "p1": "Andrew Smith",
+  "p1_pts": 52,
+  "p2": "David Arimond",
+  "p2_pts": 99
+ },
+ {
+  "round": 2,
+  "table": 56,
+  "p1": "James Amundson",
+  "p1_pts": 28,
+  "p2": "Gene Richtsmeier",
+  "p2_pts": 100
+ },
+ {
+  "round": 2,
+  "table": 57,
+  "p1": "David Kopilenko",
+  "p1_pts": 90,
+  "p2": "Brent Gibson",
+  "p2_pts": 94
+ },
+ {
+  "round": 2,
+  "table": 58,
+  "p1": "Nicholas Rupel",
+  "p1_pts": 100,
+  "p2": "Seth Borne",
+  "p2_pts": 80
+ },
+ {
+  "round": 2,
+  "table": 59,
+  "p1": "Calvin Hetzel",
+  "p1_pts": 99,
+  "p2": "Michael Peters",
+  "p2_pts": 74
+ },
+ {
+  "round": 2,
+  "table": 60,
+  "p1": "Kirk Hetzel",
+  "p1_pts": 95,
+  "p2": "Michael Peters",
+  "p2_pts": 45
+ },
+ {
+  "round": 2,
+  "table": 61,
+  "p1": "Zachary Mann",
+  "p1_pts": 83,
+  "p2": "Caleb Gruber",
+  "p2_pts": 72
+ },
+ {
+  "round": 2,
+  "table": 62,
+  "p1": "Nash Erstad",
+  "p1_pts": 97,
+  "p2": "Juan Ramos",
+  "p2_pts": 77
+ },
+ {
+  "round": 2,
+  "table": 63,
+  "p1": "Eric Tessier",
+  "p1_pts": 89,
+  "p2": "Dave Danuser",
+  "p2_pts": 87
+ },
+ {
+  "round": 2,
+  "table": 64,
+  "p1": "Matthew Coleman",
+  "p1_pts": 87,
+  "p2": "Eric Klevar",
+  "p2_pts": 85
+ },
+ {
+  "round": 2,
+  "table": 65,
+  "p1": "noah schmelzer",
+  "p1_pts": 56,
+  "p2": "Alessio Caselli",
+  "p2_pts": 72
+ },
+ {
+  "round": 2,
+  "table": 66,
+  "p1": "Peter Harjung",
+  "p1_pts": 95,
+  "p2": "Dale Inman",
+  "p2_pts": 45
+ },
+ {
+  "round": 2,
+  "table": 67,
+  "p1": "James Hetzel",
+  "p1_pts": 34,
+  "p2": "Jeremiah Petit",
+  "p2_pts": 98
+ },
+ {
+  "round": 3,
+  "table": 1,
+  "p1": "Jabbar Haider",
+  "p1_pts": 52,
+  "p2": "Matthew Root",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 2,
+  "p1": "Andrew Moe",
+  "p1_pts": 93,
+  "p2": "Jeff Snyder",
+  "p2_pts": 74
+ },
+ {
+  "round": 3,
+  "table": 3,
+  "p1": "Aaron Pescheck-Thompson",
+  "p1_pts": 100,
+  "p2": "Daniel Lorbiecki",
+  "p2_pts": 72
+ },
+ {
+  "round": 3,
+  "table": 4,
+  "p1": "Tom Wurzinger",
+  "p1_pts": 59,
+  "p2": "Reid Olson",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 5,
+  "p1": "Jared Garcia",
+  "p1_pts": 100,
+  "p2": "Matthew Pedretti",
+  "p2_pts": 79
+ },
+ {
+  "round": 3,
+  "table": 6,
+  "p1": "Payten Roberts",
+  "p1_pts": 94,
+  "p2": "Craig Parker",
+  "p2_pts": 95
+ },
+ {
+  "round": 3,
+  "table": 7,
+  "p1": "Jack Kosidowski",
+  "p1_pts": 50,
+  "p2": "Tim Cook",
+  "p2_pts": 94
+ },
+ {
+  "round": 3,
+  "table": 8,
+  "p1": "Mr. Pibb Zero",
+  "p1_pts": 79,
+  "p2": "Sean Lu Opa",
+  "p2_pts": 76
+ },
+ {
+  "round": 3,
+  "table": 9,
+  "p1": "James Walsh",
+  "p1_pts": 92,
+  "p2": "Alex Vian",
+  "p2_pts": 33
+ },
+ {
+  "round": 3,
+  "table": 10,
+  "p1": "Kyle McCord",
+  "p1_pts": 99,
+  "p2": "Andy Graber",
+  "p2_pts": 91
+ },
+ {
+  "round": 3,
+  "table": 11,
+  "p1": "Nicholas Howard",
+  "p1_pts": 82,
+  "p2": "Malachi Michaelson",
+  "p2_pts": 58
+ },
+ {
+  "round": 3,
+  "table": 12,
+  "p1": "Nathaniel Pommer",
+  "p1_pts": 73,
+  "p2": "Matt Stadnik",
+  "p2_pts": 97
+ },
+ {
+  "round": 3,
+  "table": 13,
+  "p1": "Jake Lindfors",
+  "p1_pts": 84,
+  "p2": "Brian Fulford",
+  "p2_pts": 88
+ },
+ {
+  "round": 3,
+  "table": 14,
+  "p1": "James Kelling",
+  "p1_pts": 87,
+  "p2": "Tim Royers",
+  "p2_pts": 84
+ },
+ {
+  "round": 3,
+  "table": 15,
+  "p1": "Seth Pommer",
+  "p1_pts": 100,
+  "p2": "Tyler Devries",
+  "p2_pts": 73
+ },
+ {
+  "round": 3,
+  "table": 16,
+  "p1": "Mac McGregor",
+  "p1_pts": 70,
+  "p2": "Logan Payne",
+  "p2_pts": 71
+ },
+ {
+  "round": 3,
+  "table": 17,
+  "p1": "David Bergstrom",
+  "p1_pts": 100,
+  "p2": "Austin Cance",
+  "p2_pts": 86
+ },
+ {
+  "round": 3,
+  "table": 18,
+  "p1": "Jacob Nelsen",
+  "p1_pts": 100,
+  "p2": "Scott Syverson",
+  "p2_pts": 63
+ },
+ {
+  "round": 3,
+  "table": 19,
+  "p1": "Mr. Pibb",
+  "p1_pts": 100,
+  "p2": "Kobi Mcneill",
+  "p2_pts": 51
+ },
+ {
+  "round": 3,
+  "table": 20,
+  "p1": "Ben Cherwien",
+  "p1_pts": 87,
+  "p2": "Mark Behm",
+  "p2_pts": 88
+ },
+ {
+  "round": 3,
+  "table": 21,
+  "p1": "Gabriel Hiner",
+  "p1_pts": 67,
+  "p2": "Taryn Koss",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 22,
+  "p1": "Jordan Albee",
+  "p1_pts": 100,
+  "p2": "Kirk Hetzel",
+  "p2_pts": 25
+ },
+ {
+  "round": 3,
+  "table": 23,
+  "p1": "Bill Stineman",
+  "p1_pts": 89,
+  "p2": "Martin Beamish",
+  "p2_pts": 51
+ },
+ {
+  "round": 3,
+  "table": 24,
+  "p1": "Stephen Crawford",
+  "p1_pts": 99,
+  "p2": "Matthew Coleman",
+  "p2_pts": 43
+ },
+ {
+  "round": 3,
+  "table": 25,
+  "p1": "Henry Rumreich",
+  "p1_pts": 91,
+  "p2": "Henry Pezzo",
+  "p2_pts": 93
+ },
+ {
+  "round": 3,
+  "table": 26,
+  "p1": "David Arimond",
+  "p1_pts": 97,
+  "p2": "Zachary Mann",
+  "p2_pts": 88
+ },
+ {
+  "round": 3,
+  "table": 27,
+  "p1": "Nick Harbeck",
+  "p1_pts": 88,
+  "p2": "Gavin Matz",
+  "p2_pts": 92
+ },
+ {
+  "round": 3,
+  "table": 28,
+  "p1": "Zachary Rothman",
+  "p1_pts": 81,
+  "p2": "Tyler Alberts",
+  "p2_pts": 55
+ },
+ {
+  "round": 3,
+  "table": 29,
+  "p1": "Chris Adams",
+  "p1_pts": 76,
+  "p2": "Raphael Peralez",
+  "p2_pts": 93
+ },
+ {
+  "round": 3,
+  "table": 30,
+  "p1": "Jeremiah Petit",
+  "p1_pts": 93,
+  "p2": "Alessio Caselli",
+  "p2_pts": 54
+ },
+ {
+  "round": 3,
+  "table": 31,
+  "p1": "Codey Bolte",
+  "p1_pts": 81,
+  "p2": "Justin Southworth",
+  "p2_pts": 55
+ },
+ {
+  "round": 3,
+  "table": 32,
+  "p1": "Mark Hetchler",
+  "p1_pts": 95,
+  "p2": "Calvin Hetzel",
+  "p2_pts": 59
+ },
+ {
+  "round": 3,
+  "table": 33,
+  "p1": "Ali Pedraza",
+  "p1_pts": 88,
+  "p2": "Aaron Scherer",
+  "p2_pts": 89
+ },
+ {
+  "round": 3,
+  "table": 34,
+  "p1": "Ryan Kline",
+  "p1_pts": 79,
+  "p2": "Peter Harjung",
+  "p2_pts": 58
+ },
+ {
+  "round": 3,
+  "table": 35,
+  "p1": "Gene Richtsmeier",
+  "p1_pts": 79,
+  "p2": "Kiran Arquin",
+  "p2_pts": 86
+ },
+ {
+  "round": 3,
+  "table": 36,
+  "p1": "Mike Vasseur",
+  "p1_pts": 100,
+  "p2": "Gregory Hast",
+  "p2_pts": 63
+ },
+ {
+  "round": 3,
+  "table": 37,
+  "p1": "John Teets",
+  "p1_pts": 89,
+  "p2": "Max Lipschultz",
+  "p2_pts": 81
+ },
+ {
+  "round": 3,
+  "table": 38,
+  "p1": "Emerson Maki",
+  "p1_pts": 28,
+  "p2": "Nick Ranallo",
+  "p2_pts": 100
+ },
+ {
+  "round": 3,
+  "table": 39,
+  "p1": "Michael Douglass",
+  "p1_pts": 90,
+  "p2": "Blayne Schuetzle",
+  "p2_pts": 99
+ },
+ {
+  "round": 3,
+  "table": 40,
+  "p1": "Braydon Anderson",
+  "p1_pts": 84,
+  "p2": "Jake Roux",
+  "p2_pts": 80
+ },
+ {
+  "round": 3,
+  "table": 41,
+  "p1": "Tony Ranallo",
+  "p1_pts": 96,
+  "p2": "Justin Hamilton",
+  "p2_pts": 64
+ },
+ {
+  "round": 3,
+  "table": 42,
+  "p1": "Brent Gibson",
+  "p1_pts": 83,
+  "p2": "Eric Tessier",
+  "p2_pts": 89
+ },
+ {
+  "round": 3,
+  "table": 43,
+  "p1": "Keaton King",
+  "p1_pts": 81,
+  "p2": "Brian Evans",
+  "p2_pts": 89
+ },
+ {
+  "round": 3,
+  "table": 44,
+  "p1": "Nash Erstad",
+  "p1_pts": 94,
+  "p2": "Nicholas Rupel",
+  "p2_pts": 83
+ },
+ {
+  "round": 3,
+  "table": 45,
+  "p1": "Joe Barthel",
+  "p1_pts": 76,
+  "p2": "Scott Blegen",
+  "p2_pts": 73
+ },
+ {
+  "round": 3,
+  "table": 46,
+  "p1": "Joe Copeland",
+  "p1_pts": 74,
+  "p2": "ian high",
+  "p2_pts": 98
+ },
+ {
+  "round": 3,
+  "table": 47,
+  "p1": "Kade Smrecek",
+  "p1_pts": 82,
+  "p2": "Kazimierz Thorp",
+  "p2_pts": 84
+ },
+ {
+  "round": 3,
+  "table": 48,
+  "p1": "Tait Chambers",
+  "p1_pts": 76,
+  "p2": "Justin Johnson",
+  "p2_pts": 97
+ },
+ {
+  "round": 3,
+  "table": 49,
+  "p1": "Bryan Burt",
+  "p1_pts": 100,
+  "p2": "Laird Cunningham",
+  "p2_pts": 58
+ },
+ {
+  "round": 3,
+  "table": 50,
+  "p1": "Max Ganshyn",
+  "p1_pts": 77,
+  "p2": "Alexander Washington",
+  "p2_pts": 93
+ },
+ {
+  "round": 3,
+  "table": 51,
+  "p1": "Andre Carrero",
+  "p1_pts": 65,
+  "p2": "James Amundson",
+  "p2_pts": 68
+ },
+ {
+  "round": 3,
+  "table": 52,
+  "p1": "Michael Peters",
+  "p1_pts": 73,
+  "p2": "Dale Inman",
+  "p2_pts": 73
+ },
+ {
+  "round": 3,
+  "table": 53,
+  "p1": "Uziel Ramos",
+  "p1_pts": 46,
+  "p2": "Rob Roguske",
+  "p2_pts": 44
+ },
+ {
+  "round": 3,
+  "table": 54,
+  "p1": "Kevin Johnston",
+  "p1_pts": 92,
+  "p2": "James Hetzel",
+  "p2_pts": 85
+ },
+ {
+  "round": 3,
+  "table": 55,
+  "p1": "Mr. Rocks",
+  "p1_pts": 76,
+  "p2": "Zoey Martin",
+  "p2_pts": 77
+ },
+ {
+  "round": 3,
+  "table": 56,
+  "p1": "David Kopilenko",
+  "p1_pts": 99,
+  "p2": "Andrew Smith",
+  "p2_pts": 69
+ },
+ {
+  "round": 3,
+  "table": 57,
+  "p1": "Cal Green",
+  "p1_pts": 89,
+  "p2": "Dave Danuser",
+  "p2_pts": 55
+ },
+ {
+  "round": 3,
+  "table": 58,
+  "p1": "Michael Peters",
+  "p1_pts": 31,
+  "p2": "David Grunau",
+  "p2_pts": 74
+ },
+ {
+  "round": 3,
+  "table": 59,
+  "p1": "Michael Brun",
+  "p1_pts": 43,
+  "p2": "Juan Miranda",
+  "p2_pts": 37
+ },
+ {
+  "round": 3,
+  "table": 60,
+  "p1": "Tom Anderson",
+  "p1_pts": 66,
+  "p2": "noah schmelzer",
+  "p2_pts": 97
+ },
+ {
+  "round": 3,
+  "table": 61,
+  "p1": "Leo Schue",
+  "p1_pts": 82,
+  "p2": "Matheau Sater",
+  "p2_pts": 55
+ },
+ {
+  "round": 3,
+  "table": 62,
+  "p1": "Aaron Hanson",
+  "p1_pts": 40,
+  "p2": "Caleb Gruber",
+  "p2_pts": 92
+ },
+ {
+  "round": 3,
+  "table": 63,
+  "p1": "Dylan Sempel",
+  "p1_pts": 99,
+  "p2": "Chris Franson",
+  "p2_pts": 96
+ },
+ {
+  "round": 3,
+  "table": 64,
+  "p1": "Eric Klevar",
+  "p1_pts": 84,
+  "p2": "Sage Coff",
+  "p2_pts": 91
+ },
+ {
+  "round": 3,
+  "table": 65,
+  "p1": "Kenny Rugg",
+  "p1_pts": 98,
+  "p2": "Darrel Laumann",
+  "p2_pts": 74
+ },
+ {
+  "round": 3,
+  "table": 66,
+  "p1": "Darian Anderson",
+  "p1_pts": 68,
+  "p2": "Seth Borne",
+  "p2_pts": 41
+ },
+ {
+  "round": 3,
+  "table": 67,
+  "p1": "Juan Ramos",
+  "p1_pts": 70,
+  "p2": "",
+  "p2_pts": null
+ },
+ {
+  "round": 4,
+  "table": 57,
+  "p1": "Dale Inman",
+  "p1_pts": 69,
+  "p2": "Andrew Smith",
+  "p2_pts": 77
+ },
+ {
+  "round": 4,
+  "table": 58,
+  "p1": "Michael Peters",
+  "p1_pts": 68,
+  "p2": "Mr. Rocks",
+  "p2_pts": 91
+ },
+ {
+  "round": 4,
+  "table": 59,
+  "p1": "Darrel Laumann",
+  "p1_pts": 75,
+  "p2": "James Hetzel",
+  "p2_pts": 91
+ },
+ {
+  "round": 4,
+  "table": 60,
+  "p1": "Juan Miranda",
+  "p1_pts": 54,
+  "p2": "Eric Klevar",
+  "p2_pts": 54
+ },
+ {
+  "round": 4,
+  "table": 61,
+  "p1": "Chris Franson",
+  "p1_pts": 100,
+  "p2": "Seth Borne",
+  "p2_pts": 66
+ },
+ {
+  "round": 4,
+  "table": 62,
+  "p1": "Tom Anderson",
+  "p1_pts": 55,
+  "p2": "Rob Roguske",
+  "p2_pts": 53
+ },
+ {
+  "round": 4,
+  "table": 63,
+  "p1": "Michael Peters",
+  "p1_pts": 46,
+  "p2": "Zachary Rothman",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 1,
+  "p1": "Aaron Pescheck-Thompson",
+  "p1_pts": 100,
+  "p2": "Reid Olson",
+  "p2_pts": 76
+ },
+ {
+  "round": 4,
+  "table": 2,
+  "p1": "James Walsh",
+  "p1_pts": 78,
+  "p2": "Kyle McCord",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 3,
+  "p1": "Matthew Root",
+  "p1_pts": 100,
+  "p2": "Andrew Moe",
+  "p2_pts": 64
+ },
+ {
+  "round": 4,
+  "table": 4,
+  "p1": "Craig Parker",
+  "p1_pts": 87,
+  "p2": "James Kelling",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 5,
+  "p1": "Tim Cook",
+  "p1_pts": 43,
+  "p2": "Jared Garcia",
+  "p2_pts": 73
+ },
+ {
+  "round": 4,
+  "table": 6,
+  "p1": "Nicholas Howard",
+  "p1_pts": 52,
+  "p2": "Brian Fulford",
+  "p2_pts": 49
+ },
+ {
+  "round": 4,
+  "table": 7,
+  "p1": "Matt Stadnik",
+  "p1_pts": 100,
+  "p2": "Mr. Pibb Zero",
+  "p2_pts": 74
+ },
+ {
+  "round": 4,
+  "table": 8,
+  "p1": "Seth Pommer",
+  "p1_pts": 100,
+  "p2": "Logan Payne",
+  "p2_pts": 71
+ },
+ {
+  "round": 4,
+  "table": 9,
+  "p1": "David Bergstrom",
+  "p1_pts": 97,
+  "p2": "Jacob Nelsen",
+  "p2_pts": 62
+ },
+ {
+  "round": 4,
+  "table": 10,
+  "p1": "Daniel Lorbiecki",
+  "p1_pts": 68,
+  "p2": "Jabbar Haider",
+  "p2_pts": 97
+ },
+ {
+  "round": 4,
+  "table": 11,
+  "p1": "Alex Vian",
+  "p1_pts": 56,
+  "p2": "Tim Royers",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 12,
+  "p1": "Matthew Pedretti",
+  "p1_pts": 38,
+  "p2": "Nathaniel Pommer",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 13,
+  "p1": "Sean Lu Opa",
+  "p1_pts": 97,
+  "p2": "Jack Kosidowski",
+  "p2_pts": 78
+ },
+ {
+  "round": 4,
+  "table": 14,
+  "p1": "Jake Lindfors",
+  "p1_pts": 76,
+  "p2": "Payten Roberts",
+  "p2_pts": 60
+ },
+ {
+  "round": 4,
+  "table": 15,
+  "p1": "Mac McGregor",
+  "p1_pts": 68,
+  "p2": "Jeff Snyder",
+  "p2_pts": 71
+ },
+ {
+  "round": 4,
+  "table": 16,
+  "p1": "Andy Graber",
+  "p1_pts": 90,
+  "p2": "Tyler Devries",
+  "p2_pts": 85
+ },
+ {
+  "round": 4,
+  "table": 17,
+  "p1": "Malachi Michaelson",
+  "p1_pts": 52,
+  "p2": "Codey Bolte",
+  "p2_pts": 89
+ },
+ {
+  "round": 4,
+  "table": 18,
+  "p1": "Taryn Koss",
+  "p1_pts": 47,
+  "p2": "Mr. Pibb",
+  "p2_pts": 88
+ },
+ {
+  "round": 4,
+  "table": 19,
+  "p1": "Bryan Burt",
+  "p1_pts": 35,
+  "p2": "Stephen Crawford",
+  "p2_pts": 95
+ },
+ {
+  "round": 4,
+  "table": 20,
+  "p1": "Blayne Schuetzle",
+  "p1_pts": 60,
+  "p2": "Mike Vasseur",
+  "p2_pts": 91
+ },
+ {
+  "round": 4,
+  "table": 21,
+  "p1": "Raphael Peralez",
+  "p1_pts": 70,
+  "p2": "Henry Pezzo",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 22,
+  "p1": "Gavin Matz",
+  "p1_pts": 73,
+  "p2": "Mark Behm",
+  "p2_pts": 95
+ },
+ {
+  "round": 4,
+  "table": 23,
+  "p1": "Jordan Albee",
+  "p1_pts": 59,
+  "p2": "Tony Ranallo",
+  "p2_pts": 92
+ },
+ {
+  "round": 4,
+  "table": 24,
+  "p1": "Mark Hetchler",
+  "p1_pts": 95,
+  "p2": "Brian Evans",
+  "p2_pts": 77
+ },
+ {
+  "round": 4,
+  "table": 25,
+  "p1": "Justin Johnson",
+  "p1_pts": 75,
+  "p2": "Joe Barthel",
+  "p2_pts": 61
+ },
+ {
+  "round": 4,
+  "table": 26,
+  "p1": "Bill Stineman",
+  "p1_pts": 100,
+  "p2": "Ryan Kline",
+  "p2_pts": 75
+ },
+ {
+  "round": 4,
+  "table": 27,
+  "p1": "David Arimond",
+  "p1_pts": 100,
+  "p2": "Eric Tessier",
+  "p2_pts": 69
+ },
+ {
+  "round": 4,
+  "table": 28,
+  "p1": "ian high",
+  "p1_pts": 84,
+  "p2": "Jeremiah Petit",
+  "p2_pts": 78
+ },
+ {
+  "round": 4,
+  "table": 29,
+  "p1": "Aaron Scherer",
+  "p1_pts": 76,
+  "p2": "Braydon Anderson",
+  "p2_pts": 95
+ },
+ {
+  "round": 4,
+  "table": 30,
+  "p1": "Nash Erstad",
+  "p1_pts": 53,
+  "p2": "Nick Ranallo",
+  "p2_pts": 81
+ },
+ {
+  "round": 4,
+  "table": 31,
+  "p1": "John Teets",
+  "p1_pts": 100,
+  "p2": "Kazimierz Thorp",
+  "p2_pts": 49
+ },
+ {
+  "round": 4,
+  "table": 32,
+  "p1": "Austin Cance",
+  "p1_pts": 92,
+  "p2": "Alexander Washington",
+  "p2_pts": 78
+ },
+ {
+  "round": 4,
+  "table": 33,
+  "p1": "Nick Harbeck",
+  "p1_pts": 78,
+  "p2": "Ben Cherwien",
+  "p2_pts": 98
+ },
+ {
+  "round": 4,
+  "table": 34,
+  "p1": "Tait Chambers",
+  "p1_pts": 77,
+  "p2": "Chris Adams",
+  "p2_pts": 83
+ },
+ {
+  "round": 4,
+  "table": 35,
+  "p1": "Kade Smrecek",
+  "p1_pts": 100,
+  "p2": "Henry Rumreich",
+  "p2_pts": 87
+ },
+ {
+  "round": 4,
+  "table": 36,
+  "p1": "Tyler Alberts",
+  "p1_pts": 91,
+  "p2": "Max Ganshyn",
+  "p2_pts": 31
+ },
+ {
+  "round": 4,
+  "table": 37,
+  "p1": "Scott Syverson",
+  "p1_pts": 45,
+  "p2": "Martin Beamish",
+  "p2_pts": 100
+ },
+ {
+  "round": 4,
+  "table": 38,
+  "p1": "Scott Blegen",
+  "p1_pts": 90,
+  "p2": "Justin Southworth",
+  "p2_pts": 86
+ },
+ {
+  "round": 4,
+  "table": 39,
+  "p1": "Gregory Hast",
+  "p1_pts": 36,
+  "p2": "Laird Cunningham",
+  "p2_pts": 71
+ },
+ {
+  "round": 4,
+  "table": 40,
+  "p1": "Max Lipschultz",
+  "p1_pts": 92,
+  "p2": "Gene Richtsmeier",
+  "p2_pts": 85
+ },
+ {
+  "round": 4,
+  "table": 41,
+  "p1": "Brent Gibson",
+  "p1_pts": 95,
+  "p2": "Alessio Caselli",
+  "p2_pts": 85
+ },
+ {
+  "round": 4,
+  "table": 42,
+  "p1": "Justin Hamilton",
+  "p1_pts": 53,
+  "p2": "Michael Douglass",
+  "p2_pts": 96
+ },
+ {
+  "round": 4,
+  "table": 43,
+  "p1": "Emerson Maki",
+  "p1_pts": 100,
+  "p2": "Gabriel Hiner",
+  "p2_pts": 83
+ },
+ {
+  "round": 4,
+  "table": 44,
+  "p1": "Ali Pedraza",
+  "p1_pts": 94,
+  "p2": "Peter Harjung",
+  "p2_pts": 84
+ },
+ {
+  "round": 4,
+  "table": 45,
+  "p1": "Nicholas Rupel",
+  "p1_pts": 92,
+  "p2": "Matthew Coleman",
+  "p2_pts": 91
+ },
+ {
+  "round": 4,
+  "table": 46,
+  "p1": "Calvin Hetzel",
+  "p1_pts": 58,
+  "p2": "Zachary Mann",
+  "p2_pts": 97
+ },
+ {
+  "round": 4,
+  "table": 47,
+  "p1": "Kobi Mcneill",
+  "p1_pts": 21,
+  "p2": "Joe Copeland",
+  "p2_pts": 98
+ },
+ {
+  "round": 4,
+  "table": 48,
+  "p1": "Kirk Hetzel",
+  "p1_pts": 75,
+  "p2": "Kenny Rugg",
+  "p2_pts": 74
+ },
+ {
+  "round": 4,
+  "table": 49,
+  "p1": "Dylan Sempel",
+  "p1_pts": 76,
+  "p2": "Sage Coff",
+  "p2_pts": 67
+ },
+ {
+  "round": 4,
+  "table": 50,
+  "p1": "Michael Brun",
+  "p1_pts": 56,
+  "p2": "Leo Schue",
+  "p2_pts": 98
+ },
+ {
+  "round": 4,
+  "table": 51,
+  "p1": "Juan Ramos",
+  "p1_pts": 75,
+  "p2": "Cal Green",
+  "p2_pts": 94
+ },
+ {
+  "round": 4,
+  "table": 52,
+  "p1": "Zoey Martin",
+  "p1_pts": 81,
+  "p2": "David Kopilenko",
+  "p2_pts": 87
+ },
+ {
+  "round": 4,
+  "table": 53,
+  "p1": "Kevin Johnston",
+  "p1_pts": 98,
+  "p2": "Uziel Ramos",
+  "p2_pts": 62
+ },
+ {
+  "round": 4,
+  "table": 54,
+  "p1": "noah schmelzer",
+  "p1_pts": 63,
+  "p2": "Caleb Gruber",
+  "p2_pts": 95
+ },
+ {
+  "round": 4,
+  "table": 55,
+  "p1": "Darian Anderson",
+  "p1_pts": 53,
+  "p2": "James Amundson",
+  "p2_pts": 38
+ },
+ {
+  "round": 4,
+  "table": 56,
+  "p1": "David Grunau",
+  "p1_pts": 54,
+  "p2": "Andre Carrero",
+  "p2_pts": 55
+ },
+ {
+  "round": 5,
+  "table": 56,
+  "p1": "James Amundson",
+  "p1_pts": 84,
+  "p2": "Andrew Smith",
+  "p2_pts": 49
+ },
+ {
+  "round": 5,
+  "table": 57,
+  "p1": "Chris Franson",
+  "p1_pts": 81,
+  "p2": "Mr. Rocks",
+  "p2_pts": 71
+ },
+ {
+  "round": 5,
+  "table": 58,
+  "p1": "James Hetzel",
+  "p1_pts": 74,
+  "p2": "Tom Anderson",
+  "p2_pts": 58
+ },
+ {
+  "round": 5,
+  "table": 59,
+  "p1": "Dale Inman",
+  "p1_pts": 41,
+  "p2": "Juan Miranda",
+  "p2_pts": 83
+ },
+ {
+  "round": 5,
+  "table": 60,
+  "p1": "Michael Peters",
+  "p1_pts": 73,
+  "p2": "Eric Klevar",
+  "p2_pts": 98
+ },
+ {
+  "round": 5,
+  "table": 61,
+  "p1": "Michael Peters",
+  "p1_pts": 69,
+  "p2": "Seth Borne",
+  "p2_pts": 75
+ },
+ {
+  "round": 5,
+  "table": 62,
+  "p1": "Rob Roguske",
+  "p1_pts": 70,
+  "p2": "",
+  "p2_pts": null
+ },
+ {
+  "round": 5,
+  "table": 14,
+  "p1": "Mike Vasseur",
+  "p1_pts": 100,
+  "p2": "Henry Pezzo",
+  "p2_pts": 68
+ },
+ {
+  "round": 5,
+  "table": 15,
+  "p1": "Stephen Crawford",
+  "p1_pts": 90,
+  "p2": "Mr. Pibb",
+  "p2_pts": 59
+ },
+ {
+  "round": 5,
+  "table": 16,
+  "p1": "Justin Johnson",
+  "p1_pts": 68,
+  "p2": "Tony Ranallo",
+  "p2_pts": 97
+ },
+ {
+  "round": 5,
+  "table": 17,
+  "p1": "Zachary Rothman",
+  "p1_pts": 100,
+  "p2": "David Arimond",
+  "p2_pts": 22
+ },
+ {
+  "round": 5,
+  "table": 18,
+  "p1": "Nick Ranallo",
+  "p1_pts": 100,
+  "p2": "ian high",
+  "p2_pts": 23
+ },
+ {
+  "round": 5,
+  "table": 19,
+  "p1": "Bill Stineman",
+  "p1_pts": 78,
+  "p2": "John Teets",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 20,
+  "p1": "Braydon Anderson",
+  "p1_pts": 84,
+  "p2": "Jacob Nelsen",
+  "p2_pts": 87
+ },
+ {
+  "round": 5,
+  "table": 21,
+  "p1": "Austin Cance",
+  "p1_pts": 79,
+  "p2": "Daniel Lorbiecki",
+  "p2_pts": 99
+ },
+ {
+  "round": 5,
+  "table": 22,
+  "p1": "Matthew Pedretti",
+  "p1_pts": 65,
+  "p2": "Tyler Devries",
+  "p2_pts": 67
+ },
+ {
+  "round": 5,
+  "table": 23,
+  "p1": "Mac McGregor",
+  "p1_pts": 59,
+  "p2": "Alex Vian",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 24,
+  "p1": "Malachi Michaelson",
+  "p1_pts": 73,
+  "p2": "Payten Roberts",
+  "p2_pts": 78
+ },
+ {
+  "round": 5,
+  "table": 25,
+  "p1": "Jack Kosidowski",
+  "p1_pts": 98,
+  "p2": "Blayne Schuetzle",
+  "p2_pts": 84
+ },
+ {
+  "round": 5,
+  "table": 26,
+  "p1": "Bryan Burt",
+  "p1_pts": 77,
+  "p2": "Gavin Matz",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 27,
+  "p1": "Jordan Albee",
+  "p1_pts": 98,
+  "p2": "Taryn Koss",
+  "p2_pts": 46
+ },
+ {
+  "round": 5,
+  "table": 28,
+  "p1": "Raphael Peralez",
+  "p1_pts": 78,
+  "p2": "Brian Evans",
+  "p2_pts": 95
+ },
+ {
+  "round": 5,
+  "table": 29,
+  "p1": "Ben Cherwien",
+  "p1_pts": 100,
+  "p2": "Kade Smrecek",
+  "p2_pts": 73
+ },
+ {
+  "round": 5,
+  "table": 30,
+  "p1": "Tyler Alberts",
+  "p1_pts": 50,
+  "p2": "Martin Beamish",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 31,
+  "p1": "Chris Adams",
+  "p1_pts": 71,
+  "p2": "Scott Blegen",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 32,
+  "p1": "Laird Cunningham",
+  "p1_pts": 59,
+  "p2": "Aaron Scherer",
+  "p2_pts": 95
+ },
+ {
+  "round": 5,
+  "table": 33,
+  "p1": "Ryan Kline",
+  "p1_pts": 63,
+  "p2": "Eric Tessier",
+  "p2_pts": 95
+ },
+ {
+  "round": 5,
+  "table": 34,
+  "p1": "Joe Barthel",
+  "p1_pts": 95,
+  "p2": "Nash Erstad",
+  "p2_pts": 78
+ },
+ {
+  "round": 5,
+  "table": 35,
+  "p1": "Kazimierz Thorp",
+  "p1_pts": 40,
+  "p2": "Max Lipschultz",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 36,
+  "p1": "Brent Gibson",
+  "p1_pts": 92,
+  "p2": "Emerson Maki",
+  "p2_pts": 82
+ },
+ {
+  "round": 5,
+  "table": 37,
+  "p1": "Zachary Mann",
+  "p1_pts": 67,
+  "p2": "Nicholas Rupel",
+  "p2_pts": 96
+ },
+ {
+  "round": 5,
+  "table": 38,
+  "p1": "Michael Douglass",
+  "p1_pts": 83,
+  "p2": "Joe Copeland",
+  "p2_pts": 78
+ },
+ {
+  "round": 5,
+  "table": 39,
+  "p1": "Ali Pedraza",
+  "p1_pts": 83,
+  "p2": "Kirk Hetzel",
+  "p2_pts": 72
+ },
+ {
+  "round": 5,
+  "table": 40,
+  "p1": "Leo Schue",
+  "p1_pts": 100,
+  "p2": "David Kopilenko",
+  "p2_pts": 56
+ },
+ {
+  "round": 5,
+  "table": 41,
+  "p1": "Kevin Johnston",
+  "p1_pts": 51,
+  "p2": "Dylan Sempel",
+  "p2_pts": 83
+ },
+ {
+  "round": 5,
+  "table": 42,
+  "p1": "Cal Green",
+  "p1_pts": 100,
+  "p2": "Caleb Gruber",
+  "p2_pts": 72
+ },
+ {
+  "round": 5,
+  "table": 43,
+  "p1": "Darian Anderson",
+  "p1_pts": 41,
+  "p2": "Alexander Washington",
+  "p2_pts": 63
+ },
+ {
+  "round": 5,
+  "table": 44,
+  "p1": "Andre Carrero",
+  "p1_pts": 83,
+  "p2": "Tait Chambers",
+  "p2_pts": 84
+ },
+ {
+  "round": 5,
+  "table": 45,
+  "p1": "Henry Rumreich",
+  "p1_pts": 99,
+  "p2": "Gregory Hast",
+  "p2_pts": 83
+ },
+ {
+  "round": 5,
+  "table": 46,
+  "p1": "Max Ganshyn",
+  "p1_pts": 89,
+  "p2": "Nick Harbeck",
+  "p2_pts": 88
+ },
+ {
+  "round": 5,
+  "table": 47,
+  "p1": "Scott Syverson",
+  "p1_pts": 64,
+  "p2": "Justin Southworth",
+  "p2_pts": 92
+ },
+ {
+  "round": 5,
+  "table": 48,
+  "p1": "Gene Richtsmeier",
+  "p1_pts": 95,
+  "p2": "Justin Hamilton",
+  "p2_pts": 46
+ },
+ {
+  "round": 5,
+  "table": 49,
+  "p1": "Alessio Caselli",
+  "p1_pts": 26,
+  "p2": "Calvin Hetzel",
+  "p2_pts": 99
+ },
+ {
+  "round": 5,
+  "table": 50,
+  "p1": "Peter Harjung",
+  "p1_pts": 100,
+  "p2": "Gabriel Hiner",
+  "p2_pts": 37
+ },
+ {
+  "round": 5,
+  "table": 51,
+  "p1": "Matthew Coleman",
+  "p1_pts": 90,
+  "p2": "Kobi Mcneill",
+  "p2_pts": 38
+ },
+ {
+  "round": 5,
+  "table": 52,
+  "p1": "Kenny Rugg",
+  "p1_pts": 74,
+  "p2": "Zoey Martin",
+  "p2_pts": 97
+ },
+ {
+  "round": 5,
+  "table": 53,
+  "p1": "Michael Brun",
+  "p1_pts": 55,
+  "p2": "Juan Ramos",
+  "p2_pts": 99
+ },
+ {
+  "round": 5,
+  "table": 54,
+  "p1": "Uziel Ramos",
+  "p1_pts": 86,
+  "p2": "Sage Coff",
+  "p2_pts": 81
+ },
+ {
+  "round": 5,
+  "table": 55,
+  "p1": "noah schmelzer",
+  "p1_pts": 100,
+  "p2": "David Grunau",
+  "p2_pts": 50
+ },
+ {
+  "round": 5,
+  "table": 1,
+  "p1": "Matthew Root",
+  "p1_pts": 100,
+  "p2": "Matt Stadnik",
+  "p2_pts": 60
+ },
+ {
+  "round": 5,
+  "table": 2,
+  "p1": "Aaron Pescheck-Thompson",
+  "p1_pts": 100,
+  "p2": "James Kelling",
+  "p2_pts": 72
+ },
+ {
+  "round": 5,
+  "table": 3,
+  "p1": "Kyle McCord",
+  "p1_pts": 99,
+  "p2": "Jared Garcia",
+  "p2_pts": 79
+ },
+ {
+  "round": 5,
+  "table": 4,
+  "p1": "Nicholas Howard",
+  "p1_pts": 49,
+  "p2": "David Bergstrom",
+  "p2_pts": 97
+ },
+ {
+  "round": 5,
+  "table": 5,
+  "p1": "Seth Pommer",
+  "p1_pts": 63,
+  "p2": "Reid Olson",
+  "p2_pts": 94
+ },
+ {
+  "round": 5,
+  "table": 6,
+  "p1": "Brian Fulford",
+  "p1_pts": 65,
+  "p2": "Craig Parker",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 7,
+  "p1": "Andrew Moe",
+  "p1_pts": 84,
+  "p2": "Mr. Pibb Zero",
+  "p2_pts": 97
+ },
+ {
+  "round": 5,
+  "table": 8,
+  "p1": "James Walsh",
+  "p1_pts": 84,
+  "p2": "Logan Payne",
+  "p2_pts": 69
+ },
+ {
+  "round": 5,
+  "table": 9,
+  "p1": "Tim Cook",
+  "p1_pts": 83,
+  "p2": "Tim Royers",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 10,
+  "p1": "Nathaniel Pommer",
+  "p1_pts": 90,
+  "p2": "Jabbar Haider",
+  "p2_pts": 76
+ },
+ {
+  "round": 5,
+  "table": 11,
+  "p1": "Sean Lu Opa",
+  "p1_pts": 51,
+  "p2": "Andy Graber",
+  "p2_pts": 100
+ },
+ {
+  "round": 5,
+  "table": 12,
+  "p1": "Jake Lindfors",
+  "p1_pts": 93,
+  "p2": "Jeff Snyder",
+  "p2_pts": 69
+ },
+ {
+  "round": 5,
+  "table": 13,
+  "p1": "Mark Behm",
+  "p1_pts": 96,
+  "p2": "Codey Bolte",
+  "p2_pts": 41
+ },
+ {
+  "round": 6,
+  "table": 7,
+  "p1": "Mr. Pibb Zero",
+  "p1_pts": 46,
+  "p2": "Tim Royers",
+  "p2_pts": 95
+ },
+ {
+  "round": 6,
+  "table": 8,
+  "p1": "Nathaniel Pommer",
+  "p1_pts": 85,
+  "p2": "Andy Graber",
+  "p2_pts": 84
+ },
+ {
+  "round": 6,
+  "table": 9,
+  "p1": "Jake Lindfors",
+  "p1_pts": 72,
+  "p2": "Mark Behm",
+  "p2_pts": 95
+ },
+ {
+  "round": 6,
+  "table": 10,
+  "p1": "Mike Vasseur",
+  "p1_pts": 25,
+  "p2": "Stephen Crawford",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 11,
+  "p1": "Tony Ranallo",
+  "p1_pts": 67,
+  "p2": "Zachary Rothman",
+  "p2_pts": 94
+ },
+ {
+  "round": 6,
+  "table": 12,
+  "p1": "John Teets",
+  "p1_pts": 73,
+  "p2": "Nick Ranallo",
+  "p2_pts": 83
+ },
+ {
+  "round": 6,
+  "table": 13,
+  "p1": "Jacob Nelsen",
+  "p1_pts": 63,
+  "p2": "Andrew Moe",
+  "p2_pts": 98
+ },
+ {
+  "round": 6,
+  "table": 14,
+  "p1": "Brian Fulford",
+  "p1_pts": 38,
+  "p2": "Tim Cook",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 15,
+  "p1": "Logan Payne",
+  "p1_pts": 87,
+  "p2": "Jabbar Haider",
+  "p2_pts": 98
+ },
+ {
+  "round": 6,
+  "table": 16,
+  "p1": "Sean Lu Opa",
+  "p1_pts": 86,
+  "p2": "Jeff Snyder",
+  "p2_pts": 89
+ },
+ {
+  "round": 6,
+  "table": 17,
+  "p1": "Daniel Lorbiecki",
+  "p1_pts": 67,
+  "p2": "Payten Roberts",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 18,
+  "p1": "Tyler Devries",
+  "p1_pts": 41,
+  "p2": "Alex Vian",
+  "p2_pts": 97
+ },
+ {
+  "round": 6,
+  "table": 19,
+  "p1": "Jack Kosidowski",
+  "p1_pts": 100,
+  "p2": "Justin Johnson",
+  "p2_pts": 85
+ },
+ {
+  "round": 6,
+  "table": 20,
+  "p1": "Codey Bolte",
+  "p1_pts": 41,
+  "p2": "Mr. Pibb",
+  "p2_pts": 75
+ },
+ {
+  "round": 6,
+  "table": 21,
+  "p1": "Gavin Matz",
+  "p1_pts": 99,
+  "p2": "Jordan Albee",
+  "p2_pts": 67
+ },
+ {
+  "round": 6,
+  "table": 22,
+  "p1": "Brian Evans",
+  "p1_pts": 40,
+  "p2": "Ben Cherwien",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 23,
+  "p1": "Martin Beamish",
+  "p1_pts": 77,
+  "p2": "Scott Blegen",
+  "p2_pts": 98
+ },
+ {
+  "round": 6,
+  "table": 24,
+  "p1": "David Arimond",
+  "p1_pts": 86,
+  "p2": "Braydon Anderson",
+  "p2_pts": 89
+ },
+ {
+  "round": 6,
+  "table": 25,
+  "p1": "Aaron Scherer",
+  "p1_pts": 93,
+  "p2": "Eric Tessier",
+  "p2_pts": 92
+ },
+ {
+  "round": 6,
+  "table": 26,
+  "p1": "Joe Barthel",
+  "p1_pts": 40,
+  "p2": "Max Lipschultz",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 27,
+  "p1": "Brent Gibson",
+  "p1_pts": 94,
+  "p2": "Nicholas Rupel",
+  "p2_pts": 99
+ },
+ {
+  "round": 6,
+  "table": 28,
+  "p1": "Ali Pedraza",
+  "p1_pts": 56,
+  "p2": "Michael Douglass",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 29,
+  "p1": "Leo Schue",
+  "p1_pts": 75,
+  "p2": "Dylan Sempel",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 30,
+  "p1": "Cal Green",
+  "p1_pts": 78,
+  "p2": "Austin Cance",
+  "p2_pts": 87
+ },
+ {
+  "round": 6,
+  "table": 31,
+  "p1": "Alexander Washington",
+  "p1_pts": 85,
+  "p2": "Matthew Pedretti",
+  "p2_pts": 84
+ },
+ {
+  "round": 6,
+  "table": 32,
+  "p1": "Mac McGregor",
+  "p1_pts": 100,
+  "p2": "Malachi Michaelson",
+  "p2_pts": 65
+ },
+ {
+  "round": 6,
+  "table": 33,
+  "p1": "Blayne Schuetzle",
+  "p1_pts": 83,
+  "p2": "Bryan Burt",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 34,
+  "p1": "Taryn Koss",
+  "p1_pts": 90,
+  "p2": "Raphael Peralez",
+  "p2_pts": 99
+ },
+ {
+  "round": 6,
+  "table": 35,
+  "p1": "Kade Smrecek",
+  "p1_pts": 99,
+  "p2": "Tyler Alberts",
+  "p2_pts": 97
+ },
+ {
+  "round": 6,
+  "table": 36,
+  "p1": "Chris Adams",
+  "p1_pts": 100,
+  "p2": "Laird Cunningham",
+  "p2_pts": 80
+ },
+ {
+  "round": 6,
+  "table": 37,
+  "p1": "Max Ganshyn",
+  "p1_pts": 86,
+  "p2": "Tait Chambers",
+  "p2_pts": 93
+ },
+ {
+  "round": 6,
+  "table": 38,
+  "p1": "Henry Rumreich",
+  "p1_pts": 78,
+  "p2": "Justin Southworth",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 39,
+  "p1": "Nash Erstad",
+  "p1_pts": 57,
+  "p2": "Ryan Kline",
+  "p2_pts": 96
+ },
+ {
+  "round": 6,
+  "table": 40,
+  "p1": "Kazimierz Thorp",
+  "p1_pts": 87,
+  "p2": "Emerson Maki",
+  "p2_pts": 94
+ },
+ {
+  "round": 6,
+  "table": 41,
+  "p1": "Zachary Mann",
+  "p1_pts": 91,
+  "p2": "Joe Copeland",
+  "p2_pts": 70
+ },
+ {
+  "round": 6,
+  "table": 42,
+  "p1": "Kirk Hetzel",
+  "p1_pts": 80,
+  "p2": "Gene Richtsmeier",
+  "p2_pts": 83
+ },
+ {
+  "round": 6,
+  "table": 43,
+  "p1": "Matthew Coleman",
+  "p1_pts": 50,
+  "p2": "Calvin Hetzel",
+  "p2_pts": 99
+ },
+ {
+  "round": 6,
+  "table": 44,
+  "p1": "Peter Harjung",
+  "p1_pts": 97,
+  "p2": "Kevin Johnston",
+  "p2_pts": 99
+ },
+ {
+  "round": 6,
+  "table": 45,
+  "p1": "David Kopilenko",
+  "p1_pts": 85,
+  "p2": "Caleb Gruber",
+  "p2_pts": 99
+ },
+ {
+  "round": 6,
+  "table": 46,
+  "p1": "Darian Anderson",
+  "p1_pts": 39,
+  "p2": "Juan Ramos",
+  "p2_pts": 63
+ },
+ {
+  "round": 6,
+  "table": 47,
+  "p1": "Uziel Ramos",
+  "p1_pts": 64,
+  "p2": "Zoey Martin",
+  "p2_pts": 97
+ },
+ {
+  "round": 6,
+  "table": 48,
+  "p1": "noah schmelzer",
+  "p1_pts": 89,
+  "p2": "James Amundson",
+  "p2_pts": 99
+ },
+ {
+  "round": 6,
+  "table": 49,
+  "p1": "Chris Franson",
+  "p1_pts": 73,
+  "p2": "James Hetzel",
+  "p2_pts": 72
+ },
+ {
+  "round": 6,
+  "table": 50,
+  "p1": "Andre Carrero",
+  "p1_pts": 59,
+  "p2": "Eric Klevar",
+  "p2_pts": 52
+ },
+ {
+  "round": 6,
+  "table": 51,
+  "p1": "Scott Syverson",
+  "p1_pts": 72,
+  "p2": "Michael Peters",
+  "p2_pts": 48
+ },
+ {
+  "round": 6,
+  "table": 52,
+  "p1": "Nick Harbeck",
+  "p1_pts": 90,
+  "p2": "Gregory Hast",
+  "p2_pts": 89
+ },
+ {
+  "round": 6,
+  "table": 53,
+  "p1": "Justin Hamilton",
+  "p1_pts": 61,
+  "p2": "Alessio Caselli",
+  "p2_pts": 98
+ },
+ {
+  "round": 6,
+  "table": 54,
+  "p1": "Gabriel Hiner",
+  "p1_pts": 65,
+  "p2": "Kobi Mcneill",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 55,
+  "p1": "Kenny Rugg",
+  "p1_pts": 68,
+  "p2": "Sage Coff",
+  "p2_pts": 77
+ },
+ {
+  "round": 6,
+  "table": 56,
+  "p1": "Michael Brun",
+  "p1_pts": 72,
+  "p2": "David Grunau",
+  "p2_pts": 97
+ },
+ {
+  "round": 6,
+  "table": 57,
+  "p1": "Andrew Smith",
+  "p1_pts": 50,
+  "p2": "Mr. Rocks",
+  "p2_pts": 94
+ },
+ {
+  "round": 6,
+  "table": 58,
+  "p1": "Tom Anderson",
+  "p1_pts": 91,
+  "p2": "Seth Borne",
+  "p2_pts": 100
+ },
+ {
+  "round": 6,
+  "table": 59,
+  "p1": "Rob Roguske",
+  "p1_pts": 82,
+  "p2": "Dale Inman",
+  "p2_pts": 49
+ },
+ {
+  "round": 6,
+  "table": 60,
+  "p1": "Juan Miranda",
+  "p1_pts": 53,
+  "p2": "Michael Peters",
+  "p2_pts": 27
+ },
+ {
+  "round": 6,
+  "table": 1,
+  "p1": "Matthew Root",
+  "p1_pts": 95,
+  "p2": "Kyle McCord",
+  "p2_pts": 95
+ },
+ {
+  "round": 6,
+  "table": 2,
+  "p1": "Aaron Pescheck-Thompson",
+  "p1_pts": 96,
+  "p2": "David Bergstrom",
+  "p2_pts": 79
+ },
+ {
+  "round": 6,
+  "table": 3,
+  "p1": "James Kelling",
+  "p1_pts": 79,
+  "p2": "Matt Stadnik",
+  "p2_pts": 93
+ },
+ {
+  "round": 6,
+  "table": 4,
+  "p1": "Jared Garcia",
+  "p1_pts": 97,
+  "p2": "Nicholas Howard",
+  "p2_pts": 22
+ },
+ {
+  "round": 6,
+  "table": 5,
+  "p1": "Seth Pommer",
+  "p1_pts": 57,
+  "p2": "James Walsh",
+  "p2_pts": 87
+ },
+ {
+  "round": 6,
+  "table": 6,
+  "p1": "Reid Olson",
+  "p1_pts": 95,
+  "p2": "Craig Parker",
+  "p2_pts": 85
+ }
+]
