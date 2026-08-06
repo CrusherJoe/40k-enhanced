@@ -1,0 +1,53 @@
+# Christopher Ashton | Death Guard | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/uuaawkkB7Wfs  status=passed
+
+This list is called "I lose if I go 2nd"
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Death Guard
++ DETACHMENT: Flyblown Host, Shamblerot Vectorium (Verminous Haze)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 13
++++++++++++++++++++++++++++++++++++++++++++++++
+Char6: 1x Tallyman (60 pts): Close combat weapon, Plasma pistol
+
+Char1: 1x Biologus Putrifier (60 pts): Hyper blight grenades, Injector pistol, Plague knives
+Char3: 1x Malignant Plaguecaster (60 pts): Bolt pistol, Corrupted staff, Plague Wind
+10x Plague Marines (180 pts)
+• 9x Plague Marine
+    5 with Boltgun, Plague knives
+    1 with Plague knives, Plague spewer
+    1 with Blight launcher, Plague knives
+    1 with Heavy plague weapon, Plague knives
+    1 with Bubotic weapons, Plague knives
+• 1x Plague Champion: Bolt pistol, Power fist
+
+Char4: 1x Malignant Plaguecaster (60 pts): Bolt pistol, Corrupted staff, Plague Wind
+Char5: 1x Noxious Blightbringer (60 pts): Cursed plague bell, Plasma pistol
+10x Plague Marines (180 pts)
+• 9x Plague Marine
+    6 with Boltgun, Plague knives
+    1 with Icon of Despair, Boltgun, Plague knives
+    1 with Heavy plague weapon, Plague knives
+    1 with Plague knives, Plasma gun
+• 1x Plague Champion: Plasma gun, Bubotic weapons
+
+10x Poxwalkers (65 pts): 10 with Improvised weapons
+10x Poxwalkers (65 pts): 10 with Improvised weapons
+20x Poxwalkers (130 pts): 20 with Improvised weapons
+
+Char2: 1x Lord of Contagion (120 pts): Manreaper
+6x Deathshroud Terminators (305 pts)
+• 1x Deathshroud Terminator Champion: Icon of Despair, Manreaper, 2x Plaguespurt gauntlet
+• 5x Deathshroud Terminator: 5 with Manreaper, Plaguespurt gauntlet
+
+1x Foetid Bloat-drone (100 pts): Plague probe, 2x Plaguespitter
+1x Foetid Bloat-drone with heavy blight launcher (125 pts): Heavy blight launcher, Plague probe
+1x Helbrute (110 pts): Close combat weapon, Combi-bolter, Helbrute fist, Multi-melta
+1x Plagueburst Crawler (185 pts): Armoured tracks, Plagueburst mortar, Heavy slugger, 2x Entropy cannon
+1x War Dog Huntsman (135 pts): Daemonbreath spear, Reaper chaintalon, Diabolus heavy stubber
+
+undefined

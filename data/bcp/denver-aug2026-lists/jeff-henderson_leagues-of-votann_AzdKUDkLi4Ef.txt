@@ -1,0 +1,184 @@
+# Jeff Henderson | Leagues of Votann | Reconnaissance | team=MORALE CHECK
+# list: https://www.bestcoastpairings.com/list/AzdKUDkLi4Ef  status=passed
+
+Grudge-con (1,985 Points)
+
+Leagues of Votann
+Farseekers and Needgaârd Oathband (3 Detachment Points)
+Reconnaissance
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Brôkhyr Iron-master (100 Points)
+  • Attached as: Leader (Character)
+  • 1x Brôkhyr Iron-master
+     • Warlord
+     ◦ 1x Graviton hammer
+     ◦ 1x Graviton rifle
+     ◦ Enhancements: Oathbound Speculator
+  • 1x Ironkin Assistant
+     ◦ 1x Close combat weapon
+     ◦ 1x Las-beam cutter
+  • 1x E-COG
+     ◦ 1x Plasma torch
+  • 1x E-COG
+     ◦ 1x Manipulator arms
+  • 1x E-COG
+     ◦ 1x Autoch-pattern bolt pistol
+     ◦ 1x Close combat weapon
+
+Brôkhyr Thunderkyn (170 Points)
+  • Attached as: Bodyguard ()
+  • 6x Brôkhyr Thunderkyn
+     ◦ 6x Close combat weapon
+     ◦ 6x SP conversion beamer
+
+BATTLELINE
+
+Hearthkyn Warriors (100 Points)
+  • 1x Theyn
+     ◦ 1x Autoch-pattern bolt pistol
+     ◦ 1x Autoch-pattern bolter
+     ◦ 1x Close combat weapon
+     ◦ 1x Theyn’s melee weapon
+     ◦ 1x Weavefield crest
+  • 9x Hearthkyn Warrior
+     ◦ 9x Autoch-pattern bolt pistol
+     ◦ 7x Autoch-pattern bolter
+     ◦ 9x Close combat weapon
+     ◦ 1x EtaCarn plasma beamer
+     ◦ 1x HYLas auto rifle
+
+Hearthkyn Warriors (100 Points)
+  • 1x Theyn
+     ◦ 1x Autoch-pattern bolt pistol
+     ◦ 1x Autoch-pattern bolter
+     ◦ 1x Close combat weapon
+     ◦ 1x Theyn’s melee weapon
+     ◦ 1x Weavefield crest
+  • 9x Hearthkyn Warrior
+     ◦ 9x Autoch-pattern bolt pistol
+     ◦ 7x Autoch-pattern bolter
+     ◦ 9x Close combat weapon
+     ◦ 1x EtaCarn plasma beamer
+     ◦ 1x HYLas auto rifle
+
+DEDICATED TRANSPORTS
+
+Kapricus Carrier (70 Points)
+  • 1x Armoured hull
+  • 1x Magna-coil autocannon
+  • 1x Twin magna‑coil autocannon
+
+Kapricus Carrier (70 Points)
+  • 1x Armoured hull
+  • 1x Magna-coil autocannon
+  • 1x Twin magna‑coil autocannon
+
+Sagitaur (85 Points)
+  • 1x Armoured wheels
+  • 1x HYLas beam cannon
+  • 1x Twin bolt cannon
+
+Sagitaur (85 Points)
+  • 1x Armoured wheels
+  • 1x HYLas beam cannon
+  • 1x Twin bolt cannon
+
+OTHER DATASHEETS
+
+Brôkhyr Thunderkyn (80 Points)
+  • 3x Brôkhyr Thunderkyn
+     ◦ 3x Close combat weapon
+     ◦ 3x Graviton blast cannon
+
+Brôkhyr Thunderkyn (80 Points)
+  • 3x Brôkhyr Thunderkyn
+     ◦ 3x Close combat weapon
+     ◦ 3x Graviton blast cannon
+
+Hekaton Land Fortress (250 Points)
+  • 1x Armoured wheels
+  • 1x Heavy magna-rail cannon
+  • 1x MATR autocannon
+  • 1x Panspectral Scanner
+  • 2x Twin bolt cannon
+
+Hekaton Land Fortress (265 Points)
+  • 1x Armoured wheels
+  • 1x Heavy magna-rail cannon
+  • 1x MATR autocannon
+  • 1x Panspectral Scanner
+  • 2x Twin bolt cannon
+
+Hernkyn Pioneers (80 Points)
+  • 3x Hernkyn Pioneer
+     ◦ 3x Bolt revolver
+     ◦ 3x Bolt shotgun
+     ◦ 1x HYLas rotary cannon
+     ◦ 3x Magna-coil autocannon
+     ◦ 1x Panspectral Scanner
+     ◦ 3x Plasma knife
+     ◦ 1x Rollbar Searchlight
+
+Hernkyn Pioneers (80 Points)
+  • 3x Hernkyn Pioneer
+     ◦ 3x Bolt revolver
+     ◦ 3x Bolt shotgun
+     ◦ 1x HYLas rotary cannon
+     ◦ 3x Magna-coil autocannon
+     ◦ 1x Panspectral Scanner
+     ◦ 3x Plasma knife
+     ◦ 1x Rollbar Searchlight
+
+Hernkyn Yaegirs (105 Points)
+  • Enhancements: Shroudwërke Talismans (Upgrade)
+  • 1x Yaegir Theyn
+     ◦ 1x Bolt revolver
+     ◦ 1x Close combat weapon
+     ◦ 1x Plasma knife
+  • 9x Hernkyn Yaegir
+     ◦ 1x APM launcher
+     ◦ 7x Bolt revolver
+     ◦ 9x Close combat weapon
+     ◦ 1x Magna-coil rifle
+     ◦ 7x Plasma knife
+
+Hernkyn Yaegirs (105 Points)
+  • Enhancements: Shroudwërke Talismans (Upgrade)
+  • 1x Yaegir Theyn
+     ◦ 1x Bolt revolver
+     ◦ 1x Close combat weapon
+     ◦ 1x Plasma knife
+  • 9x Hernkyn Yaegir
+     ◦ 1x APM launcher
+     ◦ 7x Bolt revolver
+     ◦ 9x Close combat weapon
+     ◦ 1x Magna-coil rifle
+     ◦ 7x Plasma knife
+
+Ironkin Steeljacks with Melee Weapons (80 Points)
+  • 1x Steeljack Theyn
+     ◦ 1x Autoch-pattern bolter
+     ◦ 1x Plasma sword
+     ◦ 1x Preymark Crest
+  • 2x Ironkin Steeljack
+     ◦ 2x Autoch-pattern bolter
+     ◦ 2x Plasma sword
+
+Ironkin Steeljacks with Melee Weapons (80 Points)
+  • 1x Steeljack Theyn
+     ◦ 1x Autoch-pattern bolter
+     ◦ 1x Plasma sword
+     ◦ 1x Preymark Crest
+  • 2x Ironkin Steeljack
+     ◦ 2x Autoch-pattern bolter
+     ◦ 2x Plasma sword
+
+Exported with App Version: v2.3.0 (1), Data Version: v912
+
+
+undefined

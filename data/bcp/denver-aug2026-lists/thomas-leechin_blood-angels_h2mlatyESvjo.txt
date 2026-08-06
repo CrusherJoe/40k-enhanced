@@ -1,0 +1,61 @@
+# Thomas Leechin | Blood Angels | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/h2mlatyESvjo  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Blood Angels
++ DETACHMENT: Liberator Assault Group (The Red Thirst)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Commander Dante
++ ENHANCEMENT: Rage-Fuelled Warrior (on Char3: Captain with Jump Pack) 
+& Gift of Foresight (on Char7: Sanguinary Priest)
++ NUMBER OF UNITS: 16
++ SECONDARY: - Assassination: 7 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char3: 1x Captain with Jump Pack (115 pts): Relic Shield, Thunder Hammer 
+Enhancement: Rage-Fuelled Warrior (+35 pts) Attached to Sang Guard
+Char4: 1x Chaplain in Terminator Armour (75 pts): Relic Shield, Crozius arcanum Attached to Assault Terminators
+Char5: 1x Chaplain with Jump Pack (80 pts): Crozius arcanum, Bolt pistol Attached to VV
+Char1: 1x Commander Dante (125 pts): Warlord, Perdition, The Axe Mortalis Attached to 10 man JPI
+Char2: 1x Lemartes (100 pts): Absolver Bolt Pistol, The Blood Crozius Attached to DC
+Char6: 1x Librarian (70 pts): Bolt pistol, Force weapon, Smite Attached to Blade Guard
+Char7: 1x Sanguinary Priest (90 pts): Absolvor bolt pistol, Astartes Chainsword Attached to Blade Guard
+Enhancement: Gift of Foresight (+15 pts)
+
+5x Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant: Bolt pistol, Plasma pistol, Power weapon
+• 4x Intercessor: 4 with Bolt pistol, Bolt Rifle, Close combat weapon
+
+10x Assault Intercessors with Jump Packs (180 pts)
+• 9x Assault Intercessors with Jump Pack
+    7 with Astartes Chainsword, Heavy Bolt Pistol
+    2 with Astartes Chainsword, Plasma pistol
+• 1x Assault Intercessor Sergeant with Jump Pack: Plasma pistol, Astartes Chainsword
+5x Assault Intercessors with Jump Packs (95 pts)
+• 4x Assault Intercessors with Jump Pack
+    3 with Astartes Chainsword, Heavy Bolt Pistol
+    1 with Astartes Chainsword, Plasma pistol
+• 1x Assault Intercessor Sergeant with Jump Pack: Plasma pistol, Power fist
+6x Bladeguard Veteran Squad (170 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+10x Death Company Marines with Jump Packs (230 pts)
+  7 with Astartes Chainsword, Heavy Bolt Pistol
+  1 with Eviscerator, Heavy Bolt Pistol
+  2 with Power fist, Plasma pistol
+6x Sanguinary Guard (260 pts)
+  2 with Encarmine Blade, Inferno Pistol
+  4 with Encarmine Blade, Angelus Boltgun
+5x Scout Squad (65 pts)
+• 1x Scout Sergeant: Bolt pistol, Close combat weapon, Boltgun
+• 4x Scouts: 4 with Bolt pistol, Boltgun, Close combat weapon
+5x Terminator Assault Squad (155 pts)
+• 1x Assault Terminator Sergeant: Twin Lightning Claws
+• 4x Assault Terminator: 4 with Twin Lightning Claws
+5x Vanguard Veteran Squad with Jump Packs (110 pts)
+• 1x Vanguard Veteran Sergeant with Jump Pack: Vanguard Veteran Weapon, Inferno Pistol
+• 4x Vanguard Veterans with Jump Packs: 4 with Vanguard Veteran Weapon, Inferno Pistol
+
+undefined

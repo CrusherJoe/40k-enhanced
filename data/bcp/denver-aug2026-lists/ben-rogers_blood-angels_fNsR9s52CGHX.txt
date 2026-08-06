@@ -1,0 +1,53 @@
+# Ben Rogers | Blood Angels | Take and Hold | team=CU WARHAMMER BUFFS
+# list: https://www.bestcoastpairings.com/list/fNsR9s52CGHX  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Blood Angels
++ DETACHMENT: Legacy of Grace, Librarius Conclave, Vengeful Hosts (Legacy of the Angel)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Lemartes
++ ENHANCEMENT: Orksbane (on Char4: Captain with Jump Pack)
+& Temporal Corridor (on Char5: Librarian)
+& Celerity (on Char6: Librarian)
++ NUMBER OF UNITS: 16
++ SECONDARY: - Bring It Down: (2x2) - Assassination: 8 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char3: 1x Captain in Phobos Armour (70 pts): Bolt pistol, Combat Knife, Instigator Bolt Carbine
+Char4: 1x Captain with Jump Pack (100 pts): Orksbane, Astartes Chainsword, Heavy Bolt Pistol, Relic Shield (w/ sanguinary guard)
+Char1: 1x Chief Librarian Mephiston (110 pts): Fury of the Ancients, Plasma pistol, Vitarus
+Char2: 1x Lemartes (100 pts): Warlord, Absolver Bolt Pistol, The Blood Crozius (w/ DC w/ jump pack)
+Char5: 1x Librarian (95 pts): Bolt pistol, Force weapon, Smite
+Enhancement: Temporal Corridor (+25 pts) (w/ Hellblasters)
+Char6: 1x Librarian (105 pts): Bolt pistol, Force weapon, Smite
+Enhancement: Celerity (+35 pts) (w/ Assault Intercessors)
+Char7: 1x Lieutenant (45 pts): Master-crafted power weapon, Neo-volkite Pistol, Storm Shield (w/ Hellblasters)
+Char8: 1x Sanguinary Priest (75 pts): Absolvor bolt pistol, Astartes Chainsword (w/ Assault Intercessors)
+
+10x Assault Intercessor Squad (150 pts)
+• 1x Assault Intercessor Sergeant: Plasma pistol, Thunder Hammer
+• 9x Assault Intercessors: 9 with Astartes Chainsword, Heavy Bolt Pistol
+5x Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant: Bolt pistol, Astartes grenade launcher, Bolt Rifle, Power fist
+• 4x Intercessor: 4 with Bolt pistol, Bolt Rifle, Close combat weapon
+
+10x Death Company Marines with Jump Packs (230 pts)
+  5 with Astartes Chainsword, Heavy Bolt Pistol
+  2 with Eviscerator, Plasma pistol
+  2 with Power fist, Inferno Pistol
+  1 with Power fist, Heavy Bolt Pistol
+10x Hellblaster Squad (220 pts)
+• 9x Hellblaster: 9 with Bolt pistol, Close combat weapon, Plasma Incinerator
+• 1x Hellblaster Sergeant: Close combat weapon, Plasma Incinerator, Plasma pistol
+3x Sanguinary Guard (125 pts)
+  1 with Sanguinary Banner, Encarmine Spear, Inferno Pistol
+  2 with Encarmine Spear, Angelus Boltgun
+3x Sanguinary Guard (125 pts)
+  1 with Sanguinary Banner, Encarmine Spear, Inferno Pistol
+  2 with Encarmine Spear, Angelus Boltgun
+1x Vindicator (185 pts): Armoured Tracks, Demolisher Cannon, Hunter-killer missile, Storm bolter
+1x Vindicator (185 pts): Armoured Tracks, Demolisher Cannon, Hunter-killer missile, Storm bolter
+
+undefined

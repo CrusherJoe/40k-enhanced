@@ -1,0 +1,176 @@
+# Andrew Champion | Drukhari | Reconnaissance | team=MHM
+# list: https://www.bestcoastpairings.com/list/larg4X9kepdI  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Drukhari
++ DETACHMENT: Exhibition of Slaughter, Skysplinter Assault (Exacting Cruelty)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char4: Archon
++ ENHANCEMENT: Nightmare Shroud (on Char4: Archon)
+& Periapt of Torments (on Char5: Succubus)
++ NUMBER OF UNITS: 22
++ SECONDARY: - Bring It Down: (7x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Archon (100 pts) - Attached to 10 Incubi
+• 1x Huskblade
+• Warlord, Shadowfield, Soul Trap
+• Nightmare Shroud (+20 pts)
+
+Drazhar (85 pts) - Attached to 5 Incubi
+• 1x The Executioner's demiklaives
+
+Lady Malys (100 pts) - Attached to 5 Incubi
+• 1x Melee Weapons
+
+Lelith Hesperax (80 pts) - Attached to 10 Wyches
+• 1x Lelith's blades
+
+Succubus (70 pts) - Attached to 10 Wyches
+• 1x Archite glaive and agoniser
+• Periapt of Torments (+20 pts)
+
+BATTLELINE
+
+Wyches (90 pts)
+• 1x Hekatrix
+    • 1x Power weapon
+    • 1x Blast Pistol
+• 9x Wych
+    • 6x Hekatarii Blade
+    • 6x Splinter Pistol
+    • 3x Gladiatorial weapons
+
+Wyches (90 pts)
+• 1x Hekatrix
+    • 1x Power weapon
+    • 1x Blast Pistol
+• 9x Wych
+    • 6x Hekatarii Blade
+    • 6x Splinter Pistol
+    • 3x Gladiatorial weapons
+
+Wyches (90 pts)
+• 1x Hekatrix
+    • 1x Power weapon
+    • 1x Blast Pistol
+• 9x Wych
+    • 6x Hekatarii Blade
+    • 6x Splinter Pistol
+    • 3x Gladiatorial weapons
+
+OTHER DATASHEETS
+
+Cronos (55 pts)
+• 1x Cronos
+    • 1x Spirit Syphon
+    • 1x Spirit-leech Tentacles
+
+Hand of the Archon (115 pts)
+• 1x Kabalite Archsybarite
+    • 1x Power Weapon
+    • 1x Blast Pistol
+    • Kabalite icon
+• 3x Kabalite Agent
+    • 3x Close Combat Weapon
+    • 3x Splinter rifle
+• 1x Kabalite Agent with heavy weapon
+    • 1x Close Combat Weapon
+    • 1x Dark lance
+• 1x Kabalite Agent with pain sculptors
+    • 1x Close Combat Weapon
+    • 1x Pain sculptors
+• 1x Kabalite Agent with razorflail
+    • 1x Close Combat Weapon
+    • 1x Razorflail
+    • 1x Splinter Pistol
+• 1x Kabalite Agent with shardcarbine
+    • 1x Close Combat Weapon
+    • 1x Shardcarbine
+• 1x Kabalite Agent with special weapon
+    • 1x Close Combat Weapon
+    • 1x Blaster
+• 1x Kabalite Agent with stimm-needler
+    • 1x Close Combat Weapon
+    • 1x Splinter rifle
+    • Stimm-needler
+
+Incubi (90 pts)
+• 1x Klaivex
+    • 1x Demiklaives
+• 4x Incubi
+    • 4x Klaive
+  • Incubi Shrine Token
+
+Incubi (180 pts)
+• 1x Klaivex
+    • 1x Demiklaives
+• 9x Incubi
+    • 9x Klaive
+  • 2x Incubi Shrine Token
+
+Incubi (100 pts)
+• 1x Klaivex
+    • 1x Demiklaives
+• 4x Incubi
+    • 4x Klaive
+  • Incubi Shrine Token
+
+Mandrakes (80 pts)
+• 1x Nightfiend
+    • 1x Baleblast
+    • 1x Glimmersteel Blade
+• 4x Mandrake
+    • 4x Baleblast
+    • 4x Glimmersteel Blade
+
+Raider (75 pts)
+• 1x Bladevanes and chainsnares
+• 1x Dark Lance
+
+Raider (75 pts)
+• 1x Bladevanes and chainsnares
+• 1x Dark Lance
+
+Scourges with Heavy Weapons (125 pts)
+• 1x Solarite
+    • 1x Close combat weapon
+    • 1x Shardcarbine
+• 4x Scourge with Heavy Weapon
+    • 4x Close combat weapon
+    • 3x Dark Lance
+    • 1x Heat Lance
+
+Scourges with Heavy Weapons (130 pts)
+• 1x Solarite
+    • 1x Close combat weapon
+    • 1x Shardcarbine
+• 4x Scourge with Heavy Weapon
+    • 4x Close combat weapon
+    • 4x Dark Lance
+
+Venom (65 pts)
+• 1x Bladevanes
+• 1x Splinter Cannon
+• 1x Splinter Cannon
+
+Venom (65 pts)
+• 1x Bladevanes
+• 1x Splinter Cannon
+• 1x Splinter Cannon
+
+Venom (65 pts)
+• 1x Bladevanes
+• 1x Splinter Cannon
+• 1x Splinter Cannon
+
+Venom (75 pts)
+• 1x Bladevanes
+• 1x Splinter Cannon
+• 1x Splinter Cannon
+
+undefined

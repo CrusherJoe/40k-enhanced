@@ -1,0 +1,39 @@
+# Anthony Massicotte | Tyranids | Take and Hold | team=Hive Fleet Hades
+# list: https://www.bestcoastpairings.com/list/eOyIyXbEUFEF  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Tyranids
++ DETACHMENT: Assimilation Swarm, Talons of the Norn Queen (Feed the Swarm)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Hive Tyrant
++ ENHANCEMENT: Instinctive Defense (on Char1: Hive Tyrant)
+& Synaptoprescience (on Mons1: Norn Assimilator)
+& Synaptoprescience (on Mons1: Norn Assimilator)
+& Destabilising Predation (on Mons1: Norn Emissary)
+& Destabilising Predation (on Mons1: Norn Emissary)
+& Destabilising Predation (on Mons1: Norn Emissary)
++ NUMBER OF UNITS: 11
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Hive Tyrant (210 pts): Warlord, Monstrous bonesword and lash whip, Monstrous scything talons
+Enhancement: Instinctive Defense (+15 pts)
+
+1x Biovores (60 pts): Chitin-barbed limbs, Spore mine launcher
+1x Lictor (60 pts): Lictor claws and talons
+1x Lictor (60 pts): Lictor claws and talons
+1x Norn Assimilator (275 pts): Monstrous scything talons, Toxinjecter harpoon
+Enhancement: Synaptoprescience (+25 pts)
+1x Norn Assimilator (295 pts): Monstrous scything talons, Toxinjecter harpoon
+Enhancement: Synaptoprescience (+25 pts)
+1x Norn Emissary (270 pts): Monstrous rending claws, Monstrous scything talons, Psychic tendril
+Enhancement: Destabilising Predation (+20 pts)
+1x Norn Emissary (290 pts): Monstrous rending claws, Monstrous scything talons, Psychic tendril
+Enhancement: Destabilising Predation (+20 pts)
+1x Norn Emissary (290 pts): Monstrous rending claws, Monstrous scything talons, Psychic tendril
+Enhancement: Destabilising Predation (+20 pts)
+1x Psychophage (110 pts): Psychoclastic torrent, Talons and betentacled maw
+3x Tyrant Guard (80 pts): 3 with Scything talons and rending claws
+
+undefined

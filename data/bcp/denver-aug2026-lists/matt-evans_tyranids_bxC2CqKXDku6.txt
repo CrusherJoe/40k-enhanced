@@ -1,0 +1,76 @@
+# Matt Evans | Tyranids | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/bxC2CqKXDku6  status=passed
+
++==========================================
+  Breaking the first rule about Fight club — Tyranids
+  Assimilation Swarm (2DP) + Talons of the Norn Queen (1DP)
+  Force Disposition: Take and Hold
+  2000 / 2000 pts · 15 units
++==========================================
+
+── EPIC HEROES ───────────────────────────
+  The Swarmlord  [210 pts]
+    ↳ Attached to: Tyrant Guard (A)
+    Weapons: Synaptic Pulse, Bone Sabres
+
+  The Red Terror  [130 pts]
+    Weapons: Gaping maw, Scything talons
+
+── CHARACTERS ────────────────────────────
+  Hive Tyrant  [195 pts]
+    ↳ Attached to: Tyrant Guard (B)
+    Weapons: Monstrous bonesword and lash whip, Monstrous scything talons
+
+── INFANTRY ──────────────────────────────
+  Biovores  [60 pts]
+    1x Biovore
+    Weapons: Spore mine launcher, Chitin-barbed limbs
+
+  Pyrovores  [95 pts]
+    3x Pyrovore
+    Weapons: Flamespurt x3, Chitin-barbed limbs x3
+
+  Pyrovores  [95 pts]
+    3x Pyrovore
+    Weapons: Flamespurt x3, Chitin-barbed limbs x3
+
+  Tyrant Guard (A)  [80 pts]
+    ↳ Linked unit: The Swarmlord
+    3x Tyrant Guard
+    Weapons: Scything talons and rending claws x3
+
+  Tyrant Guard (B)  [160 pts]
+    ↳ Linked unit: Hive Tyrant
+    6x Tyrant Guard
+    Weapons: Scything talons and rending claws x6
+
+  Barbgaunts  [55 pts]
+    5x Barbgaunt
+    Weapons: Barblauncher x5, Chitinous claws and teeth x5
+
+  Barbgaunts  [55 pts]
+    5x Barbgaunt
+    Weapons: Barblauncher x5, Chitinous claws and teeth x5
+
+  Von Ryan's Leapers  [105 pts]
+    6x Von Ryan's Leaper
+    Weapons: Leaper's talons x6
+
+── MONSTERS ──────────────────────────────
+  Haruspex  [125 pts]
+    Weapons: Grasping tongue, Shovelling claws, Ravenous maw
+
+  Norn Assimilator  [275 pts]
+    Upgrade: Synaptoprescience
+    Weapons: Toxinjecter Harpoon, Monstrous scything talons
+
+  Norn Emissary  [250 pts]
+    Weapons: ➤ Psychic tendril - neuroparasite, ➤ Psychic tendril - neurolance, ➤ Psychic tendril - neuroblast, Monstrous rending claws, Monstrous scything talons
+
+  Psychophage  [110 pts]
+    Weapons: Psychoclastic torrent, Talons and betentacled maw
+
+Total: 2000 pts
+https://ironbuilt.app/#s=b5g4ggga
+
+undefined
