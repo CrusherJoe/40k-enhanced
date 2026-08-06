@@ -304,6 +304,17 @@ shot can chunk a Questoris).
   screening/kiting denial, charge variance, and melee being **BLUNTED by the durable meta** (AP-3 wasted vs 4++,
   D8→D7 vs −1 Dmg, more lost to FNP). So treat the sim's double-Lancer verdict (2-Lancer 73%) as SUSPECT — it
   flatters a one-dimensional tool. **Settle Lancer-count empirically vs REAL lists, not hand-tuned enemy params.**
+- **★★ SETTLED EMPIRICALLY AT LSO 2026 (results, 2026-08-06): DROP the Lancer.** Across all 18 Imperial Knights
+  players at LSO, **no-Lancer lists averaged finish ~134 vs ~225 with a Lancer** (n=10 vs 8); ALL top-4 Knights ran
+  ZERO Lancers; best Lancer finish was 68th. The two Knights that top-6'd were both Lancer-less: **Jason Weeks 4th
+  (6-0)** = Gate Warden Lance / Take-and-Hold, Canis Rex + Knight Errant + 2 Destrier + **3 Armiger Warglaives +
+  Sisters squad + Immolator** (cheap OC/board-control bodies — fixes "always outnumbered"); **Nathaniel Bjorge 6th
+  (5-1)** = Valourstrike / Priority Assets, **pure 5 gun-Knights, no chaff** (max firepower, scored 100 primary in
+  5/6). Two proven winning SHAPES, both Lancer-less + max-firepower/board: all-gun OR guns+cheap-OC. Disposition was
+  a SECONDARY lever (objective disps avg 166 vs Purge 181; a Purge/no-Lancer list still went 31st). The 415-pt Lancer
+  IS the "Castellan's worth of shooting" the skepticism bullet feared — the field confirms dropping it. Full analysis:
+  `docs/reports/knights/death_rnr-LSO-PostEvent-Review-v1.0.md`. (Also validated: the archetypes we called UNFAVOURABLE
+  — DA Company of Hunters/T'au/Cursed-Legion — finished HIGHEST overall, so the threat-map was sound.)
   A Questoris **gun** package (e.g. Bondsman-buffed Helverins: 48" S9 AP-1 D3 autocannons that shoot AND hold OC
   AND don't need a charge) is a live alternative to a 2nd melee blade. User still values ONE Lancer as a proven
   "distraction carnifex" (does work every game), but is not sold on TWO. See [Two validated list variants].
@@ -396,6 +407,10 @@ shot can chunk a Questoris).
   not the win — Knights are underdogs into the filth. → List brief: field-robust core + heist flexibility (the
   flexible-4++ Lancer, firepower-as-denial, mobility secondaries), NOT a narrow counter-build. Original impetus was
   the friend's "Great Value" Imperial Fists list for LSO. LSO uses GW terrain layouts (see terrain notes).
+- **⚠ POST-LSO UPDATE (2026-08-06): the DECIDED list below went 2-4 / 244th at LSO; the LancerLESS Knights top-6'd.**
+  The empirical result (see the "SETTLED EMPIRICALLY" bullet above + the Post-Event Review) says DROP the Lancer for
+  the next event — reinvest in a 5th gun-Knight (Bjorge) or Armigers + a cheap OC/Sisters package (Weeks). The law
+  below is the PRE-event decision; treat it as superseded by the results for future list-building (user to re-confirm).
 - **★★ KNIGHT LSO LIST = DECIDED (user law 2026-07-26): 2 CASTELLAN / 1 LANCER / 1 CRUSADER + Armiger Helverin +
   Navigator** (`examples/knights-gv-2castellan.yaml`; Valourstrike Lance + Dominus Foebreakers; Priority Assets).
   **NOT the 2-Lancer build.** User law that GOVERNS (overrides the MC gauntlet, which over-credited Lancers via the

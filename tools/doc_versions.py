@@ -86,6 +86,11 @@ DOCS = {
     "lso-field-roster":   ("2.0", "2026-07-30", "LSO 2026 — Roster (linked)",
                            "All 330 players, each name linked to their BCP list; filterable by faction.",
                            "docs/reports/knights/death_rnr-LSO-Roster.html"),
+    "lso-postevent":      ("1.0", "2026-08-06", "death_rnr — LSO 2026 Post-Event Review",
+                           "Results validation + all-18 Knights analysis: Lancer = clearest negative "
+                           "(no-Lancer avg finish 134 vs 225); disposition secondary; two winning shapes "
+                           "(all-gun / guns+bodies), both Lancer-less.",
+                           "docs/reports/knights/death_rnr-LSO-PostEvent-Review.md"),
 }
 
 
