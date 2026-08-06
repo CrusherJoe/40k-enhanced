@@ -151,8 +151,8 @@ def _shoot(me, opp, board, rng):
         # fix for shooting: you must clear the screen before the valuable unit behind it.
         blobs = me.on_board() + opp.on_board()
         if engaged:                                          # PISTOLs: only the enemy you're locked with
-            targets = [t for t in opp.on_board()
-                       if dist(u.pos, t.pos) <= 3.0 + u.radius + t.radius and board.has_los(u.pos, t.pos)]
+            targets = [t for t in opp.on_board()             # engagement test consistent with _engaged / fight
+                       if dist(u.pos, t.pos) <= 3.0 + t.radius and board.has_los(u.pos, t.pos)]
         else:
             targets = [t for t in opp.on_board() if board.has_los(u.pos, t.pos) and not _screened(u, t, blobs)]
         # PRECISION: this shooter can pick an attached CHARACTER out of its unit (the only way to target an
