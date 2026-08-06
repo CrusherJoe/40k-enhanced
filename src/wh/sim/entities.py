@@ -50,6 +50,11 @@ class Unit:
     embarked: list = field(default_factory=list)   # units this TRANSPORT is carrying
     transport: object = None   # the transport this unit is riding in (None = on the board)
     open_topped: bool = False  # embarked passengers can shoot
+    # LEADER / attached-character (11E): a CHARACTER embedded in a Bodyguard unit is not independently
+    # on the board (can't be targeted except by PRECISION). `leading` = the leaders attached to THIS unit.
+    embedded: bool = False     # this character is attached to a bodyguard (hidden from targeting)
+    leading: list = field(default_factory=list)   # leader units attached to this bodyguard
+    host: object = None        # the bodyguard this leader is attached to
 
     def __post_init__(self):
         if not self.cur_w:
@@ -104,11 +109,13 @@ class Army:
     strat_dets: tuple = ()      # chosen detachment name(s) — the army gets ALL their stratagems + the core set
 
     def alive_units(self):
-        return [u for u in self.units if u.alive and not u.in_reserve]
+        return [u for u in self.units if u.alive and not u.in_reserve and not u.embedded]
 
     def on_board(self):
-        # embarked passengers (transport set) are not physically on the board
-        return [u for u in self.units if u.alive and not u.in_reserve and u.transport is None]
+        # embarked passengers (transport set) and embedded leaders (attached to a unit) aren't physically
+        # on the board as independent, targetable units
+        return [u for u in self.units if u.alive and not u.in_reserve and u.transport is None
+                and not u.embedded]
 
 
 # Terrain comes from the Warhammer Event Companion layouts (wh.sim.terrain), keyed per disposition

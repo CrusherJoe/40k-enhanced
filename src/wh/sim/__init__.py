@@ -34,6 +34,40 @@ matchups (Necrons 47, Orks 40) happen to sit near the balanced band. Everything 
 NEVER the %. Measure any change with `python -m wh.sim.harness`.
 ============================================================================================
 
+GAME-LAYER UPGRADE (2026-08-06) — *** the 0.0-correlation ceiling was a MISSING-GAME-CONCEPTS problem, not
+a combat-tuning one. *** The prior effort tried to fix win% by reworking COMBAT and proved it can't (corr
+~0). Diagnosis this round (code-audited): the sim computed VP as a smooth monotone function of combat
+dominance, so a combat edge flowed straight to a 96% win rate — every mechanism that DECOUPLES "winning
+fights" from "winning games" in real 40k was missing or dead code. Added the four missing concepts, each
+measured against the anchors (harness.py) in isolation:
+  1. REAL TACTICAL SECONDARY DECK (secondaries.py) — replaced the single monotone "sec" scalar in
+     mission.score_turn with a drawn 13-card Tactical deck (data/secondary-missions.yaml) scored from board
+     state + per-turn kill metadata (character/big-model/on-objective), discard+redraw, 40 game-cap. The
+     orthogonal ~40%-of-VP axis. Alone: werr 25.5 -> 24.5 (compressed the mid-table; extremes still ran off
+     because the board-winner also scoops positional/kill secondaries — which is WHY the decision-layer
+     fixes below were needed).
+  2. VP-AWARE TARGET PRIORITY (game._obj_relevance, threaded into _pick/charge/mval) — fire/charge now tilt
+     toward units that are actually SCORING (on/contesting an objective), not just the biggest stat-line.
+     Alone: 24.5 -> 22.0 (pulled the runaway matchups in: BA 95->87, drukhari 81->73).
+  3. FALL BACK (game._fall_back — revived u.fell_back, which was dead code, only ever reset). A genuinely
+     fragile unit about to be wiped AND losing the exchange disengages toward home (forfeiting shoot/charge);
+     durable/elite bodies stay and TRADE. Lets the trailing side preserve scoring pieces. 22.0 -> 21.4.
+  4. LEADER / ATTACHED CHARACTER (attach.py + game/entities wiring) — 11E-correct: a CHARACTER embeds in a
+     Bodyguard unit; TWO-WAY TAPESTRY (best-of merge of crit/re-roll/+S+A-charge/FNP/invuln into the unit);
+     the character CANNOT be targeted while attached (no "Look Out Sir" in 11E — the protection is the Leader
+     rule) except by PRECISION (now wired: precision shooters can snipe the embedded leader, stripping its
+     buff via attach.recompute). Fixes the proven fragility swing (buff characters no longer die turn 1, so
+     army-wide multipliers persist). Auto-attaches for curated rosters AND listloader/BCP lists.
+  NET (250 games): WEIGHTED ERROR 25.5 -> 18.8 (~26% better; 17.3 at 150g). Matchups it NAILED, previously
+  badly wrong: tau 5->26 (real 40), necrons 25->48 (47), dark_angels 25->37 (40), tyranids 11->36 (52),
+  thousand_sons ->50 (39). RESIDUAL is exactly the pre-identified COMBAT-model ceiling, NOT a game-layer gap:
+  aeldari still -44 (can't crack the T-heavy 2+ wraith wall while being shot), orks/drukhari overshoot
+  (+28: Custodes too strong in the sim's elite combat), BA +39 (elite-melee over-read). combat.py UNTOUCHED
+  (resolve_attacks mean still matches mathhammer). These four are the biggest accuracy gain since the rebuild
+  and are general (help every army, not just Custodes); the win% band is materially compressed but the elite-
+  combat extremes remain DIRECTIONAL. Re-measure any further change with `python -m wh.sim.harness`.
+============================================================================================
+
 PURPOSE: score how a list does into KNOWN-WINNING opponent lists (post-Dataslate what-ifs that have no
 head-to-head tournament data), expose the list's weaknesses, and recommend fixes. The listhammer
 aggregate (data/meta/custodes-matchups.json) is historical/pre-Dataslate CONTEXT, not the calibration

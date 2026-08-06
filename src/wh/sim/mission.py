@@ -1,8 +1,8 @@
 """Real primary-mission scoring from ACTUAL board state (not caps). Reads data/missions.yaml +
 data/matrix.yaml. Each battle round, score_turn() evaluates the active player's mission's VP blocks
 against the objectives they really hold, whether they killed / did the action this turn, etc. — capped
-15/round. end_of_battle() adds the End-of-Battle blocks (e.g. holding the enemy home). A light
-state-driven secondary is folded in (kills + pushing enemy territory)."""
+15/round. end_of_battle() adds the End-of-Battle blocks (e.g. holding the enemy home). Secondaries are
+NOT scored here — they are a real drawn Tactical deck handled in wh.sim.secondaries + the game loop."""
 from __future__ import annotations
 
 import os
@@ -112,10 +112,9 @@ def score_turn(mission_name, held, board, me, opp, rnd, kills, going_first):
         lo, hi = rr
         if lo <= rnd <= hi:
             primary += _block_vp(block, st, kills)
-    primary = min(15.0, primary)
-    # state-driven secondary (~8VP/turn ceiling): kills + pushing enemy territory + holding
-    sec = min(8.0, (2.0 if kills > 0 else 0) + 1.5 * st["enemy_terr"] + 1.0 * st["nonhome"])
-    return primary + sec * 0.6
+    # PRIMARY only (capped 15/round). Secondaries are now a real drawn Tactical deck scored separately
+    # in the game loop (wh.sim.secondaries) — the orthogonal ~40%-of-VP axis, not a board-dominance scalar.
+    return min(15.0, primary)
 
 
 def end_of_battle(mission_name, held, board, me, opp):

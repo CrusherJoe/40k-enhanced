@@ -13,6 +13,8 @@ from ..mathhammer import Mods
 from .. import sim
 from . import stratagems
 from . import strategy as _strat
+from . import secondaries as _sec
+from . import attach as _attach
 
 
 def _S(army):
@@ -89,6 +91,7 @@ def _in_range(unit, target, w):
 
 def _shoot(me, opp, board, rng):
     focus = {}                                               # units already shooting each target
+    held, _ = board.control([me, opp])                       # for VP-aware target priority
     shooters = list(me.on_board())
     for t in me.on_board():                                  # open-topped transports let cargo shoot
         if t.open_topped:
@@ -103,11 +106,18 @@ def _shoot(me, opp, board, rng):
         # fix for shooting: you must clear the screen before the valuable unit behind it.
         blobs = me.on_board() + opp.on_board()
         targets = [t for t in opp.on_board() if board.has_los(u.pos, t.pos) and not _screened(u, t, blobs)]
+        # PRECISION: this shooter can pick an attached CHARACTER out of its unit (the only way to target an
+        # embedded leader in 11E — there is no Look Out Sir). It appears at its host's position.
+        if "PRECISION" in u.keywords or u.abilities.get("precision"):
+            for t in list(targets):
+                for l in _attach.embedded_leaders(t):
+                    l.pos = t.pos
+                    targets.append(l)
         if not targets:
             continue
         best = None; best_val = 0
         for t in targets:
-            best_val, best = _pick(u, t, u.ranged, focus, best_val, best)
+            best_val, best = _pick(u, t, u.ranged, focus, best_val, best, board=board, held=held)
         if best is None:
             continue
         focus[id(best)] = focus.get(id(best), 0) + 1
@@ -123,6 +133,8 @@ def _shoot(me, opp, board, rng):
                 ON_DAMAGE(u, best, lost)
             if not best.alive:
                 break
+        if not best.alive and getattr(best, "host", None) is not None:
+            _attach.on_leader_killed(best)                   # PRECISION sniped an embedded leader
 
 
 def _screened(shooter, t, blobs):
@@ -141,16 +153,32 @@ def _screened(shooter, t, blobs):
     return False
 
 
-def _pick(u, t, pool, focus, best_val, best, melee=False):
+def _obj_relevance(t, board, held):
+    """VP-play weighting: a unit ON/contesting an objective is worth more to remove than an equally-scary
+    unit irrelevant to the mission. Real players kill the SCORERS, not the biggest stat-line. Returns a
+    multiplier ~[0.8, 1.6]: 1.6 if the target is currently HOLDING an objective (kill it to flip/deny),
+    1.3 if merely contesting one, 0.8 if it's off doing nothing (the scary corner unit)."""
+    if board is None or held is None:
+        return 1.0
+    best = 0.8
+    for i, o in enumerate(board.objectives):
+        if dist(t.pos, o) <= 3.0 + 0.5 * t.radius:
+            best = max(best, 1.6 if held.get(i) == t.side else 1.3)
+    return best
+
+
+def _pick(u, t, pool, focus, best_val, best, melee=False, board=None, held=None):
     """Efficiency-weighted target value: REMOVING a unit (fraction of its wounds you clear) matters far
     more than chipping a tough one — so spears wipe the fragile scorers instead of pinging a Ravager,
-    and anti-tank isn't wasted on chaff. Threat scales it; fire-spread penalises pile-on."""
+    and anti-tank isn't wasted on chaff. Threat scales it; fire-spread penalises pile-on; objective
+    relevance (VP-play) tilts fire toward units that are actually scoring."""
     dmg = _expected_vs(u, t, melee=melee)
     wpn_d = max((_wdmg(w) for w in pool), default=1)
     if wpn_d >= 3 and t.wounds < wpn_d:
         dmg *= 0.4                                        # anti-tank into chaff = mostly wasted overkill
     frac = min(1.0, dmg / max(1.0, t.total_w))            # fraction of the unit removed
     val = t.threat * (0.25 + 0.75 * frac) * (0.5 + 0.5 * frac)   # heavily reward WIPING a unit
+    val *= _obj_relevance(t, board, held)                 # VP-play: prioritise the scorers
     val /= (1 + 1.5 * focus.get(id(t), 0))
     return (val, t) if val > best_val else (best_val, best)
 
@@ -168,13 +196,16 @@ def _charge_and_fight(me, opp, rng, board):
     # charges: melee units declare + roll 2d6. `commit` widens/narrows the charge leash (cagey armies
     # only charge what's already close; alpha armies reach further).
     crange = 12 * min(1.4, max(0.5, _S(me).commit))
+    held, _ = board.control([me, opp])                       # for VP-aware charge/fight priority
     for u in me.on_board():
         if not u.melee or u.fell_back:
             continue
         near = [t for t in opp.on_board() if 0 < dist(u.pos, t.pos) <= crange]
         if not near:
             continue
-        t = min(near, key=lambda t: dist(u.pos, t.pos))
+        # charge the enemy that matters MOST for VP (a scorer sitting on a point) among the reachable,
+        # not merely the nearest — but keep distance a strong tie-breaker (a far charge often whiffs).
+        t = max(near, key=lambda t: _obj_relevance(t, board, held) - dist(u.pos, t.pos) / 24.0)
         need = dist(u.pos, t.pos) - 1.0
         roll = int(rng.integers(1, 7) + rng.integers(1, 7))
         rr = u.abilities.get("reroll_charge")
@@ -214,7 +245,8 @@ def _charge_and_fight(me, opp, rng, board):
         def mval(t):
             dmg = _expected_vs(u, t, melee=True)
             frac = min(1.0, dmg / max(1.0, t.total_w))
-            return t.threat * (0.25 + 0.75 * frac) * (0.5 + 0.5 * frac)   # reward wiping the unit
+            return t.threat * (0.25 + 0.75 * frac) * (0.5 + 0.5 * frac) \
+                * _obj_relevance(t, board, held)          # reward wiping the unit + VP-play (kill scorers)
         avail = [t for t in engaged if piled.get(id(t), 0) < maxatk(t)]
         pool = avail or engaged                              # if all full, extras still swing (edge case)
         t = max(pool, key=mval)
@@ -324,6 +356,12 @@ def _move(me, opp, board, rnd, rng):
     order = sorted(me.on_board(), key=lambda u: -u.eff_oc() - (2 if _melee_primary(u, opp) else 0))
     for u in order:
         u.advanced = u.fell_back = u.charged = False
+        # FALL BACK: a non-durable unit locked in melee by an enemy that would likely wipe it disengages to
+        # preserve itself (and its VP) instead of standing to be tabled. It forfeits shooting/charging this
+        # turn (the real cost). Durable bricks stay and TRADE — this is a losing-side-survives compression
+        # lever, not a blanket retreat. (Revives u.fell_back, which was dead code — only ever reset.)
+        if _fall_back(u, opp, board):
+            continue
         oi = _best_objective(u, board, held, me, opp, crowd)
         crowd[oi] = crowd.get(oi, 0) + 1
         dest = board.objectives[oi]
@@ -350,6 +388,42 @@ def _move(me, opp, board, rnd, rng):
             _step_toward(u, _covered_hold(u, dest, board, opp, S.los_hold), u.move + boost)
         if u.embarked and dist(u.pos, dest) <= 8:      # transport delivers its cargo onto the point
             _disembark(u, dest)
+
+
+def _fall_back(u, opp, board):
+    """Decide + execute Fall Back. Returns True if the unit disengaged (and should skip its normal move).
+    Trigger: the unit is a non-durable piece engaged by melee enemies whose expected damage would cripple
+    it (>=60% of its wounds) if it stayed. It retreats directly away from the engagers toward its own
+    home edge, and is barred from shooting/charging this turn (guards elsewhere read u.fell_back)."""
+    # only genuinely FRAGILE pieces flee (durable bricks + elite multi-wound bodies stay and TRADE)
+    sv = int(str(u.save)[0]) if str(u.save)[0].isdigit() else 6
+    if _durable(u) or (sv <= 3 and u.wounds >= 3):
+        return False
+    engagers = [e for e in opp.on_board()
+                if e.melee and dist(u.pos, e.pos) <= 3.0 + u.radius + e.radius]
+    if not engagers:
+        return False
+    incoming = sum(_expected_vs(e, u, melee=True) for e in engagers)
+    outgoing = sum(_expected_vs(u, e, melee=True) for e in engagers)
+    # flee only when near-certain to be wiped AND losing the exchange — otherwise stay and trade back
+    if incoming < 0.9 * max(1.0, u.total_w) or outgoing >= 0.8 * incoming:
+        return False
+    ex = sum(e.pos[0] for e in engagers) / len(engagers)
+    ey = sum(e.pos[1] for e in engagers) / len(engagers)
+    hx, hy = board.home[u.side]
+    # blend "away from the engagers" with "toward home" so the retreat also heads somewhere safe
+    ax, ay = u.pos[0] - ex, u.pos[1] - ey
+    tx, ty = hx - u.pos[0], hy - u.pos[1]
+    import math
+    an = math.hypot(ax, ay) or 1.0
+    tn = math.hypot(tx, ty) or 1.0
+    vx, vy = ax / an * 0.6 + tx / tn * 0.4, ay / an * 0.6 + ty / tn * 0.4
+    vn = math.hypot(vx, vy) or 1.0
+    step = u.move + (2 if u.role in ("fast", "action") else 0)
+    u.pos = (max(1.0, min(BOARD_W - 1, u.pos[0] + vx / vn * step)),
+             max(1.0, min(BOARD_H - 1, u.pos[1] + vy / vn * step)))
+    u.fell_back = True
+    return True
 
 
 def _covered_hold(u, dest, board, opp, weight=1.0):
@@ -421,7 +495,7 @@ def _arrive_reserves(me, opp, board, rnd, rng):
         return
     # STAGGER the drop: real deep-strike/reserves aren't a single all-at-once alpha (you also can't start
     # with most of your army in reserve). Bring ~half at R2, the rest from R3.
-    res = [u for u in me.units if u.in_reserve and u.alive]
+    res = [u for u in me.units if u.in_reserve and u.alive and not u.embedded]  # leaders arrive with host
     aggr = _S(me).reserve_aggr
     # ALPHA (aggr>0) brings everything at once for the charge; a shooty reserve (aggr<0) trickles in.
     split = 1.0 if aggr > 0.3 else (0.5 if aggr >= -0.3 else 0.34)
@@ -475,6 +549,8 @@ def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
         u.snapshot_start()
     _strat.equip(armyA, armyB); _strat.equip(armyB, armyA)   # opponent-aware strategy for both sides
     deploy(armyA, armyB, board)                 # threat-range-aware deployment
+    armyA._sec = _sec.Secondaries(rng); armyB._sec = _sec.Secondaries(rng)   # Tactical secondary decks
+    _attach.attach_all(armyA); _attach.attach_all(armyB)   # embed CHARACTERs into bodyguard units (tapestry)
     armies = [armyA, armyB]
     order = ([armyA, armyB] if (first or "A") == "A" else [armyB, armyA])
     vp = {"A": 0.0, "B": 0.0}
@@ -487,15 +563,26 @@ def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
             _arrive_reserves(me, opp, board, rnd, rng)
             board.update_cover(armies)
             _move(me, opp, board, rnd, rng)
+            # snapshot enemy units at the start of my combat, for kill-count + secondary kill-metadata
+            # (which of THIS turn's kills were characters / big models / on an objective).
             alive_before = sum(1 for u in opp.units if u.alive)
+            on_obj_at_start = {id(u): any(dist(u.pos, o) <= 3.0 for o in board.objectives)
+                               for u in opp.units if u.alive}
             _shoot(me, opp, board, rng)
             _charge_and_fight(me, opp, rng, board)
             _reanimate(me, rng)
             _comeback(opp, rng)                              # C'tan necrodermis return after being attacked
+            _attach.detach_dead(armies)                      # a slain bodyguard's leader fights on alone
             kills = alive_before - sum(1 for u in opp.units if u.alive)
+            destroyed = [_sec.destroyed_meta(u, on_obj_at_start.get(id(u), False))
+                         for u in opp.units if not u.alive and id(u) in on_obj_at_start]
             held, _ = board.control(armies)
             vp[me.side] += score_turn(missions[me.side], held, board, me, opp, rnd,
                                       kills, firstsides[me.side])
+            ctx = dict(board=board, me=me, opp=opp, held=held, destroyed=destroyed,
+                       my_units=me.on_board(), opp_units=opp.on_board(),
+                       my_home=board.home_objective(me.side), opp_home=board.home_objective(opp.side))
+            vp[me.side] += me._sec.score(ctx, rng)
     for me in armies:
         opp = armyB if me is armyA else armyA
         held, _ = board.control(armies)
