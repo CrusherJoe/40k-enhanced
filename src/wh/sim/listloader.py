@@ -386,6 +386,10 @@ def load(faction=None, detachment=None, disposition=None, name=None, override=No
         army._oath = True
         army._oath_codex_bonus = (slug == "space-marines")
         army._caanok = any("caanok" in (u.name or "").lower() for u in army.units)
+    # BATTLE FOCUS (Asuryani/Aeldari army rule): ~4 tokens/round to Fade Back — Fall Back and STILL shoot/
+    # charge (the kite). game.py spends them for engaged shooty units.
+    if slug == "aeldari":
+        army._battle_focus = True
     army._missing = missing               # datasheets absent from the BSData cut (skipped) — surfaced for review
     _R._deploy(army)
     return army

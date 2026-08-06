@@ -561,7 +561,9 @@ def aeldari():
         mk(S, "Warlock Skyrunners", 1, role="fast", threat=1.1, abilities=FATE),
         mk(S, "Warlock Skyrunners", 1, role="fast", threat=1.1, abilities=FATE),
     ]
-    return _deploy(_strats(Army("Aeldari — Spirit Conclave / Armoured Warhost (5-1)", "reconnaissance", "B", u, cp=3), S))
+    a = _deploy(_strats(Army("Aeldari — Spirit Conclave / Armoured Warhost (5-1)", "reconnaissance", "B", u, cp=3), S))
+    a._battle_focus = True         # Asuryani Battle Focus (Fade Back kite) — see game.py
+    return a
 
 
 # ---------------- TYRANIDS: 5-0 Talons of the Norn Queen | Assimilation Swarm (Take and Hold) --------

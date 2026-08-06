@@ -7,7 +7,7 @@ from __future__ import annotations
 import numpy as np
 
 from .entities import Board, dist, HOME_Y, DEPLOY_LINE, BOARD_H, BOARD_W
-from .combat import resolve_attacks, apply_damage
+from .combat import resolve_attacks, apply_damage, roll_expr
 from .mission import score_turn, end_of_battle
 from ..mathhammer import Mods
 from .. import sim
@@ -140,8 +140,8 @@ def _shoot(me, opp, board, rng):
                 p.pos = t.pos
                 shooters.append(p)
     for u in shooters:
-        if u.fell_back or not u.ranged:
-            continue
+        if (u.fell_back and not getattr(u, "_faded", False)) or not u.ranged:
+            continue                                         # Fell Back can't shoot — unless Battle Focus Fade Back
         # ASSAULT / PISTOL / engagement: an ADVANCED unit fires only [ASSAULT] weapons; a unit locked in
         # melee fires only [PISTOL] weapons (at the enemy it's engaged with). Skip if nothing can fire.
         engaged = _engaged(u, opp)
@@ -260,14 +260,17 @@ def _charge_and_fight(me, opp, rng, board):
     crange = 12 * min(1.4, max(0.5, _S(me).commit))
     held, _ = board.control([me, opp])                       # for VP-aware charge/fight priority
     for u in me.on_board():
-        if not u.melee or u.fell_back or u.advanced:         # Advancing forbids charging this turn
-            continue
+        if not u.melee or u.advanced or (u.fell_back and not getattr(u, "_faded", False)):
+            continue                                         # Advanced / Fell Back can't charge (Fade Back may)
         near = [t for t in opp.on_board() if 0 < dist(u.pos, t.pos) <= crange]
         if not near:
             continue
         # charge the enemy that matters MOST for VP (a scorer sitting on a point) among the reachable,
         # not merely the nearest — but keep distance a strong tie-breaker (a far charge often whiffs).
         t = max(near, key=lambda t: _obj_relevance(t, board, held) - dist(u.pos, t.pos) / 24.0)
+        _overwatch(t, u, opp, me, board, rng)                # defender may Fire Overwatch at the charger
+        if not u.alive:
+            continue                                         # charger cut down before it reached
         need = dist(u.pos, t.pos) - 1.0
         roll = int(rng.integers(1, 7) + rng.integers(1, 7))
         rr = u.abilities.get("reroll_charge")
@@ -353,6 +356,35 @@ def _consolidate(u, foe, board):
     reach = [o for o in board.objectives if dist(u.pos, o) <= 6.0]
     if reach:
         _step_toward(u, min(reach, key=lambda o: dist(u.pos, o)), 3.0)     # combat over -> grab a point
+
+
+def _overwatch(shooter, charger, def_army, atk_army, board, rng):
+    """Fire Overwatch (15.08, 1CP): the defending unit snap-fires at the charging unit — hits only on
+    unmodified 6s, EXCEPT [TORRENT] auto-hits (why flamers own Overwatch). Can't target a TITANIC charger;
+    the shooter must be unengaged and in range. One volley, costs the defender 1 CP."""
+    if not shooter.ranged or def_army.cp < 1 or getattr(def_army, "_ow_used", False):
+        return                                               # Fire Overwatch: once per opponent's turn
+    if "TITANIC" in charger.keywords:
+        return                                               # Overwatch can't target TITANIC units
+    if any(dist(shooter.pos, e.pos) <= 3.0 + e.radius for e in atk_army.on_board()):
+        return                                               # a unit already in combat can't Overwatch
+    if not board.has_los(shooter.pos, charger.pos):
+        return
+    snap = Mods()
+    snap.hit = -10                                           # only an unmodified 6 (crit) can hit
+    snap.crit_hit = 6
+    fired = False
+    for w in _best_weapon_set(shooter, charger, melee=False):
+        if _in_range(shooter, charger, w):
+            inst, mort = resolve_attacks(w, shooter.models, charger, snap, rng,
+                                         half_range=dist(shooter.pos, charger.pos) <= w["rng"] / 2)
+            apply_damage(charger, inst, mort, rng)
+            fired = True
+            if not charger.alive:
+                break
+    if fired:
+        def_army.cp -= 1
+        def_army._ow_used = True
 
 
 def _interleave(a, b):
@@ -457,8 +489,16 @@ def _move(me, opp, board, rnd, rng):
     crowd = {}
     order = sorted(me.on_board(), key=lambda u: -u.eff_oc() - (2 if _melee_primary(u, opp) else 0))
     for u in order:
-        u.advanced = u.fell_back = u.charged = u.stationary = False
+        u.advanced = u.fell_back = u.charged = u.stationary = u._faded = False
         _sp = u.pos                                        # start position, to detect Remain Stationary
+        # BATTLE FOCUS (Aeldari): a shooty unit locked in melee spends a token to FADE BACK — Fall Back and
+        # STILL shoot/charge this turn (the kite that keeps real Aeldari alive). Budget from _command.
+        if getattr(me, "_bf_tokens", 0) > 0 and u.ranged and _engaged(u, opp):
+            _retreat(u, opp, board)
+            u.fell_back = True
+            u._faded = True
+            me._bf_tokens -= 1
+            continue
         # FALL BACK: a non-durable unit locked in melee by an enemy that would likely wipe it disengages to
         # preserve itself (and its VP) instead of standing to be tabled. It forfeits shooting/charging this
         # turn (the real cost). Durable bricks stay and TRADE — this is a losing-side-survives compression
@@ -649,6 +689,47 @@ def _select_oath(army, opp):
     army._oath_target = max(foes, key=lambda t: t.threat) if foes else None
 
 
+def _retreat(u, opp, board):
+    """Move `u` up to its Move away from the enemies it's engaged with, blended toward its home edge."""
+    import math
+    eng = [e for e in opp.on_board() if dist(u.pos, e.pos) <= 3.0 + u.radius + e.radius]
+    if not eng:
+        return
+    ex = sum(e.pos[0] for e in eng) / len(eng)
+    ey = sum(e.pos[1] for e in eng) / len(eng)
+    hx, hy = board.home[u.side]
+    ax, ay = u.pos[0] - ex, u.pos[1] - ey
+    tx, ty = hx - u.pos[0], hy - u.pos[1]
+    an = math.hypot(ax, ay) or 1.0
+    tn = math.hypot(tx, ty) or 1.0
+    vx, vy = ax / an * 0.6 + tx / tn * 0.4, ay / an * 0.6 + ty / tn * 0.4
+    vn = math.hypot(vx, vy) or 1.0
+    u.pos = (max(1.0, min(BOARD_W - 1, u.pos[0] + vx / vn * u.move)),
+             max(1.0, min(BOARD_H - 1, u.pos[1] + vy / vn * u.move)))
+
+
+def _deadly_demise(armies, rng):
+    """Deadly Demise X (24.08): a just-destroyed model with the ability rolls a D6; on a 6 each unit within
+    6" suffers X mortal wounds. Fires once per dead unit (single-big-model approximation)."""
+    from .combat import apply_damage
+    import numpy as _np
+    for army in armies:
+        for u in army.units:
+            if u.alive or getattr(u, "_demised", False):
+                continue
+            x = u.abilities.get("deadly_demise")
+            if not x:
+                continue
+            u._demised = True
+            if int(rng.integers(1, 7)) != 6:
+                continue
+            for other in armies:
+                for t in other.on_board():
+                    if t is not u and dist(u.pos, t.pos) <= 6.0:
+                        mortals = int(roll_expr(x, rng, 1)[0])
+                        apply_damage(t, _np.zeros(0, dtype=int), mortals, rng)
+
+
 def _ld_val(ld):
     """Numeric Ld target for a 2D6 leadership roll (stored as '6+' or an int); default 6."""
     try:
@@ -662,6 +743,8 @@ def _command(me, rnd, rng):
         stratagems.equip(me, getattr(me, "slug", None), getattr(me, "strat_dets", None))
     stratagems.turn_start(me)                    # reset per-turn CP budget + clear last turn's temp buffs
     me.cp += 1
+    if getattr(me, "_battle_focus", False):
+        me._bf_tokens = 4                        # BATTLE FOCUS tokens (Strike Force) — Fade Back kite budget
     for u in me.on_board():
         u.fought = False
         # BATTLE-SHOCK (08.03 / 01.07): a unit AT OR BELOW half-strength (or already battle-shocked) tests
@@ -710,6 +793,7 @@ def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
     for rnd in range(1, 6):
         for me in order:
             opp = armyB if me is armyA else armyA
+            opp._ow_used = False                             # defender may Fire Overwatch once this turn
             _command(me, rnd, rng)
             _select_oath(me, opp)                            # Army rule: pick the Oath of Moment target
             _arrive_reserves(me, opp, board, rnd, rng)
@@ -724,6 +808,7 @@ def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
             _charge_and_fight(me, opp, rng, board)
             _reanimate(me, rng)
             _comeback(opp, rng)                              # C'tan necrodermis return after being attacked
+            _deadly_demise(armies, rng)                      # explosions from models destroyed this turn
             _attach.detach_dead(armies)                      # a slain bodyguard's leader fights on alone
             kills = alive_before - sum(1 for u in opp.units if u.alive)
             destroyed = [_sec.destroyed_meta(u, on_obj_at_start.get(id(u), False))

@@ -88,6 +88,9 @@ def classify(text):
         fx["unit_ability"]["lone_operative"] = True
     if re.search(r"\bSTEALTH\b", U):
         fx["unit_ability"]["stealth"] = True
+    dm = re.search(r"DEADLY DEMISE\s+([0-9]*D?[0-9]+)", U)
+    if dm:
+        fx["unit_ability"]["deadly_demise"] = dm.group(1)
     if "IGNORES COVER" in t:
         fx["ranged_kw"].append("IGNORES COVER")
     if "ARMOUR PENETRATION" in t or "ARMOR PENETRATION" in t:
@@ -184,6 +187,9 @@ def ingest_unit(unit, abilities, slug=None):
             unit.abilities["lone_operative"] = True        # not targetable from >12"
         if "STEALTH" in cu:
             unit.abilities["stealth"] = True               # benefit of cover vs ranged
+        dm = re.search(r"DEADLY DEMISE\s+([0-9]*D?[0-9]+)", cu)
+        if dm:
+            unit.abilities["deadly_demise"] = dm.group(1)  # explode on death: 6 -> X mortals in 6"
         fm = re.search(r"FEEL NO PAIN (\d)\+?", cu)
         if fm:
             fnp = fm.group(1) + "+"
