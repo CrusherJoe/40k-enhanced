@@ -59,7 +59,8 @@ def resolve_attacks(weapon, n_models, target, mods, rng, half_range=False, charg
     # --- hits ---
     torrent = "TORRENT" in kw
     skill = target_number(weapon.get("WS") or weapon.get("BS"))
-    cover = -1 if (target.in_cover and not melee and not torrent and "IGNORES COVER" not in kw) else 0
+    in_cov = target.in_cover or target.abilities.get("stealth")     # Stealth (24.33) = benefit of cover
+    cover = -1 if (in_cov and not melee and not torrent and "IGNORES COVER" not in kw) else 0
     hmod = mods.hit + cover + (1 if ("HEAVY" in kw and getattr(mods, "stationary", False) and not melee) else 0)
     if torrent:
         hit = np.ones(N, dtype=bool); crit_h = np.zeros(N, dtype=bool)

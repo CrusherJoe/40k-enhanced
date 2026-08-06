@@ -114,16 +114,16 @@ def _engaged(u, opp):
     return any(e.alive and dist(u.pos, e.pos) <= 3.0 + e.radius for e in opp.on_board())
 
 
-def _can_fire(w, engaged, advanced):
+def _can_fire(w, engaged, advanced, tall=False):
     """11E firing eligibility for a weapon PROFILE given the unit's state:
-      - ENGAGED (locked in melee): only [PISTOL] weapons may fire (at the unit you're engaged with).
-      - ADVANCED this turn: only [ASSAULT] weapons may fire.
-      - otherwise: any weapon.
-    Note [ASSAULT] weapons fire whether or not you Advanced — the Advance branch permits them, and a
-    non-advanced unit reaches the final `return True` (all weapons, Assault included). Nothing but being
-    locked in melee ever stops an Assault weapon from firing."""
+      - ENGAGED infantry (not MONSTER/VEHICLE): only [PISTOL] weapons, at the unit you're engaged with.
+      - ENGAGED MONSTER/VEHICLE (10.06): may shoot ANY weapon out of combat (at −1 to hit, applied in
+        _shoot); [BLAST] just can't target the engaged unit.
+      - ADVANCED this turn: only [ASSAULT] weapons.
+      - otherwise: any weapon. ([ASSAULT] weapons fire whether or not you Advanced; only being an engaged
+        infantry unit ever stops them.)"""
     kw = w.get("abilities", [])
-    if engaged:
+    if engaged and not tall:
         return "PISTOL" in kw
     if advanced:
         return "ASSAULT" in kw
@@ -145,17 +145,20 @@ def _shoot(me, opp, board, rng):
         # ASSAULT / PISTOL / engagement: an ADVANCED unit fires only [ASSAULT] weapons; a unit locked in
         # melee fires only [PISTOL] weapons (at the enemy it's engaged with). Skip if nothing can fire.
         engaged = _engaged(u, opp)
-        if not any(_can_fire(w, engaged, u.advanced) for w in u.ranged):
+        tall_engaged = engaged and u.tall                    # MONSTER/VEHICLE shoots out of combat at −1
+        if not any(_can_fire(w, engaged, u.advanced, u.tall) for w in u.ranged):
             continue
         # GEOMETRIC LoS: you can only shoot targets you can SEE — Event-Companion ruins block the line,
         # AND intervening unit blobs SCREEN (a unit behind a screen can't be shot). This is the spatial
         # fix for shooting: you must clear the screen before the valuable unit behind it.
         blobs = me.on_board() + opp.on_board()
-        if engaged:                                          # PISTOLs: only the enemy you're locked with
+        if engaged and not u.tall:                           # infantry PISTOLs: only the enemy locked with
             targets = [t for t in opp.on_board()             # engagement test consistent with _engaged / fight
                        if dist(u.pos, t.pos) <= 3.0 + t.radius and board.has_los(u.pos, t.pos)]
         else:
             targets = [t for t in opp.on_board() if board.has_los(u.pos, t.pos) and not _screened(u, t, blobs)]
+        # LONE OPERATIVE (24.24): cannot be targeted from more than 12" away
+        targets = [t for t in targets if not (t.abilities.get("lone_operative") and dist(u.pos, t.pos) > 12)]
         # PRECISION: this shooter can pick an attached CHARACTER out of its unit (the only way to target an
         # embedded leader in 11E — there is no Look Out Sir). It appears at its host's position.
         if "PRECISION" in u.keywords or u.abilities.get("precision"):
@@ -172,10 +175,17 @@ def _shoot(me, opp, board, rng):
             continue
         focus[id(best)] = focus.get(id(best), 0) + 1
         mods = _mods_for(u, best, army=me)
+        if tall_engaged:
+            mods.hit -= 1                                        # MONSTER/VEHICLE shooting out of combat: −1 to hit
+        if u.tall and not best.tall and dist(u.pos, best.pos) <= 12:
+            mods.hit += 1                                        # PLUNGING FIRE (22.05): +1 BS vs ground-level ≤12"
         stratagems.on_attack(me, opp, u, best, mods, "shoot")   # CP economy: attacker/defender may spend
+        engaged_with_best = tall_engaged and dist(u.pos, best.pos) <= 3.0 + best.radius
         for w in _best_weapon_set(u, best, melee=False):
-            if not _can_fire(w, engaged, u.advanced):           # ASSAULT-only if advanced / PISTOL-only if engaged
+            if not _can_fire(w, engaged, u.advanced, u.tall):   # ASSAULT if advanced / PISTOL if engaged infantry
                 continue
+            if engaged_with_best and "BLAST" in w.get("abilities", []):
+                continue                                        # [BLAST] can't target a unit you're engaged with
             if not _in_range(u, best, w):
                 continue
             half = dist(u.pos, best.pos) <= w["rng"] / 2
