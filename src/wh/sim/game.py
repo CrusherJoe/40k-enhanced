@@ -27,7 +27,11 @@ ON_DAMAGE = None
 CUR_ATTACKER = None
 
 
-def _mods_for(unit, target, charged=False):
+def _rr_rank(a):
+    return {None: 0, "": 0, "ones": 1, "fails": 2}.get(a, 0)
+
+
+def _mods_for(unit, target, charged=False, army=None):
     """Assemble the Mods for this unit vs this target from its abilities/army rules (the tapestry)."""
     m = Mods(charged=charged)
     ab = unit.abilities
@@ -41,6 +45,19 @@ def _mods_for(unit, target, charged=False):
         m.str_bonus = ab["str_charge"]                    # e.g. Blood Angels' Red Thirst: +2 S on the charge
     if ab.get("wound_charge") and charged:
         m.wound += ab["wound_charge"]
+    # ARMY RULE — OATH OF MOMENT (Adeptus Astartes). vs the Oath target: full re-roll Hits; +1 to Wound for
+    # a Codex-SM detachment (no BA/DA/DW/SW); Caanok Var (Calculated Annihilation) adds re-roll Wound-1s AND
+    # RE-SELECTS the target when it dies, so the benefit never wastes.
+    if army is not None and getattr(army, "_oath", False):
+        ot = getattr(army, "_oath_target", None)
+        if (ot is None or not ot.alive) and getattr(army, "_caanok", False):
+            army._oath_target = ot = target               # RECALCULATING: re-oath onto a live target
+        if ot is target:
+            m.reroll_hits = "fails" if _rr_rank("fails") >= _rr_rank(m.reroll_hits) else m.reroll_hits
+            if getattr(army, "_oath_codex_bonus", False):
+                m.wound += 1
+            if getattr(army, "_caanok", False) and _rr_rank(m.reroll_wounds) < 1:
+                m.reroll_wounds = "ones"
     return m
 
 
@@ -121,7 +138,7 @@ def _shoot(me, opp, board, rng):
         if best is None:
             continue
         focus[id(best)] = focus.get(id(best), 0) + 1
-        mods = _mods_for(u, best)
+        mods = _mods_for(u, best, army=me)
         stratagems.on_attack(me, opp, u, best, mods, "shoot")   # CP economy: attacker/defender may spend
         for w in _best_weapon_set(u, best, melee=False):
             if not _in_range(u, best, w):
@@ -252,7 +269,7 @@ def _charge_and_fight(me, opp, rng, board):
         t = max(pool, key=mval)
         piled[id(t)] = piled.get(id(t), 0) + 1
         atk_army, def_army = (me, opp) if u.side == me.side else (opp, me)
-        mods = _mods_for(u, t, charged=u.charged)
+        mods = _mods_for(u, t, charged=u.charged, army=atk_army)
         stratagems.on_attack(atk_army, def_army, u, t, mods, "fight")   # CP economy in melee
         for w in _best_weapon_set(u, t, melee=True):
             inst, mort = resolve_attacks(w, u.models, t, mods, rng, charged=u.charged)
@@ -511,6 +528,15 @@ def _arrive_reserves(me, opp, board, rnd, rng):
         u.in_reserve = False
 
 
+def _select_oath(army, opp):
+    """Command phase: pick the Oath of Moment target — the enemy unit the army most wants dead (highest
+    threat). Stored on army._oath_target; _mods_for grants the re-rolls/+1-wound vs it."""
+    if not getattr(army, "_oath", False):
+        return
+    foes = opp.on_board()
+    army._oath_target = max(foes, key=lambda t: t.threat) if foes else None
+
+
 def _command(me, rnd):
     if stratagems.ENABLED and getattr(me, "_strat", None) is None:
         stratagems.equip(me, getattr(me, "slug", None), getattr(me, "strat_dets", None))
@@ -560,6 +586,7 @@ def play_game(armyA, armyB, missionA, missionB, board, rng, first=None):
         for me in order:
             opp = armyB if me is armyA else armyA
             _command(me, rnd)
+            _select_oath(me, opp)                            # Army rule: pick the Oath of Moment target
             _arrive_reserves(me, opp, board, rnd, rng)
             board.update_cover(armies)
             _move(me, opp, board, rnd, rng)

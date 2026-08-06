@@ -81,10 +81,72 @@ def _is_body(u):
             and u.models >= 1 and u.transport is None and not getattr(u, "embedded", False))
 
 
+def _add_ability(weapon, kw):
+    ab = list(weapon.get("abilities", []))
+    if kw not in ab:
+        ab.append(kw)
+    weapon["abilities"] = ab
+
+
+def apply_enh_wfx(unit, wfx):
+    """Apply an enhancement's WEAPON/keyword effects to a unit (the bearer's squad): inject weapon
+    keywords (Lethal/Sustained/Dev/Precision), improve melee AP, add unit keywords/abilities. Enhancements
+    read 'the bearer AND Battleline models in the bearer's unit', so they buff the whole squad's guns."""
+    if not wfx:
+        return
+    for w in unit.ranged:
+        for kw in wfx.get("ranged_kw", []):
+            _add_ability(w, kw)
+    for w in unit.melee:
+        for kw in wfx.get("melee_kw", []):
+            _add_ability(w, kw)
+        if wfx.get("melee_ap"):
+            w["AP"] = int(w.get("AP", 0)) - wfx["melee_ap"]     # 'improve AP by 1' => more negative
+    for k, v in wfx.get("unit_ability", {}).items():
+        unit.abilities[k] = v
+    if wfx.get("unit_kw"):
+        unit.keywords = tuple(unit.keywords) + tuple(k for k in wfx["unit_kw"] if k not in unit.keywords)
+
+
+def _embed(leader, body):
+    if not hasattr(body, "_base_ab"):                      # snapshot un-led stats so recompute() can undo
+        body._base_ab = dict(body.abilities); body._base_fnp = body.fnp; body._base_invuln = body.invuln
+    leader.embedded = True
+    leader.host = body
+    body.leading = list(getattr(body, "leading", [])) + [leader]
+    _merge_one(body, leader)
+    apply_enh_wfx(body, getattr(leader, "_enh_wfx", None))  # the leader's enhancement buffs its new squad
+    leader._wfx_done = True
+
+
 def attach_all(army):
-    """Pair each attachable CHARACTER with a suitable Bodyguard unit (greedy, one leader per unit) and
-    merge the tapestry. Leaders with no available bodyguard stay standalone. Matches reserve status so a
-    deep-striking character doesn't get glued to an on-board squad."""
+    """Embed each attached CHARACTER into its Bodyguard unit and merge the tapestry. If the list carries the
+    AUTHORITATIVE structure (listloader tagged each unit with `_grp`/`_arole` from the export's 'Attached
+    unit N' + 'Attached as: Leader/Support/Bodyguard'), use it exactly. Otherwise (curated rosters, old
+    exports) fall back to a greedy heuristic (beefiest available bodyguard, matched reserve status)."""
+    # 1) authoritative: group by the export's 'Attached unit N', Leaders/Supports -> the Bodyguard
+    groups = {}
+    for u in army.units:
+        g = getattr(u, "_grp", None)
+        r = getattr(u, "_arole", None)
+        if g is None or not r:
+            continue
+        groups.setdefault(g, {"body": None, "chars": []})
+        if r == "bodyguard":
+            groups[g]["body"] = u
+        else:                                              # leader | support
+            groups[g]["chars"].append(u)
+    if groups:
+        for g in groups.values():
+            body = g["body"]
+            if body is None:
+                continue
+            for ldr in g["chars"]:
+                _embed(ldr, body)
+        _apply_standalone_enh(army)
+        return
+
+    # 2) heuristic fallback (no export annotations)
     leaders = [u for u in army.units if _can_lead(u)]
     bodies = [u for u in army.units if _is_body(u)]
     used = set()
@@ -92,15 +154,18 @@ def attach_all(army):
         cand = [b for b in bodies if id(b) not in used and b.in_reserve == ldr.in_reserve]
         if not cand:
             continue
-        # prefer the beefiest real bodyguard (most board-presence: OC x models, then raw wounds)
-        b = max(cand, key=lambda b: (b.oc * b.models, b.total_w))
+        b = max(cand, key=lambda b: (b.oc * b.models, b.total_w))   # beefiest available bodyguard
         used.add(id(b))
-        if not hasattr(b, "_base_ab"):                     # snapshot un-led stats so recompute() can undo
-            b._base_ab = dict(b.abilities); b._base_fnp = b.fnp; b._base_invuln = b.invuln
-        ldr.embedded = True
-        ldr.host = b
-        b.leading = list(getattr(b, "leading", [])) + [ldr]
-        _merge_one(b, ldr)
+        _embed(ldr, b)
+    _apply_standalone_enh(army)
+
+
+def _apply_standalone_enh(army):
+    """An enhancement on a character that ended up UN-attached still buffs that character itself."""
+    for u in army.units:
+        if getattr(u, "_enh_wfx", None) and not getattr(u, "_wfx_done", False):
+            apply_enh_wfx(u, u._enh_wfx)
+            u._wfx_done = True
 
 
 def detach_dead(armies):

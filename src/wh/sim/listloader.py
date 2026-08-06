@@ -154,9 +154,28 @@ def _role_threat(prof, models, pts):
     return role, threat
 
 
-def parse_units(text):
-    """Yield (name, points, block_lines) per unit entry in an exported listText."""
+def _group_map(lines):
+    """Map each line index -> the 'Attached unit N' group it falls under (or None). BCP/GW exports group a
+    Bodyguard unit with its attached Leader/Support CHARACTERs under 'Attached unit N' blocks; a plain
+    section header (BATTLELINE / OTHER DATASHEETS / ...) ends the attached region."""
+    gmap, g = {}, None
+    for idx, ln in enumerate(lines):
+        s = ln.strip()
+        m = re.match(r'(?i)^attached unit\s+(\d+)', s)
+        if m:
+            g = int(m.group(1))
+        elif re.match(r'(?i)^(battleline|other datasheets?|dedicated transports?|allied|characters?)\b', s):
+            g = None
+        gmap[idx] = g
+    return gmap
+
+
+def parse_units_ex(text):
+    """Yield (name, points, block_lines, group, role) per unit. `group` is the 'Attached unit N' id (or
+    None); `role` is 'leader'|'support'|'bodyguard'|None from the unit's '• Attached as:' line — the
+    AUTHORITATIVE attachment structure from the export (so we don't have to guess who leads whom)."""
     lines = text.splitlines()
+    gmap = _group_map(lines)
     hdrs = [i for i, ln in enumerate(lines) if _HDR.match(ln.strip())]
     for k, i in enumerate(hdrs):
         s = lines[i].strip()
@@ -172,7 +191,96 @@ def parse_units(text):
                     r'dedicated transport|allied)', name):
             continue
         block = lines[i + 1: (hdrs[k + 1] if k + 1 < len(hdrs) else len(lines))]
+        role = None
+        for bl in block[:8]:
+            mm = re.search(r'(?i)attached as:\s*(leader|support|bodyguard)', bl)
+            if mm:
+                role = mm.group(1).lower()
+                break
+        yield name, pts, block, gmap.get(i), role
+
+
+def parse_units(text):
+    """Yield (name, points, block_lines) per unit entry (back-compat shim over parse_units_ex)."""
+    for name, pts, block, _grp, _role in parse_units_ex(text):
         yield name, pts, block
+
+
+# ---- ENHANCEMENTS: the foundation of the tapestry (sit just above detachment rules) -----------------
+_ENH_TEXT = {}
+
+
+def _enh_text(slug, name):
+    """Enhancement rules text from the BSData rules DB (cached). Returns '' if not found."""
+    key = (slug, name)
+    if key not in _ENH_TEXT:
+        txt = ""
+        try:
+            import sys, os as _os
+            sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.dirname(
+                _os.path.dirname(_os.path.abspath(__file__))))), "tools"))
+            import db as _db
+            r = _db.find_rules(slug, name) or {}
+            exact = next((v for k, v in r.items() if k.lower() == name.lower()), None)
+            txt = str(exact if exact is not None else (next(iter(r.values())) if r else ""))
+        except Exception:
+            txt = ""
+        _ENH_TEXT[key] = txt
+    return _ENH_TEXT[key]
+
+
+def _parse_enhancements(block):
+    """Enhancement names on a unit, from its '• Enhancements: X' line(s)."""
+    out = []
+    for bl in block:
+        m = re.search(r"(?i)enhancements?:\s*(.+)", bl)
+        if m:
+            out += [e.strip() for e in re.split(r"\s*,\s*|\s+and\s+", m.group(1)) if e.strip()]
+    return out
+
+
+def _apply_enhancements(slug, u):
+    """Classify each enhancement's DB rules text into modelled effects. ABILITY effects (re-roll/crit/FNP)
+    go on the CHARACTER now (the attach merge carries them to its squad); WEAPON/keyword effects
+    (Lethal/Sustained/Dev/+AP/Precision/Battleline) are stashed in u._enh_wfx and applied to the BEARER'S
+    UNIT at attach time (they buff 'the bearer and Battleline models in the bearer's unit')."""
+    u._enh_wfx = None
+    if not getattr(u, "_enh", None):
+        return
+    wfx = {"ranged_kw": [], "melee_kw": [], "melee_ap": 0, "unit_ability": {}, "unit_kw": []}
+    for name in u._enh:
+        raw = _enh_text(slug, name).upper()
+        if not raw:
+            continue
+        # only classify the UNCONDITIONAL clause — drop 'if this unit has ... / if that ...' riders so a
+        # conditional keyword (e.g. Fusillade's [SUSTAINED HITS 1] gated on the Pyromancy Discipline)
+        # isn't granted unconditionally. Conservative: under-grant a situational rider, never over-grant.
+        t = re.split(r"\bIF (?:THIS|THAT|YOU|YOUR|THE BEARER)\b", raw)[0]
+        melee = "MELEE" in t
+        ranged = ("RANGED" in t or "SHOOTING" in t) and not melee
+        dst = wfx["ranged_kw"] if ranged else (wfx["melee_kw"] if melee else wfx["ranged_kw"])
+        if "LETHAL HITS" in t:
+            dst.append("LETHAL HITS")
+        if "SUSTAINED HITS" in t:
+            dst.append("SUSTAINED HITS 1")
+        if "DEVASTATING WOUNDS" in t:
+            dst.append("DEVASTATING WOUNDS")
+        if "PRECISION" in t:
+            wfx["unit_ability"]["precision"] = True           # lets the squad snipe attached leaders
+        if "ARMOUR PENETRATION" in t or "ARMOR PENETRATION" in t:
+            wfx["melee_ap"] += 1                               # 'improve AP by 1' (Blades of Valour: melee)
+        if "BATTLELINE KEYWORD" in t or "HAS THE BATTLELINE" in t:
+            wfx["unit_kw"].append("BATTLELINE")
+        if "RE-ROLL" in t or "REROLL" in t:
+            if "WOUND" in t:
+                u.abilities["reroll_wounds"] = "fails" if "FAILED WOUND" in t else "ones"
+            if "HIT ROLL" in t:
+                u.abilities["reroll_hits"] = "fails" if "FAILED HIT" in t else "ones"
+        m = re.search(r"FEEL NO PAIN (\d)\+?", t)
+        if m:
+            fnp = m.group(1) + "+"
+            u.fnp = fnp if not u.fnp else min(u.fnp, fnp, key=lambda s: int(str(s)[0]))
+    u._enh_wfx = wfx
 
 
 # ---- per-faction default tapestry (applied by keyword) + override registry -------------------------
@@ -226,7 +334,7 @@ def load(faction=None, detachment=None, disposition=None, name=None, override=No
     faction = faction or entry["faction"]
     slug = _FACTION_SLUG.get(faction) or faction
     units, missing, submodels = [], [], set()
-    for uname, pts, block in parse_units(entry["listText"]):
+    for uname, pts, block, grp, arole in parse_units_ex(entry["listText"]):
         sl, prof = _resolve(slug, uname)
         if prof is None:
             missing.append(uname)
@@ -237,13 +345,28 @@ def load(faction=None, detachment=None, disposition=None, name=None, override=No
             submodels.add(_NORM(ep.get("name", "")))
         models = _model_count(uname, block, prof)
         role, threat = _role_threat(prof, models, pts)
-        units.append(_R.mk(sl, uname if sl == slug else _NORM(uname), models, role=role, threat=threat))
+        u = _R.mk(sl, uname if sl == slug else _NORM(uname), models, role=role, threat=threat)
+        # AUTHORITATIVE attachment from the export: which 'Attached unit N' group + Leader/Support/Bodyguard
+        u._grp = grp
+        u._arole = arole
+        # ENHANCEMENTS — foundation of the tapestry (sit just above detachment rules): parse the names and
+        # fold their combat effect into this unit's abilities so an attached leader carries it to its squad.
+        u._enh = _parse_enhancements(block)
+        _apply_enhancements(sl, u)
+        units.append(u)
     missing = [m for m in missing if _NORM(m) not in submodels]
     disp = disposition or _DISP.get((entry.get("disposition") or "").strip().lower(), "take-and-hold")
     army = Army(name or f"{faction} — {entry.get('detachment', '?')} ({entry.get('wins')}-{entry.get('losses')})",
                 disp, side, units, cp=3)
     _FACTION_DEFAULT.get(slug, lambda a: None)(army)
     (override or OVERRIDES.get(slug, lambda a: None))(army)
+    # ARMY RULE — Oath of Moment: re-roll Hits vs the Oath target; +1 to Wound too for a Codex-SM
+    # detachment (space-marines slug) with no BA/DA/DW/SW. Caanok Var (Calculated Annihilation) re-rolls
+    # Wound-1s vs the target AND re-selects it when it dies (Oath never wastes). game.py applies it.
+    if slug in ("space-marines", "blood-angels", "dark-angels"):
+        army._oath = True
+        army._oath_codex_bonus = (slug == "space-marines")
+        army._caanok = any("caanok" in (u.name or "").lower() for u in army.units)
     army._missing = missing               # datasheets absent from the BSData cut (skipped) — surfaced for review
     _R._deploy(army)
     return army
