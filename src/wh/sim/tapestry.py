@@ -57,8 +57,16 @@ def classify(text):
     is_aura = ("LEADING A UNIT" in U or "MODELS IN THAT UNIT" in U or "IN THE BEARER" in U
                or "MODELS IN THE BEARER" in U or "MODELS IN THIS UNIT" in U or "THIS MODEL’S UNIT" in U
                or "THIS MODEL'S UNIT" in U)
-    # drop conditional riders ('if this unit has the Pyromancy Discipline...') -> never over-grant
-    t = re.split(r"\bIF (?:THIS|THAT|YOU|YOUR|THE BEARER|IT )", U)[0]
+    # drop CONDITIONAL clauses so a situational keyword is never granted as a blanket unit-wide rule:
+    #  - 'if this unit has ...'  (ability rider)
+    #  - '... attack that targets a MONSTER or VEHICLE'  (target-type condition, e.g. Caanok's Cold and
+    #    Calculating)
+    #  - 'while within range of an objective / within 6"'  (positional condition, e.g. Unbreakable Duty)
+    #  - 'against <KEYWORD> units'
+    # but NOT the aura SCOPE intro 'while this model is leading a unit, ...' (that's who it applies to, not
+    # a restriction) — so unit-wide auras (Surgical Precision's Lethal Hits) are kept.
+    t = re.split(r"\b(?:IF (?:THIS|THAT|YOU|YOUR|THE BEARER|IT )|THAT TARGETS?|WITHIN RANGE OF|"
+                 r"WITHIN \d|AGAINST (?:AN? )?[A-Z])", U)[0]
     fx = blank_fx()
     melee = "MELEE" in t
     ranged = ("RANGED" in t or "SHOOTING" in t) and not melee
@@ -231,20 +239,27 @@ def assemble(army, slug):
         tag = ""
         if led:
             tag = "  <- " + ", ".join(l.name for l in led)
-        names = getattr(u, "_tapestry", [])
         enh = getattr(u, "_enh", None) or []
-        extra = []
+        extra = []                                        # unit-level tapestry (wargear/aura granted)
+        if u.invuln:
+            extra.append(f"invuln {u.invuln}")
         if u.fnp:
             extra.append(f"FNP {u.fnp}")
         if u.abilities.get("precision"):
             extra.append("PRECISION")
-        for w in u.ranged + u.melee:
-            for kw in ("LETHAL HITS", "DEVASTATING WOUNDS"):
-                if kw in w.get("abilities", []) and kw not in extra:
-                    extra.append(kw)
+        for k in ("reroll_hits", "reroll_wounds", "crit_hit"):
+            if u.abilities.get(k):
+                extra.append(f"{k}={u.abilities[k]}")
         L.append(f"  {u.name}{tag}")
         if enh:
             L.append(f"      enhancements: {', '.join(enh)}")
         if extra:
-            L.append(f"      tapestry: {', '.join(extra)}")
+            L.append(f"      unit rules: {', '.join(extra)}")
+        # WEAPON / WARGEAR layer — EVERY per-profile keyword is a rule (ASSAULT = advance & still shoot,
+        # PISTOL = shoot in engagement range, MELEE = usable in the Fight phase, ...). Surface them all,
+        # per profile (never blanketed across the unit).
+        for w in u.ranged + u.melee:
+            kws = list(w.get("abilities", []))
+            if kws:
+                L.append(f"      weapon: {w.get('name', '?')}: {', '.join(kws)}")
     return "\n".join(L)
