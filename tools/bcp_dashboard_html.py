@@ -155,9 +155,13 @@ const wr = r => r.games ? r.wins/r.games : null;
 const pctColor = p => p==null ? "var(--mid)" : p>=0.52 ? "var(--good)" : p<=0.48 ? "var(--bad)" : "var(--mid)";
 const esc = s => (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 
+const T4=()=>DATA.weeks.slice(-4).map(w=>w.start);   // last up-to-4 meta weeks
 function cell(row){                     // resolve a row's stats for the current week filter
   if(week==="__ALL__") return {...row.total};
-  const w=row.byweek[week]||{games:0,wins:0,players:0}; return {...w};
+  const keys = week==="__T4__" ? T4() : [week];
+  const o={games:0,wins:0,players:0};
+  for(const k of keys){const w=row.byweek[k]; if(w){o.games+=w.games;o.wins+=w.wins;o.players+=w.players;}}
+  return o;
 }
 
 function initChrome(){
@@ -166,12 +170,14 @@ function initChrome(){
     ["factions",DATA.faction.filter(r=>r.total.players).length]];
   document.getElementById("chips").innerHTML=chips.map(([k,v])=>`<div class="chip"><b class="num">${v}</b><span>${k}</span></div>`).join("");
   document.getElementById("method").innerHTML=
-    `Win rate = decided games, both sides, <b>current dataslate only</b> (list Data Version ≥ <code>v${DATA.min_data_version}</code>). `+
-    `Field share = players bringing it. Single-weekend GTs (leagues &amp; team events excluded). `+
-    `Faction &amp; disposition are from public rosters; <b>detachment</b> comes from army-list text, so it is only as complete as the list corpus — win rates on fewer than ${DATA.low_n} games are flagged as noisy.`;
+    `Win rate = decided games, both sides. Field share = players bringing it. Bucketed by <b>meta week (Wed–Tue)</b> `+
+    `and event date — matching community trackers — so each week reflects that week's balance. Single-weekend GTs `+
+    `(leagues &amp; team events excluded). Faction &amp; disposition come from public rosters; <b>detachment</b> comes `+
+    `from army-list text, so it is only as complete as the list corpus — win rates on fewer than ${DATA.low_n} games are flagged as noisy.`;
   document.getElementById("gen").textContent=DATA.generated_utc.replace("T"," ").replace("Z"," UTC");
   const sel=document.getElementById("weeksel");
-  sel.innerHTML=`<option value="__ALL__">All weeks (cumulative)</option>`+
+  const t4=DATA.weeks.length>1?`<option value="__T4__">Last 4 weeks</option>`:"";
+  sel.innerHTML=`<option value="__ALL__">All weeks (cumulative)</option>`+t4+
     DATA.weeks.map(w=>`<option value="${w.start}">Week of ${w.label}</option>`).join("");
   document.getElementById("dimseg").addEventListener("click",e=>{
     const b=e.target.closest("button"); if(!b)return;
@@ -193,8 +199,10 @@ function render(){
     else{A=a[sortKey];B=b[sortKey];}
     return (A-B)*sortDir || b.players-a.players;
   });
+  const wkLabel = week==="__ALL__"?"all weeks":week==="__T4__"?"last 4 weeks"
+    :"week of "+((DATA.weeks.find(w=>w.start===week)||{}).label||week);
   document.getElementById("count").textContent=
-    `${rows.length} ${dim==="faction"?"factions":dim+"s"} · ${week==="__ALL__"?"all weeks":"week of "+(DATA.weeks.find(w=>w.start===week)||{}).label}`;
+    `${rows.length} ${dim==="faction"?"factions":dim+"s"} · ${wkLabel}`;
   document.getElementById("foot-n").textContent=`${totP.toLocaleString()} lists · ${rows.reduce((a,r)=>a+r.games,0).toLocaleString()} game-sides`;
 
   const cols=[["name","Name","l"],["players","Field share",""],["games","Games",""],["wr","Win rate",""]];
@@ -236,7 +244,7 @@ function drawChart(rows){
     g+=`<line x1="${L}" y1="${yy}" x2="${W-R}" y2="${yy}" stroke="var(--grid)" stroke-width="${fifty?1.4:1}" ${fifty?'stroke-dasharray="4 3"':''}/>`;
     g+=`<text x="${L-8}" y="${yy+3.5}" text-anchor="end" font-size="10" fill="var(--faint)">${(gv*100).toFixed(0)}%</text>`;
   }
-  weeks.forEach((w,i)=>{g+=`<text x="${xs[i]}" y="${H-12}" text-anchor="middle" font-size="10.5" fill="var(--muted)">${w.label}</text>`;});
+  weeks.forEach((w,i)=>{g+=`<text x="${xs[i]}" y="${H-12}" text-anchor="middle" font-size="10.5" fill="var(--muted)">${w.short||w.label}</text>`;});
   top.forEach((r,ti)=>{
     const col=LINE[ti%LINE.length];
     const pts=weeks.map((w,i)=>{const c=r.byweek[w.start];const v=(c&&c.games)?c.wins/c.games:null;return v==null?null:[xs[i],y(v),c.games];}).filter(Boolean);

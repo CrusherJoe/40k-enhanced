@@ -20,12 +20,15 @@ import bcp_meta as M
 OUTDIR = "docs/meta"
 DIMS = ["faction", "disposition", "detachment"]
 LOWN = 30                       # win% below this many games is flagged as noisy
+# generic / mis-entered faction labels that aren't a real BCP army (drop from the faction table)
+JUNK_FACTIONS = {"", "chaos", "unaligned", "unknown", "n/a", "other", "none"}
 
 
 def _week_start(iso_date):
-    """ISO date string -> the Monday (week start) as YYYY-MM-DD."""
+    """ISO date string -> the WEDNESDAY that starts its 'meta week' (Wed-Tue), as YYYY-MM-DD. This matches
+    community trackers (hutber): a meta week runs Wed..Tue so a whole tournament weekend sits inside one bucket."""
     d = dt.date.fromisoformat(iso_date[:10])
-    return (d - dt.timedelta(days=d.weekday())).isoformat()
+    return (d - dt.timedelta(days=(d.weekday() - 2) % 7)).isoformat()
 
 
 def _events():
@@ -59,11 +62,13 @@ def build_data():
         weeks.add(wk)
         n_events += 1
         con = sqlite3.connect(f"data/bcp/{ev}.sqlite"); con.row_factory = sqlite3.Row
-        pdim = {}                                   # player -> {dim: value} for CURRENT-dataslate lists only
-        for r in con.execute("SELECT player,faction,detachment,disposition,army_text FROM lists"):
-            if M._data_version(r["army_text"]) is None or M._data_version(r["army_text"]) < M.MIN_DATA_VERSION:
-                continue
-            vals = {"faction": r["faction"], "disposition": r["disposition"], "detachment": r["detachment"]}
+        # Date-bucketed weekly view: each week reflects that week's balance, so we DON'T gate on the army-list
+        # Data-Version footer (it often fails to parse and would drop most games). Faction & disposition come
+        # from the public roster (present for ~everyone); detachment from the parsed list text (when available).
+        pdim = {}                                   # player -> {dim: value}
+        for r in con.execute("SELECT player,faction,detachment,disposition FROM lists"):
+            fac = r["faction"] if (r["faction"] and r["faction"].strip().lower() not in JUNK_FACTIONS) else None
+            vals = {"faction": fac, "disposition": r["disposition"], "detachment": r["detachment"]}
             pdim[r["player"]] = vals
             for dim in DIMS:
                 if vals[dim]:
@@ -99,7 +104,11 @@ def build_data():
         "low_n": LOWN,
         "summary": {"events": n_events, "games": total_games, "weeks": len(weeks),
                     "week_range": [weeks[0], weeks[-1]] if weeks else []},
-        "weeks": [{"start": w, "label": dt.date.fromisoformat(w).strftime("%b %-d")} for w in weeks],
+        "weeks": [{"start": w,
+                   "short": dt.date.fromisoformat(w).strftime("%b %-d"),
+                   "label": (dt.date.fromisoformat(w).strftime("%b %-d") + "–"
+                             + (dt.date.fromisoformat(w) + dt.timedelta(days=6)).strftime("%b %-d"))}
+                  for w in weeks],
         **{dim: dim_rows(dim) for dim in DIMS},
     }
 
