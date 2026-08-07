@@ -148,7 +148,8 @@ footer{margin-top:26px;font-size:12px;color:var(--muted);display:flex;justify-co
 
 <script>
 const DATA = __DATA__;
-const LINE = ["#e0a53a","#4c9be8","#43c08e","#c77dd6","#e56b62","#6fc7c0"];
+const LINE = ["#e0a53a","#4c9be8","#43c08e","#c77dd6","#e56b62","#6fc7c0",
+              "#f0883c","#7d8ff0","#db5fa0","#a7c23e"];
 let dim="faction", week="__ALL__", sortKey="players", sortDir=-1;
 
 const wr = r => r.games ? r.wins/r.games : null;
@@ -231,7 +232,7 @@ function render(){
 
 function drawChart(rows){
   const svg=document.getElementById("chart"), W=720,H=240,L=44,R=14,T=16,B=34;
-  const weeks=DATA.weeks; const top=rows.slice(0,6).map(r=>r.row);
+  const weeks=DATA.weeks; const top=rows.slice(0,10).map(r=>r.row);
   const cap=document.getElementById("chartcap");
   if(weeks.length<1||!top.length){svg.innerHTML="";cap.textContent="No data.";document.getElementById("legend").innerHTML="";return;}
   const anyIP=weeks.some(w=>w.in_progress);
