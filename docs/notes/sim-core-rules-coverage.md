@@ -129,7 +129,13 @@ Everything load-bearing for a positional VP sim is now modelled. The remainder i
     the sim **mechanistically** (its stated purpose); the win% is DIRECTIONAL for these extremes. A true fix
     is a different combat PARADIGM (research), not calibration. Anchor werr 25.5 (pre-tapestry) → **~19.8**
     across all this work — treat it as a THRASH-GUARD, not a target (see [[wh-40k-project]]).
-  - **We ANNOTATE the skew instead of pretending to fix it** (`runbook.calibration`, 2026-08-07). Since the
+  - **SETTLED on real games (2026-08-07, `sim-validation-results.md`):** validated against **1125 real BCP
+    pairings** (whole meta, army×disposition), the sim's OUTCOME carries **no predictive signal** — AUC 0.47
+    (win%) / 0.47 (VP-margin), Pearson −0.08, flat reliability (real ~50% in every sim-win% bin), no
+    side/seed bias. The win% is not a prediction and cannot be calibrated into one; more data/games won't
+    change that. The sim is a MECHANISTIC prep tool — trust the per-unit damage / board dynamics / tapestry,
+    not the %. `runbook.calibration` now labels every runbook NOT-PREDICTIVE with this evidence.
+  - (earlier) We ANNOTATE the skew instead of pretending to fix it (`runbook.calibration`). Since the
     sim amplifies edges, the real result regresses toward even and the DIRECTION follows the sim's own
     win% lean — no army classifier needed. Every runbook now prints a **CALIBRATION** line: the sim win%
     plus TRUSTWORTHY (win% 40-60, grindy midrange) / "the sim OVER-rates you" (win% >60, you out-grind a

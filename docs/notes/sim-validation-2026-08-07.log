@@ -1,0 +1,43 @@
+# validating 1153 real pairings @ 30 games each (lso2026,nm2026,denver-aug2026)
+  ... 50/1153
+  ... 100/1153
+  ... 150/1153
+  ... 200/1153
+  ... 250/1153
+  ... 300/1153
+  ... 350/1153
+  ... 400/1153
+  ... 450/1153
+  ... 500/1153
+  ... 550/1153
+  ... 600/1153
+  ... 650/1153
+  ... 700/1153
+  ... 750/1153
+  ... 800/1153
+  ... 850/1153
+  ... 900/1153
+  ... 950/1153
+  ... 1000/1153
+  ... 1050/1153
+  ... 1100/1153
+  ... 1150/1153
+
+# RESULTS (1125 pairings)
+  directional accuracy (win%>50 == real winner): 49%   (coin-flip 50)
+  AUC  sim win%     -> real winner : 0.472   (0.5 none, >0.5 predictive)
+  AUC  sim VP-margin-> real winner : 0.470
+  Pearson(sim VP-margin, real VP-margin): -0.080
+  bias: mean predicted p1-win% 53  vs  real p1-win-rate 51%
+
+  RELIABILITY (sim win% bin -> real win%):
+      0-9   real  56%  n=186
+     10-19  real  49%  n=83
+     20-29  real  48%  n=84
+     30-39  real  52%  n=71
+     40-49  real  47%  n=68
+     50-59  real  57%  n=84
+     60-69  real  61%  n=76
+     70-79  real  44%  n=106
+     80-89  real  50%  n=103
+     90-99  real  47%  n=146
