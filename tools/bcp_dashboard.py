@@ -121,7 +121,12 @@ def main():
         from bcp_dashboard_html import render
         html = render(data)
         open(f"{OUTDIR}/index.html", "w").write(html)
-        print(f"# wrote {OUTDIR}/index.html ({len(html)//1024} KB, self-contained)")
+        # body-only variant for publishing as a claude.ai Artifact (host provides its own <head>/<body>)
+        import re as _re
+        parts = [_re.search(p, html, _re.S).group(0) for p in
+                 (r"<style>.*?</style>", r'<div class="wrap">.*?</div>\s*(?=<script>)', r"<script>.*?</script>")]
+        open(f"{OUTDIR}/_artifact.html", "w").write("\n".join(parts) + "\n")
+        print(f"# wrote {OUTDIR}/index.html ({len(html)//1024} KB, self-contained) + _artifact.html")
 
 
 if __name__ == "__main__":
