@@ -1,0 +1,195 @@
+# Rustun Lusk | Orks | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/KDlMla8Dl12X  status=passed
+
+Discord - Rustun
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+List Name: Dreadmob + Dakka
+Factions Used: Orks
+Army Points: 2000
+Army Enhancements (list on which model): Gitfinder Gogglez (on Big Mek with Shokk Attack Gun), Dead Shiny Shootas (on Lootas), Dead Shiny Shootas (on Tankbustas), Dead Shiny Shootas (on Flash Gitz)
+Disposition: Priority Assets
+Detachment(s): Dread Mob, More Dakka!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ATTACHED UNITS:
+Zodgrod Wortsnagga + Gretchin (170 pts)
+  Zodgrod Wortsnagga (80 pts)
+    • Da Grabzappa
+    • Squigstoppa
+  Gretchin (90 pts)
+    • 0-2 Runtherds and 20 Gretchin
+      • 20x Gretchin
+        • 20x Close combat weapon
+        • 20x Grot blasta
+      • 2x Runtherd
+        • 2x Grot-smacka
+        • 2x Slugga
+
+Big Mek with Shokk Attack Gun + Lootas (180 pts)
+  Big Mek with Shokk Attack Gun (80 pts)
+    • Close combat weapon
+    • Grot assistant
+    • Shokk attack gun
+    • Enhancement: Gitfinder Gogglez
+  Lootas (100 pts)
+    • 2 Spanners and 8 Lootas
+      • 8x Loota
+        • 8x Close combat weapon
+        • 8x Deffgun
+      • 2x Spanner
+        • 2x Close combat weapon
+        • 2x Kustom mega-blasta
+
+Big Mek with Shokk Attack Gun + Lootas (205 pts)
+  Big Mek with Shokk Attack Gun (80 pts)
+    • Close combat weapon
+    • Grot assistant
+    • Shokk attack gun
+  Lootas (125 pts)
+    • 2 Spanners and 8 Lootas
+      • 8x Loota
+        • 8x Close combat weapon
+        • 8x Deffgun
+      • 2x Spanner
+        • 2x Close combat weapon
+        • 2x Kustom mega-blasta
+    • Enhancement: Dead Shiny Shootas
+
+Big Mek with Shokk Attack Gun + Tankbustas (220 pts)
+  Big Mek with Shokk Attack Gun (80 pts)
+    • Close combat weapon
+    • Grot assistant
+    • Shokk attack gun
+  Tankbustas (140 pts)
+    • Boss Nob
+      • Choppa
+      • Rokkit pistol
+      • Smash hammer
+    • Tankbusta w/ Pulsa rokkit
+      • Close combat weapon
+      • Pulsa rokkit
+      • Rokkit launcha
+    • 4x Tankbusta w/ Rokkit launcha
+      • 4x Close combat weapon
+      • 4x Rokkit launcha
+    • Enhancement: Dead Shiny Shootas
+
+Mek + Lootas (155 pts)
+  Mek (55 pts)
+    • Killsaw
+    • Kustom mega-slugga
+  Lootas (100 pts)
+    • 2 Spanners and 8 Lootas
+      • 8x Loota
+        • 8x Close combat weapon
+        • 8x Deffgun
+      • 2x Spanner
+        • 2x Close combat weapon
+        • 2x Kustom mega-blasta
+
+
+CHARACTERS:
+Wazdakka Gutsmek (175 pts)
+  • Fixit's wrench
+  • Grabba dragga
+  • Psyko-gatler
+  • Speeding bulk and flaming exhaust
+  • Warlord
+
+
+BATTLELINE:
+Gretchin (80 pts)
+  • 0-2 Runtherds and 20 Gretchin
+    • 20x Gretchin
+      • 20x Close combat weapon
+      • 20x Grot blasta
+
+Gretchin (45 pts)
+  • 0-1 Runtherd and 10 Gretchin
+    • 10x Gretchin
+      • 10x Close combat weapon
+      • 10x Grot blasta
+    • Runtherd
+      • Grot-smacka
+      • Slugga
+
+Gretchin (45 pts)
+  • 0-1 Runtherd and 10 Gretchin
+    • 10x Gretchin
+      • 10x Close combat weapon
+      • 10x Grot blasta
+    • Runtherd
+      • Grot-smacka
+      • Slugga
+
+Gretchin (45 pts)
+  • 0-1 Runtherd and 10 Gretchin
+    • 10x Gretchin
+      • 10x Close combat weapon
+      • 10x Grot blasta
+    • Runtherd
+      • Grot-smacka
+      • Slugga
+
+
+DEDICATED TRANSPORTS:
+Trukk (55 pts)
+  • Big shoota
+  • Spiked wheel
+  • Wreckin' ball
+
+Trukk (55 pts)
+  • Big shoota
+  • Spiked wheel
+  • Wreckin' ball
+
+
+OTHER DATASHEETS:
+Flash Gitz (165 pts)
+  • Ammo Runt
+  • 9x Flash Gitz
+    • 9x Choppa
+    • 9x Snazzgun
+  • Kaptin
+    • Choppa
+    • Snazzgun
+  • Enhancement: Dead Shiny Shootas
+
+Flash Gitz (150 pts)
+  • Ammo Runt
+  • 9x Flash Gitz
+    • 9x Choppa
+    • 9x Snazzgun
+  • Kaptin
+    • Choppa
+    • Snazzgun
+
+Kommandos (120 pts)
+  • Bomb Squig
+  • Boss Nob
+    • Power klaw
+    • Slugga
+  • Distraction Grot
+  • Kommandos w/ Breacha ram
+    • Breacha ram
+  • Kommandos w/ Burna
+    • Burna
+    • Close combat weapon
+  • 2x Kommandos w/ Kustom shoota
+    • 2x Close combat weapon
+    • 2x Kustom shoota
+  • Kommandos w/ Rokkit launcha
+    • Close combat weapon
+    • Rokkit launcha
+  • 4x Kommandos w/ Slugga and choppa
+    • 4x Choppa
+    • 4x Slugga
+
+Mek Gunz (135 pts)
+  • 3x Mek Gun w/ Smasha gun
+    • 3x Grot crew
+    • 3x Smasha gun
+
+
+
+undefined

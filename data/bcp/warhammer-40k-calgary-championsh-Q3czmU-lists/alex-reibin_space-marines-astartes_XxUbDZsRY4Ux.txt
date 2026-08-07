@@ -1,0 +1,48 @@
+# Alex Reibin | Space Marines (Astartes) | Take and Hold | team=Bloodbath and Beyond
+# list: https://www.bestcoastpairings.com/list/XxUbDZsRY4Ux  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Ultramarines
++ DETACHMENT: Librarius Conclave, Reclamation Force (Psychic Disciplines)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Marneus Calgar in Armour of Antilochus
++ ENHANCEMENT: Liberatum (on Char3: Captain)
+& Scroll of Proclamation (on Char5: Librarian in Terminator Armour)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (1x2) + (2x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char3: 1x Captain (105 pts): Heavy Bolt Pistol, Master-crafted power weapon, Relic Shield
+Enhancement: Liberatum (+25 pts)
+Char1: 1x Cato Sicarius (105 pts): Artisan Plasma Pistol, Talassarian Tempest Blade
+Char4: 1x Judiciar (55 pts): Absolvor bolt pistol, Executioner Relic Blade
+Char5: 1x Librarian in Terminator Armour (90 pts): Force weapon, Smite, Storm bolter
+Enhancement: Scroll of Proclamation (+15 pts)
+Char2: 1x Marneus Calgar in Armour of Antilochus (155 pts): Warlord, Gauntlets of Ultramar
+
+5x Intercessor Squad (80 pts)
+• 4x Intercessor
+    3 with Bolt pistol, Bolt Rifle, Close combat weapon
+    1 with Astartes grenade launcher, Bolt pistol, Bolt Rifle, Close combat weapon
+• 1x Intercessor Sergeant: Bolt pistol, Plasma pistol, Astartes Chainsword
+
+6x Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+6x Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+1x Land Raider (220 pts): Armoured Tracks, 2x Godhammer Lascannon, Hunter-killer missile, Multi-melta, Storm bolter, Twin heavy bolter
+1x Land Raider Redeemer (250 pts): Armoured Tracks, 2x Flamestorm Cannon, Hunter-killer missile, Multi-melta, Storm bolter, Twin assault cannon
+5x Terminator Assault Squad (180 pts)
+• 1x Assault Terminator Sergeant: Storm Shield, Thunder Hammer
+• 4x Assault Terminator: 4 with Storm Shield, Thunder Hammer
+6x Victrix Honour Guard (255 pts)
+• 1x Chapter Ancient: Banner of Macragge, Master-crafted power weapon
+• 1x Chapter Champion: Blades of Honour
+• 4x Victrix Honour Guard: 4 with Master-crafted Bolt Carbine, Master-crafted power weapon
+1x Vindicator (185 pts): Armoured Tracks, Demolisher Cannon, Hunter-killer missile, Storm bolter
+
+undefined

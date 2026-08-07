@@ -1,0 +1,164 @@
+# North Wall | Dark Angels | Reconnaissance | team=Cadian Geese
+# list: https://www.bestcoastpairings.com/list/2Z77Wb4vqExE  status=passed
+
+@northofthewall
+recon dark ang
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Dark Angels
++ DETACHMENT: Company of Hunters, Darkflight Pursuit (Masters of Manoeuvre)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Lion El'Jonson
++ ENHANCEMENT: Recon Hunter (on Char4: Ravenwing Command Squad - Ravenwing Champion)
+& Nightforged Battery (on Vehi4: Land Speeder Vengeance)
+& Nightforged Battery (on Vehi4: Land Speeder Vengeance)
+& Nightforged Battery (on Vehi4: Land Speeder Vengeance)
++ NUMBER OF UNITS: 17
++ SECONDARY: - Bring It Down: (8x2) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Attached unit 1:
+
+Azrael (140 pts)
+• 1x Lion's Wrath
+• 1x The Sword of Secrets
+
+Inner Circle Companions (160 pts)
+• 6x Inner Circle Companion
+    • 6x Calibanite Greatsword
+    • 6x Heavy Bolt Pistol
+
+Attached unit 2:
+
+Sammael (95 pts) (leader)
+• 1x Bolt Pistol
+• 1x Master-crafted plasma cannon
+• 1x The Raven Sword
+• 1x Twin storm bolter
+
+Ravenwing Command Squad (125 pts) (support)
+• 1x Ravenwing Ancient
+    • 1x Black Knight combat weapon
+    • 1x Bolt Pistol
+    • 1x Plasma Talon
+• 1x Ravenwing Apothecary
+    • 1x Black Knight combat weapon
+    • 1x Bolt Pistol
+    • 1x Plasma Talon
+• 1x Ravenwing Champion
+    • 1x Bolt Pistol
+    • 1x Master-crafted power weapon
+    • 1x Plasma Talon
+    • Recon Hunter (+20 pts)
+
+Outrider Squad (70 pts) (bodyguard+battleline)
+
+• 2x Outrider
+    • 2x Astartes Chainsword
+    • 2x Heavy Bolt Pistol
+    • 2x Twin bolt rifle
+• 1x Outrider Sergeant
+    • 1x Astartes Chainsword
+    • 1x Heavy Bolt Pistol
+    • 1x Twin bolt rifle
+
+CHARACTER
+
+Lion El'Jonson (265 pts)
+• 1x Arma Luminis
+• 1x Fealty
+• Warlord
+
+
+BATTLELINE
+
+Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Astartes grenade launcher
+    • 1x Bolt Rifle
+    • 1x Power fist
+• 4x Intercessor
+    • 4x Bolt pistol
+    • 4x Bolt Rifle
+    • 4x Close combat weapon
+
+
+
+OTHER DATASHEETS
+
+
+Land Speeder (105 pts)
+• 1x Close combat weapon
+• 1x Multi-melta
+• 1x Stormfury Missile Launcher
+• 1x Onslaught gatling cannon
+
+Land Speeder (105 pts)
+• 1x Close combat weapon
+• 1x Multi-melta
+• 1x Stormfury Missile Launcher
+• 1x Onslaught gatling cannon
+
+Land Speeder Vengeance (145 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Heavy bolter
+• Nightforged Battery (+15 pts)
+
+Land Speeder Vengeance (145 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Heavy bolter
+• Nightforged Battery (+15 pts)
+
+Land Speeder Vengeance (155 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Heavy bolter
+• Nightforged Battery (+15 pts)
+
+Ravenwing Black Knights (75 pts)
+• 2x Ravenwing Black Knight
+    • 2x Black Knight combat weapon
+    • 2x Bolt Pistol
+    • 2x Plasma Talon
+• 1x Ravenwing Huntmaster
+    • 1x Black Knight combat weapon
+    • 1x Bolt Pistol
+    • 1x Plasma Talon
+
+Ravenwing Darkshroud (70 pts)
+• 1x Close Combat Weapon
+• 1x Heavy bolter
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 4x Scouts
+    • 4x Bolt pistol
+    • 4x Close combat weapon
+    • 4x Combat Knife
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 4x Scouts
+    • 4x Bolt pistol
+    • 4x Close combat weapon
+    • 4x Combat Knife
+
+Storm Speeder Thunderstrike (135 pts)
+• 1x Close combat weapon
+• 1x Stormfury Missiles
+• 1x Thunderstrike Las-talon
+• 1x Twin Icarus Rocket Pod
+
+undefined

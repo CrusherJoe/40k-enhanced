@@ -1,0 +1,59 @@
+# Alexandre Gaucher | Astra Militarum | Purge the Foe | team=Café Ork'n'Roll
+# list: https://www.bestcoastpairings.com/list/GyPLpgNfyJHb  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Astra Militarum
++ DETACHMENT: Designation Force, Steel Hammer (Designated Targets)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: Lord Solar Leontus
++ ENHANCEMENT: Battalion Commander (on Char5: Banesword)
++ NUMBER OF UNITS: 15
++ SECONDARY: - Bring It Down: (3x2) + (1x4) + (2x6) - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char5: 1x Banesword (445 pts): Character Upgrade, Armoured tracks, 2x Lascannon, Quake cannon, Twin heavy bolter, 2x Twin heavy bolter, 2x Lascannon, 2x Twin heavy bolter
+Enhancement: Battalion Commander (+30 pts)
+Char6: 1x Banesword (450 pts): Character Upgrade, Armoured tracks, 2x Lascannon, Quake cannon, Twin heavy bolter, 2x Twin heavy bolter, 2x Lascannon, 2x Twin heavy bolter
+Char2: 6x Krieg Command Squad (60 pts)
+• 5x Veteran Guardsman
+    1 with Alchemyk Counteragents, Servo-scribes, Close combat weapon, Laspistol
+    1 with Close combat weapon, Flamer
+    1 with Power weapon, Plasma pistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Regimental standard, Close combat weapon, Lasgun
+• 1x Lord Commissar: Laspistol, Power weapon
+Char1: 1x Lord Solar Leontus (130 pts): Warlord, Conquest, Konstantin's hooves, Sol's Righteous Gaze
+Char3: 1x Tech-Priest Enginseer (45 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+Char4: 1x Tech-Priest Enginseer (45 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+
+10x Death Korps of Krieg (75 pts)
+• 9x Death Korps Trooper
+    5 with Close combat weapon, Lasgun
+    1 with Death Korps of Krieg Medi-pack, Close combat weapon, Lasgun
+    1 with Vox-caster, Close combat weapon, Lasgun
+    1 with Close combat weapon, Flamer
+    1 with Close combat weapon, Plasma gun
+• 1x Death Korps Watchmaster: Power weapon, Plasma pistol
+
+1x Artillery Team (95 pts): Crew close combat weapons, Lasgun, Siege cannon
+1x Artillery Team (95 pts): Crew close combat weapons, Lasgun, Siege cannon
+5x Krieg Combat Engineers (65 pts)
+• 4x Krieg Combat Engineer
+    2 with Autopistol, Trench club
+    1 with Close combat weapon, Flamer
+    1 with Remote mine, Autopistol, Close combat weapon
+• 1x Krieg Engineer Watchmaster: Hand flamer, Power weapon
+5x Krieg Combat Engineers (65 pts)
+• 4x Krieg Combat Engineer
+    2 with Autopistol, Trench club
+    1 with Close combat weapon, Flamer
+    1 with Remote mine, Autopistol, Close combat weapon
+• 1x Krieg Engineer Watchmaster: Hand flamer, Power weapon
+1x Rogal Dorn Battle Tank (260 pts): Armoured tracks, Heavy stubber, Castigator gatling cannon, 2x Heavy stubber, 2x Multi-melta, Coaxial autocannon, Oppressor cannon
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Autocannon
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Autocannon
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Autocannon
+
+undefined

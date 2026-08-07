@@ -1,0 +1,71 @@
+# Charlie Davis | Genestealer Cult | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/R3G6qQErvTuE  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Genestealer Cults
++ DETACHMENT: Biosanctic Broodsurge, Xenocult Masses
++ TOTAL ARMY POINTS: 2000pts
++ POINTS LIMIT: 2000pts
++
++ ENHANCEMENT: Mutagenic Regeneration(on Char1: Abominant) & Predatory Instincts(on Char2: Abominant)
++ NUMBER OF UNITS: 20
++ SECONDARY: -Bring It Down: 2x2 - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Abominant (95 points): Warlord, power sledgehammer
+Enhancement: Mutagenic Regeneration (+10 pts)
+Char2: 1x Abominant (105 points): power sledgehammer
+Enhancement: Predatory Instincts (+20 pts)
+Char3: 1x Benefictus (75 points): Close combat weapon and Psionic cascade
+Char4: 1x Benefictus (75 points): Close combat weapon and Psionic cascade
+Char5: 1x Biophagus (50 points): Alchemicus familiar, Autopistol, Chemical vials and Injector goad
+Char6: 1x Biophagus (50 points): Alchemicus familiar, Autopistol, Chemical vials and Injector goad
+
+10x Acolyte Hybrids With Autopistols (130 points)
+• 1x Acolyte Leader: Autopistol and Leader's bio-weapons
+• 6x Acolyte Hybrids: heavy mining tool
+• 1x Acolyte Hybrids: Cult claws & knife and Cult icon
+• 2x Acolyte Hybrids: Autopistol and Cult claws & knife
+5x Acolyte Hybrids With Autopistols (70 points): Autopistol and Cult claws & knife
+5x Acolyte Hybrids With Hand Flamers (75 points)
+• 1x Acolyte Leader: Hand flamer and Leader's bio-weapons
+• 4x Acolyte Hybrids: Cult claws & knife and Hand flamer
+5x Acolyte Hybrids With Hand Flamers (75 points)
+• 1x Acolyte Leader: Hand flamer and Leader's bio-weapons
+• 4x Acolyte Hybrids: Cult claws & knife and Hand flamer
+20x Neophyte Hybrids (135 points)
+• 1x Neophyte Leader: Autopistol, Close combat weapon and Hybrid firearm
+• 10x Neophyte Hybrids: Autopistol, Close combat weapon and Hybrid firearm
+• 2x Neophyte Hybrids: Autopistol, Close combat weapon and Mining laser
+• 2x Neophyte Hybrids: Autopistol, Close combat weapon and Seismic cannon
+• 2x Neophyte Hybrids: Autopistol, Close combat weapon and Webber
+• 2x Neophyte Hybrids: Autopistol, Close combat weapon and Grenade launcher
+• 1x Neophyte Hybrids: Autopistol, Close combat weapon and Hybrid firearm and cult icon
+20x Neophyte Hybrids (135 points)
+• 1x Neophyte Leader: Autopistol, Close combat weapon and Hybrid firearm
+• 10x Neophyte Hybrids: Autopistol, Close combat weapon and Hybrid firearm
+• 2x Neophyte Hybrids: Autopistol, Close combat weapon and Mining laser
+• 2x Neophyte Hybrids: Autopistol, Close combat weapon and Seismic cannon
+• 2x Neophyte Hybrids: Autopistol, Close combat weapon and Webber
+• 2x Neophyte Hybrids: Autopistol, Close combat weapon and Grenade launcher
+• 1x Neophyte Hybrids: Autopistol, Close combat weapon and Hybrid firearm and cult icon
+
+10x Aberrants (280 points): Aberrant weapons
+5x Aberrants (140 points): Aberrant weapons
+1x Achilles Ridgerunners (95 points): Heavy mortar, Ridgerunner wheels, Survey augur and Twin heavy stubbers
+1x Achilles Ridgerunners (95 points): Heavy mortar, Ridgerunner wheels, Survey augur and Twin heavy stubbers
+5x Atalan Jackals (85 points)
+• 1x Atalan Jackals: Atalan small arms and Close combat weapon
+• 1x Atalan Wolfquads: Atalan incinerator, Atalan small arms and Close combat weapon
+• 1x Atalan Jackals: Close combat weapon and Grenade launcher
+• 2x Atalan Jackals: Atalan power weapon and Atalan small arms
+5x Atalan Jackals (85 points)
+• 1x Atalan Jackals: Atalan small arms and Close combat weapon
+• 1x Atalan Wolfquads: Atalan incinerator, Atalan small arms and Close combat weapon
+• 1x Atalan Jackals: Close combat weapon and Grenade launcher
+• 2x Atalan Jackals: Atalan power weapon and Atalan small arms
+5x Purestrain Genestealers (75 points): cult claws & talons
+5x Purestrain Genestealers (75 points): cult claws & talons
+
+
+undefined

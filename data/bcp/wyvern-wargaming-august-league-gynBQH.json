@@ -1,0 +1,298 @@
+{
+ "event": {
+  "id": "gynBQHCwk2WT",
+  "name": "Wyvern Wargaming- August League",
+  "totalPlayers": 32,
+  "eventDate": "2026-08-01T14:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "North Wall",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance",
+   "team": "Cadian Geese",
+   "dropped": false,
+   "listId": "2Z77Wb4vqExE",
+   "listUrl": "https://www.bestcoastpairings.com/list/2Z77Wb4vqExE"
+  },
+  {
+   "name": "Thomas Ritze",
+   "faction": "World Eaters",
+   "detachment": "Disruption",
+   "team": "Anvil of Faith",
+   "dropped": false,
+   "listId": "K6olrn6QAPy3",
+   "listUrl": "https://www.bestcoastpairings.com/list/K6olrn6QAPy3"
+  },
+  {
+   "name": "Trenton Pera",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "Wyvern Wargaming",
+   "dropped": true,
+   "listId": "mlZqrDa4tTzG",
+   "listUrl": "https://www.bestcoastpairings.com/list/mlZqrDa4tTzG"
+  },
+  {
+   "name": "Vincent Malmrose",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance",
+   "team": "Anvil of Faith",
+   "dropped": false,
+   "listId": "VChv3IozZOah",
+   "listUrl": "https://www.bestcoastpairings.com/list/VChv3IozZOah"
+  },
+  {
+   "name": "Gavin Davis",
+   "faction": "Astra Militarum",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "gna7s8h0zJjg",
+   "listUrl": "https://www.bestcoastpairings.com/list/gna7s8h0zJjg"
+  },
+  {
+   "name": "Robert Bellus",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "ITS COCKED!",
+   "dropped": false,
+   "listId": "KL3ycKVKiz8k",
+   "listUrl": "https://www.bestcoastpairings.com/list/KL3ycKVKiz8k"
+  },
+  {
+   "name": "Russell Thayer",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Battleborn 40K",
+   "dropped": false,
+   "listId": "eJY8nyG7yV1T",
+   "listUrl": "https://www.bestcoastpairings.com/list/eJY8nyG7yV1T"
+  },
+  {
+   "name": "Matt Olsen",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Purge the Foe",
+   "team": "Unexploded Ordnance",
+   "dropped": false,
+   "listId": "BJNpaGtnZc2A",
+   "listUrl": "https://www.bestcoastpairings.com/list/BJNpaGtnZc2A"
+  },
+  {
+   "name": "Caleb Cason",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": "ITS COCKED!",
+   "dropped": false,
+   "listId": "K8mjy81YEEYi",
+   "listUrl": "https://www.bestcoastpairings.com/list/K8mjy81YEEYi"
+  },
+  {
+   "name": "Anthony  Coleman",
+   "faction": "Dark Angels",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "0qDz4BYMsoGg",
+   "listUrl": "https://www.bestcoastpairings.com/list/0qDz4BYMsoGg"
+  },
+  {
+   "name": "Jared Smith",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "ITS COCKED!",
+   "dropped": false,
+   "listId": "sfr6RY4ZCu84",
+   "listUrl": "https://www.bestcoastpairings.com/list/sfr6RY4ZCu84"
+  },
+  {
+   "name": "Arjac Rockfist",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "08TQhQJJG4PJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/08TQhQJJG4PJ"
+  },
+  {
+   "name": "Rustun Lusk",
+   "faction": "Orks",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "KDlMla8Dl12X",
+   "listUrl": "https://www.bestcoastpairings.com/list/KDlMla8Dl12X"
+  },
+  {
+   "name": "Paul Conrad",
+   "faction": "Black Templars",
+   "detachment": "Take and Hold",
+   "team": "Tc War Room",
+   "dropped": false,
+   "listId": "WrQEgqkm2Ytl",
+   "listUrl": "https://www.bestcoastpairings.com/list/WrQEgqkm2Ytl"
+  },
+  {
+   "name": "Brian Robles",
+   "faction": "Emperor's Children",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "N6nO95Te3DC7",
+   "listUrl": "https://www.bestcoastpairings.com/list/N6nO95Te3DC7"
+  },
+  {
+   "name": "Charles Mears",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "The Pantheon",
+   "dropped": false,
+   "listId": "onnbMTBmIp5L",
+   "listUrl": "https://www.bestcoastpairings.com/list/onnbMTBmIp5L"
+  },
+  {
+   "name": "Ben Falagrady",
+   "faction": "Adeptus Custodes",
+   "detachment": "Disruption",
+   "team": "ITS COCKED!",
+   "dropped": false,
+   "listId": "XF6gsJlpEnDH",
+   "listUrl": "https://www.bestcoastpairings.com/list/XF6gsJlpEnDH"
+  },
+  {
+   "name": "Daniel Jones",
+   "faction": "Emperor's Children",
+   "detachment": "Reconnaissance",
+   "team": "Great Northern Sweat Lodge",
+   "dropped": false,
+   "listId": "XC8KIHsUOrcO",
+   "listUrl": "https://www.bestcoastpairings.com/list/XC8KIHsUOrcO"
+  },
+  {
+   "name": "Rii Anderson",
+   "faction": "Chaos Daemons",
+   "detachment": "Priority Assets",
+   "team": "Cadian Geese",
+   "dropped": false,
+   "listId": "h66VLgVdHn3A",
+   "listUrl": "https://www.bestcoastpairings.com/list/h66VLgVdHn3A"
+  },
+  {
+   "name": "Tom Deane",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Roundtable Gaming",
+   "dropped": true,
+   "listId": "QpLsf6OY4ZuL",
+   "listUrl": "https://www.bestcoastpairings.com/list/QpLsf6OY4ZuL"
+  },
+  {
+   "name": "Bryce (Oberyn) Merrill",
+   "faction": "Dark Angels",
+   "detachment": "Take and Hold",
+   "team": "Wyvern Wargaming",
+   "dropped": false,
+   "listId": "RH5TSEwo3YLk",
+   "listUrl": "https://www.bestcoastpairings.com/list/RH5TSEwo3YLk"
+  },
+  {
+   "name": "Paul Allen",
+   "faction": "Necrons",
+   "detachment": "Reconnaissance",
+   "team": "Treasure State Traitors",
+   "dropped": false,
+   "listId": "OY3KSAE4geZ8",
+   "listUrl": "https://www.bestcoastpairings.com/list/OY3KSAE4geZ8"
+  },
+  {
+   "name": "Forrest  Clare",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": "ITS COCKED!",
+   "dropped": false,
+   "listId": "gKtCp0WhKgvy",
+   "listUrl": "https://www.bestcoastpairings.com/list/gKtCp0WhKgvy"
+  },
+  {
+   "name": "Devin Phillips",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "U86YcmyrIJds",
+   "listUrl": "https://www.bestcoastpairings.com/list/U86YcmyrIJds"
+  },
+  {
+   "name": "Karl Sumner",
+   "faction": "Adeptus Custodes",
+   "detachment": "Reconnaissance",
+   "team": "Krump or Dice Tryin'",
+   "dropped": false,
+   "listId": "4iBoLyYJ5a1u",
+   "listUrl": "https://www.bestcoastpairings.com/list/4iBoLyYJ5a1u"
+  },
+  {
+   "name": "Tobias Terry",
+   "faction": "Genestealer Cult",
+   "detachment": "Priority Assets",
+   "team": "Wyvern Wargaming",
+   "dropped": false,
+   "listId": "aLtqHERUoaYC",
+   "listUrl": "https://www.bestcoastpairings.com/list/aLtqHERUoaYC"
+  },
+  {
+   "name": "Alex Smith",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "Wyvern Wargaming",
+   "dropped": false,
+   "listId": "OItS6m1MKWhC",
+   "listUrl": "https://www.bestcoastpairings.com/list/OItS6m1MKWhC"
+  },
+  {
+   "name": "Nick Maxwell",
+   "faction": "Blood Angels",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "g6fI3mS8avnN",
+   "listUrl": "https://www.bestcoastpairings.com/list/g6fI3mS8avnN"
+  },
+  {
+   "name": "Chris Foy",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "zhBrTCEAEN5g",
+   "listUrl": "https://www.bestcoastpairings.com/list/zhBrTCEAEN5g"
+  },
+  {
+   "name": "Lost When",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "G4C",
+   "dropped": false,
+   "listId": "NQlrPzIj5D85",
+   "listUrl": "https://www.bestcoastpairings.com/list/NQlrPzIj5D85"
+  },
+  {
+   "name": "Mick (Pyrothenia) Miller",
+   "faction": "Space Wolves",
+   "detachment": "Disruption",
+   "team": "Wyvern Wargaming",
+   "dropped": false,
+   "listId": "I9P0tNnHRbNi",
+   "listUrl": "https://www.bestcoastpairings.com/list/I9P0tNnHRbNi"
+  },
+  {
+   "name": "Kieran Wilson",
+   "faction": "Drukhari",
+   "detachment": "Priority Assets",
+   "team": "Wyvern Wargaming",
+   "dropped": false,
+   "listId": "TgIj3FCn16VK",
+   "listUrl": "https://www.bestcoastpairings.com/list/TgIj3FCn16VK"
+  }
+ ]
+}

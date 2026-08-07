@@ -1,0 +1,61 @@
+# Steven Reynaert | Adepta Sororitas | Purge the Foe | team=Redacted40K
+# list: https://www.bestcoastpairings.com/list/1lsI2HrEPJnl  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adepta Sororitas
++ DETACHMENT: Chorus of Condemnation, Penitent Host (Angelic Judgement)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Canoness
++ ENHANCEMENT: Psalm of Righteous Judgement (on Char1: Canoness)
++ NUMBER OF UNITS: 17
++ SECONDARY: - Bring It Down: (9x2) - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Canoness (80 pts): Warlord, Blessed blade, Bolt Pistol
+Enhancement: Psalm of Righteous Judgement (+20 pts)
+
+10x Battle Sisters Squad (100 pts)
+• 9x Battle Sister
+    6 with Bolt pistol, Boltgun, Close combat weapon
+    1 with Simulacrum Imperialis, Bolt pistol, Boltgun, Close combat weapon
+    1 with Bolt pistol, Close combat weapon, Multi-melta
+    1 with Bolt pistol, Close combat weapon, Meltagun
+• 1x Sister Superior: Bolt pistol, Close combat weapon, Power weapon, Inferno pistol
+
+10x Arco-Flagellants (140 pts): 10 with Arco-flails
+1x Castigator (165 pts): Armoured tracks, 3x Heavy bolter, Castigator autocannons, Hunter-Killer Missile, Storm bolter
+1x Castigator (165 pts): Armoured tracks, 3x Heavy bolter, Castigator autocannons, Hunter-Killer Missile, Storm bolter
+1x Castigator (175 pts): Armoured tracks, 3x Heavy bolter, Castigator battle cannon, Hunter-Killer Missile, Storm bolter
+10x Dominion Squad (90 pts)
+• 9x Dominion
+    4 with Bolt pistol, Boltgun, Close combat weapon
+    1 with Simulacrum Imperialis, Bolt pistol, Boltgun, Close combat weapon
+    4 with Bolt pistol, Close combat weapon, Artificer-crafted storm bolter
+• 1x Dominion Superior: Bolt pistol, Close combat weapon, Power weapon, Inferno pistol
+1x Immolator (100 pts): Armoured tracks, Heavy Bolter, Hunter-Killer Missile, Immolation Flamers
+1x Immolator (100 pts): Armoured tracks, Heavy Bolter, Hunter-Killer Missile, Immolation Flamers
+2x Mortifiers (130 pts)
+  1 with Twin Penitent Buzz-Blades, 2x Mortifier flamer
+  1 with Anchorite Sarcophagus, Twin Penitent Buzz-Blades, 2x Mortifier flamer
+2x Mortifiers (130 pts)
+  1 with Twin Penitent Buzz-Blades, 2x Mortifier flamer
+  1 with Anchorite Sarcophagus, Twin Penitent Buzz-Blades, 2x Mortifier flamer
+10x Repentia Squad (140 pts)
+• 1x Repentia Superior: Bolt pistol, Neural Whips
+• 9x Sister Repentia: 9 with Penitent Eviscerator
+10x Repentia Squad (140 pts)
+• 1x Repentia Superior: Bolt pistol, Neural Whips
+• 9x Sister Repentia: 9 with Penitent Eviscerator
+10x Repentia Squad (140 pts)
+• 1x Repentia Superior: Bolt pistol, Neural Whips
+• 9x Sister Repentia: 9 with Penitent Eviscerator
+5x Seraphim Squad (75 pts)
+• 1x Seraphim Superior: Close combat weapon, Plasma pistol, Power Weapon
+• 2x Seraphim: 2 with 2x Bolt pistol, Close combat weapon
+• 2x Seraphim with Special Weapons: 2 with Close combat weapon, 2x Ministorum hand flamer
+1x Sororitas Rhino (65 pts): Armoured tracks, Hunter-Killer Missile, Storm bolter
+1x Sororitas Rhino (65 pts): Armoured tracks, Hunter-Killer Missile, Storm bolter
+
+undefined

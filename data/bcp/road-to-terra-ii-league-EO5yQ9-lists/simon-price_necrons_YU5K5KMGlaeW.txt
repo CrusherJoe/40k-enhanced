@@ -1,0 +1,110 @@
+# Simon Price | Necrons | Purge the Foe | team=LXT
+# list: https://www.bestcoastpairings.com/list/YU5K5KMGlaeW  status=passed
+
+CURSED (2000 points)
+
+Necrons
+Cursed Legion and Skyshroud Spearhead (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Lokhust Lord (90 points)
+• Attached as: Leader (Character)
+  • 1x Lord’s blade
+    1x Resurrection Orb
+  • Enhancement: Mark of the Nekrosor
+
+Lokhust Destroyers (170 points)
+• Attached as: Bodyguard
+  • 6x Lokhust Destroyer
+    • 6x Close combat weapon
+      6x Gauss cannon
+
+Attached Unit 2
+
+Plasmancer (70 points)
+• Attached as: Support (Character)
+  • 1x Plasmic lance
+  • Enhancement: Murdermind
+
+Lokhust Heavy Destroyers (160 points)
+• Attached as: Bodyguard
+  • 3x Lokhust Heavy Destroyer
+    • 3x Close combat weapon
+      3x Gauss destructor
+
+Attached Unit 3
+
+Overlord with Translocation Shroud (110 points)
+• Attached as: Leader (Character)
+  • 1x Overlord’s blade
+    1x Resurrection Orb
+  • Enhancement: Destroyer Ankh
+
+Orikan the Diviner (90 points)
+• Attached as: Support (Character)
+  • 1x Staff of Tomorrow
+
+Necron Warriors (190 points)
+• Attached as: Bodyguard (Battleline)
+  • 20x Necron Warrior
+    • 20x Close combat weapon
+      20x Gauss reaper
+
+
+CHARACTERS
+
+C’tan Shard of the Void Dragon (345 points)
+  • 1x Canoptek tail blades
+    1x Spear of the Void Dragon
+    1x Voltaic storm
+
+Imotekh the Stormlord (100 points)
+  • Warlord
+  • 1x Gauntlet of Fire
+    1x Staff of the Destroyer
+
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 points)
+  • 2x Atomiser beam
+    1x Reanimator’s claws
+
+Canoptek Scarab Swarms (40 points)
+  • 3x Canoptek Scarab Swarm
+    • 3x Feeder mandibles
+
+Lokhust Heavy Destroyers (160 points)
+  • 3x Lokhust Heavy Destroyer
+    • 3x Close combat weapon
+      3x Gauss destructor
+
+Ophydian Destroyers (80 points)
+  • 3x Ophydian Destroyer
+    • 3x Ophydian hyperphase weapons
+      1x Plasmacyte
+
+Ophydian Destroyers (80 points)
+  • 3x Ophydian Destroyer
+    • 3x Ophydian hyperphase weapons
+      1x Plasmacyte
+
+Skorpekh Destroyers (170 points)
+  • 6x Skorpekh Destroyer
+    • 2x Plasmacyte
+      6x Skorpekh hyperphase weapons
+
+Tomb Blades (70 points)
+  • 3x Tomb Blade
+    • 3x Close combat weapon
+      3x Nebuloscope
+      2x Particle beamer
+      1x Twin gauss blaster
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

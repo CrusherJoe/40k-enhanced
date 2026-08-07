@@ -1,0 +1,193 @@
+# Wesley Stevens | Aeldari | Disruption | team=None
+# list: https://www.bestcoastpairings.com/list/cVxrjc54VQ3R  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Aeldari
++ DETACHMENT: Eldritch Raiders, Fateful Performance (Yriel's Own)
++ FORCE DISPOSITION: Disruption
++ TOTAL ARMY POINTS: 2000pts
++
+I still cant export from the 40k app
+Yriel with Voidscarred
+Eldrad with warlock conclave
+Autarch with banshees
+Shadowseer with troupe
++ WARLORD: Char3: Prince Yriel
++ ENHANCEMENT: Mistweave (on Char5: Shadowseer)
++ NUMBER OF UNITS: 20
++ SECONDARY: - Bring It Down: (3x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Autarch (75 pts)
+• 1x Star Glaive
+• 1x Dragon Fusion Gun
+
+Avatar of Khaine (250 pts)
+• 1x The Wailing Doom
+
+Eldrad Ulthran (130 pts)
+• 1x Mind War
+• 1x Shuriken Pistol
+• 1x Staff of Ulthamar and witchblade
+
+Prince Yriel (95 pts)
+• 1x Shuriken Pistol
+• 1x The Eye of Wrath
+• 1x The Spear of Twilight
+• Warlord
+
+Shadowseer (70 pts)
+• 1x Miststave
+• 1x Neuro Disruptor
+• Mistweave (+20 pts)
+
+BATTLELINE
+
+Corsair Voidreavers (110 pts)
+• 1x Voidreaver Felarch
+    • 1x Close Combat Weapon
+    • 1x Power sword
+    • 1x Shuriken pistol
+    • Mistshield
+• 9x Voidreaver with sword and pistol
+    • 9x Close Combat Weapon
+    • 9x Power sword
+    • 9x Shuriken Pistol
+
+Corsair Voidreavers (65 pts)
+• 1x Voidreaver Felarch
+    • 1x Close Combat Weapon
+    • 1x Power sword
+    • 1x Shuriken rifle
+    • Mistshield
+• 4x Voidreaver with Shuriken rifle
+    • 4x Close Combat Weapon
+    • 4x Shuriken rifle
+
+OTHER DATASHEETS
+
+Corsair Skyreavers (75 pts)
+• 1x Skyreaver Felarch
+    • 1x Corsair Blade
+    • 1x Blast Pistol
+• 4x Skyreaver
+    • 2x Corsair Blade
+    • 2x Shuriken Pistol
+    • 2x Close Combat Weapon
+    • 1x Corsair blaster
+    • 1x Fusion gun
+
+Corsair Skyreavers (75 pts)
+• 1x Skyreaver Felarch
+    • 1x Corsair Blade
+    • 1x Blast Pistol
+• 4x Skyreaver
+    • 2x Corsair Blade
+    • 2x Shuriken Pistol
+    • 2x Close Combat Weapon
+    • 1x Corsair blaster
+    • 1x Fusion gun
+
+Corsair Skyreavers (75 pts)
+• 1x Skyreaver Felarch
+    • 1x Corsair Blade
+    • 1x Blast Pistol
+• 4x Skyreaver
+    • 2x Corsair Blade
+    • 2x Shuriken Pistol
+    • 2x Close Combat Weapon
+    • 1x Corsair blaster
+    • 1x Fusion gun
+
+Corsair Voidscarred (70 pts)
+• 1x Voidscarred Felarch
+    • 1x Close Combat Weapon
+    • 1x Power sword
+    • 1x Shuriken rifle
+    • Mistshield
+• 2x Voidscarred
+    • 2x Close Combat Weapon
+    • 2x Power sword
+    • 2x Shuriken Pistol
+• 1x Voidscarred with Faolchú
+    • 1x Close Combat Weapon
+    • 1x Power sword
+    • 1x Shuriken Pistol
+    • Faolchú
+• 1x Voidscarred with Corsair blaster
+    • 1x Close Combat Weapon
+    • 1x Corsair blaster
+
+Falcon (130 pts)
+• 1x Pulse Laser
+• 1x Wraithbone hull
+• 1x Bright Lance
+• 1x Shuriken Cannon
+
+Falcon (130 pts)
+• 1x Pulse Laser
+• 1x Wraithbone hull
+• 1x Bright Lance
+• 1x Shuriken Cannon
+
+Howling Banshees (85 pts)
+• 1x Howling Banshee Exarch
+    • 1x Executioner
+    • 1x Shuriken Pistol
+• 4x Howling Banshee
+    • 4x Banshee Blade
+    • 4x Shuriken Pistol
+
+Rangers (60 pts)
+• 5x Ranger
+    • 5x Close Combat Weapon
+    • 5x Long rifle
+    • 5x Shuriken Pistol
+
+Rangers (60 pts)
+• 5x Ranger
+    • 5x Close Combat Weapon
+    • 5x Long rifle
+    • 5x Shuriken Pistol
+
+Shining Spears (100 pts)
+• 1x Shining Spear Exarch
+    • 1x Twin Shuriken Catapult
+    • 1x Star Lance
+    • Shimmershield
+• 2x Shining Spear
+    • 2x Laser Lance
+    • 2x Twin Shuriken Catapult
+
+Shining Spears (100 pts)
+• 1x Shining Spear Exarch
+    • 1x Twin Shuriken Catapult
+    • 1x Star Lance
+    • Shimmershield
+• 2x Shining Spear
+    • 2x Laser Lance
+    • 2x Twin Shuriken Catapult
+
+Troupe (190 pts)
+• 1x Lead Player
+    • 1x Power sword
+    • 1x Fusion Pistol
+• 3x Player with Harlequin's Blade
+    • 3x Harlequin's Blade
+    • 3x Shuriken Pistol
+• 4x Player with Neuro Disruptor
+    • 4x Neuro Disruptor
+    • 4x Harlequin's Blade
+• 3x Player with Fusion Pistol
+    • 3x Fusion Pistol
+    • 3x Harlequin's Blade
+
+Warlock Conclave (55 pts)
+• 2x Warlock with Singing Spear
+    • 2x Destructor
+    • 2x Shuriken Pistol
+    • 2x Singing Spear
+
+undefined

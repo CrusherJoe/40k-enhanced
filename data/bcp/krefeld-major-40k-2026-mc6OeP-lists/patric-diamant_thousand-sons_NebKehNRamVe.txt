@@ -1,0 +1,59 @@
+# Patric Diamant | Thousand Sons | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/NebKehNRamVe  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Thousand Sons
++ DETACHMENT: Grand Coven (Kindred Sorcery)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char1: Magnus the Red
++ ENHANCEMENT: Eldritch Vortex of E'taph (on Char2: Daemon Prince of Tzeentch with wings)
+& Umbralefic Crystal (on Char4: Sorcerer in Terminator Armour)
++ NUMBER OF UNITS: 11
++ SECONDARY: - Bring It Down: (1x2) + (1x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Daemon Prince of Tzeentch with wings (205 pts): Dark Blessing, Hellforged weapons, Infernal cannon
+Enhancement: Eldritch Vortex of E'taph (+35 pts)
+Char1: 1x Magnus the Red (455 pts): Warlord, Blade of Magnus, Gaze of Magnus, Tzeentch's Firestorm
+Char3: 1x Sorcerer (85 pts): Force weapon, Inferno bolt pistol, Pandaemonic Delusion
+Char4: 1x Sorcerer in Terminator Armour (115 pts): Force weapon, Gaze of Hate, Inferno combi-bolter
+Enhancement: Umbralefic Crystal (+20 pts)
+Char5: 1x Sorcerer in Terminator Armour (95 pts): Force weapon, Gaze of Hate, Inferno combi-bolter
+
+5x Rubric Marines (100 pts)
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Inferno bolt pistol
+• 4x Rubric Marine: 4 with Close combat weapon, Inferno boltgun
+ - char 3
+
+10x Scarab Occult Terminators (385 pts)
+• 9x Scarab Occult Terminator
+    5 with Inferno combi-bolter, Prosperine khopesh
+    2 with Inferno combi-bolter, Prosperine khopesh, Hellfyre missile rack
+    2 with Prosperine khopesh, Soulreaper cannon
+• 1x Scarab Occult Sorcerer: Force weapon, Malefic Curse, Inferno combi-bolter
+-char 4
+
+
+10x Scarab Occult Terminators (385 pts)
+• 9x Scarab Occult Terminator
+    5 with Inferno combi-bolter, Prosperine khopesh
+    2 with Inferno combi-bolter, Prosperine khopesh, Hellfyre missile rack
+    2 with Prosperine khopesh, Soulreaper cannon
+• 1x Scarab Occult Sorcerer: Force weapon, Malefic Curse, Inferno combi-bolter
+-char5
+
+
+
+3x Tzaangor Enlightened with Fatecaster greatbows (55 pts)
+• 1x Aviarch: Close combat weapon, Fatecaster greatbow
+• 2x Enlightened: 2 with Close combat weapon, Fatecaster greatbow
+3x Tzaangor Enlightened with Fatecaster greatbows (55 pts)
+• 1x Aviarch: Close combat weapon, Fatecaster greatbow
+• 2x Enlightened: 2 with Close combat weapon, Fatecaster greatbow
+3x Tzaangor Enlightened with Fatecaster greatbows (55 pts)
+• 1x Aviarch: Close combat weapon, Fatecaster greatbow
+• 2x Enlightened: 2 with Close combat weapon, Fatecaster greatbow
+
+undefined

@@ -1,0 +1,97 @@
+# Sam Gingrich | Necrons | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/ZkvKLPzSKBi3  status=passed
+
+Conky Kong (1995 points)
+
+Necrons
+Strike Force (2000 points)
+Cryptek Conclave and Hand of the Dynasty (3 Detachment Points)
+Take and Hold
+
+Attached Units
+Attached Unit 1
+
+Technomancer (90 points)
+• Attached as: Support (Character)
+  • Warlord
+  • 1x Staff of light
+  • Enhancement: Atomic Disintegrators
+
+Canoptek Wraiths (220 points)
+• Attached as: Bodyguard
+  • 6x Canoptek Wraith
+    • 6x Particle caster
+      6x Vicious claws
+
+Attached Unit 2
+
+Psychomancer (70 points)
+• Attached as: Support (Character)
+  • 1x Abyssal lance
+  • Enhancement: Quantum Abacus
+
+Necron Warriors (80 points)
+• Attached as: Bodyguard (Battleline)
+  • 10x Necron Warrior
+    • 10x Close combat weapon
+      10x Gauss reaper
+
+
+CHARACTERS
+
+C’tan Shard of the Nightbringer (360 points)
+  • 1x Gaze of death
+    1x Scythe of the Nightbringer
+
+C’tan Shard of the Void Dragon (345 points)
+  • 1x Canoptek tail blades
+    1x Spear of the Void Dragon
+    1x Voltaic storm
+
+
+BATTLELINE
+
+Necron Warriors (100 points)
+  • 10x Necron Warrior
+    • 10x Close combat weapon
+      10x Gauss reaper
+    • Enhancement: Enlivened Sentinels (Upgrade)
+
+Necron Warriors (80 points)
+  • 10x Necron Warrior
+    • 10x Close combat weapon
+      10x Gauss reaper
+
+
+OTHER DATASHEETS
+
+Doomsday Ark (210 points)
+  • 1x Armoured bulk
+    1x Doomsday cannon
+    2x Gauss flayer array
+
+Ophydian Destroyers (80 points)
+  • 3x Ophydian Destroyer
+    • 3x Ophydian hyperphase weapons
+      1x Plasmacyte
+
+Tomb Blades (140 points)
+  • 6x Tomb Blade
+    • 6x Close combat weapon
+      6x Nebuloscope
+      6x Particle beamer
+
+Tomb Blades (140 points)
+  • 6x Tomb Blade
+    • 6x Close combat weapon
+      6x Nebuloscope
+      6x Particle beamer
+
+Triarch Praetorians (80 points)
+  • 5x Triarch Praetorian
+    • 5x Particle caster
+      5x Voidblade
+
+Exported with App Version: v2.2.0 (135), Data Version: v909
+
+undefined

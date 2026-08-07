@@ -1,0 +1,84 @@
+# Brandon Owens | Deathwatch | Reconnaissance | team=2D6 Penetration
+# list: https://www.bestcoastpairings.com/list/tXUHEtkXlg7O  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Deathwatch
++ DETACHMENT: Bastion Task Force, Librarius Conclave (Interlocking Tactics)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char3: Librarian in Terminator Armour
++ ENHANCEMENT: Prescience (on Char1: Librarian)
+& Blades of Valour (on Char2: Librarian)
+& Temporal Corridor (on Char3: Librarian in Terminator Armour)
+& Hero of the Chapter (on Char4: Librarian in Terminator Armour)
++ NUMBER OF UNITS: 18
++ SECONDARY: - Bring It Down: (2x2) - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Librarian (90 pts): Bolt pistol, Force weapon, Smite ATTACHED: deathwatch veterans 1
+Enhancement: Prescience (+20 pts)
+Char2: 1x Librarian (85 pts): Bolt pistol, Force weapon,ATTACHED: deathwatch veterans 2
+Enhancement: Blades of Valour (+15 pts)
+Char3: 1x Librarian in Terminator Armour (100 pts): Warlord, Force weapon, Smite, Combi-weapon ATTACHED: deathwatch terminators 1
+Enhancement: Temporal Corridor (+25 pts)
+Char4: 1x Librarian in Terminator Armour (95 pts): Force weapon, Smite, Combi-weapon ATTACHED: deathwatch terminators 2
+Enhancement: Hero of the Chapter (+20 pts)
+Char5: 1x Lieutenant with Combi-weapon (95 pts): Combi-weapon, Paired Combat Blades
+
+10x Deathwatch Veterans (190 pts)
+• 9x Veteran
+    3 with Astartes shield, Power weapon
+    2 with Boltgun, Power weapon
+    4 with Deathwatch thunder hammer
+• 1x Sgt: Astartes shield, Xenophase blade
+10x Deathwatch Veterans (190 pts)
+• 9x Veteran
+    3 with Astartes shield, Power weapon
+    2 with Boltgun, Power weapon
+    4 with Deathwatch thunder hammer
+• 1x Sgt: Astartes shield, Xenophase blade
+5x Intercessor Squad (80 pts)
+• 4x Intercessor
+    3 with Bolt pistol, Bolt Rifle, Close combat weapon
+    1 with Astartes grenade launcher, Bolt pistol, Bolt Rifle, Close combat weapon
+• 1x Intercessor Sergeant: Bolt pistol, Bolt Rifle, Thunder Hammer
+5x Intercessor Squad (80 pts)
+• 4x Intercessor
+    3 with Bolt pistol, Bolt Rifle, Close combat weapon
+    1 with Astartes grenade launcher, Bolt pistol, Bolt Rifle, Close combat weapon
+• 1x Intercessor Sergeant: Bolt pistol, Bolt Rifle, Thunder Hammer
+5x Intercessor Squad (80 pts)
+• 4x Intercessor
+    3 with Bolt pistol, Bolt Rifle, Close combat weapon
+    1 with Astartes grenade launcher, Bolt pistol, Bolt Rifle, Close combat weapon
+• 1x Intercessor Sergeant: Bolt pistol, Bolt Rifle, Power fist
+
+5x Assault Intercessors with Jump Packs (85 pts)
+• 4x Assault Intercessors with Jump Pack
+    3 with Astartes Chainsword, Heavy Bolt Pistol
+    1 with Astartes Chainsword, Plasma pistol
+• 1x Assault Intercessor Sergeant with Jump Pack: Plasma pistol, Power fist
+Char6: 1x Callidus Assassin (100 pts): Neural shredder, Phase sword and poison blades
+5x Deathwatch Terminator Squad (180 pts)
+• 4x Deathwatch Terminator
+    1 with Power Fist, Storm Bolter
+    3 with Cyclone missile launcher, Power fist, Storm bolter
+• 1x Deathwatch Terminator Sergeant: Power Fist, Storm Bolter
+5x Deathwatch Terminator Squad (180 pts)
+• 4x Deathwatch Terminator
+    1 with Power Fist, Storm Bolter
+    3 with Cyclone missile launcher, Power fist, Storm bolter
+• 1x Deathwatch Terminator Sergeant: Power Fist, Storm Bolter
+3x Inceptor Squad (125 pts)
+• 2x Inceptor: 2 with Close combat weapon, Plasma Exterminators
+• 1x Inceptor Sergeant: Close combat weapon, Plasma Exterminators
+5x Infiltrator Squad (110 pts)
+• 4x Infiltrator
+    3 with Bolt pistol, Close combat weapon, Marksman Bolt Carbine
+    1 with Helix Gauntlet, Bolt pistol, Close combat weapon, Marksman Bolt Carbine
+• 1x Infiltrator Sergeant: Bolt pistol, Close combat weapon, Marksman Bolt Carbine
+1x Rhino (65 pts): Armoured Tracks, Hunter-killer missile, Storm bolter
+1x Rhino (65 pts): Armoured Tracks, Hunter-killer missile, Storm bolter
+
+undefined

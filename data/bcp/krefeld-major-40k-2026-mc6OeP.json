@@ -1,0 +1,1252 @@
+{
+ "event": {
+  "id": "mc6OePDgNCqX",
+  "name": "KREFELD MAJOR 40k 2026",
+  "totalPlayers": 138,
+  "eventDate": "2026-08-01T06:30:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Max De kock",
+   "faction": "Grey Knights",
+   "detachment": "Take and Hold",
+   "team": "Tin Soldiers of Antwerp",
+   "dropped": false,
+   "listId": "TDGI0iX9L92h",
+   "listUrl": "https://www.bestcoastpairings.com/list/TDGI0iX9L92h"
+  },
+  {
+   "name": "Noah Diels",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Tin Soldiers of Antwerp",
+   "dropped": false,
+   "listId": "GFfJZ0Re9GaS",
+   "listUrl": "https://www.bestcoastpairings.com/list/GFfJZ0Re9GaS"
+  },
+  {
+   "name": "Andreas Schrade",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "HQ D\u00fcsseldorf e.V.",
+   "dropped": false,
+   "listId": "vEyQXVKIKIZC",
+   "listUrl": "https://www.bestcoastpairings.com/list/vEyQXVKIKIZC"
+  },
+  {
+   "name": "Moritz Pollok",
+   "faction": "Chaos Space Marines",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "l9G63xktjWEA",
+   "listUrl": "https://www.bestcoastpairings.com/list/l9G63xktjWEA"
+  },
+  {
+   "name": "lorenzo Tedesco",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": true,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Arne Kn\u00f6rck",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Steven De Regter",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "Tin Soldiers of Antwerp",
+   "dropped": false,
+   "listId": "sNIjDNiX8frr",
+   "listUrl": "https://www.bestcoastpairings.com/list/sNIjDNiX8frr"
+  },
+  {
+   "name": "Patrick J\u00e4ger",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Table Knights Niederrhein e.V.",
+   "dropped": false,
+   "listId": "ah63fWtMlh4V",
+   "listUrl": "https://www.bestcoastpairings.com/list/ah63fWtMlh4V"
+  },
+  {
+   "name": "Douwe Borg",
+   "faction": "Chaos Knights",
+   "detachment": "Priority Assets",
+   "team": "LMG",
+   "dropped": false,
+   "listId": "5mQDHPnG4IYs",
+   "listUrl": "https://www.bestcoastpairings.com/list/5mQDHPnG4IYs"
+  },
+  {
+   "name": "Alex NiceTry M\u00fcller",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Drunken Dwarfs Duisburg",
+   "dropped": false,
+   "listId": "vUTthP8zQ2Ed",
+   "listUrl": "https://www.bestcoastpairings.com/list/vUTthP8zQ2Ed"
+  },
+  {
+   "name": "Kevin Guennemann",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": "Table Knights Niederrhein e.V.",
+   "dropped": false,
+   "listId": "hdHlGbo9SfeJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/hdHlGbo9SfeJ"
+  },
+  {
+   "name": "Tommy Cahsella",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Fight First Club",
+   "dropped": false,
+   "listId": "DXCUYKTFNS8W",
+   "listUrl": "https://www.bestcoastpairings.com/list/DXCUYKTFNS8W"
+  },
+  {
+   "name": "Bjoern Tschuk",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "fMETP2dNYTkV",
+   "listUrl": "https://www.bestcoastpairings.com/list/fMETP2dNYTkV"
+  },
+  {
+   "name": "Florian  Lindt",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Drunken Dwarfs Duisburg",
+   "dropped": false,
+   "listId": "OlaxL77xPPPe",
+   "listUrl": "https://www.bestcoastpairings.com/list/OlaxL77xPPPe"
+  },
+  {
+   "name": "Lana Merbach",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "XidsFu3gfKM4",
+   "listUrl": "https://www.bestcoastpairings.com/list/XidsFu3gfKM4"
+  },
+  {
+   "name": "Bjoern Van Rode",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": "Drunken Dwarfs Duisburg",
+   "dropped": false,
+   "listId": "fJOWHjcPKXsS",
+   "listUrl": "https://www.bestcoastpairings.com/list/fJOWHjcPKXsS"
+  },
+  {
+   "name": "Lucia Linke",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Bergische Spielkultur",
+   "dropped": false,
+   "listId": "C1DQPxNXhaWu",
+   "listUrl": "https://www.bestcoastpairings.com/list/C1DQPxNXhaWu"
+  },
+  {
+   "name": "Kevin Vogelsang",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "x8NfYjLIiYHK",
+   "listUrl": "https://www.bestcoastpairings.com/list/x8NfYjLIiYHK"
+  },
+  {
+   "name": "Pierre Debey",
+   "faction": "Chaos Space Marines",
+   "detachment": "Take and Hold",
+   "team": "LyS",
+   "dropped": false,
+   "listId": "7FzfaOEsLlj3",
+   "listUrl": "https://www.bestcoastpairings.com/list/7FzfaOEsLlj3"
+  },
+  {
+   "name": "Bjarne G\u00f6bel",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "Rheinhammer",
+   "dropped": true,
+   "listId": "049axOR3USVk",
+   "listUrl": "https://www.bestcoastpairings.com/list/049axOR3USVk"
+  },
+  {
+   "name": "Martijn Versteeg",
+   "faction": "Chaos Space Marines",
+   "detachment": "Reconnaissance",
+   "team": "Hellstorm Wargaming",
+   "dropped": false,
+   "listId": "83SyIycQtp2A",
+   "listUrl": "https://www.bestcoastpairings.com/list/83SyIycQtp2A"
+  },
+  {
+   "name": "Patric Diamant",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "NebKehNRamVe",
+   "listUrl": "https://www.bestcoastpairings.com/list/NebKehNRamVe"
+  },
+  {
+   "name": "Lennart Graubaum",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Always (Try)Hard",
+   "dropped": false,
+   "listId": "XvnkOEJjxdyr",
+   "listUrl": "https://www.bestcoastpairings.com/list/XvnkOEJjxdyr"
+  },
+  {
+   "name": "Marcel Arend",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "eq0eFKFs73J6",
+   "listUrl": "https://www.bestcoastpairings.com/list/eq0eFKFs73J6"
+  },
+  {
+   "name": "Christian Louis",
+   "faction": "World Eaters",
+   "detachment": "Take and Hold",
+   "team": "Team Battleshocked",
+   "dropped": false,
+   "listId": "mVzSr29FrZyq",
+   "listUrl": "https://www.bestcoastpairings.com/list/mVzSr29FrZyq"
+  },
+  {
+   "name": "Piet Walter",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "KSG Essen",
+   "dropped": false,
+   "listId": "9nHID95qLmMV",
+   "listUrl": "https://www.bestcoastpairings.com/list/9nHID95qLmMV"
+  },
+  {
+   "name": "Andy Jespersen",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "Nx2ceEJluy86",
+   "listUrl": "https://www.bestcoastpairings.com/list/Nx2ceEJluy86"
+  },
+  {
+   "name": "Jonas Speckmann",
+   "faction": "Death Guard",
+   "detachment": "Priority Assets",
+   "team": "Trollhammer Tournament Crew",
+   "dropped": false,
+   "listId": "XogT6muzCKIr",
+   "listUrl": "https://www.bestcoastpairings.com/list/XogT6muzCKIr"
+  },
+  {
+   "name": "Jan Bormann",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "Table Knights Niederrhein e.V.",
+   "dropped": false,
+   "listId": "vR0RD5kkgWkX",
+   "listUrl": "https://www.bestcoastpairings.com/list/vR0RD5kkgWkX"
+  },
+  {
+   "name": "Tobias Lindenberg",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Grotkickaz",
+   "dropped": false,
+   "listId": "3bUF3q3ZChsT",
+   "listUrl": "https://www.bestcoastpairings.com/list/3bUF3q3ZChsT"
+  },
+  {
+   "name": "Sebastian Meyers",
+   "faction": "Aeldari",
+   "detachment": "Disruption",
+   "team": "Team Battleshocked",
+   "dropped": false,
+   "listId": "EHitHG3VKbBi",
+   "listUrl": "https://www.bestcoastpairings.com/list/EHitHG3VKbBi"
+  },
+  {
+   "name": "Christoph Holtstr\u00e4ter",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "5Gd0ocHGKJiT",
+   "listUrl": "https://www.bestcoastpairings.com/list/5Gd0ocHGKJiT"
+  },
+  {
+   "name": "Lars B\u00fcnning",
+   "faction": "Genestealer Cult",
+   "detachment": "Take and Hold",
+   "team": "Elbcoast Gaming",
+   "dropped": false,
+   "listId": "xVUElGcbsnwT",
+   "listUrl": "https://www.bestcoastpairings.com/list/xVUElGcbsnwT"
+  },
+  {
+   "name": "Pascal Semmler",
+   "faction": "Imperial Agents",
+   "detachment": "Reconnaissance",
+   "team": "Drunken Dwarfs Duisburg",
+   "dropped": false,
+   "listId": "XaNHO6AEOSy4",
+   "listUrl": "https://www.bestcoastpairings.com/list/XaNHO6AEOSy4"
+  },
+  {
+   "name": "Frank Luetke-Strakoetter",
+   "faction": "Grey Knights",
+   "detachment": "Take and Hold",
+   "team": "GT-Battlezone",
+   "dropped": false,
+   "listId": "yT4aMUjfrOGK",
+   "listUrl": "https://www.bestcoastpairings.com/list/yT4aMUjfrOGK"
+  },
+  {
+   "name": "Kai Redepenning",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "Table Knights Niederrhein e.V.",
+   "dropped": false,
+   "listId": "NblL28UxDytV",
+   "listUrl": "https://www.bestcoastpairings.com/list/NblL28UxDytV"
+  },
+  {
+   "name": "Thomas Kloster Nielsen",
+   "faction": "T'au Empire",
+   "detachment": "Reconnaissance",
+   "team": "Dukkelogen",
+   "dropped": false,
+   "listId": "7kAOuShNecQI",
+   "listUrl": "https://www.bestcoastpairings.com/list/7kAOuShNecQI"
+  },
+  {
+   "name": "Kristian Fjeldberg",
+   "faction": "Chaos Space Marines",
+   "detachment": "Take and Hold",
+   "team": "Dukkelogen",
+   "dropped": false,
+   "listId": "QJnFemDtV4fa",
+   "listUrl": "https://www.bestcoastpairings.com/list/QJnFemDtV4fa"
+  },
+  {
+   "name": "Joshua Poch",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": "Dukkelogen",
+   "dropped": false,
+   "listId": "UxqT3p5XlxUF",
+   "listUrl": "https://www.bestcoastpairings.com/list/UxqT3p5XlxUF"
+  },
+  {
+   "name": "Sebastian Koch",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "HxI2gkn4QKUN",
+   "listUrl": "https://www.bestcoastpairings.com/list/HxI2gkn4QKUN"
+  },
+  {
+   "name": "Stephan Rybold",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "43EtpiIeCQu4",
+   "listUrl": "https://www.bestcoastpairings.com/list/43EtpiIeCQu4"
+  },
+  {
+   "name": "Simon H",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": "Bergische Spielkultur",
+   "dropped": false,
+   "listId": "Hd7yZWuHI3qb",
+   "listUrl": "https://www.bestcoastpairings.com/list/Hd7yZWuHI3qb"
+  },
+  {
+   "name": "Daniel Umlauf",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "TTC Die Schwerter",
+   "dropped": false,
+   "listId": "AwRoT0eeE7g8",
+   "listUrl": "https://www.bestcoastpairings.com/list/AwRoT0eeE7g8"
+  },
+  {
+   "name": "Niklas Schmitz",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "OSxfUlGZYalt",
+   "listUrl": "https://www.bestcoastpairings.com/list/OSxfUlGZYalt"
+  },
+  {
+   "name": "Bill Inglis",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "Doppel Eins",
+   "dropped": false,
+   "listId": "m1nsvtIYSQjp",
+   "listUrl": "https://www.bestcoastpairings.com/list/m1nsvtIYSQjp"
+  },
+  {
+   "name": "Konstantin Schnettler",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "N4R5PN162bas",
+   "listUrl": "https://www.bestcoastpairings.com/list/N4R5PN162bas"
+  },
+  {
+   "name": "Markus Prim",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "cy85OIn0uuPd",
+   "listUrl": "https://www.bestcoastpairings.com/list/cy85OIn0uuPd"
+  },
+  {
+   "name": "Jarno Van Herreweghe",
+   "faction": "Necrons",
+   "detachment": "Disruption",
+   "team": "WCG",
+   "dropped": false,
+   "listId": "HOYtIlLp8mbx",
+   "listUrl": "https://www.bestcoastpairings.com/list/HOYtIlLp8mbx"
+  },
+  {
+   "name": "Maximilian M\u00fcller",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "dt3OvXXoZozE",
+   "listUrl": "https://www.bestcoastpairings.com/list/dt3OvXXoZozE"
+  },
+  {
+   "name": "Thilo Preissinger",
+   "faction": "Emperor's Children",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "Z634QQkQvTaY",
+   "listUrl": "https://www.bestcoastpairings.com/list/Z634QQkQvTaY"
+  },
+  {
+   "name": "Daniel P",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "TGM",
+   "dropped": false,
+   "listId": "DJnOpsaQhVoR",
+   "listUrl": "https://www.bestcoastpairings.com/list/DJnOpsaQhVoR"
+  },
+  {
+   "name": "S\u00f6ren Gr\u00fctzmacher",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "obJvjluIIqZV",
+   "listUrl": "https://www.bestcoastpairings.com/list/obJvjluIIqZV"
+  },
+  {
+   "name": "Matthias Sch\u00fcrmann",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "aGeP92LnXpV9",
+   "listUrl": "https://www.bestcoastpairings.com/list/aGeP92LnXpV9"
+  },
+  {
+   "name": "Torben Thiel",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "LyS",
+   "dropped": false,
+   "listId": "j3QT19frR52n",
+   "listUrl": "https://www.bestcoastpairings.com/list/j3QT19frR52n"
+  },
+  {
+   "name": "Felix Fischenich",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "pQRT0SK3umYt",
+   "listUrl": "https://www.bestcoastpairings.com/list/pQRT0SK3umYt"
+  },
+  {
+   "name": "Christian Holtzheimer",
+   "faction": "Chaos Knights",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "vpHgccXCWFfg",
+   "listUrl": "https://www.bestcoastpairings.com/list/vpHgccXCWFfg"
+  },
+  {
+   "name": "Ben Hackl\u00e4nder",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "German Major Series",
+   "dropped": false,
+   "listId": "heaO7Y85Z2vV",
+   "listUrl": "https://www.bestcoastpairings.com/list/heaO7Y85Z2vV"
+  },
+  {
+   "name": "Sebastian Bleth",
+   "faction": "Deathwatch",
+   "detachment": "Purge the Foe",
+   "team": "Team HobbyHotel",
+   "dropped": false,
+   "listId": "zpsUBqmr0Qwr",
+   "listUrl": "https://www.bestcoastpairings.com/list/zpsUBqmr0Qwr"
+  },
+  {
+   "name": "Chris Meyer",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "fEiYoP7X01Hi",
+   "listUrl": "https://www.bestcoastpairings.com/list/fEiYoP7X01Hi"
+  },
+  {
+   "name": "Sebastian Ruehling",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": "TTC Die Schwerter",
+   "dropped": false,
+   "listId": "bCkDeAUfJIQ5",
+   "listUrl": "https://www.bestcoastpairings.com/list/bCkDeAUfJIQ5"
+  },
+  {
+   "name": "Philipp Bonin",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "FNP7+",
+   "dropped": false,
+   "listId": "8J3PfNeB79fn",
+   "listUrl": "https://www.bestcoastpairings.com/list/8J3PfNeB79fn"
+  },
+  {
+   "name": "Guillaume \"Razorix\" Buchkremer",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "BelReg",
+   "dropped": false,
+   "listId": "0AXfIafaoFmy",
+   "listUrl": "https://www.bestcoastpairings.com/list/0AXfIafaoFmy"
+  },
+  {
+   "name": "Gunnar Radtke",
+   "faction": "Chaos Daemons",
+   "detachment": "Take and Hold",
+   "team": "FNP7+",
+   "dropped": false,
+   "listId": "eZBf7uJIGzDf",
+   "listUrl": "https://www.bestcoastpairings.com/list/eZBf7uJIGzDf"
+  },
+  {
+   "name": "Markus Winke",
+   "faction": "World Eaters",
+   "detachment": "Priority Assets",
+   "team": "TMW",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Daniel Sturm",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "p2RFKRkgHt6Y",
+   "listUrl": "https://www.bestcoastpairings.com/list/p2RFKRkgHt6Y"
+  },
+  {
+   "name": "Werner M\u00fcnch",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "TTC Die Schwerter",
+   "dropped": false,
+   "listId": "6Of1DIOYkvlk",
+   "listUrl": "https://www.bestcoastpairings.com/list/6Of1DIOYkvlk"
+  },
+  {
+   "name": "Patrick Schmitt",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Bembel und Bolter",
+   "dropped": false,
+   "listId": "deItuG8Q324i",
+   "listUrl": "https://www.bestcoastpairings.com/list/deItuG8Q324i"
+  },
+  {
+   "name": "dennis minkley",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": "Die W\u00fcrfelg\u00f6tter",
+   "dropped": false,
+   "listId": "pdathPSkrb50",
+   "listUrl": "https://www.bestcoastpairings.com/list/pdathPSkrb50"
+  },
+  {
+   "name": "Thomas Gillen",
+   "faction": "Astra Militarum",
+   "detachment": "Purge the Foe",
+   "team": "Big Trouble Maker",
+   "dropped": true,
+   "listId": "NPHJEWQ1pogX",
+   "listUrl": "https://www.bestcoastpairings.com/list/NPHJEWQ1pogX"
+  },
+  {
+   "name": "Maximilian Meisse",
+   "faction": "Chaos Space Marines",
+   "detachment": "Reconnaissance",
+   "team": "FNP7+",
+   "dropped": false,
+   "listId": "cXfUT8Mm6wMm",
+   "listUrl": "https://www.bestcoastpairings.com/list/cXfUT8Mm6wMm"
+  },
+  {
+   "name": "Florian Klinke",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "AGCcVszcfsvM",
+   "listUrl": "https://www.bestcoastpairings.com/list/AGCcVszcfsvM"
+  },
+  {
+   "name": "Mathieu Clerc",
+   "faction": "Leagues of Votann",
+   "detachment": "Purge the Foe",
+   "team": "LyS",
+   "dropped": false,
+   "listId": "NjlNPYCcLGcs",
+   "listUrl": "https://www.bestcoastpairings.com/list/NjlNPYCcLGcs"
+  },
+  {
+   "name": "Luis Cabrera",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Hessenhammer Tabletop",
+   "dropped": false,
+   "listId": "1YE4fTtqSHn6",
+   "listUrl": "https://www.bestcoastpairings.com/list/1YE4fTtqSHn6"
+  },
+  {
+   "name": "Marc Stiebe",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Team Deformierte Krokette",
+   "dropped": false,
+   "listId": "xs5jHrgtJsbZ",
+   "listUrl": "https://www.bestcoastpairings.com/list/xs5jHrgtJsbZ"
+  },
+  {
+   "name": "Reemt Kr\u00f6ger",
+   "faction": "Astra Militarum",
+   "detachment": "Purge the Foe",
+   "team": "Team Deformierte Krokette",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Mads Gram",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "Dukkelogen",
+   "dropped": false,
+   "listId": "Xe0orrrVMYYS",
+   "listUrl": "https://www.bestcoastpairings.com/list/Xe0orrrVMYYS"
+  },
+  {
+   "name": "Mario Titz",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "atcRe0dkKm60",
+   "listUrl": "https://www.bestcoastpairings.com/list/atcRe0dkKm60"
+  },
+  {
+   "name": "Patrick Meyers",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Team Battleshocked",
+   "dropped": false,
+   "listId": "R1mmw7SyVGWo",
+   "listUrl": "https://www.bestcoastpairings.com/list/R1mmw7SyVGWo"
+  },
+  {
+   "name": "Iggy Biegler",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "Bergische Spielkultur",
+   "dropped": false,
+   "listId": "nR0PG8JvDzuo",
+   "listUrl": "https://www.bestcoastpairings.com/list/nR0PG8JvDzuo"
+  },
+  {
+   "name": "Tim Schlizio",
+   "faction": "Genestealer Cult",
+   "detachment": null,
+   "team": "Bergische Spielkultur",
+   "dropped": false,
+   "listId": "U5aIlmIPoEJk",
+   "listUrl": "https://www.bestcoastpairings.com/list/U5aIlmIPoEJk"
+  },
+  {
+   "name": "Marcel Kott",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Bergische Spielkultur",
+   "dropped": true,
+   "listId": "0S1xgm9tpflb",
+   "listUrl": "https://www.bestcoastpairings.com/list/0S1xgm9tpflb"
+  },
+  {
+   "name": "Chris Buchen",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Elbcoast Gaming",
+   "dropped": false,
+   "listId": "Tfvc6qXZDR0e",
+   "listUrl": "https://www.bestcoastpairings.com/list/Tfvc6qXZDR0e"
+  },
+  {
+   "name": "Martin Inglis",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "Doppel-Eins",
+   "dropped": false,
+   "listId": "K7xJRM5m06yP",
+   "listUrl": "https://www.bestcoastpairings.com/list/K7xJRM5m06yP"
+  },
+  {
+   "name": "kai hirschberg",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Doppel-Eins",
+   "dropped": false,
+   "listId": "eUzZggZwmtu4",
+   "listUrl": "https://www.bestcoastpairings.com/list/eUzZggZwmtu4"
+  },
+  {
+   "name": "Martin Anders",
+   "faction": "Orks",
+   "detachment": "Priority Assets",
+   "team": "Team Lurch",
+   "dropped": false,
+   "listId": "eYbXLqJRcRG9",
+   "listUrl": "https://www.bestcoastpairings.com/list/eYbXLqJRcRG9"
+  },
+  {
+   "name": "Michael G\u00f6ke",
+   "faction": "Orks",
+   "detachment": null,
+   "team": "Always (Try)Hard",
+   "dropped": false,
+   "listId": "1HsOP34Myt4F",
+   "listUrl": "https://www.bestcoastpairings.com/list/1HsOP34Myt4F"
+  },
+  {
+   "name": "Rolf Sch",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance",
+   "team": "Battleready 3000",
+   "dropped": false,
+   "listId": "b0DYAG8dWmHI",
+   "listUrl": "https://www.bestcoastpairings.com/list/b0DYAG8dWmHI"
+  },
+  {
+   "name": "Moritz Hamacher",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "RNiLKBdqwMEN",
+   "listUrl": "https://www.bestcoastpairings.com/list/RNiLKBdqwMEN"
+  },
+  {
+   "name": "Zeus Great",
+   "faction": "Chaos Space Marines",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "IiED2l2i1z7l",
+   "listUrl": "https://www.bestcoastpairings.com/list/IiED2l2i1z7l"
+  },
+  {
+   "name": "Franciszek Franko",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Herejaibas",
+   "dropped": false,
+   "listId": "GLPQMMkOzWRj",
+   "listUrl": "https://www.bestcoastpairings.com/list/GLPQMMkOzWRj"
+  },
+  {
+   "name": "Fabian Bader",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "German Major Series",
+   "dropped": true,
+   "listId": "Wz63TrjqMEuQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/Wz63TrjqMEuQ"
+  },
+  {
+   "name": "Marius Puchinger",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "Hessenhammer Tabletop",
+   "dropped": false,
+   "listId": "NdvqZdw6TTtn",
+   "listUrl": "https://www.bestcoastpairings.com/list/NdvqZdw6TTtn"
+  },
+  {
+   "name": "Fabian Hinze",
+   "faction": "Death Guard",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "FNkwxiufyT5w",
+   "listUrl": "https://www.bestcoastpairings.com/list/FNkwxiufyT5w"
+  },
+  {
+   "name": "Alexander Probst",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "FNP7+",
+   "dropped": false,
+   "listId": "lbF3Iy2JLJVb",
+   "listUrl": "https://www.bestcoastpairings.com/list/lbF3Iy2JLJVb"
+  },
+  {
+   "name": "Nikolai Stocks",
+   "faction": "Grey Knights",
+   "detachment": "Priority Assets",
+   "team": "Chemnitz Tabletop Club",
+   "dropped": false,
+   "listId": "V34C2M6iiC7c",
+   "listUrl": "https://www.bestcoastpairings.com/list/V34C2M6iiC7c"
+  },
+  {
+   "name": "Matthias Bellmann",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": "Kings of the Hill",
+   "dropped": false,
+   "listId": "KlWPBnwDrZXM",
+   "listUrl": "https://www.bestcoastpairings.com/list/KlWPBnwDrZXM"
+  },
+  {
+   "name": "Thomas Buettelmann",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Kings of the Hill",
+   "dropped": false,
+   "listId": "AU9jFcsw6bAp",
+   "listUrl": "https://www.bestcoastpairings.com/list/AU9jFcsw6bAp"
+  },
+  {
+   "name": "Marco Nom De Plume",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "WfHwynk6z7UB",
+   "listUrl": "https://www.bestcoastpairings.com/list/WfHwynk6z7UB"
+  },
+  {
+   "name": "Christian  Wieting",
+   "faction": "Emperor's Children",
+   "detachment": "Purge the Foe",
+   "team": "Always (Try)Hard",
+   "dropped": false,
+   "listId": "fRVL5mHm6zPC",
+   "listUrl": "https://www.bestcoastpairings.com/list/fRVL5mHm6zPC"
+  },
+  {
+   "name": "Falco Gress",
+   "faction": "Necrons",
+   "detachment": "Priority Assets",
+   "team": "Elbcoast Gaming",
+   "dropped": false,
+   "listId": "tZDp5UBSnjGc",
+   "listUrl": "https://www.bestcoastpairings.com/list/tZDp5UBSnjGc"
+  },
+  {
+   "name": "Thomas Wuttig",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Team Battleshocked",
+   "dropped": false,
+   "listId": "dPxWQvUmz7ar",
+   "listUrl": "https://www.bestcoastpairings.com/list/dPxWQvUmz7ar"
+  },
+  {
+   "name": "Kaj Sollmann",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "r7P7OkH87maz",
+   "listUrl": "https://www.bestcoastpairings.com/list/r7P7OkH87maz"
+  },
+  {
+   "name": "Daniel Klammer",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": "Bembel und Bolter",
+   "dropped": false,
+   "listId": "q9C3mAKTwOGG",
+   "listUrl": "https://www.bestcoastpairings.com/list/q9C3mAKTwOGG"
+  },
+  {
+   "name": "Eike Jungen",
+   "faction": "Necrons",
+   "detachment": "Priority Assets",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "X3LV54OguRAG",
+   "listUrl": "https://www.bestcoastpairings.com/list/X3LV54OguRAG"
+  },
+  {
+   "name": "Philipp Wegener",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Grotkickaz",
+   "dropped": false,
+   "listId": "iozHcYbcJFMV",
+   "listUrl": "https://www.bestcoastpairings.com/list/iozHcYbcJFMV"
+  },
+  {
+   "name": "Jannik Wyrwich",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "RFEX4h3iGaAw",
+   "listUrl": "https://www.bestcoastpairings.com/list/RFEX4h3iGaAw"
+  },
+  {
+   "name": "Oliver Heinzen",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "BTTF",
+   "dropped": false,
+   "listId": "n5v6hxBwGANo",
+   "listUrl": "https://www.bestcoastpairings.com/list/n5v6hxBwGANo"
+  },
+  {
+   "name": "Sascha Prinz-Wagner",
+   "faction": "Emperor's Children",
+   "detachment": "Disruption",
+   "team": "Canes Belli",
+   "dropped": false,
+   "listId": "VIzBd4cI9R3y",
+   "listUrl": "https://www.bestcoastpairings.com/list/VIzBd4cI9R3y"
+  },
+  {
+   "name": "Marc Steinberg",
+   "faction": "Leagues of Votann",
+   "detachment": null,
+   "team": "Team HobbyHotel",
+   "dropped": false,
+   "listId": "yHgb9DOFZxQX",
+   "listUrl": "https://www.bestcoastpairings.com/list/yHgb9DOFZxQX"
+  },
+  {
+   "name": "Sebastian Schwarz",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "Mpkz498x8DmY",
+   "listUrl": "https://www.bestcoastpairings.com/list/Mpkz498x8DmY"
+  },
+  {
+   "name": "Giovanni Maddaloni",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Always (Try)Hard",
+   "dropped": false,
+   "listId": "hn03MrkMB31R",
+   "listUrl": "https://www.bestcoastpairings.com/list/hn03MrkMB31R"
+  },
+  {
+   "name": "Jan-Hagen Rath",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": "Elbcoast Gaming",
+   "dropped": false,
+   "listId": "sXq8hjppSN0p",
+   "listUrl": "https://www.bestcoastpairings.com/list/sXq8hjppSN0p"
+  },
+  {
+   "name": "Jannik Stahmer",
+   "faction": "Astra Militarum",
+   "detachment": "Reconnaissance",
+   "team": "Team Battleshocked",
+   "dropped": false,
+   "listId": "kWowGBBWXT0n",
+   "listUrl": "https://www.bestcoastpairings.com/list/kWowGBBWXT0n"
+  },
+  {
+   "name": "Alexander Wilhelmi",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "Nh86ROaezb8h",
+   "listUrl": "https://www.bestcoastpairings.com/list/Nh86ROaezb8h"
+  },
+  {
+   "name": "Michael Schwarz",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "KZB5L5aVkDaR",
+   "listUrl": "https://www.bestcoastpairings.com/list/KZB5L5aVkDaR"
+  },
+  {
+   "name": "Christian Matschke",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "Pathfinders Dortmund",
+   "dropped": false,
+   "listId": "ciS7Z5ApLuc6",
+   "listUrl": "https://www.bestcoastpairings.com/list/ciS7Z5ApLuc6"
+  },
+  {
+   "name": "Sascha Wack",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "Die W\u00fcrfelg\u00f6tter",
+   "dropped": false,
+   "listId": "31hLcbKVT5BJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/31hLcbKVT5BJ"
+  },
+  {
+   "name": "Dennis Gottschalk",
+   "faction": "Grey Knights",
+   "detachment": "Priority Assets",
+   "team": "Zugzwang",
+   "dropped": false,
+   "listId": "7x3RxAXtcjjB",
+   "listUrl": "https://www.bestcoastpairings.com/list/7x3RxAXtcjjB"
+  },
+  {
+   "name": "Jari Knudsen",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Privateer Poza Boyz",
+   "dropped": true,
+   "listId": "46BEa43NyDMR",
+   "listUrl": "https://www.bestcoastpairings.com/list/46BEa43NyDMR"
+  },
+  {
+   "name": "Felix Zunino",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "LyS",
+   "dropped": false,
+   "listId": "NbijgHd7v2Su",
+   "listUrl": "https://www.bestcoastpairings.com/list/NbijgHd7v2Su"
+  },
+  {
+   "name": "Schneider Julian",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Team HobbyHotel",
+   "dropped": false,
+   "listId": "LShFGLZhzGGk",
+   "listUrl": "https://www.bestcoastpairings.com/list/LShFGLZhzGGk"
+  },
+  {
+   "name": "Marcel Unterberg",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "fMjBN5P0ovco",
+   "listUrl": "https://www.bestcoastpairings.com/list/fMjBN5P0ovco"
+  },
+  {
+   "name": "Heiko Kerschnitzki",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "Dice & Duty",
+   "dropped": false,
+   "listId": "guEWz38u4RVd",
+   "listUrl": "https://www.bestcoastpairings.com/list/guEWz38u4RVd"
+  },
+  {
+   "name": "Dennis Fuhrmann",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": "Dice&Duty",
+   "dropped": false,
+   "listId": "XnLZlnXQqLLV",
+   "listUrl": "https://www.bestcoastpairings.com/list/XnLZlnXQqLLV"
+  },
+  {
+   "name": "Manuel K\u00fcpper",
+   "faction": "Emperor's Children",
+   "detachment": "Disruption",
+   "team": "Dice & Duty",
+   "dropped": false,
+   "listId": "Bb1K7p6zXHsK",
+   "listUrl": "https://www.bestcoastpairings.com/list/Bb1K7p6zXHsK"
+  },
+  {
+   "name": "Michael Gleich",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Team HobbyHotel",
+   "dropped": false,
+   "listId": "EHC10Q16DqoH",
+   "listUrl": "https://www.bestcoastpairings.com/list/EHC10Q16DqoH"
+  },
+  {
+   "name": "Michal Marczynski",
+   "faction": "Chaos Daemons",
+   "detachment": "Disruption",
+   "team": "HQ d\u00fcsseldorf",
+   "dropped": false,
+   "listId": "JdGp89R2QckG",
+   "listUrl": "https://www.bestcoastpairings.com/list/JdGp89R2QckG"
+  },
+  {
+   "name": "Tobias Moellmann",
+   "faction": "Blood Angels",
+   "detachment": "Priority Assets",
+   "team": "Fight First Club",
+   "dropped": false,
+   "listId": "VdI4OF2ncqoE",
+   "listUrl": "https://www.bestcoastpairings.com/list/VdI4OF2ncqoE"
+  },
+  {
+   "name": "Luca R\u00f6tting",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "HOtESRjWk26y",
+   "listUrl": "https://www.bestcoastpairings.com/list/HOtESRjWk26y"
+  },
+  {
+   "name": "Bastian Kry",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Zugzwang",
+   "dropped": false,
+   "listId": "oJknLK0RXQB8",
+   "listUrl": "https://www.bestcoastpairings.com/list/oJknLK0RXQB8"
+  },
+  {
+   "name": "Timo Breunig",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Bergische Spielkultur",
+   "dropped": true,
+   "listId": "kbpWboGomdgS",
+   "listUrl": "https://www.bestcoastpairings.com/list/kbpWboGomdgS"
+  },
+  {
+   "name": "Sebastian Mann",
+   "faction": "Chaos Knights",
+   "detachment": "Priority Assets",
+   "team": "Dicediele",
+   "dropped": false,
+   "listId": "iHHGBlJHg6OJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/iHHGBlJHg6OJ"
+  },
+  {
+   "name": "Keanu Br\u00c3\u00bcggemann",
+   "faction": "T'au Empire",
+   "detachment": "Reconnaissance",
+   "team": "Team Deformierte Krokette",
+   "dropped": false,
+   "listId": "d2pplZxK5wut",
+   "listUrl": "https://www.bestcoastpairings.com/list/d2pplZxK5wut"
+  },
+  {
+   "name": "Mi Wi",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": "DaConflict",
+   "dropped": false,
+   "listId": "iOx4Q8B4Qt5m",
+   "listUrl": "https://www.bestcoastpairings.com/list/iOx4Q8B4Qt5m"
+  },
+  {
+   "name": "Ruben Paul Goldmann",
+   "faction": "Dark Angels",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "WCUQS89p2ywG",
+   "listUrl": "https://www.bestcoastpairings.com/list/WCUQS89p2ywG"
+  },
+  {
+   "name": "Marco Jungclaus",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "Always (Try)Hard",
+   "dropped": false,
+   "listId": "gc7QkatF0iGD",
+   "listUrl": "https://www.bestcoastpairings.com/list/gc7QkatF0iGD"
+  },
+  {
+   "name": "Martin Niederstein",
+   "faction": "Leagues of Votann",
+   "detachment": "Take and Hold",
+   "team": "SiSu - Siegen Sustained",
+   "dropped": false,
+   "listId": "8jCsoIF6f43Z",
+   "listUrl": "https://www.bestcoastpairings.com/list/8jCsoIF6f43Z"
+  },
+  {
+   "name": "Justin Riedel",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "GMS - German Major Series",
+   "dropped": true,
+   "listId": "kEabgLjVInOp",
+   "listUrl": "https://www.bestcoastpairings.com/list/kEabgLjVInOp"
+  }
+ ]
+}

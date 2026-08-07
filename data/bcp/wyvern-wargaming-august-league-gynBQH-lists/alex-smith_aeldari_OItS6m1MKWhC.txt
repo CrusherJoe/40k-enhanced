@@ -1,0 +1,221 @@
+# Alex Smith | Aeldari | Reconnaissance | team=Wyvern Wargaming
+# list: https://www.bestcoastpairings.com/list/OItS6m1MKWhC  status=passed
+
+Discord: Gravebourne
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+List Name: Yohoho and a Bottle of Recon
+Factions Used: Asuryani
+Army Points: 2000
+Army Enhancements (list on which model): Webway Pathstone (on Corsair Voidreavers)
+Disposition: Reconnaissance
+Detachment(s): Armoured Warhost, Corsair Coterie
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ATTACHED UNITS:
+Kharseth + Corsair Voidreavers (175 pts)
+  Kharseth (85 pts)
+    • Dread of the Deep Void
+    • Waystave
+  Corsair Voidreavers (90 pts)
+    • Voidreaver Felarch
+      • Close Combat Weapon
+      • Mistshield
+      • Neuro disruptor
+      • Power sword
+    • Voidreaver with Blaster
+      • Blaster
+      • Close Combat Weapon
+      • Shuriken Pistol
+    • 3x Voidreaver with Shuriken rifle
+      • 3x Close Combat Weapon
+      • 3x Shuriken rifle
+    • Enhancement: Webway Pathstone
+
+Prince Yriel + Corsair Voidreavers (205 pts)
+  Prince Yriel (95 pts)
+    • Shuriken Pistol
+    • The Eye of Wrath
+    • The Spear of Twilight
+    • Warlord
+  Corsair Voidreavers (110 pts)
+    • Voidreaver Felarch
+      • Close Combat Weapon
+      • Mistshield
+      • Neuro disruptor
+      • Power sword
+    • 2x Voidreaver with Blaster
+      • 2x Blaster
+      • 2x Close Combat Weapon
+      • 2x Shuriken Pistol
+    • Voidreaver with Heavy weapon
+      • Close Combat Weapon
+      • Wraithcannon
+    • 6x Voidreaver with sword and pistol
+      • 6x Close Combat Weapon
+      • 6x Power sword
+      • 6x Shuriken Pistol
+
+Jain Zar + Howling Banshees (190 pts)
+  Jain Zar (105 pts)
+    • Silent Death
+    • The Blade of Destruction
+  Howling Banshees (85 pts)
+    • Aspect Shrine Token
+    • 4x Howling Banshee
+      • 4x Banshee Blade
+      • 4x Shuriken Pistol
+    • Howling Banshee Exarch
+      • Executioner and Shuriken Pistol
+        • Executioner
+        • Shuriken Pistol
+
+
+BATTLELINE:
+Corsair Voidreavers (65 pts)
+  • Voidreaver Felarch
+    • Close Combat Weapon
+    • Mistshield
+    • Neuro disruptor
+    • Power sword
+  • Voidreaver with Blaster
+    • Blaster
+    • Close Combat Weapon
+    • Shuriken Pistol
+  • 3x Voidreaver with sword and pistol
+    • 3x Close Combat Weapon
+    • 3x Power sword
+    • 3x Shuriken Pistol
+
+Corsair Voidreavers (65 pts)
+  • Voidreaver Felarch
+    • Close Combat Weapon
+    • Mistshield
+    • Neuro disruptor
+    • Power sword
+  • Voidreaver with Blaster
+    • Blaster
+    • Close Combat Weapon
+    • Shuriken Pistol
+  • 3x Voidreaver with sword and pistol
+    • 3x Close Combat Weapon
+    • 3x Power sword
+    • 3x Shuriken Pistol
+
+
+DEDICATED TRANSPORTS:
+Wave Serpent (115 pts)
+  • Shuriken Cannon
+  • Twin Bright Lance
+  • Wraithbone Hull
+
+
+OTHER DATASHEETS:
+Corsair Skyreavers (75 pts)
+  • Skyreaver Felarch
+    • Blast Pistol
+    • Corsair Blade
+  • Skyreaver w/ blaster
+    • Close Combat Weapon
+    • Corsair blaster
+  • Skyreaver w/ fusion gun
+    • Close Combat Weapon
+    • Fusion gun
+  • 2x Skyreaver w/ pistol and blade
+    • 2x Corsair Blade
+    • 2x Shuriken Pistol
+
+Corsair Skyreavers (75 pts)
+  • Skyreaver Felarch
+    • Blast Pistol
+    • Corsair Blade
+  • Skyreaver w/ blaster
+    • Close Combat Weapon
+    • Corsair blaster
+  • Skyreaver w/ fusion gun
+    • Close Combat Weapon
+    • Fusion gun
+  • 2x Skyreaver w/ pistol and blade
+    • 2x Corsair Blade
+    • 2x Shuriken Pistol
+
+Corsair Skyreavers (75 pts)
+  • Skyreaver Felarch
+    • Blast Pistol
+    • Corsair Blade
+  • Skyreaver w/ blaster
+    • Close Combat Weapon
+    • Corsair blaster
+  • Skyreaver w/ fusion gun
+    • Close Combat Weapon
+    • Fusion gun
+  • 2x Skyreaver w/ pistol and blade
+    • 2x Corsair Blade
+    • 2x Shuriken Pistol
+
+Fire Prism (150 pts)
+  • Prism Cannon
+  • Shuriken Cannon
+  • Wraithbone hull
+
+Fire Prism (150 pts)
+  • Prism Cannon
+  • Shuriken Cannon
+  • Wraithbone hull
+
+Fire Prism (150 pts)
+  • Prism Cannon
+  • Shuriken Cannon
+  • Wraithbone hull
+
+Rangers (60 pts)
+  • 5x Ranger
+    • 5x Close Combat Weapon
+    • 5x Long rifle
+    • 5x Shuriken Pistol
+
+Rangers (60 pts)
+  • 5x Ranger
+    • 5x Close Combat Weapon
+    • 5x Long rifle
+    • 5x Shuriken Pistol
+
+Shroud Runners (90 pts)
+  • 3x Shroud Runner
+    • 3x Close Combat Weapon
+    • 3x Long rifle
+    • 3x Scatter Laser
+    • 3x Shuriken Pistol
+
+Shroud Runners (90 pts)
+  • 3x Shroud Runner
+    • 3x Close Combat Weapon
+    • 3x Long rifle
+    • 3x Scatter Laser
+    • 3x Shuriken Pistol
+
+Warp Spiders (105 pts)
+  • Aspect Shrine Token
+  • 4x Warp Spider
+    • 4x Close Combat Weapon
+    • 4x Death spinner
+  • Warp Spider Exarch
+    • 1 Spinneret rifle & 1 Death weavers
+      • Death Weavers
+      • Spinneret Rifle
+    • Close Combat Weapon
+
+Warp Spiders (105 pts)
+  • Aspect Shrine Token
+  • 4x Warp Spider
+    • 4x Close Combat Weapon
+    • 4x Death spinner
+  • Warp Spider Exarch
+    • 1 Spinneret rifle & 1 Death weavers
+      • Death Weavers
+      • Spinneret Rifle
+    • Close Combat Weapon
+
+
+
+undefined

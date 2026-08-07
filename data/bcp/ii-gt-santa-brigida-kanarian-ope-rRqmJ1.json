@@ -1,0 +1,361 @@
+{
+ "event": {
+  "id": "rRqmJ1qfMQjk",
+  "name": "II GT Santa Brigida - Kanarian Open",
+  "totalPlayers": 39,
+  "eventDate": "2026-08-01T09:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Aaron Gonz\u00e1lez",
+   "faction": "Grey Knights",
+   "detachment": "Take and Hold",
+   "team": "Guardianes del Atl\u00e1ntico",
+   "dropped": false,
+   "listId": "LBkWCXbsa3uF",
+   "listUrl": "https://www.bestcoastpairings.com/list/LBkWCXbsa3uF"
+  },
+  {
+   "name": "Adri\u00c3\u00a1n  Mu\u00c3\u00b1oz",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "iBLgVIi0YAZl",
+   "listUrl": "https://www.bestcoastpairings.com/list/iBLgVIi0YAZl"
+  },
+  {
+   "name": "Tanausu Rodr\u00edguez",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "Guardianes del Atl\u00e1ntico",
+   "dropped": false,
+   "listId": "Hh5Mz5XVwEIe",
+   "listUrl": "https://www.bestcoastpairings.com/list/Hh5Mz5XVwEIe"
+  },
+  {
+   "name": "Jorge Hoyos Aleman",
+   "faction": "Chaos Daemons",
+   "detachment": "Take and Hold",
+   "team": "Midea Tibicenas",
+   "dropped": false,
+   "listId": "dCARzrXEtgcI",
+   "listUrl": "https://www.bestcoastpairings.com/list/dCARzrXEtgcI"
+  },
+  {
+   "name": "Adri\u00e1n Ortega Ceron",
+   "faction": "Emperor's Children",
+   "detachment": "Purge the Foe",
+   "team": "La Legi\u00f3n perdida",
+   "dropped": false,
+   "listId": "KcvF5CjYG9IK",
+   "listUrl": "https://www.bestcoastpairings.com/list/KcvF5CjYG9IK"
+  },
+  {
+   "name": "Ayoze Hern\u00e1ndez",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "HAMHAMMER",
+   "dropped": false,
+   "listId": "2jYgW08J89Jj",
+   "listUrl": "https://www.bestcoastpairings.com/list/2jYgW08J89Jj"
+  },
+  {
+   "name": "Fernando Lanza Garcia",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance",
+   "team": "La Legi\u00f3n perdida",
+   "dropped": false,
+   "listId": "Qga87Iecwo75",
+   "listUrl": "https://www.bestcoastpairings.com/list/Qga87Iecwo75"
+  },
+  {
+   "name": "Hildebrando Marquez",
+   "faction": "Drukhari",
+   "detachment": "Disruption",
+   "team": "La Legi\u00f3n perdida",
+   "dropped": false,
+   "listId": "XwWBXsF78Dge",
+   "listUrl": "https://www.bestcoastpairings.com/list/XwWBXsF78Dge"
+  },
+  {
+   "name": "Nacho Ubeda Ortiz",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": "L\u00e1baro cantabro",
+   "dropped": false,
+   "listId": "ozyyN1HJetl1",
+   "listUrl": "https://www.bestcoastpairings.com/list/ozyyN1HJetl1"
+  },
+  {
+   "name": "Marcos Sokram Mejias",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Midea Tibicenas",
+   "dropped": false,
+   "listId": "neze5EMkjjd3",
+   "listUrl": "https://www.bestcoastpairings.com/list/neze5EMkjjd3"
+  },
+  {
+   "name": "Nicolas Saavedra",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "Los 6 del Home",
+   "dropped": false,
+   "listId": "vMrU1fnPrQWO",
+   "listUrl": "https://www.bestcoastpairings.com/list/vMrU1fnPrQWO"
+  },
+  {
+   "name": "Jos\u00e9 Luis Moreno Macario",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Guardianes del Atl\u00e1ntico",
+   "dropped": false,
+   "listId": "Dv9Z9iQ9lwzj",
+   "listUrl": "https://www.bestcoastpairings.com/list/Dv9Z9iQ9lwzj"
+  },
+  {
+   "name": "Paco Torres",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "HAMHAMMER",
+   "dropped": false,
+   "listId": "xKWIw9LaEiDH",
+   "listUrl": "https://www.bestcoastpairings.com/list/xKWIw9LaEiDH"
+  },
+  {
+   "name": "Nelson WiRm",
+   "faction": null,
+   "detachment": null,
+   "team": "Midea Tibicenas",
+   "dropped": true,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Alberto Rodr\u00edguez Guerra",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Midea Tibicenas",
+   "dropped": false,
+   "listId": "ksSxY2vgLV6B",
+   "listUrl": "https://www.bestcoastpairings.com/list/ksSxY2vgLV6B"
+  },
+  {
+   "name": "raul alvarado",
+   "faction": "Necrons",
+   "detachment": "Priority Assets",
+   "team": "Guardianes del Atl\u00e1ntico",
+   "dropped": true,
+   "listId": "iM0T8lsnRtwi",
+   "listUrl": "https://www.bestcoastpairings.com/list/iM0T8lsnRtwi"
+  },
+  {
+   "name": "Chayanne Barrera",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "mKjSjJwORWoy",
+   "listUrl": "https://www.bestcoastpairings.com/list/mKjSjJwORWoy"
+  },
+  {
+   "name": "Alberto Bautista",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": true,
+   "listId": "cVOxYCaI4ZvI",
+   "listUrl": "https://www.bestcoastpairings.com/list/cVOxYCaI4ZvI"
+  },
+  {
+   "name": "julio  doka",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Migatte",
+   "dropped": false,
+   "listId": "dE4UeaIF0seh",
+   "listUrl": "https://www.bestcoastpairings.com/list/dE4UeaIF0seh"
+  },
+  {
+   "name": "Alberto Elortegui",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "ISoQl6KkMfRI",
+   "listUrl": "https://www.bestcoastpairings.com/list/ISoQl6KkMfRI"
+  },
+  {
+   "name": "Alejandro Alonso",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": "PRNG",
+   "dropped": false,
+   "listId": "cOktheBxcPo2",
+   "listUrl": "https://www.bestcoastpairings.com/list/cOktheBxcPo2"
+  },
+  {
+   "name": "Julian Papinski",
+   "faction": "Emperor's Children",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "VpqYkSh4MsXs",
+   "listUrl": "https://www.bestcoastpairings.com/list/VpqYkSh4MsXs"
+  },
+  {
+   "name": "Darche Rodriguez",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "xuJMU2WPoiAg",
+   "listUrl": "https://www.bestcoastpairings.com/list/xuJMU2WPoiAg"
+  },
+  {
+   "name": "Mikel Osua",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "4tH1U78Xto1U",
+   "listUrl": "https://www.bestcoastpairings.com/list/4tH1U78Xto1U"
+  },
+  {
+   "name": "Ismael Gonz\u00e1lez",
+   "faction": null,
+   "detachment": null,
+   "team": "Guardianes del Atl\u00e1ntico",
+   "dropped": true,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Eduardo Cortell",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": "Midea Tibicenas",
+   "dropped": false,
+   "listId": "gq3perWiJ0IG",
+   "listUrl": "https://www.bestcoastpairings.com/list/gq3perWiJ0IG"
+  },
+  {
+   "name": "Ruben Hurtado de lorenzo",
+   "faction": "Necrons",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "iTUPniCOGlpc",
+   "listUrl": "https://www.bestcoastpairings.com/list/iTUPniCOGlpc"
+  },
+  {
+   "name": "Migue Pincho",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": "Midea Tibicenas",
+   "dropped": false,
+   "listId": "hJcE4vG3kOak",
+   "listUrl": "https://www.bestcoastpairings.com/list/hJcE4vG3kOak"
+  },
+  {
+   "name": "Vasilii Klaiman",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": "Gold&CK",
+   "dropped": false,
+   "listId": "nNsQdd9cFTlp",
+   "listUrl": "https://www.bestcoastpairings.com/list/nNsQdd9cFTlp"
+  },
+  {
+   "name": "Nathan Marchal",
+   "faction": "World Eaters",
+   "detachment": "Reconnaissance",
+   "team": "ALEA",
+   "dropped": false,
+   "listId": "i6dEgEqfszh8",
+   "listUrl": "https://www.bestcoastpairings.com/list/i6dEgEqfszh8"
+  },
+  {
+   "name": "Marcos Negr\u00edn Galv\u00e1n",
+   "faction": "Drukhari",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "2Gp7ydMOn30V",
+   "listUrl": "https://www.bestcoastpairings.com/list/2Gp7ydMOn30V"
+  },
+  {
+   "name": "Julio Gonzalez Del Pino",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": true,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Yauce Castellano",
+   "faction": "Chaos Space Marines",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "U6BkRMQgEirQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/U6BkRMQgEirQ"
+  },
+  {
+   "name": "Alberto Pulido Delgado",
+   "faction": "Blood Angels",
+   "detachment": "Purge the Foe",
+   "team": "Guardianes del Atl\u00e1ntico",
+   "dropped": false,
+   "listId": "EcnhJMsncQ0x",
+   "listUrl": "https://www.bestcoastpairings.com/list/EcnhJMsncQ0x"
+  },
+  {
+   "name": "Alexis Sosa",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe",
+   "team": "Guardines del Atlantico",
+   "dropped": false,
+   "listId": "R2hLZhHZu5mN",
+   "listUrl": "https://www.bestcoastpairings.com/list/R2hLZhHZu5mN"
+  },
+  {
+   "name": "Josu\u00e9 Hern\u00e1ndez Rodr\u00edguez",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "Midea Tibicenas",
+   "dropped": false,
+   "listId": "yucKZ5C2RG2c",
+   "listUrl": "https://www.bestcoastpairings.com/list/yucKZ5C2RG2c"
+  },
+  {
+   "name": "cristo manuel gonzalez",
+   "faction": "Adepta Sororitas",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "1I9AqIOVGByK",
+   "listUrl": "https://www.bestcoastpairings.com/list/1I9AqIOVGByK"
+  },
+  {
+   "name": "Carlos Lopez",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "9vZGnjeJ1zHA",
+   "listUrl": "https://www.bestcoastpairings.com/list/9vZGnjeJ1zHA"
+  },
+  {
+   "name": "Gabriel Rodr\u00edguez Lallana",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "cdV4HcR2tP1l",
+   "listUrl": "https://www.bestcoastpairings.com/list/cdV4HcR2tP1l"
+  }
+ ]
+}

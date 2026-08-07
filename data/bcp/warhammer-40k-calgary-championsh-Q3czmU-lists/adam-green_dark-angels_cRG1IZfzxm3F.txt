@@ -1,0 +1,154 @@
+# Adam Green | Dark Angels | Take and Hold | team=Team Alberta
+# list: https://www.bestcoastpairings.com/list/cRG1IZfzxm3F  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Dark Angels
++ DETACHMENT: Darkflight Pursuit, Unforgiven Task Force (Black-winged Vigilance)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: Azrael
++ ENHANCEMENT: Weapons of the First Legion (on Char3: Captain)
+& Shroud of Heroes (on Char4: Captain in Gravis Armour)
+& Nightforged Battery (on Vehi5: Land Speeder Vengeance)
+& Nightforged Battery (on Vehi5: Land Speeder Vengeance)
+& Nightforged Battery (on Vehi5: Land Speeder Vengeance)
++ NUMBER OF UNITS: 17
++ SECONDARY: - Bring It Down: (5x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Azrael (140 pts)
+• 1x Lion's Wrath
+• 1x The Sword of Secrets
+• Warlord
+
+Captain (95 pts)
+• 1x Bolt pistol
+• 1x Master-crafted bolter
+• 1x Power fist
+• Weapons of the First Legion (+15 pts)
+
+Captain in Gravis Armour (105 pts)
+• 1x Boltstorm gauntlet
+• 1x Power fist
+• 1x Relic Blade
+• Shroud of Heroes (+25 pts)
+
+Librarian (70 pts)
+• 1x Bolt pistol
+• 1x Force weapon
+• 1x Smite
+
+Sammael (95 pts)
+• 1x Bolt Pistol
+• 1x Master-crafted plasma cannon
+• 1x The Raven Sword
+• 1x Twin storm bolter
+
+BATTLELINE
+
+Assault Intercessor Squad (75 pts)
+• 1x Assault Intercessor Sergeant
+    • 1x Plasma pistol
+    • 1x Power fist
+• 4x Assault Intercessors
+    • 4x Astartes Chainsword
+    • 4x Heavy Bolt Pistol
+
+OTHER DATASHEETS
+
+Assault Intercessors with Jump Packs (85 pts)
+• 1x Assault Intercessor Sergeant with Jump Pack
+    • 1x Plasma pistol
+    • 1x Power fist
+• 4x Assault Intercessors with Jump Pack
+    • 4x Astartes Chainsword
+    • 4x Heavy Bolt Pistol
+
+Gladiator Lancer (160 pts)
+• 1x Armoured Hull
+• 1x Icarus Rocket Pod
+• 1x Ironhail Heavy Stubber
+• 1x Lancer Laser Destroyer
+• 2x Storm bolter
+
+Gladiator Lancer (160 pts)
+• 1x Armoured Hull
+• 1x Icarus Rocket Pod
+• 1x Ironhail Heavy Stubber
+• 1x Lancer Laser Destroyer
+• 2x Storm bolter
+
+Inner Circle Companions (160 pts)
+• 6x Inner Circle Companion
+    • 6x Calibanite Greatsword
+    • 6x Heavy Bolt Pistol
+
+Land Speeder Vengeance (145 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Heavy bolter
+• Nightforged Battery (+15 pts)
+
+Land Speeder Vengeance (145 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Heavy bolter
+• Nightforged Battery (+15 pts)
+
+Land Speeder Vengeance (155 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Heavy bolter
+• Nightforged Battery (+15 pts)
+
+Ravenwing Black Knights (75 pts)
+• 2x Ravenwing Black Knight
+    • 2x Black Knight combat weapon
+    • 2x Bolt Pistol
+    • 2x Plasma Talon
+• 1x Ravenwing Huntmaster
+    • 1x Black Knight combat weapon
+    • 1x Bolt Pistol
+    • 1x Plasma Talon
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 4x Scouts
+    • 4x Bolt pistol
+    • 4x Close combat weapon
+    • 4x Combat Knife
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 2x Scout
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 1x Missile Launcher
+    • 1x Scout Sniper Rifle
+• 2x Scouts
+    • 2x Bolt pistol
+    • 2x Boltgun
+    • 2x Close combat weapon
+
+Sternguard Veteran Squad (200 pts)
+• 1x Sternguard Veteran Sergeant
+    • 1x Close combat weapon
+    • 1x Sternguard Bolt Pistol
+    • 1x Power fist
+    • 1x Sternguard Bolt Rifle
+• 9x Sternguard Veteran
+    • 9x Close combat weapon
+    • 9x Sternguard Bolt Pistol
+    • 7x Sternguard Bolt Rifle
+    • 2x Sternguard Heavy Bolter
+
+undefined

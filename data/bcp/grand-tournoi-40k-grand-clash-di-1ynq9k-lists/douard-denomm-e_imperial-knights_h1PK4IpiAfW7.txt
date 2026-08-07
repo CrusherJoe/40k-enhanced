@@ -1,0 +1,32 @@
+# Édouard Denommée | Imperial Knights | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/h1PK4IpiAfW7  status=passed
+
+GOD LUCK & GOOD SPEED
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Valourstrike Lance (Rain of Devastation)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char1: Canis Rex
++ ENHANCEMENT: Archeotech Autoloaders (on Char2: Knight Castellan)
+& Bearer of the Iron Chalice (on Char3: Knight Crusader)
+& Bearer of the Judicant's Helm (on Char4: Knight Destrier)
++ NUMBER OF UNITS: 6
++ SECONDARY: - Bring It Down: (1x2) + (2x4) + (3x6) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 2x Canis Rex (415 pts): Warlord
+• 1x Canis Rex: Freedom's Hand, Las-impulsor, Questoris multi-laser
+• 1x Sir Hekhtur: Close combat weapon, Hekhtur's pistol
+Char2: 1x Knight Castellan (450 pts): Plasma decimator, Titanic feet, 2x Twin meltagun, Volcano lance, 2x Shieldbreaker missile launcher, Twin siegebreaker cannon
+Enhancement: Archeotech Autoloaders (+25 pts)
+Char3: 1x Knight Crusader (430 pts): Avenger gatling cannon, Heavy flamer, Titanic feet, Stormspear rocket pod, Questoris heavy stubber, Questoris heavy stubber, Rapid-fire battle cannon
+Enhancement: Bearer of the Iron Chalice (+20 pts)
+Char4: 1x Knight Destrier (290 pts): Questoris heavy stubber, Titanic feet, Chastiser gatling cannon, Frag bombard
+Enhancement: Bearer of the Judicant's Helm (+25 pts)
+Char5: 1x Knight Destrier (265 pts): Questoris heavy stubber, Titanic feet, Chastiser gatling cannon, Frag bombard
+
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+
+undefined

@@ -1,0 +1,208 @@
+# Jared Wojcik | Astra Militarum | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/XeqOcOecAY6b  status=passed
+
+Salt City GT List (2000 points)
+
+Astra Militarum
+Combined Arms (2 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Ministorum Priest (35 points)
+• Attached as: Leader (Character)
+  • 1x Zealot’s vindictor
+
+Commissar Yarrick (120 points)
+• Attached as: Leader (Character)
+  • Warlord
+  • 1x Bale Eye
+    1x Laspistol
+    1x Power klaw
+    1x Power sword
+    1x Storm bolter
+
+Death Korps of Krieg (145 points)
+• Attached as: Bodyguard (Battleline)
+  • 2x Death Korps Watchmaster
+    • 2x Chainsword
+      2x Laspistol
+  • 18x Death Korps Trooper
+    • 18x Close combat weapon
+      2x Death Korps Medi-pack
+      2x Grenade launcher
+      14x Lasgun
+      2x Plasma gun
+      2x Vox-caster
+
+Attached Unit 2
+
+Commissar (30 points)
+• Attached as: Leader (Character)
+  • 1x Plasma pistol
+    1x Power weapon
+
+Cadian Shock Troops (75 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Shock Trooper Sergeant
+    • 1x Chainsword
+      1x Laspistol
+  • 9x Shock Trooper
+    • 9x Close combat weapon
+      1x Grenade launcher
+      7x Lasgun
+      1x Plasma gun
+      1x Vox-caster
+
+Attached Unit 3
+
+Commissar (30 points)
+• Attached as: Leader (Character)
+  • 1x Bolt pistol
+    1x Power weapon
+
+Cadian Shock Troops (75 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Shock Trooper Sergeant
+    • 1x Chainsword
+      1x Laspistol
+  • 9x Shock Trooper
+    • 9x Close combat weapon
+      1x Grenade launcher
+      7x Lasgun
+      1x Plasma gun
+      1x Vox-caster
+
+Attached Unit 4
+
+Primaris Psyker (60 points)
+• Attached as: Leader (Character)
+  • 1x Force weapon
+    1x Laspistol
+    1x Psychic Maelstrom
+
+Catachan Jungle Fighters (75 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Jungle Fighter Sergeant
+    • 1x Close combat weapon
+      1x Laspistol
+  • 9x Jungle Fighter
+    • 9x Close combat weapon
+      2x Flamer
+      7x Lasgun
+      1x Vox-caster
+
+Attached Unit 5
+
+Primaris Psyker (60 points)
+• Attached as: Leader (Character)
+  • 1x Force weapon
+    1x Laspistol
+    1x Psychic Maelstrom
+
+Catachan Jungle Fighters (75 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Jungle Fighter Sergeant
+    • 1x Close combat weapon
+      1x Laspistol
+  • 9x Jungle Fighter
+    • 9x Close combat weapon
+      2x Flamer
+      7x Lasgun
+      1x Vox-caster
+
+
+CHARACTERS
+
+Cadian Command Squad (70 points)
+  • 1x Cadian Commander
+    • 1x Laspistol
+      1x Power weapon
+    • Enhancement: Death Mask of Ollanius
+  • 1x Cadian Veteran Guardsman
+    • 1x Close combat weapon
+      1x Laspistol
+      1x Plasma gun
+  • 1x Cadian Veteran Guardsman
+    • 1x Close combat weapon
+      1x Lasgun
+      1x Master Vox
+  • 1x Cadian Veteran Guardsman
+    • 1x Close combat weapon
+      1x Lasgun
+      1x Medi-pack
+  • 1x Cadian Veteran Guardsman
+    • 1x Close combat weapon
+      1x Lasgun
+      1x Regimental Standard
+
+
+DEDICATED TRANSPORTS
+
+Chimera (75 points)
+  • 1x Armoured tracks
+    1x Heavy bolter
+    1x Hunter-killer missile
+    1x Lasgun array
+    1x Multi-laser
+
+Chimera (75 points)
+  • 1x Armoured tracks
+    1x Heavy bolter
+    1x Hunter-killer missile
+    1x Lasgun array
+    1x Multi-laser
+
+
+OTHER DATASHEETS
+
+Armoured Sentinels (120 points)
+  • 2x Armoured Sentinel
+    • 2x Close combat weapon
+      2x Hunter-killer missile
+      2x Missile launcher
+      2x Sentinel chainsaw
+
+Armoured Sentinels (120 points)
+  • 2x Armoured Sentinel
+    • 2x Close combat weapon
+      2x Hunter-killer missile
+      2x Missile launcher
+      2x Sentinel chainsaw
+
+Hellhound (125 points)
+  • 1x Armoured tracks
+    1x Hunter-killer missile
+    1x Inferno cannon
+    1x Multi-melta
+
+Hellhound (125 points)
+  • 1x Armoured tracks
+    1x Hunter-killer missile
+    1x Inferno cannon
+    1x Multi-melta
+
+Leman Russ Exterminator (180 points)
+  • 1x Armoured tracks
+    1x Exterminator autocannon
+    1x Heavy stubber
+    1x Lascannon
+    2x Multi-melta
+
+Leman Russ Exterminator (180 points)
+  • 1x Armoured tracks
+    1x Exterminator autocannon
+    1x Heavy stubber
+    1x Lascannon
+    2x Multi-melta
+
+Manticore (150 points)
+  • 1x Armoured tracks
+    1x Heavy bolter
+    1x Storm eagle rockets
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

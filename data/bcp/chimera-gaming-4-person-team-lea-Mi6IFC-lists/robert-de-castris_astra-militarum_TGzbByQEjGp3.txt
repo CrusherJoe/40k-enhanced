@@ -1,0 +1,88 @@
+# Robert De Castris | Astra Militarum | Disruption | team=None
+# list: https://www.bestcoastpairings.com/list/TGzbByQEjGp3  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Astra Militarum
++ DETACHMENT: Designation Force, Siege Regiment (Designated Targets)
++ FORCE DISPOSITION: Disruption
++ TOTAL ARMY POINTS: 1960pts
++
++ WARLORD: Char1: Lord Marshal Dreir
++ ENHANCEMENT: Stalwart's Honours (on Char2: Krieg Command Squad - Lord Commissar)
+& Eager Advance (on Char3: Krieg Command Squad - Lord Commissar)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (2x2) + (1x4) + (1x6) - Assassination: 4 Characters - Cull The Horde: 2x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 6x Krieg Command Squad (75 pts)
+• 5x Veteran Guardsman
+    1 with Alchemyk Counteragents, Servo-scribes, Close combat weapon, Laspistol
+    1 with Close combat weapon, Plasma gun
+    1 with Power weapon, Plasma pistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Regimental standard, Close combat weapon, Lasgun
+• 1x Lord Commissar: Laspistol, Plasma pistol, Power fist
+      Enhancement: Stalwart's Honours (+15 pts)
+Char3: 6x Krieg Command Squad (80 pts)
+• 5x Veteran Guardsman
+    1 with Alchemyk Counteragents, Servo-scribes, Close combat weapon, Laspistol
+    1 with Close combat weapon, Plasma gun
+    1 with Power weapon, Plasma pistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Regimental standard, Close combat weapon, Lasgun
+• 1x Lord Commissar: Laspistol, Plasma pistol, Power fist
+      Enhancement: Eager Advance (+20 pts)
+Char1: 1x Lord Marshal Dreir (75 pts): Warlord, Laspistol, Sabre of Sacrifice, Savage claws
+Char4: 1x Rogal Dorn Commander (290 pts): Armoured tracks, Heavy stubber, Pulveriser cannon, 2x Heavy stubber, 2x Multi-melta, Coaxial autocannon, Oppressor cannon
+
+20x Death Korps of Krieg (145 pts)
+• 18x Death Korps Trooper
+    10 with Close combat weapon, Lasgun
+    2 with Death Korps of Krieg Medi-pack, Close combat weapon, Lasgun
+    2 with Vox-caster, Close combat weapon, Lasgun
+    2 with Close combat weapon, Flamer
+    2 with Close combat weapon, Plasma gun
+• 2x Death Korps Watchmaster: 2 with Power weapon, Plasma pistol
+20x Death Korps of Krieg (145 pts)
+• 18x Death Korps Trooper
+    10 with Close combat weapon, Lasgun
+    2 with Death Korps of Krieg Medi-pack, Close combat weapon, Lasgun
+    2 with Vox-caster, Close combat weapon, Lasgun
+    2 with Close combat weapon, Long-las
+    2 with Close combat weapon, Plasma gun
+• 2x Death Korps Watchmaster: 2 with Power weapon, Plasma pistol
+10x Death Korps of Krieg (75 pts)
+• 9x Death Korps Trooper
+    5 with Close combat weapon, Lasgun
+    1 with Death Korps of Krieg Medi-pack, Close combat weapon, Lasgun
+    1 with Vox-caster, Close combat weapon, Lasgun
+    1 with Close combat weapon, Grenade launcher
+    1 with Close combat weapon, Meltagun
+• 1x Death Korps Watchmaster: Power weapon, Plasma pistol
+10x Death Korps of Krieg (75 pts)
+• 9x Death Korps Trooper
+    5 with Close combat weapon, Lasgun
+    1 with Death Korps of Krieg Medi-pack, Close combat weapon, Lasgun
+    1 with Vox-caster, Close combat weapon, Lasgun
+    1 with Close combat weapon, Grenade launcher
+    1 with Close combat weapon, Meltagun
+• 1x Death Korps Watchmaster: Power weapon, Plasma pistol
+
+10x Death Riders (110 pts)
+• 1x Ridemaster: Death Rider lascarbine, Frag lance, Power sabre, Steed's savage claws
+• 9x Death Rider: 9 with Death Rider lascarbine, Frag lance, Power sabre, Steed's savage claws
+1x Hellhammer (385 pts): Armoured tracks, Coaxial autocannon, Demolisher cannon, Heavy stubber, Hellhammer cannon, 2x Lascannon, Twin heavy bolter, 2x Twin heavy bolter, 2x Lascannon, 2x Twin heavy bolter
+5x Krieg Combat Engineers (65 pts)
+• 4x Krieg Combat Engineer
+    2 with Close combat weapon, Combat shotgun
+    1 with Close combat weapon, Flamer
+    1 with Remote mine, Autopistol, Close combat weapon
+• 1x Krieg Engineer Watchmaster: Hand flamer, Power weapon
+4x Krieg Heavy Weapons Squad (75 pts)
+• 1x Fire Coordinator: Close combat weapon, Laspistol
+• 3x Heavy Weapons Gunners: 3 with Close combat weapon, Krieg heavy flamer, Laspistol
+1x Leman Russ Battle Tank (185 pts): Armoured tracks, Leman Russ battle cannon, Hunter-killer missile, Lascannon, 2x Multi-melta, Heavy stubber
+1x Leman Russ Exterminator (180 pts): Armoured tracks, Exterminator autocannon, Hunter-killer missile, Lascannon, 2x Heavy bolter, Heavy stubber
+
+
+undefined

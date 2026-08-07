@@ -1,0 +1,54 @@
+# Matt Dawkins | Necrons | Purge the Foe | team=Bloodbath and Beyond
+# list: https://www.bestcoastpairings.com/list/R6dvP5Rq1b2n  status=passed
+
+MONOLITHS GO DEAD+++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Cursed Legion, Skyshroud Spearhead (Cold Fervour)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char6: Overlord
++ ENHANCEMENT: Destroyer Ankh (on Char6: Overlord)
+& Murdermind (on Char7: Plasmancer)
+& Deepening Madness (on Moun7: Lokhust Destroyers)
+& Recursive Reanimation (on Moun7: Tomb Blades)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (2x4) - Assassination: 7 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x C'tan Shard of the Nightbringer (360 pts): Gaze of death, Scythe of the Nightbringer
+
+Char2: 1x C'tan Shard of the Void Dragon (345 pts): Canoptek tail blades, Spear of the Void Dragon, Voltaic storm
+
+Char3: 1x Nekrosor Ammentar (185 pts): Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+
+Char4: 1x Hexmark Destroyer (75 pts): Close combat weapon, Enmitic disintegrator pistols
+
+Attached Unit 1
+Char5: 1x Lokhust Lord (70 pts): Nanoscarab amulet, Staff of light
+
+6x Lokhust Destroyers (170 pts): 6 with Close combat weapon, Gauss cannon
+
+Attached Unit 2
+Char6: 1x Overlord (110 pts): Warlord, Resurrection orb, Voidscythe
+Enhancement: Destroyer Ankh (+20 pts)
+
+10x Lychguard (160 pts): 10 with Dispersion shield, Hyperphase sword
+
+Attached Unit 3
+Char7: 1x Plasmancer (70 pts): Plasmic lance
+Enhancement: Murdermind (+15 pts)
+
+6x Lokhust Destroyers (190 pts)
+  Enhancement: Deepening Madness (+20 pts)6 with Close combat weapon, Gauss cannon
+
+1x Lokhust Heavy Destroyers (50 pts): Close combat weapon, Enmitic exterminator
+
+1x Lokhust Heavy Destroyers (50 pts): Close combat weapon, Gauss destructor
+
+
+3x Ophydian Destroyers (80 pts): 3 with Ophydian hyperphase weapons
+3x Tomb Blades (75 pts)
+  Enhancement: Recursive Reanimation (+5 pts)3 with Shieldvanes, Shadowloom, Close combat weapon, Twin tesla carbine
+
+undefined

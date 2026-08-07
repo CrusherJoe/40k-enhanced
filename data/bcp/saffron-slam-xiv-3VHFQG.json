@@ -1,0 +1,262 @@
+{
+ "event": {
+  "id": "3VHFQGLy76tR",
+  "name": "Saffron Slam XIV",
+  "totalPlayers": 28,
+  "eventDate": "2026-08-01T07:45:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Dan Davis",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "WJfqwpFs9ofC",
+   "listUrl": "https://www.bestcoastpairings.com/list/WJfqwpFs9ofC"
+  },
+  {
+   "name": "Daniel Preece",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "Black Crow Gaming",
+   "dropped": false,
+   "listId": "qDoIzHnJrnmS",
+   "listUrl": "https://www.bestcoastpairings.com/list/qDoIzHnJrnmS"
+  },
+  {
+   "name": "Jack Sayer",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": "Black Crow Gaming",
+   "dropped": false,
+   "listId": "9DuWIlGmEdG6",
+   "listUrl": "https://www.bestcoastpairings.com/list/9DuWIlGmEdG6"
+  },
+  {
+   "name": "Jamie East",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": "6++",
+   "dropped": false,
+   "listId": "gklSxa5vcnBh",
+   "listUrl": "https://www.bestcoastpairings.com/list/gklSxa5vcnBh"
+  },
+  {
+   "name": "Samuel  Squires",
+   "faction": "Orks",
+   "detachment": "Priority Assets",
+   "team": "Black Crow Gaming",
+   "dropped": false,
+   "listId": "k1gfa7JqAZ8l",
+   "listUrl": "https://www.bestcoastpairings.com/list/k1gfa7JqAZ8l"
+  },
+  {
+   "name": "Will Fox",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "Saffron Slammers",
+   "dropped": false,
+   "listId": "vopOrwp80tFO",
+   "listUrl": "https://www.bestcoastpairings.com/list/vopOrwp80tFO"
+  },
+  {
+   "name": "Reg Knight",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Purge the Foe",
+   "team": "Harwich Heretics",
+   "dropped": false,
+   "listId": "2nI5UIaEX8ot",
+   "listUrl": "https://www.bestcoastpairings.com/list/2nI5UIaEX8ot"
+  },
+  {
+   "name": "Harry Macklin",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Saffron Slammers",
+   "dropped": false,
+   "listId": "uCGEhOC5l6hO",
+   "listUrl": "https://www.bestcoastpairings.com/list/uCGEhOC5l6hO"
+  },
+  {
+   "name": "George Hutley",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": "4TK Gaming-BFS",
+   "dropped": false,
+   "listId": "DOeaPwq8BzC4",
+   "listUrl": "https://www.bestcoastpairings.com/list/DOeaPwq8BzC4"
+  },
+  {
+   "name": "Adam Tubby",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "4TK Gaming-BFS",
+   "dropped": false,
+   "listId": "nSDlioIOmYgF",
+   "listUrl": "https://www.bestcoastpairings.com/list/nSDlioIOmYgF"
+  },
+  {
+   "name": "Scott Lomax",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "wJ3Ku40mEgfe",
+   "listUrl": "https://www.bestcoastpairings.com/list/wJ3Ku40mEgfe"
+  },
+  {
+   "name": "Alex Lomax",
+   "faction": "Chaos Knights",
+   "detachment": "Take and Hold",
+   "team": "6++",
+   "dropped": false,
+   "listId": "Ky8Y9b0mucrR",
+   "listUrl": "https://www.bestcoastpairings.com/list/Ky8Y9b0mucrR"
+  },
+  {
+   "name": "David Murdoch",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "6++",
+   "dropped": false,
+   "listId": "SFOBuLx2PzPG",
+   "listUrl": "https://www.bestcoastpairings.com/list/SFOBuLx2PzPG"
+  },
+  {
+   "name": "Elliot Smith",
+   "faction": "T'au Empire",
+   "detachment": "Take and Hold",
+   "team": "Saffron Slammers",
+   "dropped": false,
+   "listId": "ysTVdwA9tsdt",
+   "listUrl": "https://www.bestcoastpairings.com/list/ysTVdwA9tsdt"
+  },
+  {
+   "name": "Ian McDonnell",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "TxaBDf7AWfj2",
+   "listUrl": "https://www.bestcoastpairings.com/list/TxaBDf7AWfj2"
+  },
+  {
+   "name": "Michael McDonnell",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "The Grimdark Garage",
+   "dropped": false,
+   "listId": "0TY9V7V8rhGa",
+   "listUrl": "https://www.bestcoastpairings.com/list/0TY9V7V8rhGa"
+  },
+  {
+   "name": "Liam OBrien",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "4TK Gaming-BFS",
+   "dropped": false,
+   "listId": "sBu5UcROfC3j",
+   "listUrl": "https://www.bestcoastpairings.com/list/sBu5UcROfC3j"
+  },
+  {
+   "name": "Finn Marcus",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": "Saffron Slammers",
+   "dropped": false,
+   "listId": "8gwL8odTZwRj",
+   "listUrl": "https://www.bestcoastpairings.com/list/8gwL8odTZwRj"
+  },
+  {
+   "name": "Julian Bradley",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Black Crow Gaming",
+   "dropped": false,
+   "listId": "11ypC2LlT1Hn",
+   "listUrl": "https://www.bestcoastpairings.com/list/11ypC2LlT1Hn"
+  },
+  {
+   "name": "Tom Lowman",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "6++",
+   "dropped": false,
+   "listId": "kuPQIJxeFied",
+   "listUrl": "https://www.bestcoastpairings.com/list/kuPQIJxeFied"
+  },
+  {
+   "name": "Steve Tiencken",
+   "faction": "Chaos Space Marines",
+   "detachment": "Take and Hold",
+   "team": "6++",
+   "dropped": false,
+   "listId": "LUiaGAopqLgu",
+   "listUrl": "https://www.bestcoastpairings.com/list/LUiaGAopqLgu"
+  },
+  {
+   "name": "Alex Chancellor",
+   "faction": "Imperial Knights",
+   "detachment": "Take and Hold",
+   "team": "6++",
+   "dropped": false,
+   "listId": "8ViJOZhMo57G",
+   "listUrl": "https://www.bestcoastpairings.com/list/8ViJOZhMo57G"
+  },
+  {
+   "name": "Jon Scrivens",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "6++",
+   "dropped": false,
+   "listId": "kgATpAWkn66W",
+   "listUrl": "https://www.bestcoastpairings.com/list/kgATpAWkn66W"
+  },
+  {
+   "name": "Alfred Hildrew",
+   "faction": "Imperial Agents",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "ueSBCdRaetAy",
+   "listUrl": "https://www.bestcoastpairings.com/list/ueSBCdRaetAy"
+  },
+  {
+   "name": "joseph tilbrook",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "kjQGMzilKhop",
+   "listUrl": "https://www.bestcoastpairings.com/list/kjQGMzilKhop"
+  },
+  {
+   "name": "Paul Bridge",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": "Black Crow Gaming",
+   "dropped": false,
+   "listId": "qKUEVreVcY2i",
+   "listUrl": "https://www.bestcoastpairings.com/list/qKUEVreVcY2i"
+  },
+  {
+   "name": "Tom Russell",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "Blackwater Vikings",
+   "dropped": false,
+   "listId": "Bt7nIOVQJhgE",
+   "listUrl": "https://www.bestcoastpairings.com/list/Bt7nIOVQJhgE"
+  },
+  {
+   "name": "Tim Russell",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "Shadowkeepers",
+   "dropped": false,
+   "listId": "lLJUzLlSCMHQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/lLJUzLlSCMHQ"
+  }
+ ]
+}

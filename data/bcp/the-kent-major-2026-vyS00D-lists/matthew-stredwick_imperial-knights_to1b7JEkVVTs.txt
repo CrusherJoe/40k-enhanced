@@ -1,0 +1,64 @@
+# Matthew Stredwick | Imperial Knights | Priority Assets | team=Emperor's Nutsack
+# list: https://www.bestcoastpairings.com/list/to1b7JEkVVTs  status=passed
+
+"Cause I'm Free.....I'm Free-blading"
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Freeblade Company (Knights of Legend)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char4: Knight Crusader
++ ENHANCEMENT: Hunter's Eye (on Char4: Knight Crusader)
++ NUMBER OF UNITS: 7
++ SECONDARY: - Bring It Down: (2x2) + (4x6) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Canis Rex (415 pts)
+• 1x Canis Rex
+    • 1x Freedom's Hand
+    • 1x Las-impulsor
+    • 1x Questoris multi-laser
+    • Chainbreaker, Legendary Freeblade, Invulnerable Save (5+*), Damaged: 1-9 Wounds Remaining
+• 1x Sir Hekhtur
+    • 1x Close combat weapon
+    • 1x Hekhtur's pistol
+    • Using Sir Hekhtur
+
+Cerastus Knight Atrapos (405 pts)
+• 1x Atrapos lascutter
+• 1x Graviton singularity cannon
+
+Cerastus Knight Lancer (415 pts)
+• 1x Cerastus shock lance
+
+Knight Crusader (435 pts)
+• 1x Avenger gatling cannon
+• 1x Heavy flamer
+• 1x Titanic feet
+• 1x Stormspear rocket pod
+• 1x Questoris heavy stubber
+• 1x Questoris heavy stubber
+• 1x Rapid-fire battle cannon
+• Warlord
+• Hunter's Eye (+25 pts)
+
+OTHER DATASHEETS
+
+Armiger Helverin (140 pts)
+• 2x Armiger autocannon
+• 1x Armoured feet
+• 1x Questoris heavy stubber
+
+Armiger Warglaive (140 pts)
+• 1x Reaper chain-cleaver
+• 1x Thermal spear
+• 1x Questoris heavy stubber
+
+Ministorum Priest (40 pts)
+• 1x Zealot's vindictor
+
+undefined

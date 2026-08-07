@@ -1,0 +1,55 @@
+# Joshua Leonel Rojas Ravelo | Space Marines (Astartes) | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/jvEFfoxJQTZ8  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Iron Hands
++ DETACHMENT: Hammer of Avernii, Librarius Conclave (Calculated Annihilation)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Caanok Var
++ ENHANCEMENT: Celerity (on Char3: Librarian in Terminator Armour)
+& Iron Laurel (on Char4: Lieutenant)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (2x2) + (1x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Ancient in Terminator Armor (65 pts): Storm bolter, Power fist
+Char1: 1x Caanok Var (90 pts): Warlord, Axiom, Storm bolter
+Char3: 1x Librarian in Terminator Armour (110 pts): Force weapon, Smite
+Enhancement: Celerity (+35 pts)
+Char4: 1x Lieutenant (55 pts): Master-crafted power weapon, Neo-volkite Pistol, Storm Shield
+Enhancement: Iron Laurel (+10 pts)
+Char5: 1x Lieutenant (45 pts): Master-crafted power weapon, Neo-volkite Pistol, Storm Shield
+
+5x Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant: Bolt pistol, Astartes grenade launcher, Bolt Rifle, Power fist
+• 4x Intercessor: 4 with Bolt pistol, Bolt Rifle, Close combat weapon
+
+6x Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+6x Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+1x Land Raider Redeemer (250 pts): Armoured Tracks, 2x Flamestorm Cannon, Hunter-killer missile, Multi-melta, Storm bolter, Twin assault cannon
+5x Scout Squad (65 pts)
+• 2x Scout
+    1 with Bolt pistol, Close combat weapon, Missile Launcher
+    1 with Bolt pistol, Close combat weapon, Scout Sniper Rifle
+• 1x Scout Sergeant: Bolt pistol, Close combat weapon, Astartes Chainsword
+• 2x Scouts: 2 with Bolt pistol, Close combat weapon, Combat Knife
+1x Storm Speeder Hammerstrike (140 pts): Close combat weapon, Hammerstrike Missile Launcher, 2x Krakstorm Grenade Launcher, Melta Destroyer
+1x Storm Speeder Hammerstrike (140 pts): Close combat weapon, Hammerstrike Missile Launcher, 2x Krakstorm Grenade Launcher, Melta Destroyer
+10x Terminator Squad (320 pts)
+• 9x Terminator
+    2 with Power fist, Cyclone missile launcher, Storm bolter
+    7 with Power fist, Storm bolter
+• 1x Terminator Sergeant: Storm bolter, Power fist
+10x Terminator Squad (320 pts)
+• 9x Terminator
+    2 with Power fist, Cyclone missile launcher, Storm bolter
+    7 with Power fist, Storm bolter
+• 1x Terminator Sergeant: Storm bolter, Power fist
+
+undefined

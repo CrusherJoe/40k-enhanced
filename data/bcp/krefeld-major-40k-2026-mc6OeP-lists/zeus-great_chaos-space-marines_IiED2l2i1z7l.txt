@@ -1,0 +1,59 @@
+# Zeus Great | Chaos Space Marines | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/IiED2l2i1z7l  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Space Marines
++ DETACHMENT: Renegade Raiders (Raiders and Reavers)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ ENHANCEMENT: Despot's Claim (on Char1: Cultist Firebrand)
++ NUMBER OF UNITS: 16
++ SECONDARY: - Bring It Down: (4x2) - Assassination: 2 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Cultist Firebrand (60 pts): Balefire pike, Close combat weapon
+Enhancement: Despot's Claim (+15 pts)
+Char2: 1x Lord Discordant on Helstalker (160 pts): Bladed limbs, Bolt pistol, Impaler chainglaive, Baleflamer, Magma cutter
+
+5x Rubric Marines (100 pts)
+• 4x Rubric Marine
+    1 with Icon of Flame, Close combat weapon, Soulreaper cannon
+    3 with Close combat weapon, Warpflamer
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Warpflame pistol
+5x Rubric Marines (100 pts)
+• 4x Rubric Marine
+    1 with Icon of Flame, Close combat weapon, Soulreaper cannon
+    3 with Close combat weapon, Warpflamer
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Warpflame pistol
+
+3x Chaos Bikers (70 pts)
+• 2x Biker
+    1 with Close combat weapon, Combi-bolter, Meltagun, Astartes chainsword
+    1 with Chaos icon, Close combat weapon, Combi-bolter, Meltagun, Astartes chainsword
+• 1x Biker Champion: Close combat weapon, Combi-bolter, Power fist
+3x Chaos Bikers (70 pts)
+• 2x Biker
+    1 with Close combat weapon, Combi-bolter, Meltagun, Astartes chainsword
+    1 with Chaos icon, Close combat weapon, Combi-bolter, Meltagun, Astartes chainsword
+• 1x Biker Champion: Close combat weapon, Combi-bolter, Power fist
+1x Chaos Rhino (65 pts): Armoured tracks, Combi-bolter, Havoc launcher, Combi-bolter
+1x Chaos Rhino (65 pts): Armoured tracks, Combi-bolter, Havoc launcher, Combi-bolter
+1x Chaos Vindicator (185 pts): Armoured tracks, Demolisher cannon, Havoc launcher, Combi-bolter
+1x Chaos Vindicator (185 pts): Armoured tracks, Demolisher cannon, Havoc launcher, Combi-bolter
+3x Mutilators (165 pts): 3 with Fleshmetal weapons
+3x Mutilators (165 pts): 3 with Fleshmetal weapons
+6x Noise Marines (145 pts)
+• 5x Noise Marine
+    2 with Blastmaster, Close combat weapon
+    3 with Close combat weapon, Sonic blaster
+• 1x Disharmonist: Close combat weapon, Sonic blaster
+6x Noise Marines (145 pts)
+• 5x Noise Marine
+    2 with Blastmaster, Close combat weapon
+    3 with Close combat weapon, Sonic blaster
+• 1x Disharmonist: Close combat weapon, Sonic blaster
+2x Obliterators (160 pts): 2 with Crushing fists, Fleshmetal guns
+2x Obliterators (160 pts): 2 with Crushing fists, Fleshmetal guns
+
+undefined

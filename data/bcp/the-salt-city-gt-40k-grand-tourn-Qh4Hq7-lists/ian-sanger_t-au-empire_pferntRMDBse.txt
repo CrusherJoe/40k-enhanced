@@ -1,0 +1,151 @@
+# Ian Sanger | T'au Empire | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/pferntRMDBse  status=passed
+
+List (2000 points)
+
+T’au Empire
+Mont’ka (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Commander in Coldstar Battlesuit (95 points)
+• Attached as: Leader (Character)
+  • 1x Battlesuit fists
+    1x Cyclic ion blaster
+    1x High-output burst cannon
+    2x Shield Drone
+    2x T’au flamer
+
+Crisis Starscythe Battlesuits (90 points)
+• Attached as: Bodyguard
+  • 1x Crisis Starscythe Shas’vre
+    • 1x Battlesuit fists
+      2x Burst cannon
+      1x Gun Drone
+      1x Shield Drone
+  • 2x Crisis Starscythe Shas’ui
+    • 2x Battlesuit fists
+      4x Burst cannon
+      2x Gun Drone
+      2x Shield Drone
+
+
+CHARACTERS
+
+Ethereal (85 points)
+  • Warlord
+  • 1x Honour stave
+    1x Hover Drone
+  • Enhancement: Strike Swiftly
+
+Firesight Team (55 points)
+  • 1x Close combat weapons
+    1x Longshot pulse rifles
+    1x Pulse pistol
+
+The Twin Lance (220 points)
+  • 1x Ri’Lantar
+    • 1x Fusion eliminator
+      1x MV15 Gun Drone
+      1x Shardstorm burst system
+      1x XV pulse pistol
+  • 1x Ri’Locai
+    • 1x Ion scattercannon
+      1x MV15 Gun Drone
+      1x Shardstorm burst system
+      1x XV pulse pistol
+
+
+OTHER DATASHEETS
+
+Broadside Battlesuits (270 points)
+  • 1x Broadside Shas’vre
+    • 1x Crushing bulk
+      1x High-yield missile pods
+  • 2x Broadside Shas’ui
+    • 2x Crushing bulk
+      2x High-yield missile pods
+
+Pathfinder Team (95 points)
+  • 1x Pathfinder Shas’ui
+    • 1x Close combat weapon
+      1x Grav-inhibitor Drone
+      1x Gun Drone
+      1x Pulse carbine
+      1x Pulse pistol
+      1x Semi-automatic grenade launcher
+      1x Shield Drone
+  • 9x Pathfinder
+    • 9x Close combat weapon
+      2x Ion rifle
+      6x Pulse carbine
+      9x Pulse pistol
+      1x Rail rifle
+
+Pathfinder Team (85 points)
+  • 1x Pathfinder Shas’ui
+    • 1x Close combat weapon
+      1x Gun Drone
+      1x Pulse carbine
+      1x Pulse pistol
+      1x Recon Drone
+      1x Semi-automatic grenade launcher
+      1x Shield Drone
+  • 9x Pathfinder
+    • 9x Close combat weapon
+      6x Pulse carbine
+      9x Pulse pistol
+      3x Rail rifle
+
+Riptide Battlesuit (215 points)
+  • 1x Ion accelerator
+    2x Missile Drone
+    1x Riptide fists
+    1x Twin smart missile system
+
+Riptide Battlesuit (215 points)
+  • 1x Ion accelerator
+    2x Missile Drone
+    1x Riptide fists
+    1x Twin smart missile system
+
+Stealth Battlesuits (100 points)
+  • 1x Stealth Shas’vre
+    • 1x Battlesuit fists
+      1x Burst cannon
+      1x Gun Drone
+      1x Marker Drone
+      1x Pulse pistol
+  • 4x Stealth Shas’ui
+    • 4x Battlesuit fists
+      2x Burst cannon
+      2x Fusion blaster
+      1x Homing Beacon
+
+Stealth Battlesuits (100 points)
+  • 1x Stealth Shas’vre
+    • 1x Battlesuit fists
+      1x Burst cannon
+      1x Gun Drone
+      1x Marker Drone
+      1x Pulse pistol
+  • 4x Stealth Shas’ui
+    • 4x Battlesuit fists
+      2x Burst cannon
+      2x Fusion blaster
+      1x Homing Beacon
+
+Stormsurge (375 points)
+  • 1x Cluster rocket system
+    1x Destroyer missiles
+    1x Pulse blast cannon
+    1x Thunderous footfalls
+    1x Twin burst cannon
+    2x Twin smart missile system
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

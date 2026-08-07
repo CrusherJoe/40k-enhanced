@@ -1,0 +1,149 @@
+# Pascal Haberstroh | Adeptus Mechanicus | Priority Assets | team=Team Firebug
+# list: https://www.bestcoastpairings.com/list/Qt4zq0ool77V  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Mechanicus
++ DETACHMENT: Lords of the Forge, Rad‑zone Corps (War-form Mantles)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Belisarius Cawl
++ ENHANCEMENT: Radial Suffusion (on Char3: Tech-Priest Enginseer)
++ NUMBER OF UNITS: 15
++ SECONDARY: - Bring It Down: (5x2) + (1x6) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Belisarius Cawl (220 pts)
+• 1x Arc scourge
+• 1x Cawl's Omnissian axe
+• 1x Mechadendrite hive
+• 1x Solar atomiser
+• Warlord
+
+Tech-Priest Enginseer (80 pts)
+• 1x Mechanicus pistol
+• 1x Omnissian axe
+• 1x Servo arm
+• Radial Suffusion (+25 pts)
+
+Thulia Ghuld (180 pts)
+• 1x Jericho-class conversion resonator
+• 1x Rod of the War Forge
+
+BATTLELINE
+
+Skitarii Rangers (85 pts)
+• 1x Skitarii Ranger Alpha
+    • 1x Alpha combat weapon
+    • 1x Close combat weapon
+    • 1x Galvanic rifle
+• 9x Skitarii Ranger
+    • 1x Arc rifle
+    • 9x Close combat weapon
+    • 6x Galvanic rifle
+    • 1x Plasma caliver
+    • 1x Transuranic arquebus
+    • Omnispex
+
+Skitarii Rangers (85 pts)
+• 1x Skitarii Ranger Alpha
+    • 1x Alpha combat weapon
+    • 1x Close combat weapon
+    • 1x Galvanic rifle
+• 9x Skitarii Ranger
+    • 1x Arc rifle
+    • 9x Close combat weapon
+    • 6x Galvanic rifle
+    • 1x Plasma caliver
+    • 1x Transuranic arquebus
+    • Omnispex
+
+OTHER DATASHEETS
+
+Ironstrider Ballistarii (250 pts)
+• 3x Ironstrider Ballistarius (Twin cognis autocannon)
+    • 3x Ironstrider feet
+    • 3x Twin cognis autocannon
+
+Pteraxii Skystalkers (150 pts)
+• 1x Pteraxii Skystalker Alpha
+    • 1x Flechette blaster
+    • 1x Taser goad
+• 9x Pteraxii Skystalkers
+    • 9x Close combat weapon
+    • 9x Flechette carbine
+
+Pteraxii Sterylizors (80 pts)
+• 1x Pteraxii Sterylizor Alpha
+    • 1x Flechette blaster
+    • 1x Pteraxii talons
+    • 1x Taser goad
+• 4x Pteraxii Sterylizors
+    • 4x Phosphor torch
+    • 4x Pteraxii talons
+
+Servitor Battleclade (65 pts)
+• 1x Servitor Underseer
+    • 1x Dataspikes
+    • 1x Mechanicus pistol
+• 2x Gun Servitor
+    • 1x Heavy arc rifle
+    • 2x Servo-claw
+    • 1x Heavy bolter
+• 6x Combat Servitor
+    • 2x Phosphor blaster
+    • 6x Servo-claw
+    • 1x Meltagun
+    • 3x Incendine igniter
+
+Servitor Battleclade (65 pts)
+• 1x Servitor Underseer
+    • 1x Dataspikes
+    • 1x Mechanicus pistol
+• 2x Gun Servitor
+    • 1x Heavy arc rifle
+    • 2x Servo-claw
+    • 1x Heavy bolter
+• 6x Combat Servitor
+    • 2x Phosphor blaster
+    • 6x Servo-claw
+    • 1x Meltagun
+    • 3x Incendine igniter
+
+Sicarian Infiltrators (155 pts)
+• 1x Sicarian Infiltrator Princeps (Taser goad & flechette blaster)
+    • 1x Flechette blaster
+    • 1x Taser goad
+• 9x Sicarian Infiltrator (Taser goad & flechette blaster)
+    • 9x Flechette blaster
+    • 9x Taser goad
+
+Sicarian Infiltrators (75 pts)
+• 1x Sicarian Infiltrator Princeps (Taser goad & flechette blaster)
+    • 1x Flechette blaster
+    • 1x Taser goad
+• 4x Sicarian Infiltrator (Taser goad & flechette blaster)
+    • 4x Flechette blaster
+    • 4x Taser goad
+
+Skorpius Disintegrator (170 pts)
+• 1x Armoured hull
+• 3x Cognis heavy stubber
+• 1x Disruptor missile launcher
+• 1x Ferrumite cannon
+
+Skorpius Disintegrator (170 pts)
+• 1x Armoured hull
+• 3x Cognis heavy stubber
+• 1x Disruptor missile launcher
+• 1x Ferrumite cannon
+
+Skorpius Disintegrator (170 pts)
+• 1x Armoured hull
+• 3x Cognis heavy stubber
+• 1x Disruptor missile launcher
+• 1x Ferrumite cannon
+
+undefined

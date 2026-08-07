@@ -1,0 +1,78 @@
+# Tobias Matt | Space Marines (Astartes) | Priority Assets | team=Excubito Tabletop
+# list: https://www.bestcoastpairings.com/list/sMwCXR0r4GYd  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ TEAM NAME: Excubito Tabletop E.V.
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Ultramarines
++ DETACHMENT: Firestorm Assault Force, Vengeful Hosts (Close-Range Eradication)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char2: Marneus Calgar in Armour of Antilochus
++ ENHANCEMENT: Adamantine Mantle (on Char4: Captain in Gravis Armour)
+& Orksbane (on Char5: Chaplain with Jump Pack)
+& Champion of Humanity (on Char6: Lieutenant)
++ NUMBER OF UNITS: 16
++ SECONDARY: - Bring It Down: (2x2) + (1x4) - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char4: 1x Captain in Gravis Armour (100 pts): Boltstorm gauntlet, Power fist, Relic Blade
+Enhancement: Adamantine Mantle (+20 pts)
+Char1: 1x Cato Sicarius (105 pts): Artisan Plasma Pistol, Talassarian Tempest Blade
+Char5: 1x Chaplain with Jump Pack (95 pts): Orksbane, Crozius arcanum, Inferno Pistol
+Char6: 1x Lieutenant (55 pts): Master-crafted power weapon, Neo-volkite Pistol, Storm Shield
+Enhancement: Champion of Humanity (+10 pts)
+Char2: 1x Marneus Calgar in Armour of Antilochus (155 pts): Warlord, Gauntlets of Ultramar
+Char3: 1x Uriel Ventris (105 pts): Bolt pistol, Invictus, Sword of Idaeus
+
+3x Aggressor Squad (80 pts)
+• 1x Aggressor Sergeant: Twin power fist, Flamestorm Gauntlets
+• 2x Aggressors: 2 with Twin power fist, Flamestorm Gauntlets
+
+6x Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+
+LEADER: Uriel Ventris
+SUPPORT: Lieutenant
+
+6x Eradicator Squad (180 pts)
+• 3x Eradicator: 3 with Bolt pistol, Close combat weapon, Melta rifle
+• 1x Eradicator Sergeant: Bolt pistol, Close combat weapon, Melta rifle
+• 2x Eradicator with Multi-melta: 2 with Bolt pistol, Close combat weapon, Multi-melta
+
+LEADER: Captain in Gravis Armour
+
+1x Impulsor (70 pts): Shield Dome, Armoured Hull, Ironhail Heavy Stubber, 2x Storm bolter5x Infiltrator Squad (110 pts)
+• 4x Infiltrator
+    2 with Bolt pistol, Close combat weapon, Marksman Bolt Carbine
+    1 with Infiltrator Comms Array, Bolt pistol, Close combat weapon, Marksman Bolt Carbine
+    1 with Helix Gauntlet, Bolt pistol, Close combat weapon, Marksman Bolt Carbine
+• 1x Infiltrator Sergeant: Bolt pistol, Close combat weapon, Marksman Bolt Carbine
+
+1x Land Raider Redeemer (250 pts): Armoured Tracks, 2x Flamestorm Cannon, Hunter-killer missile, Multi-melta, Storm bolter, Twin assault cannon
+
+1x Land Speeder (105 pts): Close combat weapon, Multi-melta, Stormfury Missile Launcher, Onslaught gatling cannon
+
+5x Scout Squad (65 pts)
+• 2x Scout
+    1 with Bolt pistol, Close combat weapon, Missile Launcher
+    1 with Bolt pistol, Close combat weapon, Scout Sniper Rifle
+• 1x Scout Sergeant: Bolt pistol, Close combat weapon, Boltgun
+• 2x Scouts: 2 with Bolt pistol, Boltgun, Close combat weapon
+
+5x Vanguard Veteran Squad with Jump Packs (105 pts)
+• 1x Vanguard Veteran Sergeant with Jump Pack: Vanguard Veteran Weapon, Bolt pistol
+• 4x Vanguard Veterans with Jump Packs: 4 with Vanguard Veteran Weapon, Bolt pistol
+
+LEADER: Chaplain with Jump Pack
+
+6x Victrix Honour Guard (255 pts)
+• 1x Chapter Ancient: Banner of Macragge, Master-crafted power weapon
+• 1x Chapter Champion: Blades of Honour
+• 4x Victrix Honour Guard: 4 with Master-crafted Bolt Carbine, Master-crafted power weapon
+
+LEADER: Marneus Calgar in Armour of Antilochus
+SUPPORT: Cato Sicarius
+
+undefined

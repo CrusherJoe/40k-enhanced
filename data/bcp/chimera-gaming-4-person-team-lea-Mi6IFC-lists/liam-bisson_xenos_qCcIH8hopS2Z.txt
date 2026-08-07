@@ -1,0 +1,138 @@
+# Liam Bisson | Xenos | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/qCcIH8hopS2Z  status=passed
+
+teams (2000 points)
+
+Space Marines
+Ultramarines
+Firestorm Assault Force and Fulguris Task Force (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Judiciar (55 points)
+• Attached as: Leader (Character)
+  • 1x Absolvor bolt pistol
+    1x Executioner relic blade
+
+Bladeguard Veteran Squad (160 points)
+• Attached as: Bodyguard
+  • 1x Bladeguard Veteran Sergeant
+    • 1x Heavy bolt pistol
+      1x Master-crafted power weapon
+  • 5x Bladeguard Veteran
+    • 5x Heavy bolt pistol
+      5x Master-crafted power weapon
+
+Attached Unit 2
+
+Apothecary Biologis (70 points)
+• Attached as: Support (Character)
+  • 1x Absolvor bolt pistol
+    1x Close combat weapon
+
+Eradicator Squad with Heavy Bolters (80 points)
+• Attached as: Bodyguard
+  • 1x Eradicator Sergeant
+    • 1x Bolt pistol
+      1x Close-combat weapon
+      1x Heavy Bolter
+  • 2x Eradicator
+    • 2x Bolt pistol
+      2x Close-combat weapon
+      2x Heavy Bolter
+
+Attached Unit 3
+
+Chaplain with Jump Pack (75 points)
+• Attached as: Leader (Character)
+  • 1x Bolt pistol
+    1x Crozius arcanum
+
+Vanguard Veteran Squad with Jump Packs (210 points)
+• Attached as: Bodyguard
+  • 1x Vanguard Veteran Sergeant with Jump Pack
+    • 1x Bolt pistol
+      1x Vanguard Veteran weapon
+  • 9x Vanguard Veteran with Jump Pack
+    • 9x Bolt pistol
+      9x Vanguard Veteran weapon
+
+
+CHARACTERS
+
+Roboute Guilliman (355 points)
+  • Warlord
+  • 1x Emperor’s Sword
+    1x Hand of Dominion
+
+
+BATTLELINE
+
+Intercessor Squad (150 points)
+  • 1x Intercessor Sergeant
+    • 1x Bolt pistol
+      1x Bolt rifle
+      1x Close combat weapon
+  • 9x Intercessor
+    • 2x Astartes grenade launcher
+      9x Bolt pistol
+      9x Bolt rifle
+      9x Close combat weapon
+
+Intercessor Squad (150 points)
+  • 1x Intercessor Sergeant
+    • 1x Bolt pistol
+      1x Bolt rifle
+      1x Close combat weapon
+  • 9x Intercessor
+    • 2x Astartes grenade launcher
+      9x Bolt pistol
+      9x Bolt rifle
+      9x Close combat weapon
+
+
+OTHER DATASHEETS
+
+Eradicator Squad with Heavy Bolters (80 points)
+  • 1x Eradicator Sergeant
+    • 1x Bolt pistol
+      1x Close-combat weapon
+      1x Heavy Bolter
+  • 2x Eradicator
+    • 2x Bolt pistol
+      2x Close-combat weapon
+      2x Heavy Bolter
+
+Land Speeder (105 points)
+  • 1x Close-combat weapon
+    1x Multi-melta
+    1x Onslaught gatling cannon
+    1x Stormfury missile launcher
+
+Land Speeder (105 points)
+  • 1x Close-combat weapon
+    1x Multi-melta
+    1x Onslaught gatling cannon
+    1x Stormfury missile launcher
+
+Repulsor Executioner (255 points)
+  • 1x Armoured hull
+    1x Heavy onslaught gatling cannon
+    1x Macro plasma incinerator
+    1x Repulsor Executioner defensive array
+    1x Twin Icarus ironhail heavy stubber
+    1x Twin heavy bolter
+
+Storm Speeder Thunderstrike (150 points)
+  • 1x Close combat weapon
+    1x Stormfury missiles
+    1x Thunderstrike las-talon
+    1x Twin Icarus rocket pod
+  • Enhancement: Raptorial Cogitator Core (Upgrade)
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

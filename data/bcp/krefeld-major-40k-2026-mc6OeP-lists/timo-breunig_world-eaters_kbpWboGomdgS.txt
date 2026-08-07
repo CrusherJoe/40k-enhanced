@@ -1,0 +1,104 @@
+# Timo Breunig | World Eaters | Purge the Foe | team=Bergische Spielkultur
+# list: https://www.bestcoastpairings.com/list/kbpWboGomdgS  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Breunig
++ FACTION KEYWORD: Chaos - World Eaters
++ DETACHMENT: Butchers of Khorne, Possessed Slaughterband (Adamantine Avalanche)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Daemon Prince of Khorne
++ ENHANCEMENT: Violent Demise (on Char2: Slaughterbound)
+& Frenzied Focus (on Char3: Slaughterbound)
+& Sanctified in Slaughter (on Infa4: Chaos Terminators)
++ NUMBER OF UNITS: 12
++ SECONDARY: - Bring It Down: (2x2) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Daemon Prince of Khorne (200 pts)
+• 1x Hellforged weapons
+• 1x Infernal cannon
+• Warlord
+
+Slaughterbound (110 pts) (Leader: 6x Exalted Eightbound)
+• 1x Lacerator and daemonic claw
+• Violent Demise (+10 pts)
+
+Slaughterbound (120 pts) (Leader: 6x Eightbound)
+• 1x Lacerator and daemonic claw
+• Frenzied Focus (+20 pts)
+
+Slaughterbound (100 pts) (Leader: 6x Exalted Eightbound)
+• 1x Lacerator and daemonic claw
+
+OTHER DATASHEETS
+
+Chaos Rhino (75 pts)
+• 1x Armoured tracks
+• 1x Combi-bolter
+• 1x Havoc launcher
+• 1x Combi-bolter
+
+Chaos Terminators (345 pts)
+• 1x Terminator Champion
+    • 1x Combi-bolter
+    • 1x Power fist
+• 9x Chaos Terminator
+    • 6x Accursed weapon
+    • 5x Combi-bolter
+    • 2x Chainfist
+    • 3x Combi-weapon
+    • 1x Power fist
+    • 1x Heavy flamer
+  • Sanctified in Slaughter (+15 pts)
+
+Eightbound (255 pts)
+• 1x Eightbound Champion
+    • 1x Chainblades
+• 5x Eightbound
+    • 5x Chainblades
+
+Eightbound (125 pts)
+• 1x Eightbound Champion
+    • 1x Chainblades
+• 2x Eightbound
+    • 2x Chainblades
+
+Exalted Eightbound (265 pts)
+• 1x Exalted Eightbound Champion
+    • 1x Chainblades
+• 5x Exalted Eightbound
+    • 5x Chainblades
+
+Exalted Eightbound (265 pts)
+• 1x Exalted Eightbound Champion
+    • 1x Chainblades
+• 5x Exalted Eightbound
+    • 5x Chainblades
+
+Goremongers (75 pts)
+• 1x Blood Herald
+    • 1x Autopistol
+    • 1x Chainblade
+    • 1x Close combat weapon
+• 7x Goremonger
+    • 7x Autopistol
+    • 7x Chainblade
+    • 7x Close combat weapon
+
+Jakhals (65 pts)
+• 1x Jakhal Pack Leader
+    • 1x Autopistol
+    • 1x Chainblades
+• 1x Dishonoured
+    • 1x Skullsmasher and mangler
+• 8x Jakhal
+    • 8x Autopistol
+    • 7x Chainblades
+    • 1x Mauler chainblade
+  • Icon of Khorne
+
+undefined

@@ -1,0 +1,262 @@
+{
+ "event": {
+  "id": "EO5yQ9ftzZrq",
+  "name": "Road to Terra II - League",
+  "totalPlayers": 28,
+  "eventDate": "2026-08-03T09:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Chris Owram",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "jkhCOJ2AtoW9",
+   "listUrl": "https://www.bestcoastpairings.com/list/jkhCOJ2AtoW9"
+  },
+  {
+   "name": "Ben Tuckett",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "eDjUic2YvvFk",
+   "listUrl": "https://www.bestcoastpairings.com/list/eDjUic2YvvFk"
+  },
+  {
+   "name": "Jordan Bishop",
+   "faction": "Thousand Sons",
+   "detachment": "Disruption",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "PdZLFPPhQszu",
+   "listUrl": "https://www.bestcoastpairings.com/list/PdZLFPPhQszu"
+  },
+  {
+   "name": "david roberts",
+   "faction": "Leagues of Votann",
+   "detachment": "Purge the Foe",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "PbGDcChSYyqE",
+   "listUrl": "https://www.bestcoastpairings.com/list/PbGDcChSYyqE"
+  },
+  {
+   "name": "Geraint Cooper",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "hdXV6oyORbpq",
+   "listUrl": "https://www.bestcoastpairings.com/list/hdXV6oyORbpq"
+  },
+  {
+   "name": "Robert Earl",
+   "faction": "World Eaters",
+   "detachment": "Take and Hold",
+   "team": "Trazyn's pokeballs",
+   "dropped": false,
+   "listId": "oXK1w960FI6D",
+   "listUrl": "https://www.bestcoastpairings.com/list/oXK1w960FI6D"
+  },
+  {
+   "name": "Paul Jones",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "tj7taZkKWlh8",
+   "listUrl": "https://www.bestcoastpairings.com/list/tj7taZkKWlh8"
+  },
+  {
+   "name": "Lucas King",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "TeZ5TE8xCp1r",
+   "listUrl": "https://www.bestcoastpairings.com/list/TeZ5TE8xCp1r"
+  },
+  {
+   "name": "Simon Price",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "YU5K5KMGlaeW",
+   "listUrl": "https://www.bestcoastpairings.com/list/YU5K5KMGlaeW"
+  },
+  {
+   "name": "Liam Meaker",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "GyKYh2np0puT",
+   "listUrl": "https://www.bestcoastpairings.com/list/GyKYh2np0puT"
+  },
+  {
+   "name": "Gerard Purcell",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": "Vale Renegades",
+   "dropped": false,
+   "listId": "mkK86Xa9zPlB",
+   "listUrl": "https://www.bestcoastpairings.com/list/mkK86Xa9zPlB"
+  },
+  {
+   "name": "Joshua Scott",
+   "faction": "Death Guard",
+   "detachment": "Reconnaissance",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "455BhIAsA4NF",
+   "listUrl": "https://www.bestcoastpairings.com/list/455BhIAsA4NF"
+  },
+  {
+   "name": "Lucy Cooper",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "uXETIaIO4LMg",
+   "listUrl": "https://www.bestcoastpairings.com/list/uXETIaIO4LMg"
+  },
+  {
+   "name": "Adam Brake",
+   "faction": "Orks",
+   "detachment": "Disruption",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "7anyEriE8YlV",
+   "listUrl": "https://www.bestcoastpairings.com/list/7anyEriE8YlV"
+  },
+  {
+   "name": "Andrew Lewis",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": "Vale Renegades",
+   "dropped": false,
+   "listId": "NoyEQlYqe6HW",
+   "listUrl": "https://www.bestcoastpairings.com/list/NoyEQlYqe6HW"
+  },
+  {
+   "name": "Brandon Probert",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Trazyn's pokeballs",
+   "dropped": false,
+   "listId": "9R1mOSZg4h12",
+   "listUrl": "https://www.bestcoastpairings.com/list/9R1mOSZg4h12"
+  },
+  {
+   "name": "Andrew Lambert",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "SY4OjxJBBAXl",
+   "listUrl": "https://www.bestcoastpairings.com/list/SY4OjxJBBAXl"
+  },
+  {
+   "name": "Owen Crosweller",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "Ir0pwcKP1Q3D",
+   "listUrl": "https://www.bestcoastpairings.com/list/Ir0pwcKP1Q3D"
+  },
+  {
+   "name": "Jake Rogers",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance",
+   "team": "The Tabletop Alliance",
+   "dropped": false,
+   "listId": "9uZMqeDvVOfc",
+   "listUrl": "https://www.bestcoastpairings.com/list/9uZMqeDvVOfc"
+  },
+  {
+   "name": "Chris Roberts",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "QuIeuEJ1LSzX",
+   "listUrl": "https://www.bestcoastpairings.com/list/QuIeuEJ1LSzX"
+  },
+  {
+   "name": "Rhys Wynne-Jones",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "More Dakka",
+   "dropped": false,
+   "listId": "Yj998hUUCzpX",
+   "listUrl": "https://www.bestcoastpairings.com/list/Yj998hUUCzpX"
+  },
+  {
+   "name": "Scott Lawrence",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "Trazyn's pokeballs",
+   "dropped": false,
+   "listId": "y8IFUYPzjNJf",
+   "listUrl": "https://www.bestcoastpairings.com/list/y8IFUYPzjNJf"
+  },
+  {
+   "name": "Jon Oliver",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "beHFMsCGppGX",
+   "listUrl": "https://www.bestcoastpairings.com/list/beHFMsCGppGX"
+  },
+  {
+   "name": "Kane Evans",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "HAB7POFEEutd",
+   "listUrl": "https://www.bestcoastpairings.com/list/HAB7POFEEutd"
+  },
+  {
+   "name": "Jennifer Watson",
+   "faction": "Chaos Daemons",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "xcTidiFxDro8",
+   "listUrl": "https://www.bestcoastpairings.com/list/xcTidiFxDro8"
+  },
+  {
+   "name": "James Taylor",
+   "faction": "Black Templars",
+   "detachment": "Take and Hold",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "bIMhwUZKtnqH",
+   "listUrl": "https://www.bestcoastpairings.com/list/bIMhwUZKtnqH"
+  },
+  {
+   "name": "christopher hogancamp",
+   "faction": "Chaos Knights",
+   "detachment": "Reconnaissance",
+   "team": "Vale Renegades",
+   "dropped": false,
+   "listId": "vdosQpfkjk4v",
+   "listUrl": "https://www.bestcoastpairings.com/list/vdosQpfkjk4v"
+  },
+  {
+   "name": "Ross Miller",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "LXT",
+   "dropped": false,
+   "listId": "jRJXzjVriWsq",
+   "listUrl": "https://www.bestcoastpairings.com/list/jRJXzjVriWsq"
+  }
+ ]
+}

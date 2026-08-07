@@ -1,0 +1,87 @@
+# Lancelot St-amour | T'au Empire | Reconnaissance | team=Miami Dice
+# list: https://www.bestcoastpairings.com/list/Xk3Cgv4cviyg  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Tau Empire
++ DETACHMENT: Kauyon, Advanced Acquisition Cadre
++ TOTAL ARMY POINTS: 1995pts
++ POINTS LIMIT: 2000pts
++
++ ENHANCEMENT: Solid-Image Projection Unit(on Char2: Ethereal)
++ NUMBER OF UNITS: 20
++ SECONDARY: -Bring It Down: 10x2 - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Char1: 1x Commander Shadowsun (100 points)
+• 1x Commander Shadowsun: 2 High-energy fusion blasters, Advanced guardian drone, Battlesuit fists, Command-link drone, Flechette launcher, Light missile pod and Pulse pistol
+• Warlord
+Char2: 1x Ethereal (70 points)
+• 1x Ethereal: Gun drone with twin pulse carbine, Honour stave, Hover drone and Marker drone
+Enhancement: Solid-Image Projection Unit (+20 pts)
+Char3: 2x The Twin Lance (220 points)
+• 1x Ri’Lantar: Fusion eliminator, Mv15 gun drone with twin pulse blaster, Shardstorm burst system and Xv pulse pistol
+• 1x Ri’Locai: Ion scattercannon, Mv15 gun drone with twin pulse blaster, Shardstorm burst system and Xv pulse pistol
+
+OTHER DATASHEETS
+
+2x Broadside Battlesuits (150 points)
+• 1x Broadside Shas’vre: Crushing bulk, Heavy rail rifle, 2 Missile drone, Seeker missile  and Twin smart missile system
+• 1x Broadside Shas’ui: Crushing bulk, Heavy rail rifle, 2 Missile drone, Seeker missile  and Twin smart missile system
+2x Broadside Battlesuits (150 points)
+• 1x Broadside Shas’vre: Crushing bulk, Heavy rail rifle, 2 Missile drone, Seeker missile  and Twin smart missile system
+• 1x Broadside Shas’ui: Crushing bulk, Heavy rail rifle, 2 Missile drone, Seeker missile  and Twin smart missile system
+1x Devilfish (75 points)
+• 1x Devilfish: 2 Seeker missiles, 2 Smart missile systems, Accelerator burst cannon and Armoured hull
+1x Devilfish (75 points)
+• 1x Devilfish: 2 Seeker missiles, 2 Smart missile systems, Accelerator burst cannon and Armoured hull
+1x Hammerhead Gunship (150 points)
+• 1x Hammerhead Gunship: 2 Accelerator burst cannons, 2 Seeker missiles, Armoured hull and Ion cannon
+1x Hammerhead Gunship (150 points)
+• 1x Hammerhead Gunship: 2 Accelerator burst cannons, 2 Seeker missiles, Armoured hull and Ion cannon
+10x Kroot Carnivores (65 points)
+• 1x Long-quill: Close combat weapon, Kroot pistol and Kroot rifle
+• 8x Kroot Carnivores: Close combat weapon and Kroot rifle
+• 1x Kroot Carnivores: Close combat weapon and Tanglebomb launcher
+5x Kroot Hounds (45 points)
+• 5x Kroot Hounds: ripping fangs
+10x Pathfinder Team (85 points)
+• 1x Pathfinder Shas’ui: Close combat weapon, Grav-inhibitor drone, 2 Gun drone with twin pulse carbine, Pulse carbine and Pulse pistol
+• 5x Pathfinders: Close combat weapon, Pulse carbine and Pulse pistol
+• 3x Pathfinders: Close combat weapon, Pulse pistol and Rail rifle
+• 1x Pathfinders: Close combat weapon, Pulse carbine and semi-automatic grenade launcher and Pulse pistol
+10x Pathfinder Team (85 points)
+• 1x Pathfinder Shas’ui: Close combat weapon, Grav-inhibitor drone, 2 Gun drone with twin pulse carbine, Pulse carbine and Pulse pistol
+• 5x Pathfinders: Close combat weapon, Pulse carbine and Pulse pistol
+• 3x Pathfinders: Close combat weapon, Pulse pistol and Rail rifle
+• 1x Pathfinders: Close combat weapon, Pulse carbine and semi-automatic grenade launcher and Pulse pistol
+10x Pathfinder Team (100 points)
+• 1x Pathfinder Shas’ui: Close combat weapon, Grav-inhibitor drone, 2 Gun drone with twin pulse carbine, Pulse carbine and Pulse pistol
+• 5x Pathfinders: Close combat weapon, Pulse carbine and Pulse pistol
+• 3x Pathfinders: Close combat weapon, Pulse pistol and Rail rifle
+• 1x Pathfinders: Close combat weapon, Pulse carbine and semi-automatic grenade launcher and Pulse pistol
+1x Piranhas (65 points)
+• 1x Piranhas: 2 Twin pulse carbines, Armoured hull, Piranha burst cannon and 2 Seeker missiles
+1x Piranhas (65 points)
+• 1x Piranhas: 2 Twin pulse carbines, Armoured hull, Piranha burst cannon and 2 Seeker missiles
+1x Piranhas (75 points)
+• 1x Piranhas: 2 Twin pulse carbines, Armoured hull, Piranha burst cannon and 2 Seeker missiles
+5x Stealth Battlesuits (100 points)
+• 1x Stealth Shas’vre: Battlesuit fists and fusion cannon
+• 1x Stealth Shas’ui: Battlesuit fists and fusion cannon
+• 1x Stealth Shas’ui: Battlesuit fists and Burst cannon
+• 1x Stealth Shas’ui: Battlesuit fists and Burst cannon
+• 1x Stealth Shas’ui: Battlesuit fists and Burst cannon
+5x Stealth Battlesuits (100 points)
+• 1x Stealth Shas’vre: Battlesuit fists and fusion cannon
+• 1x Stealth Shas’ui: Battlesuit fists and fusion cannon
+• 1x Stealth Shas’ui: Battlesuit fists and Burst cannon
+• 1x Stealth Shas’ui: Battlesuit fists and Burst cannon
+• 1x Stealth Shas’ui: Battlesuit fists and Burst cannon
+5x Vespid Stingwings (70 points)
+• 1x Vespid Strain Leader: Neutron blaster and Stingwing claws
+• 4x Vespid Stingwings: Neutron blaster and Stingwing claws
+
+
+undefined

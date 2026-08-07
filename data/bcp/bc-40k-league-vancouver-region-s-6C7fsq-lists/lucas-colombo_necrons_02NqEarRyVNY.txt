@@ -1,0 +1,35 @@
+# Lucas Colombo | Necrons | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/02NqEarRyVNY  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Awakened Dynasty (Command Protocols)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1985pts
++
++ WARLORD: Char3: Imotekh the Stormlord
++ ENHANCEMENT: Veil of Darkness (on Char6: Overlord)
+& Enaegic Dermal Bond (on Char7: Skorpekh Lord)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (2x2) + (1x4) - Assassination: 8 Characters - Cull The Horde: 1x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x C'tan Shard of the Void Dragon (345 pts): Canoptek tail blades, Spear of the Void Dragon, Voltaic storm
+Char2: 1x Illuminor Szeras (175 pts): Eldritch lance, Impaling legs
+Char3: 1x Imotekh the Stormlord (100 pts): Warlord, Gauntlet of Fire, Staff of the Destroyer
+Char4: 1x Nekrosor Ammentar (185 pts): Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+Char5: 1x Orikan the Diviner (90 pts): Staff of Tomorrow
+Char6: 1x Overlord (110 pts): Resurrection orb, Voidscythe
+Enhancement: Veil of Darkness (+20 pts)
+Char7: 1x Skorpekh Lord (120 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Enhancement: Enaegic Dermal Bond (+30 pts)
+Char8: 1x Technomancer (80 pts): Staff of light
+
+20x Necron Warriors (190 pts): 20 with Close combat weapon, Gauss reaper
+
+1x Canoptek Reanimator (75 pts): 2x Atomiser beam, Reanimator's claws
+6x Canoptek Wraiths (220 pts): 6 with Particle caster, Vicious claws
+1x Doomsday Ark (210 pts): Armoured bulk, Doomsday cannon, 2x Gauss flayer array
+3x Skorpekh Destroyers (85 pts): 3 with Skorpekh hyperphase weapons
+
+undefined

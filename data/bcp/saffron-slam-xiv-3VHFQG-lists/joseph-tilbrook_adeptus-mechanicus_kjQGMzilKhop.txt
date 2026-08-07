@@ -1,0 +1,175 @@
+# joseph tilbrook | Adeptus Mechanicus | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/kjQGMzilKhop  status=passed
+
+Cladus Adjutorum Technis (1995 points)
+
+Adeptus Mechanicus
+Lords of the Forge and Rad-Zone Corps (3 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Skitarii Marshal (55 points)
+• Attached as: Support (Character)
+  • 1x Control stave
+    1x Mechanicus pistol
+  • Enhancement: Malphonic Susurrus
+
+Hastarii Fusiliers (115 points)
+• Attached as: Bodyguard
+  • 1x Hastarii Fusilier Alpha
+    • 1x Hastarii phosphor blaster
+      1x Neutron fusil
+      1x Power weapon
+  • 4x Hastarii Fusilier
+    • 4x Close combat weapon
+      4x Hastarii phosphor blaster
+      4x Neutron fusil
+
+Attached Unit 2
+
+Tech-Priest Manipulus (80 points)
+• Attached as: Leader (Character)
+  • 1x Magnarail lance
+    1x Omnissian staff
+  • Enhancement: Peerless Eradicator
+
+Kataphron Breachers (310 points)
+• Attached as: Bodyguard
+  • 6x Kataphron Breacher
+    • 6x Heavy arc rifle
+      6x Hydraulic claw
+
+Attached Unit 3
+
+Technoarcheologist (75 points)
+• Attached as: Support (Character)
+  • 1x Mechanicus pistol
+    1x Servo-arc claw
+  • Enhancement: TL-4ø9
+
+Skitarii Rangers (85 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Skitarii Ranger Alpha
+    • 1x Alpha combat weapon
+      1x Close combat weapon
+      1x Mechanicus pistol
+  • 9x Skitarii Ranger
+    • 1x Arc rifle
+      9x Close combat weapon
+      1x Enhanced data-tether
+      6x Galvanic rifle
+      1x Plasma caliver
+      1x Transuranic arquebus
+
+
+CHARACTERS
+
+Belisarius Cawl (220 points)
+  • Warlord
+  • 1x Arc scourge
+    1x Cawl’s Omnissian axe
+    1x Mechadendrite hive
+    1x Solar atomiser
+
+Sydonian Skatros (50 points)
+  • 1x Mechanicus pistol
+    1x Radium jezzail
+    1x Sydonian feet
+
+Tech-Priest Enginseer (80 points)
+  • 1x Mechanicus pistol
+    1x Omnissian axe
+    1x Servo-arm
+  • Enhancement: Radial Suffusion
+
+
+BATTLELINE
+
+Skitarii Rangers (85 points)
+  • 1x Skitarii Ranger Alpha
+    • 1x Alpha combat weapon
+      1x Close combat weapon
+      1x Mechanicus pistol
+  • 9x Skitarii Ranger
+    • 1x Arc rifle
+      9x Close combat weapon
+      1x Enhanced data-tether
+      7x Galvanic rifle
+      1x Plasma caliver
+
+Skitarii Vanguard (85 points)
+  • 1x Skitarii Vanguard Alpha
+    • 1x Alpha combat weapon
+      1x Close combat weapon
+      1x Mechanicus pistol
+  • 9x Skitarii Vanguard
+    • 1x Arc rifle
+      9x Close combat weapon
+      1x Omnispex
+      1x Plasma caliver
+      7x Radium carbine
+
+
+DEDICATED TRANSPORTS
+
+Skorpius Dunerider (75 points)
+  • 1x Armoured hull
+    1x Cognis heavy stubber array
+
+
+OTHER DATASHEETS
+
+Ironstrider Ballistarii (90 points)
+  • 1x Ironstrider feet
+    1x Twin cognis lascannon
+
+Ironstrider Ballistarii (90 points)
+  • 1x Ironstrider feet
+    1x Twin cognis lascannon
+
+Onager Dunecrawler (155 points)
+  • 2x Cognis heavy stubber
+    1x Dunecrawler legs
+    1x Neutron laser
+
+Onager Dunecrawler (155 points)
+  • 1x Cognis heavy stubber
+    1x Dunecrawler legs
+    1x Twin Onager heavy phosphor blaster
+
+Serberys Raiders (60 points)
+  • 1x Serberys Raider Alpha
+    • 1x Cavalry sabre and clawed limbs
+      1x Galvanic carbine
+      1x Mechanicus pistol
+  • 2x Serberys Raider
+    • 2x Cavalry sabre and clawed limbs
+      1x Enhanced data-tether
+      2x Galvanic carbine
+
+Serberys Sulphurhounds (55 points)
+  • 1x Serberys Sulphurhound Alpha
+    • 1x Cavalry arc maul
+      1x Clawed limbs
+      1x Mechanicus pistol
+      1x Sulphur breath
+  • 2x Serberys Sulphurhound
+    • 2x Clawed limbs
+      1x Phosphor blast carbine
+      3x Phosphor pistol
+      2x Sulphur breath
+
+Sicarian Infiltrators (75 points)
+  • 1x Sicarian Infiltrator Princeps
+    • 1x Flechette blaster
+      1x Taser goad
+  • 4x Sicarian Infiltrator
+    • 4x Flechette blaster
+      4x Taser goad
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

@@ -1,0 +1,55 @@
+# peter whitfield | Leagues of Votann | Priority Assets | team=Event Horizon
+# list: https://www.bestcoastpairings.com/list/J7vururV4mlM  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Leagues of Votann
++ DETACHMENT: Hearthguard Covenant, Needgaârd Oathband (Avatars of the Ancestors)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Ûthar the Destined
++ ENHANCEMENT: Oathbound Speculator (on Char4: Kâhl)
++ NUMBER OF UNITS: 16
++ SECONDARY: - Bring It Down: (2x2) + (2x4) - Assassination: 5 Characters
++ Leaders:
++ Einhyr Champion with 5x Einhyr Hearthguard
++ Kâhl with 10x Einhyr Hearthguard
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Buri Aegnirssen (85 pts): Autoch-pattern bolt pistol, Bane
+Char3: 1x Einhyr Champion (65 pts): Teleport crest, Autoch-pattern combi-bolter, Mass hammer
+Char4: 1x Kâhl (95 pts): Rampart crest, Mass gauntlet, Volkanite disintegrator
+Enhancement: Oathbound Speculator (+30 pts)
+Char5: 1x Memnyr Strategist (45 pts): Autoch-pattern bolt pistol, Close combat weapon
+Char2: 1x Ûthar the Destined (90 pts): Rampart crest, Warlord, Blade of the Ancestors, Volkanite disintegrator
+
+6x Brôkhyr Thunderkyn (160 pts): 6 with Close combat weapon, SP conversion beamer
+10x Einhyr Hearthguard (270 pts)
+• 1x Hesyr: Teleport crest, Graviton hammer, EtaCarn plasma gun, Exo-armour grenade launcher
+• 9x Einhyr Hearthguard: 9 with Concussion gauntlet, EtaCarn plasma gun, Exo-armour grenade launcher
+5x Einhyr Hearthguard (130 pts)
+• 1x Hesyr: Weavefield crest, Graviton hammer, EtaCarn plasma gun, Exo-armour grenade launcher
+• 4x Einhyr Hearthguard: 4 with Concussion gauntlet, EtaCarn plasma gun, Exo-armour grenade launcher
+1x Hekaton Land Fortress (250 pts): Pan spectral scanner, Armoured wheels, MATR autocannon, Heavy magna-rail cannon, 2x Twin bolt cannon
+1x Hekaton Land Fortress (265 pts): Pan spectral scanner, Armoured wheels, MATR autocannon, Heavy magna-rail cannon, 2x Twin bolt cannon
+3x Hernkyn Pioneers (80 pts)
+  1 with Pan-spectral scanner, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+  1 with Rollbar searchlight, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+  1 with Bolt revolver, Bolt shotgun, HYLas rotary cannon, Magna-coil autocannon, Plasma knife
+3x Hernkyn Pioneers (80 pts)
+  1 with Pan-spectral scanner, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+  1 with Rollbar searchlight, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+  1 with Bolt revolver, Bolt shotgun, HYLas rotary cannon, Magna-coil autocannon, Plasma knife
+10x Hernkyn Yaegirs (90 pts)
+• 9x Hernkyn Yaegir
+    7 with Bolt shotgun, Close combat weapon
+    1 with APM launcher, Close combat weapon
+    1 with Close combat weapon, Magna-coil rifle
+• 1x Yaegir Theyn: Close combat weapon, Bolt shotgun
+6x Ironkin Steeljacks with Melee Weapons (160 pts)
+• 1x Steeljack Theyn: Preymark crest, Autoch-pattern bolter, Plasma sword
+• 5x Ironkin Steeljack: 5 with Autoch-pattern bolter, Plasma sword
+1x Kapricus Carrier (70 pts): Smoke launcher, Armoured hull, Magna-coil autocannon, Twin magna-coil autocannon
+1x Kapricus Defenders (65 pts): Smoke launcher, Armoured hull, Twin magna-coil autocannon, HYLas rotary cannon
+
+undefined

@@ -1,0 +1,298 @@
+{
+ "event": {
+  "id": "5A1Mowp1GZUx",
+  "name": "The Cro's Nest 40K Clash: Cro's Birthday Bash",
+  "totalPlayers": 32,
+  "eventDate": "2026-07-31T22:30:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Ciaran Bullen",
+   "faction": null,
+   "detachment": null,
+   "team": "Northern Rivers Raiders",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jayden McNall",
+   "faction": null,
+   "detachment": null,
+   "team": "Northern Rivers Raiders",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Mitchell Brennan",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Dan Wright",
+   "faction": null,
+   "detachment": null,
+   "team": "The Travelling Circus",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Morgan Sizer-Robertson",
+   "faction": null,
+   "detachment": null,
+   "team": "The Travelling Circus",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Beth Beddoes",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": true,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tony Doyle",
+   "faction": null,
+   "detachment": null,
+   "team": "The 106",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Sam Moore",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Shane Meys",
+   "faction": null,
+   "detachment": null,
+   "team": "OnlySquigs",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Samuel Golding",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Cody Bland",
+   "faction": null,
+   "detachment": null,
+   "team": "OnlySquigs",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Brett Hurney",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Danny Woodhouse",
+   "faction": null,
+   "detachment": null,
+   "team": "OnlySquigs",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Zachary Walsh",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Z Battersby",
+   "faction": null,
+   "detachment": null,
+   "team": "OnlySquigs",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jade Woolnough",
+   "faction": null,
+   "detachment": null,
+   "team": "OnlySquigs",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Benjamin Foster",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Thomas Wilson",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tristan McEwan",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Kurt Cullen",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Matthew Hall",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Joshua Cullum",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Todd Bailey",
+   "faction": null,
+   "detachment": null,
+   "team": "OnlySquigs",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jarryd Wilson",
+   "faction": null,
+   "detachment": null,
+   "team": "The 106",
+   "dropped": true,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "justin page",
+   "faction": null,
+   "detachment": null,
+   "team": "The Travelling Circus",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Boyd Steele",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Zac Rhodes",
+   "faction": null,
+   "detachment": null,
+   "team": "Northern Rivers Raiders",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Cameron Schoer",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Daniel Wheatley",
+   "faction": null,
+   "detachment": null,
+   "team": "Loaded Dice",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Scott Green",
+   "faction": null,
+   "detachment": null,
+   "team": "OnlySquigs",
+   "dropped": true,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Adrian Tisdell",
+   "faction": null,
+   "detachment": null,
+   "team": "OnlySquigs",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jack Tinning",
+   "faction": null,
+   "detachment": null,
+   "team": "Brisbane LowRollers",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  }
+ ]
+}

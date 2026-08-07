@@ -1,0 +1,129 @@
+# Jon Capa | Thousand Sons | Take and Hold | team=Robots and Friends
+# list: https://www.bestcoastpairings.com/list/jniJx274xXpo  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Thousand Sons
++ DETACHMENT: Rubricae Phalanx (All is Dust)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Sorcerer in Terminator Armour
++ ENHANCEMENT: Risen Rubricae (on Char2: Sorcerer in Terminator Armour)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Ahriman (100 pts)
+• 1x Black Staff of Ahriman
+• 1x Inferno bolt pistol
+• 1x Transmogrifying Blast
+• Warlord
+
+Joined Unit:
+
+Sorcerer in Terminator Armour (125 pts)
+• 1x Force weapon
+• 1x Gaze of Hate
+• 1x Inferno combi-bolter
+• Risen Rubricae (+30 pts)
+
+Scarab Occult Terminators (385 pts)
+• 1x Scarab Occult Sorcerer
+    • 1x Force weapon
+    • 1x Malefic Curse
+    • 1x Inferno combi-bolter
+• 9x Scarab Occult Terminator
+    • 7x Inferno combi-bolter
+    • 9x Prosperine khopesh
+    • 2x Soulreaper cannon
+    • 2x Hellfyre missile rack
+
+Joined Unit:
+
+Sorcerer in Terminator Armour (100 pts)
+• 1x Force weapon
+• 1x Gaze of Hate
+• 1x Inferno combi-bolter
+• Arcane Thralls (Aura) (+5 pts)
+
+Scarab Occult Terminators (385 pts)
+• 1x Scarab Occult Sorcerer
+    • 1x Force weapon
+    • 1x Malefic Curse
+    • 1x Inferno combi-bolter
+• 9x Scarab Occult Terminator
+    • 7x Inferno combi-bolter
+    • 9x Prosperine khopesh
+    • 2x Soulreaper cannon
+    • 2x Hellfyre missile rack
+
+Joined Unit:
+
+Sorcerer in Terminator Armour (105 pts)
+• 1x Force weapon
+• 1x Gaze of Hate
+• 1x Inferno combi-bolter
+
+Scarab Occult Terminators (400 pts)
+• 1x Scarab Occult Sorcerer
+    • 1x Force weapon
+    • 1x Malefic Curse
+    • 1x Inferno combi-bolter
+• 9x Scarab Occult Terminator
+    • 7x Inferno combi-bolter
+    • 9x Prosperine khopesh
+    • 2x Soulreaper cannon
+    • 2x Hellfyre missile rack
+
+OTHER DATASHEETS
+
+Chaos Spawn (65 pts)
+• 2x Chaos Spawn
+    • 2x Hideous Mutations
+
+Tzaangor Enlightened with Fatecaster greatbows (55 pts)
+• 1x Aviarch
+    • 1x Close combat weapon
+    • 1x Fatecaster greatbow
+• 2x Enlightened
+    • 2x Close combat weapon
+    • 2x Fatecaster greatbow
+
+Tzaangor Enlightened with Fatecaster greatbows (55 pts)
+• 1x Aviarch
+    • 1x Close combat weapon
+    • 1x Fatecaster greatbow
+• 2x Enlightened
+    • 2x Close combat weapon
+    • 2x Fatecaster greatbow
+
+Tzaangors (75 pts)
+• 1x Twistbray
+    • 1x Autopistol
+    • 1x Chainsword
+• 9x Tzaangor
+    • 9x Autopistol
+    • 9x Chainsword
+    • Herd banner, Brayhorn
+
+Tzaangors (75 pts)
+• 1x Twistbray
+    • 1x Autopistol
+    • 1x Chainsword
+• 9x Tzaangor
+    • 9x Autopistol
+    • 9x Chainsword
+    • Herd banner, Brayhorn
+
+Tzaangors (75 pts)
+• 1x Twistbray
+    • 1x Autopistol
+    • 1x Chainsword
+• 9x Tzaangor
+    • 9x Autopistol
+    • 9x Chainsword
+    • Herd banner, Brayhorn
+
+undefined

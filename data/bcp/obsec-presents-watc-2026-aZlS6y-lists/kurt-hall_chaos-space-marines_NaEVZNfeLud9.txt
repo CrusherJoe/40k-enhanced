@@ -1,0 +1,211 @@
+# Kurt Hall | Chaos Space Marines | Disruption | team=Beyond
+# list: https://www.bestcoastpairings.com/list/NaEVZNfeLud9  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+List Name: CSM dis
+Factions Used: Heretic Astartes
+Army Points: 1995
+Army Enhancements (list on which model): Dread Reputation (on Chaos Lord with Jump Pack)
+Disposition: Disruption
+Detachment(s): Huron's Marauders
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ATTACHED UNITS:
+Huron Blackheart + Masters of the Maelstrom + Chosen (410 pts)
+  Huron Blackheart (130 pts)
+    • Tyrant's Claw and exalted power weapon
+    • Tyrant's Claw heavy flamer
+    • Warlord
+  Masters of the Maelstrom (145 pts)
+    • Captain Sargotta
+      • Laspistol
+      • Power sabre
+    • Garlon Souleater
+      • Force stave
+      • Mind Wrench
+    • Garreon the Corpsemaster
+      • Absolver bolt pistol
+      • Reductor array
+    • Katar Garrix
+      • Axe of Ending
+      • Bolt pistol
+    • The Enforcer
+      • Bionic gauntlet
+      • Londaxi maimer
+  Chosen (135 pts)
+    • Chaos icon
+    • Chosen Champion
+      • Bolt pistol
+      • Boltgun
+      • Power fist
+    • Chosen w/ boltgun and plasma pistol
+      • Accursed weapon
+      • Boltgun
+      • Plasma pistol
+    • 2x Chosen w/ combi-weapon and bolt pistol
+      • 2x Accursed weapon
+      • 2x Bolt pistol
+      • 2x Combi-weapon
+    • Chosen w/ paired accursed weapons and plasma pistol
+      • Paired accursed weapons
+      • Plasma pistol
+
+Chaos Lord with Jump Pack + Raptors (215 pts)
+  Chaos Lord with Jump Pack (105 pts)
+    • Plasma pistol
+    • Power fist
+    • Enhancement: Dread Reputation
+  Raptors (110 pts)
+    • Raptor Champion
+      • Heavy melee weapon
+      • Plasma pistol
+    • 2x Raptor w/ heavy melee weapon
+      • 2x Bolt pistol
+      • 2x Heavy melee weapon
+    • Raptor w/ mutations
+      • Bolt pistol
+      • Mutations
+    • Raptor w/ plasma pistol
+      • Astartes chainsword
+      • Plasma pistol
+
+
+BATTLELINE:
+Cultist Mob (50 pts)
+  • Cultist Champion
+    • Autopistol
+    • Brutal assault weapon
+  • 9x Cultist w/ autopistol and brutal assault weapon
+    • 9x Autopistol
+    • 9x Brutal assault weapon
+
+Legionaries (90 pts)
+  • Aspiring Champion
+    • Close combat weapon
+    • Heavy melee weapon
+    • Plasma pistol
+  • Chaos icon
+  • 2x Legionary w/ chainsword
+    • 2x Astartes chainsword
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+  • Legionary w/ heavy melee weapon
+    • Bolt pistol
+    • Close combat weapon
+    • Heavy melee weapon
+  • Legionary w/ other weapon
+    • Bolt pistol
+    • Close combat weapon
+    • Plasma pistol and Astartes chainsword
+      • Astartes chainsword
+      • Plasma pistol
+
+
+DEDICATED TRANSPORTS:
+Chaos Rhino (65 pts)
+  • Armoured tracks
+  • Combi-bolter
+  • Combi-bolter
+  • Havoc launcher
+
+
+OTHER DATASHEETS:
+Chaos Bikers (70 pts)
+  • Biker Champion
+    • Close combat weapon
+    • Combi-bolter
+    • Power fist
+  • 2x Biker w/ plasma gun
+    • 2x Astartes chainsword
+    • 2x Close combat weapon
+    • 2x Combi-bolter
+    • 2x Plasma gun
+  • Chaos icon
+
+Chaos Bikers (70 pts)
+  • Biker Champion
+    • Close combat weapon
+    • Combi-bolter
+    • Power fist
+  • 2x Biker w/ plasma gun
+    • 2x Astartes chainsword
+    • 2x Close combat weapon
+    • 2x Combi-bolter
+    • 2x Plasma gun
+  • Chaos icon
+
+Defiler (330 pts)
+  • Ectoplasma destructor
+  • Heavy reaper autocannon
+  • Heavy reaper autocannon
+  • Shearing claws
+  • Two excruciator cannons
+    • 2x Excruciator cannon
+
+Nemesis Claw (100 pts)
+  • Legionary w/ Nostraman chainglaive
+    • Bolt pistol
+    • Close combat weapon
+    • Nostraman chainglaive
+  • Legionary w/ accursed weapon
+    • Accursed weapon
+    • Bolt pistol
+    • Close combat weapon
+  • Legionary w/ paired accursed weapons
+    • Bolt pistol
+    • Close combat weapon
+    • Paired accursed weapons
+  • Legionary w/ voice eater
+    • Astartes chainsword
+    • Bolt pistol
+    • Close combat weapon
+    • Voice eater
+  • Visionary
+    • Plasma pistol
+    • Power fist
+
+Possessed (250 pts)
+  • Chaos icon
+  • 10x Possessed
+    • 10x Hideous mutations
+
+Raptors (110 pts)
+  • Raptor Champion
+    • Heavy melee weapon
+    • Plasma pistol
+  • 2x Raptor w/ heavy melee weapon
+    • 2x Bolt pistol
+    • 2x Heavy melee weapon
+  • Raptor w/ mutations
+    • Bolt pistol
+    • Mutations
+  • Raptor w/ plasma pistol
+    • Astartes chainsword
+    • Plasma pistol
+
+Red Corsairs Raiders (110 pts)
+  • 2x Red Corsairs Raider
+    • 2x Bolt pistol
+    • 2x Boltgun
+    • 2x Reaver's blade
+  • Red Corsairs Raider Champion
+    • Boltgun
+    • Hand flamer
+    • Reaver's blade
+  • Red Corsairs Raider w/ meltagun
+    • Bolt pistol
+    • Meltagun
+    • Reaver's blade
+  • Red Corsairs Raider w/ power fist
+    • Bolt pistol
+    • Boltgun
+    • Power fist
+
+Warp Talons (125 pts)
+  • 4x Warp Talon
+    • 4x Warp claws
+  • Warp Talon Champion
+    • Warp claws
+
+
+undefined

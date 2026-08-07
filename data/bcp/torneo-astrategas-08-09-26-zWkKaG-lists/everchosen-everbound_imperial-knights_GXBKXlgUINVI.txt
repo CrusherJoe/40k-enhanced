@@ -1,0 +1,27 @@
+# Everchosen everbound | Imperial Knights | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/GXBKXlgUINVI  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperial Knights
++ DETACHMENT: Valourstrike Lance, Dominus Foebreakers
++ TOTAL ARMY POINTS: 1990pts
++ POINTS LIMIT: 2000pts
++ ALLIED UNITS: Agents of the Imperium
++
++ ENHANCEMENT: Archeotech Autoloaders(on Char2: Knight Castellan) & Bearer of the Judicant’s Helm(on Char4: Knight Defender)
++ NUMBER OF UNITS: 6
++ SECONDARY: -Bring It Down: 1x4 + 4x6 - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Knight Castellan (450 points): Warlord, 2 Shieldbreaker missile launchers, 2 Twin meltaguns, Plasma decimator, Titanic feet, Twin siegebreaker cannon and Volcano lance
+Enhancement: Archeotech Autoloaders (+25 pts)
+Char3: 1x Knight Crusader (410 points): Avenger gatling cannon, Heavy flamer, Questoris heavy stubber, Rapid-fire battle cannon and questoris heavy stubber, Stormspear rocket pod and Titanic feet
+Char4: 1x Knight Defender (425 points): Conversion beam obliterator, Phosphor blaster, Plasma executor, Titanic feet and Twin incendine combustor
+Enhancement: Bearer of the Judicant’s Helm (+25 pts)
+Char5: 1x Knight Destrier (265 points): Chastiser gatling cannon, Frag bombard, Questoris heavy stubber and Titanic feet
+Char6: 1x Knight Gallant (355 points): Meltagun, Reaper chainsword, Stormspear rocket pod and Thunderstrike gauntlet
+
+Char1: 1x Culexus Assassin (85 points): Animus speculum and Life-draining touch
+
+
+undefined

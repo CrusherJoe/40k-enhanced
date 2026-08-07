@@ -1,0 +1,201 @@
+# Mathieu Petitpas | Aeldari | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/O0S3bp9Elul4  status=passed
+
+purge (2000 points)
+
+Aeldari
+Eldritch Raiders and Path of the Outcast (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Prince Yriel (115 points)
+• Attached as: Leader (Character)
+  • Warlord
+  • 1x Eye of Wrath
+    1x Shuriken pistol
+    1x Spear of Twilight
+  • Enhancement: Alacritous Assault
+
+Corsair Voidscarred (140 points)
+• Attached as: Bodyguard
+  • 1x Voidscarred Felarch
+    • 1x Close combat weapon
+      1x Mistshield
+      1x Power sword
+      1x Shuriken rifle
+  • 6x Corsair Voidscarred
+    • 2x Blaster
+      6x Close combat weapon
+      1x Faolchú
+      3x Power sword
+      3x Shuriken pistol
+      1x Wraithcannon
+  • 1x Shade Runner
+    • 1x Paired Hekatarii blades
+      1x Shuriken pistol
+  • 1x Soul Weaver
+    • 1x Channeller Stones
+      1x Power sword
+      1x Shuriken pistol
+  • 1x Way Seeker
+    • 1x Executioner
+      1x Shuriken pistol
+      1x Witch staff
+
+Attached Unit 2
+
+Fuegan (130 points)
+• Attached as: Leader (Character)
+  • 1x Fire Axe
+    1x Searsong
+
+Fire Dragons (120 points)
+• Attached as: Bodyguard
+  • 1x Aspect Shrine Token
+  • 1x Fire Dragon Exarch
+    • 1x Close combat weapon
+      1x Firepike
+  • 4x Fire Dragon
+    • 4x Close combat weapon
+      4x Dragon fusion gun
+
+Attached Unit 3
+
+Jain Zar (105 points)
+• Attached as: Leader (Character)
+  • 1x Blade of Destruction
+    1x Silent Death
+
+Howling Banshees (85 points)
+• Attached as: Bodyguard
+  • 1x Aspect Shrine Token
+  • 1x Howling Banshee Exarch
+    • 1x Executioner
+      1x Shuriken pistol
+  • 4x Howling Banshee
+    • 4x Banshee blade
+      4x Shuriken pistol
+
+Attached Unit 4
+
+Eldrad Ulthran (130 points)
+• Attached as: Leader (Character)
+  • 1x Mind War
+    1x Shuriken pistol
+    1x The Staff of Ulthamar and witchblade
+
+Warlock Conclave (55 points)
+• Attached as: Bodyguard
+  • 2x Warlock
+    • 2x Destructor
+      2x Shuriken pistol
+      2x Singing Spear
+
+Attached Unit 5
+
+Lhykhis (135 points)
+• Attached as: Leader (Character)
+  • 1x Brood Twain
+    1x Spider’s Fangs
+    1x Weaverender
+
+Warp Spiders (105 points)
+• Attached as: Bodyguard
+  • 1x Aspect Shrine Token
+  • 1x Warp Spider Exarch
+    • 1x Close combat weapon
+      1x Powerblade array
+  • 4x Warp Spider
+    • 4x Close combat weapon
+      4x Death spinner
+
+
+CHARACTERS
+
+Avatar of Khaine (250 points)
+  • 1x The Wailing Doom
+
+
+BATTLELINE
+
+Corsair Voidreavers (65 points)
+  • 1x Voidreaver Felarch
+    • 1x Close combat weapon
+      1x Mistshield
+      1x Power sword
+      1x Shuriken rifle
+  • 4x Corsair Voidreaver
+    • 1x Blaster
+      4x Close combat weapon
+      3x Power sword
+      4x Shuriken pistol
+
+Corsair Voidreavers (65 points)
+  • 1x Voidreaver Felarch
+    • 1x Close combat weapon
+      1x Mistshield
+      1x Power sword
+      1x Shuriken rifle
+  • 4x Corsair Voidreaver
+    • 1x Blaster
+      4x Close combat weapon
+      3x Power sword
+      4x Shuriken pistol
+
+
+OTHER DATASHEETS
+
+Corsair Skyreavers (75 points)
+  • 1x Skyreaver Felarch
+    • 1x Blast pistol
+      1x Corsair blade
+  • 4x Skyreaver
+    • 1x Blaster
+      2x Close combat weapon
+      2x Corsair blade
+      1x Fusion gun
+      2x Shuriken pistol
+
+Corsair Skyreavers (75 points)
+  • 1x Skyreaver Felarch
+    • 1x Blast pistol
+      1x Corsair blade
+  • 4x Skyreaver
+    • 1x Blaster
+      2x Close combat weapon
+      2x Corsair blade
+      1x Fusion gun
+      2x Shuriken pistol
+
+Shroud Runners (105 points)
+  • 3x Shroud Runner
+    • 3x Close combat weapon
+      3x Long rifle
+      3x Scatter laser
+      3x Shuriken pistol
+    • Enhancement: Assassins' Eye (Upgrade)
+
+Shroud Runners (105 points)
+  • 3x Shroud Runner
+    • 3x Close combat weapon
+      3x Long rifle
+      3x Scatter laser
+      3x Shuriken pistol
+    • Enhancement: Assassins' Eye (Upgrade)
+
+Starfangs (70 points)
+  • 1x Disintegrator cannon
+    1x Starfang grenade launcher
+    1x Wraithbone hull
+
+Starfangs (70 points)
+  • 1x Disintegrator cannon
+    1x Starfang grenade launcher
+    1x Wraithbone hull
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

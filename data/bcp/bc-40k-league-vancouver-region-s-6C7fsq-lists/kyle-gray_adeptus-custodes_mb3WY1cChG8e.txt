@@ -1,0 +1,45 @@
+# Kyle Gray | Adeptus Custodes | Purge the Foe | team=Mid Table Tactics
+# list: https://www.bestcoastpairings.com/list/mb3WY1cChG8e  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Custodes
++ DETACHMENT: Might of the Moritoi, Shield Host (March of the Honoured Dead)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 1965pts
++
++ WARLORD: Char4: Shield-Captain
++ ENHANCEMENT: Auric Mantle (on Char2: Blade Champion)
+& Panoptispex (on Char3: Shield-Captain)
+& From the Hall of Armouries (on Char4: Shield-Captain)
+& Interred Expertise (on Vehi4: Contemptor-Achillus Dreadnought)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (1x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Blade Champion (110 pts): Vaultswords
+Char2: 1x Blade Champion (140 pts): Vaultswords
+Enhancement: Auric Mantle (+15 pts)
+Char3: 1x Shield-Captain (115 pts): Guardian Spear
+Enhancement: Panoptispex (+5 pts)
+Char4: 1x Shield-Captain (130 pts): Warlord, Guardian Spear
+Enhancement: From the Hall of Armouries (+20 pts)
+
+4x Custodian Guard (170 pts): 4 with Guardian Spear
+4x Custodian Guard (170 pts): 4 with Guardian Spear
+
+Char5: 1x Callidus Assassin (100 pts): Neural shredder, Phase sword and poison blades
+1x Contemptor-Achillus Dreadnought (180 pts): Achillus dreadspear, 2x Infernus incinerator
+Enhancement: Interred Expertise (+25 pts)
+5x Custodian Wardens (250 pts)
+• 4x Custodian Warden (Guardian Spear): 4 with Guardian Spear
+• 1x Custodian Warden: Vexilla, Guardian Spear
+4x Custodian Wardens (220 pts)
+• 3x Custodian Warden (Guardian Spear): 3 with Guardian Spear
+• 1x Custodian Warden: Vexilla, Guardian Spear
+3x Venatari Custodians (165 pts): 3 with Venatari lance
+3x Venatari Custodians (165 pts): 3 with Venatari lance
+4x Witchseekers (50 pts)
+• 1x Witchseeker Sister Superior: Close combat weapon, Witchseeker flamer
+• 3x Witchseeker: 3 with Close combat weapon, Witchseeker flamer
+
+undefined

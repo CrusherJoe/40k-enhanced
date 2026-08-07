@@ -1,0 +1,144 @@
+# Dennis Hehl | Necrons | Priority Assets | team=Excubito Tabletop
+# list: https://www.bestcoastpairings.com/list/3wQ73xFvFa1d  status=passed
+
+cryptek/destroyer (2000 points)
+
+Necrons
+Cryptek Conclave and Skyshroud Spearhead (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Royal Warden (50 points)
+• Attached as: Leader (Character)
+  • 1x Close combat weapon
+    1x Relic gauss blaster
+
+Plasmancer (65 points)
+• Attached as: Support (Character)
+  • 1x Plasmic lance
+  • Enhancement: Atomic Disintegrators
+
+Immortals (140 points)
+• Attached as: Bodyguard (Battleline)
+  • 10x Immortal
+    • 10x Close combat weapon
+      10x Gauss blaster
+
+Attached Unit 2
+
+Plasmancer (75 points)
+• Attached as: Support (Character)
+  • 1x Plasmic lance
+  • Enhancement: Gauntlet of Compression
+
+Immortals (70 points)
+• Attached as: Bodyguard (Battleline)
+  • 5x Immortal
+    • 5x Close combat weapon
+      5x Tesla carbine
+
+Attached Unit 3
+
+Plasmancer (55 points)
+• Attached as: Support (Character)
+  • 1x Plasmic lance
+
+Immortals (70 points)
+• Attached as: Bodyguard (Battleline)
+  • 5x Immortal
+    • 5x Close combat weapon
+      5x Tesla carbine
+
+Attached Unit 4
+
+Lokhust Lord (70 points)
+• Attached as: Leader (Character)
+  • 1x Lord’s blade
+    1x Resurrection Orb
+
+Lokhust Destroyers (190 points)
+• Attached as: Bodyguard
+  • 6x Lokhust Destroyer
+    • 6x Close combat weapon
+      6x Gauss cannon
+    • Enhancement: Deepening Madness (Upgrade)
+
+Attached Unit 5
+
+Lokhust Lord (70 points)
+• Attached as: Leader (Character)
+  • 1x Lord’s blade
+    1x Resurrection Orb
+
+Lokhust Destroyers (190 points)
+• Attached as: Bodyguard
+  • 6x Lokhust Destroyer
+    • 6x Close combat weapon
+      6x Gauss cannon
+    • Enhancement: Deepening Madness (Upgrade)
+
+
+CHARACTERS
+
+Illuminor Szeras (175 points)
+  • Warlord
+  • 1x Eldritch Lance
+    1x Impaling legs
+
+Nekrosor Ammentar (185 points)
+  • 1x Blade tail and whip coils
+    1x Enmitic disintegrators
+    1x Nullstone Field Generator (Aura)
+    1x Unmaker Gauntlet
+
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 points)
+  • 2x Atomiser beam
+    1x Reanimator’s claws
+
+Canoptek Tomb Crawlers (50 points)
+  • 2x Canoptek Tomb Crawlers
+    • 2x Claws
+      2x Twin gauss reaper
+
+Ophydian Destroyers (80 points)
+  • 3x Ophydian Destroyer
+    • 3x Ophydian hyperphase weapons
+      1x Plasmacyte
+
+Ophydian Destroyers (80 points)
+  • 3x Ophydian Destroyer
+    • 3x Ophydian hyperphase weapons
+      1x Plasmacyte
+
+Tomb Blades (75 points)
+  • 3x Tomb Blade
+    • 3x Close combat weapon
+      2x Nebuloscope
+      3x Particle beamer
+      1x Shadowloom
+      1x Shieldvanes
+    • Enhancement: Recursive Reanimation (Upgrade)
+
+Tomb Blades (75 points)
+  • 3x Tomb Blade
+    • 3x Close combat weapon
+      2x Nebuloscope
+      3x Particle beamer
+      1x Shadowloom
+      1x Shieldvanes
+    • Enhancement: Recursive Reanimation (Upgrade)
+
+Triarch Praetorians (160 points)
+  • 10x Triarch Praetorian
+    • 10x Particle caster
+      10x Voidblade
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

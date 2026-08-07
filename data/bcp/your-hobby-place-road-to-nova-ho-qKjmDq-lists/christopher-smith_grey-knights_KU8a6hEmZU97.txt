@@ -1,0 +1,49 @@
+# Christopher Smith | Grey Knights | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/KU8a6hEmZU97  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Grey Knights
++ DETACHMENT: Argent Assault, Banishers (Dauntless Champions)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Castellan Crowe
++ ENHANCEMENT: Psychic Celerity (on Char2: Brother-Captain)
++ NUMBER OF UNITS: 11
++ SECONDARY: - Bring It Down: (1x2) + (1x4) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Brother-Captain (110 pts): Nemesis force weapon, Incinerator
+Enhancement: Psychic Celerity (+15 pts)
+Attached: Paladins
+Char1: 1x Castellan Crowe (100 pts): Warlord, Black Blade of Antwyr, Purifying Flame, Storm bolter
+Attached: Purifiers
+Char3: 1x Grand Master in Nemesis Dreadknight (230 pts): Fragstorm grenade launcher, Nemesis daemon greathammer, Heavy psycannon, Sublimator
+Char4: 1x Callidus Assassin (100 pts): Neural shredder, Phase sword and poison blades
+
+5x Strike Squad (115 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Grey Knight: 4 with Nemesis force weapon, Storm bolter
+5x Strike Squad (115 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Grey Knight: 4 with Nemesis force weapon, Storm bolter
+5x Interceptor Squad (125 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Interceptor: 4 with Nemesis force weapon, Storm bolter
+5x Interceptor Squad (125 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Interceptor: 4 with Nemesis force weapon, Storm bolter
+1x Land Raider Redeemer (250 pts): Armoured tracks, 2x Flamestorm cannon, Hunter-killer missile, Multi-melta, Storm bolter, Twin assault cannon
+10x Paladin Squad (450 pts)
+• 1x Paragon: Nemesis force weapon, Storm bolter
+• 3x Paladin: 3 with Nemesis force weapon, Storm bolter
+• 1x Paladin with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Incinerator
+• 4x Paladin with Heavy Weapon: 4 with Nemesis force weapon, Incinerator
+• 1x Paladin with Narthecium: Apothecary's narthecium, Nemesis force weapon
+10x Purifier Squad (280 pts)
+• 9x Purifier
+    5 with Nemesis force weapon, Purifying Flame, Storm bolter
+    4 with Close combat weapon, Psycannon, Purifying Flame
+• 1x Knight of the Flame: Nemesis force weapon, Purifying Flame, Storm bolter
+
+undefined

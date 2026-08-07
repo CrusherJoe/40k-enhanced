@@ -1,0 +1,62 @@
+# Wesley Chase | Grey Knights | Priority Assets | team=Bloodbath and Beyond
+# list: https://www.bestcoastpairings.com/list/Up1OceAcTcOu  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Grey Knights
++ DETACHMENT: Argent Assault, Banishers (Dauntless Champions)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: Castellan Crowe
++ ENHANCEMENT: Psychic Celerity (on Char2: Brotherhood Chaplain)
+& Sixty-sixth Seal (on Char3: Brotherhood Librarian)
++ NUMBER OF UNITS: 11
++ SECONDARY: - Bring It Down: (1x2) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Brotherhood Chaplain (80 pts): Crozius arcanum, Storm bolter
+Enhancement: Psychic Celerity (+15 pts)
+Char3: 1x Brotherhood Librarian (115 pts): Nemesis force weapon, Vortex of Doom, Storm bolter
+Enhancement: Sixty-sixth Seal (+25 pts)
+Char1: 1x Castellan Crowe (100 pts): Warlord, Black Blade of Antwyr, Purifying Flame, Storm bolter
+Char4: 1x Grand Master in Nemesis Dreadknight (230 pts): Fragstorm grenade launcher, Nemesis daemon greathammer, Heavy psycannon, Sublimator
+
+4x Brotherhood Terminator Squad (140 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 1x Terminator: Nemesis force weapon, Storm bolter
+• 1x Terminator with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Incinerator
+• 1x Terminator with Narthecium: Apothecary's narthecium, Nemesis force weapon
+5x Strike Squad (115 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 3x Grey Knight: 3 with Nemesis force weapon, Storm bolter
+• 1x Grey Knight with Heavy Weapon: Close combat weapon, Psycannon
+
+5x Interceptor Squad (125 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Interceptor: 4 with Nemesis force weapon, Storm bolter
+5x Interceptor Squad (125 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Interceptor: 4 with Nemesis force weapon, Storm bolter
+10x Paladin Squad (475 pts)
+• 1x Paragon: Nemesis force weapon, Storm bolter
+• 3x Paladin: 3 with Nemesis force weapon, Storm bolter
+• 1x Paladin with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Psycannon
+• 4x Paladin with Heavy Weapon: 4 with Nemesis force weapon, Psycannon
+• 1x Paladin with Narthecium: Apothecary's narthecium, Nemesis force weapon
+5x Paladin Squad (230 pts)
+• 1x Paragon: Nemesis force weapon, Storm bolter
+• 1x Paladin with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Psycannon
+• 2x Paladin with Heavy Weapon: 2 with Nemesis force weapon, Psycannon
+• 1x Paladin with Narthecium: Apothecary's narthecium, Nemesis force weapon
+10x Purifier Squad (260 pts)
+• 9x Purifier
+    5 with Nemesis force weapon, Purifying Flame, Storm bolter
+    4 with Close combat weapon, Incinerator, Purifying Flame
+• 1x Knight of the Flame: Nemesis force weapon, Purifying Flame, Storm bolter
+
+Attached Units 
+- Librarian w/ 66 Seal + 10x Paladins
+- Chaplain w/ Psychic Celerity + 5x Paladins
+- Crowe + 10x Purifiers
+
+undefined

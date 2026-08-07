@@ -1,0 +1,298 @@
+{
+ "event": {
+  "id": "zWkKaGX3n0cX",
+  "name": "Torneo Astrategas 08-09/26",
+  "totalPlayers": 32,
+  "eventDate": "2026-08-06T06:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Jaume Tudo",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Circulo interior",
+   "dropped": false,
+   "listId": "baTmd0VoWOEl",
+   "listUrl": "https://www.bestcoastpairings.com/list/baTmd0VoWOEl"
+  },
+  {
+   "name": "Jorge Ransom",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "LEGIO IX HISPANA",
+   "dropped": false,
+   "listId": "vgYtxqfUijUt",
+   "listUrl": "https://www.bestcoastpairings.com/list/vgYtxqfUijUt"
+  },
+  {
+   "name": "Panther Box",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Astrategas wargames",
+   "dropped": false,
+   "listId": "AuqteJg0uBT4",
+   "listUrl": "https://www.bestcoastpairings.com/list/AuqteJg0uBT4"
+  },
+  {
+   "name": "Everchosen everbound",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "GXBKXlgUINVI",
+   "listUrl": "https://www.bestcoastpairings.com/list/GXBKXlgUINVI"
+  },
+  {
+   "name": "Daniel Pacheco",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Warhammer Barranquilla ",
+   "dropped": false,
+   "listId": "Sn7NSoRfaGiT",
+   "listUrl": "https://www.bestcoastpairings.com/list/Sn7NSoRfaGiT"
+  },
+  {
+   "name": "Karl vlc",
+   "faction": "Space Wolves",
+   "detachment": "Purge the Foe",
+   "team": "Ragnarok Astartes",
+   "dropped": false,
+   "listId": "O3PXSyLUhUsX",
+   "listUrl": "https://www.bestcoastpairings.com/list/O3PXSyLUhUsX"
+  },
+  {
+   "name": "Josep \"Whilas\"",
+   "faction": "Emperor's Children",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "MTtgJkqIjn87",
+   "listUrl": "https://www.bestcoastpairings.com/list/MTtgJkqIjn87"
+  },
+  {
+   "name": "Tisco C\u00e1novas",
+   "faction": "Orks",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "jsBoWPM3YWta",
+   "listUrl": "https://www.bestcoastpairings.com/list/jsBoWPM3YWta"
+  },
+  {
+   "name": "Jordi Paredes Figueras",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": "LEGIO IX HISPANA",
+   "dropped": false,
+   "listId": "XxG90yKo7oNT",
+   "listUrl": "https://www.bestcoastpairings.com/list/XxG90yKo7oNT"
+  },
+  {
+   "name": "Fernando Jauregui",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "v4wjXtJN4oaG",
+   "listUrl": "https://www.bestcoastpairings.com/list/v4wjXtJN4oaG"
+  },
+  {
+   "name": "pablo imperial",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "ytvHhI6V5z54",
+   "listUrl": "https://www.bestcoastpairings.com/list/ytvHhI6V5z54"
+  },
+  {
+   "name": "Carlos Astorga Ortega",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "9dkj0HeBHePZ",
+   "listUrl": "https://www.bestcoastpairings.com/list/9dkj0HeBHePZ"
+  },
+  {
+   "name": "V\u00edctor Benavente",
+   "faction": "Emperor's Children",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "3iv6hy17tfxV",
+   "listUrl": "https://www.bestcoastpairings.com/list/3iv6hy17tfxV"
+  },
+  {
+   "name": "Toni Alberola Amores",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Jurassic Waaagh!",
+   "dropped": false,
+   "listId": "GxUqkCG5yXfM",
+   "listUrl": "https://www.bestcoastpairings.com/list/GxUqkCG5yXfM"
+  },
+  {
+   "name": "Egoitz Eguillor",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": "Ordo Navarrorum",
+   "dropped": false,
+   "listId": "Onk3e3q3Yokm",
+   "listUrl": "https://www.bestcoastpairings.com/list/Onk3e3q3Yokm"
+  },
+  {
+   "name": "Alberto Ortega",
+   "faction": "Grey Knights",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "NatXxlcSpLVM",
+   "listUrl": "https://www.bestcoastpairings.com/list/NatXxlcSpLVM"
+  },
+  {
+   "name": "Daniel SSotano",
+   "faction": "Necrons",
+   "detachment": "Reconnaissance",
+   "team": "Astrategas wargames",
+   "dropped": false,
+   "listId": "UUl7qM7aLbf7",
+   "listUrl": "https://www.bestcoastpairings.com/list/UUl7qM7aLbf7"
+  },
+  {
+   "name": "I\u00f1igo Dubl\u00e1n",
+   "faction": "Grey Knights",
+   "detachment": "Take and Hold",
+   "team": "Astrategas wargames",
+   "dropped": false,
+   "listId": "7KtFhCtU19Kn",
+   "listUrl": "https://www.bestcoastpairings.com/list/7KtFhCtU19Kn"
+  },
+  {
+   "name": "Francisco Javier Mu\u00f1oz Guerrero",
+   "faction": "Orks",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "D7WYbXa1Amf7",
+   "listUrl": "https://www.bestcoastpairings.com/list/D7WYbXa1Amf7"
+  },
+  {
+   "name": "Toni Pereira",
+   "faction": "Emperor's Children",
+   "detachment": "Disruption",
+   "team": "Mulassa Riders",
+   "dropped": false,
+   "listId": "GgqdAmb6xXQr",
+   "listUrl": "https://www.bestcoastpairings.com/list/GgqdAmb6xXQr"
+  },
+  {
+   "name": "Daniel Traba",
+   "faction": "Chaos Space Marines",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "mS49EVHqqcRy",
+   "listUrl": "https://www.bestcoastpairings.com/list/mS49EVHqqcRy"
+  },
+  {
+   "name": "Alejandro Ivars",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Ordo Navarrorum",
+   "dropped": false,
+   "listId": "r7EFYcsFoBpH",
+   "listUrl": "https://www.bestcoastpairings.com/list/r7EFYcsFoBpH"
+  },
+  {
+   "name": "Gabriel Barco Ib\u00e1\u00f1ez",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "FA1uwhoVtWHy",
+   "listUrl": "https://www.bestcoastpairings.com/list/FA1uwhoVtWHy"
+  },
+  {
+   "name": "R MB",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "BNY3Jqciht0i",
+   "listUrl": "https://www.bestcoastpairings.com/list/BNY3Jqciht0i"
+  },
+  {
+   "name": "Alex S\u00e1nchez",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe",
+   "team": "Vinci Sino Llori",
+   "dropped": false,
+   "listId": "JGYMCDWZ9KRR",
+   "listUrl": "https://www.bestcoastpairings.com/list/JGYMCDWZ9KRR"
+  },
+  {
+   "name": "Jose Cano",
+   "faction": "Chaos Space Marines",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "qtFtp5KQiHre",
+   "listUrl": "https://www.bestcoastpairings.com/list/qtFtp5KQiHre"
+  },
+  {
+   "name": "Fabrizio Salazar",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "3FWS2mc3Cse6",
+   "listUrl": "https://www.bestcoastpairings.com/list/3FWS2mc3Cse6"
+  },
+  {
+   "name": "Abraham Sanchez",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "QPcsM7ROvIn5",
+   "listUrl": "https://www.bestcoastpairings.com/list/QPcsM7ROvIn5"
+  },
+  {
+   "name": "Joshua Leonel Rojas Ravelo",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "jvEFfoxJQTZ8",
+   "listUrl": "https://www.bestcoastpairings.com/list/jvEFfoxJQTZ8"
+  },
+  {
+   "name": "Josue Izabal",
+   "faction": "Space Wolves",
+   "detachment": "Purge the Foe",
+   "team": "Astrategas wargames",
+   "dropped": false,
+   "listId": "e0eaRpYgwL77",
+   "listUrl": "https://www.bestcoastpairings.com/list/e0eaRpYgwL77"
+  },
+  {
+   "name": "Raulocho",
+   "faction": "Emperor's Children",
+   "detachment": "Reconnaissance",
+   "team": "3Arp\u00edas",
+   "dropped": false,
+   "listId": "TqVudCySwiqR",
+   "listUrl": "https://www.bestcoastpairings.com/list/TqVudCySwiqR"
+  },
+  {
+   "name": "Ruben Marti Martinez",
+   "faction": "Grey Knights",
+   "detachment": "Purge the Foe",
+   "team": "Pucelawargames",
+   "dropped": false,
+   "listId": "q2MLanAM7jmh",
+   "listUrl": "https://www.bestcoastpairings.com/list/q2MLanAM7jmh"
+  }
+ ]
+}

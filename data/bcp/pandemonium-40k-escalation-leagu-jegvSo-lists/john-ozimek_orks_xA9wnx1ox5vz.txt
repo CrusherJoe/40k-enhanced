@@ -1,0 +1,36 @@
+# John Ozimek | Orks | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/xA9wnx1ox5vz  status=passed
+
+Ork Boyz Summa'
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Orks
++ DETACHMENT: Bully Boyz (Da Boss Is Watchin')
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 495pts
++
++ WARLORD: Char2: Warboss
++ ENHANCEMENT:
++ NUMBER OF UNITS: 6
++ SECONDARY: - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Big Mek (70 pts): Kustom mega-blasta, Power klaw
+Char2: 1x Warboss (85 pts): Warlord, Attack squig, Kombi-weapon, Twin sluggas, Power klaw
+Char3: 1x Weirdboy (65 pts): 'Eadbanger, Weirdboy staff
+
+10x Boyz (75 pts)
+• 1x Boss Nob: Slugga, Power klaw
+• 9x Boy: 9 with Choppa, Slugga
+10x Boyz (75 pts)
+• 1x Boss Nob: Slugga, Power klaw
+• 9x Boy: 9 with Choppa, Slugga
+
+6x Breaka Boyz (125 pts)
+• 5x Breaka Boy
+    3 with Smash hammer
+    1 with Knucklebustas
+    1 with Tankhammer
+• 1x Boss Nob: Choppa, Rokkit pistol, Smash hammer
+
+undefined

@@ -1,0 +1,85 @@
+# Brandon Powell | Tyranids | Purge the Foe | team=Prairie Fire Wargaming
+# list: https://www.bestcoastpairings.com/list/MUz7WuA00tct  status=passed
+
+tyranids crusher (2000 points)
+
+Tyranids
+Crusher Stampede and Talons of the Norn Queen (3 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Hyperadapted Raveners (165 points)
+• Attached as: Leader (Character)
+  • 1x Ravener Prime
+    • 1x Prime claws and talons
+  • 4x Raveners
+    • 4x Ravener heavy claws and talons
+      1x Venom bolt
+
+Raveners (125 points)
+• Attached as: Bodyguard
+  • 5x Ravener
+    • 5x Ravener claws and talons
+
+
+CHARACTERS
+
+Hive Tyrant (215 points)
+  • Warlord
+  • 1x Monstrous bonesword and lash whip
+    1x Monstrous scything talons
+  • Enhancement: Enraged Reserves
+
+
+BATTLELINE
+
+Hormagaunts (70 points)
+  • 10x Hormagaunt
+    • 10x Hormagaunt talons
+
+
+OTHER DATASHEETS
+
+Biovores (60 points)
+  • 1x Chitin-barbed limbs
+    1x Spore Mine launcher
+
+Exocrine (140 points)
+  • 1x Bio-plasmic cannon
+    1x Powerful limbs
+
+Lictor (60 points)
+  • 1x Lictor claws and talons
+
+Maleceptor (190 points)
+  • 1x Massive scything talons
+    1x Psychic overload
+
+Neurolictor (80 points)
+  • 1x Piercing claws and talons
+
+Norn Assimilator (275 points)
+  • 1x Monstrous scything talons
+    1x Toxinjector Harpoon
+  • Enhancement: Synaptoprescience (Upgrade)
+
+Norn Assimilator (295 points)
+  • 1x Monstrous scything talons
+    1x Toxinjector Harpoon
+  • Enhancement: Synaptoprescience (Upgrade)
+
+Screamer-Killer (125 points)
+  • 1x Bio-plasmic scream
+    1x Screamer-Killer talons
+
+Tyrannofex (200 points)
+  • 1x Powerful limbs
+    1x Rupture cannon
+    1x Stinger salvoes
+
+Exported with App Version: v2.4.0 (139), Data Version: v925
+
+undefined

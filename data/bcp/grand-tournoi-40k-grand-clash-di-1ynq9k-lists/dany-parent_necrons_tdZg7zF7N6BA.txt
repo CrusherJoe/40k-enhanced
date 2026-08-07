@@ -1,0 +1,108 @@
+# Dany Parent | Necrons | Reconnaissance | team=Café Ork'n'Roll
+# list: https://www.bestcoastpairings.com/list/tdZg7zF7N6BA  status=passed
+
+hxx (2000 points)
+
+Necrons
+Hand of the Dynasty and Hypercrypt Legion (3 Detachment Points)
+Reconnaissance
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Plasmancer (55 points)
+• Attached as: Support (Character)
+  • 1x Plasmic lance
+
+Immortals (155 points)
+• Attached as: Bodyguard (Battleline)
+  • 10x Immortal
+    • 10x Close combat weapon
+      10x Gauss blaster
+    • Enhancement: Tools of Dominion (Upgrade)
+
+Attached Unit 2
+
+Skorpekh Lord (90 points)
+• Attached as: Leader (Character)
+  • 1x Enmitic annihilator
+    1x Flensing claw
+    1x Hyperphase harvester
+
+Skorpekh Destroyers (85 points)
+• Attached as: Bodyguard
+  • 3x Skorpekh Destroyer
+    • 1x Plasmacyte
+      3x Skorpekh hyperphase weapons
+
+
+CHARACTERS
+
+C’tan Shard of the Nightbringer (360 points)
+  • 1x Gaze of death
+    1x Scythe of the Nightbringer
+
+C’tan Shard of the Void Dragon (345 points)
+  • 1x Canoptek tail blades
+    1x Spear of the Void Dragon
+    1x Voltaic storm
+
+Hexmark Destroyer (100 points)
+  • 1x Close combat weapon
+    1x Enmitic disintegrator pistols
+  • Enhancement: Dimensional Overseer
+
+Royal Warden (65 points)
+  • Warlord
+  • 1x Close combat weapon
+    1x Relic gauss blaster
+  • Enhancement: Hyperspatial Transfer Node
+
+
+OTHER DATASHEETS
+
+Canoptek Scarab Swarms (40 points)
+  • 3x Canoptek Scarab Swarm
+    • 3x Feeder mandibles
+
+Canoptek Scarab Swarms (40 points)
+  • 3x Canoptek Scarab Swarm
+    • 3x Feeder mandibles
+
+Deathmarks (60 points)
+  • 5x Deathmark
+    • 5x Close combat weapon
+      5x Synaptic disintegrator
+
+Doomsday Ark (210 points)
+  • 1x Armoured bulk
+    1x Doomsday cannon
+    2x Gauss flayer array
+
+Flayed Ones (55 points)
+  • 5x Flayed One
+    • 5x Flayer claws
+
+Ophydian Destroyers (80 points)
+  • 3x Ophydian Destroyer
+    • 3x Ophydian hyperphase weapons
+      1x Plasmacyte
+
+Tomb Blades (70 points)
+  • 3x Tomb Blade
+    • 3x Close combat weapon
+      3x Shadowloom
+      3x Twin tesla carbine
+
+Triarch Praetorians (80 points)
+  • 5x Triarch Praetorian
+    • 5x Rod of covenant
+
+Triarch Stalker (110 points)
+  • 1x Heavy gauss cannon array
+    1x Stalker’s forelimbs
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

@@ -1,0 +1,158 @@
+# Samuel da Ponte | Adepta Sororitas | Disruption | team=None
+# list: https://www.bestcoastpairings.com/list/0MLT28b1L0dP  status=passed
+
+Sister   (2,000 Points)
+
+Adepta Sororitas
+Champions of Faith and Chorus of Condemnation (3 Detachment Points)
+Disruption
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Morvenn Vahl (200 Points)
+  • Attached as: Leader (Character)
+  • Warlord
+  • 1x Fidelis
+  • 1x Lance of Illumination
+  • 1x Paragon missile launcher
+
+Paragon Warsuits (210 Points)
+  • Attached as: Bodyguard ()
+  • 1x Paragon Superior
+     ◦ 1x Bolt pistol
+     ◦ 1x Multi-melta
+     ◦ 1x Paragon grenade launchers
+     ◦ 1x Paragon war blade
+  • 2x Paragon
+     ◦ 2x Bolt pistol
+     ◦ 2x Multi-melta
+     ◦ 2x Paragon grenade launchers
+     ◦ 2x Paragon war blade
+
+Attached unit 2
+
+Hospitaller (65 Points)
+  • Attached as: Support (Character)
+  • 1x Bolt pistol
+  • 1x Chirurgeon’s tools
+
+Celestian Sacresants (150 Points)
+  • Attached as: Bodyguard ()
+  • 1x Sacresant Superior
+     ◦ 1x Inferno pistol
+     ◦ 1x Spear of the faithful
+  • 9x Celestian Sacresant
+     ◦ 9x Bolt pistol
+     ◦ 9x Hallowed mace
+
+Attached unit 3
+
+Hospitaller (75 Points)
+  • Attached as: Support (Character)
+  • 1x Bolt pistol
+  • 1x Chirurgeon’s tools
+
+Celestian Sacresants (150 Points)
+  • Attached as: Bodyguard ()
+  • 1x Sacresant Superior
+     ◦ 1x Inferno pistol
+     ◦ 1x Spear of the faithful
+  • 9x Celestian Sacresant
+     ◦ 9x Bolt pistol
+     ◦ 9x Hallowed mace
+
+BATTLELINE
+
+Battle Sisters Squad (100 Points)
+  • 1x Sister Superior
+     ◦ 1x Bolt pistol
+     ◦ 1x Close combat weapon
+     ◦ 1x Inferno pistol
+     ◦ 1x Power weapon
+  • 9x Battle Sister
+     ◦ 9x Bolt pistol
+     ◦ 7x Boltgun
+     ◦ 9x Close combat weapon
+     ◦ 1x Meltagun
+     ◦ 1x Multi-melta
+     ◦ 1x Simulacrum Imperialis
+
+DEDICATED TRANSPORTS
+
+Immolator (100 Points)
+  • 1x Armoured tracks
+  • 1x Heavy bolter
+  • 1x Hunter-killer missile
+  • 1x Immolation flamers
+
+Immolator (100 Points)
+  • 1x Armoured tracks
+  • 1x Heavy bolter
+  • 1x Hunter-killer missile
+  • 1x Immolation flamers
+
+OTHER DATASHEETS
+
+Castigator (165 Points)
+  • 1x Armoured tracks
+  • 1x Castigator battle cannon
+  • 3x Heavy bolter
+  • 1x Hunter-killer missile
+  • 1x Storm bolter
+
+Castigator (165 Points)
+  • 1x Armoured tracks
+  • 1x Castigator battle cannon
+  • 3x Heavy bolter
+  • 1x Hunter-killer missile
+  • 1x Storm bolter
+
+Celestian Insidiants (120 Points)
+  • 1x Celestian Insidiant Superior
+     ◦ 1x Condemnor bolt pistol
+     ◦ 1x Null mace
+  • 9x Celestian Insidiant
+     ◦ 2x Blessed sword
+     ◦ 3x Condemnor bolt pistol
+     ◦ 1x Denuncia oratory
+     ◦ 2x Ministorum hand flamer
+     ◦ 6x Null mace
+     ◦ 1x Simulacrum Imperialis
+     ◦ 1x Virge of admonition
+
+Dominion Squad (90 Points)
+  • 1x Dominion Superior
+     ◦ 1x Bolt pistol
+     ◦ 1x Close combat weapon
+     ◦ 1x Inferno pistol
+     ◦ 1x Power weapon
+  • 9x Dominion
+     ◦ 9x Bolt pistol
+     ◦ 5x Boltgun
+     ◦ 9x Close combat weapon
+     ◦ 4x Ministorum flamer
+     ◦ 1x Simulacrum Imperialis
+
+Exorcist (190 Points)
+  • 1x Armoured tracks
+  • 1x Exorcist missile launcher
+  • 1x Heavy bolter
+  • Enhancements: Symphonic Payload (Upgrade)
+
+Retributor Squad (120 Points)
+  • 1x Retributor Superior
+     ◦ 1x Bolt pistol
+     ◦ 1x Boltgun
+     ◦ 1x Close combat weapon
+  • 4x Retributor
+     ◦ 4x Bolt pistol
+     ◦ 4x Close combat weapon
+     ◦ 1x Heavy bolter
+     ◦ 3x Multi-melta
+
+Exported with App Version: v2.3.0 (1), Data Version: v912
+
+undefined

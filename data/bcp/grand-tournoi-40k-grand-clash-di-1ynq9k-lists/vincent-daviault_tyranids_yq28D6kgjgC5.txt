@@ -1,0 +1,89 @@
+# Vincent Daviault | Tyranids | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/yq28D6kgjgC5  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Tyranids
++ DETACHMENT: Synaptic Nexus, Talons of the Norn Queen (Synaptic Imperitives)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: The Swarmlord
++ ENHANCEMENT: The Dirgeheart of Kharis (Aura) (on Char2: Hyperadapted Raveners - Ravener Prime)
+& Synaptoprescience (on Mons3: Norn Assimilator)
++ NUMBER OF UNITS: 15
++ SECONDARY: - Bring It Down: (3x2) + (2x4) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Hyperadapted Raveners (180 pts)
+• 1x Ravener Prime
+    • 1x Prime claws and talons
+    • The Dirgeheart of Kharis (Aura) (+15 pts)
+• 4x Ravener
+    • 4x Ravener heavy claws and talons
+    • 1x Venom bolt
+
+Hyperadapted Raveners (165 pts)
+• 1x Ravener Prime
+    • 1x Prime claws and talons
+• 4x Ravener
+    • 4x Ravener heavy claws and talons
+    • 1x Venom bolt
+
+The Swarmlord (210 pts)
+• 1x Bone Sabres
+• 1x Synaptic Pulse
+• Warlord
+
+OTHER DATASHEETS
+
+Biovores (60 pts)
+• 1x Biovore
+    • 1x Chitin-barbed limbs
+    • 1x Spore mine launcher
+
+Genestealers (75 pts)
+• 5x Genestealer
+    • 5x Genestealers claws and talons
+
+Genestealers (75 pts)
+• 5x Genestealer
+    • 5x Genestealers claws and talons
+
+Lictor (60 pts)
+• 1x Lictor claws and talons
+
+Maleceptor (190 pts)
+• 1x Massive scything talons
+• 1x Psychic overload
+
+Maleceptor (190 pts)
+• 1x Massive scything talons
+• 1x Psychic overload
+
+Neurolictor (80 pts)
+• 1x Piercing claws and talons
+
+Neurolictor (80 pts)
+• 1x Piercing claws and talons
+
+Norn Assimilator (275 pts)
+• 1x Monstrous scything talons
+• 1x Toxinjecter harpoon
+• Synaptoprescience (+25 pts)
+
+Norn Emissary (250 pts)
+• 1x Monstrous rending claws
+• 1x Monstrous scything talons
+• 1x Psychic tendril
+
+Von Ryan's Leapers (55 pts)
+• 3x Von Ryan's Leaper
+    • 3x Leaper's talons
+
+Von Ryan's Leapers (55 pts)
+• 3x Von Ryan's Leaper
+    • 3x Leaper's talons
+
+undefined

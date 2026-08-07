@@ -1,0 +1,71 @@
+# Thomas Gillen | Astra Militarum | Purge the Foe | team=Big Trouble Maker
+# list: https://www.bestcoastpairings.com/list/NPHJEWQ1pogX  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Astra Militarum
++ DETACHMENT: Designation Force, Steel Hammer (Designated Targets)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++ WARLORD: Char1: Lord Solar Leontus
++ ENHANCEMENT: Engine Speaker (on Char3: Tech-Priest Enginseer)
+& Assault Hatches (on Char4: Doomhammer)
+& Long-range Scout (on Vehi4: Scout Sentinels)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (2x2) + (2x4) + (1x6) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Attached Unit: 
+Char1: 1x Lord Solar Leontus (130 pts): Warlord, Conquest, Konstantin's hooves, Sol's Righteous Gaze
+Char2: 5x Cadian Command Squad (60 pts)
+• 4x Cadian Veteran Guardsman
+    1 with Close combat weapon, Plasma gun, Plasma pistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Medi-pack, Close combat weapon, Lasgun
+    1 with Close combat weapon, Lasgun, Regimental standard
+• 1x Cadian Commander: Power weapon, Plasma pistol
+10x Cadian Shock Troops (75 pts)
+• 9x Shock Trooper
+    6 with Close combat weapon, Lasgun
+    1 with Vox-caster, Close combat weapon, Lasgun
+    1 with Close combat weapon, Meltagun
+    1 with Close combat weapon, Plasma gun
+• 1x Shock Trooper Sergeant: Chainsword, Laspistol
+
+Char4: 1x Doomhammer (405 pts): Character Upgrade, Armoured tracks, 2x Lascannon, Magma cannon, Twin heavy bolter, 2x Twin heavy flamer, 2x Lascannon, 2x Twin heavy flamer
+Enhancement: Assault Hatches (+25 pts)
+
+Char3: 1x Tech-Priest Enginseer (60 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+Enhancement: Engine Speaker (+15 pts)
+
+6x Bullgryn Squad (200 pts)
+• 1x Bullgryn Bone 'ead: Brute shield, Close combat weapon, Bullgryn maul
+• 5x Bullgryn: 5 with Brute shield, Close combat weapon, Bullgryn maul
+
+6x Bullgryn Squad (215 pts)
+• 1x Bullgryn Bone 'ead: Brute shield, Close combat weapon, Bullgryn maul
+• 5x Bullgryn: 5 with Brute shield, Close combat weapon, Bullgryn maul
+
+5x Krieg Combat Engineers (65 pts)
+• 4x Krieg Combat Engineer
+    2 with Close combat weapon, Combat shotgun
+    1 with Close combat weapon, Flamer
+    1 with Remote mine, Autopistol, Close combat weapon
+• 1x Krieg Engineer Watchmaster: Hand flamer, Power weapon
+
+4x Krieg Heavy Weapons Squad (75 pts)
+• 1x Fire Coordinator: Close combat weapon, Laspistol
+• 3x Heavy Weapons Gunners: 3 with Close combat weapon, Krieg heavy flamer, Laspistol
+5x Ratlings (60 pts): 5 with Close combat weapon, Sniper rifle
+
+1x Rogal Dorn Battle Tank (260 pts): Armoured tracks, Heavy stubber, Pulveriser cannon, 2x Meltagun, 2x Multi-melta, Coaxial autocannon, Oppressor cannon
+
+1x Rogal Dorn Battle Tank (275 pts): Armoured tracks, Heavy stubber, Pulveriser cannon, 2x Meltagun, 2x Multi-melta, Coaxial autocannon, Oppressor cannon
+
+1x Scout Sentinels (65 pts)
+  Enhancement: Long-range Scout (+10 pts)Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Lascannon
+
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Lascannon
+
+
+
+undefined

@@ -1,0 +1,26 @@
+# Eric Kretzschmar | Leagues of Votann | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/X9II0kd8OEpw  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Leagues of Votann
++ DETACHMENT: Bane-Slayer's Bulwark
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 375pts
++
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 4
++ SECONDARY: - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Einhyr Champion (65 pts): Weavefield crest, Autoch-pattern combi-bolter, Mass hammer
+
+10x Hearthkyn Warriors (100 pts)
+• 1x Theyn: Weavefield crest, Autoch-pattern bolt pistol, Close combat weapon, Autoch-pattern bolter
+• 9x Hearthkyn Warrior: 9 with Autoch-pattern bolt pistol, Autoch-pattern bolter, Close combat weapon
+
+3x Brôkhyr Thunderkyn (80 pts): 3 with Close combat weapon, Bolt cannon
+5x Einhyr Hearthguard (130 pts)
+• 1x Hesyr: Weavefield crest, Concussion gauntlet, EtaCarn plasma gun, Exo-armour grenade launcher
+• 4x Einhyr Hearthguard: 4 with Concussion gauntlet, EtaCarn plasma gun, Exo-armour grenade launcher
+
+undefined

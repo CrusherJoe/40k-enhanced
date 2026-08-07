@@ -1,0 +1,59 @@
+# Richard Owen | Imperial Knights | Purge the Foe | team=Objective Secured
+# list: https://www.bestcoastpairings.com/list/QBIkJb0IddQy  status=passed
+
+knights (2000 points)
+
+Imperial Knights
+Dominus Foebreakers and Valourstrike Lance (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+
+CHARACTERS
+
+Cerastus Knight Atrapos (405 points)
+  • 1x Atrapos lascutter
+    1x Graviton singularity cannon
+
+Knight Castellan (450 points)
+  • Warlord
+  • 1x Plasma decimator
+    2x Shieldbreaker missile launcher
+    1x Titanic feet
+    2x Twin meltagun
+    1x Twin siegebreaker cannon
+    1x Volcano lance
+  • Enhancement: Archeotech Autoloaders
+
+Knight Castellan (450 points)
+  • 1x Plasma decimator
+    2x Shieldbreaker missile launcher
+    1x Titanic feet
+    2x Twin meltagun
+    1x Twin siegebreaker cannon
+    1x Volcano lance
+
+Knight Destrier (290 points)
+  • 1x Chastiser gatling cannon
+    1x Frag bombard
+    1x Questoris heavy stubber
+    1x Titanic feet
+  • Enhancement: Bearer of the Judicant’s Helm
+
+Knight Destrier (265 points)
+  • 1x Bellatus reaper chainsword
+    1x Questoris heavy stubber
+    1x Thundershock spear
+    1x Titanic feet
+
+
+OTHER DATASHEETS
+
+Armiger Warglaive (140 points)
+  • 1x Questoris heavy stubber
+    1x Reaper chain-cleaver
+    1x Thermal spear
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

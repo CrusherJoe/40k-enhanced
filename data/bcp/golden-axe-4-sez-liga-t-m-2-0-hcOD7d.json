@@ -1,0 +1,604 @@
+{
+ "event": {
+  "id": "hcOD7deDsApx",
+  "name": "Golden Axe 4.sez.(liga t\u00fdm\u016f)2.0",
+  "totalPlayers": 66,
+  "eventDate": "2026-07-31T08:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Vrinkl Team Golden Axe",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Pavel Suk",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jan \"Griffin\" Podany",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Luk\u00e1\u0161 \"Ulrik\" Seidel",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Marek Bernard",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub Klinsky",
+   "faction": null,
+   "detachment": null,
+   "team": "Golden Axe",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Vojtech \u010cisteck\u00fd",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Adam Addlein Lebeda",
+   "faction": null,
+   "detachment": null,
+   "team": "Holy Fruit Protocol",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tomas Wagner",
+   "faction": null,
+   "detachment": null,
+   "team": "Higashikata Fruit Parlor",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jiri Ondrusek",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Luk\u00e1\u0161 Dlaba\u010d",
+   "faction": null,
+   "detachment": null,
+   "team": "Raphael",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tomas Davidovic",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "To rapu",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jan Jestribek",
+   "faction": null,
+   "detachment": null,
+   "team": "Holy Fruit Protocol",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub Leitner",
+   "faction": null,
+   "detachment": null,
+   "team": "Japonsk\u00e9 Ovoce",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Ji\u0159\u00ed Drex",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Roland \"Byakuren\"  Ruina",
+   "faction": null,
+   "detachment": null,
+   "team": "Nulov\u00e1 Hrozba",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Martin Kvapil",
+   "faction": null,
+   "detachment": null,
+   "team": "Czech Casual Wargaming",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Robert \"Bob\" Trefn\u00fd",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Martin Dole\u017eal",
+   "faction": null,
+   "detachment": null,
+   "team": "The Expendables",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Lukas Hrma",
+   "faction": null,
+   "detachment": null,
+   "team": "The Expendables",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub Kratochv\u00c3\u00adl",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Maty\u00e1\u0161 Jirkovsk\u00fd",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tom\u00e1\u0161 Ve\u010derka",
+   "faction": null,
+   "detachment": null,
+   "team": "Black Hats",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Mikol\u00e1\u0161 Opletal",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jan \u0160am\u0161a",
+   "faction": null,
+   "detachment": null,
+   "team": "Taledon Rangers",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub Bu\u0159il",
+   "faction": null,
+   "detachment": null,
+   "team": "Taledon Rangers",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Luka Ladin",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Damian  Opletal",
+   "faction": null,
+   "detachment": null,
+   "team": "Taledon Rangers",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Ji\u0159\u00ed Fiala",
+   "faction": null,
+   "detachment": null,
+   "team": "The Wild East",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Ond\u0159ej Svoboda",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "\u0160t\u011bp\u00e1n Pav\u00edza",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Ond\u0159ej Med",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub Sir",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Filip Barto\u0161",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jaroslav Dvorak",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jar Die",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Adam Slov\u00e1k",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Ondra Martinec",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Samuel Sm\u00ed\u0161ek",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jan Lubojacky",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tom\u00e1\u0161 Barto\u0161ek",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Martin Jurcik",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub \"vonRosenau\" Pohorelsky",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Lukas Braun",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jan Ullmann",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Adam Tetour",
+   "faction": null,
+   "detachment": null,
+   "team": "Legion Liberec",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Petr Libansky",
+   "faction": null,
+   "detachment": null,
+   "team": "Chlupate bramobry",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Michal Kv\u011bt",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jan Vojtisek",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jan Mare\u0161",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub Jansa",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Luk\u00e1\u0161 Hun\u011bk",
+   "faction": null,
+   "detachment": null,
+   "team": "Lions Czechia",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Pavel \u0160ohaj",
+   "faction": null,
+   "detachment": null,
+   "team": "Lions Prague",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub Minx",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Daniel \u0160\u0165astn\u00fd",
+   "faction": null,
+   "detachment": null,
+   "team": "Nerozhodn\u00ed",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub Ro\u010dek",
+   "faction": null,
+   "detachment": null,
+   "team": "Nerozhodn\u00ed",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jakub M\u00edka",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Pavel Beran",
+   "faction": null,
+   "detachment": null,
+   "team": "4 Inch Charge Menace",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tobias \"Insolitus\" Ku\u010dera",
+   "faction": null,
+   "detachment": null,
+   "team": "4 Inch Charge Menace",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Radim Codl",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Vit  Raboch",
+   "faction": null,
+   "detachment": null,
+   "team": "Trazynovo panoptikum",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "V\u00e1clav \u0160p\u00edna",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Filip Appl",
+   "faction": "T'au Empire",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tomas  Charon",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Michal Buday",
+   "faction": "Adepta Sororitas",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  }
+ ]
+}

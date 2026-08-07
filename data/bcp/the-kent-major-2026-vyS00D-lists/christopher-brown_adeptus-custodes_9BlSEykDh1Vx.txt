@@ -1,0 +1,45 @@
+# Christopher Brown | Adeptus Custodes | Purge the Foe | team=TNTFL
+# list: https://www.bestcoastpairings.com/list/9BlSEykDh1Vx  status=passed
+
+FACTION KEYWORD: Imperium - Adeptus Custodes
+DETACHMENT: Might of the Moritoi, Shield Host (March of the Honoured Dead)
+FORCE DISPOSITION: Purge the Foe
+TOTAL ARMY POINTS: 2000pts
+
+Char1: 1x Shield-Captain on Dawneagle Jetbike (140 pts): Interceptor lance, Salvo launcher
+Attached to:
+2x Vertus Praetors (145 pts): 2 with Interceptor lance, Salvo launcher
+
+Char2: 1x Shield-Captain on Dawneagle Jetbike (155 pts): Interceptor lance, Salvo launcher
+Enhancement: Auric Mantle (+15 pts)
+Attached to:
+2x Vertus Praetors (145 pts)
+• 1x Vertus Praetor (Hurricane Bolter): Interceptor lance, Vertus hurricane bolter
+• 1x Vertus Praetor (Salvo Launcher): Interceptor lance, Salvo launcher
+
+Char3: 1x Shield-Captain on Dawneagle Jetbike (145 pts): Warlord, Interceptor lance, Vertus hurricane bolter
+Enhancement: Panoptispex (+5 pts)
+Attached to:
+2x Vertus Praetors (145 pts): 2 with Interceptor lance, Vertus hurricane bolter
+
+5x Allarus Custodians (275 pts): 5 with Balistus grenade launcher, 3x Guardian Spear 2x Axe
+
+1x Contemptor-Achillus Dreadnought (155 pts): Achillus dreadspear, 2x Twin adrathic destructor
+
+1x Contemptor-Achillus Dreadnought (155 pts): Achillus dreadspear, 2x Twin adrathic destructor
+
+1x Contemptor-Achillus Dreadnought (195 pts): Achillus dreadspear, 2x Twin adrathic destructor
+Enhancement: Interred Expertise (+25 pts)
+
+1x Telemon Heavy Dreadnought (250 pts): Armoured feet, Spiculus bolt launcher, 2x Arachnus storm cannon
+Enhancement: Interred Expertise (+25 pts)
+
+4x Prosecutors (45 pts)
+• 1x Prosecutor Sister Superior: Boltgun, Close combat weapon
+• 3x Prosecutor: 3 with Boltgun, Close combat weapon
+
+4x Witchseekers (50 pts)
+• 1x Witchseeker Sister Superior: Close combat weapon, Witchseeker flamer
+• 3x Witchseeker: 3 with Close combat weapon, Witchseeker flamer
+
+undefined

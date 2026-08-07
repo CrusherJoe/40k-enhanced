@@ -1,0 +1,84 @@
+# Arturo Garcia | Orks | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/rMonEUi9HSX2  status=passed
+
+ORKS
+
+2000pts
+Detachment:
+Dreadmob
+Dakka Dakka Dakka
+
+Force Disposition:
+Purge the foe
+
+Enhancments:
+Da Gobshot Thunderbuss
+
+Supa-Glowy Thing
+
+Characters: 170pts
+
+Mek
+-Warlord
+Equipment:
+Kustom mega Slugga
+Killsaw
+
+Mek
+Enhancement: Da Gobshot Thunderbuss
+Kustom mega Slugga
+Killsaw
+
+
+Mek
+-Enhancement: Supa-glowy thing
+Equipment:
+Kustom mega Slugga
+Killsaw
+
+
+Batteline: 240pts
+
+Boyz
+-Rokkit Launcha
+-Boss Nob w/ Power Klaw
+
+Boyz
+-Rokkit Launcha
+-Boss Nob w/ Power Klaw
+
+Gretchin
+
+Gretchin
+
+
+Other Datasheets: 1590pta
+
+Big Mek Dakkarig
+-Default Wargear
+
+Deff Dread
+-4 Dread Klaws
+
+Deff Dread
+-4 Dread Klaws
+
+Killa Kanz
+-6 Kan Klaws
+-6 Rokkit Launcha
+
+Killa Kanz
+-6 Kan Klaws
+-6 Rokkit Launcha
+
+Killa Kanz
+-6 Kan Klaws
+-6 Rokkit Launcha
+
+Morkanaut 
+-Default Wargear
+
+Morkanaut 
+-Default Wargear
+
+undefined
