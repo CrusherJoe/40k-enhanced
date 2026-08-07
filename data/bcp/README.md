@@ -17,7 +17,7 @@ armylist endpoint (one logged-in bearer token; the roster itself is public).
 ## Rebuild / refresh
 
 ```bash
-# 1. roster + decklists (decklists need a fresh bearer token in ../../.env.bcp)
+# 1. roster + army lists (lists auto-authenticate via .env.bcp creds — no token pasting)
 python3 tools/bcp_pull.py VAiZ9vjF61Rk \
     --store data/bcp/lso2026.json \
     --html  docs/reports/knights/death_rnr-LSO-Roster-v2.0.html \
@@ -28,9 +28,15 @@ python3 tools/bcp_db.py build data/bcp/lso2026-lists/_raw \
     --db data/bcp/lso2026.sqlite --roster data/bcp/lso2026.json
 ```
 
-Token: log into bestcoastpairings.com, DevTools Console →
-`Object.entries(localStorage).filter(([k])=>/accessToken/.test(k)).forEach(([k,v])=>console.log(v))`,
-put it in `.env.bcp` as `BCP_TOKEN=<token>`. Tokens expire in ~1h. `.env.bcp` is gitignored.
+Auth (hands-free): put your BCP login in gitignored `.env.bcp` as `BCP_EMAIL` / `BCP_PASSWORD`
+(see `.env.bcp.example`). The tools log into BestCoastPairings for you via a headless Chromium
+(`tools/bcp_login/login.mjs`), because BCP's API only accepts tokens minted through its real web
+login — a Cognito-direct token is rejected with `invalid authorization token`. `tools/bcp_auth.py`
+caches the access token (~1h) and re-logs in when it expires. One-time deps:
+`npm --prefix tools/bcp_login install && npx --prefix tools/bcp_login playwright install --with-deps chromium`.
+Check it works: `PYTHONPATH=src python3 tools/bcp_auth.py`. Fallback if the box has no browser: paste a
+browser access token as `BCP_TOKEN=<eyJ...>` (DevTools console:
+`Object.entries(localStorage).filter(([k])=>/accessToken/.test(k)).forEach(([,v])=>console.log(v))`).
 
 ## DB schema (`lso2026.sqlite`)
 

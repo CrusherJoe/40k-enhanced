@@ -132,9 +132,18 @@ Then re-run STEP 3 to rebuild the reports with the new numbers.
 
 ## If you want to pull a DIFFERENT tournament's lists later
 
-You'll need a fresh BestCoastPairings token (they expire hourly). The full procedure — where to
-get the token and the commands — is in **`data/bcp/README.md`**. This event's lists are already
-in git, so you don't need it for the move.
+Good news: **no more copy-pasting tokens.** One-time on the new box, run these two lines to install a
+little headless browser the tools use to log into BestCoastPairings for you:
+
+```
+npm --prefix tools/bcp_login install
+npx --prefix tools/bcp_login playwright install --with-deps chromium
+```
+
+Then copy `.env.bcp.example` to `.env.bcp` and put your BCP email + password in it. After that the
+pull tools log in and refresh the token themselves — you never touch it. Full procedure and commands
+are in **`data/bcp/README.md`**. This event's lists are already in git, so you don't need any of this
+for the move itself.
 
 ---
 
