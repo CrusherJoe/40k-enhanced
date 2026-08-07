@@ -27,5 +27,7 @@ END="$(date -u -d '+4 days' +%F 2>/dev/null || date -u -v+4d +%F)"
   python3 tools/bcp_pull_gts.py --start "$START" --end "$END"
   echo "--- 2. refresh standings for incomplete events ---"
   python3 tools/bcp_refresh_results.py --incomplete-only
+  echo "--- 3. regenerate weekly meta dashboard ---"
+  python3 tools/bcp_dashboard.py
   echo "exit=$?  changed data/bcp files: $(git status --porcelain data/bcp | wc -l)"
 } >> reports/bcp-sync.log 2>&1
