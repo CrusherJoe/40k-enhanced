@@ -3971,14 +3971,6 @@
      "S": 7,
      "AP": 0,
      "D": 1
-    },
-    {
-     "name": "Armoured tracks",
-     "A": 3,
-     "WS": "4+",
-     "S": 6,
-     "AP": 0,
-     "D": 1
     }
    ],
    "abilities": {

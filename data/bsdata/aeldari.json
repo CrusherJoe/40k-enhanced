@@ -1344,7 +1344,7 @@
      "D": 1
     },
     {
-     "name": "Close Combat Weapon",
+     "name": "Close combat weapon",
      "A": 3,
      "WS": "3+",
      "S": 3,
@@ -1651,7 +1651,7 @@
      ]
     },
     {
-     "name": "Close Combat Weapon",
+     "name": "Close combat weapon",
      "A": 3,
      "WS": "3+",
      "S": 3,
@@ -8464,7 +8464,7 @@
    "invuln_ranged_only": false,
    "ranged": [
     {
-     "name": "Twin Shuriken Catapult",
+     "name": "Twin shuriken catapult",
      "range": 18,
      "A": 2,
      "BS": "3+",
@@ -8473,11 +8473,11 @@
      "D": 1,
      "abilities": [
       "ASSAULT",
-      "TWIN LINKED"
+      "TWIN-LINKED"
      ]
     },
     {
-     "name": "Scatter Laser",
+     "name": "Scatter laser",
      "range": 36,
      "A": 6,
      "BS": "3+",
@@ -8489,7 +8489,7 @@
      ]
     },
     {
-     "name": "Shuriken Cannon",
+     "name": "Shuriken cannon",
      "range": 24,
      "A": 3,
      "BS": "3+",
@@ -8503,7 +8503,7 @@
    ],
    "melee": [
     {
-     "name": "Close Combat Weapon",
+     "name": "Close combat weapon",
      "A": 3,
      "WS": "3+",
      "S": 3,

@@ -3412,6 +3412,8 @@
     "Ld": "6+",
     "OC": 1
    },
+   "invuln": "4+",
+   "invuln_ranged_only": false,
    "ranged": [
     {
      "name": "Storm Bolter",
