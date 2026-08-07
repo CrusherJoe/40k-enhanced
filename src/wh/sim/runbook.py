@@ -76,8 +76,12 @@ def build(build_me, build_opp, games=300, seed=11):
 
     ctrl = [d["ctrl"][r][0] / g for r in range(1, 6)]
     octrl = [d["ctrl"][r][1] / g for r in range(1, 6)]
+    # a quick win%/VP read (the calibration annotation keys off it — direction = which way the sim leans).
+    from . import run as _run
+    sim = _run.simulate(build_me, build_opp, games=min(games, 150), seed=seed)
     return dict(d=d, me=me0, opp=opp0, g=g, enemy=enemy, mine=mine, ctrl=ctrl, octrl=octrl,
-                my_strategy=getattr(me0, "strategy", None), my_target=my_target, opp_target=opp_target)
+                my_strategy=getattr(me0, "strategy", None), my_target=my_target, opp_target=opp_target,
+                winpct=sim["win"], my_vp=sim["my_vp"], opp_vp=sim["opp_vp"])
 
 
 # ---- narrative synthesis -------------------------------------------------------------------------
@@ -108,6 +112,34 @@ def _assess(r):
         head = "EVEN / GRINDY — decided by the objective play and who commits better."
         wincon = "Win the secondary + primary math; pick your fights, hold the middle, out-score."
     return head, wincon
+
+
+def calibration(r):
+    """Flag the KNOWN skew of the sim's result for THIS matchup (see docs/notes/sim-core-rules-coverage —
+    the combat-model wall). Proven property: the sim faithfully computes a simplified game whose combat
+    equilibrium is more EXTREME than real 40k, so it AMPLIFIES edges — the real result regresses toward
+    even. The DIRECTION follows the sim's own lean (no army classifier needed, which was too brittle):
+      - the more the sim FAVOURS you, the more it OVER-rates you (real is closer to even);
+      - the more the sim has you BEHIND, the more it UNDER-rates you (real is closer to even, i.e. better).
+    A roughly-even result sits in the calibrated band and is TRUSTWORTHY. Returns (band, direction, why).
+    Magnitude is calibrated on the Custodes anchors; treat the DYNAMICS + board margin as primary, the
+    exact win% as directional at the extremes."""
+    w = r.get("winpct", 50)
+    why = "the sim amplifies combat/board edges — the REAL result is closer to even"
+    if 40 <= w <= 60:
+        return ("TRUSTWORTHY", "win% in the calibrated band", "win% ~ real for this grindy midrange matchup")
+    if w > 60:
+        conf = "strongly" if w >= 72 else "somewhat"
+        return ("DIRECTIONAL", f"the sim {conf} OVER-rates you", why)
+    conf = "strongly" if w <= 28 else "somewhat"
+    return ("DIRECTIONAL", f"the sim {conf} UNDER-rates you", why + " (real is better for you)")
+
+
+def _cal_line(r):
+    band, direction, why = calibration(r)
+    w = r.get("winpct")
+    wtxt = f"sim win% {w} — " if w is not None else ""
+    return f"{wtxt}{band}: {direction} ({why})" if band != "TRUSTWORTHY" else f"{wtxt}{band} — {why}"
 
 
 def _play_around(r):
@@ -164,6 +196,7 @@ def report(r):
          f"  ({r['g']} games simulated)",
          "",
          f"READ: {head}",
+         f"CALIBRATION: {_cal_line(r)}",
          f"WIN CONDITION: {wincon}",
          f"POSTURE: play {r['my_strategy'].name if r['my_strategy'] else 'balanced'} — "
          + _posture_text(r["my_strategy"]),
@@ -303,6 +336,7 @@ def structured(r):
     return dict(
         me=d["me_name"], opp=d["opp_name"], mission=d["my_mission"], opp_mission=d["opp_mission"],
         deployment=d.get("deployment"), read=head, read_short=head.split("—")[0].strip(), wincon=wincon,
+        calibration=calibration(r)[0], calibration_note=_cal_line(r),
         posture=r["my_strategy"].name if r["my_strategy"] else "balanced",
         priority_kills=[(_nm(e), round(e["dmg"], 1), round(100 * (1 - e["surv"]))) for e in pk[:5]],
         play_around=[(_nm(e), round(100 * e["surv"]), round(e["dmg"], 1)) for e in pa[:4]],

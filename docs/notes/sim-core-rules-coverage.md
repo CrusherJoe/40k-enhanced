@@ -129,6 +129,13 @@ Everything load-bearing for a positional VP sim is now modelled. The remainder i
     the sim **mechanistically** (its stated purpose); the win% is DIRECTIONAL for these extremes. A true fix
     is a different combat PARADIGM (research), not calibration. Anchor werr 25.5 (pre-tapestry) → **~19.8**
     across all this work — treat it as a THRASH-GUARD, not a target (see [[wh-40k-project]]).
+  - **We ANNOTATE the skew instead of pretending to fix it** (`runbook.calibration`, 2026-08-07). Since the
+    sim amplifies edges, the real result regresses toward even and the DIRECTION follows the sim's own
+    win% lean — no army classifier needed. Every runbook now prints a **CALIBRATION** line: the sim win%
+    plus TRUSTWORTHY (win% 40-60, grindy midrange) / "the sim OVER-rates you" (win% >60, you out-grind a
+    slow/killable foe too cleanly) / "the sim UNDER-rates you" (win% <60... <40, you're out-tempo'd or
+    can't crack a durable centrepiece — real is better for you). Validated 8/9 vs the Custodes anchors
+    (the miss is a borderline 37-vs-40). So the skewed win% is now self-labelling.
 
 ## Two axes of completeness (standing law)
 - **Rules-stack** (per list): [[tapestry-full-rules-stack]] — Army→…→Weapon/Wargear every time.
