@@ -64,6 +64,15 @@ git clone --depth 1 https://github.com/BSData/wh40k-11e data/_src/wh40k-11e
 python3 tools/refresh.py            # re-ingest MFM points + rebuild BSData profile cuts
 ```
 
+### Crons (per-machine; re-install on a new box)
+
+```bash
+43 4 * * * /opt/projects/wh/tools/sync_bsdata.sh   # BSData catalogue -> profile/rules cuts
+20 5 * * * /opt/projects/wh/tools/sync_bcp.sh       # BCP field: pull new events + finalize standings (daily)
+```
+`sync_bcp.sh` needs `.env.bcp` creds + the step-2b node/Playwright deps. Neither cron auto-commits —
+review `git status data/` and commit (per the commit-the-DBs policy). Logs in `reports/*-sync.log`.
+
 ### For a fresh Claude Code session on the new box
 
 Read **`MEMORY.md`** (the project's laws, data-provenance rules, everything learned — incl. the
