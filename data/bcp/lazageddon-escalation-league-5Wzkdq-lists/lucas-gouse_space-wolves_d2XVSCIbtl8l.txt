@@ -1,0 +1,27 @@
+# Lucas Gouse | Space Wolves | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/d2XVSCIbtl8l  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Space Wolves
++ DETACHMENT: Saga of the Great Wolf (Master of Wolves)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 500pts
++
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 5
++ SECONDARY: - Bring It Down: (1x2) - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Wolf Guard Battle Leader (65 pts): Storm Shield, Thunder Hammer
+
+5x Intercessor Squad (80 pts)
+• 4x Intercessor
+    3 with Bolt pistol, Bolt Rifle, Close combat weapon
+    1 with Astartes grenade launcher, Bolt pistol, Bolt Rifle, Close combat weapon
+• 1x Intercessor Sergeant: Bolt pistol, Bolt Rifle, Close combat weapon
+
+1x Impulsor (70 pts): Armoured Hull, Ironhail Heavy Stubber, Bellicatus Missile Array, 2x Fragstorm grenade launcher
+3x Thunderwolf Cavalry (115 pts): 3 with Storm shield, Crushing teeth and claws, Wolf Guard Weapon
+6x Wolf Guard Headtakers (170 pts): 6 with Heavy Bolt Pistol, Master-crafted Power Weapon, Storm shield
+
+undefined

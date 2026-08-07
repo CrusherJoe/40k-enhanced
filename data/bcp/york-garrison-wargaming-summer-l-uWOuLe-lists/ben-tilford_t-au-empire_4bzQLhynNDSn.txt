@@ -1,0 +1,211 @@
+# Ben Tilford | T'au Empire | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/4bzQLhynNDSn  status=passed
+
+11.1 What if I only took one riptide... (2000 points)
+
+T’au Empire
+Mont’ka (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Cadre Fireblade (50 points)
+• Attached as: Leader (Character)
+  • 1x Close combat weapon
+    1x Fireblade pulse rifle
+    2x Gun Drone
+
+Breacher Team (90 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Support turret
+  • 1x Breacher Fire Warrior Shas’ui
+    • 1x Close combat weapon
+      1x Guardian Drone
+      1x Pulse blaster
+      1x Pulse pistol
+      1x Shield Drone
+  • 9x Breacher Fire Warrior
+    • 9x Close combat weapon
+      9x Pulse blaster
+      9x Pulse pistol
+
+Attached Unit 2
+
+Cadre Fireblade (50 points)
+• Attached as: Leader (Character)
+  • 1x Close combat weapon
+    1x Fireblade pulse rifle
+    2x Gun Drone
+
+Breacher Team (90 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Support turret
+  • 1x Breacher Fire Warrior Shas’ui
+    • 1x Close combat weapon
+      1x Guardian Drone
+      1x Pulse blaster
+      1x Pulse pistol
+      1x Shield Drone
+  • 9x Breacher Fire Warrior
+    • 9x Close combat weapon
+      9x Pulse blaster
+      9x Pulse pistol
+
+Attached Unit 3
+
+Commander in Enforcer Battlesuit (90 points)
+• Attached as: Leader (Character)
+  • 1x Battlesuit fists
+    4x Missile pod
+    2x Shield Drone
+  • Enhancement: Exemplar of the Mont’ka
+
+Crisis Fireknife Battlesuits (130 points)
+• Attached as: Bodyguard
+  • 1x Crisis Fireknife Shas’vre
+    • 1x Battlesuit fists
+      1x Marker Drone
+      2x Missile pod
+      1x Shield Drone
+  • 2x Crisis Fireknife Shas’ui
+    • 2x Battlesuit fists
+      2x Gun Drone
+      4x Missile pod
+      2x Shield Drone
+
+
+CHARACTERS
+
+Ethereal (50 points)
+  • Warlord
+  • 1x Honour stave
+
+
+DEDICATED TRANSPORTS
+
+Devilfish (75 points)
+  • 1x Accelerator burst cannon
+    1x Armoured hull
+    2x Seeker missile
+    2x Twin pulse carbine
+
+Devilfish (75 points)
+  • 1x Accelerator burst cannon
+    1x Armoured hull
+    2x Seeker missile
+    2x Twin pulse carbine
+
+
+OTHER DATASHEETS
+
+Broadside Battlesuits (270 points)
+  • 1x Broadside Shas’vre
+    • 1x Crushing bulk
+      1x High-yield missile pods
+      2x Missile Drone
+      1x Twin smart missile system
+      1x Weapon Support System
+  • 2x Broadside Shas’ui
+    • 2x Crushing bulk
+      2x High-yield missile pods
+      2x Missile Drone
+      1x Twin smart missile system
+      1x Weapon Support System
+
+Broadside Battlesuits (150 points)
+  • 1x Broadside Shas’vre
+    • 1x Crushing bulk
+      1x Heavy rail rifle
+      2x Missile Drone
+      1x Seeker missile
+      1x Weapon Support System
+  • 1x Broadside Shas’ui
+    • 1x Crushing bulk
+      1x Heavy rail rifle
+      2x Missile Drone
+      1x Seeker missile
+      1x Weapon Support System
+
+Ghostkeel Battlesuit (165 points)
+  • 1x Battlesuit Support System
+    1x Cyclic ion raker
+    1x Ghostkeel fists
+    1x Twin fusion blaster
+
+Pathfinder Team (85 points)
+  • 1x Pathfinder Shas’ui
+    • 1x Close combat weapon
+      1x Grav-inhibitor Drone
+      1x Marker Drone
+      1x Pulse carbine
+      1x Pulse pistol
+      1x Semi-automatic grenade launcher
+      1x Shield Drone
+  • 9x Pathfinder
+    • 9x Close combat weapon
+      6x Pulse carbine
+      9x Pulse pistol
+      3x Rail rifle
+
+Pathfinder Team (85 points)
+  • 1x Pathfinder Shas’ui
+    • 1x Close combat weapon
+      1x Marker Drone
+      1x Pulse carbine
+      1x Pulse pistol
+      1x Recon Drone
+      1x Semi-automatic grenade launcher
+      1x Shield Drone
+  • 9x Pathfinder
+    • 9x Close combat weapon
+      6x Pulse carbine
+      9x Pulse pistol
+      3x Rail rifle
+
+Piranhas (65 points)
+  • 1x Armoured hull
+    1x Piranha fusion blaster
+    2x Seeker missile
+    2x Twin pulse carbine
+
+Piranhas (65 points)
+  • 1x Armoured hull
+    1x Piranha fusion blaster
+    2x Seeker missile
+    2x Twin pulse carbine
+
+Riptide Battlesuit (215 points)
+  • 1x Ion accelerator
+    2x Missile Drone
+    1x Riptide fists
+    1x Twin smart missile system
+
+Stealth Battlesuits (100 points)
+  • 1x Stealth Shas’vre
+    • 1x Battlesuit fists
+      1x Fusion blaster
+      1x Gun Drone
+      1x Marker Drone
+  • 4x Stealth Shas’ui
+    • 4x Battlesuit fists
+      3x Burst cannon
+      1x Fusion blaster
+      1x Homing Beacon
+
+Stealth Battlesuits (100 points)
+  • 1x Stealth Shas’vre
+    • 1x Battlesuit fists
+      1x Fusion blaster
+      1x Gun Drone
+      1x Marker Drone
+  • 4x Stealth Shas’ui
+    • 4x Battlesuit fists
+      3x Burst cannon
+      1x Fusion blaster
+      1x Homing Beacon
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

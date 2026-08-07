@@ -1,0 +1,226 @@
+{
+ "event": {
+  "id": "stEmFSbB4nVd",
+  "name": "WG AUGUST 2026 GT - Warhammer 40k Tournament 2,000 Points",
+  "totalPlayers": 24,
+  "eventDate": "2026-08-01T07:30:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Ed Bentley",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "PJjC8XK6swqK",
+   "listUrl": "https://www.bestcoastpairings.com/list/PJjC8XK6swqK"
+  },
+  {
+   "name": "Jack Crozier",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "QPAr2hdyEn1O",
+   "listUrl": "https://www.bestcoastpairings.com/list/QPAr2hdyEn1O"
+  },
+  {
+   "name": "Samuel \ud83c\udf0c\ud83d\udee0 Smith",
+   "faction": "Chaos Space Marines",
+   "detachment": "Reconnaissance",
+   "team": "Fire and Dice",
+   "dropped": false,
+   "listId": "AbIWrr3RVAXd",
+   "listUrl": "https://www.bestcoastpairings.com/list/AbIWrr3RVAXd"
+  },
+  {
+   "name": "Patrick Harrison",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "5v9OnT4aFhN9",
+   "listUrl": "https://www.bestcoastpairings.com/list/5v9OnT4aFhN9"
+  },
+  {
+   "name": "Ian Perrett",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "IZGZi0tPyWu5",
+   "listUrl": "https://www.bestcoastpairings.com/list/IZGZi0tPyWu5"
+  },
+  {
+   "name": "James Colley",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "9jEabbgFE45Q",
+   "listUrl": "https://www.bestcoastpairings.com/list/9jEabbgFE45Q"
+  },
+  {
+   "name": "Alex Rycroft",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "Vp2XWzpegLBI",
+   "listUrl": "https://www.bestcoastpairings.com/list/Vp2XWzpegLBI"
+  },
+  {
+   "name": "Sam Johnson",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "Hlw69xoPGpbh",
+   "listUrl": "https://www.bestcoastpairings.com/list/Hlw69xoPGpbh"
+  },
+  {
+   "name": "Manuel Martin Requena",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": true,
+   "listId": "vo5BjQpS2R72",
+   "listUrl": "https://www.bestcoastpairings.com/list/vo5BjQpS2R72"
+  },
+  {
+   "name": "Alex Ollerearnshaw",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "KGML5ORoEfaT",
+   "listUrl": "https://www.bestcoastpairings.com/list/KGML5ORoEfaT"
+  },
+  {
+   "name": "Adrian Leszczynski",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Objectives Optional",
+   "dropped": false,
+   "listId": "w5S9jZ1wT2lq",
+   "listUrl": "https://www.bestcoastpairings.com/list/w5S9jZ1wT2lq"
+  },
+  {
+   "name": "Henry Wei",
+   "faction": "Tyranids",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "wYB4qDA50Hck",
+   "listUrl": "https://www.bestcoastpairings.com/list/wYB4qDA50Hck"
+  },
+  {
+   "name": "David Gaylard",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Ignite",
+   "dropped": false,
+   "listId": "O7gYUrsiggvP",
+   "listUrl": "https://www.bestcoastpairings.com/list/O7gYUrsiggvP"
+  },
+  {
+   "name": "Alex Beaumont-Dark",
+   "faction": "Imperial Knights",
+   "detachment": "Take and Hold",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "rAhbdoHKA8yF",
+   "listUrl": "https://www.bestcoastpairings.com/list/rAhbdoHKA8yF"
+  },
+  {
+   "name": "Luke Gosling",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Warwickshire Warhawks",
+   "dropped": true,
+   "listId": "2Yt93MwFxyzi",
+   "listUrl": "https://www.bestcoastpairings.com/list/2Yt93MwFxyzi"
+  },
+  {
+   "name": "Colin Harrison",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "njk1gGpQq26v",
+   "listUrl": "https://www.bestcoastpairings.com/list/njk1gGpQq26v"
+  },
+  {
+   "name": "Jude Burges",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Warwickshire Warhawks",
+   "dropped": false,
+   "listId": "64lH3FRvjYqd",
+   "listUrl": "https://www.bestcoastpairings.com/list/64lH3FRvjYqd"
+  },
+  {
+   "name": "Dale Bampton",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": "Boltgun Tactics",
+   "dropped": false,
+   "listId": "by0n1YzuhTfP",
+   "listUrl": "https://www.bestcoastpairings.com/list/by0n1YzuhTfP"
+  },
+  {
+   "name": "Robert Duguid",
+   "faction": "Imperial Agents",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "SLK34BxRM94O",
+   "listUrl": "https://www.bestcoastpairings.com/list/SLK34BxRM94O"
+  },
+  {
+   "name": "Alex Cameron",
+   "faction": "Orks",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "IKSssScJriy8",
+   "listUrl": "https://www.bestcoastpairings.com/list/IKSssScJriy8"
+  },
+  {
+   "name": "Charles Pattison",
+   "faction": "Astra Militarum",
+   "detachment": "Purge the Foe",
+   "team": "All Mana of Games",
+   "dropped": false,
+   "listId": "yotQgnLFQKY5",
+   "listUrl": "https://www.bestcoastpairings.com/list/yotQgnLFQKY5"
+  },
+  {
+   "name": "James Allen",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "NzoOTbNdiLKN",
+   "listUrl": "https://www.bestcoastpairings.com/list/NzoOTbNdiLKN"
+  },
+  {
+   "name": "Ryan Johnson",
+   "faction": "Grey Knights",
+   "detachment": "Take and Hold",
+   "team": "WVLF",
+   "dropped": false,
+   "listId": "RvYjb6UwZ5bP",
+   "listUrl": "https://www.bestcoastpairings.com/list/RvYjb6UwZ5bP"
+  },
+  {
+   "name": "Joseph Bradshaw",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "GGGBTWnjApto",
+   "listUrl": "https://www.bestcoastpairings.com/list/GGGBTWnjApto"
+  }
+ ]
+}

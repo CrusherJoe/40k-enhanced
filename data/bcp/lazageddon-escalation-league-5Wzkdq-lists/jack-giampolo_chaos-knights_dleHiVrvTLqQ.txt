@@ -1,0 +1,22 @@
+# Jack Giampolo | Chaos Knights | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/dleHiVrvTLqQ  status=passed
+
+List Name: A Dark Beginning
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Knights
++ DETACHMENT: Traitoris Lance (Paragons of Terror)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 495pts
++
++ WARLORD: Char1: Knight Ruinator
++ ENHANCEMENT: Tyrant's Shadow (on Char1: Knight Ruinator)
++ NUMBER OF UNITS: 2
++ SECONDARY: - Bring It Down: (1x2) + (1x6) - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Knight Ruinator (365 pts): Warlord, Darkflame lance, Fellbore, Terrorpulse missiles
+Enhancement: Tyrant's Shadow (+25 pts)
+
+1x War Dog Executioner (130 pts): Armoured feet, 2x War Dog autocannon, Diabolus heavy stubber
+
+undefined

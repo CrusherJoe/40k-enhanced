@@ -53,9 +53,11 @@ def pairings(eid):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", default="2026-07-27"); ap.add_argument("--end", default="2026-08-07")
+    ap.add_argument("--min-rounds", type=int, default=5)     # a GT = >=5 rounds (the real gate)
+    ap.add_argument("--min-players", type=int, default=20)   # a 20p/5rd Swiss is a legit GT (was 28)
     a = ap.parse_args()
     import glob as _glob
-    evs = BC.enumerate_events(a.start, a.end, 5, 28)
+    evs = BC.enumerate_events(a.start, a.end, a.min_rounds, a.min_players)
 
     def have(e):
         if e["id"] in HAVE:

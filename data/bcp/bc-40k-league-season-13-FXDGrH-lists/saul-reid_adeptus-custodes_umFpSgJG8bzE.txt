@@ -1,0 +1,37 @@
+# Saul Reid | Adeptus Custodes | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/umFpSgJG8bzE  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Custodes
++ DETACHMENT: Might of the Moritoi, Shield Host (March of the Honoured Dead)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char1: Blade Champion
++ ENHANCEMENT: Panoptispex (on Char1: Blade Champion)
+& Interred Expertise (on Vehi2: Telemon Heavy Dreadnought)
++ NUMBER OF UNITS: 11
++ SECONDARY: - Bring It Down: (3x2) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Blade Champion (115 pts): Warlord, Vaultswords
+Enhancement: Panoptispex (+5 pts)
+Char2: 1x Blade Champion (125 pts): Vaultswords
+
+5x Custodian Guard (215 pts): 5 with Guardian Spear
+5x Custodian Guard (215 pts): 5 with Guardian Spear
+
+5x Allarus Custodians (275 pts): 5 with Balistus grenade launcher, Guardian Spear
+1x Caladius Grav-tank (225 pts): Armoured hull, Twin lastrum bolt cannon, Twin arachnus heavy blaze cannon
+1x Contemptor-Galatus Dreadnought (165 pts): Galatus warblade
+5x Custodian Wardens (250 pts)
+• 4x Custodian Warden (Guardian Spear): 4 with Guardian Spear
+• 1x Custodian Warden: Vexilla, Guardian Spear
+Char3: 1x Inquisitor Draxus (110 pts): Dirgesinger, Power fist, Psychic Tempest
+4x Prosecutors (45 pts)
+• 1x Prosecutor Sister Superior: Boltgun, Close combat weapon
+• 3x Prosecutor: 3 with Boltgun, Close combat weapon
+1x Telemon Heavy Dreadnought (250 pts): Armoured feet, Spiculus bolt launcher, 2x Arachnus storm cannon
+Enhancement: Interred Expertise (+25 pts)
+
+undefined

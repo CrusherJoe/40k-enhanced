@@ -1,0 +1,146 @@
+# Josh M | Adepta Sororitas | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/ki7rgETdJOmU  status=passed
+
+Penitent Host (2000 Points)
+
+Adepta Sororitas
+Penitent Host and Sanctified Orators (3 Detachment Points)
+Force Dispositions: Disruption, Purge the Foe
+Strike Force (2,000 Points)
+
+CHARACTERS
+
+Canoness (80 Points)
+    • 1x Blessed blade
+    • 1x Inferno pistol
+    • Enhancement: Psalm of Righteous Judgement
+
+Intranzia Fraye (135 Points)
+    • 2x Heavy bolter
+    • 1x Mace of Saint Praxedes
+    • 1x Melta missile array
+    • 2x Ministorum heavy flamer
+    • 1x Throne of Blame
+
+Junith Eruita (105 Points)
+    • Leading: Battle Sisters Squad
+    • 1x Mace of Castigation
+    • 1x Twin Ministorum heavy flamer
+
+Ministorum Priest (65 Points)
+    • Leading: Arco-flagellants
+    • 1x Zealot's vindictor
+    • Enhancement: Refrain of Enduring Faith
+
+Morvenn Vahl (200 Points)
+    • Warlord
+    • Leading: Paragon Warsuits
+    • 1x Fidelis
+    • 1x Lance of Illumination
+    • 1x Paragon missile launcher
+
+Palatine (65 Points)
+    • Leading: Repentia Squad
+    • 1x Palatine blade
+    • 1x Plasma pistol
+    • Enhancement: Catechism of Divine Penitence
+
+BATTLELINE
+
+Battle Sisters Squad (100 Points)
+    • Leader: Junith Eruita
+    • 1x Sister Superior
+        ◦ 1x Bolt pistol
+        ◦ 1x Close combat weapon
+        ◦ 1x Plasma pistol
+    • 9x Battle Sister
+        ◦ 9x Bolt pistol
+        ◦ 7x Boltgun
+        ◦ 9x Close combat weapon
+        ◦ 1x Meltagun
+        ◦ 1x Multi-melta
+        ◦ 1x Simulacrum Imperialis
+
+DEDICATED TRANSPORTS
+
+Sororitas Rhino (65 Points)
+    • 1x Armoured tracks
+    • 1x Hunter-killer missile
+    • 1x Storm bolter
+
+OTHER DATASHEETS
+
+Arco-flagellants (140 Points)
+    • Leader: Ministorum Priest
+    • 10x Arco-flails
+
+Arco-flagellants (50 Points)
+    • 3x Arco-flails
+
+Castigator (165 Points)
+    • 1x Armoured tracks
+    • 1x Castigator autocannons
+    • 3x Heavy bolter
+    • 1x Hunter-killer missile
+    • 1x Storm bolter
+
+Mortifiers (70 Points)
+    • 1x Anchorite Sarcophagus
+    • 2x Heavy bolter
+    • 1x Twin penitent buzz-blades
+
+Mortifiers (70 Points)
+    • 1x Anchorite Sarcophagus
+    • 2x Heavy bolter
+    • 1x Twin penitent buzz-blades
+
+Paragon Warsuits (210 Points)
+    • Leader: Morvenn Vahl
+    • 1x Paragon Superior
+        ◦ 1x Bolt pistol
+        ◦ 1x Multi-melta
+        ◦ 1x Paragon grenade launchers
+        ◦ 1x Paragon war mace
+    • 2x Paragon
+        ◦ 2x Bolt pistol
+        ◦ 2x Multi-melta
+        ◦ 2x Paragon grenade launchers
+        ◦ 2x Paragon war mace
+
+Penitent Engines (70 Points)
+    • 1x Penitent flamers
+    • 1x Twin penitent buzz-blades
+
+Penitent Engines (70 Points)
+    • 1x Penitent flamers
+    • 1x Twin penitent buzz-blades
+
+Repentia Squad (140 Points)
+    • Leader: Palatine
+    • 1x Repentia Superior
+        ◦ 1x Bolt pistol
+        ◦ 1x Neural whips
+    • 9x Sister Repentia
+        ◦ 9x Penitent eviscerator
+
+Retributor Squad (125 Points)
+    • 1x Retributor Superior
+        ◦ 1x Bolt pistol
+        ◦ 1x Boltgun
+        ◦ 1x Close combat weapon
+    • 4x Retributor
+        ◦ 4x Bolt pistol
+        ◦ 4x Close combat weapon
+        ◦ 4x Multi-melta
+
+Seraphim Squad (75 Points)
+    • 1x Seraphim Superior
+        ◦ 1x Close combat weapon
+        ◦ 1x Plasma pistol
+        ◦ 1x Power weapon
+    • 4x Seraphim
+        ◦ 4x Bolt pistol
+        ◦ 4x Close combat weapon
+        ◦ 4x Ministorum hand flamer
+
+undefined

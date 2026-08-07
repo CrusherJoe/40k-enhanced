@@ -1,0 +1,31 @@
+# Jack Cousins | Necrons | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/XI1CQM6UB14w  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Cursed Legion, Skyshroud Spearhead (Cold Fervour)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char4: Nekrosor Ammentar
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (3x4) - Assassination: 8 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x C'tan Shard of the Deceiver (330 pts): Cosmic insanity, Golden fists
+Char2: 1x C'tan Shard of the Nightbringer (360 pts): Gaze of death, Scythe of the Nightbringer
+Char3: 1x C'tan Shard of the Void Dragon (345 pts): Canoptek tail blades, Spear of the Void Dragon, Voltaic storm
+Char5: 1x Hexmark Destroyer (75 pts): Close combat weapon, Enmitic disintegrator pistols
+Char6: 1x Hexmark Destroyer (75 pts): Close combat weapon, Enmitic disintegrator pistols
+Char4: 1x Nekrosor Ammentar (185 pts): Warlord, Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+Char7: 1x Skorpekh Lord (90 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Char8: 1x Skorpekh Lord (90 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+
+2x Lokhust Heavy Destroyers (100 pts): 2 with Close combat weapon, Enmitic exterminator
+2x Lokhust Heavy Destroyers (100 pts): 2 with Close combat weapon, Gauss destructor
+3x Ophydian Destroyers (80 pts): Plasmacyte, 3 with Ophydian hyperphase weapons
+3x Skorpekh Destroyers (85 pts): Plasmacyte, 3 with Skorpekh hyperphase weapons
+3x Skorpekh Destroyers (85 pts): Plasmacyte, 3 with Skorpekh hyperphase weapons
+
+undefined

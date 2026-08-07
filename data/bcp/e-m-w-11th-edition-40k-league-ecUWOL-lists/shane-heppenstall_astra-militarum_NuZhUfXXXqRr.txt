@@ -1,0 +1,40 @@
+# Shane Heppenstall | Astra Militarum | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/NuZhUfXXXqRr  status=passed
+
++ FACTION KEYWORD: Imperium - Astra Militarum
++ DETACHMENT: Abhuman Auxiliaries, Steel Hammer (Absolutist Principles)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char4: Banehammer
++ ENHANCEMENT: Engine Speaker (on Char3: Tech-Priest Enginseer)
+& Battalion Commander (on Char4: Banehammer)
++ NUMBER OF UNITS: 11
+
+Char4: 1x Banehammer (415 pts): Character Upgrade, Warlord, Armoured tracks, 2x Lascannon, Tremor cannon, Twin heavy bolter, 2x Twin heavy bolter, 2x Lascannon, 2x Twin heavy bolter
+Enhancement: Battalion Commander (+30 pts)
+
+Char1: 1x Commissar (30 pts): Plasma pistol, Power weapon
+
+Char2: 1x Leman Russ Commander (230 pts): Armoured tracks, Hunter-killer missile, Lascannon, Demolisher battle cannon, Heavy stubber, 2x Multi-melta
+
+Char3: 1x Tech-Priest Enginseer (60 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+Enhancement: Engine Speaker (+15 pts)
+
+6x Bullgryn Squad (200 pts)
+• 1x Bullgryn Bone 'ead: Brute shield, Close combat weapon, Bullgryn maul
+• 5x Bullgryn: 5 with Brute shield, Close combat weapon, Bullgryn maul
+
+1x Hellhound (125 pts): Hunter-killer missile, Inferno cannon, Heavy flamer, Armoured tracks
+
+1x Hellhound (125 pts): Hunter-killer missile, Inferno cannon, Heavy flamer, Armoured tracks
+
+1x Leman Russ Battle Tank (185 pts): Armoured tracks, Leman Russ battle cannon, Hunter-killer missile, Lascannon, 2x Plasma cannon, Heavy stubber
+
+1x Leman Russ Battle Tank (185 pts): Armoured tracks, Leman Russ battle cannon, Hunter-killer missile, Lascannon, 2x Plasma cannon, Heavy stubber
+
+1x Leman Russ Exterminator (180 pts): Armoured tracks, Exterminator autocannon, Hunter-killer missile, Heavy bolter, 2x Heavy bolter, Heavy stubber
+
+1x Rogal Dorn Battle Tank (260 pts): Armoured tracks, Heavy stubber, Pulveriser cannon, 2x Meltagun, 2x Multi-melta, Coaxial autocannon, Oppressor cannon
+
+undefined

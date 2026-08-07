@@ -1,0 +1,230 @@
+# Jonathan Jenkins | T'au Empire | Reconnaissance | team=Pen-Y-Bont Penguins
+# list: https://www.bestcoastpairings.com/list/3YeuAtrPgQFZ  status=passed
+
+. Only Goats (2,000 Points)
+
+T’au Empire
+Advanced Acquisition Cadre and Kauyon (3 Detachment Points)
+Reconnaissance
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Commander in Enforcer Battlesuit (95 Points)
+  • Attached as: Leader (Character)
+  • Warlord
+  • 1x Battlesuit fists
+  • 2x Fusion blaster
+  • 1x Marker Drone
+  • 1x Missile pod
+  • 1x Shield Drone
+  • 1x Shield Generator
+  • Enhancements: Precision of the Patient Hunter
+
+Crisis Sunforge Battlesuits (125 Points)
+  • Attached as: Bodyguard ()
+  • 1x Crisis Sunforge Shas’vre
+     ◦ 1x Battlesuit fists
+     ◦ 2x Fusion blaster
+     ◦ 1x Gun Drone
+     ◦ 1x Shield Drone
+  • 2x Crisis Sunforge Shas’ui
+     ◦ 2x Battlesuit fists
+     ◦ 4x Fusion blaster
+     ◦ 2x Gun Drone
+     ◦ 2x Shield Drone
+
+Attached unit 2
+
+Cadre Fireblade (50 Points)
+  • Attached as: Leader (Character)
+  • 1x Close combat weapon
+  • 1x Fireblade pulse rifle
+  • 2x Gun Drone
+
+Breacher Team (90 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 1x Support turret
+  • 1x Breacher Fire Warrior Shas’ui
+     ◦ 1x Close combat weapon
+     ◦ 1x Guardian Drone
+     ◦ 1x Gun Drone
+     ◦ 1x Pulse blaster
+     ◦ 1x Pulse pistol
+  • 9x Breacher Fire Warrior
+     ◦ 9x Close combat weapon
+     ◦ 9x Pulse blaster
+     ◦ 9x Pulse pistol
+
+Attached unit 3
+
+Ethereal (80 Points)
+  • Attached as: Leader (Character)
+  • 2x Gun Drone
+  • 1x Honour stave
+  • 1x Hover Drone
+  • Enhancements: Through Unity, Devastation
+
+Breacher Team (90 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 1x Support turret
+  • 1x Breacher Fire Warrior Shas’ui
+     ◦ 1x Close combat weapon
+     ◦ 1x Guardian Drone
+     ◦ 1x Gun Drone
+     ◦ 1x Pulse blaster
+     ◦ 1x Pulse pistol
+  • 9x Breacher Fire Warrior
+     ◦ 9x Close combat weapon
+     ◦ 9x Pulse blaster
+     ◦ 9x Pulse pistol
+
+Attached unit 4
+
+Commander in Enforcer Battlesuit (100 Points)
+  • Attached as: Leader (Character)
+  • 1x Battlesuit fists
+  • 1x Marker Drone
+  • 1x Missile pod
+  • 1x Missile pod
+  • 1x Shield Drone
+  • 2x T’au flamer
+  • Enhancements: Solid-image Projection Unit
+
+Crisis Starscythe Battlesuits (100 Points)
+  • Attached as: Bodyguard ()
+  • 1x Crisis Starscythe Shas’vre
+     ◦ 1x Battlesuit fists
+     ◦ 1x Gun Drone
+     ◦ 1x Shield Drone
+     ◦ 2x T’au flamer
+  • 2x Crisis Starscythe Shas’ui
+     ◦ 2x Battlesuit fists
+     ◦ 4x Burst cannon
+     ◦ 2x Gun Drone
+     ◦ 2x Shield Drone
+
+CHARACTERS
+
+Ethereal (50 Points)
+  • 2x Gun Drone
+  • 1x Honour stave
+  • 1x Hover Drone
+
+OTHER DATASHEETS
+
+Broadside Battlesuits (75 Points)
+  • 1x Broadside Shas’vre
+     ◦ 1x Crushing bulk
+     ◦ 1x Heavy rail rifle
+     ◦ 2x Missile Drone
+     ◦ 1x Seeker missile
+     ◦ 1x Weapon Support System
+
+Broadside Battlesuits (75 Points)
+  • 1x Broadside Shas’vre
+     ◦ 1x Crushing bulk
+     ◦ 1x Heavy rail rifle
+     ◦ 2x Missile Drone
+     ◦ 1x Seeker missile
+     ◦ 1x Weapon Support System
+
+Broadside Battlesuits (180 Points)
+  • 1x Broadside Shas’vre
+     ◦ 1x Crushing bulk
+     ◦ 1x High-yield missile pods
+     ◦ 2x Missile Drone
+     ◦ 1x Seeker missile
+     ◦ 1x Twin smart missile system
+  • 1x Broadside Shas’ui
+     ◦ 1x Crushing bulk
+     ◦ 1x High-yield missile pods
+     ◦ 2x Missile Drone
+     ◦ 1x Seeker missile
+     ◦ 1x Twin smart missile system
+
+Crisis Sunforge Battlesuits (125 Points)
+  • 1x Crisis Sunforge Shas’vre
+     ◦ 1x Battlesuit fists
+     ◦ 2x Fusion blaster
+     ◦ 1x Marker Drone
+     ◦ 1x Shield Drone
+  • 2x Crisis Sunforge Shas’ui
+     ◦ 2x Battlesuit fists
+     ◦ 4x Fusion blaster
+     ◦ 2x Gun Drone
+     ◦ 2x Shield Drone
+
+Ghostkeel Battlesuit (150 Points)
+  • 1x Battlesuit Support System
+  • 1x Fusion collider
+  • 1x Ghostkeel fists
+  • 1x Twin fusion blaster
+
+Pathfinder Team (85 Points)
+  • 1x Pathfinder Shas’ui
+     ◦ 1x Close combat weapon
+     ◦ 1x Grav-inhibitor Drone
+     ◦ 1x Gun Drone
+     ◦ 1x Marker Drone
+     ◦ 1x Pulse carbine
+     ◦ 1x Pulse pistol
+  • 9x Pathfinder
+     ◦ 9x Close combat weapon
+     ◦ 6x Pulse carbine
+     ◦ 9x Pulse pistol
+     ◦ 3x Rail rifle
+
+Riptide Battlesuit (190 Points)
+  • 1x Heavy burst cannon
+  • 2x Missile Drone
+  • 1x Riptide fists
+  • 1x Twin plasma rifle
+
+Stealth Battlesuits (100 Points)
+  • 1x Stealth Shas’vre
+     ◦ 1x Battlesuit fists
+     ◦ 1x Fusion blaster
+     ◦ 1x Gun Drone
+     ◦ 1x Marker Drone
+     ◦ 1x Pulse pistol
+  • 4x Stealth Shas’ui
+     ◦ 4x Battlesuit fists
+     ◦ 3x Burst cannon
+     ◦ 1x Fusion blaster
+     ◦ 1x Homing Beacon
+
+Stealth Battlesuits (100 Points)
+  • 1x Stealth Shas’vre
+     ◦ 1x Battlesuit fists
+     ◦ 1x Fusion blaster
+     ◦ 1x Gun Drone
+     ◦ 1x Marker Drone
+  • 4x Stealth Shas’ui
+     ◦ 4x Battlesuit fists
+     ◦ 3x Burst cannon
+     ◦ 1x Fusion blaster
+     ◦ 1x Homing Beacon
+
+Vespid Stingwings (70 Points)
+  • 1x Vespid Strain Leader
+     ◦ 1x Neutron blaster
+     ◦ 1x Stingwing claws
+  • 4x Vespid Stingwing
+     ◦ 4x Neutron blaster
+     ◦ 4x Stingwing claws
+
+Vespid Stingwings (70 Points)
+  • 1x Vespid Strain Leader
+     ◦ 1x Neutron blaster
+     ◦ 1x Stingwing claws
+  • 4x Vespid Stingwing
+     ◦ 4x Neutron blaster
+     ◦ 4x Stingwing claws
+
+Exported with App Version: v2.3.0 (1), Data Version: v912
+
+
+undefined

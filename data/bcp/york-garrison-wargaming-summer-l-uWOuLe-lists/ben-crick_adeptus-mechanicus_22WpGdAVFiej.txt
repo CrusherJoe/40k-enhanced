@@ -1,0 +1,187 @@
+# Ben Crick | Adeptus Mechanicus | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/22WpGdAVFiej  status=passed
+
+Robot Wars 🤖 
+
++ FACTION KEYWORD: Imperium - Adeptus Mechanicus
++ DETACHMENT: Lords of the Forge, Skitarii Hunter Cohort
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1980pts
+
+
+CHARACTER
+
+Cybernetica Datasmith (50 pts)
+• 1x Mechanicus pistol
+• 1x Power fist
+• Vingh's Wafers of Dynamism (+25 pts)
+ATTACHED: Kastelan Robots
+
+Skitarii Marshal (60 pts)
+• 1x Control stave
+• 1x Mechanicus pistol
+• Battle-Sphere Uplink (+25 pts)
+ATTACHED: Hastarii Fusiliers #1
+
+Skitarii Marshal (35 pts)
+• 1x Control stave
+• 1x Mechanicus pistol
+ATTACHED: Hastarii Fusiliers #2
+
+Tech-Priest Manipulus (90 pts)
+• 1x TL-409
+• 1x Omnissian staff
+• 1x Magnarail lance
+ATTACHED: Hastarii Fusiliers #2
+
+Tech-Priest Manipulus (60 pts)
+• 1x Omnissian staff
+• 1x Magnarail lance
+• Warlord
+ATTACHED: Kataphron Destroyers #1
+
+Tech-Priest Manipulus (60 pts)
+• 1x Omnissian staff
+• 1x Magnarail lance
+ATTACHED: Kataphron Destroyers #2
+
+BATTLELINE
+
+Skitarii Rangers (85 pts)
+• 1x Skitarii Ranger Alpha
+    • 1x Close combat weapon
+    • 1x Galvanic rifle
+• 9x Skitarii Ranger
+    • 1x Arc rifle
+    • 9x Close combat weapon
+    • 6x Galvanic rifle
+    • 1x Plasma caliver
+    • 1x Transuranic arquebus
+    • Omnispex
+
+Skitarii Vanguard (85 pts)
+• 1x Skitarii Vanguard Alpha
+    • 1x Close combat weapon
+    • 1x Radium carbine
+• 9x Skitarii Vanguard
+    • 1x Arc rifle
+    • 9x Close combat weapon
+    • 6x Radium carbine
+    • 1x Plasma caliver
+    • 1x Transuranic arquebus
+    • Omnispex
+
+Skitarii Vanguard (85 pts)
+• 1x Skitarii Vanguard Alpha
+    • 1x Close combat weapon
+    • 1x Radium carbine
+• 9x Skitarii Vanguard
+    • 1x Arc rifle
+    • 9x Close combat weapon
+    • 6x Radium carbine
+    • 1x Plasma caliver
+    • 1x Transuranic arquebus
+    • Omnispex
+
+OTHER DATASHEETS
+
+Hastarii Fusiliers (115 pts) #1
+• 1x Hastarii Fusilier Alpha
+    • 1x Hastarii phosphor blaster
+    • 1x Neutron fusil
+    • 1x Power weapon
+• 4x Hastarii Fusilier
+    • 4x Close combat weapon
+    • 4x Hastarii phosphor blaster
+    • 4x Neutron fusil
+
+Hastarii Fusiliers (115 pts) #2
+• 1x Hastarii Fusilier Alpha
+    • 1x Hastarii phosphor blaster
+    • 1x Neutron fusil
+    • 1x Power weapon
+• 4x Hastarii Fusilier
+    • 4x Close combat weapon
+    • 4x Hastarii phosphor blaster
+    • 4x Neutron fusil
+
+Kastelan Robots (320 pts)
+• 4x Kastelan Robot
+    • 4x Twin Kastelan fist
+    • 4x Incendine combustor
+
+Kataphron Destroyers (200 pts) #1
+• 6x Kataphron Destroyer (Kataphron plasma culverin & Cognis flamer)
+    • 6x Close combat weapon
+    • 6x Cognis flamer
+    • 6x Kataphron plasma culverin
+
+Kataphron Destroyers (200 pts) #2
+• 6x Kataphron Destroyer (Kataphron plasma culverin & Cognis flamer)
+    • 6x Close combat weapon
+    • 6x Cognis flamer
+    • 6x Kataphron plasma culverin
+
+Servitor Battleclade (65 pts)
+• 1x Servitor Underseer
+    • 1x Dataspikes
+    • 1x Mechanicus pistol
+• 2x Gun Servitor
+    • 1x Heavy arc rifle
+    • 2x Servo-claw
+    • 1x Heavy bolter
+• 6x Combat Servitor
+    • 2x Phosphor blaster
+    • 6x Servo-claw
+    • 1x Meltagun
+    • 3x Incendine igniter
+
+Servitor Battleclade (65 pts)
+• 1x Servitor Underseer
+    • 1x Dataspikes
+    • 1x Mechanicus pistol
+• 2x Gun Servitor
+    • 1x Heavy arc rifle
+    • 2x Servo-claw
+    • 1x Heavy bolter
+• 6x Combat Servitor
+    • 2x Phosphor blaster
+    • 6x Servo-claw
+    • 1x Meltagun
+    • 3x Incendine igniter
+
+Servitor Battleclade (65 pts)
+• 1x Servitor Underseer
+    • 1x Dataspikes
+    • 1x Mechanicus pistol
+• 2x Gun Servitor
+    • 1x Heavy arc rifle
+    • 2x Servo-claw
+    • 1x Heavy bolter
+• 6x Combat Servitor
+    • 2x Phosphor blaster
+    • 6x Servo-claw
+    • 1x Meltagun
+    • 3x Incendine igniter
+
+Sicarian Infiltrators (75 pts)
+• 1x Sicarian Infiltrator Princeps (Taser goad & flechette blaster)
+    • 1x Flechette blaster
+    • 1x Taser goad
+• 4x Sicarian Infiltrator (Taser goad & flechette blaster)
+    • 4x Flechette blaster
+    • 4x Taser goad
+
+Sicarian Infiltrators (75 pts)
+• 1x Sicarian Infiltrator Princeps (Taser goad & flechette blaster)
+    • 1x Flechette blaster
+    • 1x Taser goad
+• 4x Sicarian Infiltrator (Taser goad & flechette blaster)
+    • 4x Flechette blaster
+    • 4x Taser goad
+
+Skorpius Dunerider (75 pts)
+• 1x Armoured hull
+• 1x Cognis heavy stubber array
+
+undefined

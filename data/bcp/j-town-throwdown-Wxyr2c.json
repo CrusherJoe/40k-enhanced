@@ -1,0 +1,217 @@
+{
+ "event": {
+  "id": "Wxyr2cPzosMZ",
+  "name": "J-Town Throwdown",
+  "totalPlayers": 23,
+  "eventDate": "2026-08-01T15:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Connor Johnson",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "ballers on a budget",
+   "dropped": false,
+   "listId": "RUFwoQ4Ltsaz",
+   "listUrl": "https://www.bestcoastpairings.com/list/RUFwoQ4Ltsaz"
+  },
+  {
+   "name": "Justin Powell",
+   "faction": "Chaos Knights",
+   "detachment": "Reconnaissance",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "shve6XksqL30",
+   "listUrl": "https://www.bestcoastpairings.com/list/shve6XksqL30"
+  },
+  {
+   "name": "Cody Howe",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "9Icb5c9QLIpX",
+   "listUrl": "https://www.bestcoastpairings.com/list/9Icb5c9QLIpX"
+  },
+  {
+   "name": "Juan Rivera",
+   "faction": "Death Guard",
+   "detachment": null,
+   "team": "Filthy Tabletop ",
+   "dropped": false,
+   "listId": "GwUODwpxzDPI",
+   "listUrl": "https://www.bestcoastpairings.com/list/GwUODwpxzDPI"
+  },
+  {
+   "name": "Samuel Manuel",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "High Rollerz",
+   "dropped": false,
+   "listId": "pRySsZbtSILW",
+   "listUrl": "https://www.bestcoastpairings.com/list/pRySsZbtSILW"
+  },
+  {
+   "name": "Ethan Pierce",
+   "faction": null,
+   "detachment": null,
+   "team": "Fist of Devotion",
+   "dropped": false,
+   "listId": "eX8oYVkVJdMC",
+   "listUrl": "https://www.bestcoastpairings.com/list/eX8oYVkVJdMC"
+  },
+  {
+   "name": "Craig Johnston",
+   "faction": "Chaos Daemons",
+   "detachment": "Reconnaissance",
+   "team": "High Rollerz",
+   "dropped": false,
+   "listId": "tMQYfL6ZrQNV",
+   "listUrl": "https://www.bestcoastpairings.com/list/tMQYfL6ZrQNV"
+  },
+  {
+   "name": "David Gleason",
+   "faction": null,
+   "detachment": null,
+   "team": "Warpflame Flamingos",
+   "dropped": true,
+   "listId": "LI0XueTzVYSs",
+   "listUrl": "https://www.bestcoastpairings.com/list/LI0XueTzVYSs"
+  },
+  {
+   "name": "William Young",
+   "faction": "Adepta Sororitas",
+   "detachment": null,
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "knektj62GseU",
+   "listUrl": "https://www.bestcoastpairings.com/list/knektj62GseU"
+  },
+  {
+   "name": "Noah Workman",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "MMxKMKIWjTSs",
+   "listUrl": "https://www.bestcoastpairings.com/list/MMxKMKIWjTSs"
+  },
+  {
+   "name": "Josh Wilson",
+   "faction": null,
+   "detachment": null,
+   "team": "Warpflame Flamingos",
+   "dropped": true,
+   "listId": "wATrCyltbiVG",
+   "listUrl": "https://www.bestcoastpairings.com/list/wATrCyltbiVG"
+  },
+  {
+   "name": "Dylan Wentz",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "5ZcoyWixJ5cJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/5ZcoyWixJ5cJ"
+  },
+  {
+   "name": "Brian McIntosh",
+   "faction": null,
+   "detachment": null,
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "AkU7jfU8RWmq",
+   "listUrl": "https://www.bestcoastpairings.com/list/AkU7jfU8RWmq"
+  },
+  {
+   "name": "Nancy Wann",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "sYtoLFgC5jZA",
+   "listUrl": "https://www.bestcoastpairings.com/list/sYtoLFgC5jZA"
+  },
+  {
+   "name": "Jimmy Hood",
+   "faction": "Death Guard",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "p6px9gKj94bG",
+   "listUrl": "https://www.bestcoastpairings.com/list/p6px9gKj94bG"
+  },
+  {
+   "name": "Thomas Troost",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "8Q41f1XCO28T",
+   "listUrl": "https://www.bestcoastpairings.com/list/8Q41f1XCO28T"
+  },
+  {
+   "name": "Zach Mobley",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "4FGwcyvE6oXU",
+   "listUrl": "https://www.bestcoastpairings.com/list/4FGwcyvE6oXU"
+  },
+  {
+   "name": "Cody Steele",
+   "faction": "Death Guard",
+   "detachment": "Priority Assets",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "XpuG6bNK8GJk",
+   "listUrl": "https://www.bestcoastpairings.com/list/XpuG6bNK8GJk"
+  },
+  {
+   "name": "Brian Anderson",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "ForgedNPlastic",
+   "dropped": false,
+   "listId": "SdHlQyeKjNaa",
+   "listUrl": "https://www.bestcoastpairings.com/list/SdHlQyeKjNaa"
+  },
+  {
+   "name": "Nathan Sims",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": "Warpflame Flamingos",
+   "dropped": false,
+   "listId": "RgCgHx7K4AG8",
+   "listUrl": "https://www.bestcoastpairings.com/list/RgCgHx7K4AG8"
+  },
+  {
+   "name": "Scott Cornelius",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": "Gateway Gamers",
+   "dropped": false,
+   "listId": "aK7nylX3iH8u",
+   "listUrl": "https://www.bestcoastpairings.com/list/aK7nylX3iH8u"
+  },
+  {
+   "name": "Hunter Hamilton",
+   "faction": "Xenos",
+   "detachment": null,
+   "team": null,
+   "dropped": true,
+   "listId": "WV3qrwF1oqK7",
+   "listUrl": "https://www.bestcoastpairings.com/list/WV3qrwF1oqK7"
+  },
+  {
+   "name": "Wesley Wade",
+   "faction": "Astra Militarum",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "pharcJFCI0dc",
+   "listUrl": "https://www.bestcoastpairings.com/list/pharcJFCI0dc"
+  }
+ ]
+}

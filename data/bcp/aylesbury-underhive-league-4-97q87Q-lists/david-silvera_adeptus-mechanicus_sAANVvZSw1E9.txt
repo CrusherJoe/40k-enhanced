@@ -1,0 +1,174 @@
+# David Silvera | Adeptus Mechanicus | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/sAANVvZSw1E9  status=passed
+
+#02 league halo (2000 points)
+
+Adeptus Mechanicus
+Haloscreed Battle Clade (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Skitarii Marshal (35 points)
+• Attached as: Support (Character)
+  • 1x Control stave
+    1x Mechanicus pistol
+
+Hastarii Exterminators (105 points)
+• Attached as: Bodyguard
+  • 1x Hastarii Exterminator Alpha
+    • 1x Eradication caster
+      1x Hastarii arc blaster
+      1x Power weapon
+  • 4x Hastarii Exterminator
+    • 4x Close combat weapon
+      4x Eradication caster
+      4x Hastarii arc blaster
+
+Attached Unit 2
+
+Cybernetica Datasmith (40 points)
+• Attached as: Support (Character)
+  • 1x Mechanicus pistol
+    1x Power fist
+  • Enhancement: Transoracular Dyad Wafers
+
+Kastelan Robots (320 points)
+• Attached as: Bodyguard
+  • 4x Kastelan Robot
+    • 4x Incendine combustor
+      4x Kastelan fist
+      4x Kastelan phosphor blaster
+
+Attached Unit 3
+
+Tech-Priest Manipulus (70 points)
+• Attached as: Leader (Character)
+  • 1x Magnarail lance
+    1x Omnissian staff
+  • Enhancement: Sanctified Ordnance
+
+Kataphron Breachers (150 points)
+• Attached as: Bodyguard
+  • 3x Kataphron Breacher
+    • 3x Heavy arc rifle
+      3x Hydraulic claw
+
+Attached Unit 4
+
+Skitarii Marshal (35 points)
+• Attached as: Support (Character)
+  • 1x Control stave
+    1x Mechanicus pistol
+
+Skitarii Vanguard (85 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Skitarii Vanguard Alpha
+    • 1x Alpha combat weapon
+      1x Close combat weapon
+      1x Mechanicus pistol
+  • 9x Skitarii Vanguard
+    • 1x Arc rifle
+      9x Close combat weapon
+      1x Omnispex
+      1x Plasma caliver
+      6x Radium carbine
+      1x Transuranic arquebus
+
+
+CHARACTERS
+
+Belisarius Cawl (220 points)
+  • Warlord
+  • 1x Arc scourge
+    1x Cawl’s Omnissian axe
+    1x Mechadendrite hive
+    1x Solar atomiser
+
+Tech-Priest Enginseer (55 points)
+  • 1x Mechanicus pistol
+    1x Omnissian axe
+    1x Servo-arm
+
+
+BATTLELINE
+
+Skitarii Rangers (85 points)
+  • 1x Skitarii Ranger Alpha
+    • 1x Alpha combat weapon
+      1x Close combat weapon
+      1x Mechanicus pistol
+  • 9x Skitarii Ranger
+    • 1x Arc rifle
+      9x Close combat weapon
+      6x Galvanic rifle
+      1x Omnispex
+      1x Plasma caliver
+      1x Transuranic arquebus
+
+Skitarii Rangers (85 points)
+  • 1x Skitarii Ranger Alpha
+    • 1x Alpha combat weapon
+      1x Close combat weapon
+      1x Mechanicus pistol
+  • 9x Skitarii Ranger
+    • 1x Arc rifle
+      9x Close combat weapon
+      6x Galvanic rifle
+      1x Omnispex
+      1x Plasma caliver
+      1x Transuranic arquebus
+
+
+DEDICATED TRANSPORTS
+
+Skorpius Dunerider (75 points)
+  • 1x Armoured hull
+    1x Cognis heavy stubber array
+
+
+OTHER DATASHEETS
+
+Ironstrider Ballistarii (180 points)
+  • 2x Ironstrider Ballistarii
+    • 2x Ironstrider feet
+      2x Twin cognis lascannon
+
+Pteraxii Sterylizors (80 points)
+  • 1x Pteraxii Sterylizor Alpha
+    • 1x Flechette blaster
+      1x Pteraxii talons
+      1x Taser goad
+  • 4x Pteraxii Sterylizor
+    • 4x Phosphor torch
+      4x Pteraxii talons
+
+Sicarian Infiltrators (75 points)
+  • 1x Sicarian Infiltrator Princeps
+    • 1x Flechette blaster
+      1x Taser goad
+  • 4x Sicarian Infiltrator
+    • 4x Flechette blaster
+      4x Taser goad
+
+Sicarian Ruststalkers (75 points)
+  • 1x Sicarian Ruststalker Princeps
+    • 1x Transonic blades and chordclaw
+  • 4x Sicarian Ruststalker
+    • 4x Transonic razor and chordclaw
+
+Skorpius Disintegrator (170 points)
+  • 1x Armoured hull
+    3x Cognis heavy stubber
+    1x Disruptor missile launcher
+    1x Ferrumite cannon
+
+Sydonian Dragoons with Taser Lances (60 points)
+  • 1x Phosphor serpenta
+    1x Taser lance
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

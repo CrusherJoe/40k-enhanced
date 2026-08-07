@@ -1,0 +1,24 @@
+# Eduard Porto | Chaos Knights | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/7rsW7TJfsiDS  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Knights
++ DETACHMENT: Iconoclast Fiefdom (Wretched Thralls)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 250pts
++
++ WARLORD: Char1: Cultist Firebrand
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 3
++ SECONDARY: - Bring It Down: (1x2) - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Cultist Firebrand (45 pts): Warlord, Balefire pike, Close combat weapon
+
+10x Cultist Mob (50 pts)
+• 1x Cultist Champion: Brutal assault weapon, Bolt pistol
+• 9x Cultist: 9 with Autopistol, Brutal assault weapon
+
+1x War Dog Karnivore (155 pts): Reaper chaintalon, Slaughterclaw, Diabolus heavy stubber
+
+undefined

@@ -1,0 +1,32 @@
+# Kevin Maymo | Death Guard | Disruption | team=Legio Inmaterium Balear (LIB)
+# list: https://www.bestcoastpairings.com/list/4UFTQLsYnokX  status=passed
+
+virus [250 points]
+Death Guard
+Battle Size: Strike Force (2000 point limit)
+
+Detachments: Shamblerot Vectorium (2/3 Detachment Points)
+Force Dispositions: Disruption
+
+Character
+
+  Lord of Virulence (100 points)
+    • Warlord
+    • Power fist and Twin plague spewer
+
+  Tallyman (60 points)
+    • Close combat weapon and Plasma pistol
+
+Battleline
+
+  Plague Marines (90 points)
+    • 1 Plague Champion with Plague knives and Plasma gun 
+    • 1 Plague Marines with Plague knives and Plague spewer
+    • 1 Plague Marines with Blight launcher and Plague knives
+    • 1 Plague Marines with Plague belcher and Plague knives
+    • 1 Plague Marines with Boltgun and Plague knives
+
+
+
+
+undefined

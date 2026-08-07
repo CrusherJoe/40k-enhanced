@@ -1,0 +1,206 @@
+# Bailey Leatherdale | Genestealer Cult | Reconnaissance | team=Low Rankin family
+# list: https://www.bestcoastpairings.com/list/V7vKOim00teQ  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Genestealer Cults
++ DETACHMENT: Outlander Claw, Xenocult Masses (Rapid Takeover)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Benefictus
++ ENHANCEMENT: Assault Commando (on Char1: Benefictus)
+& Cartographic Data-leech (on Char4: Reductus Saboteur)
++ NUMBER OF UNITS: 22
++ SECONDARY: - Bring It Down: (6x2) - Assassination: 5 Characters - Cull The Horde: 2x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Benefictus (90 pts)
+• 1x Close combat weapon
+• 1x Psionic cascade
+• Assault Commando (+15 pts)
+
+Benefictus (75 pts)
+• 1x Close combat weapon
+• 1x Psionic cascade
+• Warlord
+
+Benefictus (75 pts)
+• 1x Close combat weapon
+• 1x Psionic cascade
+
+Reductus Saboteur (80 pts)
+• 1x Autopistol
+• 1x Close combat weapon
+• 1x Demolition charges
+• 1x Remote explosives
+• Cartographic Data-leech (+10 pts)
+
+Reductus Saboteur (70 pts)
+• 1x Autopistol
+• 1x Close combat weapon
+• 1x Demolition charges
+• 1x Remote explosives
+
+BATTLELINE
+
+Acolyte Hybrids with Autopistols (70 pts)
+• 1x Acolyte Leader
+    • 1x Autopistol
+    • 1x Cult claws and knife
+• 4x Acolyte Hybrid
+    • 1x Cult claws and knife
+    • 3x Heavy mining tool
+    • Cult icon
+
+Acolyte Hybrids with Hand Flamers (75 pts)
+• 1x Acolyte Leader
+    • 1x Hand flamer
+    • 1x Leader's bio-weapons
+• 4x Acolyte Hybrid
+    • 4x Cult claws and knife
+    • 3x Hand flamer
+    • Cult icon
+
+Acolyte Hybrids with Hand Flamers (75 pts)
+• 1x Acolyte Leader
+    • 1x Hand flamer
+    • 1x Leader's bio-weapons
+• 4x Acolyte Hybrid
+    • 4x Cult claws and knife
+    • 3x Hand flamer
+    • Cult icon
+
+Neophyte Hybrids (70 pts)
+• 1x Neophyte Leader
+    • 1x Autopistol
+    • 1x Close combat weapon
+    • 1x Hybrid firearm
+• 9x Neophyte Hybrid
+    • 9x Autopistol
+    • 9x Close combat weapon
+    • 1x Seismic cannon
+    • 1x Mining laser
+    • 5x Hybrid firearm
+    • 1x Grenade launcher
+    • 1x Webber
+    • Cult Icon
+
+Neophyte Hybrids (135 pts)
+• 1x Neophyte Leader
+    • 1x Autopistol
+    • 1x Close combat weapon
+    • 1x Hybrid firearm
+• 19x Neophyte Hybrid
+    • 19x Autopistol
+    • 19x Close combat weapon
+    • 2x Seismic cannon
+    • 2x Mining laser
+    • 11x Hybrid firearm
+    • 2x Grenade launcher
+    • 2x Webber
+    • Cult Icon
+
+Neophyte Hybrids (135 pts)
+• 1x Neophyte Leader
+    • 1x Autopistol
+    • 1x Close combat weapon
+    • 1x Hybrid firearm
+• 19x Neophyte Hybrid
+    • 19x Autopistol
+    • 19x Close combat weapon
+    • 2x Seismic cannon
+    • 2x Mining laser
+    • 11x Hybrid firearm
+    • 2x Grenade launcher
+    • 2x Webber
+    • Cult Icon
+
+OTHER DATASHEETS
+
+Achilles Ridgerunners (95 pts)
+• 1x Achilles Ridgerunner
+    • 1x Armoured hull
+    • 1x Twin heavy stubber
+    • 1x Heavy mortar
+    • Survey augur
+
+Achilles Ridgerunners (95 pts)
+• 1x Achilles Ridgerunner
+    • 1x Armoured hull
+    • 1x Twin heavy stubber
+    • 1x Heavy mortar
+    • Survey augur
+
+Atalan Jackals (85 pts)
+• 4x Atalan Jackal
+    • 3x Atalan small arms
+    • 2x Close combat weapon
+    • 2x Atalan power weapon
+    • 1x Grenade launcher
+• 1x Atalan Wolfquad
+    • 1x Atalan small arms
+    • 1x Close combat weapon
+    • 1x Mining laser
+
+Atalan Jackals (85 pts)
+• 4x Atalan Jackal
+    • 3x Atalan small arms
+    • 2x Close combat weapon
+    • 2x Atalan power weapon
+    • 1x Grenade launcher
+• 1x Atalan Wolfquad
+    • 1x Atalan small arms
+    • 1x Close combat weapon
+    • 1x Mining laser
+
+Atalan Jackals (95 pts)
+• 4x Atalan Jackal
+    • 3x Atalan small arms
+    • 2x Close combat weapon
+    • 2x Atalan power weapon
+    • 1x Grenade launcher
+• 1x Atalan Wolfquad
+    • 1x Atalan small arms
+    • 1x Close combat weapon
+    • 1x Mining laser
+
+Goliath Rockgrinder (120 pts)
+• 1x Demolition charge cache
+• 1x Drilldozer blade
+• 1x Heavy stubber
+• 1x Heavy mining laser
+
+Goliath Rockgrinder (120 pts)
+• 1x Demolition charge cache
+• 1x Drilldozer blade
+• 1x Heavy stubber
+• 1x Heavy mining laser
+
+Goliath Rockgrinder (130 pts)
+• 1x Demolition charge cache
+• 1x Drilldozer blade
+• 1x Heavy stubber
+• 1x Heavy mining laser
+
+Goliath Truck (75 pts)
+• 1x Demolition charge cache
+• 1x Goliath wheels
+• 1x Heavy stubber
+• 1x Twin autocannon
+
+Hybrid Metamorphs (75 pts)
+• 1x Metamorph Leader
+    • 1x Leader's Bio-weapons
+    • 1x Hand flamer
+• 4x Hybrid Metamorph
+    • 4x Metamorph mutations
+    • 3x Hand flamer
+    • Cult icon
+
+Purestrain Genestealers (75 pts)
+• 5x Purestrain Genestealer
+    • 5x Cult claws and talons
+
+undefined

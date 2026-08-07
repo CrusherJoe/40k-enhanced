@@ -1,0 +1,78 @@
+# Jon Kershner | Adeptus Mechanicus | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/j18l9n5XJg4p  status=passed
+
+laz esc (495 points)
+
+Adeptus Mechanicus
+Lords of the Forge (1 Detachment Points)
+Priority Assets
+Incursion (1000 points)
+
+Attached Units
+Attached Unit 1
+
+Tech-Priest Manipulus (90 points)
+• Attached as: Leader (Character)
+  • Warlord
+  • 1x Magnarail lance
+    1x Omnissian staff
+  • Enhancement: TL-4ø9
+
+Skitarii Marshal (35 points)
+• Attached as: Support (Character)
+  • 1x Control stave
+    1x Mechanicus pistol
+
+Hastarii Fusiliers (115 points)
+• Attached as: Bodyguard
+  • 1x Hastarii Fusilier Alpha
+    • 1x Hastarii phosphor blaster
+      1x Neutron fusil
+      1x Power weapon
+  • 4x Hastarii Fusilier
+    • 4x Close combat weapon
+      4x Hastarii phosphor blaster
+      4x Neutron fusil
+
+Attached Unit 2
+
+Skitarii Marshal (35 points)
+• Attached as: Support (Character)
+  • 1x Control stave
+    1x Mechanicus pistol
+
+Skitarii Rangers (85 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Skitarii Ranger Alpha
+    • 1x Alpha combat weapon
+      1x Close combat weapon
+      1x Galvanic rifle
+  • 9x Skitarii Ranger
+    • 1x Arc rifle
+      9x Close combat weapon
+      8x Galvanic rifle
+
+
+OTHER DATASHEETS
+
+Serberys Raiders (60 points)
+  • 1x Serberys Raider Alpha
+    • 1x Cavalry sabre and clawed limbs
+      1x Galvanic carbine
+      1x Mechanicus pistol
+  • 2x Serberys Raider
+    • 2x Cavalry sabre and clawed limbs
+      1x Enhanced data-tether
+      2x Galvanic carbine
+
+Sicarian Infiltrators (75 points)
+  • 1x Sicarian Infiltrator Princeps
+    • 1x Flechette blaster
+      1x Taser goad
+  • 4x Sicarian Infiltrator
+    • 4x Flechette blaster
+      4x Taser goad
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

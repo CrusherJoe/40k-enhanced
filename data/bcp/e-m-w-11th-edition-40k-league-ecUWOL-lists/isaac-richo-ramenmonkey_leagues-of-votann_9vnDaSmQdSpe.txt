@@ -1,0 +1,181 @@
+# Isaac Richo RAMENMONKEY | Leagues of Votann | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/9vnDaSmQdSpe  status=passed
+
+JUST LIL GUYS (2,000 Points)
+
+Leagues of Votann
+Hearthguard Covenant and Mercenary Oathband (3 Detachment Points)
+Take and Hold
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Kâhl (65 Points)
+  • Attached as: Leader (Character)
+  • 1x Autoch-pattern combi-bolter
+  • 1x Forgewrought plasma axe
+  • 1x Rampart Crest
+
+Einhyr Hearthguard (270 Points)
+  • Attached as: Bodyguard ()
+  • 1x Hesyr
+     ◦ 1x Concussion gauntlet
+     ◦ 1x EtaCarn plasma gun
+     ◦ 1x Exoarmour grenade launcher
+     ◦ 1x Weavefield crest
+  • 9x Einhyr Hearthguard
+     ◦ 9x Concussion gauntlet
+     ◦ 9x EtaCarn plasma gun
+     ◦ 9x Exoarmour grenade launcher
+
+Attached unit 2
+
+Einhyr Champion (65 Points)
+  • Attached as: Leader (Character)
+  • 1x Autoch-pattern combi-bolter
+  • 1x Mass hammer
+  • 1x Weavefield Crest
+
+Einhyr Hearthguard (130 Points)
+  • Attached as: Bodyguard ()
+  • 1x Hesyr
+     ◦ 1x Concussion gauntlet
+     ◦ 1x EtaCarn plasma gun
+     ◦ 1x Exoarmour grenade launcher
+     ◦ 1x Weavefield crest
+  • 4x Einhyr Hearthguard
+     ◦ 4x Concussion gauntlet
+     ◦ 4x EtaCarn plasma gun
+     ◦ 4x Exoarmour grenade launcher
+
+Attached unit 3
+
+Grimnyr (65 Points)
+  • Attached as: Leader (Character)
+  • 1x Grimnyr
+     ◦ 1x Ancestral Wrath
+     ◦ 1x Ancestral ward stave
+  • 2x CORV
+     ◦ 2x Autoch-pattern bolter
+     ◦ 2x Close combat weapon
+
+Hearthkyn Warriors (100 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 1x Theyn
+     ◦ 1x Autoch-pattern bolt pistol
+     ◦ 1x Close combat weapon
+     ◦ 1x Theyn’s melee weapon
+     ◦ 1x Theyn’s pistol
+     ◦ 1x Weavefield crest
+  • 9x Hearthkyn Warrior
+     ◦ 9x Autoch-pattern bolt pistol
+     ◦ 9x Close combat weapon
+     ◦ 5x Ion blaster
+     ◦ 1x L7 missile launcher
+     ◦ 1x Magna-rail rifle
+     ◦ 2x Plasma knife
+
+Attached unit 4
+
+Memnyr Strategist (65 Points)
+  • Attached as: Leader (Character)
+  • 1x Autoch-pattern bolt pistol
+  • 1x Close combat weapon
+  • Enhancements: Metaphysical Brokerage
+
+Ironkin Steeljacks with Heavy Volkanite Disintegrators (80 Points)
+  • Attached as: Bodyguard ()
+  • 1x Steeljack Theyn
+     ◦ 1x Heavy volkanite disintegrator
+     ◦ 1x Plasma knife
+     ◦ 1x Preymark Crest
+  • 2x Ironkin Steeljack
+     ◦ 2x Heavy volkanite disintegrator
+     ◦ 2x Plasma knife
+
+CHARACTERS
+
+Arkanyst Evaluator (70 Points)
+  • 1x Close combat weapon
+  • 1x Transmatter inverter
+
+Buri Aegnirssen (85 Points)
+  • Warlord
+  • 1x Autoch‑pattern bolt pistol
+  • 1x Bane
+
+Einhyr Champion (65 Points)
+  • 1x Autoch-pattern combi-bolter
+  • 1x Mass hammer
+  • 1x Weavefield Crest
+
+BATTLELINE
+
+Hearthkyn Warriors (100 Points)
+  • 1x Theyn
+     ◦ 1x Autoch-pattern bolt pistol
+     ◦ 1x Close combat weapon
+     ◦ 1x Theyn’s melee weapon
+     ◦ 1x Theyn’s pistol
+     ◦ 1x Weavefield crest
+  • 9x Hearthkyn Warrior
+     ◦ 9x Autoch-pattern bolt pistol
+     ◦ 5x Autoch-pattern bolter
+     ◦ 9x Close combat weapon
+     ◦ 1x EtaCarn plasma beamer
+     ◦ 1x HYLas auto rifle
+     ◦ 2x Plasma knife
+
+DEDICATED TRANSPORTS
+
+Sagitaur (85 Points)
+  • 1x Armoured wheels
+  • 1x HYLas beam cannon
+  • 1x Twin bolt cannon
+
+OTHER DATASHEETS
+
+Brôkhyr Thunderkyn (80 Points)
+  • 3x Brôkhyr Thunderkyn
+     ◦ 3x Bolt cannon
+     ◦ 3x Close combat weapon
+
+Hekaton Land Fortress (250 Points)
+  • 1x Armoured wheels
+  • 1x Heavy magna-rail cannon
+  • 1x MATR autocannon
+  • 1x Panspectral Scanner
+  • 1x Twin bolt cannon
+  • 1x Twin ion beamer
+
+Hekaton Land Fortress (265 Points)
+  • 1x Armoured wheels
+  • 1x Heavy magna-rail cannon
+  • 1x MATR autocannon
+  • 1x Panspectral Scanner
+  • 1x Twin bolt cannon
+  • 1x Twin ion beamer
+
+Ironkin Steeljacks with Melee Weapons (80 Points)
+  • 1x Steeljack Theyn
+     ◦ 1x Autoch-pattern bolter
+     ◦ 1x Plasma sword
+     ◦ 1x Preymark Crest
+  • 2x Ironkin Steeljack
+     ◦ 2x Autoch-pattern bolter
+     ◦ 2x Plasma sword
+
+Ironkin Steeljacks with Melee Weapons (80 Points)
+  • 1x Steeljack Theyn
+     ◦ 1x Autoch-pattern bolter
+     ◦ 1x Plasma sword
+     ◦ 1x Preymark Crest
+  • 2x Ironkin Steeljack
+     ◦ 2x Autoch-pattern bolter
+     ◦ 2x Plasma sword
+
+Exported with App Version: v2.3.1 (1), Data Version: v913
+
+undefined

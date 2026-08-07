@@ -1,0 +1,51 @@
+# Nathan Kutka | Chaos Daemons | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/GsvZ9jG0XxdJ  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Daemons
++ DETACHMENT: Plague Legion, Warptide (Melancholic Miasma)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char2: Great Unclean One
++ ENHANCEMENT: Droning Shroud (Aura) (on Char2: Great Unclean One)
+& Font of Spores (Aura) (on Char3: Great Unclean One)
+& Cankerblight (Aura) (on Char5: Sloppity Bilepiper)
++ NUMBER OF UNITS: 12
++ SECONDARY: - Bring It Down: (4x6) - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Great Unclean One (300 pts): Warlord, Putrid vomit, Bilesword, Bileblade
+Enhancement: Droning Shroud (Aura) (+35 pts)
+Char3: 1x Great Unclean One (285 pts): Putrid vomit, Bilesword, Bileblade
+Enhancement: Font of Spores (Aura) (+20 pts)
+Char4: 1x Poxbringer (55 pts): Foul balesword (attached to plaguebearer unit)
+Char1: 1x Rotigus (280 pts): Gnarlrod, Streams of brackish filth
+Char5: 1x Sloppity Bilepiper (70 pts): Marotter
+Enhancement: Cankerblight (Aura) (+15 pts) (attached to plaguebearer unit)
+
+6x Nurglings (90 pts): 6 with Diseased claws and teeth
+10x Plaguebearers (115 pts)
+• 9x Plaguebearer
+    7 with Plaguesword
+    1 with Instrument of Chaos, Plaguesword
+    1 with Daemonic Icon, Plaguesword
+• 1x Plagueridden: Plaguesword
+10x Plaguebearers (115 pts)
+• 9x Plaguebearer
+    7 with Plaguesword
+    1 with Instrument of Chaos, Plaguesword
+    1 with Daemonic Icon, Plaguesword
+• 1x Plagueridden: Plaguesword
+10x Plaguebearers (115 pts)
+• 9x Plaguebearer
+    7 with Plaguesword
+    1 with Instrument of Chaos, Plaguesword
+    1 with Daemonic Icon, Plaguesword
+• 1x Plagueridden: Plaguesword
+
+2x Beasts of Nurgle (140 pts): 2 with Putrid appendages
+1x Beasts of Nurgle (75 pts): Putrid appendages
+Char6: 1x Knight Desecrator (355 pts): Desecrator laser destructor, Diabolus heavy stubber, Warpstrike claw
+
+undefined

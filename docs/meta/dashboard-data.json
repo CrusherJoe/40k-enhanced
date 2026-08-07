@@ -1,11 +1,11 @@
 {
- "generated_utc": "2026-08-07T20:42Z",
+ "generated_utc": "2026-08-07T20:56Z",
  "min_data_version": 912,
  "low_n": 30,
- "top_cut_n": 8,
+ "top_cut_n": 10,
  "summary": {
-  "events": 28,
-  "games": 3448,
+  "events": 35,
+  "games": 3731,
   "weeks": 3,
   "week_range": [
    "2026-07-22",
@@ -24,7 +24,7 @@
    "start": "2026-07-29",
    "short": "Jul 29",
    "label": "Jul 29\u2013Aug 4",
-   "games": 3070,
+   "games": 3353,
    "in_progress": false
   },
   {
@@ -39,17 +39,17 @@
   {
    "name": "Space Marines (Astartes)",
    "total": {
-    "games": 420,
-    "wins": 210,
-    "players": 160,
-    "top": 10
+    "games": 461,
+    "wins": 224,
+    "players": 173,
+    "top": 13
    },
    "byweek": {
     "2026-07-29": {
-     "games": 343,
-     "wins": 171,
-     "players": 78,
-     "top": 8
+     "games": 384,
+     "wins": 185,
+     "players": 91,
+     "top": 11
     },
     "2026-08-05": {
      "games": 0,
@@ -68,17 +68,17 @@
   {
    "name": "Orks",
    "total": {
-    "games": 465,
-    "wins": 259,
-    "players": 147,
-    "top": 18
+    "games": 505,
+    "wins": 282,
+    "players": 157,
+    "top": 24
    },
    "byweek": {
     "2026-07-29": {
-     "games": 409,
-     "wins": 227,
-     "players": 85,
-     "top": 17
+     "games": 449,
+     "wins": 250,
+     "players": 95,
+     "top": 23
     },
     "2026-08-05": {
      "games": 0,
@@ -97,17 +97,17 @@
   {
    "name": "Necrons",
    "total": {
-    "games": 391,
-    "wins": 191,
-    "players": 141,
-    "top": 8
+    "games": 433,
+    "wins": 211,
+    "players": 151,
+    "top": 15
    },
    "byweek": {
     "2026-07-29": {
-     "games": 368,
-     "wins": 179,
-     "players": 80,
-     "top": 5
+     "games": 410,
+     "wins": 199,
+     "players": 90,
+     "top": 12
     },
     "2026-08-05": {
      "games": 1,
@@ -126,17 +126,17 @@
   {
    "name": "Adeptus Custodes",
    "total": {
-    "games": 409,
-    "wins": 229,
-    "players": 137,
-    "top": 9
+    "games": 448,
+    "wins": 251,
+    "players": 147,
+    "top": 14
    },
    "byweek": {
     "2026-07-29": {
-     "games": 375,
-     "wins": 213,
-     "players": 77,
-     "top": 9
+     "games": 414,
+     "wins": 235,
+     "players": 87,
+     "top": 14
     },
     "2026-08-05": {
      "games": 0,
@@ -155,17 +155,17 @@
   {
    "name": "T'au Empire",
    "total": {
-    "games": 380,
-    "wins": 197,
-    "players": 136,
-    "top": 7
+    "games": 385,
+    "wins": 200,
+    "players": 139,
+    "top": 12
    },
    "byweek": {
     "2026-07-29": {
-     "games": 342,
-     "wins": 181,
-     "players": 74,
-     "top": 6
+     "games": 347,
+     "wins": 184,
+     "players": 77,
+     "top": 10
     },
     "2026-08-05": {
      "games": 0,
@@ -177,24 +177,24 @@
      "games": 38,
      "wins": 16,
      "players": 11,
-     "top": 1
+     "top": 2
     }
    }
   },
   {
    "name": "Emperor's Children",
    "total": {
-    "games": 325,
-    "wins": 172,
-    "players": 135,
-    "top": 15
+    "games": 344,
+    "wins": 187,
+    "players": 139,
+    "top": 19
    },
    "byweek": {
     "2026-07-29": {
-     "games": 296,
-     "wins": 160,
-     "players": 63,
-     "top": 12
+     "games": 315,
+     "wins": 175,
+     "players": 67,
+     "top": 16
     },
     "2026-08-05": {
      "games": 2,
@@ -213,17 +213,17 @@
   {
    "name": "Tyranids",
    "total": {
-    "games": 308,
-    "wins": 165,
-    "players": 121,
-    "top": 3
+    "games": 334,
+    "wins": 173,
+    "players": 131,
+    "top": 7
    },
    "byweek": {
     "2026-07-29": {
-     "games": 277,
-     "wins": 152,
-     "players": 63,
-     "top": 3
+     "games": 303,
+     "wins": 160,
+     "players": 73,
+     "top": 7
     },
     "2026-08-05": {
      "games": 0,
@@ -242,17 +242,17 @@
   {
    "name": "Imperial Knights",
    "total": {
-    "games": 392,
-    "wins": 179,
-    "players": 119,
-    "top": 4
+    "games": 410,
+    "wins": 184,
+    "players": 123,
+    "top": 5
    },
    "byweek": {
     "2026-07-29": {
-     "games": 357,
-     "wins": 164,
-     "players": 72,
-     "top": 3
+     "games": 375,
+     "wins": 169,
+     "players": 76,
+     "top": 4
     },
     "2026-08-05": {
      "games": 1,
@@ -271,17 +271,17 @@
   {
    "name": "Dark Angels",
    "total": {
-    "games": 359,
-    "wins": 198,
-    "players": 112,
-    "top": 10
+    "games": 388,
+    "wins": 214,
+    "players": 121,
+    "top": 14
    },
    "byweek": {
     "2026-07-29": {
-     "games": 328,
-     "wins": 180,
-     "players": 65,
-     "top": 8
+     "games": 357,
+     "wins": 196,
+     "players": 74,
+     "top": 12
     },
     "2026-08-05": {
      "games": 0,
@@ -300,17 +300,17 @@
   {
    "name": "Chaos Space Marines",
    "total": {
-    "games": 268,
-    "wins": 120,
-    "players": 102,
-    "top": 3
+    "games": 286,
+    "wins": 130,
+    "players": 110,
+    "top": 6
    },
    "byweek": {
     "2026-07-29": {
-     "games": 242,
-     "wins": 109,
-     "players": 52,
-     "top": 2
+     "games": 260,
+     "wins": 119,
+     "players": 60,
+     "top": 5
     },
     "2026-08-05": {
      "games": 1,
@@ -329,17 +329,17 @@
   {
    "name": "Death Guard",
    "total": {
-    "games": 284,
-    "wins": 120,
-    "players": 93,
-    "top": 1
+    "games": 304,
+    "wins": 128,
+    "players": 101,
+    "top": 4
    },
    "byweek": {
     "2026-07-29": {
-     "games": 258,
-     "wins": 108,
-     "players": 53,
-     "top": 1
+     "games": 278,
+     "wins": 116,
+     "players": 61,
+     "top": 4
     },
     "2026-08-05": {
      "games": 0,
@@ -358,23 +358,23 @@
   {
    "name": "Thousand Sons",
    "total": {
-    "games": 249,
-    "wins": 124,
-    "players": 93,
-    "top": 6
+    "games": 282,
+    "wins": 143,
+    "players": 100,
+    "top": 11
    },
    "byweek": {
+    "2026-07-29": {
+     "games": 257,
+     "wins": 129,
+     "players": 57,
+     "top": 9
+    },
     "2026-08-05": {
      "games": 1,
      "wins": 1,
      "players": 36,
      "top": 1
-    },
-    "2026-07-29": {
-     "games": 224,
-     "wins": 110,
-     "players": 50,
-     "top": 4
     },
     "2026-07-22": {
      "games": 24,
@@ -387,17 +387,17 @@
   {
    "name": "Leagues of Votann",
    "total": {
-    "games": 258,
-    "wins": 142,
-    "players": 92,
-    "top": 9
+    "games": 282,
+    "wins": 158,
+    "players": 99,
+    "top": 15
    },
    "byweek": {
     "2026-07-29": {
-     "games": 224,
-     "wins": 128,
-     "players": 48,
-     "top": 7
+     "games": 248,
+     "wins": 144,
+     "players": 55,
+     "top": 13
     },
     "2026-08-05": {
      "games": 0,
@@ -416,17 +416,17 @@
   {
    "name": "Chaos Daemons",
    "total": {
-    "games": 244,
-    "wins": 138,
-    "players": 87,
-    "top": 6
+    "games": 260,
+    "wins": 149,
+    "players": 91,
+    "top": 9
    },
    "byweek": {
     "2026-07-29": {
-     "games": 237,
-     "wins": 137,
-     "players": 47,
-     "top": 6
+     "games": 253,
+     "wins": 148,
+     "players": 51,
+     "top": 9
     },
     "2026-08-05": {
      "games": 0,
@@ -445,17 +445,17 @@
   {
    "name": "World Eaters",
    "total": {
-    "games": 262,
-    "wins": 120,
-    "players": 82,
-    "top": 3
+    "games": 275,
+    "wins": 123,
+    "players": 88,
+    "top": 5
    },
    "byweek": {
     "2026-07-29": {
-     "games": 215,
-     "wins": 98,
-     "players": 46,
-     "top": 3
+     "games": 228,
+     "wins": 101,
+     "players": 52,
+     "top": 4
     },
     "2026-08-05": {
      "games": 0,
@@ -467,82 +467,24 @@
      "games": 47,
      "wins": 22,
      "players": 11,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Grey Knights",
-   "total": {
-    "games": 189,
-    "wins": 78,
-    "players": 70,
-    "top": 1
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 1,
-     "wins": 1,
-     "players": 27,
      "top": 1
-    },
-    "2026-07-29": {
-     "games": 161,
-     "wins": 64,
-     "players": 35,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 27,
-     "wins": 13,
-     "players": 8,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Adeptus Mechanicus",
-   "total": {
-    "games": 179,
-    "wins": 88,
-    "players": 68,
-    "top": 3
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 139,
-     "wins": 70,
-     "players": 31,
-     "top": 2
-    },
-    "2026-07-22": {
-     "games": 40,
-     "wins": 18,
-     "players": 9,
-     "top": 1
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 28,
-     "top": 0
     }
    }
   },
   {
    "name": "Aeldari",
    "total": {
-    "games": 175,
-    "wins": 82,
-    "players": 67,
-    "top": 2
+    "games": 192,
+    "wins": 89,
+    "players": 75,
+    "top": 3
    },
    "byweek": {
     "2026-07-29": {
-     "games": 148,
-     "wins": 67,
-     "players": 35,
-     "top": 2
+     "games": 165,
+     "wins": 74,
+     "players": 43,
+     "top": 3
     },
     "2026-08-05": {
      "games": 0,
@@ -559,19 +501,135 @@
    }
   },
   {
-   "name": "Drukhari",
+   "name": "Grey Knights",
    "total": {
-    "games": 211,
-    "wins": 92,
-    "players": 66,
+    "games": 205,
+    "wins": 89,
+    "players": 75,
+    "top": 4
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 177,
+     "wins": 75,
+     "players": 40,
+     "top": 2
+    },
+    "2026-08-05": {
+     "games": 1,
+     "wins": 1,
+     "players": 27,
+     "top": 1
+    },
+    "2026-07-22": {
+     "games": 27,
+     "wins": 13,
+     "players": 8,
+     "top": 1
+    }
+   }
+  },
+  {
+   "name": "Space Wolves",
+   "total": {
+    "games": 213,
+    "wins": 98,
+    "players": 74,
+    "top": 8
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 188,
+     "wins": 88,
+     "players": 43,
+     "top": 7
+    },
+    "2026-08-05": {
+     "games": 1,
+     "wins": 0,
+     "players": 26,
+     "top": 1
+    },
+    "2026-07-22": {
+     "games": 24,
+     "wins": 10,
+     "players": 5,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Adeptus Mechanicus",
+   "total": {
+    "games": 190,
+    "wins": 93,
+    "players": 71,
+    "top": 4
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 150,
+     "wins": 75,
+     "players": 34,
+     "top": 3
+    },
+    "2026-07-22": {
+     "games": 40,
+     "wins": 18,
+     "players": 9,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 28,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Astra Militarum",
+   "total": {
+    "games": 207,
+    "wins": 96,
+    "players": 71,
     "top": 3
    },
    "byweek": {
     "2026-07-29": {
-     "games": 203,
-     "wins": 89,
-     "players": 45,
+     "games": 186,
+     "wins": 83,
+     "players": 40,
      "top": 3
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 24,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 21,
+     "wins": 13,
+     "players": 7,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Drukhari",
+   "total": {
+    "games": 217,
+    "wins": 97,
+    "players": 70,
+    "top": 4
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 209,
+     "wins": 94,
+     "players": 49,
+     "top": 4
     },
     "2026-08-05": {
      "games": 0,
@@ -590,17 +648,17 @@
   {
    "name": "Chaos Knights",
    "total": {
-    "games": 197,
-    "wins": 86,
-    "players": 66,
-    "top": 1
+    "games": 202,
+    "wins": 89,
+    "players": 68,
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
-     "games": 186,
-     "wins": 80,
-     "players": 39,
-     "top": 1
+     "games": 191,
+     "wins": 83,
+     "players": 41,
+     "top": 2
     },
     "2026-08-05": {
      "games": 0,
@@ -617,77 +675,19 @@
    }
   },
   {
-   "name": "Astra Militarum",
-   "total": {
-    "games": 186,
-    "wins": 88,
-    "players": 66,
-    "top": 1
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 24,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 165,
-     "wins": 75,
-     "players": 35,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 21,
-     "wins": 13,
-     "players": 7,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Space Wolves",
-   "total": {
-    "games": 160,
-    "wins": 69,
-    "players": 61,
-    "top": 2
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 135,
-     "wins": 59,
-     "players": 30,
-     "top": 1
-    },
-    "2026-08-05": {
-     "games": 1,
-     "wins": 0,
-     "players": 26,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 24,
-     "wins": 10,
-     "players": 5,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Blood Angels",
    "total": {
-    "games": 148,
-    "wins": 76,
-    "players": 59,
-    "top": 3
+    "games": 157,
+    "wins": 79,
+    "players": 63,
+    "top": 5
    },
    "byweek": {
     "2026-07-29": {
-     "games": 130,
-     "wins": 66,
-     "players": 26,
-     "top": 2
+     "games": 139,
+     "wins": 69,
+     "players": 30,
+     "top": 4
     },
     "2026-08-05": {
      "games": 0,
@@ -706,16 +706,16 @@
   {
    "name": "Adepta Sororitas",
    "total": {
-    "games": 134,
-    "wins": 64,
-    "players": 51,
+    "games": 143,
+    "wins": 68,
+    "players": 53,
     "top": 4
    },
    "byweek": {
     "2026-07-29": {
-     "games": 117,
-     "wins": 52,
-     "players": 28,
+     "games": 126,
+     "wins": 56,
+     "players": 30,
      "top": 3
     },
     "2026-08-05": {
@@ -738,14 +738,14 @@
     "games": 114,
     "wins": 66,
     "players": 39,
-    "top": 3
+    "top": 4
    },
    "byweek": {
     "2026-07-29": {
      "games": 88,
      "wins": 49,
      "players": 22,
-     "top": 2
+     "top": 3
     },
     "2026-08-05": {
      "games": 0,
@@ -764,16 +764,16 @@
   {
    "name": "Black Templars",
    "total": {
-    "games": 62,
-    "wins": 29,
-    "players": 27,
+    "games": 67,
+    "wins": 31,
+    "players": 30,
     "top": 0
    },
    "byweek": {
     "2026-07-29": {
-     "games": 56,
-     "wins": 24,
-     "players": 13,
+     "games": 61,
+     "wins": 26,
+     "players": 16,
      "top": 0
     },
     "2026-07-22": {
@@ -796,14 +796,14 @@
     "games": 47,
     "wins": 27,
     "players": 18,
-    "top": 0
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
      "games": 42,
      "wins": 23,
      "players": 8,
-     "top": 0
+     "top": 1
     },
     "2026-08-05": {
      "games": 0,
@@ -815,23 +815,23 @@
      "games": 5,
      "wins": 4,
      "players": 1,
-     "top": 0
+     "top": 1
     }
    }
   },
   {
    "name": "Imperial Agents",
    "total": {
-    "games": 27,
-    "wins": 13,
-    "players": 10,
+    "games": 33,
+    "wins": 14,
+    "players": 12,
     "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 22,
-     "wins": 9,
-     "players": 4,
+     "games": 28,
+     "wins": 10,
+     "players": 6,
      "top": 0
     },
     "2026-07-22": {
@@ -847,23 +847,40 @@
      "top": 0
     }
    }
+  },
+  {
+   "name": "Xenos",
+   "total": {
+    "games": 4,
+    "wins": 0,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 4,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
   }
  ],
  "disposition": [
   {
    "name": "Take and Hold",
    "total": {
-    "games": 1959,
-    "wins": 1020,
-    "players": 663,
-    "top": 46
+    "games": 2145,
+    "wins": 1117,
+    "players": 721,
+    "top": 76
    },
    "byweek": {
     "2026-07-29": {
-     "games": 1802,
-     "wins": 934,
-     "players": 378,
-     "top": 39
+     "games": 1988,
+     "wins": 1031,
+     "players": 436,
+     "top": 67
     },
     "2026-08-05": {
      "games": 3,
@@ -875,24 +892,24 @@
      "games": 154,
      "wins": 85,
      "players": 50,
-     "top": 4
+     "top": 6
     }
    }
   },
   {
    "name": "Priority Assets",
    "total": {
-    "games": 2048,
-    "wins": 1029,
-    "players": 661,
-    "top": 39
+    "games": 2218,
+    "wins": 1112,
+    "players": 708,
+    "top": 64
    },
    "byweek": {
     "2026-07-29": {
-     "games": 1792,
-     "wins": 898,
-     "players": 377,
-     "top": 30
+     "games": 1962,
+     "wins": 981,
+     "players": 424,
+     "top": 55
     },
     "2026-08-05": {
      "games": 2,
@@ -911,17 +928,17 @@
   {
    "name": "Purge the Foe",
    "total": {
-    "games": 1226,
-    "wins": 601,
-    "players": 450,
-    "top": 21
+    "games": 1316,
+    "wins": 646,
+    "players": 476,
+    "top": 32
    },
    "byweek": {
     "2026-07-29": {
-     "games": 1075,
-     "wins": 531,
-     "players": 235,
-     "top": 18
+     "games": 1165,
+     "wins": 576,
+     "players": 261,
+     "top": 27
     },
     "2026-08-05": {
      "games": 2,
@@ -933,24 +950,24 @@
      "games": 149,
      "wins": 69,
      "players": 42,
-     "top": 1
+     "top": 3
     }
    }
   },
   {
    "name": "Reconnaissance",
    "total": {
-    "games": 1137,
-    "wins": 557,
-    "players": 408,
-    "top": 18
+    "games": 1222,
+    "wins": 596,
+    "players": 432,
+    "top": 28
    },
    "byweek": {
     "2026-07-29": {
-     "games": 1005,
-     "wins": 492,
-     "players": 221,
-     "top": 17
+     "games": 1090,
+     "wins": 531,
+     "players": 245,
+     "top": 27
     },
     "2026-08-05": {
      "games": 0,
@@ -969,17 +986,17 @@
   {
    "name": "Disruption",
    "total": {
-    "games": 487,
-    "wins": 230,
-    "players": 247,
-    "top": 11
+    "games": 522,
+    "wins": 249,
+    "players": 258,
+    "top": 17
    },
    "byweek": {
     "2026-07-29": {
-     "games": 437,
-     "wins": 204,
-     "players": 98,
-     "top": 6
+     "games": 472,
+     "wins": 223,
+     "players": 109,
+     "top": 12
     },
     "2026-08-05": {
      "games": 1,
@@ -1000,17 +1017,17 @@
   {
    "name": "Librarius Conclave",
    "total": {
-    "games": 345,
-    "wins": 184,
-    "players": 107,
-    "top": 8
+    "games": 362,
+    "wins": 191,
+    "players": 113,
+    "top": 11
    },
    "byweek": {
     "2026-07-29": {
-     "games": 283,
-     "wins": 152,
-     "players": 58,
-     "top": 6
+     "games": 300,
+     "wins": 159,
+     "players": 64,
+     "top": 9
     },
     "2026-08-05": {
      "games": 0,
@@ -1029,17 +1046,17 @@
   {
    "name": "Chaos Cult",
    "total": {
-    "games": 231,
-    "wins": 107,
-    "players": 91,
-    "top": 3
+    "games": 243,
+    "wins": 112,
+    "players": 95,
+    "top": 4
    },
    "byweek": {
     "2026-07-29": {
-     "games": 211,
-     "wins": 97,
-     "players": 43,
-     "top": 2
+     "games": 223,
+     "wins": 102,
+     "players": 47,
+     "top": 3
     },
     "2026-08-05": {
      "games": 1,
@@ -1058,17 +1075,17 @@
   {
    "name": "Lions of the Emperor",
    "total": {
-    "games": 185,
-    "wins": 118,
-    "players": 69,
-    "top": 6
+    "games": 209,
+    "wins": 133,
+    "players": 76,
+    "top": 11
    },
    "byweek": {
     "2026-07-29": {
-     "games": 167,
-     "wins": 109,
-     "players": 35,
-     "top": 6
+     "games": 191,
+     "wins": 124,
+     "players": 42,
+     "top": 11
     },
     "2026-08-05": {
      "games": 0,
@@ -1080,6 +1097,35 @@
      "games": 18,
      "wins": 9,
      "players": 5,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Shield Host",
+   "total": {
+    "games": 183,
+    "wins": 87,
+    "players": 54,
+    "top": 3
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 167,
+     "wins": 80,
+     "players": 34,
+     "top": 3
+    },
+    "2026-07-22": {
+     "games": 16,
+     "wins": 7,
+     "players": 5,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 15,
      "top": 0
     }
    }
@@ -1114,48 +1160,19 @@
    }
   },
   {
-   "name": "Shield Host",
-   "total": {
-    "games": 164,
-    "wins": 78,
-    "players": 50,
-    "top": 3
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 148,
-     "wins": 71,
-     "players": 30,
-     "top": 3
-    },
-    "2026-07-22": {
-     "games": 16,
-     "wins": 7,
-     "players": 5,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 15,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Needga\u00e2rd Oathband",
    "total": {
-    "games": 132,
-    "wins": 72,
-    "players": 50,
-    "top": 5
+    "games": 142,
+    "wins": 77,
+    "players": 53,
+    "top": 7
    },
    "byweek": {
     "2026-07-29": {
-     "games": 110,
-     "wins": 63,
-     "players": 24,
-     "top": 4
+     "games": 120,
+     "wins": 68,
+     "players": 27,
+     "top": 6
     },
     "2026-08-05": {
      "games": 0,
@@ -1172,48 +1189,19 @@
    }
   },
   {
-   "name": "Retaliation Cadre",
-   "total": {
-    "games": 141,
-    "wins": 77,
-    "players": 48,
-    "top": 2
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 134,
-     "wins": 74,
-     "players": 30,
-     "top": 2
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 16,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 7,
-     "wins": 3,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Skysplinter Assault",
    "total": {
-    "games": 144,
-    "wins": 63,
-    "players": 46,
-    "top": 2
+    "games": 150,
+    "wins": 68,
+    "players": 50,
+    "top": 3
    },
    "byweek": {
     "2026-07-29": {
-     "games": 137,
-     "wins": 61,
-     "players": 31,
-     "top": 2
+     "games": 143,
+     "wins": 66,
+     "players": 35,
+     "top": 3
     },
     "2026-08-05": {
      "games": 0,
@@ -1232,17 +1220,17 @@
   {
    "name": "Coterie of the Conceited",
    "total": {
-    "games": 110,
-    "wins": 64,
-    "players": 45,
-    "top": 4
+    "games": 129,
+    "wins": 79,
+    "players": 49,
+    "top": 8
    },
    "byweek": {
     "2026-07-29": {
-     "games": 101,
-     "wins": 61,
-     "players": 22,
-     "top": 4
+     "games": 120,
+     "wins": 76,
+     "players": 26,
+     "top": 8
     },
     "2026-08-05": {
      "games": 0,
@@ -1261,17 +1249,17 @@
   {
    "name": "Cursed Legion and Skyshroud Spearhead",
    "total": {
-    "games": 117,
-    "wins": 67,
-    "players": 44,
-    "top": 2
+    "games": 132,
+    "wins": 75,
+    "players": 48,
+    "top": 4
    },
    "byweek": {
     "2026-07-29": {
-     "games": 111,
-     "wins": 65,
-     "players": 26,
-     "top": 2
+     "games": 126,
+     "wins": 73,
+     "players": 30,
+     "top": 4
     },
     "2026-07-22": {
      "games": 6,
@@ -1288,25 +1276,54 @@
    }
   },
   {
-   "name": "Grand Coven",
+   "name": "Retaliation Cadre",
    "total": {
-    "games": 110,
-    "wins": 58,
-    "players": 42,
-    "top": 4
+    "games": 141,
+    "wins": 77,
+    "players": 48,
+    "top": 3
    },
    "byweek": {
+    "2026-07-29": {
+     "games": 134,
+     "wins": 74,
+     "players": 30,
+     "top": 3
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 16,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 7,
+     "wins": 3,
+     "players": 2,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Grand Coven",
+   "total": {
+    "games": 124,
+    "wins": 69,
+    "players": 45,
+    "top": 8
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 113,
+     "wins": 63,
+     "players": 25,
+     "top": 7
+    },
     "2026-08-05": {
      "games": 1,
      "wins": 1,
      "players": 17,
      "top": 1
-    },
-    "2026-07-29": {
-     "games": 99,
-     "wins": 52,
-     "players": 22,
-     "top": 3
     },
     "2026-07-22": {
      "games": 10,
@@ -1317,48 +1334,19 @@
    }
   },
   {
-   "name": "Experimental Prototype Cadre",
-   "total": {
-    "games": 110,
-    "wins": 66,
-    "players": 38,
-    "top": 2
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 97,
-     "wins": 59,
-     "players": 18,
-     "top": 2
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 16,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 13,
-     "wins": 7,
-     "players": 4,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Company of Hunters",
    "total": {
-    "games": 115,
-    "wins": 79,
-    "players": 38,
-    "top": 7
+    "games": 130,
+    "wins": 87,
+    "players": 41,
+    "top": 8
    },
    "byweek": {
     "2026-07-29": {
-     "games": 103,
-     "wins": 70,
-     "players": 19,
-     "top": 6
+     "games": 118,
+     "wins": 78,
+     "players": 22,
+     "top": 7
     },
     "2026-07-22": {
      "games": 12,
@@ -1371,6 +1359,93 @@
      "wins": 0,
      "players": 16,
      "top": 0
+    }
+   }
+  },
+  {
+   "name": "Saga of the Great Wolf",
+   "total": {
+    "games": 105,
+    "wins": 50,
+    "players": 39,
+    "top": 6
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 99,
+     "wins": 49,
+     "players": 23,
+     "top": 6
+    },
+    "2026-07-22": {
+     "games": 6,
+     "wins": 1,
+     "players": 2,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 14,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Awakened Dynasty",
+   "total": {
+    "games": 104,
+    "wins": 54,
+    "players": 38,
+    "top": 7
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 96,
+     "wins": 49,
+     "players": 20,
+     "top": 5
+    },
+    "2026-08-05": {
+     "games": 1,
+     "wins": 0,
+     "players": 16,
+     "top": 1
+    },
+    "2026-07-22": {
+     "games": 7,
+     "wins": 5,
+     "players": 2,
+     "top": 1
+    }
+   }
+  },
+  {
+   "name": "Experimental Prototype Cadre",
+   "total": {
+    "games": 110,
+    "wins": 66,
+    "players": 38,
+    "top": 4
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 97,
+     "wins": 59,
+     "players": 18,
+     "top": 3
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 16,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 13,
+     "wins": 7,
+     "players": 4,
+     "top": 1
     }
    }
   },
@@ -1404,48 +1479,19 @@
    }
   },
   {
-   "name": "Awakened Dynasty",
-   "total": {
-    "games": 91,
-    "wins": 48,
-    "players": 35,
-    "top": 4
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 83,
-     "wins": 43,
-     "players": 17,
-     "top": 2
-    },
-    "2026-08-05": {
-     "games": 1,
-     "wins": 0,
-     "players": 16,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 7,
-     "wins": 5,
-     "players": 2,
-     "top": 1
-    }
-   }
-  },
-  {
    "name": "Virulent Vectorium",
    "total": {
     "games": 129,
     "wins": 57,
-    "players": 34,
-    "top": 0
+    "players": 36,
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
      "games": 111,
      "wins": 48,
-     "players": 23,
-     "top": 0
+     "players": 25,
+     "top": 1
     },
     "2026-08-05": {
      "games": 0,
@@ -1464,16 +1510,16 @@
   {
    "name": "Berzerker Warband",
    "total": {
-    "games": 84,
-    "wins": 41,
-    "players": 33,
+    "games": 94,
+    "wins": 44,
+    "players": 36,
     "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 61,
-     "wins": 28,
-     "players": 13,
+     "games": 71,
+     "wins": 31,
+     "players": 16,
      "top": 1
     },
     "2026-08-05": {
@@ -1491,48 +1537,19 @@
    }
   },
   {
-   "name": "Saga of the Great Wolf",
-   "total": {
-    "games": 72,
-    "wins": 31,
-    "players": 32,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 66,
-     "wins": 30,
-     "players": 16,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 6,
-     "wins": 1,
-     "players": 2,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 14,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Assimilation Swarm",
    "total": {
-    "games": 87,
-    "wins": 52,
-    "players": 31,
-    "top": 1
+    "games": 97,
+    "wins": 53,
+    "players": 35,
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
-     "games": 81,
-     "wins": 48,
-     "players": 18,
-     "top": 1
+     "games": 91,
+     "wins": 49,
+     "players": 22,
+     "top": 2
     },
     "2026-08-05": {
      "games": 0,
@@ -1549,77 +1566,19 @@
    }
   },
   {
-   "name": "Vanguard Onslaught",
-   "total": {
-    "games": 81,
-    "wins": 41,
-    "players": 31,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 80,
-     "wins": 41,
-     "players": 16,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 13,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 1,
-     "wins": 0,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Banishers",
-   "total": {
-    "games": 88,
-    "wins": 39,
-    "players": 31,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 11,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 76,
-     "wins": 36,
-     "players": 18,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 12,
-     "wins": 3,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Equatorial Hordes and Freebooter Krew",
    "total": {
-    "games": 89,
-    "wins": 55,
-    "players": 30,
-    "top": 6
+    "games": 105,
+    "wins": 66,
+    "players": 34,
+    "top": 9
    },
    "byweek": {
     "2026-07-29": {
-     "games": 88,
-     "wins": 54,
-     "players": 17,
-     "top": 6
+     "games": 104,
+     "wins": 65,
+     "players": 21,
+     "top": 9
     },
     "2026-08-05": {
      "games": 0,
@@ -1636,88 +1595,30 @@
    }
   },
   {
-   "name": "Wrath of the Rock",
+   "name": "Vanguard Onslaught",
    "total": {
-    "games": 104,
-    "wins": 54,
-    "players": 30,
-    "top": 2
+    "games": 89,
+    "wins": 44,
+    "players": 33,
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 87,
-     "wins": 46,
-     "players": 19,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 17,
-     "wins": 8,
-     "players": 3,
+     "games": 88,
+     "wins": 44,
+     "players": 18,
      "top": 1
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 8,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Freeblade Company",
-   "total": {
-    "games": 114,
-    "wins": 49,
-    "players": 29,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 103,
-     "wins": 43,
-     "players": 20,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 7,
+     "players": 13,
      "top": 0
     },
     "2026-07-22": {
-     "games": 11,
-     "wins": 6,
+     "games": 1,
+     "wins": 0,
      "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Liberator Assault Group",
-   "total": {
-    "games": 104,
-    "wins": 60,
-    "players": 29,
-    "top": 2
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 87,
-     "wins": 50,
-     "players": 16,
-     "top": 2
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 8,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 17,
-     "wins": 10,
-     "players": 5,
      "top": 0
     }
    }
@@ -1725,16 +1626,16 @@
   {
    "name": "Armoured Warhost",
    "total": {
-    "games": 61,
-    "wins": 27,
-    "players": 29,
+    "games": 69,
+    "wins": 30,
+    "players": 33,
     "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 56,
-     "wins": 23,
-     "players": 15,
+     "games": 64,
+     "wins": 26,
+     "players": 19,
      "top": 1
     },
     "2026-08-05": {
@@ -1752,25 +1653,141 @@
    }
   },
   {
-   "name": "More Dakka!",
+   "name": "Banishers",
    "total": {
-    "games": 90,
-    "wins": 54,
-    "players": 28,
+    "games": 93,
+    "wins": 43,
+    "players": 32,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 81,
+     "wins": 40,
+     "players": 19,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 11,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 12,
+     "wins": 3,
+     "players": 2,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Freeblade Company",
+   "total": {
+    "games": 122,
+    "wins": 50,
+    "players": 31,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 111,
+     "wins": 44,
+     "players": 22,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 7,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 11,
+     "wins": 6,
+     "players": 2,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Wrath of the Rock",
+   "total": {
+    "games": 109,
+    "wins": 58,
+    "players": 31,
     "top": 3
    },
    "byweek": {
+    "2026-07-29": {
+     "games": 92,
+     "wins": 50,
+     "players": 20,
+     "top": 2
+    },
+    "2026-07-22": {
+     "games": 17,
+     "wins": 8,
+     "players": 3,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 8,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Liberator Assault Group",
+   "total": {
+    "games": 108,
+    "wins": 61,
+    "players": 31,
+    "top": 4
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 91,
+     "wins": 51,
+     "players": 18,
+     "top": 4
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 8,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 17,
+     "wins": 10,
+     "players": 5,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "More Dakka!",
+   "total": {
+    "games": 98,
+    "wins": 60,
+    "players": 30,
+    "top": 4
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 76,
+     "wins": 45,
+     "players": 14,
+     "top": 3
+    },
     "2026-07-22": {
      "games": 22,
      "wins": 15,
      "players": 4,
      "top": 1
-    },
-    "2026-07-29": {
-     "games": 68,
-     "wins": 39,
-     "players": 12,
-     "top": 2
     },
     "2026-08-05": {
      "games": 0,
@@ -1781,18 +1798,47 @@
    }
   },
   {
+   "name": "Oathband",
+   "total": {
+    "games": 77,
+    "wins": 45,
+    "players": 28,
+    "top": 6
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 65,
+     "wins": 40,
+     "players": 15,
+     "top": 5
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 11,
+     "top": 1
+    },
+    "2026-07-22": {
+     "games": 12,
+     "wins": 5,
+     "players": 2,
+     "top": 0
+    }
+   }
+  },
+  {
    "name": "War Horde",
    "total": {
-    "games": 79,
-    "wins": 39,
-    "players": 26,
+    "games": 84,
+    "wins": 42,
+    "players": 28,
     "top": 4
    },
    "byweek": {
     "2026-07-29": {
-     "games": 79,
-     "wins": 39,
-     "players": 16,
+     "games": 84,
+     "wins": 42,
+     "players": 18,
      "top": 4
     },
     "2026-08-05": {
@@ -1806,6 +1852,35 @@
      "wins": 0,
      "players": 1,
      "top": 0
+    }
+   }
+  },
+  {
+   "name": "Mont\u2019ka",
+   "total": {
+    "games": 86,
+    "wins": 34,
+    "players": 26,
+    "top": 3
+   },
+   "byweek": {
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 7,
+     "top": 0
+    },
+    "2026-07-29": {
+     "games": 79,
+     "wins": 31,
+     "players": 17,
+     "top": 2
+    },
+    "2026-07-22": {
+     "games": 7,
+     "wins": 3,
+     "players": 2,
+     "top": 1
     }
    }
   },
@@ -1833,35 +1908,6 @@
     "2026-07-22": {
      "games": 7,
      "wins": 3,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Oathband",
-   "total": {
-    "games": 68,
-    "wins": 38,
-    "players": 25,
-    "top": 3
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 56,
-     "wins": 33,
-     "players": 12,
-     "top": 2
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 11,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 12,
-     "wins": 5,
      "players": 2,
      "top": 0
     }
@@ -1897,48 +1943,19 @@
    }
   },
   {
-   "name": "Mont\u2019ka",
-   "total": {
-    "games": 81,
-    "wins": 31,
-    "players": 24,
-    "top": 1
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 7,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 74,
-     "wins": 28,
-     "players": 15,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 7,
-     "wins": 3,
-     "players": 2,
-     "top": 1
-    }
-   }
-  },
-  {
    "name": "Cabal of Chaos",
    "total": {
-    "games": 57,
-    "wins": 28,
-    "players": 24,
-    "top": 1
+    "games": 61,
+    "wins": 31,
+    "players": 25,
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
-     "games": 57,
-     "wins": 28,
-     "players": 14,
-     "top": 1
+     "games": 61,
+     "wins": 31,
+     "players": 15,
+     "top": 2
     },
     "2026-07-22": {
      "games": 0,
@@ -1957,10 +1974,10 @@
   {
    "name": "Rubricae Phalanx",
    "total": {
-    "games": 55,
-    "wins": 26,
-    "players": 21,
-    "top": 1
+    "games": 60,
+    "wins": 29,
+    "players": 22,
+    "top": 2
    },
    "byweek": {
     "2026-08-05": {
@@ -1970,55 +1987,26 @@
      "top": 0
     },
     "2026-07-29": {
-     "games": 55,
-     "wins": 26,
-     "players": 12,
-     "top": 1
-    }
-   }
-  },
-  {
-   "name": "Possessed Slaughterband",
-   "total": {
-    "games": 59,
-    "wins": 33,
-    "players": 20,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 51,
-     "wins": 27,
+     "games": 60,
+     "wins": 29,
      "players": 13,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 8,
-     "wins": 6,
-     "players": 2,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 5,
-     "top": 0
+     "top": 2
     }
    }
   },
   {
    "name": "Saga of the Beastslayer",
    "total": {
-    "games": 64,
-    "wins": 29,
-    "players": 19,
+    "games": 69,
+    "wins": 31,
+    "players": 21,
     "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 57,
-     "wins": 25,
-     "players": 11,
+     "games": 62,
+     "wins": 27,
+     "players": 13,
      "top": 0
     },
     "2026-08-05": {
@@ -2036,19 +2024,48 @@
    }
   },
   {
-   "name": "Blood Legion",
+   "name": "Possessed Slaughterband",
    "total": {
-    "games": 41,
-    "wins": 28,
-    "players": 18,
-    "top": 3
+    "games": 59,
+    "wins": 33,
+    "players": 20,
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
-     "games": 41,
-     "wins": 28,
-     "players": 8,
-     "top": 3
+     "games": 51,
+     "wins": 27,
+     "players": 13,
+     "top": 1
+    },
+    "2026-07-22": {
+     "games": 8,
+     "wins": 6,
+     "players": 2,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 5,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Blood Legion",
+   "total": {
+    "games": 46,
+    "wins": 33,
+    "players": 19,
+    "top": 4
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 46,
+     "wins": 33,
+     "players": 9,
+     "top": 4
     },
     "2026-08-05": {
      "games": 0,
@@ -2059,18 +2076,47 @@
    }
   },
   {
+   "name": "Brotherhood Strike",
+   "total": {
+    "games": 44,
+    "wins": 15,
+    "players": 19,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 39,
+     "wins": 11,
+     "players": 9,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 5,
+     "wins": 4,
+     "players": 1,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 9,
+     "top": 0
+    }
+   }
+  },
+  {
    "name": "Hallowed Martyrs",
    "total": {
-    "games": 50,
-    "wins": 26,
-    "players": 18,
+    "games": 55,
+    "wins": 28,
+    "players": 19,
     "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 38,
-     "wins": 19,
-     "players": 8,
+     "games": 43,
+     "wins": 21,
+     "players": 9,
      "top": 1
     },
     "2026-08-05": {
@@ -2083,6 +2129,87 @@
      "games": 12,
      "wins": 7,
      "players": 3,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Khorne Daemonkin",
+   "total": {
+    "games": 83,
+    "wins": 34,
+    "players": 18,
+    "top": 2
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 83,
+     "wins": 34,
+     "players": 16,
+     "top": 2
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 2,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Bringers of Flame",
+   "total": {
+    "games": 49,
+    "wins": 25,
+    "players": 18,
+    "top": 2
+   },
+   "byweek": {
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 6,
+     "top": 0
+    },
+    "2026-07-29": {
+     "games": 44,
+     "wins": 20,
+     "players": 11,
+     "top": 1
+    },
+    "2026-07-22": {
+     "games": 5,
+     "wins": 5,
+     "players": 1,
+     "top": 1
+    }
+   }
+  },
+  {
+   "name": "Cohort Cybernetica",
+   "total": {
+    "games": 49,
+    "wins": 30,
+    "players": 18,
+    "top": 3
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 38,
+     "wins": 23,
+     "players": 7,
+     "top": 2
+    },
+    "2026-07-22": {
+     "games": 11,
+     "wins": 7,
+     "players": 4,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 7,
      "top": 0
     }
    }
@@ -2117,24 +2244,59 @@
    }
   },
   {
-   "name": "Khorne Daemonkin",
+   "name": "Shadow Legion",
    "total": {
-    "games": 80,
-    "wins": 34,
+    "games": 43,
+    "wins": 25,
+    "players": 17,
+    "top": 2
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 42,
+     "wins": 25,
+     "players": 9,
+     "top": 2
+    },
+    "2026-07-22": {
+     "games": 1,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 7,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Stormlance Task Force",
+   "total": {
+    "games": 26,
+    "wins": 13,
     "players": 17,
     "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 80,
-     "wins": 34,
-     "players": 15,
+     "games": 26,
+     "wins": 13,
+     "players": 5,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
      "top": 1
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 2,
+     "players": 11,
      "top": 0
     }
    }
@@ -2169,88 +2331,88 @@
    }
   },
   {
-   "name": "Cohort Cybernetica",
+   "name": "Synaptic Nexus",
    "total": {
-    "games": 44,
-    "wins": 27,
-    "players": 17,
+    "games": 51,
+    "wins": 20,
+    "players": 16,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 45,
+     "wins": 18,
+     "players": 11,
+     "top": 1
+    },
+    "2026-07-22": {
+     "games": 6,
+     "wins": 2,
+     "players": 1,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 4,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Bridgehead Strike",
+   "total": {
+    "games": 40,
+    "wins": 19,
+    "players": 16,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 34,
+     "wins": 16,
+     "players": 9,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 5,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 6,
+     "wins": 3,
+     "players": 2,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Dread Mob",
+   "total": {
+    "games": 64,
+    "wins": 28,
+    "players": 16,
     "top": 2
    },
    "byweek": {
     "2026-07-29": {
-     "games": 33,
-     "wins": 20,
-     "players": 6,
-     "top": 1
+     "games": 53,
+     "wins": 23,
+     "players": 12,
+     "top": 2
     },
     "2026-07-22": {
      "games": 11,
-     "wins": 7,
-     "players": 4,
-     "top": 1
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 7,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Bringers of Flame",
-   "total": {
-    "games": 45,
-    "wins": 23,
-    "players": 16,
-    "top": 2
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 6,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 40,
-     "wins": 18,
-     "players": 9,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 5,
      "wins": 5,
-     "players": 1,
-     "top": 1
-    }
-   }
-  },
-  {
-   "name": "Brotherhood Strike",
-   "total": {
-    "games": 38,
-    "wins": 12,
-    "players": 16,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 33,
-     "wins": 8,
-     "players": 6,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 5,
-     "wins": 4,
-     "players": 1,
+     "players": 2,
      "top": 0
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 9,
+     "players": 2,
      "top": 0
     }
    }
@@ -2285,88 +2447,140 @@
    }
   },
   {
-   "name": "Stormlance Task Force",
+   "name": "Warpforged Cabal",
    "total": {
-    "games": 21,
-    "wins": 11,
-    "players": 16,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-22": {
-     "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 1
-    },
-    "2026-07-29": {
-     "games": 21,
-     "wins": 11,
-     "players": 4,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 11,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Shadow Legion",
-   "total": {
-    "games": 35,
-    "wins": 20,
+    "games": 48,
+    "wins": 25,
     "players": 15,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
      "games": 34,
-     "wins": 20,
-     "players": 7,
+     "wins": 17,
+     "players": 8,
      "top": 0
     },
     "2026-07-22": {
-     "games": 1,
-     "wins": 0,
-     "players": 1,
-     "top": 0
+     "games": 14,
+     "wins": 8,
+     "players": 4,
+     "top": 1
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 7,
+     "players": 3,
      "top": 0
     }
    }
   },
   {
-   "name": "Synaptic Nexus",
+   "name": "Blade of Ultramar",
    "total": {
-    "games": 41,
-    "wins": 16,
+    "games": 44,
+    "wins": 19,
+    "players": 15,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 44,
+     "wins": 19,
+     "players": 9,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 6,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Warpbane Task Force",
+   "total": {
+    "games": 37,
+    "wins": 21,
+    "players": 15,
+    "top": 2
+   },
+   "byweek": {
+    "2026-07-22": {
+     "games": 2,
+     "wins": 1,
+     "players": 2,
+     "top": 0
+    },
+    "2026-07-29": {
+     "games": 34,
+     "wins": 19,
+     "players": 7,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 1,
+     "wins": 1,
+     "players": 6,
+     "top": 1
+    }
+   }
+  },
+  {
+   "name": "Haloscreed Battle Clade",
+   "total": {
+    "games": 35,
+    "wins": 8,
     "players": 14,
     "top": 0
    },
    "byweek": {
     "2026-07-29": {
-     "games": 35,
-     "wins": 14,
-     "players": 9,
+     "games": 30,
+     "wins": 7,
+     "players": 7,
      "top": 0
     },
     "2026-07-22": {
-     "games": 6,
-     "wins": 2,
+     "games": 5,
+     "wins": 1,
      "players": 1,
      "top": 0
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 4,
+     "players": 6,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Crusher Stampede",
+   "total": {
+    "games": 31,
+    "wins": 15,
+    "players": 14,
+    "top": 0
+   },
+   "byweek": {
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 5,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 1,
+     "wins": 0,
+     "players": 2,
+     "top": 0
+    },
+    "2026-07-29": {
+     "games": 30,
+     "wins": 15,
+     "players": 7,
      "top": 0
     }
    }
@@ -2401,112 +2615,25 @@
    }
   },
   {
-   "name": "Bridgehead Strike",
-   "total": {
-    "games": 34,
-    "wins": 18,
-    "players": 14,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 28,
-     "wins": 15,
-     "players": 7,
-     "top": 1
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 5,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 6,
-     "wins": 3,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Warpforged Cabal",
-   "total": {
-    "games": 43,
-    "wins": 23,
-    "players": 14,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 29,
-     "wins": 15,
-     "players": 7,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 14,
-     "wins": 8,
-     "players": 4,
-     "top": 1
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 3,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Dread Mob",
-   "total": {
-    "games": 55,
-    "wins": 25,
-    "players": 14,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 44,
-     "wins": 20,
-     "players": 10,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 11,
-     "wins": 5,
-     "players": 2,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Black Spear Task Force",
    "total": {
     "games": 38,
     "wins": 21,
     "players": 14,
-    "top": 0
+    "top": 2
    },
    "byweek": {
     "2026-07-22": {
      "games": 5,
      "wins": 4,
      "players": 1,
-     "top": 0
+     "top": 1
     },
     "2026-07-29": {
      "games": 33,
      "wins": 17,
      "players": 6,
-     "top": 0
+     "top": 1
     },
     "2026-08-05": {
      "games": 0,
@@ -2517,59 +2644,24 @@
    }
   },
   {
-   "name": "Warpbane Task Force",
+   "name": "Abhuman Auxiliaries and Steel Hammer",
    "total": {
     "games": 32,
-    "wins": 17,
+    "wins": 16,
     "players": 14,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-22": {
-     "games": 2,
-     "wins": 1,
-     "players": 2,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 29,
-     "wins": 15,
-     "players": 6,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 1,
-     "wins": 1,
-     "players": 6,
-     "top": 1
-    }
-   }
-  },
-  {
-   "name": "Haloscreed Battle Clade",
-   "total": {
-    "games": 30,
-    "wins": 7,
-    "players": 13,
     "top": 0
    },
    "byweek": {
     "2026-07-29": {
-     "games": 25,
-     "wins": 6,
-     "players": 6,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 5,
-     "wins": 1,
-     "players": 1,
+     "games": 32,
+     "wins": 16,
+     "players": 7,
      "top": 0
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 6,
+     "players": 7,
      "top": 0
     }
    }
@@ -2593,6 +2685,35 @@
      "games": 0,
      "wins": 0,
      "players": 7,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Grizzled Company",
+   "total": {
+    "games": 44,
+    "wins": 23,
+    "players": 13,
+    "top": 2
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 42,
+     "wins": 21,
+     "players": 8,
+     "top": 2
+    },
+    "2026-07-22": {
+     "games": 2,
+     "wins": 2,
+     "players": 2,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 3,
      "top": 0
     }
    }
@@ -2627,82 +2748,59 @@
    }
   },
   {
-   "name": "Abhuman Auxiliaries and Steel Hammer",
+   "name": "Combined Arms",
    "total": {
-    "games": 27,
-    "wins": 15,
-    "players": 13,
+    "games": 44,
+    "wins": 16,
+    "players": 12,
     "top": 0
    },
    "byweek": {
     "2026-07-29": {
-     "games": 27,
-     "wins": 15,
+     "games": 32,
+     "wins": 9,
      "players": 6,
      "top": 0
     },
+    "2026-07-22": {
+     "games": 12,
+     "wins": 7,
+     "players": 2,
+     "top": 0
+    },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 7,
+     "players": 4,
      "top": 0
     }
    }
   },
   {
-   "name": "Crusher Stampede",
+   "name": "Imperialis Fleet",
    "total": {
-    "games": 25,
+    "games": 33,
     "wins": 14,
     "players": 12,
-    "top": 0
+    "top": 1
    },
    "byweek": {
+    "2026-07-29": {
+     "games": 28,
+     "wins": 10,
+     "players": 6,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 5,
+     "wins": 4,
+     "players": 1,
+     "top": 1
+    },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
      "players": 5,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 1,
-     "wins": 0,
-     "players": 2,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 24,
-     "wins": 14,
-     "players": 5,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Grizzled Company",
-   "total": {
-    "games": 39,
-    "wins": 19,
-    "players": 12,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 37,
-     "wins": 17,
-     "players": 7,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 2,
-     "wins": 2,
-     "players": 2,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 3,
      "top": 0
     }
    }
@@ -2726,6 +2824,29 @@
      "games": 8,
      "wins": 4,
      "players": 3,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 4,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Green Tide",
+   "total": {
+    "games": 39,
+    "wins": 21,
+    "players": 12,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 39,
+     "wins": 21,
+     "players": 8,
      "top": 0
     },
     "2026-08-05": {
@@ -2771,14 +2892,14 @@
     "games": 46,
     "wins": 22,
     "players": 11,
-    "top": 1
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
      "games": 35,
      "wins": 19,
      "players": 7,
-     "top": 1
+     "top": 2
     },
     "2026-08-05": {
      "games": 0,
@@ -2824,19 +2945,48 @@
    }
   },
   {
+   "name": "Questoris Companions",
+   "total": {
+    "games": 30,
+    "wins": 13,
+    "players": 11,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 29,
+     "wins": 13,
+     "players": 6,
+     "top": 1
+    },
+    "2026-07-22": {
+     "games": 1,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 4,
+     "top": 0
+    }
+   }
+  },
+  {
    "name": "Da Big Hunt",
    "total": {
     "games": 43,
     "wins": 28,
     "players": 11,
-    "top": 2
+    "top": 3
    },
    "byweek": {
     "2026-07-29": {
      "games": 37,
      "wins": 25,
      "players": 8,
-     "top": 2
+     "top": 3
     },
     "2026-07-22": {
      "games": 6,
@@ -2858,7 +3008,7 @@
     "games": 23,
     "wins": 11,
     "players": 11,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-08-05": {
@@ -2871,53 +3021,7 @@
      "games": 23,
      "wins": 11,
      "players": 5,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Green Tide",
-   "total": {
-    "games": 34,
-    "wins": 19,
-    "players": 11,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 34,
-     "wins": 19,
-     "players": 7,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 4,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Blade of Ultramar",
-   "total": {
-    "games": 25,
-    "wins": 13,
-    "players": 11,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 25,
-     "wins": 13,
-     "players": 5,
      "top": 1
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 6,
-     "top": 0
     }
    }
   },
@@ -2939,35 +3043,6 @@
     "2026-07-29": {
      "games": 17,
      "wins": 5,
-     "players": 4,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Combined Arms",
-   "total": {
-    "games": 39,
-    "wins": 14,
-    "players": 11,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-22": {
-     "games": 12,
-     "wins": 7,
-     "players": 2,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 27,
-     "wins": 7,
-     "players": 5,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
      "players": 4,
      "top": 0
     }
@@ -3049,30 +3124,53 @@
    }
   },
   {
-   "name": "Imperialis Fleet",
+   "name": "Flyblown Host",
    "total": {
-    "games": 27,
+    "games": 40,
     "wins": 13,
     "players": 10,
     "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 22,
-     "wins": 9,
-     "players": 4,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 5,
-     "wins": 4,
-     "players": 1,
+     "games": 40,
+     "wins": 13,
+     "players": 9,
      "top": 1
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 5,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Seer Council",
+   "total": {
+    "games": 44,
+    "wins": 24,
+    "players": 10,
+    "top": 2
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 39,
+     "wins": 20,
+     "players": 7,
+     "top": 2
+    },
+    "2026-07-22": {
+     "games": 5,
+     "wins": 4,
+     "players": 1,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 2,
      "top": 0
     }
    }
@@ -3083,7 +3181,7 @@
     "games": 10,
     "wins": 8,
     "players": 10,
-    "top": 1
+    "top": 2
    },
    "byweek": {
     "2026-08-05": {
@@ -3096,7 +3194,36 @@
      "games": 10,
      "wins": 8,
      "players": 4,
+     "top": 2
+    }
+   }
+  },
+  {
+   "name": "Tallyband Summoners",
+   "total": {
+    "games": 27,
+    "wins": 13,
+    "players": 10,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 21,
+     "wins": 12,
+     "players": 4,
      "top": 1
+    },
+    "2026-07-22": {
+     "games": 6,
+     "wins": 1,
+     "players": 3,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 3,
+     "top": 0
     }
    }
   },
@@ -3211,24 +3338,24 @@
    }
   },
   {
-   "name": "Flyblown Host",
+   "name": "Companions of Vehemence",
    "total": {
-    "games": 35,
-    "wins": 12,
-    "players": 9,
-    "top": 1
+    "games": 15,
+    "wins": 7,
+    "players": 10,
+    "top": 0
    },
    "byweek": {
     "2026-07-29": {
-     "games": 35,
-     "wins": 12,
-     "players": 8,
-     "top": 1
+     "games": 15,
+     "wins": 7,
+     "players": 5,
+     "top": 0
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 1,
+     "players": 5,
      "top": 0
     }
    }
@@ -3263,59 +3390,24 @@
    }
   },
   {
-   "name": "Questoris Companions",
+   "name": "Hexwarp Thrallband",
    "total": {
-    "games": 20,
-    "wins": 7,
+    "games": 34,
+    "wins": 13,
     "players": 9,
     "top": 0
    },
    "byweek": {
     "2026-07-29": {
-     "games": 19,
-     "wins": 7,
-     "players": 4,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 1,
-     "wins": 0,
-     "players": 1,
+     "games": 34,
+     "wins": 13,
+     "players": 7,
      "top": 0
     },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 4,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Tallyband Summoners",
-   "total": {
-    "games": 22,
-    "wins": 10,
-    "players": 9,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 16,
-     "wins": 9,
-     "players": 3,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 6,
-     "wins": 1,
-     "players": 3,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 3,
+     "players": 2,
      "top": 0
     }
    }
@@ -3344,87 +3436,12 @@
    }
   },
   {
-   "name": "Companions of Vehemence",
-   "total": {
-    "games": 15,
-    "wins": 7,
-    "players": 9,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 15,
-     "wins": 7,
-     "players": 4,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 5,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Seer Council",
-   "total": {
-    "games": 35,
-    "wins": 20,
-    "players": 8,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 30,
-     "wins": 16,
-     "players": 5,
-     "top": 1
-    },
-    "2026-07-22": {
-     "games": 5,
-     "wins": 4,
-     "players": 1,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Hexwarp Thrallband",
-   "total": {
-    "games": 30,
-    "wins": 12,
-    "players": 8,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 30,
-     "wins": 12,
-     "players": 6,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Death Lord\u2019s Chosen and Paragons of Putrescence",
    "total": {
-    "games": 21,
-    "wins": 11,
-    "players": 8,
-    "top": 0
+    "games": 26,
+    "wins": 14,
+    "players": 9,
+    "top": 1
    },
    "byweek": {
     "2026-08-05": {
@@ -3440,10 +3457,62 @@
      "top": 0
     },
     "2026-07-29": {
-     "games": 20,
-     "wins": 10,
+     "games": 25,
+     "wins": 13,
+     "players": 5,
+     "top": 1
+    }
+   }
+  },
+  {
+   "name": "Mortarion\u2019s Hammer and Paragons of Putrescence",
+   "total": {
+    "games": 18,
+    "wins": 6,
+    "players": 8,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 18,
+     "wins": 6,
      "players": 4,
      "top": 0
+    },
+    "2026-07-22": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 3,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Cursed Legion and Hand of the Dynasty",
+   "total": {
+    "games": 27,
+    "wins": 12,
+    "players": 8,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 26,
+     "wins": 11,
+     "players": 6,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 1,
+     "wins": 1,
+     "players": 2,
+     "top": 1
     }
    }
   },
@@ -3466,6 +3535,35 @@
      "games": 0,
      "wins": 0,
      "players": 2,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Ceramite Sentinels",
+   "total": {
+    "games": 16,
+    "wins": 13,
+    "players": 7,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 10,
+     "wins": 8,
+     "players": 2,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 4,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 6,
+     "wins": 5,
+     "players": 1,
      "top": 0
     }
    }
@@ -3494,54 +3592,25 @@
    }
   },
   {
-   "name": "Mortarion\u2019s Hammer and Paragons of Putrescence",
+   "name": "Shamblerot Vectorium",
    "total": {
-    "games": 13,
-    "wins": 5,
+    "games": 10,
+    "wins": 4,
     "players": 7,
     "top": 0
    },
    "byweek": {
-    "2026-07-29": {
-     "games": 13,
-     "wins": 5,
-     "players": 3,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
-     "players": 3,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Cursed Legion and Hand of the Dynasty",
-   "total": {
-    "games": 23,
-    "wins": 10,
-    "players": 7,
-    "top": 1
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 22,
-     "wins": 9,
-     "players": 5,
+     "players": 4,
      "top": 0
     },
-    "2026-07-22": {
-     "games": 1,
-     "wins": 1,
-     "players": 2,
-     "top": 1
+    "2026-07-29": {
+     "games": 10,
+     "wins": 4,
+     "players": 3,
+     "top": 0
     }
    }
   },
@@ -3598,35 +3667,6 @@
    }
   },
   {
-   "name": "Ceramite Sentinels",
-   "total": {
-    "games": 11,
-    "wins": 8,
-    "players": 6,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 4,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 5,
-     "wins": 3,
-     "players": 1,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 6,
-     "wins": 5,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Talons of the Emperor",
    "total": {
     "games": 15,
@@ -3656,23 +3696,29 @@
    }
   },
   {
-   "name": "Shamblerot Vectorium",
+   "name": "Helhunt Lance and Hunting Warpack",
    "total": {
-    "games": 10,
-    "wins": 4,
+    "games": 15,
+    "wins": 8,
     "players": 6,
-    "top": 0
+    "top": 1
    },
    "byweek": {
-    "2026-08-05": {
-     "games": 0,
+    "2026-07-22": {
+     "games": 1,
      "wins": 0,
-     "players": 4,
+     "players": 1,
      "top": 0
     },
     "2026-07-29": {
-     "games": 10,
-     "wins": 4,
+     "games": 14,
+     "wins": 8,
+     "players": 3,
+     "top": 1
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
      "players": 2,
      "top": 0
     }
@@ -3684,14 +3730,14 @@
     "games": 12,
     "wins": 5,
     "players": 6,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
      "games": 12,
      "wins": 5,
      "players": 3,
-     "top": 0
+     "top": 1
     },
     "2026-08-05": {
      "games": 0,
@@ -3921,20 +3967,14 @@
    }
   },
   {
-   "name": "Helhunt Lance and Hunting Warpack",
+   "name": "Auxiliary Cadre",
    "total": {
-    "games": 10,
-    "wins": 5,
+    "games": 6,
+    "wins": 1,
     "players": 5,
     "top": 0
    },
    "byweek": {
-    "2026-07-22": {
-     "games": 1,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
@@ -3942,9 +3982,9 @@
      "top": 0
     },
     "2026-07-29": {
-     "games": 9,
-     "wins": 5,
-     "players": 2,
+     "games": 6,
+     "wins": 1,
+     "players": 3,
      "top": 0
     }
    }
@@ -3967,6 +4007,69 @@
     "2026-07-22": {
      "games": 1,
      "wins": 1,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Questor Forgepact and Spearhead-at-Arms",
+   "total": {
+    "games": 17,
+    "wins": 8,
+    "players": 4,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 17,
+     "wins": 8,
+     "players": 3,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Vanguard Spearhead",
+   "total": {
+    "games": 4,
+    "wins": 0,
+    "players": 4,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 4,
+     "wins": 0,
+     "players": 4,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "1st Company Task Force",
+   "total": {
+    "games": 13,
+    "wins": 4,
+    "players": 4,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 10,
+     "wins": 4,
+     "players": 3,
+     "top": 0
+    },
+    "2026-07-22": {
+     "games": 3,
+     "wins": 0,
      "players": 1,
      "top": 0
     }
@@ -4060,6 +4163,29 @@
      "games": 17,
      "wins": 4,
      "players": 3,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Ironstorm Spearhead",
+   "total": {
+    "games": 0,
+    "wins": 0,
+    "players": 4,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 0,
+     "wins": 0,
+     "players": 2,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 2,
      "top": 0
     }
    }
@@ -4174,23 +4300,46 @@
    }
   },
   {
-   "name": "Auxiliary Cadre",
+   "name": "Vindication Task Force",
    "total": {
-    "games": 6,
-    "wins": 1,
+    "games": 10,
+    "wins": 4,
     "players": 4,
     "top": 0
    },
    "byweek": {
+    "2026-07-29": {
+     "games": 10,
+     "wins": 4,
+     "players": 2,
+     "top": 0
+    },
     "2026-08-05": {
      "games": 0,
      "wins": 0,
      "players": 2,
      "top": 0
-    },
+    }
+   }
+  },
+  {
+   "name": "Changehost of Deceit",
+   "total": {
+    "games": 6,
+    "wins": 2,
+    "players": 4,
+    "top": 0
+   },
+   "byweek": {
     "2026-07-29": {
      "games": 6,
-     "wins": 1,
+     "wins": 2,
+     "players": 2,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
      "players": 2,
      "top": 0
     }
@@ -4256,6 +4405,29 @@
      "wins": 4,
      "players": 2,
      "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "D\u00ealve Assault Shift",
+   "total": {
+    "games": 11,
+    "wins": 7,
+    "players": 3,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 11,
+     "wins": 7,
+     "players": 2,
+     "top": 1
     },
     "2026-08-05": {
      "games": 0,
@@ -4479,29 +4651,6 @@
    }
   },
   {
-   "name": "Ironstorm Spearhead",
-   "total": {
-    "games": 0,
-    "wins": 0,
-    "players": 3,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    },
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Hand of the Dynasty and Pantheon of Woe",
    "total": {
     "games": 5,
@@ -4570,14 +4719,48 @@
     "games": 16,
     "wins": 12,
     "players": 3,
-    "top": 1
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
      "games": 16,
      "wins": 12,
      "players": 3,
-     "top": 1
+     "top": 2
+    }
+   }
+  },
+  {
+   "name": "Champions of Fenris",
+   "total": {
+    "games": 12,
+    "wins": 6,
+    "players": 3,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 12,
+     "wins": 6,
+     "players": 3,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Anvil Siege Force",
+   "total": {
+    "games": 5,
+    "wins": 2,
+    "players": 3,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 5,
+     "wins": 2,
+     "players": 3,
+     "top": 0
     }
    }
   },
@@ -4668,75 +4851,6 @@
    }
   },
   {
-   "name": "Vindication Task Force",
-   "total": {
-    "games": 5,
-    "wins": 2,
-    "players": 3,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 2,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 5,
-     "wins": 2,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Changehost of Deceit",
-   "total": {
-    "games": 1,
-    "wins": 0,
-    "players": 3,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 2,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 1,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Questor Forgepact and Spearhead-at-Arms",
-   "total": {
-    "games": 12,
-    "wins": 6,
-    "players": 3,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    },
-    "2026-07-29": {
-     "games": 12,
-     "wins": 6,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Assimilation\u00a0Swarm, Talons\u00a0of\u00a0the\u00a0Norn\u00a0Queen (Feed the Swarm)",
    "total": {
     "games": 19,
@@ -4754,19 +4868,19 @@
    }
   },
   {
-   "name": "Vanguard Spearhead",
+   "name": "Cursed\u00a0Legion, Skyshroud\u00a0Spearhead (Cold Fervour)",
    "total": {
-    "games": 4,
-    "wins": 0,
+    "games": 9,
+    "wins": 6,
     "players": 2,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
-     "games": 4,
-     "wins": 0,
+     "games": 9,
+     "wins": 6,
      "players": 2,
-     "top": 0
+     "top": 1
     }
    }
   },
@@ -4787,29 +4901,6 @@
     },
     "2026-08-05": {
      "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "1st Company Task Force",
-   "total": {
-    "games": 8,
-    "wins": 1,
-    "players": 2,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 5,
-     "wins": 1,
-     "players": 1,
-     "top": 0
-    },
-    "2026-07-22": {
-     "games": 3,
      "wins": 0,
      "players": 1,
      "top": 0
@@ -5115,6 +5206,29 @@
    }
   },
   {
+   "name": "Forgefather\u2019s Seekers",
+   "total": {
+    "games": 5,
+    "wins": 1,
+    "players": 2,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 5,
+     "wins": 1,
+     "players": 1,
+     "top": 0
+    },
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
    "name": "Bastion\u00a0Task\u00a0Force, Librarius\u00a0Conclave (Interlocking Tactics)",
    "total": {
     "games": 5,
@@ -5167,6 +5281,29 @@
      "games": 11,
      "wins": 7,
      "players": 2,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Corsair Coterie and Path of the Outcast",
+   "total": {
+    "games": 0,
+    "wins": 0,
+    "players": 2,
+    "top": 0
+   },
+   "byweek": {
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    },
+    "2026-07-29": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
      "top": 0
     }
    }
@@ -5252,10 +5389,10 @@
    }
   },
   {
-   "name": "D\u00ealve Assault Shift",
+   "name": "The Angelic Host",
    "total": {
-    "games": 6,
-    "wins": 3,
+    "games": 0,
+    "wins": 0,
     "players": 2,
     "top": 0
    },
@@ -5267,8 +5404,8 @@
      "top": 0
     },
     "2026-07-29": {
-     "games": 6,
-     "wins": 3,
+     "games": 0,
+     "wins": 0,
      "players": 1,
      "top": 0
     }
@@ -5326,23 +5463,6 @@
    }
   },
   {
-   "name": "Champions of Fenris",
-   "total": {
-    "games": 7,
-    "wins": 3,
-    "players": 2,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 7,
-     "wins": 3,
-     "players": 2,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Heroes of the Uprising, Purestrain Broodswarm, and Xenocult Masses",
    "total": {
     "games": 4,
@@ -5367,6 +5487,29 @@
   },
   {
    "name": "Inner Circle Task Force",
+   "total": {
+    "games": 0,
+    "wins": 0,
+    "players": 2,
+    "top": 0
+   },
+   "byweek": {
+    "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    },
+    "2026-07-29": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Vessels of Wrath",
    "total": {
     "games": 0,
     "wins": 0,
@@ -5434,6 +5577,40 @@
     "2026-07-29": {
      "games": 5,
      "wins": 3,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Legends of Saga and Song, Saga of The Beastslayer",
+   "total": {
+    "games": 5,
+    "wins": 0,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 5,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Cryptek Conclave, Hand of The Dynasty",
+   "total": {
+    "games": 5,
+    "wins": 1,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 5,
+     "wins": 1,
      "players": 1,
      "top": 0
     }
@@ -5649,14 +5826,14 @@
     "games": 1,
     "wins": 1,
     "players": 1,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-07-22": {
      "games": 1,
      "wins": 1,
      "players": 1,
-     "top": 0
+     "top": 1
     }
    }
   },
@@ -5674,6 +5851,23 @@
      "wins": 1,
      "players": 1,
      "top": 0
+    }
+   }
+  },
+  {
+   "name": "Veterans of the Long War",
+   "total": {
+    "games": 5,
+    "wins": 3,
+    "players": 1,
+    "top": 1
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 5,
+     "wins": 3,
+     "players": 1,
+     "top": 1
     }
    }
   },
@@ -6103,41 +6297,7 @@
    }
   },
   {
-   "name": "Corsair Coterie and Path of the Outcast",
-   "total": {
-    "games": 0,
-    "wins": 0,
-    "players": 1,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Legends\u00a0of\u00a0Saga\u00a0and\u00a0Song, Saga\u00a0of\u00a0the\u00a0Great\u00a0Wolf (Loping Charge)",
-   "total": {
-    "games": 0,
-    "wins": 0,
-    "players": 1,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Forgefather\u2019s Seekers",
    "total": {
     "games": 0,
     "wins": 0,
@@ -6342,23 +6502,6 @@
   },
   {
    "name": "Might\u00a0of\u00a0the\u00a0Moritoi, Shield\u00a0Host (March of the Honoured Dead)",
-   "total": {
-    "games": 0,
-    "wins": 0,
-    "players": 1,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "The Angelic Host",
    "total": {
     "games": 0,
     "wins": 0,
@@ -6698,23 +6841,6 @@
    }
   },
   {
-   "name": "Vessels of Wrath",
-   "total": {
-    "games": 0,
-    "wins": 0,
-    "players": 1,
-    "top": 0
-   },
-   "byweek": {
-    "2026-08-05": {
-     "games": 0,
-     "wins": 0,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
    "name": "Bringers\u00a0of\u00a0Flame, Sacred\u00a0Champions (Fervent Purgation)",
    "total": {
     "games": 0,
@@ -6741,6 +6867,91 @@
    },
    "byweek": {
     "2026-08-05": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Unending Swarm",
+   "total": {
+    "games": 0,
+    "wins": 0,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Iconoclast\u00a0Fiefdom (Wretched Thralls)",
+   "total": {
+    "games": 0,
+    "wins": 0,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Vessels\u00a0of\u00a0Wrath (Wrath of Khorne)",
+   "total": {
+    "games": 0,
+    "wins": 0,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Champions\u00a0of\u00a0Contagion (Manifold Maladies)",
+   "total": {
+    "games": 0,
+    "wins": 0,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 0,
+     "wins": 0,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
+   "name": "Fellhammer Siege-host",
+   "total": {
+    "games": 0,
+    "wins": 0,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
      "games": 0,
      "wins": 0,
      "players": 1,
@@ -6834,6 +7045,23 @@
    }
   },
   {
+   "name": "Lords\u00a0of\u00a0the\u00a0Forge, Skitarii\u00a0Hunter\u00a0Cohort",
+   "total": {
+    "games": 1,
+    "wins": 1,
+    "players": 1,
+    "top": 0
+   },
+   "byweek": {
+    "2026-07-29": {
+     "games": 1,
+     "wins": 1,
+     "players": 1,
+     "top": 0
+    }
+   }
+  },
+  {
    "name": "Might\u00a0of\u00a0the\u00a0Moritoi, Shield\u00a0Host",
    "total": {
     "games": 5,
@@ -6845,23 +7073,6 @@
     "2026-07-29": {
      "games": 5,
      "wins": 1,
-     "players": 1,
-     "top": 0
-    }
-   }
-  },
-  {
-   "name": "Cursed\u00a0Legion, Skyshroud\u00a0Spearhead (Cold Fervour)",
-   "total": {
-    "games": 4,
-    "wins": 3,
-    "players": 1,
-    "top": 0
-   },
-   "byweek": {
-    "2026-07-29": {
-     "games": 4,
-     "wins": 3,
      "players": 1,
      "top": 0
     }

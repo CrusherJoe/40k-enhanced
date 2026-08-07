@@ -1,0 +1,31 @@
+# Víctor Vadillo | T'au Empire | Disruption | team=None
+# list: https://www.bestcoastpairings.com/list/as03xel9YQKA  status=passed
+
+250 [255 points]
+Tau Empire
+Battle Size: Custom (500 point limit)
+
+Detachments: Auxiliary Cadre, Experimental Prototype Cadre (2/2 Detachment Points)
+Force Dispositions: Disruption, Priority Assets
+
+Character
+
+  Commander In Enforcer Battlesuit (80 points)
+    • Battlesuit fists and Burst cannon
+
+Battleline
+
+  Breacher Team (90 points)
+    • 1 Breacher Fire Warrior Shas’ui with Close combat weapon, Pulse blaster and Pulse pistol
+    • 9 Breacher Fire Warriors with Close combat weapon, Pulse blaster and Pulse pistol
+
+Other
+
+  Pathfinder Team (85 points)
+    • 1 Pathfinder Shas’ui with Close combat weapon, Pulse carbine and Pulse pistol
+    • 9 Pathfinders with Close combat weapon, Pulse carbine and Pulse pistol
+
+Created with WarOrgan (https://warorgan.com)
+
+
+undefined

@@ -1,0 +1,244 @@
+{
+ "event": {
+  "id": "uWOuLe7jXEVF",
+  "name": "York Garrison Wargaming Summer League",
+  "totalPlayers": 26,
+  "eventDate": "2026-07-29T09:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Ben Tilford",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "4bzQLhynNDSn",
+   "listUrl": "https://www.bestcoastpairings.com/list/4bzQLhynNDSn"
+  },
+  {
+   "name": "Anthony Simon",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "3RUSbYcdJ7mY",
+   "listUrl": "https://www.bestcoastpairings.com/list/3RUSbYcdJ7mY"
+  },
+  {
+   "name": "Simon Hardaker",
+   "faction": "Dark Angels",
+   "detachment": "Take and Hold",
+   "team": "Simmos Stabbers",
+   "dropped": false,
+   "listId": "NhW7r4Q1ugqn",
+   "listUrl": "https://www.bestcoastpairings.com/list/NhW7r4Q1ugqn"
+  },
+  {
+   "name": "Sean Wilcox",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "jxkb2hNjddXC",
+   "listUrl": "https://www.bestcoastpairings.com/list/jxkb2hNjddXC"
+  },
+  {
+   "name": "Merlin Oliver",
+   "faction": "Aeldari",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "oZoYAD3LRufn",
+   "listUrl": "https://www.bestcoastpairings.com/list/oZoYAD3LRufn"
+  },
+  {
+   "name": "Barry Beard",
+   "faction": "Blood Angels",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "8F58AWWpBSvG",
+   "listUrl": "https://www.bestcoastpairings.com/list/8F58AWWpBSvG"
+  },
+  {
+   "name": "Nicholas Attwooll",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "Knights of the Rose",
+   "dropped": false,
+   "listId": "Ru5l0JJZwAdQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/Ru5l0JJZwAdQ"
+  },
+  {
+   "name": "Tom Parsons",
+   "faction": "Imperial Agents",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "qgLuxwY6c5h7",
+   "listUrl": "https://www.bestcoastpairings.com/list/qgLuxwY6c5h7"
+  },
+  {
+   "name": "Chris Broome",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "Project Mayhem",
+   "dropped": false,
+   "listId": "IAnbHyMmJevz",
+   "listUrl": "https://www.bestcoastpairings.com/list/IAnbHyMmJevz"
+  },
+  {
+   "name": "Harry Dobson",
+   "faction": "Grey Knights",
+   "detachment": "Purge the Foe",
+   "team": "York Garrison",
+   "dropped": false,
+   "listId": "5iWl5eFIce5P",
+   "listUrl": "https://www.bestcoastpairings.com/list/5iWl5eFIce5P"
+  },
+  {
+   "name": "Dave Kelsall",
+   "faction": "Aeldari",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "SWfymFh5GiWg",
+   "listUrl": "https://www.bestcoastpairings.com/list/SWfymFh5GiWg"
+  },
+  {
+   "name": "James Raymond",
+   "faction": "Space Wolves",
+   "detachment": "Purge the Foe",
+   "team": "York Garrison",
+   "dropped": false,
+   "listId": "Vlqe2jY3r7rC",
+   "listUrl": "https://www.bestcoastpairings.com/list/Vlqe2jY3r7rC"
+  },
+  {
+   "name": "Joe Pearce",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "rdV7gW72iHhn",
+   "listUrl": "https://www.bestcoastpairings.com/list/rdV7gW72iHhn"
+  },
+  {
+   "name": "Harry Taylor",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "2FQiAsisqwA8",
+   "listUrl": "https://www.bestcoastpairings.com/list/2FQiAsisqwA8"
+  },
+  {
+   "name": "Tom Hamshire",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "Comp | Play",
+   "dropped": false,
+   "listId": "ZHv3L7PcONlv",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZHv3L7PcONlv"
+  },
+  {
+   "name": "Shannon Bliss-kelly",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "08bSwyYyleIw",
+   "listUrl": "https://www.bestcoastpairings.com/list/08bSwyYyleIw"
+  },
+  {
+   "name": "Ben Crick",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "22WpGdAVFiej",
+   "listUrl": "https://www.bestcoastpairings.com/list/22WpGdAVFiej"
+  },
+  {
+   "name": "Michael Warrington",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "aVYOKoTVwYWE",
+   "listUrl": "https://www.bestcoastpairings.com/list/aVYOKoTVwYWE"
+  },
+  {
+   "name": "Andrew Roberts",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "w6tPTwQAHB9x",
+   "listUrl": "https://www.bestcoastpairings.com/list/w6tPTwQAHB9x"
+  },
+  {
+   "name": "Ben Croydon",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": "York Garrison",
+   "dropped": false,
+   "listId": "OZ9erJjapCt2",
+   "listUrl": "https://www.bestcoastpairings.com/list/OZ9erJjapCt2"
+  },
+  {
+   "name": "Tom Barker",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "V4TUAuLq9NBg",
+   "listUrl": "https://www.bestcoastpairings.com/list/V4TUAuLq9NBg"
+  },
+  {
+   "name": "paul exley",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "eHfoZOYoQtjq",
+   "listUrl": "https://www.bestcoastpairings.com/list/eHfoZOYoQtjq"
+  },
+  {
+   "name": "Jonathan Sayer",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "fNV6KFRgUBds",
+   "listUrl": "https://www.bestcoastpairings.com/list/fNV6KFRgUBds"
+  },
+  {
+   "name": "Josh Mortimer",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "uneCuUio37JI",
+   "listUrl": "https://www.bestcoastpairings.com/list/uneCuUio37JI"
+  },
+  {
+   "name": "Thomas Williams",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "York Garrison",
+   "dropped": false,
+   "listId": "wHGGK34aRuLq",
+   "listUrl": "https://www.bestcoastpairings.com/list/wHGGK34aRuLq"
+  },
+  {
+   "name": "Adam Gent",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "HT4fEYP27poi",
+   "listUrl": "https://www.bestcoastpairings.com/list/HT4fEYP27poi"
+  }
+ ]
+}

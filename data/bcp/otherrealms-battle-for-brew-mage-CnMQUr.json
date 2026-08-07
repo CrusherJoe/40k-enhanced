@@ -1,0 +1,244 @@
+{
+ "event": {
+  "id": "CnMQUrCeYmwL",
+  "name": "OtherRealms Battle for Brew-mageddon",
+  "totalPlayers": 26,
+  "eventDate": "2026-08-01T18:30:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Jacob Kimsel",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "ZLfs8yehY3tz",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZLfs8yehY3tz"
+  },
+  {
+   "name": "Joshua Kopp",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "The Other Team",
+   "dropped": false,
+   "listId": "Y4iX2uCMs4fr",
+   "listUrl": "https://www.bestcoastpairings.com/list/Y4iX2uCMs4fr"
+  },
+  {
+   "name": "James Lockwood",
+   "faction": "Adeptus Custodes",
+   "detachment": null,
+   "team": "The Other Team",
+   "dropped": false,
+   "listId": "emvPaG4mcWBT",
+   "listUrl": "https://www.bestcoastpairings.com/list/emvPaG4mcWBT"
+  },
+  {
+   "name": "Blake Wiley",
+   "faction": "Leagues of Votann",
+   "detachment": "Disruption",
+   "team": "The Other Team",
+   "dropped": false,
+   "listId": "JgwSN2XnBJzC",
+   "listUrl": "https://www.bestcoastpairings.com/list/JgwSN2XnBJzC"
+  },
+  {
+   "name": "Heath Hooper",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance",
+   "team": "TableWar Hawaii",
+   "dropped": false,
+   "listId": "qWMdNI3p9uFs",
+   "listUrl": "https://www.bestcoastpairings.com/list/qWMdNI3p9uFs"
+  },
+  {
+   "name": "Jacob Hee",
+   "faction": "Aeldari",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "I15FG3aBInKM",
+   "listUrl": "https://www.bestcoastpairings.com/list/I15FG3aBInKM"
+  },
+  {
+   "name": "David Huddleston",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "oWP5oBWA0yRG",
+   "listUrl": "https://www.bestcoastpairings.com/list/oWP5oBWA0yRG"
+  },
+  {
+   "name": "Nicholas Kodama",
+   "faction": "World Eaters",
+   "detachment": "Reconnaissance",
+   "team": "Dank Tank",
+   "dropped": true,
+   "listId": "eduI5nGGfBNE",
+   "listUrl": "https://www.bestcoastpairings.com/list/eduI5nGGfBNE"
+  },
+  {
+   "name": "Kendall Fujita",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Dank Tank",
+   "dropped": false,
+   "listId": "e8g20Y0CHoYk",
+   "listUrl": "https://www.bestcoastpairings.com/list/e8g20Y0CHoYk"
+  },
+  {
+   "name": "Eric Garcia",
+   "faction": "Astra Militarum",
+   "detachment": "Priority Assets",
+   "team": "TableWar Hawaii",
+   "dropped": false,
+   "listId": "6WzfEiD2rZfn",
+   "listUrl": "https://www.bestcoastpairings.com/list/6WzfEiD2rZfn"
+  },
+  {
+   "name": "Matthew Motooka",
+   "faction": "Orks",
+   "detachment": "Disruption",
+   "team": "Dank Tank",
+   "dropped": false,
+   "listId": "rmL3CRkBUdh2",
+   "listUrl": "https://www.bestcoastpairings.com/list/rmL3CRkBUdh2"
+  },
+  {
+   "name": "Grayson Houk",
+   "faction": "Space Marines (Astartes)",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "oIJP62De11EA",
+   "listUrl": "https://www.bestcoastpairings.com/list/oIJP62De11EA"
+  },
+  {
+   "name": "Robert Moreau",
+   "faction": "Emperor's Children",
+   "detachment": null,
+   "team": "TableWar Hawaii",
+   "dropped": false,
+   "listId": "1kJk6lNrxE8k",
+   "listUrl": "https://www.bestcoastpairings.com/list/1kJk6lNrxE8k"
+  },
+  {
+   "name": "Reilly Fish",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "WDNGrUPmKlC8",
+   "listUrl": "https://www.bestcoastpairings.com/list/WDNGrUPmKlC8"
+  },
+  {
+   "name": "Kio Ippolito",
+   "faction": "Chaos Space Marines",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "2Y8pC73GjpER",
+   "listUrl": "https://www.bestcoastpairings.com/list/2Y8pC73GjpER"
+  },
+  {
+   "name": "Ikaika Agard",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": "MISFIT-Group",
+   "dropped": false,
+   "listId": "rzTotGyahz2x",
+   "listUrl": "https://www.bestcoastpairings.com/list/rzTotGyahz2x"
+  },
+  {
+   "name": "Cole Pfeifer",
+   "faction": "Necrons",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "Lv3lYxu7529M",
+   "listUrl": "https://www.bestcoastpairings.com/list/Lv3lYxu7529M"
+  },
+  {
+   "name": "Taven Hathaway",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "AVFN0EpUW5Nh",
+   "listUrl": "https://www.bestcoastpairings.com/list/AVFN0EpUW5Nh"
+  },
+  {
+   "name": "John Range",
+   "faction": "Adeptus Custodes",
+   "detachment": "Disruption",
+   "team": "MISFIT-Group",
+   "dropped": false,
+   "listId": "N4NsoimPYeQx",
+   "listUrl": "https://www.bestcoastpairings.com/list/N4NsoimPYeQx"
+  },
+  {
+   "name": "Daniel Akana",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": "Dank Tank",
+   "dropped": false,
+   "listId": "HfJKvfX3ccG3",
+   "listUrl": "https://www.bestcoastpairings.com/list/HfJKvfX3ccG3"
+  },
+  {
+   "name": "Kyle Chapman",
+   "faction": "Thousand Sons",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "C3nin61TqzAB",
+   "listUrl": "https://www.bestcoastpairings.com/list/C3nin61TqzAB"
+  },
+  {
+   "name": "Alex Mathison",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Heroic Knights",
+   "dropped": false,
+   "listId": "3W0gAI3vxtOT",
+   "listUrl": "https://www.bestcoastpairings.com/list/3W0gAI3vxtOT"
+  },
+  {
+   "name": "Jacob Robertson",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "RHlxQpjZQUnu",
+   "listUrl": "https://www.bestcoastpairings.com/list/RHlxQpjZQUnu"
+  },
+  {
+   "name": "Cole Cook",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "TableWar Hawaii",
+   "dropped": false,
+   "listId": "xL2yGuwW60hd",
+   "listUrl": "https://www.bestcoastpairings.com/list/xL2yGuwW60hd"
+  },
+  {
+   "name": "Daniel Huntsman",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "1wuzgJgcfz6d",
+   "listUrl": "https://www.bestcoastpairings.com/list/1wuzgJgcfz6d"
+  },
+  {
+   "name": "Todd Kinkade",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "TableWar Hawaii",
+   "dropped": false,
+   "listId": "9XWEaFgcCAL5",
+   "listUrl": "https://www.bestcoastpairings.com/list/9XWEaFgcCAL5"
+  }
+ ]
+}

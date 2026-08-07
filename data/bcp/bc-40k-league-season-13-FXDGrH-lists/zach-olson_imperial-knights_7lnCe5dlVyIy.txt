@@ -1,0 +1,31 @@
+# Zach Olson | Imperial Knights | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/7lnCe5dlVyIy  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Spearhead‑at‑Arms (Rain of Devastation)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1970pts
++
++ WARLORD: Char2: Knight Paladin
++ ENHANCEMENT: Blessed Plate (on Char1: Knight Castellan)
+& Mentor's Pride (on Char2: Knight Paladin)
++ NUMBER OF UNITS: 10
++ SECONDARY: - Bring It Down: (8x2) + (2x6) - Assassination: 2 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Knight Castellan (455 pts): Plasma decimator, Titanic feet, 2x Twin meltagun, Volcano lance, 2x Shieldbreaker missile launcher, Twin siegebreaker cannon
+Enhancement: Blessed Plate (+30 pts)
+Char2: 1x Knight Paladin (395 pts): Warlord, Questoris heavy stubber, Rapid-fire battle cannon, Ironstorm missile pod, Questoris heavy stubber, Reaper chainsword
+Enhancement: Mentor's Pride (+20 pts)
+
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Questoris heavy stubber
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Questoris heavy stubber
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Questoris heavy stubber
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Questoris heavy stubber
+
+undefined

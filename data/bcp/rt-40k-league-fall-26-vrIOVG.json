@@ -1,0 +1,226 @@
+{
+ "event": {
+  "id": "vrIOVGd6NzSV",
+  "name": "RT 40K League Fall '26",
+  "totalPlayers": 24,
+  "eventDate": "2026-07-31T22:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Alberto Gomez Garcia",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Bj\u00f8rn Jacobsen",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue 1",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Tomas Sejtved",
+   "faction": "Dark Angels",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Nicolai Zederkof",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Morten Bryld",
+   "faction": "Imperial Knights",
+   "detachment": null,
+   "team": "Drekar",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Jeppe M\u00f8gelmose",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue 1",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Anders Trab",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue Z",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Stu Britannicus",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "THe Juan",
+   "faction": null,
+   "detachment": null,
+   "team": "Drekar",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Peter Herbild",
+   "faction": null,
+   "detachment": null,
+   "team": "Drekar",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Richard Grint",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Daniel Sisden",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Disruption",
+   "team": "Ultramarines",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Thomas Christensen",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "Eriks far og venner",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Janus Boesen Agerbo",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Lasse Jensen",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue Z",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Benjamin Vindahl",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Mads Hjorth M\u00f8ller",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Adam Hollings",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue Z",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Daniel Fragtrup",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue 1",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Martin Vejen Olsen",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Mikkel Schou",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue Z",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Martin Palmus",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue Z",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Lukas Kalcok",
+   "faction": "Necrons",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Markus Borowy",
+   "faction": null,
+   "detachment": null,
+   "team": "Rogue Z",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  }
+ ]
+}

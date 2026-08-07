@@ -1,0 +1,37 @@
+# Kirsten Falzon | Necrons | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/SspOLydEjdHY  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Cursed Legion, Skyshroud Spearhead (Cold Fervour)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ ENHANCEMENT: Mark of the Nekrosor (on Char4: Lokhust Lord)
+& Destroyer Ankh (on Char6: Overlord)
+& Deepening Madness (on Moun8: Lokhust Destroyers)
++ NUMBER OF UNITS: 15
++ SECONDARY: - Bring It Down: (1x2) + (1x4) - Assassination: 8 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x C'tan Shard of the Void Dragon (345 pts): Canoptek tail blades, Spear of the Void Dragon, Voltaic storm
+Char2: 1x Illuminor Szeras (175 pts): Eldritch lance, Impaling legs
+Char4: 1x Lokhust Lord (90 pts): Resurrection orb, Lord's blade (Attached to Lokhust Destroyers )
+Enhancement: Mark of the Nekrosor (+20 pts)
+Char5: 1x Lokhust Lord (70 pts): Resurrection orb, Lord's blade  (Attached to Lokhust Destroyers )
+Char3: 1x Nekrosor Ammentar (185 pts): Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+Char6: 1x Overlord (110 pts): Resurrection orb, Voidscythe (Attached to Lychguard)
+Enhancement: Destroyer Ankh (+20 pts)
+Char7: 1x Skorpekh Lord (90 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester (Skorpekh Destroyers)
+Char8: 1x Skorpekh Lord (90 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester (Skorpekh Destroyers)
+
+1x Canoptek Reanimator (75 pts): 2x Atomiser beam, Reanimator's claws
+6x Lokhust Destroyers (190 pts)
+  Enhancement: Deepening Madness (+20 pts)6 with Close combat weapon, Gauss cannon
+6x Lokhust Destroyers (170 pts): 6 with Close combat weapon, Gauss cannon
+10x Lychguard (160 pts): 10 with Dispersion shield, Hyperphase sword
+3x Ophydian Destroyers (80 pts): 3 with Ophydian hyperphase weapons
+3x Skorpekh Destroyers (85 pts): 3 with Skorpekh hyperphase weapons
+3x Skorpekh Destroyers (85 pts): 3 with Skorpekh hyperphase weapons
+
+undefined

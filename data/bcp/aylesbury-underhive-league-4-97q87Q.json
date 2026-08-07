@@ -1,0 +1,190 @@
+{
+ "event": {
+  "id": "97q87QxyLoAt",
+  "name": "Aylesbury Underhive League 4",
+  "totalPlayers": 20,
+  "eventDate": "2026-08-10T09:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Callum Templeman",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "IqTfpuwcCLRT",
+   "listUrl": "https://www.bestcoastpairings.com/list/IqTfpuwcCLRT"
+  },
+  {
+   "name": "William Taman",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Fire and Dice",
+   "dropped": false,
+   "listId": "H1Mmy2rPitu3",
+   "listUrl": "https://www.bestcoastpairings.com/list/H1Mmy2rPitu3"
+  },
+  {
+   "name": "Alfie Biswell",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "Ml69slOnT7BW",
+   "listUrl": "https://www.bestcoastpairings.com/list/Ml69slOnT7BW"
+  },
+  {
+   "name": "Alex Walton",
+   "faction": "Chaos Space Marines",
+   "detachment": "Purge the Foe",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "7DOeo4817pvH",
+   "listUrl": "https://www.bestcoastpairings.com/list/7DOeo4817pvH"
+  },
+  {
+   "name": "Chris Hall",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "n5vXgHUnJWn8",
+   "listUrl": "https://www.bestcoastpairings.com/list/n5vXgHUnJWn8"
+  },
+  {
+   "name": "Adam Smith",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "eDUaY74LFQpB",
+   "listUrl": "https://www.bestcoastpairings.com/list/eDUaY74LFQpB"
+  },
+  {
+   "name": "David Stanford-Beale",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "dBOfqJ9uJM1b",
+   "listUrl": "https://www.bestcoastpairings.com/list/dBOfqJ9uJM1b"
+  },
+  {
+   "name": "Dan Watkins",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "wCboFrcxdBay",
+   "listUrl": "https://www.bestcoastpairings.com/list/wCboFrcxdBay"
+  },
+  {
+   "name": "Dan Loxton",
+   "faction": "Astra Militarum",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "fxx6ggowjH4i",
+   "listUrl": "https://www.bestcoastpairings.com/list/fxx6ggowjH4i"
+  },
+  {
+   "name": "Bjorn Hills",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "8maXp48R4Bl8",
+   "listUrl": "https://www.bestcoastpairings.com/list/8maXp48R4Bl8"
+  },
+  {
+   "name": "Chris Bowden",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "nOu96wZC9BID",
+   "listUrl": "https://www.bestcoastpairings.com/list/nOu96wZC9BID"
+  },
+  {
+   "name": "Steven Eele",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "C8wDuDOJTYIF",
+   "listUrl": "https://www.bestcoastpairings.com/list/C8wDuDOJTYIF"
+  },
+  {
+   "name": "Callum Godfrey",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "eezFXs3MerHD",
+   "listUrl": "https://www.bestcoastpairings.com/list/eezFXs3MerHD"
+  },
+  {
+   "name": "Rob Crookston",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "az4lQxN2HEmM",
+   "listUrl": "https://www.bestcoastpairings.com/list/az4lQxN2HEmM"
+  },
+  {
+   "name": "Kyle Mayling-brown",
+   "faction": "Black Templars",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "ewFbSRiIeYyH",
+   "listUrl": "https://www.bestcoastpairings.com/list/ewFbSRiIeYyH"
+  },
+  {
+   "name": "David Silvera",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "sAANVvZSw1E9",
+   "listUrl": "https://www.bestcoastpairings.com/list/sAANVvZSw1E9"
+  },
+  {
+   "name": "Beric Garrett",
+   "faction": "Astra Militarum",
+   "detachment": "Priority Assets",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "zGFOGWpPK1r1",
+   "listUrl": "https://www.bestcoastpairings.com/list/zGFOGWpPK1r1"
+  },
+  {
+   "name": "Duncan Denysschen",
+   "faction": "Astra Militarum",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "zj268AsayYuj",
+   "listUrl": "https://www.bestcoastpairings.com/list/zj268AsayYuj"
+  },
+  {
+   "name": "Morton Atkins",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "The Aylesbury Underhive",
+   "dropped": false,
+   "listId": "mum6536e6nFf",
+   "listUrl": "https://www.bestcoastpairings.com/list/mum6536e6nFf"
+  },
+  {
+   "name": "Edward Chantler",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "b9chAnDSfjNl",
+   "listUrl": "https://www.bestcoastpairings.com/list/b9chAnDSfjNl"
+  }
+ ]
+}

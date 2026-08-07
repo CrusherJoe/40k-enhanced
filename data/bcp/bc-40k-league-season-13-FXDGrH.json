@@ -1,0 +1,190 @@
+{
+ "event": {
+  "id": "FXDGrHUNni3M",
+  "name": "BC 40k League Season 13",
+  "totalPlayers": 20,
+  "eventDate": "2026-08-03T17:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Bailey Leatherdale",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance",
+   "team": "Low Rankin family",
+   "dropped": false,
+   "listId": "V7vKOim00teQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/V7vKOim00teQ"
+  },
+  {
+   "name": "Jon McAfee",
+   "faction": "Necrons",
+   "detachment": "Priority Assets",
+   "team": "Low Rankin family",
+   "dropped": false,
+   "listId": "5eYGq78rYozF",
+   "listUrl": "https://www.bestcoastpairings.com/list/5eYGq78rYozF"
+  },
+  {
+   "name": "Mike Fetterly",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "Z0YUAvSWlIt0",
+   "listUrl": "https://www.bestcoastpairings.com/list/Z0YUAvSWlIt0"
+  },
+  {
+   "name": "AJ McBlain",
+   "faction": "T'au Empire",
+   "detachment": "Reconnaissance",
+   "team": "Low Rankin family",
+   "dropped": false,
+   "listId": "Uon0lCu01w1b",
+   "listUrl": "https://www.bestcoastpairings.com/list/Uon0lCu01w1b"
+  },
+  {
+   "name": "Geoff McDonald",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "ZaJCgz9qL7o0",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZaJCgz9qL7o0"
+  },
+  {
+   "name": "Adam Ferch",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "Low Rankin family",
+   "dropped": false,
+   "listId": "ibltp97R5vIA",
+   "listUrl": "https://www.bestcoastpairings.com/list/ibltp97R5vIA"
+  },
+  {
+   "name": "Dayton Babcock",
+   "faction": "Chaos Daemons",
+   "detachment": null,
+   "team": "Low Rankin family",
+   "dropped": false,
+   "listId": "FiLpreBlt5br",
+   "listUrl": "https://www.bestcoastpairings.com/list/FiLpreBlt5br"
+  },
+  {
+   "name": "Monty Arnott",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "6PAPZMMFJq4U",
+   "listUrl": "https://www.bestcoastpairings.com/list/6PAPZMMFJq4U"
+  },
+  {
+   "name": "Elliott Bricker",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "OiIvavvI0W6f",
+   "listUrl": "https://www.bestcoastpairings.com/list/OiIvavvI0W6f"
+  },
+  {
+   "name": "Nicholas Schemenauer",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "Cariboo Designs and laser",
+   "dropped": false,
+   "listId": "9rPocFaWUIcV",
+   "listUrl": "https://www.bestcoastpairings.com/list/9rPocFaWUIcV"
+  },
+  {
+   "name": "Denis Artukovic",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": "Watermelon junkies",
+   "dropped": false,
+   "listId": "Bryv3eTGqTgx",
+   "listUrl": "https://www.bestcoastpairings.com/list/Bryv3eTGqTgx"
+  },
+  {
+   "name": "Michael Johnson",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "LKOXhojoGHjf",
+   "listUrl": "https://www.bestcoastpairings.com/list/LKOXhojoGHjf"
+  },
+  {
+   "name": "Ian Parkinson",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "xAdFWFq9nPTL",
+   "listUrl": "https://www.bestcoastpairings.com/list/xAdFWFq9nPTL"
+  },
+  {
+   "name": "Shawn Beck",
+   "faction": "Adepta Sororitas",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "qqQrCCkUQ00g",
+   "listUrl": "https://www.bestcoastpairings.com/list/qqQrCCkUQ00g"
+  },
+  {
+   "name": "Zach Olson",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "7lnCe5dlVyIy",
+   "listUrl": "https://www.bestcoastpairings.com/list/7lnCe5dlVyIy"
+  },
+  {
+   "name": "David Hill-Tout",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "LEFM99FB7H61",
+   "listUrl": "https://www.bestcoastpairings.com/list/LEFM99FB7H61"
+  },
+  {
+   "name": "Saul Reid",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "umFpSgJG8bzE",
+   "listUrl": "https://www.bestcoastpairings.com/list/umFpSgJG8bzE"
+  },
+  {
+   "name": "Dalton Currie",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "g2nY5HN4Ma5l",
+   "listUrl": "https://www.bestcoastpairings.com/list/g2nY5HN4Ma5l"
+  },
+  {
+   "name": "Shaun Goyer",
+   "faction": "Necrons",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "m89XB7uOCrLq",
+   "listUrl": "https://www.bestcoastpairings.com/list/m89XB7uOCrLq"
+  },
+  {
+   "name": "Kurt Kupser",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "A Few Sprues Loose",
+   "dropped": false,
+   "listId": "QRpYnrFz35LV",
+   "listUrl": "https://www.bestcoastpairings.com/list/QRpYnrFz35LV"
+  }
+ ]
+}

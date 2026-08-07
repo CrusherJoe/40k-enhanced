@@ -1,0 +1,52 @@
+# Berke OZCAN | Space Marines (Astartes) | Disruption | team=None
+# list: https://www.bestcoastpairings.com/list/IEzMvc5PICOv  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Raven Guard
++ DETACHMENT: Shadowmark Talon, Subversion Assets (Masters of Shadow)
++ FORCE DISPOSITION: Disruption
++ TOTAL ARMY POINTS: 2000pts
++
++ ENHANCEMENT: Hunter's Instincts (on Char3: Captain with Jump Pack)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (1x2) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Aethon Shaan (100 pts): Claws of Severax, Heavy Bolt Pistol
+Char3: 1x Captain with Jump Pack (100 pts): Relic Shield, Thunder Hammer (attached to vanguard veterans)
+Enhancement: Hunter's Instincts (+25 pts)
+Char2: 1x Kayvaan Shrike (100 pts): Blackout, The Raven's Talons (attached to vanguard veterans)
+
+5x Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant: Bolt pistol, Astartes grenade launcher, Bolt Rifle, Power fist
+• 4x Intercessor: 4 with Bolt pistol, Bolt Rifle, Close combat weapon
+
+6x Centurion Devastator Squad (380 pts)
+• 5x Devastator Centurion: 5 with Centurion Fists, Centurion missile launcher, Twin lascannon
+• 1x Devastator Centurion Sergeant: Centurion Fists, Centurion missile launcher, Twin lascannon
+6x Inceptor Squad (250 pts)
+• 5x Inceptor: 5 with Close combat weapon, Plasma Exterminators
+• 1x Inceptor Sergeant: Close combat weapon, Plasma Exterminators
+6x Inceptor Squad (250 pts)
+• 5x Inceptor: 5 with Close combat weapon, Assault Bolters
+• 1x Inceptor Sergeant: Close combat weapon, Assault Bolters
+5x Incursor Squad (85 pts)
+• 4x Incursor: 4 with Bolt pistol, Occulus Bolt Carbine, Paired Combat Blades
+• 1x Incursor Sergeant: Bolt pistol, Occulus Bolt Carbine, Paired Combat Blades
+1x Land Speeder (105 pts): Close combat weapon, Multi-melta, Stormfury Missile Launcher, Onslaught gatling cannon
+5x Scout Squad (65 pts)
+• 1x Scout Sergeant: Bolt pistol, Close combat weapon, Astartes Chainsword
+• 1x Scout: Bolt pistol, Close combat weapon, Scout Sniper Rifle
+• 3x Scouts: 3 with Bolt pistol, Boltgun, Close combat weapon
+5x Scout Squad (65 pts)
+• 1x Scout Sergeant: Bolt pistol, Close combat weapon, Astartes Chainsword
+• 1x Scout: Bolt pistol, Close combat weapon, Scout Sniper Rifle
+• 3x Scouts: 3 with Bolt pistol, Boltgun, Close combat weapon
+10x Vanguard Veteran Squad with Jump Packs (210 pts)
+• 1x Vanguard Veteran Sergeant with Jump Pack: Vanguard Veteran Weapon, Inferno Pistol
+• 9x Vanguard Veterans with Jump Packs: 9 with Vanguard Veteran Weapon, Inferno Pistol
+10x Vanguard Veteran Squad with Jump Packs (210 pts)
+• 1x Vanguard Veteran Sergeant with Jump Pack: Vanguard Veteran Weapon, Inferno Pistol
+• 9x Vanguard Veterans with Jump Packs: 9 with Vanguard Veteran Weapon, Inferno Pistol
+
+undefined

@@ -1,0 +1,226 @@
+{
+ "event": {
+  "id": "XDSJ5fgAMi2w",
+  "name": "Liga - Escalada al Inmaterium",
+  "totalPlayers": 24,
+  "eventDate": "2026-08-03T08:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Juanfran Lara",
+   "faction": "Aeldari",
+   "detachment": "Priority Assets",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "nfrOYWcC9kup",
+   "listUrl": "https://www.bestcoastpairings.com/list/nfrOYWcC9kup"
+  },
+  {
+   "name": "Pau Oliver",
+   "faction": "World Eaters",
+   "detachment": "Take and Hold",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "wMVwy2I0jj1r",
+   "listUrl": "https://www.bestcoastpairings.com/list/wMVwy2I0jj1r"
+  },
+  {
+   "name": "Miguel Pacheco Catalan",
+   "faction": "Dark Angels",
+   "detachment": "Take and Hold",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "6yYoQtXqiM8i",
+   "listUrl": "https://www.bestcoastpairings.com/list/6yYoQtXqiM8i"
+  },
+  {
+   "name": "V\u00edctor Vadillo",
+   "faction": "T'au Empire",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "as03xel9YQKA",
+   "listUrl": "https://www.bestcoastpairings.com/list/as03xel9YQKA"
+  },
+  {
+   "name": "Miquel Kandooterio",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "peLU1TVbprPu",
+   "listUrl": "https://www.bestcoastpairings.com/list/peLU1TVbprPu"
+  },
+  {
+   "name": "toni Marroig",
+   "faction": "Drukhari",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "ptNIUIMl7tZ5",
+   "listUrl": "https://www.bestcoastpairings.com/list/ptNIUIMl7tZ5"
+  },
+  {
+   "name": "Toni Domingo",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "stQddA2PZHFf",
+   "listUrl": "https://www.bestcoastpairings.com/list/stQddA2PZHFf"
+  },
+  {
+   "name": "Javier Nieto Leal",
+   "faction": "Space Wolves",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "GeRMv86glgRi",
+   "listUrl": "https://www.bestcoastpairings.com/list/GeRMv86glgRi"
+  },
+  {
+   "name": "Santi Leiva",
+   "faction": "Chaos Space Marines",
+   "detachment": "Take and Hold",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "PY1XQrJ1ex6e",
+   "listUrl": "https://www.bestcoastpairings.com/list/PY1XQrJ1ex6e"
+  },
+  {
+   "name": "Manuel Alonso",
+   "faction": "Black Templars",
+   "detachment": null,
+   "team": "Chicken Wars Team",
+   "dropped": false,
+   "listId": "tcLTMYbwuCUT",
+   "listUrl": "https://www.bestcoastpairings.com/list/tcLTMYbwuCUT"
+  },
+  {
+   "name": "Kevin Maymo",
+   "faction": "Death Guard",
+   "detachment": "Disruption",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "4UFTQLsYnokX",
+   "listUrl": "https://www.bestcoastpairings.com/list/4UFTQLsYnokX"
+  },
+  {
+   "name": "Ivan  Solis",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "MFQhXfyD17Ml",
+   "listUrl": "https://www.bestcoastpairings.com/list/MFQhXfyD17Ml"
+  },
+  {
+   "name": "Esteban Salmer\u00f3n",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "5fFcSdbH6dBb",
+   "listUrl": "https://www.bestcoastpairings.com/list/5fFcSdbH6dBb"
+  },
+  {
+   "name": "Javier Borras",
+   "faction": "World Eaters",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "ZSjuFvKCXrQB",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZSjuFvKCXrQB"
+  },
+  {
+   "name": "Eduard Porto",
+   "faction": "Chaos Knights",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "7rsW7TJfsiDS",
+   "listUrl": "https://www.bestcoastpairings.com/list/7rsW7TJfsiDS"
+  },
+  {
+   "name": "Pedro Segu\u00ed",
+   "faction": "Black Templars",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "UzaLxrrurFF2",
+   "listUrl": "https://www.bestcoastpairings.com/list/UzaLxrrurFF2"
+  },
+  {
+   "name": "Antonio  Terron",
+   "faction": "Tyranids",
+   "detachment": null,
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "CD5Bxthh9Vvw",
+   "listUrl": "https://www.bestcoastpairings.com/list/CD5Bxthh9Vvw"
+  },
+  {
+   "name": "Damia Ps",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "qpOu7sspf7W7",
+   "listUrl": "https://www.bestcoastpairings.com/list/qpOu7sspf7W7"
+  },
+  {
+   "name": "Salvador Monedero",
+   "faction": "Dark Angels",
+   "detachment": "Purge the Foe",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "zp9ctGFbY9KD",
+   "listUrl": "https://www.bestcoastpairings.com/list/zp9ctGFbY9KD"
+  },
+  {
+   "name": "Juan Rodr\u00edguez",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "VNUVf17lYHV1",
+   "listUrl": "https://www.bestcoastpairings.com/list/VNUVf17lYHV1"
+  },
+  {
+   "name": "Marc Corcoles",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "VcqALwOZN9T4",
+   "listUrl": "https://www.bestcoastpairings.com/list/VcqALwOZN9T4"
+  },
+  {
+   "name": "ivan vico arcas",
+   "faction": null,
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "xv3TidSaMFjI",
+   "listUrl": "https://www.bestcoastpairings.com/list/xv3TidSaMFjI"
+  },
+  {
+   "name": "Tomeu Pascual Gomila",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Legio Inmaterium Balear (LIB)",
+   "dropped": false,
+   "listId": "SEKyiI7mQcMh",
+   "listUrl": "https://www.bestcoastpairings.com/list/SEKyiI7mQcMh"
+  },
+  {
+   "name": "Fernando Rodr\u00edguez",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "AugDEuelsgeB",
+   "listUrl": "https://www.bestcoastpairings.com/list/AugDEuelsgeB"
+  }
+ ]
+}

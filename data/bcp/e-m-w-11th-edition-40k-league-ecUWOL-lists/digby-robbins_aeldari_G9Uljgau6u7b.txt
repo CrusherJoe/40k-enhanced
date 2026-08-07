@@ -1,0 +1,62 @@
+# Digby Robbins | Aeldari | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/G9Uljgau6u7b  status=passed
+
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Aeldari
++ DETACHMENT: Seer Council, Twilight Flickers (Strands of Fate)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Eldrad Ulthran
++ ENHANCEMENT: Prelude Performer (on Char6: Troupe Master)
+& Torc of Morai-Heg (on Char7: Warlock)
++ NUMBER OF UNITS: 23
++ SECONDARY: - Bring It Down: (4x2) - Assassination: 7 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char4: 1x Autarch (75 pts): Star Glaive, Dragon Fusion Gun
+Char1: 1x Eldrad Ulthran (130 pts): Warlord, Mind War, Shuriken Pistol, Staff of Ulthamar and witchblade
+Char5: 1x Farseer Skyrunner (60 pts): Eldritch Storm, Shuriken Pistol, Twin Shuriken Catapult, Singing Spear
+Char2: 1x Fuegan (130 pts): Searsong, The Fire Axe
+Char3: 1x Kharseth (85 pts): Dread of the Deep Void, Waystave
+Char6: 1x Troupe Master (95 pts): Troupe Master's Blade, Fusion Pistol
+Enhancement: Prelude Performer (+20 pts)
+Char7: 1x Warlock (65 pts): Destructor, Shuriken Pistol, Singing Spear
+Enhancement: Torc of Morai-Heg (+20 pts)
+
+11x Guardian Defenders (90 pts)
+• 10x Guardian Defender: 10 with Close Combat Weapon, Shuriken Catapult
+• 1x Heavy Weapon Platform: Close Combat Weapon, Bright Lance
+
+1x Falcon (130 pts): Pulse Laser, Wraithbone hull, Shuriken Cannon, Twin Shuriken Catapult
+5x Fire Dragons (120 pts): Aspect Shrine Token
+• 1x Fire Dragon Exarch: Close combat weapon, Exarch's Dragon Fusion Gun
+• 4x Fire Dragon: 4 with Close combat weapon, Dragon Fusion Gun
+5x Howling Banshees (85 pts): Aspect Shrine Token
+• 1x Howling Banshee Exarch: Executioner, Shuriken Pistol
+• 4x Howling Banshee: 4 with Banshee Blade, Shuriken Pistol
+5x Rangers (60 pts): 5 with Close Combat Weapon, Long rifle, Shuriken Pistol
+5x Rangers (60 pts): 5 with Close Combat Weapon, Long rifle, Shuriken Pistol
+3x Shining Spears (100 pts)
+• 1x Shining Spear Exarch: Twin Shuriken Catapult, Laser Lance
+• 2x Shining Spear: 2 with Laser Lance, Twin Shuriken Catapult
+1x Starweaver (70 pts): Close Combat Weapon, 2x Shuriken Cannon
+5x Striking Scorpions (75 pts): Aspect Shrine Token
+• 1x Striking Scorpion Exarch: Scorpion chainsword, Scorpion's claw, Shuriken pistol
+• 4x Striking Scorpion: 4 with Scorpion chainsword, Shuriken pistol
+5x Troupe (85 pts)
+• 1x Lead Player: Power sword, Fusion Pistol
+• 1x Player with Harlequin's Special Weapon: Harlequin's Special Weapon, Shuriken Pistol
+• 2x Player with Neuro Disruptor: 2 with Neuro Disruptor, Harlequin's Special Weapon
+• 1x Player with Fusion Pistol: Fusion Pistol, Harlequin's Special Weapon
+1x Vypers (75 pts): Wraithbone hull, Bright Lance, Missile Launcher
+1x Vypers (75 pts): Wraithbone hull, Bright Lance, Missile Launcher
+4x Warlock Conclave (120 pts): 4 with Destructor, Shuriken Pistol, Singing Spear
+1x Warlock Skyrunners (55 pts): Destructor, Shuriken Pistol, Singing Spear, Twin Shuriken Catapult
+1x Warlock Skyrunners (55 pts): Destructor, Shuriken Pistol, Singing Spear, Twin Shuriken Catapult
+5x Warp Spiders (105 pts): Aspect Shrine Token
+• 1x Warp Spider Exarch: Close Combat Weapon, 1 Powerblade array
+• 4x Warp Spider: 4 with Close Combat Weapon, Death spinner
+
+undefined

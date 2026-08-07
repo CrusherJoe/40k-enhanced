@@ -1,0 +1,41 @@
+# oliver Osborne | Dark Angels | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/cPdUvXHBqpB6  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Dark Angels
++ DETACHMENT: Gladius Task Force (Combat Doctrines)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1985pts
++
++ WARLORD: Char2: Lion El'Jonson
++ ENHANCEMENT: The Honour Vehement (on Char3: Chaplain)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (3x2) + (1x6) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Azrael (140 pts): Lion's Wrath, The Sword of Secrets
+Char3: 1x Chaplain (75 pts): Absolvor bolt pistol, Crozius arcanum
+Enhancement: The Honour Vehement (+15 pts)
+Char2: 1x Lion El'Jonson (265 pts): Warlord, Arma Luminis, Fealty
+
+10x Intercessor Squad (150 pts)
+• 1x Intercessor Sergeant: Bolt pistol, Bolt Rifle, Close combat weapon
+• 9x Intercessor: 9 with Bolt pistol, Bolt Rifle, Close combat weapon
+10x Tactical Squad (140 pts)
+• 9x Tactical Marine: 9 with Bolt pistol, Boltgun, Close combat weapon
+• 1x Tactical Marine Sergeant: Close combat weapon, Bolt pistol, Boltgun
+
+3x Bladeguard Veteran Squad (80 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Heavy Bolt Pistol
+• 2x Bladeguard Veterans: 2 with Heavy Bolt Pistol, Master-crafted power weapon
+Char4: 1x Cerastus Knight Lancer (415 pts): Cerastus shock lance
+5x Hellblaster Squad (110 pts)
+• 4x Hellblaster: 4 with Bolt pistol, Close combat weapon, Plasma Incinerator
+• 1x Hellblaster Sergeant: Close combat weapon, Plasma Incinerator, Bolt pistol
+6x Inner Circle Companions (160 pts): 6 with Calibanite Greatsword, Heavy Bolt Pistol
+1x Invader ATV (60 pts): Bolt pistol, Close combat weapon, Twin bolt rifle, Onslaught gatling cannon
+1x Invader ATV (60 pts): Bolt pistol, Close combat weapon, Twin bolt rifle, Onslaught gatling cannon
+1x Predator Annihilator (135 pts): Armoured Tracks, Predator Twin Lascannon
+1x Redemptor Dreadnought (195 pts): Redemptor Fist, Heavy Onslaught Gatling Cannon, Heavy Flamer, Twin Fragstorm Grenade Launcher
+
+undefined

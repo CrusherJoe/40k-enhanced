@@ -1,0 +1,40 @@
+# Davide Rubino | Necrons | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/SZRFk0Mbd58e  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Cursed Legion, Hand of the Dynasty (Cold Fervour)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: Imotekh the Stormlord
++ ENHANCEMENT: Destroyer Ankh (on Char3: Overlord with Translocation Shroud)
+& Murdermind (on Char7: Technomancer)
++ NUMBER OF UNITS: 18
++ SECONDARY: - Bring It Down: (2x2) - Assassination: 7 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Imotekh the Stormlord (100 pts): Warlord, Gauntlet of Fire, Staff of the Destroyer
+Char2: 1x Lokhust Lord (70 pts): Resurrection orb, Lord's blade
+Char3: 1x Overlord with Translocation Shroud (110 pts): Resurrection orb, Overlord's blade
+Enhancement: Destroyer Ankh (+20 pts)
+Char4: 1x Royal Warden (50 pts): Close combat weapon, Relic gauss blaster
+Char5: 1x Skorpekh Lord (90 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Char6: 1x Skorpekh Lord (90 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Char7: 1x Technomancer (95 pts): Staff of light
+Enhancement: Murdermind (+15 pts)
+
+10x Immortals (140 pts): 10 with Close combat weapon, Gauss blaster
+
+1x Canoptek Reanimator (75 pts): 2x Atomiser beam, Reanimator's claws
+6x Canoptek Wraiths (220 pts): 6 with Transdimensional beamer, Vicious claws
+5x Deathmarks (60 pts): 5 with Close combat weapon, Synaptic disintegrator
+1x Doomsday Ark (210 pts): Armoured bulk, Doomsday cannon, 2x Gauss flayer array
+5x Flayed Ones (55 pts): 5 with Flayer claws
+5x Flayed Ones (55 pts): 5 with Flayer claws
+3x Lokhust Heavy Destroyers (160 pts): 3 with Close combat weapon, Gauss destructor
+10x Lychguard (160 pts): 10 with Dispersion shield, Hyperphase sword
+6x Skorpekh Destroyers (170 pts): 2x Plasmacyte, 6 with Skorpekh hyperphase weapons
+3x Skorpekh Destroyers (85 pts): Plasmacyte, 3 with Skorpekh hyperphase weapons
+
+undefined

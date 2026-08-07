@@ -1,0 +1,239 @@
+# Ross Darbishire | T'au Empire | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/4kPGPT9URkm7  status=passed
+
+Kauyon EPC (2000 Points)
+
+T'au Empire
+Experimental Prototype Cadre and Kauyon (3 Detachment Points)
+Force Dispositions: Priority Assets, Reconnaissance
+Strike Force (2,000 Points)
+
+CHARACTERS
+
+Cadre Fireblade (80 Points)
+    • Leading: Strike Team
+    • 1x Close combat weapon
+    • 1x Fireblade pulse rifle
+    • 2x Shield Drone
+    • Enhancement: Through Unity, Devastation
+
+Commander Farsight (70 Points)
+    • Leading: Crisis Sunforge Battlesuits
+    • 1x Dawn Blade
+    • 1x High-intensity plasma rifle
+
+Commander in Coldstar Battlesuit (115 Points)
+    • Leading: Crisis Fireknife Battlesuits
+    • 1x Battlesuit fists
+    • 1x Cyclic ion blaster
+    • 1x Fusion blaster
+    • 2x Gun Drone
+    • 1x High-output burst cannon
+    • 1x Plasma rifle
+    • Enhancement: Plasma Accelerator Rifle
+
+Commander in Coldstar Battlesuit (115 Points)
+    • Leading: Crisis Sunforge Battlesuits
+    • 1x Battlesuit fists
+    • 4x Fusion blaster
+    • 2x Gun Drone
+    • Enhancement: Solid-image Projection Unit
+
+Commander in Enforcer Battlesuit (80 Points)
+    • Leading: Crisis Starscythe Battlesuits
+    • 1x Battlesuit fists
+    • 1x Cyclic ion blaster
+    • 2x Gun Drone
+    • 3x Missile pod
+
+Commander in Enforcer Battlesuit (80 Points)
+    • Leading: Crisis Starscythe Battlesuits
+    • 1x Battlesuit fists
+    • 2x Gun Drone
+    • 4x T'au flamer
+
+Commander Shadowsun (100 Points)
+    • Warlord
+    • 1x Advanced Guardian Drone
+    • 1x Battlesuit fists
+    • 1x Command-link Drone (Aura)
+    • 1x Flechette launcher
+    • 2x High-energy fusion blaster
+    • 1x Light missile pod
+    • 1x Pulse pistol
+
+The Twin Lance (220 Points)
+    • 1x Ri'Lantar
+        ◦ 1x Fusion eliminator
+        ◦ 1x MV15 Gun Drone
+        ◦ 1x Shardstorm burst system
+        ◦ 1x XV pulse pistol
+    • 1x Ri'Locai
+        ◦ 1x Ion scattercannon
+        ◦ 1x MV15 Gun Drone
+        ◦ 1x Shardstorm burst system
+        ◦ 1x XV pulse pistol
+
+BATTLELINE
+
+Strike Team (70 Points)
+    • Leader: Cadre Fireblade
+    • 1x Support turret
+    • 1x Fire Warrior Shas'ui
+        ◦ 1x Close combat weapon
+        ◦ 1x Guardian Drone
+        ◦ 1x Gun Drone
+        ◦ 1x Pulse pistol
+        ◦ 1x Pulse rifle
+    • 9x Fire Warrior
+        ◦ 9x Close combat weapon
+        ◦ 9x Pulse pistol
+        ◦ 9x Pulse rifle
+
+DEDICATED TRANSPORTS
+
+Devilfish (75 Points)
+    • 1x Accelerator burst cannon
+    • 1x Armoured hull
+    • 1x Seeker missile
+    • 2x Twin pulse carbine
+
+OTHER DATASHEETS
+
+Crisis Fireknife Battlesuits (130 Points)
+    • Leader: Commander in Coldstar Battlesuit
+    • 1x Crisis Fireknife Shas'vre
+        ◦ 1x Battlesuit fists
+        ◦ 1x Gun Drone
+        ◦ 1x Missile pod
+        ◦ 1x Missile pod
+        ◦ 1x Shield Drone
+    • 2x Crisis Fireknife Shas'ui
+        ◦ 2x Battlesuit fists
+        ◦ 2x Gun Drone
+        ◦ 4x Missile pod
+        ◦ 2x Shield Drone
+
+Crisis Starscythe Battlesuits (90 Points)
+    • Leader: Commander in Enforcer Battlesuit
+    • 1x Crisis Starscythe Shas'vre
+        ◦ 1x Battlesuit fists
+        ◦ 1x Burst cannon
+        ◦ 1x Burst cannon
+        ◦ 1x Gun Drone
+        ◦ 1x Shield Drone
+    • 2x Crisis Starscythe Shas'ui
+        ◦ 2x Battlesuit fists
+        ◦ 4x Burst cannon
+        ◦ 2x Gun Drone
+        ◦ 2x Shield Drone
+
+Crisis Starscythe Battlesuits (90 Points)
+    • Leader: Commander in Enforcer Battlesuit
+    • 1x Crisis Starscythe Shas'vre
+        ◦ 1x Battlesuit fists
+        ◦ 1x Burst cannon
+        ◦ 1x Burst cannon
+        ◦ 1x Gun Drone
+        ◦ 1x Shield Drone
+    • 2x Crisis Starscythe Shas'ui
+        ◦ 2x Battlesuit fists
+        ◦ 4x Burst cannon
+        ◦ 2x Gun Drone
+        ◦ 2x Shield Drone
+
+Crisis Sunforge Battlesuits (125 Points)
+    • Leader: Commander Farsight
+    • 1x Crisis Sunforge Shas'vre
+        ◦ 1x Battlesuit fists
+        ◦ 2x Fusion blaster
+        ◦ 1x Gun Drone
+        ◦ 1x Shield Drone
+    • 2x Crisis Sunforge Shas'ui
+        ◦ 2x Battlesuit fists
+        ◦ 4x Fusion blaster
+        ◦ 2x Gun Drone
+        ◦ 2x Shield Drone
+
+Crisis Sunforge Battlesuits (125 Points)
+    • Leader: Commander in Coldstar Battlesuit
+    • 1x Crisis Sunforge Shas'vre
+        ◦ 1x Battlesuit fists
+        ◦ 2x Fusion blaster
+        ◦ 1x Gun Drone
+        ◦ 1x Shield Drone
+    • 2x Crisis Sunforge Shas'ui
+        ◦ 2x Battlesuit fists
+        ◦ 4x Fusion blaster
+        ◦ 2x Gun Drone
+        ◦ 2x Shield Drone
+
+Kroot Carnivores (65 Points)
+    • 1x Long-quill
+        ◦ 1x Close combat weapon
+        ◦ 1x Kroot pistol
+        ◦ 1x Kroot rifle
+    • 9x Kroot Carnivore
+        ◦ 9x Close combat weapon
+        ◦ 8x Kroot rifle
+        ◦ 1x Tanglebomb launcher
+
+Pathfinder Team (85 Points)
+    • 1x Pathfinder Shas'ui
+        ◦ 1x Close combat weapon
+        ◦ 1x Gun Drone
+        ◦ 1x Pulse carbine
+        ◦ 1x Pulse pistol
+        ◦ 1x Recon Drone
+        ◦ 1x Semi-automatic grenade launcher
+        ◦ 1x Shield Drone
+    • 9x Pathfinder
+        ◦ 9x Close combat weapon
+        ◦ 6x Pulse carbine
+        ◦ 9x Pulse pistol
+        ◦ 3x Rail rifle
+
+Pathfinder Team (85 Points)
+    • 1x Pathfinder Shas'ui
+        ◦ 1x Close combat weapon
+        ◦ 1x Grav-inhibitor Drone
+        ◦ 1x Gun Drone
+        ◦ 1x Pulse carbine
+        ◦ 1x Pulse pistol
+        ◦ 1x Semi-automatic grenade launcher
+        ◦ 1x Shield Drone
+    • 9x Pathfinder
+        ◦ 9x Close combat weapon
+        ◦ 6x Pulse carbine
+        ◦ 9x Pulse pistol
+        ◦ 3x Rail rifle
+
+Stealth Battlesuits (100 Points)
+    • 1x Stealth Shas'vre
+        ◦ 1x Battlesuit fists
+        ◦ 1x Fusion blaster
+        ◦ 1x Gun Drone
+        ◦ 1x Marker Drone
+        ◦ 1x Pulse pistol
+    • 4x Stealth Shas'ui
+        ◦ 4x Battlesuit fists
+        ◦ 3x Burst cannon
+        ◦ 1x Fusion blaster
+        ◦ 1x Homing Beacon
+
+Stealth Battlesuits (100 Points)
+    • 1x Stealth Shas'vre
+        ◦ 1x Battlesuit fists
+        ◦ 1x Fusion blaster
+        ◦ 1x Gun Drone
+        ◦ 1x Marker Drone
+        ◦ 1x Pulse pistol
+    • 4x Stealth Shas'ui
+        ◦ 4x Battlesuit fists
+        ◦ 3x Burst cannon
+        ◦ 1x Fusion blaster
+        ◦ 1x Homing Beacon
+
+Exported with BattleBase, Data Version: v20260723
+
+undefined

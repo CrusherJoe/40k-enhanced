@@ -1,0 +1,95 @@
+# Daniele Cappitta | Necrons | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/7VG5w4fLcg1K  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Daniele
++ TEAM NAME: 
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Cursed Legion, Skyshroud Spearhead (Cold Fervour)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Nekrosor Ammentar
++ ENHANCEMENT: Murdermind (on Char8: Technomancer)
+& Deepening Madness (on Moun8: Lokhust Destroyers)
++ NUMBER OF UNITS: 15
++ SECONDARY: - Bring It Down: (1x2) + (1x4) - Assassination: 8 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+C'tan Shard of the Void Dragon (345 pts)
+• 1x Canoptek tail blades
+• 1x Spear of the Void Dragon
+• 1x Voltaic storm
+
+Lokhust Lord (70 pts) (attached to lokhust destroyers)
+• 1x Lord's blade
+• Resurrection orb
+
+Lokhust Lord (70 pts) (attached to lokhust destroyers)
+• 1x Lord's blade
+• Resurrection orb
+
+Lokhust Lord (70 pts) (attached to lokhust heavy destroyers)
+• 1x Lord's blade
+• Resurrection orb
+
+Nekrosor Ammentar (185 pts)
+• 1x Blade tail and whip coils
+• 1x Enmitic disintegrators
+• 1x Unmaker gauntlet
+• Warlord, Nullstone field generator
+
+Skorpekh Lord (90 pts) (attached to skorpekh destroyers)
+• 1x Enmitic annihilator
+• 1x Flensing claw
+• 1x Hyperphase harvester
+
+Skorpekh Lord (90 pts) (attached to skorpekh destroyers)
+• 1x Enmitic annihilator
+• 1x Flensing claw
+• 1x Hyperphase harvester
+
+Technomancer (95 pts) (attached to canoptek wraiths)
+• 1x Staff of light
+• Murdermind (+15 pts)
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 pts)
+• 2x Atomiser beam
+• 1x Reanimator's claws
+
+Canoptek Wraiths (220 pts)
+• 6x Wraith
+    • 6x Particle caster
+    • 6x Vicious claws
+
+Lokhust Destroyers (190 pts)
+• 6x Lokhust Destroyer
+    • 6x Close combat weapon
+    • 6x Gauss cannon
+  • Deepening Madness (+20 pts)
+
+Lokhust Destroyers (170 pts)
+• 6x Lokhust Destroyer
+    • 6x Close combat weapon
+    • 6x Gauss cannon
+
+Lokhust Heavy Destroyers (160 pts)
+• 3x Destroyer
+    • 3x Close combat weapon
+    • 3x Enmitic exterminator
+
+Skorpekh Destroyers (85 pts)
+• 3x Skorpekh Destroyer
+    • 3x Skorpekh hyperphase weapons
+  • Plasmacyte
+
+Skorpekh Destroyers (85 pts)
+• 3x Skorpekh Destroyer
+    • 3x Skorpekh hyperphase weapons
+  • Plasmacyte
+
+undefined

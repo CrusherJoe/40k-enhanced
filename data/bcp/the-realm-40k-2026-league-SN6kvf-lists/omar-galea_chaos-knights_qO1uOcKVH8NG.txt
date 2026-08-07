@@ -1,0 +1,35 @@
+# Omar Galea | Chaos Knights | Reconnaissance | team=The Realm of Pure Fantasy
+# list: https://www.bestcoastpairings.com/list/qO1uOcKVH8NG  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Knights
++ DETACHMENT: Houndpack Lance (Marked Prey)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 1970pts
++
++ WARLORD: Char1: War Dog Moirax
++ ENHANCEMENT: Final Howl (Aura) (on Batt1: War Dog Moirax)
+& Panoply of the Cursed Knights (on Batt2: War Dog Moirax)
+& Loping Predator (on Batt3: War Dog Moirax)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (13x2) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+1x War Dog Brigand (140 pts): Armoured feet, Avenger chaincannon, Daemonbreath spear, Havoc multi-launcher
+1x War Dog Brigand (140 pts): Armoured feet, Avenger chaincannon, Daemonbreath spear, Havoc multi-launcher
+1x War Dog Brigand (140 pts): Armoured feet, Avenger chaincannon, Daemonbreath spear, Havoc multi-launcher
+1x War Dog Brigand (140 pts): Armoured feet, Avenger chaincannon, Daemonbreath spear, Havoc multi-launcher
+1x War Dog Brigand (140 pts): Armoured feet, Avenger chaincannon, Daemonbreath spear, Havoc multi-launcher
+1x War Dog Karnivore (155 pts): Reaper chaintalon, Slaughterclaw, Havoc multi-launcher
+1x War Dog Karnivore (155 pts): Reaper chaintalon, Slaughterclaw, Havoc multi-launcher
+1x War Dog Karnivore (155 pts): Reaper chaintalon, Slaughterclaw, Havoc multi-launcher
+1x War Dog Karnivore (155 pts): Reaper chaintalon, Slaughterclaw, Havoc multi-launcher
+1x War Dog Karnivore (155 pts): Reaper chaintalon, Slaughterclaw, Havoc multi-launcher
+Char1: 1x War Dog Moirax (170 pts): Houndpack Lance Character, Warlord, Armoured feet, 2x Conversion beam cannon
+Enhancement: Final Howl (Aura) (+20 pts)
+Char2: 1x War Dog Moirax (165 pts): Houndpack Lance Character, Armoured feet, Conversion beam cannon, Rad cleanser, Siege claw
+Enhancement: Panoply of the Cursed Knights (+15 pts)
+Char3: 1x War Dog Moirax (160 pts): Houndpack Lance Character, Armoured feet, Conversion beam cannon, Rad cleanser, Siege claw
+Enhancement: Loping Predator (+10 pts)
+
+undefined

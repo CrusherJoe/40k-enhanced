@@ -1,0 +1,226 @@
+{
+ "event": {
+  "id": "SN6kvfFDbOJZ",
+  "name": "The Realm 40k 2026 League",
+  "totalPlayers": 24,
+  "eventDate": "2026-08-02T20:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Dave Cachia Marsh",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "King of the Grey Horde",
+   "dropped": false,
+   "listId": "iA8GxHubeBXo",
+   "listUrl": "https://www.bestcoastpairings.com/list/iA8GxHubeBXo"
+  },
+  {
+   "name": "Luke Mintoff",
+   "faction": "Emperor's Children",
+   "detachment": "Disruption",
+   "team": "The Warhamsters",
+   "dropped": false,
+   "listId": "SL6xkjCqOtxi",
+   "listUrl": "https://www.bestcoastpairings.com/list/SL6xkjCqOtxi"
+  },
+  {
+   "name": "Mirko Consiglio",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "Quantum Supremacy",
+   "dropped": false,
+   "listId": "tcUNm0bmDWDp",
+   "listUrl": "https://www.bestcoastpairings.com/list/tcUNm0bmDWDp"
+  },
+  {
+   "name": "Paul Rubio Herrerias",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": "Rico's Roughnecks",
+   "dropped": false,
+   "listId": "p3zGRJxd22eX",
+   "listUrl": "https://www.bestcoastpairings.com/list/p3zGRJxd22eX"
+  },
+  {
+   "name": "Matteo Picchi",
+   "faction": "Chaos Knights",
+   "detachment": "Take and Hold",
+   "team": "Team Malta",
+   "dropped": false,
+   "listId": "sPrpujq5cYFk",
+   "listUrl": "https://www.bestcoastpairings.com/list/sPrpujq5cYFk"
+  },
+  {
+   "name": "Salvador Cabello",
+   "faction": "Chaos Knights",
+   "detachment": "Take and Hold",
+   "team": "Yogurt Knights",
+   "dropped": false,
+   "listId": "EEC55lWXIQx3",
+   "listUrl": "https://www.bestcoastpairings.com/list/EEC55lWXIQx3"
+  },
+  {
+   "name": "Adam Brincat",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "Double 1",
+   "dropped": false,
+   "listId": "zXTDsaTb3GLG",
+   "listUrl": "https://www.bestcoastpairings.com/list/zXTDsaTb3GLG"
+  },
+  {
+   "name": "Berke OZCAN",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "IEzMvc5PICOv",
+   "listUrl": "https://www.bestcoastpairings.com/list/IEzMvc5PICOv"
+  },
+  {
+   "name": "David Caruana",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Roaches",
+   "dropped": false,
+   "listId": "xT4L5q9eNKot",
+   "listUrl": "https://www.bestcoastpairings.com/list/xT4L5q9eNKot"
+  },
+  {
+   "name": "Daniele Cappitta",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "7VG5w4fLcg1K",
+   "listUrl": "https://www.bestcoastpairings.com/list/7VG5w4fLcg1K"
+  },
+  {
+   "name": "Enrico Falzon",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "Rico's Roughnecks",
+   "dropped": false,
+   "listId": "45wtlHBPm05e",
+   "listUrl": "https://www.bestcoastpairings.com/list/45wtlHBPm05e"
+  },
+  {
+   "name": "Finian Massa",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Realm/M40KA",
+   "dropped": false,
+   "listId": "3wACQh8jSYjx",
+   "listUrl": "https://www.bestcoastpairings.com/list/3wACQh8jSYjx"
+  },
+  {
+   "name": "Harry Camilleri Mallia",
+   "faction": "Chaos Knights",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "8EXGMDv3SCcM",
+   "listUrl": "https://www.bestcoastpairings.com/list/8EXGMDv3SCcM"
+  },
+  {
+   "name": "Omar Galea",
+   "faction": "Chaos Knights",
+   "detachment": "Reconnaissance",
+   "team": "The Realm of Pure Fantasy",
+   "dropped": false,
+   "listId": "qO1uOcKVH8NG",
+   "listUrl": "https://www.bestcoastpairings.com/list/qO1uOcKVH8NG"
+  },
+  {
+   "name": "S Kandy",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "Sugar, Stone and Shotguns",
+   "dropped": false,
+   "listId": "2GkpET9Muz5O",
+   "listUrl": "https://www.bestcoastpairings.com/list/2GkpET9Muz5O"
+  },
+  {
+   "name": "Gavin Borg",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "The Realm of Pure Fantasy",
+   "dropped": false,
+   "listId": "gnGGy6kq4aj5",
+   "listUrl": "https://www.bestcoastpairings.com/list/gnGGy6kq4aj5"
+  },
+  {
+   "name": "Alexander Amato-Gauci",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "y0WbNK7iXbVb",
+   "listUrl": "https://www.bestcoastpairings.com/list/y0WbNK7iXbVb"
+  },
+  {
+   "name": "Douglas Gowland Camilleri",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "gyXIBvwbFXOT",
+   "listUrl": "https://www.bestcoastpairings.com/list/gyXIBvwbFXOT"
+  },
+  {
+   "name": "Peter van der Watt",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "RMZoDMmmQLVC",
+   "listUrl": "https://www.bestcoastpairings.com/list/RMZoDMmmQLVC"
+  },
+  {
+   "name": "Michael  Husmann",
+   "faction": "Chaos Knights",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "dOW2n8W1oNov",
+   "listUrl": "https://www.bestcoastpairings.com/list/dOW2n8W1oNov"
+  },
+  {
+   "name": "Kirsten Falzon",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "SspOLydEjdHY",
+   "listUrl": "https://www.bestcoastpairings.com/list/SspOLydEjdHY"
+  },
+  {
+   "name": "James Jelliffe",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "qCEHJPM4i9UZ",
+   "listUrl": "https://www.bestcoastpairings.com/list/qCEHJPM4i9UZ"
+  },
+  {
+   "name": "Aydrekhan Ellular",
+   "faction": "Necrons",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "qYo13T7TIyQg",
+   "listUrl": "https://www.bestcoastpairings.com/list/qYo13T7TIyQg"
+  },
+  {
+   "name": "The Realm Malta",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "gFBG2q4QO6gF",
+   "listUrl": "https://www.bestcoastpairings.com/list/gFBG2q4QO6gF"
+  }
+ ]
+}

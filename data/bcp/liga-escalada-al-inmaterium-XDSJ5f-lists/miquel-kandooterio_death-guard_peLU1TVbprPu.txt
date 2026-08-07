@@ -1,0 +1,27 @@
+# Miquel Kandooterio | Death Guard | Take and Hold | team=Legio Inmaterium Balear (LIB)
+# list: https://www.bestcoastpairings.com/list/peLU1TVbprPu  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Death Guard
++ DETACHMENT: Champions of Contagion (Manifold Maladies)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 250pts
++
++ WARLORD: Char1: Biologus Putrifier
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 3
++ SECONDARY: - Bring It Down: (1x2) - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Biologus Putrifier (60 pts): Warlord, Hyper blight grenades, Injector pistol, Plague knives
+
+5x Plague Marines (90 pts)
+• 4x Plague Marine
+    1 with Boltgun, Plague knives
+    1 with Blight launcher, Plague knives
+    2 with Bubotic weapons, Plague knives
+• 1x Plague Champion: Plasma gun, Power fist
+
+1x Myphitic Blight-hauler (100 pts): Bile spurt, Gnashing maw, Missile launcher, Multi-melta
+
+undefined

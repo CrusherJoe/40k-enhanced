@@ -1,0 +1,51 @@
+# Monty Arnott | Space Marines (Astartes) | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/6PAPZMMFJq4U  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Salamanders
++ DETACHMENT: Forgefather's Seekers, Librarius Conclave (Vulkan's Quest)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char2: Vulkan He'stan
++ ENHANCEMENT: Forged in Battle (on Char3: Apothecary Biologis)
+& Immolator (on Char4: Librarian)
++ NUMBER OF UNITS: 15
++ SECONDARY: - Bring It Down: (1x2) + (2x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Adrax Agatone (80 pts): Drakkis, Malleus Noctum
+Char3: 1x Apothecary Biologis (85 pts): Absolvor bolt pistol, Close combat weapon
+Enhancement: Forged in Battle (+15 pts)
+Char4: 1x Librarian (80 pts): Bolt pistol, Force weapon, Smite
+Enhancement: Immolator (+10 pts)
+Char5: 1x Librarian (70 pts): Bolt pistol, Force weapon, Smite
+Char2: 1x Vulkan He'stan (85 pts): Warlord, Bolt pistol, Gauntlet of the Forge, Spear of Vulkan
+
+5x Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant: Bolt pistol, Hand flamer, Close combat weapon
+• 4x Intercessor: 4 with Bolt pistol, Bolt Rifle, Close combat weapon
+5x Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant: Bolt pistol, Hand flamer, Close combat weapon
+• 4x Intercessor: 4 with Bolt pistol, Bolt Rifle, Close combat weapon
+
+6x Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Neo-volkite Pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+6x Eradicator Squad (180 pts)
+• 5x Eradicator: 5 with Bolt pistol, Close combat weapon, Melta rifle
+• 1x Eradicator Sergeant: Bolt pistol, Close combat weapon, Melta rifle
+10x Infernus Squad (180 pts)
+• 9x Infernus Marines: 9 with Bolt pistol, Close combat weapon, Pyreblaster
+• 1x Infernus Sergeant: Bolt pistol, Close combat weapon, Pyreblaster
+10x Infernus Squad (180 pts)
+• 9x Infernus Marines: 9 with Bolt pistol, Close combat weapon, Pyreblaster
+• 1x Infernus Sergeant: Bolt pistol, Close combat weapon, Pyreblaster
+10x Infernus Squad (180 pts)
+• 9x Infernus Marines: 9 with Bolt pistol, Close combat weapon, Pyreblaster
+• 1x Infernus Sergeant: Bolt pistol, Close combat weapon, Pyreblaster
+1x Land Raider Redeemer (250 pts): Armoured Tracks, 2x Flamestorm Cannon, Multi-melta, Twin assault cannon
+1x Repulsor (170 pts): Armoured Hull, Hunter-slayer missile, Repulsor Defensive Array, Twin heavy bolter, Heavy Onslaught Gatling Cannon
+1x Storm Speeder Thunderstrike (135 pts): Close combat weapon, Stormfury Missiles, Thunderstrike Las-talon, Twin Icarus Rocket Pod
+
+undefined

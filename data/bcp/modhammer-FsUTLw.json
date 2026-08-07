@@ -1,0 +1,244 @@
+{
+ "event": {
+  "id": "FsUTLwMyC5Ob",
+  "name": "Modhammer",
+  "totalPlayers": 26,
+  "eventDate": "2026-08-01T15:30:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Erik Sousa",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Disciples",
+   "dropped": false,
+   "listId": "FqTLbIVGGQDf",
+   "listUrl": "https://www.bestcoastpairings.com/list/FqTLbIVGGQDf"
+  },
+  {
+   "name": "Jason Gulevich",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Disciples",
+   "dropped": false,
+   "listId": "8zJseb2f92pU",
+   "listUrl": "https://www.bestcoastpairings.com/list/8zJseb2f92pU"
+  },
+  {
+   "name": "Larry DeTomasi",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Team Misfire ",
+   "dropped": false,
+   "listId": "tKWtvbdaQkEw",
+   "listUrl": "https://www.bestcoastpairings.com/list/tKWtvbdaQkEw"
+  },
+  {
+   "name": "Sandeep Dey",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Big Brain Plays",
+   "dropped": false,
+   "listId": "wk0uymripY4i",
+   "listUrl": "https://www.bestcoastpairings.com/list/wk0uymripY4i"
+  },
+  {
+   "name": "John Jeffries",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance",
+   "team": "Disciples",
+   "dropped": false,
+   "listId": "JrvOlwu5xBYB",
+   "listUrl": "https://www.bestcoastpairings.com/list/JrvOlwu5xBYB"
+  },
+  {
+   "name": "Silas Fleming",
+   "faction": "Leagues of Votann",
+   "detachment": "Take and Hold",
+   "team": "Disciples",
+   "dropped": false,
+   "listId": "zkVgeF3cuiUi",
+   "listUrl": "https://www.bestcoastpairings.com/list/zkVgeF3cuiUi"
+  },
+  {
+   "name": "Brett Van Bebber",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "team misfire",
+   "dropped": false,
+   "listId": "Xg9gXiz3GL9T",
+   "listUrl": "https://www.bestcoastpairings.com/list/Xg9gXiz3GL9T"
+  },
+  {
+   "name": "Logan Esler",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Risky Behavior",
+   "dropped": false,
+   "listId": "lKD3f46p8S3S",
+   "listUrl": "https://www.bestcoastpairings.com/list/lKD3f46p8S3S"
+  },
+  {
+   "name": "Charles Delgado",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": "Beats & Bolters",
+   "dropped": false,
+   "listId": "nrcYtXGtRbyR",
+   "listUrl": "https://www.bestcoastpairings.com/list/nrcYtXGtRbyR"
+  },
+  {
+   "name": "Wiley Hutchins",
+   "faction": "Grey Knights",
+   "detachment": "Purge the Foe",
+   "team": "Femur Eaters",
+   "dropped": false,
+   "listId": "irr4y0axjIJ1",
+   "listUrl": "https://www.bestcoastpairings.com/list/irr4y0axjIJ1"
+  },
+  {
+   "name": "Jeremy Newswander",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Disciples",
+   "dropped": false,
+   "listId": "LsHYu3P6xCUF",
+   "listUrl": "https://www.bestcoastpairings.com/list/LsHYu3P6xCUF"
+  },
+  {
+   "name": "justin gomes",
+   "faction": "Grey Knights",
+   "detachment": "Reconnaissance",
+   "team": "team misfire",
+   "dropped": false,
+   "listId": "MGVNXTKsV5WQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/MGVNXTKsV5WQ"
+  },
+  {
+   "name": "Erik Storms",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Disciples",
+   "dropped": false,
+   "listId": "JSofbGRaiRth",
+   "listUrl": "https://www.bestcoastpairings.com/list/JSofbGRaiRth"
+  },
+  {
+   "name": "Cody Evango",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "L5DtIxr5dkgu",
+   "listUrl": "https://www.bestcoastpairings.com/list/L5DtIxr5dkgu"
+  },
+  {
+   "name": "Seth Mahaffey",
+   "faction": "Black Templars",
+   "detachment": "Take and Hold",
+   "team": "Holy Fire & Ice",
+   "dropped": false,
+   "listId": "fumSt0yculwS",
+   "listUrl": "https://www.bestcoastpairings.com/list/fumSt0yculwS"
+  },
+  {
+   "name": "Joshua Chelminski",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "zQCYLaVCActt",
+   "listUrl": "https://www.bestcoastpairings.com/list/zQCYLaVCActt"
+  },
+  {
+   "name": "Nick Hall",
+   "faction": "Tyranids",
+   "detachment": "Priority Assets",
+   "team": "Holy Fire & Ice",
+   "dropped": true,
+   "listId": "ajkJK0mYej0B",
+   "listUrl": "https://www.bestcoastpairings.com/list/ajkJK0mYej0B"
+  },
+  {
+   "name": "Matt Barlow",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Disciples",
+   "dropped": false,
+   "listId": "pKLHVdIh18Ck",
+   "listUrl": "https://www.bestcoastpairings.com/list/pKLHVdIh18Ck"
+  },
+  {
+   "name": "Forrest Phanton",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Salt Shakers",
+   "dropped": false,
+   "listId": "sgBCH146GG2q",
+   "listUrl": "https://www.bestcoastpairings.com/list/sgBCH146GG2q"
+  },
+  {
+   "name": "Donovan Santos-Brinton",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "RFWicY8pbab4",
+   "listUrl": "https://www.bestcoastpairings.com/list/RFWicY8pbab4"
+  },
+  {
+   "name": "Jesse Babb",
+   "faction": "Imperial Knights",
+   "detachment": "Priority Assets",
+   "team": "Salt Shakers",
+   "dropped": false,
+   "listId": "Jxb2yFSI2AJA",
+   "listUrl": "https://www.bestcoastpairings.com/list/Jxb2yFSI2AJA"
+  },
+  {
+   "name": "David Corey",
+   "faction": "Death Guard",
+   "detachment": "Disruption",
+   "team": "Disciples",
+   "dropped": false,
+   "listId": "pZhtiT8Sz7ey",
+   "listUrl": "https://www.bestcoastpairings.com/list/pZhtiT8Sz7ey"
+  },
+  {
+   "name": "Brandon Rosen",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "jRdYYMitMzDT",
+   "listUrl": "https://www.bestcoastpairings.com/list/jRdYYMitMzDT"
+  },
+  {
+   "name": "Erik Krukar",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "8SLlJ3aLxp1h",
+   "listUrl": "https://www.bestcoastpairings.com/list/8SLlJ3aLxp1h"
+  },
+  {
+   "name": "Edward Molnar",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "66EzJMjfacMQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/66EzJMjfacMQ"
+  },
+  {
+   "name": "Eulis Sanders",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "Salt Shakers",
+   "dropped": false,
+   "listId": "BRNVSMDB6pg7",
+   "listUrl": "https://www.bestcoastpairings.com/list/BRNVSMDB6pg7"
+  }
+ ]
+}

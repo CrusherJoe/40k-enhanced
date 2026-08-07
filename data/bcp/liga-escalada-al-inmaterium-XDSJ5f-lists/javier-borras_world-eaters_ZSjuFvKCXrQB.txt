@@ -1,0 +1,25 @@
+# Javier Borras | World Eaters | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/ZSjuFvKCXrQB  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - World Eaters
++ DETACHMENT: Vessels of Wrath (Wrath of Khorne)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 260pts
++
++ WARLORD: Char1: Master of Executions
++ ENHANCEMENT: Archslaughterer (on Char1: Master of Executions)
++ NUMBER OF UNITS: 2
++ SECONDARY: - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Master of Executions (90 pts): Warlord, Axe of dismemberment, Bolt pistol
+Enhancement: Archslaughterer (+30 pts)
+
+10x Khorne Berzerkers (170 pts)
+• 9x Khorne Berzerker
+    7 with Bolt pistol, Chainblade
+    2 with Khornate eviscerator, Plasma pistol
+• 1x Khorne Berzerker Champion: Icon of Khorne, Chainblade, Plasma pistol
+
+undefined

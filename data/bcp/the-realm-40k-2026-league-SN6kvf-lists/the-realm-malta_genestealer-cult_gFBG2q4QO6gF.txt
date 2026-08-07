@@ -1,0 +1,146 @@
+# The Realm Malta | Genestealer Cult | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/gFBG2q4QO6gF  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Mirko/skulltaker27
++ TEAM NAME: Team Malta
++ FACTION KEYWORD: Xenos - Genestealer Cults
++ DETACHMENT: Biosanctic Broodsurge, Xenocult Masses (Hypermorphic Fury)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char7: Patriarch
++ ENHANCEMENT: Predatory Instincts (on Char1: Abominant)
+& Biomorph Adaption (on Char7: Patriarch)
++ NUMBER OF UNITS: 19
++ SECONDARY: - Bring It Down: (3x2) - Assassination: 8 Characters - Cull The Horde: 2x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Abominant (105 pts) (attached to 10 aberrants)
+• 1x Power sledgehammer
+• Predatory Instincts (+20 pts)
+
+Abominant (85 pts) (attached to 5 aberrants)
+• 1x Power sledgehammer
+
+Benefictus (75 pts) (attached to 20 neophyte hybrids)
+• 1x Close combat weapon
+• 1x Psionic cascade
+
+Benefictus (75 pts) (attached to 20 neophyte hybrids)
+• 1x Close combat weapon
+• 1x Psionic cascade
+
+Biophagus (50 pts) (attached to 10 aberrants)
+• 1x Autopistol
+• 1x Chemical vials
+• 1x Injector goad
+• Alchemicus familiar
+
+Biophagus (50 pts) (attached to 10 acolyte hybrids)
+• 1x Autopistol
+• 1x Chemical vials
+• 1x Injector goad
+• Alchemicus familiar
+
+Patriarch (105 pts)  (attached to 10 genestealers)
+• 1x Patriarch's claws
+• Warlord
+• Biomorph Adaption (+25 pts)
+
+Primus (70 pts) (attached to 10 acolyte hybrids)
+• 1x Cult bonesword
+• 1x Scoped needle pistol
+• 1x Toxin injector claw
+
+BATTLELINE
+
+Acolyte Hybrids with Autopistols (130 pts)
+• 1x Acolyte Leader
+    • 1x Autopistol
+    • 1x Leader's Bio-weapons
+• 9x Acolyte Hybrid
+    • 2x Autopistol
+    • 3x Cult claws and knife
+    • 6x Heavy mining tool
+    • Cult icon
+
+Neophyte Hybrids (135 pts)
+• 1x Neophyte Leader
+    • 1x Autopistol
+    • 1x Close combat weapon
+    • 1x Hybrid firearm
+• 19x Neophyte Hybrid
+    • 19x Autopistol
+    • 19x Close combat weapon
+    • 2x Mining laser
+    • 2x Seismic cannon
+    • 11x Hybrid firearm
+    • 2x Grenade launcher
+    • 2x Webber
+    • Cult Icon
+
+Neophyte Hybrids (135 pts)
+• 1x Neophyte Leader
+    • 1x Autopistol
+    • 1x Close combat weapon
+    • 1x Hybrid firearm
+• 19x Neophyte Hybrid
+    • 19x Autopistol
+    • 19x Close combat weapon
+    • 2x Mining laser
+    • 2x Seismic cannon
+    • 11x Hybrid firearm
+    • 2x Grenade launcher
+    • 2x Webber
+    • Cult Icon
+
+OTHER DATASHEETS
+
+Aberrants (280 pts)
+• 1x Aberrant Hypermorph
+    • 1x Aberrant weapons
+• 9x Aberrant
+    • 9x Aberrant weapons
+
+Aberrants (140 pts)
+• 1x Aberrant Hypermorph
+    • 1x Aberrant weapons
+• 4x Aberrant
+    • 4x Aberrant weapons
+
+Achilles Ridgerunners (95 pts)
+• 1x Achilles Ridgerunner
+    • 1x Armoured hull
+    • 1x Twin heavy stubber
+    • 1x Heavy mortar
+    • Survey augur
+
+Achilles Ridgerunners (95 pts)
+• 1x Achilles Ridgerunner
+    • 1x Armoured hull
+    • 1x Twin heavy stubber
+    • 1x Heavy mortar
+    • Survey augur
+
+Goliath Truck (75 pts)
+• 1x Demolition charge cache
+• 1x Goliath wheels
+• 1x Heavy stubber
+• 1x Twin autocannon
+
+Purestrain Genestealers (140 pts)
+• 10x Purestrain Genestealer
+    • 10x Cult claws and talons
+
+Purestrain Genestealers (75 pts)
+• 5x Purestrain Genestealer
+    • 5x Cult claws and talons
+
+Purestrain Genestealers (85 pts)
+• 5x Purestrain Genestealer
+    • 5x Cult claws and talons
+
+undefined

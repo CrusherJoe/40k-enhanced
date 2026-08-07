@@ -1,0 +1,165 @@
+# Mirko Consiglio | Aeldari | Reconnaissance | team=Quantum Supremacy
+# list: https://www.bestcoastpairings.com/list/tcUNm0bmDWDp  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Mirko/skulltaker27
++ TEAM NAME: Team Malta
++ FACTION KEYWORD: Xenos - Aeldari
++ DETACHMENT: Warhost (Martial Grace)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char3: Fuegan
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 17
++ SECONDARY: - Bring It Down: (3x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Asurmen (135 pts) (attached to dire avengers)
+• 1x The Bloody Twins
+• 1x The Sword of Asur
+
+Avatar of Khaine (250 pts)
+• 1x The Wailing Doom
+
+Fuegan (130 pts) (attached to fire dragons)
+• 1x Searsong
+• 1x The Fire Axe
+• Warlord
+
+Jain Zar (105 pts) (attached to howling banshees)
+• 1x Silent Death
+• 1x The Blade of Destruction
+
+Lhykhis (135 pts) (attached to warp spiders, exarch with powerblade array)
+• 1x Brood Twain
+• 1x Spider's Fangs
+• 1x Weaverender
+
+BATTLELINE
+
+Corsair Voidreavers (65 pts)
+• 1x Voidreaver Felarch
+    • 1x Close Combat Weapon
+    • 1x Power sword
+    • 1x Neuro disruptor
+    • Mistshield
+• 3x Voidreaver with sword and pistol
+    • 3x Close Combat Weapon
+    • 3x Power sword
+    • 3x Shuriken Pistol
+• 1x Voidreaver with Blaster
+    • 1x Blaster
+    • 1x Close Combat Weapon
+    • 1x Shuriken Pistol
+
+Corsair Voidreavers (65 pts)
+• 1x Voidreaver Felarch
+    • 1x Close Combat Weapon
+    • 1x Power sword
+    • 1x Neuro disruptor
+    • Mistshield
+• 3x Voidreaver with sword and pistol
+    • 3x Close Combat Weapon
+    • 3x Power sword
+    • 3x Shuriken Pistol
+• 1x Voidreaver with Blaster
+    • 1x Blaster
+    • 1x Close Combat Weapon
+    • 1x Shuriken Pistol
+
+Corsair Voidreavers (65 pts)
+• 1x Voidreaver Felarch
+    • 1x Close Combat Weapon
+    • 1x Power sword
+    • 1x Neuro disruptor
+    • Mistshield
+• 3x Voidreaver with sword and pistol
+    • 3x Close Combat Weapon
+    • 3x Power sword
+    • 3x Shuriken Pistol
+• 1x Voidreaver with Blaster
+    • 1x Blaster
+    • 1x Close Combat Weapon
+    • 1x Shuriken Pistol
+
+OTHER DATASHEETS
+
+Dire Avengers (75 pts)
+• 1x Dire Avenger Exarch
+    • 1x Close Combat Weapon
+    • 2x Avenger shuriken catapult
+• 4x Dire Avenger
+    • 4x Avenger shuriken catapult
+    • 4x Close Combat Weapon
+  • Aspect Shrine Token
+
+Falcon (130 pts)
+• 1x Pulse Laser
+• 1x Wraithbone hull
+• 1x Bright Lance
+• 1x Shuriken Cannon
+
+Fire Dragons (240 pts)
+• 1x Fire Dragon Exarch
+    • 1x Close combat weapon
+    • 1x Firepike
+• 9x Fire Dragon
+    • 9x Close combat weapon
+    • 9x Dragon Fusion Gun
+  • 2x Aspect Shrine Token
+
+Howling Banshees (85 pts)
+• 1x Howling Banshee Exarch
+    • 1x Executioner
+    • 1x Shuriken Pistol
+• 4x Howling Banshee
+    • 4x Banshee Blade
+    • 4x Shuriken Pistol
+  • Aspect Shrine Token
+
+Swooping Hawks (95 pts)
+• 1x Swooping Hawk Exarch
+    • 1x Close combat weapon
+    • 1x Hawk's Talon
+• 4x Swooping Hawk
+    • 4x Close combat weapon
+    • 4x Lasblaster
+  • Aspect Shrine Token
+
+Swooping Hawks (95 pts)
+• 1x Swooping Hawk Exarch
+    • 1x Close combat weapon
+    • 1x Hawk's Talon
+• 4x Swooping Hawk
+    • 4x Close combat weapon
+    • 4x Lasblaster
+  • Aspect Shrine Token
+
+Warp Spiders (105 pts)
+• 1x Warp Spider Exarch
+    • 1x Close Combat Weapon
+    • 1x 1 Powerblade array
+• 4x Warp Spider
+    • 4x Close Combat Weapon
+    • 4x Death spinner
+  • Aspect Shrine Token
+
+Warp Spiders (105 pts)
+• 1x Warp Spider Exarch
+    • 1x Close Combat Weapon
+    • 1x Death Weavers
+    • 1x Spinneret Rifle
+• 4x Warp Spider
+    • 4x Close Combat Weapon
+    • 4x Death spinner
+  • Aspect Shrine Token
+
+Wave Serpent (115 pts)
+• 1x Wraithbone Hull
+• 1x Twin Shuriken Catapult
+• 1x Twin Shuriken Cannon
+
+undefined

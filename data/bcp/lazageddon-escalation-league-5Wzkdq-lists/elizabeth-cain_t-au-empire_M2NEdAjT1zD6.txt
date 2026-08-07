@@ -1,0 +1,83 @@
+# Elizabeth Cain | T'au Empire | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/M2NEdAjT1zD6  status=passed
+
+Adv.Acq.-Auxi. (500 points)
+
+T’au Empire
+Advanced Acquisition Cadre and Auxiliary Cadre (2 Detachment Points)
+Reconnaissance
+Incursion (1000 points)
+
+Attached Units
+Attached Unit 1
+
+Cadre Fireblade (50 points)
+• Attached as: Leader (Character)
+  • Warlord
+  • 1x Close combat weapon
+    1x Fireblade pulse rifle
+    2x Gun Drone
+
+Breacher Team (90 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Support turret
+  • 1x Breacher Fire Warrior Shas’ui
+    • 1x Close combat weapon
+      1x Guardian Drone
+      1x Gun Drone
+      1x Pulse blaster
+      1x Pulse pistol
+  • 9x Breacher Fire Warrior
+    • 9x Close combat weapon
+      9x Pulse blaster
+      9x Pulse pistol
+
+Attached Unit 2
+
+Darkstrider (60 points)
+• Attached as: Leader (Character)
+  • 1x Close combat weapon
+    1x Shade
+
+Pathfinder Team (100 points)
+• Attached as: Bodyguard
+  • Enhancement: Unmasking Suite (Upgrade)
+  • 1x Pathfinder Shas’ui
+    • 1x Close combat weapon
+      2x Gun Drone
+      1x Pulse carbine
+      1x Pulse pistol
+      1x Recon Drone
+      1x Semi-automatic grenade launcher
+  • 9x Pathfinder
+    • 9x Close combat weapon
+      6x Pulse carbine
+      9x Pulse pistol
+      3x Rail rifle
+
+
+OTHER DATASHEETS
+
+Krootox Rampagers (85 points)
+  • 3x Krootox Rampagers
+    • 3x Hunting blades
+      3x Kroot pistol and hunting javelins
+      3x Rampager fists
+
+Stealth Battlesuits (115 points)
+  • Enhancement: Negation Emitters (Upgrade)
+  • 1x Stealth Shas’vre
+    • 1x Battlesuit fists
+      1x Burst cannon
+      1x Gun Drone
+      1x Marker Drone
+      1x Pulse pistol
+  • 4x Stealth Shas’ui
+    • 4x Battlesuit fists
+      2x Burst cannon
+      2x Fusion blaster
+      1x Homing Beacon
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

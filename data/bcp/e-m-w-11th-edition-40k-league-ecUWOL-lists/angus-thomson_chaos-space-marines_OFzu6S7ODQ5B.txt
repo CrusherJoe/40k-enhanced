@@ -1,0 +1,70 @@
+# Angus Thomson | Chaos Space Marines | Disruption | team=None
+# list: https://www.bestcoastpairings.com/list/OFzu6S7ODQ5B  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Space Marines
++ DETACHMENT: Huron's Marauders (Tyrannical Motivation)
++ FORCE DISPOSITION: Disruption
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char2: Huron Blackheart
++ ENHANCEMENT: Dread Reputation (on Char4: Chaos Lord in Terminator Armour)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char4: 1x Chaos Lord in Terminator Armour (110 pts): Combi-bolter, Chainfist
+Enhancement: Dread Reputation (+25 pts)
+Char1: 2x Fabius Bile (100 pts)
+• 1x Fabius Bile: Rod of Torment, The Chirurgeon, Xyclos needler
+• 1x Surgeon Acolyte: Surgeon Acolyte's tools
+Char2: 1x Huron Blackheart (130 pts): Warlord, Tyrant's Claw and exalted power weapon, Tyrant's Claw heavy flamer
+Char3: 1x Kravek Morne (120 pts): Baleflamer, Combi-bolter, Last Argument and power fist, Servo-harness
+5x Masters of the Maelstrom (145 pts)
+• 1x Captain Sargotta: Laspistol, Power sabre
+• 1x Garlon Souleater: Force stave, Mind Wrench
+• 1x Garreon the Corpsemaster: Absolver bolt pistol, Reductor array
+• 1x Katar Garrix: Axe of Ending, Bolt pistol
+• 1x The Enforcer: Bionic gauntlet, Londaxi maimer
+Char5: 1x Red Corsairs Reave-captain (60 pts): Power maul, Plasma pistol, Bolt pistol
+
+10x Cultist Mob (50 pts)
+• 1x Cultist Champion: Brutal assault weapon, Autopistol
+• 9x Cultist: 9 with Autopistol, Brutal assault weapon
+
+10x Chaos Terminator Squad (350 pts)
+• 1x Terminator Champion: Accursed weapon, Combi-weapon
+• 1x Accursed weapon and combi-weapon: Accursed weapon, Combi-weapon
+• 2x Heavy weapon: 2 with Chainfist, Heavy flamer
+• 6x Power fist and combi-weapon: 6 with Combi-weapon, Power fist
+10x Chosen (270 pts)
+• 9x Chosen
+    2 with Accursed weapon, Bolt pistol, Boltgun
+    4 with Accursed weapon, Bolt pistol, Combi-weapon
+    2 with Paired accursed weapons, Plasma pistol
+    1 with Boltgun, Plasma pistol, Power fist
+• 1x Chosen Champion: Chaos icon, Plasma pistol, Power fist, Boltgun
+10x Chosen (270 pts)
+• 9x Chosen
+    2 with Accursed weapon, Bolt pistol, Boltgun
+    4 with Accursed weapon, Bolt pistol, Combi-weapon
+    2 with Paired accursed weapons, Plasma pistol
+    1 with Boltgun, Plasma pistol, Power fist
+• 1x Chosen Champion: Chaos icon, Plasma pistol, Power fist, Boltgun
+3x Mutilators (165 pts): 3 with Fleshmetal weapons
+5x Raptors (110 pts)
+• 4x Raptor
+    1 with Astartes chainsword, Bolt pistol
+    1 with Bolt pistol, Heavy melee weapon
+    1 with Bolt pistol, Mutations
+    1 with Astartes chainsword, Plasma pistol
+• 1x Raptor Champion: Heavy melee weapon, Plasma pistol
+5x Raptors (110 pts)
+• 4x Raptor
+    1 with Astartes chainsword, Bolt pistol
+    1 with Bolt pistol, Heavy melee weapon
+    1 with Bolt pistol, Mutations
+    1 with Astartes chainsword, Plasma pistol
+• 1x Raptor Champion: Heavy melee weapon, Plasma pistol
+
+undefined

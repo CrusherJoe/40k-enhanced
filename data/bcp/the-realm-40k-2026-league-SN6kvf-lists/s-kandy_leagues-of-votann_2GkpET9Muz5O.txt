@@ -1,0 +1,46 @@
+# S Kandy | Leagues of Votann | Priority Assets | team=Sugar, Stone and Shotguns
+# list: https://www.bestcoastpairings.com/list/2GkpET9Muz5O  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Leagues of Votann
++ DETACHMENT: Hearthguard Covenant, Needgaârd Oathband (Avatars of the Ancestors)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++ WARLORD: Char1: Ûthar the Destined
++ NUMBER OF UNITS: 14
+
+Char2: 1x Kâhl (65 pts (attached to Hearthguard 1): Teleport crest, Mass gauntlet, Volkanite disintegrator
+Char3: 1x Kâhl (65 pts) (attached to Hearthguard 2): Teleport crest, Mass gauntlet, Volkanite disintegrator
+Char4: 1x Memnyr Strategist (45 pts): Autoch-pattern bolt pistol, Close combat weapon
+Char1: 1x Ûthar the Destined (90 pts) (attached to Warriors): Rampart crest, Warlord, Blade of the Ancestors, Volkanite disintegrator
+
+10x Hearthkyn Warriors (100 pts)
+• 9x Hearthkyn Warrior
+    7 with Autoch-pattern bolt pistol, Autoch-pattern bolter, Close combat weapon
+    1 with Autoch-pattern bolt pistol, Close combat weapon, L7 missile launcher
+    1 with Autoch-pattern bolt pistol, Close combat weapon, Magna-rail rifle
+• 1x Theyn: Weavefield crest, Autoch-pattern bolt pistol, Close combat weapon, Autoch-pattern bolter
+
+6x Brôkhyr Thunderkyn (160 pts): 6 with Close combat weapon, SP conversion beamer
+6x Brôkhyr Thunderkyn (160 pts): 6 with Close combat weapon, SP conversion beamer
+10x Einhyr Hearthguard (270 pts)
+• 1x Hesyr: Weavefield crest, Graviton hammer, EtaCarn plasma gun, Exo-armour grenade launcher
+• 9x Einhyr Hearthguard: 9 with Concussion gauntlet, EtaCarn plasma gun, Exo-armour grenade launcher
+10x Einhyr Hearthguard (270 pts)
+• 1x Hesyr: Weavefield crest, Graviton hammer, EtaCarn plasma gun, Exo-armour grenade launcher
+• 9x Einhyr Hearthguard: 9 with Concussion gauntlet, EtaCarn plasma gun, Exo-armour grenade launcher
+1x Hekaton Land Fortress (250 pts): Pan spectral scanner, Armoured wheels, MATR autocannon, Heavy magna-rail cannon, 2x Twin bolt cannon
+1x Hekaton Land Fortress (265 pts): Pan spectral scanner, Armoured wheels, MATR autocannon, Heavy magna-rail cannon, 2x Twin bolt cannon
+3x Hernkyn Pioneers (80 pts)
+  1 with Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+  1 with Pan-spectral scanner, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+  1 with Bolt revolver, Bolt shotgun, HYLas rotary cannon, Magna-coil autocannon, Plasma knife
+10x Hernkyn Yaegirs (90 pts)
+• 9x Hernkyn Yaegir
+    7 with Bolt shotgun, Close combat weapon
+    1 with APM launcher, Close combat weapon
+    1 with Close combat weapon, Magna-coil rifle
+• 1x Yaegir Theyn: Close combat weapon, Bolt shotgun
+1x Sagitaur (85 pts): Armoured wheels, Twin bolt cannon, Lmissile launcher, Sagitaur missile launcher
+
+undefined

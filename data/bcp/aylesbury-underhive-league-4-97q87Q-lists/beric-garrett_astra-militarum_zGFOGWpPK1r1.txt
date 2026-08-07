@@ -1,0 +1,55 @@
+# Beric Garrett | Astra Militarum | Priority Assets | team=The Aylesbury Underhive
+# list: https://www.bestcoastpairings.com/list/zGFOGWpPK1r1  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Astra Militarum
++ DETACHMENT: Grizzled Company (Ruthless Discipline)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Lord Solar Leontus
++ ENHANCEMENT: Abhuman Detail (on Char3: Commissar)
++ NUMBER OF UNITS: 15
++ SECONDARY: - Bring It Down: (1x2) + (2x6) - Assassination: 6 Characters - Cull The Horde: 1x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 5x Cadian Command Squad (60 pts)
+• 4x Cadian Veteran Guardsman
+    1 with Chainsword, Bolt pistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Medi-pack, Close combat weapon, Lasgun
+    1 with Close combat weapon, Lasgun, Regimental standard
+• 1x Cadian Commander: Chainsword, Laspistol
+Char3: 1x Commissar (50 pts): Plasma pistol, Power weapon
+Enhancement: Abhuman Detail (+20 pts)
+Char1: 1x Lord Solar Leontus (130 pts): Warlord, Conquest, Konstantin's hooves, Sol's Righteous Gaze
+Char4: 1x Tech-Priest Enginseer (45 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+Char5: 1x Tech-Priest Enginseer (45 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+
+20x Cadian Shock Troops (145 pts)
+• 18x Shock Trooper
+    14 with Close combat weapon, Lasgun
+    2 with Close combat weapon, Meltagun
+    2 with Close combat weapon, Plasma gun
+• 2x Shock Trooper Sergeant: 2 with Chainsword, Laspistol
+
+6x Bullgryn Squad (200 pts)
+• 1x Bullgryn Bone 'ead: Slabshield, Close combat weapon, Bullgryn maul
+• 5x Bullgryn: 5 with Slabshield, Close combat weapon, Grenadier gauntlet
+Char6: 1x Callidus Assassin (100 pts): Neural shredder, Phase sword and poison blades
+1x Hellhammer (385 pts): Armoured tracks, Coaxial autocannon, Demolisher cannon, Heavy stubber, Hellhammer cannon, 2x Lascannon, Twin heavy bolter, 2x Twin heavy bolter
+10x Kasrkin (105 pts)
+• 9x Kasrkin Trooper
+    5 with Close combat weapon, Hot-shot lasgun
+    2 with Close combat weapon, Meltagun
+    2 with Close combat weapon, Plasma gun
+• 1x Kasrkin Sergeant: Power weapon, Plasma pistol
+1x Leman Russ Demolisher (180 pts): Armoured tracks, Demolisher battle cannon, Lascannon, 2x Multi-melta, Heavy stubber
+3x Ogryn Squad (60 pts)
+• 1x Ogryn Bone 'ead: Ripper gun
+• 2x Ogryn: 2 with Ripper gun
+5x Ratlings (60 pts): 5 with Close combat weapon, Sniper rifle
+5x Ratlings (60 pts): 5 with Close combat weapon, Sniper rifle
+1x Shadowsword (375 pts): Armoured tracks, 2x Lascannon, Twin heavy bolter, Volcano cannon, 2x Twin heavy bolter, 2x Lascannon, 2x Twin heavy bolter
+
+undefined

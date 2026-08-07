@@ -20,7 +20,7 @@ import bcp_meta as M
 OUTDIR = "docs/meta"
 DIMS = ["faction", "disposition", "detachment"]
 LOWN = 30                       # win% below this many games is flagged as noisy
-TOP_CUT_N = 8                   # "top cut" = top-8 finishers per event (StatCheck/community convention)
+TOP_CUT_N = 10                  # "top cut" = top-10 finishers per event
 # generic / mis-entered faction labels that aren't a real BCP army (drop from the faction table)
 JUNK_FACTIONS = {"", "chaos", "unaligned", "unknown", "n/a", "other", "none"}
 

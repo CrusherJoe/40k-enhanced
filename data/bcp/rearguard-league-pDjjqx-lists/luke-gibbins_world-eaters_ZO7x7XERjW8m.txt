@@ -1,0 +1,70 @@
+# Luke Gibbins | World Eaters | Priority Assets | team=Rearguard Renegades
+# list: https://www.bestcoastpairings.com/list/ZO7x7XERjW8m  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - World Eaters
++ DETACHMENT: Brazen Engines, Cult of Blood (Rampaging Terrors)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Angron
++ ENHANCEMENT: Brazen Form (on Char2: Daemon Prince of Khorne)
+& Butcher Lord (on Char3: Slaughterbound)
+& Talons of Butchery (on Vehi3: Maulerfiend)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (4x2) + (2x4) - Assassination: 3 Characters - Cull The Horde: 2x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Angron (330 pts): Warlord, Samni’arius and Spinegrinder
+Char2: 1x Daemon Prince of Khorne (225 pts): Hellforged weapons, Infernal cannon
+Enhancement: Brazen Form (+25 pts)
+Char3: 1x Slaughterbound (110 pts): Lacerator and daemonic claw
+Enhancement: Butcher Lord (+10 pts)
+
+8x Goremongers (75 pts)
+• 1x Blood Herald: Autopistol, Chainblade, Close combat weapon
+• 7x Goremonger: 7 with Autopistol, Chainblade, Close combat weapon
+20x Jakhals (130 pts)
+• 17x Jakhal
+    15 with Autopistol, Chainblades
+    2 with Icon of Khorne, Autopistol, Mauler chainblade
+• 1x Jakhal Pack Leader: Autopistol, Chainblades
+• 2x Dishonoured: 2 with Skullsmasher and mangler
+20x Jakhals (130 pts)
+• 17x Jakhal
+    15 with Autopistol, Chainblades
+    2 with Icon of Khorne, Autopistol, Mauler chainblade
+• 1x Jakhal Pack Leader: Autopistol, Chainblades
+• 2x Dishonoured: 2 with Skullsmasher and mangler
+10x Jakhals (65 pts)
+• 8x Jakhal
+    7 with Autopistol, Chainblades
+    1 with Icon of Khorne, Autopistol, Mauler chainblade
+• 1x Jakhal Pack Leader: Autopistol, Chainblades
+• 1x Dishonoured: Skullsmasher and mangler
+10x Jakhals (65 pts)
+• 8x Jakhal
+    7 with Autopistol, Chainblades
+    1 with Icon of Khorne, Autopistol, Mauler chainblade
+• 1x Jakhal Pack Leader: Autopistol, Chainblades
+• 1x Dishonoured: Skullsmasher and mangler
+10x Jakhals (65 pts)
+• 8x Jakhal
+    7 with Autopistol, Chainblades
+    1 with Icon of Khorne, Autopistol, Mauler chainblade
+• 1x Jakhal Pack Leader: Autopistol, Chainblades
+• 1x Dishonoured: Skullsmasher and mangler
+10x Jakhals (65 pts)
+• 8x Jakhal
+    7 with Autopistol, Chainblades
+    1 with Icon of Khorne, Autopistol, Mauler chainblade
+• 1x Jakhal Pack Leader: Autopistol, Chainblades
+• 1x Dishonoured: Skullsmasher and mangler
+
+1x Defiler (285 pts): Ectoplasma destructor, 2x Excruciator cannon, Heavy baleflamer, Heavy reaper autocannon, Shearing claws
+1x Forgefiend (155 pts): 2x Ectoplasma cannon, Ectoplasma cannon, Forgefiend claws
+1x Maulerfiend (160 pts): Maulerfiend fists, 2x Magma cutter
+Enhancement: Talons of Butchery (+20 pts)
+1x Maulerfiend (140 pts): Maulerfiend fists, 2x Magma cutter
+
+undefined

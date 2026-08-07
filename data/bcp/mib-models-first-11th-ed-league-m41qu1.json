@@ -1,0 +1,244 @@
+{
+ "event": {
+  "id": "m41qu1n2uQb5",
+  "name": "MIB Models First 11th Ed League",
+  "totalPlayers": 26,
+  "eventDate": "2026-08-03T09:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Scott Turner",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": "Leek & Destroy",
+   "dropped": false,
+   "listId": "4vYNEJZJRvCz",
+   "listUrl": "https://www.bestcoastpairings.com/list/4vYNEJZJRvCz"
+  },
+  {
+   "name": "Daniel Hayne",
+   "faction": "Death Guard",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "lJYd0ntjv9v6",
+   "listUrl": "https://www.bestcoastpairings.com/list/lJYd0ntjv9v6"
+  },
+  {
+   "name": "Stuart Geake",
+   "faction": "Imperial Knights",
+   "detachment": "Take and Hold",
+   "team": "Rhondda Renegades",
+   "dropped": false,
+   "listId": "uj9bEaF85OGD",
+   "listUrl": "https://www.bestcoastpairings.com/list/uj9bEaF85OGD"
+  },
+  {
+   "name": "Connor Jones",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "oGf1KlWFUdQG",
+   "listUrl": "https://www.bestcoastpairings.com/list/oGf1KlWFUdQG"
+  },
+  {
+   "name": "Richard Mallinson",
+   "faction": "Genestealer Cult",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "IQY65HT3Z8DZ",
+   "listUrl": "https://www.bestcoastpairings.com/list/IQY65HT3Z8DZ"
+  },
+  {
+   "name": "John Pendlebury",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "bomZ9BS5JKcl",
+   "listUrl": "https://www.bestcoastpairings.com/list/bomZ9BS5JKcl"
+  },
+  {
+   "name": "Ross Taylor",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "BUMSJaQqf97C",
+   "listUrl": "https://www.bestcoastpairings.com/list/BUMSJaQqf97C"
+  },
+  {
+   "name": "Owen Woolcock",
+   "faction": "Chaos Daemons",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "IquK0sf7CAga",
+   "listUrl": "https://www.bestcoastpairings.com/list/IquK0sf7CAga"
+  },
+  {
+   "name": "Matthew Churchill",
+   "faction": "Tyranids",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "Ow11sDFinYZ8",
+   "listUrl": "https://www.bestcoastpairings.com/list/Ow11sDFinYZ8"
+  },
+  {
+   "name": "Cory Thomas",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "BqebtIsMMJLS",
+   "listUrl": "https://www.bestcoastpairings.com/list/BqebtIsMMJLS"
+  },
+  {
+   "name": "Richard  Lewis",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "A37h8lMXNDF0",
+   "listUrl": "https://www.bestcoastpairings.com/list/A37h8lMXNDF0"
+  },
+  {
+   "name": "Liam Haglington",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "Pen-Y-Bont Penguins",
+   "dropped": false,
+   "listId": "8E4PncRdF71v",
+   "listUrl": "https://www.bestcoastpairings.com/list/8E4PncRdF71v"
+  },
+  {
+   "name": "Paul Jones",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "zJlLiLBYpnG1",
+   "listUrl": "https://www.bestcoastpairings.com/list/zJlLiLBYpnG1"
+  },
+  {
+   "name": "Richard Sullivan",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "Pen-Y-Bont Penguins",
+   "dropped": false,
+   "listId": "lzVNINxo9WiJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/lzVNINxo9WiJ"
+  },
+  {
+   "name": "Kevin  Howell",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "NSmjywo92gwv",
+   "listUrl": "https://www.bestcoastpairings.com/list/NSmjywo92gwv"
+  },
+  {
+   "name": "Morgan Tarr",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "Qb2JoKkyOo7s",
+   "listUrl": "https://www.bestcoastpairings.com/list/Qb2JoKkyOo7s"
+  },
+  {
+   "name": "Jonathan Jenkins",
+   "faction": "T'au Empire",
+   "detachment": "Reconnaissance",
+   "team": "Pen-Y-Bont Penguins",
+   "dropped": false,
+   "listId": "3YeuAtrPgQFZ",
+   "listUrl": "https://www.bestcoastpairings.com/list/3YeuAtrPgQFZ"
+  },
+  {
+   "name": "Peter Butterworth",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "9sULReY58dFW",
+   "listUrl": "https://www.bestcoastpairings.com/list/9sULReY58dFW"
+  },
+  {
+   "name": "Adam Groves",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Pen-Y-Bont Penguins",
+   "dropped": false,
+   "listId": "1HSC1xlGWnsR",
+   "listUrl": "https://www.bestcoastpairings.com/list/1HSC1xlGWnsR"
+  },
+  {
+   "name": "Nicholas coles",
+   "faction": "Adepta Sororitas",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "xNE7W8o5x2If",
+   "listUrl": "https://www.bestcoastpairings.com/list/xNE7W8o5x2If"
+  },
+  {
+   "name": "Damia Price",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": "Pen-Y-Bont Penguins",
+   "dropped": false,
+   "listId": "1vHMimY7948A",
+   "listUrl": "https://www.bestcoastpairings.com/list/1vHMimY7948A"
+  },
+  {
+   "name": "Stephen Davies",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "nYubNgPPoyf7",
+   "listUrl": "https://www.bestcoastpairings.com/list/nYubNgPPoyf7"
+  },
+  {
+   "name": "Daniel Barberini",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "W8HAlPLoS0ZE",
+   "listUrl": "https://www.bestcoastpairings.com/list/W8HAlPLoS0ZE"
+  },
+  {
+   "name": "Stephen Harrison",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "NCAYsebCc8Sy",
+   "listUrl": "https://www.bestcoastpairings.com/list/NCAYsebCc8Sy"
+  },
+  {
+   "name": "Will Scarrett",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "F0qA52Ksr5ZC",
+   "listUrl": "https://www.bestcoastpairings.com/list/F0qA52Ksr5ZC"
+  },
+  {
+   "name": "Alexander Charles",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "SF3lg2LCe1Bz",
+   "listUrl": "https://www.bestcoastpairings.com/list/SF3lg2LCe1Bz"
+  }
+ ]
+}

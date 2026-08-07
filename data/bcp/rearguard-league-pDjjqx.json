@@ -1,0 +1,190 @@
+{
+ "event": {
+  "id": "pDjjqxQ8Hcvt",
+  "name": "Rearguard League",
+  "totalPlayers": 20,
+  "eventDate": "2026-07-31T23:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Andrew Newman",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "zJsbFKBhtQxZ",
+   "listUrl": "https://www.bestcoastpairings.com/list/zJsbFKBhtQxZ"
+  },
+  {
+   "name": "Mike Ponsford",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "tfTWhhqccP4O",
+   "listUrl": "https://www.bestcoastpairings.com/list/tfTWhhqccP4O"
+  },
+  {
+   "name": "Aiden Reid",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "eJo2Oy4mnViJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/eJo2Oy4mnViJ"
+  },
+  {
+   "name": "Conan Snell",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "HihukBaQooYg",
+   "listUrl": "https://www.bestcoastpairings.com/list/HihukBaQooYg"
+  },
+  {
+   "name": "Chris Carter",
+   "faction": "Chaos Knights",
+   "detachment": "Take and Hold",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "az1pLRm3CT09",
+   "listUrl": "https://www.bestcoastpairings.com/list/az1pLRm3CT09"
+  },
+  {
+   "name": "Phil Banfield",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "KSC1qnzvi0Fx",
+   "listUrl": "https://www.bestcoastpairings.com/list/KSC1qnzvi0Fx"
+  },
+  {
+   "name": "Ryan Newman",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "uAG1jf3RzFE6",
+   "listUrl": "https://www.bestcoastpairings.com/list/uAG1jf3RzFE6"
+  },
+  {
+   "name": "Josh Truran",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "qKokovyPXZhm",
+   "listUrl": "https://www.bestcoastpairings.com/list/qKokovyPXZhm"
+  },
+  {
+   "name": "Luke Gibbins",
+   "faction": "World Eaters",
+   "detachment": "Priority Assets",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "ZO7x7XERjW8m",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZO7x7XERjW8m"
+  },
+  {
+   "name": "Seb Nixon",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "2UGpyejwkd30",
+   "listUrl": "https://www.bestcoastpairings.com/list/2UGpyejwkd30"
+  },
+  {
+   "name": "Dave Potter",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "2OdPZkJ9Dl3r",
+   "listUrl": "https://www.bestcoastpairings.com/list/2OdPZkJ9Dl3r"
+  },
+  {
+   "name": "Russ Weeks",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "Y2hbcvM55Y2u",
+   "listUrl": "https://www.bestcoastpairings.com/list/Y2hbcvM55Y2u"
+  },
+  {
+   "name": "Jim Richards",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "zGSwabbEmvrY",
+   "listUrl": "https://www.bestcoastpairings.com/list/zGSwabbEmvrY"
+  },
+  {
+   "name": "Stephen Murray",
+   "faction": "Chaos Knights",
+   "detachment": "Take and Hold",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "jBUQLbJ2yzcF",
+   "listUrl": "https://www.bestcoastpairings.com/list/jBUQLbJ2yzcF"
+  },
+  {
+   "name": "James  Weeks",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "0kswkF8Bl2Oy",
+   "listUrl": "https://www.bestcoastpairings.com/list/0kswkF8Bl2Oy"
+  },
+  {
+   "name": "David Hurst",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Rearguard Renegades",
+   "dropped": false,
+   "listId": "QlvvaniqLzQI",
+   "listUrl": "https://www.bestcoastpairings.com/list/QlvvaniqLzQI"
+  },
+  {
+   "name": "Robert Briggs",
+   "faction": "Necrons",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "RYCkLB1yNiCZ",
+   "listUrl": "https://www.bestcoastpairings.com/list/RYCkLB1yNiCZ"
+  },
+  {
+   "name": "Eo Boullin",
+   "faction": "Blood Angels",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "pPJzmLosWf7X",
+   "listUrl": "https://www.bestcoastpairings.com/list/pPJzmLosWf7X"
+  },
+  {
+   "name": "Jay Shirlaw",
+   "faction": "Necrons",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "0Liy3BG3zoVt",
+   "listUrl": "https://www.bestcoastpairings.com/list/0Liy3BG3zoVt"
+  },
+  {
+   "name": "Harvey Lawson",
+   "faction": "Chaos Daemons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "CimY4xYLLNdM",
+   "listUrl": "https://www.bestcoastpairings.com/list/CimY4xYLLNdM"
+  }
+ ]
+}

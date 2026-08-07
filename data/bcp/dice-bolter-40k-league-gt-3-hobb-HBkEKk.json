@@ -1,0 +1,244 @@
+{
+ "event": {
+  "id": "HBkEKkvQ21gd",
+  "name": "Dice & Bolter 40K League GT #3 @HobbyWorkshop - 1st August - 31st december",
+  "totalPlayers": 26,
+  "eventDate": "2026-08-01T08:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Marc Layfield",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "Carnage",
+   "dropped": false,
+   "listId": "Rgw9zf3p7ZY1",
+   "listUrl": "https://www.bestcoastpairings.com/list/Rgw9zf3p7ZY1"
+  },
+  {
+   "name": "Mat Melia",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "64M1aW5KHZyw",
+   "listUrl": "https://www.bestcoastpairings.com/list/64M1aW5KHZyw"
+  },
+  {
+   "name": "Dom Bould",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Carnage",
+   "dropped": false,
+   "listId": "Si53vf9SPGnq",
+   "listUrl": "https://www.bestcoastpairings.com/list/Si53vf9SPGnq"
+  },
+  {
+   "name": "Jamie Stringer",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Leeds Battle Bunker",
+   "dropped": false,
+   "listId": "KtEKkgDiqrQm",
+   "listUrl": "https://www.bestcoastpairings.com/list/KtEKkgDiqrQm"
+  },
+  {
+   "name": "Lee McMaster",
+   "faction": "Astra Militarum",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "Xr3bsk46Trdw",
+   "listUrl": "https://www.bestcoastpairings.com/list/Xr3bsk46Trdw"
+  },
+  {
+   "name": "Daniel Melia",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "Gk2mQLSf3xdc",
+   "listUrl": "https://www.bestcoastpairings.com/list/Gk2mQLSf3xdc"
+  },
+  {
+   "name": "Ryan Smith",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "yM3Fwy2VaT3Y",
+   "listUrl": "https://www.bestcoastpairings.com/list/yM3Fwy2VaT3Y"
+  },
+  {
+   "name": "Daniel Mycoe",
+   "faction": "Tyranids",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "LVRgYZyxVr8R",
+   "listUrl": "https://www.bestcoastpairings.com/list/LVRgYZyxVr8R"
+  },
+  {
+   "name": "Callum Evans",
+   "faction": "Thousand Sons",
+   "detachment": null,
+   "team": "Trash Wargaming",
+   "dropped": false,
+   "listId": "kcoZXEMYB5zh",
+   "listUrl": "https://www.bestcoastpairings.com/list/kcoZXEMYB5zh"
+  },
+  {
+   "name": "Timothy Marchant",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "2Ban4qArchaM",
+   "listUrl": "https://www.bestcoastpairings.com/list/2Ban4qArchaM"
+  },
+  {
+   "name": "JOSHUA-ALAN JAMES",
+   "faction": "Chaos Knights",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "Nb6AsEztbZB2",
+   "listUrl": "https://www.bestcoastpairings.com/list/Nb6AsEztbZB2"
+  },
+  {
+   "name": "Alastair Kennedy",
+   "faction": "Grey Knights",
+   "detachment": null,
+   "team": "Carnage",
+   "dropped": false,
+   "listId": "mqRmuvEVOvWT",
+   "listUrl": "https://www.bestcoastpairings.com/list/mqRmuvEVOvWT"
+  },
+  {
+   "name": "James Kay",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "3BSl3C3pCMJf",
+   "listUrl": "https://www.bestcoastpairings.com/list/3BSl3C3pCMJf"
+  },
+  {
+   "name": "Paul Strutt",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Carnage",
+   "dropped": false,
+   "listId": "9OEDDSimcEVe",
+   "listUrl": "https://www.bestcoastpairings.com/list/9OEDDSimcEVe"
+  },
+  {
+   "name": "William Strutt",
+   "faction": "Chaos Knights",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "MLc2M2wlQdsa",
+   "listUrl": "https://www.bestcoastpairings.com/list/MLc2M2wlQdsa"
+  },
+  {
+   "name": "Thomas Todd",
+   "faction": "Astra Militarum",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "GUSgklaxXPjE",
+   "listUrl": "https://www.bestcoastpairings.com/list/GUSgklaxXPjE"
+  },
+  {
+   "name": "Ben Viscardi-clancy",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "PANImwefrjWL",
+   "listUrl": "https://www.bestcoastpairings.com/list/PANImwefrjWL"
+  },
+  {
+   "name": "Darren Corp",
+   "faction": "Tyranids",
+   "detachment": "Disruption",
+   "team": "Carnage",
+   "dropped": false,
+   "listId": "CJyHN3CxzcEW",
+   "listUrl": "https://www.bestcoastpairings.com/list/CJyHN3CxzcEW"
+  },
+  {
+   "name": "Lord Myland",
+   "faction": "Blood Angels",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "X59lbnuLDRop",
+   "listUrl": "https://www.bestcoastpairings.com/list/X59lbnuLDRop"
+  },
+  {
+   "name": "Damien Moore",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "LS15 Nobz",
+   "dropped": false,
+   "listId": "RRT09GGARITw",
+   "listUrl": "https://www.bestcoastpairings.com/list/RRT09GGARITw"
+  },
+  {
+   "name": "Caprice Whitehead",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "770GomnofLSq",
+   "listUrl": "https://www.bestcoastpairings.com/list/770GomnofLSq"
+  },
+  {
+   "name": "Paul Danforth",
+   "faction": "Blood Angels",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Lee Callan",
+   "faction": "Adeptus Custodes",
+   "detachment": "Priority Assets",
+   "team": "Bound By War",
+   "dropped": false,
+   "listId": "m0A5oJJi9uvB",
+   "listUrl": "https://www.bestcoastpairings.com/list/m0A5oJJi9uvB"
+  },
+  {
+   "name": "Craig Nevet",
+   "faction": "Chaos Daemons",
+   "detachment": "Reconnaissance",
+   "team": "Bound By War",
+   "dropped": false,
+   "listId": "uWafiAXHHe9g",
+   "listUrl": "https://www.bestcoastpairings.com/list/uWafiAXHHe9g"
+  },
+  {
+   "name": "Chris Sayer",
+   "faction": null,
+   "detachment": null,
+   "team": "Dice & Bolter",
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Matt Hines",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Dice & Bolter",
+   "dropped": false,
+   "listId": "ifRowX75aWOJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/ifRowX75aWOJ"
+  }
+ ]
+}
