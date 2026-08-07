@@ -122,6 +122,54 @@ def candidates(event_db, player):
     return row, tch, fac, cuts, adds, nf, nt
 
 
+def dead_weight(me0, gaunt, games=150, seed=11):
+    """Per-unit WORK read (from analyze.diagnose vs a couple of gauntlet opponents): share of the army's damage
+    it deals + how often it survives. 'Dead weight' = does little damage AND isn't a non-damage-role body
+    (screen/action/fast do board work without dealing wounds) — i.e. genuinely replaceable, not just points."""
+    from wh.sim import analyze
+    dealt = collections.Counter(); surv = collections.Counter(); cnt = collections.Counter(); tot_games = 0
+    for _, opp in gaunt[:2]:
+        d = analyze.diagnose(cached(me0), cached(opp), games=games, seed=seed)
+        for k, v in d["dealt"].items():
+            dealt[k] += v
+        for k, v in d["my_survivors"].items():
+            surv[k] += v
+        cnt = d["me_counts"]; tot_games += d["games"]
+    tot = sum(dealt.values()) or 1
+    out = {}
+    for u in me0.units:
+        share = dealt.get(u.name, 0) / tot
+        s = surv.get(u.name, 0) / max(1, tot_games * cnt.get(u.name, 1))
+        out[u.name] = dict(share=share, surv=s, role=u.role,
+                           dead=(share < 0.04 and u.role not in ("screen", "action", "fast")))
+    return out
+
+
+def homes(me0, unit):
+    """Would this (character) unit find a home? Append it, run the real attach heuristic, see if it embeds
+    into a bodyguard. A character that can't attach is the 'lone Captain buffs no one and dies' anti-pattern."""
+    from wh.sim import attach
+    a = copy.deepcopy(me0); a.units.append(copy.deepcopy(unit))
+    try:
+        attach.attach_all(a)
+    except Exception:
+        return None
+    return any(u.name == unit.name and getattr(u, "embedded", False) for u in a.units)
+
+
+def detach_perf(fac):
+    """Data-driven detachment read (ALL factions): your faction's detachments ranked by real mean finish
+    %ile (lower = better) + list count, from the corpus. This is how the article's 'detachment strength
+    dominates' shows up in results — we can't sim most detachments' rules, but we can show what's WINNING."""
+    corpus = BM.load_corpus()
+    by = collections.defaultdict(list)
+    for r in corpus:
+        if r["faction"] == fac and r.get("detach"):
+            by[r["detach"]].append(r["pct"])
+    rows = [dict(name=d, pct=sum(v) / len(v), n=len(v)) for d, v in by.items() if len(v) >= 3]
+    return sorted(rows, key=lambda x: x["pct"])
+
+
 def simrec(event_db, player, gsize=6, screen=120, final=400, seed=11):
     row, tch, fac, cuts, adds, nf, nt = candidates(event_db, player)
     slug = L._FACTION_SLUG.get(fac)
@@ -131,49 +179,70 @@ def simrec(event_db, player, gsize=6, screen=120, final=400, seed=11):
         sys.exit("could not build a gauntlet (no loadable top-cut opponents on disk)")
     base = gauntlet_margin(cached(me0), gaunt, screen, seed)
 
-    # role coverage of the current list (for the "leaves a hole?" read)
-    roles = collections.defaultdict(list)
+    roles = collections.defaultdict(list)          # role coverage (for the "leaves a hole?" read)
     for u in me0.units:
         roles[u.role].append(u.name)
+    work = dead_weight(me0, gaunt, games=max(80, screen))   # #1: damage-share / dead-weight per unit
 
-    # --- CUT ledger: what does removing each flagged unit DO? ---
+    # --- CUT ledger: what removing each flagged unit DOES + whether it's dead weight or a keeper ---
     cut_rows = []
-    for cu, cs in cuts[:5]:
+    for cu, cs in cuts[:6]:
         if cu not in {u.name for u in me0.units}:
             continue
         role = next((u.role for u in me0.units if u.name == cu), "?")
         m = gauntlet_margin(cached(with_change(me0, cut=cu)), gaunt, screen, seed)
-        only = len(roles.get(role, [])) <= 1
-        cut_rows.append(dict(name=cu, role=role, lift=cs["lift"], delta=m - base, only=only))
+        w = work.get(cu, {})
+        cut_rows.append(dict(name=cu, role=role, lift=cs["lift"], delta=m - base,
+                             only=len(roles.get(role, [])) <= 1,
+                             share=w.get("share", 0), surv=w.get("surv", 0), dead=w.get("dead", False)))
 
-    # --- SWAP ledger: role-matched, synthesizable adds; rebuild + re-sim ---
-    swap_rows = []
-    used = set()
-    for cu, cs in cuts[:5]:
+    # --- SWAP ledger (#3: any role, but a CHARACTER add must find a HOME; the sim judges the rest) ---
+    swap_rows = []; used = set()
+    for cu, cs in cuts[:6]:
         crole = next((u.role for u in me0.units if u.name == cu), None)
         if crole is None:
             continue
-        for au, as_ in adds:
+        best_for_cut = None
+        for au, as_ in adds[:12]:
             if au in used:
                 continue
             unit = synth_unit(slug, au)
-            if unit is None or unit.role != crole:          # must model + be the same role as what we cut
+            if unit is None:
+                continue
+            homed = homes(me0, unit) if unit.role == "character" else None
+            if homed is False:                              # homeless character = the 'lone Captain' anti-pattern
                 continue
             m = gauntlet_margin(cached(with_change(me0, cut=cu, add_unit=unit)), gaunt, screen, seed)
-            used.add(au)
-            swap_rows.append(dict(cut=cu, add=au, role=crole, delta=m - base,
-                                  add_threat=unit.threat, top=as_["top_rate"]))
-            break
-    # re-verify the single best swap at the higher game count
+            r = dict(cut=cu, add=au, crole=crole, arole=unit.role, delta=m - base,
+                     homed=homed, samerole=(unit.role == crole), top=as_["top_rate"])
+            if best_for_cut is None or r["delta"] > best_for_cut["delta"]:
+                best_for_cut = r
+        if best_for_cut:
+            used.add(best_for_cut["add"]); swap_rows.append(best_for_cut)
     best = max(swap_rows, key=lambda r: r["delta"], default=None)
-    if best and best["delta"] > 0:
+    if best and best["delta"] > 0:                          # re-verify the single best swap at higher games
         unit = synth_unit(slug, best["add"])
-        best["delta"] = gauntlet_margin(cached(with_change(me0, cut=best["cut"], add_unit=unit)),
-                                        gaunt, final, seed) - gauntlet_margin(cached(me0), gaunt, final, seed)
+        best["delta"] = (gauntlet_margin(cached(with_change(me0, cut=best["cut"], add_unit=unit)), gaunt, final, seed)
+                         - gauntlet_margin(cached(me0), gaunt, final, seed))
         best["verified"] = final
 
+    # --- #2 DETACHMENT test: data-driven for all factions; sim'd if we have effect models (Custodes) ---
+    dperf = detach_perf(fac)
+    det_sim = None
+    try:
+        from wh.sim import detachments as D
+        if slug == "adeptus-custodes":
+            rows = []
+            for dn in D.CUSTODES:
+                mb = lambda dn=dn: D.apply_detachment(copy.deepcopy(me0), dn)
+                rows.append((dn, gauntlet_margin(mb, gaunt, screen, seed) - base, D.DP.get(dn, 1)))
+            det_sim = sorted(rows, key=lambda x: -x[1])
+    except Exception:
+        det_sim = None
+
     return dict(me=me0.name, chapter=tch, fac=fac, base=base, gaunt=[g[0] for g in gaunt],
-                roles=dict(roles), cuts=cut_rows, swaps=swap_rows, best=best, screen=screen)
+                cur_detach=row["detachment"], roles=dict(roles), cuts=cut_rows, swaps=swap_rows,
+                best=best, screen=screen, dperf=dperf, det_sim=det_sim)
 
 
 def report(r):
@@ -184,31 +253,45 @@ def report(r):
     L_.append(f"  read, NOT a win% — trust the Δ). baseline margin: {r['base']:+.1f} VP  ({r['screen']} games/opp)")
     L_.append("  gauntlet: " + "; ".join(g[:38] for g in r["gaunt"]))
     L_.append("")
-    L_.append("WHAT CUTTING EACH FLAGGED UNIT DOES (list minus the unit, re-simmed):")
+    L_.append("WHAT CUTTING EACH FLAGGED UNIT DOES (re-simmed; 'work' = share of your army's damage, from the sim):")
     for c in r["cuts"]:
-        hole = "  ⚠ ONLY source of this role — leaves a HOLE" if c["only"] else ""
-        sign = "improves" if c["delta"] > 0.3 else ("hurts" if c["delta"] < -0.3 else "~neutral")
-        L_.append(f"  - {c['name'][:26]:26} (role {c['role']:9}) board {c['delta']:+.1f} VP → {sign}{hole}")
+        hole = "  ⚠ ONLY source of role — HOLE" if c["only"] else ""
+        tag = "DEAD WEIGHT — safe to replace" if c["dead"] else ("KEEPER — earns its board" if c["delta"] < -0.3 else "marginal")
+        L_.append(f"  - {c['name'][:24]:24} ({c['role']:9}) board {c['delta']:+5.1f} VP · work {c['share']*100:>3.0f}% · lives {c['surv']*100:>3.0f}% → {tag}{hole}")
     if not r["cuts"]:
         L_.append("  (nothing in your list under-indexes with winners)")
     L_.append("")
-    L_.append("ROLE-MATCHED SWAPS, RE-SIMMED (cut A → add a meta staple of the SAME role, rebuilt & tested):")
+    L_.append("TESTED SWAPS (cut A → add a meta staple, army REBUILT & re-simmed; character adds must find a home):")
     for s in sorted(r["swaps"], key=lambda s: -s["delta"]):
-        v = f"  [verified {r['best']['verified']}g]" if r.get("best") and s is r["best"] and r["best"].get("verified") else ""
+        v = "  [verified]" if r.get("best") and s is r["best"] and r["best"].get("verified") else ""
         sign = "GAIN" if s["delta"] > 0.3 else ("LOSS" if s["delta"] < -0.3 else "wash")
-        L_.append(f"  −{s['cut'][:22]:22} +{s['add'][:22]:22} (role {s['role']:9}) board {s['delta']:+.1f} VP → {sign}{v}")
+        rl = f"{s['arole']}" + ("" if s["samerole"] else f"←{s['crole']}")
+        home = " ·homed" if s["homed"] else (" ·LONE-CHAR" if s["homed"] is False else "")
+        L_.append(f"  −{s['cut'][:20]:20} +{s['add'][:20]:20} ({rl:16}) board {s['delta']:+5.1f} VP → {sign}{home}{v}")
     if not r["swaps"]:
-        L_.append("  (no role-matched, Chapter-legal, modellable meta staple to swap in)")
+        L_.append("  (no Chapter-legal, modellable meta staple improved the board when tested)")
+    L_.append("")
+    # #2 DETACHMENT test
+    L_.append(f"DETACHMENT (yours: {r.get('cur_detach') or '?'}):")
+    if r.get("det_sim"):
+        L_.append("  SIM'd (this list re-run under each modeled detachment vs the gauntlet):")
+        for dn, d, dp in r["det_sim"]:
+            L_.append(f"    {dn[:30]:30} {dp}DP  board {d:+.1f} VP vs current")
+    dp = r.get("dperf") or []
+    if dp:
+        L_.append(f"  REAL RESULTS — {r['fac']} detachments by mean finish %ile (lower=better; from the corpus):")
+        for d in dp[:6]:
+            here = "  ← yours" if r.get("cur_detach") and d["name"] in r["cur_detach"] else ""
+            L_.append(f"    {d['name'][:30]:30} {d['pct']*100:>3.0f}%ile  (n={d['n']}){here}")
     L_.append("")
     b = r.get("best")
     if b and b["delta"] > 0.3:
         L_.append(f"VERDICT: the strongest TESTED change is −{b['cut']} +{b['add']} "
-                  f"({b['delta']:+.1f} VP board swing vs the meta). It keeps your {b['role']} role and the sim")
-        L_.append("  shows the army holding more board — but eyeball the actual wargear/synergy before finalising.")
+                  f"({b['delta']:+.1f} VP board swing vs the meta). Eyeball the exact wargear/synergy before finalising.")
     else:
-        L_.append("VERDICT: no single tested swap clearly improves the board vs the meta — the gap is structural")
-        L_.append("  (disposition / detachment / whole-army tempo), not one unit. Cutting the flagged units without")
-        L_.append("  a same-role replacement would LOSE board (see holes above).")
+        L_.append("VERDICT: no single tested swap clearly improves the board — the gap is structural (disposition/")
+        L_.append("  detachment/tempo), not one unit. Cutting a KEEPER without a same-role replacement LOSES board;")
+        L_.append("  if a better detachment shows above, that's the higher-leverage move than any unit swap.")
     L_.append("")
     L_.append("  CAVEAT: candidate adds use default wargear/size and the sim's auto role/threat; VP margin is a")
     L_.append("  mechanistic board read, not a win%. This TESTS the holistic 'what do I lose/gain', but confirm")
