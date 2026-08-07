@@ -13,10 +13,20 @@ Current-balance 11E corpus (>=28 players / 5 rounds): LSO 2026, NM2026, Denver A
 it finished in the best third of its event. Thin for small factions — sample sizes are always shown; a
 fresh BCP token + tools/bcp_corpus can widen it.
 """
-import sys, os, json, sqlite3, argparse, collections, glob
+import sys, os, re, json, sqlite3, argparse, collections, glob
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src"))
 
 TOP_FRAC = 1 / 3.0            # a list is "top" if in the best third of its event
+# DATASLATE hygiene: a BCP army list's footer carries "Data Version: vNNN". Per hutber's metaVersion map,
+# appVersion 909 = "11th Release" (gameVersion 18, PRE the 1st dataslate); 912/913+ = "1st 11th update"
+# (gameVersion 19, CURRENT). So the current-balance corpus is data-version >= 912 — this drops pre-dataslate
+# games that a plain DATE cutoff misses (the 1st dataslate dropped mid-window, ~Aug 1).
+MIN_DATA_VERSION = 912
+
+
+def _data_version(army_text):
+    m = re.search(r"Data Version:\s*v?(\d+)", army_text or "")
+    return int(m.group(1)) if m else None
 
 
 def all_events():
@@ -36,9 +46,12 @@ def load_corpus(events=None):
         placings = {p["player"]: p["placing"] for p in json.load(open(f"data/bcp/{ev}-placings.json"))["placings"]}
         n = max([p for p in placings.values() if p] or [1])
         con = sqlite3.connect(f"data/bcp/{ev}.sqlite"); con.row_factory = sqlite3.Row
-        for r in con.execute("SELECT list_id,player,faction,detachment,disposition FROM lists"):
+        for r in con.execute("SELECT list_id,player,faction,detachment,disposition,army_text FROM lists"):
             pl = placings.get(r["player"])
             if not pl or not r["faction"]:
+                continue
+            dv = _data_version(r["army_text"])
+            if dv is None or dv < MIN_DATA_VERSION:      # drop pre-dataslate + unverifiable lists (hygiene)
                 continue
             units = collections.Counter(u[0] for u in
                                         con.execute("SELECT name FROM units WHERE list_id=?", (r["list_id"],)))
