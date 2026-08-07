@@ -56,6 +56,7 @@ def build_data():
     agg = {dim: collections.defaultdict(lambda: collections.defaultdict(lambda: {"games": 0, "wins": 0, "players": 0}))
            for dim in DIMS}
     weeks = set()
+    wkg = collections.Counter()             # decided games per meta-week
     n_events = 0
     total_games = 0
     for ev, wk in _events():
@@ -77,7 +78,7 @@ def build_data():
             if (p.get("p1_pts") is None or p.get("p2_pts") is None or p["p1_pts"] == p["p2_pts"]
                     or p["p1"] not in pdim or p["p2"] not in pdim):
                 continue
-            total_games += 1
+            total_games += 1; wkg[wk] += 1
             p1win = p["p1_pts"] > p["p2_pts"]
             for who, win in ((p["p1"], p1win), (p["p2"], not p1win)):
                 for dim in DIMS:
@@ -107,7 +108,10 @@ def build_data():
         "weeks": [{"start": w,
                    "short": dt.date.fromisoformat(w).strftime("%b %-d"),
                    "label": (dt.date.fromisoformat(w).strftime("%b %-d") + "–"
-                             + (dt.date.fromisoformat(w) + dt.timedelta(days=6)).strftime("%b %-d"))}
+                             + (dt.date.fromisoformat(w) + dt.timedelta(days=6)).strftime("%b %-d")),
+                   "games": wkg[w],
+                   # the meta week hasn't finished (its Tuesday end is today or later) -> still filling in
+                   "in_progress": (dt.date.fromisoformat(w) + dt.timedelta(days=6)) >= dt.date.today()}
                   for w in weeks],
         **{dim: dim_rows(dim) for dim in DIMS},
     }

@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-07T20:10Z",
+ "generated_utc": "2026-08-07T20:16Z",
  "min_data_version": 912,
  "low_n": 30,
  "summary": {
@@ -15,17 +15,23 @@
   {
    "start": "2026-07-22",
    "short": "Jul 22",
-   "label": "Jul 22\u2013Jul 28"
+   "label": "Jul 22\u2013Jul 28",
+   "games": 374,
+   "in_progress": false
   },
   {
    "start": "2026-07-29",
    "short": "Jul 29",
-   "label": "Jul 29\u2013Aug 4"
+   "label": "Jul 29\u2013Aug 4",
+   "games": 3070,
+   "in_progress": false
   },
   {
    "start": "2026-08-05",
    "short": "Aug 5",
-   "label": "Aug 5\u2013Aug 11"
+   "label": "Aug 5\u2013Aug 11",
+   "games": 4,
+   "in_progress": true
   }
  ],
  "faction": [

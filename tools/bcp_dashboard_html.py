@@ -178,7 +178,7 @@ function initChrome(){
   const sel=document.getElementById("weeksel");
   const t4=DATA.weeks.length>1?`<option value="__T4__">Last 4 weeks</option>`:"";
   sel.innerHTML=`<option value="__ALL__">All weeks (cumulative)</option>`+t4+
-    DATA.weeks.map(w=>`<option value="${w.start}">Week of ${w.label}</option>`).join("");
+    DATA.weeks.map(w=>`<option value="${w.start}">Week of ${w.label}${w.in_progress?" (in progress)":""}</option>`).join("");
   document.getElementById("dimseg").addEventListener("click",e=>{
     const b=e.target.closest("button"); if(!b)return;
     dim=b.dataset.dim; [...e.currentTarget.children].forEach(x=>x.setAttribute("aria-pressed",x===b));
@@ -234,7 +234,9 @@ function drawChart(rows){
   const weeks=DATA.weeks; const top=rows.slice(0,6).map(r=>r.row);
   const cap=document.getElementById("chartcap");
   if(weeks.length<1||!top.length){svg.innerHTML="";cap.textContent="No data.";document.getElementById("legend").innerHTML="";return;}
-  cap.textContent=`Top ${top.length} ${dim==="faction"?"factions":dim+"s"} by field share · weekly win rate (games-weighted). 50% = even.`;
+  const anyIP=weeks.some(w=>w.in_progress);
+  cap.textContent=`Top ${top.length} ${dim==="faction"?"factions":dim+"s"} by field share · weekly win rate (games-weighted). 50% = even.`
+    +(anyIP?" · dashed/hollow = current week, still in progress.":"");
   const xs=weeks.map((w,i)=>weeks.length===1?(L+(W-L-R)/2):(L+i*(W-L-R)/(weeks.length-1)));
   const y0=0.35,y1=0.65, y=v=>T+(1-(Math.min(y1,Math.max(y0,v))-y0)/(y1-y0))*(H-T-B);
   let g="";
@@ -247,9 +249,16 @@ function drawChart(rows){
   weeks.forEach((w,i)=>{g+=`<text x="${xs[i]}" y="${H-12}" text-anchor="middle" font-size="10.5" fill="var(--muted)">${w.short||w.label}</text>`;});
   top.forEach((r,ti)=>{
     const col=LINE[ti%LINE.length];
-    const pts=weeks.map((w,i)=>{const c=r.byweek[w.start];const v=(c&&c.games)?c.wins/c.games:null;return v==null?null:[xs[i],y(v),c.games];}).filter(Boolean);
-    if(pts.length>1){g+=`<polyline fill="none" stroke="${col}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" points="${pts.map(p=>p[0]+","+p[1]).join(" ")}"/>`;}
-    pts.forEach(p=>{g+=`<circle cx="${p[0]}" cy="${p[1]}" r="${pts.length===1?4:3.2}" fill="${col}"><title>${esc(r.name)} · ${(100*(p[1]?0:0))}</title></circle>`;});
+    const pts=weeks.map((w,i)=>{const c=r.byweek[w.start];const v=(c&&c.games)?c.wins/c.games:null;
+      return v==null?null:{x:xs[i],y:y(v),ip:!!w.in_progress,g:c.games,wr:v};});
+    for(let i=0;i<pts.length-1;i++){const a=pts[i],b=pts[i+1];if(!a||!b)continue;
+      const dash=(a.ip||b.ip)?'stroke-dasharray="4 4"':'';
+      g+=`<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="${col}" stroke-width="2.2" stroke-linecap="round" ${dash}/>`;}
+    pts.forEach(p=>{if(!p)return;
+      const t=`<title>${esc(r.name)} · ${(100*p.wr).toFixed(0)}% (${p.g} games)${p.ip?" — in progress":""}</title>`;
+      g+= p.ip
+        ? `<circle cx="${p.x}" cy="${p.y}" r="3.6" fill="var(--surface)" stroke="${col}" stroke-width="2">${t}</circle>`
+        : `<circle cx="${p.x}" cy="${p.y}" r="3.2" fill="${col}">${t}</circle>`;});
   });
   svg.innerHTML=g;
   document.getElementById("legend").innerHTML=top.map((r,ti)=>`<span><i style="background:${LINE[ti%LINE.length]}"></i>${esc(r.name)}</span>`).join("");
