@@ -94,6 +94,31 @@ def unit_stats(corpus, faction):
     return stats, nf, len(tops)
 
 
+def cmd_winrates(corpus=None):
+    """Faction WIN RATES from real pairings (the hutber-style table, from our OWN data) — current-dataslate
+    only: a game counts only when BOTH players' lists are current (Data Version >= MIN_DATA_VERSION)."""
+    import collections as _c
+    w, n = _c.Counter(), _c.Counter()
+    games = 0
+    for ev in all_events():
+        con = sqlite3.connect(f"data/bcp/{ev}.sqlite"); con.row_factory = sqlite3.Row
+        fac = {}
+        for r in con.execute("SELECT player,faction,army_text FROM lists"):
+            dv = _data_version(r["army_text"])
+            if r["faction"] and dv is not None and dv >= MIN_DATA_VERSION:
+                fac[r["player"]] = r["faction"]
+        for p in json.load(open(f"data/bcp/{ev}-pairings.json")):
+            if (p.get("p1_pts") is not None and p.get("p2_pts") is not None and p["p1_pts"] != p["p2_pts"]
+                    and p["p1"] in fac and p["p2"] in fac):
+                f1, f2 = fac[p["p1"]], fac[p["p2"]]; p1w = p["p1_pts"] > p["p2_pts"]
+                n[f1] += 1; n[f2] += 1; w[f1] += p1w; w[f2] += (not p1w); games += 1
+    print(f"FACTION WIN RATES — current-dataslate ({games} games, both-sides; from our corpus)")
+    print(f"  {'faction':26} {'win%':>5} {'games':>6}")
+    for f in sorted([f for f in n if n[f] >= 30], key=lambda f: -w[f] / n[f]):
+        print(f"  {f[:26]:26} {100*w[f]/n[f]:>4.0f}% {n[f]:>6}")
+    print("  (factions with <30 current-dataslate games hidden; ~50% = balanced)")
+
+
 def cmd_meta(corpus):
     perf = faction_perf(corpus)
     print(f"FACTION PERFORMANCE — current-balance 11E ({len(corpus)} lists, top = best third of event)")
@@ -200,11 +225,13 @@ def cmd_recommend(corpus, ev, player):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["meta", "units", "recommend"])
+    ap.add_argument("cmd", choices=["meta", "winrates", "units", "recommend"])
     ap.add_argument("a", nargs="?"); ap.add_argument("b", nargs="?")
     args = ap.parse_args()
     corpus = load_corpus()
-    if args.cmd == "meta":
+    if args.cmd == "winrates":
+        cmd_winrates(corpus)
+    elif args.cmd == "meta":
         cmd_meta(corpus)
     elif args.cmd == "units":
         cmd_units(corpus, args.a)
