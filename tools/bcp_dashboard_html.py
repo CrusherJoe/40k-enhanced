@@ -68,9 +68,9 @@ select{appearance:none;background:var(--surface);color:var(--ink);border:1px sol
 .count{font-size:12.5px;color:var(--muted);align-self:center}
 
 .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden}
-.lead{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin:0 0 18px;padding:12px 16px;
+.lead{display:flex;flex-direction:column;gap:9px;margin:0 0 18px;padding:12px 16px;
   background:var(--surface);border:1px solid var(--border);border-radius:12px}
-.lead .eyebrow{align-self:center}
+.lchips{display:flex;flex-wrap:wrap;gap:10px 24px;align-items:baseline}
 .lchip{display:inline-flex;align-items:baseline;gap:6px;font-size:15px}
 .lchip .medal{font-size:15px}
 .lchip small{color:var(--muted);font-size:12px}
@@ -228,9 +228,11 @@ function render(){
   const medals=["🥇","🥈","🥉"];
   document.getElementById("leaders").innerHTML=
     `<span class="eyebrow">Top win rate · ${dname} · ${wkLabel}</span>`+
+    `<div class="lchips">`+
     (elig.length?elig.map((r,i)=>`<span class="lchip"><span class="medal">${medals[i]}</span> <b>${esc(r.name)}</b> `
       +`<b class="num" style="color:${pctColor(r.wr)}">${(100*r.wr).toFixed(0)}%</b> <small class="num">${r.games} games</small></span>`).join("")
-     :`<span class="lchip"><span class="dash">not enough games yet (need ≥${DATA.low_n})</span></span>`);
+     :`<span class="lchip"><span class="dash">not enough games yet (need ≥${DATA.low_n})</span></span>`)+
+    `</div>`;
 
   const N=DATA.top_cut_n||8;
   const cols=[["name","Name","l"],["players","Field share",""],["top",`Top ${N} share`,""],
