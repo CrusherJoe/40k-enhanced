@@ -30,7 +30,10 @@ API = "https://newprod-api.bestcoastpairings.com/v1"
 SITE = "https://www.bestcoastpairings.com"
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/124.0 Safari/537.36")
-HEADERS = {"User-Agent": UA, "client-id": "web-app", "Accept": "application/json"}
+# NB: BCP's API gateway REQUIRES the custom `env: bcp` header on auth-gated calls (/armylists/<id>) — without
+# it a valid token still 403s. origin/referer match the web app. (Confirmed by diffing a working browser cURL.)
+HEADERS = {"User-Agent": UA, "client-id": "web-app", "Accept": "*/*", "env": "bcp",
+           "origin": SITE, "referer": SITE + "/"}
 DELAY_S = 0.4          # gentle between pages
 PAGE = 99              # must be < 100
 
