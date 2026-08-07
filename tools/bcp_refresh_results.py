@@ -86,10 +86,31 @@ def refresh(slug):
     return len(placings), dec, src
 
 
+def _is_final(slug, stale_days=12):
+    """FINAL (skip on incremental runs) = has non-empty standings AND the event is >stale_days old (so it
+    can't still be finalizing). Recent events keep refreshing daily until they settle (cheap; self-limiting)."""
+    try:
+        if not (json.load(open(f"data/bcp/{slug}-placings.json")).get("placings") or []):
+            return False                                   # no standings yet -> always refresh
+        d = json.load(open(f"data/bcp/{slug}.json"))["event"].get("eventDate")
+        if not d:
+            return True                                    # has standings, unknown date -> treat as done
+        import datetime as _dt
+        age = (_dt.datetime.now(_dt.timezone.utc) - _dt.datetime.fromisoformat(d.replace("Z", "+00:00"))).days
+        return age > stale_days
+    except Exception:
+        return False
+
+
 def main():
-    slugs = sys.argv[1:] or sorted(os.path.basename(p)[:-5] for p in glob.glob("data/bcp/*.json")
-                                   if not p.endswith(("-placings.json", "-pairings.json"))
-                                   and os.path.exists(p[:-5] + ".sqlite"))
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    incremental = "--incomplete-only" in sys.argv[1:] or "--incremental" in sys.argv[1:]
+    slugs = args or sorted(os.path.basename(p)[:-5] for p in glob.glob("data/bcp/*.json")
+                           if not p.endswith(("-placings.json", "-pairings.json"))
+                           and os.path.exists(p[:-5] + ".sqlite"))
+    if incremental:
+        slugs = [s for s in slugs if not _is_final(s)]
+        print(f"# incremental: {len(slugs)} event(s) new / not-yet-final to refresh", flush=True)
     tot_pl = tot_ev = 0
     for s in slugs:
         r = refresh(s)
