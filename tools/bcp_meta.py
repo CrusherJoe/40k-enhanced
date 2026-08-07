@@ -184,6 +184,45 @@ def _role(name):
     return "unit"
 
 
+# --- Space Marines CHAPTER legality: a Chapter's named characters can't go in another Chapter's army ---
+# (BCP files all these as "Space Marines (Astartes)", so the winning-profile bag mixes Chapters; generic units
+#  are legal for any Chapter, but Chapter-LOCKED characters must be filtered to the target list's Chapter.)
+SM_CHAPTERS = ["Ultramarines", "Iron Hands", "Salamanders", "Imperial Fists", "Raven Guard",
+               "White Scars", "Crimson Fists"]
+SM_CHAPTER_CHARS = {   # lowercase name-substring -> the Chapter it is locked to
+    "marneus calgar": "Ultramarines", "tigurius": "Ultramarines", "sicarius": "Ultramarines",
+    "uriel ventris": "Ultramarines", "guilliman": "Ultramarines", "chronus": "Ultramarines",
+    "telion": "Ultramarines", "cassius": "Ultramarines",
+    "vulkan": "Salamanders", "adrax agatone": "Salamanders",
+    "lysander": "Imperial Fists", "tor garadon": "Imperial Fists", "pedro kantor": "Crimson Fists",
+    "shrike": "Raven Guard", "korsarro khan": "White Scars", "kor'sarro khan": "White Scars",
+    "feirros": "Iron Hands",
+}
+
+
+def sm_chapter(army_text, units):
+    """Best-effort SM Chapter of a list: the Chapter named in the list text, else inferred from a
+    Chapter-locked character it runs, else None (unknown)."""
+    t = (army_text or "").lower()
+    for ch in SM_CHAPTERS:
+        if ch.lower() in t:
+            return ch
+    for u in units:
+        for k, ch in SM_CHAPTER_CHARS.items():
+            if k in u.lower():
+                return ch
+    return None
+
+
+def _chapter_locked_elsewhere(unit_name, target_chapter):
+    """True if unit_name is a Chapter-locked character that CANNOT be in target_chapter (illegal to recommend)."""
+    n = unit_name.lower()
+    for k, ch in SM_CHAPTER_CHARS.items():
+        if k in n:
+            return ch != target_chapter        # locked to a different Chapter (or target unknown) -> illegal
+    return False
+
+
 def cmd_recommend(corpus, ev, player):
     con = sqlite3.connect(f"data/bcp/{ev}.sqlite"); con.row_factory = sqlite3.Row
     row = con.execute("SELECT * FROM lists WHERE player LIKE ?", (f"%{player}%",)).fetchone()
@@ -194,7 +233,10 @@ def cmd_recommend(corpus, ev, player):
     perf = {p["faction"]: p for p in faction_perf(corpus)}
     fp = perf.get(fac)
     stats, nf, nt = unit_stats(corpus, fac)
-    print(f"LIST vs META — {row['player']} · {fac} / {row['detachment']} · {row['disposition']}")
+    is_sm = "Space Marines" in (fac or "")
+    tch = sm_chapter(row["army_text"], mine) if is_sm else None
+    chtxt = f" [{tch}]" if tch else (" [Chapter?]" if is_sm else "")
+    print(f"LIST vs META — {row['player']} · {fac}{chtxt} / {row['detachment']} · {row['disposition']}")
     if fp:
         verdict = "ABOVE" if fp["mean_pct"] < 0.5 else "below"
         print(f"\nPREDICT (aggregate, honest): {fac} across the corpus finishes at the "
@@ -203,38 +245,51 @@ def cmd_recommend(corpus, ev, player):
     if not stats:
         return
     have = set(mine)
-    add = [(u, s) for u, s in stats.items() if u not in have and s["top_rate"] >= 0.30 and s["lift"] > 0.05]
+    # legality: you can't run another Chapter's named character (Calgar in an Iron Hands list, etc.)
+    legal = lambda u: not (is_sm and _chapter_locked_elsewhere(u, tch))
+    add = [(u, s) for u, s in stats.items()
+           if u not in have and s["top_rate"] >= 0.30 and s["lift"] > 0.05 and legal(u)]
     add.sort(key=lambda kv: -kv[1]["lift"])
     cut = [(u, s) for u, s in stats.items() if u in have and s["lift"] < -0.05]
     cut.sort(key=lambda kv: kv[1]["lift"])
     print(f"\nRECOMMENDATIONS (what TOP {fac} lists do differently; n={nf} lists / {nt} top):")
     print("  ADD — winners run these, you don't:")
     for u, s in add[:6]:
-        print(f"    + {u[:30]:30} in {s['top_rate']*100:.0f}% of top lists ({s['field_rate']*100:.0f}% field)  [+{s['lift']*100:.0f} lift]")
+        print(f"    + {u[:28]:28} ({_role(u):9}) in {s['top_rate']*100:.0f}% of top ({s['field_rate']*100:.0f}% field)  [+{s['lift']*100:.0f} lift]")
     if not add:
         print("    (your list already covers the winning staples)")
     print("  RECONSIDER — you run these, winners tend not to:")
     for u, s in cut[:6]:
-        print(f"    - {u[:30]:30} in only {s['top_rate']*100:.0f}% of top lists ({s['field_rate']*100:.0f}% field)  [{s['lift']*100:.0f} lift]")
+        print(f"    - {u[:28]:28} ({_role(u):9}) in only {s['top_rate']*100:.0f}% of top ({s['field_rate']*100:.0f}% field)  [{s['lift']*100:.0f} lift]")
     if not cut:
         print("    (nothing in your list under-indexes with winners)")
     # paired, points-matched swaps in the "replace A with B for this reason" format
     pts = unit_points(corpus)
     if cut and add:
-        print("\n  SUGGESTED SWAPS (replace A -> B, points-matched):")
-        used = set()
+        print("\n  SUGGESTED SWAPS (replace A -> B, role-matched + Chapter-legal + points-matched):")
+        used = set(); n_swaps = 0
         for cu, cs in cut[:5]:
             cp = pts.get(cu, 0)
-            cands = sorted([(u, s) for u, s in add if u not in used and abs(pts.get(u, 9999) - cp) <= max(40, 0.4 * cp)],
+            # role-matched: replace like with like (cut a vehicle -> suggest a vehicle, not a lone character)
+            cands = sorted([(u, s) for u, s in add if u not in used and _role(u) == _role(cu)
+                            and abs(pts.get(u, 9999) - cp) <= max(40, 0.4 * cp)],
                            key=lambda kv: -kv[1]["lift"])
             if not cands:
                 continue
-            bu, bs = cands[0]; used.add(bu)
+            bu, bs = cands[0]; used.add(bu); n_swaps += 1
             print(f"    replace {cu} (~{cp:.0f}pts, {_role(cu)})  ->  {bu} (~{pts.get(bu,0):.0f}pts, {_role(bu)})")
             print(f"       WHY: top {fac} lists run {bu} in {bs['top_rate']*100:.0f}% of winning lists vs your "
                   f"{cu} at {cs['top_rate']*100:.0f}%  (+{bs['lift']*100:.0f} vs {cs['lift']*100:.0f} lift; ~same points)")
-    print("\n  NOTE: aggregate/thin (small 11E sample) — pair with the mechanistic runbook (wh.sim.runbook)")
-    print("  for the per-matchup WHY before swapping. Confidence grows as more current-balance GTs are pulled.")
+        if not n_swaps:
+            print("    (no clean like-for-like swap in the data: your over-indexed picks and the winners' staples")
+            print("     are DIFFERENT roles, so there's no honest points/role-matched trade. Weigh the ADD/RECONSIDER")
+            print("     items individually against your army's plan — see the note below.)")
+    print("\n  ⚠ META-DIVERGENCE READ, NOT A DROP-IN PLAN. This only says what winning lists include more/less")
+    print("  often — it does NOT model SYNERGY or ROLE. A character needs a unit to lead and targets to buff (a")
+    print("  lone Captain just dies); cutting a unit removes whatever JOB it did (anti-tank, screen, board control).")
+    print("  Swaps above are role-matched + Chapter-legal, but the real question is 'what does my army LOSE vs GAIN?'")
+    print("  — validate with the mechanistic sim (wh.sim.runbook, which models leaders/attach/buffs/board) before")
+    print("  changing anything. (Small 11E sample; confidence grows as more current-balance GTs are pulled.)")
 
 
 def main():
