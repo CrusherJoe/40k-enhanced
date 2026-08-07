@@ -1,0 +1,108 @@
+# Michael Tulip | Chaos Space Marines | Take and Hold | team=Some Very Nice Boys
+# list: https://www.bestcoastpairings.com/list/wvUo2HR1eeuJ  status=passed
+
+Some Very Nice Boys in Striped Pyjamas - [2000 pts]
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Chaos Space Marines
++ DETACHMENT: Cabal of Chaos, Soulforged Warpack (Empyric Wellspring)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Vashtorr the Arkifane
++ ENHANCEMENT: Forge's Blessing (on Char2: Red Corsairs Reave-captain)
+& Tempting Addendum (on Char3: Warpsmith)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (6x2) + (2x4) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Red Corsairs Reave-captain (80 pts)
+• 1x Power maul
+• 1x Plasma pistol
+• 1x Bolt pistol
+• Forge's Blessing (+20 pts)
+
+Vashtorr the Arkifane (220 pts)
+• 1x Vashtorr's claw
+• 1x Vashtorr's hammer
+• Warlord
+
+Warpsmith (100 pts)
+• 1x Flamer tendril
+• 1x Forge weapon
+• 1x Melta tendril
+• 1x Plasma pistol
+• Tempting Addendum (+40 pts)
+
+BATTLELINE
+
+Cultist Mob (50 pts)
+• 1x Cultist Champion
+    • 1x Brutal assault weapon
+    • 1x Autopistol
+• 9x Cultist
+    • 9x Autopistol
+    • 9x Brutal assault weapon
+
+Cultist Mob (50 pts)
+• 1x Cultist Champion
+    • 1x Brutal assault weapon
+    • 1x Autopistol
+• 9x Cultist
+    • 9x Autopistol
+    • 9x Brutal assault weapon
+
+OTHER DATASHEETS
+
+Chaos Bikers (70 pts)
+• 1x Biker Champion
+    • 1x Close combat weapon
+    • 1x Combi-bolter
+    • 1x Power fist
+    • Chaos icon
+• 2x Biker
+    • 2x Close combat weapon
+    • 2x Combi-bolter
+    • 2x Meltagun
+    • 2x Astartes chainsword
+
+Chaos Vindicator (185 pts)
+• 1x Armoured tracks
+• 1x Demolisher cannon
+• 1x Havoc launcher
+• 1x Combi-bolter
+
+Defiler (330 pts)
+• 1x Ectoplasma destructor
+• 2x Excruciator cannon
+• 1x Hades lascannon
+• 1x Hades lascannon
+• 1x Shearing claws
+
+Defiler (370 pts)
+• 1x Ectoplasma destructor
+• 2x Excruciator cannon
+• 1x Heavy reaper autocannon
+• 1x Heavy reaper autocannon
+• 1x Shearing claws
+
+Forgefiend (175 pts)
+• 2x Ectoplasma cannon
+• 1x Armoured limbs
+• 1x Ectoplasma cannon
+
+Maulerfiend (130 pts)
+• 1x Maulerfiend fists
+• 1x Lasher tendrils
+
+Venomcrawler (120 pts)
+• 2x Excruciator cannon
+• 1x Soulflayer tendrils and claws
+
+Venomcrawler (120 pts)
+• 2x Excruciator cannon
+• 1x Soulflayer tendrils and claws
+
+undefined

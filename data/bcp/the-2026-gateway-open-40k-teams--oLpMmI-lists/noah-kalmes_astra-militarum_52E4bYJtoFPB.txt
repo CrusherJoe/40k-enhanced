@@ -1,0 +1,139 @@
+# Noah Kalmes | Astra Militarum | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/52E4bYJtoFPB  status=passed
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Player Name: Noah Kalmes
+Team Name: Warp-Forged Gaming
+Factions Used: Astra Militarum
+Disposition Used: Reconnaissance
+Detachment Used: Combined Arms, Designation Force
+Army Upgrades and Enhancements (list on which model): N/A
+Leader/Support Attached to which Unit: Lord Solar Leontus and Cadian Command Squad attached to x20 Cadian Shock Troops, Militarum Tempestus Command Squad attached to x5 Tempestus Scions
+Army Points: 1995
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ WARLORD: Char2: Lord Solar Leontus
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 21
++ SECONDARY: - Bring It Down: (6x2) - Assassination: 5 Characters - Cull The Horde: 2x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char3: 5x Cadian Command Squad (60 pts)
+• 4x Cadian Veteran Guardsman
+    1 with Close combat weapon, Grenade launcher, Laspistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Medi-pack, Close combat weapon, Lasgun
+    1 with Close combat weapon, Lasgun, Regimental standard
+• 1x Cadian Commander: Power fist, Plasma pistol
+
+Char4: 5x Cadian Command Squad (60 pts)
+• 4x Cadian Veteran Guardsman
+    1 with Close combat weapon, Grenade launcher, Laspistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Medi-pack, Close combat weapon, Lasgun
+    1 with Close combat weapon, Lasgun, Regimental standard
+• 1x Cadian Commander: Power fist, Plasma pistol
+
+Char1: 6x Gaunt’s Ghosts (95 pts)
+• 5x Tanith Ghost
+    1 with Bragg's autocannon, Straight silver knife
+    1 with Corbec's hot-shot lascarbine, Straight silver knife
+    1 with Larkin's long-las, Straight silver knife
+    1 with Lascarbine, Mkoll's straight silver knife
+    1 with Rawne's lascarbine, Straight silver knife
+• 1x Ibram Gaunt: Bolt pistol, Gaunt's chainsword
+
+Char2: 1x Lord Solar Leontus (130 pts): Warlord, Conquest, Konstantin's hooves, Sol's Righteous Gaze
+
+Char5: 5x Militarum Tempestus Command Squad (85 pts)
+• 4x Tempestus Scion
+    1 with Close combat weapon, Meltagun
+    1 with Close combat weapon, Plasma gun
+    1 with Close combat weapon, Grenade launcher
+    1 with Close combat weapon, Hot-shot volley gun
+• 1x Tempestor Prime: Tempestus dagger, Plasma pistol
+
+20x Cadian Shock Troops (145 pts)
+• 18x Shock Trooper
+    12 with Close combat weapon, Lasgun
+    2 with Vox-caster, Close combat weapon, Lasgun
+    2 with Close combat weapon, Meltagun
+    2 with Close combat weapon, Plasma gun
+• 2x Shock Trooper Sergeant: 2 with Chainsword, Laspistol
+
+20x Cadian Shock Troops (145 pts)
+• 18x Shock Trooper
+    12 with Close combat weapon, Lasgun
+    2 with Vox-caster, Close combat weapon, Lasgun
+    2 with Close combat weapon, Meltagun
+    2 with Close combat weapon, Plasma gun
+• 2x Shock Trooper Sergeant: 2 with Chainsword, Laspistol
+
+10x Cadian Shock Troops (75 pts)
+• 9x Shock Trooper
+    6 with Close combat weapon, Lasgun
+    1 with Vox-caster, Close combat weapon, Lasgun
+    1 with Close combat weapon, Meltagun
+    1 with Close combat weapon, Plasma gun
+• 1x Shock Trooper Sergeant: Chainsword, Laspistol
+
+10x Cadian Shock Troops (75 pts)
+• 9x Shock Trooper
+    6 with Close combat weapon, Lasgun
+    1 with Vox-caster, Close combat weapon, Lasgun
+    1 with Close combat weapon, Meltagun
+    1 with Close combat weapon, Plasma gun
+• 1x Shock Trooper Sergeant: Chainsword, Laspistol
+
+5x Attilan Rough Riders (60 pts)
+• 1x Rough Rider Sergeant: Lasgun, Laspistol, Steed's hooves, Power sabre, Hunting lance
+• 4x Rough Rider: 4 with Hunting lance, Lasgun, Laspistol, Steed's hooves
+
+5x Attilan Rough Riders (60 pts)
+• 1x Rough Rider Sergeant: Lasgun, Laspistol, Steed's hooves, Power sabre, Hunting lance
+• 4x Rough Rider: 4 with Hunting lance, Lasgun, Laspistol, Steed's hooves
+
+3x Bullgryn Squad (90 pts)
+• 1x Bullgryn Bone 'ead: Brute shield, Close combat weapon, Bullgryn maul
+• 2x Bullgryn: 2 with Brute shield, Close combat weapon, Bullgryn maul
+
+1x Chimera (75 pts): Armoured tracks, Lasgun array, Hunter-killer missile, Heavy bolter, Heavy bolter, Heavy stubber
+
+1x Chimera (75 pts): Armoured tracks, Lasgun array, Hunter-killer missile, Heavy bolter, Heavy bolter, Heavy stubber
+
+10x Kasrkin (105 pts)
+• 9x Kasrkin Trooper
+    2 with Close combat weapon, Hot-shot lasgun
+    1 with Melta mine, Close combat weapon, Hot-shot laspistol
+    1 with Close combat weapon, Hot-shot marksman rifle
+    1 with Vox-caster, Close combat weapon, Hot-shot lasgun
+    2 with Close combat weapon, Meltagun
+    2 with Close combat weapon, Plasma gun
+• 1x Kasrkin Sergeant: Power weapon, Plasma pistol
+
+10x Kasrkin (105 pts)
+• 9x Kasrkin Trooper
+    2 with Close combat weapon, Hot-shot lasgun
+    1 with Melta mine, Close combat weapon, Hot-shot laspistol
+    1 with Close combat weapon, Hot-shot marksman rifle
+    1 with Vox-caster, Close combat weapon, Hot-shot lasgun
+    2 with Close combat weapon, Meltagun
+    2 with Close combat weapon, Plasma gun
+• 1x Kasrkin Sergeant: Power weapon, Plasma pistol
+
+1x Leman Russ Battle Tank (185 pts): Armoured tracks, Leman Russ battle cannon, Hunter-killer missile, Lascannon, 2x Multi-melta, Heavy stubber
+
+1x Leman Russ Battle Tank (185 pts): Armoured tracks, Leman Russ battle cannon, Hunter-killer missile, Lascannon, 2x Multi-melta, Heavy stubber
+
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Lascannon
+
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Lascannon
+
+5x Tempestus Scions (75 pts)
+• 4x Tempestus Scion
+    2 with Close combat weapon, Hot-shot lasgun
+    1 with Close combat weapon, Meltagun
+    1 with Close combat weapon, Plasma gun
+• 1x Tempestor: Power weapon, Plasma pistol
+
+undefined

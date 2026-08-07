@@ -1,0 +1,150 @@
+# Andrew Cole | Orks | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/AwCB6hPGnGbt  status=passed
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Player Name: Andrew Cole
+Team Name: Stardust Crusaders
+Factions Used: Orks
+Army Points: 2000
+Army Enhancements (list on which model): 
+Bigboss- Raucous Warcaller
+Detachment Rule: Each time an attack targets a BOYZ unit from your army, models in that unit have a 6+ invulnerable save against that attack. Each time an attack targets a BOYZ unit from your army that contains 10 or more models, models in that unit have a 5+ invulnerable save against that attack.’
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Andrew Post Dataslate (2,000 Points)
+
+Orks
+Green Tide (3 Detachment Points)
+Take and Hold
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Ghazghkull Thraka (235 Points)
+  • Attached as: Leader (Character)
+  • 1x Ghazghkull Thraka
+     • Warlord
+     ◦ 1x Gork’s Klaw
+     ◦ 1x Mork’s Roar
+  • 1x Makari
+     ◦ 1x Makari’s stabba
+
+Painboy (90 Points)
+  • Attached as: Support (Character)
+  • 1x Grot Orderly
+  • 1x Power klaw
+  • 1x ’Urty syringe
+
+Boyz (160 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 19x Boy
+     ◦ 19x Choppa
+     ◦ 19x Shoota
+     ◦ 19x Slugga
+  • 1x Boss Nob
+     ◦ 1x Big choppa
+     ◦ 1x Kombi‑rokkit
+     ◦ 1x Kombi‑shoota
+     ◦ 1x Slugga
+
+Attached unit 2
+
+Bigboss (75 Points)
+  • Attached as: Leader (Character)
+  • 1x Slugga
+  • 1x Two‑handed big choppa
+  • Enhancements: Raucous Warcaller
+
+Painboy (90 Points)
+  • Attached as: Support (Character)
+  • 1x Grot Orderly
+  • 1x Power klaw
+  • 1x ’Urty syringe
+
+Boyz (160 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 19x Boy
+     ◦ 19x Choppa
+     ◦ 19x Shoota
+     ◦ 19x Slugga
+  • 1x Boss Nob
+     ◦ 1x Big choppa
+     ◦ 1x Kombi‑rokkit
+     ◦ 1x Kombi‑shoota
+     ◦ 1x Slugga
+
+Attached unit 3
+
+Bigboss (55 Points)
+  • Attached as: Leader (Character)
+  • 1x Slugga
+  • 1x Two‑handed big choppa
+
+Painboy (90 Points)
+  • Attached as: Support (Character)
+  • 1x Grot Orderly
+  • 1x Power klaw
+  • 1x ’Urty syringe
+
+Boyz (160 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 19x Boy
+     ◦ 19x Choppa
+     ◦ 19x Shoota
+     ◦ 19x Slugga
+  • 1x Boss Nob
+     ◦ 1x Big choppa
+     ◦ 1x Kombi‑rokkit
+     ◦ 1x Kombi‑shoota
+     ◦ 1x Slugga
+
+Attached unit 4
+
+Big Mek with Shokk Attack Gun (70 Points)
+  • Attached as: Leader (Character)
+  • 1x Close combat weapon
+  • 1x Grot Assistant
+  • 1x Shokk attack gun
+
+Tankbustas (125 Points)
+  • Attached as: Bodyguard ()
+  • 1x Boss Nob
+     ◦ 1x Choppa
+     ◦ 2x Rokkit pistol
+  • 5x Tankbusta
+     ◦ 5x Close combat weapon
+     ◦ 1x Pulsa Rokkit
+     ◦ 5x Rokkit launcha
+
+OTHER DATASHEETS
+
+Gretchin (45 Points)
+  • 10x Gretchin
+     ◦ 10x Close combat weapon
+     ◦ 10x Grot blasta
+  • 1x Runtherd
+     ◦ 1x Runtherd tools
+     ◦ 1x Slugga
+
+Gretchin (45 Points)
+  • 10x Gretchin
+     ◦ 10x Close combat weapon
+     ◦ 10x Grot blasta
+  • 1x Runtherd
+     ◦ 1x Runtherd tools
+     ◦ 1x Slugga
+
+Stompa (600 Points)
+  • 3x Big shoota
+  • 1x Deffkannon
+  • 1x Mega-choppa
+  • 1x Skorcha
+  • 1x Supa-gatler
+  • 1x Supa-rokkits
+  • 1x Twin big shoota
+
+Exported with App Version: v2.3.0 (1), Data Version: v912
+
+undefined

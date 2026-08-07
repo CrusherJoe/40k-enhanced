@@ -1,0 +1,151 @@
+# Will B | Space Marines (Astartes) | Reconnaissance | team=Try Hard Wargaming
+# list: https://www.bestcoastpairings.com/list/c74G4Rr1zNts  status=passed
+
+20 Tortors and a side of Temu Foucini please
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Raven Guard
++ DETACHMENT: Librarius Conclave, Shadowmark Talon (Psychic Disciplines)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Aethon Shaan
++ ENHANCEMENT: Celerity (on Char2: Librarian in Terminator Armour)
+& Temporal Corridor (on Char3: Librarian in Terminator Armour)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Aethon Shaan (100 pts)
+• 1x Claws of Severax
+• 1x Heavy Bolt Pistol
+• Warlord
+
+Librarian in Terminator Armour (110 pts)
+Attached to Assault Terminator Squad
+• 1x Force weapon
+• 1x Smite
+• 1x Storm bolter
+• Celerity (+35 pts)
+
+Librarian in Terminator Armour (100 pts)
+Attached to Terminator Squad
+• 1x Force weapon
+• 1x Smite
+• 1x Storm bolter
+• Temporal Corridor (+25 pts)
+
+Lieutenant in Phobos Armour (45 pts)
+Attached to Incursors
+• 1x Bolt pistol
+• 1x Master-crafted Scoped Bolt Carbine
+• 1x Paired Combat Blades
+
+BATTLELINE
+
+Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Astartes grenade launcher
+    • 1x Bolt Rifle
+    • 1x Power fist
+• 4x Intercessor
+    • 4x Bolt pistol
+    • 4x Bolt Rifle
+    • 4x Close combat weapon
+
+Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Astartes grenade launcher
+    • 1x Bolt Rifle
+    • 1x Power fist
+• 4x Intercessor
+    • 4x Bolt pistol
+    • 4x Bolt Rifle
+    • 4x Close combat weapon
+
+OTHER DATASHEETS
+
+Centurion Devastator Squad (350 pts)
+• 5x Devastator Centurion
+    • 5x Centurion Fists
+    • 5x Centurion missile launcher
+    • 5x Grav-cannon
+• 1x Devastator Centurion Sergeant
+    • 1x Centurion Fists
+    • 1x Centurion missile launcher
+    • 1x Grav-cannon
+
+Inceptor Squad (125 pts)
+• 2x Inceptor
+    • 2x Close combat weapon
+    • 2x Assault Bolters
+• 1x Inceptor Sergeant
+    • 1x Close combat weapon
+    • 1x Assault Bolters
+
+Inceptor Squad (125 pts)
+• 2x Inceptor
+    • 2x Close combat weapon
+    • 2x Assault Bolters
+• 1x Inceptor Sergeant
+    • 1x Close combat weapon
+    • 1x Assault Bolters
+
+Incursor Squad (85 pts)
+• 4x Incursor
+    • 4x Bolt pistol
+    • 4x Occulus Bolt Carbine
+    • 4x Paired Combat Blades
+    • Haywire Mine
+• 1x Incursor Sergeant
+    • 1x Bolt pistol
+    • 1x Occulus Bolt Carbine
+    • 1x Paired Combat Blades
+
+Reiver Squad (75 pts)
+• 1x Reiver Sergeant
+    • 1x Combat Knife
+    • 1x Special Issue Bolt Pistol
+• 4x Reivers
+    • 4x Special Issue Bolt Pistol
+    • 4x Combat Knife
+  • Grapnel Launchers, Reiver Grav-chute
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 2x Scout
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 1x Missile Launcher
+    • 1x Scout Sniper Rifle
+• 2x Scouts
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 2x Combat Knife
+
+Terminator Assault Squad (340 pts)
+• 1x Assault Terminator Sergeant
+    • 1x Storm Shield
+    • 1x Thunder Hammer
+• 9x Assault Terminator
+    • 5x Thunder Hammer
+    • 4x Twin Lightning Claws
+    • 5x Storm Shield
+
+Terminator Squad (320 pts)
+• 1x Terminator Sergeant
+    • 1x Storm bolter
+    • 1x Power fist
+• 9x Terminator
+    • 2x Cyclone missile launcher
+    • 9x Storm bolter
+    •9x Power fist
+
+undefined

@@ -1,0 +1,189 @@
+# Seth Piper | Adeptus Mechanicus | Disruption | team=Keelhaul Gaming
+# list: https://www.bestcoastpairings.com/list/1Ob3zQUebaNM  status=passed
+
+Admech tech priests  (2,000 Points)
+
+Adeptus Mechanicus
+Luminen Auto-Choir and Rad-Zone Corps (3 Detachment Points)
+Disruption
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Tech-Priest Dominus (65 Points)
+  • Attached as: Leader (Character)
+  • 1x Macrostubber
+  • 1x Omnissian axe
+  • 1x Volkite blaster
+
+Fulgurite Electro-Priests (140 Points)
+  • Attached as: Bodyguard
+  • 10x Fulgurite Electro-Priest
+     ◦ 10x Electroleech stave
+
+Attached unit 2
+
+Technoarcheologist (45 Points)
+  • Attached as: Support (Character)
+  • 1x Mechanicus pistol
+  • 1x Servo-arc claw
+
+Fulgurite Electro-Priests (70 Points)
+  • Attached as: Bodyguard
+  • 5x Fulgurite Electro-Priest
+     ◦ 5x Electroleech stave
+
+Attached unit 3
+
+Skitarii Marshal (35 Points)
+  • Attached as: Support (Character)
+  • 1x Control stave
+  • 1x Mechanicus pistol
+
+Hastarii Fusiliers (115 Points)
+  • Attached as: Bodyguard
+  • 1x Hastarii Fusilier Alpha
+     ◦ 1x Hastarii phosphor blaster
+     ◦ 1x Neutron fusil
+     ◦ 1x Power weapon
+  • 4x Hastarii Fusilier
+     ◦ 4x Close combat weapon
+     ◦ 4x Hastarii phosphor blaster
+     ◦ 4x Neutron fusil
+
+Attached unit 4
+
+Tech-Priest Manipulus (80 Points)
+  • Attached as: Leader (Character)
+  • 1x Magnarail lance
+  • 1x Omnissian staff
+  • Enhancements: Peerless Eradicator
+
+Kataphron Breachers (310 Points)
+  • Attached as: Bodyguard
+  • 6x Kataphron Breacher
+     ◦ 6x Heavy arc rifle
+     ◦ 6x Hydraulic claw
+
+CHARACTERS
+
+Belisarius Cawl (220 Points)
+  • Warlord
+  • 1x Arc scourge
+  • 1x Cawl’s Omnissian axe
+  • 1x Mechadendrite hive
+  • 1x Solar atomiser
+
+Sydonian Skatros (75 Points)
+  • 1x Mechanicus pistol
+  • 1x Radium jezzail
+  • 1x Sydonian feet
+  • Enhancements: Radial Suffusion
+
+BATTLELINE
+
+Skitarii Rangers (85 Points)
+  • 1x Skitarii Ranger Alpha
+     ◦ 1x Alpha combat weapon
+     ◦ 1x Close combat weapon
+     ◦ 1x Galvanic rifle
+  • 9x Skitarii Ranger
+     ◦ 1x Arc rifle
+     ◦ 9x Close combat weapon
+     ◦ 6x Galvanic rifle
+     ◦ 1x Omnispex
+     ◦ 1x Plasma caliver
+     ◦ 1x Transuranic arquebus
+
+Skitarii Rangers (85 Points)
+  • 1x Skitarii Ranger Alpha
+     ◦ 1x Alpha combat weapon
+     ◦ 1x Close combat weapon
+     ◦ 1x Galvanic rifle
+  • 9x Skitarii Ranger
+     ◦ 1x Arc rifle
+     ◦ 9x Close combat weapon
+     ◦ 6x Galvanic rifle
+     ◦ 1x Omnispex
+     ◦ 1x Plasma caliver
+     ◦ 1x Transuranic arquebus
+
+Skitarii Vanguard (85 Points)
+  • 1x Skitarii Vanguard Alpha
+     ◦ 1x Alpha combat weapon
+     ◦ 1x Close combat weapon
+     ◦ 1x Radium carbine
+  • 9x Skitarii Vanguard
+     ◦ 1x Arc rifle
+     ◦ 9x Close combat weapon
+     ◦ 1x Omnispex
+     ◦ 1x Plasma caliver
+     ◦ 6x Radium carbine
+     ◦ 1x Transuranic arquebus
+
+Skitarii Vanguard (85 Points)
+  • 1x Skitarii Vanguard Alpha
+     ◦ 1x Alpha combat weapon
+     ◦ 1x Close combat weapon
+     ◦ 1x Radium carbine
+  • 9x Skitarii Vanguard
+     ◦ 1x Arc rifle
+     ◦ 9x Close combat weapon
+     ◦ 1x Omnispex
+     ◦ 1x Plasma caliver
+     ◦ 6x Radium carbine
+     ◦ 1x Transuranic arquebus
+
+OTHER DATASHEETS
+
+Corpuscarii Electro-Priests (65 Points)
+  • 5x Corpuscarii Electro-Priest
+     ◦ 5x Electrostatic gauntlets
+
+Serberys Raiders (60 Points)
+  • 1x Serberys Raider Alpha
+     ◦ 1x Cavalry sabre and clawed limbs
+     ◦ 1x Galvanic carbine
+     ◦ 1x Mechanicus pistol
+  • 2x Serberys Raider
+     ◦ 2x Cavalry sabre and clawed limbs
+     ◦ 1x Enhanced data-tether
+     ◦ 2x Galvanic carbine
+
+Serberys Raiders (60 Points)
+  • 1x Serberys Raider Alpha
+     ◦ 1x Cavalry sabre and clawed limbs
+     ◦ 1x Galvanic carbine
+     ◦ 1x Mechanicus pistol
+  • 2x Serberys Raider
+     ◦ 2x Cavalry sabre and clawed limbs
+     ◦ 1x Enhanced data-tether
+     ◦ 2x Galvanic carbine
+
+Sicarian Infiltrators (75 Points)
+  • 1x Sicarian Infiltrator Princeps
+     ◦ 1x Flechette blaster
+     ◦ 1x Taser goad
+  • 4x Sicarian Infiltrator
+     ◦ 4x Flechette blaster
+     ◦ 4x Taser goad
+
+Sicarian Infiltrators (75 Points)
+  • 1x Sicarian Infiltrator Princeps
+     ◦ 1x Flechette blaster
+     ◦ 1x Taser goad
+  • 4x Sicarian Infiltrator
+     ◦ 4x Flechette blaster
+     ◦ 4x Taser goad
+
+Skorpius Disintegrator (170 Points)
+  • 1x Armoured hull
+  • 3x Cognis heavy stubber
+  • 1x Disruptor missile launcher
+  • 1x Ferrumite cannon
+
+Exported with App Version: v2.4.0 (1), Data Version: v925
+
+undefined

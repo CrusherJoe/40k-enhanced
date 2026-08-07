@@ -1,0 +1,196 @@
+# Wesley Burns | Drukhari | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/rUshTZoieI9T  status=passed
+
+teams teams team (2000 points)
+
+Drukhari
+Kabalite Agonysts and Skysplinter Assault (3 Detachment Points)
+Reconnaissance
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Lady Malys (100 points)
+• Attached as: Leader (Character)
+  • Warlord
+  • 1x Lady’s Blade
+    1x Razor fan
+
+Incubi (90 points)
+• Attached as: Bodyguard
+  • 1x Klaivex
+    • 1x Demiklaives
+  • 4x Incubi
+    • 4x Klaive
+
+Attached Unit 2
+
+Archon (100 points)
+• Attached as: Leader (Character)
+  • 1x Huskblade
+    1x Shadowfield
+    1x Soul Trap
+  • Enhancement: Nightmare Shroud
+
+Hand of the Archon (115 points)
+• Attached as: Bodyguard
+  • 1x Kabalite Archsybarite
+    • 1x Blast pistol
+      1x Phantasm Grenade Launcher
+      1x Power weapon
+  • 9x Kabalite Agents
+    • 1x Blaster
+      9x Close combat weapon
+      1x Dark lance
+      1x Pain sculptors
+      1x Razorflail
+      1x Shardcarbine
+      1x Splinter pistol
+      4x Splinter rifle
+      1x Stimm-needler
+
+Attached Unit 3
+
+Drazhar (85 points)
+• Attached as: Leader (Character)
+  • 1x Executioner’s demiklaives
+
+Incubi (90 points)
+• Attached as: Bodyguard
+  • 1x Incubi Shrine Token
+  • 1x Klaivex
+    • 1x Demiklaives
+  • 4x Incubi
+    • 4x Klaive
+
+Attached Unit 4
+
+Lelith Hesperax (80 points)
+• Attached as: Leader (Character)
+  • 1x Lelith’s blades
+
+Wyches (90 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Hekatrix
+    • 1x Blast pistol
+      1x Power weapon
+  • 9x Wych
+    • 3x Gladiatorial weapons
+      6x Hekatarii blade
+      6x Splinter pistol
+
+
+BATTLELINE
+
+Wracks (60 points)
+  • 1x Acothyst
+    • 1x Liquifier gun
+      1x Power weapon
+  • 4x Wrack
+    • 1x Hexrifle
+      1x Torturer’s tool
+      3x Twin torturer’s tools
+
+Wracks (60 points)
+  • 1x Acothyst
+    • 1x Liquifier gun
+      1x Power weapon
+  • 4x Wrack
+    • 1x Hexrifle
+      1x Torturer’s tool
+      3x Twin torturer’s tools
+
+
+DEDICATED TRANSPORTS
+
+Raider (75 points)
+  • 1x Bladevanes and chainsnares
+    1x Dark lance
+
+Venom (65 points)
+  • 1x Bladevanes
+    2x Splinter cannon
+
+Venom (65 points)
+  • 1x Bladevanes
+    2x Splinter cannon
+
+Venom (65 points)
+  • 1x Bladevanes
+    2x Splinter cannon
+
+
+OTHER DATASHEETS
+
+Cronos (100 points)
+  • 2x Cronos
+    • 2x Spirit syphon
+      1x Spirit vortex
+      2x Spirit-leech tentacles
+
+Hand of the Archon (115 points)
+  • 1x Kabalite Archsybarite
+    • 1x Blast pistol
+      1x Phantasm Grenade Launcher
+      1x Power weapon
+  • 9x Kabalite Agents
+    • 1x Blaster
+      9x Close combat weapon
+      1x Dark lance
+      1x Pain sculptors
+      1x Razorflail
+      1x Shardcarbine
+      1x Splinter pistol
+      4x Splinter rifle
+      1x Stimm-needler
+
+Mandrakes (80 points)
+  • 1x Nightfiend
+    • 1x Baleblast
+      1x Glimmersteel blade
+  • 4x Mandrake
+    • 4x Baleblast
+      4x Glimmersteel blade
+
+Ravager (120 points)
+  • 1x Bladevanes
+    2x Dark lance
+    1x Disintegrator cannon
+
+Ravager (110 points)
+  • 1x Bladevanes
+    3x Disintegrator cannon
+
+Reavers (75 points)
+  • 1x Arena Champion
+    • 1x Bladevanes
+      1x Blaster
+      1x Cluster caltrops
+      1x Splinter pistol
+  • 2x Reaver
+    • 2x Bladevanes
+      2x Splinter pistol
+      2x Splinter rifle
+
+Scourges with Heavy Weapons (130 points)
+  • 1x Solarite
+    • 1x Blast pistol
+      1x Close combat weapon
+      1x Power weapon
+  • 4x Scourge
+    • 4x Close combat weapon
+      4x Dark lance
+
+Scourges with Heavy Weapons (130 points)
+  • 1x Solarite
+    • 1x Blast pistol
+      1x Close combat weapon
+      1x Power weapon
+  • 4x Scourge
+    • 4x Close combat weapon
+      4x Dark lance
+
+Exported with App Version: v2.3.0 (137), Data Version: v912
+
+undefined

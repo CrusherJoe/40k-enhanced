@@ -54,9 +54,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", default="2026-07-27"); ap.add_argument("--end", default="2026-08-07")
     a = ap.parse_args()
+    import glob as _glob
     evs = BC.enumerate_events(a.start, a.end, 5, 28)
-    new = [e for e in evs if e["id"] not in HAVE]
-    print(f"# {len(evs)} GTs; {len(new)} to pull (have {len(HAVE)})", flush=True)
+
+    def have(e):
+        if e["id"] in HAVE:
+            return True
+        return bool(_glob.glob(f"data/bcp/*-{e['id'][:6]}.sqlite"))   # already pulled (slug ends with eid[:6])
+
+    new = [e for e in evs if not have(e)]
+    print(f"# {len(evs)} GTs in window; {len(new)} new to pull ({len(evs)-len(new)} already on disk)", flush=True)
     done = []
     for i, e in enumerate(new):
         sg = slug(e.get("name"), e["id"]); eid = e["id"]

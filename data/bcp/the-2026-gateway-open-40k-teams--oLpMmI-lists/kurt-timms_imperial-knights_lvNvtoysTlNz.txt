@@ -1,0 +1,37 @@
+# Kurt Timms | Imperial Knights | Purge the Foe | team=Roundtable Gaming
+# list: https://www.bestcoastpairings.com/list/lvNvtoysTlNz  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Throne‑bonded Outriders, Valourstrike Lance (Driven From Their Lairs)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ ENHANCEMENT: Ancestral Overbleed (on Vehi3: Armiger Helverin)
+& Ancestral Overbleed (on Vehi3: Armiger Helverin)
+& Ancestral Overbleed (on Vehi3: Armiger Helverin)
+& Gyro-optimised Actuators (on Vehi3: Armiger Warglaive)
+& Gyro-optimised Actuators (on Vehi3: Armiger Warglaive)
+& Gyro-optimised Actuators (on Vehi3: Armiger Warglaive)
++ NUMBER OF UNITS: 9
++ SECONDARY: - Bring It Down: (6x2) + (3x6) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Knight Errant (355 pts): Thermal cannon, Twin Icarus autocannon, Meltagun, Reaper chainsword
+Char2: 1x Knight Errant (355 pts): Thermal cannon,Stormspear rocket pod, Meltagun, Reaper chainsword
+Char3: 1x Knight Paladin (375 pts): Questoris heavy stubber, Rapid-fire battle cannon, Stormspear rocket pod, Meltagun, Reaper chainsword
+
+1x Armiger Helverin (150 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+Enhancement: Ancestral Overbleed (+10 pts)
+1x Armiger Helverin (150 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+Enhancement: Ancestral Overbleed (+10 pts)
+1x Armiger Helverin (150 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+Enhancement: Ancestral Overbleed (+10 pts)
+1x Armiger Warglaive (155 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+Enhancement: Gyro-optimised Actuators (+15 pts)
+1x Armiger Warglaive (155 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+Enhancement: Gyro-optimised Actuators (+15 pts)
+1x Armiger Warglaive (155 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+Enhancement: Gyro-optimised Actuators (+15 pts)
+
+undefined

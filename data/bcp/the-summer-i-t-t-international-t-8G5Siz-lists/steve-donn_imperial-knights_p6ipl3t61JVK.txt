@@ -1,0 +1,26 @@
+# Steve Donn | Imperial Knights | Priority Assets | team=South London Legion
+# list: https://www.bestcoastpairings.com/list/p6ipl3t61JVK  status=passed
+
+Imperium - Imperial Knights - Itt summer 2026 - [2000 pts]
+
+# ++ Army Roster ++ [2000 pts, 3 Detachment Points]
+## Configuration
+Battle Size: Strike Force (2000 Point limit)
+Code Chivalric: Deed, Quality
+Detachment [3 Detachment Points]: Freeblade Company [3 Detachment Points]
+Force Disposition: Priority Assets
+Show/Hide Options: Crucible Characters are visible, Imperial Agents are visible, Legends are visible, Titans are visible, Unaligned Forces are visible, Unaligned Fortifications are visible
+
+## Character [1440 pts]
+Cerastus Knight Lancer [415 pts]: Warlord, Cerastus shock lance
+Knight Destrier [295 pts]: Bringer of Justice [30 pts], Questoris heavy stubber, Titanic feet, Thundershock spear, Bellatus reaper chainsword
+Knight Errant [355 pts]: Thermal cannon, Stormspear rocket pod, Meltagun, Reaper chainsword
+Knight Gallant [375 pts]: Sanctuary [20 pts], Reaper chainsword, Thunderstrike gauntlet, Stormspear rocket pod, Meltagun
+
+## Vehicle [560 pts]
+Armiger Helverin [140 pts]: 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+Armiger Helverin [140 pts]: 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+Armiger Warglaive [140 pts]: Reaper chain-cleaver, Thermal spear, Meltagun
+Armiger Warglaive [140 pts]: Reaper chain-cleaver, Thermal spear, Meltagun
+
+undefined

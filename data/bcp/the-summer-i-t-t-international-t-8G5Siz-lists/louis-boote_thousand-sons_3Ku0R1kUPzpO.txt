@@ -1,0 +1,66 @@
+# Louis Boote | Thousand Sons | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/3Ku0R1kUPzpO  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Thousand Sons
++ DETACHMENT: Rubricae Phalanx (All is Dust)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1990pts
++
+Sorcerer attached to marines
+Other sorcerer attached to other marines
+Sorcerer in terminator armour with scarab occult
+Other sorcerer in terminator armour with other scarab occult
++ WARLORD: Char1: Daemon Prince of Tzeentch
++ ENHANCEMENT: Arcane Thralls (Aura) (on Char4: Sorcerer in Terminator Armour)
+& Lord of the Rubricae (on Char5: Sorcerer in Terminator Armour)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (3x2) - Assassination: 5 Characters
+
+
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Daemon Prince of Tzeentch (170 pts): Warlord, Dark Blessing, Hellforged weapons, Infernal cannon
+Char2: 1x Sorcerer (85 pts): Force weapon, Inferno bolt pistol, Pandaemonic Delusion
+Char3: 1x Sorcerer (85 pts): Force weapon, Inferno bolt pistol, Pandaemonic Delusion
+Char4: 1x Sorcerer in Terminator Armour (100 pts): Force weapon, Gaze of Hate, Inferno combi-bolter
+Enhancement: Arcane Thralls (Aura) (+5 pts)
+Char5: 1x Sorcerer in Terminator Armour (110 pts): Force weapon, Gaze of Hate, Inferno combi-bolter
+Enhancement: Lord of the Rubricae (+15 pts)
+
+10x Rubric Marines (190 pts)
+• 9x Rubric Marine
+    8 with Close combat weapon, Inferno boltgun
+    1 with Icon of Flame, Close combat weapon, Soulreaper cannon
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Inferno bolt pistol
+10x Rubric Marines (190 pts)
+• 9x Rubric Marine
+    8 with Close combat weapon, Inferno boltgun
+    1 with Icon of Flame, Close combat weapon, Soulreaper cannon
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Inferno bolt pistol
+
+1x Chaos Rhino (80 pts): Armoured tracks, Havoc launcher, Inferno combi-bolter, Inferno combi-weapon
+1x Chaos Rhino (80 pts): Armoured tracks, Havoc launcher, Inferno combi-bolter, Inferno combi-weapon
+10x Scarab Occult Terminators (385 pts)
+• 9x Scarab Occult Terminator
+    5 with Inferno combi-bolter, Prosperine khopesh
+    2 with Inferno combi-bolter, Prosperine khopesh, Hellfyre missile rack
+    2 with Prosperine khopesh, Soulreaper cannon
+• 1x Scarab Occult Sorcerer: Force weapon, Malefic Curse, Inferno combi-bolter
+10x Scarab Occult Terminators (385 pts)
+• 9x Scarab Occult Terminator
+    5 with Inferno combi-bolter, Prosperine khopesh
+    2 with Inferno combi-bolter, Prosperine khopesh, Hellfyre missile rack
+    2 with Prosperine khopesh, Soulreaper cannon
+• 1x Scarab Occult Sorcerer: Force weapon, Malefic Curse, Inferno combi-bolter
+3x Tzaangor Enlightened with Fatecaster greatbows (55 pts)
+• 1x Aviarch: Close combat weapon, Fatecaster greatbow
+• 2x Enlightened: 2 with Close combat weapon, Fatecaster greatbow
+10x Tzaangors (75 pts)
+• 9x Tzaangor
+    7 with Tzaangor blades
+    1 with Brayhorn, Tzaangor blades
+    1 with Herd banner, Tzaangor blades
+• 1x Twistbray: Tzaangor blades
+
+undefined

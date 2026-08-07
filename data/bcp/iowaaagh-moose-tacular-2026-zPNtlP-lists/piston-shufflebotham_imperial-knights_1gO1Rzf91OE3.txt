@@ -1,0 +1,75 @@
+# Piston Shufflebotham | Imperial Knights | Purge the Foe | team=None
+# list: https://www.bestcoastpairings.com/list/1gO1Rzf91OE3  status=passed
+
+++++++++++++++++++++++++++++++++++++++++++++++
+
+Custard Knights
+
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Valourstrike Lance (Rain of Devastation)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Cerastus Knight Castigator
++ ENHANCEMENT: Archeotech Autoloaders (on Char2: Knight Castellan)
+& Bearer of the Iron Chalice (on Char3: Knight Paladin)
++ NUMBER OF UNITS: 9
++ SECONDARY: - Bring It Down: (5x2) + (3x6) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Cerastus Knight Castigator (380 pts)
+• 1x Castigator bolt cannon
+• 1x Tempest warblade
+• Warlord
+
+Knight Castellan (450 pts)
+• 1x Plasma decimator
+• 1x Titanic feet
+• 2x Twin meltagun
+• 1x Volcano lance
+• 2x Shieldbreaker missile launcher
+• 1x Twin siegebreaker cannon
+• Archeotech Autoloaders (+25 pts)
+
+Knight Paladin (395 pts)
+• 1x Questoris heavy stubber
+• 1x Rapid-fire battle cannon
+• 1x Stormspear rocket pod
+• 1x Questoris heavy stubber
+• 1x Reaper chainsword
+• Bearer of the Iron Chalice (+20 pts)
+
+OTHER DATASHEETS
+
+Armiger Helverin (140 pts)
+• 2x Armiger autocannon
+• 1x Armoured feet
+• 1x Questoris heavy stubber
+
+Armiger Helverin (140 pts)
+• 2x Armiger autocannon
+• 1x Armoured feet
+• 1x Questoris heavy stubber
+
+Armiger Helverin (140 pts)
+• 2x Armiger autocannon
+• 1x Armoured feet
+• 1x Questoris heavy stubber
+
+Armiger Warglaive (140 pts)
+• 1x Reaper chain-cleaver
+• 1x Thermal spear
+• 1x Questoris heavy stubber
+
+Armiger Warglaive (140 pts)
+• 1x Reaper chain-cleaver
+• 1x Thermal spear
+• 1x Questoris heavy stubber
+
+Navigator (75 pts)
+• 1x Force-orb cane
+• 1x Laspistol
+
+undefined

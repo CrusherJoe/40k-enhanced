@@ -1,0 +1,132 @@
+# James Preusser | Necrons | Purge the Foe | team=You Can’t Ban Awesome
+# list: https://www.bestcoastpairings.com/list/b7pPpkAfYnxQ  status=passed
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Player Name: James Preusser
+Team Name: You Can't Ban Awesome
+Factions Used: Necrons
+Disposition Used: Purge the Foe
+Detachment Used: Cursed Legion, Skyshroud spearhead
+Army Upgrades and Enhancements (list on which model): Mark of the Nekrosor on Locust Lord, Destroyer Ankh on Overlord with translocation shroud, Deepening Madness on locust destroyers
+Leader/Support Attached to which Unit: Locust lord attached to locust destroyers, locust lord attached to locust destroyers, skorpekh lord attached to skorpekh destroyers, skorpekh lord attached to skorpekh destroyers, overlord with translocation shroud attached to lychguard
+Army Points: 2000
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Models from 2002  (2,000 Points)
+
+Necrons
+Cursed Legion and Skyshroud Spearhead (3 Detachment Points)
+Purge the Foe
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Lokhust Lord (70 Points)
+  • Attached as: Leader (Character)
+  • 1x Lord’s blade
+  • 1x Resurrection Orb
+
+Lokhust Destroyers (190 Points)
+  • Attached as: Bodyguard
+  • Enhancements: Deepening Madness (Upgrade)
+  • 6x Lokhust Destroyer
+     ◦ 6x Close combat weapon
+     ◦ 6x Gauss cannon
+
+Attached unit 2
+
+Lokhust Lord (90 Points)
+  • Attached as: Leader (Character)
+  • 1x Lord’s blade
+  • 1x Resurrection Orb
+  • Enhancements: Mark of the Nekrosor
+
+Lokhust Destroyers (170 Points)
+  • Attached as: Bodyguard
+  • 6x Lokhust Destroyer
+     ◦ 6x Close combat weapon
+     ◦ 6x Gauss cannon
+
+Attached unit 3
+
+Overlord with Translocation Shroud (110 Points)
+  • Attached as: Leader (Character)
+  • 1x Overlord’s blade
+  • 1x Resurrection Orb
+  • Enhancements: Destroyer Ankh
+
+Lychguard (160 Points)
+  • Attached as: Bodyguard
+  • 10x Lychguard
+     ◦ 10x Dispersion Shield
+     ◦ 10x Hyperphase sword
+
+Attached unit 4
+
+Skorpekh Lord (90 Points)
+  • Attached as: Leader (Character)
+  • 1x Enmitic annihilator
+  • 1x Flensing claw
+  • 1x Hyperphase harvester
+
+Skorpekh Destroyers (85 Points)
+  • Attached as: Bodyguard
+  • 3x Skorpekh Destroyer
+     ◦ 1x Plasmacyte
+     ◦ 3x Skorpekh hyperphase weapons
+
+Attached unit 5
+
+Skorpekh Lord (90 Points)
+  • Attached as: Leader (Character)
+  • 1x Enmitic annihilator
+  • 1x Flensing claw
+  • 1x Hyperphase harvester
+
+Skorpekh Destroyers (85 Points)
+  • Attached as: Bodyguard
+  • 3x Skorpekh Destroyer
+     ◦ 1x Plasmacyte
+     ◦ 3x Skorpekh hyperphase weapons
+
+CHARACTERS
+
+C’tan Shard of the Void Dragon (345 Points)
+  • 1x Canoptek tail blades
+  • 1x Spear of the Void Dragon
+  • 1x Voltaic storm
+
+Imotekh the Stormlord (100 Points)
+  • 1x Gauntlet of Fire
+  • 1x Staff of the Destroyer
+
+Nekrosor Ammentar (185 Points)
+  • Warlord
+  • 1x Blade tail and whip coils
+  • 1x Enmitic disintegrators
+  • 1x Nullstone Field Generator (Aura)
+  • 1x Unmaker Gauntlet
+
+OTHER DATASHEETS
+
+Lokhust Heavy Destroyers (100 Points)
+  • 2x Lokhust Heavy Destroyer
+     ◦ 2x Close combat weapon
+     ◦ 2x Enmitic exterminator
+
+Lokhust Heavy Destroyers (50 Points)
+  • 1x Close combat weapon
+  • 1x Enmitic exterminator
+
+Ophydian Destroyers (80 Points)
+  • 3x Ophydian Destroyer
+     ◦ 3x Ophydian hyperphase weapons
+. 1 plasmacyte
+
+
+Exported with App Version: v2.4.0 (1), Data Version: v925
+
+undefined

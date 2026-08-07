@@ -1,0 +1,55 @@
+# Rod  Buttermore | Adepta Sororitas | Priority Assets | team=7745
+# list: https://www.bestcoastpairings.com/list/8Pt7l4GBl0nS  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adepta Sororitas
++ DETACHMENT: Bringers of Flame, Sacred Champions (Fervent Purgation)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: Morvenn Vahl
++ ENHANCEMENT: Perfervid Haste (on Char2: Hospitaller)
+
+
+Char2: 1x Hospitaller (75 pts): Bolt pistol, Chirugeon's tools
+Enhancement: Perfervid Haste (+10 pts)
+-- Attached to Celestian Sacresants
+Char3: 1x Hospitaller (75 pts): Bolt pistol, Chirugeon's tools
+-- Attached to Celestian Sacresants
+Char1: 1x Morvenn Vahl (200 pts): Warlord, Fidelis, Lance of Illumination, Paragon missile launcher
+-- Attached to Paragon Warsuits
+
+1x Castigator (165 pts): Armoured tracks, 3x Heavy bolter, Castigator autocannons
+1x Castigator (165 pts): Armoured tracks, 3x Heavy bolter, Castigator autocannons
+1x Castigator (175 pts): Armoured tracks, 3x Heavy bolter, Castigator autocannons
+10x Celestian Sacresants (150 pts)
+• 1x Sacresant Superior: Hallowed Mace, Inferno pistol
+• 9x Celestian Sacresant (Hallowed Mace): 9 with Bolt pistol, Hallowed Mace
+10x Celestian Sacresants (150 pts)
+• 1x Sacresant Superior: Hallowed Mace, Inferno pistol
+• 9x Celestian Sacresant (Hallowed Mace): 9 with Bolt pistol, Hallowed Mace
+10x Dominion Squad (90 pts)
+• 9x Dominion
+    4 with Bolt pistol, Boltgun, Close combat weapon
+    1 with Simulacrum Imperialis, Bolt pistol, Boltgun, Close combat weapon
+    4 with Bolt pistol, Close combat weapon, Ministorum Flamer
+• 1x Dominion Superior: Bolt pistol, Close combat weapon, Power weapon, Ministorum hand flamer
+10x Dominion Squad (90 pts)
+• 9x Dominion
+    4 with Bolt pistol, Boltgun, Close combat weapon
+    1 with Simulacrum Imperialis, Bolt pistol, Boltgun, Close combat weapon
+    4 with Bolt pistol, Close combat weapon, Ministorum Flamer
+• 1x Dominion Superior: Bolt pistol, Close combat weapon, Power weapon, Inferno pistol
+1x Immolator (100 pts): Armoured tracks, Heavy Bolter, Hunter-Killer Missile, Immolation Flamers
+1x Immolator (100 pts): Armoured tracks, Heavy Bolter, Hunter-Killer Missile, Immolation Flamers
+3x Paragon Warsuits (210 pts)
+• 1x Paragon Superior: Bolt pistol, Paragon Storm Bolters, Paragon War Blade, Multi-melta
+• 2x Paragon Warsuit: 2 with Bolt pistol, Paragon Storm Bolters, Paragon War Blade, Multi-melta
+5x Retributor Squad (125 pts)
+• 1x Retributor Superior: Bolt pistol, Close combat weapon, Condemnor boltgun
+• 4x Retributor: 4 with Bolt pistol, Close combat weapon, Multi-melta
+5x Retributor Squad (125 pts)
+• 1x Retributor Superior: Bolt pistol, Close combat weapon, Condemnor boltgun
+• 4x Retributor: 4 with Bolt pistol, Close combat weapon, Multi-melta
+
+undefined

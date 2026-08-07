@@ -1,0 +1,58 @@
+# Jordan Tilley | Blood Angels | Take and Hold | team=Phoenix40K
+# list: https://www.bestcoastpairings.com/list/1Mtksaakitcr  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Blood Angels
++ DETACHMENT: Liberator Assault Group (The Red Thirst)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char1: Chief Librarian Mephiston
++ ENHANCEMENT: Rage-Fuelled Warrior (on Char4: Captain)
++ NUMBER OF UNITS: 17
++ SECONDARY: - Bring It Down: (1x4) - Assassination: 8 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char4: 1x Captain (115 pts): Heavy Bolt Pistol, Master-crafted power weapon, Relic Shield
+Enhancement: Rage-Fuelled Warrior (+35 pts)
+Char5: 1x Captain in Gravis Armour (80 pts): Master-crafted Heavy Bolt Rifle, Master-crafted power weapon
+Char6: 1x Captain with Jump Pack (80 pts): Relic Shield, Thunder Hammer
+Char1: 1x Chief Librarian Mephiston (110 pts): Warlord, Fury of the Ancients, Plasma pistol, Vitarus
+Char2: 1x Commander Dante (125 pts): Perdition, The Axe Mortalis
+Char3: 1x Lemartes (100 pts): Absolver Bolt Pistol, The Blood Crozius
+Char7: 1x Lieutenant (45 pts): Master-crafted power weapon, Neo-volkite Pistol, Storm Shield
+Char8: 1x Lieutenant in Reiver Armour (45 pts): Combat Knife, Master-crafted Special Issue Bolt Pistol
+
+5x Assault Intercessor Squad (80 pts)
+• 1x Assault Intercessor Sergeant: Plasma pistol, Power fist
+• 4x Assault Intercessors: 4 with Astartes Chainsword, Heavy Bolt Pistol
+
+6x Aggressor Squad (165 pts)
+• 1x Aggressor Sergeant: Twin power fist, Auto Boltstorm Gauntlets, Fragstorm grenade launcher
+• 5x Aggressors: 5 with Twin power fist, Auto Boltstorm Gauntlets, Fragstorm grenade launcher
+10x Assault Intercessors with Jump Packs (180 pts)
+• 9x Assault Intercessors with Jump Pack
+    7 with Astartes Chainsword, Heavy Bolt Pistol
+    2 with Astartes Chainsword, Plasma pistol
+• 1x Assault Intercessor Sergeant with Jump Pack: Plasma pistol, Power fist
+5x Assault Intercessors with Jump Packs (95 pts)
+• 4x Assault Intercessors with Jump Pack
+    3 with Astartes Chainsword, Heavy Bolt Pistol
+    1 with Astartes Chainsword, Plasma pistol
+• 1x Assault Intercessor Sergeant with Jump Pack: Plasma pistol, Power fist
+6x Bladeguard Veteran Squad (170 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+10x Death Company Marines with Jump Packs (230 pts)
+  5 with Astartes Chainsword, Heavy Bolt Pistol
+  3 with Power fist, Heavy Bolt Pistol
+  2 with Eviscerator, Heavy Bolt Pistol
+3x Inceptor Squad (125 pts)
+• 2x Inceptor: 2 with Close combat weapon, Plasma Exterminators
+• 1x Inceptor Sergeant: Close combat weapon, Plasma Exterminators
+5x Reiver Squad (75 pts): Grapnel Launchers, Reiver Grav-chute
+• 1x Reiver Sergeant: Combat Knife, Special Issue Bolt Pistol
+• 4x Reivers: 4 with Special Issue Bolt Pistol, Combat Knife
+1x Repulsor (170 pts): Armoured Hull, Hunter-slayer missile, Repulsor Defensive Array, Twin lascannon, Heavy Onslaught Gatling Cannon
+
+undefined

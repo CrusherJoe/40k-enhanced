@@ -1,0 +1,64 @@
+# Robert Bishop | Astra Militarum | Purge the Foe | team=Stardust Crusaders
+# list: https://www.bestcoastpairings.com/list/oDmImrp5dTJR  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
+Player Name: Robert Bishop
+Team Name: Stardust Crusaders 
++ FACTION KEYWORD: Imperium - Astra Militarum
++ DETACHMENT: Abhuman Auxiliaries, Steel Hammer (Absolutist Principles)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Lord Solar Leontus
++ ENHANCEMENT: Exemplar of Duty (on Char4: Commissar)
+& Exemplar of Duty (on Char5: Commissar)
+& Battalion Commander (on Char8: Stormsword)
+& Titan Killer (on Char9: Stormsword)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (2x2) + (2x6) - Assassination: 9 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char3: 5x Cadian Command Squad (60 pts)
+• 4x Cadian Veteran Guardsman
+    1 with Close combat weapon, Plasma gun, Plasma pistol
+    1 with Master vox, Close combat weapon, Lasgun
+    1 with Medi-pack, Close combat weapon, Lasgun
+    1 with Close combat weapon, Lasgun, Regimental standard
+• 1x Cadian Commander: Power fist, Plasma pistol
+Char4: 1x Commissar (40 pts): Plasma pistol, Power weapon
+Enhancement: Exemplar of Duty (+10 pts)
+Char5: 1x Commissar (40 pts): Plasma pistol, Power weapon
+Enhancement: Exemplar of Duty (+10 pts)
+Char1: 6x Gaunt’s Ghosts (95 pts)
+• 5x Tanith Ghost
+    1 with Bragg's autocannon, Straight silver knife
+    1 with Corbec's hot-shot lascarbine, Straight silver knife
+    1 with Larkin's long-las, Straight silver knife
+    1 with Lascarbine, Mkoll's straight silver knife
+    1 with Rawne's lascarbine, Straight silver knife
+• 1x Ibram Gaunt: Bolt pistol, Gaunt's chainsword
+Char2: 1x Lord Solar Leontus (130 pts): Warlord, Conquest, Konstantin's hooves, Sol's Righteous Gaze
+Char8: 1x Stormsword (460 pts): Character Upgrade, Armoured tracks, 2x Lascannon, Stormsword siege cannon, Twin heavy bolter, 2x Twin heavy bolter, 2x Lascannon, 2x Twin heavy bolter
+Enhancement: Battalion Commander (+30 pts)
+Char9: 1x Stormsword (485 pts): Character Upgrade, Armoured tracks, 2x Lascannon, Stormsword siege cannon, Twin heavy bolter, 2x Twin heavy bolter, 2x Lascannon, 2x Twin heavy bolter
+Enhancement: Titan Killer (+20 pts)
+Char6: 1x Tech-Priest Enginseer (45 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+Char7: 1x Tech-Priest Enginseer (45 pts): Enginseer Axe, Mechanicus pistol, Servo-arm
+
+10x Cadian Shock Troops (75 pts)
+• 9x Shock Trooper
+    7 with Close combat weapon, Lasgun
+    1 with Close combat weapon, Flamer
+    1 with Close combat weapon, Grenade launcher
+• 1x Shock Trooper Sergeant: Bolt pistol, Chainsword
+
+6x Bullgryn Squad (200 pts)
+• 1x Bullgryn Bone 'ead: Brute shield, Close combat weapon, Bullgryn maul
+• 5x Bullgryn: 5 with Brute shield, Close combat weapon, Bullgryn maul
+6x Bullgryn Squad (215 pts)
+• 1x Bullgryn Bone 'ead: Brute shield, Close combat weapon, Bullgryn maul
+• 5x Bullgryn: 5 with Brute shield, Close combat weapon, Bullgryn maul
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Lascannon
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Lascannon
+
+undefined

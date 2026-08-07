@@ -1,0 +1,38 @@
+# Toby Kan | Necrons | Take and Hold | team=Adeptus Mancunian
+# list: https://www.bestcoastpairings.com/list/TOfrMU6ZZW53  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Hand of the Dynasty, Hypercrypt Legion (Hypermotility Protocols)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Imotekh the Stormlord
++ ENHANCEMENT: Dimensional Overseer (on Char3: Hexmark Destroyer)
+& Osteoclave Fulcrum (on Char5: Technomancer)
++ NUMBER OF UNITS: 16
++ SECONDARY: - Bring It Down: (1x2) + (1x6) - Assassination: 5 Characters - Cull The Horde: 1x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char3: 1x Hexmark Destroyer (100 pts): Close combat weapon, Enmitic disintegrator pistols
+Enhancement: Dimensional Overseer (+25 pts)
+Char1: 1x Imotekh the Stormlord (100 pts): Warlord, Gauntlet of Fire, Staff of the Destroyer
+Char2: 1x Orikan the Diviner (90 pts): Staff of Tomorrow
+Char4: 1x Overlord with Translocation Shroud (90 pts): Resurrection orb, Overlord's blade
+Char5: 1x Technomancer (100 pts): Staff of light
+Enhancement: Osteoclave Fulcrum (+20 pts)
+
+20x Necron Warriors (190 pts): 20 with Close combat weapon, Gauss flayer
+
+1x Canoptek Reanimator (75 pts): 2x Atomiser beam, Reanimator's claws
+6x Canoptek Wraiths (220 pts): 6 with Particle caster, Vicious claws
+5x Deathmarks (60 pts): 5 with Close combat weapon, Synaptic disintegrator
+5x Deathmarks (60 pts): 5 with Close combat weapon, Synaptic disintegrator
+5x Flayed Ones (55 pts): 5 with Flayer claws
+2x Lokhust Heavy Destroyers (100 pts): 2 with Close combat weapon, Gauss destructor
+2x Lokhust Heavy Destroyers (100 pts): 2 with Close combat weapon, Gauss destructor
+10x Lychguard (160 pts): 10 with Dispersion shield, Hyperphase sword
+1x Monolith (420 pts): Particle whip, Portal of exile, 4x Death ray
+5x Triarch Praetorians (80 pts): 5 with Rod of covenant
+
+undefined

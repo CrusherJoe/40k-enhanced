@@ -1,0 +1,68 @@
+# Matt Earhart | Grey Knights | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/ulnl1Tnp9UHA  status=passed
+
+Chaplain (+1 to charge) is leading 8 Paladins
+Librarian (+1 AP in shooting) is leading 8 Paladins
+Caplain (Reroll hits) is leading 5 Paladins
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Grey Knights
++ DETACHMENT: Argent Assault, Banishers (Dauntless Champions)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char3: Brotherhood Librarian
++ ENHANCEMENT: Psychic Celerity (on Char1: Brotherhood Chaplain)
+& Sigil of the Hunt (on Char2: Brotherhood Chaplain)
+& Sixty-sixth Seal (on Char3: Brotherhood Librarian)
++ NUMBER OF UNITS: 12
++ SECONDARY: - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Brotherhood Chaplain (80 pts): Crozius arcanum, Storm bolter
+Enhancement: Psychic Celerity (+15 pts)
+Char2: 1x Brotherhood Chaplain (75 pts): Crozius arcanum, Storm bolter
+Enhancement: Sigil of the Hunt (+10 pts)
+Char3: 1x Brotherhood Librarian (115 pts): Warlord, Nemesis force weapon, Vortex of Doom
+Enhancement: Sixty-sixth Seal (+25 pts)
+
+4x Brotherhood Terminator Squad (140 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 1x Terminator: Nemesis force weapon, Storm bolter
+• 1x Terminator with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Storm bolter
+• 1x Terminator with Narthecium: Apothecary's narthecium, Nemesis force weapon
+4x Brotherhood Terminator Squad (140 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 1x Terminator: Nemesis force weapon, Storm bolter
+• 1x Terminator with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Storm bolter
+• 1x Terminator with Narthecium: Apothecary's narthecium, Nemesis force weapon
+5x Strike Squad (115 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Grey Knight: 4 with Nemesis force weapon, Storm bolter
+5x Strike Squad (115 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Grey Knight: 4 with Nemesis force weapon, Storm bolter
+
+Char4: 1x Callidus Assassin (100 pts): Neural shredder, Phase sword and poison blades
+5x Interceptor Squad (125 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Interceptor: 4 with Nemesis force weapon, Storm bolter
+8x Paladin Squad (375 pts)
+• 1x Paragon: Nemesis force weapon, Storm bolter
+• 3x Paladin: 3 with Nemesis force weapon, Storm bolter
+• 1x Paladin with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Psycannon
+• 2x Paladin with Heavy Weapon: 2 with Nemesis force weapon, Psycannon
+• 1x Paladin with Narthecium: Apothecary's narthecium, Nemesis force weapon
+8x Paladin Squad (375 pts)
+• 1x Paragon: Nemesis force weapon, Storm bolter
+• 3x Paladin: 3 with Nemesis force weapon, Storm bolter
+• 1x Paladin with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Psycannon
+• 2x Paladin with Heavy Weapon: 2 with Nemesis force weapon, Psycannon
+• 1x Paladin with Narthecium: Apothecary's narthecium, Nemesis force weapon
+5x Paladin Squad (245 pts)
+• 1x Paragon: Nemesis force weapon, Storm bolter
+• 1x Paladin with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Psycannon
+• 2x Paladin with Heavy Weapon: 2 with Nemesis force weapon, Psycannon
+• 1x Paladin with Narthecium: Apothecary's narthecium, Nemesis force weapon
+
+undefined

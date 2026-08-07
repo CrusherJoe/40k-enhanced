@@ -1,0 +1,131 @@
+# Adam Parmenter | Emperor's Children | Reconnaissance | team=6++
+# list: https://www.bestcoastpairings.com/list/7PcR3lb089vJ  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Emperor's Children
++ DETACHMENT: Carnival of Excess, Frenzied Host (Daemonic Empowerment)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char2: Lord Exultant
++ ENHANCEMENT: Possessed Blade (on Char2: Lord Exultant)
+& Warp Walker (on Char3: Lord Exultant)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (1x2) + (2x4) + (1x6) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Lord Exultant (105 pts)
+• 1x Bolt pistol
+• 1x Close combat weapon
+• 1x Phoenix power spear
+• 1x Rapture lash
+• Warlord
+• Possessed Blade (+25 pts)
+
+Attached: Infractors (85 pts)
+• 1x Obsessionist
+    • 1x Rapture lash
+    • 1x Bolt pistol
+• 4x Infractor
+    • 4x Bolt pistol
+    • 4x Duelling sabre
+    • Icon of Excess
+
+Lord Exultant (110 pts)
+• 1x Bolt pistol
+• 1x Close combat weapon
+• 1x Phoenix power spear
+• 1x Rapture lash
+• Warp Walker (+30 pts)
+
+Attached: Infractors (85 pts)
+• 1x Obsessionist
+    • 1x Rapture lash
+    • 1x Bolt pistol
+• 4x Infractor
+    • 4x Bolt pistol
+    • 4x Duelling sabre
+    • Icon of Excess
+
+Shalaxi Helbane (315 pts)
+• 1x Lash of Slaanesh
+• 1x Pavane of Slaanesh
+• 1x Snapping claws
+• 1x Soulpiercer
+
+BATTLELINE
+
+Daemonettes (90 pts)
+• 1x Alluress
+    • 1x Slashing claws
+• 9x Daemonette
+    • 9x Slashing claws
+    • Instrument of Chaos, Daemonic Icon
+
+Daemonettes (90 pts)
+• 1x Alluress
+    • 1x Slashing claws
+• 9x Daemonette
+    • 9x Slashing claws
+    • Instrument of Chaos, Daemonic Icon
+
+Daemonettes (90 pts)
+• 1x Alluress
+    • 1x Slashing claws
+• 9x Daemonette
+    • 9x Slashing claws
+    • Instrument of Chaos, Daemonic Icon
+
+Daemonettes (90 pts)
+• 1x Alluress
+    • 1x Slashing claws
+• 9x Daemonette
+    • 9x Slashing claws
+    • Instrument of Chaos, Daemonic Icon
+Tormentors (80 pts)
+• 1x Obsessionist
+    • 1x Plasma pistol
+    • 1x Power sword
+• 4x Tormentor
+    • 2x Boltgun
+    • 4x Close combat weapon
+    • 1x Meltagun
+    • 1x Plasma gun
+    • Icon of Excess
+
+Tormentors (80 pts)
+• 1x Obsessionist
+    • 1x Plasma pistol
+    • 1x Power sword
+• 4x Tormentor
+    • 2x Boltgun
+    • 4x Close combat weapon
+    • 1x Meltagun
+    • 1x Plasma gun
+    • Icon of Excess
+
+OTHER DATASHEETS
+
+Chaos Rhino (70 pts)
+• 1x Armoured tracks
+• 1x Combi-bolter
+• 1x Havoc launcher
+• 1x Combi-bolter
+
+Defiler (330 pts)
+• 1x Ectoplasma destructor
+• 2x Excruciator cannon
+• 1x Heavy reaper autocannon
+• 1x Heavy reaper autocannon
+• 1x Shearing claws
+
+Defiler (370 pts)
+• 1x Ectoplasma destructor
+• 2x Excruciator cannon
+• 1x Heavy reaper autocannon
+• 1x Heavy reaper autocannon
+• 1x Shearing claws
+
+undefined

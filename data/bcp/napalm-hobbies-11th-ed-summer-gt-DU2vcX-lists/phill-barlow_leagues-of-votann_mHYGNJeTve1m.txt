@@ -1,0 +1,65 @@
+# Phill Barlow | Leagues of Votann | Disruption | team=Team Napalm Hobbies
+# list: https://www.bestcoastpairings.com/list/mHYGNJeTve1m  status=passed
+
+Phill Barlow - Xenos - Leagues of Votann - Buggy - [1990 pts]
+
+# ++ Army Roster ++ [1990 pts, 3 Detachment Points]
+## Configuration
+Battle Size: Strike Force (2000 Point limit)
+Detachment [3 Detachment Points]: Armoured Trailblazers [1 Detachment Points], Mercenary Oathband [2 Detachment Points]
+Force Disposition: Disruption
+Show/Hide Options
+
+## Epic Hero [175 pts]
+Berehk Stornbröw [85 pts]
+Ûthar the Destined [90 pts]: Warlord
+
+## Character [215 pts]
+Brôkhyr Iron-master [85 pts]: Etacarn SB9 Targeting Implant [15 pts]
+Kâhl [85 pts]: Mercenary Prospector [20 pts], Rampart crest, Mass gauntlet, Volkanite disintegrator
+Memnyr Strategist [45 pts]
+
+## Battleline [100 pts]
+Hearthkyn Warriors [100 pts]:
+• 1x Theyn: Theyn's pistol
+• 7x Hearthkyn Warrior w/ bolter
+• 1x Hearthkyn Warrior w/ EtaCarn plasma beamer
+• 1x Hearthkyn Warrior w/ magna-rail rifle
+
+## Infantry [720 pts]
+Brôkhyr Thunderkyn [160 pts]:
+• 6x Brôkhyr Thunderkyn: Graviton blast cannon
+Cthonian Beserks [100 pts]:
+• 3x Beserk: Heavy plasma axe
+• 1x Beserk w/ mole grenade launcher
+• 1x Beserk w/ twin concussion gauntlets
+Cthonian Beserks [100 pts]:
+• 3x Beserk: Concussion maul
+• 1x Beserk w/ mole grenade launcher
+• 1x Beserk w/ twin concussion gauntlets
+Einhyr Hearthguard [270 pts]:
+• 1x Hesyr: Graviton hammer, Weavefield crest
+• 9x Einhyr Hearthguard: Concussion gauntlet, EtaCarn plasma gun
+Hernkyn Yaegirs [90 pts]:
+• 7x Hernkyn Yaegir w/ bolt shotgun
+• 1x Hernkyn Yaegir w/ APM launcher
+• 1x Hernkyn Yaegir w/ magna-coil rifle
+
+## Mounted [160 pts]
+Hernkyn Pioneers [80 pts]:
+• 1x Hernkyn Pioneer w/ pan-spectral scanner
+• 1x Hernkyn Pioneer w/ searchlight
+• 1x Hernkyn Pioneer w/ HYLas rotary cannon
+Hernkyn Pioneers [80 pts]:
+• 3x Hernkyn Pioneer
+
+## Vehicle [250 pts]
+Hekaton Land Fortress [250 pts]: SP heavy conversion beamer, 2x Twin bolt cannon, Pan spectral scanner
+
+## Dedicated Transport [370 pts]
+Kapricus Carrier [70 pts]: Smoke launcher
+Sagitaur [100 pts]: Optimised Attack Lines [15 pts], HYLas beam cannon
+Sagitaur [100 pts]: Optimised Attack Lines [15 pts], HYLas beam cannon
+Sagitaur [100 pts]: Optimised Attack Lines [15 pts], HYLas beam cannon
+
+undefined

@@ -1,0 +1,147 @@
+# Marshall Peterson | Necrons | Priority Assets | team=Wasatch Warband
+# list: https://www.bestcoastpairings.com/list/H14DQxmJjGyA  status=passed
+
+Dev go Brrrr  (V.3) (2,000 Points)
+
+Necrons
+Cryptek Conclave and Hand of the Dynasty (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Royal Warden (50 Points)
+  • Attached as: Leader (Character)
+  • 1x Close combat weapon
+  • 1x Relic gauss blaster
+
+Plasmancer (55 Points)
+  • Attached as: Support (Character)
+  • 1x Plasmic lance
+
+Immortals (155 Points)
+  • Attached as: Bodyguard (Battleline)
+  • Enhancements: Tools of Dominion (Upgrade)
+  • 10x Immortal
+     ◦ 10x Close combat weapon
+     ◦ 10x Gauss blaster
+
+Attached unit 2
+
+Royal Warden (50 Points)
+  • Attached as: Leader (Character)
+  • 1x Close combat weapon
+  • 1x Relic gauss blaster
+
+Plasmancer (55 Points)
+  • Attached as: Support (Character)
+  • 1x Plasmic lance
+
+Immortals (155 Points)
+  • Attached as: Bodyguard (Battleline)
+  • Enhancements: Tools of Dominion (Upgrade)
+  • 10x Immortal
+     ◦ 10x Close combat weapon
+     ◦ 10x Gauss blaster
+
+Attached unit 3
+
+Plasmancer (55 Points)
+  • Attached as: Support (Character)
+  • 1x Plasmic lance
+
+Immortals (70 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 5x Immortal
+     ◦ 5x Close combat weapon
+     ◦ 5x Gauss blaster
+
+Attached unit 4
+
+Lokhust Lord (70 Points)
+  • Attached as: Leader (Character)
+  • 1x Resurrection Orb
+  • 1x Staff of light
+
+Lokhust Destroyers (170 Points)
+  • Attached as: Bodyguard ()
+  • 6x Lokhust Destroyer
+     ◦ 6x Close combat weapon
+     ◦ 6x Gauss cannon
+
+CHARACTERS
+
+Illuminor Szeras (175 Points)
+  • Warlord
+  • 1x Eldritch Lance
+  • 1x Impaling legs
+
+Nekrosor Ammentar (185 Points)
+  • 1x Blade tail and whip coils
+  • 1x Enmitic disintegrators
+  • 1x Nullstone Field Generator (Aura)
+  • 1x Unmaker Gauntlet
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 Points)
+  • 2x Atomiser beam
+  • 1x Reanimator’s claws
+
+Canoptek Scarab Swarms (40 Points)
+  • 3x Canoptek Scarab Swarm
+     ◦ 3x Feeder mandibles
+
+Canoptek Tomb Crawlers (50 Points)
+  • 2x Canoptek Tomb Crawlers
+     ◦ 2x Claws
+     ◦ 2x Twin gauss reaper
+
+Canoptek Tomb Crawlers (50 Points)
+  • 2x Canoptek Tomb Crawlers
+     ◦ 2x Claws
+     ◦ 2x Twin gauss reaper
+
+Ophydian Destroyers (80 Points)
+  • 3x Ophydian Destroyer
+     ◦ 3x Ophydian hyperphase weapons
+     ◦ 1x Plasmacyte
+
+Tomb Blades (140 Points)
+  • 6x Tomb Blade
+     ◦ 6x Close combat weapon
+     ◦ 6x Nebuloscope
+     ◦ 6x Particle beamer
+
+Triarch Praetorians (160 Points)
+  • 10x Triarch Praetorian
+     ◦ 10x Particle caster
+     ◦ 10x Voidblade
+
+Triarch Praetorians (160 Points)
+  • 10x Triarch Praetorian
+     ◦ 10x Particle caster
+     ◦ 10x Voidblade
+
+Beware the immortals! They have:
+2 shots 24” S5 AP 1 D1
+Rapid Fire (on 10 mans from enhancement)
+ignore mods within 12” (from tomb crawlers)
+Lethal hits
+Sustained hits (within 6” of nekrosor at closest eligible) 
+AP 2 (within 3” of szeras)
+Assault/advance and action (detatchment) 
+Fall back shoot and charge (warden) 
+AOC (within 3” of szeras) 
+Crit 5+ to hit (plasmancer) 
+Reroll wounds (1s, all against unit on obj.)
+Reroll all hits (against unit that kills cryptek, strat.) 
++1 oc (strat) 
+Shoot back (snap shooting, strat)
+Anti infantry 3+/anti mounted 4+/heavy/ignores cover (pick one each time shooting if plasmancer alive, detatchment)
+4+ invuln (strat)
+
+
+undefined

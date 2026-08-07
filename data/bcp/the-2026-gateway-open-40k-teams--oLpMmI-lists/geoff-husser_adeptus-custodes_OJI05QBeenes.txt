@@ -1,0 +1,113 @@
+# Geoff Husser | Adeptus Custodes | Priority Assets | team=Midwest Monstars
+# list: https://www.bestcoastpairings.com/list/OJI05QBeenes  status=passed
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Player Name: Geoff Husser
+Team Name: Midwest Monstars
+Factions Used: Adeptus Custodes
+Disposition Used: Priority Assets
+Detachment Used: Shield Host/Tharanatoi Hammerblow
+Army Upgrades and Enhancements (list on which model): Allarus Captain - From the Hall of Armouries
+Leader/Support Attached to which Unit: 
+Allarus Captain  attached to Allarus
+Blade Champion  attached to Custodian Guard
+Blade Champion attached to Wardens
+Army Points: 2000
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+00custodes (2000 points)
+
+Adeptus Custodes
+Shield Host and Tharanatoi Hammerblow (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Shield-Captain in Allarus Terminator Armour (150 points)
+• Attached as: Leader (Character)
+  • Warlord
+  • 1x Balistus grenade launcher
+    1x Guardian spear
+  • Enhancement: From the Hall of Armouries
+
+Allarus Custodians (165 points)
+• Attached as: Bodyguard
+  • 3x Allarus Custodian
+    • 3x Balistus grenade launcher
+      3x Guardian spear
+
+Attached Unit 2
+
+Blade Champion (125 points)
+• Attached as: Leader (Character)
+  • 1x Vaultswords
+
+Custodian Guard (215 points)
+• Attached as: Bodyguard (Battleline)
+  • 5x Custodian Guard
+    • 5x Guardian spear
+
+Attached Unit 3
+
+Blade Champion (110 points)
+• Attached as: Leader (Character)
+  • 1x Vaultswords
+
+Custodian Wardens (250 points)
+• Attached as: Bodyguard
+  • 5x Custodian Warden
+    • 5x Guardian spear
+      1x Vexilla
+
+
+OTHER DATASHEETS
+
+Allarus Custodians (165 points)
+  • 3x Allarus Custodian
+    • 3x Balistus grenade launcher
+      3x Guardian spear
+
+Allarus Custodians (165 points)
+  • 3x Allarus Custodian
+    • 3x Balistus grenade launcher
+      3x Guardian spear
+
+Venatari Custodians (165 points)
+  • 3x Venatari Custodian
+    • 3x Venatari lance
+
+Venatari Custodians (165 points)
+  • 3x Venatari Custodian
+    • 3x Venatari lance
+
+Venatari Custodians (175 points)
+  • 3x Venatari Custodian
+    • 3x Venatari lance
+
+Vigilators (50 points)
+  • 1x Vigilator Sister Superior
+    • 1x Executioner greatblade
+  • 3x Vigilator
+    • 3x Executioner greatblade
+
+Witchseekers (50 points)
+  • 1x Witchseeker Sister Superior
+    • 1x Close combat weapon
+      1x Witchseeker flamer
+  • 3x Witchseeker
+    • 3x Close combat weapon
+      3x Witchseeker flamer
+
+Witchseekers (50 points)
+  • 1x Witchseeker Sister Superior
+    • 1x Close combat weapon
+      1x Witchseeker flamer
+  • 3x Witchseeker
+    • 3x Close combat weapon
+      3x Witchseeker flamer
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

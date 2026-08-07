@@ -1,0 +1,72 @@
+# Adam Stallwood | Genestealer Cult | Disruption | team=Fire and Dice
+# list: https://www.bestcoastpairings.com/list/4vN01CX5U86C  status=passed
+
+In the grim darkness of the far future there are loads of units in this list. 
+
++ FACTION KEYWORD: Xenos - Genestealer Cults
++ DETACHMENT: Heroes of the Uprising, Outlander Claw (Killer Reputation)
++ FORCE DISPOSITION: Disruption
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Reductus Saboteur
++ ENHANCEMENT: Cartographic Data-leech (on Char1: Reductus Saboteur)
+& Gene-tailored Toxins (on Char4: Sanctus)
++ NUMBER OF UNITS: 22
++ SECONDARY: - Bring It Down: (7x2) + (1x4) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Reductus Saboteur (80 pts): Warlord, Autopistol, Close combat weapon, Demolition charges, Remote explosives
+Enhancement: Cartographic Data-leech (+10 pts)
+Char2: 1x Reductus Saboteur (70 pts): Autopistol, Close combat weapon, Demolition charges, Remote explosives
+Char3: 1x Reductus Saboteur (80 pts): Autopistol, Close combat weapon, Demolition charges, Remote explosives
+Char4: 1x Sanctus (100 pts): Sanctus bio-dagger
+Enhancement: Gene-tailored Toxins (+35 pts)
+
+5x Acolyte Hybrids with Autopistols (70 pts)
+• 4x Acolyte Hybrid
+    1 with Autopistol, Cult claws and knife
+    1 with Cult icon, Cult claws and knife
+    2 with Heavy mining tool
+• 1x Acolyte Leader: Autopistol, Leader's Bio-weapons
+5x Acolyte Hybrids with Hand Flamers (75 pts)
+• 1x Acolyte Leader: Hand flamer, Leader's bio-weapons
+• 4x Acolyte Hybrid: 4 with Cult claws and knife, Hand flamer
+5x Acolyte Hybrids with Hand Flamers (75 pts)
+• 1x Acolyte Leader: Hand flamer, Leader's bio-weapons
+• 4x Acolyte Hybrid: 4 with Cult claws and knife, Hand flamer
+5x Acolyte Hybrids with Hand Flamers (75 pts)
+• 1x Acolyte Leader: Hand flamer, Leader's bio-weapons
+• 4x Acolyte Hybrid: 4 with Cult claws and knife, Hand flamer
+10x Neophyte Hybrids (70 pts)
+• 1x Neophyte Leader: Autopistol, Close combat weapon, Hybrid firearm
+• 9x Neophyte Hybrid: 9 with Autopistol, Close combat weapon, Hybrid firearm
+
+1x Achilles Ridgerunners (95 pts): Spotter, Armoured hull, Twin heavy stubber, Heavy mortar
+1x Achilles Ridgerunners (95 pts): Spotter, Armoured hull, Twin heavy stubber, Heavy mortar
+2x Achilles Ridgerunners (190 pts): 2 with Flare launcher, Armoured hull, Twin heavy stubber, Heavy mining laser
+5x Atalan Jackals (85 pts)
+• 4x Atalan Jackal
+    2 with Atalan small arms, Close combat weapon
+    1 with Atalan power weapon, Atalan small arms
+    1 with Atalan power weapon, Grenade launcher
+• 1x Atalan Wolfquad: Atalan small arms, Close combat weapon, Atalan incinerator
+5x Atalan Jackals (85 pts)
+• 4x Atalan Jackal
+    2 with Atalan small arms, Close combat weapon
+    1 with Atalan power weapon, Atalan small arms
+    1 with Atalan power weapon, Grenade launcher
+• 1x Atalan Wolfquad: Atalan small arms, Close combat weapon, Atalan incinerator
+1x Goliath Rockgrinder (120 pts): Demolition charge cache, Drilldozer blade, Heavy stubber, Clearance incinerator
+1x Goliath Rockgrinder (120 pts): Demolition charge cache, Drilldozer blade, Heavy stubber, Clearance incinerator
+1x Goliath Truck (75 pts): Demolition charge cache, Goliath wheels, Heavy stubber, Twin autocannon
+1x Goliath Truck (75 pts): Demolition charge cache, Goliath wheels, Heavy stubber, Twin autocannon
+1x Goliath Truck (75 pts): Demolition charge cache, Goliath wheels, Heavy stubber, Twin autocannon
+10x Hybrid Metamorphs (140 pts)
+• 9x Hybrid Metamorph
+    1 with Cult icon, Metamorph mutations
+    8 with Hand flamer, Metamorph mutations
+• 1x Metamorph Leader: Leader's Bio-weapons, Hand flamer
+5x Purestrain Genestealers (75 pts): 5 with Cult claws and talons
+5x Purestrain Genestealers (75 pts): 5 with Cult claws and talons
+
+undefined

@@ -1,0 +1,137 @@
+# Old Man Steve Baum | Deathwatch | Purge the Foe | team=The Emperor's Rejects
+# list: https://www.bestcoastpairings.com/list/rxCSqRlZV2RY  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Deathwatch
++ DETACHMENT: Black Spear Task Force (Kill Teams)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Captain in Gravis Armour
+
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Captain in Gravis Armour (80 pts)
+• 1x Master-crafted Heavy Bolt Rifle
+• 1x Master-crafted power weapon
+• Warlord
+
+Librarian (70 pts)
+• 1x Bolt pistol
+• 1x Force weapon
+• 1x Smite
+
+Librarian (70 pts)
+• 1x Bolt pistol
+• 1x Force weapon
+• 1x Smite
+
+Lieutenant (45 pts)
+• 1x Master-crafted power weapon
+• 1x Heavy Bolt Pistol
+• 1x Master-crafted bolter
+
+Watch Master (95 pts)
+• 1x Vigil spear
+
+BATTLELINE
+
+Deathwatch Veterans (190 pts)
+• 9x Veteran
+    • 1x Black Shield blades
+    • 4x Deathwatch thunder hammer
+    • 4x Close combat weapon
+    • 2x Frag cannon
+    • 2x Infernus heavy bolter
+• 1x Sgt
+    • 1x Combi-weapon
+    • 1x Xenophase blade
+
+Decimus Kill Team (190 pts)
+• 1x Kill Team Sergeant
+    • 1x Plasma pistol
+    • 1x Power weapon
+• 2x Gravis Veteran
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 2x Frag cannon
+• 7x Deathwatch Veteran
+    • 4x Bolt pistol
+    • 4x Close combat weapon
+    • 2x Plasma incinerator
+    • 2x Astartes shield
+    • 2x Power weapon
+    • 3x Special-issue bolt pistol
+    • 2x Combat knife
+    • 1x Xenophase blade
+
+Intercessor Squad (150 pts)
+• 1x Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Astartes grenade launcher
+    • 1x Bolt Rifle
+    • 1x Power weapon
+• 9x Intercessor
+    • 9x Bolt pistol
+    • 9x Bolt Rifle
+    • 9x Close combat weapon
+
+OTHER DATASHEETS
+
+Callidus Assassin (100 pts)
+• 1x Neural shredder
+• 1x Phase sword and poison blades
+
+Fortis Kill Team (195 pts)
+• 1x Kill Team Sergeant
+    • 1x Bolt pistol
+    • 1x Deathwatch bolt rifle
+    • 1x Power weapon
+• 9x Kill Team Intercessor
+    • 8x Bolt pistol
+    • 9x Close combat weapon
+    • 3x Deathwatch bolt rifle
+    • 2x Astartes grenade launcher
+    • 2x Castellan Launcher
+    • 1x Superkrak missile launcher
+    • 1x Vengor launcher
+    • 4x Plasma incinerator
+    • 1x Plasma pistol
+
+Indomitor Kill Team (275 pts)
+• 10x Kill Team Heavy Intercessor
+    • 7x Bolt pistol
+    • 7x Close combat weapon
+    • 2x Deathwatch heavy bolt rifle
+    • 2x Deathwatch heavy bolter
+    • 2x Melta rifle
+    • 1x Multi-melta
+    • 3x Flamestorm gauntlets
+    • 3x Twin power fists
+
+Indomitor Kill Team (275 pts)
+• 10x Kill Team Heavy Intercessor
+    • 7x Bolt pistol
+    • 7x Close combat weapon
+    • 2x Deathwatch heavy bolt rifle
+    • 2x Deathwatch heavy bolter
+    • 2x Melta rifle
+    • 1x Multi-melta
+    • 3x Flamestorm gauntlets
+    • 3x Twin power fists
+
+Talonstrike Kill Team (265 pts)
+• 1x Kill Team Sergeant
+    • 1x Power fist
+    • 1x Plasma pistol
+• 5x Heavy Intercessor
+    • 5x Close combat weapon
+    • 5x Plasma exterminators
+• 4x Intercessor
+    • 4x Astartes Chainsword
+    • 2x Heavy Bolt Pistol
+    • 2x Plasma pistol
+
+undefined

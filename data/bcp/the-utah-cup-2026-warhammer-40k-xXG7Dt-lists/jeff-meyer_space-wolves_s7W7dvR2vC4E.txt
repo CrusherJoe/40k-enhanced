@@ -1,0 +1,54 @@
+# Jeff Meyer | Space Wolves | Take and Hold | team=Dank Shock
+# list: https://www.bestcoastpairings.com/list/s7W7dvR2vC4E  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Space Wolves
++ DETACHMENT: Legends of Saga and Song, Saga of the Great Wolf (Loping Charge)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char3: Logan Grimnar
++ ENHANCEMENT: Thirst for Glory (on Char4: Chaplain in Terminator Armour)
+& Skjald's Foretelling (on Char5: Wolf Guard Battle Leader)
+& Fierce Example (on Infa5: Wolf Guard Terminators)
+& Fierce Example (on Infa5: Wolf Guard Terminators)
++ NUMBER OF UNITS: 12
++ SECONDARY: - Bring It Down: (1x2) + (1x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Arjac Rockfist (95 pts): Foehammer
+Char2: 1x Bjorn the Fell-Handed (160 pts): Heavy Flamer, Trueclaw, Helfrost cannon
+Char4: 1x Chaplain in Terminator Armour (90 pts): Crozius arcanum, Storm bolter
+Enhancement: Thirst for Glory (+15 pts)
+Char3: 1x Logan Grimnar (100 pts): Warlord, Axe Morkai, Storm bolter, Tyrnak and Fenrir
+Char5: 1x Wolf Guard Battle Leader (90 pts): Storm Shield, Thunder Hammer
+Enhancement: Skjald's Foretelling (+25 pts)
+
+5x Intercessor Squad (80 pts)
+• 4x Intercessor
+    3 with Bolt pistol, Bolt Rifle, Close combat weapon
+    1 with Astartes grenade launcher, Bolt pistol, Bolt Rifle, Close combat weapon
+• 1x Intercessor Sergeant: Bolt pistol, Bolt Rifle, Power fist
+
+1x Land Raider Redeemer (250 pts): Armoured Tracks, 2x Flamestorm Cannon, Hunter-killer missile, Multi-melta, Storm bolter, Twin assault cannon
+5x Scout Squad (65 pts)
+• 1x Scout Sergeant: Bolt pistol, Close combat weapon, Astartes Chainsword
+• 4x Scouts: 4 with Bolt pistol, Close combat weapon, Combat Knife
+5x Terminator Assault Squad (180 pts)
+• 1x Assault Terminator Sergeant: Storm Shield, Thunder Hammer
+• 4x Assault Terminator: 4 with Storm Shield, Thunder Hammer
+6x Wolf Guard Headtakers (170 pts): 6 with Heavy Bolt Pistol, Paired Master-crafted Power Weapons
+10x Wolf Guard Terminators (360 pts)
+• 9x Wolf Guard Terminator
+    7 with Storm shield, Master-crafted Power Weapon
+    2 with Assault Cannon, Power fist
+  Enhancement: Fierce Example (+25 pts)
+• 1x Wolf Guard Terminator Pack Leader: Relic Great Axe
+10x Wolf Guard Terminators (360 pts)
+• 9x Wolf Guard Terminator
+    7 with Storm shield, Master-crafted Power Weapon
+    2 with Assault Cannon, Power fist
+  Enhancement: Fierce Example (+25 pts)
+• 1x Wolf Guard Terminator Pack Leader: Relic Great Axe
+
+undefined

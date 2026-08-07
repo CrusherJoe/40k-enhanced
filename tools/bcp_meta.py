@@ -32,7 +32,7 @@ def _data_version(army_text):
 # Multi-week LEAGUE / escalation / team-league formats: rolling & provisional standings, mixed-dataslate over
 # weeks, and "top third" is meaningless mid-season -> EXCLUDE from the placing-based corpus (meta/units/recommend).
 # They stay VALID for winrates() (a single decided current-dataslate game is a game regardless of event format).
-_LEAGUE_RE = re.compile(r"league|escalation|liga-t-m|team-lea", re.I)
+_LEAGUE_RE = re.compile(r"league|escalation|liga-t-m|(^|-)teams?(-|$)", re.I)
 
 
 def is_league(ev):

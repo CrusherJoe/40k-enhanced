@@ -1,0 +1,27 @@
+# Brian Griffin | Imperial Knights | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/b5Z3fTATMlap  status=passed
+
+Best of Zac 2 (2000 points)
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Freeblade Company (Knights of Legend)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Cerastus Knight Atrapos
++ ENHANCEMENT: Bringer of Justice (on Char1: Cerastus Knight Atrapos)
+& Mysterious Guardian (on Char2: Knight Castellan)
++ NUMBER OF UNITS: 5
++ SECONDARY: - Bring It Down: (5x6) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Cerastus Knight Atrapos (435 pts): Warlord, Atrapos lascutter, Graviton singularity cannon
+Enhancement: Bringer of Justice (+30 pts)
+Char2: 1x Knight Castellan (460 pts): Plasma decimator, Titanic feet, 2x Twin meltagun, Volcano lance, 2x Shieldbreaker missile launcher, Twin siegebreaker cannon
+Enhancement: Mysterious Guardian (+35 pts)
+Char3: 1x Knight Gallant (355 pts): Reaper chainsword, Thunderstrike gauntlet, Stormspear rocket pod, Questoris heavy stubber
+Char4: 1x Knight Paladin (375 pts): Questoris heavy stubber, Rapid-fire battle cannon, Stormspear rocket pod, Meltagun, Reaper chainsword
+Char5: 1x Knight Warden (375 pts): Avenger gatling cannon, Heavy flamer, Stormspear rocket pod, Questoris heavy stubber, Reaper chainsword
+
+undefined

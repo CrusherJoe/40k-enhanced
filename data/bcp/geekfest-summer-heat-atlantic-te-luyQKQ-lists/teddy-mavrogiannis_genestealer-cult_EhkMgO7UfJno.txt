@@ -1,0 +1,97 @@
+# Teddy Mavrogiannis | Genestealer Cult | Reconnaissance | team=Halifax Privateers
+# list: https://www.bestcoastpairings.com/list/EhkMgO7UfJno  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Genestealer Cults
++ DETACHMENT: Final Day, Xenocult Masses (The Star Children's Blessings)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char9: Patriarch
++ ENHANCEMENT: Inhuman Integration (on Char3: Benefictus)
+& Enraptured Damnation (on Char4: Benefictus)
++ NUMBER OF UNITS: 21
++ SECONDARY: - Bring It Down: (5x2) - Assassination: 9 Characters - Cull The Horde: 2x5 (before leaders attached)
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char3: 1x Benefictus (95 pts): Close combat weapon, Psionic cascade - Leading 20 Neophytes + Nexos
+Enhancement: Inhuman Integration (+20 pts)
+
+Char4: 1x Benefictus (85 pts): Close combat weapon, Psionic cascade - Leading 20 Neophytes
+Enhancement: Enraptured Damnation (+10 pts)
+
+Char1: 1x Deathleaper (80 pts): Lictor claws and talons
+
+Char5: 5x Hyperadapted Raveners (165 pts)
+• 4x Ravener
+    3 with Ravener heavy claws and talons
+    1 with Ravener heavy claws and talons, Venom bolt
+• 1x Ravener Prime: Prime claws and talons
+
+Char6: 5x Hyperadapted Raveners (165 pts)
+• 4x Ravener
+    3 with Ravener heavy claws and talons
+    1 with Ravener heavy claws and talons, Venom bolt
+• 1x Ravener Prime: Prime claws and talons
+
+Char7: 1x Locus (35 pts): Locus blades, Leading 5 Acolyte Hybrids with Hand Flamers
+
+Char8: 1x Nexos (60 pts): Autopistol, Close combat weapon - Leading 20 Neophytes alongside Benefictus with Inhuman Integration
+
+Char9: 1x Patriarch (80 pts): Warlord, Patriarch's claws - Leading 5 Purestrain Genestealers
+
+Char2: 1x The Red Terror (130 pts): Gaping maw, Scything talons
+
+5x Acolyte Hybrids with Autopistols (70 pts)
+• 4x Acolyte Hybrid
+    1 with Cult icon, Cult claws and knife
+    3 with Heavy mining tool
+• 1x Acolyte Leader: Autopistol, Leader's Bio-weapons
+
+5x Acolyte Hybrids with Hand Flamers (75 pts) - Led by Locus
+• 4x Acolyte Hybrid
+    1 with Cult icon, Cult claws and knife
+    3 with Cult claws and knife, Hand flamer
+• 1x Acolyte Leader: Hand flamer, Leader's bio-weapons
+
+5x Acolyte Hybrids with Hand Flamers (75 pts)
+• 4x Acolyte Hybrid
+    1 with Cult icon, Cult claws and knife
+    3 with Cult claws and knife, Hand flamer
+• 1x Acolyte Leader: Hand flamer, Leader's bio-weapons
+
+20x Neophyte Hybrids (135 pts)
+• 19x Neophyte Hybrid - Led by Benefictus with Inhuman Integration + Nexos
+    2 with Autopistol, Close combat weapon, Mining laser
+    2 with Autopistol, Close combat weapon, Seismic cannon
+    10 with Autopistol, Close combat weapon, Hybrid firearm
+    1 with Cult Icon, Autopistol, Close combat weapon, Hybrid firearm
+    2 with Autopistol, Close combat weapon, Grenade launcher
+    2 with Autopistol, Close combat weapon, Webber
+• 1x Neophyte Leader: Autopistol, Close combat weapon, Hybrid firearm
+
+20x Neophyte Hybrids (135 pts)
+• 19x Neophyte Hybrid - Led by Benefictus with Enraptured Dominion
+    2 with Autopistol, Close combat weapon, Mining laser
+    2 with Autopistol, Close combat weapon, Seismic cannon
+    10 with Autopistol, Close combat weapon, Hybrid firearm
+    1 with Cult Icon, Autopistol, Close combat weapon, Hybrid firearm
+    2 with Autopistol, Close combat weapon, Grenade launcher
+    2 with Autopistol, Close combat weapon, Webber
+• 1x Neophyte Leader: Autopistol, Close combat weapon, Hybrid firearm
+
+1x Achilles Ridgerunners (95 pts): Survey augur, Armoured hull, Twin heavy stubber, Heavy mortar
+
+1x Achilles Ridgerunners (95 pts): Survey augur, Armoured hull, Twin heavy stubber, Heavy mortar
+
+1x Goliath Rockgrinder (120 pts): Demolition charge cache, Drilldozer blade, Heavy stubber, Heavy mining laser
+
+1x Goliath Rockgrinder (120 pts): Demolition charge cache, Drilldozer blade, Heavy stubber, Heavy mining laser
+
+5x Purestrain Genestealers (75 pts): 5 with Cult claws and talons - Led by Patriarch
+
+3x Von Ryan's Leapers (55 pts): 3 with Leaper's talons
+
+3x Von Ryan's Leapers (55 pts): 3 with Leaper's talons
+
+undefined

@@ -1,0 +1,111 @@
+# Nokomis Miller | Necrons | Reconnaissance | team=Stardust Crusaders
+# list: https://www.bestcoastpairings.com/list/OtU1D7C9UVVg  status=passed
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Player Name: Nokomis Miller
+Team Name: Stardust Crusaders
+Factions Used: Necrons
+Army Points: 2000 Points
+Army Enhancements (list on which model): 
+
+•	SINGULARITY MATRIX45 PTS
+This eldritch device fetters and directs the Deceiver’s powers within a vortex that devours lesser wits entirely.
+C’TAN SHARD OF THE DECEIVER model only. This model has the following ability:  Lord of Deceit (Aura): Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12" of this model, increase the cost of that use of that Stratagem by 1CP.
+•	QUANTUM GOAD45 PTS
+The energies of this binding latch onto enemy targets and shunt the shard into alignment with them.
+C’TAN SHARD OF THE NIGHTBRINGER model only. This model is eligible to declare a charge in a turn in which it Advanced.
+•	ANIMUS DAMPER35 PTS
+This device bleeds off the Void Dragon shard’s energies and earths them violently through nearby machines.
+C’TAN SHARD OF THE VOID DRAGON model only. Once per turn, at the start of your opponent’s Shooting phase, select one enemy VEHICLE unit visible to the bearer. That unit must take a Leadership test. Until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll and, if that Leadership test was failed, subtract 1 from the Woundroll as well.
+
+Detachment Rule: 
+Pantheon of Woe
+NECRONS MONSTER units from your army have the following ability:
+
+Distortion Fields (Aura): While an enemy unit is within 6" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1.
+
+At the start of each phase, for each NECRONS MONSTERunit from your army, that unit can suffer 3 mortalwounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9".
+
+Designer’s Note: If your army contains more than one TRANSCENDENT C’TAN unit, each of those units must take the Reletavistic Tether ability.
+
+RESTRICTIONS
+When mustering your army, each NECRONS MONSTER unit from your army has the relevant Necrodermal Binding ability shown below, and you must increase the points cost of each of those units by the amount shown in the Munitorum Field Manual. If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army.
+
+Skyshroud Spearhead-TRANSDIMENSIONAL DEPLOYMENT
+* Friendly TOMB BLADES units have Deep Strike.
+* When a friendly TOMB BLADES unit is selected to shoot, if that unit made an ingress move this turn, that unit’s ranged attacks have +1 to hit rolls.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Ayyy (2,000 Points)
+
+Necrons
+Pantheon of Woe and Skyshroud Spearhead (3 Detachment Points)
+Reconnaissance
+Strike Force (2,000 Points)
+
+CHARACTERS
+
+C’tan Shard of the Deceiver (375 Points)
+  • 1x Cosmic insanity
+  • 1x Golden fists
+
+C’tan Shard of the Nightbringer (405 Points)
+  • 1x Gaze of death
+  • 1x Scythe of the Nightbringer
+
+C’tan Shard of the Void Dragon (380 Points)
+  • 1x Canoptek tail blades
+  • 1x Spear of the Void Dragon
+  • 1x Voltaic storm
+
+Imotekh the Stormlord (100 Points)
+  • Warlord
+  • 1x Gauntlet of Fire
+  • 1x Staff of the Destroyer
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 Points)
+  • 2x Atomiser beam
+  • 1x Reanimator’s claws
+
+Canoptek Reanimator (75 Points)
+  • 2x Atomiser beam
+  • 1x Reanimator’s claws
+
+Lokhust Destroyers (80 Points)
+  • 3x Lokhust Destroyer
+     ◦ 3x Close combat weapon
+     ◦ 3x Gauss cannon
+
+Lokhust Destroyers (80 Points)
+  • 3x Lokhust Destroyer
+     ◦ 3x Close combat weapon
+     ◦ 3x Gauss cannon
+
+Lokhust Heavy Destroyers (100 Points)
+  • 2x Lokhust Heavy Destroyer
+     ◦ 2x Close combat weapon
+     ◦ 2x Gauss destructor
+
+Lokhust Heavy Destroyers (50 Points)
+  • 1x Close combat weapon
+  • 1x Gauss destructor
+
+Tomb Blades (140 Points)
+  • 6x Tomb Blade
+     ◦ 6x Close combat weapon
+     ◦ 6x Nebuloscope
+     ◦ 6x Twin tesla carbine
+
+Tomb Blades (140 Points)
+  • 6x Tomb Blade
+     ◦ 6x Close combat weapon
+     ◦ 6x Nebuloscope
+     ◦ 6x Twin tesla carbine
+
+Exported with App Version: v2.3.0 (1), Data Version: v912
+
+
+undefined

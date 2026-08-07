@@ -1,0 +1,62 @@
+# Owen Starks | Imperial Knights | Priority Assets | team=The Emperor's Rejects
+# list: https://www.bestcoastpairings.com/list/blkfVVjf8057  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Freeblade Company (Knights of Legend)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char4: Knight Paladin
++ ENHANCEMENT: Sanctuary (on Char1: Cerastus Knight Castigator)
+& Bringer of Justice (on Char2: Knight Destrier)
+& Mysterious Guardian (on Char5: Knight Valiant)
++ NUMBER OF UNITS: 6
++ SECONDARY: - Bring It Down: (1x2) + (1x4) + (4x6) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Cerastus Knight Castigator (400 pts)
+• 1x Castigator bolt cannon
+• 1x Tempest warblade
+• Sanctuary (+20 pts)
+
+Knight Destrier (295 pts)
+• 1x Questoris heavy stubber
+• 1x Titanic feet
+• 1x Thundershock spear
+• 1x Bellatus reaper chainsword
+• Bringer of Justice (+30 pts)
+
+Knight Errant (355 pts)
+• 1x Thermal cannon
+• 1x Stormspear rocket pod
+• 1x Meltagun
+• 1x Thunderstrike gauntlet
+
+Knight Paladin (375 pts)
+• 1x Questoris heavy stubber
+• 1x Rapid-fire battle cannon
+• 1x Stormspear rocket pod
+• 1x Questoris heavy stubber
+• 1x Reaper chainsword
+• Warlord
+
+Knight Valiant (435 pts)
+• 1x Conflagration cannon
+• 1x Thundercoil harpoon
+• 1x Titanic feet
+• 2x Twin meltagun
+• 2x Shieldbreaker missile launcher
+• 1x Twin siegebreaker cannon
+• Mysterious Guardian (+35 pts)
+
+OTHER DATASHEETS
+
+Armiger Warglaive (140 pts)
+• 1x Reaper chain-cleaver
+• 1x Thermal spear
+• 1x Questoris heavy stubber
+
+undefined

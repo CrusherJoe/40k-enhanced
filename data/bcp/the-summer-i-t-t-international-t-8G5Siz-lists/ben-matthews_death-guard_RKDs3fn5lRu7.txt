@@ -1,0 +1,69 @@
+# Ben Matthews | Death Guard | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/RKDs3fn5lRu7  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Death Guard
++ DETACHMENT: Virulent Vectorium
++ TOTAL ARMY POINTS: 2000pts
++ POINTS LIMIT: 2000pts
++
++ ENHANCEMENT: Revolting Regeneration(on Char1: Daemon Prince of Nurgle With Wings) & Arch Contaminator(on Char2: Foul Blightspawn)
++ NUMBER OF UNITS: 15
++ SECONDARY: -Bring It Down: 4x2 + 1x4 - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Char1: 1x Daemon Prince of Nurgle With Wings (200 points)
+• 1x Daemon Prince of Nurgle with Wings: Hellforged weapons and Infernal cannon
+Enhancement: Revolting Regeneration (+30 pts)
+Char2: 1x Foul Blightspawn (90 points)
+• 1x Foul Blightspawn: Close combat weapon and Plague sprayer
+Enhancement: Arch Contaminator (+25 pts)
+Char3: 1x Lord of Contagion (120 points)
+• 1x Lord of Contagion: manreaper
+Char4: 1x Malignant Plaguecaster (60 points)
+• 1x Malignant Plaguecaster: Bolt pistol, Corrupted staff and Plague wind
+Char5: 1x Mortarion (390 points)
+• 1x Mortarion: Lantern, Rotwind and Silence
+• Warlord
+Char6: 1x Typhus (100 points)
+• 1x Typhus: Lakrimae
+
+BATTLELINE
+
+5x Plague Marines (90 points)
+• 1x Plague Champion: Bubotic weapons  and Plasma pistol
+• 3x Plague Marines: Boltgun and Plague knives
+• 1x Plague Marines: Boltgun and icon of despair and Plague knives
+10x Plague Marines (180 points)
+• 1x Plague Champion: Boltgun and Plague knives
+• 1x Plague Marines: Plague knives and Plasma gun
+• 2x Plague Marines: Heavy plague weapon and Plague knives
+• 2x Plague Marines: Bubotic weapons and Plague knives
+• 1x Plague Marines: Plague knives and Plague spewer
+• 1x Plague Marines: Boltgun and Plague knives
+• 1x Plague Marines: Blight launcher and Plague knives
+• 1x Plague Marines: Boltgun and icon of despair and Plague knives
+
+OTHER DATASHEETS
+
+1x Chaos Predator Destructor (145 points)
+• 1x Chaos Predator Destructor: 2 Lascannons, Armoured tracks, Combi-bolter, Havoc launcher and Predator autocannon
+1x Chaos Rhino (75 points)
+• 1x Chaos Rhino: Armoured tracks, 2 Combi-bolter and Havoc launcher
+3x Deathshroud Terminators (160 points)
+• 1x Deathshroud Champion: Additional plaguespurt gauntlet, Icon of despair, Manreaper and Plaguespurt gauntlet
+• 2x Deathshroud Terminators: Manreaper and Plaguespurt gauntlet
+3x Deathshroud Terminators (160 points)
+• 1x Deathshroud Champion: Additional plaguespurt gauntlet, Icon of despair, Manreaper and Plaguespurt gauntlet
+• 2x Deathshroud Terminators: Manreaper and Plaguespurt gauntlet
+1x Foetid Bloat-drone (100 points)
+• 1x Foetid Bloat-drone: 2 Plaguespitter and Plague probe
+10x Poxwalkers (65 points)
+• 10x Poxwalkers: improvised weapon
+10x Poxwalkers (65 points)
+• 10x Poxwalkers: improvised weapon
+
+
+undefined

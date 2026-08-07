@@ -1,0 +1,150 @@
+# Isaac Terada | Space Marines (Astartes) | Reconnaissance | team=Xenos Petting Zoo
+# list: https://www.bestcoastpairings.com/list/siFfthpZ77v8  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Isaac Terada
++ TEAM NAME: XPZ
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Raven Guard
++ DETACHMENT: Librarius Conclave, Shadowmark Talon (Psychic Disciplines)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Aethon Shaan
++ ENHANCEMENT: Celerity (on Char2: Librarian in Terminator Armour)
+& Temporal Corridor (on Char3: Librarian in Terminator Armour)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+ATTACHED UNIT 1
+
+Librarian in Terminator Armour (110 pts)
+• 1x Force weapon
+• 1x Smite
+• 1x Combi-weapon
+• Celerity (+35 pts)
+
+Terminator Assault Squad (340 pts)
+• 1x Assault Terminator Sergeant
+    • 1x Storm Shield
+    • 1x Thunder Hammer
+• 9x Assault Terminator
+    • 5x Thunder Hammer
+    • 4x Twin Lightning Claws
+    • 5x Storm Shield
+
+ATTACHED UNIT 2
+
+Librarian in Terminator Armour (100 pts)
+• 1x Force weapon
+• 1x Smite
+• 1x Storm bolter
+• Temporal Corridor (+25 pts)
+
+Terminator Squad (320 pts)
+• 1x Terminator Sergeant
+    • 1x Storm bolter
+    • 1x Power fist
+• 9x Terminator
+    • 9x Power fist
+    • 2x Cyclone missile launcher
+    • 9x Storm bolter
+
+ATTACHED UNIT 3
+
+Lieutenant in Phobos Armour (45 pts)
+• 1x Bolt pistol
+• 1x Master-crafted Scoped Bolt Carbine
+• 1x Paired Combat Blades
+
+Incursor Squad (85 pts)
+• 4x Incursor
+    • 4x Bolt pistol
+    • 4x Occulus Bolt Carbine
+    • 4x Paired Combat Blades
+    • Haywire Mine
+• 1x Incursor Sergeant
+    • 1x Bolt pistol
+    • 1x Occulus Bolt Carbine
+    • 1x Paired Combat Blades
+
+CHARACTER
+
+Aethon Shaan (100 pts)
+• 1x Claws of Severax
+• 1x Heavy Bolt Pistol
+• Warlord
+
+BATTLELINE
+
+Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Astartes grenade launcher
+    • 1x Bolt Rifle
+    • 1x Power fist
+• 4x Intercessor
+    • 4x Bolt pistol
+    • 4x Bolt Rifle
+    • 4x Close combat weapon
+
+Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Astartes grenade launcher
+    • 1x Bolt Rifle
+    • 1x Power fist
+• 4x Intercessor
+    • 4x Bolt pistol
+    • 4x Bolt Rifle
+    • 4x Close combat weapon
+
+OTHER DATASHEETS
+
+Centurion Devastator Squad (350 pts)
+• 5x Devastator Centurion
+    • 5x Centurion Fists
+    • 5x Centurion missile launcher
+    • 5x Grav-cannon
+• 1x Devastator Centurion Sergeant
+    • 1x Centurion Fists
+    • 1x Centurion missile launcher
+    • 1x Grav-cannon
+
+Inceptor Squad (125 pts)
+• 2x Inceptor
+    • 2x Close combat weapon
+    • 2x Assault Bolters
+• 1x Inceptor Sergeant
+    • 1x Close combat weapon
+    • 1x Assault Bolters
+
+Inceptor Squad (125 pts)
+• 2x Inceptor
+    • 2x Close combat weapon
+    • 2x Assault Bolters
+• 1x Inceptor Sergeant
+    • 1x Close combat weapon
+    • 1x Assault Bolters
+
+Reiver Squad (75 pts)
+• 1x Reiver Sergeant
+    • 1x Combat Knife
+    • 1x Special Issue Bolt Pistol
+• 4x Reivers
+    • 4x Special Issue Bolt Pistol
+    • 4x Combat Knife
+  • Grapnel Launchers, Reiver Grav-chute
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 4x Scouts
+    • 4x Bolt pistol
+    • 4x Close combat weapon
+    • 4x Combat Knife
+
+
+undefined

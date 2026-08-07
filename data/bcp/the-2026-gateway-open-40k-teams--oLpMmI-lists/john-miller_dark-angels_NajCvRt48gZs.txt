@@ -1,0 +1,160 @@
+# John Miller | Dark Angels | Disruption | team=Tundra Tactics
+# list: https://www.bestcoastpairings.com/list/NajCvRt48gZs  status=passed
+
+Dirty Mike and the Boys
+
+++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Johnny Miller
++ TEAM NAME: Tundra Tactics
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Dark Angels
++ DETACHMENT: Company of Hunters, Darkflight Pursuit (Masters of Manoeuvre)
++ FORCE DISPOSITION: Disruption
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Lion El'Jonson
++ ENHANCEMENT: Recon Hunter (on Char4: Ravenwing Command Squad - Ravenwing Champion)
+& Thundercowl Turbines (on Vehi5: Land Speeder)
+& Nightforged Battery (on Vehi5: Land Speeder Vengeance)
+& Nightforged Battery (on Vehi5: Land Speeder Vengeance)
+& Nightforged Battery (on Vehi5: Land Speeder Vengeance)
+& Thundercowl Turbines (on Vehi5: Storm Speeder Thunderstrike)
++ NUMBER OF UNITS: 17
++ SECONDARY: - Bring It Down: (7x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Azrael (140 pts)
+• 1x Lion's Wrath
+• 1x The Sword of Secrets(with ICCs)
+
+Lion El'Jonson (265 pts)
+• 1x Arma Luminis
+• 1x Fealty
+• Warlord
+
+Ravenwing Command Squad (125 pts) Support
+• 1x Ravenwing Ancient
+    • 1x Black Knight combat weapon
+    • 1x Bolt Pistol
+    • 1x Plasma Talon
+• 1x Ravenwing Apothecary
+    • 1x Black Knight combat weapon
+    • 1x Bolt Pistol
+    • 1x Plasma Talon
+• 1x Ravenwing Champion
+    • 1x Bolt Pistol
+    • 1x Master-crafted power weapon
+    • 1x Plasma Talon
+    • Recon Hunter (+20 pts)
+    *with Outriders
+
+Sammael (95 pts)
+• 1x Bolt Pistol
+• 1x Master-crafted plasma cannon
+• 1x The Raven Sword
+• 1x Twin storm bolter
+*With Outriders
+
+Techmarine (55 pts)
+• 1x Forge Bolter
+• 1x Grav-pistol
+• 1x Omnissian power axe
+• 1x Servo-arm
+
+BATTLELINE
+
+Outrider Squad (70 pts)
+• 2x Outrider
+    • 2x Astartes Chainsword
+    • 2x Heavy Bolt Pistol
+    • 2x Twin bolt rifle
+• 1x Outrider Sergeant
+    • 1x Astartes Chainsword
+    • 1x Heavy Bolt Pistol
+    • 1x Twin bolt rifle
+
+OTHER DATASHEETS
+
+Incursor Squad (85 pts)
+• 4x Incursor
+    • 4x Bolt pistol
+    • 4x Occulus Bolt Carbine
+    • 4x Paired Combat Blades
+    • Haywire Mine
+• 1x Incursor Sergeant
+    • 1x Bolt pistol
+    • 1x Occulus Bolt Carbine
+    • 1x Paired Combat Blades
+
+Inner Circle Companions (160 pts)
+• 6x Inner Circle Companion
+    • 6x Calibanite Greatsword
+    • 6x Heavy Bolt Pistol
+
+Invader ATV (60 pts)
+• 1x Bolt pistol
+• 1x Close combat weapon
+• 1x Twin bolt rifle
+• 1x Multi-melta
+
+Invader ATV (60 pts)
+• 1x Bolt pistol
+• 1x Close combat weapon
+• 1x Twin bolt rifle
+• 1x Multi-melta
+
+Land Speeder (105 pts)
+• 1x Close combat weapon
+• 1x Multi-melta
+• 1x Stormfury Missile Launcher
+• 1x Onslaught gatling cannon
+
+Land Speeder (120 pts)
+• 1x Close combat weapon
+• 1x Multi-melta
+• 1x Stormfury Missile Launcher
+• 1x Onslaught gatling cannon
+• Thundercowl Turbines (+15 pts)
+
+Land Speeder Vengeance (145 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Assault cannon
+• Nightforged Battery (+15 pts)
+
+Land Speeder Vengeance (145 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Assault cannon
+• Nightforged Battery (+15 pts)
+
+Land Speeder Vengeance (155 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Assault cannon
+• Nightforged Battery (+15 pts)
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 2x Scout
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 1x Missile Launcher
+    • 1x Scout Sniper Rifle
+• 2x Scouts
+    • 2x Bolt pistol
+    • 2x Boltgun
+    • 2x Close combat weapon
+
+Storm Speeder Thunderstrike (150 pts)
+• 1x Close combat weapon
+• 1x Stormfury Missiles
+• 1x Thunderstrike Las-talon
+• 1x Twin Icarus Rocket Pod
+• Thundercowl Turbines (+15 pts)
+
+undefined

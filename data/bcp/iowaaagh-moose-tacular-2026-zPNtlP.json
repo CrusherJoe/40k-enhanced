@@ -1,0 +1,784 @@
+{
+ "event": {
+  "id": "zPNtlPCqg5jk",
+  "name": "Iowaaagh! Moose-tacular 2026",
+  "totalPlayers": 86,
+  "eventDate": "2026-08-08T13:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Christopher Miller",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "Team Osiris",
+   "dropped": false,
+   "listId": "KaBighQQy5jl",
+   "listUrl": "https://www.bestcoastpairings.com/list/KaBighQQy5jl"
+  },
+  {
+   "name": "Austin Evans",
+   "faction": "Astra Militarum",
+   "detachment": "Purge the Foe",
+   "team": "Team Osiris",
+   "dropped": false,
+   "listId": "hZMZL647zgG2",
+   "listUrl": "https://www.bestcoastpairings.com/list/hZMZL647zgG2"
+  },
+  {
+   "name": "Mr. Pibb",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Pibbas",
+   "dropped": false,
+   "listId": "oarinykkWYDB",
+   "listUrl": "https://www.bestcoastpairings.com/list/oarinykkWYDB"
+  },
+  {
+   "name": "Thomas Getz",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Pibbas",
+   "dropped": false,
+   "listId": "i3znFxL4nOUF",
+   "listUrl": "https://www.bestcoastpairings.com/list/i3znFxL4nOUF"
+  },
+  {
+   "name": "Alex Kraft",
+   "faction": "Space Marines (Astartes)",
+   "detachment": null,
+   "team": "Pibbas",
+   "dropped": false,
+   "listId": "HNvRLgWkeybK",
+   "listUrl": "https://www.bestcoastpairings.com/list/HNvRLgWkeybK"
+  },
+  {
+   "name": "Benjamin Paper",
+   "faction": "Necrons",
+   "detachment": "Take and Hold",
+   "team": "Pibbas",
+   "dropped": false,
+   "listId": "O9pyfOzp7DU9",
+   "listUrl": "https://www.bestcoastpairings.com/list/O9pyfOzp7DU9"
+  },
+  {
+   "name": "David Sullivan",
+   "faction": "Blood Angels",
+   "detachment": "Purge the Foe",
+   "team": "Team Dirt Review",
+   "dropped": false,
+   "listId": "RUxgUa9I0HT0",
+   "listUrl": "https://www.bestcoastpairings.com/list/RUxgUa9I0HT0"
+  },
+  {
+   "name": "Chris Martin",
+   "faction": "World Eaters",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "T6v3EhRmhBi4",
+   "listUrl": "https://www.bestcoastpairings.com/list/T6v3EhRmhBi4"
+  },
+  {
+   "name": "mack mcmurrin",
+   "faction": "Grey Knights",
+   "detachment": "Priority Assets",
+   "team": "3D3 Yogurt Cannons ",
+   "dropped": false,
+   "listId": "C9OQ8vNi7y3k",
+   "listUrl": "https://www.bestcoastpairings.com/list/C9OQ8vNi7y3k"
+  },
+  {
+   "name": "Brian Smith",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "4uQwSmrcisMq",
+   "listUrl": "https://www.bestcoastpairings.com/list/4uQwSmrcisMq"
+  },
+  {
+   "name": "Blake Kittrell",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Team Dirt Review",
+   "dropped": false,
+   "listId": "zZkPNlzZgV6y",
+   "listUrl": "https://www.bestcoastpairings.com/list/zZkPNlzZgV6y"
+  },
+  {
+   "name": "Sam Olsen",
+   "faction": "Chaos Space Marines",
+   "detachment": "Take and Hold",
+   "team": "Glass Cannon Gaming",
+   "dropped": false,
+   "listId": "chn8C1hgeBoP",
+   "listUrl": "https://www.bestcoastpairings.com/list/chn8C1hgeBoP"
+  },
+  {
+   "name": "Matthew Anderson",
+   "faction": "Tyranids",
+   "detachment": "Reconnaissance",
+   "team": "Rolling Sixes",
+   "dropped": false,
+   "listId": "klMZKE7fhIlJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/klMZKE7fhIlJ"
+  },
+  {
+   "name": "Jacob Kwak",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Eye of Terror Book Club",
+   "dropped": false,
+   "listId": "RSIFQmduoJo6",
+   "listUrl": "https://www.bestcoastpairings.com/list/RSIFQmduoJo6"
+  },
+  {
+   "name": "Zachary Lynn",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "BEU7eReAHxtw",
+   "listUrl": "https://www.bestcoastpairings.com/list/BEU7eReAHxtw"
+  },
+  {
+   "name": "Jacob Evans",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Rolling Sixes",
+   "dropped": false,
+   "listId": "bKZ7lqH6pq2h",
+   "listUrl": "https://www.bestcoastpairings.com/list/bKZ7lqH6pq2h"
+  },
+  {
+   "name": "cole knutson",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "P9S0USAr7Oft",
+   "listUrl": "https://www.bestcoastpairings.com/list/P9S0USAr7Oft"
+  },
+  {
+   "name": "KIRK CARSON",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "2XklOMK66dIP",
+   "listUrl": "https://www.bestcoastpairings.com/list/2XklOMK66dIP"
+  },
+  {
+   "name": "Blake Zimmerman",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": "Glass Cannon Gaming",
+   "dropped": false,
+   "listId": "djspvq9QdXw9",
+   "listUrl": "https://www.bestcoastpairings.com/list/djspvq9QdXw9"
+  },
+  {
+   "name": "Nathan Hesford",
+   "faction": "Death Guard",
+   "detachment": "Take and Hold",
+   "team": "3D3 Yogurt Cannons ",
+   "dropped": false,
+   "listId": "I8B6feedhRwD",
+   "listUrl": "https://www.bestcoastpairings.com/list/I8B6feedhRwD"
+  },
+  {
+   "name": "Erick Aragon",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Eye of Terror Book Club",
+   "dropped": false,
+   "listId": "MrGHCHTfULQL",
+   "listUrl": "https://www.bestcoastpairings.com/list/MrGHCHTfULQL"
+  },
+  {
+   "name": "Dustin Martin",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Kyle McCord",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": true,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Gregory Mich",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Derek Hotchkin",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "Y3kYDJ22wWVe",
+   "listUrl": "https://www.bestcoastpairings.com/list/Y3kYDJ22wWVe"
+  },
+  {
+   "name": "Tyler Atkinson",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Arn't we all Alpharius?",
+   "dropped": false,
+   "listId": "SnVsWlyUelwv",
+   "listUrl": "https://www.bestcoastpairings.com/list/SnVsWlyUelwv"
+  },
+  {
+   "name": "Dan Smith",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Pibbas",
+   "dropped": false,
+   "listId": "81sZYnjb2dQM",
+   "listUrl": "https://www.bestcoastpairings.com/list/81sZYnjb2dQM"
+  },
+  {
+   "name": "Stephen Petersen",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "wKuWYl7Hwr94",
+   "listUrl": "https://www.bestcoastpairings.com/list/wKuWYl7Hwr94"
+  },
+  {
+   "name": "Taylor Xia",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": "Eye of Terror Book Club",
+   "dropped": false,
+   "listId": "SVztomWbCPxB",
+   "listUrl": "https://www.bestcoastpairings.com/list/SVztomWbCPxB"
+  },
+  {
+   "name": "Gabe Buttermore",
+   "faction": "Emperor's Children",
+   "detachment": "Purge the Foe",
+   "team": "Glass Cannon Gaming",
+   "dropped": false,
+   "listId": "5Ct8vPI4Aq9w",
+   "listUrl": "https://www.bestcoastpairings.com/list/5Ct8vPI4Aq9w"
+  },
+  {
+   "name": "Jonathan Brandt",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Gaunt\u2019s Gophers",
+   "dropped": false,
+   "listId": "XQ9NCaZR12oS",
+   "listUrl": "https://www.bestcoastpairings.com/list/XQ9NCaZR12oS"
+  },
+  {
+   "name": "Kirk Carson",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Michael Baumann",
+   "faction": "Black Templars",
+   "detachment": "Take and Hold",
+   "team": "Small Victories Gaming",
+   "dropped": false,
+   "listId": "eisx62Qorp2u",
+   "listUrl": "https://www.bestcoastpairings.com/list/eisx62Qorp2u"
+  },
+  {
+   "name": "Benjamin Quick",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Thomas Robbins",
+   "faction": "Death Guard",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "aNHmcaDVjEUN",
+   "listUrl": "https://www.bestcoastpairings.com/list/aNHmcaDVjEUN"
+  },
+  {
+   "name": "Kale Klitzkie",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "7HMokChHGnyE",
+   "listUrl": "https://www.bestcoastpairings.com/list/7HMokChHGnyE"
+  },
+  {
+   "name": "Oliver Olsen",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": "Glass Cannon Gaming",
+   "dropped": false,
+   "listId": "FfWsEzYUfqWd",
+   "listUrl": "https://www.bestcoastpairings.com/list/FfWsEzYUfqWd"
+  },
+  {
+   "name": "Rock Huebner",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Shawn sonnack",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": "Small Victories Gaming",
+   "dropped": false,
+   "listId": "r8ozqWcDPGjW",
+   "listUrl": "https://www.bestcoastpairings.com/list/r8ozqWcDPGjW"
+  },
+  {
+   "name": "Draven Wells",
+   "faction": "Chaos Knights",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "d90rI9WUB7YP",
+   "listUrl": "https://www.bestcoastpairings.com/list/d90rI9WUB7YP"
+  },
+  {
+   "name": "Brandon Paul",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "cSfQ5uVmOfBU",
+   "listUrl": "https://www.bestcoastpairings.com/list/cSfQ5uVmOfBU"
+  },
+  {
+   "name": "Tim Royers",
+   "faction": "Deathwatch",
+   "detachment": "Purge the Foe",
+   "team": "Advanced Warfare 40K",
+   "dropped": false,
+   "listId": "Qf8CVcEOR4bR",
+   "listUrl": "https://www.bestcoastpairings.com/list/Qf8CVcEOR4bR"
+  },
+  {
+   "name": "Kenneth McClelland",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Phillip Baker",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "The High Rollers",
+   "dropped": false,
+   "listId": "HoXZspi578Xz",
+   "listUrl": "https://www.bestcoastpairings.com/list/HoXZspi578Xz"
+  },
+  {
+   "name": "Luke Muilenburg",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "Rj6mQ7GMew8z",
+   "listUrl": "https://www.bestcoastpairings.com/list/Rj6mQ7GMew8z"
+  },
+  {
+   "name": "Richard Colona",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": "The High Rollers",
+   "dropped": false,
+   "listId": "WwNmepnlRRfd",
+   "listUrl": "https://www.bestcoastpairings.com/list/WwNmepnlRRfd"
+  },
+  {
+   "name": "Kolby Long",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Warhammer Anonymous",
+   "dropped": false,
+   "listId": "q6PVVkLYWSvk",
+   "listUrl": "https://www.bestcoastpairings.com/list/q6PVVkLYWSvk"
+  },
+  {
+   "name": "Tim McGerr",
+   "faction": "Emperor's Children",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "OnBv9vyoYyF7",
+   "listUrl": "https://www.bestcoastpairings.com/list/OnBv9vyoYyF7"
+  },
+  {
+   "name": "Jayden Jones",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": null,
+   "listUrl": null
+  },
+  {
+   "name": "Clay Cone",
+   "faction": "Necrons",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "Jpwo9DCl8ugQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/Jpwo9DCl8ugQ"
+  },
+  {
+   "name": "Ian Dunlap",
+   "faction": "Death Guard",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "YzJd0qZM8jPU",
+   "listUrl": "https://www.bestcoastpairings.com/list/YzJd0qZM8jPU"
+  },
+  {
+   "name": "Wrynn Hall",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "JLxuRf6CpMXE",
+   "listUrl": "https://www.bestcoastpairings.com/list/JLxuRf6CpMXE"
+  },
+  {
+   "name": "Dennis Muraski",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": "Warhammer Anonymous",
+   "dropped": true,
+   "listId": "DcCbPCFam0im",
+   "listUrl": "https://www.bestcoastpairings.com/list/DcCbPCFam0im"
+  },
+  {
+   "name": "Michael Anderson",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "qL7Ery7uREl8",
+   "listUrl": "https://www.bestcoastpairings.com/list/qL7Ery7uREl8"
+  },
+  {
+   "name": "Logan Olinger",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "cKZnaAKAecCm",
+   "listUrl": "https://www.bestcoastpairings.com/list/cKZnaAKAecCm"
+  },
+  {
+   "name": "Mike Kissman",
+   "faction": "World Eaters",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "zro06pHxKdEl",
+   "listUrl": "https://www.bestcoastpairings.com/list/zro06pHxKdEl"
+  },
+  {
+   "name": "Jason Wheeler",
+   "faction": "Aeldari",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "ZIs6Yys8o5V2",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZIs6Yys8o5V2"
+  },
+  {
+   "name": "James Lemrose",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe",
+   "team": "Out Of The Basement",
+   "dropped": false,
+   "listId": "aLmX1sqwZxZK",
+   "listUrl": "https://www.bestcoastpairings.com/list/aLmX1sqwZxZK"
+  },
+  {
+   "name": "Jacob Kline",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "The Iron Harvest",
+   "dropped": false,
+   "listId": "oE9lMs1IufR5",
+   "listUrl": "https://www.bestcoastpairings.com/list/oE9lMs1IufR5"
+  },
+  {
+   "name": "Jared Moore",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": "5 Guys in a Monolith",
+   "dropped": false,
+   "listId": "O1bP8XZ2Qa8U",
+   "listUrl": "https://www.bestcoastpairings.com/list/O1bP8XZ2Qa8U"
+  },
+  {
+   "name": "Luke O'Connell",
+   "faction": "Black Templars",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "sTzA2LU7d5GS",
+   "listUrl": "https://www.bestcoastpairings.com/list/sTzA2LU7d5GS"
+  },
+  {
+   "name": "Kabir Sharma",
+   "faction": "Grey Knights",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "Bcd7gRt741fH",
+   "listUrl": "https://www.bestcoastpairings.com/list/Bcd7gRt741fH"
+  },
+  {
+   "name": "Bryan Woodall",
+   "faction": "Drukhari",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "nPjMdpP6XmGa",
+   "listUrl": "https://www.bestcoastpairings.com/list/nPjMdpP6XmGa"
+  },
+  {
+   "name": "Alexx Murphy",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Advanced Warfare 40K",
+   "dropped": false,
+   "listId": "C03ynkfTG5VN",
+   "listUrl": "https://www.bestcoastpairings.com/list/C03ynkfTG5VN"
+  },
+  {
+   "name": "Daniel Sansone",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": "Advanced Warfare 40K",
+   "dropped": false,
+   "listId": "VWpTOjjWjxHI",
+   "listUrl": "https://www.bestcoastpairings.com/list/VWpTOjjWjxHI"
+  },
+  {
+   "name": "Kaden Hoey",
+   "faction": "Dark Angels",
+   "detachment": "Take and Hold",
+   "team": "Eye of Terror Book Club",
+   "dropped": false,
+   "listId": "iKxl7ZPbzM5S",
+   "listUrl": "https://www.bestcoastpairings.com/list/iKxl7ZPbzM5S"
+  },
+  {
+   "name": "Matthew Root",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "Advanced Warfare 40K",
+   "dropped": false,
+   "listId": "vEdaGiGmLTvp",
+   "listUrl": "https://www.bestcoastpairings.com/list/vEdaGiGmLTvp"
+  },
+  {
+   "name": "Matt Neeley",
+   "faction": "Death Guard",
+   "detachment": "Priority Assets",
+   "team": "Flying Monkeys",
+   "dropped": false,
+   "listId": "Sj4rs7Gcgc4V",
+   "listUrl": "https://www.bestcoastpairings.com/list/Sj4rs7Gcgc4V"
+  },
+  {
+   "name": "Elijah Byrd",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Nurglers",
+   "dropped": false,
+   "listId": "ZtH7p1RFAgrI",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZtH7p1RFAgrI"
+  },
+  {
+   "name": "BamBam Hunter",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Flying Monkeys",
+   "dropped": false,
+   "listId": "VDUErUINJR8M",
+   "listUrl": "https://www.bestcoastpairings.com/list/VDUErUINJR8M"
+  },
+  {
+   "name": "Rod  Buttermore",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "7745",
+   "dropped": false,
+   "listId": "8Pt7l4GBl0nS",
+   "listUrl": "https://www.bestcoastpairings.com/list/8Pt7l4GBl0nS"
+  },
+  {
+   "name": "Garin Buttermore",
+   "faction": "Genestealer Cult",
+   "detachment": "Priority Assets",
+   "team": "Grandma\u2019s Basement",
+   "dropped": false,
+   "listId": "jCe6AmkuuoAV",
+   "listUrl": "https://www.bestcoastpairings.com/list/jCe6AmkuuoAV"
+  },
+  {
+   "name": "Justin Hackert",
+   "faction": "Grey Knights",
+   "detachment": "Purge the Foe",
+   "team": "WarHamNasterSon's",
+   "dropped": false,
+   "listId": "ylEw7eqyikVH",
+   "listUrl": "https://www.bestcoastpairings.com/list/ylEw7eqyikVH"
+  },
+  {
+   "name": "Matt Stadnik",
+   "faction": "Imperial Agents",
+   "detachment": "Reconnaissance",
+   "team": "WarHamNasterSon's",
+   "dropped": false,
+   "listId": "HjRkw28E5AOG",
+   "listUrl": "https://www.bestcoastpairings.com/list/HjRkw28E5AOG"
+  },
+  {
+   "name": "James Lutz",
+   "faction": "Aeldari",
+   "detachment": "Disruption",
+   "team": "Glass Cannon Gaming",
+   "dropped": false,
+   "listId": "Z6qfTWsH1YYr",
+   "listUrl": "https://www.bestcoastpairings.com/list/Z6qfTWsH1YYr"
+  },
+  {
+   "name": "Jake Brunkhorst",
+   "faction": "Astra Militarum",
+   "detachment": "Take and Hold",
+   "team": "Arn't we all Alpharius?",
+   "dropped": false,
+   "listId": "QJ0mJ378q4Lu",
+   "listUrl": "https://www.bestcoastpairings.com/list/QJ0mJ378q4Lu"
+  },
+  {
+   "name": "Dylan Brandon",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe",
+   "team": "Warhammer Anonymous",
+   "dropped": false,
+   "listId": "KUert4yVWruZ",
+   "listUrl": "https://www.bestcoastpairings.com/list/KUert4yVWruZ"
+  },
+  {
+   "name": "Ben Cherwien",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "2AO3vT2ebOVJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/2AO3vT2ebOVJ"
+  },
+  {
+   "name": "Kristopher Pals",
+   "faction": "Chaos Space Marines",
+   "detachment": "Reconnaissance",
+   "team": "Now & Then",
+   "dropped": false,
+   "listId": "akgCslLnMEcK",
+   "listUrl": "https://www.bestcoastpairings.com/list/akgCslLnMEcK"
+  },
+  {
+   "name": "Piston Shufflebotham",
+   "faction": "Imperial Knights",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "1gO1Rzf91OE3",
+   "listUrl": "https://www.bestcoastpairings.com/list/1gO1Rzf91OE3"
+  },
+  {
+   "name": "Nicholas Kudriavetz",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": "Nemesis",
+   "dropped": false,
+   "listId": "LZjUk7qEuDdc",
+   "listUrl": "https://www.bestcoastpairings.com/list/LZjUk7qEuDdc"
+  },
+  {
+   "name": "James Arriola",
+   "faction": "Leagues of Votann",
+   "detachment": "Take and Hold",
+   "team": "Team Dirt Review",
+   "dropped": false,
+   "listId": "ZMXgWEDtLNAV",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZMXgWEDtLNAV"
+  },
+  {
+   "name": "Ryan Choplick",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Team Dirt Review",
+   "dropped": false,
+   "listId": "cVRm3RjvxeYP",
+   "listUrl": "https://www.bestcoastpairings.com/list/cVRm3RjvxeYP"
+  },
+  {
+   "name": "Riley Morris",
+   "faction": "T'au Empire",
+   "detachment": null,
+   "team": "X-4",
+   "dropped": false,
+   "listId": "mkBenbiYTB7x",
+   "listUrl": "https://www.bestcoastpairings.com/list/mkBenbiYTB7x"
+  },
+  {
+   "name": "Charlie Andre",
+   "faction": null,
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "a2CoUbUWJy1E",
+   "listUrl": "https://www.bestcoastpairings.com/list/a2CoUbUWJy1E"
+  },
+  {
+   "name": "Rand Anderson",
+   "faction": "Emperor's Children",
+   "detachment": "Reconnaissance",
+   "team": null,
+   "dropped": false,
+   "listId": "fFWmn1Cs56a8",
+   "listUrl": "https://www.bestcoastpairings.com/list/fFWmn1Cs56a8"
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "event": {
+  "id": "DU2vcXWEPtzY",
+  "name": "\ud83d\udd25Napalm Hobbies - 11th ED - SUMMER GT - 40K - ITC - ETC",
+  "totalPlayers": 28,
+  "eventDate": "2026-08-08T08:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Phill Barlow",
+   "faction": "Leagues of Votann",
+   "detachment": "Disruption",
+   "team": "Team Napalm Hobbies",
+   "dropped": true,
+   "listId": "mHYGNJeTve1m",
+   "listUrl": "https://www.bestcoastpairings.com/list/mHYGNJeTve1m"
+  },
+  {
+   "name": "Aaron Sims",
+   "faction": "Adeptus Custodes",
+   "detachment": null,
+   "team": "The Spoon Hunters",
+   "dropped": false,
+   "listId": "s38hFc6RkHqr",
+   "listUrl": "https://www.bestcoastpairings.com/list/s38hFc6RkHqr"
+  },
+  {
+   "name": "Daniel Lee",
+   "faction": "Tyranids",
+   "detachment": "Disruption",
+   "team": "DEADLY DEMISE",
+   "dropped": false,
+   "listId": "dm1Cb4psPZ28",
+   "listUrl": "https://www.bestcoastpairings.com/list/dm1Cb4psPZ28"
+  },
+  {
+   "name": "James Mattock",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "DEADLY DEMISE",
+   "dropped": false,
+   "listId": "zGdZzPXLO7Z2",
+   "listUrl": "https://www.bestcoastpairings.com/list/zGdZzPXLO7Z2"
+  },
+  {
+   "name": "Matthew Harrington",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Team Napalm Hobbies",
+   "dropped": false,
+   "listId": "rd8AqJBfmkZo",
+   "listUrl": "https://www.bestcoastpairings.com/list/rd8AqJBfmkZo"
+  },
+  {
+   "name": "David Ricketts",
+   "faction": "Black Templars",
+   "detachment": "Priority Assets",
+   "team": "The eldar and the aeldari",
+   "dropped": false,
+   "listId": "VgK3kzs5NVsA",
+   "listUrl": "https://www.bestcoastpairings.com/list/VgK3kzs5NVsA"
+  },
+  {
+   "name": "Ashley Brown",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "Team Napalm Hobbies",
+   "dropped": false,
+   "listId": "ZN7MQLCWehcQ",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZN7MQLCWehcQ"
+  },
+  {
+   "name": "James Clark",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "Team Napalm Hobbies",
+   "dropped": false,
+   "listId": "VTMJouatq4Jm",
+   "listUrl": "https://www.bestcoastpairings.com/list/VTMJouatq4Jm"
+  },
+  {
+   "name": "Michael Sonsino",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Team Napalm Hobbies",
+   "dropped": false,
+   "listId": "e8liq2wO8OGq",
+   "listUrl": "https://www.bestcoastpairings.com/list/e8liq2wO8OGq"
+  },
+  {
+   "name": "Jon Collins",
+   "faction": "Thousand Sons",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "EmSgpskGTDK2",
+   "listUrl": "https://www.bestcoastpairings.com/list/EmSgpskGTDK2"
+  },
+  {
+   "name": "Sam Hill",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Team Napalm Hobbies",
+   "dropped": true,
+   "listId": "xtpJw63mByO3",
+   "listUrl": "https://www.bestcoastpairings.com/list/xtpJw63mByO3"
+  },
+  {
+   "name": "Chris Higgins",
+   "faction": "Dark Angels",
+   "detachment": null,
+   "team": null,
+   "dropped": false,
+   "listId": "wKLOf3xaGB7X",
+   "listUrl": "https://www.bestcoastpairings.com/list/wKLOf3xaGB7X"
+  },
+  {
+   "name": "Ryan McNamara",
+   "faction": "Tyranids",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "IgbHsWv6ZpIq",
+   "listUrl": "https://www.bestcoastpairings.com/list/IgbHsWv6ZpIq"
+  },
+  {
+   "name": "Samuel Lang",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "myOPMF8MIsQe",
+   "listUrl": "https://www.bestcoastpairings.com/list/myOPMF8MIsQe"
+  },
+  {
+   "name": "Luke Jolliffe",
+   "faction": "Death Guard",
+   "detachment": "Priority Assets",
+   "team": "Frauds",
+   "dropped": false,
+   "listId": "GeVZV31dQGmf",
+   "listUrl": "https://www.bestcoastpairings.com/list/GeVZV31dQGmf"
+  },
+  {
+   "name": "Robert Newton",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "pB0juOgazaiI",
+   "listUrl": "https://www.bestcoastpairings.com/list/pB0juOgazaiI"
+  },
+  {
+   "name": "Reece King",
+   "faction": "Blood Angels",
+   "detachment": "Disruption",
+   "team": null,
+   "dropped": false,
+   "listId": "2wGhOUuX2cbm",
+   "listUrl": "https://www.bestcoastpairings.com/list/2wGhOUuX2cbm"
+  },
+  {
+   "name": "Greg Hillson",
+   "faction": "Blood Angels",
+   "detachment": null,
+   "team": "FIRE & STRIKE",
+   "dropped": false,
+   "listId": "Ib3RGtYGJrsh",
+   "listUrl": "https://www.bestcoastpairings.com/list/Ib3RGtYGJrsh"
+  },
+  {
+   "name": "Davey Liddle",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "6++",
+   "dropped": false,
+   "listId": "pP9yLYmLN6ir",
+   "listUrl": "https://www.bestcoastpairings.com/list/pP9yLYmLN6ir"
+  },
+  {
+   "name": "Archie Humphreys",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "I9RV9cSsuDgq",
+   "listUrl": "https://www.bestcoastpairings.com/list/I9RV9cSsuDgq"
+  },
+  {
+   "name": "Amy Fitzgerald",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "2u6gByxyOxj6",
+   "listUrl": "https://www.bestcoastpairings.com/list/2u6gByxyOxj6"
+  },
+  {
+   "name": "Freddie Slack",
+   "faction": "Thousand Sons",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "ar12gHdjjoMD",
+   "listUrl": "https://www.bestcoastpairings.com/list/ar12gHdjjoMD"
+  },
+  {
+   "name": "Kieran Hatton",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "WcM2iQ2kQ0Vt",
+   "listUrl": "https://www.bestcoastpairings.com/list/WcM2iQ2kQ0Vt"
+  },
+  {
+   "name": "Jay Jindani",
+   "faction": "Chaos Daemons",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "idkdDNMPElMy",
+   "listUrl": "https://www.bestcoastpairings.com/list/idkdDNMPElMy"
+  },
+  {
+   "name": "Reece Minister",
+   "faction": "World Eaters",
+   "detachment": "Purge the Foe",
+   "team": "Team Napalm Hobbies",
+   "dropped": false,
+   "listId": "mTx7vHEYFAFj",
+   "listUrl": "https://www.bestcoastpairings.com/list/mTx7vHEYFAFj"
+  },
+  {
+   "name": "Stephen Neal",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "vASClECZHekw",
+   "listUrl": "https://www.bestcoastpairings.com/list/vASClECZHekw"
+  },
+  {
+   "name": "Scott Lockie",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": null,
+   "dropped": false,
+   "listId": "kco7u199J7fv",
+   "listUrl": "https://www.bestcoastpairings.com/list/kco7u199J7fv"
+  },
+  {
+   "name": "Jon Reeks",
+   "faction": "T'au Empire",
+   "detachment": "Reconnaissance",
+   "team": "FIRE & STRIKE",
+   "dropped": false,
+   "listId": "mTVDMHGMBQ0R",
+   "listUrl": "https://www.bestcoastpairings.com/list/mTVDMHGMBQ0R"
+  }
+ ]
+}

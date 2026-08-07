@@ -1,0 +1,180 @@
+# Drake Valle | Leagues of Votann | Disruption | team=Wasatch Warband
+# list: https://www.bestcoastpairings.com/list/AUPUspaKSqYO  status=passed
+
+disruption real (1990 points)
+
+Leagues of Votann
+Armoured Trailblazers and Mercenary Oathband (3 Detachment Points)
+Disruption
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Brôkhyr Iron-master (85 points)
+• Attached as: Leader (Character)
+  • 1x Brôkhyr Iron-master
+    • Warlord
+    • 1x Graviton hammer
+      1x Graviton rifle
+    • Enhancement: Etacarn SB9 Targeting Implant
+  • 1x Ironkin Assistant
+    • 1x Close combat weapon
+      1x Las-beam cutter
+  • 1x E-COG
+    • 1x Plasma torch
+  • 1x E-COG
+    • 1x Manipulator arms
+  • 1x E-COG
+    • 1x Autoch-pattern bolt pistol
+      1x Close combat weapon
+
+Brôkhyr Thunderkyn (160 points)
+• Attached as: Bodyguard
+  • 6x Brôkhyr Thunderkyn
+    • 6x Close combat weapon
+      6x SP conversion beamer
+
+Attached Unit 2
+
+Kâhl (85 points)
+• Attached as: Leader (Character)
+  • 1x Mass gauntlet
+    1x Rampart Crest
+    1x Volkanite disintegrator
+  • Enhancement: Mercenary Prospector
+
+Einhyr Hearthguard (270 points)
+• Attached as: Bodyguard
+  • 1x Hesyr
+    • 1x EtaCarn plasma gun
+      1x Exoarmour grenade launcher
+      1x Graviton hammer
+      1x Teleport Crest
+  • 9x Einhyr Hearthguard
+    • 9x Concussion gauntlet
+      9x EtaCarn plasma gun
+      9x Exoarmour grenade launcher
+
+Attached Unit 3
+
+Grimnyr (65 points)
+• Attached as: Leader (Character)
+  • 1x Grimnyr
+    • 1x Ancestral Wrath
+      1x Ancestral ward stave
+  • 2x CORV
+    • 2x Autoch-pattern bolter
+      2x Close combat weapon
+
+Hearthkyn Warriors (100 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Theyn
+    • 1x Autoch-pattern bolt pistol
+      1x Close combat weapon
+      1x Theyn’s melee weapon
+      1x Theyn’s pistol
+      1x Weavefield crest
+  • 9x Hearthkyn Warrior
+    • 9x Autoch-pattern bolt pistol
+      9x Close combat weapon
+      1x EtaCarn plasma beamer
+      7x Ion blaster
+      1x Magna-rail rifle
+
+Attached Unit 4
+
+Memnyr Strategist (65 points)
+• Attached as: Leader (Character)
+  • 1x Autoch-pattern bolt pistol
+    1x Close combat weapon
+  • Enhancement: Metaphysical Brokerage
+
+Ironkin Steeljacks with Heavy Volkanite Disintegrators (160 points)
+• Attached as: Bodyguard
+  • 1x Steeljack Theyn
+    • 1x Heavy volkanite disintegrator
+      1x Plasma knife
+      1x Preymark Crest
+  • 5x Ironkin Steeljack
+    • 5x Heavy volkanite disintegrator
+      5x Plasma knife
+
+
+CHARACTERS
+
+Arkanyst Evaluator (70 points)
+  • 1x Close combat weapon
+    1x Transmatter inverter
+
+
+DEDICATED TRANSPORTS
+
+Kapricus Carrier (70 points)
+  • 1x Armoured hull
+    1x Magna-coil autocannon
+    1x Smoke Launcher
+    1x Twin magna‑coil autocannon
+
+Kapricus Carrier (70 points)
+  • 1x Armoured hull
+    1x Magna-coil autocannon
+    1x Smoke Launcher
+    1x Twin magna‑coil autocannon
+
+Sagitaur (100 points)
+  • 1x Armoured wheels
+    1x HYLas beam cannon
+    1x Twin bolt cannon
+  • Enhancement: Optimised Attack Lines (Upgrade)
+
+Sagitaur (100 points)
+  • 1x Armoured wheels
+    1x HYLas beam cannon
+    1x Twin bolt cannon
+  • Enhancement: Optimised Attack Lines (Upgrade)
+
+
+OTHER DATASHEETS
+
+Hekaton Land Fortress (250 points)
+  • 1x Armoured wheels
+    1x MATR autocannon
+    1x Panspectral Scanner
+    1x SP heavy conversion beamer
+    2x Twin bolt cannon
+
+Hernkyn Pioneers (160 points)
+  • 6x Hernkyn Pioneer
+    • 6x Bolt revolver
+      6x Bolt shotgun
+      1x HYLas rotary cannon
+      6x Magna-coil autocannon
+      1x Multiwave Comms Array
+      1x Panspectral Scanner
+      6x Plasma knife
+      1x Rollbar Searchlight
+
+Hernkyn Yaegirs (90 points)
+  • 1x Yaegir Theyn
+    • 1x Bolt shotgun
+      1x Close combat weapon
+  • 9x Hernkyn Yaegir
+    • 1x APM launcher
+      7x Bolt shotgun
+      9x Close combat weapon
+      1x Magna-coil rifle
+
+Hernkyn Yaegirs (90 points)
+  • 1x Yaegir Theyn
+    • 1x Bolt shotgun
+      1x Close combat weapon
+  • 9x Hernkyn Yaegir
+    • 1x APM launcher
+      7x Bolt shotgun
+      9x Close combat weapon
+      1x Magna-coil rifle
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

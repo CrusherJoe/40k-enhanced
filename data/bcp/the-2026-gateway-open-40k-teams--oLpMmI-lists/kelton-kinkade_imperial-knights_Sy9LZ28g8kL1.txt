@@ -1,0 +1,31 @@
+# Kelton Kinkade | Imperial Knights | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/Sy9LZ28g8kL1  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
+Player Name: Kelton Kinkade
+Team Name: Stardust Crusaders 
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Valourstrike Lance (Rain of Devastation)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char3: Knight Castellan
++ ENHANCEMENT: Archeotech Autoloaders (on Char3: Knight Castellan)
+& Bearer of the Iron Chalice (on Char4: Knight Crusader)
++ NUMBER OF UNITS: 6
++ SECONDARY: - Bring It Down: (2x2) + (4x6) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 2x Canis Rex (415 pts)
+• 1x Canis Rex: Freedom's Hand, Las-impulsor, Questoris multi-laser
+• 1x Sir Hekhtur: Close combat weapon, Hekhtur's pistol
+Char2: 1x Cerastus Knight Lancer (415 pts): Cerastus shock lance
+Char3: 1x Knight Castellan (450 pts): Warlord, Plasma decimator, Titanic feet, 2x Twin meltagun, Volcano lance, 2x Shieldbreaker missile launcher, Twin siegebreaker cannon
+Enhancement: Archeotech Autoloaders (+25 pts)
+Char4: 1x Knight Crusader (430 pts): Avenger gatling cannon, Heavy flamer, Titanic feet, Stormspear rocket pod, Questoris heavy stubber, Questoris heavy stubber, Rapid-fire battle cannon
+Enhancement: Bearer of the Iron Chalice (+20 pts)
+
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Questoris heavy stubber
+
+undefined

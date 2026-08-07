@@ -1,0 +1,41 @@
+# Jonathan Causey | Thousand Sons | Take and Hold | team=Air Force Gaming
+# list: https://www.bestcoastpairings.com/list/JHr2UoJyQKCX  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Chaos - Thousand Sons
++ DETACHMENT: Ritual of Regeneration, Warpforged Cabal (Sorcerous Invigoration)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1965pts
++
++ WARLORD: Char2: Magnus the Red
++ ENHANCEMENT: 
++ NUMBER OF UNITS: 11
++ SECONDARY: - Bring It Down: (4x2) + (2x4) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Ahriman (100 pts): Black Staff of Ahriman, Inferno bolt pistol, Transmogrifying Blast
+Char3: 1x Infernal Master (95 pts): Fires of the Abyss, Force weapon, Inferno bolt pistol
+Char2: 1x Magnus the Red (455 pts): Warlord, Blade of Magnus, Gaze of Magnus, Tzeentch's Firestorm
+
+10x Rubric Marines (190 pts)
+• 9x Rubric Marine
+    8 with Close combat weapon, Inferno boltgun
+    1 with Close combat weapon, Soulreaper cannon
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Warpflame pistol
+10x Rubric Marines (190 pts)
+• 9x Rubric Marine
+    1 with Close combat weapon, Soulreaper cannon
+    7 with Close combat weapon, Warpflamer
+    1 with Icon of Flame, Close combat weapon, Warpflamer
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Warpflame pistol
+
+1x Defiler (315 pts): Hades battle cannon, 2x Pyraflux magma cutter, Electroscourge, Hades lascannon, Shearing claws
+1x Mutalith Vortex Beast (170 pts): Betentacled maw, Mutalith claws, Warp vortex
+5x Scarab Occult Terminators (180 pts)
+• 1x Scarab Occult Sorcerer: Force weapon, Malefic Curse, Inferno combi-bolter
+• 4x Scarab Occult Terminator: 4 with Inferno combi-bolter, Prosperine khopesh
+2x Sekhetar Robots (85 pts): 2 with Close combat weapon, Heavy warpflamer, Hellfyre missile rack, Power claw, Warpflame projector
+2x Sekhetar Robots (85 pts): 2 with Close combat weapon, Heavy warpflamer, Hellfyre missile rack, Pyreflux meltagun
+2x Sekhetar Robots (100 pts): 2 with Close combat weapon, Heavy warpflamer, Hellfyre missile rack, Pyreflux meltagun
+
+undefined

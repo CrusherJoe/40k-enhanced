@@ -1,0 +1,215 @@
+# Caleb Harper | Astra Militarum | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/Mop9UJpJVPf2  status=passed
+
+GT (2000 points)
+
+Astra Militarum
+Combined Arms and Designation Force (3 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Krieg Command Squad (60 points)
+• Attached as: Leader (Character)
+  • 1x Lord Commissar
+    • 1x Laspistol
+      1x Power weapon
+  • 1x Veteran Guardsman
+    • 1x Laspistol
+      1x Power weapon
+  • 1x Veteran Guardsman
+    • 1x Alchemyk Counteragents
+      1x Close combat weapon
+      1x Laspistol
+      1x Servo-scribes
+  • 1x Veteran Guardsman
+    • 1x Close combat weapon
+      1x Lasgun
+      1x Master Vox
+  • 1x Veteran Guardsman
+    • 1x Close combat weapon
+      1x Lasgun
+      1x Regimental Standard
+  • 1x Veteran Guardsman
+    • 1x Close combat weapon
+      1x Plasma gun
+
+Death Korps of Krieg (75 points)
+• Attached as: Bodyguard (Battleline)
+  • 1x Death Korps Watchmaster
+    • 1x Chainsword
+      1x Laspistol
+  • 9x Death Korps Trooper
+    • 9x Close combat weapon
+      1x Death Korps Medi-pack
+      7x Lasgun
+      1x Meltagun
+      1x Plasma gun
+      1x Vox-caster
+
+Attached Unit 2
+
+Lord Marshal Dreir (75 points)
+• Attached as: Leader (Character)
+  • 1x Laspistol
+    1x Sabre of Sacrifice
+    1x Savage claws
+
+Death Riders (60 points)
+• Attached as: Bodyguard
+  • 1x Ridemaster
+    • 1x Death Rider lascarbine
+      1x Frag lance
+      1x Power sabre
+      1x Savage claws
+  • 4x Death Rider
+    • 4x Death Rider lascarbine
+      4x Frag lance
+      4x Power sabre
+      4x Savage claws
+
+Attached Unit 3
+
+Primaris Psyker (60 points)
+• Attached as: Leader (Character)
+  • 1x Force weapon
+    1x Laspistol
+    1x Psychic Maelstrom
+
+Kasrkin (105 points)
+• Attached as: Bodyguard
+  • 1x Kasrkin Sergeant
+    • 1x Hot-shot laspistol
+      1x Power weapon
+  • 9x Kasrkin
+    • 9x Close combat weapon
+      3x Hot-shot lasgun
+      1x Hot-shot laspistol
+      1x Hot-shot marksman rifle
+      1x Melta Mine
+      2x Meltagun
+      2x Plasma gun
+      1x Vox-caster
+
+
+CHARACTERS
+
+Rogal Dorn Commander (290 points)
+  • Warlord
+  • 1x Armoured tracks
+    1x Coaxial autocannon
+    3x Heavy stubber
+    2x Multi-melta
+    1x Oppressor cannon
+    1x Pulveriser cannon
+
+Tech-Priest Enginseer (45 points)
+  • 1x Enginseer axe
+    1x Mechanicus pistol
+    1x Servo-arm
+
+
+OTHER DATASHEETS
+
+Attilan Rough Riders (60 points)
+  • 1x Rough Rider Sergeant
+    • 1x Hunting lance
+      1x Lasgun
+      1x Laspistol
+      1x Steed’s hooves
+  • 4x Rough Rider
+    • 4x Hunting lance
+      4x Lasgun
+      4x Laspistol
+      4x Steed’s hooves
+
+Attilan Rough Riders (60 points)
+  • 1x Rough Rider Sergeant
+    • 1x Hunting lance
+      1x Lasgun
+      1x Laspistol
+      1x Steed’s hooves
+  • 4x Rough Rider
+    • 4x Hunting lance
+      4x Lasgun
+      4x Laspistol
+      4x Steed’s hooves
+
+Bullgryn Squad (90 points)
+  • 1x Bullgryn Bone ’ead
+    • 1x Brute Shield
+      1x Bullgryn maul
+      1x Close combat weapon
+  • 2x Bullgryn
+    • 2x Brute Shield
+      2x Bullgryn maul
+      2x Close combat weapon
+
+Hellhound (125 points)
+  • 1x Armoured tracks
+    1x Heavy bolter
+    1x Hunter-killer missile
+    1x Inferno cannon
+
+Hippogriff AFV (70 points)
+  • 1x Armoured hull
+    1x Chiron gatling cannon
+    1x Meltagun
+
+Hippogriff AFV (70 points)
+  • 1x Armoured hull
+    1x Heavy stubber
+    1x Vigilator cannon
+
+Leman Russ Demolisher (180 points)
+  • 1x Armoured tracks
+    1x Demolisher battle cannon
+    1x Lascannon
+    2x Multi-melta
+
+Ratlings (100 points)
+  • 10x Ratling Sniper
+    • 10x Close combat weapon
+      1x Demolition Gear
+      1x Ratling Battlemutt
+      9x Sniper rifle
+      1x Tankstopper rifle
+
+Rogal Dorn Battle Tank (260 points)
+  • 1x Armoured tracks
+    3x Heavy stubber
+    2x Multi-melta
+    1x Pulveriser cannon
+    1x Twin battle cannon
+
+Scout Sentinels (65 points)
+  • 1x Close combat weapon
+    1x Plasma cannon
+    1x Sentinel chainsaw
+  • Enhancement: Long-range Scout (Upgrade)
+
+Tempestus Scions (75 points)
+  • 1x Tempestor
+    • 1x Chainsword
+      1x Hot-shot laspistol
+  • 4x Tempestus Scion
+    • 4x Close combat weapon
+      2x Hot-shot lasgun
+      1x Meltagun
+      1x Plasma gun
+
+Tempestus Scions (75 points)
+  • 1x Tempestor
+    • 1x Chainsword
+      1x Hot-shot laspistol
+  • 4x Tempestus Scion
+    • 4x Close combat weapon
+      2x Hot-shot lasgun
+      1x Meltagun
+      1x Plasma gun
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

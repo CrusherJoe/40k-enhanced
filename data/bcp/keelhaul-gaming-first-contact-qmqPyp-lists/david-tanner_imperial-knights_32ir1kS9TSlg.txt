@@ -1,0 +1,31 @@
+# David Tanner | Imperial Knights | Priority Assets | team=Hazardous 1s
+# list: https://www.bestcoastpairings.com/list/32ir1kS9TSlg  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Spearhead‑at‑Arms (Rain of Devastation)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char2: Knight Paladin
++ ENHANCEMENT: Mentor's Pride (on Char1: Cerastus Knight Castigator)
++ NUMBER OF UNITS: 11
++ SECONDARY: - Bring It Down: (8x2) + (2x6) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Cerastus Knight Castigator (400 pts): Castigator bolt cannon, Tempest warblade
+Enhancement: Mentor's Pride (+20 pts)
+Char2: 1x Knight Paladin (375 pts): Warlord, Questoris heavy stubber, Rapid-fire battle cannon, Stormspear rocket pod, Questoris heavy stubber, Reaper chainsword
+
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+
+Char3: 1x Callidus Assassin (100 pts): Neural shredder, Phase sword and poison blades
+
+undefined

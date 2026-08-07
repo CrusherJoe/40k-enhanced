@@ -1,0 +1,161 @@
+# John Page | Space Marines (Astartes) | Take and Hold | team=None
+# list: https://www.bestcoastpairings.com/list/M9KpRWiKrjui  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Iron Hands
++ DETACHMENT: Bastion Task Force, Librarius Conclave (Interlocking Tactics)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: Iron Father Feirros
++ ENHANCEMENT: Eye of the Primarch (on Char2: Apothecary Biologis)
+& Hero of the Chapter (on Char3: Captain in Gravis Armour)
+& Temporal Corridor (on Char5: Librarian)
++ NUMBER OF UNITS: 17
++ SECONDARY: - Bring It Down: (3x2) - Assassination: 7 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Apothecary Biologis (80 pts)
+• 1x Absolvor bolt pistol
+• 1x Close combat weapon
+• Eye of the Primarch (+10 pts)
+
+Captain in Gravis Armour (100 pts)
+• 1x Boltstorm gauntlet
+• 1x Power fist
+• 1x Relic Fist
+• Hero of the Chapter (+20 pts)
+
+Chaplain with Jump Pack (75 pts)
+• 1x Crozius arcanum
+• 1x Bolt pistol
+
+Iron Father Feirros (85 pts)
+• 1x Bolt pistol
+• 1x Gorgon's Wrath
+• 1x Harrowhand
+• 1x Medusan Manipuli
+• Warlord
+
+Librarian (95 pts)
+• 1x Bolt pistol
+• 1x Force weapon
+• 1x Smite
+• Temporal Corridor (+25 pts)
+
+Lieutenant (45 pts)
+• 1x Master-crafted power weapon
+• 1x Bolt pistol
+• 1x Master-crafted bolter
+
+Techmarine (55 pts)
+• 1x Forge Bolter
+• 1x Grav-pistol
+• 1x Omnissian power axe
+• 1x Servo-arm
+
+BATTLELINE
+
+Assault Intercessor Squad (150 pts)
+• 1x Assault Intercessor Sergeant
+    • 1x Heavy Bolt Pistol
+    • 1x Astartes Chainsword
+• 9x Assault Intercessors
+    • 9x Astartes Chainsword
+    • 9x Heavy Bolt Pistol
+
+Heavy Intercessor Squad (200 pts)
+• 1x Heavy Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Heavy Bolt Rifle
+• 2x Heavy Intercessor
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 2x Heavy Bolter
+• 7x Heavy Intercessors
+    • 7x Bolt pistol
+    • 7x Close combat weapon
+    • 7x Heavy Bolt Rifle
+
+Heavy Intercessor Squad (200 pts)
+• 1x Heavy Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Heavy Bolt Rifle
+• 2x Heavy Intercessor
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 2x Heavy Bolter
+• 7x Heavy Intercessors
+    • 7x Bolt pistol
+    • 7x Close combat weapon
+    • 7x Heavy Bolt Rifle
+
+Heavy Intercessor Squad (100 pts)
+• 1x Heavy Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Heavy Bolt Rifle
+• 1x Heavy Intercessor
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Heavy Bolter
+• 3x Heavy Intercessors
+    • 3x Bolt pistol
+    • 3x Close combat weapon
+    • 3x Heavy Bolt Rifle
+
+Intercessor Squad (80 pts)
+• 1x Intercessor Sergeant
+    • 1x Bolt pistol
+    • 1x Astartes grenade launcher
+    • 1x Bolt Rifle
+    • 1x Close combat weapon
+• 4x Intercessor
+    • 4x Bolt pistol
+    • 4x Bolt Rifle
+    • 4x Close combat weapon
+
+OTHER DATASHEETS
+
+Aggressor Squad (165 pts)
+• 1x Aggressor Sergeant
+    • 1x Twin power fist
+    • 1x Auto Boltstorm Gauntlets
+    • 1x Fragstorm grenade launcher
+• 5x Aggressors
+    • 5x Twin power fist
+    • 5x Auto Boltstorm Gauntlets
+    • 5x Fragstorm grenade launcher
+
+Gladiator Reaper (160 pts)
+• 1x Armoured Hull
+• 1x Ironhail Heavy Stubber
+• 2x Tempest Bolter
+• 1x Twin Heavy Onslaught Gatling Cannon
+
+Land Speeder (105 pts)
+• 1x Close combat weapon
+• 1x Multi-melta
+• 1x Stormfury Missile Launcher
+• 1x Onslaught gatling cannon
+
+Redemptor Dreadnought (195 pts)
+• 1x Icarus Rocket Pod
+• 1x Redemptor Fist
+• 1x Heavy Onslaught Gatling Cannon
+• 1x Heavy Flamer
+• 1x Twin Fragstorm Grenade Launcher
+
+Vanguard Veteran Squad with Jump Packs (105 pts)
+• 1x Vanguard Veteran Sergeant with Jump Pack
+    • 1x Vanguard Veteran Weapon
+    • Storm Shield
+• 4x Vanguard Veterans with Jump Packs
+    • 4x Vanguard Veteran Weapon
+    • 4x Storm Shield
+
+undefined

@@ -1,0 +1,397 @@
+{
+ "event": {
+  "id": "7wMmyUo91uWv",
+  "name": "BLACKSTONE GT 2",
+  "totalPlayers": 43,
+  "eventDate": "2026-08-08T16:00:00.000Z"
+ },
+ "players": [
+  {
+   "name": "Amador Perez",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": "El Bunker",
+   "dropped": false,
+   "listId": "O8MltPrccQ6u",
+   "listUrl": "https://www.bestcoastpairings.com/list/O8MltPrccQ6u"
+  },
+  {
+   "name": "Xavier Barrera",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance",
+   "team": "El Bunker",
+   "dropped": false,
+   "listId": "TP1gyTIwpSXf",
+   "listUrl": "https://www.bestcoastpairings.com/list/TP1gyTIwpSXf"
+  },
+  {
+   "name": "Gary Marchant",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "tpd1Ahu0CqPY",
+   "listUrl": "https://www.bestcoastpairings.com/list/tpd1Ahu0CqPY"
+  },
+  {
+   "name": "Humberto Arocha Cantu",
+   "faction": null,
+   "detachment": "Take and Hold",
+   "team": "Cultistas del Silencio",
+   "dropped": false,
+   "listId": "HKVyVX894HxP",
+   "listUrl": "https://www.bestcoastpairings.com/list/HKVyVX894HxP"
+  },
+  {
+   "name": "Jose Pablo Villasenor Ramirez",
+   "faction": "Dark Angels",
+   "detachment": "Priority Assets",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "lmihqDk8eCBl",
+   "listUrl": "https://www.bestcoastpairings.com/list/lmihqDk8eCBl"
+  },
+  {
+   "name": "Carlos Moreno",
+   "faction": "Aeldari",
+   "detachment": "Reconnaissance",
+   "team": "el bunker",
+   "dropped": false,
+   "listId": "qvICqcA4HNON",
+   "listUrl": "https://www.bestcoastpairings.com/list/qvICqcA4HNON"
+  },
+  {
+   "name": "Ari Baez",
+   "faction": "Chaos Space Marines",
+   "detachment": "Take and Hold",
+   "team": "El Bunker",
+   "dropped": false,
+   "listId": "9G7BndAFAXx1",
+   "listUrl": "https://www.bestcoastpairings.com/list/9G7BndAFAXx1"
+  },
+  {
+   "name": "Aldo Ayala",
+   "faction": "Adeptus Custodes",
+   "detachment": "Purge the Foe",
+   "team": "el bunker",
+   "dropped": false,
+   "listId": "IZViMrRIiufC",
+   "listUrl": "https://www.bestcoastpairings.com/list/IZViMrRIiufC"
+  },
+  {
+   "name": "Fernando Canut",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "el bunker",
+   "dropped": false,
+   "listId": "DqoVlB2oanlJ",
+   "listUrl": "https://www.bestcoastpairings.com/list/DqoVlB2oanlJ"
+  },
+  {
+   "name": "Alejandro Guadarrama",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "el bunker",
+   "dropped": false,
+   "listId": "LqYHbfQhOOpw",
+   "listUrl": "https://www.bestcoastpairings.com/list/LqYHbfQhOOpw"
+  },
+  {
+   "name": "Pistacho  \"MGMT\" Marquez",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Purge the Foe",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "ZRSFhaAunkmH",
+   "listUrl": "https://www.bestcoastpairings.com/list/ZRSFhaAunkmH"
+  },
+  {
+   "name": "Axel Chazman",
+   "faction": "T'au Empire",
+   "detachment": "Priority Assets",
+   "team": "El Bunker",
+   "dropped": false,
+   "listId": "AB6qShyjRG1m",
+   "listUrl": "https://www.bestcoastpairings.com/list/AB6qShyjRG1m"
+  },
+  {
+   "name": "Julio Villarreal",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "The Guild Hobby & Games",
+   "dropped": false,
+   "listId": "O4K8rbsSNTDR",
+   "listUrl": "https://www.bestcoastpairings.com/list/O4K8rbsSNTDR"
+  },
+  {
+   "name": "Fernando Villanueva",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "The Guild Hobby & Games",
+   "dropped": false,
+   "listId": "HbNjfMuk8dPe",
+   "listUrl": "https://www.bestcoastpairings.com/list/HbNjfMuk8dPe"
+  },
+  {
+   "name": "Zaid De Anda",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "The Guild Hobby & Games",
+   "dropped": false,
+   "listId": "PshmVAZ55Xpb",
+   "listUrl": "https://www.bestcoastpairings.com/list/PshmVAZ55Xpb"
+  },
+  {
+   "name": "Jos\u00e9 Carlos Garc\u00eda Reyes",
+   "faction": "Adeptus Mechanicus",
+   "detachment": "Priority Assets",
+   "team": "The Guild Hobby & Games",
+   "dropped": false,
+   "listId": "XaRPEr5ywKRX",
+   "listUrl": "https://www.bestcoastpairings.com/list/XaRPEr5ywKRX"
+  },
+  {
+   "name": "Victor Gonzalez",
+   "faction": "Adepta Sororitas",
+   "detachment": "Priority Assets",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "GJMwxsOCXXfS",
+   "listUrl": "https://www.bestcoastpairings.com/list/GJMwxsOCXXfS"
+  },
+  {
+   "name": "Pavel Echeveste",
+   "faction": "Leagues of Votann",
+   "detachment": "Priority Assets",
+   "team": "The Guild Hobby & Games",
+   "dropped": false,
+   "listId": "hHK8Rf0VSGB1",
+   "listUrl": "https://www.bestcoastpairings.com/list/hHK8Rf0VSGB1"
+  },
+  {
+   "name": "Oscar Edson Delgado Navarrete",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": "Ludopatores",
+   "dropped": false,
+   "listId": "VBMH6ncXnxig",
+   "listUrl": "https://www.bestcoastpairings.com/list/VBMH6ncXnxig"
+  },
+  {
+   "name": "Fabi\u00e1n Navarro Paredes",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Altos Terra",
+   "dropped": false,
+   "listId": "563E8BKzuCI1",
+   "listUrl": "https://www.bestcoastpairings.com/list/563E8BKzuCI1"
+  },
+  {
+   "name": "Luis Humberto Casillas Franco",
+   "faction": "Dark Angels",
+   "detachment": "Reconnaissance",
+   "team": "Altos Terra",
+   "dropped": false,
+   "listId": "HgF4v8oBgN87",
+   "listUrl": "https://www.bestcoastpairings.com/list/HgF4v8oBgN87"
+  },
+  {
+   "name": "Manuel Albert",
+   "faction": "Space Wolves",
+   "detachment": "Take and Hold",
+   "team": "Altos Terra",
+   "dropped": false,
+   "listId": "UR8aDghaFRUI",
+   "listUrl": "https://www.bestcoastpairings.com/list/UR8aDghaFRUI"
+  },
+  {
+   "name": "Dante Alfredo Le\u00c3\u0083\u00c2\u00b3n Garc\u00c3\u0083\u00c2\u00ada",
+   "faction": "Chaos Space Marines",
+   "detachment": "Purge the Foe",
+   "team": "Ludopatores",
+   "dropped": false,
+   "listId": "ClfEre9praUo",
+   "listUrl": "https://www.bestcoastpairings.com/list/ClfEre9praUo"
+  },
+  {
+   "name": "angel chong",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Take and Hold",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "gxX1vlU3e7BH",
+   "listUrl": "https://www.bestcoastpairings.com/list/gxX1vlU3e7BH"
+  },
+  {
+   "name": "Daniel Rivera",
+   "faction": "Orks",
+   "detachment": "Take and Hold",
+   "team": "WHMTY",
+   "dropped": false,
+   "listId": "trLI56gEPcxF",
+   "listUrl": "https://www.bestcoastpairings.com/list/trLI56gEPcxF"
+  },
+  {
+   "name": "Joseph Walsh",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "Adeptus Metropolitanus",
+   "dropped": false,
+   "listId": "J8a5FkAZJYXt",
+   "listUrl": "https://www.bestcoastpairings.com/list/J8a5FkAZJYXt"
+  },
+  {
+   "name": "Ulises  Corona",
+   "faction": "Chaos Daemons",
+   "detachment": "Take and Hold",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "RSdf4tlK7Yys",
+   "listUrl": "https://www.bestcoastpairings.com/list/RSdf4tlK7Yys"
+  },
+  {
+   "name": "Gotch Rodriguez Diaz",
+   "faction": "Chaos Daemons",
+   "detachment": "Priority Assets",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "gimThrTUCD74",
+   "listUrl": "https://www.bestcoastpairings.com/list/gimThrTUCD74"
+  },
+  {
+   "name": "Santiago Guti\u00e9rrez",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "LuPT4REx02hN",
+   "listUrl": "https://www.bestcoastpairings.com/list/LuPT4REx02hN"
+  },
+  {
+   "name": "Jose Benjam\u00edn Casillas",
+   "faction": "Chaos Daemons",
+   "detachment": "Purge the Foe",
+   "team": "Altos Terra",
+   "dropped": false,
+   "listId": "hBLGqwJjYxeg",
+   "listUrl": "https://www.bestcoastpairings.com/list/hBLGqwJjYxeg"
+  },
+  {
+   "name": "Juvenal Jimenez",
+   "faction": "Necrons",
+   "detachment": "Priority Assets",
+   "team": "Altos Terra",
+   "dropped": false,
+   "listId": "djMeqkVF9Z6x",
+   "listUrl": "https://www.bestcoastpairings.com/list/djMeqkVF9Z6x"
+  },
+  {
+   "name": "Alan Jimenez",
+   "faction": "Chaos Space Marines",
+   "detachment": "Priority Assets",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "ymoS8VI328Rm",
+   "listUrl": "https://www.bestcoastpairings.com/list/ymoS8VI328Rm"
+  },
+  {
+   "name": "David Romero",
+   "faction": "T'au Empire",
+   "detachment": "Purge the Foe",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "OulrJRcGCpaP",
+   "listUrl": "https://www.bestcoastpairings.com/list/OulrJRcGCpaP"
+  },
+  {
+   "name": "Javier Alejandro  Zetina Loya",
+   "faction": "Black Templars",
+   "detachment": "Take and Hold",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "6C391fJYKnjA",
+   "listUrl": "https://www.bestcoastpairings.com/list/6C391fJYKnjA"
+  },
+  {
+   "name": "Daniel Robles",
+   "faction": "Emperor's Children",
+   "detachment": "Priority Assets",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "zV3QhIUnBcan",
+   "listUrl": "https://www.bestcoastpairings.com/list/zV3QhIUnBcan"
+  },
+  {
+   "name": "Pepe Alvarez",
+   "faction": "Adeptus Custodes",
+   "detachment": "Take and Hold",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "frqgxQWcJWbq",
+   "listUrl": "https://www.bestcoastpairings.com/list/frqgxQWcJWbq"
+  },
+  {
+   "name": "Gustavo Cardenas",
+   "faction": "Grey Knights",
+   "detachment": "Disruption",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "Wb8F0Gw1ov8K",
+   "listUrl": "https://www.bestcoastpairings.com/list/Wb8F0Gw1ov8K"
+  },
+  {
+   "name": "Jade Alvarez",
+   "faction": "Tyranids",
+   "detachment": "Take and Hold",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "sb77XAAGQVMm",
+   "listUrl": "https://www.bestcoastpairings.com/list/sb77XAAGQVMm"
+  },
+  {
+   "name": "Andres Sandoval",
+   "faction": "Space Marines (Astartes)",
+   "detachment": "Priority Assets",
+   "team": "el bunker",
+   "dropped": false,
+   "listId": "pMboGXieFDkX",
+   "listUrl": "https://www.bestcoastpairings.com/list/pMboGXieFDkX"
+  },
+  {
+   "name": "Carlos Gaxiola Gonzalez",
+   "faction": "Necrons",
+   "detachment": "Purge the Foe",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "GAWrZEZI4L65",
+   "listUrl": "https://www.bestcoastpairings.com/list/GAWrZEZI4L65"
+  },
+  {
+   "name": "Jes\u00fas Gabriel Gonz\u00e1lez Soto",
+   "faction": "Deathwatch",
+   "detachment": "Purge the Foe",
+   "team": "Blackstone Hobbies GDL",
+   "dropped": false,
+   "listId": "iibNprICjZRw",
+   "listUrl": "https://www.bestcoastpairings.com/list/iibNprICjZRw"
+  },
+  {
+   "name": "Jeremiah Saturnino",
+   "faction": "Emperor's Children",
+   "detachment": "Purge the Foe",
+   "team": null,
+   "dropped": false,
+   "listId": "VFWIevjHGCd5",
+   "listUrl": "https://www.bestcoastpairings.com/list/VFWIevjHGCd5"
+  },
+  {
+   "name": "Teodoro Varela",
+   "faction": "Astra Militarum",
+   "detachment": "Priority Assets",
+   "team": null,
+   "dropped": false,
+   "listId": "naKzKjHQ9rOM",
+   "listUrl": "https://www.bestcoastpairings.com/list/naKzKjHQ9rOM"
+  }
+ ]
+}

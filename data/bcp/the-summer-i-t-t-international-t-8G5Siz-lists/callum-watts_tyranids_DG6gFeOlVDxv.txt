@@ -1,0 +1,86 @@
+# Callum Watts | Tyranids | Disruption | team=Pile of Shame Support Network
+# list: https://www.bestcoastpairings.com/list/DG6gFeOlVDxv  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Tyranids
++ DETACHMENT: Subterranean Assault (Keywords)
++ FORCE DISPOSITION: Disruption
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char3: The Swarmlord
++ ENHANCEMENT: Tremor Senses (on Char5: Neurotyrant)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (4x2) + (2x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Deathleaper (80 pts)
+• 1x Lictor claws and talons
+
+Hyperadapted Raveners (165 pts)
+• 1x Ravener Prime
+    • 1x Prime claws and talons
+• 4x Ravener
+    • 4x Ravener heavy claws and talons
+    • 1x Venom bolt
+
+Neurotyrant (150 pts) - LEADING ZOANTHROPES
+• 1x Neurotyrant claws and lashes
+• 1x Psychic scream
+• Tremor Senses (+20 pts)
+
+The Red Terror (130 pts)
+• 1x Gaping maw
+• 1x Scything talons
+
+The Swarmlord (210 pts)
+• 1x Bone Sabres
+• 1x Synaptic Pulse
+• Warlord
+
+OTHER DATASHEETS
+
+Biovores (60 pts)
+• 1x Biovore
+    • 1x Chitin-barbed limbs
+    • 1x Spore mine launcher
+
+Hive Guard (160 pts)
+• 6x Hive Guard
+    • 6x Chitinous claws and teeth
+    • 6x Shockcannon
+
+Lictor (60 pts)
+• 1x Lictor claws and talons
+
+Neurolictor (80 pts)
+• 1x Piercing claws and talons
+
+Norn Emissary (250 pts)
+• 1x Monstrous rending claws
+• 1x Monstrous scything talons
+• 1x Psychic tendril
+
+Raveners (125 pts)
+• 5x Ravener
+    • 5x Ravener claws and talons
+
+Trygon (140 pts)
+• 1x Bio-electric pulse
+• 1x Trygon scything talons
+
+Tyrannofex (190 pts)
+• 1x Powerful limbs
+• 1x Stinger salvoes
+• 1x Acid spray
+
+Zoanthropes (200 pts) - LED BY NEUROTYRANT
+• 1x Neurothrope
+    • 1x Chitinous claws and teeth
+    • 1x Warp blast
+• 5x Zoanthrope
+    • 5x Chitinous claws and teeth
+    • 5x Warp blast
+
+undefined

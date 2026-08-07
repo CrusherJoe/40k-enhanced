@@ -1,0 +1,52 @@
+# Justin Martinelli | Space Marines (Astartes) | Priority Assets | team=None
+# list: https://www.bestcoastpairings.com/list/fARmKCCdKZM1  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Ultramarines
++ DETACHMENT: Blade of Ultramar (Mastered Doctrines)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: Marneus Calgar in Armour of Antilochus
++ ENHANCEMENT: Veteran of Behemoth (on Char2: Apothecary Biologis)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (1x2) + (2x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Apothecary Biologis (95 pts): Absolvor bolt pistol, Close combat weapon
+Enhancement: Veteran of Behemoth (+25 pts)
+Char3: 1x Lieutenant (45 pts): Master-crafted power weapon, Neo-volkite Pistol, Storm Shield
+Char4: 1x Lieutenant (45 pts): Master-crafted power weapon, Neo-volkite Pistol, Storm Shield
+Char5: 1x Lieutenant with Combi-weapon (95 pts): Combi-weapon, Paired Combat Blades
+Char1: 1x Marneus Calgar in Armour of Antilochus (155 pts): Warlord, Gauntlets of Ultramar
+
+5x Intercessor Squad (80 pts)
+• 4x Intercessor
+    3 with Bolt pistol, Bolt Rifle, Close combat weapon
+    1 with Astartes grenade launcher, Bolt pistol, Bolt Rifle, Close combat weapon
+• 1x Intercessor Sergeant: Bolt pistol, Bolt Rifle, Power fist
+
+6x Aggressor Squad (165 pts)
+• 1x Aggressor Sergeant: Twin power fist, Auto Boltstorm Gauntlets, Fragstorm grenade launcher
+• 5x Aggressors: 5 with Twin power fist, Auto Boltstorm Gauntlets, Fragstorm grenade launcher
+6x Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+6x Bladeguard Veteran Squad (160 pts)
+• 1x Bladeguard Veteran Sergeant: Master-crafted power weapon, Plasma pistol
+• 5x Bladeguard Veterans: 5 with Heavy Bolt Pistol, Master-crafted power weapon
+1x Gladiator Lancer (160 pts): Armoured Hull, Icarus Rocket Pod, Ironhail Heavy Stubber, Lancer Laser Destroyer, 2x Storm bolter
+1x Land Raider Redeemer (250 pts): Armoured Tracks, 2x Flamestorm Cannon, Hunter-killer missile, Multi-melta, Storm bolter, Twin assault cannon
+1x Repulsor Executioner (265 pts): Armoured Hull, Heavy Onslaught Gatling Cannon, Icarus Rocket Pod, Ironhail Heavy Stubber, Repulsor Executioner Defensive Array, Twin heavy bolter, Twin Icarus ironhail heavy stubber, Heavy Laser Destroyer
+5x Scout Squad (65 pts)
+• 2x Scout
+    1 with Bolt pistol, Close combat weapon, Missile Launcher
+    1 with Bolt pistol, Close combat weapon, Scout Sniper Rifle
+• 1x Scout Sergeant: Bolt pistol, Close combat weapon, Astartes Chainsword
+• 2x Scouts: 2 with Bolt pistol, Boltgun, Close combat weapon
+6x Victrix Honour Guard (255 pts)
+• 1x Chapter Ancient: Banner of Macragge, Master-crafted power weapon
+• 1x Chapter Champion: Blades of Honour
+• 4x Victrix Honour Guard: 4 with Master-crafted Bolt Carbine, Master-crafted power weapon
+
+undefined

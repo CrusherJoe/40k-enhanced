@@ -1,0 +1,113 @@
+# Tyler M | Death Guard | Disruption | team=None
+# list: https://www.bestcoastpairings.com/list/wXchodtgsP1p  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+List Name: poxhammer 2
+Factions Used: Death Guard
+Army Points: 2000
+Army Enhancements (list on which model): Parasitic Woe-reaper (on Foetid Bloat-drone), 2x Lancet of the Worldsore (on Myphitic Blight-hauler)
+Disposition: Disruption
+Detachment(s): Contagion Engines, Shamblerot Vectorium
+Interactive List Link: https://share.listforge.club/PEqCM9-jiT9spywlERS4
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ATTACHED UNITS:
+Lord of Virulence + Deathshroud Terminators (260 pts)
+  Lord of Virulence (100 pts)
+    • Power fist
+    • Twin plague spewer
+    • Warlord
+  Deathshroud Terminators (160 pts)
+    • 2x Deathshroud Terminator
+      • 2x Manreaper
+      • 2x Plaguespurt gauntlet
+    • Deathshroud Terminator Champion
+      • Icon of Despair
+      • Manreaper
+      • 2x Plaguespurt gauntlet
+
+
+CHARACTERS:
+Tallyman (60 pts)
+  • Close combat weapon
+  • Plasma pistol
+
+
+BATTLELINE:
+Poxwalkers (65 pts)
+  • 10x Poxwalker
+    • 10x Improvised weapons
+
+Poxwalkers (65 pts)
+  • 10x Poxwalker
+    • 10x Improvised weapons
+
+Poxwalkers (65 pts)
+  • 10x Poxwalker
+    • 10x Improvised weapons
+
+Poxwalkers (65 pts)
+  • 10x Poxwalker
+    • 10x Improvised weapons
+
+
+OTHER DATASHEETS:
+Defiler (330 pts)
+  • Hades battle cannon
+  • Heavy reaper autocannon
+  • Heavy reaper autocannon
+  • Shearing claws
+  • Two excruciator cannons
+    • 2x Excruciator cannon
+
+Foetid Bloat-drone (100 pts)
+  • Plague probe
+  • Two plaguespitters
+    • 2x Plaguespitter
+
+Foetid Bloat-drone (115 pts)
+  • Fleshmower
+  • Plague probe
+  • Enhancement: Parasitic Woe-reaper
+
+Foetid Bloat-drone with heavy blight launcher (125 pts)
+  • Heavy blight launcher
+  • Plague probe
+
+Foetid Bloat-drone with heavy blight launcher (125 pts)
+  • Heavy blight launcher
+  • Plague probe
+
+Myphitic Blight-hauler (115 pts)
+  • Myphitic Blight-hauler
+    • Bile spurt
+    • Gnashing maw
+    • Missile launcher
+    • Multi-melta
+  • Enhancement: Lancet of the Worldsore
+
+Myphitic Blight-hauler (115 pts)
+  • Myphitic Blight-hauler
+    • Bile spurt
+    • Gnashing maw
+    • Missile launcher
+    • Multi-melta
+  • Enhancement: Lancet of the Worldsore
+
+Plagueburst Crawler (185 pts)
+  • 2 entropy cannons
+    • 2x Entropy cannon
+  • Armoured tracks
+  • Plagueburst mortar
+  • Rothail volley gun
+
+Plagueburst Crawler (210 pts)
+  • 2 entropy cannons
+    • 2x Entropy cannon
+  • Armoured tracks
+  • Plagueburst mortar
+  • Rothail volley gun
+
+
+
+undefined

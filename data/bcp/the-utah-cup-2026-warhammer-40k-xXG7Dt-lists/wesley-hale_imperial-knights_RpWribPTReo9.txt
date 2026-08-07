@@ -1,0 +1,74 @@
+# Wesley Hale | Imperial Knights | Take and Hold | team=Nuts and Bolters
+# list: https://www.bestcoastpairings.com/list/RpWribPTReo9  status=passed
+
+IMP Knights 8th 2.0 (2000 points)
+
+Imperial Knights
+Questoris Companions (3 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+
+Strats:
+1cp 5 oc sticky obj
+1cp advanced and charge
+1cp 6+fnp
+1cp +1 to hit +1 wound vs monsters, walkers, and Titanic
+1 cp +3inch consolidate
+2 cp fall back and charge
+
+
+CHARACTERS
+
+Cerastus Knight Lancer (415 points)
+  • Warlord
+  • 1x Cerastus shock lance
+
+Cerastus Knight Lancer (450 points)
+  • 1x Cerastus shock lance
+  • Enhancement: Pennant of Silvered Fury(sus 2)
+
+Knight Castellan (435 points)
+  • 1x Plasma decimator
+    2x Shieldbreaker missile launcher
+    1x Titanic feet
+    2x Twin meltagun
+    1x Twin siegebreaker cannon
+    1x Volcano lance
+  • Enhancement: Wyrmslayer Divination(re-roll hits into flying)
+
+Knight Destrier (265 points)
+  • 1x Chastiser gatling cannon
+    1x Frag bombard
+    1x Questoris heavy stubber
+    1x Titanic feet
+
+Knight Destrier (265 points)
+  • 1x Chastiser gatling cannon
+    1x Frag bombard
+    1x Questoris heavy stubber
+    1x Titanic feet
+
+
+ALLIED UNITS
+
+Callidus Assassin (100 points)
+  • 1x Neural shredder
+    1x Phase sword and poison blades
+
+Voidsmen-at-Arms (70 points)
+  • 1x Voidmaster
+    • 1x Artificer shotgun
+      1x Close combat weapon
+      1x Laspistol
+  • 4x Voidsman
+    • 4x Close combat weapon
+      3x Lasgun
+      4x Laspistol
+      1x Voidsman rotor cannon
+  • 1x Canid
+    • 1x Vicious bite
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

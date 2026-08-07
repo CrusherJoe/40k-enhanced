@@ -1,0 +1,94 @@
+# Florent Mitram | Adeptus Custodes | Purge the Foe | team=MADLADZ
+# list: https://www.bestcoastpairings.com/list/nTaS54ilq11F  status=passed
+
+Custodes list 3 dread & bikes (2000 points)
+
+Adeptus Custodes
+Might of the Moritoi and Shield Host (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Shield-Captain (110 points)
+• Attached as: Leader (Character)
+  • Warlord
+  • 1x Praesidium Shield
+    1x Sentinel blade
+
+Custodian Guard (170 points)
+• Attached as: Bodyguard (Battleline)
+  • 4x Custodian Guard
+    • 4x Guardian spear
+
+Attached Unit 2
+
+Shield-Captain on Dawneagle Jetbike (145 points)
+• Attached as: Leader (Character)
+  • 1x Interceptor lance
+    1x Salvo launcher
+  • Enhancement: Panoptispex
+
+Vertus Praetors (145 points)
+• Attached as: Bodyguard
+  • 2x Vertus Praetor
+    • 2x Interceptor lance
+      2x Salvo launcher
+
+Attached Unit 3
+
+Shield-Captain on Dawneagle Jetbike (140 points)
+• Attached as: Leader (Character)
+  • 1x Interceptor lance
+    1x Salvo launcher
+
+Vertus Praetors (145 points)
+• Attached as: Bodyguard
+  • 2x Vertus Praetor
+    • 2x Interceptor lance
+      2x Salvo launcher
+
+
+BATTLELINE
+
+Custodian Guard (170 points)
+  • 4x Custodian Guard
+    • 1x Misericordia
+      4x Praesidium Shield
+      3x Sentinel blade
+      1x Vexilla
+
+Custodian Guard (170 points)
+  • 4x Custodian Guard
+    • 1x Guardian spear
+      1x Misericordia
+      3x Praesidium Shield
+      2x Sentinel blade
+      1x Vexilla
+
+
+OTHER DATASHEETS
+
+Contemptor-Achillus Dreadnought (155 points)
+  • 1x Achillus dreadspear
+    2x Infernus incinerator
+
+Contemptor-Achillus Dreadnought (155 points)
+  • 1x Achillus dreadspear
+    2x Lastrum storm bolter
+
+Contemptor-Galatus Dreadnought (165 points)
+  • 1x Galatus warblade
+
+Venatari Custodians (165 points)
+  • 3x Venatari Custodian
+    • 3x Venatari lance
+
+Venatari Custodians (165 points)
+  • 3x Venatari Custodian
+    • 3x Venatari lance
+
+Exported with App Version: v2.3.1 (138), Data Version: v913
+
+undefined

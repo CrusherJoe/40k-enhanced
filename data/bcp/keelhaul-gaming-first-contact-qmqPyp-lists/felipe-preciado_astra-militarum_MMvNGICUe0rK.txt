@@ -1,0 +1,229 @@
+# Felipe Preciado | Astra Militarum | Disruption | team=Bare Minimum Bandits
+# list: https://www.bestcoastpairings.com/list/MMvNGICUe0rK  status=passed
+
+Titanic Seige  (1,970 Points)
+
+Astra Militarum
+Designation Force and Siege Regiment (3 Detachment Points)
+Disruption
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Primaris Psyker (60 Points)
+  • Attached as: Leader (Character)
+  • 1x Force weapon
+  • 1x Laspistol
+  • 1x Psychic Maelstrom
+
+Krieg Command Squad (80 Points)
+  • Attached as: Leader (Character)
+  • 1x Lord Commissar
+     ◦ 1x Laspistol
+     ◦ 1x Plasma pistol
+     ◦ 1x Power fist
+     ◦ Enhancements: Eager Advance
+  • 1x Veteran Guardsman
+     ◦ 1x Plasma pistol
+     ◦ 1x Power weapon
+  • 1x Veteran Guardsman
+     ◦ 1x Alchemyk Counteragents
+     ◦ 1x Close combat weapon
+     ◦ 1x Laspistol
+     ◦ 1x Servo-scribes
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Lasgun
+     ◦ 1x Master Vox
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Lasgun
+     ◦ 1x Regimental Standard
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Meltagun
+
+Death Korps of Krieg (145 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 2x Death Korps Watchmaster
+     ◦ 2x Plasma pistol
+     ◦ 2x Power weapon
+  • 18x Death Korps Trooper
+     ◦ 18x Close combat weapon
+     ◦ 2x Death Korps Medi-pack
+     ◦ 14x Lasgun
+     ◦ 2x Meltagun
+     ◦ 2x Plasma gun
+     ◦ 2x Vox-caster
+
+Attached unit 2
+
+Primaris Psyker (60 Points)
+  • Attached as: Leader (Character)
+  • 1x Force weapon
+  • 1x Laspistol
+  • 1x Psychic Maelstrom
+
+Krieg Command Squad (80 Points)
+  • Attached as: Leader (Character)
+  • 1x Lord Commissar
+     ◦ 1x Laspistol
+     ◦ 1x Plasma pistol
+     ◦ 1x Power fist
+     ◦ Enhancements: Flash Grenades
+  • 1x Veteran Guardsman
+     ◦ 1x Plasma pistol
+     ◦ 1x Power weapon
+  • 1x Veteran Guardsman
+     ◦ 1x Alchemyk Counteragents
+     ◦ 1x Close combat weapon
+     ◦ 1x Laspistol
+     ◦ 1x Servo-scribes
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Lasgun
+     ◦ 1x Master Vox
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Lasgun
+     ◦ 1x Regimental Standard
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Meltagun
+
+Death Korps of Krieg (145 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 2x Death Korps Watchmaster
+     ◦ 2x Plasma pistol
+     ◦ 2x Power weapon
+  • 18x Death Korps Trooper
+     ◦ 18x Close combat weapon
+     ◦ 2x Death Korps Medi-pack
+     ◦ 14x Lasgun
+     ◦ 2x Meltagun
+     ◦ 2x Plasma gun
+     ◦ 2x Vox-caster
+
+Attached unit 3
+
+Commissar Graves on Foot (65 Points)
+  • Attached as: Leader (Character)
+  • 1x Bolt Pistol
+  • 1x Power sword and Manus Mortis
+
+Krieg Command Squad (75 Points)
+  • Attached as: Leader (Character)
+  • 1x Lord Commissar
+     ◦ 1x Laspistol
+     ◦ 1x Plasma pistol
+     ◦ 1x Power fist
+     ◦ Enhancements: Stalwart’s Honours
+  • 1x Veteran Guardsman
+     ◦ 1x Plasma pistol
+     ◦ 1x Power weapon
+  • 1x Veteran Guardsman
+     ◦ 1x Alchemyk Counteragents
+     ◦ 1x Close combat weapon
+     ◦ 1x Laspistol
+     ◦ 1x Servo-scribes
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Lasgun
+     ◦ 1x Master Vox
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Lasgun
+     ◦ 1x Regimental Standard
+  • 1x Veteran Guardsman
+     ◦ 1x Close combat weapon
+     ◦ 1x Meltagun
+
+Death Korps of Krieg (145 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 2x Death Korps Watchmaster
+     ◦ 2x Plasma pistol
+     ◦ 2x Power weapon
+  • 18x Death Korps Trooper
+     ◦ 18x Close combat weapon
+     ◦ 2x Death Korps Medi-pack
+     ◦ 14x Lasgun
+     ◦ 2x Meltagun
+     ◦ 2x Plasma gun
+     ◦ 2x Vox-caster
+
+CHARACTERS
+
+Gaunt’s Ghosts (95 Points)
+  • 1x Ibram Gaunt
+     ◦ 1x Bolt Pistol
+     ◦ 1x Gaunt’s chainsword
+  • 1x Colm Corbec
+     ◦ 1x Corbec’s hot-shot lascarbine
+     ◦ 1x Straight silver knife
+  • 1x Elim Rawne
+     ◦ 1x Rawne’s lascarbine
+     ◦ 1x Straight silver knife
+  • 1x Hlaine Larkin
+     ◦ 1x Larkin’s long-las
+     ◦ 1x Straight silver knife
+  • 1x ’Try Again’ Bragg
+     ◦ 1x Bragg’s autocannon
+     ◦ 1x Straight silver knife
+  • 1x Oan Mkoll
+     ◦ 1x Lascarbine
+     ◦ 1x Mkoll’s straight silver knife
+
+Lord Solar Leontus (130 Points)
+  • Warlord
+  • 1x Conquest
+  • 1x Konstantin’s hooves
+  • 1x Sol’s Righteous Gaze
+
+Tech-Priest Enginseer (45 Points)
+  • 1x Enginseer axe
+  • 1x Mechanicus pistol
+  • 1x Servo-arm
+
+Ursula Creed (85 Points)
+  • 1x Duty and Vengeance
+  • 1x Power weapon
+
+OTHER DATASHEETS
+
+Artillery Team (95 Points)
+  • 1x Crew close combat weapons
+  • 1x Lasgun
+  • 1x Siege cannon
+
+Artillery Team (95 Points)
+  • 1x Crew close combat weapons
+  • 1x Lasgun
+  • 1x Siege cannon
+
+Artillery Team (95 Points)
+  • 1x Crew close combat weapons
+  • 1x Lasgun
+  • 1x Siege cannon
+
+Shadowsword (375 Points)
+  • 1x Armoured tracks
+  • 2x Lascannon
+  • 2x Lascannon
+  • 1x Twin heavy bolter
+  • 2x Twin heavy bolter
+  • 2x Twin heavy bolter
+  • 1x Volcano cannon
+
+ALLIED UNITS
+
+Inquisitor Kroyle (100 Points)
+  • 1x Butcher blade
+  • 1x Garralisk’s claws and teeth
+  • 1x Jindarii tox‑cycler
+  • 1x Stubcarbine
+
+Exported with App Version: v2.3.1 (1), Data Version: v913
+
+undefined

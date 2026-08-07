@@ -1,0 +1,54 @@
+# Greg Faust | Adeptus Custodes | Purge the Foe | team=Dumpster Fire 40k
+# list: https://www.bestcoastpairings.com/list/lg6eqU8ATO82  status=passed
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Player Name: Greg Faust 
+Team Name: Dumpster Fire 
+Factions Used: Adeptus Custodes
+Disposition Used: Purge the Foe
+Detachments Used: Shield Host, Tharanatoi Hammerblow
+Army Upgrades and Enhancements (list on which model): Auric Mantle (Blade Champion) , Mnemo-locked Shrine Cipher (Shield Captain in Allarus Terminator Armour) , From the Hall of Armouries (Shield Captain on Dawneagle Jetbike)
+Leader/Support Attached to which Unit: Trajann Valoris with Custodian Guard, Blade Champion with Custodian Wardens, Shield Captain in Allarus Terminator Armour with Allarus Custodians, Shield Captain on Dawneagle Jetbike with Vertus Praetors
+Army Points: 1980
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Imperium - Adeptus Custodes - Hammerblow Host - [1980 pts]
+
+# ++ Army Roster ++ [1980 pts, 3 Detachment Points]
+## Configuration
+Battle Size: Strike Force (2000 Point limit)
+Detachments [3 Detachment Points]: Shield Host [2 Detachment Points], Tharanatoi Hammerblow [1 Detachment Points]
+Force Disposition: Purge the Foe
+Show/Hide Options
+
+## Epic Hero [135 pts]
+Trajann Valoris [135 pts]: Eagle's Scream, Warlord, Watcher's Axe
+
+## Character [440 pts]
+Blade Champion [125 pts]: Auric Mantle [15 pts], Vaultswords
+Shield-Captain in Allarus Terminator Armour [155 pts]: Mnemo-locked Shrine Cipher [25 pts], Balistus grenade launcher, Guardian Spear
+Shield-Captain on Dawneagle Jetbike [160 pts]: From the Hall of Armouries [20 pts], Interceptor lance, Vertus hurricane bolter
+
+## Battleline [340 pts]
+Custodian Guard [170 pts]:
+• 4x Custodian Guard (Guardian Spear): Guardian Spear
+Custodian Guard [170 pts]:
+• 4x Custodian Guard (Guardian Spear): Guardian Spear
+
+## Infantry [850 pts]
+Allarus Custodians [275 pts]:
+• 5x Allarus Custodian (Guardian Spear): Balistus grenade launcher, Guardian Spear
+Allarus Custodians [275 pts]:
+• 5x Allarus Custodian (Guardian Spear): Balistus grenade launcher, Guardian Spear
+Custodian Wardens [250 pts]:
+• 2x Custodian Warden (Castellan axe): Castellan Axe
+• 3x Custodian Warden (Guardian Spear): Guardian Spear
+Prosecutors [50 pts]:
+• 1x Prosecutor Sister Superior: Boltgun, Close combat weapon
+• 4x Prosecutor: Boltgun, Close combat weapon
+
+## Mounted [215 pts]
+Vertus Praetors [215 pts]:
+• 3x Vertus Praetor (Hurricane Bolter): Interceptor lance, Vertus hurricane bolter
+
+undefined

@@ -1,0 +1,107 @@
+# Avery  Colbert | Necrons | Reconnaissance | team=None
+# list: https://www.bestcoastpairings.com/list/YikxIt3FYard  status=passed
+
+wraith recon (1995 points)
+
+Necrons
+Cursed Legion and Skyshroud Spearhead (3 Detachment Points)
+Reconnaissance
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Technomancer (80 points)
+• Attached as: Support (Character)
+  • 1x Staff of light
+
+Canoptek Wraiths (220 points)
+• Attached as: Bodyguard
+  • 6x Canoptek Wraith
+    • 6x Particle caster
+      6x Vicious claws
+
+Attached Unit 2
+
+Technomancer (90 points)
+• Attached as: Support (Character)
+  • 1x Staff of light
+
+Canoptek Wraiths (240 points)
+• Attached as: Bodyguard
+  • 6x Canoptek Wraith
+    • 6x Vicious claws
+
+Attached Unit 3
+
+Lokhust Lord (70 points)
+• Attached as: Leader (Character)
+  • 1x Resurrection Orb
+    1x Staff of light
+
+Lokhust Destroyers (190 points)
+• Attached as: Bodyguard
+  • 6x Lokhust Destroyer
+    • 6x Close combat weapon
+      6x Gauss cannon
+    • Enhancement: Deepening Madness (Upgrade)
+
+Attached Unit 4
+
+Skorpekh Lord (110 points)
+• Attached as: Leader (Character)
+  • 1x Enmitic annihilator
+    1x Flensing claw
+    1x Hyperphase harvester
+  • Enhancement: Mark of the Nekrosor
+
+Skorpekh Destroyers (170 points)
+• Attached as: Bodyguard
+  • 6x Skorpekh Destroyer
+    • 6x Skorpekh hyperphase weapons
+
+
+CHARACTERS
+
+Catacomb Command Barge (120 points)
+  • 1x Gauss cannon
+    1x Overlord’s blade
+    1x Resurrection Orb
+
+Nekrosor Ammentar (185 points)
+  • Warlord
+  • 1x Blade tail and whip coils
+    1x Enmitic disintegrators
+    1x Nullstone Field Generator (Aura)
+    1x Unmaker Gauntlet
+
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 points)
+  • 2x Atomiser beam
+    1x Reanimator’s claws
+
+Doomsday Ark (210 points)
+  • 1x Armoured bulk
+    1x Doomsday cannon
+    2x Gauss flayer array
+
+Ophydian Destroyers (80 points)
+  • 3x Ophydian Destroyer
+    • 3x Ophydian hyperphase weapons
+
+Ophydian Destroyers (80 points)
+  • 3x Ophydian Destroyer
+    • 3x Ophydian hyperphase weapons
+
+Tomb Blades (75 points)
+  • 3x Tomb Blade
+    • 3x Close combat weapon
+      3x Nebuloscope
+      3x Twin tesla carbine
+    • Enhancement: Recursive Reanimation (Upgrade)
+
+Exported with App Version: v2.4.0 (139), Data Version: v925
+
+undefined

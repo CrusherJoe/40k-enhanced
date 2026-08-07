@@ -1,0 +1,122 @@
+# Dakota Schwan | Dark Angels | Take and Hold | team=Gem Wargaming
+# list: https://www.bestcoastpairings.com/list/jVZshRaSC8xa  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Adeptus Astartes - Dark Angels
++ DETACHMENT: Darkflight Pursuit, Unforgiven Task Force (Black-winged Vigilance)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Lion El'Jonson
++ ENHANCEMENT: Nightforged Battery (on Vehi1: Land Speeder Vengeance)
+& Nightforged Battery (on Vehi1: Land Speeder Vengeance)
+& Nightforged Battery (on Vehi1: Land Speeder Vengeance)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (6x2) - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Lion El'Jonson (265 pts)
+• 1x Arma Luminis
+• 1x Fealty
+• Warlord
+
+OTHER DATASHEETS
+
+Assault Intercessors with Jump Packs (85 pts)
+• 1x Assault Intercessor Sergeant with Jump Pack
+    • 1x Plasma pistol
+    • 1x Power fist
+• 4x Assault Intercessors with Jump Pack
+    • 4x Astartes Chainsword
+    • 3x Heavy Bolt Pistol
+    • 1x Plasma pistol
+
+Deathwing Knights (240 pts)
+• 4x Deathwing Knight
+    • 4x Mace of absolution
+• 1x Knight Master
+    • 1x Relic Weapon
+  • Watcher in the Dark
+
+Deathwing Knights (240 pts)
+• 4x Deathwing Knight
+    • 4x Mace of absolution
+• 1x Knight Master
+    • 1x Relic Weapon
+  • Watcher in the Dark
+
+Deathwing Knights (260 pts)
+• 4x Deathwing Knight
+    • 4x Mace of absolution
+• 1x Knight Master
+    • 1x Relic Weapon
+  • Watcher in the Dark
+
+Eradicator Squad with Heavy Bolters (80 pts)
+• 2x Eradicator
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 2x Heavy Bolter
+• 1x Eradicator Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Heavy Bolter
+
+Eradicator Squad with Heavy Bolters (80 pts)
+• 2x Eradicator
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 2x Heavy Bolter
+• 1x Eradicator Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Heavy Bolter
+
+Land Speeder (105 pts)
+• 1x Close combat weapon
+• 1x Multi-melta
+• 1x Stormfury Missile Launcher
+• 1x Onslaught gatling cannon
+
+Land Speeder Vengeance (145 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Assault cannon
+• Nightforged Battery (+15 pts)
+
+Land Speeder Vengeance (145 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Assault cannon
+• Nightforged Battery (+15 pts)
+
+Land Speeder Vengeance (155 pts)
+• 1x Close Combat Weapon
+• 1x Plasma storm battery
+• 1x Assault cannon
+• Nightforged Battery (+15 pts)
+
+Scout Squad (65 pts)
+• 1x Scout Sergeant
+    • 1x Bolt pistol
+    • 1x Close combat weapon
+    • 1x Astartes Chainsword
+• 2x Scout
+    • 2x Bolt pistol
+    • 2x Close combat weapon
+    • 1x Missile Launcher
+    • 1x Scout Sniper Rifle
+• 2x Scouts
+    • 2x Bolt pistol
+    • 2x Boltgun
+    • 2x Close combat weapon
+
+Storm Speeder Thunderstrike (135 pts)
+• 1x Close combat weapon
+• 1x Stormfury Missiles
+• 1x Thunderstrike Las-talon
+• 1x Twin Icarus Rocket Pod
+
+undefined

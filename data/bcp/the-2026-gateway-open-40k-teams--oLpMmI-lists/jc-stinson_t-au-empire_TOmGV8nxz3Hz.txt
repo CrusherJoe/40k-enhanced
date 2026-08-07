@@ -1,0 +1,83 @@
+# JC Stinson | T'au Empire | Purge the Foe | team=Gateway Gamers
+# list: https://www.bestcoastpairings.com/list/TOmGV8nxz3Hz  status=passed
+
+Farsight: Shadowsun?
+Shadowsun: What?
+Farsight: Where's my Crisis suit?
+Shadowsun: What?
+Farsight: WHERE - IS - MY - CRISIS - SUIT?
+Shadowsun: I, uh, put it away!
+[Deffkopta explodes outside]
+Farsight: *Where*?
+Shadowsun: *Why* do you *need* to know?
+Farsight: I need it!
+[Farsight rummages through another room in his operations center]
+Shadowsun: Uh-uh! Don't you think about running off doing no derring-do! We've been planning this dinner for two months!
+Farsight: The public is in danger!
+Shadowsun: My evening's in danger!
+Farsight: YOU TELL ME WHERE MY SUIT IS, WOMAN! We are talking about the Greater Good!
+Shadowsun: 'Greater Good?' I am your wife! I'm the greatest *good* you are ever gonna get!
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Player Name: JC Stinson III
+Team Name: Gateway Gamers Omega
+Factions Used: T'au Empire
+Disposition Used: Purge the Foe
+Detachment Used: Retaliation Cadre
+Army Upgrades and Enhancements (list on which model):
+-Internal Grenade Racks (on Char2: Commander in Coldstar Battlesuit)
+-Prototype Weapon System (on Char3: Commander in Coldstar Battlesuit)
+-Starflare Ignition System (on Char4: Commander in Enforcer Battlesuit)
+Leader/Support Attached to which Unit: 
+Char2 Coldstar Commander with Crisis Starscythes 1
+Char3 Coldstar Commander with Crisis Starscythes 2
+Char4 Enforcer Commander with Crisis Fireknives
+Army Points: 1995
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Commander in Coldstar Battlesuit (115 pts): Marker Drone, Shield Drone, Cyclic ion blaster, High-output burst cannon, 2x Missile pod, Battlesuit fists
+Enhancement: Internal Grenade Racks (+20 pts)
+Char3: 1x Commander in Coldstar Battlesuit (110 pts): Marker Drone, Shield Drone, Cyclic ion blaster, High-output burst cannon, 2x Missile pod, Battlesuit fists
+Enhancement: Prototype Weapon System (+15 pts)
+Char4: 1x Commander in Enforcer Battlesuit (100 pts): Marker Drone, Shield Drone, Cyclic ion blaster, 3x Missile pod, Battlesuit fists
+Enhancement: Starflare Ignition System (+20 pts)
+Char5: 1x Ethereal (50 pts): Warlord, Hover Drone, Marker Drone, Shield Drone, Honour stave
+Char1: 2x The Twin Lance (220 pts)
+• 1x Ri'Lantar: MV15 Gun Drone, Twin pulse blaster, Fusion eliminator, Twin pulse blaster, Shardstorm burst system, XV pulse pistol
+• 1x Ri'Locai: MV15 Gun Drone, Twin pulse blaster, Ion scattercannon, Twin pulse blaster, Shardstorm burst system, XV pulse pistol
+
+3x Crisis Fireknife Battlesuits (130 pts)
+• 1x Crisis Fireknife Shas’vre: Marker Drone, Shield Drone, 2x Missile pod, Battlesuit fists
+• 2x Crisis Fireknife Shas’ui: 2 with Gun Drone, Shield Drone, Battlesuit fists, 2x Missile pod
+3x Crisis Starscythe Battlesuits (90 pts)
+• 1x Crisis Starscythe Shas’vre: Marker Drone, Shield Drone, 2x Burst cannon, Battlesuit fists
+• 2x Crisis Starscythe Shas’ui: 2 with Gun Drone, Shield Drone, 2x Burst cannon, Battlesuit fists
+3x Crisis Starscythe Battlesuits (90 pts)
+• 1x Crisis Starscythe Shas’vre: Marker Drone, Shield Drone, 2x Burst cannon, Battlesuit fists
+• 2x Crisis Starscythe Shas’ui: 2 with Gun Drone, Shield Drone, 2x Burst cannon, Battlesuit fists
+1x Hammerhead Gunship (150 pts): Armoured hull, Railgun, 2x Seeker missile, 2x Accelerator burst cannon
+10x Pathfinder Team (85 pts)
+• 9x Pathfinders
+    6 with Close combat weapon, Pulse carbine, Pulse pistol
+    3 with Close combat weapon, Pulse pistol, Rail rifle
+• 1x Pathfinder Shas'ui: 2x Shield Drone, Grav-inhibitor drone, Close combat weapon, Pulse carbine, Pulse pistol, Semi-automatic grenade launcher
+10x Pathfinder Team (85 pts)
+• 9x Pathfinders
+    6 with Close combat weapon, Pulse carbine, Pulse pistol
+    3 with Close combat weapon, Pulse pistol, Rail rifle
+• 1x Pathfinder Shas'ui: 2x Shield Drone, Grav-inhibitor drone, Close combat weapon, Pulse carbine, Pulse pistol, Semi-automatic grenade launcher
+1x Riptide Battlesuit (215 pts): Riptide fists, Ion accelerator, 2x Missile pod, Twin fusion blaster
+1x Riptide Battlesuit (215 pts): Riptide fists, Ion accelerator, 2x Missile pod, Twin fusion blaster
+1x Sky Ray Gunship (140 pts): Armoured hull, Seeker missile rack, 2x Accelerator burst cannon
+5x Stealth Battlesuits (100 pts)
+• 4x Stealth Shas'ui
+    3 with Battlesuit fists, Burst cannon
+    1 with Homing beacon, Battlesuit fists, Fusion blaster
+• 1x Stealth Shas'vre: Gun Drone, Marker Drone, Battlesuit fists, Pulse pistol, Fusion blaster
+5x Stealth Battlesuits (100 pts)
+• 4x Stealth Shas'ui
+    3 with Battlesuit fists, Burst cannon
+    1 with Homing beacon, Battlesuit fists, Fusion blaster
+• 1x Stealth Shas'vre: Gun Drone, Marker Drone, Battlesuit fists, Pulse pistol, Fusion blaster
+
+undefined

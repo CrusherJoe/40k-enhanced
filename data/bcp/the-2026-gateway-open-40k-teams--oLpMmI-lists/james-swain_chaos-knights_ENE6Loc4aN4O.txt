@@ -1,0 +1,50 @@
+# James Swain | Chaos Knights | Purge the Foe | team=Brace for Impact
+# list: https://www.bestcoastpairings.com/list/ENE6Loc4aN4O  status=passed
+
+gateway 3 [2000 points]
+Chaos Knights
+Battle Size: Strike Force (2000 point limit)
+
+Detachments: Bastions of Tyranny, Traitoris Lance (3/3 Detachment Points)
+Force Dispositions: Priority Assets, Purge The Foe
+
+Character
+
+  Chaos Cerastus Knight Atrapos (420 points)
+    • Warlord
+    • Atrapos lascutter and Graviton singularity cannon
+    • Tyrant's Shadow [+25 points]
+
+  Knight Despoiler (430 points)
+    • Daemonbreath meltagun, 2 Despoiler gatling cannon and heavy darkflamer, Ruinspear rocket pod and Titanic feet
+
+Vehicle
+
+  War Dog Brigand (140 points)
+    • Armoured feet, Avenger chaincannon, Daemonbreath spear and Havoc multi-launcher
+
+  War Dog Brigand (140 points)
+    • Armoured feet, Avenger chaincannon, Daemonbreath spear and Diabolus heavy stubber
+
+  War Dog Karnivore (155 points)
+    • Havoc multi-launcher, Reaper chaintalon and Slaughterclaw
+
+  War Dog Karnivore (155 points)
+    • Havoc multi-launcher, Reaper chaintalon and Slaughterclaw
+
+  War Dog Karnivore (155 points)
+    • Havoc multi-launcher, Reaper chaintalon and Slaughterclaw
+
+  War Dog Stalker (135 points)
+    • Daemonbreath spear, Havoc multi-launcher and Reaper chaintalon
+
+  War Dog Stalker (135 points)
+    • Daemonbreath spear, Havoc multi-launcher and Reaper chaintalon
+
+  War Dog Stalker (135 points)
+    • Avenger chaincannon, Diabolus heavy stubber and Reaper chaintalon
+
+Created with WarOrgan (https://warorgan.com)
+
+
+undefined

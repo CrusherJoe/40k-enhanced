@@ -1,0 +1,37 @@
+# Alex B | Tyranids | Priority Assets | team=BAV
+# list: https://www.bestcoastpairings.com/list/m8P4IMQZTtvT  status=passed
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Tyranids
++ DETACHMENT: Assimilation Swarm, Talons of the Norn Queen (Feed the Swarm)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char1: The Swarmlord
++ ENHANCEMENT: Synaptoprescience (on Mons1: Norn Assimilator)
+& Synaptoprescience (on Mons1: Norn Assimilator)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (3x2) + (4x4) - Assassination: 1 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x The Swarmlord (210 pts): Warlord, Bone Sabres, Synaptic Pulse
+(Attached to Tyrant Guard)
+
+1x Biovores (60 pts): Chitin-barbed limbs, Spore mine launcher
+1x Maleceptor (190 pts): Massive scything talons, Psychic overload
+1x Maleceptor (190 pts): Massive scything talons, Psychic overload
+1x Neurolictor (80 pts): Piercing claws and talons
+1x Neurolictor (80 pts): Piercing claws and talons
+1x Norn Assimilator (275 pts): Monstrous scything talons, Toxinjecter harpoon
+Enhancement: Synaptoprescience (+25 pts)
+1x Norn Assimilator (295 pts): Monstrous scything talons, Toxinjecter harpoon
+Enhancement: Synaptoprescience (+25 pts)
+1x Norn Emissary (250 pts): Monstrous rending claws, Monstrous scything talons, Psychic tendril
+2x Pyrovores (65 pts): 2 with Chitin-barbed limbs, Flamespurt
+1x Ripper Swarms (30 pts): Chitinous claws and teeth
+1x Tyrannofex (190 pts): Powerful limbs, Stinger salvoes, Acid spray
+3x Tyrant Guard (80 pts): 3 with Crushing claws and rending claws
+
+Updated by TO to fix Loadout error
+
+undefined
