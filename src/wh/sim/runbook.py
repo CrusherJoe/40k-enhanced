@@ -124,22 +124,26 @@ def calibration(r):
     A roughly-even result sits in the calibrated band and is TRUSTWORTHY. Returns (band, direction, why).
     Magnitude is calibrated on the Custodes anchors; treat the DYNAMICS + board margin as primary, the
     exact win% as directional at the extremes."""
+    # HONESTY NOTE (2026-08-07): validated against real BCP pairings (tools/bcp_validate.py), the sim's win%
+    # is only weakly predictive — directional accuracy ~41% on a 70-game NM2026 sample, flat/inverted
+    # reliability. So even the "least-skewed" band is NOT a reliable win% — treat this as a hint about the
+    # DIRECTION of the skew, and trust the DYNAMICS (priority-kills, board-control curve, tapestry) over any %.
     w = r.get("winpct", 50)
-    why = "the sim amplifies combat/board edges — the REAL result is closer to even"
+    why = "the sim amplifies combat/board edges — trust the DYNAMICS, not this %"
     if 40 <= w <= 60:
-        return ("TRUSTWORTHY", "win% in the calibrated band", "win% ~ real for this grindy midrange matchup")
+        return ("LEAST-SKEWED", "closest-to-fair band (still only directional)", why)
     if w > 60:
         conf = "strongly" if w >= 72 else "somewhat"
-        return ("DIRECTIONAL", f"the sim {conf} OVER-rates you", why)
+        return ("DIRECTIONAL", f"the sim {conf} OVER-rates you", why + " — real is closer to even")
     conf = "strongly" if w <= 28 else "somewhat"
-    return ("DIRECTIONAL", f"the sim {conf} UNDER-rates you", why + " (real is better for you)")
+    return ("DIRECTIONAL", f"the sim {conf} UNDER-rates you", why + " — real is closer/better for you")
 
 
 def _cal_line(r):
     band, direction, why = calibration(r)
     w = r.get("winpct")
     wtxt = f"sim win% {w} — " if w is not None else ""
-    return f"{wtxt}{band}: {direction} ({why})" if band != "TRUSTWORTHY" else f"{wtxt}{band} — {why}"
+    return f"{wtxt}{band}: {direction} ({why})" if band != "LEAST-SKEWED" else f"{wtxt}{band} — {why}"
 
 
 def _play_around(r):
