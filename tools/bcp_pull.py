@@ -213,10 +213,17 @@ def main():
         print(f"# html roster -> {a.html}", file=sys.stderr)
 
     if a.fetch_lists:
-        if not os.path.exists(a.token_file):
-            sys.exit(f"--fetch-lists needs a token in {a.token_file} (BCP_TOKEN=<bearer token>)")
-        raw = open(a.token_file).read().strip()
-        token = raw.split("=", 1)[1].strip() if raw.startswith("BCP_TOKEN=") else raw
+        token = None
+        try:                                              # preferred: auto-refresh from creds in .env.bcp
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import bcp_auth
+            token = bcp_auth.get_token()
+        except Exception as e:                            # fallback: a raw/BCP_TOKEN= token file
+            if os.path.exists(a.token_file):
+                raw = open(a.token_file).read().strip()
+                token = raw.split("=", 1)[1].strip() if raw.startswith("BCP_TOKEN=") else raw
+            if not token:
+                sys.exit(f"--fetch-lists needs BCP creds in .env.bcp (see .env.bcp.example): {e}")
         fetch_lists(rows, a.fetch_lists, token)
 
     if a.json:

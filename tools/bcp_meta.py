@@ -29,13 +29,27 @@ def _data_version(army_text):
     return int(m.group(1)) if m else None
 
 
-def all_events():
-    """Every current-balance event we have a DB + placings + pairings for (auto-discovers pulled GTs)."""
+# Multi-week LEAGUE / escalation / team-league formats: rolling & provisional standings, mixed-dataslate over
+# weeks, and "top third" is meaningless mid-season -> EXCLUDE from the placing-based corpus (meta/units/recommend).
+# They stay VALID for winrates() (a single decided current-dataslate game is a game regardless of event format).
+_LEAGUE_RE = re.compile(r"league|escalation|liga-t-m|team-lea", re.I)
+
+
+def is_league(ev):
+    return bool(_LEAGUE_RE.search(ev))
+
+
+def all_events(placings_only=True):
+    """Current-balance events we have a DB+placings+pairings for. placings_only=True (default) also drops
+    multi-week LEAGUE formats (provisional standings) so the placing corpus stays single-GT/final-standings."""
     evs = []
     for pj in glob.glob("data/bcp/*-placings.json"):
         ev = os.path.basename(pj)[:-len("-placings.json")]
-        if os.path.exists(f"data/bcp/{ev}.sqlite") and os.path.exists(f"data/bcp/{ev}-pairings.json"):
-            evs.append(ev)
+        if not (os.path.exists(f"data/bcp/{ev}.sqlite") and os.path.exists(f"data/bcp/{ev}-pairings.json")):
+            continue
+        if placings_only and is_league(ev):
+            continue
+        evs.append(ev)
     return sorted(evs)
 
 
@@ -100,7 +114,7 @@ def cmd_winrates(corpus=None):
     import collections as _c
     w, n = _c.Counter(), _c.Counter()
     games = 0
-    for ev in all_events():
+    for ev in all_events(placings_only=False):    # decided games are valid regardless of event format
         con = sqlite3.connect(f"data/bcp/{ev}.sqlite"); con.row_factory = sqlite3.Row
         fac = {}
         for r in con.execute("SELECT player,faction,army_text FROM lists"):
