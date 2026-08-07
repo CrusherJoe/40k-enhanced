@@ -20,6 +20,7 @@ import bcp_meta as M
 OUTDIR = "docs/meta"
 DIMS = ["faction", "disposition", "detachment"]
 LOWN = 30                       # win% below this many games is flagged as noisy
+TOP_CUT_N = 8                   # "top cut" = top-8 finishers per event (StatCheck/community convention)
 # generic / mis-entered faction labels that aren't a real BCP army (drop from the faction table)
 JUNK_FACTIONS = {"", "chaos", "unaligned", "unknown", "n/a", "other", "none"}
 
@@ -52,9 +53,9 @@ def _events():
 
 
 def build_data():
-    # per dimension: {value: {week: {"games":,"wins":,"players":}}}
-    agg = {dim: collections.defaultdict(lambda: collections.defaultdict(lambda: {"games": 0, "wins": 0, "players": 0}))
-           for dim in DIMS}
+    # per dimension: {value: {week: {"games":,"wins":,"players":,"top":}}}  ("top" = players finishing top-8)
+    agg = {dim: collections.defaultdict(lambda: collections.defaultdict(
+        lambda: {"games": 0, "wins": 0, "players": 0, "top": 0})) for dim in DIMS}
     weeks = set()
     wkg = collections.Counter()             # decided games per meta-week
     n_events = 0
@@ -63,6 +64,12 @@ def build_data():
         weeks.add(wk)
         n_events += 1
         con = sqlite3.connect(f"data/bcp/{ev}.sqlite"); con.row_factory = sqlite3.Row
+        # top-8 finishers this event (empty for not-yet-finished events -> they add 0 top-cut, which is correct)
+        top8 = set()
+        pf = f"data/bcp/{ev}-placings.json"
+        if os.path.exists(pf):
+            top8 = {p["player"] for p in json.load(open(pf))["placings"]
+                    if p.get("placing") and p["placing"] <= TOP_CUT_N}
         # Date-bucketed weekly view: each week reflects that week's balance, so we DON'T gate on the army-list
         # Data-Version footer (it often fails to parse and would drop most games). Faction & disposition come
         # from the public roster (present for ~everyone); detachment from the parsed list text (when available).
@@ -71,9 +78,12 @@ def build_data():
             fac = r["faction"] if (r["faction"] and r["faction"].strip().lower() not in JUNK_FACTIONS) else None
             vals = {"faction": fac, "disposition": r["disposition"], "detachment": r["detachment"]}
             pdim[r["player"]] = vals
+            istop = r["player"] in top8
             for dim in DIMS:
                 if vals[dim]:
                     agg[dim][vals[dim]][wk]["players"] += 1
+                    if istop:
+                        agg[dim][vals[dim]][wk]["top"] += 1
         for p in json.load(open(f"data/bcp/{ev}-pairings.json")):
             if (p.get("p1_pts") is None or p.get("p2_pts") is None or p["p1_pts"] == p["p2_pts"]
                     or p["p1"] not in pdim or p["p2"] not in pdim):
@@ -93,7 +103,8 @@ def build_data():
         for val, byweek in agg[dim].items():
             tot = {"games": sum(w["games"] for w in byweek.values()),
                    "wins": sum(w["wins"] for w in byweek.values()),
-                   "players": sum(w["players"] for w in byweek.values())}
+                   "players": sum(w["players"] for w in byweek.values()),
+                   "top": sum(w["top"] for w in byweek.values())}
             rows.append({"name": val, "total": tot,
                          "byweek": {wk: byweek[wk] for wk in byweek}})
         rows.sort(key=lambda r: -r["total"]["players"])
@@ -103,6 +114,7 @@ def build_data():
         "generated_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
         "min_data_version": M.MIN_DATA_VERSION,
         "low_n": LOWN,
+        "top_cut_n": TOP_CUT_N,
         "summary": {"events": n_events, "games": total_games, "weeks": len(weeks),
                     "week_range": [weeks[0], weeks[-1]] if weeks else []},
         "weeks": [{"start": w,

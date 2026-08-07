@@ -90,6 +90,7 @@ td.rank{color:var(--faint);width:34px}
 td.name{font-weight:600}
 .share{display:flex;align-items:center;gap:9px;justify-content:flex-end}
 .share .bar{height:7px;border-radius:4px;background:var(--accent);opacity:.55;min-width:2px}
+.share .tbar{background:var(--good);opacity:.5}
 .share small{color:var(--muted);width:38px;text-align:right}
 .wr{display:flex;align-items:center;gap:9px;justify-content:flex-end}
 .wr .track{width:96px;height:8px;border-radius:5px;background:var(--surface2);overflow:hidden;position:relative}
@@ -160,8 +161,8 @@ const T4=()=>DATA.weeks.slice(-4).map(w=>w.start);   // last up-to-4 meta weeks
 function cell(row){                     // resolve a row's stats for the current week filter
   if(week==="__ALL__") return {...row.total};
   const keys = week==="__T4__" ? T4() : [week];
-  const o={games:0,wins:0,players:0};
-  for(const k of keys){const w=row.byweek[k]; if(w){o.games+=w.games;o.wins+=w.wins;o.players+=w.players;}}
+  const o={games:0,wins:0,players:0,top:0};
+  for(const k of keys){const w=row.byweek[k]; if(w){o.games+=w.games;o.wins+=w.wins;o.players+=w.players;o.top+=(w.top||0);}}
   return o;
 }
 
@@ -174,7 +175,9 @@ function initChrome(){
     `Win rate = decided games, both sides. Field share = players bringing it. Bucketed by <b>meta week (Wed–Tue)</b> `+
     `and event date — matching community trackers — so each week reflects that week's balance. Single-weekend GTs `+
     `(leagues &amp; team events excluded). Faction &amp; disposition come from public rosters; <b>detachment</b> comes `+
-    `from army-list text, so it is only as complete as the list corpus — win rates on fewer than ${DATA.low_n} games are flagged as noisy.`;
+    `from army-list text, so it is only as complete as the list corpus — win rates on fewer than ${DATA.low_n} games are flagged as noisy. `+
+    `<b>Top ${DATA.top_cut_n||8} share</b> = share among each event's top-${DATA.top_cut_n||8} finishers (the competitive cut); `+
+    `<b>Δ</b> = top-cut minus field share — <b>positive = over-represented among winners</b>, negative = a "trap".`;
   document.getElementById("gen").textContent=DATA.generated_utc.replace("T"," ").replace("Z"," UTC");
   const sel=document.getElementById("weeksel");
   const t4=DATA.weeks.length>1?`<option value="__T4__">Last 4 weeks</option>`:"";
@@ -188,11 +191,15 @@ function initChrome(){
   sel.addEventListener("change",e=>{week=e.target.value;render();});
 }
 
+const dColor=d=>d>=0.01?"var(--good)":d<=-0.01?"var(--bad)":"var(--mid)";
 function render(){
-  const rows=DATA[dim].map(r=>{const c=cell(r);return{name:r.name,players:c.players,games:c.games,wins:c.wins,wr:wr(c),row:r};})
+  const rows=DATA[dim].map(r=>{const c=cell(r);return{name:r.name,players:c.players,top:c.top||0,games:c.games,wins:c.wins,wr:wr(c),row:r};})
     .filter(r=>r.players>0||r.games>0);
   const maxP=Math.max(1,...rows.map(r=>r.players));
   const totP=rows.reduce((a,r)=>a+r.players,0)||1;
+  const totT=rows.reduce((a,r)=>a+r.top,0);            // total top-8 slots in view (0 if no results yet)
+  const hasTop=totT>0;
+  rows.forEach(r=>{r.share=r.players/totP; r.topshare=hasTop?r.top/totT:0; r.delta=r.topshare-r.share;});
   rows.sort((a,b)=>{
     let A,B;
     if(sortKey==="name"){A=a.name.toLowerCase();B=b.name.toLowerCase();return (A<B?-1:A>B?1:0)*sortDir;}
@@ -204,23 +211,31 @@ function render(){
     :"week of "+((DATA.weeks.find(w=>w.start===week)||{}).label||week);
   document.getElementById("count").textContent=
     `${rows.length} ${dim==="faction"?"factions":dim+"s"} · ${wkLabel}`;
-  document.getElementById("foot-n").textContent=`${totP.toLocaleString()} lists · ${rows.reduce((a,r)=>a+r.games,0).toLocaleString()} game-sides`;
+  document.getElementById("foot-n").textContent=
+    `${totP.toLocaleString()} lists · ${totT.toLocaleString()} top-8 · ${rows.reduce((a,r)=>a+r.games,0).toLocaleString()} game-sides`;
 
-  const cols=[["name","Name","l"],["players","Field share",""],["games","Games",""],["wr","Win rate",""]];
+  const N=DATA.top_cut_n||8;
+  const cols=[["name","Name","l"],["players","Field share",""],["top",`Top ${N} share`,""],
+              ["delta","Δ top−field",""],["wr","Win rate",""]];
   document.querySelector("#tbl thead").innerHTML="<tr><th></th>"+cols.map(([k,label,cls])=>{
-    const on=k===sortKey; return `<th class="${cls}" data-k="${k}" ${on?`aria-sort="${sortDir<0?"descending":"ascending"}"`:""}>${label}${on?`<span class="ar">${sortDir<0?"▼":"▲"}</span>`:""}</th>`;
+    const on=k===sortKey; return `<th class="${cls}" data-k="${k}" title="${k==='delta'?'top-'+N+' share minus field share — positive = over-represented among winners':''}">${label}${on?`<span class="ar">${sortDir<0?"▼":"▲"}</span>`:""}</th>`;
   }).join("")+"</tr>";
+  const maxT=Math.max(1,...rows.map(r=>r.top));
   document.querySelector("#tbl tbody").innerHTML=rows.map((r,i)=>{
-    const share=(100*r.players/totP);
-    const barw=Math.round(96*r.players/maxP);
+    const barw=Math.round(84*r.players/maxP), tbarw=Math.round(84*r.top/maxT);
     const wtxt=r.wr==null?`<span class="dash">—</span>`:`${(100*r.wr).toFixed(0)}%`;
     const fillw=r.wr==null?0:Math.round(96*Math.min(1,Math.max(0,r.wr)));
     const low=r.wr!=null&&r.games<DATA.low_n?`<span class="flag" title="only ${r.games} games — noisy">⚠</span>`:"";
+    const topCell=hasTop
+      ? `<div class="share"><small class="num">${(100*r.topshare).toFixed(1)}%</small><span class="bar tbar" style="width:${tbarw}px"></span><span class="num" style="width:28px;text-align:right">${r.top}</span></div>`
+      : `<span class="dash">—</span>`;
+    const dtxt=hasTop?`<b class="num" style="color:${dColor(r.delta)}">${r.delta>=0?"+":"−"}${(Math.abs(100*r.delta)).toFixed(1)}</b>`:`<span class="dash">—</span>`;
     return `<tr>
       <td class="rank num">${i+1}</td>
       <td class="name l">${esc(r.name)}</td>
-      <td><div class="share"><small class="num">${share.toFixed(1)}%</small><span class="bar" style="width:${barw}px"></span><span class="num" style="width:34px;text-align:right">${r.players}</span></div></td>
-      <td class="num">${r.games.toLocaleString()}</td>
+      <td><div class="share" title="${r.players} of ${totP} lists"><small class="num">${(100*r.share).toFixed(1)}%</small><span class="bar" style="width:${barw}px"></span><span class="num" style="width:28px;text-align:right">${r.players}</span></div></td>
+      <td>${topCell}</td>
+      <td class="num">${dtxt}</td>
       <td><div class="wr">${low}<div class="track"><div class="fill" style="width:${fillw}px;background:${pctColor(r.wr)}"></div></div><b class="num" style="color:${pctColor(r.wr)}">${wtxt}</b></div></td>
     </tr>`;
   }).join("");
