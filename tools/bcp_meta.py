@@ -288,8 +288,9 @@ def cmd_recommend(corpus, ev, player):
     print("  often — it does NOT model SYNERGY or ROLE. A character needs a unit to lead and targets to buff (a")
     print("  lone Captain just dies); cutting a unit removes whatever JOB it did (anti-tank, screen, board control).")
     print("  Swaps above are role-matched + Chapter-legal, but the real question is 'what does my army LOSE vs GAIN?'")
-    print("  — validate with the mechanistic sim (wh.sim.runbook, which models leaders/attach/buffs/board) before")
-    print("  changing anything. (Small 11E sample; confidence grows as more current-balance GTs are pulled.)")
+    print(f"  — VALIDATE with:  PYTHONPATH=src python3 tools/bcp_advisor.py {ev} \"{player}\"")
+    print("  (sim-validated: rebuilds your list with each change and re-sims vs a current-meta gauntlet, so you")
+    print("  see the board Δ / what you LOSE vs GAIN. Small 11E sample; confidence grows as more GTs are pulled.)")
 
 
 def main():
