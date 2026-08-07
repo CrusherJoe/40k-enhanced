@@ -68,6 +68,12 @@ select{appearance:none;background:var(--surface);color:var(--ink);border:1px sol
 .count{font-size:12.5px;color:var(--muted);align-self:center}
 
 .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden}
+.lead{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin:0 0 18px;padding:12px 16px;
+  background:var(--surface);border:1px solid var(--border);border-radius:12px}
+.lead .eyebrow{align-self:center}
+.lchip{display:inline-flex;align-items:baseline;gap:6px;font-size:15px}
+.lchip .medal{font-size:15px}
+.lchip small{color:var(--muted);font-size:12px}
 .chartcard{padding:18px 18px 10px;margin-bottom:18px}
 .chartcard h2,.tablecard h2{font-size:13px;margin:0 0 2px;font-weight:650}
 .chartcard .cap{font-size:12px;color:var(--muted);margin:0 0 8px}
@@ -129,6 +135,8 @@ footer{margin-top:26px;font-size:12px;color:var(--muted);display:flex;justify-co
     <div class="spacer"></div>
     <div class="count" id="count"></div>
   </div>
+
+  <div class="lead" id="leaders"></div>
 
   <div class="card chartcard">
     <h2>Win rate &amp; use % over time</h2>
@@ -212,7 +220,17 @@ function render(){
   document.getElementById("count").textContent=
     `${rows.length} ${dim==="faction"?"factions":dim+"s"} · ${wkLabel}`;
   document.getElementById("foot-n").textContent=
-    `${totP.toLocaleString()} lists · ${totT.toLocaleString()} top-8 · ${rows.reduce((a,r)=>a+r.games,0).toLocaleString()} game-sides`;
+    `${totP.toLocaleString()} lists · ${totT.toLocaleString()} top-${DATA.top_cut_n||8} · ${rows.reduce((a,r)=>a+r.games,0).toLocaleString()} game-sides`;
+
+  // "top win rate" leaders strip (min-n guarded so a 3-game fluke can't top it)
+  const dname={faction:"faction",disposition:"disposition",detachment:"detachment"}[dim];
+  const elig=rows.filter(r=>r.wr!=null&&r.games>=DATA.low_n).sort((a,b)=>b.wr-a.wr).slice(0,3);
+  const medals=["🥇","🥈","🥉"];
+  document.getElementById("leaders").innerHTML=
+    `<span class="eyebrow">Top win rate · ${dname} · ${wkLabel}</span>`+
+    (elig.length?elig.map((r,i)=>`<span class="lchip"><span class="medal">${medals[i]}</span> <b>${esc(r.name)}</b> `
+      +`<b class="num" style="color:${pctColor(r.wr)}">${(100*r.wr).toFixed(0)}%</b> <small class="num">${r.games} games</small></span>`).join("")
+     :`<span class="lchip"><span class="dash">not enough games yet (need ≥${DATA.low_n})</span></span>`);
 
   const N=DATA.top_cut_n||8;
   const cols=[["name","Name","l"],["players","Field share",""],["top",`Top ${N} share`,""],
