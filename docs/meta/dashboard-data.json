@@ -1,11 +1,11 @@
 {
- "generated_utc": "2026-08-07T20:56Z",
+ "generated_utc": "2026-08-07T21:07Z",
  "min_data_version": 912,
  "low_n": 30,
  "top_cut_n": 10,
  "summary": {
   "events": 35,
-  "games": 3731,
+  "games": 3732,
   "weeks": 3,
   "week_range": [
    "2026-07-22",
@@ -17,7 +17,7 @@
    "start": "2026-07-22",
    "short": "Jul 22",
    "label": "Jul 22\u2013Jul 28",
-   "games": 374,
+   "games": 375,
    "in_progress": false
   },
   {
@@ -42,14 +42,14 @@
     "games": 461,
     "wins": 224,
     "players": 173,
-    "top": 13
+    "top": 15
    },
    "byweek": {
     "2026-07-29": {
      "games": 384,
      "wins": 185,
      "players": 91,
-     "top": 11
+     "top": 13
     },
     "2026-08-05": {
      "games": 0,
@@ -71,14 +71,14 @@
     "games": 505,
     "wins": 282,
     "players": 157,
-    "top": 24
+    "top": 25
    },
    "byweek": {
     "2026-07-29": {
      "games": 449,
      "wins": 250,
      "players": 95,
-     "top": 23
+     "top": 24
     },
     "2026-08-05": {
      "games": 0,
@@ -100,14 +100,14 @@
     "games": 433,
     "wins": 211,
     "players": 151,
-    "top": 15
+    "top": 16
    },
    "byweek": {
     "2026-07-29": {
      "games": 410,
      "wins": 199,
      "players": 90,
-     "top": 12
+     "top": 13
     },
     "2026-08-05": {
      "games": 1,
@@ -126,10 +126,10 @@
   {
    "name": "Adeptus Custodes",
    "total": {
-    "games": 448,
-    "wins": 251,
+    "games": 449,
+    "wins": 252,
     "players": 147,
-    "top": 14
+    "top": 15
    },
    "byweek": {
     "2026-07-29": {
@@ -145,10 +145,10 @@
      "top": 0
     },
     "2026-07-22": {
-     "games": 34,
-     "wins": 16,
+     "games": 35,
+     "wins": 17,
      "players": 11,
-     "top": 0
+     "top": 1
     }
    }
   },
@@ -303,14 +303,14 @@
     "games": 286,
     "wins": 130,
     "players": 110,
-    "top": 6
+    "top": 7
    },
    "byweek": {
     "2026-07-29": {
      "games": 260,
      "wins": 119,
      "players": 60,
-     "top": 5
+     "top": 6
     },
     "2026-08-05": {
      "games": 1,
@@ -329,7 +329,7 @@
   {
    "name": "Death Guard",
    "total": {
-    "games": 304,
+    "games": 305,
     "wins": 128,
     "players": 101,
     "top": 4
@@ -348,7 +348,7 @@
      "top": 0
     },
     "2026-07-22": {
-     "games": 26,
+     "games": 27,
      "wins": 12,
      "players": 11,
      "top": 0
@@ -477,14 +477,14 @@
     "games": 192,
     "wins": 89,
     "players": 75,
-    "top": 3
+    "top": 4
    },
    "byweek": {
     "2026-07-29": {
      "games": 165,
      "wins": 74,
      "players": 43,
-     "top": 3
+     "top": 4
     },
     "2026-08-05": {
      "games": 0,
@@ -513,7 +513,7 @@
      "games": 177,
      "wins": 75,
      "players": 40,
-     "top": 2
+     "top": 3
     },
     "2026-08-05": {
      "games": 1,
@@ -525,7 +525,7 @@
      "games": 27,
      "wins": 13,
      "players": 8,
-     "top": 1
+     "top": 0
     }
    }
   },
@@ -564,14 +564,14 @@
     "games": 190,
     "wins": 93,
     "players": 71,
-    "top": 4
+    "top": 5
    },
    "byweek": {
     "2026-07-29": {
      "games": 150,
      "wins": 75,
      "players": 34,
-     "top": 3
+     "top": 4
     },
     "2026-07-22": {
      "games": 40,
@@ -593,14 +593,14 @@
     "games": 207,
     "wins": 96,
     "players": 71,
-    "top": 3
+    "top": 4
    },
    "byweek": {
     "2026-07-29": {
      "games": 186,
      "wins": 83,
      "players": 40,
-     "top": 3
+     "top": 4
     },
     "2026-08-05": {
      "games": 0,
@@ -622,14 +622,14 @@
     "games": 217,
     "wins": 97,
     "players": 70,
-    "top": 4
+    "top": 5
    },
    "byweek": {
     "2026-07-29": {
      "games": 209,
      "wins": 94,
      "players": 49,
-     "top": 4
+     "top": 5
     },
     "2026-08-05": {
      "games": 0,
@@ -767,14 +767,14 @@
     "games": 67,
     "wins": 31,
     "players": 30,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
      "games": 61,
      "wins": 26,
      "players": 16,
-     "top": 0
+     "top": 1
     },
     "2026-07-22": {
      "games": 6,
@@ -825,14 +825,14 @@
     "games": 33,
     "wins": 14,
     "players": 12,
-    "top": 1
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
      "games": 28,
      "wins": 10,
      "players": 6,
-     "top": 0
+     "top": 1
     },
     "2026-07-22": {
      "games": 5,
@@ -870,17 +870,17 @@
   {
    "name": "Take and Hold",
    "total": {
-    "games": 2145,
-    "wins": 1117,
+    "games": 2147,
+    "wins": 1118,
     "players": 721,
-    "top": 76
+    "top": 78
    },
    "byweek": {
     "2026-07-29": {
      "games": 1988,
      "wins": 1031,
      "players": 436,
-     "top": 67
+     "top": 69
     },
     "2026-08-05": {
      "games": 3,
@@ -889,8 +889,8 @@
      "top": 3
     },
     "2026-07-22": {
-     "games": 154,
-     "wins": 85,
+     "games": 156,
+     "wins": 86,
      "players": 50,
      "top": 6
     }
@@ -902,14 +902,14 @@
     "games": 2218,
     "wins": 1112,
     "players": 708,
-    "top": 64
+    "top": 66
    },
    "byweek": {
     "2026-07-29": {
      "games": 1962,
      "wins": 981,
      "players": 424,
-     "top": 55
+     "top": 57
     },
     "2026-08-05": {
      "games": 2,
@@ -931,14 +931,14 @@
     "games": 1316,
     "wins": 646,
     "players": 476,
-    "top": 32
+    "top": 35
    },
    "byweek": {
     "2026-07-29": {
      "games": 1165,
      "wins": 576,
      "players": 261,
-     "top": 27
+     "top": 30
     },
     "2026-08-05": {
      "games": 2,
@@ -960,14 +960,14 @@
     "games": 1222,
     "wins": 596,
     "players": 432,
-    "top": 28
+    "top": 30
    },
    "byweek": {
     "2026-07-29": {
      "games": 1090,
      "wins": 531,
      "players": 245,
-     "top": 27
+     "top": 29
     },
     "2026-08-05": {
      "games": 0,
@@ -989,14 +989,14 @@
     "games": 522,
     "wins": 249,
     "players": 258,
-    "top": 17
+    "top": 19
    },
    "byweek": {
     "2026-07-29": {
      "games": 472,
      "wins": 223,
      "players": 109,
-     "top": 12
+     "top": 14
     },
     "2026-08-05": {
      "games": 1,
@@ -1020,14 +1020,14 @@
     "games": 362,
     "wins": 191,
     "players": 113,
-    "top": 11
+    "top": 13
    },
    "byweek": {
     "2026-07-29": {
      "games": 300,
      "wins": 159,
      "players": 64,
-     "top": 9
+     "top": 11
     },
     "2026-08-05": {
      "games": 0,
@@ -1075,10 +1075,10 @@
   {
    "name": "Lions of the Emperor",
    "total": {
-    "games": 209,
-    "wins": 133,
+    "games": 210,
+    "wins": 134,
     "players": 76,
-    "top": 11
+    "top": 12
    },
    "byweek": {
     "2026-07-29": {
@@ -1094,10 +1094,10 @@
      "top": 0
     },
     "2026-07-22": {
-     "games": 18,
-     "wins": 9,
+     "games": 19,
+     "wins": 10,
      "players": 5,
-     "top": 0
+     "top": 1
     }
    }
   },
@@ -1194,14 +1194,14 @@
     "games": 150,
     "wins": 68,
     "players": 50,
-    "top": 3
+    "top": 4
    },
    "byweek": {
     "2026-07-29": {
      "games": 143,
      "wins": 66,
      "players": 35,
-     "top": 3
+     "top": 4
     },
     "2026-08-05": {
      "games": 0,
@@ -1252,14 +1252,14 @@
     "games": 132,
     "wins": 75,
     "players": 48,
-    "top": 4
+    "top": 5
    },
    "byweek": {
     "2026-07-29": {
      "games": 126,
      "wins": 73,
      "players": 30,
-     "top": 4
+     "top": 5
     },
     "2026-07-22": {
      "games": 6,
@@ -1571,14 +1571,14 @@
     "games": 105,
     "wins": 66,
     "players": 34,
-    "top": 9
+    "top": 10
    },
    "byweek": {
     "2026-07-29": {
      "games": 104,
      "wins": 65,
      "players": 21,
-     "top": 9
+     "top": 10
     },
     "2026-08-05": {
      "games": 0,
@@ -1629,14 +1629,14 @@
     "games": 69,
     "wins": 30,
     "players": 33,
-    "top": 1
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
      "games": 64,
      "wins": 26,
      "players": 19,
-     "top": 1
+     "top": 2
     },
     "2026-08-05": {
      "games": 0,
@@ -2081,14 +2081,14 @@
     "games": 44,
     "wins": 15,
     "players": 19,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
      "games": 39,
      "wins": 11,
      "players": 9,
-     "top": 0
+     "top": 1
     },
     "2026-07-22": {
      "games": 5,
@@ -2365,14 +2365,14 @@
     "games": 40,
     "wins": 19,
     "players": 16,
-    "top": 1
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
      "games": 34,
      "wins": 16,
      "players": 9,
-     "top": 1
+     "top": 2
     },
     "2026-08-05": {
      "games": 0,
@@ -2420,14 +2420,14 @@
   {
    "name": "Champions of Contagion",
    "total": {
-    "games": 49,
+    "games": 50,
     "wins": 20,
     "players": 16,
     "top": 0
    },
    "byweek": {
     "2026-07-22": {
-     "games": 1,
+     "games": 2,
      "wins": 1,
      "players": 2,
      "top": 0
@@ -2782,14 +2782,14 @@
     "games": 33,
     "wins": 14,
     "players": 12,
-    "top": 1
+    "top": 2
    },
    "byweek": {
     "2026-07-29": {
      "games": 28,
      "wins": 10,
      "players": 6,
-     "top": 0
+     "top": 1
     },
     "2026-07-22": {
      "games": 5,
@@ -4753,14 +4753,14 @@
     "games": 5,
     "wins": 2,
     "players": 3,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
      "games": 5,
      "wins": 2,
      "players": 3,
-     "top": 0
+     "top": 1
     }
    }
   },
@@ -5826,14 +5826,14 @@
     "games": 1,
     "wins": 1,
     "players": 1,
-    "top": 1
+    "top": 0
    },
    "byweek": {
     "2026-07-22": {
      "games": 1,
      "wins": 1,
      "players": 1,
-     "top": 1
+     "top": 0
     }
    }
   },
@@ -7050,14 +7050,14 @@
     "games": 1,
     "wins": 1,
     "players": 1,
-    "top": 0
+    "top": 1
    },
    "byweek": {
     "2026-07-29": {
      "games": 1,
      "wins": 1,
      "players": 1,
-     "top": 0
+     "top": 1
     }
    }
   },

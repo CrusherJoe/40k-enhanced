@@ -72,7 +72,7 @@ select{appearance:none;background:var(--surface);color:var(--ink);border:1px sol
 .chartcard h2,.tablecard h2{font-size:13px;margin:0 0 2px;font-weight:650}
 .chartcard .cap{font-size:12px;color:var(--muted);margin:0 0 8px}
 .chartwrap{overflow-x:auto}
-svg{display:block;width:100%;height:auto;min-width:420px}
+svg{display:block;width:100%;height:auto;min-width:560px}
 .legend{display:flex;flex-wrap:wrap;gap:12px 16px;margin-top:8px}
 .legend span{font-size:12px;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
 .legend i{width:11px;height:3px;border-radius:2px;display:inline-block}
@@ -133,7 +133,7 @@ footer{margin-top:26px;font-size:12px;color:var(--muted);display:flex;justify-co
   <div class="card chartcard">
     <h2>Win rate &amp; use % over time</h2>
     <p class="cap" id="chartcap"></p>
-    <div class="chartwrap"><svg id="chart" viewBox="0 0 720 240" preserveAspectRatio="xMidYMid meet"></svg></div>
+    <div class="chartwrap"><svg id="chart" viewBox="0 0 720 340" preserveAspectRatio="xMidYMid meet"></svg></div>
     <div class="legend" id="legend"></div>
   </div>
 
@@ -246,7 +246,7 @@ function render(){
 }
 
 function drawChart(rows){
-  const svg=document.getElementById("chart"), W=720,H=240,L=44,R=46,T=16,B=34;
+  const svg=document.getElementById("chart"), W=720,H=340,L=46,R=48,T=18,B=40;
   const weeks=DATA.weeks; const top=rows.slice(0,10).map(r=>r.row);
   const cap=document.getElementById("chartcap");
   if(weeks.length<1||!top.length){svg.innerHTML="";cap.textContent="No data.";document.getElementById("legend").innerHTML="";return;}
@@ -255,7 +255,7 @@ function drawChart(rows){
   const wr =c=>(c&&c.games)?c.wins/c.games:null;
   const use=(c,ws)=>(c&&wkTot[ws])?c.players/wkTot[ws]:null;
   cap.innerHTML=`Top ${top.length} ${dim==="faction"?"factions":dim+"s"} by field share · <b>solid = win rate</b> (left axis) · `
-    +`<b>dotted = use %</b> (right axis).`+(anyIP?" Dashed/hollow win-rate point = current week, in progress.":"");
+    +`<b>dotted = use %</b> (right axis).`+(anyIP?" Win rate is shown for completed weeks only; use % includes the current week's registered field.":"");
   const xs=weeks.map((w,i)=>weeks.length===1?(L+(W-L-R)/2):(L+i*(W-L-R)/(weeks.length-1)));
   const yW=v=>T+(1-(Math.min(.65,Math.max(.35,v))-.35)/.30)*(H-T-B);   // LEFT: win rate 35-65%
   // RIGHT: use % 0..nice-max
@@ -266,25 +266,24 @@ function drawChart(rows){
   let g="";
   for(const gv of [0.40,0.45,0.50,0.55,0.60]){const yy=yW(gv),fifty=gv===0.50;
     g+=`<line x1="${L}" y1="${yy}" x2="${W-R}" y2="${yy}" stroke="var(--grid)" stroke-width="${fifty?1.4:1}" ${fifty?'stroke-dasharray="4 3"':''}/>`;
-    g+=`<text x="${L-8}" y="${yy+3.5}" text-anchor="end" font-size="10" fill="var(--faint)">${(gv*100).toFixed(0)}%</text>`;}
-  for(let t=0;t<=u1+1e-9;t+=ustep){g+=`<text x="${W-R+7}" y="${yU(t)+3.5}" text-anchor="start" font-size="10" fill="var(--faint)">${(t*100).toFixed(t>0&&t<0.1?1:0)}%</text>`;}
-  weeks.forEach((w,i)=>{g+=`<text x="${xs[i]}" y="${H-12}" text-anchor="middle" font-size="10.5" fill="var(--muted)">${w.short||w.label}</text>`;});
+    g+=`<text x="${L-9}" y="${yy+4}" text-anchor="end" font-size="12" fill="var(--faint)">${(gv*100).toFixed(0)}%</text>`;}
+  for(let t=0;t<=u1+1e-9;t+=ustep){g+=`<text x="${W-R+8}" y="${yU(t)+4}" text-anchor="start" font-size="12" fill="var(--faint)">${(t*100).toFixed(t>0&&t<0.1?1:0)}%</text>`;}
+  weeks.forEach((w,i)=>{g+=`<text x="${xs[i]}" y="${H-14}" text-anchor="middle" font-size="13" fill="var(--muted)">${w.short||w.label}</text>`;});
   top.forEach((r,ti)=>{
     const col=LINE[ti%LINE.length];
     // use % (dotted, right axis, secondary) — drawn first so win-rate lines sit on top
     const up=weeks.map((w,i)=>{const v=use(r.byweek[w.start],w.start);return v==null?null:[xs[i],yU(v)];});
     for(let i=0;i<up.length-1;i++){const a=up[i],b=up[i+1];if(!a||!b)continue;
-      g+=`<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="${col}" stroke-width="1.6" stroke-dasharray="1.5 3" opacity="0.75"/>`;}
-    up.forEach(p=>{if(p)g+=`<circle cx="${p[0]}" cy="${p[1]}" r="1.8" fill="${col}" opacity="0.75"/>`;});
-    // win rate (solid, left axis, primary) + markers
-    const wp=weeks.map((w,i)=>{const v=wr(r.byweek[w.start]);return v==null?null:{x:xs[i],y:yW(v),ip:!!w.in_progress,g:(r.byweek[w.start]||{}).games,v};});
+      g+=`<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="${col}" stroke-width="1.5" stroke-dasharray="1.5 3.5" opacity="0.5"/>`;}
+    up.forEach(p=>{if(p)g+=`<circle cx="${p[0]}" cy="${p[1]}" r="2" fill="${col}" opacity="0.5"/>`;});
+    // win rate (solid, left axis, primary) — COMPLETED weeks only (an in-progress week's ~few games isn't a
+    // win rate; plotting it clamps to the axis and dominates the chart with noise)
+    const wp=weeks.map((w,i)=>{if(w.in_progress)return null;const v=wr(r.byweek[w.start]);
+      return v==null?null:{x:xs[i],y:yW(v),g:(r.byweek[w.start]||{}).games,v};});
     for(let i=0;i<wp.length-1;i++){const a=wp[i],b=wp[i+1];if(!a||!b)continue;
-      const dash=(a.ip||b.ip)?'stroke-dasharray="5 4"':'';
-      g+=`<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="${col}" stroke-width="2.2" stroke-linecap="round" ${dash}/>`;}
+      g+=`<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="${col}" stroke-width="2.6" stroke-linecap="round"/>`;}
     wp.forEach(p=>{if(!p)return;
-      const t=`<title>${esc(r.name)} · win ${(100*p.v).toFixed(0)}% (${p.g} games)${p.ip?" — in progress":""}</title>`;
-      g+= p.ip?`<circle cx="${p.x}" cy="${p.y}" r="3.6" fill="var(--surface)" stroke="${col}" stroke-width="2">${t}</circle>`
-             :`<circle cx="${p.x}" cy="${p.y}" r="3.2" fill="${col}">${t}</circle>`;});
+      g+=`<circle cx="${p.x}" cy="${p.y}" r="3.6" fill="${col}"><title>${esc(r.name)} · win ${(100*p.v).toFixed(0)}% (${p.g} games)</title></circle>`;});
   });
   svg.innerHTML=g;
   document.getElementById("legend").innerHTML=top.map((r,ti)=>`<span><i style="background:${LINE[ti%LINE.length]}"></i>${esc(r.name)}</span>`).join("");
