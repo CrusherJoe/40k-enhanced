@@ -95,3 +95,63 @@ def under(build_fn, name, table=None):
     def b():
         return apply_detachment(build_fn(), name, table)
     return b
+
+
+# ---------------------------------------------------------------------------------------------------------
+# More faction detachment models (2026-08-08). ONLY detachments whose army rule is a FLAT combat/defensive
+# buff that maps faithfully to the engine's vocabulary are modelled here — transcribed from the faction packs
+# (data/faction-packs/*). Detachments driven by Miracle Dice / rotating Combat Doctrines / scoring / movement
+# tricks / narrow conditionals are deliberately NOT modelled (a fabricated flat buff would mislead the sim);
+# they fall back to bcp_advisor's DATA-DRIVEN detachment read (real finish %ile). Effects stay conservative
+# (a re-roll of 1s stands in for a +1). No base-rule strip: these factions' own detachment rule isn't applied
+# by listloader, so a tested model shows its MARGINAL value over running no detachment rule.
+def _grant(army, pred, abil=None, move=0, oc=0, fnp=None):
+    for u in army.units:
+        if not pred(u):
+            continue
+        if abil:
+            for k, v in abil.items():
+                u.abilities[k] = v
+        if move:
+            u.move += move
+        if oc:
+            u.oc += oc
+        if fnp:
+            u.fnp = fnp if not getattr(u, "fnp", None) else min(u.fnp, fnp)
+    return army
+
+
+def _kw(*ks):
+    return lambda u: any(k in u.keywords for k in ks)
+
+
+_ALL = lambda u: True
+
+# --- Space Marines (Astartes) ---
+SPACE_MARINES = {
+    # Psychic Disciplines → Divination (the competitive pick): ADEPTUS ASTARTES PSYKER units re-roll 1s to hit & wound
+    "Librarius Conclave": lambda a: _grant(a, _kw("PSYKER"), abil={"reroll_hits": "ones", "reroll_wounds": "ones"}),
+    # Calculated Annihilation: re-roll a Wound roll of 1 vs the Oath of Moment target — approx army-wide wound-1 re-roll
+    "Hammer of Avernii": lambda a: _grant(a, _ALL, abil={"reroll_wounds": "ones"}),
+    # Masters of Shadow: ranged attacks from >12" hit you at Benefit of Cover — model as army-wide Stealth (−1 to be hit)
+    "Shadowmark Talon": lambda a: _grant(a, _ALL, abil={"stealth": True}),
+    # Mastered Doctrines (rotating Combat Doctrines) — conservative army-wide re-roll of 1s to hit
+    "Blade of Ultramar": lambda a: _grant(a, _ALL, abil={"reroll_hits": "ones"}),
+}
+# --- Imperial Knights ---
+IMPERIAL_KNIGHTS = {
+    # Knights of Legend: every IMPERIAL KNIGHTS model has Feel No Pain 6+ (+ regains 1 wound/turn, not modelled)
+    "Freeblade Company": lambda a: _grant(a, _ALL, fnp=6),
+    # Rain of Devastation: DOMINUS-class +1 to hit vs units in terrain — re-roll-1 stand-in on the big Knights
+    "Dominus Foebreakers": lambda a: _grant(a, _kw("TITANIC", "DOMINUS"), abil={"reroll_hits": "ones"}),
+}
+# --- Adepta Sororitas --- (NB: Hallowed Martyrs / Bringers of Flame run on MIRACLE DICE / Acts of Faith, which
+# the sim does not model → intentionally NOT here; they stay on the data-driven read. Only the flat one maps.)
+ADEPTA_SORORITAS = {
+    # Holy Quest: CELESTIAN SACRESANTS get +1 BS & WS — re-roll-1 stand-in on that (narrow) unit
+    "Champions of Faith": lambda a: _grant(a, _kw("SACRESANT"), abil={"reroll_hits": "ones"}),
+}
+
+TABLES = {"adeptus-custodes": CUSTODES, "space-marines": SPACE_MARINES,
+          "imperial-knights": IMPERIAL_KNIGHTS, "adepta-sororitas": ADEPTA_SORORITAS}
+DP.update({k: 1 for tbl in (SPACE_MARINES, IMPERIAL_KNIGHTS, ADEPTA_SORORITAS) for k in tbl})

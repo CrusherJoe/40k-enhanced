@@ -231,10 +231,11 @@ def simrec(event_db, player, gsize=6, screen=120, final=400, seed=11):
     det_sim = None
     try:
         from wh.sim import detachments as D
-        if slug == "adeptus-custodes":
+        table = D.TABLES.get(slug)
+        if table:
             rows = []
-            for dn in D.CUSTODES:
-                mb = lambda dn=dn: D.apply_detachment(copy.deepcopy(me0), dn)
+            for dn in table:
+                mb = lambda dn=dn: D.apply_detachment(copy.deepcopy(me0), dn, table)
                 rows.append((dn, gauntlet_margin(mb, gaunt, screen, seed) - base, D.DP.get(dn, 1)))
             det_sim = sorted(rows, key=lambda x: -x[1])
     except Exception:
@@ -274,9 +275,10 @@ def report(r):
     # #2 DETACHMENT test
     L_.append(f"DETACHMENT (yours: {r.get('cur_detach') or '?'}):")
     if r.get("det_sim"):
-        L_.append("  SIM'd (this list re-run under each modeled detachment vs the gauntlet):")
+        L_.append("  SIM'd — board Δ from each modeled detachment's RULE (vs no detachment rule), vs the gauntlet:")
         for dn, d, dp in r["det_sim"]:
-            L_.append(f"    {dn[:30]:30} {dp}DP  board {d:+.1f} VP vs current")
+            here = "  ← yours" if r.get("cur_detach") and dn in r["cur_detach"] else ""
+            L_.append(f"    {dn[:30]:30} {dp}DP  board {d:+.1f} VP{here}")
     dp = r.get("dperf") or []
     if dp:
         L_.append(f"  REAL RESULTS — {r['fac']} detachments by mean finish %ile (lower=better; from the corpus):")
